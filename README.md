@@ -12,13 +12,13 @@ Acknowledgements
 * Cooling Down Web Science
 * Problem Statement
 * Contributions
-  ** Towards enabling accessible knowledge in the LOD cloud - filling the gap
-  ** Linked Research
-  ** dokieli
-  ** CEUR
-  ** SemStats
-  ** Decentralised Notifications
-  ** Shift in Web Science community
+  * Towards enabling accessible knowledge in the LOD cloud - filling the gap
+  * Linked Research
+  * dokieli
+  * CEUR
+  * SemStats
+  * Decentralised Notifications
+  * Shift in Web Science community
 
 2. Concept and Approach
 * Concepts ( http://csarven.ca/linked-research-scholarly-communication#concepts )
@@ -59,13 +59,13 @@ Acknowledgements
 * How this could feed into the scholarly process for journals/proceedings etc.
 
 * Web Annotations
-  ** Replies
-  ** Peer-Reviews (+/1, specificity) and motivations to contribute to the world and acknowledgement
-  ** Notes
+  * Replies
+  * Peer-Reviews (+/1, specificity) and motivations to contribute to the world and acknowledgement
+  * Notes
 * Interactions
-  ** Sharing (public or private addressbook)
-  ** Bookmarking (tagging)
-  ** Reactions: (dis)approvals
+  * Sharing (public or private addressbook)
+  * Bookmarking (tagging)
+  * Reactions: (dis)approvals
 * Addressing social implications of decentralised annotations and UX
 
 
