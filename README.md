@@ -2,8 +2,8 @@
 This is a placeholder repository for my PhD thesis. I'm told that I have to chisel a document into stone to fulfill some arbitrary needs of an institution in order to be qualified to speak and manipulate societies.
 
 ## Table of Contents
-Abstract
-Acknowledgements
+* Abstract
+* Acknowledgements
 
 ### Introduction
 * Paradigm Shifts
@@ -11,8 +11,10 @@ Acknowledgements
 * Decentralisation
 * Cooling Down Web Science
 * Problem Statement
+  ** Technical challenges
+  ** Social challenges
 * Contributions
-  * Towards enabling accessible knowledge in the LOD cloud - filling the gap
+  * Towards enabling accessible knowledge in the LOD cloud - filling the giant gap
   * Linked Research
   * dokieli
   * CEUR
@@ -67,11 +69,13 @@ Acknowledgements
   * Reactions: (dis)approvals
 * Addressing social implications of decentralised annotations and UX
 
+### Comparability and Integrity of Contributions
+* Persistence and Permanence
+
 ### Evaluation
 * Experiment on document credibility/citability
 * User experiment with different tasks (for the purpose of showing that dokieli or parts of it is a contribution)
 
-### Comparability of research articles and contributions
 
 ### Conclusions and Future Work
 * Difficult challenges: Persistence/Permanence
@@ -83,7 +87,7 @@ Acknowledgements
 * What we learned
 
 
-## Possible titles:
+## Brainstorm thesis titles
 * Scholarly Communications and the Semantic Web
 * Enabling Decentralised Accessible Knowledge Through Linked Research
 * Linked Research as Decentralised Scholarly Communication
