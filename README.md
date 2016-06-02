@@ -9,7 +9,7 @@ This is a placeholder repository for my PhD thesis. I'm told that I have to chis
 * Paradigm Shifts
 * Open Access-Science-Knowledge
 * Decentralisation
-* (http://csarven.ca/cooling-down-web-science)[Cooling Down Web Science]
+* [Cooling Down Web Science](http://csarven.ca/cooling-down-web-science)
 * Problem Statement
   * Technical challenges
   * Social challenges
@@ -28,9 +28,9 @@ This is a placeholder repository for my PhD thesis. I'm told that I have to chis
   * Shift in Web Science community. How well are these ideas spread?
 
 ### Concept and Approach
-* (http://csarven.ca/linked-research-scholarly-communication#requirements)Requirements]
-* (http://csarven.ca/linked-research-scholarly-communication#concepts)[Concepts]
-* (http://csarven.ca/linked-research-scholarly-communication#user-stories)[User Stories]
+* [Requirements](http://csarven.ca/linked-research-scholarly-communication#requirements)
+* [Concepts](http://csarven.ca/linked-research-scholarly-communication#concepts)
+* [User Stories](http://csarven.ca/linked-research-scholarly-communication#user-stories)
 * Existing work/systems and their coverage
 * The evidence that these challenges are "challenges" and their interplay
 * Scope of this thesis
