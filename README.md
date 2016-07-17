@@ -64,7 +64,7 @@ This is a placeholder repository for my PhD thesis. I'm told that I have to chis
 * Persistence and permanance
 * Standards: OA, AS, PROV-O, Solid.
 * Licensing
-* Inbox / Notifications
+* [Linked Data Notifications](https://linkeddata.org/ldn/)
 * How this could feed into the scholarly process for journals/proceedings etc.
 * Web Annotations
   * Replies
