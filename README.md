@@ -7,25 +7,30 @@ This is a placeholder repository for my PhD thesis. I'm told that I have to chis
 
 ### Introduction
 * Paradigm Shifts
+* Media Theory
 * Open Access-Science-Knowledge
 * Decentralisation
-* [Cooling Down Web Science](http://csarven.ca/cooling-down-web-science)
 * Problem Statement
   * Technical challenges
   * Social challenges
   * The challenges due to sum of those
+    * institutional, conferences/journals
+    * [Cooling Down Web Science](http://csarven.ca/cooling-down-web-science)
+    * web-science-404
 * Research Questions
   * How can we tear down these barriers? Data structures/models.. Web standards
   * Operative level: workflows, processes.. improving suitable communication interfaces
   * How well can people in the scientific community (progressive/conservation/or even backwards) get their job done.. How usable is it?
 * Contributions
   * Towards enabling accessible knowledge in the LOD cloud - filling the giant gap
-  * Linked Research
+  * Linked Research initiative/principles/community
   * dokieli
+  * Linked Data Notifications
   * CEUR
   * SemStats
-  * Decentralised Notifications
   * Shift in Web Science community. How well are these ideas spread?
+  * Call for Enabling Linked Research / Enabling Decentralised Scholarly Communication
+  * LDOW?
 
 ### Concept and Approach
 * [Requirements](http://csarven.ca/linked-research-scholarly-communication#requirements)
@@ -77,13 +82,14 @@ This is a placeholder repository for my PhD thesis. I'm told that I have to chis
 * Addressing social implications of decentralised annotations and UX
 
 ### Evaluation/Study
+* LDN Implementations?
 * Experiment on document credibility/citability
 * User experiment with different tasks (for the purpose of showing that dokieli or parts of it is a contribution). How well do they understand or to what extent are they capable of using e.g., the vocabularies.. in authoring.
 * Interviews?
 * How hard/easy is it to adopt LR model or be interopable with other systems.
 
 ### Conclusions and Future Work
-* Difficult challenges: Persistence/Permanence
+* Difficult challenges: Persistence, Permanence, Authentication, Authorisation
 * Overview of dokieli implementation for complete scholarly pipeline (and what's still to be done).
 * What impact have this work made to the community?
 * Look at all these people using dokieli in the wild!
@@ -98,3 +104,7 @@ This is a placeholder repository for my PhD thesis. I'm told that I have to chis
 * Enabling Decentralised Accessible Knowledge Through Linked Research (good, but only reflects the static part of the work)
 * Linked Research as Decentralised Scholarly Communication (broadest title in terms of workflow support.. doesn't say anything about knowledge model)
 * Linked Research as an application of hypermedia for scholarly communication (possibly best, traditinal terminology in CS - still a bit highlevel)
+* Enabling Decentralised Scholarly Communication
+* Enabling Scholarly Communication to use the native Web
+* Enabling Social and Semantic Web in Scholarly Communication
+* Enabling a Paradigm Shift in Scholarly Communication through Linked Research
