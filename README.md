@@ -108,3 +108,4 @@ This is a placeholder repository for my PhD thesis. I'm told that I have to chis
 * Enabling Scholarly Communication to use the native Web
 * Enabling Social and Semantic Web in Scholarly Communication
 * Enabling a Paradigm Shift in Scholarly Communication through Linked Research
+* Scholarly Communication on the native Web
