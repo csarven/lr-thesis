@@ -16,7 +16,7 @@ This is a placeholder repository for my PhD thesis. I'm told that I have to chis
   * The challenges due to sum of those
     * institutional, conferences/journals
     * [Cooling Down Web Science](http://csarven.ca/cooling-down-web-science)
-    * web-science-404
+    * [Where is Web Science? From 404 to 200](http://csarven.ca/web-science-from-404-to-200)
 * Research Questions
   * How can we tear down these barriers? Data structures/models.. Web standards
   * Operative level: workflows, processes.. improving suitable communication interfaces
@@ -103,7 +103,7 @@ This is a placeholder repository for my PhD thesis. I'm told that I have to chis
 * Scholarly Communications and the Semantic Web (too broad; more like a subject classifications)
 * Enabling Decentralised Accessible Knowledge Through Linked Research (good, but only reflects the static part of the work)
 * Linked Research as Decentralised Scholarly Communication (broadest title in terms of workflow support.. doesn't say anything about knowledge model)
-* Linked Research as an application of hypermedia for scholarly communication (possibly best, traditinal terminology in CS - still a bit highlevel)
+* Linked Research as an application of hypermedia for scholarly communication (possibly best, traditional terminology in CS - still a bit highlevel)
 * Enabling Decentralised Scholarly Communication
 * Enabling Scholarly Communication to use the native Web
 * Enabling Social and Semantic Web in Scholarly Communication
