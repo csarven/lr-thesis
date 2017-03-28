@@ -1,5 +1,5 @@
 # Linked Research Thesis
-This is a placeholder repository for my PhD thesis. I'm told that I have to chisel a document into stone to fulfill some arbitrary needs of an institution in order to be qualified to speak and manipulate societies.
+This is a placeholder repository for my PhD thesis. I am told that I have to chisel a document into stone to fulfill some arbitrary needs of an institution in order to be qualified to speak and manipulate societies.
 
 ## Table of Contents
 * Abstract
@@ -26,7 +26,7 @@ This is a placeholder repository for my PhD thesis. I'm told that I have to chis
   * Linked Research initiative/principles/community
   * dokieli
   * Linked Data Notifications
-  * CEUR
+  * CEUR-WS.org
   * SemStats
   * Shift in Web Science community. How well are these ideas spread?
   * Call for Enabling Linked Research / Enabling Decentralised Scholarly Communication
@@ -69,7 +69,7 @@ This is a placeholder repository for my PhD thesis. I'm told that I have to chis
 * Persistence and permanance
 * Standards: OA, AS, PROV-O, Solid.
 * Licensing
-* [Linked Data Notifications](https://linkedresearch.org/ldn/)
+* [Linked Data Notifications](http://csarven.ca/linked-data-notifications)
 * How this could feed into the scholarly process for journals/proceedings etc.
 * Web Annotations
   * Replies
@@ -82,7 +82,7 @@ This is a placeholder repository for my PhD thesis. I'm told that I have to chis
 * Addressing social implications of decentralised annotations and UX
 
 ### Evaluation/Study
-* LDN Implementations?
+* [LDN Implementations](https://linkedresearch.org/ldn/tests/summary)?
 * Experiment on document credibility/citability
 * User experiment with different tasks (for the purpose of showing that dokieli or parts of it is a contribution). How well do they understand or to what extent are they capable of using e.g., the vocabularies.. in authoring.
 * Interviews?
@@ -92,6 +92,7 @@ This is a placeholder repository for my PhD thesis. I'm told that I have to chis
 * Difficult challenges: Persistence, Permanence, Authentication, Authorisation
 * Overview of dokieli implementation for complete scholarly pipeline (and what's still to be done).
 * What impact have this work made to the community?
+** http://csarven.ca/faipdaaf ?
 * Look at all these people using dokieli in the wild!
 * And all these conferences/workshops in Web Science/Semantic Web that now accept HTML (and friends)! Give context (what happened since first engaging the community about "Linked Research" ideas)
 * Cool big graph visualisations of papers and data and CEUR proceedings and call for contributions (SemStats)
