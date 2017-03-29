@@ -93,7 +93,7 @@ This is a placeholder repository for my PhD thesis. I am told that I have to chi
 * Overview of dokieli implementation for complete scholarly pipeline (and what's still to be done).
 * What impact have this work made to the community?
 ** http://csarven.ca/faipdaaf ?
-* Look at all these people using dokieli in the wild!
+* Look at all these people using dokieli in the wild! See http://csarven.ca/dokieli-rww#adoption
 * And all these conferences/workshops in Web Science/Semantic Web that now accept HTML (and friends)! Give context (what happened since first engaging the community about "Linked Research" ideas)
 * Cool big graph visualisations of papers and data and CEUR proceedings and call for contributions (SemStats)
 * Limitations of this work and areas that can be developed further
@@ -110,3 +110,7 @@ This is a placeholder repository for my PhD thesis. I am told that I have to chi
 * Enabling Social and Semantic Web in Scholarly Communication
 * Enabling a Paradigm Shift in Scholarly Communication through Linked Research
 * Scholarly Communication on the native Web
+* Authoring, Annotations, and Notifications in a Decentralised Web
+* Elements of Decentralised Scholarly Communication
+* DIY Scholarly Communication
+* DIY Academic Publishing
