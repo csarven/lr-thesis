@@ -113,4 +113,5 @@ This is a placeholder repository for my PhD thesis. I am told that I have to chi
 * Authoring, Annotations, and Notifications in a Decentralised Web
 * Elements of Decentralised Scholarly Communication
 * DIY Scholarly Communication
-* DIY Academic Publishing
+* DIY Academic Publication
+* Do SemanticWeb Researchers Dream of Electric Web?
