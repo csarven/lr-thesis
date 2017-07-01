@@ -1,5 +1,5 @@
 # Linked Research Thesis
-This is a placeholder repository for my PhD thesis. I am told that I have to chisel a document into stone to fulfill some arbitrary needs of an institution in order to be qualified to speak and manipulate societies.
+I am told that I have to chisel a document into stone to fulfill some arbitrary needs of an institution in order to be qualified to speak and manipulate societies.
 
 ## Table of Contents
 * Abstract
