@@ -115,3 +115,5 @@ I am told that I have to chisel a document into stone to fulfill some arbitrary 
 * DIY Scholarly Communication
 * DIY Academic Publication
 * Do SemanticWeb Researchers Dream of Electric Web?
+* Linked Research Social Machine
+* Linked Research Design Issues
