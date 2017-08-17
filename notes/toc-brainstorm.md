@@ -99,21 +99,3 @@ I am told that I have to chisel a document into stone to fulfill some arbitrary 
 * Limitations of this work and areas that can be developed further
 * Related efforts that were started during the course of this thesis and to what extent they compare and how they are captured with the LR principles.
 * What we learned
-
-## Brainstorm thesis titles
-* Scholarly Communications and the Semantic Web (too broad; more like a subject classifications)
-* Enabling Decentralised Accessible Knowledge Through Linked Research (good, but only reflects the static part of the work)
-* Linked Research as Decentralised Scholarly Communication (broadest title in terms of workflow support.. doesn't say anything about knowledge model)
-* Linked Research as an application of hypermedia for scholarly communication (possibly best, traditional terminology in CS - still a bit highlevel)
-* Enabling Decentralised Scholarly Communication
-* Enabling Scholarly Communication to use the native Web
-* Enabling Social and Semantic Web in Scholarly Communication
-* Enabling a Paradigm Shift in Scholarly Communication through Linked Research
-* Scholarly Communication on the native Web
-* Authoring, Annotations, and Notifications in a Decentralised Web
-* Elements of Decentralised Scholarly Communication
-* DIY Scholarly Communication
-* DIY Academic Publication
-* Do SemanticWeb Researchers Dream of Electric Web?
-* Linked Research Social Machine
-* Linked Research Design Issues
