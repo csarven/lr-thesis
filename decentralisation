@@ -32,7 +32,12 @@
               <a href="http://csarven.ca/linked-data-notifications">Linked Data Notifications</a>
             </section>
 
+            <a href="https://github.com/ORCID/ORCID-Source/pull/3847">https://github.com/ORCID/ORCID-Source/pull/3847</a>
+
+            <a href="https://linkedresearch.org/cloud">https://linkedresearch.org/cloud</a>
+
             <section id="social-implications" rel="schema:hasPart" resource="#social-implications">
+              Inbox ownership.. annotations.. voice.
             </section>
 
 

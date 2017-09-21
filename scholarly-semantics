@@ -22,14 +22,17 @@
         <div datatype="rdf:HTML" property="schema:description">
 
             <section id="units-of-scholarly-information" rel="schema:hasPart" resource="#units-of-scolarly-information">
-              <a href="https://dokieli/docs">https://dokieli/docs</a>
             </section>
 
+            <a href="https://dokieli/docs">https://dokieli/docs</a>
             <a href="http://csarven.ca/this-paper-is-a-demo">This ‘Paper’ is a Demo</a>
             <a href="https://www.w3.org/TR/annotation-html">Embedding Web Annotations in HTML</a>
             <a href="https://github.com/linkeddata/dokieli/wiki#examples-in-the-wild">dokieli Examples in the Wild</a>
             <a href="https://github.com/ceurws/ceur-make">https://github.com/ceurws/ceur-make</a>
-
+            <a href="http://semstats.org/">http://semstats.org/</a>
+            <a href="https://linkedreserach.org/events/eswc2017/">https://linkedreserach.org/events/eswc2017/</a>
+            <a href="https://linkedresearch.org/calls">https://linkedresearch.org/calls</a>
+            <a href="https://linkedresearch.org/ldn/tests/summary">https://linkedresearch.org/ldn/tests/summary</a>
         </div>
       </article>
     </main>
