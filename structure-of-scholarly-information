@@ -239,22 +239,22 @@
                             <section id="statistical-displays" rel="schema:hasPart" resource="#statistical-displays">
                                 <h3 property="schema:name">Statistical Displays</h3>
                                 <div property="schema:description" datatype="rdf:HTML">
-                                    <p>Inline-charts or <em><a href="https://en.wikipedia.org/wiki/Sparkline">sparkline</a></em> are word-sized graphic with typographic resolution. For example, the <abbr title="Gross Domestic Product">GDP</abbr> of Canada <embed class="sparkline" src="http://stats.270a.info/sparkline.svg?void:sparqlEndpoint=http%3A%2F%2Fworldbank.270a.info%2Fsparql&amp;qb:DataSet=http%3A%2F%2Fworldbank.270a.info%2Fdataset%2FNY.GDP.MKTP.CD&amp;refArea=CA" type="image/svg+xml" data-img="lsd-sparkline.png"/>. This brief demonstration of <a about="#statistical-displays" rel="cito:citesAsPotentialSolution" href="http://stats.270a.info/sparkline">Linked Statistical Data Sparkline</a>, 1) compliments the supporting text without breaking the reader’s flow, and 2) provides an opportunity for the reader to investigate further by clicking on the data-line to access the source. It is an SVG file which uses JavaScript to request data from a SPARQL Endpoint to build the datapoints and behaviour.</p>
+                                    <p>Inline-charts or <em><a href="https://en.wikipedia.org/wiki/Sparkline">sparkline</a></em> are word-sized graphic with typographic resolution. For example, the <abbr title="Gross Domestic Product">GDP</abbr> of Canada <!--<embed class="sparkline" src="http://stats.270a.info/sparkline.svg?void:sparqlEndpoint=http%3A%2F%2Fworldbank.270a.info%2Fsparql&amp;qb:DataSet=http%3A%2F%2Fworldbank.270a.info%2Fdataset%2FNY.GDP.MKTP.CD&amp;refArea=CA" type="image/svg+xml" data-img="lsd-sparkline.png"/>-->. This brief demonstration of <a about="#statistical-displays" rel="cito:citesAsPotentialSolution" href="http://stats.270a.info/sparkline">Linked Statistical Data Sparkline</a>, 1) compliments the supporting text without breaking the reader’s flow, and 2) provides an opportunity for the reader to investigate further by clicking on the data-line to access the source. It is an SVG file which uses JavaScript to request data from a SPARQL Endpoint to build the datapoints and behaviour.</p>
                                 </div>
                             </section>
-
 
                             <section id="lsd-cube-designer" rel="schema:hasPart" resource="#lsd-cube-designer">
                                 <h3 property="schema:name">Linked Statistical Data Cube Designer</h3>
                                 <div property="schema:description" datatype="rdf:HTML">
                                     <p><cite><a about="#lsd-cube-designer" rel="cito:citesAsPotentialSolution" href="http://stats.270a.info/cube-designer">LSD (Linked Statistical Data) Cube Designer</a></cite> is a Web service with an user-interface for researchers to design their own statistical data cubes. It offers a way to search for dimensions (e.g., “<samp>reference</samp>”), measures (e.g., “<samp>value</samp>”), and attributes (e.g., “<samp>status</samp>”) for their data structure and components, and then export the cube’s structural information (in RDF Turtle). Figure [<a href="#figure-linked-statistical-data-cube-designer">2</a>] is this interactive remote application.</p>
-
+<!-- 
                                     <figure id="figure-linked-statistical-data-cube-designer">
                                         <object type="text/html" data="http://stats.270a.info/cube-designer#lsd-cube-designer"><a rel="schema:isBasedOnUrl" href="http://stats.270a.info/cube-designer#lsd-cube-designer">Source</a></object>
 
                                         <figcaption>Linked Statistical Data Cube Designer.</figcaption>
                                     </figure>
-                                </div>
+
+ -->                                </div>
                             </section>
 
 
@@ -262,13 +262,14 @@
                                 <h3 property="schema:name">Executable Code</h3>
                                 <div property="schema:description" datatype="rdf:HTML">
                                     <p>Web Science ‘papers’ can be far more engaging and useful to the community if we merely embrace what the Web offers. Figure [<a href="#figure-sparql-editor">3</a>] demonstrates the <cite><a href="http://yasgui.org/">Yet Another SPARQL GUI</a></cite> application embedded to this document. For instance, the research paper itself creates an executable paper environment where some code can be rerun or observe the effects of changing parameters.</p>
-
+<!-- 
                                     <figure id="figure-sparql-editor">
                                         <object type="text/html" data="http://yasgui.org/" width="640" height="480"></object>
 
                                         <figcaption>Yet another SPARQL GUI</figcaption>
                                     </figure>
-                                </div>
+
+ -->                                </div>
                             </section>
                         </div>
                     </section>
@@ -943,6 +944,292 @@
               </section>
 
 </article>
+
+
+
+
+            <article about="" typeof="schema:Article">
+<p><a href="http://csarven.ca/sparqlines-sparql-to-sparkline">http://csarven.ca/sparqlines-sparql-to-sparkline</a></p>
+
+                    <section id="abstract">
+                        <h2>Abstract</h2>
+                        <div datatype="rdf:HTML" property="schema:abstract">
+                            <p>This article presents <em>sparqlines</em>: statistical observations fetched from SPARQL endpoints and displayed as inline-charts. An inline-chart, also known as a <a href="https://en.wikipedia.org/wiki/Sparkline"><em>sparkline</em></a>, is concise, and located where it is discussed in the text, complementing the supporting text without breaking the reader’s flow. For example, the 
+                            <span rel="schema:hasPart" resource="#figure-GDP-per-capita-growth--annual---">
+                                <a href="http://worldbank.270a.info/dataset/NY.GDP.PCAP.KD.ZG" property="schema:name" rel="prov:wasDerivedFrom" resource="http://worldbank.270a.info/dataset/NY.GDP.PCAP.KD.ZG" typeof="qb:DataSet">GDP per capita growth (annual %)</a> [Canada]
+                                <span class="sparkline" rel="schema:image" resource="#GDP-per-capita-growth--annual---">
+                                    <svg height="100%" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# xsd: http://www.w3.org/2001/XMLSchema# qb: http://purl.org/linked-data/cube# prov: http://www.w3.org/ns/prov# schema: https://schema.org/" version="1.1" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <style type="text/css">/*<![CDATA[*/line { stroke:#000; stroke-width:1px; } circle { stroke:#f00; fill:#f00; }/*]]>*/</style>
+                                        <g rel="prov:wasDerivedFrom" resource="http://worldbank.270a.info/dataset/NY.GDP.PCAP.KD.ZG">
+                                            <metadata rel="schema:license" resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+                                            <title property="schema:name">GDP per capita growth (annual %)</title>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1961" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1961"><line x1="0.9615384615384616%" x2="0.9615384615384616%" y1="43.16454574172421%" y2="43.16454574172421%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1962" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1962"><line x1="0.9615384615384616%" x2="2.8461538461538463%" y1="43.16454574172421%" y2="0.2602253013133691%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1963" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1963"><line x1="2.8461538461538463%" x2="4.730769230769231%" y1="0.2602253013133691%" y2="20.546079976437966%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1964" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1964"><line x1="4.730769230769231%" x2="6.615384615384616%" y1="20.546079976437966%" y2="4.9166537468372695%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1965" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1965"><line x1="6.615384615384616%" x2="8.5%" y1="4.9166537468372695%" y2="4.731637579170197%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1966" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1966"><line x1="8.5%" x2="10.384615384615385%" y1="4.731637579170197%" y2="5.859252100219621%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1967" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1967"><line x1="10.384615384615385%" x2="12.26923076923077%" y1="5.859252100219621%" y2="43.58392297111188%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1968" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1968"><line x1="12.26923076923077%" x2="14.153846153846153%" y1="43.58392297111188%" y2="16.605031338302297%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1969" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1969"><line x1="14.153846153846153%" x2="16.03846153846154%" y1="16.605031338302297%" y2="14.17112377526918%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1970" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1970"><line x1="16.03846153846154%" x2="17.92307692307692%" y1="14.17112377526918%" y2="42.73729961025032%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1971" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1971"><line x1="17.92307692307692%" x2="19.807692307692307%" y1="42.73729961025032%" y2="27.685195209211884%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1972" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1972"><line x1="19.807692307692307%" x2="21.69230769230769%" y1="27.685195209211884%" y2="14.826164877967003%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1973" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1973"><line x1="21.69230769230769%" x2="23.576923076923077%" y1="14.826164877967003%" y2="1.4210854715202004e-14%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1974" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1974"><line x1="23.576923076923077%" x2="25.46153846153846%" y1="1.4210854715202004e-14%" y2="35.39007629908832%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1975" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1975"><line x1="25.46153846153846%" x2="27.346153846153843%" y1="35.39007629908832%" y2="56.008189983767984%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1976" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1976"><line x1="27.346153846153843%" x2="29.230769230769226%" y1="56.008189983767984%" y2="14.398016142296555%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1977" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1977"><line x1="29.230769230769226%" x2="31.115384615384617%" y1="14.398016142296555%" y2="31.113117376011147%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1978" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1978"><line x1="31.115384615384617%" x2="33%" y1="31.113117376011147%" y2="24.010867612061844%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1979" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1979"><line x1="33%" x2="34.88461538461538%" y1="24.010867612061844%" y2="25.516209087392284%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1980" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1980"><line x1="34.88461538461538%" x2="36.76923076923077%" y1="25.516209087392284%" y2="46.03805171008273%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1981" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1981"><line x1="36.76923076923077%" x2="38.65384615384615%" y1="46.03805171008273%" y2="31.353777706294892%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1982" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1982"><line x1="38.65384615384615%" x2="40.53846153846154%" y1="31.353777706294892%" y2="98%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1983" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1983"><line x1="40.53846153846154%" x2="42.42307692307692%" y1="98%" y2="37.049138412484396%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1984" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1984"><line x1="42.42307692307692%" x2="44.30769230769231%" y1="37.049138412484396%" y2="3.8990386857101242%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1985" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1985"><line x1="44.30769230769231%" x2="46.19230769230769%" y1="3.8990386857101242%" y2="14.466152419708749%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1986" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1986"><line x1="46.19230769230769%" x2="48.07692307692307%" y1="14.466152419708749%" y2="40.20714194723098%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1987" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1987"><line x1="48.07692307692307%" x2="49.96153846153846%" y1="40.20714194723098%" y2="24.23504082493062%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1988" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1988"><line x1="49.96153846153846%" x2="51.84615384615385%" y1="24.23504082493062%" y2="16.4155854058384%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1989" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1989"><line x1="51.84615384615385%" x2="53.730769230769226%" y1="16.4155854058384%" y2="46.513539215559256%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1990" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1990"><line x1="53.730769230769226%" x2="55.61538461538461%" y1="46.513539215559256%" y2="68.88140254723645%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1991" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1991"><line x1="55.61538461538461%" x2="57.49999999999999%" y1="68.88140254723645%" y2="91.51801871119973%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1992" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1992"><line x1="57.49999999999999%" x2="59.38461538461538%" y1="91.51801871119973%" y2="58.89063066569448%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1993" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1993"><line x1="59.38461538461538%" x2="61.269230769230774%" y1="58.89063066569448%" y2="42.041295592538034%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1994" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1994"><line x1="61.269230769230774%" x2="63.153846153846146%" y1="42.041295592538034%" y2="14.563197311382893%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1995" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1995"><line x1="63.153846153846146%" x2="65.03846153846155%" y1="14.563197311382893%" y2="34.19521785880608%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1996" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1996"><line x1="65.03846153846155%" x2="66.92307692307693%" y1="34.19521785880608%" y2="49.44858112486089%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1997" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1997"><line x1="66.92307692307693%" x2="68.8076923076923%" y1="49.44858112486089%" y2="21.72442052861726%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1998" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1998"><line x1="68.8076923076923%" x2="70.6923076923077%" y1="21.72442052861726%" y2="20.975803658149985%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1999" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1999"><line x1="70.6923076923077%" x2="72.57692307692308%" y1="20.975803658149985%" y2="5.386196833413024%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2000" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2000"><line x1="72.57692307692308%" x2="74.46153846153847%" y1="5.386196833413024%" y2="9.161609941779957%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2001" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2001"><line x1="74.46153846153847%" x2="76.34615384615385%" y1="9.161609941779957%" y2="46.98143019467036%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2002" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2002"><line x1="76.34615384615385%" x2="78.23076923076924%" y1="46.98143019467036%" y2="33.71789219866544%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2003" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2003"><line x1="78.23076923076924%" x2="80.11538461538463%" y1="33.71789219866544%" y2="45.81166841275399%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2004" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2004"><line x1="80.11538461538463%" x2="82%" y1="45.81166841275399%" y2="32.79500363273925%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2005" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2005"><line x1="82%" x2="83.88461538461539%" y1="32.79500363273925%" y2="33.68496358846721%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2006" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2006"><line x1="83.88461538461539%" x2="85.76923076923077%" y1="33.68496358846721%" y2="33.70021419695024%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2007" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2007"><line x1="85.76923076923077%" x2="87.65384615384616%" y1="33.70021419695024%" y2="42.15969197718631%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2008" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2008"><line x1="87.65384615384616%" x2="89.53846153846155%" y1="42.15969197718631%" y2="59.31341793784153%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2009" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2009"><line x1="89.53846153846155%" x2="91.42307692307693%" y1="59.31341793784153%" y2="96.43770278569066%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2010" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2010"><line x1="91.42307692307693%" x2="93.3076923076923%" y1="96.43770278569066%" y2="33.011290571731266%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2011" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2011"><line x1="93.3076923076923%" x2="95.1923076923077%" y1="33.011290571731266%" y2="38.88670062678091%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2012" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2012"><line x1="95.1923076923077%" x2="97.07692307692308%" y1="38.88670062678091%" y2="49.719411631415205%" /></a>
+                                            <a target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2012"><circle cx="97.07692307692308%" cy="49.719411631415205%" r="1" /></a>
+                                        </g>
+                                    </svg>
+                                </span>
+                            </span> claimed by the <a href="http://worldbank.270a.info/">World Bank Linked Dataspace</a>.
+                            We demonstrate an implementation which allows scientists or authors to easily enhance their work with sparklines generated from their own or public statistical linked datasets. This article includes an active demonstration accessible at <a href="http://csarven.ca/sparqlines-sparql-to-sparkline">http://csarven.ca/sparqlines-sparql-to-sparkline</a>.</p>
+                        </div>
+                    </section>
+
+
+                    <section id="introduction" inlist="" rel="schema:hasPart" resource="#introduction">
+                        <h2 property="schema:name">Introduction</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>In this article we introduce <em>sparqlines</em>, an integration of statistical data retrieval using SPARQL with displaying observations in the form of word-size graphics: sparklines. We describe an implementation which is part of a Web based authoring tool (<a href="https://dokie.li/">dokieli</a>). We cover how the data is modelled and exposed in order to be suitable for embedding; demonstrate how to embed data as both static and dynamic sparklines and discuss the technical requirements of each; and walk through the user interactions to do so.</p>
+
+                            <p>Our contribution is the generation of a well-established visual aid to reading statistical data (the sparkline) directly from the dataset itself, at the time of authoring the supporting text as part of the writing workflow. This enables authors who are already publishing data to use it directly, as well as encouraging them to make their data available for others to use, and offers an easy way to present the reader with a way to better understand the information.</p>
+
+                            <p>We conclude with a discussion, including design considerations. The code of our implementation is open source, and we invite you to try it out and make requests for more advanced features: <a href="https://github.com/linkeddata/dokieli">https://github.com/linkeddata/dokieli</a>.</p>
+                        </div>
+                    </section>
+
+                    <section id="related-work" inlist="" rel="schema:hasPart" resource="#related-work">
+                        <h2 property="schema:name">Related Work</h2>
+                        <div datatype="rdf:HTML" property="schema:description" resource="#related-work" typeof="deo:RelatedWork">
+                            <section id="sparklines" inlist="" rel="schema:hasPart" resource="#sparklines">
+                                <h3 property="schema:name">Sparklines</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p id="sparkline-description">The earliest known implementation of an inline-chart was designed and programmed by <a href="http://pete.zelchenko.com/">Peter Zelchenko</a> and Mike Medved to represent historical charts efficiently in the <a href="http://pete.zelchenko.com/portfolio/screen/2gk.htm">QuoteTracker</a> software in early 1999 [<a href="#ref-1">1</a>]. They are <q>datawords</q>, carrying dense information with the resolution of typography, particularly useful in places where the available screen real estate is minimal. <a href="http://www.edwardtufte.com/">Edward Tufte</a> describes sparkline as <q cite="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001OR&amp;topic_id=1"><a href="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001OR&amp;topic_id=1">small intense, simple, word-sized graphic with typographic resolution</a></q> [<a href="#ref-2">2</a>]. They are designed to be included anywhere, for example embedded in a sentence, table or even a map, within the relevant context. When embedded in a sentence, they support the text, allowing continuous reading <embed class="sparkline" src="media/images/GDP-per-capita-growth--annual---.svg" type="image/svg+xml" /> without the need to refer to a figure disjoint from the original context, whilst still providing an opportunity for the reader to investigate further by clicking on the data line to access each point of source, per <a href="#figure-static-sparkline">Figure 1</a>.</p>
+
+                                    <p id="sparkline-graphics">Sparkline graphics typically have a variable long dimension and a constrained short dimension. In the case of a typographic line, the constraint can be fixed to the height of the font-size of the encapsulating component. For example, the computed CSS <code>height</code> value of the <code>embed</code> HTML element that contains the sparkline on the current viewing device is <samp class="height">20px</samp>, and so the embedded sparkline in this paragraph will have a vertical aspect ratio as such.</p>
+
+                                    <script>document.addEventListener('DOMContentLoaded', function(){var s = document.querySelector('#sparkline-description .sparkline'); document.querySelector('#sparkline-graphics .height').innerHTML = s.ownerDocument.defaultView.getComputedStyle(s, null)["height"];});</script>
+
+                                    <figure id="figure-static-sparkline" rel="schema:hasPart" resource="#figure-static-sparkline">
+                                        <object data="media/images/GDP-per-capita-growth--annual---.svg" height="60" rel="schema:image" type="image/svg+xml" width="640"></object>
+                                        <figcaption property="schema:name">A typical static figure in an article disjoint from the original context</figcaption>
+                                    </figure>
+                                    <style>/*<![CDATA[*/
+                                        #figure-static-sparkline object {
+                                            height:60px !important;
+                                            min-height:60px !important;
+                                        }
+                                    /*]]>*/</style>
+
+                                    <p>Sparklines appear in many places where small datafeeds are useful; programmatical insertion in text-editors and spreadsheets, fitness feeds from wearable watches, social media analytics, streaming real-time quotes, electroencephalograms, system dashboards and trays, temperature and stock activity, to name a few. Studies show that novice and experienced investors using stock reports with Sparklines will experience reduced cognitive load [<a href="#ref-3">3</a>].</p>
+
+                                    <p>Sparklines in line, bar, column or win/loss graphs can be programatically included in <cite>Google Drive</cite> documents by including data from an embedded table or sequence of numbers via the Google Charts API [<a href="ref-4">4</a>].</p>
+
+                                    <p>The <cite><a href="https://archive.org/web/">Wayback Machine</a></cite> uses sparklines to show an application of the snapshots of a URL through time: <!-- <img style="display:block; margin:1em 0;" src="https://web.archive.org/web/jsp/graph.jsp?nomonth=1&amp;graphdata=1029_75_1996:-1:000000000000_2004:-1:010000000430_2005:-1:122430033004_2006:-1:193656640155_2007:-1:634212110911_2008:-1:111111164102_2009:-1:111100000000_2010:-1:101111112322_2011:-1:122221241511_2012:-1:232130203201_2013:-1:5015212111cf_2014:-1:e20112312222_2015:-1:135221123011_2016:3:225300000000" /> --></p>
+
+                                    <p>There are sparkline implementations in JavaScript libraries like d3.js and jQuery. Sparkline implementations also exist for command-line interfaces. These tools tend to take input data in tabular form (CSV). Sparklines can also be created by simple use of <a href="https://rosettacode.org/wiki/Sparkline_in_unicode">Unicode characters</a>: <code>▂▁▄▃▆▅█▇</code>.</p>
+                                </div>
+                            </section>
+
+                            <section id="rdf-data-cube-and-sparql" inlist="" rel="schema:hasPart" resource="#rdf-data-cube-and-sparql">
+                                <h3 property="schema:name">RDF Data Cube and SPARQL</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p>Statistical data that is modelled with the RDF Data Cube vocabulary [<a href="#ref-5">5</a>] makes it possible to discover and identify artefacts in a uniform way. This is in contrast to writing applications to consume data from endpoints with heterogeneous data models. For front-end Web applications, data can be fetched, explored, and filtered from <a href="http://csarven.ca/statistical-linked-dataspaces">statistical linked dataspaces</a> with SPARQL endpoints, e.g., <a href="http://270a.info/">http://270a.info/</a>. Utilising this method of access from within various types of articles on the Web, makes it possible to build applications which put more focus on user-interfaces rather than handling different data models case by case, or burdensome data integration tasks. Furthermore, having easy access to highly structured multidimensional data - essentially through an <code>HTTP GET</code> request - makes it desirable to create static and real-time visualisations.</p>
+
+                                    <p><a href="https://github.com/mgskjaeveland/sgvizler">Sgvizler</a> is a SPARQL result set visualisation JavaScript library that uses Google Charts API to create sparkline images [<a href="#ref-6">6</a>]. These are block-level raster images.</p>
+
+                                    <p>Investigation of analysis and visualisation of piracy reports have been conducted through endpoint querying with a <a href="http://cran.r-project.org/web/packages/SPARQL/index.html">SPARQL client for R</a> [<a href="#ref-7">7</a>].</p>
+
+                                    <p><a href="http://aksw.org/Projects/CubeViz">CubeViz</a> was developed to visualise multidimensional statistical data. It is a faceted browser, which utilizes the RDF Data Cube vocabulary, with a chart visualisation component [<a href="#ref-8">8</a>].</p>
+
+                                    <p><a href="http://csarven.ca/linked-statistical-data-analysis">Linked Statistical Data Analysis</a> [<a href="#ref-9">9</a>], presents a way to reuse data through federated SPARQL queries, and generation of statistical analyses and scatter plots. The <a href="http://stats.270a.info/">stats.270a.info</a> service stores computed analysis, and makes it possible for future discovery.</p>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+
+                    <section id="data-provision" inlist="" rel="schema:hasPart" resource="#data-provision">
+                        <h2 property="schema:name">Data Provision</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>In order to use sparqlines, data has to be both well-formed and available over a SPARQL endpoint. Here we briefly discuss both of these requirements.</p>
+
+                            <p>The RDF Data Cube vocabulary is used to describe multidimensional statistical data. It makes it possible to represent significant amounts of heterogeneous statistical data as Linked Data which can be discovered and identified in a uniform way. To qualify for consumption as a sparqline, the data must conform with some of the integrity constraints of the RDF Data Cube model, e.g., IC-1 (Unique DataSet), IC-11 (All dimensions required), IC-12 (No duplicate observations), IC-14 (All measures present).</p>
+
+                            <p>Additional enrichments on the data cubes can improve their discovery and reuse. Examples include but not limited to; providing human-readable <em>labels</em> for the datasets (with language tags), <em>classifications</em>, and <em>data structure definition</em>, as well as <em>provenance</em> level data like license, last updated.</p>
+
+                            <p>In order to allow user interfaces which can utilise a group of observations in a dataset, <em>slices</em> should be made available in the data. This enables consuming applications to dissect datasets (through SPARQL queries) for arbitrary subsets of observations. For example, while it is possible to construct a general query to get all of the observations in a dataset which have a particular dimension, it may be preferable to only query for such subsets provided that their structures can be identified and externally referenced. In the case of sparklines, one common use case for slices is to present data in time-series.</p>
+
+                            <p>SPARQL queries are used to filter for graph patterns in the RDF Data Cube datasets. Depending on the user interface application, there may be multiple queries made to the SPARQL endpoints in order to filter the data based on user input. For example, an initial query may be a cursory inspection to discover suitable datasets with given parameters, e.g., what the dataset is about, the type of dimensions and their values, and subsequent queries may be to retrieve the matching datasets or slices with observations and their measure values.</p>
+                        </div>
+                    </section>
+
+                    <section id="static-and-dynamic-sparqlines" inlist="" rel="schema:hasPart" resource="#static-and-dynamic-sparqlines">
+                        <h2 property="schema:name">Static and Dynamic Sparqlines</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>The data behind a sparqline can be static: a fixed historical set to which no new points are added; or dynamic: subject to change as new data is gathered. Both of these cases are accommodated by our implementation.</p>
+
+                            <table>
+                                <caption>Static and Dynamic Sparklines</caption>
+                                <thead>
+                                    <tr><th></th><th>Use</th><th>Methods</th><th>Example</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>Static</th>
+                                        <td>Historical data or a fixed snapshot</td>
+                                        <td>
+                                            <ul>
+                                                <li>Pre-rendered SVG</li>
+                                                <li>Embedded directly from datastore</li>
+                                            </ul>
+                                        </td>
+                                        <td><embed class="sparkline" src="media/images/GDP-per-capita-growth--annual---.svg" height="240" rel="schema:image" type="image/svg+xml" width="640" /></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Dynamic</th>
+                                        <td>Data which may be subject to updates</td>
+                                        <td>
+                                            <ul>
+                                                <li>Re-fetches data on page load or polls in real-time</li>
+                                                <li>Embed source as API endpoint which returns the sparkline</li>
+                                            </ul>
+                                        </td>
+                                        <td><!--<embed class="sparkline" src="http://stats.270a.info/sparkline.svg?void:sparqlEndpoint=http%3A%2F%2Fworldbank.270a.info%2Fsparql&amp;qb:DataSet=http%3A%2F%2Fworldbank.270a.info%2Fdataset%2FNY.GDP.MKTP.CD&amp;refArea=CA" type="image/svg+xml" />--> (reload article in browser)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <section id="embedding-sparqlines" inlist="" rel="schema:hasPart" resource="embedding-sparqlines">
+                        <h2 property="schema:name">Embedding Sparqlines</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>Our implementation allows authors to select text they have written which describes the data they want to visualise; it searches available datasets for those relevant to the text, and lets the user choose the most appropriate if there’s more than one. The sparqline is inserted along with a reference to the source.</p>
+
+                            <p>A specific example workflow is demonstrated when this article is viewed in a Web browser (at its canonical URL: http://csarven.ca/sparqlines-sparql-to-sparkline). Enable the <button class="editor-enable" title="Enable editor"><i class="fa fa-i-cursor"></i>Edit</button> mode from the <button>☰</button> menu and highlight the text <samp id="interactive-annotation-example">GDP of Canada</samp>. What occurs is as follows:</p>
+
+                            <ol property="schema:hasPart" resource="#embedding-sparqlines-workflow" typeof="opmw:WorkflowTemplate deo:Model">
+                                <li id="interactive-annotation-text-entry" about="#embedding-sparqlines-text-entry" typeof="opmw:WorkflowTemplateProcess" rel="opmw:isStepOfTemplate" resource="#embedding-sparqlines-workflow" property="rdfs:label">User enters text in a sentence e.g., <samp>GDP of Canada</samp>.</li>
+                                <li id="interactive-annotation-text-selection" about="#embedding-sparqlines-text-selection" typeof="opmw:WorkflowTemplateProcess" rel="opmw:isStepOfTemplate" resource="#embedding-sparqlines-workflow" property="rdfs:label">User selects text <samp>GDP of Canada</samp> with their mouse or keyboard.</li>
+                                <li id="interactive-annotation-toolbar-selection" about="#embedding-sparqlines-toolbar-selection" typeof="opmw:WorkflowTemplateProcess" rel="opmw:isStepOfTemplate" resource="#embedding-sparqlines-workflow" property="rdfs:label">The user select the <q>sparkline</q> option from presented authoring toolbar.</li>
+                                <li id="interactive-annotation-tokenise-text" about="#embedding-sparqlines-tokenise-text" typeof="opmw:WorkflowTemplateProcess" rel="opmw:isStepOfTemplate" resource="#embedding-sparqlines-workflow" property="rdfs:label">The input text is split into two: 1) <samp>GDP</samp> and 2) <samp>Canada</samp> segments, whereby the first term is the concept, and the second is a reference area. Reference areas are disambiguated against an internal dictionary.</li>
+                                <li id="interactive-annotation-sparql-query-for-input" about="#embedding-sparqlines-sparql-query-for-input" typeof="opmw:WorkflowTemplateProcess" rel="opmw:isStepOfTemplate" resource="#embedding-sparqlines-workflow" property="rdfs:label">System constructs a SPARQL query URL and sends it to the World Bank Linked Dataspace endpoint, looking for a graph pattern where the datasets of labels have <q>GDP</q> in them in which there is at least one observation for the reference area <q>Canada</q>.</li>
+                                <li id="interactive-annotation-dataset-selection" about="#embedding-sparqlines-dataset-selection" typeof="opmw:WorkflowTemplateProcess" rel="opmw:isStepOfTemplate" resource="#embedding-sparqlines-workflow" property="rdfs:label">User is given a list of datasets to select from which match the above criteria, and the user selects desired dataset.</li>
+                                <li id="interactive-annotation-sparql-query-observations" about="#embedding-sparqlines-sparql-query-observations" typeof="opmw:WorkflowTemplateProcess" rel="opmw:isStepOfTemplate" resource="#embedding-sparqlines-workflow" property="rdfs:label">System sends a SPARQL query to get the observations of the selected dataset for Canada.</li>
+                                <li id="interactive-annotation-create-sparkline" about="#embedding-sparqlines-create-sparkline" typeof="opmw:WorkflowTemplateProcess" rel="opmw:isStepOfTemplate" resource="#embedding-sparqlines-workflow" property="rdfs:label">A sparkline is created and displayed for the user, also indicating the number of observations it has.</li>
+                                <li id="interactive-annotation-embed-sparkline" about="#embedding-sparqlines-embed-sparkline" typeof="opmw:WorkflowTemplateProcess" rel="opmw:isStepOfTemplate" resource="#embedding-sparqlines-workflow" property="rdfs:label">If the user is happy with this visualisation they include it in the text. A hyperlink to the dataset, and a sparkline SVG is inserted back into the sentence replacing <samp>GDP of Canada</samp> with <samp>GDP per capita growth (annual %)</samp>.</li>
+                            </ol>
+
+                            <p>Figure [<a href="#figure-dokieli-sparkline">2</a>] is a video screencast of this interaction.</p>
+
+                            <figure id="figure-dokieli-sparqlines" rel="schema:hasPart" resource="#figure-dokieli-sparqlines">
+                                <video controls="controls" height="400" id="video-dokieli-sparqlines" poster="https://dokie.li/media/images/GDP-per-capita-growth--annual---.svg" preload="none" rel="schema:hasPart" width="800">
+                                    <source about="#video-dokieli-sparqlines" rel="schema:hasPart" resource="https://dokie.li/media/video/dokieli-sparqlines.webm" src="https://dokie.li/media/video/dokieli-sparqlines.webm" type="video/webm" typeof="fabio:Film" />
+                                </video>
+                                <figcaption property="schema:name">Video of Sparqlines interaction in dokieli</figcaption>
+                            </figure>
+
+                            <style type="text/css">/*<![CDATA[*/
+                                #embedding-sparqlines button {
+                                    font-family:sans-serif;
+                                    font-size:initial;
+                                    font-weight:normal;
+                                    line-height:1;
+                                    background-color:inherit;
+                                    border:0 none;
+                                    margin:0;
+                                    padding:0;
+                                }
+                                #embedding-sparqlines .editor-enable i,
+                                #embedding-sparqlines .editor-disable i {
+                                    margin-right:0.25em;
+                                }
+                                #embedding-sparqlines .editor-disable {
+                                    background-color:#eee;
+                                }
+                            /*]]>*/</style>
+                        </div>
+                    </section>
+
+                    <section id="semantic-publishing">
+                        <h2 property="schema:name">Semantic Publishing</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>Our implementation in dokieli automatically includes semantic annotations within the embedded sparqlines. The sparqline resource has its own URI that can be used for global referencing. The RDF statements are represented using the HTML+RDFa syntax, and they preserve the following information:</p>
+
+                            <ul>
+                                <li>The part of the document to which the sparqline belongs (<code>rel="schema:hasPart"</code>).</li>
+                                <li>The human-readable name for the figure (based on the dataset used), where it was derived from (the <code>qb:DataSet</code> instance), and the generated SVG.</li>
+                                <li>The SVG resource has statements to indicate:
+                                    <ul>
+                                        <li>linked statistical dataset which was used (<code>rel="prov:wasDerivedFrom"</code>).</li>
+                                        <li>human-readable name of the dataset (<code>property="schema:name"</code>).</li>
+                                        <li>license for the generated SVG (<code>rel="schema:license"</code>).</li>
+                                        <li>further information for each <code>qb:Observation</code> (<code>rel="rdfs:seeAlso"</code>).</li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <p>This information can be discovered and parsed as RDF, thus making easy to access and reuse by third-party applications. For example, another author can cite or include these sparqlines in their work.</p>
+                        </div>
+                    </section>
+
+                    <section id="discussion-and-conclusions" inlist="" rel="schema:hasPart" resource="#discussion-and-conclusions">
+                        <h2 property="schema:name">Discussion and Conclusions</h2>
+                        <div datatype="rdf:HTML" property="schema:description" resource="#discussion-and-conclusions" typeof="deo:Discussion">
+                            <p>We have presented a preliminary implementation of sparklines generated from SPARQL endpoints and embedded directly through authoring tool. This allows authors to visualise their data in an optimal way without breaking their workflow. However, there is a lot of scope for future work in this area. We now discuss some areas for further development.</p>
+
+                            <p><strong>Design principles</strong>: Tufte makes recommendations on readability, as well as applying Cleveland’s analytical method of choosing aspect ratios <em>banking to 45°</em> [<a href="#ref-2">2</a>, <a href="#ref-10">10</a>, <a href="#ref-11">11</a>]. Cleveland’s method has been extended to generate banked sparklines by providing the vertical dimension to fit a typographical line. These approaches help maximize the clarity of the line segments [<a href="#ref-12">12</a>]. Applying these methods is a future implementation in dokieli (<a href="https://github.com/linkeddata/dokieli/issues/159">issue 159</a>).</p>
+
+                            <p><strong>Dataset interaction</strong>: Building on existing work in faceted searching and browsing of RDF data, authors can explore suitable datasets with a combination of searching using natural-language and filtering through available datasets and dimensions of interest. This approach is convenient for datasets in RDF Data Cubes since they are highly structured and classified. Further work is needed to improve the process for disambiguation of the author’s input in natural language in order to discover appropriate URIs in the dataset.</p>
+
+                            <p><strong>Privacy considerations</strong>: Many researchers collect experimental data which has sensitive or identifiable information. This information should not be exposed through public SPARQL endpoints. Measures such as access control lists can allow researchers to generate sparqlines over sensitive data.</p>
+
+                            <p><strong>Data availability</strong>: SPARQL endpoints are notoriously unreliable and they may have high setup costs for new datasets. Applications which rely on endpoints to generate sparqlines with dynamic data, may want to initially include a local cached copy from the last access point in the article. The application can then asynchronously fetch or subscribe for new updates.</p>
+                        </div>
+                    </section>
+            </article>
+
+
+
+
 
 
           <aside class="todo">
