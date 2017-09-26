@@ -20,7 +20,7 @@
       <article about="" typeof="schema:Article">
         <h1 property="schema:name">Conclusions</h1>
         <div datatype="rdf:HTML" property="schema:description">
-
+          <p>If the scholars can be more <em>involved</em> in the process of crafting their knowledge for better access and discovery, what effects can we anticipate?</p>
 
         </div>
       </article>
