@@ -20,6 +20,17 @@
       <article about="" typeof="schema:Article">
         <h1 property="schema:name">Introduction</h1>
         <div datatype="rdf:HTML" property="schema:description">
+          <section id="context" rel="schema:hasPart" resource="#context">
+            <h2 property="schema:name">Context</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>In an attempt to convey the full meaning of this thesis, I will provide some context based on my observations. The field of our study is interdisciplinary given that the Web is both effected by and influences socio-technical systems. Within this function, the Web leverages different ecosystems to coexist. Understanding the parts that are relevant to the state of scholarly communication today and its advancement in context of the Web within a particular set of operations, is an interplay of what it is, and our desire to shape it towards what it should be. This outcome offers both objective and subject parts given that systems <em>can be</em> studied and designed in a variety and diverse ways.</p>
+
+              <p>..</p>
+            </div>
+          </section>
+
+              <p>Is and can our system be productive, resilient and organised? Can it evolve? If redesigned, can it be operate within established and unexpected parameters as part of a even greater larger ecosystem? What assumptions</p>
+
 
               <ul class="outline">
                 <li>Paradigm Shifts</li>
