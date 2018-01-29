@@ -51,16 +51,16 @@
   </div>
 </section>
 
-
-            <a href="http://csarven.ca/cooling-down-web-science">Cooling Down Web Science</a>
-            <a href="http://csarven.ca/enabling-accessible-knowledge">Enabling Accessible Knowledge</a>
-            <a href="http://csarven.ca/linked-research">Linked Research</a>
-            <a href="http://csarven.ca/call-for-linked-research">Call for Linked Research</a>
-            <a href="https://linkedresearch.org/rfc">Linked Research RFC</a>
-            <a href="http://csarven.ca/linked-research-scholarly-communication">Linked Research: An Approach for Scholarly Communication</a>
-            <a href="http://csarven.ca/web-science-from-404-to-200">Where is Web Science? From 404 to 200</a>
-            <a href="http://csarven.ca/dokieli-rww#principles">dokieli-rww principles</a>
-
+<ul>
+  <li><a href="http://csarven.ca/cooling-down-web-science">Cooling Down Web Science</a></li>
+  <li><a href="http://csarven.ca/enabling-accessible-knowledge">Enabling Accessible Knowledge</a></li>
+  <li><a href="http://csarven.ca/linked-research">Linked Research</a></li>
+  <li><a href="http://csarven.ca/call-for-linked-research">Call for Linked Research</a></li>
+  <li><a href="https://linkedresearch.org/rfc">Linked Research RFC</a></li>
+  <li><a href="http://csarven.ca/linked-research-scholarly-communication">Linked Research: An Approach for Scholarly Communication</a></li>
+  <li><a href="http://csarven.ca/web-science-from-404-to-200">Where is Web Science? From 404 to 200</a></li>
+  <li><a href="http://csarven.ca/dokieli-rww#principles">dokieli-rww principles</a></li>
+</ul>
             <q cite="">Idealogical and Technology Traps</q>
         </div>
       </article>
