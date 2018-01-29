@@ -32,7 +32,7 @@
           <section id="need" rel="schema:hasPart" resource="#need">
             <h2 property="schema:name">Need</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Why bother? </p>
+              <p>Why bother? Society needs to continuously sharpen its understanding of the biases as well as the effects of the sociotechnical processes involved in scholarly communication, in order to control its impact and guide it.</p>
             </div>
           </section>
 
@@ -50,7 +50,7 @@
                   <ul>
                     <li>Technical Challenges</li>
                     <li>Social Challenges</li>
-                    <li>Intertwined socio-technical problem space</li>
+                    <li>Intertwined sociotechnical problem space</li>
                   </ul>
                 </li>
 
