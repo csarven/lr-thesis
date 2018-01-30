@@ -13,21 +13,111 @@
     <script src="scripts/simplerdf.js"></script>
     <script src="scripts/medium-editor.min.js"></script>
     <script src="scripts/do.js"></script>
+<!--
+<style>
+@media screen {
+#understanding-the-medium {
+background: -moz-linear-gradient(top, rgba(255,0,0,0.1) 0%, rgba(255,255,255,1) 50%, rgba(64,150,238,0.1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,0,0,0.1)), color-stop(50%,rgba(255,255,255,1)), color-stop(100%,rgba(64,150,238,0.1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,0,0,0.1) 0%,rgba(255,255,255,1) 50%,rgba(64,150,238,0.1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,0,0,0.1) 0%,rgba(255,255,255,1) 50%,rgba(64,150,238,0.1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,0,0,0.1) 0%,rgba(255,255,255,1) 50%,rgba(64,150,238,0.1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(255,0,0,0.1) 0%,rgba(255,255,255,1) 50%,rgba(64,150,238,0.1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1aff0000', endColorstr='#1a4096ee',GradientType=0 ); /* IE6-9 */
+}
+
+.typographic-sine-wave {
+position:relative;
+width:7em;
+display:inline-block;
+vertical-align:bottom;
+}
+.typographic-sine-wave span {
+position:absolute;
+z-index:-1;
+}
+.typographic-sine-wave span:nth-of-type(1) {
+bottom:0;
+left:0;
+}
+.typographic-sine-wave span:nth-of-type(2) {
+bottom:-0.25em;
+left:0.75em;
+font-size:1.5em;
+color:#666;
+transform:rotate(-10deg);
+}
+.typographic-sine-wave span:nth-of-type(3) {
+bottom:-0.5em;
+left:1.25em;
+font-size:2em;
+color:#777;
+transform:rotate(-20deg);
+}
+.typographic-sine-wave span:nth-of-type(4) {
+bottom:-0.25em;
+left:1.5em;
+font-size:2.5em;
+color:#888;
+transform:rotate(-30deg);
+}
+.typographic-sine-wave span:nth-of-type(5) {
+bottom:0em;
+left:2em;
+font-size:3em;
+color:#999;
+transform:rotate(-40deg);
+}
+.typographic-sine-wave span:nth-of-type(6) {
+bottom:0.25em;
+left:1.25em;
+font-size:5.5em;
+color:#AAA;
+transform:rotate(-50deg);
+}
+.typographic-sine-wave span:nth-of-type(7) {
+bottom:0.5em;
+left:1.25em;
+font-size:7.5em;
+color:#BBB;
+transform:rotate(-60deg);
+}
+</style>
+-->
   </head>
 
   <body about="" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ pimspace: http://www.w3.org/ns/pim/space# cc: https://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# mem: http://mementoweb.org/ns# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ void: http://rdfs.org/ns/void# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# bibo: http://purl.org/ontology/bibo/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio# rel: https://www.w3.org/ns/iana/link-relations/relation#" typeof="schema:CreativeWork sioc:Post prov:Entity">
     <main>
       <article about="" typeof="schema:Article">
-        <h1 property="schema:name">Conceptual Framework</h1><!-- for Linked Research -->
+        <h1 property="schema:name">Conceptual Framework for Linked Research</h1>
         <div datatype="rdf:HTML" property="schema:description">
+<section id="understanding-the-medium">
+  <h2>Understanding the Medium; Scholarly Communication on the Web</h2>
+  <div>
+    <p>Some context: In the 1967 book, <span about="urn:isbn:9781584230700" typeof="schema:Book"><span rel="owl:sameAs" resource="http://www.worldcat.org/oclc/47679653"></span><a href="http://www.worldcat.org/title/medium-is-the-massage-an-inventory-of-effects/oclc/47679653" rel="schema:url">The Medium is the Massage</a></span>, <cite><a href="https://en.wikipedia.org/wiki/Marshall_McLuhan">Marshall McLuhan</a></cite> wrote that <q about="" cite="http://www.worldcat.org/oclc/47679653" rel="cito:agreesWith" resource="urn:isbn:9781584230700">at the high speeds of electric communication, purely visual means of apprehending the world are no longer possible; they are just too slow to be relevant or effective</q> [<a class="ref" href="#ref-1">1</a>]. While McLuhan’s critique was on the overall position of the print media given the electric age, it stands especially valid today in the age of interactive new media. For instance, the <em class="cool-media">World Wide Web</em> is a <q>cool media</q> because its access, multi-linearity, and interactive possibilities offers multi-sensory and emotional states for individuals. This is in contrast to the <em class="hot-media">print</em>, where it is considered to be a <q>hot media</q> demanding primarily the full attention of our vision. As the printed word’s requirement for the other senses is minimal, it <em>spoon-feeds</em> the content to the reader in a l-i-n-e-a-r <span class="typographic-sine-wave"><span>f</span><span>a</span><span>s</span><span>h</span><span>i</span><span>o</span><span>n</span></span>. The literate or print culture is passive and is detached from immediate involvement because the medium has no such requirements. The cooler media on the other hand, requires a greater level of engagement from the audience at a faster rate. The speed up in media allows us to detect change better and consequently what we do best; pattern recognition.</p>
+
+    <p>The new media, like the Web, offers extensible interactions, creative participations, and social engagements. There is a natural human desire to <strong>connect</strong> and <strong>exchange</strong> <a href="https://en.wikipedia.org/wiki/Meme"><em>memes</em></a> with others, as well as to co-create. Given these opportunities, the fundamental question to ask here is, why should research communication be limited to, evaluated by, and rewarded on the archaic methods and artificial practices? The methods in question which are still used date back to the invention of the <a href="https://en.wikipedia.org/wiki/Printing_press">mechanical movable type printing press</a> (circa 1450), even in the advent of the globally accessible medium and <em>villages</em> that are at our fingertips, vocals, and presence, at much faster turnaround time for publication to consumption than ever before. The artificial practices correspond to the publication workflows that are in place for majority of the Web conferences and journals. Naturally one wonders, what does it mean to have an academic achievement through a “publication”? If the Web can be purposed for greater possibilities than that of print alone, then we urgently need to address the question, <em>what constitutes a scholarly article?</em></p>
+
+    <p>Today, it is evident that the typical publishing scenario for scholarly knowledge predominantly requires strict adherence to the <em>printability</em> aspects of the information e.g., <span class="unicode-document">page length, typographical guidelines</span>. That is, all of the encompassing data for any given research and development, i.e., noteworthy items which the researcher knows, wants to communicate and demonstrate, <strong class="rfc2119">must</strong> be channeled through the characteristics of the print media. In practice, this leads the research community to use tools that are tailored solely for printing or viewing (on screen). This (sticking to print) leads to unnecessary information loss or arbitrary filtering of the content, where it can be otherwise preserved via appropriate mediums, if and only if it can be demonstrated that such initiatives are of benefit to the academic community. Since print is one possible way to represent and communicate the information, it is worthwhile to investigate and employ alternative or complimentary representations that are more appropriate given the qualities of the Web. As document formats like PDF and Word - which are primarily designed and destined for printing and physical distribution - circulate in scientific circles and on the Web, we can make one observation: such formats, on the hot end of the media spectrum, are trying to exist and remain relevant inside a cool medium. An old <em>form</em> trying to remain relevant in the new form. The potentiality of their user experiences will indefinitely remain hampered as it is grounds itself on frozen text content.</p>
+
+    <p id="this-is-not-a-paper"><cite><a href="http://faculty.education.illinois.edu/burbules/papers/paper.1.html">This is Not a Paper</a></cite> [<a class="ref" href="#ref-2">2</a>] - an essay with a title as such, we wish we had written 20 years ago, which is <strong>still</strong> accessible with a single click! - raises a legitimate question <q>whether any journals will exist in paper form within a decade or two</q>. While we can safely answer that question today, our contention is that we are arguably in a better position to look ahead for the upcoming years. There are various emergent social and technical initiatives that are taking place under the umbrella term, <em>Open Science</em>.</p>
+
+    <p>At least within the context of scholastic Web science, it is not only compelling, but crucial for the research community to <em>eat its own dogfood</em> in order to unchain itself from antiquated traditions. A distinction to make here between print-first and Web-first is that it is the environment that influences social consequences, not the technology itself. To start in such endeavor, the primary requirement should be placed on the shoulders of the researchers themselves i.e., to use the mediums and processes that it has created towards technical and social progress. By retaining our focus on enabling researchers we postulate better <strong>access</strong> to knowledge. This is akin to why and how the Web came to be.</p>
+
+    <p>With this article, our intention is not to undermine the values of the print-centric culture, but rather embrace and use the new media forms where appropriate.</p>
+  </div>
+</section>
+
+
+<blockquote cite="http://www.worldcat.org/oclc/981396559">
+  <p>All of man's artefacts - whether language, or laws, or ideas and hypotheses, or tools, or clothing, or computers - are extensions of the physical human body or the mind.</p>
+  <footer><cite><a href="http://www.worldcat.org/oclc/981396559">Laws of Media</a></cite>, p. 93</footer>
+</blockquote>
+
 
 <section>
-  <h2>Effects and artefacts of the application of native Web technologies for scholarly communication</h2>
+  <h2>Effects and artefacts of the application of Web on scholarly communication</h2>
   <div>
-
-
-    <p class="todo">Some background on McLuhan's extension of senses... understanding media..</p>
-
     <p>In order to help us understand the effects of native Web technologies on scholarly communication, we can use <a href="http://dbpedia.org/Marshall_McLuhan" rel="cito:credits">Marshall McLuhan</a>'s tetrad on media effects as a heuristic device, a set of four questions, from the <cite><a href="http://www.worldcat.org/oclc/981396559">Laws of Media</a></cite>:</p>
 
     <blockquote id="" rel="cito:includesQuotationFrom" cite="http://www.worldcat.org/oclc/981396559">
@@ -44,11 +134,11 @@
 
     <dl>
       <dt>Enhances</dt>
-      <dd>access to information, decentralisation, response time, self-publishing, multi-modal content, social interactions, multi-dimensional information creation and consumption</dd>
+      <dd>access to information, decentralisation, response time, self-publishing, multi-modal content, social interactions, multi-dimensional information creation and consumption, simultaneity</dd>
       <dt>Obsolesces</dt>
       <dd>anti-sociality, print monopolies, distance, travel, centralised publishing, atomistic use of human senses, linear information creation and consumption</dd>
       <dt>Retrieves</dt>
-      <dd>writing and correspondence, anarchy, involvement or direct representation</dd>
+      <dd>writing and correspondence, anarchy, dialogue, involvement</dd>
       <dt>Reverses into</dt>
       <dd>information overload, expensive precision and recall</dd>
     </dl>
