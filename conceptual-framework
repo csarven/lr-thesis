@@ -22,8 +22,12 @@
         <div datatype="rdf:HTML" property="schema:description">
 
 <section>
-  <h2>Effects of native Web technologies on scholarly communication</h2>
+  <h2>Effects and artefacts of the application of native Web technologies for scholarly communication</h2>
   <div>
+
+
+    <p class="todo">Some background on McLuhan's extension of senses... understanding media..</p>
+
     <p>In order to help us understand the effects of native Web technologies on scholarly communication, we can use <a href="http://dbpedia.org/Marshall_McLuhan" rel="cito:credits">Marshall McLuhan</a>'s tetrad on media effects as a heuristic device, a set of four questions, from the <cite><a href="http://www.worldcat.org/oclc/981396559">Laws of Media</a></cite>:</p>
 
     <blockquote id="" rel="cito:includesQuotationFrom" cite="http://www.worldcat.org/oclc/981396559">
@@ -36,7 +40,7 @@
       <footer><cite><a href="http://www.worldcat.org/oclc/981396559">Laws of Media</a></cite>, p. 7</footer>
     </blockquote>
 
-    <p>The questions are presented in the appositional form, and correspond to the four effects: <q>enhances</q>, <q>obsolesces</q>, <q>retrieves</q>, and <q>reverses into</q>. We can use these terms to </p>
+    <p>The questions are presented in the appositional form, ie. intended to be complimentary and studied simultaneously. They correspond to the four effects: <q>enhances</q>, <q>obsolesces</q>, <q>retrieves</q>, and <q>reverses into</q>. We can utilise this tetrad to situate the effects and artefacts of scholarly communication on the Web in relation to adjacent mediums.</p>
 
     <dl>
       <dt>Enhances</dt>
@@ -44,7 +48,7 @@
       <dt>Obsolesces</dt>
       <dd>anti-sociality, print monopolies, distance, travel, centralised publishing, atomistic use of human senses, linear information creation and consumption</dd>
       <dt>Retrieves</dt>
-      <dd>writing and correspondence, anarchy, direct representation</dd>
+      <dd>writing and correspondence, anarchy, involvement or direct representation</dd>
       <dt>Reverses into</dt>
       <dd>information overload, expensive precision and recall</dd>
     </dl>
