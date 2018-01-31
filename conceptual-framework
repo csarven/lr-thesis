@@ -143,7 +143,33 @@ transform:rotate(-60deg);
       <dd>information overload, expensive precision and recall, centralised services, third-party data control, <q>anyone can say anything about anything</q></dd>
     </dl>
 
-    <p>While the tetrad serves as a conceptual categorisation of effects, ie. understanding what the medium is, enables, or has implications for, we can also verify to what extend they are actualised "in the real world". Does scholarly communication on the Web amplify or intensify decentralisation? Or is it the case where scholarly information is easily centralised?</p>
+    <p>While the tetrad serves as a conceptual categorisation of effects, ie. understanding what the medium is, enables, or has implications for, we can also verify to what extend they are actualised "in the real world".</p>
+
+
+<p>Kuhn</p>
+
+<p>RoosendaalGeurts</p>
+
+<p>What are the actors and functions of scholarly information on the Web?</p>
+
+
+
+    <p class="todo">Perhaps move the following to the end of this chapter.. not specific McLuhan stuff</p>
+    <p>While we could potentially observe and analyse a plethora of effects, in this thesis, we will focus on three areas:</p>
+
+    <ul>
+      <li>the degree of autonomy to create and consume interlinked knowledge</li>
+      <li>the distribution of units of scholarly information</li>
+      <li>the sociality of the scholarly Web</li>
+    </ul>
+
+    <p>Some high-level probes.. please leave your sense of logic at the door</p>
+
+    <ul>
+      <li>What are the units of human and machine-readable scholarly information? Why self-publishing and what is it like to actualise? What constitutes a scholarly contribution on the Web? What can be deconstructed? What and at what granularity can information be communicated? What are persistent and permanent artefacts? Where would distributed scholarly information exist, be findable and used?</li>
+      <li>Does scholarly communication on the Web amplify or intensify decentralisation? Or is it the case where scholarly information is easily centralised? How can the workflows in scholarly communication be realised using Web technologies in decentralised manner? Do we have the fundamental mechanisms and ability to derive at feasible implementations to adopt a decentralised scholarly Web paradigm?</li>
+      <li>Is there a paradigm shift and what is our situation? What are the effects of social Web on scholars? Are the new forms of involvement revive what was once lost? How can scholars participate and exchange information in a decentralised manner?</li>
+    </ul>
   </div>
 </section>
 
