@@ -145,16 +145,6 @@ transform:rotate(-60deg);
 
     <p>While the tetrad serves as a conceptual categorisation of effects, ie. understanding what the medium is, enables, or has implications for, we can also verify to what extend they are actualised "in the real world".</p>
 
-
-<p>Kuhn</p>
-
-<p>RoosendaalGeurts</p>
-
-<p>What are the actors and functions of scholarly information on the Web?</p>
-
-
-
-    <p class="todo">Perhaps move the following to the end of this chapter.. not specific McLuhan stuff</p>
     <p>While we could potentially observe and analyse a plethora of effects, in this thesis, we will focus on three areas:</p>
 
     <ul>
@@ -163,7 +153,34 @@ transform:rotate(-60deg);
       <li>the sociality of the scholarly Web</li>
     </ul>
 
-    <p>Some high-level probes.. please leave your sense of logic at the door</p>
+    <p class="todo">What else to say here?</p>
+  </div>
+</section>
+
+
+<section id="emergence-of-a-paradigm-shift" rel="schema:hasPart" resource="#emergence-of-a-paradigm-shift">
+  <h2 property="schema:name">Emergence of a paradigm shift in scholarly communication on the Web</h2>
+  <div property="schema:description">
+    <p>Kuhn</p>
+  </div>
+</section>
+
+
+<section id="effects-and-artefacts" rel="schema:hasPart" resource="#effects-and-artefacts">
+  <h2 property="schema:name">Actors and functions of scholarly communication based on the native Web platform</h2>
+  <div property="schema:description">
+    <p>RoosendaalGeurts</p>
+    <p>What are the actors and functions of scholarly information on the Web?</p>
+  </div>
+</section>
+
+
+
+<section>
+  <div>
+    <p class="todo">Not sure where this (section) should go</p>
+
+    <p>Some high-level probes.. please leave your sense of logic at the door:</p>
 
     <ul>
       <li>What are the units of human and machine-readable scholarly information? Why self-publishing and what is it like to actualise? What constitutes a scholarly contribution on the Web? What can be deconstructed? What and at what granularity can information be communicated? What are persistent and permanent artefacts? Where would distributed scholarly information exist, be findable and used?</li>
@@ -173,6 +190,10 @@ transform:rotate(-60deg);
   </div>
 </section>
 
+
+
+
+<footer>
 <ul>
   <li><a href="http://csarven.ca/cooling-down-web-science">Cooling Down Web Science</a></li>
   <li><a href="http://csarven.ca/enabling-accessible-knowledge">Enabling Accessible Knowledge</a></li>
@@ -183,7 +204,8 @@ transform:rotate(-60deg);
   <li><a href="http://csarven.ca/web-science-from-404-to-200">Where is Web Science? From 404 to 200</a></li>
   <li><a href="http://csarven.ca/dokieli-rww#principles">dokieli-rww principles</a></li>
 </ul>
-            <q cite="">Idealogical and Technology Traps</q>
+<q cite="">Idealogical and Technology Traps</q>
+</footer>
         </div>
       </article>
     </main>
