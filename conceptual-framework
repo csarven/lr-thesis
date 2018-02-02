@@ -118,7 +118,7 @@ transform:rotate(-60deg);
 <section id="effects-and-artefacts" rel="schema:hasPart" resource="#effects-and-artefacts">
   <h2 property="schema:name">Effects and artefacts</h2>
   <div property="schema:description">
-    <p>In order to help us understand the effects of native Web technologies on scholarly communication, we can use <a href="http://dbpedia.org/Marshall_McLuhan" rel="cito:credits">Marshall McLuhan</a>'s tetrad on media effects as a heuristic device, a set of four questions, from the <cite><a href="http://www.worldcat.org/oclc/981396559">Laws of Media</a></cite>:</p>
+    <p>In order to help us understand the effects of the Web on scholarly communication, we can use <a href="http://dbpedia.org/Marshall_McLuhan" rel="cito:credits">McLuhan</a>'s tetrad on media effects as a heuristic device, a set of four questions:</p>
 
     <blockquote id="" rel="cito:includesQuotationFrom" cite="http://www.worldcat.org/oclc/981396559">
       <ul>
@@ -134,13 +134,13 @@ transform:rotate(-60deg);
 
     <dl>
       <dt>Enhances</dt>
-      <dd>access to information, decentralisation, response time, self-publishing, multi-modal content, social interactions, multi-dimensional information creation and consumption, simultaneity</dd>
+      <dd>access to information, decentralisation, distribution, response time, self-publishing, multi-modal content</dd>
       <dt>Obsolesces</dt>
-      <dd>anti-sociality, print monopolies, distance, travel, centralised publishing, atomistic use of human senses, linear information creation and consumption</dd>
+      <dd>anti-sociality, distance, travel, linear information creation and consumption</dd>
       <dt>Retrieves</dt>
       <dd>writing and correspondence, anarchy, dialogue, involvement</dd>
       <dt>Reverses into</dt>
-      <dd>information overload, isolation, expensive precision and recall, centralised services, third-party data control, <q>anyone can say anything about anything</q></dd>
+      <dd>information overload, isolation, centralised publishing and distribution services, third-party resource control</dd>
     </dl>
 
     <p>While the tetrad serves as a conceptual categorisation of effects, ie. understanding what the medium is, enables, or has implications for, we can also verify to what extend they are actualised "in the real world".</p>
@@ -153,11 +153,11 @@ transform:rotate(-60deg);
       <li>the sociality of the scholarly Web</li>
     </ul>
 
-    <p>By examining these effects, we can hone in understanding what the underlying <em>form</em> does to us, the society, and the scientific communication itself. It provides us with a foundation to go further in uncovering the true nature of scholarly communication's emergence and interplay with the Web. What has it shaped? What are the current challenges? How do we envision the communication to be? How can we use the medium better whether that's through its original intentions or new?</p>
+    <p>By examining these effects, we can hone in on understanding what the underlying <em>form</em> does to us, the society, and the scientific communication itself. It provides us with a foundation to go further in uncovering the true nature of scholarly communication's emergence and interplay with the Web. What has it shaped? What are the current challenges? How do we envision the communication to be? How can we use the medium better whether that's through its original intentions or new?</p>
 
     <p>The technicalities of these inquiries can have various manifestations, hence this thesis is only intended to reveal a particular configuration which situates itself around <em>contributor-centric scholarly communication on the Web</em>.</p>
 
-    <p>The global shift in communication forms that are used for scientific activities demonstrates the desired amplification of the senses that are used. For instance, the print-centric emphasised on the linearity of scientific information representation and its communication, whereas the Web-centric made multimodal interactions possible within the same domain. Scientists no longer push their understanding of the world within the confines of a textual descriptions of phenomenons, or travel great distances to observe them at first hand, but with the electric media, and more specifically with the advent of the Web, they have the option to also watch and listen to measured observations - instantaneously - as the events occur.</p>
+    <p>The global shift in communication forms that are used for scientific activities demonstrates the desired amplification of the senses that are used. For instance, the print-centric emphasised on the linearity of scientific information representation and its communication, whereas the Web-centric made multimodal interactions possible within the same domain. Scientists no longer push their understanding of the world within the confines of static and two-dimensional descriptions of phenomenons. They also reduce the need to travel great distances to observe them at first hand, but with the electric media, and more specifically with the advent of the Web, they have the option to also watch, listen, and participate around the measured observations - instantaneously - as the events occur.</p>
   </div>
 </section>
 
@@ -188,7 +188,7 @@ transform:rotate(-60deg);
 
     <ul>
       <li>What are the units of human and machine-readable scholarly information? Why self-publishing and what is it like to actualise? What constitutes a scholarly contribution on the Web? What can be deconstructed? What and at what granularity can information be communicated? What are persistent and permanent artefacts? Where would distributed scholarly information exist, be findable and used?</li>
-      <li>Does scholarly communication on the Web amplify or intensify decentralisation? Or is it the case where scholarly information is easily centralised? How can the workflows in scholarly communication be realised using Web technologies in decentralised manner? Do we have the fundamental mechanisms and ability to derive at feasible implementations to adopt a decentralised scholarly Web paradigm?</li>
+      <li>Does scholarly communication on the Web amplify or intensify decentralisation? Or is it the case where scholarly information is easily centralised? How can the workflows in scholarly communication be realised using Web technologies in a decentralised fashion? Do we have the fundamental mechanisms and ability to derive at feasible implementations to adopt a decentralised scholarly Web paradigm?</li>
       <li>Is there a paradigm shift and what is our situation? What are the effects of social Web on scholars? Are the new forms of involvement revive what was once lost? How can scholars participate and exchange information in a decentralised manner?</li>
     </ul>
   </div>
