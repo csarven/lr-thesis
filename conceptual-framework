@@ -116,7 +116,7 @@ transform:rotate(-60deg);
 
 
 <section id="effects-and-artefacts" rel="schema:hasPart" resource="#effects-and-artefacts">
-  <h2 property="schema:name">Effects and artefacts of the application of Web on scholarly communication</h2>
+  <h2 property="schema:name">Effects and artefacts</h2>
   <div property="schema:description">
     <p>In order to help us understand the effects of native Web technologies on scholarly communication, we can use <a href="http://dbpedia.org/Marshall_McLuhan" rel="cito:credits">Marshall McLuhan</a>'s tetrad on media effects as a heuristic device, a set of four questions, from the <cite><a href="http://www.worldcat.org/oclc/981396559">Laws of Media</a></cite>:</p>
 
@@ -162,16 +162,16 @@ transform:rotate(-60deg);
 </section>
 
 
-<section id="emergence-of-a-paradigm-shift" rel="schema:hasPart" resource="#emergence-of-a-paradigm-shift">
-  <h2 property="schema:name">Emergence of a paradigm shift in scholarly communication on the Web</h2>
+<section id="emergence-of-a" rel="schema:hasPart" resource="#emergence-of-a-paradigm-shift">
+  <h2 property="schema:name">Emergence of a paradigm</h2>
   <div property="schema:description">
     <p>In order to help us examine the transition from print to electronic (by most measures) we borrow the conceptual framework on paradigm shifts from Thomas Kuhn. While Kuhn's description on how scientific revolutions happen, we focus on the effects of the Web medium which caused the way scientists conduct their everyday activities. The <em>effect</em> preceding <em>cause</em> seems counter-intuitive to most of us, however, it becomes apparent as McLuhan describes. That is, how did the medium influence our scientific environment, and how we are suddenly in the middle of it?</p>
   </div>
 </section>
 
 
-<section id="effects-and-artefacts" rel="schema:hasPart" resource="#effects-and-artefacts">
-  <h2 property="schema:name">Actors and functions of scholarly communication based on the native Web platform</h2>
+<section id="actors-and-function" rel="schema:hasPart" resource="#effects-and-artefacts">
+  <h2 property="schema:name">Actors and functions</h2>
   <div property="schema:description">
     <p>RoosendaalGeurts</p>
     <p>What are the actors and functions of scholarly information on the Web?</p>
