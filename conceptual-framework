@@ -178,13 +178,19 @@ failure to adopt/cultivate
 
 
 <section id="actors-and-function" rel="schema:hasPart" resource="#effects-and-artefacts">
-  <h2 property="schema:name">Actors and functions</h2>
+  <h2 property="schema:name">Actors and Functions</h2>
   <div property="schema:description">
     <p>RoosendaalGeurts</p>
     <p>What are the actors and functions of scholarly information on the Web?</p>
   </div>
 </section>
 
+<section id="deconstructing-scholarly-activities" rel="schema:hasPart" resource="#deconstructing-scholarly-activities">
+  <h2 property="schema:name">Deconstructing Scholarly Activities</h2>
+  <div property="schema:description">
+    <p></p>
+  </div>
+</section>
 
 
 <section id="emergence-of-linked-research" rel="schema:hasPart" resource="#emergence-of-linked-research">
