@@ -190,6 +190,11 @@ failure to adopt/cultivate
 <section id="emergence-of-linked-research" rel="schema:hasPart" resource="#emergence-of-linked-research">
   <h2 property="schema:name">Emergence of Linked Research</h2>
   <div property="schema:description">
+    <blockquote>
+      <p>Choice is an illusion, created between those with power, and those without.</p>
+      <footer><cite>Merovingian, The Matrix Reloaded</cite></footer>
+    </blockquote>
+
     <p>Given the adoption of the medium..</p>
     <p>Given what the medium is capable of..</p>
     <p>Given how the medium tends to be used..</p>
