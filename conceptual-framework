@@ -162,16 +162,16 @@ transform:rotate(-60deg);
 </section>
 
 
-<section id="emergence-of-a-paradigm" rel="schema:hasPart" resource="#emergence-of-a-paradigm-shift">
-  <h2 property="schema:name">Emergence of a paradigm</h2>
+<section id="anticipating-a-paradigm-shift" rel="schema:hasPart" resource="#anticipating-a-paradigm-shift">
+  <h2 property="schema:name">Anticipating a Paradigm Shift</h2>
   <div property="schema:description">
     <p>There has been a increasing trend in transitioning from print to electronic over the course of past decades in how scholars communicate. 
 
      . we borrow the conceptual framework on how <em>paradigms</em>. In the <cite>Structure of Scientific Revolutions</cite>, Kuhn describes...</p>
-
+<p>
      happen, we focus on the effects of the Web medium which caused the way scientists conduct their everyday activities. The <em>effect</em> preceding <em>cause</em> seems counter-intuitive to most of us, however, it becomes apparent as McLuhan describes. That is, how did the medium influence our scientific environment, and how we are suddenly in the middle of it?</p>
 
-failture to adopt/cultivate
+failure to adopt/cultivate
 
   </div>
 </section>
@@ -187,6 +187,21 @@ failture to adopt/cultivate
 
 
 
+<section id="emergence-of-linked-research" rel="schema:hasPart" resource="#emergence-of-linked-research">
+  <h2 property="schema:name">Emergence of Linked Research</h2>
+  <div property="schema:description">
+    <p>Given the adoption of the medium..</p>
+    <p>Given what the medium is capable of..</p>
+    <p>Given how the medium tends to be used..</p>
+    <p>We have not yet used the medium to its full potential..</p>
+
+    <p>What are some of the challenges? How can we address them?</p>
+
+    <p>Linked Research is a conceptual framework that describes how implementations in scholarly communication can interoperate. Its philosophy is influenced by the social machinery to build a knowledge Web for humans, machines</p>
+  </div>
+</section>
+
+
 <section>
   <div>
     <p class="todo">Not sure where this (section) should go</p>
@@ -200,9 +215,6 @@ failture to adopt/cultivate
     </ul>
   </div>
 </section>
-
-
-
 
 <footer>
 <ul>
