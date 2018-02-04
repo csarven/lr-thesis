@@ -171,8 +171,9 @@ transform:rotate(-60deg);
 <p>
      happen, we focus on the effects of the Web medium which caused the way scientists conduct their everyday activities. The <em>effect</em> preceding <em>cause</em> seems counter-intuitive to most of us, however, it becomes apparent as McLuhan describes. That is, how did the medium influence our scientific environment, and how we are suddenly in the middle of it?</p>
 
-failure to adopt/cultivate
+<!-- failure to adopt/cultivate -->
 
+    <p>With respect to the focus of this thesis, scholarly communication on the Web is confronted with the <em>crisis</em> on 1) the inadequacy of the traditional mode of scientific information exchange, and 2) access to and reuse of information</p>
   </div>
 </section>
 
@@ -207,6 +208,8 @@ failure to adopt/cultivate
     <p>We have not yet used the medium to its full potential..</p>
 
     <p>What are some of the challenges? How can we address them?</p>
+
+    <p>We need to detect and analyse information patterns better at the statement/argument level.</p>
 
     <p>What are desirable qualities: design decisions, principles?</p>
     <p>freedom of expression</p>
