@@ -185,6 +185,17 @@ transform:rotate(-60deg);
 </section>
 
 
+<section id="deconstructing-scholarly-information" rel="schema:hasPart" resource="#deconstructing-scholarly-information">
+  <h2 property="schema:name">Deconstructing Scholarly Information</h2>
+  <div property="schema:description">
+    <blockquote>
+      <p>Choice is an illusion, created between those with power, and those without.</p>
+      <footer><cite>Merovingian, The Matrix Reloaded</cite></footer>
+    </blockquote>
+
+  </div>
+</section>
+
 <section id="actors-and-function" rel="schema:hasPart" resource="#effects-and-artefacts">
   <h2 property="schema:name">Actors and Functions</h2>
   <div property="schema:description">
@@ -193,26 +204,20 @@ transform:rotate(-60deg);
   </div>
 </section>
 
-<section id="deconstructing-scholarly-activities" rel="schema:hasPart" resource="#deconstructing-scholarly-activities">
-  <h2 property="schema:name">Deconstructing Scholarly Activities</h2>
-  <div property="schema:description">
-    <p></p>
-  </div>
-</section>
-
 
 <section id="emergence-of-linked-research" rel="schema:hasPart" resource="#emergence-of-linked-research">
   <h2 property="schema:name">Emergence of Linked Research</h2>
   <div property="schema:description">
     <blockquote>
-      <p>Choice is an illusion, created between those with power, and those without.</p>
-      <footer><cite>Merovingian, The Matrix Reloaded</cite></footer>
+      <p><q>You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete</q> – attributed to <cite><a href="https://en.wikipedia.org/wiki/Buckminster_Fuller">Buckminster Fuller</a></cite>.</p>
     </blockquote>
 
     <p>Given the adoption of the medium..</p>
     <p>Given what the medium is capable of..</p>
     <p>Given how the medium tends to be used..</p>
     <p>We have not yet used the medium to its full potential..</p>
+
+    <p>Is this a yet another model?</p>
 
     <p>Even if we are using the Web as an international publishing platform, it is only through the mimicry of the print. <q cite="http://www.worldcat.org/oclc/250420453" title="McLuhan, M. and H. Parker (1968) Through the Vanishing Point: Space in Poetry and Painting. New York: Harper and Row; London: Evanston.">It is not that there is anything wrong with the old environment, but it simply will not serve as navigational guide to the new one.</q>, <cite><a href="https://www.worldcat.org/title/through-the-vanishing-point/oclc/250420453">Through the Vanishing Point: Space in Poetry and Painting</a></cite></p>
 
