@@ -185,8 +185,8 @@ transform:rotate(-60deg);
 </section>
 
 
-<section id="deconstructing-scholarly-information" rel="schema:hasPart" resource="#deconstructing-scholarly-information">
-  <h2 property="schema:name">Deconstructing Scholarly Information</h2>
+<section id="decoupling-scholarly-information" rel="schema:hasPart" resource="#decoupling-scholarly-information">
+  <h2 property="schema:name">Decoupling Scholarly Information</h2>
   <div property="schema:description">
     <blockquote>
       <p>Choice is an illusion, created between those with power, and those without.</p>
@@ -218,6 +218,9 @@ transform:rotate(-60deg);
     <p>We have not yet used the medium to its full potential..</p>
 
     <p>Is this a yet another model?</p>
+
+    <p>Are there idealogical and technology traps?</p>
+    <p>Is there a scope?</p>
 
     <p>Even if we are using the Web as an international publishing platform, it is only through the mimicry of the print. <q cite="http://www.worldcat.org/oclc/250420453" title="McLuhan, M. and H. Parker (1968) Through the Vanishing Point: Space in Poetry and Painting. New York: Harper and Row; London: Evanston.">It is not that there is anything wrong with the old environment, but it simply will not serve as navigational guide to the new one.</q>, <cite><a href="https://www.worldcat.org/title/through-the-vanishing-point/oclc/250420453">Through the Vanishing Point: Space in Poetry and Painting</a></cite></p>
 
@@ -323,17 +326,21 @@ transform:rotate(-60deg);
 </section>
 
 <footer>
-<ul>
-  <li><a href="http://csarven.ca/cooling-down-web-science">Cooling Down Web Science</a></li>
-  <li><a href="http://csarven.ca/enabling-accessible-knowledge">Enabling Accessible Knowledge</a></li>
-  <li><a href="http://csarven.ca/linked-research">Linked Research</a></li>
-  <li><a href="http://csarven.ca/call-for-linked-research">Call for Linked Research</a></li>
-  <li><a href="https://linkedresearch.org/rfc">Linked Research RFC</a></li>
-  <li><a href="http://csarven.ca/linked-research-scholarly-communication">Linked Research: An Approach for Scholarly Communication</a></li>
-  <li><a href="http://csarven.ca/web-science-from-404-to-200">Where is Web Science? From 404 to 200</a></li>
-  <li><a href="http://csarven.ca/dokieli-rww#principles">dokieli-rww principles</a></li>
-</ul>
-<q cite="">Idealogical and Technology Traps</q>
+<dl id="document-derived-from">
+  <dt>Derived From</dt>
+  <dd>
+    <ul>
+      <li><a href="http://csarven.ca/cooling-down-web-science">Cooling Down Web Science</a></li>
+      <li><a href="http://csarven.ca/enabling-accessible-knowledge">Enabling Accessible Knowledge</a></li>
+      <li><a href="http://csarven.ca/linked-research">Linked Research</a></li>
+      <li><a href="http://csarven.ca/call-for-linked-research">Call for Linked Research</a></li>
+      <li><a href="https://linkedresearch.org/rfc">Linked Research RFC</a></li>
+      <li><a href="http://csarven.ca/linked-research-scholarly-communication">Linked Research: An Approach for Scholarly Communication</a></li>
+      <li><a href="http://csarven.ca/web-science-from-404-to-200">Where is Web Science? From 404 to 200</a></li>
+      <li><a href="http://csarven.ca/dokieli-rww#principles">dokieli-rww principles</a></li>
+    </ul>
+  </dd>
+</dl>
 </footer>
         </div>
       </article>
