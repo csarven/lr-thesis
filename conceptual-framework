@@ -205,6 +205,16 @@ transform:rotate(-60deg);
 </section>
 
 
+<section id="open-science" rel="schema:hasPart" resource="#open-science">
+  <h2 property="schema:name">Open Science</h2>
+  <div property="schema:description">
+    <p><q>Open Science</q> is a broadly understood notion that is intended to foster <em>open</em> approach to conducting scientific and scholarly endeavours. While there is no single agreed definition or operation of open science, the conceptual consensus is about improving the practice of scientific communication in a transparent, traceable, verifiable, and reusable manner. A taxonomy by FOSTER for instance proposes the following top level concepts: <q>Open Access, Open Data, Open Reproducible Research, Open Science Definition, Open Science Evaluation, Open Science Guidelines, Open Science Policies, Open Science Projects and Open Science Tools</q> [<a href="http://oro.open.ac.uk/44719/2/kmi_foster_iknow.pdf#page=3" title="Fostering Open Science to Research using a Taxonomy and an eLearning Portal"></a>]. The conceptual framework of this thesis while aligns itself with the open science movement, it is situated in Web-centric universal network-accessible information, by way of adopting and implementing open Web standards in order to enable scientific information to be interoperable, decentralised, human and machine-readable.</p>
+
+    <p>FAIR..</p>
+  </div>
+</section>
+
+
 <section id="emergence-of-linked-research" rel="schema:hasPart" resource="#emergence-of-linked-research">
   <h2 property="schema:name">Emergence of Linked Research</h2>
   <div property="schema:description">
