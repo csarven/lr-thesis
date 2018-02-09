@@ -214,7 +214,7 @@ transform:rotate(-60deg);
 Mention ?
 Universal Declaration of Human Rights, Article 27, http://www.un.org/en/universal-declaration-human-rights/
  -->
-    <p>With respect to scientific data management, the conceptual model can be considered to be an implementation of <cite><a href="https://www.nature.com/articles/sdata201618" title="The FAIR Guiding Principles for scientific data management and stewardship">FAIR Principles</a></cite> (<dfn><abbr title="Findable, Accessible, Interoperable and Reusable">Findable, Accessible, Interoperable and Reusable</abbr></dfn>).</p>
+    <p>With respect to scientific data management, the conceptual model can be considered to be an implementation of the <cite><a href="https://www.nature.com/articles/sdata201618" title="The FAIR Guiding Principles for scientific data management and stewardship">FAIR Principles</a></cite>, which is a guiding principles to facilitate <q>Findable, Accessible, Interoperable and Reusable</q> knowledge discovery for machines.</p>
   </div>
 </section>
 
