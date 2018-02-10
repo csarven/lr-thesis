@@ -207,18 +207,14 @@ transform:rotate(-60deg);
 </section>
 
 
-<section id="open-science" rel="schema:hasPart" resource="#open-science">
-  <h2 property="schema:name">Open Science</h2>
+<section id="science-communication-on-the-web" rel="schema:hasPart" resource="#science-communication-on-the-web">
+  <h2 property="schema:name">Science Communication on the Web</h2>
   <div property="schema:description">
+    <h3>Open Science</h3>
     <p><q>Open Science</q> is a broadly understood notion that is intended to foster <em>open</em> approach to conducting scientific and scholarly endeavours. While there is no single agreed definition or operation of open science, the conceptual consensus is about improving the practice of scientific communication in a transparent, traceable, verifiable, and reusable manner. The <a href="http://oro.open.ac.uk/44719/2/kmi_foster_iknow.pdf#page=3" title="Fostering Open Science to Research using a Taxonomy and an eLearning Portal">Open Science taxonomy</a> by FOSTER for instance proposes the following top level concepts with horizontal coverage: <q>Open Access, Open Data, Open Reproducible Research, Open Science Definition, Open Science Evaluation, Open Science Guidelines, Open Science Policies, Open Science Projects and Open Science Tools</q>. The conceptual framework of this thesis while aligns itself with the open science movement, it is situated in Web-centric universal network-accessible information, by way of adopting and implementing open Web standards in order to enable scientific information to be interoperable, decentralised, human and machine-readable.</p>
 
-<!--
-Mention ?
-Universal Declaration of Human Rights, Article 27, http://www.un.org/en/universal-declaration-human-rights/
- -->
-
+    <h3>Open Access</h3>
     <p>As the work in this thesis has a great deal to do with <em>access</em> to information, we first acknowledge the original <cite><a href="http://www.budapestopenaccessinitiative.org/read">Budapest Open Access Initiative</a></cite> (<abbr title="Budapest Open Access Initiative">BOAI</abbr>):</p>
-
 
     <blockquote cite="http://www.budapestopenaccessinitiative.org/read">
       <p>The literature that should be freely accessible online is that which scholars give to the world without expectation of payment. Primarily, this category encompasses their peer-reviewed journal articles, but it also includes any unreviewed preprints that they might wish to put online for comment or to alert colleagues to important research findings. There are many degrees and kinds of wider and easier access to this literature. By "open access" to this literature, we mean its free availability on the public internet, permitting any users to read, download, copy, distribute, print, search, or link to the full texts of these articles, crawl them for indexing, pass them as data to software, or use them for any other lawful purpose, without financial, legal, or technical barriers other than those inseparable from gaining access to the internet itself. The only constraint on reproduction and distribution, and the only role for copyright in this domain, should be to give authors control over the integrity of their work and the right to be properly acknowledged and cited.</p>
@@ -229,7 +225,33 @@ Universal Declaration of Human Rights, Article 27, http://www.un.org/en/universa
     <p>In order to achieve open access to peer-reviewed scholarly journal literature, BOAI recommends the adoption of two complementary strategies: I. <q>Self-Archiving</q> and II. <q>Open-access Journals</q>. <cite><a href="http://cogprints.org/1642/1/nature4.htm">The Self-archiving initiative</a></cite> is defined as the act of depositing a ..</p>
 
 
+    <h3>Open Archiving</h3>
+    <p><cite><a href="http://www.openarchives.org/">Open Archives Initiative</a></cite>...</p>
+
+
+
+    <h3>Principles and Practices</h3>
+    <p>..</p>
+
+
+    <h4>Universal Declaration of Human Rights</h4>
+    <blockquote>
+      <h5>Article 27.</h5>
+       
+      <p>(1) Everyone has the right freely to participate in the cultural life of the community, to enjoy the arts and to share in scientific advancement and its benefits.</p>
+      <p>(2) Everyone has the right to the protection of the moral and material interests resulting from any scientific, literary or artistic production of which he is the author.</p>
+
+      <footer><cite><a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite>, Article 27</footer>
+    </blockquote>
+
+
+
+    <h4>FAIR Principles</h4>
     <p>With respect to scientific data management, the conceptual model can be considered to be an implementation of the <cite><a href="https://www.nature.com/articles/sdata201618" title="The FAIR Guiding Principles for scientific data management and stewardship">FAIR Principles</a></cite>, which is a guiding principles to facilitate <q>Findable, Accessible, Interoperable and Reusable</q> knowledge discovery for machines.</p>
+
+
+    <h4>Semantic Web</h4>
+    <p>..</p>
   </div>
 </section>
 
