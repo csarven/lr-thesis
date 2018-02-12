@@ -93,7 +93,7 @@ transform:rotate(-60deg);
         <div datatype="rdf:HTML" property="schema:description">
 <section id="understanding-the-medium" rel="schema:hasPart" resource="#understanding-the-medium">
   <h2 property="schema:name">Understanding the Medium; Scholarly Communication on the Web</h2>
-  <div property="schema:description">
+  <div datatype="rdf:HTML" property="schema:description">
     <p>Some context: In the 1967 book, <span about="urn:isbn:9781584230700" typeof="schema:Book"><span rel="owl:sameAs" resource="http://www.worldcat.org/oclc/47679653"></span><a href="http://www.worldcat.org/title/medium-is-the-massage-an-inventory-of-effects/oclc/47679653" rel="schema:url">The Medium is the Massage</a></span>, <cite><a href="https://en.wikipedia.org/wiki/Marshall_McLuhan">Marshall McLuhan</a></cite> wrote that <q about="" cite="http://www.worldcat.org/oclc/47679653" rel="cito:agreesWith" resource="urn:isbn:9781584230700">at the high speeds of electric communication, purely visual means of apprehending the world are no longer possible; they are just too slow to be relevant or effective</q> [<a class="ref" href="#ref-1">1</a>]. While McLuhan’s critique was on the overall position of the print media given the electric age, it stands especially valid today in the age of interactive new media. For instance, the <em class="cool-media">World Wide Web</em> is a <q>cool media</q> because its access, multi-linearity, and interactive possibilities offers multi-sensory and emotional states for individuals. This is in contrast to the <em class="hot-media">print</em>, where it is considered to be a <q>hot media</q> demanding primarily the full attention of our vision. As the printed word’s requirement for the other senses is minimal, it <em>spoon-feeds</em> the content to the reader in a l-i-n-e-a-r <span class="typographic-sine-wave"><span>f</span><span>a</span><span>s</span><span>h</span><span>i</span><span>o</span><span>n</span></span>. The literate or print culture is passive and is detached from immediate involvement because the medium has no such requirements. The cooler media on the other hand, requires a greater level of engagement from the audience at a faster rate. The speed up in media allows us to detect change better and consequently what we do best; pattern recognition.</p>
 
     <p>Modern mediums, like the Web, offers extensible interactions, creative participations, and social engagements. There is a natural human desire to <strong>connect</strong> and <strong>exchange</strong> <a href="https://en.wikipedia.org/wiki/Meme"><em>memes</em></a> with others, as well as to co-create. Given these opportunities, the fundamental question to ask here is, why should research communication be limited to, evaluated by, and rewarded on the archaic methods and artificial practices? The methods in question which are still used date back to the invention of the <a href="https://en.wikipedia.org/wiki/Printing_press">mechanical movable type printing press</a> (circa 1450), even in the advent of the globally accessible medium and <em>villages</em> that are at our fingertips, vocals, and presence, at much faster turnaround time for publication to consumption than ever before. The artificial practices correspond to the publication workflows that are in place for majority of the Web conferences and journals. Naturally one wonders, what does it mean to have an academic achievement through a “publication”? If the Web can be purposed for greater possibilities than that of print alone, then we urgently need to address the question, <em>what constitutes a scholarly article?</em></p>
@@ -117,7 +117,7 @@ transform:rotate(-60deg);
 
 <section id="effects-and-artefacts" rel="schema:hasPart" resource="#effects-and-artefacts">
   <h2 property="schema:name">Effects and artefacts</h2>
-  <div property="schema:description">
+  <div datatype="rdf:HTML" property="schema:description">
     <p>In order to help us understand the effects of the Web on scholarly communication, we can use <a href="http://dbpedia.org/Marshall_McLuhan" rel="cito:credits">McLuhan</a>'s tetrad on media effects as a heuristic device, a set of four questions:</p>
 
     <blockquote id="" rel="cito:includesQuotationFrom" cite="http://www.worldcat.org/oclc/981396559">
@@ -166,7 +166,7 @@ transform:rotate(-60deg);
 
 <section id="anticipating-a-paradigm-shift" rel="schema:hasPart" resource="#anticipating-a-paradigm-shift">
   <h2 property="schema:name">Anticipating a Paradigm Shift</h2>
-  <div property="schema:description">
+  <div datatype="rdf:HTML" property="schema:description">
     <p>There has been a increasing trend in transitioning from print to electronic over the course of past decades in how scholars communicate. 
 
      . we borrow the conceptual framework on how <em>paradigms</em>. In the <cite>Structure of Scientific Revolutions</cite>, Kuhn describes...</p>
@@ -193,9 +193,9 @@ transform:rotate(-60deg);
     </blockquote>
  -->
 
-<section id="actors-and-function" rel="schema:hasPart" resource="#effects-and-artefacts">
+<section id="actors-and-functions" rel="schema:hasPart" resource="#actors-and-functions">
   <h2 property="schema:name">Actors and Functions</h2>
-  <div property="schema:description">
+  <div datatype="rdf:HTML" property="schema:description">
     <p>RoosendaalGeurts</p>
     <p>What are the actors and functions of scholarly information on the Web?</p>
   </div>
@@ -204,7 +204,7 @@ transform:rotate(-60deg);
 
 <section id="science-communication-on-the-web" rel="schema:hasPart" resource="#science-communication-on-the-web">
   <h2 property="schema:name">Science Communication on the Web</h2>
-  <div property="schema:description">
+  <div datatype="rdf:HTML" property="schema:description">
     <h3 id="open-science">Open Science</h3>
     <p><q>Open Science</q> is a broadly understood notion that is intended to foster <em>open</em> approach to conducting scientific and scholarly endeavours. While there is no single agreed definition or operation of open science, the conceptual consensus is about improving the practice of scientific communication in a transparent, traceable, verifiable, and reusable manner. The <a href="http://oro.open.ac.uk/44719/2/kmi_foster_iknow.pdf#page=3" title="Fostering Open Science to Research using a Taxonomy and an eLearning Portal">Open Science taxonomy</a> by FOSTER for instance proposes the following top level concepts with horizontal coverage: <q>Open Access, Open Data, Open Reproducible Research, Open Science Definition, Open Science Evaluation, Open Science Guidelines, Open Science Policies, Open Science Projects and Open Science Tools</q>. The conceptual framework of this thesis while aligns itself with the open science movement, it is situated in Web-centric universal network-accessible information, by way of adopting and implementing open Web standards in order to enable scientific information to be interoperable, decentralised, human and machine-readable.</p>
 
@@ -212,17 +212,16 @@ transform:rotate(-60deg);
     <h3>Deconstruction and Transformation</h3>
     <p>Several movements emerged from 1990s in order to fundamentally transform scholarly communication using the newly available digital network technologies. As the work in this thesis has a great deal to do with lowering the barriers for <em>access</em> to information on the Web, we first acknowledge some of the foundational initiatives:</p>
 
-
     <div id="self-archiving">
       <h4>Self-Archiving</h4>
-      <p>In 1991, recognizing the need for scholars to expedite the exchange of scholarly information, <a href="https://en.wikipedia.org/wiki/Paul_Ginsparg">Paul Ginsparg</a> created the <abbr title="Los Alamos National Laboratory">LANL</abbr> preprint archive for <q>e-prints</q>, a moderated centralised repository where scientists can deposit their articles and have them accessible by anyone, which was a cost-effective solution - with estimates being less than 5 USD per submission for administration - for scholars to disseminate research results quickly [<cite><a href="http://www.cs.cornell.edu/~ginsparg/physics/blurb/pg01unesco.html">Creating a global knowledge network</a></cite>]. Initially started out as a central mailbox, it adopted FTP (1991), Gopher (1992), and finally the WWW (1994). The articles in the repository are not expected to be peer-reviewed, but rather a place where versioned <q>preprints</q> - considered to precede publications that are peer-reviewed - can be accessed for free. In 2001, the LANL preprint archive eventually became what is currently known as <a href="https://arxiv.org/">arXiv</a>. The <cite><a href="https://arxiv.org/help/license">arXiv license information</a></cite> permits different rights and licenses to be assigned to the scholarly records, ie. anything from public domain, Creative Commons licenses, or copyright to the publisher or author, provided that arXiv is given sufficient rights to distribute. The repository accepts submission formats in TeX, PDF, PostScript, and HTML. This sort of institution-run preprint exchange mechanism had the technical ingredients to serve as a substitute for the traditional scholarly journal. From 1991 to 2017, arXiv had a <a href="https://arxiv.org/stats/monthly_submissions">linear increase in submission rate</a> (passing the 1 million mark in 2015, and the rate continuing to increase). arXiv's early success lead to the emergence of the <q>open access</q> movement in 2002.</p>
+      <p>In 1991, recognizing the need for scholars to expedite the exchange of scholarly information, <a href="https://en.wikipedia.org/wiki/Paul_Ginsparg">Paul Ginsparg</a> created the <abbr title="Los Alamos National Laboratory">LANL</abbr> preprint archive for <q>e-prints</q>, a moderated centralised repository where scientists can deposit their articles and have them accessible by anyone, which was a cost-effective solution - with estimates being less than 5 USD per submission for administration - for scholars to disseminate research results quickly [<cite><a href="http://www.cs.cornell.edu/~ginsparg/physics/blurb/pg01unesco.html">Creating a global knowledge network</a></cite>]. Initially started out as a central mailbox, it adopted FTP (1991), Gopher (1992), and finally the WWW (1994). The articles in the repository are not expected to be peer-reviewed, but rather a place where versioned <q>preprints</q> - considered to precede publications that are peer-reviewed - can be accessed for free. In 2001, the LANL preprint archive eventually became what is currently known as <a href="https://arxiv.org/">arXiv</a>. The <cite><a href="https://arxiv.org/help/license">arXiv license information</a></cite> permits different rights and licenses to be assigned to the scholarly records, ie. anything from public domain, Creative Commons licenses, or copyright to the publisher or author, provided that arXiv is given sufficient rights to distribute. The repository accepts submission formats in TeX, PDF, PostScript, and HTML. This sort of disciplinary and institution-run preprint exchange mechanism had the technical ingredients to serve as a substitute for the traditional scholarly journal. From 1991 to 2017, arXiv had a <a href="https://arxiv.org/stats/monthly_submissions">linear increase in submission rate</a> (passing the 1 million mark in 2015, and the rate continuing to increase). arXiv's early success lead to the emergence of the <q>open access</q> movement in 2002.</p>
     </div>
 
 
 
     <div id="open-access">
       <h4>Open Access</h4>
-      <p>The <cite><a href="http://www.budapestopenaccessinitiative.org/read">Budapest Open Access Initiative</a></cite> (<abbr title="Budapest Open Access Initiative">BOAI</abbr>) is based on the principle that publicly funded research output should be available without charge to the consumers of that information:</p>
+      <p>The <cite><a href="http://www.budapestopenaccessinitiative.org/read">Budapest Open Access Initiative</a></cite> (<abbr title="Budapest Open Access Initiative">BOAI</abbr>) is based on the principle that publicly funded research output should be made immediately available without access fees and free from most restrictions on copying and reuse:</p>
 
       <blockquote cite="http://www.budapestopenaccessinitiative.org/read">
         <p>The literature that should be freely accessible online is that which scholars give to the world without expectation of payment. Primarily, this category encompasses their peer-reviewed journal articles, but it also includes any unreviewed preprints that they might wish to put online for comment or to alert colleagues to important research findings. There are many degrees and kinds of wider and easier access to this literature. By "open access" to this literature, we mean its free availability on the public internet, permitting any users to read, download, copy, distribute, print, search, or link to the full texts of these articles, crawl them for indexing, pass them as data to software, or use them for any other lawful purpose, without financial, legal, or technical barriers other than those inseparable from gaining access to the internet itself. The only constraint on reproduction and distribution, and the only role for copyright in this domain, should be to give authors control over the integrity of their work and the right to be properly acknowledged and cited.</p>
@@ -230,7 +229,16 @@ transform:rotate(-60deg);
         <footer><cite><a href="http://www.budapestopenaccessinitiative.org/read">Budapest Open Access Initiative</a></cite>, [Retrieved: 2018-02-10T21:23:20.092Z, Reason: cites as authority]</footer>
       </blockquote>
 
-      <p>In order to open up access to peer-reviewed scholarly journal literature, BOAI recommends the adoption of two complementary strategies for open access (<abbr title="Open Access">OA</abbr>): I. <q>Self-Archiving</q> and II. <q>Open-access Journals</q>. <cite><a href="http://cogprints.org/1642/1/nature4.htm">The Self-archiving initiative</a></cite> is act of depositing a free copy of <q cite="http://www.budapestopenaccessinitiative.org/read">refereed journal articles in open electronic archives</q>. The term <q>self-archiving</q> in context of OA differs from that of the early practices around preprint services in that there was no constraint set for the status of the scholarly literature. As the certification of the scientific article is a prerequisite to the registration and the archive functions of the article, OA can be considered to have a coupled model with respect to the four functions in scholarly communication as defined by Roosendaal and Guerts.</p>
+      <p>In order to open up access to scholarly journal literature, BOAI recommends the adoption of two complementary strategies for open access (<abbr title="Open Access">OA</abbr>): <q id="boai-self-archving">I. Self-Archiving</q> (also called <q>green OA</q>) and <q id="boai-open-access-journals">II. Open-access Journals</q> (also called <q>gold OA</q>). <cite><a href="http://cogprints.org/1642/1/nature4.htm">The Self-archiving initiative</a></cite> is primarily the act of depositing a free copy of <q cite="http://www.budapestopenaccessinitiative.org/read">refereed journal articles in open electronic archives</q>. The self-archiving approach was initially enabled through institutional or disciplinary repositories.</p>
+
+      <div class="note">
+        <h5>Note</h5>
+        <p>The term <q>self-archiving</q> in context of OA differs from that of the early practices around preprint services in that there was no constraint set for the status of the scholarly literature, ie. reviewed or not. For OA-based scientific literature, certification is in mainly a requirement, and is paired with the registration and the archive functions of published article. Hence, OA can be considered to have a coupled model with respect to the <a href="#actors-and-functions">four functions in scholarly communication</a> as defined by Roosendaal and Guerts.</p>
+      </div>
+
+      <p>The foundations of the OA approach was conceived at a time where major revenue models to cover publishing costs for scholarly literature was through subsidies from institutions and journal subscriptions. In this payment model, consumers of the literature were charged either individually or through institutions. In contrast, the <cite>article processing charge</cite> (<abbr title="Article processing charge">APC</abbr>) model for OA requires authors (or their institutions) to pay for the publication costs, thereby waving the costs for the consumers of the literature. The emergence and the ever-growing use of APC model provided a stable revenue stream to <em>publishers</em> [<cite><a href="https://olh.openlibhums.org/articles/10.16995/olh.72/"></a></cite>]. Today, APC is the most widely used method to finance OA publishing, with varying levels of fees 100 to over 3000 USD per article.</p>
+
+      <p>The core approach of this thesis is closer to BOAI-1 than BOAI-2, in that the researcher-centric..</p>
     </div>
 
 
@@ -247,7 +255,8 @@ transform:rotate(-60deg);
     <h3 id="open-archiving">Open Archiving</h3>
     <p>As we can see from different deconstruction methods, archiving is integral...</p>
     <p><cite><a href="http://www.openarchives.org/">Open Archives Initiative</a></cite>...</p>
-
+    <p><cite><a href="http://www.dlib.org/dlib/february00/vandesompel-ups/02vandesompel-ups.html">The UPS Prototype</a></cite></p>
+    <p>http://web.archive.org/web/20000229151223/http://www.openarchives.org:80/ups1-press.htm</p>
 
 
     <h3>Principles and Practices</h3>
@@ -281,7 +290,7 @@ transform:rotate(-60deg);
 
 <section id="emergence-of-linked-research" rel="schema:hasPart" resource="#emergence-of-linked-research">
   <h2 property="schema:name">Emergence of Linked Research</h2>
-  <div property="schema:description">
+  <div datatype="rdf:HTML" property="schema:description">
     <blockquote>
       <p>You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete</p>
       <footer>– attributed to <cite><a href="https://en.wikipedia.org/wiki/Buckminster_Fuller">Buckminster Fuller</a></cite>.</footer>
