@@ -229,7 +229,7 @@ transform:rotate(-60deg);
         <footer><cite><a href="http://www.budapestopenaccessinitiative.org/read">Budapest Open Access Initiative</a></cite>, [Retrieved: 2018-02-10T21:23:20.092Z, Reason: cites as authority]</footer>
       </blockquote>
 
-      <p>In order to open up access to scholarly journal literature, BOAI recommends the adoption of two complementary strategies for open access (<abbr title="Open Access">OA</abbr>): <q id="boai-self-archving">I. Self-Archiving</q> (also called <q>green OA</q>) and <q id="boai-open-access-journals">II. Open-access Journals</q> (also called <q>gold OA</q>). <cite><a href="http://cogprints.org/1642/1/nature4.htm">The Self-archiving initiative</a></cite> is primarily the act of depositing free copies of <q cite="http://www.budapestopenaccessinitiative.org/read">refereed journal articles in open electronic archives</q>. The self-archiving approach was initially enabled through institutional or disciplinary repositories.</p>
+      <p>In order to open up access to scholarly journal literature, BOAI recommends the adoption of two complementary strategies for open access (<abbr title="Open Access">OA</abbr>): <q id="boai-self-archving">I. Self-Archiving</q> (also called <q>green OA</q>) and <q id="boai-open-access-journals">II. Open-access Journals</q> (also called <q>gold OA</q>). <cite><a href="http://cogprints.org/1642/1/nature4.htm">The Self-archiving initiative</a></cite> is primarily the act of depositing free copies of <q cite="http://www.budapestopenaccessinitiative.org/read">refereed journal articles in open electronic archives</q>. The approach for authors self-archiving was initially implemented through institutional or disciplinary repositories.</p>
 
       <div class="note">
         <h5>Note</h5>
@@ -253,7 +253,7 @@ transform:rotate(-60deg);
 
 
     <h3 id="open-archiving">Open Archiving</h3>
-    <p>As we can see from multiple <em>deconstruction</em> models, archives are integral to access as well as preservation of scientific knowledge. To this end, the <a href="http://web.archive.org/web/20000229151223/http://www.openarchives.org/ups1-press.htm">first meeting</a> in 1999 was held to agree on recommendations to <a href="http://www.dlib.org/dlib/february00/vandesompel-ups/02vandesompel-ups.html">address interoperability challenges</a> - such as search and linking - for data across publicly available distributed <em>self-archiving</em> solutions. To promote the global acceptance of interoperable self-archiving implementations, technical recommendations for metadata standards, discovery, retrieval, was taken on by the <cite><a href="http://www.openarchives.org/">Open Archives Initiative</a> (<abbr title="Open Archives Initiative">OAI</abbr>) Organization</cite>.</p>
+    <p>While digital or Web archiving in and itself is not conceptual, but rather a tangible undertaking, it is evident from the <em>deconstruction</em> models that archives are integral to access and preservation of the scientific knowledge for society. To this end, the <a href="http://web.archive.org/web/20000229151223/http://www.openarchives.org/ups1-press.htm">first meeting</a> in 1999 was held to agree on recommendations to <a href="http://www.dlib.org/dlib/february00/vandesompel-ups/02vandesompel-ups.html">address interoperability challenges</a> - such as search and linking - for data across publicly available distributed <em>self-archiving</em> solutions. To promote the global acceptance of self-archiving solutions, and the degree or interoperability being at the heart of its adoption, the development of technical recommendations - for metadata standards, discovery, retrieval - was taken on by the <cite><a href="http://www.openarchives.org/">Open Archives Initiative</a> (<abbr title="Open Archives Initiative">OAI</abbr>) Organization</cite>.</p>
 
 
 
@@ -278,6 +278,8 @@ transform:rotate(-60deg);
     <h4 id="fair-principles">FAIR Principles</h4>
     <p>With respect to scientific data management, the conceptual model can be considered to be an implementation of the <cite><a href="https://www.nature.com/articles/sdata201618" title="The FAIR Guiding Principles for scientific data management and stewardship">FAIR Principles</a></cite>, which is a guiding principles to facilitate <q>Findable, Accessible, Interoperable and Reusable</q> knowledge discovery for machines.</p>
 
+    <h4 id="social-machine">Social Machine</h4>
+    <p>Web science...</p>
 
     <h4 id="web-standards">Web Standards</h4>
     <p>HTTP, HTML, W3C, Semantic Web</p>
