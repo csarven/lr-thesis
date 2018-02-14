@@ -193,16 +193,46 @@ transform:rotate(-60deg);
     </blockquote>
  -->
 
-<section id="actors-and-functions" rel="schema:hasPart" resource="#actors-and-functions">
-  <h2 property="schema:name">Actors and Functions</h2>
+<section id="forces-and-functions" rel="schema:hasPart" resource="#forces-and-functions">
+  <h2 property="schema:name">Forces and Functions</h2>
   <div datatype="rdf:HTML" property="schema:description">
-    <p>RoosendaalGeurts</p>
-    <p>What are the actors and functions of scholarly information on the Web?</p>
+    <p>The scientific communication market is an interplay between researchers (actors) with the objective to exchange units of information - scientific literature, dataset or otherwise. The actors objective is to also use information systems to expose their ideas and findings in the global market so that they can be adopted and adapted. We adopt the analysis provided in <cite><a href="http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html">Forces and functions in scientific communication</a></cite> and situate the conceptual and technical contributions with respect to that. The reason to use this analysis is due to its influence on technical challenges on interoperability, workflows, service sharing, and information modeling, which we'll discuss further <a href="#scientific-communication-on-the-web">scientific communication on the Web</a> and in the remainder of the thesis.</p>
+
+    <p>Roosendaal and Geurts break down the scientific communication market as an interplay between forces and functions, [tetra..], and as follows:</p>
+
+    <h3>Forces</h3>
+    <p>The scientific communication market consists of four forces with each having complementary parts: actors, accessibility, content, and applicability.</p>
+    <dl>
+      <dt>Actor</dt>
+      <dd>Authors (producers) and readers (consumers)</dd>
+      <dt>Accessibility</dt>
+      <dd>Availability and retrievability</dd>
+      <dt>Content</dt>
+      <dd>Questions and answers</dd>
+      <dt>Applicability</dt>
+      <dd>Science and technology</dd>
+    </dl>
+
+
+    <h3>Functions</h3>
+    <p>...</p>
+    <dl>
+      <dt>Registration</dt>
+      <dd>Allows claims of precedence for a scientific </dd>
+      <dt>Awareness</dt>
+      <dd>Remaining informed of the observations</dd>
+      <dt>Certification</dt>
+      <dd>Establishes the validity of registered claims</dd>
+      <dt>Archiving</dt>
+      <dd>Preservation of scholarly records over time</dd>
+    </dl>
+
+    <p>The actor and content forces are generic and internal to the market, and are considered to be indispensable. On the other hand, accessibility and applicability are external forces, are indispensable with respect to the functions.</p>
   </div>
 </section>
 
 
-<section id="science-communication-on-the-web" rel="schema:hasPart" resource="#science-communication-on-the-web">
+<section id="scientific-communication-on-the-web" rel="schema:hasPart" resource="#scientific-communication-on-the-web">
   <h2 property="schema:name">Science Communication on the Web</h2>
   <div datatype="rdf:HTML" property="schema:description">
     <h3 id="open-science">Open Science</h3>
@@ -251,7 +281,7 @@ transform:rotate(-60deg);
     </div>
 
     <h3 id="open-archiving">Open Archiving</h3>
-    <p>While the act of archiving of scholarly records in and itself is not conceptual, ie. rather a tangible undertaking, it is evident from the <em>deconstruction</em> models that archiving is integral to access and preservation of the scientific knowledge for societal use. Scientific communication over the Web is inherently about distributed activities. To this end, the <a href="http://web.archive.org/web/20000229151223/http://www.openarchives.org/ups1-press.htm">first meeting</a> in 1999 was held to agree on recommendations to <a href="http://www.dlib.org/dlib/february00/vandesompel-ups/02vandesompel-ups.html">address interoperability challenges</a> - such as search and linking - for data across publicly available distributed <em>self-archiving</em> solutions. To promote the global acceptance of self-archiving, and the degree or interoperability being at the heart of its adoption, the development of technical recommendations - for metadata standards, discovery, retrieval - was taken on by the <cite><a href="http://www.openarchives.org/">Open Archives Initiative</a> (<abbr title="Open Archives Initiative">OAI</abbr>) Organization</cite>. This lead to the evolution of recommendations such as <cite><a href="http://www.openarchives.org/OAI/openarchivesprotocol.html">OAI-PMH</a></cite> for <q>Protocol for Metadata Harvesting</q>, and its successor <cite><a href="http://www.openarchives.org/rs/resourcesync">ResourceSync</a></cite> as resource synchronization framework for servers, <cite><a href="http://www.openarchives.org/ore/toc">OAI-ORE</a></cite> for <q>Object Reuse and Exchange</q>, and <cite><a href="https://tools.ietf.org/html/rfc7089">Memento</a></cite> which specifies a time dimension to the Web architecture. In the 2015 article, <cite><a href="http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.html">Reminiscing About 15 Years of Interoperability Efforts</a></cite>, authors summarise the lessons learned on interoperability efforts by concluding that a shift from <em>repository-centric</em> to <em>web-centric</em> perspective was essential in order have a viable and sustainable scholarly ecology.</p>
+    <p>While the act of archiving of scholarly records in and itself is not conceptual, ie. rather a tangible undertaking, it is evident from the <em>deconstruction</em> models that archiving is integral to access and preservation of the scientific knowledge for societal use. Scientific communication over the Web is inherently about distributed activities. To this end, the <a href="http://web.archive.org/web/20000229151223/http://www.openarchives.org/ups1-press.htm">first meeting</a> in 1999 was held to agree on recommendations to <a href="http://www.dlib.org/dlib/february00/vandesompel-ups/02vandesompel-ups.html">address interoperability challenges</a> - such as search and linking - for data across publicly available distributed <em>self-archiving</em> solutions. To promote the global acceptance of self-archiving, and interoperability systems being core to its successful adoption, the <cite><a href="http://www.openarchives.org/">Open Archives Initiative</a> (<abbr title="Open Archives Initiative">OAI</abbr>) Organization</cite> was established to take on the development of technical recommendations - for metadata standards, discovery, retrieval. This lead to the evolution of recommendations such as <cite><a href="http://www.openarchives.org/OAI/openarchivesprotocol.html">OAI-PMH</a></cite> for <q>Protocol for Metadata Harvesting</q>, and its successor <cite><a href="http://www.openarchives.org/rs/resourcesync">ResourceSync</a></cite> as resource synchronization framework for servers, <cite><a href="http://www.openarchives.org/ore/toc">OAI-ORE</a></cite> for <q>Object Reuse and Exchange</q>, and <cite><a href="https://tools.ietf.org/html/rfc7089">Memento</a></cite> which specifies a time dimension to the Web architecture. In the 2015 article, <cite><a href="http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.html">Reminiscing About 15 Years of Interoperability Efforts</a></cite>, authors summarise the lessons learned on interoperability efforts by concluding that a shift from <em>repository-centric</em> to <em>web-centric</em> perspective was essential in order have a viable and sustainable scholarly ecology.</p>
 
 
     <h3>Principles and Practices</h3>
