@@ -196,12 +196,14 @@ transform:rotate(-60deg);
 <section id="forces-and-functions" rel="schema:hasPart" resource="#forces-and-functions">
   <h2 property="schema:name">Forces and Functions</h2>
   <div datatype="rdf:HTML" property="schema:description">
-    <p>The scientific communication market is an interplay between researchers (actors) with the objective to exchange units of information - scientific literature, dataset or otherwise. The actors objective is to also use information systems to expose their ideas and findings in the global market so that they can be adopted and adapted. We adopt the analysis provided in <cite><a href="http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html">Forces and functions in scientific communication</a></cite> and situate the conceptual and technical contributions with respect to that. The reason to use this analysis is due to its influence on technical challenges on interoperability, workflows, service sharing, and information modeling, which we'll discuss further <a href="#scientific-communication-on-the-web">scientific communication on the Web</a> and in the remainder of the thesis.</p>
+    <p>The scientific communication market is an interplay between researchers (actors) with the objective to exchange units of communication - scientific literature, dataset, software, interactive knowledge representation or otherwise. An additional objective of the researchers to use information systems to expose their ideas and findings in the global market so that they can be adopted and adapted in our intellectual capital. We adopt the analysis provided in <cite><a href="http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html">Forces and functions in scientific communication</a></cite> and situate the conceptual and technical contributions (in this thesis) with respect to that. The reason to use this analysis is due to its historical influence on research and development pertaining to technical challenges on interoperability, workflows, service sharing, and information modeling, which we'll discuss further <a href="#scientific-communication-on-the-web">scientific communication on the Web</a> and in the remainder of the thesis.</p>
 
-    <p>Roosendaal and Geurts break down the scientific communication market as an interplay between forces and functions, [tetra..], and as follows:</p>
+    <p>Roosendaal and Geurts disassembles the scientific communication market as an interplay between four forces and functions. The dynamics between the forces and functions is formed as a tetrad:</p>
 
     <h3>Forces</h3>
-    <p>The scientific communication market consists of four forces with each having complementary parts: actors, accessibility, content, and applicability.</p>
+
+    <p>The scientific communication market consists of four forces with each having complementary parts: <em>actors</em>, <em>accessibility</em>, <em>content</em>, and <em>applicability</em>.</p>
+
     <dl>
       <dt>Actor</dt>
       <dd>Authors (producers) and readers (consumers)</dd>
@@ -213,12 +215,19 @@ transform:rotate(-60deg);
       <dd>Science and technology</dd>
     </dl>
 
+    <figure>
+      <figcaption>The four forces in the scientific communication market</figcaption>
+    </figure>
+
+
 
     <h3>Functions</h3>
-    <p>...</p>
+
+    <p>The scientific communication consists of four functions: <em>registration</em>, <em>awareness</em>, <em>certification</em>, and <em>archiving</em>.</p>
+
     <dl>
       <dt>Registration</dt>
-      <dd>Allows claims of precedence for a scientific </dd>
+      <dd>Allows claims of precedence for a scientific record</dd>
       <dt>Awareness</dt>
       <dd>Remaining informed of the observations</dd>
       <dt>Certification</dt>
@@ -227,7 +236,16 @@ transform:rotate(-60deg);
       <dd>Preservation of scholarly records over time</dd>
     </dl>
 
-    <p>The actor and content forces are generic and internal to the market, and are considered to be indispensable. On the other hand, accessibility and applicability are external forces, are indispensable with respect to the functions.</p>
+    <figure>
+      <figcaption>The four function of scientific communication</figcaption>
+    </figure>
+
+    <p>The actor and content forces are generic and internal to the market, and are considered to be indispensable. On the other hand, accessibility and applicability are external forces and are indispensable with respect to the functions.</p>
+
+    <p>Registration and archiving are considered to be objective functions in that they are external to the research process. Certification and awareness are subjective communication functions - internal to the research process. Registration and awareness are different aspects of the <em>scientific observations</em>, ie. towards findability, and certification and archiving are aspects of <em>scientific judgement</em>, ie. act as a filtering mechanism in the information space.</p>
+
+
+    <p><cite><a href="http://andrew.treloar.net/research/publications/ipres2014/iPres2014-paper.pdf">A Perspective on Archiving the Scholarly Web</a></cite></p>
   </div>
 </section>
 
