@@ -227,7 +227,7 @@ transform:rotate(-60deg);
 
     <dl>
       <dt>Registration</dt>
-      <dd>Allows claims of precedence for a scientific record</dd>
+      <dd>Allows claims of precedence for a scientific activity</dd>
       <dt>Awareness</dt>
       <dd>Remaining informed of the observations</dd>
       <dt>Certification</dt>
@@ -293,9 +293,7 @@ transform:rotate(-60deg);
 
     <div id="deconstructing-scholarly-journal">
       <h4>Deconstructing Scholarly Journal</h4>
-      <p>Smith 1999..</p>
-
-      <p>Decoupling SJ..</p>
+      <p>In 1999, <cite><a href="http://eprints.rclis.org/5841/1/DJpaper.pdf">The deconstructed journal</a></cite> provides insights on the limitations of the networked-based scholarly publishing models: 1) <q>means/end</q> confusion, where journals continue to mimic or replicate existing mechanisms, 2) overlooking the fundamental purpose or role (<em>functions</em>) of the traditional scholarly journal, 3) no obvious need for the roles to be managed or handled by a centralised organisation, ie. a third-party <q>publisher</q>. The proposed <em>deconstructed journal</em> model is preferable to the <q>paper</q> influenced electronic publishing model in that, the scholarly communication functions can be accomplished in a distributed manner. Here Smith emphasises on allowing greater academic freedom and shifting of power and control from the monolithic third-parties to knowledge producers. To get there, Smith acknowledges that such new paradigm to be in action, professional and funding bodies transition themselves to accept the decoupling and self-controlled literature publishing model as something equivalent to the traditional model.</p>
     </div>
 
     <h3 id="open-archiving">Open Archiving</h3>
