@@ -346,12 +346,14 @@ transform:rotate(-60deg);
       <dd>(Meta)data to optimise the reuse of data with domain-relevant, license, and provenance information.</dd>
     </dl>
 
-    <h4 id="social-machine">Social Machine</h4>
-    <p>Web science...</p>
+    <p>The principles can be applied to create different information spaces. With respect to the <em>four forces and functions</em>, they can describe a class of interactions with a particular technical characteristic in scholarly communication.</p>
+
+    <h4 id="social-web">Social Web</h4>
+    <p>The Web is inherently social. Tim Berners-Lee <q cite="http://worldcat.org/isbn/9780062515872">designed it for a social effect - to help people work together</q>. The Web is a medium that is an implementation of a <q>global village</q> that McLuhan describes. Scholarly communication on the Web happens to be one of the gatherings where different kinds of agents interact, whether they are sentient or something else. The four forces and functions have been realised on the Web.</p>
 
     <h4 id="web-standards">Web Standards</h4>
     <p>HTTP, HTML, W3C, Semantic Web</p>
-    <p>..</p>
+    <p>Ironically, the weakness of the system is also the social centralisation of the Web, for instance with the domain name system which can be brought down or controlled.</p>
   </div>
 </section>
 
