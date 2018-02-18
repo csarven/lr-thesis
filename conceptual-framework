@@ -269,7 +269,7 @@ transform:rotate(-60deg);
 
     <div id="open-access">
       <h4>Open Access</h4>
-      <p>In 1994, Stevan Harnard made a proposal to appeal to the <q>esoteric</q>:</p>
+      <p>In 1994, Stevan Harnad made a proposal to appeal to the <q>esoteric</q>:</p>
 
       <blockquote cite="http://www.arl.org/sc/subversive/i-overture-the-subversive-proposal.shtml">
         <p>It is applicable only to ESOTERIC (non-trade, no-market) scientific and scholarly publication (but that is the lion's share of the academic corpus anyway), namely, that body of work for which the author does not and never has expected to SELL the words. The scholarly author wants only to PUBLISH them, that is, to reach the eyes and minds of peers, fellow esoteric scientists and scholars the world over, so that they can build on one another's contributions in that cumulative. collaborative enterprise called learned inquiry.</p>
@@ -288,12 +288,12 @@ transform:rotate(-60deg);
 
       <div class="note">
         <h5>Note</h5>
-        <p>The term <q>self-archiving</q> in context of OA differs from that of the early practices around preprint services in that there was no constraint set for the status of the scholarly literature, ie. reviewed or not. For OA-based scientific literature, certification and quality-control is a requirement, and is paired with the registration and the archive functions of published article. Hence, OA can be considered to have a coupled model with respect to the <a href="#actors-and-functions">four functions in scholarly communication</a> as defined by Roosendaal and Guerts.</p>
+        <p>The term <q>self-archiving</q> in context of OA differs from that of the early practices around preprint services in that there was no constraint set for the status of the scholarly literature, ie. reviewed or not. For OA-based scientific literature, certification and quality-control is a requirement, and is paired with the registration and the archive functions of a published literature. With that frame of mind, <q>self-archiving</q> was not intended to be an alias to <q>self-publishing</q>. From this end, OA can be considered to have a coupled model with respect to the <a href="#actors-and-functions">four functions in scholarly communication</a> as defined by Roosendaal and Guerts.</p>
       </div>
 
       <p>The foundations of the OA approach was conceived at a time where major revenue models to cover publishing costs for scholarly literature was through subsidies from institutions, journal subscriptions, or pay-per-view. In this payment model, consumers of the literature were charged either individually or through institutions. In contrast, the <cite>article processing charge</cite> (<abbr title="Article processing charge">APC</abbr>) model requires publication costs to be covered upfront, and thereby waving the costs for the consumers of the literature. The emergence and the ever-growing use of APC model provided a stable revenue stream to <em>publishers</em> [<cite><a href="https://olh.openlibhums.org/articles/10.16995/olh.72/"></a></cite>], while the technical infrastructure remained relatively the same, ie. print-centric publication formats still prevail. Today, APC is the most widely used method to finance OA publishing, with varying levels of fees - averaging around 1000 USD per article [<cite><a href="https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-10-124"></a></cite>]).</p>
 
-      <p>The core approach of this thesis is closer to BOAI-1, in that researchers are actively involved in registering, creating awareness, and archiving their scholarly contributions.</p>
+      <p>The core approach of this thesis is closer to BOAI-1, in that researchers are actively involved in registering, creating awareness, and archiving their scholarly contributions by available means.</p>
     </div>
 
 
