@@ -186,12 +186,6 @@ transform:rotate(-60deg);
   </div>
 </section>
 
-<!-- 
-    <blockquote>
-      <p>Choice is an illusion, created between those with power, and those without.</p>
-      <footer><cite>Merovingian, The Matrix Reloaded</cite></footer>
-    </blockquote>
- -->
 
 <section id="forces-and-functions" rel="schema:hasPart" resource="#forces-and-functions">
   <h2 property="schema:name">Forces and Functions</h2>
@@ -253,6 +247,11 @@ transform:rotate(-60deg);
 <section id="scientific-communication-on-the-web" rel="schema:hasPart" resource="#scientific-communication-on-the-web">
   <h2 property="schema:name">Science Communication on the Web</h2>
   <div datatype="rdf:HTML" property="schema:description">
+    <blockquote>
+      <p>Choice is an illusion, created between those with power, and those without.</p>
+      <footer><cite>Merovingian, The Matrix Reloaded</cite></footer>
+    </blockquote>
+
     <h3 id="open-science">Open Science</h3>
     <p><q>Open Science</q> is a broadly understood notion that is intended to foster <em>open</em> approach to conducting scientific and scholarly endeavours. While there is no single agreed definition or operation of open science, the conceptual consensus is about improving the practice of scientific communication in a transparent, traceable, verifiable, and reusable manner. The <a href="http://oro.open.ac.uk/44719/2/kmi_foster_iknow.pdf#page=3" title="Fostering Open Science to Research using a Taxonomy and an eLearning Portal">Open Science taxonomy</a> by FOSTER for instance proposes the following top level concepts with horizontal coverage: <q>Open Access, Open Data, Open Reproducible Research, Open Science Definition, Open Science Evaluation, Open Science Guidelines, Open Science Policies, Open Science Projects and Open Science Tools</q>. The conceptual framework of this thesis while aligns itself with the open science movement, it is situated in Web-centric universal network-accessible information, by way of adopting and implementing open Web standards in order to enable scientific information to be interoperable, decentralised, human and machine-readable.</p>
 
@@ -262,7 +261,7 @@ transform:rotate(-60deg);
 
     <div id="self-archiving">
       <h4>Self-Archiving</h4>
-      <p>In 1991, recognizing the need for scholars to expedite the exchange of scholarly information, <a href="https://en.wikipedia.org/wiki/Paul_Ginsparg">Paul Ginsparg</a> created the <abbr title="Los Alamos National Laboratory">LANL</abbr> preprint archive for <q>e-prints</q>, a moderated centralised repository where scientists can deposit their articles and have them accessible by anyone, which was a cost-effective solution - with estimates being less than 5 USD per submission for administration - for scholars to disseminate research results quickly [<cite><a href="http://www.cs.cornell.edu/~ginsparg/physics/blurb/pg01unesco.html">Creating a global knowledge network</a></cite>]. Initially started out as a central mailbox with an interface, it adopted FTP (1991), Gopher (1992), and finally the WWW (1994). The articles in the repository are not expected to be peer-reviewed, but rather a place where versioned <q>preprints</q> - considered to precede publications that are peer-reviewed - can be accessed for free. In 2001, the LANL preprint archive eventually became what is currently known as <a href="https://arxiv.org/">arXiv</a>. The <cite><a href="https://arxiv.org/help/license">arXiv license information</a></cite> permits different rights and licenses to be assigned to the scholarly records, ie. anything from public domain, Creative Commons licenses, or copyright to the publisher or author, provided that arXiv is given sufficient rights to distribute. The repository accepts submission formats in TeX, PDF, PostScript, and HTML. This sort of <em>discipline-centric</em> and institution-run preprint exchange mechanism had the technical ingredients to serve as a substitute for the traditional scholarly journal. From 1991 to 2017, arXiv had a <a href="https://arxiv.org/stats/monthly_submissions">linear increase in submission rate</a> (passing the 1 million mark in 2015, and the rate continuing to increase). arXiv's early success lead to the emergence of the <q><a href="#open-archiving">open archives initiative</a><q> in 1999, and the <q><a href="#open-access">open access</a></q> movement in 2002.</p>
+      <p>In 1991, recognizing the need for scholars to expedite the exchange of scholarly information, <a href="https://en.wikipedia.org/wiki/Paul_Ginsparg">Paul Ginsparg</a> created the <abbr title="Los Alamos National Laboratory">LANL</abbr> preprint archive for <q>e-prints</q>, a moderated centralised repository where scientists can deposit their articles and have them accessible by anyone, which was a cost-effective solution - with estimates being less than 5 USD per submission for administration - for scholars to disseminate research results quickly [<cite><a href="http://www.cs.cornell.edu/~ginsparg/physics/blurb/pg01unesco.html">Creating a global knowledge network</a></cite>]. Initially started out as a central mailbox with an interface, it adopted FTP (1991), Gopher (1992), and finally the WWW (1994). The articles in the repository are not expected to be peer-reviewed, but rather a place where versioned <q>preprints</q> - considered to precede publications that are peer-reviewed - can be accessed for free. In 2001, the LANL preprint archive eventually became what is currently known as <a href="https://arxiv.org/">arXiv</a>. The <cite><a href="https://arxiv.org/help/license">arXiv license information</a></cite> permits different rights and licenses to be assigned to the scholarly records, ie. anything from public domain, Creative Commons licenses, or copyright to the publisher or author, provided that arXiv is given sufficient rights to distribute. The repository accepts submission formats in TeX, PDF, PostScript, and HTML. This sort of <em>discipline-centric</em> and institution-run preprint exchange mechanism had the technical ingredients to serve as a substitute for the traditional scholarly journal. From 1991 to 2017, arXiv had a <a href="https://arxiv.org/stats/monthly_submissions">linear increase in submission rate</a> (passing the 1 million mark in 2015, and the rate continuing to increase). arXiv's early success lead to the emergence of the <q><a href="#open-archiving">open archives initiative</a></q> in 1999, and the <q><a href="#open-access">open access</a></q> movement in 2002.</p>
     </div>
 
 
@@ -324,7 +323,6 @@ transform:rotate(-60deg);
     <h3>Principles and Practices</h3>
     <p>..</p>
 
-
     <div class="todo">
       <p>Maybe don't bother with this?</p>
       <h4 id="universal-declaration-human-rights">Universal Declaration of Human Rights</h4>
@@ -355,12 +353,39 @@ transform:rotate(-60deg);
 
     <p>The principles can be applied to create different information spaces. With respect to the <em>four forces and functions</em>, they can describe a class of interactions with a particular technical characteristic in scholarly communication.</p>
 
-    <h4 id="social-web">Social Web</h4>
-    <p>The Web is inherently social. Tim Berners-Lee <q cite="http://worldcat.org/isbn/9780062515872">designed it for a social effect - to help people work together</q>. The Web is a medium that is an implementation of a <q>global village</q> that McLuhan describes. Scholarly communication on the Web happens to be one of the gatherings where different kinds of agents interact, whether they are sentient or something else. The four forces and functions have been realised on the Web.</p>
 
-    <h4 id="web-standards">Web Standards</h4>
-    <p>HTTP, HTML, W3C, Semantic Web</p>
-    <p>Ironically, the weakness of the system is also the social centralisation of the Web, for instance with the domain name system which can be brought down or controlled.</p>
+    <h4 id="web-a-social-machine">Web: A Social Machine</h4>
+    <p>The World Wide Web is inherently social. In <cite><a href="http://www.worldcat.org/oclc/729965164" title="Chapter 10: Web of People, p123">Weaving the Web</a></cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> states that he <q cite="http://www.worldcat.org/oclc/729965164">designed it for a social effect – to help people work together – and not as a technical toy</q>. The Web's remarkable growth is fundamentally due to its <em>social</em> characteristics above anything else.</p>
+
+    <aside class="note">
+      <p>Ironically, one of the weaknesses of the system is also the social centralisation of the Web. For instance, the domain name system is ultimately a hierarchical structure where it can be brought down or controlled by an authority; states or people.</p>
+    </aside>
+
+    <p>Berners-Lee mentions that the challenge to create a global system with system rules was to define the basic common rules of protocol for machines to exchange information. Initially this started with the Uniform Resource Identifier (<abbr title="Uniform Resource Identifier">URI</abbr>), the Hypertext Transfer Protocol (<abbr title="Hypertext Transfer Protocol">HTTP</abbr>), and the Hypertext Markup Language (<abbr title="Hypertext Markup Language">HTML</abbr>).</p>
+
+    <p id="the-rule-of-least-power">On designing computer systems and choosing languages, <cite><a about="" rel="cito:agreesWith" href="http://www.w3.org/2001/tag/doc/leastPower.html">The Rule of Least Power</a></cite> by the W3C Technical Architecture Group recommends that <q cite="http://www.w3.org/2001/tag/doc/leastPower.html">when publishing on the Web, you should usually choose the least powerful or most easily analyzed language variant that’s suitable for the purpose</q>. Berners-Lee's also states that declarative is preferable to a procedural language that stores the data in that there is reuse in many ways. For instance, <q about="" rel="cito:agreesWith" resource="http://www.w3.org/DesignIssues/Principles.html#PLP" cite="http://www.w3.org/DesignIssues/Principles.html#PLP">The Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators</q>. HTML for example not only turned out to be simple for people to author, its modularity and extensibility paved the way for many standards and language mixing, eg. CSS, JavaScript, RDFa, SVG, MathML.</p>
+
+    <p><em>Evolvability</em> can be seen as an attribute or a quality of a system, such that the system can survive in the long run. This is especially important when we want to have different publishing systems to be interoperable over time based on new needs. To be more specific, we are seeking to employ technology stacks that are likely to handle extensions and accommodate diverse scenarios for knowledge acquisition in the future. While it is not always clear or easy to predict which technologies will persevere in the future, we can pursue features like simplicity, flexibility, decentralization, interoperability, and tolerance. This line of thinking is expressed in Berners-Lee's Web architecture comments on the <cite><a about="" rel="cito:agreesWith" href="http://www.w3.org/DesignIssues/Evolution.html">Evolution of the Web</a></cite>.</p>
+
+    <blockquote cite="https://www.w3.org/DesignIssues/Axioms.html#Universality">
+      <dl>
+        <dt>Axiom 0: Universality 1</dt>
+        <dd>Any resource anywhere can be given a URI</dd>
+
+        <dt>Axiom 0a: Universality 2</dt>
+        <dd>Any resource of significance should be given a URI.</dd>
+      </dl>
+      <footer><cite><a href="https://www.w3.org/DesignIssues/Axioms.html#Universality" rel="cito:includesQuotationFrom">Universal Resource Identifiers -- Axioms of Web Architecture</a></cite></footer>
+    </blockquote>
+
+    <p>AWWW..</p>
+
+    <p>Semantic Web..</p>
+
+    <p>The Web is a medium that is an implementation of a <q>global village</q> that McLuhan describes through the use of electronic media. The openness of the Web and the ease of <em>involvement</em> for both humans and machines (through common protocols) helped for its great expansion without a particular central point of failure. Scholarly communication on the Web happens to be one of the gatherings where different kinds of agents interact, whether they are sentient or something else. All of the four forces and functions have been realised on the Web.</p>
+
+    <p>The scope of the technologies and standards described in this thesis and the contributions therein is within the context of the Web. There are undoubtedly many exciting initiatives and developments that use Internet protocols which can address many of the same challenges (and maybe even better), however we stick to one of its applications; the Web.</p>
+
   </div>
 </section>
 
@@ -370,7 +395,7 @@ transform:rotate(-60deg);
   <div datatype="rdf:HTML" property="schema:description">
     <blockquote>
       <p>You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete</p>
-      <footer>– attributed to <cite><a href="https://en.wikipedia.org/wiki/Buckminster_Fuller">Buckminster Fuller</a></cite>.</footer>
+      <footer>Attributed to <cite><a href="https://en.wikipedia.org/wiki/Buckminster_Fuller">Buckminster Fuller</a></cite>.</footer>
     </blockquote>
 
     <p>Given the adoption of the medium..</p>
