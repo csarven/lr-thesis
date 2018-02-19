@@ -447,14 +447,6 @@ transform:rotate(-60deg);
           <dt about="#s-paper-article" id="s-paper-article" property="skos:prefLabel" rel="skos:topConceptOf" resource="#framing-our-vocabulary" typeof="skos:Concept"><samp>s/paper/article</samp></dt>
           <dd about="#s-paper-article" datatype="rdf:HTML" property="skos:definition">Researchers create discoverable and accessible Web <em>articles</em> as opposed to documents that mimic <em>papers</em>.</dd>
         </dl>
-
-
-        <div class="note">
-          <h4>Note</h4>
-          <div>
-            <p>We use the lowercase <em>open access</em> term to refer to the network level access which may or may not be authorized. It has no barring on the uppercase <em>Open Access</em>.</p>
-          </div>
-        </div>
       </div>
     </section>
 
