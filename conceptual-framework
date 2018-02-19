@@ -432,6 +432,28 @@ transform:rotate(-60deg);
     <p>The concepts we have discussed so far intersects with the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> initiative.</p>
 
 
+
+    <section id="framing-our-vocabulary" rel="schema:hasPart" resource="#framing-our-vocabulary">
+      <h3 property="schema:name skos:definition">Framing our vocabulary</h3>
+      <div datatype="rdf:HTML" property="schema:description" resource="#framing-our-vocabulary" typeof="skos:ConceptScheme">
+        <p datatype="rdf:HTML" property="skos:definition">It is necessary to commit and exercise a new vocabulary. We should give importance to these new terms because they set a different frame of mind than the terms we have used in the past. Some terms have new defintions and replacements are necessary. We adopt the idea where scholarly calls for <strong>contributions</strong> welcomes researchers to <strong>share</strong> their <strong>articles</strong> with the community.</p>
+
+        <dl rel="skos:hasTopConcept">
+          <dt about="#s-submit-share" id="s-submit-share" property="skos:prefLabel" rel="skos:topConceptOf" resource="#framing-our-vocabulary" typeof="skos:Concept"><samp>s/submit/share</samp></dt>
+          <dd about="#s-submit-share" datatype="rdf:HTML" property="skos:definition">Researchers <em>share</em> their scientific contributions as opposed <em>submit</em>.</dd>
+
+          <dt about="#s-submission-contribution" id="s-submission-contribution" property="skos:prefLabel" rel="skos:topConceptOf" resource="#framing-our-vocabulary" typeof="skos:Concept"><samp>s/submission/contribution</samp></dt>
+          <dd about="#s-submission-contribution" datatype="rdf:HTML" property="skos:definition">Researchers make <em>contributions</em> to the field as opposed to calls receiving <em>submissions</em>.</dd>
+
+          <dt about="#s-paper-article" id="s-paper-article" property="skos:prefLabel" rel="skos:topConceptOf" resource="#framing-our-vocabulary" typeof="skos:Concept"><samp>s/paper/article</samp></dt>
+          <dd about="#s-paper-article" datatype="rdf:HTML" property="skos:definition">Researchers create discoverable and accessible Web <em>articles</em> as opposed to documents that mimic <em>papers</em>.</dd>
+        </dl>
+      </div>
+    </section>
+
+
+
+
     <section id="forces-functions-linked-research">
       <h3 property="schema:name">Forces and functions of Linked Research</h3>
       <div datatype="rdf:HTML" property="schema:description">
