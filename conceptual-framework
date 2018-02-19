@@ -392,7 +392,7 @@ transform:rotate(-60deg);
 
     <p>URIs makes it possible for real or abstract information objects to be identified and referred to. URIs enable machine-readable structured data to be described in a way where related information can be discovered by exercising a <em>follow-your-nose</em> type of exploration.</p>
 
-    <p>The <q>Linked Data</q> design principles is a manifestation of building a <em>Semantic Web</em> where humans and machines can explore the Web of data:</p>
+    <p>This initiative is manifested with the <q>Linked Data</q> design principles towards building a <em>Semantic Web</em> where humans and machines can explore the Web of data:</p>
 
     <blockquote cite="https://www.w3.org/DesignIssues/LinkedData">
       <ol>
