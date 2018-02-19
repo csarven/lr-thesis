@@ -463,15 +463,17 @@ transform:rotate(-60deg);
     <section id="forces-functions-linked-research">
       <h3 property="schema:name">Forces and functions of Linked Research</h3>
       <div datatype="rdf:HTML" property="schema:description">
-        <p>How to fulfil the core functions of scholarly communication using the technical paradigm:</p>
 
         <blockquote cite="https://www.youtube.com/watch?v=o4nUe-6Ln-8">
+          <p>How to fulfil the core functions of scholarly communication using the technical paradigm:</p>
+  
           <ul>
             <li>registration</li>
             <li>certification</li>
             <li>awareness</li>
             <li>archiving</li>
           </ul>
+
           <footer><cite><a href="https://image.slidesharecdn.com/paulevanpeterslecture-171214183046/95/paul-evan-peters-lecture-57-638.jpg">Paul Evan Peters Lecture</a></cite>, Herbert Van de Sompel</footer>
         </blockquote>
 
