@@ -431,8 +431,6 @@ transform:rotate(-60deg);
 
     <p>The concepts we have discussed so far intersects with the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> initiative.</p>
 
-
-
     <section id="framing-our-vocabulary" rel="schema:hasPart" resource="#framing-our-vocabulary">
       <h3 property="schema:name skos:definition">Framing our vocabulary</h3>
       <div datatype="rdf:HTML" property="schema:description" resource="#framing-our-vocabulary" typeof="skos:ConceptScheme">
@@ -542,6 +540,9 @@ transform:rotate(-60deg);
         <aside id="challenges" rel="rdfs:seeAlso" resource="#challenges">
           <h4 property="schema:name">Challenges</h4>
           <div datatype="rdf:HTML" property="schema:description">
+            <p>We are interested in questions like<q>Which scholarly articles are relevant to my research problem?</q>, <q>How can we find and compare the variables of similar hypothesis?</q>, <q>Which other researchers might find my results/output directly useful so I can notify them?</q>, <q>What are some of the unanswered questions or new challenges in a research area?</q>, <q>What are the research gaps?</q>, <q>How do we verify a peer-review and credit the peer-reviewer?</q>, <q>How do we control, store, preserve research?</q>, <q>When do I get my free lunch?</q></p>
+
+
             <p>Example challenges to meet with the <a rel="rdfs:seeAlso" href="#acid-test-assumptions">acid test assumptions</a> in place:</p>
 
             <ul>
