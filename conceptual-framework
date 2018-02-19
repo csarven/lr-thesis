@@ -94,7 +94,7 @@ transform:rotate(-60deg);
 <section id="understanding-the-medium" rel="schema:hasPart" resource="#understanding-the-medium">
   <h2 property="schema:name">Understanding the Medium; Scholarly Communication on the Web</h2>
   <div datatype="rdf:HTML" property="schema:description">
-    <p>Some context: In the 1967 book, <span about="urn:isbn:9781584230700" typeof="schema:Book"><span rel="owl:sameAs" resource="http://www.worldcat.org/oclc/47679653"></span><a href="http://www.worldcat.org/title/medium-is-the-massage-an-inventory-of-effects/oclc/47679653" rel="schema:url">The Medium is the Massage</a></span>, <cite><a href="https://en.wikipedia.org/wiki/Marshall_McLuhan">Marshall McLuhan</a></cite> wrote that <q about="" cite="http://www.worldcat.org/oclc/47679653" rel="cito:agreesWith" resource="urn:isbn:9781584230700">at the high speeds of electric communication, purely visual means of apprehending the world are no longer possible; they are just too slow to be relevant or effective</q> [<a class="ref" href="#ref-1">1</a>]. While McLuhan’s critique was on the overall position of the print media given the electric age, it stands especially valid today in the age of interactive new media. For instance, the <em class="cool-media">World Wide Web</em> is a <q>cool media</q> because its access, multi-linearity, and interactive possibilities offers multi-sensory and emotional states for individuals. This is in contrast to the <em class="hot-media">print</em>, where it is considered to be a <q>hot media</q> demanding primarily the full attention of our vision. As the printed word’s requirement for the other senses is minimal, it <em>spoon-feeds</em> the content to the reader in a l-i-n-e-a-r <span class="typographic-sine-wave"><span>f</span><span>a</span><span>s</span><span>h</span><span>i</span><span>o</span><span>n</span></span>. The literate or print culture is passive and is detached from immediate involvement because the medium has no such requirements. The cooler media on the other hand, requires a greater level of engagement from the audience at a faster rate. The speed up in media allows us to detect change better and consequently what we do best; pattern recognition.</p>
+    <p>Some context: In the 1967 book, <cite><a href="http://www.worldcat.org/oclc/47679653" rel="schema:url">The Medium is the Massage</a></cite>, <a href="https://en.wikipedia.org/wiki/Marshall_McLuhan">Marshall McLuhan</a> wrote that <q about="" cite="http://www.worldcat.org/oclc/47679653" rel="cito:agreesWith" resource="http://www.worldcat.org/oclc/47679653">at the high speeds of electric communication, purely visual means of apprehending the world are no longer possible; they are just too slow to be relevant or effective</q> [<a class="ref" href="#ref-1">1</a>]. While McLuhan’s critique was on the overall position of the print media given the electric age, it stands especially valid today in the age of interactive new media. For instance, the <em class="cool-media">World Wide Web</em> is a <q>cool media</q> because its access, multi-linearity, and interactive possibilities offers multi-sensory and emotional states for individuals. This is in contrast to the <em class="hot-media">print</em>, where it is considered to be a <q>hot media</q> demanding primarily the full attention of our vision. As the printed word’s requirement for the other senses is minimal, it <em>spoon-feeds</em> the content to the reader in a l-i-n-e-a-r <span class="typographic-sine-wave"><span>f</span><span>a</span><span>s</span><span>h</span><span>i</span><span>o</span><span>n</span></span>. The literate or print culture is passive and is detached from immediate involvement because the medium has no such requirements. The cooler media on the other hand, requires a greater level of engagement from the audience at a faster rate. The speed up in media allows us to detect change better and consequently what we do best; pattern recognition.</p>
 
     <p>Modern mediums, like the Web, offers extensible interactions, creative participations, and social engagements. There is a natural human desire to <strong>connect</strong> and <strong>exchange</strong> <a href="https://en.wikipedia.org/wiki/Meme"><em>memes</em></a> with others, as well as to co-create. Given these opportunities, the fundamental question to ask here is, why should research communication be limited to, evaluated by, and rewarded on the archaic methods and artificial practices? The methods in question which are still used date back to the invention of the <a href="https://en.wikipedia.org/wiki/Printing_press">mechanical movable type printing press</a> (circa 1450), even in the advent of the globally accessible medium and <em>villages</em> that are at our fingertips, vocals, and presence, at much faster turnaround time for publication to consumption than ever before. The artificial practices correspond to the publication workflows that are in place for majority of the Web conferences and journals. Naturally one wonders, what does it mean to have an academic achievement through a “publication”? If the Web can be purposed for greater possibilities than that of print alone, then we urgently need to address the question, <em>what constitutes a scholarly contribution?</em></p>
 
@@ -404,21 +404,63 @@ transform:rotate(-60deg);
       <footer><cite><a href="https://www.w3.org/DesignIssues/LinkedData">Linked Data - Design Issues</a></cite></footer>
     </blockquote>
 
+
+<!-- https://www.w3.org/TR/webarch/#general -->
+
+<!--     <p><cite><a href="http://eprints.soton.ac.uk/id/eprint/263347" rel="cito:citesAsAuthority">A Framework for Web Science</a></cite>
+ -->
+
     <p>The Web is a medium that is an implementation of a <q>global village</q> that McLuhan describes through the use of electronic media. The openness of the Web and the ease of <em>involvement</em> for both humans and machines (through common protocols) helped for its great expansion without a particular central point of failure. Scholarly communication on the Web happens to be one of the gatherings where different kinds of agents interact, whether they are sentient or something else. All of the four forces and functions have been realised on the Web.</p>
 
     <p>The scope of the technologies and standards described in this thesis and the contributions therein is within the context of the Web. There are undoubtedly many exciting initiatives and developments that use Internet protocols which can address many of the same challenges (and maybe even better), however we stick to one of its applications; the Web.</p>
-
   </div>
 </section>
 
 
-<section id="emergence-of-linked-research" rel="schema:hasPart" resource="#emergence-of-linked-research">
-  <h2 property="schema:name">Emergence of Linked Research</h2>
+<section id="linked-research" rel="schema:hasPart" resource="#linked-research">
+  <h2 property="schema:name">Linked Research</h2>
   <div datatype="rdf:HTML" property="schema:description">
     <blockquote>
       <p>You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete</p>
       <footer>Attributed to <cite><a href="https://en.wikipedia.org/wiki/Buckminster_Fuller">Buckminster Fuller</a></cite>.</footer>
     </blockquote>
+
+    <!-- <p><em>Linked Research</em> is <q>same, but different</q> to everything we have touched on so far.</p> -->
+
+    <!-- section decentralisation semantic hypermedia  -->
+
+    <p>The concepts we have discussed so far intersects with the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> initiative.</p>
+
+
+    <section id="forces-functions-linked-research">
+      <h3 property="schema:name">Forces and functions of Linked Research</h3>
+      <div datatype="rdf:HTML" property="schema:description">
+        <p>How to fulfil the core functions of scholarly communication using the technical paradigm:</p>
+
+        <blockquote cite="https://www.youtube.com/watch?v=o4nUe-6Ln-8">
+          <ul>
+            <li>registration</li>
+            <li>certification</li>
+            <li>awareness</li>
+            <li>archiving</li>
+          </ul>
+          <footer><cite><a href="https://image.slidesharecdn.com/paulevanpeterslecture-171214183046/95/paul-evan-peters-lecture-57-638.jpg">Paul Evan Peters Lecture</a></cite>, Herbert Van de Sompel</footer>
+        </blockquote>
+
+        <h4>Registration</h4>
+        <p>Self-registers by publishing (article, annotations), archiving, notifying</p>
+
+        <h4>Certification</h4>
+        <p>Annotate, reply to</p>
+
+        <h4>Awareness</h4>
+        <p>Share, Annotation (Outbox), LORC</p>
+
+        <h4>Archiving</h4>
+        <p>Self-registers automatically, archive at</p>
+      </div>
+    </section>
+
 
     <p>Given the adoption of the medium..</p>
     <p>Given what the medium is capable of..</p>
