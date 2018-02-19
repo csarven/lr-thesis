@@ -429,6 +429,7 @@ transform:rotate(-60deg);
 
     <!-- section decentralisation semantic hypermedia  -->
 
+
     <p>The concepts we have discussed so far intersects with the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> initiative.</p>
 
     <section id="framing-our-vocabulary" rel="schema:hasPart" resource="#framing-our-vocabulary">
@@ -491,6 +492,30 @@ transform:rotate(-60deg);
       </div>
     </section>
 
+
+    <section id="desing-principles" rel="schema:hasPart" resource="#design-principles">
+      <h2 property="schema:name">Design Principles</h2>
+      <div datatype="rdf:HTML" property="schema:description" resource="#problem-space" typeof="deo:ProblemStatement">
+        <p>We first outline some of the categories of challenges that remain to be addressed to facilitate a Web-based scholarly communication:</p>
+
+        <dl>
+          <dt id="universal-access">Universal Access</dt>
+          <dd>Accessible to any agent; human or machine at the network level.</dd>
+
+          <dt id="decentralisation">Decentralisation</dt>
+          <dd>Research objects can be anywhere.</dd>
+
+          <dt id="machine-readable-data">Machine-readable data</dt>
+          <dd>Information should be created and used as Linked Data.</dd>
+
+          <dt id="user-experience">User experience</dt>
+          <dd>Scientific contributions should be multimodal, interactive, and social as applicable.</dd>
+
+          <dt id="open-communication">Open communication</dt>
+          <dd>Scientific dialogue is public information.</dd>
+        </dl>
+      </div>
+    </section>
 
     <p>Given the adoption of the medium..</p>
     <p>Given what the medium is capable of..</p>
