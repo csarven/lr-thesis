@@ -434,7 +434,7 @@ transform:rotate(-60deg);
     <section id="framing-our-vocabulary" rel="schema:hasPart" resource="#framing-our-vocabulary">
       <h3 property="schema:name skos:definition">Framing our vocabulary</h3>
       <div datatype="rdf:HTML" property="schema:description" resource="#framing-our-vocabulary" typeof="skos:ConceptScheme">
-        <p datatype="rdf:HTML" property="skos:definition">It is necessary to commit and exercise a new vocabulary. We should give importance to these new terms because they set a different frame of mind than the terms we have used in the past. Some terms have new defintions and replacements are necessary. We adopt the idea where scholarly calls for <strong>contributions</strong> welcomes researchers to <strong>share</strong> their <strong>articles</strong> with the community.</p>
+        <p datatype="rdf:HTML" property="skos:definition">It is necessary to commit and exercise a new vocabulary. We should give importance to these new terms because they set a different frame of mind than the terms we have used in the past. Some terms have new definitions and replacements are necessary. We adopt the idea where scholarly calls for <strong>contributions</strong> welcomes researchers to <strong>share</strong> their <strong>articles</strong> with the community.</p>
 
         <dl rel="skos:hasTopConcept">
           <dt about="#s-submit-share" id="s-submit-share" property="skos:prefLabel" rel="skos:topConceptOf" resource="#framing-our-vocabulary" typeof="skos:Concept"><samp>s/submit/share</samp></dt>
@@ -446,6 +446,14 @@ transform:rotate(-60deg);
           <dt about="#s-paper-article" id="s-paper-article" property="skos:prefLabel" rel="skos:topConceptOf" resource="#framing-our-vocabulary" typeof="skos:Concept"><samp>s/paper/article</samp></dt>
           <dd about="#s-paper-article" datatype="rdf:HTML" property="skos:definition">Researchers create discoverable and accessible Web <em>articles</em> as opposed to documents that mimic <em>papers</em>.</dd>
         </dl>
+
+
+        <div class="note">
+          <h4>Note</h4>
+          <div>
+            <p>We use the lowercase <em>open access</em> term to refer to the network level access which may or may not be authorized. It has no barring on the uppercase <em>Open Access</em>.</p>
+          </div>
+        </div>
       </div>
     </section>
 
