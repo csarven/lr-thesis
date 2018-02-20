@@ -462,6 +462,8 @@ transform:rotate(-60deg);
       <h3 property="schema:name">Forces and functions of Linked Research</h3>
       <div datatype="rdf:HTML" property="schema:description">
 
+        <p>Van de Sompel raised the following question:</p>
+
         <blockquote cite="https://www.youtube.com/watch?v=o4nUe-6Ln-8">
           <p>How to fulfil the core functions of scholarly communication using the technical paradigm:</p>
   
@@ -475,17 +477,19 @@ transform:rotate(-60deg);
           <footer><cite><a href="https://image.slidesharecdn.com/paulevanpeterslecture-171214183046/95/paul-evan-peters-lecture-57-638.jpg">Paul Evan Peters Lecture</a></cite>, Herbert Van de Sompel</footer>
         </blockquote>
 
-        <h4>Registration</h4>
-        <p>Self-registers by publishing (article, annotations), archiving, notifying</p>
+        <div rel="as:inReplyTo" resource="https://image.slidesharecdn.com/paulevanpeterslecture-171214183046/95/paul-evan-peters-lecture-57-638.jpg">
+          <h4>Registration</h4>
+          <p>Self-registers by publishing (article, annotations), archiving, notifying</p>
 
-        <h4>Certification</h4>
-        <p>Annotate, reply to</p>
+          <h4>Certification</h4>
+          <p>Annotate, reply to</p>
 
-        <h4>Awareness</h4>
-        <p>Share, Annotation (Outbox), LORC</p>
+          <h4>Awareness</h4>
+          <p>Share, Annotation (Outbox), LORC</p>
 
-        <h4>Archiving</h4>
-        <p>Self-registers automatically, archive at</p>
+          <h4>Archiving</h4>
+          <p>Self-registers automatically, archive at</p>
+        </div>
       </div>
     </section>
 
