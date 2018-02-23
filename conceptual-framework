@@ -506,7 +506,7 @@ transform:rotate(-60deg);
           <dd>Accessible to any agent; human, machine, or otherwise.</dd>
 
           <dt id="decentralisation">Decentralisation</dt>
-          <dd>Research objects, services, personal social graphs can be anywhere on the Web.</dd>
+          <dd>Research objects, services, personal social graphs can be anywhere on the Web eg. <q>self-registration</q>.</dd>
 
           <dt id="machine-readable-data">Machine-readable data</dt>
           <dd>Information is made available, reused, and remixable as Linked Data.</dd>
@@ -519,6 +519,24 @@ transform:rotate(-60deg);
         </dl>
       </div>
     </section>
+
+
+    <section id="semantic-publishing" rel="schema:hasPart" resource="acid-test">
+      <h3 property="schema:name">Semantic Publishing</h3>
+      <div datatype="rdf:HTML" property="schema:description">
+        <p>One of the shortcomings of the predominant approach of the research publication system is that scientific literature in electronic formats in actuality resemble, mimic, and has similar <em>affordances</em> to printed papers. While the paper-centric approach can be argued to be sufficient for human consumption and reuse, it has been inadequate for machines. The print-centric design's affordances lack formal semantics and structure that could be better discovered, processed, and integrated in which machines excel in, and in turn helping with human tasks.</p>
+
+        <p>The most widely usage of the term <q>semantic publishing</q> in scientific literature and elsewhere is defined in <cite><a href="http://onlinelibrary.wiley.com/store/10.1087/2009202/asset/leap0740.pdf?v=1&amp;t=jdzzr617&amp;s=db0b411177b78a26f03beaec45612e75f160fbfb">Semantic publishing: the coming revolution in scientific journal publishing</a></cite>. Here the term <q>semantic publishing</q> is constrained to <q>anything that enhances the meaning of a published journal article, facilitates its automated discovery, enables its linking to semantically related articles, provides access to data within the article in actionable form, or facilitates integration of data between papers</q>. The authors of <cite><a href="http://www.tkuhn.org/pub/sempub/sempub.dokieli.html">Genuine Semantic Publishing</a></cite> argue that with respect to the Semantic Web vision, this definition is <q>too restrictive and in another way too inclusive</q>.</p>
+
+
+
+        <p>There is more to simply publishing machine-readable scientific data on the Web. Analogous to the <q>FAIR principles</q> as mentioned earlier, data needs to "signal" potential opportunities for <em>reuse</em> in the most general sense, as per <cite><a href="https://www.research.manchester.ac.uk/portal/files/29982854/POST-PEER-REVIEW-NON-PUBLISHERS.PDF">Why Linked Data is Not Enough for Scientists</a></cite>.</p>
+      </div>
+    </section>
+
+
+
+
 
     <p>Given the adoption of the medium..</p>
     <p>Given what the medium is capable of..</p>
@@ -656,6 +674,7 @@ transform:rotate(-60deg);
       <li><a href="http://csarven.ca/linked-research-scholarly-communication">Linked Research: An Approach for Scholarly Communication</a></li>
       <li><a href="http://csarven.ca/web-science-from-404-to-200">Where is Web Science? From 404 to 200</a></li>
       <li><a href="http://csarven.ca/dokieli-rww#principles">dokieli-rww principles</a></li>
+      <li><a href="http://csarven.ca/faipdaaf">Full Article, Immediate, Permanent, Discoverable, and Accessible to Anyone Free of charge</a>
     </ul>
   </dd>
 </dl>
