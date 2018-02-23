@@ -499,24 +499,29 @@ transform:rotate(-60deg);
     <section id="desing-principles" rel="schema:hasPart" resource="#design-principles">
       <h2 property="schema:name">Design Principles</h2>
       <div datatype="rdf:HTML" property="schema:description" resource="#problem-space" typeof="deo:ProblemStatement">
-        <p>We first outline some of the categories of challenges that remain to be addressed to facilitate a Web-based scholarly communication:</p>
+        <p>What are desirable qualities? We first outline some of the categories of challenges that remain to be addressed to facilitate a Web-based scholarly communication:</p>
 
         <dl>
           <dt id="universal-access">Universal Access</dt>
-          <dd>Accessible to any agent; human, machine, or otherwise.</dd>
+          <dd>Accessible to any agent; human, machine, or otherwise. Free culture works.</dd>
 
           <dt id="decentralisation">Decentralisation</dt>
           <dd>Research objects, services, personal social graphs can be anywhere on the Web eg. <q>self-registration</q>.</dd>
 
-          <dt id="machine-readable-data">Machine-readable data</dt>
+          <dt id="machine-readable-data">Machine-readable Data</dt>
           <dd>Information is made available, reused, and remixable as Linked Data.</dd>
 
-          <dt id="user-experience">User experience</dt>
+          <dt id="user-experience">User Experience</dt>
           <dd>Scientific contributions are multimodal, interactive, and social.</dd>
 
-          <dt id="open-communication">Open communication</dt>
+          <dt id="open-communication">Open Communication</dt>
           <dd>Scientific dialogue is public information.</dd>
+
+          <dt id="freedom-of-expression">Freedom of Expression</dt>
+          <dd>...</dd>
         </dl>
+
+        <p>The Web enables anyone to be a <q>publisher</q>. As per the <q>decentralisation</q> design principle, in context of <q>publishing</q>, we solely refer to the <q>registration</q> function, ie. irrespective of any certificaiton or acknowledge on the quality of work. Hence, when a researcher takes the registration initiative, we define that as the <q>self-registration</q>.
       </div>
     </section>
 
@@ -555,12 +560,6 @@ transform:rotate(-60deg);
     <p>What are some of the instabilities or inadequate use of the system? What is missing or could use more development/attentions?</p>
 
     <p>We need to detect and analyse information patterns better at the statement/argument level.</p>
-
-    <p>What are desirable qualities: design decisions, principles?</p>
-    <p>freedom of expression</p>
-    <p>free culture</p>
-    <p>web of things</p>
-
 
     <p>Knowledge tends to get lost if it can't be retrieved, hence it has limited value.</p>
 
