@@ -406,6 +406,7 @@ transform:rotate(-60deg);
       <footer><cite><a href="https://www.w3.org/DesignIssues/LinkedData">Linked Data - Design Issues</a></cite></footer>
     </blockquote>
 
+    <p>The <cite><a href="">Resource Description Framework</a></cite> (<abbr title="Resource Description Framework">RDF</abbr>) is a constructed machine-interpretable <em>language</em>. In essense, statements in RDF have the <em>subject–verb–object</em> sentence structure as per <a href="https://en.wikipedia.org/wiki/Linguistic_typology">linguistic typology</a>. Just to exemplify, we can represent a sentence like <q>Otlet influenced Berners-Lee</q> in one of the formal syntaxes of RDF like <code>&lt;http://dbpedia.org/resource/Paul_Otlet&gt; &lt;http://dbpedia.org/ontology/influenced&gt; &lt;http://dbpedia.org/resource/Tim_Berners-Lee&gt; .</code>. Given that statement, applications can meaningfully interpret, integrate with disparate data, and use the global identifiers to retrieve more information. As far as a machine is concerned, RDF makes it possible to express explicit statements about <em>things</em>.</p>
 
 <!-- https://www.w3.org/TR/webarch/#general -->
 
@@ -526,7 +527,7 @@ transform:rotate(-60deg);
     </section>
 
 
-    <section id="semantic-publishing" rel="schema:hasPart" resource="acid-test">
+    <section id="semantic-publishing" rel="schema:hasPart" resource="semantic-publishing">
       <h3 property="schema:name">Semantic Publishing</h3>
       <div datatype="rdf:HTML" property="schema:description">
         <p>One of the shortcomings of the research publication system is that scientific literature in electronic formats resemble, mimic, and has similar <em>affordances</em> to printed papers. While the paper-centric approach has been adequate - although not necessary efficient - for human consumption and reuse, it has been inadequate for machines. The print-centric design's affordances lack formal semantics and structure that could be better discovered, processed, and integrated in which machines excel in, and in turn helping with human tasks.</p>
