@@ -522,7 +522,7 @@ transform:rotate(-60deg);
           <dd>...</dd>
         </dl>
 
-        <p>The Web enables anyone to be a <q>publisher</q>. As per the <q>decentralisation</q> design principle, in context of <q>publishing</q>, we solely refer to the <q>registration</q> function, ie. irrespective of any certificaiton or acknowledge on the quality of work. Hence, when a researcher takes the registration initiative, we define that as the <q>self-registration</q>.
+        <p>The Web enables anyone to be a <q>publisher</q>. As per the <q>decentralisation</q> design principle, in context of <q>publishing</q>, we solely refer to the <q>registration</q> function, ie. irrespective of any certificaiton or acknowledge on the quality of work. Hence, when a researcher takes the registration initiative, we define that as the <q>self-registration</q>.</p>
       </div>
     </section>
 
@@ -674,7 +674,7 @@ transform:rotate(-60deg);
       <li><a href="http://csarven.ca/linked-research-scholarly-communication">Linked Research: An Approach for Scholarly Communication</a></li>
       <li><a href="http://csarven.ca/web-science-from-404-to-200">Where is Web Science? From 404 to 200</a></li>
       <li><a href="http://csarven.ca/dokieli-rww#principles">dokieli-rww principles</a></li>
-      <li><a href="http://csarven.ca/faipdaaf">Full Article, Immediate, Permanent, Discoverable, and Accessible to Anyone Free of charge</a>
+      <li><a href="http://csarven.ca/faipdaaf">Full Article, Immediate, Permanent, Discoverable, and Accessible to Anyone Free of charge</a></li>
     </ul>
   </dd>
 </dl>
