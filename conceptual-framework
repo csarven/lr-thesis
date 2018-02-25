@@ -544,17 +544,19 @@ transform:rotate(-60deg);
             </ul>
           </dd>
 
-          <dt id="human-and-machine-interpretable">Human and machine-interpretable</dt>
+          <dt id="interpretable-and-interactive">Interpretable and Interactive</dt>
           <dd>
+            <p>Any agent; human, machine, or other.</p>
+
             <p>Information discovery can be automated, shared, reused, and remixed as Linked Data. Scientific contributions are multimodal, interactive, and social.</p>
 
-            <p>Information should be <strong>human and machine-interpretable</strong> in that different interfaces for the media can be available for different kinds of actors. Information discovery  be automated, shared, reused, and remixed as Linked Data.</p>
-
+            <p>Information should be <strong>interpretable and interactive</strong> in that different interfaces for the media can be available for different kinds of agents; human, machine, or other. Information discovery  be automated, shared, reused, and remixed as Linked Data.</p>
+<!--
             <p>Interlinking information, eg. citations, the following is used as a rule of thumb on deciding the URL of the unit of information:</p>
 
             <ul>
               <li>Universally accessible over;</li>
-              <li>Human and machine-interpretable
+              <li>Interpretable
                 <ul>
                   <li>Real content over referring document</li>
                   <li>Machine processable structured data over binary or propriety formats</li>
@@ -562,6 +564,7 @@ transform:rotate(-60deg);
                 </ul>
               </li>
             </ul>
+-->
           </dd>
         </dl>
 
@@ -609,7 +612,7 @@ transform:rotate(-60deg);
 
               <li id="acid-test-assumptions-free-and-open-access" rel="schema:hasPart"><span property="schema:description" about="#acid-test-assumptions-free-and-open-access" typeof="doco:Sentence">Information and interactions are available for free and open access with suitable licensing and attribution for retrieval and reuse.</span></li>
 
-              <li id="acid-test-assumptions-human-and-machine-interpretable" rel="schema:hasPart"><span property="schema:description" about="#acid-test-assumptions-human-and-machine-readable" typeof="doco:Sentence">Information is human and machine-interpretable.</span></li>
+              <li id="acid-test-assumptions-interpretable-and-interactive" rel="schema:hasPart"><span property="schema:description" about="#acid-test-assumptions-interpretable-and-interactive" typeof="doco:Sentence">Information is interpretable or interactive for any agent; human, machine, or other.</span></li>
 
               <li id="acid-test-assumptions-prior-knowledge" rel="schema:hasPart"><span property="schema:description" about="#acid-test-assumptions-prior-knowledge" typeof="doco:Sentence">All interactions are possible without prior out-of-band knowledge of the user’s environment or configuration.</span></li>
             </ul>
