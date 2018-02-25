@@ -406,7 +406,16 @@ transform:rotate(-60deg);
       <footer><cite><a href="https://www.w3.org/DesignIssues/LinkedData">Linked Data - Design Issues</a></cite></footer>
     </blockquote>
 
-    <p>The <cite><a href="">Resource Description Framework</a></cite> (<abbr title="Resource Description Framework">RDF</abbr>) is a constructed machine-interpretable <em>language</em>. In essense, statements in RDF have the <em>subject–verb–object</em> sentence structure as per <a href="https://en.wikipedia.org/wiki/Linguistic_typology">linguistic typology</a>. Just to exemplify, we can represent a sentence like <q>Otlet influenced Berners-Lee</q> in one of the formal syntaxes of RDF like <code>&lt;http://dbpedia.org/resource/Paul_Otlet&gt; &lt;http://dbpedia.org/ontology/influenced&gt; &lt;http://dbpedia.org/resource/Tim_Berners-Lee&gt; .</code>. Given that statement, applications can meaningfully interpret, integrate with disparate data, and use the global identifiers to retrieve more information. As far as a machine is concerned, RDF makes it possible to express explicit statements about <em>things</em>.</p>
+    <p>The <cite><a href="">Resource Description Framework</a></cite> (<abbr title="Resource Description Framework">RDF</abbr>) is a constructed machine-interpretable <em>language</em>. In essense, statements in RDF have the <em>subject–verb–object</em> sentence structure as per <a href="https://en.wikipedia.org/wiki/Linguistic_typology">linguistic typology</a>. Just to have a simple example, we can represent a sentence like "Otlet influenced Berners-Lee" in one of the formal syntaxes of RDF like <samp>&lt;http://dbpedia.org/resource/Paul_Otlet&gt; &lt;http://dbpedia.org/ontology/influenced&gt; &lt;http://dbpedia.org/resource/Tim_Berners-Lee&gt; .</samp>. What's interesting to note here is that each component (from the natural language): subject, verb, and object use URIs in order to signal unambigious equivalents - that's in contrast to telling the machine to figure things about by giving characters "O", "t", "l", "e", "t". Visiting the locations of the URIs can reveal more information which then becomes the <em>subject</em>. So, given that statement, applications can meaningfully interpret, integrate with disparate data without having any out-of-band knowledge, and retrieve more information about the entities and terms. As far as a machine is concerned, RDF makes it possible to express explicit statements about <em>things</em>.</p>
+
+    <div class="note">
+      <h4>Note</h4>
+      <div>
+        <p>We used the term <q>verb</q> which is closest to natural language. In RDF and other languages, the terms <q>property</q>, <q>predicate</q>, or <q>attribute</q> are more common.</p>
+
+        <p><cite><a href="https://en.wikipedia.org/wiki/Natural-language_processing">Natural-language processing</a></cite> is an area of study more concerned with making sense of data that's represented in natural language. That would have a different way of making sense of "Otlet" then we have with the URI for Paul Otlet.</p>
+      </div>
+    </div>
 
 <!-- https://www.w3.org/TR/webarch/#general -->
 
