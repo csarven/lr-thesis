@@ -411,7 +411,7 @@ transform:rotate(-60deg);
     <div class="note">
       <h4>Note</h4>
       <div>
-        <p>We used the term <q>verb</q> which is closest to natural language. In RDF and other languages, the terms <q>property</q>, <q>predicate</q>, or <q>attribute</q> are more common.</p>
+        <p>We used the term <q>verb</q> which is closest to natural language as a jumping point for our example. In RDF, the terms <q>property</q> and <q>predicate</q> are more common. For all intents and purposes, it is equivalent to the term <q>attribute</q> from the <cite><a href="https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model">entity–attribute–value</a></cite> (<abbr title="entity–attribute–value">EAV</abbr>) model.</p>
 
         <p><cite><a href="https://en.wikipedia.org/wiki/Natural-language_processing">Natural-language processing</a></cite> is an area of study more concerned with making sense of data that's represented in natural language. That would have a different way of making sense of "Otlet" then we have with the URI for Paul Otlet.</p>
       </div>
