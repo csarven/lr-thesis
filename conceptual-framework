@@ -482,6 +482,8 @@ transform:rotate(-60deg);
         </blockquote>
 
         <div rel="as:inReplyTo" resource="https://image.slidesharecdn.com/paulevanpeterslecture-171214183046/95/paul-evan-peters-lecture-57-638.jpg">
+          <p>We first approach the functions from the conceptual end of Linked Research. We will revisit these later in the thesis as per technical implementations.</p>
+
           <h4>Registration</h4>
           <p>Self-registers by publishing (article, annotations), archiving, notifying</p>
 
@@ -489,7 +491,7 @@ transform:rotate(-60deg);
           <p>Annotate, reply to</p>
 
           <h4>Awareness</h4>
-          <p>Share, Annotation (Outbox), LORC</p>
+          <p>Share, annotation, outbox, scholarly activity clouds</p>
 
           <h4>Archiving</h4>
           <p>Self-registers automatically, archive at</p>
