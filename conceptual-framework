@@ -541,12 +541,11 @@ transform:rotate(-60deg);
           <li>Universally accessible over;</li>
           <li>Human and machine-readable
             <ul>
-              <li>Real content over a landing documents</li>
-              <li>HTML over PDF</li>
+              <li>Real content over referring document</li>
+              <li>Machine processable structured data over binary or propriety formats</li>
               <li>Deep over document level links</li>
             </ul>
           </li>
-          <li>Archivable over not</li>
         </ul>
 
         <div class="note">
