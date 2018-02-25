@@ -266,8 +266,6 @@ transform:rotate(-60deg);
       <p>In 1991, recognizing the need for scholars to expedite the exchange of scholarly information, <a href="https://en.wikipedia.org/wiki/Paul_Ginsparg">Paul Ginsparg</a> created the <abbr title="Los Alamos National Laboratory">LANL</abbr> preprint archive for <q>e-prints</q>, a moderated centralised repository where scientists can deposit their articles and have them accessible by anyone, which was a cost-effective solution - with estimates being less than 5 USD per submission for administration - for scholars to disseminate research results quickly [<cite><a href="http://www.cs.cornell.edu/~ginsparg/physics/blurb/pg01unesco.html">Creating a global knowledge network</a></cite>]. Initially started out as a central mailbox with an interface, it adopted FTP (1991), Gopher (1992), and finally the WWW (1994). The articles in the repository are not expected to be peer-reviewed, but rather a place where versioned <q>preprints</q> - considered to precede publications that are peer-reviewed - can be accessed for free. In 2001, the LANL preprint archive eventually became what is currently known as <a href="https://arxiv.org/">arXiv</a>. The <cite><a href="https://arxiv.org/help/license">arXiv license information</a></cite> permits different rights and licenses to be assigned to the scholarly records, ie. anything from public domain, Creative Commons licenses, or copyright to the publisher or author, provided that arXiv is given sufficient rights to distribute. The repository accepts submission formats in TeX, PDF, PostScript, and HTML. This sort of <em>discipline-centric</em> and institution-run preprint exchange mechanism had the technical ingredients to serve as a substitute for the traditional scholarly journal. From 1991 to 2017, arXiv had a <a href="https://arxiv.org/stats/monthly_submissions">linear increase in submission rate</a> (passing the 1 million mark in 2015, and the rate continuing to increase). arXiv's early success lead to the emergence of the <q><a href="#open-archiving">open archives initiative</a></q> in 1999, and the <q><a href="#open-access">open access</a></q> movement in 2002.</p>
     </div>
 
-
-
     <div id="open-access">
       <h4>Open Access</h4>
       <p>In 1994, Stevan Harnad made a proposal to appeal to the <q>esoteric</q>:</p>
@@ -297,8 +295,6 @@ transform:rotate(-60deg);
       <p>The core approach of this thesis is closer to BOAI-1, in that researchers are actively involved in registering, creating awareness, and archiving their scholarly contributions by available means.</p>
     </div>
 
-
-
     <div id="deconstructing-scholarly-journal">
       <h4>Deconstructing Scholarly Journal</h4>
       <p>In 1999, <cite><a href="http://eprints.rclis.org/5841/1/DJpaper.pdf">The deconstructed journal – a new model for academic publishing</a></cite> provides insights on the limitations of the networked-based scholarly publishing models:</p>
@@ -321,10 +317,6 @@ transform:rotate(-60deg);
     <h3 id="open-archiving">Open Archiving</h3>
     <p>While the act of archiving of scholarly records in and itself is not conceptual, ie. rather a tangible undertaking, it is evident from the <em>deconstruction</em> models that archiving is integral to access and preservation of the scientific knowledge for societal use. Scientific communication over the Web is inherently about distributed activities. To this end, the <a href="http://web.archive.org/web/20000229151223/http://www.openarchives.org/ups1-press.htm">first meeting</a> in 1999 was held to agree on recommendations to <a href="http://www.dlib.org/dlib/february00/vandesompel-ups/02vandesompel-ups.html">address interoperability challenges</a> - such as search and linking - for data across publicly available distributed <em>self-archiving</em> solutions. To promote the global acceptance of self-archiving, and interoperability systems being core to its successful adoption, the <cite><a href="http://www.openarchives.org/">Open Archives Initiative</a> (<abbr title="Open Archives Initiative">OAI</abbr>) Organization</cite> was established to take on the development of technical recommendations - for metadata standards, discovery, retrieval. This lead to the evolution of recommendations such as <cite><a href="http://www.openarchives.org/OAI/openarchivesprotocol.html">OAI-PMH</a></cite> for <q>Protocol for Metadata Harvesting</q>, and its successor <cite><a href="http://www.openarchives.org/rs/resourcesync">ResourceSync</a></cite> as resource synchronization framework for servers, <cite><a href="http://www.openarchives.org/ore/toc">OAI-ORE</a></cite> for <q>Object Reuse and Exchange</q>, and <cite><a href="https://tools.ietf.org/html/rfc7089">Memento</a></cite> which specifies a time dimension to the Web architecture. In the 2015 article, <cite><a href="http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.html">Reminiscing About 15 Years of Interoperability Efforts</a></cite>, authors summarise the lessons learned on interoperability efforts by concluding that a shift from <em>repository-centric</em> to <em>web-centric</em> perspective was essential in order have a viable and sustainable scholarly ecology.</p>
 
-
-    <h3>Principles and Practices</h3>
-    <p>..</p>
-
     <div class="todo">
       <p>Maybe don't bother with this?</p>
       <h4 id="universal-declaration-human-rights">Universal Declaration of Human Rights</h4>
@@ -339,7 +331,7 @@ transform:rotate(-60deg);
     </div>
 
 
-    <h4 id="fair-principles">FAIR Principles</h4>
+    <h3 id="fair-principles">FAIR Principles</h3>
     <p>The <cite><a href="https://www.nature.com/articles/sdata201618" title="The FAIR Guiding Principles for scientific data management and stewardship">FAIR Principles</a></cite> proposes guiding principles to facilitate <q>Findable, Accessible, Interoperable and Reusable</q> knowledge discovery for machines as well as reuse by individuals.</p>
 
     <dl>
@@ -356,7 +348,7 @@ transform:rotate(-60deg);
     <p>The principles can be applied to create different information spaces. With respect to the <em>four forces and functions</em>, they can describe a class of interactions with a particular technical characteristic in scholarly communication.</p>
 
 
-    <h4 id="web-a-social-machine">Web: A Social Machine</h4>
+    <h3 id="web-a-social-machine">Web: A Social Machine</h3>
     <p>The World Wide Web is inherently social. In <cite><a href="http://www.worldcat.org/oclc/729965164" title="Chapter 10: Web of People, p123">Weaving the Web</a></cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> states that he <q cite="http://www.worldcat.org/oclc/729965164">designed it for a social effect – to help people work together – and not as a technical toy</q>. The Web's remarkable growth is fundamentally due to its <em>social</em> characteristics above anything else.</p>
 
     <aside class="note">
@@ -519,7 +511,7 @@ transform:rotate(-60deg);
           <dd>Research objects, services, personal social graphs can be anywhere on the Web eg. <q>self-registration</q>.</dd>
 
           <dt id="machine-readable-data">Machine-readable Data</dt>
-          <dd>Information is made available, reused, and remixable as Linked Data.</dd>
+          <dd>Information discovery can be automated, shared, reused, and remixed as Linked Data.</dd>
 
           <dt id="user-experience">User Experience</dt>
           <dd>Scientific contributions are multimodal, interactive, and social.</dd>
@@ -531,7 +523,7 @@ transform:rotate(-60deg);
           <dd>...</dd>
         </dl>
 
-        <p>The Web enables anyone to be a <q>publisher</q>. As per the <q>decentralisation</q> design principle, in context of <q>publishing</q>, we solely refer to the <q>registration</q> function, ie. irrespective of any certificaiton or acknowledge on the quality of work. Hence, when a researcher takes the registration initiative, we define that as the <q>self-registration</q>.</p>
+        <p>The Web enables anyone to be a <q>publisher</q>. As per the <q>decentralisation</q> design principle, in context of <q>publishing</q>, we solely refer to the <q>registration</q> function, ie. irrespective of any certification or acknowledgement on the quality of work. Hence, when a researcher initiates registration, we refer to that as <q>self-registration</q>.</p>
       </div>
     </section>
 
