@@ -494,6 +494,9 @@ transform:rotate(-60deg);
         <p>What are desirable qualities? We first outline some of the categories of challenges that remain to be addressed to facilitate a Web-based scholarly communication:</p>
 
         <dl>
+          <dt id="freedom-of-expression">Freedom of Expression</dt>
+          <dd>Articulation of contributions with no interference using any creative means to co-create and co-participate.</dd>
+
           <dt id="universal-access">Universal Access</dt>
           <dd>Accessible to any agent; human, machine, or otherwise. Free culture works.</dd>
 
@@ -508,10 +511,8 @@ transform:rotate(-60deg);
 
           <dt id="open-communication">Open Communication</dt>
           <dd>Scientific dialogue is public information.</dd>
-
-          <dt id="freedom-of-expression">Freedom of Expression</dt>
-          <dd>Articulation of contributions with no interference using any creative means to co-create and co-participate.</dd>
         </dl>
+
 
         <p>As per <strong>universal access</strong> design principle, we inherit:</p>
 
@@ -534,8 +535,32 @@ transform:rotate(-60deg);
           <li><em>free</em> of charge</li>
         </ul>
 
+        <p>On interlinking information, eg. citations, the following is used as a rule of thumb on deciding the URL of the unit of information:</p>
 
-        <p>The Web enables anyone to be a <q>publisher</q>. As per <strong>decentralisation</strong> design principle, in context of <q>publishing</q>, we solely refer to the <q>registration</q> function, ie. irrespective of any certification or acknowledgement on the quality of work. Hence, when a researcher initiates registration, we refer to that as <q>self-registration</q>. The act of <em>self-publishing</em> eg. on own's personal website, is considered to be <em>self-registration</em>. There are no constraints on where units of communication can exist. For instance, authors of an article can have their profiles anywhere on the Web, annotations and notification can created by different users and applications, and stored at different locations.</p>
+        <ul>
+          <li>Universally accessible over;</li>
+          <li>Human and machine-readable
+            <ul>
+              <li>Real content over a landing documents</li>
+              <li>HTML over PDF</li>
+              <li>Deep over document level links</li>
+            </ul>
+          </li>
+          <li>Archivable over not</li>
+        </ul>
+
+        <div class="note">
+          <h4>Note</h4>
+          <div>
+            <p><cite><a href="https://doi.org/">Digital Object Identifier</a></cite> (<abbr title="Digital Object Identifier">DOI</abbr>) is a common handle to identify objects. If DOIs are used for citations, they should refer to the real content whenever possible as opposed to the landing documents about that content which links to the full. Similarly, use the URL of the actual content as opposed to an URL that embeds the content.</p>
+          </div>
+        </div>
+
+
+
+        <p>The Web enables anyone to be a <q>publisher</q>. As per <strong>decentralisation</strong> design principle, in context of <q>publishing</q>, we solely refer to the <q>registration</q> function, ie. irrespective of any certification or acknowledgement on the quality of work. Hence, when a researcher initiates registration, we refer to that as <q>self-registration</q>. The act of <em>self-publishing</em> eg. on own's personal website, is considered to be <em>self-registration</em>. There are no constraints on where units of communication (<q>research objects</q>) can exist on the Web. For instance, authors of an article can have their profiles anywhere on the Web, annotations and notification can created by different users and applications, and stored at different locations.</p>
+
+
 
 
         <p>As per <strong>freedom of expression</strong> design principle, we inherit:</p>
@@ -547,6 +572,7 @@ transform:rotate(-60deg);
 
           <footer><cite><a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite></footer>
         </blockquote>
+
       </div>
     </section>
 
@@ -563,34 +589,6 @@ transform:rotate(-60deg);
         <p>The <q>genuine semantic publishing</q> prescribes the notion of publishing 1) <em>machine interpretable</em> formal representations, 2) having <em>essential coverage</em> of the claims, 3) <em>authenticated</em> by the contributors, 4) be a <em>primary</em> component of the work, and 5) be part of <em>fine-grained</em> and <em>light-weight</em> containers. While this criteria is valuable and can also be exercised by following LR's machine-readable design principle, we do not prescribe it in order to not conflict with the <q>freedom of expression</q> principle. From another perspective, since the <q>genuine</q> criteria ultimately imposes a particular design on <em>semantic publishing</em>, we do not dictate at the conceptual layer.</p>
       </div>
     </section>
-
-
-
-
-
-    <p>Given the adoption of the medium..</p>
-    <p>Given what the medium is capable of..</p>
-    <p>Given how the medium tends to be used..</p>
-    <p>We have not yet used the medium to its full potential..</p>
-
-    <p>Is this a yet another model?</p>
-
-    <p>Are there idealogical and technology traps?</p>
-    <p>Is there a scope?</p>
-
-
-    <p>What are some of the challenges? How can we address them?</p>
-
-    <p>What are some of the instabilities or inadequate use of the system? What is missing or could use more development/attentions?</p>
-
-    <p>We need to detect and analyse information patterns better at the statement/argument level.</p>
-
-    <p>Knowledge tends to get lost if it can't be retrieved, hence it has limited value.</p>
-
-    <p>Linked Research is an attempt to actively break away from mediums that enhances isolationism. Technologies that enable or enhance the social dimensions on the Web for example makes involvement possible.</p>
-
-    <p>Linked Research is a conceptual framework that describes how implementations in scholarly communication can interoperate. Its philosophy is influenced by the social machinery to build a knowledge Web for humans and machines as part of a cooperating system.</p>
-
 
     <section id="acid-test" rel="schema:hasPart" resource="acid-test">
       <h3 property="schema:name">Acid Test</h3>
@@ -665,6 +663,28 @@ transform:rotate(-60deg);
       </div>
     </section>
 
+    <p>Given the adoption of the medium..</p>
+    <p>Given what the medium is capable of..</p>
+    <p>Given how the medium tends to be used..</p>
+    <p>We have not yet used the medium to its full potential.. Hence, LR is not only a set of design principles, but an initiative for actors of the system to use the Web to its full potential.</p>
+
+    <p>Is this a yet another model?</p>
+
+    <p>Are there idealogical and technology traps?</p>
+    <p>Is there a scope?</p>
+    <p>LR is intended to describe Web and researcher-centric scholarly communication.</p>
+
+    <p>What are some of the challenges? How can we address them?</p>
+
+    <p>What are some of the instabilities or inadequate use of the system? What is missing or could use more development/attentions?</p>
+
+    <p>We need to detect and analyse information patterns better at the statement/argument level.</p>
+
+    <p>Knowledge tends to get lost if it can't be retrieved, hence it has limited value.</p>
+
+    <p>Linked Research is an attempt to actively break away from mediums that enhances isolationism. Technologies that enable or enhance the social dimensions on the Web for example makes involvement possible.</p>
+
+    <p>Linked Research is a conceptual framework that describes how implementations in scholarly communication can interoperate. Its philosophy is influenced by the social machinery to build a knowledge Web for humans and machines as part of a cooperating system.</p>
 
   </div>
 </section>
