@@ -104,7 +104,7 @@ transform:rotate(-60deg);
 
     <p>At least within the context of scholastic Web science, it is not only compelling, but crucial for the research community to <em>eat its own dogfood</em> in order to unchain itself from antiquated traditions. A distinction to make here between print-first and Web-first is that it is the environment that influences social consequences, not the technology itself. To start in such endeavor, the primary requirement should be placed on the shoulders of the researchers themselves i.e., to use the mediums and processes that it has created towards technical and social progress. By retaining our focus on enabling researchers we postulate better <strong>access</strong> to knowledge. This is akin to why and how the Web came to be.</p>
 -->
-    <p>Here our intention is not to undermine the values of the print-centric culture, but rather probe alternative mediums in pursuit of adopting their desirable qualities.</p>
+    <p>Here our intention is not to undermine the values of the print-centric culture, but rather probe alternative mediums in pursuit of adopting their desirable qualities. <q cite="http://www.worldcat.org/oclc/250420453" title="McLuhan, M. and H. Parker (1968) Through the Vanishing Point: Space in Poetry and Painting. New York: Harper and Row; London: Evanston.">It is not that there is anything wrong with the old environment, but it simply will not serve as navigational guide to the new one.</q>, <cite><a href="https://www.worldcat.org/title/through-the-vanishing-point/oclc/250420453">Through the Vanishing Point: Space in Poetry and Painting</a></cite></p>
   </div>
 </section>
 
@@ -164,7 +164,7 @@ transform:rotate(-60deg);
 </section>
 
 
-<section id="anticipating-a-paradigm-shift" rel="schema:hasPart" resource="#anticipating-a-paradigm-shift">
+<section id="anticipating-a-paradigm-shift" rel="schema:hasPart" resource="#anticipating-a-paradigm-shift" class="todo">
   <h2 property="schema:name">Anticipating a Paradigm Shift</h2>
   <div datatype="rdf:HTML" property="schema:description">
     <p>There has been a increasing trend in transitioning from print to electronic over the course of past decades in how scholars communicate. 
@@ -316,20 +316,6 @@ transform:rotate(-60deg);
 
     <h3 id="open-archiving">Open Archiving</h3>
     <p>While the act of archiving of scholarly records in and itself is not conceptual, ie. rather a tangible undertaking, it is evident from the <em>deconstruction</em> models that archiving is integral to access and preservation of the scientific knowledge for societal use. Scientific communication over the Web is inherently about distributed activities. To this end, the <a href="http://web.archive.org/web/20000229151223/http://www.openarchives.org/ups1-press.htm">first meeting</a> in 1999 was held to agree on recommendations to <a href="http://www.dlib.org/dlib/february00/vandesompel-ups/02vandesompel-ups.html">address interoperability challenges</a> - such as search and linking - for data across publicly available distributed <em>self-archiving</em> solutions. To promote the global acceptance of self-archiving, and interoperability systems being core to its successful adoption, the <cite><a href="http://www.openarchives.org/">Open Archives Initiative</a> (<abbr title="Open Archives Initiative">OAI</abbr>) Organization</cite> was established to take on the development of technical recommendations - for metadata standards, discovery, retrieval. This lead to the evolution of recommendations such as <cite><a href="http://www.openarchives.org/OAI/openarchivesprotocol.html">OAI-PMH</a></cite> for <q>Protocol for Metadata Harvesting</q>, and its successor <cite><a href="http://www.openarchives.org/rs/resourcesync">ResourceSync</a></cite> as resource synchronization framework for servers, <cite><a href="http://www.openarchives.org/ore/toc">OAI-ORE</a></cite> for <q>Object Reuse and Exchange</q>, and <cite><a href="https://tools.ietf.org/html/rfc7089">Memento</a></cite> which specifies a time dimension to the Web architecture. In the 2015 article, <cite><a href="http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.html">Reminiscing About 15 Years of Interoperability Efforts</a></cite>, authors summarise the lessons learned on interoperability efforts by concluding that a shift from <em>repository-centric</em> to <em>web-centric</em> perspective was essential in order have a viable and sustainable scholarly ecology.</p>
-
-    <div class="todo">
-      <p>Maybe don't bother with this?</p>
-      <h4 id="universal-declaration-human-rights">Universal Declaration of Human Rights</h4>
-      <blockquote>
-        <h5>Article 27.</h5>
-         
-        <p>(1) Everyone has the right freely to participate in the cultural life of the community, to enjoy the arts and to share in scientific advancement and its benefits.</p>
-        <p>(2) Everyone has the right to the protection of the moral and material interests resulting from any scientific, literary or artistic production of which he is the author.</p>
-
-        <footer><cite><a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite>, Article 27</footer>
-      </blockquote>
-    </div>
-
 
     <h3 id="fair-principles">FAIR Principles</h3>
     <p>The <cite><a href="https://www.nature.com/articles/sdata201618" title="The FAIR Guiding Principles for scientific data management and stewardship">FAIR Principles</a></cite> proposes guiding principles to facilitate <q>Findable, Accessible, Interoperable and Reusable</q> knowledge discovery for machines as well as reuse by individuals.</p>
@@ -527,7 +513,18 @@ transform:rotate(-60deg);
           <dd>Articulation of contributions with no interference using any creative means to co-create and co-participate.</dd>
         </dl>
 
-        <p>As per <strong>universal access</strong>, making a unit of information, ie. an <em>article</em> in the most general sense, available as <q>Linked Research</q> would entail the following:</p>
+        <p>As per <strong>universal access</strong> design principle, we inherit article 27 of the <a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite>:</p>
+
+        <blockquote>
+          <h5>Article 27.</h5>
+           
+          <p>(1) Everyone has the right freely to participate in the cultural life of the community, to enjoy the arts and to share in scientific advancement and its benefits.</p>
+          <p>(2) Everyone has the right to the protection of the moral and material interests resulting from any scientific, literary or artistic production of which he is the author.</p>
+
+          <footer><cite><a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite>, Article 27</footer>
+        </blockquote>
+
+        <p>and apply it to units of information, ie. an <em>article</em> in the most general sense, available as <q>Linked Research</q> would entail the following:</p>
 
         <ul>
           <li>the <em>full article</em>; text and media</li>
@@ -537,7 +534,19 @@ transform:rotate(-60deg);
           <li><em>free</em> of charge</li>
         </ul>
 
+
         <p>The Web enables anyone to be a <q>publisher</q>. As per the <strong>decentralisation</strong> design principle, in context of <q>publishing</q>, we solely refer to the <q>registration</q> function, ie. irrespective of any certification or acknowledgement on the quality of work. Hence, when a researcher initiates registration, we refer to that as <q>self-registration</q>. The act of <em>self-publishing</em> eg. on own's personal website, is considered to be <em>self-registration</em>.</p>
+
+
+        <p>As per <strong>freedom of expression</strong> design principle, we inherit and exercise article 19 of the <cite><a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite> that:</p>
+
+        <blockquote>
+          <h5>Article 19.</h5>
+
+          <p>everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.</p>
+
+          <footer><cite><a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite>, Article 19</footer>
+        </blockquote>
       </div>
     </section>
 
@@ -569,7 +578,6 @@ transform:rotate(-60deg);
     <p>Are there idealogical and technology traps?</p>
     <p>Is there a scope?</p>
 
-    <p>Even if we are using the Web as an international publishing platform, it is only through the mimicry of the print. <q cite="http://www.worldcat.org/oclc/250420453" title="McLuhan, M. and H. Parker (1968) Through the Vanishing Point: Space in Poetry and Painting. New York: Harper and Row; London: Evanston.">It is not that there is anything wrong with the old environment, but it simply will not serve as navigational guide to the new one.</q>, <cite><a href="https://www.worldcat.org/title/through-the-vanishing-point/oclc/250420453">Through the Vanishing Point: Space in Poetry and Painting</a></cite></p>
 
     <p>What are some of the challenges? How can we address them?</p>
 
