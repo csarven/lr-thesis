@@ -500,7 +500,7 @@ transform:rotate(-60deg);
           <dt id="decentralisation">Decentralisation</dt>
           <dd>Research objects, services, personal social graphs can be anywhere on the Web eg. <q>self-registration</q>.</dd>
 
-          <dt id="machine-readable-data">Machine-readable Data</dt>
+          <dt id="human-and-machine-readable">Human and machine-readable</dt>
           <dd>Information discovery can be automated, shared, reused, and remixed as Linked Data.</dd>
 
           <dt id="user-experience">User Experience</dt>
@@ -535,7 +535,7 @@ transform:rotate(-60deg);
         </ul>
 
 
-        <p>The Web enables anyone to be a <q>publisher</q>. As per the <strong>decentralisation</strong> design principle, in context of <q>publishing</q>, we solely refer to the <q>registration</q> function, ie. irrespective of any certification or acknowledgement on the quality of work. Hence, when a researcher initiates registration, we refer to that as <q>self-registration</q>. The act of <em>self-publishing</em> eg. on own's personal website, is considered to be <em>self-registration</em>.</p>
+        <p>The Web enables anyone to be a <q>publisher</q>. As per <strong>decentralisation</strong> design principle, in context of <q>publishing</q>, we solely refer to the <q>registration</q> function, ie. irrespective of any certification or acknowledgement on the quality of work. Hence, when a researcher initiates registration, we refer to that as <q>self-registration</q>. The act of <em>self-publishing</em> eg. on own's personal website, is considered to be <em>self-registration</em>. There are no constraints on where units of communication can exist. For instance, authors of an article can have their profiles anywhere on the Web, annotations and notification can created by different users and applications, and stored at different locations.</p>
 
 
         <p>As per <strong>freedom of expression</strong> design principle, we inherit and exercise article 19 of the <cite><a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite> that:</p>
@@ -560,7 +560,7 @@ transform:rotate(-60deg);
 
         <p>There is more to simply publishing machine-readable scientific data on the Web. Analogous to the <q>FAIR principles</q> as mentioned earlier, data needs to "signal" potential opportunities for <em>reuse</em> in the most general sense, as per <cite><a href="https://www.research.manchester.ac.uk/portal/files/29982854/POST-PEER-REVIEW-NON-PUBLISHERS.PDF">Why Linked Data is Not Enough for Scientists</a></cite>.</p>
 
-        <p>The <q>genuine semantic publishing</q> prescribes the notion of publishing 1) <em>machine interpretable</em> formal representations, 2) having <em>essential coverage</em> of the claims, 3) <em>authenticated</em> by the contributors, 4) be a <em>primary</em> component of the work, and 5) be part of <em>fine-grained</em> and <em>light-weight</em> containers. While this criteria is valuable and can also be exercised by following Linked Research machine-readable design principle, we do not prescribe it in order to not conflict with the <q>freedom of expression</q> principle. From another perspective, since the <q>genuine</q> criteria ultimately imposes a particular design on <em>semantic publishing</em>, we do not dictate at the conceptual layer.</p>
+        <p>The <q>genuine semantic publishing</q> prescribes the notion of publishing 1) <em>machine interpretable</em> formal representations, 2) having <em>essential coverage</em> of the claims, 3) <em>authenticated</em> by the contributors, 4) be a <em>primary</em> component of the work, and 5) be part of <em>fine-grained</em> and <em>light-weight</em> containers. While this criteria is valuable and can also be exercised by following LR's machine-readable design principle, we do not prescribe it in order to not conflict with the <q>freedom of expression</q> principle. From another perspective, since the <q>genuine</q> criteria ultimately imposes a particular design on <em>semantic publishing</em>, we do not dictate at the conceptual layer.</p>
       </div>
     </section>
 
