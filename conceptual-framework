@@ -91,6 +91,19 @@ transform:rotate(-60deg);
       <article about="" typeof="schema:Article">
         <h1 property="schema:name">Conceptual Framework for Linked Research</h1>
         <div datatype="rdf:HTML" property="schema:description">
+<section id="probes">
+  <h2 property="schema:name">Probes</h2>
+  <div>
+    <p>Please leave your sense of logic at the door:</p>
+
+    <ul>
+      <li>What are the units of human and machine-readable scholarly information? Why self-publishing and what is it like to actualise? What constitutes a scholarly contribution on the Web? What can be deconstructed? What and at what granularity can information be communicated? What are persistent and permanent artefacts? Where would distributed scholarly information exist, be findable and used?</li>
+      <li>Does scholarly communication on the Web amplify or intensify decentralisation? Or is it the case where scholarly information is easily centralised? How can the workflows in scholarly communication be realised using Web technologies in a decentralised fashion? Do we have the fundamental mechanisms and ability to derive at feasible implementations to adopt a decentralised scholarly Web paradigm?</li>
+      <li>Is there a paradigm shift and what is our situation? What are the effects of social Web on scholars? Are the new forms of involvement revive what was once lost? How can scholars participate and exchange information in a decentralised manner?</li>
+    </ul>
+  </div>
+</section>
+
 <section id="understanding-the-medium" rel="schema:hasPart" resource="#understanding-the-medium">
   <h2 property="schema:name">Understanding the Medium; Scholarly Communication on the Web</h2>
   <div datatype="rdf:HTML" property="schema:description">
@@ -109,15 +122,14 @@ transform:rotate(-60deg);
 </section>
 
 
-<blockquote cite="http://www.worldcat.org/oclc/981396559">
-  <p>All of man's artefacts - whether language, or laws, or ideas and hypotheses, or tools, or clothing, or computers - are extensions of the physical human body or the mind.</p>
-  <footer><cite><a href="http://www.worldcat.org/oclc/981396559">Laws of Media</a></cite>, p. 93</footer>
-</blockquote>
-
-
 <section id="effects-and-artefacts" rel="schema:hasPart" resource="#effects-and-artefacts">
   <h2 property="schema:name">Effects and artefacts</h2>
   <div datatype="rdf:HTML" property="schema:description">
+    <blockquote cite="http://www.worldcat.org/oclc/981396559">
+      <p>All of man's artefacts - whether language, or laws, or ideas and hypotheses, or tools, or clothing, or computers - are extensions of the physical human body or the mind.</p>
+      <footer><cite><a href="http://www.worldcat.org/oclc/981396559">Laws of Media</a></cite>, p. 93</footer>
+    </blockquote>
+
     <p>In order to help us understand the effects of the Web on scholarly communication, we can use <a href="http://dbpedia.org/Marshall_McLuhan" rel="cito:credits">McLuhan</a>'s tetrad on media effects as a heuristic device, a set of four questions:</p>
 
     <blockquote id="" rel="cito:includesQuotationFrom" cite="http://www.worldcat.org/oclc/981396559">
@@ -422,7 +434,7 @@ transform:rotate(-60deg);
     <!-- section decentralisation semantic hypermedia  -->
 
 
-    <p>The concepts we have discussed so far intersects with the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> (<abbr title="Linked Research">LR</abbr>) initiative. LR is a natural emergence in that it shares a common ancestry with the ideas and ideals.</p>
+    <p>The concepts we have discussed so far intersects with the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> (<abbr title="Linked Research">LR</abbr>) initiative. LR is a natural emergence in that it shares a common ancestry with the ideas and ideals. LR is intended to describe a Web and researcher-centric information and interaction space for scientific communication.</p>
 
     <p>As per <cite><a href="https://eprints.soton.ac.uk/id/eprint/263347">A Framework for Web Science</a></cite>, Linked Research can be seen as one way to further the science of decentralised information systems in context of scholarly communication, as well as the the study of <em>Web Science</em> itself.</p>
 
@@ -679,43 +691,38 @@ transform:rotate(-60deg);
         </aside>
       </div>
     </section>
-
-    <p>The Web is capable of offering rich interactions for humans and machines. While scientists have adopted the Web as an ideal medium to exchange knowledge, it is not being used efficiently or optimally due to social and technical reasons. What we can ask is if it is possible to use the medium to its full potential, and discuss whether the <em>effects</em> of that is desirable. We can also consider the consequences of pushing this to the extreme - as per McLuhan's <em>reverses into</em>. LR is not only a set of design principles to shape the technical scholarly communication market, but an initiative to strive to experience the full effects of the Web.</p>
-
-    <p>Linked Research is an attempt to actively break away from mediums that enhances isolationism. Technologies that enable or enhance the social dimensions on the Web for example makes involvement possible.</p>
-
-    <p>Linked Research is a conceptual framework that describes how implementations in scholarly communication can interoperate. Its philosophy is influenced by the social machinery to build a knowledge Web for humans and machines as part of a cooperating system.</p>
-
-
-    <p>Is this a yet another model?</p>
-
-    <p>Are there idealogical and technology traps?</p>
-    <p>What is the scope?</p>
-    <p>What are some of the instabilities or inadequate use of the system? What is missing or could use more development/attentions?</p>
-
-    <p>LR is intended to describe Web and researcher-centric scholarly communication.</p>
-
-    <p>What are some of the challenges? How can we address them?</p>
-
-
-    <p>Knowledge tends to get lost if it can't be retrieved, hence it has limited value.</p>
   </div>
 </section>
 
+    <section id="discussion" rel="schema:hasPart" resource="#discussion">
+      <h2 property="schema:name">Discussion</h2>
+      <div datatype="rdf:HTML" property="schema:description">
+        <p>The Web is capable of offering rich interactions for humans and machines. While scientists have adopted the Web as an ideal medium to exchange knowledge, it is not being used efficiently or optimally due to social and technical reasons. What we can ask is if it is possible to use the medium to its full potential, and observe the <em>effects</em>. We can also consider the consequences of pushing this to the extreme - as per McLuhan's <em>reverses into</em>. LR is not only a set of design principles to shape the technical scholarly communication market, but an initiative to strive to experience the full effects of the Web by adopting what it has to offer. In part, LR is an attempt to actively break away from practices which still enhances isolationism. Technologies that enable or enhance the social dimensions on the Web for example makes involvement possible. The design principles are intended to have that effect.</p>
 
-<section>
-  <div>
-    <p class="todo">Not sure where this (section) should go</p>
+        <p>LR is also a conceptual framework that describes how implementations in scholarly communication can interoperate. Its philosophy is influenced by the social machinery to build a knowledge Web for humans and machines as part of a cooperating system. Knowledge tends to get lost if it can't be retrieved, hence it has limited value. This is particular why a holistic approach to universal access for all agents is an important criteria.</p>
 
-    <p>Some high-level probes.. please leave your sense of logic at the door:</p>
+        <p>Is this LR a yet another model? Not exactly. Its design is in agreement with certain qualities of the existing works and practices in the wild. However, LR looks at the problem space by revisiting the natural characteristics of the medium, and what the actors can utmost use or achieve in context of scientific communication. Arbitrary or artificial barriers are anti-patterns.</p>
 
-    <ul>
-      <li>What are the units of human and machine-readable scholarly information? Why self-publishing and what is it like to actualise? What constitutes a scholarly contribution on the Web? What can be deconstructed? What and at what granularity can information be communicated? What are persistent and permanent artefacts? Where would distributed scholarly information exist, be findable and used?</li>
-      <li>Does scholarly communication on the Web amplify or intensify decentralisation? Or is it the case where scholarly information is easily centralised? How can the workflows in scholarly communication be realised using Web technologies in a decentralised fashion? Do we have the fundamental mechanisms and ability to derive at feasible implementations to adopt a decentralised scholarly Web paradigm?</li>
-      <li>Is there a paradigm shift and what is our situation? What are the effects of social Web on scholars? Are the new forms of involvement revive what was once lost? How can scholars participate and exchange information in a decentralised manner?</li>
-    </ul>
-  </div>
-</section>
+        <p class="todo">Are there idealogical and technology traps? What is the scope? What are some of the instabilities or inadequate use of the system? What is missing or could use more development/attentions?</p>
+
+        <p>Sooner or later we need a strategy to address questions like: <em>What do we aim to accomplish?</em> <em>Who is trying to do it and for the benefit of whom?</em> <em>How do we know whether we are making progress and when we have succeeded?</em></p>
+
+        <p>Potential solutions to these questions and new challenges need to address the connection and the gap between researchers, academic and public institutions, as well as what ends up in the commons. It is not just about researchers making their contributions available on the Web, or about conferences requesting semantically annotated contributions, or operating with transparent peer-review. All of these things must move in combination. However, what cane be executed today:</p>
+
+        <dl>
+          <dt id="working-together-researchers">Researchers</dt>
+          <dd>Researchers take full responsibility of their contributions. This can be at any Webspace they put trust on or have sufficient authority over, eg. personal site, institutions’ student and faculty pages. Making their work as <q>Webby</q> as possible eg. linking their arguments and citations to others', interactive story-telling or experimentation possibilities for their readers. Researchers should take special care to ensure URI persistence and archiving of their work.</dd>
+
+          <dt id="working-together-conferences-and-journals">Conferences and journals</dt>
+          <dd>In person conferences and online journals should encourage and accept research publications which use native Web technologies. Support transparent and attributed peer-review process. Aggregation or proceedings of the events should be machine-friendly and archival measures should be taken in addition to that of researchers.</dd>
+
+          <dt id="working-together-public-institutions">Public institutions</dt>
+          <dd>Given sufficient evidence of the Web Science community’s acknowledgement of research as well as its contributions, eg. peer-reviews, academic institutions should officially acknowledge such work towards academic credit. Libraries should make the community’s output discoverable, catalogued, enriched, among many other things.</dd>
+        </dl>
+
+      </div>
+    </section>
+
 
 <footer>
 <dl id="document-derived-from">
