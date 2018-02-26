@@ -508,6 +508,8 @@ transform:rotate(-60deg);
               <footer><cite><a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite></footer>
             </blockquote>
 
+            <p>The <em>freedom of expression</em> in context of scientific communication does not entail that an actor with a "personal journal" (like a blog post) can expect their works to be treated on equal grounds as a "scientific literature". Here, by <em>freedom of expression</em> we mean that actors should not be subject to arbitrary constraints on how they communicate their contributions with the rest of the world.</p>
+
             <p>It extends the physical, social, psychological, or intellectual function of an <em>actor</em>.</p>
           </dd>
 
@@ -577,6 +579,8 @@ transform:rotate(-60deg);
         </dl>
 
 
+        <p>We argue that (<em>genuine</em>) <em>semantic publishing</em> is only realistically possible if we embrace and apply the LR design principles. If for instance any third-party imposes a specific way to express knowledge, whether it is through file formats and their structure and semantics, or what (meta)data to include or not include, the quality of the communication will suffer. Information loss naturally occurs simply because what the actors wish to convey in their message and how will have to be filtered down in order to solely fit the requirements of the third-party ("publisher").</p>
+
 
 <!--
         <div class="note">
@@ -595,7 +599,7 @@ transform:rotate(-60deg);
       <div datatype="rdf:HTML" property="schema:description">
         <p>One of the shortcomings of the research publication system is that scientific literature in electronic formats resemble, mimic, and has similar <em>affordances</em> to printed papers. While the paper-centric approach has been adequate - although not necessary efficient - for human consumption and reuse, it has been inadequate for machines. The print-centric design's affordances lack formal semantics and structure that could be better discovered, processed, and integrated in which machines excel in, and in turn helping with human tasks.</p>
 
-        <p>The most widely usage of the term <q>semantic publishing</q> in scientific literature and elsewhere is defined in <cite><a href="http://onlinelibrary.wiley.com/store/10.1087/2009202/asset/leap0740.pdf?v=1&amp;t=jdzzr617&amp;s=db0b411177b78a26f03beaec45612e75f160fbfb">Semantic publishing: the coming revolution in scientific journal publishing</a></cite>. Here the term <q>semantic publishing</q> is constrained to <q>anything that enhances the meaning of a published journal article, facilitates its automated discovery, enables its linking to semantically related articles, provides access to data within the article in actionable form, or facilitates integration of data between papers</q>. The authors of <cite><a href="http://www.tkuhn.org/pub/sempub/sempub.dokieli.html">Genuine Semantic Publishing</a></cite> argue that with respect to the Semantic Web vision, this definition is <q>too restrictive</q> in a sense that it is concerned only about narrated information, and <q>too inclusive</q> in that a shallow <em>semantic</em> publication would still qualify - authors argue that this is already an existing practice and does not particularly introduce new or specialised enhancements.</p>
+        <p>The most widely usage of the term <q>semantic publishing</q> in scientific literature and elsewhere is defined in <cite><a href="http://onlinelibrary.wiley.com/store/10.1087/2009202/asset/leap0740.pdf?v=1&amp;t=jdzzr617&amp;s=db0b411177b78a26f03beaec45612e75f160fbfb">Semantic publishing: the coming revolution in scientific journal publishing</a></cite>. Here the term <q>semantic publishing</q> is constrained to <q>anything that enhances the meaning of a published journal article, facilitates its automated discovery, enables its linking to semantically related articles, provides access to data within the article in actionable form, or facilitates integration of data between papers</q>. The authors of <cite><a href="http://www.tkuhn.org/pub/sempub/sempub.dokieli.html">Genuine Semantic Publishing</a></cite> argue that with respect to the Semantic Web vision, this definition is <q>too restrictive</q> in a sense that it is concerned mainly about narrated information, and <q>too inclusive</q> in that a shallow <em>semantic</em> publication would still qualify - authors argue that this is already an existing practice and does not particularly introduce new or specialised enhancements.</p>
 
         <p>There is more to simply publishing machine-readable scientific data on the Web. Analogous to the <q>FAIR principles</q> as mentioned earlier, data needs to "signal" potential opportunities for <em>reuse</em> in the most general sense, as per <cite><a href="https://www.research.manchester.ac.uk/portal/files/29982854/POST-PEER-REVIEW-NON-PUBLISHERS.PDF">Why Linked Data is Not Enough for Scientists</a></cite>.</p>
 
@@ -676,29 +680,25 @@ transform:rotate(-60deg);
       </div>
     </section>
 
-    <p>Given the adoption of the medium..</p>
-    <p>Given what the medium is capable of..</p>
-    <p>Given how the medium tends to be used..</p>
-    <p>We have not yet used the medium to its full potential.. Hence, LR is not only a set of design principles, but an initiative for actors of the system to use the Web to its full potential.</p>
-
-    <p>Is this a yet another model?</p>
-
-    <p>Are there idealogical and technology traps?</p>
-    <p>Is there a scope?</p>
-    <p>LR is intended to describe Web and researcher-centric scholarly communication.</p>
-
-    <p>What are some of the challenges? How can we address them?</p>
-
-    <p>What are some of the instabilities or inadequate use of the system? What is missing or could use more development/attentions?</p>
-
-    <p>We need to detect and analyse information patterns better at the statement/argument level.</p>
-
-    <p>Knowledge tends to get lost if it can't be retrieved, hence it has limited value.</p>
+    <p>The Web is capable of offering rich interactions for humans and machines. While scientists have adopted the Web as an ideal medium to exchange knowledge, it is not being used efficiently or optimally due to social and technical reasons. What we can ask is if it is possible to use the medium to its full potential, and discuss whether the <em>effects</em> of that is desirable. We can also consider the consequences of pushing this to the extreme - as per McLuhan's <em>reverses into</em>. LR is not only a set of design principles to shape the technical scholarly communication market, but an initiative to strive to experience the full effects of the Web.</p>
 
     <p>Linked Research is an attempt to actively break away from mediums that enhances isolationism. Technologies that enable or enhance the social dimensions on the Web for example makes involvement possible.</p>
 
     <p>Linked Research is a conceptual framework that describes how implementations in scholarly communication can interoperate. Its philosophy is influenced by the social machinery to build a knowledge Web for humans and machines as part of a cooperating system.</p>
 
+
+    <p>Is this a yet another model?</p>
+
+    <p>Are there idealogical and technology traps?</p>
+    <p>What is the scope?</p>
+    <p>What are some of the instabilities or inadequate use of the system? What is missing or could use more development/attentions?</p>
+
+    <p>LR is intended to describe Web and researcher-centric scholarly communication.</p>
+
+    <p>What are some of the challenges? How can we address them?</p>
+
+
+    <p>Knowledge tends to get lost if it can't be retrieved, hence it has limited value.</p>
   </div>
 </section>
 
