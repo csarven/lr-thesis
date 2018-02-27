@@ -96,7 +96,7 @@ transform:rotate(-60deg);
   <div>
     <blockquote cite="https://blog.whatwg.org/">
       <p>Please leave your sense of logic at the door, thanks!</p>
-      <footer><p><cite><a href="irc://irc.freenode.net/whatwg">#whatwg</a></p>
+      <footer><p><cite><a href="irc://irc.freenode.net/whatwg">#whatwg</a></cite></p></footer>
     </blockquote>
 
     <ul>
