@@ -530,9 +530,13 @@ transform:rotate(-60deg);
 
           <dt id="decentralisation">Decentralisation</dt>
           <dd>
-            <p>Research objects, services, personal social graphs can be anywhere on the Web eg. <q>self-registration</q>.</p>
+            <p>Given that any social entity that conforms to the requirements of <cite><a href="https://www.w3.org/TR/webarch/#uri-ownership">URI ownership</a></cite>, eg. registration, management, then they are essentially entitled to associate a URI with a resource. It follows that any type of object, eg. scientific literature, <cite>research objects</cite>, personal websites and social graphs, can be made available on the Web provided that the <em>actors</em> place trust and have sufficient control over their URIs. While URI ownership is socially and technically within everyone's reach, putting it into practices paves the way to a more decentralised use of the scientific information space.</p>
 
-            <p>The Web enables anyone to be a <q>publisher</q>.</p>
+            <p>URI ownership is architecturally decentralised in that where a resource is made available from can basically physically exist anywhere in the world. Architectural decentralisation is however ultimately influenced by the political or social centralisation, eg. top-level domains. Depending on the URI, it can be either logically decentralised or centralised - some URIs have compound components such that their interpretation and use relies on different systems, while others are singular and only need to be looked up against the provided interface (based on the characteristics of its scheme).</p>
+
+<!-- <cite><a href="https://web.archive.org/web/20180227163731/https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274">The Meaning of Decentralization</a></cite> -->
+
+            <p>Decentralisation in essence an ultimate technical requirement in order to exercise the <em>freedom of expression</em>. If on the contrary a URI is governed by a third-party, eg. an entity other than the researcher that created the contents of a scientific resource, then the resource is not only subject to change or get removed, but what gets to be expressed is subject to be limited in comparison to if the creators of the scientific resources made it available themselves at their own URI. The absence of intermediaries makes it possible to conduct <q>self-registration</q> with respect to the <q>registration</q> function.</p>
 
             <p>In context of <q>publishing</q>, we solely refer to the <q>registration</q> function, ie. irrespective of any certification or acknowledgement on the quality of work. Hence, when a researcher initiates registration, we refer to that as <q>self-registration</q>. The act of <em>self-publishing</em> eg. on own's personal website, is considered to be <em>self-registration</em>. There are no constraints on where units of communication (<q>research objects</q>) can exist on the Web. For instance, authors of an article can have their profiles anywhere on the Web, annotations and notification can created by different users and applications, and stored at different locations.</p>
 
