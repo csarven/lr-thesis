@@ -100,7 +100,12 @@ transform:rotate(-60deg);
 
         <dl id="document-identifier">
           <dt>Identifier</dt>
-          <dd><a href="https://linkedresearch.org/annotation/csarven.ca/linked-research-conceptual-framework" rel="owl:sameAs">https://linkedresearch.org/annotation/csarven.ca/linked-research-conceptual-framework</a></dd>
+          <dd><a href="https://linkedresearch.org/article/csarven.ca/linked-research-conceptual-framework" rel="owl:sameAs">https://linkedresearch.org/article/csarven.ca/linked-research-conceptual-framework</a></dd>
+        </dl>
+
+        <dl id="document-created">
+          <dt>Created</dt>
+          <dd><time content="2017-09-19T00:00:00Z" datatype="xsd:dateTime" datetime="2017-09-19T00:00:00Z" property="schema:dateCreated">2017-09-19</time></dd>
         </dl>
 
         <dl id="document-published">
@@ -110,7 +115,17 @@ transform:rotate(-60deg);
 
         <dl id="document-modified">
           <dt>Modified</dt>
-          <dd><time content="2018-02-28T00:00:00Z" datatype="xsd:dateTime" datetime="2018-02-28T00:00:00Z" property="schema:dateModified">2017-03-18</time></dd>
+          <dd><time content="2018-02-28T00:00:00Z" datatype="xsd:dateTime" datetime="2018-02-28T00:00:00Z" property="schema:dateModified">2018-02-28</time></dd>
+        </dl>
+
+        <dl id="document-latest-version">
+          <dt>Latest Version</dt>
+          <dd><a href="https://linkedresearch.org/annotation/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b" rel="mem:memento rel:latest-version">https://linkedresearch.org/annotation/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b</a></dd>
+        </dl>
+
+        <dl id="document-timemap">
+          <dt>TimeMap</dt>
+          <dd><a href="https://linkedresearch.org/article/csarven.ca/linked-research-conceptual-framework.timemap" rel="mem:timemap">https://linkedresearch.org/article/csarven.ca/linked-research-conceptual-framework.timemap</a></dd>
         </dl>
 
         <dl id="document-license">
