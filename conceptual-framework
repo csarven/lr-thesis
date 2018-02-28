@@ -582,12 +582,21 @@ transform:rotate(-60deg);
           <dd>
             <p>Any agent; human, machine, or other.</p>
 
-            <p>Information discovery can be automated, shared, reused, and remixed as Linked Data. Scientific contributions are multimodal, interactive, and social.</p>
+            <p>Information should be <strong>interpretable</strong> and <strong>interactive</strong> in that different interfaces for the media can be available for different kinds of agents; human, machine, or other.</p>
 
-            <p>Information should be <strong>interpretable and interactive</strong> in that different interfaces for the media can be available for different kinds of agents; human, machine, or other. Information discovery  be automated, shared, reused, and remixed as Linked Data.</p>
+            <p>Interoperability is at the core of achieving cooperative systems. One widely successful approach to have interoperable systems it through the adoption of <em>open standards</em> for protocols and formats for information exchange. Systems that are interoperable by design have the benefit of interacting with other systems without having prior out-of-band knowledge about them.</p>
 
+            <div class="note">
+              <h4>Note</h4>
+              <div>
+                <p>This can be contrasted with systems and data that conducts <em>post-facto interoperability</em> typically due to propriety designs. For example, given two systems, one system adopts the others' protocol, API, or format, or they build specialised "bridge" in order to communicate. Systems not using open standards or have specialised technological extensions that are only useful within their own environment or procedures are considered to be vendor lock-in.</p>
+              </div>
+            </div>
 
-            <p>Interoperable protocols.. no vendor lock-in</p>
+            <p>In order to have optimal means of discovery, exchanging, and reusing information, systems and data should opt for open standards and widely acknowledged best practices wherever possible. The Linked Data technology stack is one in which includes the essentials to achieve this, and well-suited to fulfill the four functions of scholarly communication on the Web.</p>
+
+            <p>Scientific contributions are multimodal, interactive, and social.</p>
+
 
 <!--
             <p>Interlinking information, eg. citations, the following is used as a rule of thumb on deciding the URL of the unit of information:</p>
