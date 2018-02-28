@@ -2,7 +2,7 @@
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Conceptual Framework - Linked Research Design Issues</title>
+    <title>Linked Research Conceptual Framework</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="media/css/basic.css" media="all" rel="stylesheet" title="Basic" />
     <link href="media/css/thesis.css" media="all" rel="stylesheet alternate" title="Thesis" />
@@ -89,7 +89,55 @@ transform:rotate(-60deg);
   <body about="" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ pimspace: http://www.w3.org/ns/pim/space# cc: https://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# mem: http://mementoweb.org/ns# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ void: http://rdfs.org/ns/void# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# bibo: http://purl.org/ontology/bibo/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio# rel: https://www.w3.org/ns/iana/link-relations/relation#" typeof="schema:CreativeWork sioc:Post prov:Entity">
     <main>
       <article about="" typeof="schema:Article">
-        <h1 property="schema:name">Conceptual Framework for Linked Research</h1>
+        <h1 property="schema:name">Linked Research Conceptual Framework</h1>
+
+        <div id="authors">
+          <dl id="author-name">
+            <dt>Authors</dt>
+            <dd id="Sarven-Capadisli" inlist="" rel="bibo:authorList" resource="http://csarven.ca/#i"><span about="" rel="schema:creator schema:publisher schema:author"><a about="http://csarven.ca/#i" href="http://csarven.ca/" property="schema:name" rel="schema:url" typeof="schema:Person"><span about="http://csarven.ca/#i"><span property="schema:givenName">Sarven</span> <span property="schema:familyName">Capadisli</span></span></a></span><sup>✊</sup></dd>
+          </dl>
+        </div>
+
+        <dl id="document-identifier">
+          <dt>Identifier</dt>
+          <dd><a href="https://linkedresearch.org/annotation/csarven.ca/linked-research-conceptual-framework" rel="owl:sameAs">https://linkedresearch.org/annotation/csarven.ca/linked-research-conceptual-framework</a></dd>
+        </dl>
+
+        <dl id="document-published">
+          <dt>Published</dt>
+          <dd><time content="2017-09-19T00:00:00Z" datatype="xsd:dateTime" datetime="2017-09-19T00:00:00Z" property="schema:datePublished">2017-09-19</time></dd>
+        </dl>
+
+        <dl id="document-modified">
+          <dt>Modified</dt>
+          <dd><time content="2018-02-28T00:00:00Z" datatype="xsd:dateTime" datetime="2018-02-28T00:00:00Z" property="schema:dateModified">2017-03-18</time></dd>
+        </dl>
+
+        <dl id="document-license">
+          <dt>License</dt>
+          <dd><a href="https://creativecommons.org/licenses/by/4.0/" rel="schema:license" title="Creative Commons Attribution 4.0 Unported">CC BY 4.0</a></dd>
+        </dl>
+
+        <dl id="document-inbox">
+          <dt>Notifications Inbox</dt>
+          <dd><a href="https://linkedresearch.org/inbox/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b/" rel="ldp:inbox">https://linkedresearch.org/inbox/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b/</a></dd>
+        </dl>
+
+        <dl id="document-annotation-service">
+          <dt>Annotation Service</dt>
+          <dd><a href="https://linkedresearch.org/annotation/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b/" rel="oa:annotationService">https://linkedresearch.org/annotation/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b/</a></dd>
+        </dl>
+
+        <dl id="document-in-reply-to">
+          <dt>In Reply To</dt>
+          <dd><a href="https://linkedresearch.org/calls" rel="as:inReplyTo">Call for Linked Research</a></dd>
+        </dl>
+
+        <dl id="document-status">
+          <dt>Document Status</dt>
+          <dd rel="pso:holdsStatusInTime" resource="#31943b7f-b646-4ebd-8787-ec2341e862c1"><span rel="pso:withStatus" resource="http://purl.org/spar/pso/draft" typeof="pso:PublicationStatus">Draft</span></dd>
+        </dl>
+
         <div datatype="rdf:HTML" property="schema:description">
 <section id="probes">
   <h2 property="schema:name">Probes</h2>
