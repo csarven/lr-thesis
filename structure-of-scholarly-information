@@ -2,7 +2,7 @@
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Structure of Scholarly Information - Linked Research Design Issues</title>
+    <title>Structure of Scholarly Information</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="media/css/basic.css" media="all" rel="stylesheet" title="Basic" />
     <link href="media/css/thesis.css" media="all" rel="stylesheet alternate" title="Thesis" />
@@ -1232,20 +1232,31 @@
 
 
 
-          <aside class="todo">
-            <a href="https://www.w3.org/TR/annotation-html">Embedding Web Annotations in HTML</a>
-            <a href="https://github.com/linkeddata/dokieli/wiki#examples-in-the-wild">dokieli Examples in the Wild</a>
 
-            <a href="https://github.com/ceurws/ceur-make">https://github.com/ceurws/ceur-make</a>
-            <a href="http://semstats.org/">http://semstats.org/</a>
+<footer>
+<dl id="document-derived-from">
+  <dt>Derived From</dt>
+  <dd>
+    <ul>
+      <li><a href="https://dokie.li/docs">dokieli documentation</a></li>
+      <li><a href="http://csarven.ca/this-paper-is-a-demo">This ‘Paper’ is a Demo</a></li>
+      <li><a href="http://csarven.ca/sparqlines-sparql-to-sparkline">http://csarven.ca/sparqlines-sparql-to-sparkline</a></li>
+      <li><a href="https://www.w3.org/TR/annotation-html">Embedding Web Annotations in HTML</a></li>
+      <li><a href="https://github.com/linkeddata/dokieli/wiki#examples-in-the-wild">dokieli Examples in the Wild</a></li>
 
-            <a href="https://linkedreserach.org/events/eswc2017/">https://linkedreserach.org/events/eswc2017/</a>
-            <a href="https://linkedresearch.org/calls">https://linkedresearch.org/calls</a>
-            <a href="https://linkedresearch.org/ldn/tests/summary">https://linkedresearch.org/ldn/tests/summary</a>
-            <a href="http://csarven.ca/linked-specifications-reports">http://csarven.ca/linked-specifications-reports</a>
-          </aside>
+      <li><a href="https://github.com/ceurws/ceur-make">https://github.com/ceurws/ceur-make</a></li>
+      <li><a href="http://semstats.org/">http://semstats.org/</a></li>
 
+      <li><a href="https://linkedresearch.org/resources">https://linkedresearch.org/resources</a></li>
 
+      <li><a href="https://linkedreserach.org/events/eswc2017/">https://linkedreserach.org/events/eswc2017/</a></li>
+      <li><a href="https://linkedresearch.org/calls">https://linkedresearch.org/calls</a></li>
+      <li><a href="https://linkedresearch.org/ldn/tests/summary">https://linkedresearch.org/ldn/tests/summary</a></li>
+      <li><a href="http://csarven.ca/linked-specifications-reports">http://csarven.ca/linked-specifications-reports</a></li>
+    </ul>
+  </dd>
+</dl>
+</footer>
         </div>
       </article>
     </main>
