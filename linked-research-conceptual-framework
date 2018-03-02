@@ -656,6 +656,8 @@ transform:rotate(-60deg);
               </div>
             </div>
 
+            <p>Systems vary on their degree of interoperability. For instance, a service may require their own user account or authentication mechanism to be used when interacting with data on the Web; users may have use a particular application to access, create, share or reuse information; applications may need to be reconfigured to reuse the information that is created elsewhere. In the <a href="#acid-test">acid test</a> we discuss how to assess accessibility and interopability of tooling and services scholarly communication further.</p>
+
             <p>In order to have optimal means of discovery, exchanging, and reusing information, systems and data should opt for open standards and widely acknowledged best practices wherever possible. The Linked Data technology stack is one in which includes the essentials to achieve this, and well-suited to fulfill the four functions of scholarly communication on the Web.</p>
 
             <p>Scientific contributions are multimodal, interactive, and social.</p>
@@ -711,7 +713,7 @@ transform:rotate(-60deg);
     <section id="acid-test" rel="schema:hasPart" resource="acid-test">
       <h3 property="schema:name">Acid Test</h3>
       <div datatype="rdf:HTML" property="schema:description">
-        <p id="acid-test">An <cite><a href="https://linkedresearch.org/rfc#acid-test" rel="cito:citesAsPotentialSolution">acid test</a></cite> aims to evaluate systems openness, accessibility, decentralisation, interoperability in scholarly communication. This test does not mandate a specific technology, therefore the challenge can be met by different solutions. There are a set of proposed challenges for the community to check their systems against to see how well they can fulfill them, as part of the push towards building cooperating systems.</p>
+        <p>An <cite><a href="https://linkedresearch.org/rfc#acid-test" rel="cito:citesAsPotentialSolution">acid test</a></cite> aims to evaluate systems openness, accessibility, decentralisation, interoperability in scholarly communication. This test does not mandate a specific technology, therefore the challenge can be met by different solutions. There are a set of proposed challenges for the community to check their systems against to see how well they can fulfill them, as part of the push towards building cooperating systems.</p>
 
         <p>The acid test assumptions may be used to assess the accessibility and interoperability of tooling and services in scholarly communication.</p>
 
