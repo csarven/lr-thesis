@@ -919,7 +919,7 @@
 <p><a href="https://linkedresearch.org/resources">https://linkedresearch.org/resources</a></p>
 <p class="todo">Turn this into a dl and talk about each vocabs relevance</p>
 
-<section id="vocabularies-and-ontologies" rel="schema:hasPart" resource="#vocabularies-and-ontologies">
+              <section id="vocabularies-and-ontologies" rel="schema:hasPart" resource="#vocabularies-and-ontologies">
                 <h2 property="schema:name">Vocabularies and ontologies</h2>
                 <div datatype="rdf:HTML" property="schema:description">
                   <ul>
@@ -1229,7 +1229,277 @@
 
 
 
+      <article>
+<p><a href="http://csarven.ca/linked-specifications-reports">Linked Specifications, Test Suites, and Implementation Reports</a></p>
 
+          <section id="abstract">
+            <h2 property="schema:name">Abstract</h2>
+            <div datatype="rdf:HTML" property="schema:abstract">
+              <p>This article describes the semantic structure and linking of the W3C Recommendation <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (LDN), its test suite, and implementation reports.</p>
+
+              <p>Semantically interlinking and detailed machine-readability of components related to Web standards and their implementations is novel, and can be useful for coherently documenting software projects and their conformance with specifications. Everything presented here is open source and reusable by other specifications (W3C standards or not), test suites, and implementations.</p>
+
+              <p>As a concrete example of the benefits of this approach, the LDN test suite is itself an LDN implementation for the purpose of automating the collection and aggregation of implementation reports which were used directly towards the formal standardisation process.</p>
+            </div>
+          </section>
+
+          <section id="introduction" inlist="" rel="schema:hasPart" resource="#introduction">
+            <h2 property="schema:name" resource="#introduction" typeof="#introduction">Introduction</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>A technical specification describes a set of requirements for a technology, for example data models, protocols, and application behaviour. The W3C publishes <q>Technical Reports</q> — also known as <q>specifications</q> and sometimes called <q>standards</q> once they are widely adopted. These documents are intended to help different (current or future) implementations to have common core functionality and quality, comply with accessibility and internationalisation guidelines, and take security and privacy considerations into account. When an application, for instance, implements a specification, it can be checked against that specification’s conformance criteria for normative requirements. Specifications are typically accompanied with test suites to assist implementations to identify their conformance level as well as areas for improvement. Similarly, reports and feedback help specifications to improve and advance towards publication. Thus, a specification and conforming implementations are integral to ensuring valid and interoperable applications. In the context of the Web, specifications enable discoverability of data and services, data exchange, and predictability of side effects of certain requests.</p>
+
+              <p>In the wild, specifications and implementation reports are human-readable documents, and commonly the information within them is not machine-readable, at least from the perspective of exposing <cite>Linked Data</cite> on the Web. That is, there is a lack of globally identifiable and discoverable structured data in these documents, and they are not well linked to one another or to other resources on the Web; a machine consumer cannot reliably conduct a <q>follow your nose</q> type of exploration, or provide search mechanisms without considerable customisation per resource. There are HTML templates for specifications which facilitate embedding of some structured data, but they tend to describe items like document level sectioning, references, contributors, or metadata. On the other hand, information on each <em>specification requirement</em> and <em>conformance classifications</em> remain as unstructured prose, or at least geared towards human consumption.</p>
+
+              <p>As for implementation reports, there is even less consistency across the board on how these documents are represented and accessed, let alone any definitive methods for data exchange or information retrieval.</p>
+
+              <p>Having the specifications and implementation reports appropriately interlinked and retrievable can facilitate their automated discovery and reuse. One attainable use case is to be able to find applications that match a certain conformance criteria, eg. in order to have fine-grained bundling of software packages. While this would typically include normative requirements, tests can potentially capture and reveal optional features of specifications. Prospective consumers of the compliance reports can be application developers finding appropriate software for use, as well as automatic software package managers.</p>
+
+              <p>This article describes the development of an interlinked, machine-readable W3C Recommendation, its test suite, and implementation reports as a whole. The W3C specification in question is <cite><a href="https://www.w3.org/TR/ldn/" rel="cito:citesAsEvidence cito:citesAsAuthority">Linked Data Notifications</a></cite> (<abbr title="Linked Data Notifications">LDN</abbr>). The associated automated <cite><a href="https://linkedresearch.org/ldn/tests/" rel="cito:citesAsEvidence">test suite</a></cite> covers each requirement of the specification with individual tests, and the test suite documentation is semantically linked with the specification itself accordingly. Once the tests have been run, the test suite generates a similarly linked implementation report. This report is submitted using LDN itself as the notification mechanism (more on this later). The listing of implementation reports (software conforming to the specification) is thus automatically updated. <a href="#figure-linked-specifications-reports">Figure 1</a> depicts an overview of linking the LDN specification, its test suite, the generated implementation report for the dokieli project, reports summary, and an article citing the specification.</p>
+
+              <figure id="figure-linked-specifications-reports" rel="schema:hasPart" resource="#figure-linked-specifications-reports">
+                <object data="http://csarven.ca/media/images/articles/linked-specifications-reports.svg" height="427" rel="schema:image" type="image/svg+xml" width="640"></object>
+                <figcaption property="schema:name">An overview of linking a specification, test suite, generated implementation report for the project, reports summary, and an article citing the specification</figcaption>
+              </figure>
+
+              <p>The information patterns discussed in the <a href="#specification">specification</a> and the <a href="#implementation-reports">implementation reports</a> sections should be reusable across other specifications and related components. Sources are available from:</p>
+
+              <ul>
+                <li>The specification: <a href="https://www.w3.org/TR/ldn/">https://www.w3.org/TR/ldn/</a></li>
+                <li>The test suite: <a href="https://linkedresearch.org/ldn/tests/">https://linkedresearch.org/ldn/tests/</a></li>
+                <li>Implementation reports summary and individual reports: <a href="https://linkedresearch.org/ldn/tests/summary">https://linkedresearch.org/ldn/tests/summary</a></li>
+              </ul>
+
+              <p>The test suite uses <em>mayktso</em> (<a href="https://github.com/csarven/mayktso">https://github.com/csarven/mayktso</a>) as the LDN receiver, but any conformant receiver implementation will work here.</p>
+
+              <p>The prefixes and namespaces that are used in this article are listed under the <a href="#document-convention">document convention</a> section.</p>
+            </div>
+          </section>
+
+          <section id="related-work" inlist="" rel="schema:hasPart" resource="#related-work">
+            <h2 property="schema:name" resource="#discussion" typeof="deo:RelatedWork">Related Work</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>Our approach uses existing standards and best practices throughout. Here we have a look at some work relevant to obtaining human and machine-readable specifications and test reports.</p>
+
+              <dl>
+                <dt id="generation-of-technical-reports">Generation of technical reports</dt>
+                <dd><cite><a href="https://github.com/w3c/respec" rel="cito:citesAsAuthority">ReSpec</a></cite> is a tool for creating technical documents and web standards in HTML(+RDFa) that is commonly used for W3C specifications. There are also various <cite><a href="https://www.rfc-editor.org/pubprocess/tools/" rel="cito:discusses">tools for creating Internet Drafts</a></cite> and publishing them as <abbr title="Request For Comments">RFCs</abbr>, eg. at IETF, IANA. These approaches allow document authors to include structured data eg. in XML, JSON(-LD), in addition to text in prose as input before converting the source format to HTML.</dd>
+
+                <dt id="generation-of-vocabularies">Generation of vocabularies</dt>
+                <dd>Web standards often take the form of vocabularies. Some tools to generate the human-readable version of a vocabulary may also include some semantic markup. <a href="https://github.com/dgarijo/Widoco" rel="cito:discusses">Widoco</a> (<cite><a href="http://dgarijo.com/papers/widoco-iswc2017.pdf" rel="cito:citesAsAuthority">A Wizard for Documenting Ontologies</a></cite>) and <a href="http://www.essepuntato.it/lode/" rel="cito:discusses">LODE</a> (<cite><a href="http://speroni.web.cs.unibo.it/publications/peroni-2012-live-documentation-environment.pdf" rel="cito:citesAsAuthority">Live OWL Documentation Environment</a></cite>) focus on describing vocabularies and ontologies, and HTML output. The W3C <cite><a href="https://www.w3.org/TR/prov-o/" rel="cito:citesAsAuthority">PROV Ontology</a></cite>’s term definitions was generated using <a href="https://github.com/timrdf/prov-lodspeakr" rel="cito:discusses">prov-lodspeakr</a> — input being an RDF Turtle with OWL annotations, and the output of HTML sections that was integrated into the specification.</dd>
+
+                <dt id="generation-of-implementation-reports">Generation of implementation reports</dt>
+                <dd>The W3C SPARQL 1.1’s Service Description <a href="https://www.w3.org/2009/sparql/docs/tests/" rel="cito:citesAsAuthority">testing process</a> generates implementation reports in RDF/XML and Turtle using the <cite>EARL</cite> vocabulary.</dd>
+                <dd>The <cite><a href="https://www.w3.org/TR/shacl/" rel="cito:citesAsAuthority">Shapes Constraint Language</a></cite> (<abbr title="Shapes Constraint Language">SHACL</abbr>) has a <a href="http://w3c.github.io/data-shapes/data-shapes-test-suite/" rel="cito:discusses">test suite and implementation report</a> HTML document (using ReSpec) that defines the format and process of the tests. It refers to individual test reports in Turtle as data dumps accessible from GitHub.</dd>
+                <dd>Most closely related to the work described in this article is the W3C <cite><a href="http://rdfa.info/earl-reports/index.html" rel="cito:citesAsAuthority">RDFa 1.1 Processor Conformance</a></cite> that makes EARL reports from test suite available in HTML+RDFa, and alternatively in Turtle and JSON-LD. The tests however reference criteria URIs that do not exist; neither part of the summary document or in the <cite><a href="https://www.w3.org/TR/rdfa-core/" rel="cito:citesAsAuthority">RDFa Core 1.1</a></cite> specification. The same approach is taken in the <cite><a href="https://json-ld.org/test-suite/reports/" rel="cito:discusses">JSON-LD Implementation Report</a></cite>.</dd>
+              </dl>
+
+              <p>All of these approaches have and do work well in their respective areas, as well as meeting their target user’s needs. The missing connection among them is that a uniform resource discovery is not possible between the test reports and the individual conformance criteria in the specifications, where a given information at a particular URL is both human and machine-processable.</p>
+
+              <p>We next describe our approach, which links the specification and implementation reports via the test suite itself.</p>
+            </div>
+          </section>
+
+          <section id="specification" inlist="" rel="schema:hasPart" resource="#specification">
+            <h2 property="schema:name">Specification</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p id="ldn"><cite><a href="https://www.w3.org/TR/ldn">Linked Data Notifications</a></cite> (LDN) is a W3C Recommendation, published in May 2017, which defines a protocol for discovery, creation and reuse of machine-readable notifications over HTTP.</p>
+
+              <p>The W3C process requires the creation of a test suite, and the submission of reports about implementations which pass any or all of the tests. The LDN editors took the liberty to both use this process to exemplify the LDN protocol itself, as well as to generate discoverable Linked Data about the specification and its implementations.</p>
+
+              <p>The LDN <a href="https://www.w3.org/TR/ldn/">technical report</a> has an HTML+RDFa representation. It used existing vocabularies (as of 2017-05). The document is a type of a <code>doap:Specification</code> and it has provenance information such as:</p>
+
+              <ul>
+                <li><code>prov:wasRevisionOf</code> for the earlier version of the specification.</li>
+                <li><code>schema:datePublished</code> for the publication date.</li>
+                <li><code>schema:author</code> and <code>schema:contributor</code> of the document and their partial descriptions.</li>
+                <li><code>doap:repository</code> pointing at the specification’s repository, and <code>doap:bug-database</code> for issues.</li>
+                <li><code>rdfs:seeAlso</code> for related stuff and the test suite’s location.</li>
+                <li><code>as:inReplyTo</code> provides some context for the specification.</li>
+                <li><code>xhv:license</code> for license (W3C default).</li>
+              </ul>
+
+              <p>This metadata covers what is required by W3C publishing standards.</p>
+
+              <p>It also has some discourse components like <code>schema:abstract</code>, <code>schema:description</code> for each section with <code>schema:name</code> for short labels, and <code>schema:hasPart</code> to relate nested sections. Some sections have specific types, eg. <code>deo:Introduction</code>, <code>deo:Acknowledgements</code>, and <code>skos:Concept</code>.</p>
+
+              <p>In order to specify how the specification’s requirements are linked to from the implementation reports, we need to look at the specification as something that provides the definitions of the concepts which the implementation reports can refer to in their assertions.</p>
+
+              <p>One way to define the shape of the data structure is done with the <cite><a href="https://www.w3.org/TR/vocab-data-cube" rel="cito:citesAsPotentialSolution">RDF Data Cube vocabulary</a></cite> (<abbr title="The RDF Data Cube Vocabulary">QB</abbr>), and the definitions for its components with the <cite><a href="https://www.w3.org/TR/skos-reference/" rel="cito:citesAsPotentialSolution">Simple Knowledge Organization System</a></cite> (<abbr title="Simple Knowledge Organization System">SKOS</abbr>) vocabulary. The <cite><a href="http://www.w3.org/TR/EARL10/" rel="cito:citesAsPotentialSolution">Evaluation and Report Language</a></cite> (<abbr title="Evaluation and Report Language">EARL</abbr>) vocabulary is used to describe the test results and facilitate their exchange between applications.</p>
+
+              <p>The <code>qb:DataStructureDefinition</code> (<abbr title="Data Structure Definition">DSD</abbr>) describes the shape of the multi-dimensional data which will be used in the reports, and is embedded in the LDN specification. In a hypercube, the dimensions serve to identify an observation, and the measure is for the observed value. The DSD is provided in the specification so that systems familiar with the QB vocabulary can have a sense of the structure independently of the actual use of EARL in the reports. Furthermore, alternative test suites can be built reusing the same DSD.</p>
+
+              <figure class="listing" id="code-ldn-dsd" rel="schema:hasPart" resource="#code-ldn-dsd">
+                <pre about="#code-ldn-dsd" lang="" property="schema:description" typeof="fabio:Script" xml:lang=""><code id="code-ldn-dsd-1"><a href="https://www.w3.org/TR/ldn/#data-structure-definition">ldn:data-structure-definition</a></code>
+<code id="code-ldn-dsd-2">  a qb:DataStructureDefinition ;</code>
+<code id="code-ldn-dsd-3">  qb:component</code>
+<code id="code-ldn-dsd-4">    [ qb:dimension <span class="highlight-earl-subject">earl:subject</span> ] ,</code>
+<code id="code-ldn-dsd-5">    [ qb:dimension <span class="highlight-earl-test">earl:test</span> ] ,</code>
+<code id="code-ldn-dsd-6">    [ qb:dimension <span class="highlight-earl-mode">earl:mode</span> ] ,</code>
+<code id="code-ldn-dsd-7">    [ qb:measure <span class="highlight-earl-result">earl:result</span> ] .</code></pre>
+                <figcaption property="schema:name">A snippet of the data structure definition as defined in the LDN specification in Turtle syntax.</figcaption>
+              </figure>
+
+              <p>The 3 dimension properties of type <code>qb:DimensionProperty</code> (ie. <code>earl:subject</code>, <code>earl:test</code>, <code>earl:mode</code>), and 1 measure property is of type <code>qb:MeasureProperty</code> (ie. <code>earl:result</code>):</p>
+
+              <ul>
+                <li><code class="highlight-earl-subject">earl:subject</code> for the application that’s being tested.</li>
+                <li><code class="highlight-earl-test">earl:test</code> for the test criterion.</li>
+                <li><code class="highlight-earl-mode">earl:mode</code> for how the test was conducted.</li>
+                <li><code class="highlight-earl-result">earl:result</code> for the test result.</li>
+              </ul>
+
+              <p>LDN has conformance classes for each implementation role:  sender, receiver, and consumer. A <code class="highlight-skos-conceptscheme">skos:ConceptScheme</code> is defined per role, and each concept scheme <code class="highlight-skos-hastopconcept">skos:hasTopConcept</code> referring to an individual requirement as a <code class="highlight-skos-concept">skos:Concept</code>. They all have their <code class="highlight-skos-preflabel">skos:prefLabel</code> and <code class="highlight-skos-definition">skos:definition</code>, and encapsulate the human-visible text of the requirements, for example: senders are required to send the <a href="https://www.w3.org/TR/ldn/#test-sender-header-post-content-type-json-ld">payload in JSON-LD</a>.</p>
+
+              <figure class="listing" id="code-ldn-tests-concepts" rel="schema:hasPart" resource="#code-ldn-tests-concepts">
+                <pre about="#ldn-tests-concepts" lang="" property="schema:description" typeof="fabio:Script" xml:lang=""><code id="ldn-tests-concepts-1">&lt;&gt;</code>
+<code id="ldn-tests-concepts-2">  schema:hasPart ldn:ldn-tests-sender .</code>
+<code id="ldn-tests-concepts-4"></code>
+<code id="ldn-tests-concepts-3">ldn:ldn-tests-sender</code>
+<code id="ldn-tests-concepts-5">  a <span class="highlight-skos-conceptscheme">skos:ConceptScheme</span> ;</code>
+<code id="ldn-tests-concepts-6">  <span class="highlight-skos-preflabel">skos:prefLabel</span> "LDN Tests Sender"@en ;</code>
+<code id="ldn-tests-concepts-7">  <span class="highlight-skos-hastopconcept">skos:hasTopConcept</span> <a href="https://www.w3.org/TR/ldn/#test-sender-header-post-content-type-json-ld">ldn:test-sender-header-post-content-type-json-ld</a> .</code>
+<code id="ldn-tests-concepts-8"></code>
+<code id="ldn-tests-concepts-9">ldn:test-sender-header-post-content-type-json-ld</code>
+<code id="ldn-tests-concepts-10">  a <span class="highlight-skos-concept">skos:Concept</span> ;</code>
+<code id="ldn-tests-concepts-11">  skos:topConceptOf ldn:tests-sender ;</code>
+<code id="ldn-tests-concepts-12">  <span class="highlight-skos-definition">skos:definition</span> "the body of the POST request MUST contain the notification payload in JSON-LD with header Content-Type: application/ld+json"@en .</code></pre>
+                <figcaption property="schema:name">A snippet of specification requirement in Turtle syntax</figcaption>
+              </figure>
+
+              <p>Each requirement represented as a concept has an HTML <code>id</code> attribute and a URI. These URIs correspond with observations’ dimensions values in the test reports.</p>
+            </div>
+          </section>
+
+          <section id="implementation-reports" inlist="" rel="schema:hasPart" resource="#implementation-reports">
+            <h2 property="schema:name">Implementation Reports</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>The motivation for the test suite and the generated reports is to have their information equally consumable by human and machines. The human-friendly parts typically have an HTML user interface, and so making them also machine-processable extends their reuse. We do this by incorporating the structured data for the report in the test suite itself so that a report URL can accommodate both cases. This means that the test suite frames its expressions using the EARL and QB vocabularies, resulting in reuse of globally identifiable language — this is in contrast to creating an application-centric language that is virtually disconnected from everything else.</p>
+
+              <p>A test report gets generated when a tester submits the results of running the <cite><a href="https://linkedresearch.org/ldn/tests/" rel="cito:citesAsEvidence">LDN Test Suite</a></cite>. The report contains the outcome of all test criterion as multi-dimensional data for a given type of implementation (sender, receiver, consumer).</p>
+
+              <figure id="figure-dokieli-ldn-implementation-report" rel="schema:hasPart" resource="#figure-dokieli-ldn-implementation-report">
+                <img alt="Screenshot of dokieli’s LDN implementation report and test results as a sender" src="http://csarven.ca/media/images/articles/dokieli-ldn-implementation-report.jpg" height="1000" rel="schema:image" width="640" />
+                <figcaption property="schema:name">Screenshot of dokieli’s LDN implementation report and test results as a sender</figcaption>
+              </figure>
+
+              <p>All reports have their own URLs, and a representation in HTML+RDFa (optionally in other RDF serialisations via content negotiation at this particular test server). See for example <cite><a href="https://dokie.li/" rel="cito:citesAsEvidence">dokieli</a></cite>’s <a href="https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753" rel="cito:citesAsEvidence">implementation report and test results</a> as a sender (<a href="#figure-dokieli-ldn-implementation-report">figure 2</a>). This provides the human-visible information, eg. what was tested and the results also in machine-readable form. The report can be seen as a dataset composed of observations based on the structure that was specified in the specification. Hence, each test report is a <code>qb:DataSet</code> (and generally equivalent in <code>as:Object</code>) where its <code>qb:structure</code> refers to <code>https://www.w3.org/TR/ldn/#data-structure-definition</code>. The dataset has <code>as:published</code> and <code>as:actor</code> for the agent that initiated the test and generated the report. The report may be accompanied with an additional <code>as:summary</code>. An example report at <a class="highlight-observation-url" href="https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753">https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753</a> has the following core information:</p>
+
+              <figure class="listing" id="code-ldn-test-report" rel="schema:hasPart" resource="#code-ldn-test-report">
+                <pre about="#code-ldn-test-report" lang="" property="schema:description" typeof="fabio:Script" xml:lang=""><code id="code-ldn-test-report-1">&lt;&gt;</code>
+<code id="code-ldn-test-report-2">  a qb:DataSet ;</code>
+<code id="code-ldn-test-report-3">  qb:structure <a href="https://www.w3.org/TR/ldn/#data-structure-definition">ldn:data-structure-definition</a> .</code>
+<code id="code-ldn-test-report-4"></code>
+<code id="code-ldn-test-report-5">&lt;<a class="highlight-observation-url" href="https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753#test-sender-header-post-content-type-json-ld">https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753#test-sender-header-post-content-type-json-ld</a>&gt;</code>
+<code id="code-ldn-test-report-6">  a qb:Observation, earl:Assertion ;</code>
+<code id="code-ldn-test-report-7">  qb:dataSet &lt;&gt; ;</code>
+<code id="code-ldn-test-report-8">  <span class="highlight-earl-subject">earl:subject</span> &lt;<a class="highlight-subject-project" href="https://dokie.li">https://dokie.li/</a>&gt; ;</code>
+<code id="code-ldn-test-report-9">  <span class="highlight-earl-test">earl:test</span> <a href="https://www.w3.org/TR/ldn/#test-sender-header-post-content-type-json-ld">ldn:test-sender-header-post-content-type-json-ld</a> ;</code>
+<code id="code-ldn-test-report-10">  <span class="highlight-earl-mode">earl:mode</span> earl:automatic ;</code>
+<code id="code-ldn-test-report-11">  <span class="highlight-earl-result">earl:result</span> [</code>
+<code id="code-ldn-test-report-12">    a earl:TestResult ;</code>
+<code id="code-ldn-test-report-13">    <span class="highlight-earl-outcome">earl:outcome</span> earl:passed ;</code>
+<code id="code-ldn-test-report-14">    <span class="highlight-earl-info">earl:info</span> "&lt;code&gt;Content-Type: application/ld+json; profile=&amp;quot;http://www.w3.org/ns/anno.jsonld&amp;quot;&lt;/code&gt; received."^^rdf:HTML ] .</code></pre>
+                <figcaption property="schema:name">A snippet of a test result dataset and an observation in Turtle syntax</figcaption>
+              </figure>
+
+              <p>The test results are provided in an HTML table, where each test is expressed as an <code>qb:Observation</code> (and equivalent <code>earl:Assertion</code>) in RDFa containing:</p>
+
+              <ul>
+                <li>a <code class="highlight-earl-subject">earl:subject</code> that refers to the URI of the application, eg. <a class="highlight-subject-project" href="https://dokie.li/">dokieli</a>, a <code>doap:Project</code> as an <a href="https://www.w3.org/TR/ldn/#ldn-sender">LDN Sender</a>.</li>
+                <li>a <code class="highlight-earl-test">earl:test</code> with the range being one the requirements (concepts) from the specification.</li>
+                <li>a <code class="highlight-earl-mode">earl:mode</code> referring to one of the EARL test modes that were carried out: <a href="https://www.w3.org/TR/EARL10/#automatic">automatic</a>, <a href="https://www.w3.org/TR/EARL10/#manual">manual</a>, <a href="https://www.w3.org/TR/EARL10/#semiAuto">semi-automatic</a>, <a href="https://www.w3.org/TR/EARL10/#undisclosed">undisclosed</a>, <a href="https://www.w3.org/TR/EARL10/#unknownMode">unknown</a>.</li>
+                <li>and a <code class="highlight-earl-result">earl:result</code> that gives information on the test <code class="highlight-earl-outcome">earl:outcome</code>: <a href="https://www.w3.org/TR/EARL10-Schema/#passed">passed</a>, <a href="https://www.w3.org/TR/EARL10-Schema/#failed">failed</a>, <a href="https://www.w3.org/TR/EARL10-Schema/#inapplicable">inapplicable</a>, <a href="https://www.w3.org/TR/EARL10-Schema/#cantTell">cannot tell</a>, <a href="https://www.w3.org/TR/EARL10-Schema/#untested">untested</a>, as well as detailed <code class="highlight-earl-info">earl:info</code> about the particular experiment.</li>
+              </ul>
+
+              <p>The implementation test report has some basic information linking to the <code>doap:Project</code> with a <code>doap:name</code>, and its <code>doap:maintainer</code>.</p>
+
+              <p>All of the sender, receiver, and consumer reports are available in separate aggregate tables in <cite><a href="https://linkedresearch.org/ldn/tests/summary" rel="cito:citesAsEvidence">LDN Tests Summary</a></cite>. The summary is a <code>void:Dataset</code> where each report is linked as a <code>void:subset</code>. This makes individual reports alternatively findable if the exploration starts from the summary of all test results.</p>
+            </div>
+          </section>
+
+          <section id="usage" inlist="" rel="schema:hasPart" resource="#usage">
+            <h2 property="schema:name">Usage</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p id="implementation-description">At this point we have the test reports referring to specific parts of the specification. We can continue to further extend this linked data graph with other things. One extension possibility is to describe individual implementations further by stating that they implement the specification, or parts of it. This is a relatively simple exercise of making statements about the project such that it <code>doap:implements</code> the specification: <a href="https://www.w3.org/TR/ldn/">https://www.w3.org/TR/ldn/</a>, which <code>doap:programming-language</code>s it uses, the project’s <code>doap:repository</code> and so on. For more details, see <a href="https://dokie.li/">https://dokie.li/</a> on how the DOAP vocabulary is used as well as a reference to LDN.</p>
+
+              <p id="implementation-conformance">Coming from the direction of the reports, we can also precisely know the conformance level of each implementation. This is useful to deterministically know that an implementation conforms to specification’s core requirements, which is necessary for interoperability, as well as their coverage of the optional features.</p>
+
+              <p id="ldn-test-suites">The LDN Tests Suite puts the LDN protocol into practice by acting as an LDN receiver implementation (based on <cite><a href="https://github.com/csarven/mayktso" rel="cito:citesAsEvidence">mayktso</a></cite>). It also acts as a sender and consumer LDN implementation. Each part of the test suite (for <a href="https://linkedresearch.org/ldn/tests/sender" rel="cito:citesAsEvidence">Senders</a>, <a href="https://linkedresearch.org/ldn/tests/receiver" rel="cito:citesAsEvidence">Receivers</a>, and <a href="https://linkedresearch.org/ldn/tests/consumer" rel="cito:citesAsEvidence">Consumers</a>) advertise an <code>ldp:inbox</code>. Upon completion of a run of the tests, the system generates the report data and sends an LDN notification to the Inbox. The payload of the notification is the full report as RDF.</p>
+
+              <p id="ldn-consumers">As an LDN Consumer, the test suite generates the <a href="https://linkedresearch.org/ldn/tests/summary">summary</a> of the reports by fetching and processing Inbox contents. The notifications are aggregated automatically, and the semantics of the submitted reports are retained.</p>
+
+              <p>Once the notifications are fetched from the reports Inbox, an HTML+RDFa representation (alternatively in other RDF serialisations upon content negotiation) of the response is returned for a human- and machine-readable summary. The services are decoupled; that is, an implementer may generate their report independently of the test suite, and submit it vial the standard LDN protocol. Furthermore, projects can implement their own consumers and reuse the report data generated by the test suite directly, for example to demonstrate to potential users their conformance to the LDN specification.</p>
+
+              <p id="citations">An opportunity arises when the specification is available with structured data by way of having ordinary Web articles simply refer to different sections and concepts. For example, the scholarly article on <cite><a href="http://csarven.ca/linked-data-notifications" rel="cito:citesAsEvidence">Linked Data Notifications</a></cite> uses the <cite><a href="http://purl.org/spar/cito/">CiTO</a></cite> vocabulary to cite the specification with <code>cito:citesAsAuthority</code>. Another peer reviewed article, <cite><a href="http://csarven.ca/dokieli-rww" rel="cito:citesAsEvidence">Decentralised Authoring, Annotations and Notifications for a Read-Write Web with dokieli</a></cite>, contextually cites the specification with <code>cito:citesAsPotentialSolution</code> from its <a href="http://csarven.ca/dokieli-rww#architectural-overview" rel="cito:citesAsEvidence">architectural overview</a> section, as well as the LDN Test Suite with <code>cito:citesAsAuthority</code> from its <a href="http://csarven.ca/dokieli-rww#adoption" rel="cito:citesAsEvidence">adoption</a> section. This is useful in that we can have articles linked to what is already available with minimal effort. Including this article that you are currently reading and interacting with.</p>
+
+              <p>The realisation here is that we have everything operating in a way that is interoperable: the specification, test suite, discovery of the reports, and academic articles, all reusing existing vocabularies.</p>
+            </div>
+          </section>
+
+          <section id="discussion" inlist="" rel="schema:hasPart" resource="#discussion">
+            <h2 property="schema:name" resource="#discussion" typeof="deo:Discussion">Discussion</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>The work here can serve as a demonstration or a guideline on what can be achieved by similar types of specifications and test suites. EARL and QB provide the foundations to <q>connect the dots</q> in these documents for the purpose of improving quality assurance, validation, and sharing the output of a working group as structured data on the Web.</p>
+
+              <p>The key takeaways are:</p>
+
+              <ul>
+                <li>Human and machine-readable documents via HTML+RDFa are feasible for specifications and implementation reports.</li>
+                <li>The connection between EARL and the QB vocabulary is suitable for multi-dimensional data without having to define new component specifications for the data cube.</li>
+                <li>Individual observations (test results) can be identified and discovered through contextual links in the specification, with the use of EARL and QB vocabularies.</li>
+                <li>The LDN protocol can support the possibility to send, receive and consume notifications about the implementation reports, as well as help with their discovery and reuse.</li>
+                <li>It is possible for other documents to refer to specific parts of the specification, test suite and reports.</li>
+              </ul>
+
+              <p>We conclude by offering some suggestions to specification editors, test suite builders, and implementers:</p>
+
+              <p>Specification editors should consider taking advantage of the level of expressivity that is possible and reuse the existing human-visible content towards machine-readability.</p>
+
+              <p>It requires a considerable amount of work to devise the shape of test reports, so basing the test suite on EARL and QB can simplify and streamline this process. The approach also benefits from making the reports identifiable, discoverable, exchangeable, and reusable on the Web.</p>
+
+              <p>Lastly, implementations should have machine-readable descriptions, eg. at their homepages, so that the test reports can refer to them and provide the possibility to collect more detailed information about their features.</p>
+            </div>
+          </section>
+
+          <section id="acknowledgements" inlist="" rel="schema:hasPart" resource="#acknowledgements">
+            <h2 property="schema:name" resource="#acknowledgements" typeof="deo:Acknowledgements">Acknowledgements</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>The work on the LDN specification and its test suite was done in collaboration with <a href="https://rhiaro.co.uk/#me">Amy Guy</a>. Thanks to <a href="http://mynarz.net/#jindrich">Jindřich Mynarz</a>, <a href="http://soiland-reyes.com/stian/#me">Stian Soiland-Reyes</a>, and <a href="http://www.eurecom.fr/~troncy/">Raphaël Troncy</a> for giving early feedback on this article.</p>
+            </div>
+          </section>
+
+          <section id="document-convention" inlist="" rel="schema:hasPart" resource="#document-convention">
+            <h2 property="schema:name">Document Convention</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <dl>
+                <dt><code>as</code></dt>
+                <dd><a href="https://www.w3.org/ns/activitystreams">https://www.w3.org/ns/activitystreams#</a></dd>
+                <dt><code>cito</code></dt>
+                <dd><a href="http://purl.org/spar/cito/">http://purl.org/spar/cito/</a></dd>
+                <dt><code>doap</code></dt>
+                <dd><a href="http://usefulinc.com/ns/doap">http://usefulinc.com/ns/doap#</a></dd>
+                <dt><code>earl</code></dt>
+                <dd><a href="http://www.w3.org/ns/earl">http://www.w3.org/ns/earl#</a></dd>
+                <dt><code>ldn</code></dt>
+                <dd><a href="https://www.w3.org/TR/ldn/">https://www.w3.org/TR/ldn/#</a></dd>
+                <dt><code>prov</code></dt>
+                <dd><a href="http://www.w3.org/ns/prov">http://www.w3.org/ns/prov#</a></dd>
+                <dt><code>qb</code></dt>
+                <dd><a href="http://purl.org/linked-data/cube">http://purl.org/linked-data/cube#</a></dd>
+                <dt><code>rdf</code></dt>
+                <dd><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns">http://www.w3.org/1999/02/22-rdf-syntax-ns#</a></dd>
+                <dt><code>schema</code></dt>
+                <dd><a href="http://schema.org/">http://schema.org/</a></dd>
+                <dt><code>skos</code></dt>
+                <dd><a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core#</a></dd>
+                <dt><code>void</code></dt>
+                <dd><a href="http://rdfs.org/ns/void">http://rdfs.org/ns/void#</a></dd>
+                <dt><code>xhv</code></dt>
+                <dd><a href="http://www.w3.org/1999/xhtml/vocab">http://www.w3.org/1999/xhtml/vocab#</a></dd>
+              </dl>
+            </div>
+          </section>
+</article>
 
 
 
