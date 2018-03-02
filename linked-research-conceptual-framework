@@ -647,7 +647,7 @@ transform:rotate(-60deg);
 
             <p>Information should be <strong>interpretable</strong> and <strong>interactive</strong> in that different interfaces for the media can be available for different kinds of agents; human, machine, or other.</p>
 
-            <p>Interoperability is at the core of achieving cooperative systems. One widely successful approach to have interoperable systems it through the adoption of <em>open standards</em> for protocols and formats for information exchange. Systems that are interoperable by design have the benefit of interacting with other systems without having prior out-of-band knowledge about them.</p>
+            <p>While decentralised systems enables each entity to be autonomous, some level of federation is needed on the network for communication to take place. Interoperability is at the core of achieving cooperative systems. One widely successful approach to have interoperable systems it through the adoption of <em>open standards</em> for protocols and formats for information exchange. Systems that are interoperable by design have the benefit of interacting with other systems without having prior out-of-band knowledge about them.</p>
 
             <div class="note">
               <h4>Note</h4>
