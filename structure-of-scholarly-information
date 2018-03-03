@@ -20,6 +20,89 @@
       <article about="" typeof="schema:Article">
         <h1 property="schema:name">Structure of Scholarly Information</h1>
 
+        <div id="authors">
+          <dl id="author-name">
+            <dt>Authors</dt>
+            <dd id="Sarven-Capadisli" inlist="" rel="bibo:authorList" resource="http://csarven.ca/#i"><span about="" rel="schema:creator schema:publisher schema:author"><a about="http://csarven.ca/#i" href="http://csarven.ca/" property="schema:name" rel="schema:url" typeof="schema:Person"><span about="http://csarven.ca/#i"><span property="schema:givenName">Sarven</span> <span property="schema:familyName">Capadisli</span></span></a></span><sup>✊</sup></dd>
+          </dl>
+        </div>
+
+        <dl id="document-identifier">
+          <dt>Identifier</dt>
+          <dd><a href="https://linkedresearch.org/article/csarven.ca/structure-of-scholarly-information" rel="owl:sameAs">https://linkedresearch.org/article/csarven.ca/structure-of-scholarly-information</a></dd>
+        </dl>
+
+        <dl id="document-created">
+          <dt>Created</dt>
+          <dd><time content="2017-09-25T00:00:00Z" datatype="xsd:dateTime" datetime="2017-09-25T00:00:00Z" property="schema:dateCreated">2017-09-25</time></dd>
+        </dl>
+
+        <dl id="document-published">
+          <dt>Published</dt>
+          <dd><time content="2017-09-25T00:00:00Z" datatype="xsd:dateTime" datetime="2017-09-25T00:00:00Z" property="schema:datePublished">2017-09-25</time></dd>
+        </dl>
+
+        <dl id="document-modified">
+          <dt>Modified</dt>
+          <dd><time content="2018-03-03T00:00:00Z" datatype="xsd:dateTime" datetime="2018-03-03T00:00:00Z" property="schema:dateModified">2018-03-03</time></dd>
+        </dl>
+<!-- 
+        <dl id="document-latest-version">
+          <dt>Latest Version</dt>
+          <dd><a href="https://linkedresearch.org/article/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b" rel="mem:memento rel:latest-version">https://linkedresearch.org/article/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b</a></dd>
+        </dl>
+
+        <dl id="document-timemap">
+          <dt>TimeMap</dt>
+          <dd><a href="https://linkedresearch.org/article/csarven.ca/structure-of-scholarly-information.timemap" rel="mem:timemap">https://linkedresearch.org/article/csarven.ca/structure-of-scholarly-information.timemap</a></dd>
+        </dl>
+
+ -->
+        <dl id="document-derived-from">
+          <dt>Derived From</dt>
+          <dd>
+            <ul>
+              <li><a href="https://dokie.li/docs" rel="prov:wasDerivedFrom">dokieli documentation</a></li>
+              <li><a href="http://csarven.ca/this-paper-is-a-demo" rel="prov:wasDerivedFrom">This ‘Paper’ is a Demo</a></li>
+              <li><a href="http://csarven.ca/sparqlines-sparql-to-sparkline" rel="prov:wasDerivedFrom">Sparqlines: SPARQL to Sparkline</a></li>
+              <li><a href="https://www.w3.org/TR/annotation-html" rel="prov:wasDerivedFrom">Embedding Web Annotations in HTML</a></li>
+              <li><a href="https://github.com/linkeddata/dokieli/wiki#examples-in-the-wild" rel="prov:wasDerivedFrom">dokieli Examples in the Wild</a></li>
+              <li><a href="https://github.com/ceurws/ceur-make" rel="prov:wasDerivedFrom">ceur-make</a></li>
+              <li><a href="http://semstats.org/" rel="prov:wasDerivedFrom">SemStats</a></li>
+              <li><a href="https://linkedresearch.org/resources" rel="prov:wasDerivedFrom">Linked Research resources</a></li>
+              <li><a href="https://linkedresearch.org/events/eswc2017/" rel="prov:wasDerivedFrom">Enabling Decentralised Scholarly Communication</a></li>
+              <li><a href="https://linkedresearch.org/calls" rel="prov:wasDerivedFrom">Call for Linked Research</a></li>
+              <li><a href="https://linkedresearch.org/ldn/tests/summary" rel="prov:wasDerivedFrom">LDN Test Reports and Summary</a></li>
+              <li><a href="http://csarven.ca/linked-specifications-reports" rel="prov:wasDerivedFrom">Linking Specifications, Test Suites, and Implementation Reports</a></li>
+            </ul>
+          </dd>
+        </dl>
+
+        <dl id="document-license">
+          <dt>License</dt>
+          <dd><a href="https://creativecommons.org/licenses/by/4.0/" rel="schema:license" title="Creative Commons Attribution 4.0 Unported">CC BY 4.0</a></dd>
+        </dl>
+<!--
+        <dl id="document-inbox">
+          <dt>Notifications Inbox</dt>
+          <dd><a href="https://linkedresearch.org/inbox/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b/" rel="ldp:inbox">https://linkedresearch.org/inbox/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b/</a></dd>
+        </dl>
+
+        <dl id="document-annotation-service">
+          <dt>Annotation Service</dt>
+          <dd><a href="https://linkedresearch.org/annotation/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b/" rel="oa:annotationService">https://linkedresearch.org/annotation/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b/</a></dd>
+        </dl>
+-->
+        <dl id="document-in-reply-to">
+          <dt>In Reply To</dt>
+          <dd><a href="https://linkedresearch.org/calls" rel="as:inReplyTo">Call for Linked Research</a></dd>
+        </dl>
+
+        <dl id="document-status">
+          <dt>Document Status</dt>
+          <dd rel="pso:holdsStatusInTime" resource="#31943b7f-b646-4ebd-8787-ec2341e862c1"><span rel="pso:withStatus" resource="http://purl.org/spar/pso/draft" typeof="pso:PublicationStatus">Draft</span></dd>
+        </dl>
+
         <div datatype="rdf:HTML" property="schema:description">
           <section id="information-space" inlist="" rel="schema:hasPart" resource="#information-space">
             <h2 property="schema:name">Information Space</h2>
@@ -1501,32 +1584,6 @@
           </section>
 </article>
 
-
-
-<footer>
-<dl id="document-derived-from">
-  <dt>Derived From</dt>
-  <dd>
-    <ul>
-      <li><a href="https://dokie.li/docs">dokieli documentation</a></li>
-      <li><a href="http://csarven.ca/this-paper-is-a-demo">This ‘Paper’ is a Demo</a></li>
-      <li><a href="http://csarven.ca/sparqlines-sparql-to-sparkline">http://csarven.ca/sparqlines-sparql-to-sparkline</a></li>
-      <li><a href="https://www.w3.org/TR/annotation-html">Embedding Web Annotations in HTML</a></li>
-      <li><a href="https://github.com/linkeddata/dokieli/wiki#examples-in-the-wild">dokieli Examples in the Wild</a></li>
-
-      <li><a href="https://github.com/ceurws/ceur-make">https://github.com/ceurws/ceur-make</a></li>
-      <li><a href="http://semstats.org/">http://semstats.org/</a></li>
-
-      <li><a href="https://linkedresearch.org/resources">https://linkedresearch.org/resources</a></li>
-
-      <li><a href="https://linkedreserach.org/events/eswc2017/">https://linkedreserach.org/events/eswc2017/</a></li>
-      <li><a href="https://linkedresearch.org/calls">https://linkedresearch.org/calls</a></li>
-      <li><a href="https://linkedresearch.org/ldn/tests/summary">https://linkedresearch.org/ldn/tests/summary</a></li>
-      <li><a href="http://csarven.ca/linked-specifications-reports">http://csarven.ca/linked-specifications-reports</a></li>
-    </ul>
-  </dd>
-</dl>
-</footer>
         </div>
       </article>
     </main>
