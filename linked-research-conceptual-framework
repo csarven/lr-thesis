@@ -115,7 +115,7 @@ transform:rotate(-60deg);
 
         <dl id="document-modified">
           <dt>Modified</dt>
-          <dd><time content="2018-02-28T00:00:00Z" datatype="xsd:dateTime" datetime="2018-02-28T00:00:00Z" property="schema:dateModified">2018-02-28</time></dd>
+          <dd><time content="2018-03-03T00:00:00Z" datatype="xsd:dateTime" datetime="2018-03-03T00:00:00Z" property="schema:dateModified">2018-03-03</time></dd>
         </dl>
 
         <dl id="document-latest-version">
@@ -126,6 +126,23 @@ transform:rotate(-60deg);
         <dl id="document-timemap">
           <dt>TimeMap</dt>
           <dd><a href="https://linkedresearch.org/article/csarven.ca/linked-research-conceptual-framework.timemap" rel="mem:timemap">https://linkedresearch.org/article/csarven.ca/linked-research-conceptual-framework.timemap</a></dd>
+        </dl>
+
+        <dl id="document-derived-from">
+          <dt>Derived From</dt>
+          <dd>
+            <ul>
+              <li><a href="http://csarven.ca/cooling-down-web-science" rel="prov:wasDerivedFrom">Cooling Down Web Science</a></li>
+              <li><a href="http://csarven.ca/enabling-accessible-knowledge" rel="prov:wasDerivedFrom">Enabling Accessible Knowledge</a></li>
+              <li><a href="http://csarven.ca/linked-research" rel="prov:wasDerivedFrom">Linked Research</a></li>
+              <li><a href="http://csarven.ca/call-for-linked-research" rel="prov:wasDerivedFrom">Call for Linked Research</a></li>
+              <li><a href="https://linkedresearch.org/rfc" rel="prov:wasDerivedFrom">Linked Research RFC</a></li>
+              <li><a href="http://csarven.ca/linked-research-scholarly-communication" rel="prov:wasDerivedFrom">Linked Research: An Approach for Scholarly Communication</a></li>
+              <li><a href="http://csarven.ca/web-science-from-404-to-200" rel="prov:wasDerivedFrom">Where is Web Science? From 404 to 200</a></li>
+              <li><a href="http://csarven.ca/dokieli-rww" rel="prov:wasDerivedFrom">Decentralised Authoring, Annotations and Notifications for a Read-Write Web with dokieli</a></li>
+              <li><a href="http://csarven.ca/faipdaaf" rel="prov:wasDerivedFrom">Full Article, Immediate, Permanent, Discoverable, and Accessible to Anyone Free of charge</a></li>
+            </ul>
+          </dd>
         </dl>
 
         <dl id="document-license">
@@ -823,25 +840,6 @@ transform:rotate(-60deg);
       </div>
     </section>
 
-
-<footer>
-<dl id="document-derived-from">
-  <dt>Derived From</dt>
-  <dd>
-    <ul>
-      <li><a href="http://csarven.ca/cooling-down-web-science">Cooling Down Web Science</a></li>
-      <li><a href="http://csarven.ca/enabling-accessible-knowledge">Enabling Accessible Knowledge</a></li>
-      <li><a href="http://csarven.ca/linked-research">Linked Research</a></li>
-      <li><a href="http://csarven.ca/call-for-linked-research">Call for Linked Research</a></li>
-      <li><a href="https://linkedresearch.org/rfc">Linked Research RFC</a></li>
-      <li><a href="http://csarven.ca/linked-research-scholarly-communication">Linked Research: An Approach for Scholarly Communication</a></li>
-      <li><a href="http://csarven.ca/web-science-from-404-to-200">Where is Web Science? From 404 to 200</a></li>
-      <li><a href="http://csarven.ca/dokieli-rww#principles">dokieli-rww principles</a></li>
-      <li><a href="http://csarven.ca/faipdaaf">Full Article, Immediate, Permanent, Discoverable, and Accessible to Anyone Free of charge</a></li>
-    </ul>
-  </dd>
-</dl>
-</footer>
         </div>
       </article>
     </main>
