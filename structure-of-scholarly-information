@@ -109,6 +109,21 @@
             <div datatype="rdf:HTML" property="schema:description">
               <p>Given that global strategic research is influenced by policies and industry, we acknowledge that different <em>information spaces</em> can be created by an ensemble of units of information. Such information spaces would serve to facilitate knowledge exchange in the scientific communication market. In this section, we use the LR design principles to materialise and analyse a particular configuration of an information space.</p>
 
+              <p>Figure X depicts a typical high-level interplay between the <em>actors</em> and the <em>content</em> forces, and their functions (registration, awareness, certification, archive) in scholarly communication.</p>
+
+              <figure id="figure-linked-research-ecosystem" rel="schema:hasPart" resource="#figure-linked-research-ecosystem">
+                  <object data="/proxy?uri=http://csarven.ca/media/images/articles/linked-research-ecosystem.svg" height="243" rel="schema:image" type="image/svg+xml" width="480"></object>
+
+                  <figcaption property="schema:name">Linked Research ecosystem.</figcaption>
+              </figure>
+
+              <p>Here authors create research literature in reply to a call for contributions; reviewers provide feedback on the research results; individuals annotate and re-share the literature; editors filter and assemble a collection of work; archives are notified about the research. In this depiction, we can take for granted that each unit of information can independently exist anywhere on the Web. The relationships between units indicate some level of semantic connectivity.</p>
+
+              <p>In the next sections, we take a closer look at the units.</p>
+            </div>
+          </section>
+
+
 <pre class="outline">
 * Structures of knowledge (interlinks between [high-level] entities, data models, information granularity, vocabularies)
 * History of Scholarly HTML?
@@ -124,8 +139,6 @@
 * LD/SW enables decentralisation, which leads us to...
 </pre>
 
-            </div>
-          </section>
 
 <article>
 <p><a href="http://csarven.ca/this-paper-is-a-demo">This ‘Paper’ is a Demo</a></p>
