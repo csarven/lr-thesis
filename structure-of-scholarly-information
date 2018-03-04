@@ -119,7 +119,7 @@
 
               <p>Here authors create research literature in reply to a call for contributions; reviewers provide feedback on the research results; individuals annotate and re-share the literature; editors filter and assemble a collection of work; archives are notified about the research.</p>
 
-              <p>Given that the <em>applicability</em> is an external force, and that the <em>certification</em> function is applied, eg. peer review, editors' filters, we assume that it is taking part in this information space. We take for granted that each unit of information can independently exist anywhere on the Web, hence the presence of the <em>accessibility</em> force.</p>
+              <p>Given that the <em>applicability</em> is an external force, and that the <em>certification</em> function is applied, eg. peer review, editors' filters, in this, we assume that the demand of applicability of science and technology is part of this information space. We take for granted that each unit of information can independently exist and be accessible for humans and machines from anywhere on the Web, the presence of the <em>accessibility</em> force is active in this information space.</p>
 
               <p>In the next sections, we take a closer look at the structure and semantics of units.</p>
             </div>
@@ -142,8 +142,6 @@ Rough coverage:
 </pre>
 
 
-<article>
-<p><a href="https://dokieli/docs">https://dokieli/docs</a></p>
           <section id="structure-and-semantics" inlist="" rel="schema:hasPart" resource="#structure-and-semantics">
             <h2 property="schema:name">Structure and Semantics</h2>
             <div datatype="rdf:HTML" property="schema:description">
@@ -612,6 +610,13 @@ Rough coverage:
             </div>
           </section>
 
+
+
+<hr />
+
+
+<article>
+<p><a href="https://dokieli/docs">https://dokieli/docs</a></p>
           <section id="user-interface" inlist="" rel="schema:hasPart" resource="#user-interface">
             <h2 property="schema:name">User interface</h2>
             <div datatype="rdf:HTML" property="schema:description">
