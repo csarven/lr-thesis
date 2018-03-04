@@ -174,7 +174,7 @@ Rough coverage:
 
                   <ul>
                     <li>General-purpose: <a href="http://schema.org/">schema.org</a>, <a href="http://purl.org/dc/terms/">dcterms</a></li>
-                    <li>Profile: <a href="http://xmlns.com/foaf/0.1/">Friend of a Friend (<abbr title="Friend of a Friend">FOAF</a>)</li>
+                    <li>Profile: <a href="http://xmlns.com/foaf/0.1/">Friend of a Friend</a> (<abbr title="Friend of a Friend">FOAF</abbr>)</li>
                     <li>Publishing and referencing: <a href="http://purl.org/ontology/bibo/">Bibliographic Ontology Specification</a>, <a href="http://purl.org/spar">Semantic Publishing and Referencing Ontologies</a> (<abbr title="Semantic Publishing and Referencing">SPAR</abbr> Ontologies)</li>
                     <li>Annotations: <a href="http://www.w3.org/ns/oa">Web Annotations</a></li>
                     <li>Inbox for notifications: <a href="http://www.w3.org/ns/ldp">Linked Data Notifications</a> (ldp:inbox, ldp:contains)</li>
