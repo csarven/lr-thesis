@@ -107,7 +107,7 @@
           <section id="information-space" inlist="" rel="schema:hasPart" resource="#information-space">
             <h2 property="schema:name">Information Space</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>In this section we observe common units of information which make up scholarly communication.</p>
+              <p>Given that global strategic research is influenced by policies and industry, we acknowledge that different <em>information spaces</em> can be created by an ensemble of units of information. Such information spaces would serve to facilitate knowledge exchange in the scientific communication market. In this section, we use the LR design principles to materialise and analyse a particular configuration of an information space.</p>
 
 <pre class="outline">
 * Structures of knowledge (interlinks between [high-level] entities, data models, information granularity, vocabularies)
