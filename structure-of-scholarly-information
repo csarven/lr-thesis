@@ -125,6 +125,7 @@
             </div>
           </section>
 
+
 <pre class="todo">
 Rough coverage:
 * Structures of knowledge (interlinks between [high-level] entities, data models, information granularity, vocabularies)
@@ -141,10 +142,34 @@ Rough coverage:
 * LD/SW enables decentralisation, which leads us to...
 </pre>
 
-
           <section id="structure-and-semantics" inlist="" rel="schema:hasPart" resource="#structure-and-semantics">
             <h2 property="schema:name">Structure and Semantics</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p>Exchanging units of communication between researchers researchers can be a scientific literature, annotation, notification, dataset, workflows, software, interactive knowledge representation. We focus on the kinds of documents including scientific prose in which researchers create or consume. For example, articles, annotations, notifications, profiles, or social activities would belong in this group, and may include non-narrative (meta)data like scientific observations, workflows, or program code.</p>
+
+              <section id="shape-of-information-units" inlist="" rel="schema:hasPart" resource="#shape-of-information-units">
+                <h3 property="schema:name">Shape of Information Units</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <dl>
+                    <dt>Article</dt>
+                    <dd>An article in the most general sense is a scientific contribution contained within a document. For instance, research manuscripts and peer-reviews are different types of articles.</dd>
+
+                    <dt>Annotation</dt>
+                    <dd>Annotations include information that is generally about an association between resources with different intentions. For example, commenting, liking, bookmarking, describing, linking, are some of the motivations to annotate an article.</dd>
+
+                    <dt>Notification</dt>
+                    <dd>Notifications fulfil the <em>awareness</em> functionality by having its content be about: an announcement of a scientific article; a quality assessment of some literature; reports of observations; annotations or social activities.</dd>
+
+                    <dt>Profiles</dt>
+                    <dd>Actors have online profiles where they generally describe themselves or refer to their contacts (address books), or curriculum vitae.</dd>
+                  </dl>
+                </div>
+              </section>
+
+
+
+
+
               <p>This section describes dokieli's practices, and offers some guidelines for developers and authors that would like to maintain uniformity in what they create. Consumers of dokieli should not treat the information here as a <em>profile</em>, or as a yet another super or subset of HTML+RDFa when they author or build new functionality. Creating articles, annotations, and notifications in dokieli is intended to be done through its UI, where it takes care of majority of the semantic content generation. The information here however can be useful for authors that would like to combine hand coding with the functionality that dokieli's UI provides. Takeaway what you find useful, there is no proprietary lock-in here.</p>
 
               <p id="separation-of-concerns">dokieli adopts <cite>progressive enhancement</cite> strategy for the structural, presentational, and behavioural layers to allow content and base functionality to be accessible through different media and devices. The content in HTML+RDFa that dokieli produces <em>is</em> accessible (readable) without requiring any CSS or JavaScript, ie. text-browser safe. Breaking this "rule" in future development should be considered an anti-pattern (or a bug) in dokieli.</p>
