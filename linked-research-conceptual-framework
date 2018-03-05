@@ -629,6 +629,13 @@ transform:rotate(-60deg);
               </div>
             </div>
 
+            <div class="note">
+              <h4>Note</h4>
+              <div>
+                <p>Strictly speaking, <q>decentralisation</q> on all levels is not attainable. Even Web standards are a form of centralisation in that designed systems practically can only coordinate among themselves. This is further explored in the <cite><a href="https://www.w3.org/DesignIssues/Evolution.html#ToII">Test of Independent Invention</a></cite> thought experiment.</p>
+              </div>
+            </div>
+
             <p>In context of <q>publishing</q>, we solely refer to the <q>registration</q> function, ie. irrespective of any certification or acknowledgement on the quality of work. Hence, when a researcher initiates registration, we refer to that as <q>self-registration</q>. The act of <em>self-publishing</em> eg. on own's personal website, is considered to be <em>self-registration</em>. There are no constraints on where units of communication (<q>research objects</q>) can exist on the Web. For instance, authors of an article can have their profiles anywhere on the Web, annotations and notification can created by different users and applications, and stored at different locations.</p>
 
             <p>It extends the physical function of an <em>actor</em>.</p>
