@@ -74,6 +74,7 @@
               <li><a href="https://linkedresearch.org/calls" rel="prov:wasDerivedFrom">Call for Linked Research</a></li>
               <li><a href="https://linkedresearch.org/ldn/tests/summary" rel="prov:wasDerivedFrom">LDN Test Reports and Summary</a></li>
               <li><a href="http://csarven.ca/linked-specifications-reports" rel="prov:wasDerivedFrom">Linking Specifications, Test Suites, and Implementation Reports</a></li>
+              <li><a href="http://csarven.ca/enabling-accessible-knowledge" rel="prov:wasDerivedFrom">Enabling Accessible Knowledge</a></li>
             </ul>
           </dd>
         </dl>
@@ -128,7 +129,7 @@
 
 <pre class="todo">
 Rough coverage:
-* Structures of knowledge (interlinks between [high-level] entities, data models, information granularity, vocabularies)
+[x] Structures of knowledge (interlinks between [high-level] entities, data models, information granularity, vocabularies)
 * History of Scholarly HTML?
 * Why RDF. Suitability of RDF (in prose). Scope and motivations for RDFa over alternatives.
 * RDFa editors (what can/do they produce)
@@ -147,8 +148,8 @@ Rough coverage:
             <div datatype="rdf:HTML" property="schema:description">
               <p>Exchanging units of communication between researchers researchers can be a scientific literature, annotation, notification, dataset, workflows, software, interactive knowledge representation. We focus on the kinds of documents including scientific prose in which researchers create or consume. For example, articles, annotations, notifications, profiles, or social activities would belong in this group, and may include non-narrative (meta)data like scientific observations, workflows, or program code.</p>
 
-              <section id="shape-of-information-units" inlist="" rel="schema:hasPart" resource="#shape-of-information-units">
-                <h3 property="schema:name">Shape of Information Units</h3>
+              <section id="types-of-information-units" inlist="" rel="schema:hasPart" resource="#types-of-information-units">
+                <h3 property="schema:name">Types of Information Units</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <dl>
                     <dt>Article</dt>
@@ -163,6 +164,26 @@ Rough coverage:
                     <dt>Profiles</dt>
                     <dd>Actors have online profiles where they generally describe themselves or refer to their contacts (address books), or curriculum vitae.</dd>
                   </dl>
+                </div>
+              </section>
+
+
+              <section id="human-and-machine-interpretable-information-representation" rel="schema:hasPart" resource="#human-and-machine-interpretable-information-representation">
+                <h3>Human and Machine-Interpretable Information Representation</h3>
+                <div>
+                  <p id="rdf-as-base">The application of the RDF language is the fundamental requirement as the information can be serialised using different syntaxes eg. HTML+RDFa, Turtle. Perhaps most importantly, the underlying data is intended to be treated as a <em>graph</em> of statements, where its syntactical representations remaining isomorphic across serialisations. While the LR design principles does not mandate a particular serialisation for systems to use - as different environments and documents will have their own needs - we will however discuss a particular arrangement with the goal of understanding a useful balance for human and machine use.</p>
+
+                  <p id="units-for-humans-and-machine-use">As indicated earlier, the high-level units of communication that we are examining are primarily in the form of prose which may be accompanied with supplemental (meta)data. With this premise, we emphasise on the point that the underlying information is intended for <em>both</em> humans and machines, where each can create and interact with the information through applicable and desired interfaces.</p>
+
+                  <p id="content-negotiation-as-optimisation">While it is feasible, a common practice, and in some cases optimal to have different representations for the same content with the intention of serving for humans or machines, eg. through <cite><a href="https://tools.ietf.org/html/rfc2295">Transparent Content Negotiation in HTTP</a></cite>, we can focus on options that provide a commonality while having the lowest the barrier on the server that's making the data available for the purpose of read-write operations. It is important note here that, user-agents can approach content-negotiation for the purpose of optimisation as opposed to being a rule.</p>
+
+                  <p id="rdfa-for-human-and-machines">With the possible RDF syntaxes, this line of reasoning naturally brings us to encapsulating information using <cite><a href="https://www.w3.org/TR/rdfa-core/">RDFa</a></cite> (attribute-level extension) inside (X)HTML, and various XML-family languages eg. SVG. What makes RDFa in HTML, for instance, an attractive combination is that it maps the RDF data-model which is ideal for machines, while retaining the same document that is interpretable by humans.</p>
+
+                  <p id="human-machine-readable">By taking the RDFa in HTML approach, we can have all human-visible content in HTML, and all structured statements be made in context of their content in RDFa. This is optimal in avoiding data duplication in the same document which happens to be the case with the other serialisations in RDF, eg. Turtle or JSON-LD in HTML <code>script</code> blocks. The approach also helps to avoid the creation and usage of multiple data islands, ie. separately for humans and machines. It is efficient in that it has no dependency on JavaScript in order to make the hidden machine-readable content be consumable from a human user interface. For supplemental data, Turtle, JSON-LD, or TriG can always be provided in HTML, however, the primary information is still communicated through RDFa.</p>
+
+                  <p id="serialisations">Having the canonical representation for articles, annotations, and notifications in HTML+RDFa, still leaves the servers to provide alternative serialisations, eg. Turtle, and JSON-LD, depending on the content-negotiation between the client and the server. Articles are represented in HTML+RDFa so that information is usable by both humans and machine consumers while maintaining lowest requirements for publishing, eg. a single URL with full payload in HTML+RDFa can be accessible from any HTTP server. No additional requirements necessary from clients (eg. JavaScript support and enabled) or servers (eg. additional RDF based content-negotiation). For annotations and notifications, we first meet interoperability requirements (for protocols and vocabularies), and remains flexible about the serialisation that servers prefer. Similarly for consuming content, it can work with any of the serialisations as mentioned.</p>
+
+                  <p id="separation-of-concerns">By adopting the <cite>progressive enhancement</cite> strategy for the structural (HTML+RDFa), presentational (CSS), and behavioural (JavaScript) layers, we can to allow content and base functionality to be accessible through different media and devices. Ultimately, the unit of communication represented in HTML+RDFa can be accessible - readable and writeable - without requiring any CSS or JavaScript, ie. text-browser safe.</p>
                 </div>
               </section>
 
@@ -201,11 +222,7 @@ Rough coverage:
 
               <p>This section describes dokieli's practices, and offers some guidelines for developers and authors that would like to maintain uniformity in what they create. Consumers of dokieli should not treat the information here as a <em>profile</em>, or as a yet another super or subset of HTML+RDFa when they author or build new functionality. Creating articles, annotations, and notifications in dokieli is intended to be done through its UI, where it takes care of majority of the semantic content generation. The information here however can be useful for authors that would like to combine hand coding with the functionality that dokieli's UI provides. Takeaway what you find useful, there is no proprietary lock-in here.</p>
 
-              <p id="separation-of-concerns">dokieli adopts <cite>progressive enhancement</cite> strategy for the structural, presentational, and behavioural layers to allow content and base functionality to be accessible through different media and devices. The content in HTML+RDFa that dokieli produces <em>is</em> accessible (readable) without requiring any CSS or JavaScript, ie. text-browser safe. Breaking this "rule" in future development should be considered an anti-pattern (or a bug) in dokieli.</p>
 
-              <p id="serialisations">dokieli can serialise articles, annotations, and notifications in HTML+RDFa, Turtle, and JSON-LD, depending on server content-negotiation. Articles are represented in HTML+RDFa so that information is usable by both humans and machine consumers while maintaining lowest requirements for publishing, eg. a single URL with full payload in HTML+RDFa can be accessible from any HTTP server. No additional requirements necessary from clients (eg. JavaScript support and enabled) or servers (eg. additional RDF based content-negotiation). For annotations and notifications, dokieli first meets interoperability requirements (for protocols and vocabularies), and remains flexible about the serialisation that servers prefer. Similarly for consuming content, it can work with any of the serialisations as mentioned.</p>
-
-              <p id="human-machine-readable">dokieli takes the approach of having all human-visible content in HTML, and all structured statements be made in context of their content in RDFa. This is optimal in avoiding data duplication in the same document which happens to be the case with the other serialisations in RDF. The approach also helps to avoid the creation and usage of multiple data islands, ie. separately for humans and machines. It is efficient in that it has no dependency on JavaScript in order to make the hidden machine-readable content be consumable from a human user interface. One exception to this rule is allowing authors to use the <cite>Embed Data</cite> feature to include Turtle, JSON-LD, or TriG data blocks for alternative reasons.</p>
 
               <section id="dokieli-documents" inlist="" rel="schema:hasPart" resource="#dokieli-documents">
                 <h3 property="schema:name">dokieli documents</h3>
