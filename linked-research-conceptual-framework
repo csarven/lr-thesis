@@ -632,7 +632,7 @@ transform:rotate(-60deg);
             <div class="note">
               <h4>Note</h4>
               <div>
-                <p>Strictly speaking, <q>decentralisation</q> on all levels is not attainable. Even Web standards are a form of centralisation in that designed systems practically can only coordinate among themselves. This is further explored in the <cite><a href="https://www.w3.org/DesignIssues/Evolution.html#ToII">Test of Independent Invention</a></cite> thought experiment.</p>
+                <p>Strictly speaking, <q>decentralisation</q> on all levels is not attainable. Even Web standards are a form of centralisation in that designed systems practically can only coordinate among themselves. This is further explored in the <cite><a href="https://www.w3.org/DesignIssues/Evolution.html#ToII">Test of Independent Invention</a></cite> thought experiment. Similarly centralisation naturally occurs in social systems like concepts or language, eg. machine-readable vocabularies restrict the set of uses of a system.</p>
               </div>
             </div>
 
