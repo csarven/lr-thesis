@@ -22,6 +22,12 @@
         <div datatype="rdf:HTML" property="schema:description">
           <p>If the scholars can be more <em>involved</em> in the process of crafting their knowledge for better access and discovery, what effects can we anticipate?</p>
 
+
+          <blockquote>
+            <p>The duty of the man who investigates the writings of scientists, if learning the truth is his goal, is to make himself an enemy of all that he reads, and ... attack it from every side. He should also suspect himself as he performs his critical examination of it, so that he may avoid falling into either prejudice or leniency.</p>
+
+            <footer><cite>Alhazen</cite></footer>
+          </blockquote>
         </div>
       </article>
     </main>
