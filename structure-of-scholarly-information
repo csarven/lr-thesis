@@ -130,8 +130,8 @@
 <pre class="todo">
 Rough coverage:
 [x] Structures of knowledge (interlinks between [high-level] entities, data models, information granularity, vocabularies)
-* History of Scholarly HTML?
-* Why RDF. Suitability of RDF (in prose). Scope and motivations for RDFa over alternatives.
+[x] History of Scholarly HTML?
+[x] Why RDF. Suitability of RDF (in prose). Scope and motivations for RDFa over alternatives.
 * RDFa editors (what can/do they produce)
 * URIs for prose, concepts, ideas, research sections as deemed important by authors.
 * Implementation of embedding prose semantics with dokieli (evaluation).
@@ -140,17 +140,18 @@ Rough coverage:
 * Embedding data (top-down / bottom-up)
 * Embedding statistical and experimental data, and views
 * Multimodal active documents
-* LD/SW enables decentralisation, which leads us to...
 </pre>
 
           <section id="structure-and-semantics" inlist="" rel="schema:hasPart" resource="#structure-and-semantics">
             <h2 property="schema:name">Structure and Semantics</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Exchanging units of communication between researchers researchers can be a scientific literature, annotation, notification, dataset, workflows, software, interactive knowledge representation. We focus on the kinds of documents including scientific prose in which researchers create or consume. For example, articles, annotations, notifications, profiles, or social activities would belong in this group, and may include non-narrative (meta)data like scientific observations, workflows, or program code.</p>
+              <p>Exchanging units of communication between researchers can be a scientific literature, annotation, notification, dataset, workflow, software, compound and dynamic knowledge representation. We focus on the kinds of documents including scientific prose in which researchers create or consume. For example, articles, annotations, notifications, profiles, or social activities would belong in this group, and may include non-narrative (meta)data like scientific observations, workflows, or program code.</p>
 
-              <section id="types-of-information-units" inlist="" rel="schema:hasPart" resource="#types-of-information-units">
-                <h3 property="schema:name">Types of Information Units</h3>
+              <section id="human-centric-containers-for-units-of-communication" inlist="" rel="schema:hasPart" resource="#human-centric-containers-for-units-of-communication">
+                <h3 property="schema:name">Human-centric Containers for Units of Communication</h3>
                 <div datatype="rdf:HTML" property="schema:description">
+                  <p>We use the term "container" loosely here, and not aligned with <cite><a href="https://w3id.org/ro/">Research Objects</a></cite>'s identifiable container.</p>
+
                   <dl>
                     <dt>Article</dt>
                     <dd>An article in the most general sense is a scientific contribution contained within a document. For instance, research manuscripts and peer-reviews are different types of articles.</dd>
@@ -185,7 +186,7 @@ Rough coverage:
 
                   <p id="separation-of-concerns">By adopting the <cite>progressive enhancement</cite> strategy for the structural (HTML+RDFa), presentational (CSS), and behavioural (JavaScript) layers, we can allow content and base functionality to be accessible through different media and devices. Ultimately, the unit of communication represented in HTML+RDFa can be accessible - readable - for both humans and machines without requiring any CSS or JavaScript. This approach is considered to cover the base requirement of making the content available with lowest server requirements, ie. anything HTTP server that can serve HTML, and a client that can consume HTML. In essence, a human and machine-interpretable scientific information can be regarded to be usable by <cite><a href="https://en.wikipedia.org/wiki/Text-based_web_browser">text-based web browsers</a></cite>.</p>
 
-                  <p class="profiles-grammar">The use of formal profiles or grammars on the HTML is a common practice for information exchange across well-defined ecosystems. While this sort of a design has the quality of being efficient for cooperating systems, it comes at the cost of wider interoperability. That is, if an application is designed to only work with a particular flavour or subset of HTML, then it would not be able to work with other HTML documents on the Web. Hence, having profiles or grammars in and itself not an issue, however its <em>effects</em> are likely to be that they are less interoperable than they can be. This is in contrast to applications safely ignoring information patterns they do not understand or interested in using. There are plethora of attempts and approaches in this space. To name a few, most recently the W3C Community Group on <cite><a href="https://www.w3.org/community/scholarlyhtml/">Scholarly HTML</a></cite> with the aim to build a common, open format for the exchange of scholarly information; <cite><a href="https://essepuntato.github.io/papers/rash-peerj2016.html">Research Articles in Simplified HTML</a></cite>; and closely related: <cite><a href="http://www.idpf.org/epub">EPUB</a></cite> as an archive file including all material; <cite><a href="http://jats.niso.org/">Journal Article Tag Suite</a></cite> to describe scientific literature; <cite><a href="http://docbook.org">DocBook</a></cite> for semantic technical documentation.</p>
+                  <p class="profiles-grammar">The use of formal profiles or grammars on the HTML is a common practice for information exchange across well-defined ecosystems. While this sort of a design has the quality of being efficient for cooperating systems, it comes at the cost of wider interoperability. That is, if an application is designed to only work with a particular flavour or subset of HTML, then it would not be able to work with other HTML documents on the Web. Hence, having profiles or grammars in and itself not an issue, however its <em>effects</em> are likely to be that they are less interoperable than they can be. This is in contrast to applications safely ignoring information patterns they do not understand or interested in using. There are plethora of attempts and approaches in this space. To name a few, most recently the W3C Community Group on <cite><a href="https://www.w3.org/community/scholarlyhtml/">Scholarly HTML</a></cite> with the aim to build a common, open format for the exchange of scholarly information; <cite><a href="https://essepuntato.github.io/papers/rash-peerj2016.html">Research Articles in Simplified HTML</a></cite>; and closely related: <cite><a href="http://www.idpf.org/epub">EPUB</a></cite> as an archive file including all material; <cite><a href="http://jats.niso.org/">Journal Article Tag Suite</a></cite> to describe scientific literature; <cite><a href="http://docbook.org/">DocBook</a></cite> for semantic technical documentation.</p>
 
                   <div class="note">
                     <h4>Note</h4>
@@ -204,7 +205,6 @@ Rough coverage:
                   </div>
                 </div>
               </section>
-
 
               <section id="vocabularies-and-ontologies" rel="schema:hasPart" resource="#vocabularies-and-ontologies">
                 <h3 property="schema:name">Vocabularies and ontologies</h3>
@@ -235,12 +235,14 @@ Rough coverage:
                   </ul>
                 </div>
               </section>
+            </div>
+          </section>
 
 
-
+          <section id="implementation-of-interpretable-information" inlist="" rel="schema:hasPart" resource="#implementation-of-interpretable-information">
+            <h2 property="schema:name">Implementation of Interpretable Information</h2>
+            <div datatype="rdf:HTML" property="schema:description">
               <p>This section describes dokieli's practices, and offers some guidelines for developers and authors that would like to maintain uniformity in what they create. Consumers of dokieli should not treat the information here as a <em>profile</em>, or as a yet another super or subset of HTML+RDFa when they author or build new functionality. Creating articles, annotations, and notifications in dokieli is intended to be done through its UI, where it takes care of majority of the semantic content generation. The information here however can be useful for authors that would like to combine hand coding with the functionality that dokieli's UI provides. Takeaway what you find useful, there is no proprietary lock-in here.</p>
-
-
 
               <section id="dokieli-documents" inlist="" rel="schema:hasPart" resource="#dokieli-documents">
                 <h3 property="schema:name">dokieli documents</h3>
@@ -263,7 +265,7 @@ Rough coverage:
               <section id="html-patterns" inlist="" rel="schema:hasPart" resource="#html-patterns">
                 <h3 property="schema:name">HTML patterns</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>One of the goals of dokieli is not to impose arbitrary restrictions on type of nodes as well as the order they should be in HTML+RDFa. It has its own design patterns. It is an ongoing work to make dokieli as flexible as it can be on what it can consume. Ultimately, well-formed and valid HTML - along with accompanying RDFa, Turtle, JSON-LD, TriG etc - is the only requirement here. Take what you like:</p>
+                  <p>One of the goals of dokieli is not to impose arbitrary restrictions on type of nodes as well as the order they should be in HTML+RDFa. It has its own design patterns. It is an ongoing work to make dokieli as flexible as it can be on what it can consume. Ultimately, well-formed and valid HTML - along with accompanying RDFa, Turtle, JSON-LD, TriG etc - is the only requirement here. Interoperable information exchange is intended to work over the graph that is expressed through RDFa. The HTML merely acts as the container to encapsulate the underyling information and to offer presentations and interactions</p>
 
                   <dl>
                     <dt id="html-markup-syntax">Markup syntax</dt>
@@ -292,7 +294,7 @@ Rough coverage:
 <samp class="highlight-h3">      &lt;h3&gt;</samp>
 <code class="highlight-div">      &lt;div&gt;</code>
 <code class="highlight-div">      &lt;div&gt;</code>
-<code>      &lt;aside&gt;</code>
+<code class="highlight-aside">      &lt;aside&gt;</code>
 <code class="highlight-section">&lt;section&gt;</code>
 <samp class="highlight-h2">  &lt;h2&gt;</samp>
 <code class="highlight-section">  &lt;section&gt;</code>
@@ -312,9 +314,9 @@ Rough coverage:
 
                       <figure class="listing" id="html-figure-listing" rel="schema:hasPart" resource="#html-figure-listing">
                         <pre about="#html-figure-listing" property="schema:description" typeof="fabio:Script"><code class="highlight-section">&lt;section&gt;</code>
-<samp>  &lt;h2&gt;</samp>
-<code>  &lt;div&gt;</code>
-<code>    &lt;section&gt;</code></pre>
+<samp class="highlight-h2">  &lt;h2&gt;</samp>
+<code class="highlight-div">  &lt;div&gt;</code>
+<code class="highlight-section">    &lt;section&gt;</code></pre>
                         <figcaption>Snippet of <a href="#html-section-source">section source</a> code</figcaption>
                       </figure>
 
@@ -388,13 +390,6 @@ Rough coverage:
                     <dd>Some of the prefixes (<code>@prefix</code>) on the <code>body</code> element are defined in the <cite><a href="https://www.w3.org/2011/rdfa-context/rdfa-1.1.html">RDFa Core Initial Context</a></cite>. These prefixes are defined in dokieli for the purpose of being compact, robust, and to minimise potential errors for consumers.</dd>
                   </dl>
 
-                  <div class="note">
-                    <h4>Note</h4>
-                    <div>
-                      <p>There is a <em>work in progress</em> to have a distribution version of dokeli, requiring only <samp>do.css</samp> and <samp>do.js</samp> in templates.</p>
-                    </div>
-                  </div>
-
                   <p id="html-charset">Servers should use <code>UTF-8</code> character encoding in their HTTP responses to articles, annotations, and notifications. <code>&lt;meta charset="utf-8" /&gt;</code> is used in HTML.</p>
 
                   <section id="html-article" inlist="" rel="schema:hasPart" resource="#html-article">
@@ -417,7 +412,7 @@ Rough coverage:
 <code>    &lt;script src="https://dokie.li/scripts/do.js"&gt;&lt;/script&gt;</code>
 <code>  &lt;/head&gt;</code>
 <code></code>
-<code>  &lt;body about="" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ pimspace: http://www.w3.org/ns/pim/space# cc: https://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ void: http://rdfs.org/ns/void# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# bibo: http://purl.org/ontology/bibo/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio#" typeof="schema:CreativeWork sioc:Post prov:Entity"&gt;</code>
+<code>  &lt;body about="" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ pimspace: http://www.w3.org/ns/pim/space# cc: https://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# mem: http://mementoweb.org/ns# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ void: http://rdfs.org/ns/void# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# bibo: http://purl.org/ontology/bibo/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio# rel: https://www.w3.org/ns/iana/link-relations/relation#" typeof="schema:CreativeWork sioc:Post prov:Entity"&gt;</code>
 <code>    &lt;main&gt;</code>
 <code>      &lt;article about="" typeof="schema:Article"&gt;</code>
 <code></code>
@@ -1430,236 +1425,6 @@ Rough coverage:
 <hr />
 
 
-<article>
-  <p><a href="http://csarven.ca/this-paper-is-a-demo">This ‘Paper’ is a Demo</a></p>
-                    <section id="introduction" rel="schema:hasPart" resource="#introduction">
-                        <h2 property="schema:name">Introduction</h2>
-                        <div about="#introduction" property="schema:description" typeof="deo:Introduction">
-                            <p>One of the most widely debated questions in the scientific community is the impact of digitization on the scholarly communication and knowledge exchange. In this demo, we present a way how scholarly communication can truly digitize by means of living, interactive publications. Despite advances such as open and digital access to publications few has been changed yet with regard to the digitization of scientific publishing. Scientists still write static documents, which do not use the possibilities of digitization, such as interactivity, multimodality or semantic content annotation and representation.</p>
-
-                            <p>In this demo, we present our linked scientific publication approach based on native Web technologies i.e., HTML, CSS, JavaScript, and RDFa for authoring and representing scholarly content. We demonstrate how multimodal content such as video and audio can be embedded. Especially for computer science, code examples are an important type of content, which can be integrated with these publications. We showcase, how different views of the content can be rendered for different devices (e.g. screen, print, mobile) or audiences (e.g. slideshows). A particular strength of our approach is the integration and linking of data, which can automatically update tables and diagrams when the underlying data changes. Also, all content can be annotated and represented using semantic knowledge representation formalisms to facilitate better search, exploration and retrieval of scholarly content. In the following subsections we explain and demonstrate each of these features.</p>
-                       </div>
-                    </section>
-
-                    <section id="technology-and-design" rel="schema:hasPart" resource="#technology-and-design">
-                        <h2 property="schema:name">Technology and Design</h2>
-                        <div property="schema:description" datatype="rdf:HTML">
-                            <p>Our work is called <strong>Linked Research</strong> as discussed in <cite>Enabling Accessible Knowledge</cite> [<a class="ref" href="#ref-1">1</a>]. There is a single template using the <a href="http://dev.w3.org/html5/html-polyglot/">HTML 5 Polyglot</a> markup. Different CSS are used to present the information for different media e.g., academic paper layouts following the ACM and LNCS authoring style guidelines, slideshow styles, or even as a W3C “Recommendation” (to only demonstrate the flexibility of semantic markup). JavaScript is applied to the document to <em>progressively enhance</em> the information’s interactive components. In a nutshell, the minimum viable product encloses the following:</p>
-
-                            <ul id="minimum-viable-product">
-                                <li>Documents are human and machine-<em>friendly</em>.</li>
-                                <li>Using the <em>plain old semantic HTML</em> marking process, with further semantic annotations using RDFa.</li>
-                                <li>No server required. Works on local machine.</li>
-                                <li>No installation. No account creation.</li>
-                                <li>No out-of-band tooling. A Web browser is the only requirement, whether it is a <a href="http://info.cern.ch/hypertext/WWW/LineMode/Browser.html">Line Mode Browser</a>, or <a href="https://nightly.mozilla.org/">Firefox Nightly</a>.</li>
-                                <li>Licenses and rights: <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License</a> and <a href="https://creativecommons.org/publicdomain/zero/1.0/" title="Creative Commons Public Domain Dedication">CC0</a>.</li>
-                            </ul>
-
-                            <p>The code for <a href="https://github.com/linkeddata/dokieli">dokieli</a> is publicly available along with a <a href="https://dokie.li/">demo site</a>, with sample peer-reviewed and published ‘papers’. Well-known <a href="https://dokie.li/lncs-splnproc">LNCS</a> and <a href="https://dokie.li/acm-sigproc-sp">ACM</a> authoring guidelines themselves are also available as examples. The ACM guidelines can be viewed or printed using LNCS, and vice-versa.</p>
-
-                            <section id="structure-and-semantics" rel="schema:hasPart" resource="#structure-and-semantics">
-                                <h3 property="schema:name">Structure and Semantics</h3>
-                                <div property="schema:description" datatype="RDF:HTML">
-                                    <p>Underneath the user interface, simple and flexible HTML patterns are used to encapsulate <a href="http://www.w3.org/html/wg/drafts/html/master/#sectioning-content">sectioning content</a>. Listing [<a href="#listing-1">1</a>] shows a common design pattern.</p>
-
-                                    <figure id="listing-1" class="listing">
-<pre><code class="highlight-section">&lt;section&gt;</code>
-<samp class="highlight-h2">  &lt;h2&gt;</samp>
-<code class="highlight-div">  &lt;div&gt;</code></pre>
-                                        <figcaption><samp class="highlight-h2">h2</samp> is an example heading used here for <code class="highlight-section">section</code> titles, <code class="highlight-div">div</code> as a typical wrapper for descriptions, as well as to contain further sub-sectioned content.</figcaption>
-                                    </figure>
-
-                                    <p>The available RDF(a) in this ‘paper’ can be consumed using e.g., <cite><a href="https://linkeddata.uriburner.com/about/html/http/csarven.ca/this-paper-is-a-demo">Linked Data URI Burner</a></cite> or <cite><a href="http://www.w3.org/2012/pyRdfa/extract?uri=http%3A%2F%2Fcsarven.ca%2Fthis-paper-is-a-demo&amp;rdfa_lite=false&amp;vocab_expansion=false&amp;embedded_rdf=true&amp;validate=yes&amp;space_preserve=true&amp;vocab_cache_report=false&amp;vocab_cache_bypass=false">RDFa 1.1 Distiller and Parser</a></cite>. Linked Research documents may typically include the following vocabularies: <a href="http://www.w3.org/2004/02/skos/">SKOS</a>, <a href="http://xmlns.com/foaf/spec/">FOAF</a>, <a href="http://purl.org/dc/terms">DC Terms</a>, <a href="http://semanticscience.org/">SIO</a>, <a href="http://purl.org/spar">SPAR</a>, <a href="http://www.w3.org/TR/prov-o">PROV-O</a>, <a href="http://www.opmw.org/model/OPMW/">OPMW</a>, <a href="https://w3id.org/ro/">RO</a>, <a href="http://htmlpreview.github.io/?https://raw.github.com/linked-statistics/disco-spec/master/discovery.html">Disco</a>, <a href="http://www.w3.org/TR/vocab-data-cube/">QB</a>, <a href="http://sioc-project.org/">SIOC</a>.</p>
-                                </div>
-                            </section>
-
-                            <section id="presentation" about="" rel="schema:hasPart" resource="#presentation">
-                                <h3 property="schema:name">Presentation</h3>
-                                <div property="schema:description" datatype="rdf:HTML">
-                                    <p>The CSS are primarily tested using the Gecko browser engine e.g., Firefox, as it provides a more comprehensive and consistent CSS screen and print media support. The views are also tested for in other engines e.g., WebKit, and Trident. The single HTML is flexible such that it can presented in different ways (a <cite><a href="http://csszengarden.com/">CSS Zen Garden</a></cite>), using the browser or document options.</p>
-
-                                    <script>//<![CDATA[
-                                    var actionViews = '<section id="action-views" class="do">These buttons can also trigger the views in this article: <\/section>';
-                                    var presentation = document.getElementById('presentation');
-                                    presentation.insertAdjacentHTML('beforeend', actionViews);
-                                    var aV = document.getElementById('action-views');
-                                    DO.U.showViews(aV);
-                                    var h2 = aV.querySelector('h2');
-                                    h2.parentNode.removeChild(h2);
-                                    //]]></script>
-                                    <style>/*<![CDATA[*/
-                                    @media screen {
-                                        #action-views.do { margin-bottom:1em; }
-                                        #action-views.do:after { content:'.'; }
-                                        #action-views.do * { display:inline !important; }
-                                        #action-views.do #document-views { margin-top:0; }
-                                        #action-views.do #document-views:before { content:''; }
-                                        #action-views.do li { margin-right:0; }
-                                        #action-views.do li:before { content:', '; }
-                                        #action-views.do li:first-child:before { content:''; }
-                                    }
-                                    /*]]>*/</style>
-                                </div>
-                            </section>
-
-                            <section id="interaction" rel="schema:hasPart" resource="#interaction">
-                                <h3 property="schema:name">Interaction</h3>
-                                <div property="schema:description" datatype="rdf:HTML">
-                                    <p>Screen devices with interactive abilities can use the following:</p>
-
-                                    <ul>
-                                        <li>In browser editing without having to hand-code HTML or RDF syntaxes - partial support at the moment - and, sorting sections through table of contents.</li>
-                                        <li>Embed data in HTML: Turtle and JSON-LD.</li>
-                                        <li>Visible identifiers for sections and other important enough declared concepts. Fosters sharing and cross-linking of concepts, arguments, workflows etc.</li>
-                                        <li>Document metadata for authors.</li>
-                                        <li>Exporting to HTML. A (La)TeX export is planned.</li>
-                                        <li>Local Storage (in the browser) for offline editing. Auto-save is available.</li>
-                                        <li>View switching e.g., ACM, LNCS, W3C-ED, Slideshow, Native.</li>
-                                    </ul>
-                                </div>
-                            </section>
-                        </div>
-                    </section>
-
-                    <section id="multimedia-interactions" rel="schema:hasPart" resource="#multimedia-interactions">
-                        <h2 property="schema:name">Multimedia Interactions</h2>
-                        <div about="#multimedia-interactions" property="schema:description" typeof="deo:Results">
-                            <p>Different representations of this ‘paper’ and interactions are demonstrated:</p>
-
-                            <section id="print" rel="schema:hasPart" resource="#print">
-                                <h3 property="schema:name">Print</h3>
-                                <div property="schema:description" datatype="rdf:HTML">
-                                    <p>The view e.g., LNCS, in which the audience is experiencing this ‘paper’ is one of many. This document can be printed by inputting (typically keyboard or equivalent voice command): <kbd>Ctrl/⌘ + P</kbd> or <kbd>File/☰</kbd> → <kbd>Print</kbd>.</p>
-                                </div>
-                                <script>//<![CDATA[-
-                                    var actionPrint = '<span id="action-print" class="do">Alternatively, using the <button class="print-file-html">⎙ Print<\/button><\/span>';
-                                    document.querySelector('#print p').insertAdjacentHTML('beforeend', actionPrint);
-                                    document.querySelector('#action-print .print-file-html').addEventListener('click', function(e) {
-                                        window.print();
-                                        return false;
-                                    });
-                                //]]></script>
-                                <style>/*<![CDATA[*/
-                                    #action-print.do { display:inline !important; }
-                                    #action-print.do:before { content:"\00a0"; }
-                                    #action-print.do:after { content:" button."; }
-                                /*]]>*/</style>
-                            </section>
-
-                            <section id="slideshow" rel="schema:hasPart" resource="#slideshow">
-                                <h3 property="schema:name">Slideshow</h3>
-                                <div property="schema:description" datatype="rdf:HTML">
-                                    <p>This ‘paper’ can also be viewed as a slideshow.</p>
-
-                                    <script>//<![CDATA[
-                                        var actionSlideshow = '<span id="action-slideshow" class="do">Here is the trigger: <button>Shower<\/button><\/span>';
-                                        var context = document.querySelector('#slideshow p:nth-child(1)');
-                                        context.insertAdjacentHTML('beforeend', actionSlideshow);
-                                        document.querySelector('#action-slideshow button').addEventListener('click', function(e){
-                                            var stylesheets = document.querySelectorAll('head link[rel~="stylesheet"][title]:not([href$="do.css"])');
-                                            for(var i = 0; i < stylesheets.length; i++) {
-                                                stylesheets[i].disabled = true;
-
-                                                if (stylesheets[i].getAttribute('title').toLowerCase() == e.target.textContent.toLowerCase()) {
-                                                    stylesheets[i].setAttribute('rel', 'stylesheet');
-                                                    stylesheets[i].disabled = false;
-                                                }
-                                                else {
-                                                    stylesheets[i].setAttribute('rel', 'stylesheet alternate');
-                                                }
-                                            };
-
-                                            var slides = document.querySelectorAll('.slide');
-                                            for(var i = 0; i < slides.length; i++) {
-                                                slides[i].classList.add('do');
-                                            }
-                                            document.body.classList.add('on-slideshow', 'list');
-                                            document.querySelector('head').insertAdjacentHTML('beforeend', '<meta name="viewport" content="width=792, user-scalable=no" />');
-                                        });
-                                    //]]></script>
-                                    <style>/*<![CDATA[*/
-                                        #action-slideshow.do { margin-left:1em; }
-                                        #action-slideshow.do:after { content:'.'; }
-                                    /*]]>*/</style>
-                                </div>
-                            </section>
-
-                            <section id="audio" rel="schema:hasPart" resource="#audio">
-                                <h3  property="schema:name">Audio</h3>
-                                <div property="schema:description" datatype="rdf:HTML">
-                                    <p>An audio recording and its spectrogram of this ‘paper’ is available for supporting media. Otherwise, a complimentary spectrogram of the recording is visible in Figure [<a href="#audio-spectrogram">1</a>]:</p>
-
-                                    <audio id="audio-this-paper-is-a-demo" rel="schema:hasPart" preload="none" controls="controls" width="300">
-                                        <source about="#audio-this-paper-is-a-demo" rel="schema:hasPart" resource="http://csarven.ca/media/audio/this-paper-is-a-demo.ogg" src="http://csarven.ca/media/audio/this-paper-is-a-demo.ogg" type="audio/ogg" />
-                                        <track about="#audio-this-paper-is-a-demo" rel="schema:hasPart" resource="http://csarven.ca/media/track/this-paper-is-a-demo.en.vtt" kind="captions" src="http://csarven.ca/media/track/this-paper-is-a-demo.en.vtt" srclang="en" label="English" default="default" />
-                                    </audio>
-
-                                    <figure id="audio-spectrogram">
-                                        <img src="http://csarven.ca/media/images/articles/audio-spectrogram-this-paper-is-a-demo.jpg" width="640" height="107"/>
-                                        <figcaption>Spectrogram of the audio recording of this paper.</figcaption>
-                                    </figure>
-                                </div>
-                            </section>
-
-                            <section id="video" rel="schema:hasPart" resource="#video">
-                                <h3 property="schema:name">Video</h3>
-                                <div property="schema:description">
-                                    <p>A video with captions of this ‘paper’ is available for supporting media. Otherwise, a screenshot or in audio only.</p>
-
-                                    <video id="video-this-paper-is-a-demo" rel="schema:hasPart" preload="none" controls="controls" width="320" height="240" poster="http://csarven.ca/media/images/articles/video-screenshot-this-paper-is-a-demo.jpg">
-                                        <source about="#video-this-paper-is-a-demo" rel="schema:hasPart" resource="http://csarven.ca/media/video/this-paper-is-a-demo.ogv" typeof="fabio:Film" src="http://csarven.ca/media/video/this-paper-is-a-demo.ogv" type="video/ogg" />
-                                        <track about="#track-this-paper-is-a-demo" rel="schema:hasPart" resource="http://csarven.ca/media/track/this-paper-is-a-demo.en.vtt" kind="subtitles" src="http://csarven.ca/media/track/this-paper-is-a-demo.en.vtt" srclang="en" label="English" default="default" />
-                                    </video>
-                                </div>
-                            </section>
-
-
-                            <section id="statistical-displays" rel="schema:hasPart" resource="#statistical-displays">
-                                <h3 property="schema:name">Statistical Displays</h3>
-                                <div property="schema:description" datatype="rdf:HTML">
-                                    <p>Inline-charts or <em><a href="https://en.wikipedia.org/wiki/Sparkline">sparkline</a></em> are word-sized graphic with typographic resolution. For example, the <abbr title="Gross Domestic Product">GDP</abbr> of Canada <!--<embed class="sparkline" src="http://stats.270a.info/sparkline.svg?void:sparqlEndpoint=http%3A%2F%2Fworldbank.270a.info%2Fsparql&amp;qb:DataSet=http%3A%2F%2Fworldbank.270a.info%2Fdataset%2FNY.GDP.MKTP.CD&amp;refArea=CA" type="image/svg+xml" data-img="lsd-sparkline.png"/>-->. This brief demonstration of <a about="#statistical-displays" rel="cito:citesAsPotentialSolution" href="http://stats.270a.info/sparkline">Linked Statistical Data Sparkline</a>, 1) compliments the supporting text without breaking the reader’s flow, and 2) provides an opportunity for the reader to investigate further by clicking on the data-line to access the source. It is an SVG file which uses JavaScript to request data from a SPARQL Endpoint to build the datapoints and behaviour.</p>
-                                </div>
-                            </section>
-
-                            <section id="lsd-cube-designer" rel="schema:hasPart" resource="#lsd-cube-designer">
-                                <h3 property="schema:name">Linked Statistical Data Cube Designer</h3>
-                                <div property="schema:description" datatype="rdf:HTML">
-                                    <p><cite><a about="#lsd-cube-designer" rel="cito:citesAsPotentialSolution" href="http://stats.270a.info/cube-designer">LSD (Linked Statistical Data) Cube Designer</a></cite> is a Web service with an user-interface for researchers to design their own statistical data cubes. It offers a way to search for dimensions (e.g., “<samp>reference</samp>”), measures (e.g., “<samp>value</samp>”), and attributes (e.g., “<samp>status</samp>”) for their data structure and components, and then export the cube’s structural information (in RDF Turtle). Figure [<a href="#figure-linked-statistical-data-cube-designer">2</a>] is this interactive remote application.</p>
-<!-- 
-                                    <figure id="figure-linked-statistical-data-cube-designer">
-                                        <object type="text/html" data="http://stats.270a.info/cube-designer#lsd-cube-designer"><a rel="schema:isBasedOnUrl" href="http://stats.270a.info/cube-designer#lsd-cube-designer">Source</a></object>
-
-                                        <figcaption>Linked Statistical Data Cube Designer.</figcaption>
-                                    </figure>
-
- -->                                </div>
-                            </section>
-
-
-                            <section id="executable-code" rel="schema:hasPart" resource="#executable-code">
-                                <h3 property="schema:name">Executable Code</h3>
-                                <div property="schema:description" datatype="rdf:HTML">
-                                    <p>Web Science ‘papers’ can be far more engaging and useful to the community if we merely embrace what the Web offers. Figure [<a href="#figure-sparql-editor">3</a>] demonstrates the <cite><a href="http://yasgui.org/">Yet Another SPARQL GUI</a></cite> application embedded to this document. For instance, the research paper itself creates an executable paper environment where some code can be rerun or observe the effects of changing parameters.</p>
-<!-- 
-                                    <figure id="figure-sparql-editor">
-                                        <object type="text/html" data="http://yasgui.org/" width="640" height="480"></object>
-
-                                        <figcaption>Yet another SPARQL GUI</figcaption>
-                                    </figure>
-
- -->                                </div>
-                            </section>
-                        </div>
-                    </section>
-
-                    <section id="conclusions" rel="schema:hasPart" resource="#conclusions">
-                        <h2 rel="schema:name">Conclusions</h2>
-                        <div rel="schema:description" datatype="rdf:HTML">
-                            <p>Our intentions with this ‘paper’ is primarily to emphasize the flexibility of native Web technologies for scientific publishing and communication. A comprehensive demonstration for what lies ahead naturally can not fit within an arbitrary (5) page limit. To get the most out of research communication in Web Science, it is only sensible to break-free from the archaic limitations of the print world. After all, as we have demonstrated, a PDF or print representation of this ‘paper’ can always be achieved. In the spirit of <em>open science</em> and to embrace the Web’s values, all feedback are welcome at the canonical URL.</p>
-                        </div>
-                    </section>
-
-</article>
 
 
         </div>
