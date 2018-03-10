@@ -105,8 +105,8 @@
         </dl>
 
         <div datatype="rdf:HTML" property="schema:description">
-          <section id="information-space" inlist="" rel="schema:hasPart" resource="#information-space">
-            <h2 property="schema:name">Information Space</h2>
+          <section id="information-spaces" inlist="" rel="schema:hasPart" resource="#information-spaces">
+            <h2 property="schema:name">Information Spaces</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p>Given that global strategic research is influenced by policies and industry, we acknowledge that different <em>information spaces</em> can be created by an ensemble of units of information. Such information spaces would serve to facilitate knowledge exchange in the scientific communication market. In this section, we use the LR design principles to materialise and analyse a particular configuration of an information space.</p>
 
@@ -115,14 +115,13 @@
               <figure id="figure-linked-research-ecosystem" rel="schema:hasPart" resource="#figure-linked-research-ecosystem">
                   <object data="/proxy?uri=http://csarven.ca/media/images/articles/linked-research-ecosystem.svg" height="243" rel="schema:image" type="image/svg+xml" width="480"></object>
 
-                  <figcaption property="schema:name">Linked Research ecosystem.</figcaption>
+                  <figcaption property="schema:name">Linked Research ecosystem</figcaption>
               </figure>
 
               <p>Here authors create research literature in reply to a call for contributions; reviewers provide feedback on the research results; individuals annotate and re-share the literature; editors filter and assemble a collection of work; archives are notified about the research.</p>
 
               <p>Given that the <em>applicability</em> is an external force, and that the <em>certification</em> function is applied, eg. peer review, editors' filters, in this, we assume that the demand of applicability of science and technology is part of this information space. We take for granted that each unit of information can independently exist and be accessible for humans and machines from anywhere on the Web, the presence of the <em>accessibility</em> force is active in this information space.</p>
 
-              <p>In the next sections, we take a closer look at the structure and semantics of units.</p>
             </div>
           </section>
 
@@ -153,7 +152,11 @@ Rough coverage:
           <section id="structure-and-semantics" inlist="" rel="schema:hasPart" resource="#structure-and-semantics">
             <h2 property="schema:name">Structure and Semantics</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Researchers exchange units of communication like scientific literature, annotation, notification, dataset, workflow, argumentation, software, compound and dynamic knowledge representation. We focus on the kinds of structured and semantic documents that are human and machine-interpretable. For example, articles, annotations, notifications, profiles, or social activities would belong in this group, and may include non-narrative (meta)data like scientific observations, workflows, or program code. Here we are primarily interested in the resulting information representations as opposed to the processes to how they are materialised. That is, bottom-up and top-down approaches to create semantic content is equally useful through different interfaces.</p>
+              <p>Researchers exchange units of communication like scientific literature, annotation, datasets, workflows, argumentation, provenance, citation, and software. Knowledge may be represented or presented dynamically, or as a compilation of various independent units (compound). Semantic structure may be embedded in narrative or prose-based scholarly communication as well as used to enhance non-narrative units like experimental results or datasets. Narrative and non-narrative units may in turn include or refer to each other.</p>
+
+              <p>This section covers semantic structure of the narrative aspects scholarly communication in particular. This can enhance <em>both</em> human- and machine-readability of information. Note also that we are interested here in structured representations of units irrespective of how they are produced.</p>
+
+              <p>Non-narrative units can also be semantically marked up to enable easier reuse and interpretation; this is covered in more detail in <cite><a href="interactive-linked-statistics">Interactive Linked Statistics</a></cite>.</p> 
 
               <section id="human-centric-containers-for-units-of-communication" inlist="" rel="schema:hasPart" resource="#human-centric-containers-for-units-of-communication">
                 <h3 property="schema:name">Human-centric Containers for Units of Communication</h3>
@@ -198,7 +201,7 @@ Rough coverage:
 
                     <dt id="rdfa-for-human-and-machines">RDFa for humans and machines</dt>
                     <dd>
-                      <p>From the available RDF syntaxes, this line of reasoning naturally brings us to encapsulating information using <cite><a href="https://www.w3.org/TR/rdfa-core/">RDFa</a></cite> - attribute-level extension - inside (X)HTML, and various XML-family languages eg. SVG. What makes <cite><a href="https://www.w3.org/TR/rdfa-in-html/">RDFa in HTML</a></cite>, for instance, an attractive combination is that it maps the RDF data-model which is ideal for machines, while retaining the same document that is interpretable by humans. Essentially, interoperable information exchange and reuse by machines is intended to work over the RDF graph that is expressed through RDFa. Here HTML merely acts as the container to encapsulate the underlying information and to offer presentations and interactions (in regardless of the RDF syntax embedded in HTML).</p>
+                      <p>From the available RDF syntaxes, this line of reasoning naturally brings us to encapsulating information using <cite><a href="https://www.w3.org/TR/rdfa-core/">RDFa</a></cite> - attribute-level extension - inside (X)HTML, and various XML-family languages eg. SVG, MathML. What makes <cite><a href="https://www.w3.org/TR/rdfa-in-html/">RDFa in HTML</a></cite>, for instance, an attractive combination is that it maps the RDF data-model which is ideal for machines, while retaining the same document that is interpretable by humans. Essentially, interoperable information exchange and reuse by machines is intended to work over the RDF graph that is expressed through RDFa. Here HTML merely acts as the container to encapsulate the underlying information and to offer presentations and interactions (in regardless of the RDF syntax embedded in HTML).</p>
                     </dd>
 
                     <dt id="human-machine-readable">Human and machine-readable</dt>
@@ -258,7 +261,6 @@ Rough coverage:
                     <li>Annotations: <a href="http://www.w3.org/ns/oa">Web Annotations</a></li>
                     <li>Inbox for notifications: <a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a> (via LDP)</li>
                     <li>Social activities: <a href="http://rdfs.org/sioc/ns">Semantically-Interlinked Online Communities</a>, <a href="https://www.w3.org/ns/activitystreams">ActivityStreams</a>, <a href="http://purl.org/net/pingback/">Pingback</a></li>
-
 
                     <li>Rights and License: <a href="http://creativecommons.org/ns">Creative Commons</a></li>
                     <li>Provenance: <a href="http://www.w3.org/ns/prov">PROV Ontology</a></li>
