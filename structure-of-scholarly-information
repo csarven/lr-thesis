@@ -132,11 +132,18 @@ Rough coverage:
 [x] Structures of knowledge (interlinks between [high-level] entities, data models, information granularity, vocabularies)
 [x] History of Scholarly HTML?
 [x] Why RDF. Suitability of RDF (in prose). Scope and motivations for RDFa over alternatives.
+* Expand literature on HTML patterns
 * RDFa editors (what can/do they produce)
-* URIs for prose, concepts, ideas, research sections as deemed important by authors.
-* Implementation of embedding prose semantics with dokieli (evaluation).
+* Strip out decentralisation/social from implementation here
+* literature review for UI (reuse dokieli-rww and maybe from linked-research-scholarly-communication)
+* Expand on the why we are focusing on the narrative here - documents vs datasets - this is a parallel for humans and machines - document Web was mostly for humans and now with LD web.. connect with interpretable/interactive
+** Implementation of embedding prose semantics with dokieli (evaluation).
+** argumentation graph
+** Citations (pulling and reusing external data)
+** URIs for prose, concepts, ideas, research sections as deemed important by authors.
+
+
 * Web technologies for authoring, self-publishing; progressive enhancement, alternative presentations, exposing data along with "papers"
-* Citations (pulling and reusing external data)
 * Embedding data (top-down / bottom-up)
 * Embedding statistical and experimental data, and views
 * Multimodal active documents

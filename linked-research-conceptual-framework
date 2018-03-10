@@ -595,10 +595,10 @@ transform:rotate(-60deg);
     </section>
 
 
-    <section id="desing-principles" rel="schema:hasPart" resource="#design-principles">
+    <section id="design-principles" rel="schema:hasPart" resource="#design-principles">
       <h2 property="schema:name">Design Principles</h2>
-      <div datatype="rdf:HTML" property="schema:description" resource="#problem-space" typeof="deo:ProblemStatement">
-        <p>What are desirable qualities? We first outline some of the categories of challenges that remain to be addressed to facilitate a Web-based scholarly communication:</p>
+      <div datatype="rdf:HTML" property="schema:description" resource="#design-principles" typeof="deo:ProblemStatement">
+        <p>What are desirable qualities and what do we want to uphold? How do we want our systems to be designed? How can we participate? We first outline some of the categories of challenges that remain to be addressed to facilitate a Web-based scholarly communication:</p>
 
         <dl>
           <dt id="freedom-of-expression">Freedom of Expression</dt>
@@ -620,8 +620,10 @@ transform:rotate(-60deg);
             <p>It extends the physical, social, psychological, or intellectual function of an <em>actor</em>.</p>
           </dd>
 
-          <dt id="decentralisation">Decentralisation</dt>
+          <dt id="autonomy">Autonomy</dt>
           <dd>
+            <p>The systems that are designed to fulfil the interplay of forces and functions in scholarly communication should operate with the expectation of autonomous participation. The value we want to uphold in this principle is to abstain from having any constraints on where units of communication to exist on the Web. For instance, actors of a system can have the freedom to choose where their data to be located (or relocated to), as well as the applications they can use to interact with theirs and others' data. For instance, an actor's profile(s)  can be anywhere on the Web; as well as articles, annotations, notifications and so forth to, be created and shared with different actors (and applications), and stored at different locations. We note here that <em>decentralisation</em> of the information space is a means to an end. Ultimately it is the full right to freely choose and maintain sovereignty.</p>
+
             <p>Given that any social entity that conforms to the requirements of <cite><a href="https://www.w3.org/TR/webarch/#uri-ownership">URI ownership</a></cite>, eg. registration, management, then they are essentially entitled to associate a URI with a resource. It follows that any type of object, eg. scientific literature, research objects, personal websites and social graphs, can be made available on the Web provided that the <em>actors</em> place trust and have sufficient control over their URIs. While URI ownership is socially and technically within everyone's reach, putting it into practices paves the way to a more decentralised use of the scientific information space. Through URI ownership, genuine decentralisation ie. deconstructing and decoupling can take place.</p>
 
             <p>URI ownership is architecturally decentralised in that where a resource is made available from can basically physically exist anywhere in the world. Architectural decentralisation is however ultimately influenced by political or social centralisation, eg. control of a <cite>fully qualified domain name</cite>. Depending on the URI, it can be either logically decentralised or centralised; some URIs have compound components such that their interpretation and use relies on different systems, while others are singular and only need to be looked up against the provided interface, eg. based on the characteristics of a URI scheme or persistence through a specialised service.</p>
@@ -646,7 +648,7 @@ transform:rotate(-60deg);
               </div>
             </div>
 
-            <p>In context of <q>publishing</q>, we solely refer to the <q>registration</q> function, ie. irrespective of any certification or acknowledgement on the quality of work. Hence, when a researcher initiates registration, we refer to that as <q>self-registration</q>. The act of <em>self-publishing</em> eg. on own's personal website, is considered to be <em>self-registration</em>. There are no constraints on where units of communication (<q>research objects</q>) can exist on the Web. For instance, authors of an article can have their profiles anywhere on the Web, annotations and notification can created by different users and applications, and stored at different locations.</p>
+            <p>In context of <q>publishing</q>, we solely refer to the <q>registration</q> function, ie. irrespective of any certification or acknowledgement on the quality of work. Hence, when a researcher initiates registration, we refer to that as <q>self-registration</q>. The act of <em>self-publishing</em> eg. on own's personal website, is considered to be <em>self-registration</em>.</p>
 
             <p>It extends the physical function of an <em>actor</em>.</p>
           </dd>
