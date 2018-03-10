@@ -115,7 +115,7 @@ transform:rotate(-60deg);
 
         <dl id="document-modified">
           <dt>Modified</dt>
-          <dd><time content="2018-03-03T00:00:00Z" datatype="xsd:dateTime" datetime="2018-03-03T00:00:00Z" property="schema:dateModified">2018-03-03</time></dd>
+          <dd><time content="2018-03-10T00:00:00Z" datatype="xsd:dateTime" datetime="2018-03-10T00:00:00Z" property="schema:dateModified">2018-03-10</time></dd>
         </dl>
 
         <dl id="document-latest-version">
