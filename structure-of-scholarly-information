@@ -233,7 +233,7 @@ Rough coverage:
                             <li>structure and semantics through HTML or XML, as opposed to the RDF layer</li>
                           </ul>
 
-                          <p>With respect to the LR's <a href="linked-research-conceptual-framework#acid-test">acid test</a>, these designs and the applications they enable tend to be inadequate to arrive at an interoperable information space on the Web.</p>
+                          <p>With respect to the LR's <a href="framing-linked-research#acid-test">acid test</a>, these designs and the applications they enable tend to be inadequate to arrive at an interoperable information space on the Web.</p>
                         </div>
                       </div>
                     </dd>
