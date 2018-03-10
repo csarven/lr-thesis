@@ -132,9 +132,9 @@ Rough coverage:
 [x] Structures of knowledge (interlinks between [high-level] entities, data models, information granularity, vocabularies)
 [x] History of Scholarly HTML?
 [x] Why RDF. Suitability of RDF (in prose). Scope and motivations for RDFa over alternatives.
+[*] Strip out decentralisation/social from implementation here
 * Expand literature on HTML patterns
 * RDFa editors (what can/do they produce)
-* Strip out decentralisation/social from implementation here
 * literature review for UI (reuse dokieli-rww and maybe from linked-research-scholarly-communication)
 * Expand on the why we are focusing on the narrative here - documents vs datasets - this is a parallel for humans and machines - document Web was mostly for humans and now with LD web.. connect with interpretable/interactive
 ** Implementation of embedding prose semantics with dokieli (evaluation).
@@ -153,7 +153,7 @@ Rough coverage:
           <section id="structure-and-semantics" inlist="" rel="schema:hasPart" resource="#structure-and-semantics">
             <h2 property="schema:name">Structure and Semantics</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Exchanging units of communication between researchers can be a scientific literature, annotation, notification, dataset, workflow, software, compound and dynamic knowledge representation. We focus on the kinds of documents including scientific prose in which researchers create or consume. For example, articles, annotations, notifications, profiles, or social activities would belong in this group, and may include non-narrative (meta)data like scientific observations, workflows, or program code.</p>
+              <p>Researchers exchange units of communication like scientific literature, annotation, notification, dataset, workflow, argumentation, software, compound and dynamic knowledge representation. We focus on the kinds of structured and semantic documents that are human and machine-interpretable. For example, articles, annotations, notifications, profiles, or social activities would belong in this group, and may include non-narrative (meta)data like scientific observations, workflows, or program code. Here we are primarily interested in the resulting information representations as opposed to the processes to how they are materialised. That is, bottom-up and top-down approaches to create semantic content is equally useful through different interfaces.</p>
 
               <section id="human-centric-containers-for-units-of-communication" inlist="" rel="schema:hasPart" resource="#human-centric-containers-for-units-of-communication">
                 <h3 property="schema:name">Human-centric Containers for Units of Communication</h3>
