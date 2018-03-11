@@ -21,7 +21,7 @@
         <h1 property="schema:name">Social Scholarly Web</h1>
         <div datatype="rdf:HTML" property="schema:description">
 
-          <section id="introduction" rel="schema:hasPart" resource="#introduction">
+          <section id="introduction" inlist="" rel="schema:hasPart" resource="#introduction">
             <h2 property="schema:name">Introduction</h2>
             <div dataptype="rdf:HTML" property="schema:description">
               <p>The scholarly ecosystem is inherently social. People collaborate and share.</p>
@@ -42,104 +42,106 @@
             </div>
           </section>
 
-            <section id="">
-              <h2>The status quo</h2>
-              <div>
-                <pre>
-            * publishers - social acceptability of $$$$$ for access. Why are we okay with this?
-            ** conference registration fees sending to publishers -> closed access is acceptable? poor quality/formats ok?
-            * incentives, rewards, acknowledgement (altmetrics)
+          <section id="the-status-quo" inlist="" rel="schema:hasPart" resource="#the-status-quo">
+            <h2 property="schema:name">The Status Quo</h2>
+            <div dataptype="rdf:HTML" property="schema:description">
+<pre>
+* publishers - social acceptability of $$$$$ for access. Why are we okay with this?
+** conference registration fees sending to publishers -> closed access is acceptable? poor quality/formats ok?
+* incentives, rewards, acknowledgement (altmetrics)
+</pre>
+            </div>
+          </section>
 
-                </pre>
-              </div>
-            </section>
+          <section id="social-media-and-academia" inlist="" rel="schema:hasPart" resource="#social-media-and-academia">
+            <h2 property="schema:name">Social Media and Academia</h2>
+            <div dataptype="rdf:HTML" property="schema:description">
+<pre>
+** academics use social media to enhance scholarship - this is real/happening
+** should it be institution supported? do academics speak for themselves online?
 
-            <section id="">
-              <h2>Social media and academia</h2>
-              <div>
-                <pre>
-            ** academics use social media to enhance scholarship - this is real/happening
-            ** should it be institution supported? do academics speak for themselves online?
+</pre>
+            </div>
+          </section>
 
-                </pre>
-              </div>
-            </section>
-
-            <section id="">
-              <h2>Scholarly self</h2>
-              <div>
-                <pre>
-            * scholarly profiles under own control
-            ** The Presentation of Self Online (rhiaro)
-            ** vs third-party (ORCID, Mendeley..)
-            ** freedom from constraints eg. multiple profiles with arbitrary detail
-                </pre>
-              </div>
-            </section>
+          <section id="scholarly-self" inlist="" rel="schema:hasPart" resource="#scholarly-self">
+            <h2 property="schema:name">Scholarly Self</h2>
+            <div dataptype="rdf:HTML" property="schema:description">
+<pre>
+* scholarly profiles under own control
+** The Presentation of Self Online (rhiaro)
+** vs third-party (ORCID, Mendeley..)
+** freedom from constraints eg. multiple profiles with arbitrary detail
+</pre>
+            </div>
+          </section>
 
 
-            <section id="annotation" rel="schema:hasPart" resource="#annotation">
-              <h2>...annotation..</h2>
+          <section id="annotation" inlist="" rel="schema:hasPart" resource="#annotation">
+            <h2 property="schema:name">Annotation</h2>
+            <div dataptype="rdf:HTML" property="schema:description">
               <p>Enabling 'social' scholarly comms through annotation stuff.</p>
               <p>Comparison of annotation services/tools. These tools meet our 'social' like needs, but don't necessarily meet the LR principles.</p>
-            </section>
+            </div>
+          </section>
 
-            <section>
-              <h2>archives etc</h2>
-              <div>
-                <pre>
-                * what roles could libraries/institutions play? eg notify about article/review
-                * instutional repositories like eprints then they buy PURE from Springer.
-                * ldprints
-                </pre>
+          <section id="role-of-institutions" inlist="" rel="schema:hasPart" resource="#role-of-institutions">
+            <h2 property="schema:name">Role of Institutions</h2>
+            <div dataptype="rdf:HTML" property="schema:description">
+<pre>
+* what roles could libraries/institutions play? eg notify about article/review
+* institutional repositories like eprints then they buy PURE from Springer.
+* ldprints
+</pre>
+            </div>
+          </section>
 
-              </div>
-            </section>
+          <section id="social-implications" inlist="" rel="schema:hasPart" resource="#social-implications">
+            <h2 property="schema:name">Social Implications</h2>
+            <div dataptype="rdf:HTML" property="schema:description">
+<pre>
+* social consequences of open science
+** media pushed to the extreme (mcluhan) - global fight
+** https://github.com/linkeddata/dokieli/issues/152
+** social media running off with misleading headlines? #fakenews?
+** reputation / fact-checking
 
-            <section id="social-implications" rel="schema:hasPart" resource="#social-implications">
-              <h2>Social implications</h2>
-              <pre>
-              * social consequences of open science
-              ** media pushed to the extreme (mcluhan) - global fight
-              ** https://github.com/linkeddata/dokieli/issues/152
-              ** social media running off with misleading headlines? #fakenews?
-              ** reputation / fact-checking
-
-              * open and transparent contributions
-              ** peer-review
-              ** bias and prejudice / positive behaviour and civil discourse
-              </pre>
-            </section>
-
-
-            <section id="">
-              <h2>Personal social graph</h2>
-              <div>
-                <pre>
-                  * trusted network of people
-                  * can notify them, request review
-                  * can see annotations from one's social graph rather than randos
-                </pre>
-              </div>
-            </section>
+* open and transparent contributions
+** peer-review
+** bias and prejudice / positive behaviour and civil discourse
+</pre>
+            </div>
+          </section>
 
 
-            <section id="call-for-linked-research">
-              <h2>Call for Linked Research</h2>
-              <div>
+          <section id="personal-social-graph" inlist="" rel="schema:hasPart" resource="#personal-social-graph">
+            <h2 property="schema:name">Personal Social Graph</h2>
+            <div dataptype="rdf:HTML" property="schema:description">
+<pre>
+* trusted network of people
+* can notify them, request review
+* can see annotations from one's social graph rather than randos
+</pre>
+            </div>
+          </section>
+
+
+            <section id="call-for-linked-research" inlist="" rel="schema:hasPart" resource="#call-for-linked-research">
+              <h2 property="schema:name">Call for Linked Research</h2>
+              <div dataptype="rdf:HTML" property="schema:description">
                 <p>This is an initiative to solicit input and participation from the community. It's tied to the principles, and calls for practical activity towards realising the goals.</p>
-                <pre>
-            ** all sorts of community effort in SW/webscience conferences/workshops
-            ** dogfooding
-            ** archaic and artificial barriers
-                </pre>
+<pre>
+** all sorts of community effort in SW/webscience conferences/workshops
+** dogfooding
+** archaic and artificial barriers
+</pre>
               </div>
             </section>
 
 
-            <section id="" rel="schema:hasPart" resource="#">
-              <h2>Realising ...</h2>
-              <div>
+            <section id="realising-social-changes" inlist="" rel="schema:hasPart" resource="#realising-social-changes">
+              <h2 property="schema:name">Realising Social Changes</h2>
+              <div dataptype="rdf:HTML" property="schema:description">
                 <p>This section is about how we realise/enable the social changes technically, whilst still adhering to the LR principles (ie. why we can't just use twitter/easychair for academia etc).</p>
                 <p>Point at the social parts of the Control Yourself chapter (AP, AS2, LDN) and say how these fit into the ecosystem. How they mean we can do the things people need to do in scholarly communications in a way that meets the principles.</p>
                 <p>This is where we bring the decentralisation stuff back home to in-practice scholarly comms.</p>
@@ -151,12 +153,11 @@
 <!--                 <a href="https://dokie.li/">dokieli</a>
                 <a href="http://csarven.ca/dokieli-rww">Decentralised Authoring, Annotations and Notifications for a Read-Write Web with dokieli</a> -->
               </div>
-            </section>  
+            </section>
 
-            <section id="oldmanyellsatcloud">
-        <h2>Challenging the Status Quo</h2>
-        <div>
-
+            <section id="challenging-the-status-quo" inlist="" rel="schema:hasPart">
+              <h2 property="schema:name">Challenging the Status Quo</h2>
+              <div dataptype="rdf:HTML" property="schema:description">
 <pre>
 * Old man yelling at cloud
 * Mailing list and social media 'activism' - why is this worthwhile? why is this part of the contribution of LR
@@ -195,9 +196,9 @@ building a mental infrastructure.
         </div>
       </section>  
 
-      <section id="" rel="schema:hasPart" resource="#">
-        <h2>Contemporary uptake</h2>
-        <div>
+      <section id="contemporary-uptate" inlist="" rel="schema:hasPart" resource="#contemporary-uptate">
+        <h2 property="schema:name">Contemporary Uptake</h2>
+        <div datatype="rdf:HTML" property="schema:description">
           <p>The spread of Web use in scholarly comms. What are people doing in practice at the time of writing (IN SEMANTIC WEB)</p>
           <ul>
             <li>Conference wide: ISWC, ESWC</li>
