@@ -20,29 +20,6 @@
       <article about="" typeof="schema:Article">
         <h1 property="schema:name">Social Scholarly Web</h1>
         <div datatype="rdf:HTML" property="schema:description">
-<pre>
-* dokieli UI
-* incentives (altmetrics)
-* personal social graph
-
-* social media and academia
-** academics use social media to enhance scholarship - this is real/happening
-** should it be institution supported? do academics speak for themselves online?
-* publishers - social acceptability of d\$$$$$ for access. Why are we okay with this?
-** conference registration fees sending to publishers -> closed access is acceptable? poor quality/formats ok?
-* scholarly profiles under own control
-** The Presentation of Self Online (rhiaro)
-** vs third-party (ORCID, Mendeley..)
-** freedom from constraints eg. multiple profiles with arbitrary detail
-* call for linked research
-** all sorts of community effort in SW/webscience conferences/workshops
-** dogfooding
-** archaic and artificial barriers
-* archives
-** what roles could libraries/institutions play? eg notify about article/review
-
-* LORC ?
-</pre>
 
           <section id="introduction" rel="schema:hasPart" resource="#introduction">
             <h2 property="schema:name">Introduction</h2>
@@ -54,19 +31,109 @@
               <p>There are both grassroots (bottom-up) changes in the publishing practice, as well as top-down, profit-driven and other third-party influences on the ecosystem.</p>
 
               <p>There is this ecosystem of many factors.. of pushing and pulling at each other.</p>
+              <p>This is where we're going to describe/paint/lay out the ecosystem/landscape of scholarly comms, its relation to the Web, and in particular its relation to the social web.</p>
 
               <p>This "chapter" is going to talk about the cultural changes that LR is probing at.</p>
               <p>We're going to look at 'social' like tools that are somehow affecting or influencing scholarly comms in general (not necessarily decentralised ones). How is massive adoption of social media affecting academia? How are organisations taking advantage (or not) of this?</p>
               <p>(you're going to do a comparison of tools and stuff, like academia.edu, stuff like this would not exist if social media in general had not become popular. This is the answer to the question 'how is social media affecting scholarlycomms?')</p>
               <p>Why are we caring about this? -> We need to understand/reflect/observe/analyse the effects of the tools we use on the ecosystem and on science</p>
+
+              <p>The effects of big conferences demanding old practices. We're not developing or advancing our own technologies. They're stunting growth. Do you want to grow your team with latex experience or web publishing experience? Are you perpetuating bad practice through supervisor->student requirements? Not sharpening our native web skills. Hindering us from shaping the space to OUR needs.</p>
             </div>
           </section>
+
+            <section id="">
+              <h2>The status quo</h2>
+              <div>
+                <pre>
+            * publishers - social acceptability of $$$$$ for access. Why are we okay with this?
+            ** conference registration fees sending to publishers -> closed access is acceptable? poor quality/formats ok?
+            * incentives, rewards, acknowledgement (altmetrics)
+
+                </pre>
+              </div>
+            </section>
+
+            <section id="">
+              <h2>Social media and academia</h2>
+              <div>
+                <pre>
+            ** academics use social media to enhance scholarship - this is real/happening
+            ** should it be institution supported? do academics speak for themselves online?
+
+                </pre>
+              </div>
+            </section>
+
+            <section id="">
+              <h2>Scholarly self</h2>
+              <div>
+                <pre>
+            * scholarly profiles under own control
+            ** The Presentation of Self Online (rhiaro)
+            ** vs third-party (ORCID, Mendeley..)
+            ** freedom from constraints eg. multiple profiles with arbitrary detail
+                </pre>
+              </div>
+            </section>
 
 
             <section id="annotation" rel="schema:hasPart" resource="#annotation">
               <h2>...annotation..</h2>
               <p>Enabling 'social' scholarly comms through annotation stuff.</p>
               <p>Comparison of annotation services/tools. These tools meet our 'social' like needs, but don't necessarily meet the LR principles.</p>
+            </section>
+
+            <section>
+              <h2>archives etc</h2>
+              <div>
+                <pre>
+                * what roles could libraries/institutions play? eg notify about article/review
+                * instutional repositories like eprints then they buy PURE from Springer.
+                * ldprints
+                </pre>
+
+              </div>
+            </section>
+
+            <section id="social-implications" rel="schema:hasPart" resource="#social-implications">
+              <h2>Social implications</h2>
+              <pre>
+              * social consequences of open science
+              ** media pushed to the extreme (mcluhan) - global fight
+              ** https://github.com/linkeddata/dokieli/issues/152
+              ** social media running off with misleading headlines? #fakenews?
+              ** reputation / fact-checking
+
+              * open and transparent contributions
+              ** peer-review
+              ** bias and prejudice / positive behaviour and civil discourse
+              </pre>
+            </section>
+
+
+            <section id="">
+              <h2>Personal social graph</h2>
+              <div>
+                <pre>
+                  * trusted network of people
+                  * can notify them, request review
+                  * can see annotations from one's social graph rather than randos
+                </pre>
+              </div>
+            </section>
+
+
+            <section id="call-for-linked-research">
+              <h2>Call for Linked Research</h2>
+              <div>
+                <p>This is an initiative to solicit input and participation from the community. It's tied to the principles, and calls for practical activity towards realising the goals.</p>
+                <pre>
+            ** all sorts of community effort in SW/webscience conferences/workshops
+            ** dogfooding
+            ** archaic and artificial barriers
+                </pre>
+              </div>
             </section>
 
 
@@ -79,28 +146,82 @@
 
                 <p>There are different approaches to 'fixing' the ecosystem. We could try a wholehearted replacement of the current system. That's unlikely to succeed. We could try to directly change existing players (like publishers, conferences) and demand that they do things differently. Also probably not gonna happen. It might be better to work *alongside* existing practices, and gradually ease scholars into new ways of operating. our goal is not necessarily to replicate major academic publishing houses or academic social networks..  smaller, personalised connected components might be both easier to realise and more effective in the long run. But.. who knows.</p>
 
+                <p class="todo">dokieli UI</p>
+
 <!--                 <a href="https://dokie.li/">dokieli</a>
                 <a href="http://csarven.ca/dokieli-rww">Decentralised Authoring, Annotations and Notifications for a Read-Write Web with dokieli</a> -->
               </div>
-            </section>            
+            </section>  
 
-            <section id="social-implications" rel="schema:hasPart" resource="#social-implications">
+            <section id="oldmanyellsatcloud">
+        <h2>Challenging the Status Quo</h2>
+        <div>
+
 <pre>
-* social consequences of open science
-** media pushed to the extreme (mcluhan) - global fight
-** https://github.com/linkeddata/dokieli/issues/152
-** social media running off with misleading headlines? #fakenews?
-** reputation / fact-checking
-
-* open and transparent contributions
-** peer-review
-** bias and prejudice / positive behaviour and civil discourse
+* Old man yelling at cloud
+* Mailing list and social media 'activism' - why is this worthwhile? why is this part of the contribution of LR
+* Testing ideas
+* keeping things in people consciousness
+* how to influence the direction of scholarly communication in web science
+* small visible results: uptake from conferences/workshops
 </pre>
-            </section>
 
+<p class="todo">
+The real target of these messages is not you, me, or even the seniors,
+professors, directors, conference organisers, programme committees, and
+so on.
 
+This is for the *next generation* of researchers and developers who are
+following along or will hopefully read this up one day. They are the
+ones who will be the change. We are only setting the stage for them to
+follow through.
 
-      <article about="" typeof="schema:Article doap:Specification">
+Of course I do hope that these ideas and the problems we are dealing
+with resonate with more people. Hence, a plea for the "seniors" to
+permit their "junior" colleagues to push forward. To grow their team
+with a different set of ideals and awareness! Many already have for a
+long time, and many are making that shift.
+
+Neither do I actually expect these conferences/journals that have kept
+their approach for so long to change overnight. As long as researchers
+are constrained in how they communicate their knowledge, and how that
+knowledge can be disseminated, no amount of activism here or elsewhere
+will change that.
+
+The purpose of these threads is purely about creating awareness and
+building a mental infrastructure.
+</p>
+
+        </div>
+      </section>  
+
+      <section id="" rel="schema:hasPart" resource="#">
+        <h2>Contemporary uptake</h2>
+        <div>
+          <p>The spread of Web use in scholarly comms. What are people doing in practice at the time of writing (IN SEMANTIC WEB)</p>
+          <ul>
+            <li>Conference wide: ISWC, ESWC</li>
+            <li>SemStats, ISWC</li>
+            <li>Enabling Decentralised Scholarly Communication, ESWC</li>
+            <li>WOW, WWW</li>
+            <li>LDOW, WWW</li>
+            <li>DeSemWeb</li>
+            <li>SemSci</li>
+            <li>SAVE-SD</li>
+            <li>Sepublica</li>
+            <li>Semantic Web Journal</li>
+            <li>Researcher Centric Scholarly Communication, The Web Conf</li>
+            <li>Workshops and tutorials - dokieli, OAI, SWIB, ESWC</li>
+            <li>CEUR-WS</li>
+            <li>SemSci</li>
+            <li>SAVE-SD</li>
+            <li>Sepublica</li>
+            <li>Semantic Web Journal</li>
+          </ul>
+        </div>
+      </section> 
+
+      <section about="" typeof="schema:Article doap:Specification">
         <h1 property="schema:name">Linked Open Research Cloud</h1>
 
 <p class="todo">Move code to structure-of-scholarly-information</p>
@@ -365,8 +486,10 @@
             </div>
           </section>
         </div>
-      </article>
+      </section>
 
+
+      
 
 
         </div>
