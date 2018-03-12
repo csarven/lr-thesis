@@ -490,6 +490,8 @@ Rough coverage:
 
                       <p>Nice to declare a license or rights to signal under what conditions the document may be reused, reshared or remixed, eg. via <cite><a href="https://creativecommons.org/">Creative Commons</a></cite> license. Articles and notifications tend to use <code>schema:license</code> and annotations use <code>dcterms:rights</code> (given <cite><a href="https://www.w3.org/TR/annotation-vocab/">Web Annotation Vocabulary</a></cite>).</p>
 
+                      <p><q cite="http://www.w3.org/DesignIssues/UI.html">Oh yeah?</q></p>
+
                       <pre id="html-document-derived-from-on"><code>&lt;dl id="document-derived-from"&gt;</code>
 <code>  &lt;dt&gt;Derived From&lt;/dt&lt;</code>
 <code>  &lt;dd&gt;&lt;a href="https://dokie.li/" rel="prov:wasDerivedFrom">https://dokie.li/&lt;/a&gt;&lt;/dd&gt;</code>
