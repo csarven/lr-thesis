@@ -262,7 +262,7 @@ Rough coverage:
 
                   <p><strong>Design Lifecycle</strong>: <a href="https://w3id.org/dio">Design Intent Ontology</a></p>
 
-                  <p><strong>Datasets</strong>: For multi-dimensional data: <a href="https://www.w3.org/TR/vocab-data-cube/">RDF Data Cube vocabulary</a>. Dataset metadata: <a href="http://rdf-vocabulary.ddialliance.org/discovery.html">DDI-RDF Discovery Vocabulary</a></p>
+                  <p><strong>Datasets</strong>: For multi-dimensional data: <a href="https://www.w3.org/TR/vocab-data-cube/">RDF Data Cube vocabulary</a>. Dataset metadata: <a href="http://rdf-vocabulary.ddialliance.org/discovery.html">DDI-RDF Discovery Vocabulary</a>, <a href="http://rdfs.org/ns/void">Vocabulary of Interlinked Datasets</a> to express metadata to help with discovery, cataloging and archiving of RDF datasets.</p>
 
                   <p><strong>Scientific expressions</strong>: <a href="http://www.ontobee.org/">Ontobee</a>, eg. <a href="http://semanticscience.org/ontology/sio.owl">Semanticscience Integrated Ontology</a>, <a href="http://www.nanopub.org/nschema">Nanopublications</a>, <a href="http://purl.org/mp/value">Micropublications</a></p>
                 </div>
