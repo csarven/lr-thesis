@@ -113,9 +113,9 @@
               <p>Figure X depicts a typical high-level interplay between the <em>actors</em> and the <em>content</em> forces, and their functions (registration, awareness, certification, archive) in scholarly communication.</p>
 
               <figure id="figure-linked-research-ecosystem" rel="schema:hasPart" resource="#figure-linked-research-ecosystem">
-                  <object data="/proxy?uri=http://csarven.ca/media/images/articles/linked-research-ecosystem.svg" height="243" rel="schema:image" type="image/svg+xml" width="480"></object>
+                <object data="/proxy?uri=http://csarven.ca/media/images/articles/linked-research-ecosystem.svg" height="243" rel="schema:image" type="image/svg+xml" width="480"></object>
 
-                  <figcaption property="schema:name">Linked Research ecosystem</figcaption>
+                <figcaption property="schema:name">Linked Research ecosystem</figcaption>
               </figure>
 
               <p>Here authors create research literature in reply to a call for contributions; reviewers provide feedback on the research results; individuals annotate and re-share the literature; editors filter and assemble a collection of work; archives are notified about the research.</p>
@@ -196,7 +196,7 @@ Rough coverage:
 
                     <dt id="content-negotiation-as-optimisation">Content negotiation as optimisation</dt>
                     <dd>
-                      <p>While it is feasible, a common practice, and in some cases optimal to have different representations of content with the <em>intention</em> of serving it to humans or machines, eg. through <cite><a href="https://tools.ietf.org/html/rfc2295">Transparent Content Negotiation in HTTP</a></cite>, we can focus on options that provide a commonality while having the lowest the barrier on the server that's making the data available for the purpose of read-write operations. It is important to note here that, user-agents can approach content-negotiation for the purpose of optimisation as opposed to being a rule.</p>
+                      <p>The HTTP <cite><a href="https://tools.ietf.org/html/rfc7231#section-3.4">Content Negotiation</a></cite> mechanism can be used to serve a possible representation of a resource that the client prefers from a URI. The decision algorithm may be based on different dimensions of content negotiation, eg. media type, charset, encoding, language, time. All things equal, here we are particularly interested in the lowest barrier for a server to make data available for the purpose of read-write operations that a client can perform. For instance, to what extent can we serve a resource representation "as is" without having to perform media type conversions in order to satisfy both human and machine consumers?</p>
                     </dd>
 
                     <dt id="rdfa-for-human-and-machines">RDFa for humans and machines</dt>
@@ -211,12 +211,12 @@ Rough coverage:
 
                     <dt id="serialisations">Serialisations</dt>
                     <dd>
-                      <p id="serialisations">Having the canonical representation for articles, annotations, and notifications in HTML+RDFa, still leaves the servers to provide alternative serialisations, eg. Turtle, and JSON-LD, depending on the content-negotiation between the client and the server. Articles are represented in HTML+RDFa so that information is usable by both humans and machine consumers while maintaining lowest requirements for publishing, eg. a single URL with full content in HTML+RDFa can be accessible from any HTTP server. No additional requirements necessary from clients (eg. JavaScript support and enabled) or servers (eg. additional RDF based content-negotiation). For annotations and notifications, we first meet interoperability requirements (for protocols and vocabularies), and remains flexible about the serialisation that servers prefer.</p>
+                      <p id="serialisations">Having the canonical representation for articles, annotations, and notifications in HTML+RDFa, still leaves the servers to provide alternative serialisations, eg. Turtle, and JSON-LD, depending on the content negotiation between the client and the server. Articles are represented in HTML+RDFa so that information is usable by both humans and machine consumers while maintaining lowest requirements for publishing, eg. a single URL with full content in HTML+RDFa can be accessible from any HTTP server. No additional requirements necessary from clients (eg. JavaScript support and enabled) or servers (eg. additional RDF based content negotiation). For annotations and notifications, we first meet interoperability requirements (for protocols and vocabularies), and remains flexible about the serialisation that servers prefer.</p>
                     </dd>
 
                     <dt id="separation-of-concerns">Separation of concerns</dt>
                     <dd>
-                      <p>By adopting the <cite>progressive enhancement</cite> strategy for the structural (HTML+RDFa), presentational (CSS), and behavioural (JavaScript) layers, we can allow content and base functionality to be accessible through different media and devices. Ultimately, the unit of communication represented in HTML+RDFa can be accessible - readable - for both humans and machines without requiring any CSS or JavaScript. This approach is considered to cover the base requirement of making the content available with lowest server requirements, ie. anything HTTP server that can serve HTML, and a client that can consume HTML. In essence, a human and machine-interpretable scientific information can be regarded to be usable by <cite><a href="https://en.wikipedia.org/wiki/Text-based_web_browser">text-based web browsers</a></cite>.</p>
+                      <p>By adopting the <cite>progressive enhancement</cite> strategy for the structural (HTML+RDFa), presentational (CSS), and behavioural (JavaScript) layers, we can allow content and base functionality to be accessible through different media and devices. Ultimately, the unit of communication represented in HTML+RDFa can be accessible - readable - for both humans and machines without requiring any CSS or JavaScript. This approach is considered to cover the base requirement of making the content available with lowest server requirements, ie. any HTTP server that can serve HTML, and a client that can consume HTML. In essence, a human and machine-interpretable scientific information can be regarded to be usable by <cite><a href="https://en.wikipedia.org/wiki/Text-based_web_browser">text-based web browsers</a></cite>.</p>
                     </dd>
 
                     <dt class="markup-patterns">Markup patterns</dt>
