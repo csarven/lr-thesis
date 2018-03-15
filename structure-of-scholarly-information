@@ -216,24 +216,6 @@ Rough coverage:
                       <p>HTML has several <cite><a href="http://w3c.github.io/html/single-page.html#design-notes-extensibility">extensibility mechanisms</a></cite>, eg. <code>class</code>, <code>data-*</code>, <code>rel</code> attributes, and <code>meta</code>, <code>script</code> elements to support vendor-neutral markup patterns. In addition to HTML's <cite><a href="http://w3c.github.io/html/infrastructure.html#infrastructure">common infrastructure</a></cite>, it is possible for documents to signal formal grammars, eg. HTML profiles and XML schemas, to announce the structure of documents such that the machine-processing instructions are well-defined; predetermined and fixed. In practice, grammars are used to help extract markup patterns according to specified definitions. Although <a href="https://www.w3.org/html/wg/wiki/DroppedAttributeProfile">profiles are no longer supported in HTML5</a>, they were originally intended to assign additional meaning that would otherwise remain local (private) to the document. For instance, <cite><a href="https://www.w3.org/TR/grddl/">Gleaning Resource Descriptions from Dialects of Languages</a></cite> (<abbr title="Gleaning Resource Descriptions from Dialects of Languages">GRDDL</abbr>) provided a way for custom <cite><a href="https://www.w3.org/TR/xslt/">XSL Transformations</a></cite> (<abbr title="XSL Transformations">XSLT</abbr>) to handle out-of-band transformation workflows, and to interpret the structure and semantics in the original document.</p>
 
                       <p>While HTML markup with formal grammars has the quality of being efficient for cooperating systems, it comes at the cost of wider interoperability. That is, if an application is designed to <em>only</em> work with a particular flavour or subset of HTML, then it would not be able to work with arbitrary HTML documents on the Web. Hence, having profiles or grammars in and itself not an issue, however its <em>effects</em> are likely to be that they are less interoperable than they can be. This is in contrast to applications safely ignoring information patterns they do not understand or interested in using, even if they have their preferred internal grammars or HTML templates. From the consuming side, if the application's information <em>reuse</em> is dependent on HTML a specific schema or tree structure, effectively locks the application into coping with those patterns, and ultimately less flexible about handling expressions that the application is unfamiliar with. The effect is a constrained or a closed information system.</p>
-
-                      <p>There are plethora of attempts and approaches in this space. To name a few, most recently the W3C Community Group on <cite><a href="https://www.w3.org/community/scholarlyhtml/">Scholarly HTML</a></cite> with the aim to build a common, open format for the exchange of scholarly information; <cite><a href="https://essepuntato.github.io/papers/rash-peerj2016.html">Research Articles in Simplified HTML</a></cite>; and closely related: <cite><a href="http://www.idpf.org/epub">EPUB</a></cite> as an archive file including all material; <cite><a href="http://jats.niso.org/">Journal Article Tag Suite</a></cite> to describe scientific literature; <cite><a href="http://docbook.org/">DocBook</a></cite> for semantic technical documentation.</p>
-
-                      <div class="note">
-                        <h4>Note</h4>
-                        <div>
-                          <p>For historical and technical reasons, the commonality of these existing approaches is that, they are predominantly designed to address:</p>
-
-                          <ul>
-                            <li>print-centric characteristics, as opposed to full Web-centric</li>
-                            <li>usage in specific applications, environments, media or device dependence</li>
-                            <li>a subset of scholarly information - usually literature, as opposed to annotations or notifications</li>
-                            <li>structure and semantics through HTML or XML, as opposed to the RDF layer</li>
-                          </ul>
-
-                          <p>With respect to the LR's <a href="framing-linked-research#acid-test">acid test</a>, these designs and the applications they enable tend to be inadequate to arrive at an interoperable information space on the Web.</p>
-                        </div>
-                      </div>
                     </dd>
                   </dl>
                 </div>
@@ -268,6 +250,30 @@ Rough coverage:
             </div>
           </section>
 
+          <section id="related-work" rel="schema:hasPart" resource="#related-work">
+            <h3 property="schema:name">Related Work</h3>
+            <div datatype="rdf:HTML" property="schema:description">
+
+                <p><strong>Markup patterns</strong> There are plethora of attempts and approaches in this space. To name a few, most recently the W3C Community Group on <cite><a href="https://www.w3.org/community/scholarlyhtml/">Scholarly HTML</a></cite> with the aim to build a common, open format for the exchange of scholarly information; <cite><a href="https://essepuntato.github.io/papers/rash-peerj2016.html">Research Articles in Simplified HTML</a></cite>; and closely related: <cite><a href="http://www.idpf.org/epub">EPUB</a></cite> as an archive file including all material; <cite><a href="http://jats.niso.org/">Journal Article Tag Suite</a></cite> to describe scientific literature; <cite><a href="http://docbook.org/">DocBook</a></cite> for semantic technical documentation.</p>
+
+                <div class="note">
+                  <h4>Note</h4>
+                  <div>
+                    <p>For historical and technical reasons, the commonality of these existing approaches is that, they are predominantly designed to address:</p>
+
+                    <ul>
+                      <li>print-centric characteristics, as opposed to full Web-centric</li>
+                      <li>usage in specific applications, environments, media or device dependence</li>
+                      <li>a subset of scholarly information - usually literature, as opposed to annotations or notifications</li>
+                      <li>structure and semantics through HTML or XML, as opposed to the RDF layer</li>
+                    </ul>
+
+                    <p>With respect to the LR's <a href="framing-linked-research#acid-test">acid test</a>, these designs and the applications they enable tend to be inadequate to arrive at an interoperable information space on the Web.</p>
+                  </div>
+                </div>
+
+            </div>
+          </section>
 
           <section id="implementation-of-interpretable-information" inlist="" rel="schema:hasPart" resource="#implementation-of-interpretable-information">
             <h2 property="schema:name">Implementation of Interpretable Information</h2>
