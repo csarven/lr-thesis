@@ -262,10 +262,12 @@ Rough coverage:
                     <p>For historical and technical reasons, the commonality of these existing approaches is that, they are predominantly designed to address:</p>
 
                     <ul>
-                      <li>print-centric characteristics, as opposed to full Web-centric</li>
+                      <li>print-centric characteristics, as opposed to Web-native</li>
                       <li>usage in specific applications, environments, media or device dependence</li>
                       <li>a subset of scholarly information - usually literature, as opposed to annotations or notifications</li>
                       <li>structure and semantics through HTML or XML, as opposed to the RDF layer</li>
+                      <li>duplicate information catered to humans and machines separately</li>
+                      <li>dependency on additional processing on top of existing information to make it human-readable</li>
                     </ul>
 
                     <p>With respect to the LR's <a href="framing-linked-research#acid-test">acid test</a>, these designs and the applications they enable tend to be inadequate to arrive at an interoperable information space on the Web.</p>
