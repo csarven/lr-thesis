@@ -263,7 +263,8 @@ Rough coverage:
 
                     <ul>
                       <li>print-centric characteristics, as opposed to Web-native</li>
-                      <li>usage in specific applications, environments, media or device dependence</li>
+                      <li>prescriptive data representation for application needs</li>
+                      <li>dependence on specific environments, media or device</li>
                       <li>a subset of scholarly information - usually literature, as opposed to annotations or notifications</li>
                       <li>structure and semantics through HTML or XML, as opposed to the RDF layer</li>
                       <li>duplicate information catered to humans and machines separately</li>
