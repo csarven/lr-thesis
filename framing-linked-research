@@ -585,13 +585,13 @@ transform:rotate(-60deg);
         </blockquote>
 
         <div rel="as:inReplyTo" resource="https://image.slidesharecdn.com/paulevanpeterslecture-171214183046/95/paul-evan-peters-lecture-57-638.jpg">
-          <p>We first approach the functions from the conceptual end of Linked Research. We will revisit these later in the thesis as per technical implementations.</p>
+          <p>We first approach the functions from the conceptual end of Linked Research. We will revisit these later in the thesis as technical implementations.</p>
 
           <h4>Registration</h4>
           <p>Self-registers by publishing (article, annotations), archiving, notifying</p>
 
           <h4>Certification</h4>
-          <p>Annotation via any motivation, replying, commenting</p>
+          <p>Annotation with any motivation, replying, commenting, reviewing</p>
 
           <h4>Awareness</h4>
           <p>Share, annotation, outbox, scholarly activity clouds</p>
@@ -606,12 +606,12 @@ transform:rotate(-60deg);
     <section id="design-principles" rel="schema:hasPart" resource="#design-principles">
       <h2 property="schema:name">Design Principles</h2>
       <div datatype="rdf:HTML" property="schema:description" resource="#design-principles" typeof="deo:ProblemStatement">
-        <p>What are desirable qualities and what do we want to uphold? How do we want our systems to be designed? How can we participate? We first outline some of the categories of challenges that remain to be addressed to facilitate a Web-based scholarly communication:</p>
+        <p>What are desirable qualities of scholarly communication given the potential of the Web? What are we aspiring towards? We outline these here, with existing work described earlier as the foundation, and discuss with respect to McLuhan's effects of media (<em>enhances, obsolesces, retrieves, extends into</em>).</p>
 
         <dl>
           <dt id="freedom-of-expression">Freedom of Expression</dt>
           <dd>
-            <p>Scientific dialogue is social and part of the commons. Articulation of contributions with no interference using any creative means to co-create and co-participate.</p>
+            <p>Scientific dialogue is social and part of the commons. We require articulation of contributions with no interference using any creative means to co-create and co-participate.</p>
 
             <p>We inherit:</p>
 
@@ -625,7 +625,7 @@ transform:rotate(-60deg);
 
             <p>The <em>freedom of expression</em> in context of scientific communication does not entail that an actor with a "personal journal" (like a blog post) can expect their works to be treated on equal grounds as a "scientific literature". Here, by <em>freedom of expression</em> we mean that actors should not be subject to arbitrary constraints on how they communicate their contributions with the rest of the world.</p>
 
-            <p>It extends the physical, social, psychological, or intellectual function of an <em>actor</em>.</p>
+            <p>It extends the physical, social, psychological, and intellectual functions of an <em>actor</em>.</p>
           </dd>
 
           <dt id="autonomy">Autonomy</dt>
