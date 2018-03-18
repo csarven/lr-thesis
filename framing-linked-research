@@ -533,17 +533,21 @@ transform:rotate(-60deg);
     <!-- section decentralisation semantic hypermedia  -->
 
 
-    <p>The concepts we have discussed so far intersects with the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> (<abbr title="Linked Research">LR</abbr>) initiative. LR is a natural emergence in that it shares a common ancestry with the ideas and ideals. LR is intended to describe a Web and researcher-centric information and interaction space for scientific communication.</p>
+    <p>The concepts and ideas discussed so far in this chapter cover various aspects of the scholarly communication ecosystem, and in many cases ideas from different sources and different times overlap. I now take this related work, along with the context of the modern Web and the current state of scholarly communication, and use these to formulate the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> (<abbr title="Linked Research">LR</abbr>) initiative. This comprises foremost a set of principles intended to describe a researcher-centric information and interaction space optimised for scholarly communication on the Web.</p>
 
-    <p>As per <cite><a href="https://eprints.soton.ac.uk/id/eprint/263347">A Framework for Web Science</a></cite>, Linked Research can be seen as one way to further the science of decentralised information systems in context of scholarly communication, as well as the the study of <em>Web Science</em> itself.</p>
+    <p>It quickly becomes clear that these principles build on existing ideas, but also in many cases are developed further and push for a future free from the constraints of academic publishing models tied to media from the past.</p> 
 
-    <p>LR is about interconnectivity and increasing the degree of connections by fully embracing Linked Data on the Web stack as the primary medium for scholarly activities. While the initiative to use the Web to its full potential for scholarly activities is nothing new, nor is it the case to develop missing standards towards interoperability among systems. The LR approach is however timely in the sense that a substantial number of fundamental Web standards have matured to trigger a paradigm shift in scholarly communication on the Web.</p>
+    <p>LR is also set up as a community effort, and here I present a snapshot of work which is expected to continue to develop as others contribute and more diverse voices bring their requirements to the table. For now, I acknowledge the bias towards Western (Euro and US centric) academic practices in the domain of Computer Science.</p>
+
+    <!-- <p>As per <cite><a href="https://eprints.soton.ac.uk/id/eprint/263347">A Framework for Web Science</a></cite>, Linked Research can be seen as one way to further the science of decentralised information systems in context of scholarly communication, as well as the the study of <em>Web Science</em> itself.</p> -->
+
+    <p>As we embrace the Web as the medium for LR, we consider that interconnectivity of scholarly work can be improved foremost through the Linked Data stack. The initiative to use the [Semantic] Web to its full potential for scholarly activities is nothing new. The LR approach is however timely in the sense that a substantial number of fundamental Web standards have matured to interact with the paradigm shift in scholarly communication, but we find that to meet some of these principles we have to still develop new standards and tools.</p>
 
 
     <section id="framing-our-vocabulary" rel="schema:hasPart" resource="#framing-our-vocabulary">
       <h3 property="schema:name skos:definition">Framing our vocabulary</h3>
       <div datatype="rdf:HTML" property="schema:description" resource="#framing-our-vocabulary" typeof="skos:ConceptScheme">
-        <p datatype="rdf:HTML" property="skos:definition">It is necessary to commit and exercise a new vocabulary. We should give importance to these new terms because they set a different frame of mind than the terms we have used in the past. Some terms have new definitions and replacements are necessary. We adopt the idea where scholarly calls for <strong>contributions</strong> welcomes researchers to <strong>share</strong> their <strong>articles</strong> with the community.</p>
+        <p datatype="rdf:HTML" property="skos:definition">It is necessary to exercise a new vocabulary. New terms set a different frame of mind than the terms we have used in the past. Some terms have new definitions and replacements are necessary. We adopt the idea that scholarly calls for <strong>contributions</strong> welcome researchers to <strong>share</strong> their <strong>articles</strong> with the community.</p>
 
         <dl rel="skos:hasTopConcept">
           <dt about="#s-submit-share" id="s-submit-share" property="skos:prefLabel" rel="skos:topConceptOf" resource="#framing-our-vocabulary" typeof="skos:Concept"><samp>s/submit/share</samp></dt>
