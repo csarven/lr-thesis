@@ -490,10 +490,6 @@ transform:rotate(-60deg);
       <dd>Science and technology</dd>
     </dl>
 
-    <figure>
-      <figcaption>The four forces in the scientific communication market</figcaption>
-    </figure>
-
     <h3>Functions</h3>
 
     <p>Scientific communication consists of four functions: <em>registration</em>, <em>awareness</em>, <em>certification</em>, and <em>archiving</em>.</p>
@@ -509,14 +505,9 @@ transform:rotate(-60deg);
       <dd>Preservation of scholarly records over time</dd>
     </dl>
 
-    <figure>
-      <figcaption>The four function of scientific communication</figcaption>
-    </figure>
-
-    <p class="todo">The actor and content forces are generic and internal to the market, and are considered to be indispensable. On the other hand, accessibility and applicability are external forces and are indispensable with respect to the functions.</p>
+    <p>The actor and content forces are generic and internal to the market, and are considered to be indispensable in comparison to the accessibility and applicability as external forces. That is, there wouldn't be a scientific communication market if there are no researchers and the content they produce. Whereas the accessibility and applicability forces influence the market. As for the functions, registration and archiving are external, and considered to be indispensable.</p>
 
     <p>Registration and archiving objective functions in that they are external to the research process. Certification and awareness are subjective communication functions - internal to the research process. Registration and awareness are different aspects of <em>scientific observations</em>, ie. facilitating findable information. Certification and archiving are aspects of <em>scientific judgement</em>, ie. act as a filtering mechanism in the information space.</p>
-
 
     <p><cite><a href="http://www.dlib.org/dlib/september04/vandesompel/09vandesompel.html">Rethinking Scholarly Communication</a></cite> (2004) proposes to revise the notion of a unit of scholarly communication in two ways. In a technological sense, it suggests to recognise the compound nature of units that work on the Web. From a systems perspective, in order to empower scholarly communities, there should be more flexibility on what <em>constitutes</em> a unit of scholarly communication in order to allow registration, as well as factoring timing and the quality of what is to be registered.</p>
 
