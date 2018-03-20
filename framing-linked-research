@@ -13,6 +13,7 @@
     <script src="scripts/simplerdf.js"></script>
     <script src="scripts/medium-editor.min.js"></script>
     <script src="scripts/do.js"></script>
+
 <!--
 <style>
 @media screen {
@@ -84,6 +85,7 @@ transform:rotate(-60deg);
 }
 </style>
 -->
+
   </head>
 
   <body about="" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ pimspace: http://www.w3.org/ns/pim/space# cc: https://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# mem: http://mementoweb.org/ns# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ void: http://rdfs.org/ns/void# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# bibo: http://purl.org/ontology/bibo/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio# rel: https://www.w3.org/ns/iana/link-relations/relation#" typeof="schema:CreativeWork sioc:Post prov:Entity">
@@ -105,7 +107,7 @@ transform:rotate(-60deg);
 
         <dl id="document-created">
           <dt>Created</dt>
-          <dd><time content="2017-09-19T00:00:00Z" datatype="xsd:dateTime" datetime="2017-09-19T00:00:00Z" property="schema:dateCreated">2017-09-19</time></dd>
+          <dd><time content="2018-03-20T10:58:24.608Z" datatype="xsd:dateTime" datetime="2018-03-20T10:58:24.608Z" property="schema:dateCreated">2018-03-20</time></dd>
         </dl>
 
         <dl id="document-published">
@@ -120,7 +122,12 @@ transform:rotate(-60deg);
 
         <dl id="document-latest-version">
           <dt>Latest Version</dt>
-          <dd><a href="https://linkedresearch.org/article/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b" rel="mem:memento rel:latest-version">https://linkedresearch.org/article/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b</a></dd>
+          <dd><a href="https://linkedresearch.org/article/csarven.ca/88b9f863-923a-42c3-ace3-3225bcd48e28" rel="rel:latest-version">https://linkedresearch.org/article/csarven.ca/88b9f863-923a-42c3-ace3-3225bcd48e28</a></dd>
+        </dl>
+
+        <dl id="document-predecessor-version">
+          <dt>Predecessor Version</dt>
+          <dd><a href="https://linkedresearch.org/article/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b" rel="rel:predecessor-version">https://linkedresearch.org/article/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b</a></dd>
         </dl>
 
         <dl id="document-timemap">
@@ -152,12 +159,12 @@ transform:rotate(-60deg);
 
         <dl id="document-inbox">
           <dt>Notifications Inbox</dt>
-          <dd><a href="https://linkedresearch.org/inbox/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b/" rel="ldp:inbox">https://linkedresearch.org/inbox/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b/</a></dd>
+          <dd><a href="https://linkedresearch.org/inbox/csarven.ca/88b9f863-923a-42c3-ace3-3225bcd48e28/" rel="ldp:inbox">https://linkedresearch.org/inbox/csarven.ca/88b9f863-923a-42c3-ace3-3225bcd48e28/</a></dd>
         </dl>
 
         <dl id="document-annotation-service">
           <dt>Annotation Service</dt>
-          <dd><a href="https://linkedresearch.org/annotation/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b/" rel="oa:annotationService">https://linkedresearch.org/annotation/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b/</a></dd>
+          <dd><a href="https://linkedresearch.org/annotation/csarven.ca/88b9f863-923a-42c3-ace3-3225bcd48e28/" rel="oa:annotationService">https://linkedresearch.org/annotation/csarven.ca/88b9f863-923a-42c3-ace3-3225bcd48e28/</a></dd>
         </dl>
 
         <dl id="document-in-reply-to">
@@ -167,7 +174,7 @@ transform:rotate(-60deg);
 
         <dl id="document-status">
           <dt>Document Status</dt>
-          <dd rel="pso:holdsStatusInTime" resource="#31943b7f-b646-4ebd-8787-ec2341e862c1"><span rel="pso:withStatus" resource="http://purl.org/spar/pso/draft" typeof="pso:PublicationStatus">Draft</span></dd>
+          <dd prefix="pso: http://purl.org/spar/pso/" rel="pso:holdsStatusInTime" resource="#31943b7f-b646-4ebd-8787-ec2341e862c1"><span rel="pso:withStatus" resource="http://purl.org/spar/pso/" typeof="pso:PublicationStatus">Draft</span></dd>
         </dl>
 
         <div datatype="rdf:HTML" property="schema:description">
@@ -195,15 +202,16 @@ transform:rotate(-60deg);
     <p>Modern media, like the Web, offer extensible interactions, creative participation, and social engagement. There is a natural human desire to <strong>connect</strong> and <strong>exchange</strong> <a href="https://en.wikipedia.org/wiki/Meme"><em>memes</em></a> with others, as well as to co-create. Given these opportunities, the fundamental question to ask here is, why should research communication be limited to, evaluated by, and rewarded on methods and practices be based on print-centric media? Scholarly communication still uses methods which date back to the invention of the <a href="https://en.wikipedia.org/wiki/Printing_press">mechanical movable type printing press</a> (circa 1450), even in the advent of the globally accessible and interactive new media that are at our fingertips today, and at much faster turnaround times from publication to consumption than ever before. The practices correspond to publication workflows that are in place for academic communication, and have remained largely unchanged for over a century. What does it mean to have an academic achievement through a “publication”? If we consider the Web as a potential supplemnt to or replacement for these older practices, and given that the Web can be purposed for greater possibiliteis than print alone, then we also need to address the question, <em>what constitutes a scholarly contribution?</em></p>
 
     <p>Today, it is evident that the typical publishing scenario for scholarly knowledge predominantly requires strict adherence to the <em>printability</em> aspects of the information eg. <span class="unicode-document">page length, typographical guidelines</span>. That is, all of the encompassing data for any given research and development, ie. noteworthy items which the researcher knows, wants to communicate and demonstrate, must be channeled through the characteristics of the print media. In practice, this leads the research community to use tools that are tailored solely for printing or viewing (on screen). This (sticking to print) leads to unnecessary information loss or arbitrary filtering of the content, which might be otherwise preserved if a different medium was used. Since print is only one possible way to represent and communicate the information, it is worthwhile to investigate and employ alternative or complimentary representations that are more appropriate given the qualities of the Web. Traditional electronic document formats are primarily designed and destined for printing and physical distribution - circulate in scientific circles and on the Web, we can make one observation: such formats, on the hot end of the media spectrum, are trying to exist and remain relevant inside a cool medium.</p>
+
 <!--
     <p id="this-is-not-a-paper"><cite><a href="http://faculty.education.illinois.edu/burbules/papers/paper.1.html">This is Not a Paper</a></cite> [<a class="ref" href="#ref-2">2</a>] - an essay with a title as such, we wish we had written 20 years ago, which is <strong>still</strong> accessible with a single click! - raises a legitimate question <q>whether any journals will exist in paper form within a decade or two</q>. While we can safely answer that question today, our contention is that we are arguably in a better position to look ahead for the upcoming years. There are various emergent social and technical initiatives that are taking place under the umbrella term, <em>Open Science</em>.</p>
 
     <p>At least within the context of scholastic Web science, it is not only compelling, but crucial for the research community to <em>eat its own dogfood</em> in order to unchain itself from antiquated traditions. A distinction to make here between print-first and Web-first is that it is the environment that influences social consequences, not the technology itself. To start in such endeavor, the primary requirement should be placed on the shoulders of the researchers themselves i.e., to use the mediums and processes that it has created towards technical and social progress. By retaining our focus on enabling researchers we postulate better <strong>access</strong> to knowledge. This is akin to why and how the Web came to be.</p>
 -->
+
     <p>The intention is not to undermine the values of the print-centric approach, but rather to explore alternative media and their different qualities. <q cite="http://www.worldcat.org/oclc/250420453" title="McLuhan, M. and H. Parker (1968) Through the Vanishing Point: Space in Poetry and Painting. New York: Harper and Row; London: Evanston.">It is not that there is anything wrong with the old environment, but it simply will not serve as navigational guide to the new one.</q>, <cite><a href="https://www.worldcat.org/title/through-the-vanishing-point/oclc/250420453">Through the Vanishing Point: Space in Poetry and Painting</a></cite></p>
   </div>
 </section>
-
 
 <section id="effects-and-artefacts" rel="schema:hasPart" resource="#effects-and-artefacts">
   <h2 property="schema:name">Effects and artefacts</h2>
@@ -217,7 +225,7 @@ transform:rotate(-60deg);
 
     <p>In order to help us understand the effects of the Web on scholarly communication, we can use <a href="http://dbpedia.org/Marshall_McLuhan" rel="cito:credits">McLuhan</a>'s tetrad on media effects as a heuristic device, a set of four questions:</p>
 
-    <blockquote id="" rel="cito:includesQuotationFrom" cite="http://www.worldcat.org/oclc/981396559">
+    <blockquote cite="http://www.worldcat.org/oclc/981396559" id="" rel="cito:includesQuotationFrom">
       <ul>
         <li>What does it enhance or intensify?</li>
         <li>What does it render obsolete or displace?</li>
@@ -256,29 +264,25 @@ transform:rotate(-60deg);
   </div>
 </section>
 
-
-<section id="anticipating-a-paradigm-shift" rel="schema:hasPart" resource="#anticipating-a-paradigm-shift" class="todo">
+<section class="todo" id="anticipating-a-paradigm-shift" rel="schema:hasPart" resource="#anticipating-a-paradigm-shift">
   <h2 property="schema:name">Anticipating a Paradigm Shift</h2>
   <div datatype="rdf:HTML" property="schema:description">
-    <p>There has been a increasing trend in transitioning from print to electronic over the course of past decades in how scholars communicate. 
+    <p>There has been a increasing trend in transitioning from print to electronic over the course of past decades in how scholars communicate.</p>
 
-     . we borrow the conceptual framework on how <em>paradigms</em>. In the <cite>Structure of Scientific Revolutions</cite>, Kuhn describes...</p>
-<p>
-     happen, we focus on the effects of the Web medium which caused the way scientists conduct their everyday activities. The <em>effect</em> preceding <em>cause</em> seems counter-intuitive to most of us, however, it becomes apparent as McLuhan describes. That is, how did the medium influence our scientific environment, and how we are suddenly in the middle of it?</p>
+    <p>. we borrow the conceptual framework on how <em>paradigms</em>. In the <cite>Structure of Scientific Revolutions</cite>, Kuhn describes...</p>
 
-<!-- failure to adopt/cultivate -->
+    <p>happen, we focus on the effects of the Web medium which caused the way scientists conduct their everyday activities. The <em>effect</em> preceding <em>cause</em> seems counter-intuitive to most of us, however, it becomes apparent as McLuhan describes. That is, how did the medium influence our scientific environment, and how we are suddenly in the middle of it?</p>
+
+    <!-- failure to adopt/cultivate -->
 
     <p>With respect to the focus of this thesis, scholarly communication on the Web is confronted with the <em>crisis</em> on 1) the inadequacy of the traditional mode of scientific information exchange, and 2) access to and reuse of information.</p>
-
 
     <p>The current and widely accepted paradigm is that scientific contributions are peer-reviewed and made available through credible publishers. As to what constitutes a "publisher" is left at the discretion of different scholarly communities.</p>
 
     <p>rear-view mirror.. and paradigms</p>
     <p>By confronting the Web using the same methods as with print, the scientific market seeks security and comfort. </p>
-
   </div>
 </section>
-
 
 <section id="forces-and-functions" rel="schema:hasPart" resource="#forces-and-functions">
   <h2 property="schema:name">Forces and Functions</h2>
@@ -335,7 +339,6 @@ transform:rotate(-60deg);
     <p>Reflecting on the four forces and functions in 2014, <cite><a href="http://andrew.treloar.net/research/publications/ipres2014/iPres2014-paper.pdf">A Perspective on Archiving the Scholarly Web</a></cite> observes the evolution of scholarly communication on the Web, with regard to the shape and behaviour of the units of information. In essence, the emergence of the Web influenced the communication market by transforming it from predominantly being medium-driven into a content-driven ecosystem. The observation is based on the archival process held on the open Web; unplanned and unconstrained archiving, organically occurring, by way of Web objects being deposited across distributed and dedicated archival services. Given the dynamic nature of units of communication on the Web, vertical integration (as per the journal-centric ecosystem) of the four functions turned out to be inadequate. Hence, an affirmation of the outlook as outlined in <cite><a href="http://www.dlib.org/dlib/september04/vandesompel/09vandesompel.html">Rethinking Scholarly Communication</a></cite> that the essential functions need to be <q cite="http://andrew.treloar.net/research/publications/ipres2014/iPres2014-paper.pdf">fulfilled in discreet, disaggregated, and distributed manners, and in which a variety of networked pathways interconnect the autonomous hubs that fulfil these functions</q>. The mere act of <q>recording</q> (or <em>registering</em> in the most general sense) a unit of communication is not a replacement for <em>archiving</em> or persistence, even if the freely available Web services are used towards this end. The article calls for another archival paradigm that is based off the natural characteristics of the Web. That is, given the inherently interlinked and dynamic nature of Web objects, archived resources cannot be treated as atomic resources as they do not necessarily contain the complete content. For instance, a research document referring to external media or interactive scripts, aggregated objects, objects changing their states, or potentially being ephemeral. This is in contrast to the traditional journal-centric approach to archival where all material - physical paper - can be eventually tracked to library stacks. Hence, the future of archiving needs to consider the nature of the object, including the degree in which it can be archived.</p>
   </div>
 </section>
-
 
 <section id="a-brief-history-of-scholarship-on-the-web" rel="schema:hasPart" resource="#a-brief-history-of-scholarship-on-the-web">
   <h2 property="schema:name">A brief history of scholarship on the Web</h2>
@@ -448,9 +451,9 @@ transform:rotate(-60deg);
 
     <p>Berners-Lee mentions that the challenge in creating a global system was to define the basic common rules of protocol for machines to exchange information. Initially the essential parts of the Web architecture started with the <cite><a href="https://tools.ietf.org/html/rfc3986">Uniform Resource Identifier</a></cite> (<abbr title="Uniform Resource Identifier">URI</abbr>), the Hypertext Transfer Protocol (<abbr title="Hypertext Transfer Protocol">HTTP</abbr>), and the Hypertext Markup Language (<abbr title="Hypertext Markup Language">HTML</abbr>).</p>
 
-    <p id="the-rule-of-least-power">On designing computer systems and choosing languages, <cite><a about="" rel="cito:agreesWith" href="http://www.w3.org/2001/tag/doc/leastPower.html">The Rule of Least Power</a></cite> by the W3C Technical Architecture Group recommends that <q cite="http://www.w3.org/2001/tag/doc/leastPower.html">when publishing on the Web, you should usually choose the least powerful or most easily analyzed language variant that’s suitable for the purpose</q>. Berners-Lee also states that declarative is preferable to a procedural language as declarative stores the data in reusable ways. For instance, <q about="" rel="cito:agreesWith" resource="http://www.w3.org/DesignIssues/Principles.html#PLP" cite="http://www.w3.org/DesignIssues/Principles.html#PLP">the Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators</q>. HTML for example not only turned out to be simple for people to author, its modularity and extensibility paved the way for many standards and language mixing, eg. CSS, JavaScript, RDFa, SVG, MathML.</p>
+    <p id="the-rule-of-least-power">On designing computer systems and choosing languages, <cite><a about="" href="http://www.w3.org/2001/tag/doc/leastPower.html" rel="cito:agreesWith">The Rule of Least Power</a></cite> by the W3C Technical Architecture Group recommends that <q cite="http://www.w3.org/2001/tag/doc/leastPower.html">when publishing on the Web, you should usually choose the least powerful or most easily analyzed language variant that’s suitable for the purpose</q>. Berners-Lee also states that declarative is preferable to a procedural language as declarative stores the data in reusable ways. For instance, <q about="" cite="http://www.w3.org/DesignIssues/Principles.html#PLP" rel="cito:agreesWith" resource="http://www.w3.org/DesignIssues/Principles.html#PLP">the Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators</q>. HTML for example not only turned out to be simple for people to author, its modularity and extensibility paved the way for many standards and language mixing, eg. CSS, JavaScript, RDFa, SVG, MathML.</p>
 
-    <p id="evolvability"><em>Evolvability</em> can be seen as an attribute or a quality of a system, such that the system can survive in the long run. This is especially important when we want to have different publishing systems to be interoperable over time based on new needs. To be more specific, we should seek to employ technology stacks that are likely to handle extensions and accommodate diverse scenarios for knowledge acquisition in the future. While it is not always clear or easy to predict which technologies will persevere in the future, we can pursue features like simplicity, flexibility, decentralisation, interoperability, and tolerance. This line of thinking is expressed in Berners-Lee's Web architecture comments on the <cite><a about="" rel="cito:agreesWith" href="http://www.w3.org/DesignIssues/Evolution.html">Evolution of the Web</a></cite>.</p>
+    <p id="evolvability"><em>Evolvability</em> can be seen as an attribute or a quality of a system, such that the system can survive in the long run. This is especially important when we want to have different publishing systems to be interoperable over time based on new needs. To be more specific, we should seek to employ technology stacks that are likely to handle extensions and accommodate diverse scenarios for knowledge acquisition in the future. While it is not always clear or easy to predict which technologies will persevere in the future, we can pursue features like simplicity, flexibility, decentralisation, interoperability, and tolerance. This line of thinking is expressed in Berners-Lee's Web architecture comments on the <cite><a about="" href="http://www.w3.org/DesignIssues/Evolution.html" rel="cito:agreesWith">Evolution of the Web</a></cite>.</p>
 
     <p>in 1996, Berners-Lee gives a set of <em>axioms</em> for URIs as the backbone of what makes the Web a universal information space:</p>
 
@@ -511,10 +514,9 @@ transform:rotate(-60deg);
 
     <p>Even before the formalisation of RDF concepts and abstract syntax, it was conceptually in the fabric of interconnecting objects on the Web as originally proposed in <cite><a href="https://www.w3.org/History/1989/proposal.html">Information Management: A Proposal</a></cite>. Different ways to encode RDF emerged over time; initially a terse approach in HTML which provided a both human and machine-readable way to express and act on knowledge. Then came the richer syntaxes, along with the use of vocabularies and ontologies, in order to address different system and interface needs eg. RDF/XML, Turtle, RDFa, JSON-LD.</p>
 
-<!-- https://www.w3.org/TR/webarch/#general -->
+    <!-- https://www.w3.org/TR/webarch/#general -->
 
-<!--     <p><cite><a href="http://eprints.soton.ac.uk/id/eprint/263347" rel="cito:citesAsAuthority">A Framework for Web Science</a></cite>
- -->
+    <!-- <p><cite><a href="http://eprints.soton.ac.uk/id/eprint/263347" rel="cito:citesAsAuthority">A Framework for Web Science</a></cite></p> -->
 
     <p>Today, Web browsers provide a basis for many forms of human and machine communication. In essence, Web browser is one of the most widely used platforms where a collection of Internet and Web standards are materialised. The goal of the <cite><a href="https://www.w3.org/2001/tag/doc/IAB_Prague_2011_slides.html#owp">Open Web Platform</a></cite> (<abbr title="Open Web Platform">OWP</abbr>) is to advance such standards so that technologies like the Web browser can help us communicate better in the gloval information space, and specifically the interplay of forces and functions of scholarly communication.</p>
 
@@ -523,7 +525,6 @@ transform:rotate(-60deg);
     <p>The scope of the technologies and standards described in this thesis and the contributions therein is within the context of the Web. There are undoubtedly many exciting initiatives and developments that use Internet protocols which can address many of the same challenges (and maybe even better), however it would take more than one thesis to do these justice. Hence, we scope to the Web.</p>
   </div>
 </section>
-
 
 <section id="linked-research" rel="schema:hasPart" resource="#linked-research">
   <h2 property="schema:name">Linked Research</h2>
@@ -641,7 +642,7 @@ transform:rotate(-60deg);
 
             <p>URI ownership is architecturally decentralised in that the location of a resource can physically exist anywhere in the world. Architectural decentralisation is however ultimately influenced by political or social centralisation: control of a <cite>fully qualified domain name</cite>. Depending on the URI, it can be either logically decentralised or centralised; some URIs have compound components such that their interpretation and use relies on different systems, while others are singular and only need to be looked up against the provided interface, eg. based on the characteristics of a URI scheme or persistence through a specialised service.</p>
 
-<!-- <cite><a href="https://web.archive.org/web/20180227163731/https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274">The Meaning of Decentralization</a></cite> -->
+            <!-- <cite><a href="https://web.archive.org/web/20180227163731/https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274">The Meaning of Decentralization</a></cite> -->
 
             <p>Decentralisation is a means to gain autonomy on the Web. Autonomy is required to fully exercise <em>freedom of expression</em>. If a URI is governed by a third-party, eg. an entity other than the researcher who created the contents of a scientific resource, then the resource is not only subject to change or removal, but what gets to be expressed in terms of content may be limited as well. The absence of intermediaries makes it possible to conduct <q>self-registration</q> with respect to the <q>registration</q> function.</p>
 
@@ -712,7 +713,6 @@ transform:rotate(-60deg);
 
             <p>Scientific contributions are multimodal, interactive, and social.</p>
 
-
 <!--
             <p>Interlinking information, eg. citations, the following is used as a rule of thumb on deciding the URL of the unit of information:</p>
 
@@ -732,7 +732,6 @@ transform:rotate(-60deg);
           </dd>
         </dl>
 
-
 <!--
         <div class="note">
           <h4>Note</h4>
@@ -741,6 +740,7 @@ transform:rotate(-60deg);
           </div>
         </div>
 -->
+
       </div>
     </section>
 
@@ -772,15 +772,15 @@ transform:rotate(-60deg);
           <dt>Assumptions</dt>
           <dd>
             <ul>
-              <li id="acid-test-assumptions-open-standards" rel="schema:hasPart"><span property="schema:description" about="#acid-test-assumptions-open-standards" typeof="doco:Sentence">All interactions conform with open standards, with 1) no dependency on proprietary APIs, protocols, or formats, and 2) no commercial dependency or priori relationship between the groups using the workflows and tools involved.</span></li>
+              <li id="acid-test-assumptions-open-standards" rel="schema:hasPart"><span about="#acid-test-assumptions-open-standards" property="schema:description" typeof="doco:Sentence">All interactions conform with open standards, with 1) no dependency on proprietary APIs, protocols, or formats, and 2) no commercial dependency or priori relationship between the groups using the workflows and tools involved.</span></li>
 
-              <li id="acid-test-assumptions-publishing" rel="schema:hasPart"><span property="schema:description" about="#acid-test-assumptions-publishing" typeof="doco:Sentence">Any mechanisms are available through at least two independent interoperable tool stacks.</span></li>
+              <li id="acid-test-assumptions-publishing" rel="schema:hasPart"><span about="#acid-test-assumptions-publishing" property="schema:description" typeof="doco:Sentence">Any mechanisms are available through at least two independent interoperable tool stacks.</span></li>
 
-              <li id="acid-test-assumptions-free-and-open-access" rel="schema:hasPart"><span property="schema:description" about="#acid-test-assumptions-free-and-open-access" typeof="doco:Sentence">Information and interactions are available for free and open access with suitable licensing and attribution for retrieval and reuse.</span></li>
+              <li id="acid-test-assumptions-free-and-open-access" rel="schema:hasPart"><span about="#acid-test-assumptions-free-and-open-access" property="schema:description" typeof="doco:Sentence">Information and interactions are available for free and open access with suitable licensing and attribution for retrieval and reuse.</span></li>
 
-              <li id="acid-test-assumptions-interpretable-and-interactive" rel="schema:hasPart"><span property="schema:description" about="#acid-test-assumptions-interpretable-and-interactive" typeof="doco:Sentence">Information is interpretable or interactive for any agent; human, machine, or other.</span></li>
+              <li id="acid-test-assumptions-interpretable-and-interactive" rel="schema:hasPart"><span about="#acid-test-assumptions-interpretable-and-interactive" property="schema:description" typeof="doco:Sentence">Information is interpretable or interactive for any agent; human, machine, or other.</span></li>
 
-              <li id="acid-test-assumptions-prior-knowledge" rel="schema:hasPart"><span property="schema:description" about="#acid-test-assumptions-prior-knowledge" typeof="doco:Sentence">All interactions are possible without prior out-of-band knowledge of the user’s environment or configuration.</span></li>
+              <li id="acid-test-assumptions-prior-knowledge" rel="schema:hasPart"><span about="#acid-test-assumptions-prior-knowledge" property="schema:description" typeof="doco:Sentence">All interactions are possible without prior out-of-band knowledge of the user’s environment or configuration.</span></li>
             </ul>
             <span rel="schema:hasPart"><span content="There is no spoon." property="schema:description" resource="#acid-test-assumptions-no-spoon" typeof="doco:Sentence"></span></span>
           </dd>
@@ -792,42 +792,42 @@ transform:rotate(-60deg);
             <p>We are interested in questions like<q>Which scholarly articles are relevant to my research problem?</q>, <q>How can we find and compare the variables of similar hypothesis?</q>, <q>Which other researchers might find my results/output directly useful so I can notify them?</q>, <q>What are some of the unanswered questions or new challenges in a research area?</q>, <q>What are the research gaps?</q>, <q>How do we verify a peer-review and credit the peer-reviewer?</q>, <q>How do we control, store, preserve research?</q>, <q>When do I get my free lunch?</q></p>
 
 
-            <p>Example challenges to meet with the <a rel="rdfs:seeAlso" href="#acid-test-assumptions">acid test assumptions</a> in place:</p>
+            <p>Example challenges to meet with the <a href="#acid-test-assumptions" rel="rdfs:seeAlso">acid test assumptions</a> in place:</p>
 
             <ul>
-              <li id="challenge-availability" rel="schema:hasPart"><span property="schema:description" about="#challenge-availability" typeof="doco:Sentence">Alexander makes his article available on the Web with the research objects available at fine granularity, e.g., variables of a hypothesis.</span></li>
+              <li id="challenge-availability" rel="schema:hasPart"><span about="#challenge-availability" property="schema:description" typeof="doco:Sentence">Alexander makes his article available on the Web with the research objects available at fine granularity, e.g., variables of a hypothesis.</span></li>
 
-              <li id="challenge-reference" rel="schema:hasPart"><span property="schema:description" about="#challenge-reference" typeof="doco:Sentence">Beverly references and discusses Alexander’s research objects from her own research article, e.g., an argument against a methodological step.</span></li>
+              <li id="challenge-reference" rel="schema:hasPart"><span about="#challenge-reference" property="schema:description" typeof="doco:Sentence">Beverly references and discusses Alexander’s research objects from her own research article, e.g., an argument against a methodological step.</span></li>
 
-              <li id="challenge-annotation" rel="schema:hasPart"><span property="schema:description" about="#challenge-annotation" typeof="doco:Sentence">Carol annotates Beverly’s argument on Alexander’s work by suggesting that it was misinterpreted, and stores the note publicly at her own personal content store.</span></li>
+              <li id="challenge-annotation" rel="schema:hasPart"><span about="#challenge-annotation" property="schema:description" typeof="doco:Sentence">Carol annotates Beverly’s argument on Alexander’s work by suggesting that it was misinterpreted, and stores the note publicly at her own personal content store.</span></li>
 
-              <li id="challenge-review" rel="schema:hasPart"><span property="schema:description" about="#challenge-review" typeof="doco:Sentence">Darmok and Eve write reviews for Beverly’s article and store them at their preferred locations respectively; Beverly is notified about the reviews.</span></li>
+              <li id="challenge-review" rel="schema:hasPart"><span about="#challenge-review" property="schema:description" typeof="doco:Sentence">Darmok and Eve write reviews for Beverly’s article and store them at their preferred locations respectively; Beverly is notified about the reviews.</span></li>
 
-              <li id="challenge-call-for-contributions" rel="schema:hasPart"><span property="schema:description" about="#challenge-call-for-contributions" typeof="doco:Sentence">Frank publicly announces a call for contributions for an academic conference. He specifies the scope of the call and desired qualities of the submissions.</span></li>
+              <li id="challenge-call-for-contributions" rel="schema:hasPart"><span about="#challenge-call-for-contributions" property="schema:description" typeof="doco:Sentence">Frank publicly announces a call for contributions for an academic conference. He specifies the scope of the call and desired qualities of the submissions.</span></li>
 
-              <li id="challenge-reply-to-call" rel="schema:hasPart"><span property="schema:description" about="#challenge-reply-to-call" typeof="doco:Sentence">Guinan notices Frank’s call for contributions to be suitable for her research article, and submits a link to her work. In her article, Guinan indicates that it was a reply to the call.</span></li>
+              <li id="challenge-reply-to-call" rel="schema:hasPart"><span about="#challenge-reply-to-call" property="schema:description" typeof="doco:Sentence">Guinan notices Frank’s call for contributions to be suitable for her research article, and submits a link to her work. In her article, Guinan indicates that it was a reply to the call.</span></li>
 
-              <li id="challenge-peer-review" rel="schema:hasPart"><span property="schema:description" about="#challenge-peer-review" typeof="doco:Sentence">Frank assigns Herman, Inigo, and Jean-Luc to peer-review Guinan’s work. Herman and Inigo both write their reviews so that only Frank and Guinan may read them; meanwhile Jean-Luc makes his review public.</span></li>
+              <li id="challenge-peer-review" rel="schema:hasPart"><span about="#challenge-peer-review" property="schema:description" typeof="doco:Sentence">Frank assigns Herman, Inigo, and Jean-Luc to peer-review Guinan’s work. Herman and Inigo both write their reviews so that only Frank and Guinan may read them; meanwhile Jean-Luc makes his review public.</span></li>
 
-              <li id="challenge-proceedings" rel="schema:hasPart"><span property="schema:description" about="#challenge-proceedings" typeof="doco:Sentence">Keiko is assisting Frank, and compiles a list of articles which meet the requirements and standards of Frank’s call for contributions based on reviews and public feedback. She sends notifications to various institutions that the proceedings are ready to be archived.</span></li>
+              <li id="challenge-proceedings" rel="schema:hasPart"><span about="#challenge-proceedings" property="schema:description" typeof="doco:Sentence">Keiko is assisting Frank, and compiles a list of articles which meet the requirements and standards of Frank’s call for contributions based on reviews and public feedback. She sends notifications to various institutions that the proceedings are ready to be archived.</span></li>
 
-              <li id="challenge-library" rel="schema:hasPart"><span property="schema:description" about="#challenge-library" typeof="doco:Sentence">Liz manages scholarly archiving at her institution; she retrieves and catalogues the articles which were mentioned for library indexing.</span></li>
+              <li id="challenge-library" rel="schema:hasPart"><span about="#challenge-library" property="schema:description" typeof="doco:Sentence">Liz manages scholarly archiving at her institution; she retrieves and catalogues the articles which were mentioned for library indexing.</span></li>
 
-              <li id="challenge-interaction" rel="schema:hasPart"><span property="schema:description" about="#challenge-interaction" typeof="doco:Sentence">Marshall is a PhD student; he uses the interactive components in Beverly’s article by changing the parameters and rerunning an experiment and decides to expand on this for his own work.</span></li>
+              <li id="challenge-interaction" rel="schema:hasPart"><span about="#challenge-interaction" property="schema:description" typeof="doco:Sentence">Marshall is a PhD student; he uses the interactive components in Beverly’s article by changing the parameters and rerunning an experiment and decides to expand on this for his own work.</span></li>
 
-              <li id="challenge-views" rel="schema:hasPart"><span property="schema:description" about="#challenge-views" typeof="doco:Sentence">Nelson reads Alexander’s article from his handheld device, and prints a single page summary.</span></li>
+              <li id="challenge-views" rel="schema:hasPart"><span about="#challenge-views" property="schema:description" typeof="doco:Sentence">Nelson reads Alexander’s article from his handheld device, and prints a single page summary.</span></li>
 
-              <li id="challenge-archives" rel="schema:hasPart"><span property="schema:description" about="#challenge-arhives" typeof="doco:Sentence">Ophelia notices the new index of articles in response to Frank’s call and selects the ones she is interested in for her personal collection of potential references.</span></li>
+              <li id="challenge-archives" rel="schema:hasPart"><span about="#challenge-arhives" property="schema:description" typeof="doco:Sentence">Ophelia notices the new index of articles in response to Frank’s call and selects the ones she is interested in for her personal collection of potential references.</span></li>
 
-              <li id="challenge-discovery" rel="schema:hasPart"><span property="schema:description" about="#challenge-discovery" typeof="doco:Sentence">Paris sees the peer-reviews about Guinan’s work and proceeds to discover further information about the qualifications and experience of the reviewers.</span></li>
+              <li id="challenge-discovery" rel="schema:hasPart"><span about="#challenge-discovery" property="schema:description" typeof="doco:Sentence">Paris sees the peer-reviews about Guinan’s work and proceeds to discover further information about the qualifications and experience of the reviewers.</span></li>
 
-              <li id="challenge-personal-annotations" rel="schema:hasPart"><span property="schema:description" about="#challenge-personal-annotations" typeof="doco:Sentence">At Frank’s conference, Q listens to the presentations from the authors and makes personal notes about the work; he occasionally makes his observations visible to the authors or rest of the conference audience.</span></li>
+              <li id="challenge-personal-annotations" rel="schema:hasPart"><span about="#challenge-personal-annotations" property="schema:description" typeof="doco:Sentence">At Frank’s conference, Q listens to the presentations from the authors and makes personal notes about the work; he occasionally makes his observations visible to the authors or rest of the conference audience.</span></li>
 
-              <li id="challenge-forecast-fields" rel="schema:hasPart"><span property="schema:description" about="#challenge-forecast-fields" typeof="doco:Sentence">Rajiya aggregates all of the scholarly communication available in the last 5 years, and builds a visualisation to analyze research gaps. She then forecasts emerging fields.</span></li>
+              <li id="challenge-forecast-fields" rel="schema:hasPart"><span about="#challenge-forecast-fields" property="schema:description" typeof="doco:Sentence">Rajiya aggregates all of the scholarly communication available in the last 5 years, and builds a visualisation to analyze research gaps. She then forecasts emerging fields.</span></li>
 
-              <li id="challenge-funding-opportunities" rel="schema:hasPart"><span property="schema:description" about="#challenge-funding-opportunities" typeof="doco:Sentence">Sahrahsahe builds a profile of her research lab, and runs a comparative analysis to check which funding opportunities that are applicable with good chances to obtain the grants.</span></li>
+              <li id="challenge-funding-opportunities" rel="schema:hasPart"><span about="#challenge-funding-opportunities" property="schema:description" typeof="doco:Sentence">Sahrahsahe builds a profile of her research lab, and runs a comparative analysis to check which funding opportunities that are applicable with good chances to obtain the grants.</span></li>
 
-              <li id="challenge-controversial-research" rel="schema:hasPart"><span property="schema:description" about="#challenge-controversial-research" typeof="doco:Sentence">Tabitha is interested in identifying research articles that generate controversial social activity, so she runs a filter for long running discussions with varying social reactions in a community query service.</span></li>
+              <li id="challenge-controversial-research" rel="schema:hasPart"><span about="#challenge-controversial-research" property="schema:description" typeof="doco:Sentence">Tabitha is interested in identifying research articles that generate controversial social activity, so she runs a filter for long running discussions with varying social reactions in a community query service.</span></li>
             </ul>
           </div>
         </aside>
@@ -851,10 +851,7 @@ transform:rotate(-60deg);
 
         <p>At the time of this writing, LR's principles were conceived within the Web paradigm, as opposed to the broader Internet. There are emerging technologies and platforms within the Internet which are highly specialised for security, versioning, distributed, and so forth, which give way to new possibilities on how the scholarly communication market can be realised. While this thesis fits LR's principles into particular contemporary technology stacks, this is for practical purposes and to demonstrate what can be achieved today. Nothing prevents the principles from being adopted under different environments. It is quite likely that the design philosophies of the new environments will differ.</p>
 
-
-<!--         <p>What is the scope? What are some of the instabilities or inadequate use of the system? What is missing or could use more development/attentions?</p>
- -->
-
+        <!-- <p>What is the scope? What are some of the instabilities or inadequate use of the system? What is missing or could use more development/attentions?</p>  -->
 
         <p>Sooner or later we need a strategy to address questions like: <em>What do we aim to accomplish?</em> <em>Who is trying to do it and for the benefit of whom?</em> <em>How do we know whether we are making progress and when we have succeeded?</em></p>
 
