@@ -178,13 +178,34 @@ transform:rotate(-60deg);
         </dl>
 
         <div datatype="rdf:HTML" property="schema:description">
-<section id="probes">
-  <h2 property="schema:name">Probes</h2>
-  <div>
+<section id="the-paradigm-shift" inlist="" rel="schema:hasPart" resource="#the-paradigm-shift">
+  <h2 property="schema:name">The Paradigm Shift</h2>
+  <div datatype="rdf:HTML" property="schema:description">
+
+<!--
     <blockquote cite="https://blog.whatwg.org/">
       <p>Please leave your sense of logic at the door, thanks!</p>
       <footer><p><cite><a href="irc://irc.freenode.net/whatwg">#whatwg</a></cite></p></footer>
     </blockquote>
+-->
+
+    <p>The current and widely accepted paradigm is that scientific contributions are peer-reviewed and made available through credible publishers.</p>
+
+    <p>Talk about brief history of SC from 1600s to today.. one paragraph</p>
+
+    <p>Paradigm shift started in the 90s and continues.. held back by tradition.. social desire for change... plus social web with regards to what's normal communication.</p>
+
+    <p>There has been a increasing trend in transitioning from print to electronic over the course of past decades in how scholars communicate.</p>
+
+    <p>. we borrow the conceptual framework on how <em>paradigms</em>. In the <cite>Structure of Scientific Revolutions</cite>, Kuhn describes...</p>
+
+    <p>happen, we focus on the effects of the Web medium which caused the way scientists conduct their everyday activities. The <em>effect</em> preceding <em>cause</em> seems counter-intuitive to most of us, however, it becomes apparent as McLuhan describes. That is, how did the medium influence our scientific environment, and how we are suddenly in the middle of it?</p>
+
+    <p>With respect to the focus of this thesis, scholarly communication on the Web is confronted with the <em>crisis</em> on 1) the inadequacy of the traditional mode of scientific information exchange, and 2) access to and reuse of information.</p>
+
+
+    <p>rear-view mirror.. and paradigms</p>
+    <p>By confronting the Web using the same methods as with print, the scientific market seeks security and comfort. </p>
 
     <ul>
       <li>What are the units of human and machine-readable scholarly information? Why self-publishing and what is it like to actualise? What constitutes a scholarly contribution on the Web? What can be deconstructed? What and at what granularity can information be communicated? What are persistent and permanent artefacts? Where would distributed scholarly information exist, be findable and used?</li>
@@ -194,255 +215,10 @@ transform:rotate(-60deg);
   </div>
 </section>
 
-<section id="understanding-the-medium" rel="schema:hasPart" resource="#understanding-the-medium">
-  <h2 property="schema:name">Understanding the Medium: Scholarly Communication on the Web</h2>
+
+<section id="web-a-social-machine" inlist="" rel="schema:hasPart" resource="#web-a-social-machine">
+  <h2 property="schema:name">Web: A Social Machine</h2>
   <div datatype="rdf:HTML" property="schema:description">
-    <p>In the 1967 book, <cite><a href="http://www.worldcat.org/oclc/47679653" rel="schema:url">The Medium is the Massage</a></cite>, <a href="https://en.wikipedia.org/wiki/Marshall_McLuhan">Marshall McLuhan</a> wrote: <q about="" cite="http://www.worldcat.org/oclc/47679653" rel="cito:agreesWith" resource="http://www.worldcat.org/oclc/47679653">at the high speeds of electric communication, purely visual means of apprehending the world are no longer possible; they are just too slow to be relevant or effective</q> [<a class="ref" href="#ref-1">1</a>]. While McLuhan’s critique was about the effect of the print media in the electric age, it stands especially valid today in the age of interactive new media. For instance, the <em class="cool-media">World Wide Web</em> is a <q>cool media</q> because its access, multi-linearity, and interactive possibilities offer multi-sensory states for individuals. This is in contrast to <em class="hot-media">print</em>, considered to be a <q>hot media</q>, demanding primarily the full attention of our vision. As the printed word’s requirement for the other senses is minimal, it <em>spoon-feeds</em> the content to the reader in a l-i-n-e-a-r <span class="typographic-sine-wave"><span>f</span><span>a</span><span>s</span><span>h</span><span>i</span><span>o</span><span>n</span></span>. The literate or print culture is passive and is detached from immediate involvement because the medium has no such requirements. The cooler media on the other hand, requires a greater level of engagement from the audience at a faster rate. This increased engagement allows us to detect change and better recognise patterns, which, according to <a href="https://en.wikipedia.org/wiki/Principles_of_grouping">Gestalt’s laws of grouping</a>, makes the whole of the information easier to follow and understand.</p>
-
-    <p>Modern media, like the Web, offer extensible interactions, creative participation, and social engagement. There is a natural human desire to <strong>connect</strong> and <strong>exchange</strong> <a href="https://en.wikipedia.org/wiki/Meme"><em>memes</em></a> with others, as well as to co-create. Given these opportunities, the fundamental question to ask here is, why should research communication be limited to, evaluated by, and rewarded on methods and practices be based on print-centric media? Scholarly communication still uses methods which date back to the invention of the <a href="https://en.wikipedia.org/wiki/Printing_press">mechanical movable type printing press</a> (circa 1450), even in the advent of the globally accessible and interactive new media that are at our fingertips today, and at much faster turnaround times from publication to consumption than ever before. The practices correspond to publication workflows that are in place for academic communication, and have remained largely unchanged for over a century. What does it mean to have an academic achievement through a “publication”? If we consider the Web as a potential supplemnt to or replacement for these older practices, and given that the Web can be purposed for greater possibiliteis than print alone, then we also need to address the question, <em>what constitutes a scholarly contribution?</em></p>
-
-    <p>Today, it is evident that the typical publishing scenario for scholarly knowledge predominantly requires strict adherence to the <em>printability</em> aspects of the information eg. <span class="unicode-document">page length, typographical guidelines</span>. That is, all of the encompassing data for any given research and development, ie. noteworthy items which the researcher knows, wants to communicate and demonstrate, must be channeled through the characteristics of the print media. In practice, this leads the research community to use tools that are tailored solely for printing or viewing (on screen). This (sticking to print) leads to unnecessary information loss or arbitrary filtering of the content, which might be otherwise preserved if a different medium was used. Since print is only one possible way to represent and communicate the information, it is worthwhile to investigate and employ alternative or complimentary representations that are more appropriate given the qualities of the Web. Traditional electronic document formats are primarily designed and destined for printing and physical distribution - circulate in scientific circles and on the Web, we can make one observation: such formats, on the hot end of the media spectrum, are trying to exist and remain relevant inside a cool medium.</p>
-
-<!--
-    <p id="this-is-not-a-paper"><cite><a href="http://faculty.education.illinois.edu/burbules/papers/paper.1.html">This is Not a Paper</a></cite> [<a class="ref" href="#ref-2">2</a>] - an essay with a title as such, we wish we had written 20 years ago, which is <strong>still</strong> accessible with a single click! - raises a legitimate question <q>whether any journals will exist in paper form within a decade or two</q>. While we can safely answer that question today, our contention is that we are arguably in a better position to look ahead for the upcoming years. There are various emergent social and technical initiatives that are taking place under the umbrella term, <em>Open Science</em>.</p>
-
-    <p>At least within the context of scholastic Web science, it is not only compelling, but crucial for the research community to <em>eat its own dogfood</em> in order to unchain itself from antiquated traditions. A distinction to make here between print-first and Web-first is that it is the environment that influences social consequences, not the technology itself. To start in such endeavor, the primary requirement should be placed on the shoulders of the researchers themselves i.e., to use the mediums and processes that it has created towards technical and social progress. By retaining our focus on enabling researchers we postulate better <strong>access</strong> to knowledge. This is akin to why and how the Web came to be.</p>
--->
-
-    <p>The intention is not to undermine the values of the print-centric approach, but rather to explore alternative media and their different qualities. <q cite="http://www.worldcat.org/oclc/250420453" title="McLuhan, M. and H. Parker (1968) Through the Vanishing Point: Space in Poetry and Painting. New York: Harper and Row; London: Evanston.">It is not that there is anything wrong with the old environment, but it simply will not serve as navigational guide to the new one.</q>, <cite><a href="https://www.worldcat.org/title/through-the-vanishing-point/oclc/250420453">Through the Vanishing Point: Space in Poetry and Painting</a></cite></p>
-  </div>
-</section>
-
-<section id="effects-and-artefacts" rel="schema:hasPart" resource="#effects-and-artefacts">
-  <h2 property="schema:name">Effects and artefacts</h2>
-  <div datatype="rdf:HTML" property="schema:description">
-    <blockquote cite="http://www.worldcat.org/oclc/981396559">
-      <p>All of man's artefacts - whether language, or laws, or ideas and hypotheses, or tools, or clothing, or computers - are extensions of the physical human body or the mind.</p>
-      <footer><cite><a href="http://www.worldcat.org/oclc/981396559">Laws of Media</a></cite>, p. 93</footer>
-    </blockquote>
-
-    <p>In recent decades there has been a global shift in communication forms that are used for scientific activities. This perhaps demonstrates a desire for amplification of the senses that are used to consume and create knowledge. For instance, print-centric emphasises the linearity of scientific information representation and its communication, whereas a Web-centric approach makes multimodal interactions possible within the same domain. Scientists need no longer fit their understanding of the world within the confines of static and two-dimensional descriptions of phenomena. The need to travel great distances for first-hand observations and collaboration is also reduced. With electronic media, and more specifically the Web, we have the option to also watch, listen, and participate around measured observations - instantaneously - as the events occur; or after the fact, around persistent and detailed logs. Just as the invention of the printing press transformed the codification and mobility of knowledge, the Web transformed and extended human and machine communication on all fronts. What will be further explored in this thesis is the extent to which our current scholastic activities make use of the inherent qualities of the Web, as well as ways to further take advantage of these qualities.</p>
-
-    <p>In order to help us understand the effects of the Web on scholarly communication, we can use <a href="http://dbpedia.org/Marshall_McLuhan" rel="cito:credits">McLuhan</a>'s tetrad on media effects as a heuristic device, a set of four questions:</p>
-
-    <blockquote cite="http://www.worldcat.org/oclc/981396559" id="" rel="cito:includesQuotationFrom">
-      <ul>
-        <li>What does it enhance or intensify?</li>
-        <li>What does it render obsolete or displace?</li>
-        <li>What does it retrieve that was previously obsolesced?</li>
-        <li>What does it produce or become when pressed to an extreme?</li>
-      </ul>
-      <footer><cite><a href="http://www.worldcat.org/oclc/981396559">Laws of Media</a></cite>, p. 7</footer>
-    </blockquote>
-
-    <p>The questions are intended to be complimentary and studied simultaneously. They correspond to four effects: <q>enhances</q>, <q>obsolesces</q>, <q>retrieves</q>, and <q>reverses into</q>. We can use this tetrad to situate the effects and artefacts of scholarly communication on the Web in relation to adjacent mediums, in particular, to print media.</p>
-
-    <dl>
-      <dt>Enhances</dt>
-      <dd>access to information, decentralisation, distribution, response time, self-expression, multi-modality</dd>
-      <dt>Obsolesces</dt>
-      <dd>anti-sociality, distance, travel, linearity</dd>
-      <dt>Retrieves</dt>
-      <dd>correspondence, anarchy, dialogue, involvement</dd>
-      <dt>Reverses into</dt>
-      <dd>information overload, isolation, centralised publishing and distribution services, third-party control</dd>
-    </dl>
-
-    <p>The tetrad serves as a conceptual categorisation of effects. It allows us to outline what the medium enables or has implications for at a high level. Verifying, realising, and analysing some of these effects in "the real world", or in day-to-day academic practice, is the core of this thesis. Whilst there exists a plethora of possible observations, this thesis will focus on:</p>
-
-    <ul>
-      <li>composition of scholarly information</li>
-      <li>individual autonomy to create and consume knowledge</li>
-      <li>sociality of scholarly communication</li>
-    </ul>
-
-    <p>By examining these effects, we can hone in on understanding what the underlying <em>form</em> does to us, society at large, and scientific communication itself. It provides us with a foundation to go further in uncovering the nature of scholarly communication's interplay with the Web. What has it shaped? What are the current challenges? How do we envision the communication to be? How can we use the medium better whether through its original intentions or new?</p>
-
-    <p>The technicalities of these inquiries can have various manifestations, hence this thesis is only intended to reveal a particular configuration which situates itself around <em>contributor-centric scholarly communication on the Web</em>.</p>
-
-    <p>How is scientific communication changed by the mediums employed?</p>
-  </div>
-</section>
-
-<section class="todo" id="anticipating-a-paradigm-shift" rel="schema:hasPart" resource="#anticipating-a-paradigm-shift">
-  <h2 property="schema:name">Anticipating a Paradigm Shift</h2>
-  <div datatype="rdf:HTML" property="schema:description">
-    <p>There has been a increasing trend in transitioning from print to electronic over the course of past decades in how scholars communicate.</p>
-
-    <p>. we borrow the conceptual framework on how <em>paradigms</em>. In the <cite>Structure of Scientific Revolutions</cite>, Kuhn describes...</p>
-
-    <p>happen, we focus on the effects of the Web medium which caused the way scientists conduct their everyday activities. The <em>effect</em> preceding <em>cause</em> seems counter-intuitive to most of us, however, it becomes apparent as McLuhan describes. That is, how did the medium influence our scientific environment, and how we are suddenly in the middle of it?</p>
-
-    <!-- failure to adopt/cultivate -->
-
-    <p>With respect to the focus of this thesis, scholarly communication on the Web is confronted with the <em>crisis</em> on 1) the inadequacy of the traditional mode of scientific information exchange, and 2) access to and reuse of information.</p>
-
-    <p>The current and widely accepted paradigm is that scientific contributions are peer-reviewed and made available through credible publishers. As to what constitutes a "publisher" is left at the discretion of different scholarly communities.</p>
-
-    <p>rear-view mirror.. and paradigms</p>
-    <p>By confronting the Web using the same methods as with print, the scientific market seeks security and comfort. </p>
-  </div>
-</section>
-
-<section id="forces-and-functions" rel="schema:hasPart" resource="#forces-and-functions">
-  <h2 property="schema:name">Forces and Functions</h2>
-  <div datatype="rdf:HTML" property="schema:description">
-    <p>The scientific communication 'market' is an interplay between actors with the objective to exchange units of information - scientific literature, analysis, annotation, dataset, software, interactive knowledge representation. Further, researchers commonly want to expose their work beyond the scientific community to the wider world, seeking adoption or contradiction of new ideas and findings. The analysis provided in <cite><a href="http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html">Forces and functions in scientific communication</a></cite> provides a framework in which to situate the conceptual and technical contributions in this thesis. This framework has had historical influence on research and development pertaining to technical challenges on interoperability, workflows, service sharing, and information modeling, which is discussed further in <a href="#a-brief-history-of-scholarship-on-the-web">scientific communication on the Web</a> and in the remainder of the thesis.</p>
-
-    <p>Roosendaal and Geurts disassembles the scientific communication market as an interplay between four forces and functions. The dynamics between the forces and functions is formed as a tetrad:</p>
-
-    <h3>Forces</h3>
-
-    <p>The scientific communication market consists of four forces with each having complementary parts: <em>actors</em>, <em>accessibility</em>, <em>content</em>, and <em>applicability</em>.</p>
-
-    <dl>
-      <dt>Actor</dt>
-      <dd>Authors (producers) and readers (consumers)</dd>
-      <dt>Accessibility</dt>
-      <dd>Availability and retrievability</dd>
-      <dt>Content</dt>
-      <dd>Questions and answers</dd>
-      <dt>Applicability</dt>
-      <dd>Science and technology</dd>
-    </dl>
-
-    <figure>
-      <figcaption>The four forces in the scientific communication market</figcaption>
-    </figure>
-
-    <h3>Functions</h3>
-
-    <p>Scientific communication consists of four functions: <em>registration</em>, <em>awareness</em>, <em>certification</em>, and <em>archiving</em>.</p>
-
-    <dl>
-      <dt>Registration</dt>
-      <dd>Allows claims of precedence for a scientific activity</dd>
-      <dt>Awareness</dt>
-      <dd>Remaining informed of the observations</dd>
-      <dt>Certification</dt>
-      <dd>Establishes the validity of registered claims</dd>
-      <dt>Archiving</dt>
-      <dd>Preservation of scholarly records over time</dd>
-    </dl>
-
-    <figure>
-      <figcaption>The four function of scientific communication</figcaption>
-    </figure>
-
-    <p>The actor and content forces are generic and internal to the market, and are considered to be indispensable. On the other hand, accessibility and applicability are external forces and are indispensable with respect to the functions.</p>
-
-    <p>Registration and archiving objective functions in that they are external to the research process. Certification and awareness are subjective communication functions - internal to the research process. Registration and awareness are different aspects of <em>scientific observations</em>, ie. facilitating findable information. Certification and archiving are aspects of <em>scientific judgement</em>, ie. act as a filtering mechanism in the information space.</p>
-
-
-    <p><cite><a href="http://www.dlib.org/dlib/september04/vandesompel/09vandesompel.html">Rethinking Scholarly Communication</a></cite> (2004) proposes to revise the notion of a unit of scholarly communication in two ways. In a technological sense, it suggests to recognise the compound nature of units that work on the Web. From a systems perspective, in order to empower scholarly communities, there should be more flexibility on what <em>constitutes</em> a unit of scholarly communication in order to allow registration, as well as factoring timing and the quality of what is to be registered.</p>
-
-    <p>Reflecting on the four forces and functions in 2014, <cite><a href="http://andrew.treloar.net/research/publications/ipres2014/iPres2014-paper.pdf">A Perspective on Archiving the Scholarly Web</a></cite> observes the evolution of scholarly communication on the Web, with regard to the shape and behaviour of the units of information. In essence, the emergence of the Web influenced the communication market by transforming it from predominantly being medium-driven into a content-driven ecosystem. The observation is based on the archival process held on the open Web; unplanned and unconstrained archiving, organically occurring, by way of Web objects being deposited across distributed and dedicated archival services. Given the dynamic nature of units of communication on the Web, vertical integration (as per the journal-centric ecosystem) of the four functions turned out to be inadequate. Hence, an affirmation of the outlook as outlined in <cite><a href="http://www.dlib.org/dlib/september04/vandesompel/09vandesompel.html">Rethinking Scholarly Communication</a></cite> that the essential functions need to be <q cite="http://andrew.treloar.net/research/publications/ipres2014/iPres2014-paper.pdf">fulfilled in discreet, disaggregated, and distributed manners, and in which a variety of networked pathways interconnect the autonomous hubs that fulfil these functions</q>. The mere act of <q>recording</q> (or <em>registering</em> in the most general sense) a unit of communication is not a replacement for <em>archiving</em> or persistence, even if the freely available Web services are used towards this end. The article calls for another archival paradigm that is based off the natural characteristics of the Web. That is, given the inherently interlinked and dynamic nature of Web objects, archived resources cannot be treated as atomic resources as they do not necessarily contain the complete content. For instance, a research document referring to external media or interactive scripts, aggregated objects, objects changing their states, or potentially being ephemeral. This is in contrast to the traditional journal-centric approach to archival where all material - physical paper - can be eventually tracked to library stacks. Hence, the future of archiving needs to consider the nature of the object, including the degree in which it can be archived.</p>
-  </div>
-</section>
-
-<section id="a-brief-history-of-scholarship-on-the-web" rel="schema:hasPart" resource="#a-brief-history-of-scholarship-on-the-web">
-  <h2 property="schema:name">A brief history of scholarship on the Web</h2>
-  <div datatype="rdf:HTML" property="schema:description">
-    <blockquote>
-      <p>Choice is an illusion, created between those with power, and those without.</p>
-      <footer><cite>Merovingian, The Matrix Reloaded</cite></footer>
-    </blockquote>
-
-    <h3 id="open-science">Open Science</h3>
-    <p><q>Open Science</q> is a broadly understood notion that is intended to foster <em>open</em> approach to conducting scientific and scholarly work. While there is no single agreed definition of open science, the general consensus is about improving the practice of scientific communication in a transparent, traceable, verifiable, and reusable manner. For all intents and purposes, we can work with the European-funded project <cite><a href="">Facilitate Open Science Training for European Research</a></cite> (<abbr title="Facilitate Open Science Training for European Research">FOSTER</abbr>)'s definition:</p>
-
-    <blockquote cite="https://www.fosteropenscience.eu/taxonomy/term/100">
-      <p>Open Science is the practice of science in such a way that others can collaborate and contribute, where research data, lab notes and other research processes are freely available, under terms that enable reuse, redistribution and reproduction of the research and its underlying data and methods.</p>
-
-      <footer><cite><a href="https://www.fosteropenscience.eu/taxonomy/term/100">Open Science Definition</a></cite>, FOSTER</footer>
-    </blockquote>
-
-    <p>The <a href="http://oro.open.ac.uk/44719/2/kmi_foster_iknow.pdf#page=3" title="Fostering Open Science to Research using a Taxonomy and an eLearning Portal">Open Science taxonomy</a> developed by FOSTER maps the open science fields as follows: <q>Open Access, Open Data, Open Reproducible Research, Open Science Definition, Open Science Evaluation, Open Science Guidelines, Open Science Policies, Open Science Projects and Open Science Tools</q>.</p>
-
-    <p>Many of the Linked Research principles are aligned with this or overlap with these concepts from Open Science. Open Science, however, is ambivalent about the communication medium.</p>
-
-
-    <h3>Deconstruction and Transformation</h3>
-    <p>Several movements during the 1990s towards fundamentally transforming scholarly communication using newly available digital network technologies.</p>
-
-    <div id="archives-and-repositories">
-      <h4>Archives and repositories</h4>
-      <p>In 1991, recognizing the need for scholars to expedite the exchange of scholarly information, <a href="https://en.wikipedia.org/wiki/Paul_Ginsparg">Paul Ginsparg</a> created the <abbr title="Los Alamos National Laboratory">LANL</abbr> preprint archive for <q>e-prints</q>. This provided a moderated central repository where scientists can deposit their articles and have them accessible by anyone, which was a cost-effective solution (estimates were less than 5 USD per submission for administration) for scholars to disseminate research results quickly [<cite><a href="http://www.cs.cornell.edu/~ginsparg/physics/blurb/pg01unesco.html">Creating a global knowledge network</a></cite>]. It initially started out as a central mailbox with an interface; it adopted FTP in 1991, Gopher in 1992, and finally the World Wide Web in 1994. The articles in the repository are not expected to be peer-reviewed, but rather a place where versioned <q>preprints</q> - considered to precede publications that are peer-reviewed - can be accessed for free. In 2001, the LANL preprint archive eventually became what is currently known as <a href="https://arxiv.org/">arXiv</a>. The <cite><a href="https://arxiv.org/help/license">arXiv license information</a></cite> permits different rights and licenses to be assigned to the scholarly records, ie. anything from public domain, Creative Commons licenses, or with copyright to the publisher or author, provided that arXiv is given sufficient rights to distribute. The repository accepts submissions in TeX, PDF, PostScript, and HTML. This sort of discipline-centric and institution-run preprint exchange mechanism had the technical ingredients to serve as a substitute for the traditional scholarly journal. From 1991 to 2017, arXiv had a <a href="https://arxiv.org/stats/monthly_submissions">linear increase in submission rate</a> (passing the 1 million mark in 2015). arXiv's early success lead to the emergence of the <q><a href="#open-archiving">open archives initiative</a></q> in 1999, and the <q><a href="#open-access">open access</a></q> movement in 2002.</p>
-    </div>
-
-    <div id="open-access">
-      <h4>Open Access</h4>
-      <p>In 1994, Stevan Harnad made a proposal to appeal to the <q>esoteric</q>:</p>
-
-      <blockquote cite="http://www.arl.org/sc/subversive/i-overture-the-subversive-proposal.shtml">
-        <p>It is applicable only to ESOTERIC (non-trade, no-market) scientific and scholarly publication (but that is the lion's share of the academic corpus anyway), namely, that body of work for which the author does not and never has expected to SELL the words. The scholarly author wants only to PUBLISH them, that is, to reach the eyes and minds of peers, fellow esoteric scientists and scholars the world over, so that they can build on one another's contributions in that cumulative. collaborative enterprise called learned inquiry.</p>
-        <footer><cite><a href="http://www.arl.org/sc/subversive/i-overture-the-subversive-proposal.shtml">The Subversive Proposal</a></cite>, p11 (<a href="https://web.archive.org/web/19980513080022/http://www.arl.org/scomm/subversive/sub01.html">archived</a>)</footer>
-      </blockquote>
-
-      <p>After some years of prototyping and researcher-centric initiatives, the ideas eventually formulated into the <cite><a href="http://www.budapestopenaccessinitiative.org/read">Budapest Open Access Initiative</a></cite> (<abbr title="Budapest Open Access Initiative">BOAI</abbr>) in 2002. BOAI is based on the principle that publicly funded research output should be made immediately available, and indefinitely, without access fees and free from most restrictions on copying and reuse, to increase visibility and uptake:</p>
-
-      <blockquote cite="http://www.budapestopenaccessinitiative.org/read">
-        <p>The literature that should be freely accessible online is that which scholars give to the world without expectation of payment. Primarily, this category encompasses their peer-reviewed journal articles, but it also includes any unreviewed preprints that they might wish to put online for comment or to alert colleagues to important research findings. There are many degrees and kinds of wider and easier access to this literature. By "open access" to this literature, we mean its free availability on the public internet, permitting any users to read, download, copy, distribute, print, search, or link to the full texts of these articles, crawl them for indexing, pass them as data to software, or use them for any other lawful purpose, without financial, legal, or technical barriers other than those inseparable from gaining access to the internet itself. The only constraint on reproduction and distribution, and the only role for copyright in this domain, should be to give authors control over the integrity of their work and the right to be properly acknowledged and cited.</p>
-
-        <footer><cite><a href="http://www.budapestopenaccessinitiative.org/read">Budapest Open Access Initiative</a></cite>, [Retrieved: 2018-02-10T21:23:20.092Z, Reason: cites as authority]</footer>
-      </blockquote>
-
-      <p>In order to open up access to scholarly journal literature, BOAI recommends the adoption of two complementary strategies for open access (<abbr title="Open Access">OA</abbr>):</p>
-
-      <ul>
-        <li><q id="boai-self-archving">I. archives-and-repositories</q> (also called <q>green OA</q>)</li>
-        <li><q id="boai-open-access-journals">II. Open-access Journals</q> (also called <q>gold OA</q>).</li>
-      </ul>
-      
-      <p><cite><a href="http://cogprints.org/1642/1/nature4.htm">The archives-and-repositories initiative</a></cite> is primarily the act of depositing free copies of <q cite="http://www.budapestopenaccessinitiative.org/read">refereed journal articles in open electronic archives</q>. The approach for authors archives-and-repositories was initially implemented through institutional or disciplinary repositories.</p>
-
-      <p>The term <q>self-archiving</q> in context of OA differs from that of the early practices around preprint services in that there were no constraints set for the status of the scholarly literature, ie. reviewed or not. For OA-based scientific literature, certification and quality-control is a requirement, and is paired with the registration and the archive functions of a published literature. With that frame of mind, <q>self-archiving</q> was not intended to be an alias to <q>self-publishing</q>. OA can be considered to have a coupled model with respect to the <a href="#actors-and-functions">four functions in scholarly communication</a> as defined by Roosendaal and Geurts.</p>
-
-      <p>The foundations of the OA approach were conceived at a time where major revenue models to cover publishing costs for scholarly literature was through subsidies from institutions, journal subscriptions, or pay-per-view. In this payment model, consumers of the literature were charged either individually or through institutions. In contrast, the <cite>article processing charge</cite> (<abbr title="Article processing charge">APC</abbr>) model requires publication costs to be covered upfront, thereby waiving the costs for the consumers of the literature. The emergence and growing use of APC model provided a stable revenue stream to <em>publishers</em> [<cite><a href="https://olh.openlibhums.org/articles/10.16995/olh.72/"></a></cite>], while the technical infrastructure remained relatively unchanged, ie. print-centric publication formats still prevail. Today, APC is the most widely used method to finance OA publishing, with varying levels of fees - averaging around 1000 USD per article [<cite><a href="https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-10-124"></a></cite>]).</p>
-
-      <p>The core approach of this thesis is closer to BOAI-1, in that researchers are actively involved in registering, creating awareness, and archiving their scholarly contributions by available means.</p>
-    </div>
-
-    <div id="deconstructing-scholarly-journal">
-      <h4>Deconstructing Scholarly Journal</h4>
-      <p>In 1999, <cite><a href="http://eprints.rclis.org/5841/1/DJpaper.pdf">The deconstructed journal – a new model for academic publishing</a></cite> provided insights on the limitations of the networked-based scholarly publishing models:</p>
-
-      <ol>
-        <li><q>means/end</q> confusion, where journals continue to mimic or replicate existing mechanisms</li>
-        <li>modifications to the system should still match the needs of the traditional scholarly journal</li>
-        <li>cooperating agents can function without going through a central agency, eg. a <q>publisher</q>.</li>
-      </ol>
-
-      <p>The role of the journal includes both <q>main</q> (editorial, quality control, recognition of work, marketing, and disseminating) and <q>hidden</q> (subject and community defining, and archiving) functions. The proposed <em>deconstructed journal</em> model is preferable to the <q>paper</q> influenced electronic publishing model in that both main and hidden roles can be accomplished in a distributed manner. Here, Smith emphasises allowing greater academic freedom and shifting of power and control from the monolithic third-parties to the knowledge producers, which could be realised in either an <em>institution-</em> or <em>researcher-centric</em> approach. To get there, Smith acknowledges that for such a new paradigm to be adopted, professional and funding bodies must transition themselves to accepting the decoupling and self-controlled literature publishing model as something equivalent (in terms of academic value) to the traditional model.</p>
-
-      <p>After two decades, the anecdotal evidence suggests that academia acknowledges the sort of equivalence that Smith describes to varying degrees. For instance, while literature quality-control, eg peer-review, is typically conducted around the journal, and done anywhere on the Web, <em>self-publication</em> of literature remains to be treated as <q>grey literature</q> when it comes to the academic reward systems.</p>
-
-      <p>In 2012, <cite><a href="https://www.frontiersin.org/articles/10.3389/fncom.2012.00019/full">Decoupling the scholarly journal</a></cite> presents an analysis of the four functions of scholarly communication. Priem and Hemminger echo the fact that the scholarly journals bundle multiple functions, and that this tight coupling has hindered innovation, is inefficient, and makes it difficult to improve individual functions. The article also states that the <q>current system</q>, ie. the bundling of the closed publishing process and certification models, is unlikely to change if the communication functions are not decoupled, regardless of all the other out-of-band activities such as activism to boycott certain publishers or library subscriptions. The article diverges from the traditional view of separating registration and archiving functions since the latter <q>necessitates both persistent storage and identification</q>. In other words, if a unit of communication is archived, it has also fulfilled registration. The authors echo many of the ideas of Smith with respect to decoupling and decentralisation, however they only go as far as describing them within the context of scholarly functions operating alongside institutional or third-party online services. While they do not exclude the possibility of <em>researcher-controlled</em> operations, neither it is explored. The article concludes that the nature of the communication revolution will be through the structures of the system. This is analogous to Roosendaal and Geurts' remark on different ensemble of units of information, and the creation of new information spaces.</p>
-
-      <p>It is worthwhile to note here that the models that has been described so far primarily focus on <em>institutional</em> or <em>subject</em> repository driven scholarly communication. They are contrasted against typical third-party (for-profit) involvement which impose a particular arrangement of the coupling of the scholarly information space per <em>forces and functions</em>. In the remainder of this thesis, I focus on enabling a <em>researcher-centric</em> model; whilst this can be situated within the same <q>deconstructing</q> or <q>decoupling</q> school of thought, its pursuit is embracing greater control by researchers through the native characteristics of the Web, while still adhering to the scientific method.</p>
-    </div>
-
-    <h3 id="open-archiving">Open Archiving</h3>
-    <p>Archiving scholarly records is integral to access and preservation of the scientific knowledge for societal use. Scholarly communication over the Web is inherently about distributed activities. The <a href="http://web.archive.org/web/20000229151223/http://www.openarchives.org/ups1-press.htm">first meeting</a> in 1999 was held to agree on recommendations to <a href="http://www.dlib.org/dlib/february00/vandesompel-ups/02vandesompel-ups.html">address interoperability challenges</a> - such as search and linking - for data across publicly available distributed self-archiving solutions. To promote the global acceptance of self-archiving, with interoperable systems being core to its successful adoption, the <cite><a href="http://www.openarchives.org/">Open Archives Initiative</a> (<abbr title="Open Archives Initiative">OAI</abbr>) Organization</cite> was established to take on the development of technical recommendations - for metadata standards, discovery, and retrieval. This lead to the evolution of recommendations such as <cite><a href="http://www.openarchives.org/OAI/openarchivesprotocol.html">OAI-PMH</a></cite> for <q>Protocol for Metadata Harvesting</q>, and its successor <cite><a href="http://www.openarchives.org/rs/resourcesync">ResourceSync</a></cite> as resource a synchronization framework for servers; <cite><a href="http://www.openarchives.org/ore/toc">OAI-ORE</a></cite> for <q>Object Reuse and Exchange</q>; and <cite><a href="https://tools.ietf.org/html/rfc7089">Memento</a></cite> which specifies a time dimension to the Web architecture. In the 2015 article, <cite><a href="http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.html">Reminiscing About 15 Years of Interoperability Efforts</a></cite>, the authors summarise the lessons learned on interoperability efforts by concluding that a shift from a <em>repository-centric</em> to a <em>Web-centric</em> perspective was essential in order have a <q>viable and sustainable</q> scholarly system.</p>
-
-    <h3 id="fair-principles">FAIR Principles</h3>
-    <p>The <cite><a href="https://www.nature.com/articles/sdata201618" title="The FAIR Guiding Principles for scientific data management and stewardship">FAIR Principles</a></cite> proposes guiding principles to facilitate <q>Findable, Accessible, Interoperable and Reusable</q> knowledge discovery for machines as well as reuse by humans.</p>
-
-    <dl>
-      <dt>Findable</dt>
-      <dd>For human and machine discovery of (meta)data and services by use of globally unique and persistent identifiers, and machine-readable way-finding.</dd>
-      <dt>Accessible</dt>
-      <dd>(Meta)data to be retrievable using open and free standard communication protocols via applicable authentication and authorization mechanisms.</dd>
-      <dt>Interoperable</dt>
-      <dd>(Meta)data using structured knowledge representations to be is interpretable by autonomous agents.</dd>
-      <dt>Reusable</dt>
-      <dd>(Meta)data to optimise the reuse of data with domain-relevant, license, and provenance information.</dd>
-    </dl>
-
-    <p>The principles can be applied to create different information spaces. With respect to the <em>four forces and functions</em>, they can describe a class of interactions with a particular technical characteristic in scholarly communication.</p>
-
-
-    <h3 id="web-a-social-machine">Web: A Social Machine</h3>
     <p>The World Wide Web is inherently social. In <cite><a href="http://www.worldcat.org/oclc/729965164" title="Chapter 10: Web of People, p123">Weaving the Web</a></cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> states that he <q cite="http://www.worldcat.org/oclc/729965164">designed it for a social effect – to help people work together – and not as a technical toy</q>. The Web's remarkable growth is fundamentally due to its social characteristics above anything else.</p>
 
     <aside class="note">
@@ -518,7 +294,7 @@ transform:rotate(-60deg);
 
     <!-- <p><cite><a href="http://eprints.soton.ac.uk/id/eprint/263347" rel="cito:citesAsAuthority">A Framework for Web Science</a></cite></p> -->
 
-    <p>Today, Web browsers provide a basis for many forms of human and machine communication. In essence, Web browser is one of the most widely used platforms where a collection of Internet and Web standards are materialised. The goal of the <cite><a href="https://www.w3.org/2001/tag/doc/IAB_Prague_2011_slides.html#owp">Open Web Platform</a></cite> (<abbr title="Open Web Platform">OWP</abbr>) is to advance such standards so that technologies like the Web browser can help us communicate better in the gloval information space, and specifically the interplay of forces and functions of scholarly communication.</p>
+    <p>Today, Web browsers provide a basis for many forms of human and machine communication. In essence, Web browser is one of the most widely used platforms where a collection of Internet and Web standards are materialised. The goal of the <cite><a href="https://www.w3.org/2001/tag/doc/IAB_Prague_2011_slides.html#owp">Open Web Platform</a></cite> (<abbr title="Open Web Platform">OWP</abbr>) is to advance such standards so that technologies like the Web browser can help us communicate better in the global information space, and specifically the interplay of forces and functions of scholarly communication.</p>
 
     <p>The Web is a medium that is an implementation of a <q>global village</q> that McLuhan describes, through the use of electronic media. The openness of the Web and the ease of involvement for both humans and machines (through common protocols) helped its great expansion without a particular central point of failure or coordination. Scholarly communication on the Web happens to be one of the circumstances where different kinds of agents interact, whether they are sentient or something else. All of the four forces and functions have been realised, technically and socially, on the Web.</p>
 
@@ -526,7 +302,241 @@ transform:rotate(-60deg);
   </div>
 </section>
 
-<section id="linked-research" rel="schema:hasPart" resource="#linked-research">
+<section id="a-brief-history-of-scholarship-on-the-web" inlist="" rel="schema:hasPart" resource="#a-brief-history-of-scholarship-on-the-web">
+  <h2 property="schema:name">A Brief History of Scholarship on the Web</h2>
+  <div datatype="rdf:HTML" property="schema:description">
+    <blockquote>
+      <p>Choice is an illusion, created between those with power, and those without.</p>
+      <footer><cite>Merovingian, The Matrix Reloaded</cite></footer>
+    </blockquote>
+
+    <p>Several movements during the 1990s towards fundamentally transforming scholarly communication using newly available digital network technologies.</p>
+
+    <h3 id="open-science">Open Science</h3>
+    <p><q>Open Science</q> is a broadly understood notion that is intended to foster <em>open</em> approach to conducting scientific and scholarly work. While there is no single agreed definition of open science, the general consensus is about improving the practice of scientific communication in a transparent, traceable, verifiable, and reusable manner. For all intents and purposes, we can work with the European-funded project <cite><a href="">Facilitate Open Science Training for European Research</a></cite> (<abbr title="Facilitate Open Science Training for European Research">FOSTER</abbr>)'s definition:</p>
+
+    <blockquote cite="https://www.fosteropenscience.eu/taxonomy/term/100">
+      <p>Open Science is the practice of science in such a way that others can collaborate and contribute, where research data, lab notes and other research processes are freely available, under terms that enable reuse, redistribution and reproduction of the research and its underlying data and methods.</p>
+
+      <footer><cite><a href="https://www.fosteropenscience.eu/taxonomy/term/100">Open Science Definition</a></cite>, FOSTER</footer>
+    </blockquote>
+
+    <p>The <a href="http://oro.open.ac.uk/44719/2/kmi_foster_iknow.pdf#page=3" title="Fostering Open Science to Research using a Taxonomy and an eLearning Portal">Open Science taxonomy</a> developed by FOSTER maps the open science fields as follows: <q>Open Access, Open Data, Open Reproducible Research, Open Science Definition, Open Science Evaluation, Open Science Guidelines, Open Science Policies, Open Science Projects and Open Science Tools</q>.</p>
+
+    <p>Many of the Linked Research principles are aligned with this or overlap with these concepts from Open Science. Open Science, however, is ambivalent about the communication medium.</p>
+
+
+    <div id="archives-and-repositories">
+      <h3>Archives and repositories</h3>
+      <p>In 1991, recognizing the need for scholars to expedite the exchange of scholarly information, <a href="https://en.wikipedia.org/wiki/Paul_Ginsparg">Paul Ginsparg</a> created the <abbr title="Los Alamos National Laboratory">LANL</abbr> preprint archive for <q>e-prints</q>. This provided a moderated central repository where scientists can deposit their articles and have them accessible by anyone, which was a cost-effective solution (estimates were less than 5 USD per submission for administration) for scholars to disseminate research results quickly [<cite><a href="http://www.cs.cornell.edu/~ginsparg/physics/blurb/pg01unesco.html">Creating a global knowledge network</a></cite>]. It initially started out as a central mailbox with an interface; it adopted FTP in 1991, Gopher in 1992, and finally the World Wide Web in 1994. The articles in the repository are not expected to be peer-reviewed, but rather a place where versioned <q>preprints</q> - considered to precede publications that are peer-reviewed - can be accessed for free. In 2001, the LANL preprint archive eventually became what is currently known as <a href="https://arxiv.org/">arXiv</a>. The <cite><a href="https://arxiv.org/help/license">arXiv license information</a></cite> permits different rights and licenses to be assigned to the scholarly records, ie. anything from public domain, Creative Commons licenses, or with copyright to the publisher or author, provided that arXiv is given sufficient rights to distribute. The repository accepts submissions in TeX, PDF, PostScript, and HTML. This sort of discipline-centric and institution-run preprint exchange mechanism had the technical ingredients to serve as a substitute for the traditional scholarly journal. From 1991 to 2017, arXiv had a <a href="https://arxiv.org/stats/monthly_submissions">linear increase in submission rate</a> (passing the 1 million mark in 2015). arXiv's early success lead to the emergence of the <q><a href="#open-archiving">open archives initiative</a></q> in 1999, and the <q><a href="#open-access">open access</a></q> movement in 2002.</p>
+    </div>
+
+    <div id="open-access">
+      <h3>Open Access</h3>
+      <p>In 1994, Stevan Harnad made a proposal to appeal to the <q>esoteric</q>:</p>
+
+      <blockquote cite="http://www.arl.org/sc/subversive/i-overture-the-subversive-proposal.shtml">
+        <p>It is applicable only to ESOTERIC (non-trade, no-market) scientific and scholarly publication (but that is the lion's share of the academic corpus anyway), namely, that body of work for which the author does not and never has expected to SELL the words. The scholarly author wants only to PUBLISH them, that is, to reach the eyes and minds of peers, fellow esoteric scientists and scholars the world over, so that they can build on one another's contributions in that cumulative. collaborative enterprise called learned inquiry.</p>
+        <footer><cite><a href="http://www.arl.org/sc/subversive/i-overture-the-subversive-proposal.shtml">The Subversive Proposal</a></cite>, p11 (<a href="https://web.archive.org/web/19980513080022/http://www.arl.org/scomm/subversive/sub01.html">archived</a>)</footer>
+      </blockquote>
+
+      <p>After some years of prototyping and researcher-centric initiatives, the ideas eventually formulated into the <cite><a href="http://www.budapestopenaccessinitiative.org/read">Budapest Open Access Initiative</a></cite> (<abbr title="Budapest Open Access Initiative">BOAI</abbr>) in 2002. BOAI is based on the principle that publicly funded research output should be made immediately available, and indefinitely, without access fees and free from most restrictions on copying and reuse, to increase visibility and uptake:</p>
+
+      <blockquote cite="http://www.budapestopenaccessinitiative.org/read">
+        <p>The literature that should be freely accessible online is that which scholars give to the world without expectation of payment. Primarily, this category encompasses their peer-reviewed journal articles, but it also includes any unreviewed preprints that they might wish to put online for comment or to alert colleagues to important research findings. There are many degrees and kinds of wider and easier access to this literature. By "open access" to this literature, we mean its free availability on the public internet, permitting any users to read, download, copy, distribute, print, search, or link to the full texts of these articles, crawl them for indexing, pass them as data to software, or use them for any other lawful purpose, without financial, legal, or technical barriers other than those inseparable from gaining access to the internet itself. The only constraint on reproduction and distribution, and the only role for copyright in this domain, should be to give authors control over the integrity of their work and the right to be properly acknowledged and cited.</p>
+
+        <footer><cite><a href="http://www.budapestopenaccessinitiative.org/read">Budapest Open Access Initiative</a></cite>, [Retrieved: 2018-02-10T21:23:20.092Z, Reason: cites as authority]</footer>
+      </blockquote>
+
+      <p>In order to open up access to scholarly journal literature, BOAI recommends the adoption of two complementary strategies for open access (<abbr title="Open Access">OA</abbr>):</p>
+
+      <ul>
+        <li><q id="boai-self-archving">I. archives-and-repositories</q> (also called <q>green OA</q>)</li>
+        <li><q id="boai-open-access-journals">II. Open-access Journals</q> (also called <q>gold OA</q>).</li>
+      </ul>
+      
+      <p><cite><a href="http://cogprints.org/1642/1/nature4.htm">The archives-and-repositories initiative</a></cite> is primarily the act of depositing free copies of <q cite="http://www.budapestopenaccessinitiative.org/read">refereed journal articles in open electronic archives</q>. The approach for authors archives-and-repositories was initially implemented through institutional or disciplinary repositories.</p>
+
+      <p>The term <q>self-archiving</q> in context of OA differs from that of the early practices around preprint services in that there were no constraints set for the status of the scholarly literature, ie. reviewed or not. For OA-based scientific literature, certification and quality-control is a requirement, and is paired with the registration and the archive functions of a published literature. With that frame of mind, <q>self-archiving</q> was not intended to be an alias to <q>self-publishing</q>. OA can be considered to have a coupled model with respect to the <a href="#actors-and-functions">four functions in scholarly communication</a> as defined by Roosendaal and Geurts.</p>
+
+      <p>The foundations of the OA approach were conceived at a time where major revenue models to cover publishing costs for scholarly literature was through subsidies from institutions, journal subscriptions, or pay-per-view. In this payment model, consumers of the literature were charged either individually or through institutions. In contrast, the <cite>article processing charge</cite> (<abbr title="Article processing charge">APC</abbr>) model requires publication costs to be covered upfront, thereby waiving the costs for the consumers of the literature. The emergence and growing use of APC model provided a stable revenue stream to <em>publishers</em> [<cite><a href="https://olh.openlibhums.org/articles/10.16995/olh.72/"></a></cite>], while the technical infrastructure remained relatively unchanged, ie. print-centric publication formats still prevail. Today, APC is the most widely used method to finance OA publishing, with varying levels of fees - averaging around 1000 USD per article [<cite><a href="https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-10-124"></a></cite>]).</p>
+
+      <p>The core approach of this thesis is closer to BOAI-1, in that researchers are actively involved in registering, creating awareness, and archiving their scholarly contributions by available means.</p>
+    </div>
+
+    <div id="deconstructing-scholarly-journal">
+      <h3>Deconstructing Scholarly Journal</h3>
+      <p>In 1999, <cite><a href="http://eprints.rclis.org/5841/1/DJpaper.pdf">The deconstructed journal – a new model for academic publishing</a></cite> provided insights on the limitations of the networked-based scholarly publishing models:</p>
+
+      <ol>
+        <li><q>means/end</q> confusion, where journals continue to mimic or replicate existing mechanisms</li>
+        <li>modifications to the system should still match the needs of the traditional scholarly journal</li>
+        <li>cooperating agents can function without going through a central agency, eg. a <q>publisher</q>.</li>
+      </ol>
+
+      <p>The role of the journal includes both <q>main</q> (editorial, quality control, recognition of work, marketing, and disseminating) and <q>hidden</q> (subject and community defining, and archiving) functions. The proposed <em>deconstructed journal</em> model is preferable to the <q>paper</q> influenced electronic publishing model in that both main and hidden roles can be accomplished in a distributed manner. Here, Smith emphasises allowing greater academic freedom and shifting of power and control from the monolithic third-parties to the knowledge producers, which could be realised in either an <em>institution-</em> or <em>researcher-centric</em> approach. To get there, Smith acknowledges that for such a new paradigm to be adopted, professional and funding bodies must transition themselves to accepting the decoupling and self-controlled literature publishing model as something equivalent (in terms of academic value) to the traditional model.</p>
+
+      <p>After two decades, the anecdotal evidence suggests that academia acknowledges the sort of equivalence that Smith describes to varying degrees. For instance, while literature quality-control, eg peer-review, is typically conducted around the journal, and done anywhere on the Web, <em>self-publication</em> of literature remains to be treated as <q>grey literature</q> when it comes to the academic reward systems.</p>
+
+      <p>In 2012, <cite><a href="https://www.frontiersin.org/articles/10.3389/fncom.2012.00019/full">Decoupling the scholarly journal</a></cite> presents an analysis of the four functions of scholarly communication. Priem and Hemminger echo the fact that the scholarly journals bundle multiple functions, and that this tight coupling has hindered innovation, is inefficient, and makes it difficult to improve individual functions. The article also states that the <q>current system</q>, ie. the bundling of the closed publishing process and certification models, is unlikely to change if the communication functions are not decoupled, regardless of all the other out-of-band activities such as activism to boycott certain publishers or library subscriptions. The article diverges from the traditional view of separating registration and archiving functions since the latter <q>necessitates both persistent storage and identification</q>. In other words, if a unit of communication is archived, it has also fulfilled registration. The authors echo many of the ideas of Smith with respect to decoupling and decentralisation, however they only go as far as describing them within the context of scholarly functions operating alongside institutional or third-party online services. While they do not exclude the possibility of <em>researcher-controlled</em> operations, neither it is explored. The article concludes that the nature of the communication revolution will be through the structures of the system. This is analogous to Roosendaal and Geurts' remark on different ensemble of units of information, and the creation of new information spaces.</p>
+
+      <p>It is worthwhile to note here that the models that has been described so far primarily focus on <em>institutional</em> or <em>subject</em> repository driven scholarly communication. They are contrasted against typical third-party (for-profit) involvement which impose a particular arrangement of the coupling of the scholarly information space per <em>forces and functions</em>. In the remainder of this thesis, I focus on enabling a <em>researcher-centric</em> model; whilst this can be situated within the same <q>deconstructing</q> or <q>decoupling</q> school of thought, its pursuit is embracing greater control by researchers through the native characteristics of the Web, while still adhering to the scientific method.</p>
+    </div>
+
+    <h3 id="open-archiving">Open Archiving</h3>
+    <p>Archiving scholarly records is integral to access and preservation of the scientific knowledge for societal use. Scholarly communication over the Web is inherently about distributed activities. The <a href="http://web.archive.org/web/20000229151223/http://www.openarchives.org/ups1-press.htm">first meeting</a> in 1999 was held to agree on recommendations to <a href="http://www.dlib.org/dlib/february00/vandesompel-ups/02vandesompel-ups.html">address interoperability challenges</a> - such as search and linking - for data across publicly available distributed self-archiving solutions. To promote the global acceptance of self-archiving, with interoperable systems being core to its successful adoption, the <cite><a href="http://www.openarchives.org/">Open Archives Initiative</a> (<abbr title="Open Archives Initiative">OAI</abbr>) Organization</cite> was established to take on the development of technical recommendations - for metadata standards, discovery, and retrieval. This lead to the evolution of recommendations such as <cite><a href="http://www.openarchives.org/OAI/openarchivesprotocol.html">OAI-PMH</a></cite> for <q>Protocol for Metadata Harvesting</q>, and its successor <cite><a href="http://www.openarchives.org/rs/resourcesync">ResourceSync</a></cite> as resource a synchronization framework for servers; <cite><a href="http://www.openarchives.org/ore/toc">OAI-ORE</a></cite> for <q>Object Reuse and Exchange</q>; and <cite><a href="https://tools.ietf.org/html/rfc7089">Memento</a></cite> which specifies a time dimension to the Web architecture. In the 2015 article, <cite><a href="http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.html">Reminiscing About 15 Years of Interoperability Efforts</a></cite>, the authors summarise the lessons learned on interoperability efforts by concluding that a shift from a <em>repository-centric</em> to a <em>Web-centric</em> perspective was essential in order have a <q>viable and sustainable</q> scholarly system.</p>
+
+    <h3 id="fair-principles">FAIR Principles</h3>
+    <p>The <cite><a href="https://www.nature.com/articles/sdata201618" title="The FAIR Guiding Principles for scientific data management and stewardship">FAIR Principles</a></cite> proposes guiding principles to facilitate <q>Findable, Accessible, Interoperable and Reusable</q> knowledge discovery for machines as well as reuse by humans.</p>
+
+    <dl>
+      <dt>Findable</dt>
+      <dd>For human and machine discovery of (meta)data and services by use of globally unique and persistent identifiers, and machine-readable way-finding.</dd>
+      <dt>Accessible</dt>
+      <dd>(Meta)data to be retrievable using open and free standard communication protocols via applicable authentication and authorization mechanisms.</dd>
+      <dt>Interoperable</dt>
+      <dd>(Meta)data using structured knowledge representations to be is interpretable by autonomous agents.</dd>
+      <dt>Reusable</dt>
+      <dd>(Meta)data to optimise the reuse of data with domain-relevant, license, and provenance information.</dd>
+    </dl>
+
+    <p>The principles can be applied to create different information spaces.</p>
+  </div>
+</section>
+
+
+<section id="effects-and-artefacts" inlist="" rel="schema:hasPart" resource="#effects-and-artefacts">
+  <h2 property="schema:name">Effects and Artefacts</h2>
+  <div datatype="rdf:HTML" property="schema:description">
+    <blockquote cite="http://www.worldcat.org/oclc/981396559">
+      <p>All of man's artefacts - whether language, or laws, or ideas and hypotheses, or tools, or clothing, or computers - are extensions of the physical human body or the mind.</p>
+      <footer><cite><a href="http://www.worldcat.org/oclc/981396559">Laws of Media</a></cite>, p. 93</footer>
+    </blockquote>
+
+    <p>In recent decades there has been a global shift in communication forms that are used for scientific activities. This perhaps demonstrates a desire for amplification of the senses that are used to consume and create knowledge. For instance, print-centric emphasises the linearity of scientific information representation and its communication, whereas a Web-centric approach makes multimodal interactions possible within the same domain. Scientists need no longer fit their understanding of the world within the confines of static and two-dimensional descriptions of phenomena. The need to travel great distances for first-hand observations and collaboration is also reduced. With electronic media, and more specifically the Web, we have the option to also watch, listen, and participate around measured observations - instantaneously - as the events occur; or after the fact, around persistent and detailed logs. Just as the invention of the printing press transformed the codification and mobility of knowledge, the Web transformed and extended human and machine communication on all fronts. What will be further explored in this thesis is the extent to which our current scholastic activities make use of the inherent qualities of the Web, as well as ways to further take advantage of these qualities.</p>
+
+    <p>In order to help us understand the effects of the Web on scholarly communication, we can use <a href="http://dbpedia.org/Marshall_McLuhan" rel="cito:credits">McLuhan</a>'s tetrad on media effects as a heuristic device, a set of four questions:</p>
+
+    <blockquote cite="http://www.worldcat.org/oclc/981396559" id="" rel="cito:includesQuotationFrom">
+      <ul>
+        <li>What does it enhance or intensify?</li>
+        <li>What does it render obsolete or displace?</li>
+        <li>What does it retrieve that was previously obsolesced?</li>
+        <li>What does it produce or become when pressed to an extreme?</li>
+      </ul>
+      <footer><cite><a href="http://www.worldcat.org/oclc/981396559">Laws of Media</a></cite>, p. 7</footer>
+    </blockquote>
+
+    <p>The questions are intended to be complimentary and studied simultaneously. They correspond to four effects: <q>enhances</q>, <q>obsolesces</q>, <q>retrieves</q>, and <q>reverses into</q>. We can use this tetrad to situate the effects and artefacts of scholarly communication on the Web in relation to adjacent mediums, in particular, to print media.</p>
+
+    <dl>
+      <dt>Enhances</dt>
+      <dd>access to information, decentralisation, distribution, response time, self-expression, multi-modality</dd>
+      <dt>Obsolesces</dt>
+      <dd>anti-sociality, distance, travel, linearity</dd>
+      <dt>Retrieves</dt>
+      <dd>correspondence, anarchy, dialogue, involvement</dd>
+      <dt>Reverses into</dt>
+      <dd>information overload, isolation, centralised publishing and distribution services, third-party control</dd>
+    </dl>
+
+    <p>The tetrad serves as a conceptual categorisation of effects. It allows us to outline what the medium enables or has implications for at a high level. Verifying, realising, and analysing some of these effects in "the real world", or in day-to-day academic practice, is the core of this thesis. Whilst there exists a plethora of possible observations, this thesis will focus on:</p>
+
+    <ul>
+      <li>composition of scholarly information</li>
+      <li>individual autonomy to create and consume knowledge</li>
+      <li>sociality of scholarly communication</li>
+    </ul>
+
+    <p>By examining these effects, we can hone in on understanding what the underlying <em>form</em> does to us, society at large, and scientific communication itself. It provides us with a foundation to go further in uncovering the nature of scholarly communication's interplay with the Web. What has it shaped? What are the current challenges? How do we envision the communication to be? How can we use the medium better whether through its original intentions or new?</p>
+
+    <p>The technicalities of these inquiries can have various manifestations, hence this thesis is only intended to reveal a particular configuration which situates itself around <em>contributor-centric scholarly communication on the Web</em>.</p>
+
+    <p>How is scientific communication changed by the mediums employed?</p>
+  </div>
+</section>
+
+
+<section id="forces-and-functions" inlist="" rel="schema:hasPart" resource="#forces-and-functions">
+  <h2 property="schema:name">Forces and Functions</h2>
+  <div datatype="rdf:HTML" property="schema:description">
+    <p>The scientific communication 'market' is an interplay between actors with the objective to exchange units of information - scientific literature, analysis, annotation, dataset, software, interactive knowledge representation. Further, researchers commonly want to expose their work beyond the scientific community to the wider world, seeking adoption or contradiction of new ideas and findings. The analysis provided in <cite><a href="http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html">Forces and functions in scientific communication</a></cite> provides a framework in which to situate the conceptual and technical contributions in this thesis. This framework has had historical influence on research and development pertaining to technical challenges on interoperability, workflows, service sharing, and information modeling, which is discussed further in <a href="#a-brief-history-of-scholarship-on-the-web">scientific communication on the Web</a> and in the remainder of the thesis.</p>
+
+    <p>Roosendaal and Geurts disassembles the scientific communication market as an interplay between four forces and functions. The dynamics between the forces and functions is formed as a tetrad:</p>
+
+    <h3>Forces</h3>
+
+    <p>The scientific communication market consists of four forces with each having complementary parts: <em>actors</em>, <em>accessibility</em>, <em>content</em>, and <em>applicability</em>.</p>
+
+    <dl>
+      <dt>Actor</dt>
+      <dd>Authors (producers) and readers (consumers)</dd>
+      <dt>Accessibility</dt>
+      <dd>Availability and retrievability</dd>
+      <dt>Content</dt>
+      <dd>Questions and answers</dd>
+      <dt>Applicability</dt>
+      <dd>Science and technology</dd>
+    </dl>
+
+    <figure>
+      <figcaption>The four forces in the scientific communication market</figcaption>
+    </figure>
+
+    <h3>Functions</h3>
+
+    <p>Scientific communication consists of four functions: <em>registration</em>, <em>awareness</em>, <em>certification</em>, and <em>archiving</em>.</p>
+
+    <dl>
+      <dt>Registration</dt>
+      <dd>Allows claims of precedence for a scientific activity</dd>
+      <dt>Awareness</dt>
+      <dd>Remaining informed of the observations</dd>
+      <dt>Certification</dt>
+      <dd>Establishes the validity of registered claims</dd>
+      <dt>Archiving</dt>
+      <dd>Preservation of scholarly records over time</dd>
+    </dl>
+
+    <figure>
+      <figcaption>The four function of scientific communication</figcaption>
+    </figure>
+
+    <p class="todo">The actor and content forces are generic and internal to the market, and are considered to be indispensable. On the other hand, accessibility and applicability are external forces and are indispensable with respect to the functions.</p>
+
+    <p>Registration and archiving objective functions in that they are external to the research process. Certification and awareness are subjective communication functions - internal to the research process. Registration and awareness are different aspects of <em>scientific observations</em>, ie. facilitating findable information. Certification and archiving are aspects of <em>scientific judgement</em>, ie. act as a filtering mechanism in the information space.</p>
+
+
+    <p><cite><a href="http://www.dlib.org/dlib/september04/vandesompel/09vandesompel.html">Rethinking Scholarly Communication</a></cite> (2004) proposes to revise the notion of a unit of scholarly communication in two ways. In a technological sense, it suggests to recognise the compound nature of units that work on the Web. From a systems perspective, in order to empower scholarly communities, there should be more flexibility on what <em>constitutes</em> a unit of scholarly communication in order to allow registration, as well as factoring timing and the quality of what is to be registered.</p>
+
+    <p>Reflecting on the four forces and functions in 2014, <cite><a href="http://andrew.treloar.net/research/publications/ipres2014/iPres2014-paper.pdf">A Perspective on Archiving the Scholarly Web</a></cite> observes the evolution of scholarly communication on the Web, with regard to the shape and behaviour of the units of information. In essence, the emergence of the Web influenced the communication market by transforming it from predominantly being medium-driven into a content-driven ecosystem. The observation is based on the archival process held on the open Web; unplanned and unconstrained archiving, organically occurring, by way of Web objects being deposited across distributed and dedicated archival services. Given the dynamic nature of units of communication on the Web, vertical integration (as per the journal-centric ecosystem) of the four functions turned out to be inadequate. Hence, an affirmation of the outlook as outlined in <cite><a href="http://www.dlib.org/dlib/september04/vandesompel/09vandesompel.html">Rethinking Scholarly Communication</a></cite> that the essential functions need to be <q cite="http://andrew.treloar.net/research/publications/ipres2014/iPres2014-paper.pdf">fulfilled in discreet, disaggregated, and distributed manners, and in which a variety of networked pathways interconnect the autonomous hubs that fulfil these functions</q>. The mere act of <q>recording</q> (or <em>registering</em> in the most general sense) a unit of communication is not a replacement for <em>archiving</em> or persistence, even if the freely available Web services are used towards this end. The article calls for another archival paradigm that is based off the natural characteristics of the Web. That is, given the inherently interlinked and dynamic nature of Web objects, archived resources cannot be treated as atomic resources as they do not necessarily contain the complete content. For instance, a research document referring to external media or interactive scripts, aggregated objects, objects changing their states, or potentially being ephemeral. This is in contrast to the traditional journal-centric approach to archival where all material - physical paper - can be eventually tracked to library stacks. Hence, the future of archiving needs to consider the nature of the object, including the degree in which it can be archived.</p>
+
+    <p>With respect to the four forces and functions, the FAIR principles describe a class of interactions with a particular technical characteristic in scholarly communication. That is.. the 4FF can be done in different ways and FAIR is just one way.. <span class="todo">add things from A brief history of scholarship on the Web</span>.</p>
+  </div>
+</section>
+
+
+<section id="understanding-the-medium" inlist="" rel="schema:hasPart" resource="#understanding-the-medium">
+  <h2 property="schema:name">Understanding the Medium: Scholarly Communication on the Web</h2>
+  <div datatype="rdf:HTML" property="schema:description">
+    <p>In the 1967 book, <cite><a href="http://www.worldcat.org/oclc/47679653" rel="schema:url">The Medium is the Massage</a></cite>, <a href="https://en.wikipedia.org/wiki/Marshall_McLuhan">Marshall McLuhan</a> wrote: <q about="" cite="http://www.worldcat.org/oclc/47679653" rel="cito:agreesWith" resource="http://www.worldcat.org/oclc/47679653">at the high speeds of electric communication, purely visual means of apprehending the world are no longer possible; they are just too slow to be relevant or effective</q> [<a class="ref" href="#ref-1">1</a>]. While McLuhan’s critique was about the effect of the print media in the electric age, it stands especially valid today in the age of interactive new media. For instance, the <em class="cool-media">World Wide Web</em> is a <q>cool media</q> because its access, multi-linearity, and interactive possibilities offer multi-sensory states for individuals. This is in contrast to <em class="hot-media">print</em>, considered to be a <q>hot media</q>, demanding primarily the full attention of our vision. As the printed word’s requirement for the other senses is minimal, it <em>spoon-feeds</em> the content to the reader in a l-i-n-e-a-r <span class="typographic-sine-wave"><span>f</span><span>a</span><span>s</span><span>h</span><span>i</span><span>o</span><span>n</span></span>. The literate or print culture is passive and is detached from immediate involvement because the medium has no such requirements. The cooler media on the other hand, requires a greater level of engagement from the audience at a faster rate. This increased engagement allows us to detect change and better recognise patterns, which, according to <a href="https://en.wikipedia.org/wiki/Principles_of_grouping">Gestalt’s laws of grouping</a>, makes the whole of the information easier to follow and understand.</p>
+
+    <p>Modern media, like the Web, offer extensible interactions, creative participation, and social engagement. There is a natural human desire to <strong>connect</strong> and <strong>exchange</strong> <a href="https://en.wikipedia.org/wiki/Meme"><em>memes</em></a> with others, as well as to co-create. Given these opportunities, the fundamental question to ask here is, why should research communication be limited to, evaluated by, and rewarded on methods and practices be based on print-centric media? Scholarly communication still uses methods which date back to the invention of the <a href="https://en.wikipedia.org/wiki/Printing_press">mechanical movable type printing press</a> (circa 1450), even in the advent of the globally accessible and interactive new media that are at our fingertips today, and at much faster turnaround times from publication to consumption than ever before. The practices correspond to publication workflows that are in place for academic communication, and have remained largely unchanged for over a century. What does it mean to have an academic achievement through a “publication”? If we consider the Web as a potential supplement to or replacement for these older practices, and given that the Web can be purposed for greater possibilities than print alone, then we also need to address the question, <em>what constitutes a scholarly contribution?</em></p>
+
+    <p>Today, it is evident that the typical publishing scenario for scholarly knowledge predominantly requires strict adherence to the <em>printability</em> aspects of the information eg. <span class="unicode-document">page length, typographical guidelines</span>. That is, all of the encompassing data for any given research and development, ie. noteworthy items which the researcher knows, wants to communicate and demonstrate, must be channeled through the characteristics of the print media. In practice, this leads the research community to use tools that are tailored solely for printing or viewing (on screen). This (sticking to print) leads to unnecessary information loss or arbitrary filtering of the content, which might be otherwise preserved if a different medium was used. Since print is only one possible way to represent and communicate the information, it is worthwhile to investigate and employ alternative or complimentary representations that are more appropriate given the qualities of the Web. Traditional electronic document formats are primarily designed and destined for printing and physical distribution - circulate in scientific circles and on the Web, we can make one observation: such formats, on the hot end of the media spectrum, are trying to exist and remain relevant inside a cool medium.</p>
+
+<!--
+    <p id="this-is-not-a-paper"><cite><a href="http://faculty.education.illinois.edu/burbules/papers/paper.1.html">This is Not a Paper</a></cite> [<a class="ref" href="#ref-2">2</a>] - an essay with a title as such, we wish we had written 20 years ago, which is <strong>still</strong> accessible with a single click! - raises a legitimate question <q>whether any journals will exist in paper form within a decade or two</q>. While we can safely answer that question today, our contention is that we are arguably in a better position to look ahead for the upcoming years. There are various emergent social and technical initiatives that are taking place under the umbrella term, <em>Open Science</em>.</p>
+
+    <p>At least within the context of scholastic Web science, it is not only compelling, but crucial for the research community to <em>eat its own dogfood</em> in order to unchain itself from antiquated traditions. A distinction to make here between print-first and Web-first is that it is the environment that influences social consequences, not the technology itself. To start in such endeavor, the primary requirement should be placed on the shoulders of the researchers themselves i.e., to use the mediums and processes that it has created towards technical and social progress. By retaining our focus on enabling researchers we postulate better <strong>access</strong> to knowledge. This is akin to why and how the Web came to be.</p>
+-->
+
+    <p>The intention is not to undermine the values of the print-centric approach, but rather to explore alternative media and their different qualities. <q cite="http://www.worldcat.org/oclc/250420453" title="McLuhan, M. and H. Parker (1968) Through the Vanishing Point: Space in Poetry and Painting. New York: Harper and Row; London: Evanston.">It is not that there is anything wrong with the old environment, but it simply will not serve as navigational guide to the new one.</q>, <cite><a href="https://www.worldcat.org/title/through-the-vanishing-point/oclc/250420453">Through the Vanishing Point: Space in Poetry and Painting</a></cite></p>
+  </div>
+</section>
+
+
+<section id="linked-research" inlist="" rel="schema:hasPart" resource="#linked-research">
   <h2 property="schema:name">Linked Research</h2>
   <div datatype="rdf:HTML" property="schema:description">
     <blockquote>
@@ -545,13 +555,9 @@ transform:rotate(-60deg);
 
     <p>LR is also set up as a community effort, and here I present a snapshot of work which is expected to continue to develop as others contribute and more diverse voices bring their requirements to the table. For now, I acknowledge the bias towards Western (Euro and US centric) academic practices in the domain of Computer Science.</p>
 
-    <!-- <p>As per <cite><a href="https://eprints.soton.ac.uk/id/eprint/263347">A Framework for Web Science</a></cite>, Linked Research can be seen as one way to further the science of decentralised information systems in context of scholarly communication, as well as the the study of <em>Web Science</em> itself.</p> -->
-
-    <p>As we embrace the Web as the medium for LR, we consider that interconnectivity of scholarly work can be improved foremost through the Linked Data stack. The initiative to use the [Semantic] Web to its full potential for scholarly activities is nothing new. The LR approach is however timely in the sense that a substantial number of fundamental Web standards have matured to interact with the paradigm shift in scholarly communication, but we find that to meet some of these principles we have to still develop new standards and tools.</p>
-
 
     <section id="framing-our-vocabulary" rel="schema:hasPart" resource="#framing-our-vocabulary">
-      <h3 property="schema:name skos:definition">Framing our vocabulary</h3>
+      <h3 property="schema:name skos:definition">Framing our Vocabulary</h3>
       <div datatype="rdf:HTML" property="schema:description" resource="#framing-our-vocabulary" typeof="skos:ConceptScheme">
         <p datatype="rdf:HTML" property="skos:definition">It is necessary to exercise a new vocabulary. New terms set a different frame of mind than the terms we have used in the past. Some terms have new definitions and replacements are necessary. We adopt the idea that scholarly calls for <strong>contributions</strong> welcome researchers to <strong>share</strong> their <strong>articles</strong> with the community.</p>
 
@@ -569,48 +575,8 @@ transform:rotate(-60deg);
     </section>
 
 
-
-
-    <section id="forces-functions-linked-research">
-      <h3 property="schema:name">Forces and functions of Linked Research</h3>
-      <div datatype="rdf:HTML" property="schema:description">
-
-        <p>Van de Sompel raised the following question:</p>
-
-        <blockquote cite="https://www.youtube.com/watch?v=o4nUe-6Ln-8">
-          <p>How to fulfil the core functions of scholarly communication using the technical paradigm:</p>
-  
-          <ul>
-            <li>registration</li>
-            <li>certification</li>
-            <li>awareness</li>
-            <li>archiving</li>
-          </ul>
-
-          <footer><cite><a href="https://image.slidesharecdn.com/paulevanpeterslecture-171214183046/95/paul-evan-peters-lecture-57-638.jpg">Paul Evan Peters Lecture</a></cite>, Herbert Van de Sompel</footer>
-        </blockquote>
-
-        <div rel="as:inReplyTo" resource="https://image.slidesharecdn.com/paulevanpeterslecture-171214183046/95/paul-evan-peters-lecture-57-638.jpg">
-          <p>We first approach the functions from the conceptual end of Linked Research. We will revisit these later in the thesis as technical implementations.</p>
-
-          <h4>Registration</h4>
-          <p>Self-registers by publishing (article, annotations), archiving, notifying</p>
-
-          <h4>Certification</h4>
-          <p>Annotation with any motivation, replying, commenting, reviewing</p>
-
-          <h4>Awareness</h4>
-          <p>Share, annotation, outbox, scholarly activity clouds</p>
-
-          <h4>Archiving</h4>
-          <p>Self-registers automatically, archive at</p>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="design-principles" rel="schema:hasPart" resource="#design-principles">
-      <h2 property="schema:name">Design Principles</h2>
+    <section id="design-principles" inlist="" rel="schema:hasPart" resource="#design-principles">
+      <h3 property="schema:name">Design Principles</h3>
       <div datatype="rdf:HTML" property="schema:description" resource="#design-principles" typeof="deo:ProblemStatement">
         <p>What are desirable qualities of scholarly communication given the potential of the Web? What are we aspiring towards? We outline these here, with existing work described earlier as the foundation, and discuss with respect to McLuhan's effects of media (<em>enhances, obsolesces, retrieves, extends into</em>).</p>
 
@@ -745,7 +711,44 @@ transform:rotate(-60deg);
     </section>
 
 
-    <section id="semantic-publishing" rel="schema:hasPart" resource="semantic-publishing">
+    <section id="forces-functions-linked-research" inlist="" rel="schema:hasPart" resource="#forces-functions-linked-research">
+      <h3 property="schema:name">Forces and Functions of Linked Research</h3>
+      <div datatype="rdf:HTML" property="schema:description">
+        <p>Van de Sompel raised the following question:</p>
+
+        <blockquote cite="https://www.youtube.com/watch?v=o4nUe-6Ln-8">
+          <p>How to fulfil the core functions of scholarly communication using the technical paradigm:</p>
+  
+          <ul>
+            <li>registration</li>
+            <li>certification</li>
+            <li>awareness</li>
+            <li>archiving</li>
+          </ul>
+
+          <footer><cite><a href="https://image.slidesharecdn.com/paulevanpeterslecture-171214183046/95/paul-evan-peters-lecture-57-638.jpg">Paul Evan Peters Lecture</a></cite>, Herbert Van de Sompel</footer>
+        </blockquote>
+
+        <div rel="as:inReplyTo" resource="https://image.slidesharecdn.com/paulevanpeterslecture-171214183046/95/paul-evan-peters-lecture-57-638.jpg">
+          <p>We first approach the functions from the conceptual end of Linked Research. We will revisit these later in the thesis as technical implementations.</p>
+
+          <h4>Registration</h4>
+          <p>Self-registers by publishing (article, annotations), archiving, notifying</p>
+
+          <h4>Certification</h4>
+          <p>Annotation with any motivation, replying, commenting, reviewing</p>
+
+          <h4>Awareness</h4>
+          <p>Share, annotation, outbox, scholarly activity clouds</p>
+
+          <h4>Archiving</h4>
+          <p>Self-registers automatically, archive at</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="semantic-publishing" inlist="" rel="schema:hasPart" resource="#semantic-publishing">
       <h3 property="schema:name">Semantic Publishing</h3>
       <div datatype="rdf:HTML" property="schema:description">
         <p>One of the shortcomings of the research publication system is that scientific literature in electronic formats resemble, mimic, and has similar affordances to printed papers. While the paper-centric approach has been adequate - although not necessary optimal - for human consumption and reuse, it has been insufficient for machine-assisted analysis or reuse. The print-centric affordances lack structure that could enable better aggregation, discovery, processing, and integration in which machines excel at, and in turn help with human-led tasks.</p>
@@ -761,7 +764,7 @@ transform:rotate(-60deg);
       </div>
     </section>
 
-    <section id="acid-test" rel="schema:hasPart" resource="acid-test">
+    <section id="acid-test" inlist="" rel="schema:hasPart" resource="#acid-test">
       <h3 property="schema:name">Acid Test</h3>
       <div datatype="rdf:HTML" property="schema:description">
         <p>An <cite><a href="https://linkedresearch.org/rfc#acid-test" rel="cito:citesAsPotentialSolution">acid test</a></cite> aims to evaluate systems openness, accessibility, decentralisation, interoperability in scholarly communication. This test does not mandate a specific technology, therefore the challenge can be met by different solutions. There are a set of proposed challenges for the community to check their systems against to see how well they can fulfill them, as part of the push towards building cooperating systems.</p>
@@ -836,7 +839,7 @@ transform:rotate(-60deg);
   </div>
 </section>
 
-    <section id="discussion" rel="schema:hasPart" resource="#discussion">
+    <section id="discussion" inlist="" rel="schema:hasPart" resource="#discussion">
       <h2 property="schema:name">Discussion</h2>
       <div datatype="rdf:HTML" property="schema:description">
         <p>The Web is capable of offering rich interactions for humans and machines. While scientists have adopted the Web as an ideal medium to exchange knowledge, I posit that it is not being used efficiently or optimally due to both social and technical reasons. What we can ask is if it is possible to use the medium to its full potential, and observe the <em>effects</em>. We can also consider the consequences of pushing this to the extreme - as per McLuhan's <em>reverses into</em>. LR is not only a set of design principles to shape the technical scholarly communication ecosystem, but an initiative to strive to experience the full effects of the Web by adopting what it has to offer. In part, LR is an attempt to actively break away from practices which enhance isolationism. Technologies that enable or enhance the social dimensions on the Web for example makes involvement with content possible. The design principles are nudge towards this.</p>

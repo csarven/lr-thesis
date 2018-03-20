@@ -20,6 +20,14 @@
       <article about="" typeof="schema:Article">
         <h1 property="schema:name">Introduction</h1>
         <div datatype="rdf:HTML" property="schema:description">
+    <p>As per <cite><a href="https://eprints.soton.ac.uk/id/eprint/263347">A Framework for Web Science</a></cite>, Linked Research can be seen as one way to further the science of decentralised information systems in context of scholarly communication, as well as the the study of <em>Web Science</em> itself.</p>
+
+    <p>As we embrace the Web as the medium for LR, we consider that interconnectivity of scholarly work can be improved foremost through the Linked Data stack. The initiative to use the [Semantic] Web to its full potential for scholarly activities is nothing new. The LR approach is however timely in the sense that a substantial number of fundamental Web standards have matured to interact with the paradigm shift in scholarly communication, but we find that to meet some of these principles we have to still develop new standards and tools.</p>
+
+
+
+
+
           <section id="context" rel="schema:hasPart" resource="#context">
             <h2 property="schema:name">Context</h2>
             <div datatype="rdf:HTML" property="schema:description">
