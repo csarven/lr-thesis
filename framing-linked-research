@@ -25,6 +25,11 @@ background: -o-linear-gradient(top, rgba(255,0,0,0.1) 0%,rgba(255,255,255,1) 50%
 background: -ms-linear-gradient(top, rgba(255,0,0,0.1) 0%,rgba(255,255,255,1) 50%,rgba(64,150,238,0.1) 100%); /* IE10+ */
 background: linear-gradient(to bottom, rgba(255,0,0,0.1) 0%,rgba(255,255,255,1) 50%,rgba(64,150,238,0.1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1aff0000', endColorstr='#1a4096ee',GradientType=0 ); /* IE6-9 */
+max-width:90%;
+padding:4em 2em;
+
+clip-path: polygon(0px 5%, 100% 0, 100% 95%, 0 100%);
+overflow:scroll;
 }
 
 .typographic-sine-wave {
