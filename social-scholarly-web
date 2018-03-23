@@ -24,6 +24,11 @@
           <section id="introduction" inlist="" rel="schema:hasPart" resource="#introduction">
             <h2 property="schema:name">Introduction</h2>
             <div dataptype="rdf:HTML" property="schema:description">
+              <blockquote>
+                <p>`Why' is the only real social power, without it you are powerless.</p>
+                <footer><cite>Merovingian, The Matrix Reloaded</cite></footer>
+              </blockquote>
+
               <p>The scholarly ecosystem is inherently social. People collaborate and share.</p>
 
               <p>Communities of practice. Communities within and across institutions.. science is a global undertaking. Techniques for doing for science, the tools that are sued, the way works are assigned value or authority.. different things that are adopted in terms of technologies or methods, for publishing and dissemination of scientific work... Changes of how things are done shift over time in waves.. a slow process.. but sub-communities influence one another.</p>

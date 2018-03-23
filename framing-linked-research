@@ -340,7 +340,7 @@ transform:rotate(-60deg);
     <p>Several movements during the 1990s towards fundamentally transforming scholarly communication using newly available digital network technologies.</p>
 
     <h3 id="open-science">Open Science</h3>
-    <p><q>Open Science</q> is a broadly understood notion that is intended to foster <em>open</em> approach to conducting scientific and scholarly work. While there is no single agreed definition of open science, the general consensus is about improving the practice of scientific communication in a transparent, traceable, verifiable, and reusable manner. For all intents and purposes, we can work with the European-funded project <cite><a href="">Facilitate Open Science Training for European Research</a></cite> (<abbr title="Facilitate Open Science Training for European Research">FOSTER</abbr>)'s definition:</p>
+    <p><q>Open Science</q> is a broadly understood notion that is intended to foster <em>open</em> approach to conducting scientific and scholarly work. While there is no single agreed definition of open science, the general consensus is about improving the practice of scientific communication in a transparent, traceable, verifiable, and reusable manner. For all intents and purposes, we can work with the European-funded project <cite><a href="https://www.fosteropenscience.eu/">Facilitate Open Science Training for European Research</a></cite> (<abbr title="Facilitate Open Science Training for European Research">FOSTER</abbr>)'s definition:</p>
 
     <blockquote cite="https://www.fosteropenscience.eu/taxonomy/term/100">
       <p>Open Science is the practice of science in such a way that others can collaborate and contribute, where research data, lab notes and other research processes are freely available, under terms that enable reuse, redistribution and reproduction of the research and its underlying data and methods.</p>
@@ -607,7 +607,7 @@ transform:rotate(-60deg);
 
             <p>We inherit:</p>
 
-            <blockquote>
+            <blockquote cite="http://www.un.org/en/universal-declaration-human-rights/">
               <h5>Article 19.</h5>
 
               <p>Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.</p>
@@ -653,7 +653,7 @@ transform:rotate(-60deg);
 
             <p>We inherit:</p>
 
-            <blockquote>
+            <blockquote cite="http://www.un.org/en/universal-declaration-human-rights/">
               <h5>Article 27.</h5>
                
               <p>(1) Everyone has the right freely to participate in the cultural life of the community, to enjoy the arts and to share in scientific advancement and its benefits.</p>
