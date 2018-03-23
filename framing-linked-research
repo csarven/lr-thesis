@@ -598,10 +598,12 @@ transform:rotate(-60deg);
       <div datatype="rdf:HTML" property="schema:description" resource="#design-principles" typeof="deo:ProblemStatement">
         <p>What are desirable qualities of scholarly communication given the potential of the Web? What are we aspiring towards? We outline these here, with existing work described earlier as the foundation, and discuss with respect to McLuhan's effects of media (<em>enhances, obsolesces, retrieves, extends into</em>).</p>
 
+        <p>Scientific and scholarly output is social and part of the wider knowledge commons. What follows is a set of design principles that systems can adopt in order to meet the need to collectively own and manage units of communication particularly over the Web.</p>
+
         <dl>
           <dt id="freedom-of-expression">Freedom of Expression</dt>
           <dd>
-            <p>Scientific dialogue is social and part of the commons. We require articulation of contributions with no interference using any creative means to co-create and co-participate.</p>
+            <p>We require articulation of contributions with no interference using any creative means to co-create and co-participate.</p>
 
             <p>We inherit:</p>
 
@@ -642,7 +644,8 @@ transform:rotate(-60deg);
           <dt id="universal-access">Universal Access</dt>
           <dd>
             <p>Accessible to any agent; human, machine, or otherwise. Free culture works.</p>
-  
+
+
             <p>We inherit:</p>
 
             <blockquote>
@@ -654,10 +657,12 @@ transform:rotate(-60deg);
               <footer><cite><a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite></footer>
             </blockquote>
 
-            <p>We apply article 27 to units of information, ie. an <em>article</em> in the most general sense, available as <q>Linked Research</q> would entail the following:</p>
+            <p>By design, we incorporate inclusiveness and diversity.</p>
+
+            <p>We apply article 27 to units of communication would entail the following:</p>
 
             <ul>
-              <li>the <em>full article</em>; text and media</li>
+              <li>the <em>complete unit of communication</em></li>
               <li><em>immediately</em> and <em>permanently</em></li>
               <li><em>discoverable</em> and <em>accessible</em></li>
               <li>to <em>anyone</em> (humans and machines)</li>
@@ -665,6 +670,7 @@ transform:rotate(-60deg);
             </ul>
 
             <p>The desire to have scientific knowledge accessible and serve humanity for good was expressed by <a href="https://en.wikipedia.org/wiki/Vannevar_Bush">Vannevar Bush</a> through the concept of a <cite>memex</cite> - to supplement their collective memory - in his <cite><a href="https://web.archive.org/web/20100115164714/http://www.ps.uni-saarland.de:80/~duchier/pub/vbush/vbush.txt">As We May Think</a></cite> in 1945.</p>
+
 
             <p><strong>Effects and Artefacts</strong>: It extends the physical, social, psychological, or intellectual function of an <em>actor</em>.</p>
           </dd>
