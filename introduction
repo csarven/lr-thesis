@@ -24,9 +24,13 @@
 
     <p>As we embrace the Web as the medium for LR, we consider that interconnectivity of scholarly work can be improved foremost through the Linked Data stack. The initiative to use the [Semantic] Web to its full potential for scholarly activities is nothing new. The LR approach is however timely in the sense that a substantial number of fundamental Web standards have matured to interact with the paradigm shift in scholarly communication, but we find that to meet some of these principles we have to still develop new standards and tools.</p>
 
-
-
-
+<!-- CONTEXT: Why the need is so pressing or important     -->
+<!-- NEED: Why something needed to be done at all          -->
+<!-- TASK: What was undertaken to address the need         -->
+<!-- OBJECT: What the present document does or covers      -->
+<!-- FINDINGS: What the work done yielded or revealed      -->
+<!-- CONCLUSION :What the findings mean for the audience   -->
+<!-- PERSPECTIVES: What the future holds, beyond this work -->
 
           <section id="context" rel="schema:hasPart" resource="#context">
             <h2 property="schema:name">Context</h2>
