@@ -653,7 +653,7 @@ transform:rotate(-60deg);
           <div datatype="rdf:HTML" property="schema:description">
             <p>The desire to have scientific knowledge accessible and serve humanity for good was expressed by <a href="https://en.wikipedia.org/wiki/Vannevar_Bush">Vannevar Bush</a> through the concept of a <cite>memex</cite> - to supplement their collective memory - in his <cite><a href="https://web.archive.org/web/20100115164714/http://www.ps.uni-saarland.de:80/~duchier/pub/vbush/vbush.txt">As We May Think</a></cite> in 1945.</p>
 
-            <p>Accessible to any agent; human, machine, or otherwise. Free culture works.</p>
+            <p>Accessible to any agent; human, machine, or otherwise.</p>
 
             <p>We inherit:</p>
 
@@ -665,6 +665,8 @@ transform:rotate(-60deg);
 
               <footer><cite><a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite></footer>
             </blockquote>
+
+            <p id="free-culture">In order to disseminate scientific information on the Web with minimal friction, usage rights and responsibilities should permit anyone to share and read-write remix information under various conditions. We align this with existing movements like Open Science, and the <a href="https://en.wikipedia.org/wiki/Free-culture_movement">free-culture movement</a> so that both humans and machines can participate by modifying and (re)distributing units of communication in the form of <q>free content and open content</q> through open communication protocols. Policies about the permissions and obligations should be human and machine-interpretable to facilitate accurate, fair, and privacy-aware use.</p>
 
             <p>We apply article 27 to units of communication would entail the following:</p>
 
