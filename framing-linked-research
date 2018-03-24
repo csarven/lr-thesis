@@ -668,16 +668,6 @@ transform:rotate(-60deg);
 
             <p id="free-culture">In order to disseminate scientific information on the Web with minimal friction, usage rights and responsibilities should permit anyone to share and read-write remix information under various conditions. We align this with existing movements like Open Science, and the <a href="https://en.wikipedia.org/wiki/Free-culture_movement">free-culture movement</a> so that both humans and machines can participate by modifying and (re)distributing units of communication without delay in the form of <q>free content and open content</q> through open communication protocols. Policies about the permissions and obligations should be human and machine-interpretable to facilitate accurate, fair, and privacy-aware use.</p>
 
-            <p>We apply article 27 to units of communication would entail the following:</p>
-
-            <ul>
-              <li>the <em>complete unit of communication</em></li>
-              <li><em>immediately</em> and <em>permanently</em></li>
-              <li><em>discoverable</em> and <em>accessible</em></li>
-              <li>to <em>anyone</em> (humans and machines)</li>
-              <li><em>free</em> of charge</li>
-            </ul>
-
             <p id="web-content-accessibility">The accessibility of units of communications can also be seen as an aim for all-inclusive design that is usable by humans with widest possible range of abilities and situations. For this, we defer to W3C's <cite><a href="https://www.w3.org/TR/WCAG/">Web Content Accessibility Guidelines</a></cite> (<abbr title="Web Content Accessibility Guidelines">WCAG</abbr>) to cover an array of recommendations to <q>make content accessible to a wider range of people with disabilities, including blindness and low vision, deafness and hearing loss, learning disabilities, cognitive limitations, limited movement, speech disabilities, photosensitivity, and combinations of these</q> through different media and interfaces, as well as Web technologies. For human-centric scholarly communication to thrive, units of communication should be targeted to aim to meet highest level of conformance criteria. W3C WCAG 2.1 provides an range of guidelines that can be adopted for better content accessibility:</p>
 
             <blockquote cite="https://www.w3.org/TR/WCAG21/">
