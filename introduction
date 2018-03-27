@@ -29,6 +29,7 @@
 <!-- TASK: What was undertaken to address the need         -->
 <!-- OBJECT: What the present document does or covers      -->
 <!-- FINDINGS: What the work done yielded or revealed      -->
+
 <!-- CONCLUSION :What the findings mean for the audience   -->
 <!-- PERSPECTIVES: What the future holds, beyond this work -->
 
@@ -123,6 +124,57 @@
 
 
           <p>This thesis serves a multi-purpose role. The typical role is by employing different reading modes, the reader can consume its contents through their preferred medium eg, printed paper, electronic device access to the Web. The other, and less common, is an exemplification of the Linked Research design principles, and the technical implementation itself. For instance, when this thesis is access through the Web, it demonstrates itself, since the interactive and semantic features can be directly observed while reading and consuming. It showcases how scholarly communication can adapt to the audience, whether the content is read on a screen or printed on paper, listen with a screen reader, watched as a movie, shown as a presentation, interacted with in the document, as well as its social functions.</p>
+
+
+<pre>
+## Introduction
+
+### Context:
+* How do the sociotechnical developments affected scholarly communication on the Web? 3-4 decades. (problems for day to day operations for a researcher/user)
+* Problems in scholarly communication (an analysis of core areas)
+** open access to scholarly communication
+** Proliferation of scientific publications (In the last 10 years, the scientific output in the form of published articles has almost doubled https://www.nsf.gov/statistics/2018/nsf18300/nsf18300.pdf)
+** Reproducibility
+** Inadequate use of electronic / Web-native possibilities (eg due to third-party workflows/publication pipelines)
+** Findability and retrievability -- machine-assisted
+** (inter)Linking distributed scholarly artefacts
+
+** influence of venue level metrics distracts from assessing individual contributions
+** peer-review
+** Social aspects are not well tied together - disconnected social graphs, personal/profile data
+
+
+
+### Problem statement:
+scholarly communication didn't change much but ... we don't exploit the technical advances
+* we can't find things.. or at least cumbersome (text-based and/or structured interfaces to find/discover). web of documents -> data
+* coupling of functions (--- maybe not. this is not directly a concern for the researcher but on the evolution of the system)
+* (de)centralisation
+* 
+ 
+
+
+### Research questions:
+How can we realize a Web-native and decentralised scholarly communication?
+
+* How can we represent and author scholarly information on the Web? (structure of scholarly information)
+
+* Why self-publishing (contributions) and how can we facilitate it? (decentralisation, social scholarly web)
+
+* How can collaboration and workflows in scholarly communication be realised using Web technologies in decentralised manner? (publishing, annotations, call for contributions, proceedings...)
+
+* How can we integrate data and textual publications? (interactive linked statistics)
+
+Out of scope: non Web-native protocols/standards eg blockchain, transformation/extraction workflows, search/find, ontology/vocabulary for units of information, profile creation/editing, storage/server mechanisms, filtering articles
+
+
+### Thesis Overview
+* Main Contributions (method, implementation, concept, .. standards)
+* Structure (what's ahead and why)
+* List of Articles (mostly reviewed works, standards)
+</pre>
+
+
 
 
           <p><img alt="Illustration of Alice by Lewis Carroll - Alice’s Adventures Under Ground, the facsimile edition published by Macmillan in 1886" class="align-left lr" height="143" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/86/AAUG_p06.png/128px-AAUG_p06.png" title="Illustration of Alice by Lewis Carroll - Alice’s Adventures Under Ground, the facsimile edition published by Macmillan in 1886" width="128" /> <q cite="http://www.imdb.com/title/tt0133093/quotes?item=qt0324307">This is your last chance. After this, there is no turning back. You take the <span class="unicode-blue-pill">blue pill</span> - the story ends, you wake up in your bed and believe whatever you want to believe. You take the <span class="unicode-red-pill">red pill</span> - you stay in Wonderland and I show you how deep the rabbit-hole goes</q> - <cite><a href="http://www.imdb.com/title/tt0133093/quotes?item=qt032430">Morpheus</a></cite>, The Matrix (1999).</p>
