@@ -286,25 +286,49 @@ transform:rotate(-60deg);
       <footer><cite><a href="https://www.w3.org/DesignIssues/LinkedData.html">Linked Data - Design Issues</a></cite>, 2006</footer>
     </blockquote>
 
-    <p>In other words, a uniform approach to identify and discover information.</p>
+    <p id="rdf">The <cite><a href="http://www.w3.org/TR/rdf11-concepts">Resource Description Framework</a></cite> (<abbr title="Resource Description Framework">RDF</abbr>) is a constructed machine-interpretable <em>language</em> to represent information on the Web. Statements can be expressed in RDF in the form of triples: <span class="highlight-language-statement"><span class="highlight-language-subject">subject</span>, <span class="highlight-language-predicate">predicate</span>, <span class="highlight-language-object">object</span></span>, where:</p>
 
-    <p id="rdf">The <cite><a href="">Resource Description Framework</a></cite> (<abbr title="Resource Description Framework">RDF</abbr>) is a constructed machine-interpretable <em>language</em>. In essence, statements in RDF have the <em>subject–verb–object</em> sentence structure as per <a href="https://en.wikipedia.org/wiki/Linguistic_typology">linguistic typology</a>. Just to have a simple example, we can represent a sentence like "Otlet influenced Berners-Lee" in one of the formal syntaxes of RDF like:</p>
+    <blockquote cite="https://www.w3.org/TR/rdf11-concepts/#section-triples">
+      <ul>
+        <li class="highlight-language-subject">the <dfn id="dfn-subject">subject</dfn>, which is an <abbr title="Internationalized Resource Identifier">IRI</abbr> or a blank node</li>
+        <li class="highlight-language-predicate">the <dfn id="dfn-predicate">predicate</dfn>, which is an IRI</li>
+        <li class="highlight-language-object">the <dfn id="dfn-object">object</dfn>, which is an IRI, a literal or a blank node</li>
+      </ul>
 
-    <pre>&lt;http://dbpedia.org/resource/<strong>Paul_Otlet</strong>&gt;
-  &lt;http://dbpedia.org/ontology/<strong>influenced</strong>&gt; &lt;http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong>&gt; .</pre>
+      <footer><cite>RDF 1.1 Concepts and Abstract Syntax, <a href="https://www.w3.org/TR/rdf11-concepts/#section-triples">Triples</a></cite></footer>
+    </blockquote>)
 
-    <p>What's interesting to note here is that each component (from natural language): subject, verb, and object use URIs in order to signal <em>unambiguous naming</em> - that is in contrast to having the machine interpret the characters "O", "t", "l", "e", "t". Visiting the locations of the URIs can reveal more information which then becomes the <em>subject</em>. So, given that statement, applications can meaningfully interpret and integrate with disparate data without having any out-of-band knowledge, and retrieve more information about the entities and terms. It facilitates a uniform <q>follow your nose</q> type of exploration by following the semantics in the information provided in order to arrive at another unit of information.</p>
+    <p><cite><a href="https://tools.ietf.org/html/rfc3987">International Resource Identifiers</a></cite> (<abbr title="International Resource Identifiers">IRI</abbr>) are a generalisation of URIs (US-ASCII) in that a wider character set (Unicode/ISO 10646) can be used to identify resources. IRIs, like URIs, are global identifiers on the Web. Blank nodes are local identifiers scoped to the context, eg. file, RDF store, and they are not intended to be persistent or portable. Literals are used for values like strings, numbers, and dates.</p>
 
-    <p>By design the Web works by <q cite="https://www.w3.org/DesignIssues/RDFnot.html#ER">anyone being (technically) allowed to say anything about anything</q> (<abbr title="Anyone can say Anything about Anything">AAA</abbr>). The statements that can be expressed in RDF is a particular restriction of the AAA principle. A consequence of AAA is that nonsensical, inconsistent, or conflicting information can be created or inferred, and thus exposing a codification of the <cite><a href="https://en.wikipedia.org/wiki/Open-world_assumption">open-world assumption</a></cite> (<abbr title="Open-world Assumption">OWA</abbr>). As RDF adopts the OWA framework, it is up to the processing applications to deal with the truth or absence of statements.</p>
+    <p>To take an example, we can represent the sentence "<span class="highlight-language-statement"><span class="highlight-language-subject">Otlet</span> <span class="highlight-language-predicate">influenced</span> <span class="highlight-language-object">Berners-Lee</span></span>" in one of the RDF syntaxes as follows:</p>
+
+    <pre><span class="highlight-language-statement">&lt;<span class="highlight-language-subject">http://dbpedia.org/resource/<strong>Paul_Otlet</strong></span>&gt;
+  &lt;<span class="highlight-language-predicate">http://dbpedia.org/ontology/<strong>influenced</strong></span>&gt; &lt;<span class="highlight-language-object">http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong></span>&gt; .</span></pre>
+
+    <p>Applications can meaningfully interpret and integrate with disparate data without having any out-of-band knowledge, and retrieve more information about the terms. RDF facilitates a uniform <q>follow your nose</q> type of exploration by following the semantics in the information provided in order to arrive at another unit of information.</p>
+
+    <p>We can describe <span class="highlight-language-subject">Berners-Lee's IRI</span> (subject) by giving it a human-readable <span class="highlight-language-predicate">name</span> (predicate):</p>
+
+    <pre><span class="highlight-language-statement">&lt;<span class="highlight-language-subject">http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong></span>&gt;
+  &lt;<span class="highlight-language-predicate">http://xmlns.com/foaf/0.1/name</span>&gt; "<span class="highlight-language-object">Tim Berners-Lee</span>"@en .</span></pre>
+
+    <p>The structure of RDF statements is similar to other models, for example:</p>
+
+    <ul>
+      <li>the <em>subject–verb–object</em> pattern in <cite><a href="https://en.wikipedia.org/wiki/Linguistic_typology">linguistic typology</a></cite></li>
+      <li>the <cite><a href="https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model">entity–attribute–value</a></cite> (<abbr title="entity–attribute–value">EAV</abbr>) model</li>
+    </ul>
 
     <div class="note">
       <h4>Note</h4>
       <div>
-        <p>I used the term <q>verb</q> which is closest to natural language as a jumping point for this example. In RDF, the terms <q>property</q> and <q>predicate</q> are more common. For all intents and purposes, it is equivalent to the term <q>attribute</q> from the <cite><a href="https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model">entity–attribute–value</a></cite> (<abbr title="entity–attribute–value">EAV</abbr>) model.</p>
+        <p>The terms IRI and URI are used interchangeably outside of technical specifications. While IRIs can be used to identity resources instead of URIs, most retrieval mechanisms are defined in URIs. Beyond identification, systems tend to determine an IRI's associated URI by mapping the character set.</p>
 
-        <p><cite><a href="https://en.wikipedia.org/wiki/Natural-language_processing">Natural-language processing</a></cite> is an area of study more concerned with making sense of data that's represented in natural language. That would have a different way of making sense of "Otlet" than RDF with the URI for Paul Otlet.</p>
+        <p><cite><a href="https://en.wikipedia.org/wiki/Natural-language_processing">Natural-language processing</a></cite> (<abbr title="Natural Language Processing">NLP</abbr>) is an area of study concerned with making sense of data that's represented in natural language. The NLP approach would have a different way of making sense of "<span class="highlight-language-subject">Otlet</span>" than RDF with the <span class="highlight-language-subject">IRI for Otlet</span>.</p>
       </div>
     </div>
+
+    <p>By design the Web works by <q cite="https://www.w3.org/DesignIssues/RDFnot.html#ER">anyone being (technically) allowed to say anything about anything</q> (<abbr title="Anyone can say Anything about Anything">AAA</abbr>). The statements that can be expressed in RDF is a particular restriction of the AAA principle. A consequence of AAA is that nonsensical, inconsistent, or conflicting information can be created or inferred, and thus exposing a codification of the <cite><a href="https://en.wikipedia.org/wiki/Open-world_assumption">open-world assumption</a></cite> (<abbr title="Open-world Assumption">OWA</abbr>). As RDF adopts the OWA framework, it is up to the processing applications to deal with the truth or absence of statements.</p>
 
     <p>Even before the formalisation of RDF concepts and abstract syntax, it was conceptually in the fabric of interconnecting objects on the Web as originally proposed in <cite><a href="https://www.w3.org/History/1989/proposal.html">Information Management: A Proposal</a></cite>. Different ways to encode RDF emerged over time; initially a terse approach in HTML which provided a both human and machine-readable way to express and act on knowledge. Then came the richer syntaxes, along with the use of vocabularies and ontologies, in order to address different system and interface needs eg. RDF/XML, Turtle, RDFa, JSON-LD.</p>
 
