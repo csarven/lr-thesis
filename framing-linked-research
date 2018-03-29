@@ -296,7 +296,9 @@ transform:rotate(-60deg);
       </ul>
 
       <footer><cite>RDF 1.1 Concepts and Abstract Syntax, <a href="https://www.w3.org/TR/rdf11-concepts/#section-triples">Triples</a></cite></footer>
-    </blockquote>)
+    </blockquote>
+
+    <p id="rdf-graph-theory">A set of triples in RDF (an <cite>RDF Graph</cite>), can be represented as a directed edge-labelled graph: <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>G</mi><mo>=</mo><mrow><mo>(</mo><mi>V</mi><mo>,</mo><mi>L</mi><mo>,</mo><mi>E</mi><mo>)</mo></mrow></mrow></math>, where <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>V</mi></mrow></math> is the set of <e>vertices</e> (union of subject and object terms), <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>L</mi></mrow></math> is a set of edges labels (predicate terms), and <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>E</mi></mrow></math> contains triples from <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>V</mi><mo>×</mo><mi>L</mi><mo>×</mo><mi>V</mi></mrow></math>. A subject may have several predicates, and predicates can also be mapped to subjects given that they have their own identity.</p>
 
     <p><cite><a href="https://tools.ietf.org/html/rfc3987">International Resource Identifiers</a></cite> (<abbr title="International Resource Identifiers">IRI</abbr>) are a generalisation of URIs (US-ASCII) in that a wider character set (Unicode/ISO 10646) can be used to identify resources. IRIs, like URIs, are global identifiers on the Web. Blank nodes are local identifiers scoped to the context, eg. file, RDF store, and they are not intended to be persistent or portable. Literals are used for values like strings, numbers, and dates.</p>
 
@@ -312,7 +314,7 @@ transform:rotate(-60deg);
     <pre><span class="highlight-language-statement">&lt;<span class="highlight-language-subject">http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong></span>&gt;
   &lt;<span class="highlight-language-predicate">http://xmlns.com/foaf/0.1/name</span>&gt; "<span class="highlight-language-object">Tim Berners-Lee</span>"@en .</span></pre>
 
-    <p>The structure of RDF statements is similar to other models, for example:</p>
+    <p>The structure of RDF statements is similar to:</p>
 
     <ul>
       <li>the <em>subject–verb–object</em> pattern in <cite><a href="https://en.wikipedia.org/wiki/Linguistic_typology">linguistic typology</a></cite></li>
@@ -322,7 +324,9 @@ transform:rotate(-60deg);
     <div class="note">
       <h4>Note</h4>
       <div>
-        <p>The terms IRI and URI are used interchangeably outside of technical specifications. While IRIs can be used to identity resources instead of URIs, most retrieval mechanisms are defined in URIs. Beyond identification, systems tend to determine an IRI's associated URI by mapping the character set.</p>
+        <p>While IRIs can be used to identify resources, retrieval mechanisms use URIs because the request URI in HTTP protocol is defined as a URI. Hence, the characters in IRI are first mapped to their URI counterparts before the request process.</p>
+
+        <p>The terms IRI and URI are used interchangeably outside of technical specifications.</p>
 
         <p><cite><a href="https://en.wikipedia.org/wiki/Natural-language_processing">Natural-language processing</a></cite> (<abbr title="Natural Language Processing">NLP</abbr>) is an area of study concerned with making sense of data that's represented in natural language. The NLP approach would have a different way of making sense of "<span class="highlight-language-subject">Otlet</span>" than RDF with the <span class="highlight-language-subject">IRI for Otlet</span>.</p>
       </div>
