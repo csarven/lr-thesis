@@ -474,7 +474,7 @@ transform:rotate(-60deg);
 
     <p>In order to help us understand the effects of the Web on scholarly communication, we can use <a href="http://dbpedia.org/Marshall_McLuhan" rel="cito:credits">McLuhan</a>'s tetrad on media effects as a heuristic device, a set of four questions:</p>
 
-    <blockquote cite="http://www.worldcat.org/oclc/981396559" id="" rel="cito:includesQuotationFrom">
+    <blockquote cite="http://www.worldcat.org/oclc/981396559" rel="cito:includesQuotationFrom">
       <ul>
         <li>What does it enhance or intensify?</li>
         <li>What does it render obsolete or displace?</li>
@@ -488,13 +488,13 @@ transform:rotate(-60deg);
 
     <dl>
       <dt>Enhances</dt>
-      <dd>access to information, decentralisation, distribution, response time, self-expression, multi-modality</dd>
+      <dd>access to information, autonomy, decentralisation, distribution, persona, response time, multi-modality</dd>
       <dt>Obsolesces</dt>
-      <dd>anti-sociality, distance, travel, linearity</dd>
+      <dd>isolation, distance, travel, linearity</dd>
       <dt>Retrieves</dt>
-      <dd>correspondence, anarchy, dialogue, involvement</dd>
+      <dd>correspondence, free expression, dialogue, involvement</dd>
       <dt>Reverses into</dt>
-      <dd>information overload, isolation, centralised publishing and distribution services, third-party control</dd>
+      <dd>degraded information quality, group-think, information overload, noise, third-party control</dd>
     </dl>
 
     <p>The tetrad serves as a conceptual categorisation of effects. It allows us to outline what the medium enables or has implications for at a high level. Verifying, realising, and analysing some of these effects in "the real world", or in day-to-day academic practice, is the core of this thesis. Whilst there exists a plethora of possible observations, this thesis will focus on:</p>
