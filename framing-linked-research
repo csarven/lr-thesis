@@ -298,21 +298,9 @@ transform:rotate(-60deg);
       <footer><cite>RDF 1.1 Concepts and Abstract Syntax, <a href="https://www.w3.org/TR/rdf11-concepts/#section-triples">Triples</a></cite></footer>
     </blockquote>
 
+    <p>The <cite><a href="https://tools.ietf.org/html/rfc3987">International Resource Identifier</a></cite> (<abbr title="International Resource Identifiers">IRI</abbr>) is a generalisation of URI (US-ASCII) in that a wider character set (Unicode/ISO 10646) can be used to identify resources on the Web. A Blank node (anonymous resource) is a local identifier scoped to the context it is used in, eg. file, RDF store, and they are not intended to be persistent or portable. Literals are used for values like strings, numbers, and dates.</p>
+
     <p id="rdf-graph-theory">A set of triples in RDF (an <cite>RDF Graph</cite>), can be represented as a directed edge-labelled graph: <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>G</mi><mo>=</mo><mrow><mo>(</mo><mi>V</mi><mo>,</mo><mi>L</mi><mo>,</mo><mi>E</mi><mo>)</mo></mrow></mrow></math>, where <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>V</mi></mrow></math> is the set of <e>vertices</e> (union of subject and object terms), <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>L</mi></mrow></math> is a set of edges labels (predicate terms), and <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>E</mi></mrow></math> contains triples from <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>V</mi><mo>×</mo><mi>L</mi><mo>×</mo><mi>V</mi></mrow></math>. A subject may have several predicates, and predicates can also be mapped to subjects given that they have their own identity.</p>
-
-    <p><cite><a href="https://tools.ietf.org/html/rfc3987">International Resource Identifiers</a></cite> (<abbr title="International Resource Identifiers">IRI</abbr>) are a generalisation of URIs (US-ASCII) in that a wider character set (Unicode/ISO 10646) can be used to identify resources. IRIs, like URIs, are global identifiers on the Web. Blank nodes are local identifiers scoped to the context, eg. file, RDF store, and they are not intended to be persistent or portable. Literals are used for values like strings, numbers, and dates.</p>
-
-    <p>To take an example, we can represent the sentence "<span class="highlight-language-statement"><span class="highlight-language-subject">Otlet</span> <span class="highlight-language-predicate">influenced</span> <span class="highlight-language-object">Berners-Lee</span></span>" in one of the RDF syntaxes as follows:</p>
-
-    <pre><span class="highlight-language-statement">&lt;<span class="highlight-language-subject">http://dbpedia.org/resource/<strong>Paul_Otlet</strong></span>&gt;
-  &lt;<span class="highlight-language-predicate">http://dbpedia.org/ontology/<strong>influenced</strong></span>&gt; &lt;<span class="highlight-language-object">http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong></span>&gt; .</span></pre>
-
-    <p>Applications can meaningfully interpret and integrate with disparate data without having any out-of-band knowledge, and retrieve more information about the terms. RDF facilitates a uniform <q>follow your nose</q> type of exploration by following the semantics in the information provided in order to arrive at another unit of information.</p>
-
-    <p>We can describe <span class="highlight-language-subject">Berners-Lee's IRI</span> (subject) by giving it a human-readable <span class="highlight-language-predicate">name</span> (predicate):</p>
-
-    <pre><span class="highlight-language-statement">&lt;<span class="highlight-language-subject">http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong></span>&gt;
-  &lt;<span class="highlight-language-predicate">http://xmlns.com/foaf/0.1/name</span>&gt; "<span class="highlight-language-object">Tim Berners-Lee</span>"@en .</span></pre>
 
     <p>The structure of RDF statements is similar to:</p>
 
@@ -320,6 +308,18 @@ transform:rotate(-60deg);
       <li>the <cite><a href="https://en.wikipedia.org/wiki/Subject%E2%80%93verb%E2%80%93object">subject–verb–object</a></em> sentence structure in <cite><a href="https://en.wikipedia.org/wiki/Linguistic_typology">linguistic typology</a></cite> - used by nearly half of human languages</li>
       <li>the <cite><a href="https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model">entity–attribute–value</a></cite> (<abbr title="entity–attribute–value">EAV</abbr>) model - widely used for advanced (meta)data modeling</li>
     </ul>
+
+    <p>We can represent the sentence "<span class="highlight-language-statement"><span class="highlight-language-subject">Otlet</span> <span class="highlight-language-predicate">influenced</span> <span class="highlight-language-object">Berners-Lee</span></span>" in one of the RDF syntaxes as follows:</p>
+
+    <pre><span class="highlight-language-statement">&lt;<span class="highlight-language-subject">http://dbpedia.org/resource/<strong>Paul_Otlet</strong></span>&gt;
+  &lt;<span class="highlight-language-predicate">http://dbpedia.org/ontology/<strong>influenced</strong></span>&gt; &lt;<span class="highlight-language-object">http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong></span>&gt; .</span></pre>
+
+    <p>RDF facilitates a uniform <q>follow your nose</q> type of exploration by following the semantics in the information provided in order to arrive at another unit of information. Applications can meaningfully interpret and integrate with disparate data without having any out-of-band knowledge, and retrieve more information about the terms.</p>
+
+    <p>We can describe <span class="highlight-language-subject">Berners-Lee's IRI</span> (subject) by giving it a human-readable <span class="highlight-language-predicate">name</span> (predicate):</p>
+
+    <pre><span class="highlight-language-statement">&lt;<span class="highlight-language-subject">http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong></span>&gt;
+  &lt;<span class="highlight-language-predicate">http://xmlns.com/foaf/0.1/name</span>&gt; "<span class="highlight-language-object">Tim Berners-Lee</span>"@en .</span></pre>
 
     <div class="note">
       <h4>Note</h4>
