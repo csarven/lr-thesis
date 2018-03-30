@@ -317,8 +317,8 @@ transform:rotate(-60deg);
     <p>The structure of RDF statements is similar to:</p>
 
     <ul>
-      <li>the <em>subject–verb–object</em> pattern in <cite><a href="https://en.wikipedia.org/wiki/Linguistic_typology">linguistic typology</a></cite></li>
-      <li>the <cite><a href="https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model">entity–attribute–value</a></cite> (<abbr title="entity–attribute–value">EAV</abbr>) model</li>
+      <li>the <cite><a href="https://en.wikipedia.org/wiki/Subject%E2%80%93verb%E2%80%93object">subject–verb–object</a></em> sentence structure in <cite><a href="https://en.wikipedia.org/wiki/Linguistic_typology">linguistic typology</a></cite> - used by nearly half of human languages</li>
+      <li>the <cite><a href="https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model">entity–attribute–value</a></cite> (<abbr title="entity–attribute–value">EAV</abbr>) model - widely used for advanced (meta)data modeling</li>
     </ul>
 
     <div class="note">
