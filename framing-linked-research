@@ -683,6 +683,8 @@ transform:rotate(-60deg);
           <div datatype="rdf:HTML" property="schema:description">
             <p>The desire to have scientific knowledge accessible and serve humanity for good was expressed by <a href="https://en.wikipedia.org/wiki/Vannevar_Bush">Vannevar Bush</a> through the concept of a <cite>memex</cite> - to supplement their collective memory - in his <cite><a href="https://web.archive.org/web/20100115164714/http://www.ps.uni-saarland.de:80/~duchier/pub/vbush/vbush.txt">As We May Think</a></cite> in 1945.</p>
 
+            <h5>Accessible to Any Agent</h5>
+
             <p>Accessible to any agent; human, machine, or otherwise.</p>
 
             <p>We inherit:</p>
@@ -696,7 +698,12 @@ transform:rotate(-60deg);
               <footer><cite><a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite></footer>
             </blockquote>
 
+            <h5>Free Culture</h5>
+
             <p id="free-culture">In order to disseminate scientific information on the Web with minimal friction, usage rights and responsibilities should permit anyone to share and remix information under various conditions. We align this with existing movements like Open Science, and the <a href="https://en.wikipedia.org/wiki/Free-culture_movement">free-culture movement</a> so that both humans and machines can participate by modifying and (re)distributing units of communication without delay in the form of <q>free content and open content</q> that is network-accessible through open communication protocols. Policies about the permissions and obligations should be human and machine-interpretable to facilitate accurate, fair, secure, and privacy-aware use.</p>
+
+
+            <h5>Web Content Accessibility</h5>
 
             <p id="web-content-accessibility">The accessibility of units of communications can also be seen as an aim for all-inclusive design that is usable by humans with widest possible range of abilities and situations. For this, we defer to W3C's <cite><a href="https://www.w3.org/TR/WCAG/">Web Content Accessibility Guidelines</a></cite> (<abbr title="Web Content Accessibility Guidelines">WCAG</abbr>) to cover an array of recommendations to make content accessible to a wider range of people regardless of any disability, limitation, or sensitivity, through different media and interfaces. For human-centric scholarly communication to thrive, units of communication should be targeted to aim to meet highest level of conformance criteria. W3C WCAG 2.1 provides a range of guidelines that can be adopted for better content accessibility:</p>
 
