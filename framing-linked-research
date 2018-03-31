@@ -628,7 +628,7 @@ transform:rotate(-60deg);
       <div datatype="rdf:HTML" property="schema:description" resource="#design-principles" typeof="deo:ProblemStatement">
         <p>What are desirable qualities of scholarly communication given the potential of the Web? What are we aspiring towards? We outline these here, with existing work described earlier as the foundation, and discuss with respect to McLuhan's effects of media (<em>enhances, obsolesces, retrieves, reverses into</em>).</p>
 
-        <p>Scientific and scholarly output is social and part of the wider knowledge commons. What follows is a set of design principles that systems can adopt in order to meet the need to collectively own and manage units of communication particularly over the Web.</p>
+        <p>Scientific and scholarly output is social and part of the wider knowledge commons. What follows is a set of essential characteristics that systems can adopt in order to meet the need to collectively own and manage units of communication on the Web.</p>
 
         <section id="freedom-of-expression" rel="schema:hasPart" resource="#freedom-of-expression">
           <h4 property="schema:name">Freedom of Expression</h4>
