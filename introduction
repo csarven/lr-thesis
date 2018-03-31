@@ -42,94 +42,8 @@
 
 
               <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover relations. The knowledge industry can better address societal challenges by embracing the virtues of the Web via decentralisation and interconnectivity of our collective knowledge.</p>
-            </div>
-          </section>
-
-          <section id="need" rel="schema:hasPart" resource="#need">
-            <h2 property="schema:name">Need</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p>Why bother? Society needs to continuously sharpen its understanding of the biases as well as the effects of the sociotechnical processes involved in scholarly communication, in order to control its impact and guide it.</p>
-            </div>
-          </section>
-
-<hr/>
-
-
-          <p>Is and can our system be productive, resilient and organised? Can it evolve? If redesigned, can it operate within established and unexpected parameters as part of a even greater larger ecosystem? What assumptions have we adopted?</p>
-
-<p>.. "#OpenScience" that has a wider scope than what revolves around those "publishers" ie. acknowledging the possibility that scholarly information can come from and be anywhere provided that it is "scientific". Then we can accurately analyse "openness".</p>
-
-              <ul class="outline">
-                <li>Paradigm Shifts</li>
-                <li>Media Theory</li>
-                <li>Scholarly Communication</li>
-                <li>Problem Statements
-                  <ul>
-                    <li>Technical Challenges</li>
-                    <li>Social Challenges</li>
-                    <li>Intertwined sociotechnical problem space</li>
-                  </ul>
-                </li>
-
-                <li>Research Questions
-                  <ul>
-                    <li>How can we go beyond the barriers? .. Data structures/models... Web standards/stack</li>
-                    <li>Operative level: workflows?, processes?.. improving suitable communication interfaces</li>
-                    <li>How well can people in the scientific community (progressive/conservation/or even backwards) get their job done.. How usable is it?</li>
-
-                    <li>How can we lift the concepts of articles for scholarly communication</li>
-                    <li>How can the workflows in scholarly communication be realised using Web technologies in decentralised manner</li>
-                  </ul>
-                </li>
-
-                <li>A possible hypothesis is that a lack of an appropriate authentication mechanism impedes adoption of decentralised Web paradigm.</li>
-
-                <li>Contributions
-                  <ul>
-                    <li>Linked Research (initiative, principles/RFC)</li>
-                    <li>dokieli (project, ICWE)</li>
-                    <li>Linked Data Notifications (W3C Recommendation, ESWC [best student "paper" award])</li>
-                    <li>Embedding Web Annotation in HTML (W3C Note)</li>
-                    <li>CEUR-WS.org Proceedings (ceur-make)</li>
-                    <li>Call for Linked Research (Is there a shift? are the ideas spreading?)
-                      <ul>
-                        <li>Self-publishing: Examples in the Wild</li>
-                        <li>Events in practice:
-                          <ul>
-                            <li>Conference wide: ISWC, ESWC</li>
-                            <li>SemStats, ISWC</li>
-                            <li>Enabling Decentralised Scholarly Communication, ESWC</li>
-                            <li>WOW, WWW</li>
-                            <li>LDOW, WWW</li>
-                            <li>DeSemWeb</li>
-                            <li>SemSci</li>
-                            <li>SAVE-SD</li>
-                            <li>Sepublica</li>
-                            <li>Semantic Web Journal</li>
-                            <li>Researcher Centric Scholarly Communication, The Web Conf</li>
-                            <li>Workshops and tutorials - dokieli, OAI, SWIB, ESWC</li>
-                            <li>CEUR-WS</li>
-                            <li>SemSci</li>
-                            <li>SAVE-SD</li>
-                            <li>Sepublica</li>
-                            <li>Semantic Web Journal</li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>RDF Data Cube, DDI-RDF...?</li>
-                  </ul>
-                </li>
-              </ul>
-
-
-          <p>This thesis serves a multi-purpose role. The typical role is by employing different reading modes, the reader can consume its contents through their preferred medium eg, printed paper, electronic device access to the Web. The other, and less common, is an exemplification of the Linked Research design principles, and the technical implementation itself. For instance, when this thesis is access through the Web, it demonstrates itself, since the interactive and semantic features can be directly observed while reading and consuming. It showcases how scholarly communication can adapt to the audience, whether the content is read on a screen or printed on paper, listen with a screen reader, watched as a movie, shown as a presentation, interacted with in the document, as well as its social functions.</p>
-
 
 <pre>
-## Introduction
-
-### Context:
 * How do the sociotechnical developments affected scholarly communication on the Web? 3-4 decades. (problems for day to day operations for a researcher/user)
 * Problems in scholarly communication (an analysis of core areas)
 ** open access to scholarly communication
@@ -142,19 +56,45 @@
 ** influence of venue level metrics distracts from assessing individual contributions
 ** peer-review
 ** Social aspects are not well tied together - disconnected social graphs, personal/profile data
+</pre>
+            </div>
+          </section>
 
+          <section id="need" rel="schema:hasPart" resource="#need">
+            <h2 property="schema:name">Need</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>Why bother? Society needs to continuously sharpen its understanding of the biases as well as the effects of the sociotechnical processes involved in scholarly communication, in order to control its impact and guide it.</p>
+            </div>
+          </section>
 
+<hr/>
 
-### Problem statement:
+          <p>Is and can our system be productive, resilient and organised? Can it evolve? If redesigned, can it operate within established and unexpected parameters as part of a even greater larger ecosystem? What assumptions have we adopted?</p>
+
+          <p>.. "#OpenScience" that has a wider scope than what revolves around those "publishers" ie. acknowledging the possibility that scholarly information can come from and be anywhere provided that it is "scientific". Then we can accurately analyse "openness".</p>
+
+          <p>This thesis serves a multi-purpose role. The typical role is by employing different reading modes, the reader can consume its contents through their preferred medium eg, printed paper, electronic device access to the Web. The other, and less common, is an exemplification of the Linked Research design principles, and the technical implementation itself. For instance, when this thesis is access through the Web, it demonstrates itself, since the interactive and semantic features can be directly observed while reading and consuming. It showcases how scholarly communication can adapt to the audience, whether the content is read on a screen or printed on paper, listen with a screen reader, watched as a movie, shown as a presentation, interacted with in the document, as well as its social functions.</p>
+
+<hr/>
+
+<section id="problem-statement" inlist="" rel="schema:hasPart" resource="#problem-statement">
+  <h2 property="schema:name">Problem Statement</h2>
+  <div datatype="rdf:HTML" property="schema:description">
+<pre>
 scholarly communication didn't change much but ... we don't exploit the technical advances
 * we can't find things.. or at least cumbersome (text-based and/or structured interfaces to find/discover). web of documents -> data
 * coupling of functions (--- maybe not. this is not directly a concern for the researcher but on the evolution of the system)
 * (de)centralisation
-* 
- 
+</pre>
+  </div>
+</section>
 
 
-### Research questions:
+
+<section id="research-questions" inlist="" rel="schema:hasPart" resource="#research-questions">
+  <h2 property="schema:name">Research Questions</h2>
+  <div datatype="rdf:HTML" property="schema:description">
+<pre>
 How can we realize a Web-native and decentralised scholarly communication?
 
 * How can we represent and author scholarly information on the Web? (structure of scholarly information)
@@ -166,16 +106,21 @@ How can we realize a Web-native and decentralised scholarly communication?
 * How can we integrate data and textual publications? (interactive linked statistics)
 
 Out of scope: non Web-native protocols/standards eg blockchain, transformation/extraction workflows, search/find, ontology/vocabulary for units of information, profile creation/editing, storage/server mechanisms, filtering articles
+</pre>
+  </div>
+</section>
 
 
-### Thesis Overview
+<section id="thesis-overview" inlist="" rel="schema:hasPart" resource="#thesis-overview">
+  <h2 property="schema:name">Thesis Overview</h2>
+  <div datatype="rdf:HTML" property="schema:description">
+<pre>
 * Main Contributions (method, implementation, concept, .. standards)
 * Structure (what's ahead and why)
 * List of Articles (mostly reviewed works, standards)
 </pre>
-
-
-
+  </div>
+</section>
 
           <p><img alt="Illustration of Alice by Lewis Carroll - Alice’s Adventures Under Ground, the facsimile edition published by Macmillan in 1886" class="align-left lr" height="143" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/86/AAUG_p06.png/128px-AAUG_p06.png" title="Illustration of Alice by Lewis Carroll - Alice’s Adventures Under Ground, the facsimile edition published by Macmillan in 1886" width="128" /> <q cite="http://www.imdb.com/title/tt0133093/quotes?item=qt0324307">This is your last chance. After this, there is no turning back. You take the <span class="unicode-blue-pill">blue pill</span> - the story ends, you wake up in your bed and believe whatever you want to believe. You take the <span class="unicode-red-pill">red pill</span> - you stay in Wonderland and I show you how deep the rabbit-hole goes</q> - <cite><a href="http://www.imdb.com/title/tt0133093/quotes?item=qt032430">Morpheus</a></cite>, The Matrix (1999).</p>
         </div>
