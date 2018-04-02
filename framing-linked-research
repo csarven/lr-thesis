@@ -368,22 +368,23 @@ transform:rotate(-60deg);
 
               <p>Several movements during the 1990s towards fundamentally transforming scholarly communication using newly available digital network technologies.</p>
 
-              <h3 id="open-science">Open Science</h3>
-              <p><q>Open Science</q> is a broadly understood notion that is intended to foster <em>open</em> approach to conducting scientific and scholarly work. While there is no single agreed definition of open science, the general consensus is about improving the practice of scientific communication in a transparent, traceable, verifiable, and reusable manner. For all intents and purposes, we can work with the European-funded project <cite><a href="https://www.fosteropenscience.eu/">Facilitate Open Science Training for European Research</a></cite> (<abbr title="Facilitate Open Science Training for European Research">FOSTER</abbr>)'s definition:</p>
+              <div id="open-science">
+                <h3>Open Science</h3>
+                <p><q>Open Science</q> is a broadly understood notion that is intended to foster <em>open</em> approach to conducting scientific and scholarly work. While there is no single agreed definition of open science, the general consensus is about improving the practice of scientific communication in a transparent, traceable, verifiable, and reusable manner. For all intents and purposes, we can work with the European-funded project <cite><a href="https://www.fosteropenscience.eu/">Facilitate Open Science Training for European Research</a></cite> (<abbr title="Facilitate Open Science Training for European Research">FOSTER</abbr>)'s definition:</p>
 
-              <blockquote cite="https://www.fosteropenscience.eu/taxonomy/term/100">
-                <p>Open Science is the practice of science in such a way that others can collaborate and contribute, where research data, lab notes and other research processes are freely available, under terms that enable reuse, redistribution and reproduction of the research and its underlying data and methods.</p>
+                <blockquote cite="https://www.fosteropenscience.eu/taxonomy/term/100">
+                  <p>Open Science is the practice of science in such a way that others can collaborate and contribute, where research data, lab notes and other research processes are freely available, under terms that enable reuse, redistribution and reproduction of the research and its underlying data and methods.</p>
 
-                <footer><cite><a href="https://www.fosteropenscience.eu/taxonomy/term/100">Open Science Definition</a></cite>, FOSTER</footer>
-              </blockquote>
+                  <footer><cite><a href="https://www.fosteropenscience.eu/taxonomy/term/100">Open Science Definition</a></cite>, FOSTER</footer>
+                </blockquote>
 
-              <p>The <a href="http://oro.open.ac.uk/44719/2/kmi_foster_iknow.pdf#page=3" title="Fostering Open Science to Research using a Taxonomy and an eLearning Portal">Open Science taxonomy</a> developed by FOSTER maps the open science fields as follows: <q>Open Access, Open Data, Open Reproducible Research, Open Science Definition, Open Science Evaluation, Open Science Guidelines, Open Science Policies, Open Science Projects and Open Science Tools</q>.</p>
+                <p>The <a href="http://oro.open.ac.uk/44719/2/kmi_foster_iknow.pdf#page=3" title="Fostering Open Science to Research using a Taxonomy and an eLearning Portal">Open Science taxonomy</a> developed by FOSTER maps the open science fields as follows: <q>Open Access, Open Data, Open Reproducible Research, Open Science Definition, Open Science Evaluation, Open Science Guidelines, Open Science Policies, Open Science Projects and Open Science Tools</q>.</p>
 
-              <p>Many of the Linked Research principles are aligned with this or overlap with these concepts from Open Science. Open Science, however, is ambivalent about the communication medium.</p>
-
+                <p>Many of the Linked Research principles are aligned with this or overlap with these concepts from Open Science. Open Science, however, is ambivalent about the communication medium.</p>
+              </div>
 
               <div id="archives-and-repositories">
-                <h3>Archives and repositories</h3>
+                <h3>Archives and Repositories</h3>
                 <p>In 1991, recognizing the need for scholars to expedite the exchange of scholarly information, <a href="https://en.wikipedia.org/wiki/Paul_Ginsparg">Paul Ginsparg</a> created the <abbr title="Los Alamos National Laboratory">LANL</abbr> preprint archive for <q>e-prints</q>. This provided a moderated central repository where scientists can deposit their articles and have them accessible by anyone, which was a cost-effective solution (estimates were less than 5 USD per submission for administration) for scholars to disseminate research results quickly [<cite><a href="http://www.cs.cornell.edu/~ginsparg/physics/blurb/pg01unesco.html">Creating a global knowledge network</a></cite>]. It initially started out as a central mailbox with an interface; it adopted FTP in 1991, Gopher in 1992, and finally the World Wide Web in 1994. The articles in the repository are not expected to be peer-reviewed, but rather a place where versioned <q>preprints</q> - considered to precede publications that are peer-reviewed - can be accessed for free. In 2001, the LANL preprint archive eventually became what is currently known as <a href="https://arxiv.org/">arXiv</a>. The <cite><a href="https://arxiv.org/help/license">arXiv license information</a></cite> permits different rights and licenses to be assigned to the scholarly records, ie. anything from public domain, Creative Commons licenses, or with copyright to the publisher or author, provided that arXiv is given sufficient rights to distribute. The repository accepts submissions in TeX, PDF, PostScript, and HTML. This sort of discipline-centric and institution-run preprint exchange mechanism had the technical ingredients to serve as a substitute for the traditional scholarly journal. From 1991 to 2017, arXiv had a <a href="https://arxiv.org/stats/monthly_submissions">linear increase in submission rate</a> (passing the 1 million mark in 2015). arXiv's early success lead to the emergence of the <q><a href="#open-archiving">open archives initiative</a></q> in 1999, and the <q><a href="#open-access">open access</a></q> movement in 2002.</p>
               </div>
 
@@ -439,24 +440,32 @@ transform:rotate(-60deg);
                 <p>It is worthwhile to note here that the models that has been described so far primarily focus on <em>institutional</em> or <em>subject</em> repository driven scholarly communication. They are contrasted against typical third-party (for-profit) involvement which impose a particular arrangement of the coupling of the scholarly information space per <em>forces and functions</em>. In the remainder of this thesis, I focus on enabling a <em>researcher-centric</em> model; whilst this can be situated within the same <q>deconstructing</q> or <q>decoupling</q> school of thought, its pursuit is embracing greater control by researchers through the native characteristics of the Web, while still adhering to the scientific method.</p>
               </div>
 
-              <h3 id="open-archiving">Open Archiving</h3>
-              <p>Archiving scholarly records is integral to access and preservation of the scientific knowledge for societal use. Scholarly communication over the Web is inherently about distributed activities. The <a href="http://web.archive.org/web/20000229151223/http://www.openarchives.org/ups1-press.htm">first meeting</a> in 1999 was held to agree on recommendations to <a href="http://www.dlib.org/dlib/february00/vandesompel-ups/02vandesompel-ups.html">address interoperability challenges</a> - such as search and linking - for data across publicly available distributed self-archiving solutions. To promote the global acceptance of self-archiving, with interoperable systems being core to its successful adoption, the <cite><a href="http://www.openarchives.org/">Open Archives Initiative</a> (<abbr title="Open Archives Initiative">OAI</abbr>) Organization</cite> was established to take on the development of technical recommendations - for metadata standards, discovery, and retrieval. This lead to the evolution of recommendations such as <cite><a href="http://www.openarchives.org/OAI/openarchivesprotocol.html">OAI-PMH</a></cite> for <q>Protocol for Metadata Harvesting</q>, and its successor <cite><a href="http://www.openarchives.org/rs/resourcesync">ResourceSync</a></cite> as resource a synchronization framework for servers; <cite><a href="http://www.openarchives.org/ore/toc">OAI-ORE</a></cite> for <q>Object Reuse and Exchange</q>; and <cite><a href="https://tools.ietf.org/html/rfc7089">Memento</a></cite> which specifies a time dimension to the Web architecture. In the 2015 article, <cite><a href="http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.html">Reminiscing About 15 Years of Interoperability Efforts</a></cite>, the authors summarise the lessons learned on interoperability efforts by concluding that a shift from a <em>repository-centric</em> to a <em>Web-centric</em> perspective was essential in order have a <q>viable and sustainable</q> scholarly system.</p>
+              <div id="open-archiving">
+                <h3>Open Archiving</h3>
+                <p>Archiving scholarly records is integral to access and preservation of the scientific knowledge for societal use. Scholarly communication over the Web is inherently about distributed activities. The <a href="http://web.archive.org/web/20000229151223/http://www.openarchives.org/ups1-press.htm">first meeting</a> in 1999 was held to agree on recommendations to <a href="http://www.dlib.org/dlib/february00/vandesompel-ups/02vandesompel-ups.html">address interoperability challenges</a> - such as search and linking - for data across publicly available distributed self-archiving solutions. To promote the global acceptance of self-archiving, with interoperable systems being core to its successful adoption, the <cite><a href="http://www.openarchives.org/">Open Archives Initiative</a> (<abbr title="Open Archives Initiative">OAI</abbr>) Organization</cite> was established to take on the development of technical recommendations - for metadata standards, discovery, and retrieval. This lead to the evolution of recommendations such as <cite><a href="http://www.openarchives.org/OAI/openarchivesprotocol.html">OAI-PMH</a></cite> for <q>Protocol for Metadata Harvesting</q>, and its successor <cite><a href="http://www.openarchives.org/rs/resourcesync">ResourceSync</a></cite> as resource a synchronization framework for servers; <cite><a href="http://www.openarchives.org/ore/toc">OAI-ORE</a></cite> for <q>Object Reuse and Exchange</q>; and <cite><a href="https://tools.ietf.org/html/rfc7089">Memento</a></cite> which specifies a time dimension to the Web architecture. In the 2015 article, <cite><a href="http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.html">Reminiscing About 15 Years of Interoperability Efforts</a></cite>, the authors summarise the lessons learned on interoperability efforts by concluding that a shift from a <em>repository-centric</em> to a <em>Web-centric</em> perspective was essential in order have a <q>viable and sustainable</q> scholarly system.</p>
+              </div>
 
-              <h3 id="fair-principles">FAIR Principles</h3>
-              <p>The <cite><a href="https://www.nature.com/articles/sdata201618" title="The FAIR Guiding Principles for scientific data management and stewardship">FAIR Principles</a></cite> proposes guiding principles to facilitate <q>Findable, Accessible, Interoperable and Reusable</q> knowledge discovery for machines as well as reuse by humans.</p>
+              <div id="guides-to-information-exchange">
+                <h3>Guides to Information Exchange</h3>
+                <p>Plethora of guides and best practices in this space...</p>
 
-              <dl>
-                <dt>Findable</dt>
-                <dd>For human and machine discovery of (meta)data and services by use of globally unique and persistent identifiers, and machine-readable way-finding.</dd>
-                <dt>Accessible</dt>
-                <dd>(Meta)data to be retrievable using open and free standard communication protocols via applicable authentication and authorization mechanisms.</dd>
-                <dt>Interoperable</dt>
-                <dd>(Meta)data using structured knowledge representations to be is interpretable by autonomous agents.</dd>
-                <dt>Reusable</dt>
-                <dd>(Meta)data to optimise the reuse of data with domain-relevant, license, and provenance information.</dd>
-              </dl>
+                <h4>Data on the Web Best Practices</h4>
+                <p>The W3C Recommendation for <cite><a href="https://www.w3.org/TR/dwbp/">Data on the Web Best Practices</a></cite> (<abbr title="Data on the Web Best Practices">DWBP</abbr>) provides a range of best practices, in order to benefit comprehension, processability, discoverability, reuse, trust, linkability, access, and interoperability. The DWBP can be used by <q cite="https://www.w3.org/TR/dwbp/#bestPractices">data publishers in order to help them and data consumers to overcome the different challenges faced when publishing and consuming data on the Web</q>.</p>
 
-              <p>The principles can be applied to create different information spaces.</p>
+                <h4>FAIR Guiding Principles</h4>
+                <p>The <cite><a href="https://www.nature.com/articles/sdata201618" title="The FAIR Guiding Principles for scientific data management and stewardship">FAIR Principles</a></cite> proposes guiding principles to facilitate <q>Findable, Accessible, Interoperable and Reusable</q> knowledge discovery for machines as well as reuse by humans.</p>
+
+                <dl>
+                  <dt>Findable</dt>
+                  <dd>For human and machine discovery of (meta)data and services by use of globally unique and persistent identifiers, and machine-readable way-finding.</dd>
+                  <dt>Accessible</dt>
+                  <dd>(Meta)data to be retrievable using open and free standard communication protocols via applicable authentication and authorization mechanisms.</dd>
+                  <dt>Interoperable</dt>
+                  <dd>(Meta)data using structured knowledge representations to be is interpretable by autonomous agents.</dd>
+                  <dt>Reusable</dt>
+                  <dd>(Meta)data to optimise the reuse of data with domain-relevant, license, and provenance information.</dd>
+                </dl>
+              </div>
             </div>
           </section>
 
@@ -486,7 +495,7 @@ transform:rotate(-60deg);
 
               <dl>
                 <dt>Enhances</dt>
-                <dd>access to information, autonomy, decentralisation, distribution, persona, response time, multi-modality</dd>
+                <dd>access to information, autonomy, decentralisation, distribution, individualism, response time, multi-modality</dd>
                 <dt>Obsolesces</dt>
                 <dd>isolation, distance, travel, linearity</dd>
                 <dt>Retrieves</dt>
@@ -610,7 +619,7 @@ transform:rotate(-60deg);
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>What are desirable qualities of scholarly communication given the potential of the Web? What are we aspiring towards? We outline these here, with existing work described earlier as the foundation, and discuss with respect to McLuhan's effects of media (<em>enhances, obsolesces, retrieves, reverses into</em>).</p>
 
-                  <p>Scientific and scholarly output is social and part of the wider knowledge commons. What follows is a set of essential characteristics that systems can adopt in order to meet the need to collectively own and manage units of communication on the Web.</p>
+                  <p>Scientific and scholarly output is social and part of the wider knowledge commons. What follows is a set of essential characteristics that systems can adopt in order to meet the need to collectively own and manage units of communication on the Web. These principles can be applied to create different information spaces.</p>
 
                   <section id="freedom-of-expression" inlist="" rel="schema:hasPart" resource="#freedom-of-expression">
                     <h4 property="schema:name">Freedom of Expression</h4>
@@ -832,7 +841,6 @@ transform:rotate(-60deg);
                     <h4 property="schema:name">Challenges</h4>
                     <div datatype="rdf:HTML" property="schema:description">
                       <p>We are interested in questions like<q>Which scholarly articles are relevant to my research problem?</q>, <q>How can we find and compare the variables of similar hypothesis?</q>, <q>Which other researchers might find my results/output directly useful so I can notify them?</q>, <q>What are some of the unanswered questions or new challenges in a research area?</q>, <q>What are the research gaps?</q>, <q>How do we verify a peer-review and credit the peer-reviewer?</q>, <q>How do we control, store, preserve research?</q>, <q>When do I get my free lunch?</q></p>
-
 
                       <p>Example challenges to meet with the <a href="#acid-test-assumptions" rel="rdfs:seeAlso">acid test assumptions</a> in place:</p>
 
