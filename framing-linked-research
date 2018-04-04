@@ -352,7 +352,16 @@ transform:rotate(-60deg);
 
               <p>Bruce draws attention to the dialectical in that an observer enters into a <q>deep experience</q> of reading, engaging with the text with a critical eye, drawing advanced information and interpretations beyond what is merely presented, and an actively seeking to understand the material in addition to political, social, and historical dimensions. Bruce states that under the dialectical view, the Web's multimodal features allows new values and ways of making meaning as an holistic involvement for the consumer.</p>
 
-              <p id="web-science"><cite>Web Science</cite> as per <cite><a href="https://eprints.soton.ac.uk/262615/1/Web%2520Science.htm">Creating a Science of the Web</a></cite> is an interdisciplinary field of study concerned with understanding and developing sociotechnical systems like the Web alongside human society. In <cite><a href="http://eprints.soton.ac.uk/263347/1/1800000001%5B1%5D.pdf">A Framework for Web Science</a></cite>, authors state that <q cite="http://dx.doi.org/10.1561/1800000001">the Web perhaps more than any other recent human construct carries with it any number of issues including privacy and protection, access and diversity, control and freedom. Structures that we design, engineer and research, and findings that emerge through analysis, will often have strong societal implications</q>. The rules of the science involves social and technical conventions. This thesis addresses an area in Web Science concerning the autonomous and interoperable information systems in context of conducting scholarly communication on the Web.</p>
+              <p id="web-science"><cite>Web Science</cite> - <cite><a href="https://eprints.soton.ac.uk/262615/1/Web%2520Science.htm">Creating a Science of the Web</a></cite> - is an interdisciplinary field of study concerned with understanding and developing sociotechnical systems like the Web alongside human society.
+
+              <p>In <cite><a href="http://eprints.soton.ac.uk/263347/1/1800000001%5B1%5D.pdf">A Framework for Web Science</a></cite>, authors state that:</p>
+
+              <blockquote cite="http://eprints.soton.ac.uk/263347/1/1800000001%5B1%5D.pdf">
+                <p>the Web perhaps more than any other recent human construct carries with it any number of issues including privacy and protection, access and diversity, control and freedom. Structures that we design, engineer and research, and findings that emerge through analysis, will often have strong societal implications.</p>
+                <cite><a href="http://eprints.soton.ac.uk/263347/1/1800000001%5B1%5D.pdf">A Framework for Web Science</a></cite>
+              </blockquote>
+
+              <p>The challenges of Web Science involves social and technical aspects, eg user interface to data, information policy, resilience, diverse devices, collective creativity, and decentralisation. This thesis falls into the domain of Web Science as scholarly communication is inherently social and has broad implications across society. In particular, the thesis examines autonomous and interoperable information systems in context of conducting scholarly communication on the Web.</p>
 
               <p>The scope of the technologies and standards described in this thesis and the contributions therein is within the context of the Web. There are undoubtedly many exciting initiatives and developments that use Internet protocols which can address many of the same challenges (and maybe even better), however it would take more than one thesis to do these justice. Hence, we scope to the Web.</p>
             </div>
@@ -557,7 +566,7 @@ transform:rotate(-60deg);
                 <dd>Preservation of scholarly records over time</dd>
               </dl>
 
-              <p>The actor and content forces are generic and internal to the scholarly market, and are considered to be indispensable in that there would not be a scientific communication market if there are no researchers and the artefacts they exchange. The accessibility and applicability forces on the other hand are external forces because they shape, give purpose to, or influence the activities and content.
+              <p>The actor and content forces are generic and internal to the scholarly market, and are considered to be indispensable in that there would not be a scientific communication market if there are no researchers and the artefacts they exchange. The accessibility and applicability forces on the other hand are external forces because they shape, give purpose to, or influence the activities and content.</p>
 
               <p>The registration and archiving are objective functions in that they are external to the research process, and considered to be indispensable in that information exchange cannot take place if there are no usable identifiers for the units of communication or if no knowledge preservation measures are put in place. Certification and awareness are subjective communication functions - internal to the research process. Registration and awareness are different aspects of <em>scientific observations</em>, ie. facilitating findable information. Certification and archiving are aspects of <em>scientific judgement</em>, ie. act as a filtering mechanism in the information space.</p>
 
