@@ -352,7 +352,7 @@ transform:rotate(-60deg);
 
               <p>Bruce draws attention to the dialectical in that an observer enters into a <q>deep experience</q> of reading, engaging with the text with a critical eye, drawing advanced information and interpretations beyond what is merely presented, and an actively seeking to understand the material in addition to political, social, and historical dimensions. Bruce states that under the dialectical view, the Web's multimodal features allows new values and ways of making meaning as an holistic involvement for the consumer.</p>
 
-              <p id="web-science"><cite>Web Science</cite> - <cite><a href="https://eprints.soton.ac.uk/262615/1/Web%2520Science.htm">Creating a Science of the Web</a></cite> - is an interdisciplinary field of study concerned with understanding and developing sociotechnical systems like the Web alongside human society.
+              <p id="web-science"><cite>Web Science</cite> - <cite><a href="https://eprints.soton.ac.uk/262615/1/Web%2520Science.htm">Creating a Science of the Web</a></cite> - is an interdisciplinary field of study concerned with understanding and developing sociotechnical systems like the Web alongside human society.</p>
 
               <p>In <cite><a href="http://eprints.soton.ac.uk/263347/1/1800000001%5B1%5D.pdf">A Framework for Web Science</a></cite>, authors state that:</p>
 
@@ -456,13 +456,13 @@ transform:rotate(-60deg);
 
               <div id="guides-to-information-exchange">
                 <h3>Guides to Information Exchange</h3>
-                <p>Plethora of guides and best practices in this space...</p>
+                <p>Plethora of guides, best practices, and principles exist in this space.</p>
 
                 <h4>Data on the Web Best Practices</h4>
                 <p>The W3C Recommendation for <cite><a href="https://www.w3.org/TR/dwbp/">Data on the Web Best Practices</a></cite> (<abbr title="Data on the Web Best Practices">DWBP</abbr>) provides a range of best practices, in order to benefit comprehension, processability, discoverability, reuse, trust, linkability, access, and interoperability. The DWBP can be used by <q cite="https://www.w3.org/TR/dwbp/#bestPractices">data publishers in order to help them and data consumers to overcome the different challenges faced when publishing and consuming data on the Web</q>.</p>
 
                 <h4>FAIR Guiding Principles</h4>
-                <p>The <cite><a href="https://www.nature.com/articles/sdata201618" title="The FAIR Guiding Principles for scientific data management and stewardship">FAIR Guiding Principles</a></cite> (2016) proposes guiding principles to facilitate <q>Findable, Accessible, Interoperable and Reusable</q> knowledge discovery for machines as well as reuse by humans.</p>
+                <p>The <cite><a href="https://www.nature.com/articles/sdata201618" title="The FAIR Guiding Principles for scientific data management and stewardship">FAIR Guiding Principles</a></cite> (2016) is a set of principles intended to facilitate knowledge discovery and reuse for machines and humans. The elements of the principles include:</p>
 
                 <dl>
                   <dt>Findable</dt>
@@ -474,7 +474,23 @@ transform:rotate(-60deg);
                   <dt>Reusable</dt>
                   <dd>(Meta)data to optimise the reuse of data with domain-relevant, license, and provenance information.</dd>
                 </dl>
+
+                <h4>The Vienna Principles</h4>
+                <p>The <cite><a href="http://viennaprinciples.org/v1/">Vienna Principles</a></cite> proposes twelve principles that is a response to the deficits of the current scholarly communication system (in 2016). The principles are design to help with the debate on how to improve the current system. They include: <q>accessibility, discoverability, reusability, reproducibility, transparency, understandability, collaboration, quality assurance, evaluation, validates progress, innovation, public good</q>.</p>
               </div>
+
+              <section id="semantic-publishing" inlist="" rel="schema:hasPart" resource="#semantic-publishing">
+                <h3 property="schema:name">Semantic Publishing</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>One of the shortcomings of the research publication system is that scientific literature in electronic formats resemble, mimic, and has similar affordances to printed papers. While the paper-centric approach has been adequate - although not necessary optimal - for human consumption and reuse, it has been insufficient for machine-assisted analysis or reuse. The print-centric affordances lack structure that could enable better aggregation, discovery, processing, and integration in which machines excel at, and in turn help with human-led tasks.</p>
+
+                  <p>The most wide use of the term <q>semantic publishing</q> in scientific literature is defined in <cite><a href="https://onlinelibrary.wiley.com/doi/pdf/10.1087/2009202">Semantic publishing: the coming revolution in scientific journal publishing</a></cite> by Shotton. Here the term <q>semantic publishing</q> is constrained to <q>anything that enhances the meaning of a published journal article, facilitates its automated discovery, enables its linking to semantically related articles, provides access to data within the article in actionable form, or facilitates integration of data between papers</q>. The authors of <cite><a href="http://www.tkuhn.org/pub/sempub/sempub.dokieli.html">Genuine Semantic Publishing</a></cite> argue that with respect to the Semantic Web vision, this definition is <q>too restrictive</q> in a sense that it is concerned mainly about narrated information, and <q>too inclusive</q> in that a shallow semantic publication would still qualify, and defer to the fact that the addition of semantics to published works is an established approach. Kuhn and Dumontier argue that the definition for semantic publishing should be broader in that works without narrative are accounted for, and narrow in the sense that semantic representations should be incorporated at the time of creating and publishing entities.</p>
+
+                  <p>The <q>genuine semantic publishing</q> prescribes the notion of publishing 1) <em>machine interpretable</em> formal representations, 2) having <em>essential coverage</em> of the claims, 3) <em>authenticated</em> by the contributors, 4) be a <em>primary</em> component of the work, and 5) be part of <em>fine-grained</em> and <em>light-weight</em> containers.</p>
+
+                  <p>There is more to simply publishing machine-readable scientific data on the Web. Analogous to the <q>FAIR principles</q>, data needs to "signal" potential opportunities for <em>reuse</em> as per <cite><a href="https://www.research.manchester.ac.uk/portal/files/29982854/POST-PEER-REVIEW-NON-PUBLISHERS.PDF">Why Linked Data is Not Enough for Scientists</a></cite> (<em>Research Objects</em>).</p>
+                </div>
+              </section>
             </div>
           </section>
 
@@ -756,54 +772,42 @@ transform:rotate(-60deg);
               <section id="forces-functions-linked-research" inlist="" rel="schema:hasPart" resource="#forces-functions-linked-research">
                 <h3 property="schema:name">Forces and Functions of Linked Research</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>Van de Sompel raised the following question:</p>
+                  <p>We first approach the functions of scholarly communication in context of the Linked Research design principles. We will revisit these functions later in the thesis as a technical response to Sompel's call to investigate <q cite="https://www.youtube.com/watch?v=o4nUe-6Ln-8&amp;t=2792">how to fulfil the core functions of scholarly communication using the technical paradigm</q> around self-publishing.</p>
 
-                  <blockquote cite="https://www.youtube.com/watch?v=o4nUe-6Ln-8">
-                    <p>How to fulfil the core functions of scholarly communication using the technical paradigm:</p>
-            
-                    <ul>
-                      <li>registration</li>
-                      <li>certification</li>
-                      <li>awareness</li>
-                      <li>archiving</li>
-                    </ul>
+                  <p>The functions:</p>
 
-                    <footer><cite><a href="https://image.slidesharecdn.com/paulevanpeterslecture-171214183046/95/paul-evan-peters-lecture-57-638.jpg">Paul Evan Peters Lecture</a></cite>, Herbert Van de Sompel</footer>
-                  </blockquote>
+                  <dl id="functions-in-linked-research">
+                    <dt>Registration</dt>
+                    <dd>Actor self-registers a URI for a unit of information, eg. for a publication, annotation) archived copy, or a notification.</dd>
 
-                  <div rel="as:inReplyTo" resource="https://image.slidesharecdn.com/paulevanpeterslecture-171214183046/95/paul-evan-peters-lecture-57-638.jpg">
-                    <p>We first approach the functions from the conceptual end of Linked Research. We will revisit these later in the thesis as technical implementations.</p>
+                    <dt>Awareness</dt>
+                    <dd>Share, annotation, outbox, scholarly activity clouds</dd>
 
-                    <h4>Registration</h4>
-                    <p>Self-registers by publishing (article, annotations), archiving, notifying</p>
+                    <dt>Certification</dt>
+                    <dd>Annotation with any motivation, replying, commenting, reviewing</dd>
 
-                    <h4>Certification</h4>
-                    <p>Annotation with any motivation, replying, commenting, reviewing</p>
+                    <dt>Archiving</dt>
+                    <dd>Self-registers automatically, archive at</dd>
+                  </dl>
 
-                    <h4>Awareness</h4>
-                    <p>Share, annotation, outbox, scholarly activity clouds</p>
+                  <p>The forces:</p>
 
-                    <h4>Archiving</h4>
-                    <p>Self-registers automatically, archive at</p>
-                  </div>
+                  <dl id="forces-in-linked-research">
+                    <dt>Actor</dt>
+                    <dd></dd>
+
+                    <dt>Accessibility</dt>
+                    <dd></dd>
+
+                    <dt>Content</dt>
+                    <dd></dd>
+
+                    <dt>Applicability</dt>
+                    <dd></dd>
+                  </dl>
                 </div>
               </section>
 
-
-              <section id="semantic-publishing" inlist="" rel="schema:hasPart" resource="#semantic-publishing">
-                <h3 property="schema:name">Semantic Publishing</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>One of the shortcomings of the research publication system is that scientific literature in electronic formats resemble, mimic, and has similar affordances to printed papers. While the paper-centric approach has been adequate - although not necessary optimal - for human consumption and reuse, it has been insufficient for machine-assisted analysis or reuse. The print-centric affordances lack structure that could enable better aggregation, discovery, processing, and integration in which machines excel at, and in turn help with human-led tasks.</p>
-
-                  <p>The most wide use of the term <q>semantic publishing</q> in scientific literature is defined in <cite><a href="https://onlinelibrary.wiley.com/doi/pdf/10.1087/2009202">Semantic publishing: the coming revolution in scientific journal publishing</a></cite> by Shotton. Here the term <q>semantic publishing</q> is constrained to <q>anything that enhances the meaning of a published journal article, facilitates its automated discovery, enables its linking to semantically related articles, provides access to data within the article in actionable form, or facilitates integration of data between papers</q>. The authors of <cite><a href="http://www.tkuhn.org/pub/sempub/sempub.dokieli.html">Genuine Semantic Publishing</a></cite> argue that with respect to the Semantic Web vision, this definition is <q>too restrictive</q> in a sense that it is concerned mainly about narrated information, and <q>too inclusive</q> in that a shallow semantic publication would still qualify, and defer to the fact that the addition of semantics to published works is an established approach. Kuhn and Dumontier argue that the definition for semantic publishing should be broader in that works without narrative are accounted for, and narrow in the sense that semantic representations should be incorporated at the time of creating and publishing entities.</p>
-
-                  <p>The <q>genuine semantic publishing</q> prescribes the notion of publishing 1) <em>machine interpretable</em> formal representations, 2) having <em>essential coverage</em> of the claims, 3) <em>authenticated</em> by the contributors, 4) be a <em>primary</em> component of the work, and 5) be part of <em>fine-grained</em> and <em>light-weight</em> containers. While these criteria are valuable and can also be exercised by following LR's <q>interpretable and interactive</q> design principle, we do not prescribe it in order to not conflict with the <q>freedom of expression</q> principle. If a third-party imposes a specific way to express knowledge, whether it is through file formats and their structure and semantics; what (meta)data to include or not include; or inclusion and use of interactive components; the quality of the communication will suffer because the author may have to make compromises. Information loss occurs and communication quality naturally degrades simply because what the actors wish to convey in their message, and how, will have to be filtered down in order to fit the requirements of a third-party.</p>
-
-                  <p>Semantic publishing is only reasonable and practical if actors can express themselves and the artefact can be used, otherwise it is beneficial in theory only.</p>
-
-                  <p>There is more to simply publishing machine-readable scientific data on the Web. Analogous to the <q>FAIR principles</q> as mentioned earlier, data needs to "signal" potential opportunities for <em>reuse</em> in the most general sense, as per <cite><a href="https://www.research.manchester.ac.uk/portal/files/29982854/POST-PEER-REVIEW-NON-PUBLISHERS.PDF">Why Linked Data is Not Enough for Scientists</a></cite> (<em>Research Objects</em>).</p>
-                </div>
-              </section>
 
               <section id="registration-of-identifiers-with-social-contracts" inlist="" rel="schema:hasPart" resource="#registration-of-identifiers-with-social-contracts">
                 <h3 property="schema:name">Registration of Identifiers with Social Contracts</h3>
@@ -905,6 +909,8 @@ transform:rotate(-60deg);
               <p>Is LR a yet another model? Not exactly. Its design is in agreement with certain qualities of the existing works and practices in the wild. However, LR looks at the problem space by revisiting the characteristics of the medium, and what the actors can achieve in context of scientific communication. Arbitrary or artificial barriers are anti-patterns.</p>
 
               <p>Are there ideological and technology traps? The <em>traps</em> can be seen as analogous to McLuhan's <q>reverses into</q> effect. When the LR design principles are pushed to the extreme, highly specialised and fine-grained centralised systems can and will emerge while still operating within the larger <q>decentralised</q> system on the Web. We see this with social media [citation needed]. The degree of federation or interoperability among these systems will vary. The effects may be that of a new generation of third-party control and authority over certain information spaces. For example, just as centralised publishing and distribution services currently exist for the dominating paper-centric industry, the medium can still accommodate similar control over semantic and granular scientific resources. It is worthwhile to note that the ecosystem would only become more diverse as it expands.</p>
+
+              <p>While the criteria for publishing provided by <cite>Genuine Semantic Publishing</cite> is valuable and can also be exercised by following LR's <q>interpretable and interactive</q> design principle, we do not prescribe it in order to not conflict with the <q>freedom of expression</q> principle. If a third-party imposes a specific way to express knowledge, whether it is through file formats and their structure and semantics; what (meta)data to include or not include; or inclusion and use of interactive components; the quality of the communication will suffer because the author may have to make compromises. Information loss occurs and communication quality naturally degrades simply because what the actors wish to convey in their message, and how, will have to be filtered down in order to fit the requirements of a third-party.</p>
 
               <p>At the time of this writing, LR's principles were conceived within the Web paradigm, as opposed to the broader Internet. There are emerging technologies and platforms within the Internet which are highly specialised for security, versioning, distributed, and so forth, which give way to new possibilities on how the scholarly communication market can be realised. While this thesis fits LR's principles into particular contemporary technology stacks, this is for practical purposes and to demonstrate what can be achieved today. Nothing prevents the principles from being adopted under different environments. It is quite likely that the design philosophies of the new environments will differ.</p>
 
