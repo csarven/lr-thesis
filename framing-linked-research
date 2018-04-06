@@ -122,7 +122,7 @@ transform:rotate(-60deg);
 
         <dl id="document-modified">
           <dt>Modified</dt>
-          <dd><time content="2018-03-10T00:00:00Z" datatype="xsd:dateTime" datetime="2018-03-10T00:00:00Z" property="schema:dateModified">2018-03-10</time></dd>
+          <dd><time content="2018-04-06T00:00:00Z" datatype="xsd:dateTime" datetime="2018-04-06T00:00:00Z" property="schema:dateModified">2018-04-06</time></dd>
         </dl>
 
         <dl id="document-latest-version">
@@ -423,7 +423,7 @@ transform:rotate(-60deg);
                 
                 <p><cite><a href="http://cogprints.org/1642/1/nature4.htm">The archives-and-repositories initiative</a></cite> is primarily the act of depositing free copies of <q cite="http://www.budapestopenaccessinitiative.org/read">refereed journal articles in open electronic archives</q>. The approach for authors archives-and-repositories was initially implemented through institutional or disciplinary repositories.</p>
 
-                <p>The term <q>self-archiving</q> in context of OA differs from that of the early practices around preprint services in that there were no constraints set for the status of the scholarly literature, ie. reviewed or not. For OA-based scientific literature, certification and quality-control is a requirement, and is paired with the registration and the archive functions of a published literature. With that frame of mind, <q>self-archiving</q> was not intended to be an alias to <q>self-publishing</q>. OA can be considered to have a coupled model with respect to the <a href="#actors-and-functions">four functions in scholarly communication</a> as defined by Roosendaal and Geurts.</p>
+                <p>The term <q>self-archiving</q> in context of OA differs from that of the early practices around preprint services in that there were no constraints set for the status of the scholarly literature, ie. reviewed or not. For OA-based scientific literature, certification and quality-control is a requirement, and is paired with the registration and the archive functions of a published literature. With that frame of mind, <q>self-archiving</q> was not intended to be an alias to <q>self-publishing</q>. OA can be considered to have a coupled model with respect to the <a href="#forces-and-functions">four functions in scholarly communication</a> as defined by Roosendaal and Geurts.</p>
 
                 <p>The foundations of the OA approach were conceived at a time where major revenue models to cover publishing costs for scholarly literature was through subsidies from institutions, journal subscriptions, or pay-per-view. In this payment model, consumers of the literature were charged either individually or through institutions. In contrast, the <cite>article processing charge</cite> (<abbr title="Article Processing Charge">APC</abbr>) model requires publication costs to be covered upfront, thereby waiving the costs for the consumers of the literature. The emergence and growing use of APC model provided a stable revenue stream to <em>publishers</em> [<cite><a href="https://olh.openlibhums.org/articles/10.16995/olh.72/"></a></cite>], while the technical infrastructure remained relatively unchanged, ie. print-centric publication formats still prevail. Today, APC is the most widely used method to finance OA publishing, with varying levels of fees - averaging around 1000 USD per article [<cite><a href="https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-10-124"></a></cite>]).</p>
 
@@ -772,14 +772,32 @@ transform:rotate(-60deg);
               <section id="forces-functions-linked-research" inlist="" rel="schema:hasPart" resource="#forces-functions-linked-research">
                 <h3 property="schema:name">Forces and Functions of Linked Research</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>We first approach the functions of scholarly communication in context of the Linked Research design principles. We will revisit these functions later in the thesis as a technical response to Sompel's call to investigate <q cite="https://www.youtube.com/watch?v=o4nUe-6Ln-8&amp;t=2792">how to fulfil the core functions of scholarly communication using the technical paradigm</q> around self-publishing.</p>
+                  <p>We first approach the forces and functions of scholarly communication in context of the Linked Research design principles.</p>
+
+                  <p>The forces:</p>
+
+                  <dl id="forces-in-linked-research">
+                    <dt>Actor</dt>
+                    <dd>Any <q cite="https://www.w3.org/TR/webarch/#def-web-agent">web agent</a>—people or software acting on the information space.</dd>
+
+                    <dt>Accessibility</dt>
+                    <dd>A registered IRI for a unit of information <em class="rfc2119">SHOULD</em> resolve to an HTTP URL as per content negotiation.</dd>
+
+                    <dt>Content</dt>
+                    <dd></dd>
+
+                    <dt>Applicability</dt>
+                    <dd></dd>
+                  </dl>
 
                   <p>The functions:</p>
 
                   <dl id="functions-in-linked-research">
                     <dt>Registration</dt>
-                    <dd>Actor self-registers a URI for a unit of information, eg. for a publication, annotation) archived copy, or a notification.</dd>
-
+                    <dd>
+                      <p>Any actor <em class="rfc2119">should</em> be able to register a unit of information by associating an IRI with a distinct resource, ie. the declaration of the existence of an IRI anywhere on the Web. For example, an actor can assign an IRI for their research literature at an information space they have ownership or control, eg. personal or university website, creating an archived copy, entry in a dataset, annotated video fragment, producing notifications, or even referring to a resource that will be available in the future.</p>
+                    </dd>
+ 
                     <dt>Awareness</dt>
                     <dd>Share, annotation, outbox, scholarly activity clouds</dd>
 
@@ -790,21 +808,7 @@ transform:rotate(-60deg);
                     <dd>Self-registers automatically, archive at</dd>
                   </dl>
 
-                  <p>The forces:</p>
-
-                  <dl id="forces-in-linked-research">
-                    <dt>Actor</dt>
-                    <dd></dd>
-
-                    <dt>Accessibility</dt>
-                    <dd></dd>
-
-                    <dt>Content</dt>
-                    <dd></dd>
-
-                    <dt>Applicability</dt>
-                    <dd></dd>
-                  </dl>
+                  <p>We will revisit these functions later in the thesis as a technical response to Sompel's call to investigate <q cite="https://www.youtube.com/watch?v=o4nUe-6Ln-8&amp;t=2792">how to fulfil the core functions of scholarly communication using the technical paradigm</q> around self-publishing.</p>
                 </div>
               </section>
 
