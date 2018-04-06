@@ -231,6 +231,23 @@ transform:rotate(-60deg);
 
               <p>Berners-Lee mentions that the challenge in creating a global system was to define the basic common rules of protocol for machines to exchange information. Initially the essential parts of the Web architecture started with the <cite><a href="https://tools.ietf.org/html/rfc3986">Uniform Resource Identifier</a></cite> (<abbr title="Uniform Resource Identifier">URI</abbr>), the Hypertext Transfer Protocol (<abbr title="Hypertext Transfer Protocol">HTTP</abbr>), and the Hypertext Markup Language (<abbr title="Hypertext Markup Language">HTML</abbr>).</p>
 
+              <p>In context of the Web, anything - a resource - can be globally identified or named with a URI. The <cite><a href="https://tools.ietf.org/html/rfc3986#section-3">generic URI syntax</a></cite> is defined as follows:</p>
+
+              <pre>URI         = <span class="highlight-uri-scheme">scheme</span> ":" <span class="highlight-uri-hier-part">hier-part</span> [ "?" <span class="highlight-uri-query">query</span> ] [ "#" <span class="highlight-uri-fragment">fragment</span> ]</pre>
+
+              <p>The <span class="highlight-uri-hier-part">hierarchical part (<code>hier-part</code>)</span> is composed of <span class="highlight-uri-hier-part"><span class="highlight-uri-hier-part-authority">authority</span></span> and <span class="highlight-uri-hier-part"><span class="highlight-uri-hier-part-path">path</span></span> components. The authority component refers to the naming authority that governs the remainder of the URI (path, query, and fragment components). Some examples:</p> 
+
+              <ul>
+                <li><code><span class="highlight-uri-scheme"><span class="highlight-uri-scheme-http">http</span></span>://<span class="highlight-uri-hier-part-authority">csarven.ca</span><span class="highlight-uri-hier-part-path">/</span>#<span class="highlight-uri-fragment">i</code> (WebID)</li>
+                <li><code><span class="highlight-uri-scheme">urn</span>:<span class="highlight-uri-hier-part-authority">isbn</span>:<span class="highlight-uri-hier-part-path">9781584230700</span></code> (book identifier)</li>
+                <li><code><span class="highlight-uri-scheme">data</span>:<span class="highlight-uri-hier-part-path">image/svg+xml;base64,PD94bWwg...</span></code> (encoded image)</li>
+                <li><code><span class="highlight-uri-scheme">file</span>://<span class="highlight-uri-hier-part-path">/var/www/dokieli/index.html</span></code> (local file)</li>
+                <li><code><span class="highlight-uri-scheme">mailto</span>:<span class="highlight-uri-hier-part-authority">info@csarven.ca</span>?<span class="highlight-uri-query">subject=foo</span></code> (email address with initial header)</li>
+                <li><code><span class="highlight-uri-scheme">tel</span>:<span class="highlight-uri-hier-part-authority">+15551234567</span></code> (telephone number)</li>
+              </ul>
+
+              <p>In this thesis, we will focus mostly on URIs with the <span class="highlight-uri-scheme">"<span class="highlight-uri-scheme-http">http</span>" scheme</span>.</p>
+
               <p id="the-rule-of-least-power">On designing computer systems and choosing languages, <cite><a about="" href="http://www.w3.org/2001/tag/doc/leastPower.html" rel="cito:agreesWith">The Rule of Least Power</a></cite> by the W3C Technical Architecture Group recommends that <q cite="http://www.w3.org/2001/tag/doc/leastPower.html">when publishing on the Web, you should usually choose the least powerful or most easily analyzed language variant that’s suitable for the purpose</q>. Berners-Lee also states that declarative is preferable to a procedural language as declarative stores the data in reusable ways. For instance, <q about="" cite="http://www.w3.org/DesignIssues/Principles.html#PLP" rel="cito:agreesWith" resource="http://www.w3.org/DesignIssues/Principles.html#PLP">the Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators</q>. HTML for example not only turned out to be simple for people to author, its modularity and extensibility paved the way for many standards and language mixing, eg. CSS, JavaScript, RDFa, SVG, MathML.</p>
 
               <p id="evolvability"><em>Evolvability</em> can be seen as an attribute or a quality of a system, such that the system can survive in the long run. This is especially important when we want to have different publishing systems to be interoperable over time based on new needs. To be more specific, we should seek to employ technology stacks that are likely to handle extensions and accommodate diverse scenarios for knowledge acquisition in the future. While it is not always clear or easy to predict which technologies will persevere in the future, we can pursue features like simplicity, flexibility, decentralisation, interoperability, and tolerance. This line of thinking is expressed in Berners-Lee's Web architecture comments on the <cite><a about="" href="http://www.w3.org/DesignIssues/Evolution.html" rel="cito:agreesWith">Evolution of the Web</a></cite>.</p>
@@ -778,7 +795,7 @@ transform:rotate(-60deg);
 
                   <dl id="forces-in-linked-research">
                     <dt>Actor</dt>
-                    <dd>Any <q cite="https://www.w3.org/TR/webarch/#def-web-agent">web agent</a>—people or software acting on the information space.</dd>
+                    <dd>Any <q cite="https://www.w3.org/TR/webarch/#def-web-agent">web agent</q>—people or software acting on the information space.</dd>
 
                     <dt>Accessibility</dt>
                     <dd>A registered IRI for a unit of information <em class="rfc2119">SHOULD</em> resolve to an HTTP URL as per content negotiation.</dd>
