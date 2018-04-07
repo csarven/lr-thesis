@@ -225,8 +225,6 @@ transform:rotate(-60deg);
             <div datatype="rdf:HTML" property="schema:description">
               <p>The World Wide Web is inherently social. In <cite><a href="http://www.worldcat.org/oclc/729965164" title="Chapter 10: Web of People, p123">Weaving the Web</a></cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> states that he <q cite="http://www.worldcat.org/oclc/729965164">designed it for a social effect – to help people work together – and not as a technical toy</q>. The Web's remarkable growth is fundamentally due to its social characteristics above anything else.</p>
 
-              <p id="evolvability"><em>Evolvability</em> can be seen as an attribute or a quality of a system, such that the system can survive in the long run. This is especially important when we want to have different publishing systems to be interoperable over time based on new needs. To be more specific, we should seek to employ technology stacks that are likely to handle extensions and accommodate diverse scenarios for knowledge acquisition in the future. While it is not always clear or easy to predict which technologies will persevere in the future, we can pursue features like simplicity, flexibility, decentralisation, interoperability, and tolerance. This line of thinking is expressed in Berners-Lee's Web architecture comments on the <cite><a about="" href="http://www.w3.org/DesignIssues/Evolution.html" rel="cito:agreesWith">Evolution of the Web</a></cite>.</p>
-
               <!-- <aside class="note">
                 <p>Ironically, one of the weaknesses of the system is also the social centralisation of the Web. For instance, the domain name system is ultimately a hierarchical structure which can be brought down or controlled by an authority; states or people.</p>
               </aside> -->
@@ -237,6 +235,8 @@ transform:rotate(-60deg);
               <section id="architecture-of-the-web" inlist="" rel="schema:hasPart" resource="#architecture-of-the-web">
                 <h3 property="schema:name">Architecture of the Web</h3>
                 <div datatype="rdf:HTML" property="schema:description">
+                  <p id="evolvability"><em>Evolvability</em> can be seen as an attribute or a quality of a system, such that the system can survive in the long run. This is especially important when we want to have different publishing systems to be interoperable over time based on new needs. To be more specific, we should seek to employ technology stacks that are likely to handle extensions and accommodate diverse scenarios for knowledge acquisition in the future. While it is not always clear or easy to predict which technologies will persevere in the future, we can pursue features like simplicity, flexibility, decentralisation, interoperability, and tolerance. This line of thinking is expressed in Berners-Lee's Web architecture comments on the <cite><a about="" href="http://www.w3.org/DesignIssues/Evolution.html" rel="cito:agreesWith">Evolution of the Web</a></cite>.</p>
+
                   <p>Initially the essential parts of the Web architecture started with the <cite><a href="https://tools.ietf.org/html/rfc3986">Uniform Resource Identifier</a></cite> (<abbr title="Uniform Resource Identifier">URI</abbr>), the Hypertext Transfer Protocol (<abbr title="Hypertext Transfer Protocol">HTTP</abbr>), and the Hypertext Markup Language (<abbr title="Hypertext Markup Language">HTML</abbr>).</p>
 
                   <p>In 2004, the W3C <cite><a href="https://tag.w3.org/">Technical Architecture Group</a></cite> (<abbr title="Technical Architecture Group">TAG</abbr>) codifies the design principles, constraints, and good practice notes of the Web architecture in <cite><a href="https://www.w3.org/TR/webarch/">Architecture of the World Wide Web, Volume One</a></cite> (<abbr title="Architecture of the World Wide Web">AWWW</abbr>). It documents the three architectural bases of the Web: <q>Identification</q>, <q>Interaction</q>, <q>Data Formats</q>, and states that the specifications emerging from each may evolve independently - principle of <cite><a href="https://www.w3.org/TR/webarch/#orthogonal-specs">orthogonality</a></cite> - in order to increase the flexibility and robustness of the Web.</p>
@@ -780,6 +780,8 @@ transform:rotate(-60deg);
                       <p id="free-culture">In order to disseminate scientific information on the Web with minimal friction, usage rights and responsibilities should permit anyone to share and remix information under various conditions. We align this with existing movements like Open Science, and the <a href="https://en.wikipedia.org/wiki/Free-culture_movement">free-culture movement</a> so that both humans and machines can participate by modifying and (re)distributing units of communication without delay in the form of <q>free content and open content</q> that is network-accessible through open communication protocols. Policies about the permissions and obligations should be human and machine-interpretable to facilitate accurate, fair, secure, and privacy-aware use.</p>
 
 
+                      <p id="inclusiveness-diversity" class="todo">We incorporate inclusiveness and diversity.</p>
+
                       <h5>Web Content Accessibility</h5>
 
                       <p id="web-content-accessibility">The accessibility of units of communications can also be seen as an aim for all-inclusive design that is usable by humans with widest possible range of abilities and situations. For this, we defer to W3C's <cite><a href="https://www.w3.org/TR/WCAG/">Web Content Accessibility Guidelines</a></cite> (<abbr title="Web Content Accessibility Guidelines">WCAG</abbr>) to cover an array of recommendations to make content accessible to a wider range of people regardless of any disability, limitation, or sensitivity, through different media and interfaces. For human-centric scholarly communication to thrive, units of communication should be targeted to aim to meet highest level of conformance criteria. W3C WCAG 2.1 provides a range of guidelines that can be adopted for better content accessibility:</p>
@@ -798,7 +800,19 @@ transform:rotate(-60deg);
                         <footer><cite><a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines (WCAG) 2.1</a></cite>, W3C</footer>
                       </blockquote>
 
-                      <p id="inclusiveness-diversity" class="todo">We incorporate inclusiveness and diversity.</p>
+
+                      <h5>Authoring Tool Accessibility</h5>
+
+                      <p>In order to contribute to the proliferation of Web content that is accessible to a broad range of people, authoring tools would need to be accessible as well. The W3C <cite><a href="https://www.w3.org/TR/ATAG/">Authoring Tool Accessibility Guidelines</a></cite> (<abbr title="Authoring Tool Accessibility Guidelines">ATAG</abbr>) is a recommendation to assist with the design of authoring tools. The guidelines have a success criteria covering two areas:</p>
+
+                      <blockquote cite="http://www.w3.org/TR/ATAG20/#guidelines">
+                        <ul>
+                          <li><q>Make the authoring tool user interface accessible</q></li>
+                          <li><q>Support the production of accessible content</q></li>
+                        </ul>
+                        <footer><cite><a href="http://www.w3.org/TR/ATAG20/#guidelines">ATAG 2.0 Guidelines</a></cite>, W3C</footer>
+                      </blockquote>
+
 
                       <p><strong>Effects and Artefacts</strong>: It extends the physical, social, psychological, or intellectual function of an <em>actor</em>.</p>
                     </div>
