@@ -246,19 +246,19 @@ transform:rotate(-60deg);
                   <section id="architecture-of-the-web-identification" inlist="" rel="schema:hasPart" resource="#architecture-of-the-web-identification">
                     <h4 property="schema:name">Identification</h4>
                     <div datatype="rdf:HTML" property="schema:description">
-                      <p>In context of the Web, anything - a resource - can be globally identified or named with a URI. The <cite><a href="https://tools.ietf.org/html/rfc3986#section-3">generic URI syntax</a></cite> is defined as follows:</p>
+                      <p>In context of the Web, anything - a resource - can be globally identified or named with a URI. As per <cite><a href="https://tools.ietf.org/html/rfc3986">RFC 3986</a></cite> the <q cite="https://tools.ietf.org/html/rfc3986#section-3">generic URI syntax</q> is defined as follows:</p>
 
-                      <pre>URI         = <span class="highlight-uri-scheme">scheme</span> ":" <span class="highlight-uri-hier-part">hier-part</span> [ "?" <span class="highlight-uri-query">query</span> ] [ "#" <span class="highlight-uri-fragment">fragment</span> ]</pre>
+                      <pre><span class="highlight-uri">URI</span>         = <span class="highlight-uri-scheme">scheme</span> ":" <span class="highlight-uri-hier-part">hier-part</span> [ "?" <span class="highlight-uri-query">query</span> ] [ "#" <span class="highlight-uri-fragment">fragment</span> ]</pre>
 
                       <p>The <span class="highlight-uri-hier-part">hierarchical part (<code>hier-part</code>)</span> is composed of <span class="highlight-uri-hier-part"><span class="highlight-uri-hier-part-authority">authority</span></span> and <span class="highlight-uri-hier-part"><span class="highlight-uri-hier-part-path">path</span></span> components. The authority component refers to the naming authority that governs the remainder of the URI (path, query, and fragment components). Some examples:</p> 
 
                       <ul>
-                        <li><code><span class="highlight-uri-scheme"><span class="highlight-uri-scheme-http">http</span></span>://<span class="highlight-uri-hier-part-authority">csarven.ca</span><span class="highlight-uri-hier-part-path">/</span>#<span class="highlight-uri-fragment">i</span></code> (WebID)</li>
-                        <li><code><span class="highlight-uri-scheme">urn</span>:<span class="highlight-uri-hier-part-authority">isbn</span>:<span class="highlight-uri-hier-part-path">9781584230700</span></code> (book identifier)</li>
-                        <li><code><span class="highlight-uri-scheme">data</span>:<span class="highlight-uri-hier-part-path">image/svg+xml;base64,PD94bWwg...</span></code> (encoded image)</li>
-                        <li><code><span class="highlight-uri-scheme">file</span>://<span class="highlight-uri-hier-part-path">/var/www/dokieli/index.html</span></code> (local file)</li>
-                        <li><code><span class="highlight-uri-scheme">mailto</span>:<span class="highlight-uri-hier-part-authority">info@csarven.ca</span>?<span class="highlight-uri-query">subject=foo</span></code> (email address with initial header)</li>
-                        <li><code><span class="highlight-uri-scheme">tel</span>:<span class="highlight-uri-hier-part-authority">+15551234567</span></code> (telephone number)</li>
+                        <li><code><span class="highlight-uri"><span class="highlight-uri-scheme"><span class="highlight-uri-scheme-http">http</span></span>://<span class="highlight-uri-hier-part-authority">csarven.ca</span><span class="highlight-uri-hier-part-path">/</span>#<span class="highlight-uri-fragment">i</span></span></code> (WebID)</li>
+                        <li><code><span class="highlight-uri"><span class="highlight-uri-scheme">urn</span>:<span class="highlight-uri-hier-part-authority">isbn</span>:<span class="highlight-uri-hier-part-path">9781584230700</span></span></code> (book identifier)</li>
+                        <li><code><span class="highlight-uri"><span class="highlight-uri-scheme">data</span>:<span class="highlight-uri-hier-part-path">image/svg+xml;base64,PD94bWwg...</span></span></code> (encoded image)</li>
+                        <li><code><span class="highlight-uri"><span class="highlight-uri-scheme">file</span>://<span class="highlight-uri-hier-part-path">/var/www/dokieli/index.html</span></span></code> (local file)</li>
+                        <li><code><span class="highlight-uri"><span class="highlight-uri-scheme">mailto</span>:<span class="highlight-uri-hier-part-authority">info@csarven.ca</span>?<span class="highlight-uri-query">subject=foo</span></span></code> (email address with initial header)</li>
+                        <li><code><span class="highlight-uri"><span class="highlight-uri-scheme">tel</span>:<span class="highlight-uri-hier-part-authority">+15551234567</span></span></code> (telephone number)</li>
                       </ul>
 
                       <p>In 1996, Berners-Lee gives a set of <em>axioms</em> for URIs as the backbone of what makes the Web a universal information space:</p>
@@ -304,7 +304,9 @@ transform:rotate(-60deg);
                   <section id="architecture-of-the-web-interaction" inlist="" rel="schema:hasPart" resource="#architecture-of-the-web-interaction">
                     <h4 property="schema:name">Interaction</h4>
                     <div datatype="rdf:HTML" property="schema:description">
-                      <p>...</p>
+                      <p>HTTP...</p>
+
+                      <p id="open-web-platform">Today, Web browsers provide a basis for many forms of human and machine communication. In essence, Web browser is one of the most widely used platforms where a collection of Internet and Web standards are materialised. The goal of the <cite><a href="https://www.w3.org/2001/tag/doc/IAB_Prague_2011_slides.html#owp">Open Web Platform</a></cite> (<abbr title="Open Web Platform">OWP</abbr>) is to advance such standards so that technologies like the Web browser can help us communicate better in the global information space, and specifically the interplay of forces and functions of scholarly communication.</p>
                     </div>
                   </section>
 
@@ -316,7 +318,6 @@ transform:rotate(-60deg);
                       <p id="the-rule-of-least-power">On designing computer systems and choosing languages, <cite><a about="" href="http://www.w3.org/2001/tag/doc/leastPower.html" rel="cito:agreesWith">The Rule of Least Power</a></cite> by the W3C Technical Architecture Group recommends that <q cite="http://www.w3.org/2001/tag/doc/leastPower.html">when publishing on the Web, you should usually choose the least powerful or most easily analyzed language variant that’s suitable for the purpose</q>. Berners-Lee also states that declarative is preferable to a procedural language as declarative stores the data in reusable ways. For instance, <q about="" cite="http://www.w3.org/DesignIssues/Principles.html#PLP" rel="cito:agreesWith" resource="http://www.w3.org/DesignIssues/Principles.html#PLP">the Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators</q>. HTML for example not only turned out to be simple for people to author, its modularity and extensibility paved the way for many standards and language mixing, eg. CSS, JavaScript, RDFa, SVG, MathML.</p>
                     </div>
                   </section>
-
                 </div>
               </section>
 
@@ -324,19 +325,13 @@ transform:rotate(-60deg);
               <section id="linked-data">
                 <h3 property="schema:name">Linked Data</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>These initiatives are eventually manifested with the <q>Linked Data</q> design principles towards building a <em>Semantic Web</em> where humans and machines can explore the Web of data:</p>
+                  <p>The Web architecture initially used HTML as the language to represent and connect hypertext documents with one another. HTML's success is indisputable today, and that's perhaps due to its simplicity and flexibility. While the HTML specification continues to evolve by reflecting the needs of the Web, by design it is scoped to creating Web documents and applications.</p>
 
-                  <blockquote cite="https://www.w3.org/DesignIssues/LinkedData.html">
-                    <ol>
-                      <li>Use URIs as names for things</li>
-                      <li>Use HTTP URIs so that people can look up those names.</li>
-                      <li>When someone looks up a URI, provide useful information, using the standards (RDF*, SPARQL)</li>
-                      <li>Include links to other URIs. so that they can discover more things.</li>
-                    </ol>
-                    <footer><cite><a href="https://www.w3.org/DesignIssues/LinkedData.html">Linked Data - Design Issues</a></cite>, 2006</footer>
-                  </blockquote>
+                  <p>However, the potential mechanism (<em>language</em>) <q>to describe the interrelationships between things</q> as originally proposed in <cite><a href="https://www.w3.org/History/1989/proposal.html">Information Management: A Proposal</a></cite> was not realised until the <cite><a href="http://www.w3.org/TR/rdf11-concepts">Resource Description Framework</a></cite> (<abbr title="Resource Description Framework">RDF</abbr>) came along. RDF is a constructed machine-interpretable language to describe and interlink arbitrary things at any level of abstraction on the Web, and reuses the existing architecture of the Web. Conceptually, RDF was in the fabric of the Web from the start. By comparison, HTML at core is a terse approach to representing knowledge.</p>
 
-                  <p id="rdf">The <cite><a href="http://www.w3.org/TR/rdf11-concepts">Resource Description Framework</a></cite> (<abbr title="Resource Description Framework">RDF</abbr>) is a constructed machine-interpretable <em>language</em> to represent information on the Web. Statements can be expressed in RDF in the form of triples: <span class="highlight-language-statement"><span class="highlight-language-subject">subject</span>, <span class="highlight-language-predicate">predicate</span>, <span class="highlight-language-object">object</span></span>, where:</p>
+                  <p id="aaa">By design, the Web works by <q cite="https://www.w3.org/DesignIssues/RDFnot.html#ER">anyone being (technically) allowed to say anything about anything</q> (<abbr title="Anyone can say Anything about Anything">AAA</abbr>). One consequence of AAA is that, while systems (and reasoners within) can operate under both the <cite><a href="https://en.wikipedia.org/wiki/Open-world_assumption">open-world assumption</a></cite> (<abbr title="Open-world Assumption">OWA</abbr>) or the <cite><a href="https://en.wikipedia.org/wiki/Closed-world_assumption">closed-world assumption</a></cite> (<abbr title="Closed-world Assumption">CWA</abbr>), the Web ultimately uses the OWA framework because new knowledge can always make its way into the system, and lack of it [knowledge] does not imply falsity. RDF applies a particular restriction of the AAA principle in that nonsensical, inconsistent, or conflicting information can be created or inferred. It is up to processing applications to determine their confidence on the information.</p>
+
+                  <p><em>Statements</em> in RDF can be expressed in the form of <em>triples</em>: <span class="highlight-language-statement"><span class="highlight-language-subject">subject</span>, <span class="highlight-language-predicate">predicate</span>, <span class="highlight-language-object">object</span></span>, where:</p>
 
                   <blockquote cite="https://www.w3.org/TR/rdf11-concepts/#section-triples">
                     <ul>
@@ -381,14 +376,22 @@ transform:rotate(-60deg);
                       <p><cite><a href="https://en.wikipedia.org/wiki/Natural-language_processing">Natural-language processing</a></cite> (<abbr title="Natural Language Processing">NLP</abbr>) is an area of study concerned with making sense of data that's represented in natural language. The NLP approach would have a different way of making sense of "<span class="highlight-language-subject">Otlet</span>" (a noun) than the declaratively marked noun in RDF using the <span class="highlight-language-subject">IRI for Otlet</span>.</p>
                     </div>
                   </div>
+
+                  <p>In order to address different system and interface needs, different syntaxes for RDF emerged over time, eg. <cite><a href="https://www.w3.org/TR/rdf-syntax-grammar/">RDF/XML</a></cite> as the grammar to define the <cite><a href="https://www.w3.org/TR/xml/">XML</a></cite> syntax for RDF graphs; <cite><a href="https://www.w3.org/TR/turtle/">Turtle</a></cite> as the syntax in the natural text form, <cite><a href="https://www.w3.org/TR/rdfa-core/">RDFa</a></cite> to express RDF statements in markup languages, <cite><a href="http://www.w3.org/TR/json-ld/">JSON-LD</a></cite> to serialize RDF in <cite><a href="https://tools.ietf.org/html/rfc4627">JSON</a></cite>.</p>
+
+                  <p>These initiatives are eventually manifested with the <q>Linked Data</q> design principles towards building a <em>Semantic Web</em> where humans and machines can explore the Web of data:</p>
+
+                  <blockquote cite="https://www.w3.org/DesignIssues/LinkedData.html">
+                    <ol>
+                      <li>Use URIs as names for things</li>
+                      <li>Use HTTP URIs so that people can look up those names.</li>
+                      <li>When someone looks up a URI, provide useful information, using the standards (RDF*, SPARQL)</li>
+                      <li>Include links to other URIs. so that they can discover more things.</li>
+                    </ol>
+                    <footer><cite><a href="https://www.w3.org/DesignIssues/LinkedData.html">Linked Data - Design Issues</a></cite>, 2006</footer>
+                  </blockquote>
                 </div>
               </section>
-
-              <p>By design, the Web works by <q cite="https://www.w3.org/DesignIssues/RDFnot.html#ER">anyone being (technically) allowed to say anything about anything</q> (<abbr title="Anyone can say Anything about Anything">AAA</abbr>). One consequence of AAA is that, while systems (and reasoners within) can operate under both the <cite><a href="https://en.wikipedia.org/wiki/Open-world_assumption">open-world assumption</a></cite> (<abbr title="Open-world Assumption">OWA</abbr>) or the <cite><a href="https://en.wikipedia.org/wiki/Closed-world_assumption">closed-world assumption</a></cite> (<abbr title="Closed-world Assumption">CWA</abbr>), the Web ultimately uses the OWA framework because new knowledge can always make its way into the system, and lack of it [knowledge] does not imply falsity. The statements that can be expressed in RDF is a particular restriction of the AAA principle in that nonsensical, inconsistent, or conflicting information can be created or inferred. It is up to the processing applications to determine their confidence on what's at their disposal.</p>
-
-              <p>Even before the formalisation of RDF concepts and abstract syntax, it was conceptually in the fabric of interconnecting "things" on the Web as originally proposed in <cite><a href="https://www.w3.org/History/1989/proposal.html">Information Management: A Proposal</a></cite>. Initially the Web architecture used HTML as the language to represent and connect hypertext documents with one another. The success of HTML is indisputable today perhaps partly due to the language of the design being "least powerful". While the HTML specification evolved over the years, conceptually it was scoped to describing <em>documents</em> on the Web. With the RDF language coming in and reusing the existing architecture of the Web, it made it possible to describe and interlink <em>data</em> (arbitrary <em>things</em>) on the Web. Different ways to encode RDF emerged over time; initially a terse approach in HTML which provided a both human and machine-readable way to express and act on knowledge. Then came the richer syntaxes, along with the use of vocabularies and ontologies, in order to address different system and interface needs eg. RDF/XML, Turtle, RDFa, JSON-LD.</p>
-
-              <p id="open-web-platform">Today, Web browsers provide a basis for many forms of human and machine communication. In essence, Web browser is one of the most widely used platforms where a collection of Internet and Web standards are materialised. The goal of the <cite><a href="https://www.w3.org/2001/tag/doc/IAB_Prague_2011_slides.html#owp">Open Web Platform</a></cite> (<abbr title="Open Web Platform">OWP</abbr>) is to advance such standards so that technologies like the Web browser can help us communicate better in the global information space, and specifically the interplay of forces and functions of scholarly communication.</p>
 
               <section id="web-science" inlist="" rel="schema:hasPart" resource="#web-science">
                 <h3 property="schema:name">Web Science</h3>
