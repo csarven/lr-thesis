@@ -225,160 +225,201 @@ transform:rotate(-60deg);
             <div datatype="rdf:HTML" property="schema:description">
               <p>The World Wide Web is inherently social. In <cite><a href="http://www.worldcat.org/oclc/729965164" title="Chapter 10: Web of People, p123">Weaving the Web</a></cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> states that he <q cite="http://www.worldcat.org/oclc/729965164">designed it for a social effect – to help people work together – and not as a technical toy</q>. The Web's remarkable growth is fundamentally due to its social characteristics above anything else.</p>
 
-              <aside class="note">
-                <p>Ironically, one of the weaknesses of the system is also the social centralisation of the Web. For instance, the domain name system is ultimately a hierarchical structure which can be brought down or controlled by an authority; states or people.</p>
-              </aside>
-
-              <p>Berners-Lee mentions that the challenge in creating a global system was to define the basic common rules of protocol for machines to exchange information. Initially the essential parts of the Web architecture started with the <cite><a href="https://tools.ietf.org/html/rfc3986">Uniform Resource Identifier</a></cite> (<abbr title="Uniform Resource Identifier">URI</abbr>), the Hypertext Transfer Protocol (<abbr title="Hypertext Transfer Protocol">HTTP</abbr>), and the Hypertext Markup Language (<abbr title="Hypertext Markup Language">HTML</abbr>).</p>
-
-              <p>In context of the Web, anything - a resource - can be globally identified or named with a URI. The <cite><a href="https://tools.ietf.org/html/rfc3986#section-3">generic URI syntax</a></cite> is defined as follows:</p>
-
-              <pre>URI         = <span class="highlight-uri-scheme">scheme</span> ":" <span class="highlight-uri-hier-part">hier-part</span> [ "?" <span class="highlight-uri-query">query</span> ] [ "#" <span class="highlight-uri-fragment">fragment</span> ]</pre>
-
-              <p>The <span class="highlight-uri-hier-part">hierarchical part (<code>hier-part</code>)</span> is composed of <span class="highlight-uri-hier-part"><span class="highlight-uri-hier-part-authority">authority</span></span> and <span class="highlight-uri-hier-part"><span class="highlight-uri-hier-part-path">path</span></span> components. The authority component refers to the naming authority that governs the remainder of the URI (path, query, and fragment components). Some examples:</p> 
-
-              <ul>
-                <li><code><span class="highlight-uri-scheme"><span class="highlight-uri-scheme-http">http</span></span>://<span class="highlight-uri-hier-part-authority">csarven.ca</span><span class="highlight-uri-hier-part-path">/</span>#<span class="highlight-uri-fragment">i</code> (WebID)</li>
-                <li><code><span class="highlight-uri-scheme">urn</span>:<span class="highlight-uri-hier-part-authority">isbn</span>:<span class="highlight-uri-hier-part-path">9781584230700</span></code> (book identifier)</li>
-                <li><code><span class="highlight-uri-scheme">data</span>:<span class="highlight-uri-hier-part-path">image/svg+xml;base64,PD94bWwg...</span></code> (encoded image)</li>
-                <li><code><span class="highlight-uri-scheme">file</span>://<span class="highlight-uri-hier-part-path">/var/www/dokieli/index.html</span></code> (local file)</li>
-                <li><code><span class="highlight-uri-scheme">mailto</span>:<span class="highlight-uri-hier-part-authority">info@csarven.ca</span>?<span class="highlight-uri-query">subject=foo</span></code> (email address with initial header)</li>
-                <li><code><span class="highlight-uri-scheme">tel</span>:<span class="highlight-uri-hier-part-authority">+15551234567</span></code> (telephone number)</li>
-              </ul>
-
-              <p>In this thesis, we will focus mostly on URIs with the <span class="highlight-uri-scheme">"<span class="highlight-uri-scheme-http">http</span>" scheme</span>.</p>
-
-              <p id="the-rule-of-least-power">On designing computer systems and choosing languages, <cite><a about="" href="http://www.w3.org/2001/tag/doc/leastPower.html" rel="cito:agreesWith">The Rule of Least Power</a></cite> by the W3C Technical Architecture Group recommends that <q cite="http://www.w3.org/2001/tag/doc/leastPower.html">when publishing on the Web, you should usually choose the least powerful or most easily analyzed language variant that’s suitable for the purpose</q>. Berners-Lee also states that declarative is preferable to a procedural language as declarative stores the data in reusable ways. For instance, <q about="" cite="http://www.w3.org/DesignIssues/Principles.html#PLP" rel="cito:agreesWith" resource="http://www.w3.org/DesignIssues/Principles.html#PLP">the Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators</q>. HTML for example not only turned out to be simple for people to author, its modularity and extensibility paved the way for many standards and language mixing, eg. CSS, JavaScript, RDFa, SVG, MathML.</p>
-
               <p id="evolvability"><em>Evolvability</em> can be seen as an attribute or a quality of a system, such that the system can survive in the long run. This is especially important when we want to have different publishing systems to be interoperable over time based on new needs. To be more specific, we should seek to employ technology stacks that are likely to handle extensions and accommodate diverse scenarios for knowledge acquisition in the future. While it is not always clear or easy to predict which technologies will persevere in the future, we can pursue features like simplicity, flexibility, decentralisation, interoperability, and tolerance. This line of thinking is expressed in Berners-Lee's Web architecture comments on the <cite><a about="" href="http://www.w3.org/DesignIssues/Evolution.html" rel="cito:agreesWith">Evolution of the Web</a></cite>.</p>
 
-              <p>In 1996, Berners-Lee gives a set of <em>axioms</em> for URIs as the backbone of what makes the Web a universal information space:</p>
+              <!-- <aside class="note">
+                <p>Ironically, one of the weaknesses of the system is also the social centralisation of the Web. For instance, the domain name system is ultimately a hierarchical structure which can be brought down or controlled by an authority; states or people.</p>
+              </aside> -->
 
-              <blockquote cite="https://www.w3.org/DesignIssues/Axioms.html#uri">
-                <dl>
-                  <dt>Axiom 0: Universality 1</dt>
-                  <dd>Any resource anywhere can be given a URI</dd>
+              <p>Berners-Lee mentions that the challenge in creating a global system was to define the basic common rules of protocol for machines to exchange information.</p>
 
-                  <dt>Axiom 0a: Universality 2</dt>
-                  <dd>Any resource of significance should be given a URI.</dd>
 
-                  <dt>Axiom 1: Global scope</dt>
-                  <dd>It doesn't matter to whom or where you specify that URI, it will have the same meaning.</dd>
+              <section id="architecture-of-the-web" inlist="" rel="schema:hasPart" resource="#architecture-of-the-web">
+                <h3 property="schema:name">Architecture of the Web</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>Initially the essential parts of the Web architecture started with the <cite><a href="https://tools.ietf.org/html/rfc3986">Uniform Resource Identifier</a></cite> (<abbr title="Uniform Resource Identifier">URI</abbr>), the Hypertext Transfer Protocol (<abbr title="Hypertext Transfer Protocol">HTTP</abbr>), and the Hypertext Markup Language (<abbr title="Hypertext Markup Language">HTML</abbr>).</p>
 
-                  <dt>Axiom 2a: sameness</dt>
-                  <dd>a URI will repeatably refer to "the same" thing</dd>
+                  <p>In 2004, the W3C <cite><a href="https://tag.w3.org/">Technical Architecture Group</a></cite> (<abbr title="Technical Architecture Group">TAG</abbr>) codifies the design principles, constraints, and good practice notes of the Web architecture in <cite><a href="https://www.w3.org/TR/webarch/">Architecture of the World Wide Web, Volume One</a></cite> (<abbr title="Architecture of the World Wide Web">AWWW</abbr>). It documents the three architectural bases of the Web: <q>Identification</q>, <q>Interaction</q>, <q>Data Formats</q>, and states that the specifications emerging from each may evolve independently - principle of <cite><a href="https://www.w3.org/TR/webarch/#orthogonal-specs">orthogonality</a></cite> - in order to increase the flexibility and robustness of the Web.</p>
 
-                  <dt>Axiom 2b: identity</dt>
-                  <dd>the significance of identity for a given URI is determined by the person who owns the URI, who first determined what it points to.</dd>
-                </dl>
+                  <!-- https://www.w3.org/TR/webarch/#general -->
 
-                <footer><cite><a href="https://www.w3.org/DesignIssues/Axioms.html#uri" rel="cito:includesQuotationFrom">Universal Resource Identifiers -- Axioms of Web Architecture</a></cite></footer>
-              </blockquote>
+                  <section id="architecture-of-the-web-identification" inlist="" rel="schema:hasPart" resource="#architecture-of-the-web-identification">
+                    <h4 property="schema:name">Identification</h4>
+                    <div datatype="rdf:HTML" property="schema:description">
+                      <p>In context of the Web, anything - a resource - can be globally identified or named with a URI. The <cite><a href="https://tools.ietf.org/html/rfc3986#section-3">generic URI syntax</a></cite> is defined as follows:</p>
 
-              <p>URIs makes it possible for real or abstract objects to be identified. When HTTP URIs are dereferenced different representations (data formats) are made available from corresponding <cite><a href="https://tools.ietf.org/html/rfc1738">Uniform Resource Locators</a></cite> (<abbr title="Uniform Resource Locator">URL</abbr>). While URIs makes it possible to identify (name) things on the Web, URLs make it possible for humans and machines to locate and to interact further with content. This paves the way for resources to have a presentation as well as controls such that the information provides the affordances for users of the system to take further actions. When machines are also equipped with the knowledge of handling data formats and their relationships, automated information discovery and creation can be carried out.</p>
+                      <pre>URI         = <span class="highlight-uri-scheme">scheme</span> ":" <span class="highlight-uri-hier-part">hier-part</span> [ "?" <span class="highlight-uri-query">query</span> ] [ "#" <span class="highlight-uri-fragment">fragment</span> ]</pre>
 
-              <p>We refer to W3C's <cite><a href="https://www.w3.org/TR/uri-clarification/">URIs, URLs, and URNs: Clarifications and Recommendations 1.0</a></cite> definitions from 2001:</p>
+                      <p>The <span class="highlight-uri-hier-part">hierarchical part (<code>hier-part</code>)</span> is composed of <span class="highlight-uri-hier-part"><span class="highlight-uri-hier-part-authority">authority</span></span> and <span class="highlight-uri-hier-part"><span class="highlight-uri-hier-part-path">path</span></span> components. The authority component refers to the naming authority that governs the remainder of the URI (path, query, and fragment components). Some examples:</p> 
 
-              <dl id="uri-url-urn">
-                <dt>URI</dt>
-                <dd>Any type of identifier for a Web resource, eg. an HTTP URI.</dd>
-                <dt>URL</dt>
-                <dd>Any type of URI that can be resolved or dereferenced to locate a representation, eg. an HTTP URI is a URL.</dd>
-                <dt>URN</dt>
-                <dd>A specific type of URI that persistently identifies a resource. Once assigned to a resource, it cannot be reassigned.</dd>
-              </dl>
+                      <ul>
+                        <li><code><span class="highlight-uri-scheme"><span class="highlight-uri-scheme-http">http</span></span>://<span class="highlight-uri-hier-part-authority">csarven.ca</span><span class="highlight-uri-hier-part-path">/</span>#<span class="highlight-uri-fragment">i</span></code> (WebID)</li>
+                        <li><code><span class="highlight-uri-scheme">urn</span>:<span class="highlight-uri-hier-part-authority">isbn</span>:<span class="highlight-uri-hier-part-path">9781584230700</span></code> (book identifier)</li>
+                        <li><code><span class="highlight-uri-scheme">data</span>:<span class="highlight-uri-hier-part-path">image/svg+xml;base64,PD94bWwg...</span></code> (encoded image)</li>
+                        <li><code><span class="highlight-uri-scheme">file</span>://<span class="highlight-uri-hier-part-path">/var/www/dokieli/index.html</span></code> (local file)</li>
+                        <li><code><span class="highlight-uri-scheme">mailto</span>:<span class="highlight-uri-hier-part-authority">info@csarven.ca</span>?<span class="highlight-uri-query">subject=foo</span></code> (email address with initial header)</li>
+                        <li><code><span class="highlight-uri-scheme">tel</span>:<span class="highlight-uri-hier-part-authority">+15551234567</span></code> (telephone number)</li>
+                      </ul>
 
-              <p>In 2004, the W3C <cite><a href="https://tag.w3.org/">Technical Architecture Group</a></cite> (<abbr title="Technical Architecture Group">TAG</abbr>) codifies the design principles, constraints, and good practice notes of the Web architecture in <cite><a href="https://www.w3.org/TR/webarch/">Architecture of the World Wide Web, Volume One</a></cite> (<abbr title="Architecture of the World Wide Web">AWWW</abbr>). It documents the three architectural bases of the Web: <q>Identification</q>, <q>Interaction</q>, <q>Formats</q>, and states that the specifications emerging from each may evolve independently - principle of <cite><a href="https://www.w3.org/TR/webarch/#orthogonal-specs">orthogonality</a></cite> - in order to increase the flexibility and robustness of the Web.</p>
+                      <p>In 1996, Berners-Lee gives a set of <em>axioms</em> for URIs as the backbone of what makes the Web a universal information space:</p>
 
-              <p>These initiatives are eventually manifested with the <q>Linked Data</q> design principles towards building a <em>Semantic Web</em> where humans and machines can explore the Web of data:</p>
+                      <blockquote cite="https://www.w3.org/DesignIssues/Axioms.html#uri">
+                        <dl>
+                          <dt>Axiom 0: Universality 1</dt>
+                          <dd>Any resource anywhere can be given a URI</dd>
 
-              <blockquote cite="https://www.w3.org/DesignIssues/LinkedData.html">
-                <ol>
-                  <li>Use URIs as names for things</li>
-                  <li>Use HTTP URIs so that people can look up those names.</li>
-                  <li>When someone looks up a URI, provide useful information, using the standards (RDF*, SPARQL)</li>
-                  <li>Include links to other URIs. so that they can discover more things.</li>
-                </ol>
-                <footer><cite><a href="https://www.w3.org/DesignIssues/LinkedData.html">Linked Data - Design Issues</a></cite>, 2006</footer>
-              </blockquote>
+                          <dt>Axiom 0a: Universality 2</dt>
+                          <dd>Any resource of significance should be given a URI.</dd>
 
-              <p id="rdf">The <cite><a href="http://www.w3.org/TR/rdf11-concepts">Resource Description Framework</a></cite> (<abbr title="Resource Description Framework">RDF</abbr>) is a constructed machine-interpretable <em>language</em> to represent information on the Web. Statements can be expressed in RDF in the form of triples: <span class="highlight-language-statement"><span class="highlight-language-subject">subject</span>, <span class="highlight-language-predicate">predicate</span>, <span class="highlight-language-object">object</span></span>, where:</p>
+                          <dt>Axiom 1: Global scope</dt>
+                          <dd>It doesn't matter to whom or where you specify that URI, it will have the same meaning.</dd>
 
-              <blockquote cite="https://www.w3.org/TR/rdf11-concepts/#section-triples">
-                <ul>
-                  <li class="highlight-language-subject">the <dfn id="dfn-subject">subject</dfn>, which is an <abbr title="Internationalized Resource Identifier">IRI</abbr> or a blank node</li>
-                  <li class="highlight-language-predicate">the <dfn id="dfn-predicate">predicate</dfn>, which is an IRI</li>
-                  <li class="highlight-language-object">the <dfn id="dfn-object">object</dfn>, which is an IRI, a literal or a blank node</li>
-                </ul>
+                          <dt>Axiom 2a: sameness</dt>
+                          <dd>a URI will repeatably refer to "the same" thing</dd>
 
-                <footer><cite>RDF 1.1 Concepts and Abstract Syntax, <a href="https://www.w3.org/TR/rdf11-concepts/#section-triples">Triples</a></cite></footer>
-              </blockquote>
+                          <dt>Axiom 2b: identity</dt>
+                          <dd>the significance of identity for a given URI is determined by the person who owns the URI, who first determined what it points to.</dd>
+                        </dl>
 
-              <p>The <cite><a href="https://tools.ietf.org/html/rfc3987">International Resource Identifier</a></cite> (<abbr title="International Resource Identifiers">IRI</abbr>) is a generalisation of URI (US-ASCII) in that a wider character set (Unicode/ISO 10646) can be used to identify resources on the Web. A Blank node (anonymous resource) is a local identifier scoped to the context it is used in, eg. file, RDF store, and they are not intended to be persistent or portable. Literals are used for values like strings, numbers, and dates.</p>
+                        <footer><cite><a href="https://www.w3.org/DesignIssues/Axioms.html#uri" rel="cito:includesQuotationFrom">Universal Resource Identifiers -- Axioms of Web Architecture</a></cite></footer>
+                      </blockquote>
 
-              <p id="rdf-graph-theory">A set of triples in RDF (an <cite>RDF Graph</cite>) can be represented as a directed edge-labelled graph: <math alttext="upper G equals left-parenthesis upper V comma upper L comma upper E right-parenthesis" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>G</mi><mo>=</mo><mrow><mo>(</mo><mi>V</mi><mo>,</mo><mi>L</mi><mo>,</mo><mi>E</mi><mo>)</mo></mrow></mrow></math>, where <math alttext="upper V" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>V</mi></mrow></math> is the set of <e>vertices</e> (union of subject and object terms), <math alttext="upper L" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>L</mi></mrow></math> is a set of edges labels (predicate terms), and <math alttext="upper E" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>E</mi></mrow></math> contains triples from <math alttext="upper V vector-or-cross-product upper L vector-or-cross-product upper V" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>V</mi><mo>&#x2a2f;</mo><mi>L</mi><mo>&#x2a2f;</mo><mi>V</mi></mrow></math>. A subject may have several predicates, and predicates can also be mapped to subjects given that they have their own identity.</p>
+                      <p>URIs makes it possible for real or abstract objects to be identified. When HTTP URIs are dereferenced different representations (data formats) are made available from corresponding <cite><a href="https://tools.ietf.org/html/rfc1738">Uniform Resource Locators</a></cite> (<abbr title="Uniform Resource Locator">URL</abbr>). While URIs makes it possible to identify (name) things on the Web, URLs make it possible for humans and machines to locate and to interact further with content. This paves the way for resources to have a presentation as well as controls such that the information provides the affordances for users of the system to take further actions. When machines are also equipped with the knowledge of handling data formats and their relationships, automated information discovery and creation can be carried out.</p>
 
-              <p>The structure of RDF statements is similar to:</p>
+                      <p>We refer to W3C's <cite><a href="https://www.w3.org/TR/uri-clarification/">URIs, URLs, and URNs: Clarifications and Recommendations 1.0</a></cite> definitions from 2001:</p>
 
-              <ul>
-                <li>the <cite><a href="https://en.wikipedia.org/wiki/Subject%E2%80%93verb%E2%80%93object">subject–verb–object</a></cite> sentence structure in <cite><a href="https://en.wikipedia.org/wiki/Linguistic_typology">linguistic typology</a></cite> - used by nearly half of human languages</li>
-                <li>the <cite><a href="https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model">entity–attribute–value</a></cite> (<abbr title="entity–attribute–value">EAV</abbr>) model - widely used for advanced (meta)data modeling</li>
-              </ul>
+                      <dl id="uri-url-urn">
+                        <dt>URI</dt>
+                        <dd>Any type of identifier for a Web resource, eg. an HTTP URI.</dd>
+                        <dt>URL</dt>
+                        <dd>Any type of URI that can be resolved or dereferenced to locate a representation, eg. an HTTP URI is a URL.</dd>
+                        <dt>URN</dt>
+                        <dd>A specific type of URI that persistently identifies a resource. Once assigned to a resource, it cannot be reassigned.</dd>
+                      </dl>
 
-              <p>We can represent the sentence "<span class="highlight-language-statement"><span class="highlight-language-subject">Otlet</span> <span class="highlight-language-predicate">influenced</span> <span class="highlight-language-object">Berners-Lee</span></span>" in one of the RDF syntaxes as follows:</p>
+                      <p>In this thesis, we will focus mostly on URIs with the <span class="highlight-uri-scheme">"<span class="highlight-uri-scheme-http">http</span>" scheme</span>.</p>
+                    </div>
+                  </section>
 
-              <pre><span class="highlight-language-statement">&lt;<span class="highlight-language-subject" title="subject">http://dbpedia.org/resource/<strong>Paul_Otlet</strong></span>&gt;
+                  <section id="architecture-of-the-web-interaction" inlist="" rel="schema:hasPart" resource="#architecture-of-the-web-interaction">
+                    <h4 property="schema:name">Interaction</h4>
+                    <div datatype="rdf:HTML" property="schema:description">
+                      <p>...</p>
+                    </div>
+                  </section>
+
+                  <section id="architecture-of-the-web-data-formats" inlist="" rel="schema:hasPart" resource="#architecture-of-the-web-data-formats">
+                    <h4 property="schema:name">Data Formats</h4>
+                    <div datatype="rdf:HTML" property="schema:description">
+
+
+                      <p id="the-rule-of-least-power">On designing computer systems and choosing languages, <cite><a about="" href="http://www.w3.org/2001/tag/doc/leastPower.html" rel="cito:agreesWith">The Rule of Least Power</a></cite> by the W3C Technical Architecture Group recommends that <q cite="http://www.w3.org/2001/tag/doc/leastPower.html">when publishing on the Web, you should usually choose the least powerful or most easily analyzed language variant that’s suitable for the purpose</q>. Berners-Lee also states that declarative is preferable to a procedural language as declarative stores the data in reusable ways. For instance, <q about="" cite="http://www.w3.org/DesignIssues/Principles.html#PLP" rel="cito:agreesWith" resource="http://www.w3.org/DesignIssues/Principles.html#PLP">the Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators</q>. HTML for example not only turned out to be simple for people to author, its modularity and extensibility paved the way for many standards and language mixing, eg. CSS, JavaScript, RDFa, SVG, MathML.</p>
+                    </div>
+                  </section>
+
+                </div>
+              </section>
+
+
+              <section id="linked-data">
+                <h3 property="schema:name">Linked Data</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>These initiatives are eventually manifested with the <q>Linked Data</q> design principles towards building a <em>Semantic Web</em> where humans and machines can explore the Web of data:</p>
+
+                  <blockquote cite="https://www.w3.org/DesignIssues/LinkedData.html">
+                    <ol>
+                      <li>Use URIs as names for things</li>
+                      <li>Use HTTP URIs so that people can look up those names.</li>
+                      <li>When someone looks up a URI, provide useful information, using the standards (RDF*, SPARQL)</li>
+                      <li>Include links to other URIs. so that they can discover more things.</li>
+                    </ol>
+                    <footer><cite><a href="https://www.w3.org/DesignIssues/LinkedData.html">Linked Data - Design Issues</a></cite>, 2006</footer>
+                  </blockquote>
+
+                  <p id="rdf">The <cite><a href="http://www.w3.org/TR/rdf11-concepts">Resource Description Framework</a></cite> (<abbr title="Resource Description Framework">RDF</abbr>) is a constructed machine-interpretable <em>language</em> to represent information on the Web. Statements can be expressed in RDF in the form of triples: <span class="highlight-language-statement"><span class="highlight-language-subject">subject</span>, <span class="highlight-language-predicate">predicate</span>, <span class="highlight-language-object">object</span></span>, where:</p>
+
+                  <blockquote cite="https://www.w3.org/TR/rdf11-concepts/#section-triples">
+                    <ul>
+                      <li class="highlight-language-subject">the <dfn id="dfn-subject">subject</dfn>, which is an <abbr title="Internationalized Resource Identifier">IRI</abbr> or a blank node</li>
+                      <li class="highlight-language-predicate">the <dfn id="dfn-predicate">predicate</dfn>, which is an IRI</li>
+                      <li class="highlight-language-object">the <dfn id="dfn-object">object</dfn>, which is an IRI, a literal or a blank node</li>
+                    </ul>
+
+                    <footer><cite>RDF 1.1 Concepts and Abstract Syntax, <a href="https://www.w3.org/TR/rdf11-concepts/#section-triples">Triples</a></cite></footer>
+                  </blockquote>
+
+                  <p>The <cite><a href="https://tools.ietf.org/html/rfc3987">International Resource Identifier</a></cite> (<abbr title="International Resource Identifiers">IRI</abbr>) is a generalisation of URI (US-ASCII) in that a wider character set (Unicode/ISO 10646) can be used to identify resources on the Web. A Blank node (anonymous resource) is a local identifier scoped to the context it is used in, eg. file, RDF store, and they are not intended to be persistent or portable. Literals are used for values like strings, numbers, and dates.</p>
+
+                  <p id="rdf-graph-theory">A set of triples in RDF (an <cite>RDF Graph</cite>) can be represented as a directed edge-labelled graph: <math alttext="upper G equals left-parenthesis upper V comma upper L comma upper E right-parenthesis" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>G</mi><mo>=</mo><mrow><mo>(</mo><mi>V</mi><mo>,</mo><mi>L</mi><mo>,</mo><mi>E</mi><mo>)</mo></mrow></mrow></math>, where <math alttext="upper V" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>V</mi></mrow></math> is the set of <e>vertices</e> (union of subject and object terms), <math alttext="upper L" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>L</mi></mrow></math> is a set of edges labels (predicate terms), and <math alttext="upper E" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>E</mi></mrow></math> contains triples from <math alttext="upper V vector-or-cross-product upper L vector-or-cross-product upper V" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>V</mi><mo>&#x2a2f;</mo><mi>L</mi><mo>&#x2a2f;</mo><mi>V</mi></mrow></math>. A subject may have several predicates, and predicates can also be mapped to subjects given that they have their own identity.</p>
+
+                  <p>The structure of RDF statements is similar to:</p>
+
+                  <ul>
+                    <li>the <cite><a href="https://en.wikipedia.org/wiki/Subject%E2%80%93verb%E2%80%93object">subject–verb–object</a></cite> sentence structure in <cite><a href="https://en.wikipedia.org/wiki/Linguistic_typology">linguistic typology</a></cite> - used by nearly half of human languages</li>
+                    <li>the <cite><a href="https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model">entity–attribute–value</a></cite> (<abbr title="entity–attribute–value">EAV</abbr>) model - widely used for advanced (meta)data modeling</li>
+                  </ul>
+
+                  <p>We can represent the sentence "<span class="highlight-language-statement"><span class="highlight-language-subject">Otlet</span> <span class="highlight-language-predicate">influenced</span> <span class="highlight-language-object">Berners-Lee</span></span>" in one of the RDF syntaxes as follows:</p>
+
+                  <pre><span class="highlight-language-statement">&lt;<span class="highlight-language-subject" title="subject">http://dbpedia.org/resource/<strong>Paul_Otlet</strong></span>&gt;
   &lt;<span class="highlight-language-predicate" title="predicate">http://dbpedia.org/ontology/<strong>influenced</strong></span>&gt; &lt;<span class="highlight-language-object" title="object">http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong></span>&gt; .</span></pre>
 
-              <p>RDF facilitates a uniform <q>follow your nose</q> type of exploration by following the semantics in the information provided in order to arrive at another unit of information. Applications can meaningfully interpret and integrate with disparate data without having any out-of-band knowledge, and retrieve more information about the terms.</p>
+                  <p>RDF facilitates a uniform <q>follow your nose</q> type of exploration by following the semantics in the information provided in order to arrive at another unit of information. Applications can meaningfully interpret and integrate with disparate data without having any out-of-band knowledge, and retrieve more information about the terms.</p>
 
-              <p>We can describe <span class="highlight-language-subject">Berners-Lee's IRI</span> (subject) by giving it a human-readable <span class="highlight-language-predicate">name</span> (predicate):</p>
+                  <p>We can describe <span class="highlight-language-subject">Berners-Lee's IRI</span> (subject) by giving it a human-readable <span class="highlight-language-predicate">name</span> (predicate):</p>
 
-              <pre><span class="highlight-language-statement">&lt;<span class="highlight-language-subject" title="subject">http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong></span>&gt;
+                  <pre><span class="highlight-language-statement">&lt;<span class="highlight-language-subject" title="subject">http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong></span>&gt;
   &lt;<span class="highlight-language-predicate" title="predicate">http://xmlns.com/foaf/0.1/name</span>&gt; "<span class="highlight-language-object" title="object">Tim Berners-Lee</span>"<span title="language tag">@en</span> .</span></pre>
 
-              <div class="note">
-                <h4>Note</h4>
-                <div>
-                  <p>While IRIs can be used to identify resources, retrieval mechanisms use URIs because the request URI in HTTP protocol is defined as a URI. Hence, the characters in IRI are first mapped to their URI counterparts before the request process.</p>
+                  <div class="note">
+                    <h4>Note</h4>
+                    <div>
+                      <p>While IRIs can be used to identify resources, retrieval mechanisms use URIs because the request URI in HTTP protocol is defined as a URI. Hence, the characters in IRI are first mapped to their URI counterparts before the request process.</p>
 
-                  <p>The terms IRI and URI are used interchangeably outside of technical specifications.</p>
+                      <p>The terms IRI and URI are used interchangeably outside of technical specifications.</p>
 
-                  <p><cite><a href="https://en.wikipedia.org/wiki/Natural-language_processing">Natural-language processing</a></cite> (<abbr title="Natural Language Processing">NLP</abbr>) is an area of study concerned with making sense of data that's represented in natural language. The NLP approach would have a different way of making sense of "<span class="highlight-language-subject">Otlet</span>" (a noun) than the declaratively marked noun in RDF using the <span class="highlight-language-subject">IRI for Otlet</span>.</p>
+                      <p><cite><a href="https://en.wikipedia.org/wiki/Natural-language_processing">Natural-language processing</a></cite> (<abbr title="Natural Language Processing">NLP</abbr>) is an area of study concerned with making sense of data that's represented in natural language. The NLP approach would have a different way of making sense of "<span class="highlight-language-subject">Otlet</span>" (a noun) than the declaratively marked noun in RDF using the <span class="highlight-language-subject">IRI for Otlet</span>.</p>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </section>
 
               <p>By design, the Web works by <q cite="https://www.w3.org/DesignIssues/RDFnot.html#ER">anyone being (technically) allowed to say anything about anything</q> (<abbr title="Anyone can say Anything about Anything">AAA</abbr>). One consequence of AAA is that, while systems (and reasoners within) can operate under both the <cite><a href="https://en.wikipedia.org/wiki/Open-world_assumption">open-world assumption</a></cite> (<abbr title="Open-world Assumption">OWA</abbr>) or the <cite><a href="https://en.wikipedia.org/wiki/Closed-world_assumption">closed-world assumption</a></cite> (<abbr title="Closed-world Assumption">CWA</abbr>), the Web ultimately uses the OWA framework because new knowledge can always make its way into the system, and lack of it [knowledge] does not imply falsity. The statements that can be expressed in RDF is a particular restriction of the AAA principle in that nonsensical, inconsistent, or conflicting information can be created or inferred. It is up to the processing applications to determine their confidence on what's at their disposal.</p>
 
-              <p>Even before the formalisation of RDF concepts and abstract syntax, it was conceptually in the fabric of interconnecting "things" on the Web as originally proposed in <cite><a href="https://www.w3.org/History/1989/proposal.html">Information Management: A Proposal</a></cite>. Different ways to encode RDF emerged over time; initially a terse approach in HTML which provided a both human and machine-readable way to express and act on knowledge. Then came the richer syntaxes, along with the use of vocabularies and ontologies, in order to address different system and interface needs eg. RDF/XML, Turtle, RDFa, JSON-LD.</p>
+              <p>Even before the formalisation of RDF concepts and abstract syntax, it was conceptually in the fabric of interconnecting "things" on the Web as originally proposed in <cite><a href="https://www.w3.org/History/1989/proposal.html">Information Management: A Proposal</a></cite>. Initially the Web architecture used HTML as the language to represent and connect hypertext documents with one another. The success of HTML is indisputable today perhaps partly due to the language of the design being "least powerful". While the HTML specification evolved over the years, conceptually it was scoped to describing <em>documents</em> on the Web. With the RDF language coming in and reusing the existing architecture of the Web, it made it possible to describe and interlink <em>data</em> (arbitrary <em>things</em>) on the Web. Different ways to encode RDF emerged over time; initially a terse approach in HTML which provided a both human and machine-readable way to express and act on knowledge. Then came the richer syntaxes, along with the use of vocabularies and ontologies, in order to address different system and interface needs eg. RDF/XML, Turtle, RDFa, JSON-LD.</p>
 
-              <!-- https://www.w3.org/TR/webarch/#general -->
+              <p id="open-web-platform">Today, Web browsers provide a basis for many forms of human and machine communication. In essence, Web browser is one of the most widely used platforms where a collection of Internet and Web standards are materialised. The goal of the <cite><a href="https://www.w3.org/2001/tag/doc/IAB_Prague_2011_slides.html#owp">Open Web Platform</a></cite> (<abbr title="Open Web Platform">OWP</abbr>) is to advance such standards so that technologies like the Web browser can help us communicate better in the global information space, and specifically the interplay of forces and functions of scholarly communication.</p>
 
-              <p>Today, Web browsers provide a basis for many forms of human and machine communication. In essence, Web browser is one of the most widely used platforms where a collection of Internet and Web standards are materialised. The goal of the <cite><a href="https://www.w3.org/2001/tag/doc/IAB_Prague_2011_slides.html#owp">Open Web Platform</a></cite> (<abbr title="Open Web Platform">OWP</abbr>) is to advance such standards so that technologies like the Web browser can help us communicate better in the global information space, and specifically the interplay of forces and functions of scholarly communication.</p>
+              <section id="web-science" inlist="" rel="schema:hasPart" resource="#web-science">
+                <h3 property="schema:name">Web Science</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p id="web-science"><cite>Web Science</cite> - <cite><a href="https://eprints.soton.ac.uk/262615/1/Web%2520Science.htm">Creating a Science of the Web</a></cite> - is an interdisciplinary field of study concerned with understanding and developing sociotechnical systems like the Web alongside human society.</p>
 
-              <p>The Web is a medium that is an implementation of a <q>global village</q> that McLuhan describes, through the use of electronic media. The openness of the Web and the ease of involvement for both humans and machines (through common protocols) helped its great expansion without a particular central point of failure or coordination. Scholarly communication on the Web happens to be one of the circumstances where different kinds of agents interact, whether they are sentient or something else. All of the four forces and functions have been realised, technically and socially, on the Web.</p>
+                  <p>In <cite><a href="http://eprints.soton.ac.uk/263347/1/1800000001%5B1%5D.pdf">A Framework for Web Science</a></cite>, authors state that:</p>
 
-              <p>In 2000, <cite><a href="https://www.ideals.illinois.edu/bitstream/handle/2142/13425/credibility.pdf" title="Alternative: http://hdl.handle.net/2142/13425">Credibility of the Web: Why We Need Dialectical Reading</a></cite>, Bruce explores Kaufmann's <q>modes of reading</q> from the 1977 essay <cite>Art of Reading</cite> (<cite><a href="http://www.worldcat.org/oclc/469418474">The Future of the Humanities</a></cite>) in context of the characteristics of the Web:</p>
+                  <blockquote cite="http://eprints.soton.ac.uk/263347/1/1800000001%5B1%5D.pdf">
+                    <p>the Web perhaps more than any other recent human construct carries with it any number of issues including privacy and protection, access and diversity, control and freedom. Structures that we design, engineer and research, and findings that emerge through analysis, will often have strong societal implications.</p>
+                    <cite><a href="http://eprints.soton.ac.uk/263347/1/1800000001%5B1%5D.pdf">A Framework for Web Science</a></cite>
+                  </blockquote>
 
-              <ul>
-                <li><em>exegetical</em>: author is authority, the reader is passive;</li>
-                <li><em>dogmatic</em>: scepticism on part of the reader;</li>
-                <li><em>agnostic</em>: continuous evaluation while acknowledging good and bad qualities;</li>
-                <li><em>dialectical</em>: possessing coding, semantic, and pragmatic competence</li>
-              </ul>
+                  <p>The challenges of Web Science involves social and technical aspects, eg user interface to data, information policy, resilience, diverse devices, collective creativity, and decentralisation. This thesis falls into the domain of Web Science as scholarly communication is inherently social and has broad implications across society. In particular, the thesis examines autonomous and interoperable information systems in context of conducting scholarly communication on the Web.</p>
 
-              <p>Bruce draws attention to the dialectical in that an observer enters into a <q>deep experience</q> of reading, engaging with the text with a critical eye, drawing advanced information and interpretations beyond what is merely presented, and an actively seeking to understand the material in addition to political, social, and historical dimensions. Bruce states that under the dialectical view, the Web's multimodal features allows new values and ways of making meaning as an holistic involvement for the consumer.</p>
+                  <p id="global-village">The Web is a medium that is an implementation of a <q>global village</q> that McLuhan describes, through the use of electronic media. The openness of the Web and the ease of involvement for both humans and machines (through common protocols) helped its great expansion without a particular central point of failure or coordination. Scholarly communication on the Web happens to be one of the circumstances where different kinds of agents interact, whether they are sentient or something else. All of the four forces and functions have been realised, technically and socially, on the Web.</p>
 
-              <p id="web-science"><cite>Web Science</cite> - <cite><a href="https://eprints.soton.ac.uk/262615/1/Web%2520Science.htm">Creating a Science of the Web</a></cite> - is an interdisciplinary field of study concerned with understanding and developing sociotechnical systems like the Web alongside human society.</p>
+                  <p id="dialectical-reading">In 2000, <cite><a href="https://www.ideals.illinois.edu/bitstream/handle/2142/13425/credibility.pdf" title="Alternative: http://hdl.handle.net/2142/13425">Credibility of the Web: Why We Need Dialectical Reading</a></cite>, Bruce explores Kaufmann's <q>modes of reading</q> from the 1977 essay <cite>Art of Reading</cite> (<cite><a href="http://www.worldcat.org/oclc/469418474">The Future of the Humanities</a></cite>) in context of the characteristics of the Web:</p>
 
-              <p>In <cite><a href="http://eprints.soton.ac.uk/263347/1/1800000001%5B1%5D.pdf">A Framework for Web Science</a></cite>, authors state that:</p>
+                  <ul>
+                    <li><em>exegetical</em>: author is authority, the reader is passive;</li>
+                    <li><em>dogmatic</em>: scepticism on part of the reader;</li>
+                    <li><em>agnostic</em>: continuous evaluation while acknowledging good and bad qualities;</li>
+                    <li><em>dialectical</em>: possessing coding, semantic, and pragmatic competence</li>
+                  </ul>
 
-              <blockquote cite="http://eprints.soton.ac.uk/263347/1/1800000001%5B1%5D.pdf">
-                <p>the Web perhaps more than any other recent human construct carries with it any number of issues including privacy and protection, access and diversity, control and freedom. Structures that we design, engineer and research, and findings that emerge through analysis, will often have strong societal implications.</p>
-                <cite><a href="http://eprints.soton.ac.uk/263347/1/1800000001%5B1%5D.pdf">A Framework for Web Science</a></cite>
-              </blockquote>
+                  <p>Bruce draws attention to the dialectical in that an observer enters into a <q>deep experience</q> of reading, engaging with the text with a critical eye, drawing advanced information and interpretations beyond what is merely presented, and an actively seeking to understand the material in addition to political, social, and historical dimensions. Bruce states that under the dialectical view, the Web's multimodal features allows new values and ways of making meaning as an holistic involvement for the consumer.</p>
+                </div>
+              </section>
 
-              <p>The challenges of Web Science involves social and technical aspects, eg user interface to data, information policy, resilience, diverse devices, collective creativity, and decentralisation. This thesis falls into the domain of Web Science as scholarly communication is inherently social and has broad implications across society. In particular, the thesis examines autonomous and interoperable information systems in context of conducting scholarly communication on the Web.</p>
+              <hr />
 
               <p>The scope of the technologies and standards described in this thesis and the contributions therein is within the context of the Web. There are undoubtedly many exciting initiatives and developments that use Internet protocols which can address many of the same challenges (and maybe even better), however it would take more than one thesis to do these justice. Hence, we scope to the Web.</p>
             </div>
@@ -798,7 +839,7 @@ transform:rotate(-60deg);
                     <dd>Any <q cite="https://www.w3.org/TR/webarch/#def-web-agent">web agent</q>—people or software acting on the information space.</dd>
 
                     <dt>Accessibility</dt>
-                    <dd>A registered IRI for a unit of information <em class="rfc2119">SHOULD</em> resolve to an HTTP URL as per content negotiation.</dd>
+                    <dd>A registered IRI for a unit of information can resolve to an HTTP URL as per content negotiation.</dd>
 
                     <dt>Content</dt>
                     <dd></dd>
@@ -812,7 +853,7 @@ transform:rotate(-60deg);
                   <dl id="functions-in-linked-research">
                     <dt>Registration</dt>
                     <dd>
-                      <p>Any actor <em class="rfc2119">should</em> be able to register a unit of information by associating an IRI with a distinct resource, ie. the declaration of the existence of an IRI anywhere on the Web. For example, an actor can assign an IRI for their research literature at an information space they have ownership or control, eg. personal or university website, creating an archived copy, entry in a dataset, annotated video fragment, producing notifications, or even referring to a resource that will be available in the future.</p>
+                      <p>We expect that systems by design should allow any actor to register a unit of information by associating an IRI with a distinct resource. For example, an actor can assign an IRI for their research literature at an information space they have ownership or control, eg. personal or university website, creating an archived copy, entry in a dataset, annotated video fragment, producing notifications, or even referring to a resource that will be available in the future.</p>
                     </dd>
  
                     <dt>Awareness</dt>
