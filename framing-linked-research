@@ -235,7 +235,7 @@ transform:rotate(-60deg);
               <section id="architecture-of-the-web" inlist="" rel="schema:hasPart" resource="#architecture-of-the-web">
                 <h3 property="schema:name">Architecture of the Web</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p id="interoperability-evolvability">In <cite><a href="http://www.w3.org/DesignIssues/Evolution.html" rel="cito:citesAsAuthority">Evolution of the Web</a></cite>, Berners-Lee mentions the mandate to maintain the Web as an interoperable information space while evolving with the needs of society and technology. Interoperability meant that different systems without prior out-of-band knowledge should be able to communicate if they agree to operate based on open standards. Evolvability meant that languages and interfaces need to handle extensions, mixing, and accommodate diverse scenarios for information exchange in order to survive in the long run.</p>
+                  <p id="interoperability-evolvability">In <cite><a href="http://www.w3.org/DesignIssues/Evolution.html" rel="cito:citesAsAuthority">Evolution of the Web</a></cite>, Berners-Lee mentions the mandate to maintain the Web as an interoperable information space while evolving with the needs of society and technology. Interoperability meant that different systems without prior out-of-band knowledge should be able to communicate if they agree to operate based on open standards. Evolvability meant that languages and interfaces need to handle extensions, mixing, accommodate diverse scenarios for information exchange, as well as co-evolve.</p>
 
                   <p>The Web architecture initially included three independent components:</p>
 
@@ -811,7 +811,7 @@ transform:rotate(-60deg);
 
                       <h5>Accessible Applications</h5>
 
-                      <p id="accessible-rich-internet-applications">To improve the accessibility and interoperability of web content and applications, the W3C <cite><a href="">Accessible Rich Internet Applications</a></cite> (<abbr title="Accessible Rich Internet Applications">ARIA</abbr>) provides an ontology for roles, states, and properties. Hosting languages, eg. HTML, SVG, can help assistive technologies to provide a consistent user interface and understanding of the objects for the person. For example, roles for a group of objects can be assigned to trigger a navigation</p>
+                      <p id="accessible-rich-internet-applications">The W3C <cite><a href="">Accessible Rich Internet Applications</a></cite> (<abbr title="Accessible Rich Internet Applications">ARIA</abbr>) recommendation provides an ontology for <q>roles</q>, <q>states</q>, and <q>properties</q> that can be included by host languages, eg. HTML, SVG, in order to help assistive technologies to provide a consistent user interface and understanding of the objects. Roles are assigned to document nodes to inform the consuming application to create a particular accessibility tree, as well as suggest affordances for the content.</p>
 
 
                       <h5>Authoring Tool Accessibility</h5>
