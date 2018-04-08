@@ -809,9 +809,14 @@ transform:rotate(-60deg);
                       </blockquote>
 
 
+                      <h5>Accessible Applications</h5>
+
+                      <p id="accessible-rich-internet-applications">To improve the accessibility and interoperability of web content and applications, the W3C <cite><a href="">Accessible Rich Internet Applications</a></cite> (<abbr title="Accessible Rich Internet Applications">ARIA</abbr>) provides an ontology for roles, states, and properties. Hosting languages, eg. HTML, SVG, can help assistive technologies to provide a consistent user interface and understanding of the objects for the person. For example, roles for a group of objects can be assigned to trigger a navigation</p>
+
+
                       <h5>Authoring Tool Accessibility</h5>
 
-                      <p>In order to contribute to the proliferation of Web content that is accessible to a broad range of people, authoring tools would need to be accessible as well. The W3C <cite><a href="https://www.w3.org/TR/ATAG/">Authoring Tool Accessibility Guidelines</a></cite> (<abbr title="Authoring Tool Accessibility Guidelines">ATAG</abbr>) is a recommendation to assist with the design of authoring tools. The guidelines have a success criteria covering two areas:</p>
+                      <p id="authoring-tool-accessibility">In order to contribute to the proliferation of Web content that is accessible to a broad range of people, authoring tools would need to be accessible as well. The W3C <cite><a href="https://www.w3.org/TR/ATAG/">Authoring Tool Accessibility Guidelines</a></cite> (<abbr title="Authoring Tool Accessibility Guidelines">ATAG</abbr>) is a recommendation to assist with the design of authoring tools. The guidelines have a success criteria covering two areas:</p>
 
                       <blockquote cite="http://www.w3.org/TR/ATAG20/#guidelines">
                         <ul>
