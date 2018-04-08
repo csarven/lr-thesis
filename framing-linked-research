@@ -811,7 +811,7 @@ transform:rotate(-60deg);
 
                       <h5>Accessible Applications</h5>
 
-                      <p id="accessible-rich-internet-applications">The W3C <cite><a href="">Accessible Rich Internet Applications</a></cite> (<abbr title="Accessible Rich Internet Applications">ARIA</abbr>) recommendation provides an ontology for <q>roles</q>, <q>states</q>, and <q>properties</q> that can be included by host languages, eg. HTML, SVG, in order to help assistive technologies to provide a consistent user interface and understanding of the objects. Roles are assigned to document nodes to inform the consuming application to create a particular accessibility tree, as well as suggest affordances for the content.</p>
+                      <p id="accessible-rich-internet-applications">The W3C <cite><a href="">Accessible Rich Internet Applications</a></cite> (<abbr title="Accessible Rich Internet Applications">ARIA</abbr>) recommendation provides an ontology to help assistive technologies to provide a consistent user interface and understanding of the objects. Hosting languages like HTML or SVG can include the ARIA ontology: <q>roles</q> to alert the purpose of an element; <q>properties</q> to indicate an elements relationship to other things; <q>states</q> to indicate what the element is doing, as well as alerting users about changes in state. ARIA hels to inform consuming applications create a particular accessibility tree, and to adapt the user interface to a form that works for the person, eg. a screen-reader can read the menu items, or selected option is receiving keyboard focus.</p>
 
 
                       <h5>Authoring Tool Accessibility</h5>
