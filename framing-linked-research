@@ -768,9 +768,7 @@ transform:rotate(-60deg);
                     <div datatype="rdf:HTML" property="schema:description">
                       <p>The desire to have scientific knowledge accessible and serve humanity for good was expressed by <a href="https://en.wikipedia.org/wiki/Vannevar_Bush">Vannevar Bush</a> through the concept of a <cite>memex</cite> - to supplement their collective memory - in his <cite><a href="https://web.archive.org/web/20100115164714/http://www.ps.uni-saarland.de:80/~duchier/pub/vbush/vbush.txt">As We May Think</a></cite> in 1945.</p>
 
-                      <h5>Accessible to Any Agent</h5>
-
-                      <p>Accessible to any agent; human, machine, or otherwise.</p>
+                      <p>We refer to <q>accessibility</q> (<abbr title="Accessibility">a11y</abbr>) in the widest sense that any agent; human, machine, or otherwise, can use and interact with content.</p>
 
                       <p>We inherit:</p>
 
@@ -826,6 +824,14 @@ transform:rotate(-60deg);
                         <footer><cite><a href="http://www.w3.org/TR/ATAG20/#guidelines">ATAG 2.0 Guidelines</a></cite>, W3C</footer>
                       </blockquote>
 
+
+                      <h5 lang="en-us" xml:lang="en-us">Internationalization and Localization</h5>
+
+                      <p id="internationalization-and-localization">Adaptability of content and software to the needs of target audiences helps towards accessibility. For example, the mechanisms to cater information and interfaces so that people from any culture, region, or language preference can participate better. The W3C <cite><a href="https://www.w3.org/International/">internationalization</a></cite> (<abbr title="Internationalization">i18n</abbr>) and <cite><a href="">localization</a></cite> (<abbr title="Localization">l10n</abbr>) initiatives and best practices helps towards this end. Internationalization refers to the design and development of mechanisms so that adaptable localization can take place in users' environment.</p>
+
+                      <p id="internationalization">Internationalization of Web content and technologies is intended to make it possible for people to use them with different languages, scripts, and cultures. For example, content authors can include links to navigate to different languages of the content; declaring the base language of documents, indicating multiple languages and their directional flow, eg. to help with translations; use of Unicode character encoding, eg. UTF-8, in data forms and text to ensure correct effects; checking and minimising inappropriate cultural bias, and improving translatability; restricting markup to semantics.</p>
+
+                      <p id="localization">The localization of content would mean that user's preferred (or acceptable) visual design can be presented. For instance, human-readable numeric, date and time formats can be adapted to what we are familiar with; symbols, icons, and colours can be anywhere from what's culturally acceptable, familiar or comfortable for us to use; text and graphics can be normalised or transformed to minimise misinterpretation.</p>
 
                       <p><strong>Effects and Artefacts</strong>: It extends the physical, social, psychological, or intellectual function of an <em>actor</em>.</p>
                     </div>
