@@ -905,14 +905,29 @@ transform:rotate(-60deg);
                   </dl>
 
 
-                  <h4 id="qualities-of-coupling">The Qualities of Coupling</h4>
+                  <h4 id="coupling-forces-functions">Coupling of the Forces and Functions</h4>
 
-                  <p><em>Assumption</em>: researchers want their creations to be effective and useful by being accessible and interpretable.</p>
+                  <p>We start with a few assumptions that specifies and qualities the coupling of the forces and functions in context of Linked Research:</p>
 
                   <dl>
+                    <dt>Assumptions</dt>
+                    <dd>
+                      <p>Researchers want their creations to be effective and useful by being accessible and interpretable. There can be different reasons for access restrictions (and remain orthogonal to concept of openness):</p>
+
+                      <ul>
+                        <li>Many researchers are doing science for personal gain, and withholding to restricting access to knowledge might be to their immediate benefit.</li>
+                        <li>Management and reusability of private or sensitive content.</li>
+                      </ul>
+                    </dd>
+                    <dd>Researchers might be afraid of their work being stolen or unattributed, so object to the ideas of pre-prints, early releases and sharing data.</dd>
+                  </dl>
+
+                  <p>Increasing the degree of coupling of the actor with the other forces and functions:</p>
+
+                  <dl id="qualities-of-coupling">
                     <dt id="coupling-actor-registration">Actor and Registration</dt>
                     <dd>
-                      <p>Closely coupling the content creator with the registration function means that the content can be encoded in a way that is as close as possible to the affordances it can potentially possess. The encoding is related to registration and the creator in that it reduces the chances of intermediary actors to</p>
+                      <p>Coupling the content creator with the registration function means that the content can be encoded in a way that is as close as possible to the affordances it can potentially possess. The encoding is related to registration and the creator in that it reduces the chances of intermediary actors to</p>
                       <ul>
                         <li>constitute or influence how that content can be expressed;</li>
                         <li>alter the content before registration</li>
