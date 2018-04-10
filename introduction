@@ -111,6 +111,15 @@ Out of scope: non Web-native protocols/standards eg blockchain, transformation/e
 </section>
 
 
+<section id="assumptions" inlist="" rel="schema:hasPart" resource="#assumptions">
+  <h2 property="schema:name">Assumptions</h2>
+  <div datatype="rdf:HTML" property="schema:description">
+    <p>At many times in this thesis it may appear that I am taking an idealist stance with regards to the motivations of academics, but certainly many (even most) academic researchers are motivated to some extent by personal gain, whether that is career advancement, prestige, influence, or financial gain. All of these aspects are part of the "social machine" of scholarly communication, and are explored in [the various appropriate chapters].</p>
+
+    <p>As for the technical machinery, the assumption is that researchers want to share their articles and artefacts in good faith, with other researchers and the public at large. Nevertheless, we're always aware that at all times there are other social factors at play which may need to be addressed in combination with the technical solutions.</p>
+  </div>
+</section>
+
 <section id="thesis-overview" inlist="" rel="schema:hasPart" resource="#thesis-overview">
   <h2 property="schema:name">Thesis Overview</h2>
   <div datatype="rdf:HTML" property="schema:description">
