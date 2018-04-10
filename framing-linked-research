@@ -904,6 +904,27 @@ transform:rotate(-60deg);
                     <dd>Self-registers automatically, archive at</dd>
                   </dl>
 
+
+                  <h4 id="qualities-of-coupling">The Qualities of Coupling</h4>
+
+                  <p><em>Assumption</em>: researchers want their creations to be effective and useful by being accessible and interpretable.</p>
+
+                  <dl>
+                    <dt id="coupling-actor-registration">Actor and Registration</dt>
+                    <dd>
+                      <p>Closely coupling the content creator with the registration function means that the content can be encoded in a way that is as close as possible to the affordances it can potentially possess. The encoding is related to registration and the creator in that it reduces the chances of intermediary actors to</p>
+                      <ul>
+                        <li>constitute or influence how that content can be expressed;</li>
+                        <li>alter the content before registration</li>
+                      </ul>
+                    </dd>
+                    <dt id="coupling-actor-accessibility">Actor and Accessibility</dt>
+                    <dd>
+                      <p>In order for some content to serve its potential purpose, its retrievability and reusability can be set by their creators. Actors establishing a high degree of accessibility of registered content means that the awareness function can have a network effect.</p>
+                    </dd>
+                  </dl>
+
+
                   <p>We will revisit these functions later in the thesis as a technical response to Sompel's call to investigate <q cite="https://www.youtube.com/watch?v=o4nUe-6Ln-8&amp;t=2792">how to fulfil the core functions of scholarly communication using the technical paradigm</q> around self-publishing.</p>
                 </div>
               </section>
