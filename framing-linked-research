@@ -905,9 +905,9 @@ transform:rotate(-60deg);
                   </dl>
 
 
-                  <h4 id="coupling-forces-functions">Coupling of the Forces and Functions</h4>
+                  <h4 id="core-forces-functions">Core Forces and Functions</h4>
 
-                  <p>We start with a few assumptions that specifies and qualities the coupling of the forces and functions in context of Linked Research:</p>
+                  <p>Here we examine the coupling of the <em>indispensable</em> forces; content and actor, and functions; registration and archiving. We start with a few assumptions that specifies and qualities the coupling of the forces and functions in context of Linked Research:</p>
 
                   <dl>
                     <dt>Assumptions</dt>
@@ -919,7 +919,10 @@ transform:rotate(-60deg);
                         <li>Management and reusability of private or sensitive content.</li>
                       </ul>
                     </dd>
+
                     <dd>Researchers might be afraid of their work being stolen or unattributed, so object to the ideas of pre-prints, early releases and sharing data.</dd>
+
+                    <dd>The actor that triggers the archiving function may be the content creator or any third-party. If it is the content creator, we assume that the archiving (and registration) and accessibility is governed by a different entity.</dd>
                   </dl>
 
                   <p>Increasing the degree of coupling of the actor with the other forces and functions:</p>
@@ -933,6 +936,12 @@ transform:rotate(-60deg);
                         <li>alter the content before registration</li>
                       </ul>
                     </dd>
+
+                    <dt id="coupling-actor-archiving">Actor and Archiving</dt>
+                    <dd>
+                      <p>For archiving (registering) of content, we differentiate between the two actors: the one that triggers, eg. the content creator, and the application that performs the archival, and focus on the former. Content creators would archive their work typically to have an (early) record of the content that the other actors can acknowledge as persistent and permanent.</p>
+                    </dd>
+
                     <dt id="coupling-actor-accessibility">Actor and Accessibility</dt>
                     <dd>
                       <p>In order for some content to serve its potential purpose, its retrievability and reusability can be set by their creators. Actors establishing a high degree of accessibility of registered content means that the awareness function can have a network effect.</p>
