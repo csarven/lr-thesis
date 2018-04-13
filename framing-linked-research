@@ -919,9 +919,11 @@ transform:rotate(-60deg);
                   </dl>
 
 
-                  <h4 id="core-forces-functions">Core Forces and Functions</h4>
+                  <h4 id="researcher-centric-forces-functions">Researcher-centric Forces and Functions</h4>
 
-                  <p>Here we examine the coupling of the <em>indispensable</em> forces; content and actor, and functions; registration and archiving. We start with a few assumptions that specifies and qualities the coupling of the forces and functions in context of Linked Research:</p>
+                  <p id="researcher-centric-coupling"><em>Researcher-centric coupling</em> is the notion of establishing coupling of the <q cite="http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html">indispensable</q> forces; content and actor, and functions; registration and archiving, where the actor is at the centre.</p>
+
+                  <p>We start with the assumptions for the qualities of coupling of the forces and functions in context of Linked Research:</p>
 
                   <dl>
                     <dt>Assumptions</dt>
@@ -939,7 +941,7 @@ transform:rotate(-60deg);
                     <dd>The actor that triggers the archiving function may be the content creator or any third-party. If it is the content creator, we assume that the archiving (and registration) and accessibility is governed by a different entity.</dd>
                   </dl>
 
-                  <p>Increasing the degree of coupling of the actor with the other forces and functions:</p>
+                  <p>The coupling and its qualities is as follows:</p>
 
                   <dl id="qualities-of-coupling">
                     <dt id="coupling-actor-registration">Actor and Registration</dt>
@@ -1069,7 +1071,7 @@ transform:rotate(-60deg);
 
               <p>Are there ideological and technology traps? The traps can be seen as analogous to McLuhan's <q>reverses into</q> effect. When the LR design principles are pushed to the extreme, highly specialised and fine-grained centralised systems can and will emerge while still operating within the larger decentralised system on the Web. The degree of federation or interoperability among the autonomous systems will vary. The effects may be that of a new generation of third-party control and authority over certain information spaces. For example, just as centralised publishing and distribution services currently exist for the dominating paper-centric industry, the medium can still accommodate similar control over semantic and granular scientific resources. It is worthwhile to note that the ecosystem would only become more diverse as it expands.</p>
 
-              <p>It is worthwhile to note here that the earlier or existing models for information exchange that has been described so far primarily focus on institutional or subject repository driven scholarly communication. They are contrasted against the involvement of third-party (for-profit) service providers which impose a particular arrangement of the coupling of the scholarly information space per <em>forces and functions</em>. In the remainder of this thesis, I focus on enabling a <strong>researcher-centric</strong> model; whilst this can be situated within the same <q>deconstructing</q> or <q>decoupling</q> school of thought, its pursuit is embracing greater control by content creators through the native characteristics of the Web, without interfering with different kinds and levels of certification; whether they are based in sciences or humanities. The notion of content creators or consumers having some control on accessibility, registration and archiving, brings forward certain qualities of coupling.</p>
+              <p>It is worthwhile to note here that the earlier or existing models for information exchange that has been described so far primarily focus on institutional or subject repository driven scholarly communication. They are contrasted against the involvement of third-party (for-profit) service providers which impose a particular arrangement of the coupling of the scholarly information space per <em>forces and functions</em>. In the remainder of this thesis, I focus on enabling a <strong>researcher-centric</strong> model; whilst this can be situated within the same <q>deconstructing</q> or <q>decoupling</q> school of thought, its pursuit is embracing greater control by content creators through the native characteristics of the Web, without interfering with different kinds and levels of certification; whether they are based in sciences or humanities. The notion of content creators or consumers having some control on accessibility, registration and archiving, inherits certain qualities of coupling. That is, researcher-centric coupling unleashes the potentials of expressivity and effective scholarly communication.</p>
 
               <p>While the criteria for publishing provided by <cite>Genuine Semantic Publishing</cite> is valuable and can also be exercised by following LR's <q>interpretable and interactive</q> design principle, we do not prescribe it in order to not conflict with the <q>freedom of expression</q> principle. If a third-party imposes a specific way to express knowledge, whether it is through file formats and their structure and semantics; what (meta)data to include or not include; or inclusion and use of interactive components; the quality of the communication is subject to be less effective because the author may have to make compromises. Information loss occurs and communication quality naturally degrades simply because what the actors wish to convey in their message, and how, will have to be filtered down in order to fit the requirements of a third-party, data formats, or user interfaces.</p>
 
@@ -1089,7 +1091,7 @@ transform:rotate(-60deg);
                 <dd>In person conferences and online journals should encourage and accept research publications which use native Web standards and technologies. Support transparent and attributed peer-review process. Aggregation or proceedings of the events can be machine-friendly and archival measures should be taken in addition to those of researchers.</dd>
 
                 <dt id="cooperating-public-institutions">Public Institutions</dt>
-                <dd>Given sufficient evidence of the Web Science community’s acknowledgement of research as well as its contributions, eg. peer-reviews, academic institutions can officially acknowledge such work towards academic credit. Libraries canmake the community’s output discoverable, catalogued, enriched, among many other things.</dd>
+                <dd>Given sufficient evidence of the Web Science community’s acknowledgement of research as well as its contributions, eg. peer-reviews, academic institutions can officially acknowledge such work towards academic credit. Libraries can  make the community’s output discoverable, catalogued, enriched, among many other things.</dd>
               </dl>
             </div>
           </section>
