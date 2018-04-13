@@ -748,7 +748,7 @@ transform:rotate(-60deg);
                         <footer><cite><a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite></footer>
                       </blockquote>
 
-                      <p>The <em>freedom of expression</em> in context of scientific communication does not entail that an actor with a "personal journal" (like a blog post) can expect their works to be treated on equal grounds as a "scientific literature". Here, by <em>freedom of expression</em> we mean that actors should not be subject to arbitrary constraints on how they communicate their contributions with the rest of the world.</p>
+                      <p>The <em>freedom of expression</em> in context of scientific communication does not entail that a "personal journal" - blogpost - qualifies as a "scientific literature" without receiving certification from the community. By free expression we mean that actors should not be subject to arbitrary constraints on how they communicate their contributions with the rest of the world.</p>
 
                       <p><em>Effects and Artefacts</em>: It extends the physical, social, psychological, and intellectual functions of an <em>actor</em>.</p>
                     </div>
@@ -765,9 +765,9 @@ transform:rotate(-60deg);
 
                       <p>The contents of HTTP URLs may be logically centralised or decentralised. For example, the media representations found at the URL can embed compound or dynamic components that are dependent on external (remote) URLs. In this particular case, the persistence of the external URLs, as well as whether their contents are immutable is a design concern.</p>
 
-                      <p>Autonomy is an important ingredient to fully exercise freedom of expression. If a URI is governed by a third-party entity, ie. other than the researcher who shares the contents of a scientific resource, then it is possible that the URLs may no longer resolve, and the content may be subject to change in ways beyond researcher's control. Whereas without intermediaries, the researcher has sufficient ownership and control as to what happens at their URI space. A by-product of this ability is the notion of <em>self-registration</em> with respect to the registration function. Trust in this case is placed on the Web space that is closer to the owners of the URI and URL space, or publisher of units of communication.</p>
+                      <p>Autonomy is an important ingredient to fully exercise freedom of expression. If a URI is governed by a third-party entity, ie. other than the researcher who shares the contents of a scientific resource, then it is possible that the URLs may no longer resolve, and the content may be subject to change in ways beyond researcher's control. Whereas without intermediaries, the researcher has sufficient ownership and control as to what happens at their URI space. A by-product of this ability is the notion of <em>self-registration</em> with respect to the registration function. Trust in this case is placed on the Web space that is closer to the owners of the URI and the publisher of the retrievable representations.</p>
 
-                      <p>The concerns about authenticity, persistence and permanence of data and knowledge is constant regardless of where the resources reside on the Web. Hence, strictly trusting scholarly knowledge based on its registered location is ultimately fragile in that it is unavoidable to prevent all sorts of threats to preservation in a long enough timeline. However, as the registration function is decoupled from archiving, we are able to delegate that trust to a "third-party" that is best fit to handle the preservation and authenticity of the units of communication. This is particularly important if archival and the sense of trust is considered to be part of the global scholarly commons.</p>
+                      <p>The concerns about authenticity, persistence and permanence of data and knowledge is constant regardless of where the resources reside on the Web. Hence, strictly trusting scholarly knowledge based on its registered location is ultimately fragile in that it is unavoidable to prevent all sorts of threats to preservation in a long enough timeline. However, since the registration function is decoupled from archiving, we are able to delegate that trust to a "third-party" that is best fit to handle the preservation and to some extent guarantee the authenticity of the units of communication. This is particularly important if archival and trust is considered to be part of the global scholarly commons. As archival is an external function of scholarly communication, the notion of self-registration does not extend to archiving artefacts at a URI space that the actor controls, eg. authorised to modify artefacts.</p>
 
  <!-- This is further explored in the <cite><a href="https://www.w3.org/DesignIssues/Evolution.html#ToII">Test of Independent Invention</a></cite> thought experiment. -->
 
@@ -938,7 +938,7 @@ transform:rotate(-60deg);
 
                     <dd>Researchers might be afraid of their work being stolen or unattributed, so object to the ideas of pre-prints, early releases and sharing data.</dd>
 
-                    <dd>The actor that triggers the archiving function may be the content creator or any third-party. If it is the content creator, we assume that the archiving (and registration) and accessibility is governed by a different entity.</dd>
+                    <dd>The actor that triggers the archiving function may be the content creator or any third-party. The archival system and its URI space is always governed by an entity other than the creator of the content.</dd>
                   </dl>
 
                   <p>The coupling and its qualities is as follows:</p>
@@ -955,7 +955,7 @@ transform:rotate(-60deg);
 
                     <dt id="coupling-actor-archiving">Actor and Archiving</dt>
                     <dd>
-                      <p>For archiving (registering) of content, we differentiate between the two actors: the one that triggers, eg. the content creator, and the application that performs the archival, and focus on the former. Content creators would archive their work typically to have an (early) record of the content that the other actors can acknowledge as persistent and permanent.</p>
+                      <p>For archiving (registering) of content, we differentiate between the two actors: the one that triggers, eg. the content creator, and the application that performs the archival. Content creators typically archive their work to so that its record (controlled by an archive) can be identified and reusable.</p>
                     </dd>
 
                     <dt id="coupling-actor-accessibility">Actor and Accessibility</dt>
