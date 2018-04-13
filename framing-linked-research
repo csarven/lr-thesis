@@ -183,7 +183,7 @@ transform:rotate(-60deg);
         </dl>
 
         <div datatype="rdf:HTML" property="schema:description">
-          <section id="the-paradigm-shift" inlist="" rel="schema:hasPart" resource="#the-paradigm-shift">
+          <section class="todo" id="the-paradigm-shift" inlist="" rel="schema:hasPart" resource="#the-paradigm-shift">
             <h2 property="schema:name">The Paradigm Shift</h2>
             <div datatype="rdf:HTML" property="schema:description">
 
@@ -864,9 +864,7 @@ transform:rotate(-60deg);
                     <div datatype="rdf:HTML" property="schema:description">
                       <p>Information should be interpretable and interactive in that different interfaces for the media can be available for different kinds of agents; human, machine, or other.</p>
 
-                      <p>While decentralised systems enables each entity to be autonomous, some level of agreement (federation) is needed on the network for communication to take place. Interoperability is at the core of achieving cooperative systems. One widely successful approach to have interoperable systems it through the adoption of open standards for protocols and formats for information exchange. Systems that are interoperable by design have the benefit of interacting with other systems without having prior out-of-band knowledge about them.</p>
-
-                      <p>This can be contrasted with systems and data that conducts <em>post-facto interoperability</em> typically due to propriety designs. For example, given two systems, one system adopts the others' protocol, API, or format, or they build specialised "bridge" in order to communicate. Systems not using open standards or have specialised technological extensions that are only useful within their own environment or procedures are considered to be vendor lock-in.</p>
+                      <p id="interoperability"><strong>Interoperability</strong>: While a decentralised system can enable each entity to be autonomous, some level of agreement is needed on the network for communication to take place. Interoperability is at the core of achieving cooperative systems. One widely successful approach to have interoperable systems it through the adoption of open standards for protocols and languages that is achieved through industry consensus. Systems that are interoperable by design have the benefit of interacting with other systems without having prior and out-of-band knowledge about them. This kind of interoperability can be contrasted with <em>post-facto</em> interoperability that is typically due to propriety designs; language and protocols, being design at the discretion of each party, and then finding ways to bridge their systems. For example, given two systems, one system adopts the others' protocol, API, or format, or they build specialised mechanisms in order to communicate. Systems that do not use open standards or have specialised technological extensions that are only useful within their own environment are generally considered to be vendor lock-in solutions. Within the Linked Research framework, we seek agreements on Web standards established through open consensus, as opposed to practices based on specific implementations.</p>
 
                       <p>Systems vary on their degree of interoperability. For instance, a service may require their own user account or authentication mechanism to be used when interacting with data on the Web; users may have to use a particular application to access, create, share or reuse information; applications may need to be reconfigured to reuse the information that is created elsewhere. In the <a href="#acid-test">acid test</a> we discuss how to assess accessibility and interoperability of tooling and services scholarly communication.</p>
 
@@ -1081,18 +1079,20 @@ transform:rotate(-60deg);
 
               <p>Sooner or later we need a strategy to address questions like: <em>What do we aim to accomplish?</em> <em>Who is trying to do it and for the benefit of whom?</em> <em>How do we know whether we are making progress and when we have succeeded?</em></p>
 
-              <p>Potential solutions to these questions and new challenges need to address the connection and the gap between researchers, academic and public institutions, as well as what ends up in the commons. It is not just about researchers making their contributions available on the Web, or about conferences requesting semantically annotated contributions, or operating with transparent peer-review. All of these things must move in combination. To lay out the roles of various actors in the ecosystem when it comes to fulfilling the LR principles:</p>
+              <div class="todo">
+                <p>Potential solutions to these questions and new challenges need to address the connection and the gap between researchers, academic and public institutions, as well as what ends up in the commons. It is not just about researchers making their contributions available on the Web, or about conferences requesting semantically annotated contributions, or operating with transparent peer-review. All of these things must move in combination. To lay out the roles of various actors in the ecosystem when it comes to fulfilling the LR principles:</p>
 
-              <dl>
-                <dt id="working-together-researchers">Researchers</dt>
-                <dd>Researchers take full responsibility of their contributions. This can be at any Webspace they put trust on or have sufficient authority over, eg. personal site, institutions’ student and faculty pages. Making their work as <q>Webby</q> as possible eg. linking their arguments and citations to others', interactive story-telling or experimentation possibilities for their readers. Researchers should take special care to ensure URI persistence and archiving of their work.</dd>
+                <dl>
+                  <dt id="working-together-researchers">Researchers</dt>
+                  <dd>Researchers take full responsibility of their contributions. This can be at any Webspace they put trust on or have sufficient authority over, eg. personal site, institutions’ student and faculty pages. Making their work as <q>Webby</q> as possible eg. linking their arguments and citations to others', interactive story-telling or experimentation possibilities for their readers. Researchers should take special care to ensure URI persistence and archiving of their work.</dd>
 
-                <dt id="working-together-conferences-and-journals">Conferences and journals</dt>
-                <dd>In person conferences and online journals should encourage and accept research publications which use native Web technologies. Support transparent and attributed peer-review process. Aggregation or proceedings of the events should be machine-friendly and archival measures should be taken in addition to those of researchers.</dd>
+                  <dt id="working-together-conferences-and-journals">Conferences and journals</dt>
+                  <dd>In person conferences and online journals should encourage and accept research publications which use native Web technologies. Support transparent and attributed peer-review process. Aggregation or proceedings of the events should be machine-friendly and archival measures should be taken in addition to those of researchers.</dd>
 
-                <dt id="working-together-public-institutions">Public institutions</dt>
-                <dd>Given sufficient evidence of the Web Science community’s acknowledgement of research as well as its contributions, eg. peer-reviews, academic institutions should officially acknowledge such work towards academic credit. Libraries should make the community’s output discoverable, catalogued, enriched, among many other things.</dd>
-              </dl>
+                  <dt id="working-together-public-institutions">Public institutions</dt>
+                  <dd>Given sufficient evidence of the Web Science community’s acknowledgement of research as well as its contributions, eg. peer-reviews, academic institutions should officially acknowledge such work towards academic credit. Libraries should make the community’s output discoverable, catalogued, enriched, among many other things.</dd>
+                </dl>
+              </div>
             </div>
           </section>
 
