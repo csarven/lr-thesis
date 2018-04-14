@@ -801,7 +801,7 @@ transform:rotate(-60deg);
 
                       <blockquote cite="http://www.un.org/en/universal-declaration-human-rights/">
                         <h5>Article 27.</h5>
-                         
+
                         <p>(1) Everyone has the right freely to participate in the cultural life of the community, to enjoy the arts and to share in scientific advancement and its benefits.</p>
 
                         <p>(2) Everyone has the right to the protection of the moral and material interests resulting from any scientific, literary or artistic production of which he is the author.</p>
@@ -873,6 +873,19 @@ transform:rotate(-60deg);
                       <p>Scientific contributions are multimodal, interactive, and social.</p>
 
                       <p><em>Effects and Artefacts</em>: It extends the physical, social, psychological, or intellectual function of an <em>actor</em>.</p>
+                    </div>
+                  </section>
+
+                  <section id="social" inlist="" rel="schema:hasPart" resource="#social">
+                    <h4 property="schema:name">Social</h4>
+                    <div datatype="rdf:HTML" property="schema:description">
+                      <p>Social Web...</p>
+
+                      <p>Involvement...</p>
+
+                      <p>Retribalisation...</p>
+
+                      <p><em>Effects and Artefacts</em>: It extends the social, psychological, or intellectual function of an <em>actor</em>.</p>
                     </div>
                   </section>
 
