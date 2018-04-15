@@ -882,9 +882,11 @@ transform:rotate(-60deg);
 
                       <p id="interoperability"><strong>Interoperability</strong>: While a decentralised system can enable each entity to be autonomous, some level of agreement is needed on the network for communication to take place. Interoperability is at the core of achieving cooperative systems. One widely successful approach to have interoperable systems it through the adoption of open standards for protocols and languages that is achieved through industry consensus. Systems that are interoperable by design have the benefit of interacting with other systems without having prior and out-of-band knowledge about them. This kind of interoperability can be contrasted with <em>post-facto</em> interoperability that is typically due to propriety designs at the discretion of each party, and then bridging the systems with adapters - in general sense of the word. For example, given two systems, one system adopts the others' protocol, API, or format, or they build specialised mechanisms in order to communicate. Systems that do not use open standards or have specialised technological extensions that are only useful within their own environment are generally considered to be vendor lock-in solutions. Within the Linked Research framework, we seek agreements on Web standards established through open consensus, as opposed to practices based on specific implementations.</p>
 
-                      <p>Systems vary on their degree of interoperability. For instance, a service may require their own user account or authentication mechanism to be used when interacting with data on the Web; users may have to use a particular application to access, create, share or reuse information; applications may need to be reconfigured to reuse the information that is created elsewhere. In the <a href="#acid-test">Acid Test</a> section we propose criteria to assess accessibility and interoperability of designs in scholarly communication.</p>
+                      <p>Systems vary on their degree of interoperability. For instance, a service may require their own user account or authentication mechanism to be used when interacting with data on the Web; users may have to use a particular application to access, create, share or reuse information; applications may need to be reconfigured to reuse the information that is created elsewhere. In the <a href="#acid-test">Acid Test</a> section we propose criteria to self-assess accessibility and interoperability of designs in scholarly communication.</p>
 
-                      <p>In order to have optimal means of discovery, exchanging, and reusing information, systems and data should opt for open standards and widely acknowledged best practices wherever possible. Linked Data technologies include the essentials to achieve this, and are well-suited to fulfill the four functions of scholarly communication on the Web.</p>
+                      <p>Structure (interoperability) and agency (autonomy) go together. As centralisation of ideas is ultimately inescapable, interoperability influences or limits the choices a system can take. Hence, we embrace the notion of interoperability as a trade-off, ie. it is better to adapt design patterns that are expected or intended to be better for the ecosystem as a whole than to adopt patterns that avoid this possibility. Hence, interoperability is a social structure acting against the autonomy of agents.</p>
+
+                      <p>In order to have optimal means of discovery, exchanging, and reusing information, systems and data should opt for open standards and widely acknowledged best practices wherever possible. Linked Data technologies include some of the essentials to achieve this, and are well-suited to fulfill the four functions of scholarly communication on the Web.</p>
 
                       <p class="todo">Scientific contributions are multimodal, interactive, and social.</p>
 
@@ -892,9 +894,11 @@ transform:rotate(-60deg);
                     </div>
                   </section>
 
-                  <section class="todo" id="social" inlist="" rel="schema:hasPart" resource="#social">
+                  <section id="social" inlist="" rel="schema:hasPart" resource="#social">
                     <h4 property="schema:name">Social</h4>
                     <div datatype="rdf:HTML" property="schema:description">
+                      <p>The architecture of the Web and its scalability enabled social interactions to transform societies. The global transformation 
+
                       <p>Social Web...</p>
 
                       <p>Involvement...</p>
