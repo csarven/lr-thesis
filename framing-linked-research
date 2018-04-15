@@ -609,7 +609,7 @@ transform:rotate(-60deg);
 
               <dl>
                 <dt>Enhances</dt>
-                <dd>access to information, autonomy, social connections, decentralisation, distribution, immediacy, individualism, multi-modality</dd>
+                <dd>access to information, autonomy, social connections, decentralisation, distribution, immediacy,multi-modality</dd>
                 <dt>Obsolesces</dt>
                 <dd>centralisation, isolation, distance, memorisation, privacy, tactility, travel, linearity, typographical conventions</dd>
                 <dt>Retrieves</dt>
@@ -733,7 +733,16 @@ transform:rotate(-60deg);
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>What are desirable qualities of scholarly communication given the potential of the Web? What are we aspiring towards? We outline these here, with existing work described earlier as the foundation, and discuss with respect to McLuhan's effects of media (<em>enhances, obsolesces, retrieves, reverses into</em>).</p>
 
-                  <p>Scientific and scholarly output is social and part of the wider knowledge commons. What follows is a set of essential characteristics that systems can adopt in order to meet the need to collectively own and manage units of communication on the Web. These principles can be applied to create different information spaces.</p>
+                  <p>Scientific and scholarly output is social and part of the wider knowledge commons. What follows is a set of essential characteristics that systems can adopt in order to meet the need to collectively own and manage units of communication on the Web. These principles can be applied to create different information spaces. The core dimensions of Linked Research are:</p>
+                  <nav>
+                    <ul>
+                      <li><a href="#freedom of expression">freedom of expression</a></li>
+                      <li><a href="#autonomy">autonomy</a></li>
+                      <li><a href="#universal-access">universal access</a></li>
+                      <li><a href="#interpretable">interpretable</a></li>
+                      <li><a href="#social">social</a></li>
+                    </ul>
+                  </nav>
 
                   <section id="freedom-of-expression" inlist="" rel="schema:hasPart" resource="#freedom-of-expression">
                     <h4 property="schema:name">Freedom of Expression</h4>
@@ -773,7 +782,7 @@ transform:rotate(-60deg);
 
  <!-- This is further explored in the <cite><a href="https://www.w3.org/DesignIssues/Evolution.html#ToII">Test of Independent Invention</a></cite> thought experiment. -->
 
-                      <p>In context of the Web, technical or social decentralisation at all levels is unattainable. Even Web standards are a form of centralisation in that conforming systems can only coordinate among themselves. Similarly, centralisation naturally occurs in social systems like concepts or language, eg. machine-readable vocabularies restrict the set of uses of a system. The alternative pushed to the extreme where we each unit is expressed in their own language puts us in a situation similar to that of the <cite><a href="https://en.wikipedia.org/wiki/Tower_of_Babel">Tower of Babel</a></cite>, ie. being incapable of understanding each other. Hence, autonomy in a system where researchers are isolated or information is not interpretable renders freedom of expression meaningless.</p>
+                      <p>In context of the Web, technical or social decentralisation at all levels is unattainable. Even Web standards are a form of centralisation in that conforming systems can only coordinate among themselves. Similarly, centralisation naturally occurs in social systems like concepts or language, eg. machine-readable vocabularies restrict the set of uses of a system. The alternative pushed to the extreme where we each unit is expressed in their own language and without any language mapping, puts us in a situation similar to that of the <cite><a href="https://en.wikipedia.org/wiki/Tower_of_Babel">Tower of Babel</a></cite>, ie. being incapable of understanding each other. Hence, autonomy in a system where researchers are isolated or information is not interpretable renders freedom of expression meaningless.</p>
 
                       <p>In context of publishing, we refer to the registration function that is irrespective of any certification or acknowledgement of the quality of work. Hence, when a researcher initiates registration, we refer to that as <q>self-registration</q>. The act of self-publishing eg. at one's own website, is effectively self-registration. Individuals can and should have autonomy over their own contributions without infringing on the autonomy of others.</p>
 
@@ -841,8 +850,8 @@ transform:rotate(-60deg);
 
                       <blockquote cite="http://www.w3.org/TR/ATAG20/#guidelines">
                         <ul>
-                          <li><q>Make the authoring tool user interface accessible</q></li>
-                          <li><q>Support the production of accessible content</q></li>
+                          <li>Make the authoring tool user interface accessible</li>
+                          <li>Support the production of accessible content</li>
                         </ul>
                         <footer><cite><a href="http://www.w3.org/TR/ATAG20/#guidelines">ATAG 2.0 Guidelines</a></cite>, W3C</footer>
                       </blockquote>
@@ -850,7 +859,14 @@ transform:rotate(-60deg);
 
                       <p id="internationalization-and-localization"><strong lang="en-us" xml:lang="en-us">Internationalization and Localization</strong>: Adaptability of content and software to the needs of target audiences helps towards accessibility. For example, the mechanisms to cater information and interfaces so that people from any culture, region, or language preference can participate better. The W3C <cite><a href="https://www.w3.org/International/">internationalization</a></cite> (<abbr title="Internationalization">i18n</abbr>) and <cite><a href="">localization</a></cite> (<abbr title="Localization">l10n</abbr>) initiatives and best practices helps towards this end. Internationalization refers to the design and development of mechanisms so that adaptable localization can take place in users' environment.</p>
 
-                      <p id="internationalization">Internationalization of Web content and technologies is intended to make it possible for people to use them with different languages, scripts, and cultures. For example, content authors can include links to navigate to different languages of the content; declaring the base language of documents, indicating multiple languages and their directional flow, eg. to help with translations; use of Unicode character encoding, eg. UTF-8, in data forms and text to ensure correct effects; checking and minimising inappropriate cultural bias, and improving translatability; restricting markup to semantics.</p>
+                      <p id="internationalization">Internationalization of Web content and technologies is intended to make it possible for people to use them with different languages, scripts, and cultures. For example, content authors can:</p>
+                      <ul>
+                        <li>include links to navigate to different languages of the content;</li>
+                        <li>declare the base language of a document, indicate multiple languages and their directional flow - to help with translations;</li>
+                        <li>use Unicode character encoding, eg. UTF-8, in data forms and text to ensure correct effects;</li>
+                        <li>check and minimise inappropriate cultural bias, and improve translatability;</li>
+                        <li>restrict markup use to structure and semantics</li>
+                      </ul>
 
                       <p id="localization">The localization of content would mean that user's preferred (or acceptable) visual design can be presented. For instance, human-readable numeric, date and time formats can be adapted to what we are familiar with; symbols, icons, and colours can be anywhere from what's culturally acceptable, familiar or comfortable for us to use; text and graphics can be normalised or transformed to minimise misinterpretation.</p>
 
@@ -859,24 +875,24 @@ transform:rotate(-60deg);
                     </div>
                   </section>
 
-                  <section id="interpretable-and-interactive" inlist="" rel="schema:hasPart" resource="#interpretable-and-interactive">
-                    <h4 property="schema:name">Interpretable and Interactive</h4>
+                  <section id="interpretable" inlist="" rel="schema:hasPart" resource="#interpretable">
+                    <h4 property="schema:name">Interpretable</h4>
                     <div datatype="rdf:HTML" property="schema:description">
-                      <p>Information should be interpretable and interactive in that different interfaces for the media can be available for different kinds of agents; human, machine, or other.</p>
+                      <p>Information should be interpretable in that different interfaces for the media can be available for different kinds of agents; human, machine, or other.</p>
 
-                      <p id="interoperability"><strong>Interoperability</strong>: While a decentralised system can enable each entity to be autonomous, some level of agreement is needed on the network for communication to take place. Interoperability is at the core of achieving cooperative systems. One widely successful approach to have interoperable systems it through the adoption of open standards for protocols and languages that is achieved through industry consensus. Systems that are interoperable by design have the benefit of interacting with other systems without having prior and out-of-band knowledge about them. This kind of interoperability can be contrasted with <em>post-facto</em> interoperability that is typically due to propriety designs; language and protocols, being design at the discretion of each party, and then finding ways to bridge their systems. For example, given two systems, one system adopts the others' protocol, API, or format, or they build specialised mechanisms in order to communicate. Systems that do not use open standards or have specialised technological extensions that are only useful within their own environment are generally considered to be vendor lock-in solutions. Within the Linked Research framework, we seek agreements on Web standards established through open consensus, as opposed to practices based on specific implementations.</p>
+                      <p id="interoperability"><strong>Interoperability</strong>: While a decentralised system can enable each entity to be autonomous, some level of agreement is needed on the network for communication to take place. Interoperability is at the core of achieving cooperative systems. One widely successful approach to have interoperable systems it through the adoption of open standards for protocols and languages that is achieved through industry consensus. Systems that are interoperable by design have the benefit of interacting with other systems without having prior and out-of-band knowledge about them. This kind of interoperability can be contrasted with <em>post-facto</em> interoperability that is typically due to propriety designs at the discretion of each party, and then bridging the systems with adapters - in general sense of the word. For example, given two systems, one system adopts the others' protocol, API, or format, or they build specialised mechanisms in order to communicate. Systems that do not use open standards or have specialised technological extensions that are only useful within their own environment are generally considered to be vendor lock-in solutions. Within the Linked Research framework, we seek agreements on Web standards established through open consensus, as opposed to practices based on specific implementations.</p>
 
-                      <p>Systems vary on their degree of interoperability. For instance, a service may require their own user account or authentication mechanism to be used when interacting with data on the Web; users may have to use a particular application to access, create, share or reuse information; applications may need to be reconfigured to reuse the information that is created elsewhere. In the <a href="#acid-test">acid test</a> we discuss how to assess accessibility and interoperability of tooling and services scholarly communication.</p>
+                      <p>Systems vary on their degree of interoperability. For instance, a service may require their own user account or authentication mechanism to be used when interacting with data on the Web; users may have to use a particular application to access, create, share or reuse information; applications may need to be reconfigured to reuse the information that is created elsewhere. In the <a href="#acid-test">Acid Test</a> section we propose criteria to assess accessibility and interoperability of designs in scholarly communication.</p>
 
                       <p>In order to have optimal means of discovery, exchanging, and reusing information, systems and data should opt for open standards and widely acknowledged best practices wherever possible. Linked Data technologies include the essentials to achieve this, and are well-suited to fulfill the four functions of scholarly communication on the Web.</p>
 
-                      <p>Scientific contributions are multimodal, interactive, and social.</p>
+                      <p class="todo">Scientific contributions are multimodal, interactive, and social.</p>
 
                       <p><em>Effects and Artefacts</em>: It extends the physical, social, psychological, or intellectual function of an <em>actor</em>.</p>
                     </div>
                   </section>
 
-                  <section id="social" inlist="" rel="schema:hasPart" resource="#social">
+                  <section class="todo" id="social" inlist="" rel="schema:hasPart" resource="#social">
                     <h4 property="schema:name">Social</h4>
                     <div datatype="rdf:HTML" property="schema:description">
                       <p>Social Web...</p>
@@ -943,7 +959,7 @@ transform:rotate(-60deg);
                   <dl>
                     <dt>Assumptions</dt>
                     <dd>
-                      <p>Researchers want their creations to be effective and useful by being accessible and interpretable. There can be different reasons for access restrictions (and remain orthogonal to concept of openness):</p>
+                      <p>Researchers want their creations to be effective and useful by being accessible and interpretable. There can be different reasons for access restrictions and remain orthogonal to concept of openness:</p>
 
                       <ul>
                         <li>Many researchers are doing science for personal gain, and withholding to restricting access to knowledge might be to their immediate benefit.</li>
@@ -951,7 +967,7 @@ transform:rotate(-60deg);
                       </ul>
                     </dd>
 
-                    <dd>Researchers might be afraid of their work being stolen or unattributed, so object to the ideas of pre-prints, early releases and sharing data.</dd>
+                    <dd>Researchers might be afraid of their work being stolen or not receive adequate attribution, so object to the ideas of pre-prints, early releases and sharing data.</dd>
 
                     <dd>The actor that triggers the archiving function may be the content creator or any third-party. The archival system and its URI space is always governed by an entity other than the creator of the content.</dd>
                   </dl>
@@ -1018,7 +1034,7 @@ transform:rotate(-60deg);
 
                         <li id="acid-test-assumptions-free-and-open-access" rel="schema:hasPart"><span about="#acid-test-assumptions-free-and-open-access" property="schema:description" typeof="doco:Sentence">Information and interactions are available for free and open access with suitable licensing and attribution for retrieval and reuse.</span></li>
 
-                        <li id="acid-test-assumptions-interpretable-and-interactive" rel="schema:hasPart"><span about="#acid-test-assumptions-interpretable-and-interactive" property="schema:description" typeof="doco:Sentence">Information is interpretable or interactive for any agent; human, machine, or other.</span></li>
+                        <li id="acid-test-assumptions-interpretable" rel="schema:hasPart"><span about="#acid-test-assumptions-interpretable" property="schema:description" typeof="doco:Sentence">Information is interpretable for any agent; human, machine, or other.</span></li>
 
                         <li id="acid-test-assumptions-prior-knowledge" rel="schema:hasPart"><span about="#acid-test-assumptions-prior-knowledge" property="schema:description" typeof="doco:Sentence">All interactions are possible without prior out-of-band knowledge of the user’s environment or configuration.</span></li>
                       </ul>
@@ -1043,7 +1059,7 @@ transform:rotate(-60deg);
 
               <p>It is worthwhile to note here that the earlier or existing models for information exchange that has been described so far primarily focus on institutional or subject repository driven scholarly communication. They are contrasted against the involvement of third-party (for-profit) service providers which impose a particular arrangement of the coupling of the scholarly information space per <em>forces and functions</em>. In the remainder of this thesis, I focus on enabling a <strong>researcher-centric</strong> model; whilst this can be situated within the same <q>deconstructing</q> or <q>decoupling</q> school of thought, its pursuit is embracing greater control by content creators through the native characteristics of the Web, without interfering with the certification function regardless of the academic discipline; humanities, social, natural, formal, or applied sciences. The notion of content creators or consumers having some control on accessibility, registration and archiving, inherits certain qualities of coupling. That is, researcher-centric coupling unleashes the potentials of expressivity and effective scholarly communication.</p>
 
-              <p>While the criteria for publishing provided by <cite>Genuine Semantic Publishing</cite> is valuable and can also be exercised by following LR's <q>interpretable and interactive</q> design principle, we do not prescribe it in order to not conflict with the <q>freedom of expression</q> principle. If a third-party imposes a specific way to express knowledge, whether it is through file formats and their structure and semantics; what (meta)data to include or not include; or inclusion and use of interactive components; the quality of the communication is subject to be less effective because the author may have to make compromises. Information loss occurs and communication quality naturally degrades simply because what the actors wish to convey in their message, and how, will have to be filtered down in order to fit the requirements of a third-party, data formats, or user interfaces.</p>
+              <p>While the criteria for publishing provided by <cite>Genuine Semantic Publishing</cite> is valuable and can also be exercised by following LR's <q>interpretable</q> design principle, we do not prescribe it in order to not conflict with the <q>freedom of expression</q> principle. If a third-party imposes a specific way to express knowledge, whether it is through file formats and their structure and semantics; what (meta)data to include or not include; or inclusion and use of interactive components; the quality of the communication is subject to be less effective because the author may have to make compromises. Information loss occurs and communication quality naturally degrades simply because what the actors wish to convey in their message, and how, will have to be filtered down in order to fit the requirements of a third-party, data formats, or user interfaces.</p>
 
               <p>At the time of this writing, LR's principles and the strive for interoperable systems is conceived within the Web paradigm, as opposed to the broader Internet. There are emerging technologies and platforms within the Internet which are highly specialised for security, versioning, distributed, and so forth, which give way to new possibilities on how the scholarly communication market can be realised. While this thesis fits LR's principles into particular contemporary technology stacks, this is for practical purposes and to demonstrate what can be achieved today. Nothing prevents the principles from being adopted under different environments. It is quite likely that the design philosophies of the new environments will differ.</p>
 
