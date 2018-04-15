@@ -421,7 +421,7 @@ transform:rotate(-60deg);
 
                   <p>The challenges of Web Science involves social and technical aspects, eg user interface to data, information policy, resilience, diverse devices, collective creativity, and decentralisation. This thesis falls into the domain of Web Science as scholarly communication is inherently social and has broad implications across society. In particular, the thesis examines autonomous and interoperable information systems in context of conducting scholarly communication on the Web.</p>
 
-                  <p id="global-village">The Web not only expedited the flow of human knowledge with a friendly interface, it enabled social interactions to take place where it would not have been possible otherwise due to phsyical and political constraints. The global adoption of the Web brought new forms of human association and social action. In essence, the Web is one form of a <q>global village</q> that McLuhan describes. The way the society reacts to this medium (Web) is perhaps more important than the content that is on it.</p>
+                  <p id="global-village">The Web not only expedited the flow of human knowledge with a friendly interface, it enabled social interactions to take place where it would not have been possible otherwise due to phsyical and political constraints. The global adoption of the Web brought new forms of human association and social action. In essence, the Web is one form of a <q>global village</q> that McLuhan describes where there is greater requirement on individuals to participate than earlier forms of electric media, eg. telegraph, telephone, radio, television. Nevertheless, the way the society reacts to this medium (Web) is perhaps more important than the content that is on it.</p>
 
                   <p>The openness of the Web and the ease of involvement for both humans and machines (through common protocols) helped its great expansion without a particular central point of failure or coordination. Scholarly communication on the Web happens to be one of the circumstances where different kinds of agents interact, whether they are sentient or something else. <span class="todo">All of the four forces and functions have been realised, technically and socially, on the Web.</span></p>
 
@@ -897,9 +897,9 @@ transform:rotate(-60deg);
                   <section id="social" inlist="" rel="schema:hasPart" resource="#social">
                     <h4 property="schema:name">Social</h4>
                     <div datatype="rdf:HTML" property="schema:description">
-                      <p>Today it would be difficult think of a Web without social functions. Perhaps the Web's support and facilitating social interactions - above anything else - contributed towards transforming societies. Just as the global village expedited social relations, information discovery improved.</p>
+                      <p>Today it would be difficult think of a Web without social functions. Perhaps the Web's support and ability to facilitate social interactions - above anything else - contributed towards transforming societies in the last quarter century. Just as the global village expedited all patterns of social interrelationships, the Web paved the way to organise interdisciplinary information in a manner that can be better discovered and reused.</p>
 
-                      <p>Social Web...</p>
+                      <p>What/why Social Web...</p>
 
                       <p>Involvement...</p>
 
