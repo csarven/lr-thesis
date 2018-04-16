@@ -95,20 +95,37 @@ scholarly communication didn't change much but ... we don't exploit the technica
   <h2 property="schema:name">Research Questions</h2>
   <div datatype="rdf:HTML" property="schema:description">
 <pre>
-How can we realize a Web-native and decentralised scholarly communication?
+How can we improve the scholarly communication process on the Web?
+How can we improve scholarly communication by incorporating the inherent qualities (native characteristics?) of the Web?
 
-* How can we represent and author scholarly information on the Web? (structure of scholarly information)
+What does improve mean:
+* Technical: Web-native (5 LR principles?); ..
+** How can we realize a Web-native and decentralised scholarly communication?
+** How can we represent and author scholarly information on the Web? (structure of scholarly information)
+** Why self-publishing (contributions) and how can we facilitate it? (decentralisation, social scholarly web)
+** How can we integrate data and textual publications? (interactive linked statistics)
 
-* Why self-publishing (contributions) and how can we facilitate it? (decentralisation, social scholarly web)
+* Social: collaboration and workflows
+** How can collaboration and workflows in scholarly communication be realised using Web technologies in decentralised manner? (publishing, annotations, call for contributions, proceedings...)
 
-* How can collaboration and workflows in scholarly communication be realised using Web technologies in decentralised manner? (publishing, annotations, call for contributions, proceedings...)
+* Economic:
+** Cost for publishing and reuse?
 
-* How can we integrate data and textual publications? (interactive linked statistics)
+[
+Contrasting approaches;.. removal of some barriers (technological)
+Works technologically but there are other variables at play..
+]
 
-Out of scope: non Web-native protocols/standards eg blockchain, transformation/extraction workflows, search/find, ontology/vocabulary for units of information, profile creation/editing, storage/server mechanisms, filtering articles
+Hypothesis:
+* Self-publication of scholarly articles hinder freedom of expression
+* Not coupling actor with registration and accessibility affect freedom of expression
+* 
+
 </pre>
   </div>
 </section>
+
+<p>Mention what's out of scope? Non Web-native protocols/standards eg blockchain, transformation/extraction workflows, search/find, ontology/vocabulary for units of information, profile creation/editing, storage/server mechanisms, filtering articles</p>
 
 
 <section id="assumptions" inlist="" rel="schema:hasPart" resource="#assumptions">
