@@ -208,6 +208,8 @@ transform:rotate(-60deg);
 
               <p>With respect to the focus of this thesis, scholarly communication on the Web is confronted with the <em>crisis</em> on 1) the inadequacy of the traditional mode of scientific information exchange, and 2) access to and reuse of information.</p>
 
+              <p>Add a diagram about the timing of technological and social changes...</p>
+
 
               <p>rear-view mirror.. and paradigms</p>
               <p>By confronting the Web using the same methods as with print, the scientific market seeks security and comfort. </p>
@@ -715,6 +717,8 @@ transform:rotate(-60deg);
                 <div datatype="rdf:HTML" property="schema:description" resource="#framing-our-vocabulary" typeof="skos:ConceptScheme">
                   <p datatype="rdf:HTML" property="skos:definition">It is necessary to exercise a new vocabulary. New terms set a different frame of mind than the terms we have used in the past. Some terms have new definitions and replacements are necessary. We adopt the idea that scholarly calls for <strong>contributions</strong> welcome researchers to <strong>share</strong> their <strong>articles</strong> with the community.</p>
 
+                  <p class="todo">mention quality aspect.. conference: paper, journal: article</p>
+
                   <dl rel="skos:hasTopConcept">
                     <dt about="#s-submit-share" id="s-submit-share" property="skos:prefLabel" rel="skos:topConceptOf" resource="#framing-our-vocabulary" typeof="skos:Concept"><samp>s/submit/share</samp></dt>
                     <dd about="#s-submit-share" datatype="rdf:HTML" property="skos:definition">Researchers <em>share</em> their scientific contributions as opposed <em>submit</em>.</dd>
@@ -734,6 +738,7 @@ transform:rotate(-60deg);
                   <p>What are desirable qualities of scholarly communication given the potential of the Web? What are we aspiring towards? We outline these here, with existing work described earlier as the foundation, and discuss with respect to McLuhan's effects of media (<em>enhances, obsolesces, retrieves, reverses into</em>).</p>
 
                   <p>Scientific and scholarly output is social and part of the wider knowledge commons. What follows is a set of essential characteristics that systems can adopt in order to meet the need to collectively own and manage units of communication on the Web. These principles can be applied to create different information spaces. The core dimensions of Linked Research are:</p>
+
                   <nav>
                     <ul>
                       <li><a href="#freedom of expression">freedom of expression</a></li>
@@ -743,6 +748,10 @@ transform:rotate(-60deg);
                       <li><a href="#social">social</a></li>
                     </ul>
                   </nav>
+
+                  <p class="todo">Mention before/current state of affairs.. similar to framing-our-vocabulary </p>
+                  <p class="todo">Mention types of actors involved</p>
+                  <p class="todo">Add diagram with connections/verbs between the principles</p>
 
                   <section id="freedom-of-expression" inlist="" rel="schema:hasPart" resource="#freedom-of-expression">
                     <h4 property="schema:name">Freedom of Expression</h4>
@@ -759,7 +768,7 @@ transform:rotate(-60deg);
                         <footer><cite><a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite></footer>
                       </blockquote>
 
-                      <p>The <em>freedom of expression</em> in context of scientific communication does not entail that a "personal journal" - blogpost - qualifies as a "scientific literature" without receiving certification from the community. By free expression we mean that actors should not be subject to arbitrary constraints on how they communicate their contributions with the rest of the world.</p>
+                      <p>The <em>freedom of expression</em> in context of scientific communication does not entail that a "personal journal" - blogpost - qualifies as a "scientific literature" without receiving certification from the community. By free expression we mean that actors should not be subject to arbitrary constraints on how they communicate their contributions with the rest of the world. <span class="todo">Expand on the importance of decoupling</span></p>
 
                       <p><em>Effects and Artefacts</em>: It extends the physical, social, psychological, and intellectual functions of an <em>actor</em>.</p>
                     </div>
@@ -880,6 +889,8 @@ transform:rotate(-60deg);
                     <div datatype="rdf:HTML" property="schema:description">
                       <p>Information should be interpretable in that different interfaces for the media can be available for different kinds of agents; human, machine, or other.</p>
 
+                      <p class="todo">Making sense</p>
+
                       <p id="interoperability"><strong>Interoperability</strong>: While a decentralised system can enable each entity to be autonomous, some level of agreement is needed on the network for communication to take place. Interoperability is at the core of achieving cooperative systems. One widely successful approach to have interoperable systems it through the adoption of open standards for protocols and languages that is achieved through industry consensus. Systems that are interoperable by design have the benefit of interacting with other systems without having prior and out-of-band knowledge about them. This kind of interoperability can be contrasted with <em>post-facto</em> interoperability that is typically due to propriety designs at the discretion of each party, and then bridging the systems with adapters - in general sense of the word. For example, given two systems, one system adopts the others' protocol, API, or format, or they build specialised mechanisms in order to communicate. Systems that do not use open standards or have specialised technological extensions that are only useful within their own environment are generally considered to be vendor lock-in solutions. Within the Linked Research framework, we seek agreements on Web standards established through open consensus, as opposed to practices based on specific implementations.</p>
 
                       <p>Systems vary on their degree of interoperability. For instance, a service may require their own user account or authentication mechanism to be used when interacting with data on the Web; users may have to use a particular application to access, create, share or reuse information; applications may need to be reconfigured to reuse the information that is created elsewhere. In the <a href="#acid-test">Acid Test</a> section we propose criteria to self-assess accessibility and interoperability of designs in scholarly communication.</p>
@@ -909,6 +920,8 @@ transform:rotate(-60deg);
 
                       <p>Social features</p>
 
+                      <p> improve time scale - more real-time.. visible.. connection of the discussion to the article.. notification informs you instantaneously -- awareness.</p>
+
                       <p>(Scholarly) Profiles - presentation of the self - / Identity</p>
 
                       <p><em>Effects and Artefacts</em>: It extends the social, psychological, or intellectual function of an <em>actor</em>.</p>
@@ -919,6 +932,13 @@ transform:rotate(-60deg);
                 </div>
               </section>
 
+
+              <section id="scale-for-linked-research-design-principles" inlist="" rel="schema:hasPart" resource="#scale-for-linked-research-design-principles">
+                <h3 property="schema:name">Scale for Linked Research Design Principles</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+<p>metrics/scale for LR design principles</p>
+                </div>
+              </section>
 
               <section id="forces-functions-linked-research" inlist="" rel="schema:hasPart" resource="#forces-functions-linked-research">
                 <h3 property="schema:name">Forces and Functions of Linked Research</h3>

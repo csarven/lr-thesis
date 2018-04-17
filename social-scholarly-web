@@ -205,7 +205,7 @@ building a mental infrastructure.
         </div>
       </section>  
 
-      <section id="contemporary-uptate" inlist="" rel="schema:hasPart" resource="#contemporary-uptate">
+      <section id="contemporary-uptake" inlist="" rel="schema:hasPart" resource="#contemporary-uptake">
         <h2 property="schema:name">Contemporary Uptake</h2>
         <div datatype="rdf:HTML" property="schema:description">
           <p>The spread of Web use in scholarly comms. What are people doing in practice at the time of writing (IN SEMANTIC WEB)</p>
