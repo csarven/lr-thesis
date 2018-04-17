@@ -122,6 +122,15 @@
 
               <p>Given that the <em>applicability</em> is an external force, and that the <em>certification</em> function is applied, eg. peer review, editors' filters, in this, we assume that the demand of applicability of science and technology is part of this information space. We take for granted that each unit of information can independently exist and be accessible for humans and machines from anywhere on the Web, the presence of the <em>accessibility</em> force is active in this information space.</p>
 
+
+              <p class="todo">what's the contribution here/..    how do the existing architecture/patterns/standards can be applied to decentralisation/social... and extended.</p>
+
+              <p class="todo">describe how this is a bit like stamp collecting.. categorisation..</p>
+
+              <p class="todo">this chapter reflects (howto?) on the freedom of expression, universal access, interpretable..</p>
+              <p class="todo">existing tech enables SC on the Web... it is about a particular ensemble of tech that this is possible... and addresses autonomy, accessibilityt, interp..</p>
+
+              <p class="todo">list research questions for this chapter.. and reflect/explain at the end/conclusion in htis chapter</p>
             </div>
           </section>
 
@@ -153,6 +162,13 @@ Rough coverage:
               <p>This section covers semantic structure of the narrative aspects scholarly communication in particular. This can enhance <em>both</em> human- and machine-readability of information. Note also that we are interested here in structured representations of units irrespective of how they are produced.</p>
 
               <p>Non-narrative units can also be semantically marked up to enable easier reuse and interpretation; this is covered in more detail in <cite><a href="interactive-linked-statistics">Interactive Linked Statistics</a></cite>.</p> 
+
+
+              <p class="todo">Discuss whether it is only about the "document"/container or if it incorporates the graph around it</p>
+
+              <p cass="todo"><cite><a href="https://linkedsoftwaredependencies.org/articles/reproducibility/">Components.js: a semantic dependency injection framework for addressable and discoverable software configurations</a></cite>... for high level objects... there is a netowrk of htings and direction of links... their discoverability</p>
+
+              <p class="todo">simple diagram.. and reuse in later chapters</p>
 
               <section id="human-centric-containers-for-units-of-communication" inlist="" rel="schema:hasPart" resource="#human-centric-containers-for-units-of-communication">
                 <h3 property="schema:name">Human-centric Containers for Units of Communication</h3>
@@ -206,6 +222,9 @@ Rough coverage:
                       <p>By adopting the <cite>progressive enhancement</cite> (as described in <cite><a href="http://hesketh.com/publications/progressive_enhancement_and_the_future_of_web_design.html" rel="cito:citesAsRelated">Progressive Enhancement and the Future of Web Design</a></cite>) strategy for the structural (HTML+RDFa), presentational (CSS), and behavioural (JavaScript) layers, we can allow content and base functionality to be accessible through different media and devices. Ultimately, the unit of communication represented in HTML+RDFa can be accessible - readable - for both humans and machines without requiring any CSS or JavaScript. This approach is considered to cover the base requirement of making the content available with lowest server requirements, ie. practically, today any HTTP server that can serve HTML and a client that can consume HTML.</p>
                     </dd>
 
+                    <dt id="afforfance">Affordance</dt>
+                    <dd class="todo">Extend the idea of affordance/interface... (mentioned in web architecture: interaction).. how does HTML+RDFa help with that.. structure enables interaction .... with JS it is runtime/dynamic transclusion</dd>
+
                     <dt id="units-with-unique-identifiers">Units with unique identifiers</dt>
                     <dd>
                       <p>By exercising the <em>freedom of express</em> and <em>interpretable and interactive</em> principles, anything that is deemed to be importance can be identified on the Web with a URI as per <cite>Axiom 0: Universality 1</cite>. Having globally unique identifiers for all sorts of objects at fine granularity facilitates precision for interlinked knowledge. In other words, we have the means to guide both human and machine users to better discover and exchange scientific and scholarly objects. Thereby making it possible to fulfil the <em>registration</em> function for virtually anything.</p>
@@ -253,6 +272,8 @@ Rough coverage:
           <section id="related-work" rel="schema:hasPart" resource="#related-work">
             <h3 property="schema:name">Related Work</h3>
             <div datatype="rdf:HTML" property="schema:description">
+                <p class="todo">move this up... discuss the characteristics of the existing stuff.. and not really a comparison...</p>
+
 
                 <p><strong>Markup patterns</strong> There are plethora of attempts and approaches in this space. To name a few, most recently the W3C Community Group on <cite><a href="https://www.w3.org/community/scholarlyhtml/">Scholarly HTML</a></cite> with the aim to build a common, open format for the exchange of scholarly information; <cite><a href="https://essepuntato.github.io/papers/rash-peerj2016.html">Research Articles in Simplified HTML</a></cite>; and closely related: <cite><a href="http://www.idpf.org/epub">EPUB</a></cite> as an archive file including all material; <cite><a href="http://jats.niso.org/">Journal Article Tag Suite</a></cite> to describe scientific literature; <cite><a href="http://docbook.org/">DocBook</a></cite> for semantic technical documentation.</p>
 
@@ -310,6 +331,8 @@ Rough coverage:
                 <h3 property="schema:name">HTML patterns</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>One of the goals of dokieli is not to impose arbitrary restrictions on type of nodes as well as the order they should be in HTML+RDFa. It has its own design patterns. It is an ongoing work to make dokieli as flexible as it can be on what it can consume. Ultimately, well-formed and valid HTML - along with accompanying RDFa, Turtle, JSON-LD, TriG etc - is the only requirement here.</p>
+
+                  <p class="todo">Move some of these to related work about HTML(+RDFa) patterns..</p>
 
                   <dl>
                     <dt id="html-markup-syntax">Markup syntax</dt>
@@ -660,6 +683,9 @@ Rough coverage:
                     <div property="schema:description">
                       <p>Notifications are discovered from <cite><a href="https://www.w3.org/TR/ldn/">LDN</a></cite> Inboxes - discussed further in <cite><a href="social-scholarly-web">Social Scholarly Web</a></cite> - which are normally linked from articles (or a fragment within).</p>
 
+                      <p class="todo">talk about bidirectionality.. and what that enables</p>
+
+
                       <p>Notifications are intended to be brief, giving sufficient information for consumers to decide if they want use to them. If the notifications are generated by dokieli, eg. via an annotation activity, they typically include some provenance level data like generation date, actor that triggered it, license, where the annotation can be found, what it annotated, and the motivation for it. Notifications will not include the annotation body, but consumers can fetch their URLs (as mentioned in the <a href="#html-annotation">annotation section</a>).</p>
 
                       <p>See also <var>createNoteDataHTML</var> (do.js)</p>
@@ -733,13 +759,15 @@ Rough coverage:
 
 <article>
 <p><a href="https://dokieli/docs">https://dokieli/docs</a></p>
-          <section id="user-interface" inlist="" rel="schema:hasPart" resource="#user-interface">
-            <h2 property="schema:name">User interface</h2>
+          <section id="user-interaction" inlist="" rel="schema:hasPart" resource="#user-interaction">
+            <h2 property="schema:name">User Interaction</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <section id="document-modes" inlist="" rel="schema:hasPart" resource="#document-modes">
                 <h3 property="schema:name">Document modes</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>There UI adapts to the <em>document mode</em> the user is in: <cite>author</cite>, <cite>review</cite>, <cite>social</cite>. By default the <cite>social</cite> mode is engaged. The <i class="fa fa-bars"></i> <a href="#dokieli-menu">dokieli menu</a> allows the user to engage the author mode through the <i class="fa fa-i-cursor"></i> <a href="#editor-enable">Edit</a> operation, and the review mode with <i class="fa fa-balance-scale"></i> <a href="#review-enable">Review</a>. See also <var>setDocumentMode</var> (do.js).</p>
+
+                  <p class="todo">describe what the ux means under LR view... what does it mean for the user? functionality that is offered by the UI ... eg. save, activities, to create/edit..    affordances offered by user's preferences eg. prefered views, personal storage.. </p>
                 </div>
               </section>
 
