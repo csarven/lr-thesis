@@ -459,6 +459,14 @@ transform:rotate(-60deg);
               <section id="open-science" inlist="" rel="schema:hasPart" resource="#open-science">
                 <h3 property="schema:name">Open Science</h3>
                 <div dataype="rdf:HTML" property="schema:description">
+                  <p class="todo">There are several definitions for "open" and . The definition given by <cite><a href="https://opendefinition.org/">The Open Definition</a></cite> is as follows:</p>
+
+                  <blockquote cite="https://opendefinition.org/od/2.1/en/">
+                    <p>Open data and content can be freely used, modified, and shared by anyone for any purpose</p>
+
+                    <footer><cite><a href="https://opendefinition.org/od/2.1/en/">The Open Definition</a></cite></footer>
+                  </blockquote>
+
                   <p><q>Open Science</q> is a broadly understood notion that is intended to foster an accessible approach to conducting science and scholarship. While there is no single agreed definition of open science, the general consensus is about improving the practice of scientific communication in a transparent, traceable, verifiable, and reusable manner. For all intents and purposes, we can work with the European-funded project <cite><a href="https://www.fosteropenscience.eu/">Facilitate Open Science Training for European Research</a></cite> (<abbr title="Facilitate Open Science Training for European Research">FOSTER</abbr>)'s definition:</p>
 
                   <blockquote cite="https://www.fosteropenscience.eu/taxonomy/term/100">
@@ -980,9 +988,9 @@ transform:rotate(-60deg);
                   </dl>
 
 
-                  <h4 id="researcher-centric-forces-functions">Researcher-centric Forces and Functions</h4>
+                  <h4 id="researcher-centric-forces-functions">Researcher-Centric Forces and Functions</h4>
 
-                  <p id="researcher-centric-coupling"><em>Researcher-centric coupling</em> is the notion of establishing coupling of the <q cite="http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html">indispensable</q> forces; content and actor, and functions; registration and archiving, where the actor is at the centre.</p>
+                  <p id="researcher-centric"><em>Researcher-centric</em> is the notion of content creators or contributors having the responsibility of the <q cite="http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html">indispensable</q> functions; registration and archiving, as well as being the custodian of the</p>
 
                   <p>We start with the assumptions for the qualities of coupling of the forces and functions in context of Linked Research:</p>
 
@@ -1003,6 +1011,7 @@ transform:rotate(-60deg);
                   </dl>
 
                   <p>The coupling and its qualities is as follows:</p>
+
 
                   <dl id="qualities-of-coupling">
                     <dt id="coupling-actor-registration">Actor and Registration</dt>
