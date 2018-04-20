@@ -253,7 +253,7 @@ Rough coverage:
 
                   <p><strong>Participation</strong>: Actors are integral to social Web activities and the four functions of scholarly communication. Generally speaking, agent - human or machine - profiles can be described with the <cite><a href="http://xmlns.com/foaf/0.1/">Friend of a Friend</a></cite> (<abbr title="Friend of a Friend">FOAF</abbr>) vocabulary to have a combination of what or who they are, what they have created, who they know, their memberships, and so forth. <cite><a href="http://rdfs.org/sioc/spec/">SIOC Core Ontology Specification</a></cite> provides concepts to describe information from online communities like weblogs, message boards, wikis, etc., as well as connections between their content items. <cite><a href="https://www.w3.org/TR/activitystreams-vocabulary/">Activity Vocabulary</a></cite> provides specific activity structures and types for objects and links (eg. article, event, place, mention), actors (eg. application, group, person, service) and for past, current or future social activities (eg. announce, create, like, invite, question). While the core vocabulary covers a wide range of activities, it can be extended to cover domain-specific scientific activities. The <cite><a href="https://www.w3.org/TR/annotation-vocab/">Web Annotation Vocabulary</a></cite> is used to express information about a set of connected resources, typically conveying some sort of a relationship where the <q>body</q> of a resource is about the <q>target</q> resource. Just to have an example, a person can create an annotation using the the reply motivation in reference to particular sentence in an article. This annotation can then later be created somewhere or notified as a social activity somewhere on the Web.</p>
 
-                  <p><strong>Rights and Responsibilities</strong>: <cite><a href="http://creativecommons.org/ns">Creative Commons Rights Expression Language</a></cite> lets licenses to be described - jurisdiction, permissions, requirements, license and work properties - and having them attached to digital works. The <cite><a href="https://creativecommons.org/licenses/">Creative Commons licenses</a></cite> (<abbr title="Creative Commons">CC</abbr>) licenses is intended to enable sharing and reuse of creativity and knowledge, by specifying how something - like scientific and scholarly resources - may be copied, distributed, edited, remixed, and built upon. The <cite><a href="https://www.w3.org/ns/odrl/2/">Open Digital Rights Language</a> (<abbr title="Open Digital Rights Language">ODRL</abbr>) makes it possible to express permissions and obligations about the usage of content and services. <cite><a href="https://www.w3.org/TR/odrl-vocab/">ODRL Vocabulary &amp; Expression</a></cite> describes how to encode such policies. <cite><a href="https://www.w3.org/wiki/WebAccessControl">Web Access Control</a></cite> mechanism with the <cite><a href="https://www.w3.org/ns/auth/acl">Access Control List</a></cite> (<abbr title="Access Control List">ACL</abbr>) vocabulary describes authorization policies in particular to access and operations - read, write, append, control - that can be done on Web resources by agents or groups.</p>
+                  <p><strong>Rights and Responsibilities</strong>: <cite><a href="http://creativecommons.org/ns">Creative Commons Rights Expression Language</a></cite> lets licenses to be described - jurisdiction, permissions, requirements, license and work properties - and having them attached to digital works. The <cite><a href="https://creativecommons.org/licenses/">Creative Commons licenses</a></cite> (<abbr title="Creative Commons">CC</abbr>) licenses is intended to enable sharing and reuse of creativity and knowledge, by specifying how something - like scientific and scholarly resources - may be copied, distributed, edited, remixed, and built upon. The <cite><a href="https://www.w3.org/ns/odrl/2/">Open Digital Rights Language</a></cite> (<abbr title="Open Digital Rights Language">ODRL</abbr>) makes it possible to express permissions and obligations about the usage of content and services. <cite><a href="https://www.w3.org/TR/odrl-vocab/">ODRL Vocabulary &amp; Expression</a></cite> describes how to encode such policies. <cite><a href="https://www.w3.org/wiki/WebAccessControl">Web Access Control</a></cite> mechanism with the <cite><a href="https://www.w3.org/ns/auth/acl">Access Control List</a></cite> (<abbr title="Access Control List">ACL</abbr>) vocabulary describes authorization policies in particular to access and operations - read, write, append, control - that can be done on Web resources by agents or groups.</p>
 
                   <p><strong>Provenance</strong>: <cite><a href="https://www.w3.org/TR/prov-o/">The PROV Ontology</a></cite> (<abbr title="The PROV Ontology">PROV-O</abbr>) can be used <q>to represent and interchange provenance information generated in different systems and under different contexts</q>. It can be also be <q>specialized for modeling application-specific provenance details in a variety of domains</q>, like for instance <cite><a href="http://www.opmw.org/model/OPMW/">The OPMW-PROV Ontology</a></cite> to describe workflow traces and their templates, which also extends the <cite><a href="http://www.opmw.org/model/p-plan/">P-Plan Ontology</a></cite> that is designed to represent scientific processes. The <cite><a href="https://w3id.org/ro/">Wf4Ever Research Object Model</a></cite> is used to describe workflow-centric <cite>Research Objects</cite>: aggregations of resources along with annotations on those resources relating to scientific workflows.</p>
 
@@ -845,49 +845,27 @@ Rough coverage:
 <hr />
 
 
+          <section id="interactive-linked-statistics" inlist="" rel="schema:hasPart" resource="#interactive-linked-statistics">
+            <h2 property="schema:name">Interactive Linked Statistics</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+<pre class="todo">
+* shorten linked-sdmx-data and linked-statistical-data-analysis
+* write challenges/limitations for something like sparqlines.. eg. remote data.. offline.. archiving/caching..
+</pre>
 
 
-<article>
+              <section id="linked-sdmx-data" inlist="" rel="schema:hasPart" resource="#linked-sdmx-data">
+                <h3 property="schema:name">Linked SDMX Data</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>As statistical data is inherently highly structured and comes with rich metadata (in form of code lists, data cubes etc.), the application of the Linked Data design patterns is inherently suitable for representation and reuse on the Web. There exists no simple, standardised or (semi)automated way to transform statistical data into Linked Data since the raw data comes in different shapes and forms. Given that SDMX (Statistical Data and Metadata eXchange) is arguably the most widely used standard for statistical data exchange, a great amount of statistical data about our societies is yet to be discoverable and identifiable in a uniform way. We present the design and implementation of SDMX-ML to RDF/XML XSL transformations, as well as the publication of <a href="http://oecd.270a.info/">OECD</a>, <a href="http://bfs.270a.info/">BFS</a>, <a href="http://fao.270a.info/">FAO</a>, <a href="http://ecb.270a.info/">ECB</a>, <a href="http://imf.270a.info/">IMF</a>, <a href="http://uis.270a.info/">UIS</a>, <a href="http://frb.270a.info/">FRB</a>, <a href="http://bis.270a.info/">BIS</a>, and <a href="http://abs.270a.info/">ABS</a> dataspaces with that tooling.</p>
+                </div>
+              </section>
+            </div>
+          </section>
 
-<p class="todo">shorten first two papers... and write challenges/limitations for something like sparqlines.. eg. remote data.. offline.. archiving/caching.. doublecheck what i said..</p>
-
-<p class=todo">move to structure chapter?</p>
 
 
-  <p><a href="http://csarven.ca/linked-sdmx-data">Linked SDMX Data</a></p>
-
-                <section id="abstract" about="">
-                    <h2>Abstract</h2>
-                    <div property="schema:abstract">
-                        <p>As statistical data is inherently highly structured and comes with rich metadata (in form of code lists, data cubes etc.), it would be a missed opportunity to not tap into it from the Linked Data angle. At the time of this writing, there exists no simple way to transform statistical data into Linked Data since the raw data comes in different shapes and forms. Given that SDMX (Statistical Data and Metadata eXchange) is arguably the most widely used standard for statistical data exchange, a great amount of statistical data about our societies is yet to be discoverable and identifiable in a uniform way. In this article, we present the design and implementation of SDMX-ML to RDF/XML XSL transformations, as well as the publication of <a href="http://oecd.270a.info/">OECD</a>, <a href="http://bfs.270a.info/">BFS</a>, <a href="http://fao.270a.info/">FAO</a>, <a href="http://ecb.270a.info/">ECB</a>, <a href="http://imf.270a.info/">IMF</a>, <a href="http://uis.270a.info/">UIS</a>, <a href="http://frb.270a.info/">FRB</a>, <a href="http://bis.270a.info/">BIS</a>, and <a href="http://abs.270a.info/">ABS</a> dataspaces with that tooling.</p>
-                    </div>
-                </section>
-
-                <section id="categories-and-subject-descriptors" about="">
-                    <h2>Categories and Subject Descriptors</h2>
-                    <div>
-                        <ul>
-                            <li><a rel="schema:about" resource="http://acm.rkbexplorer.com/ontologies/acm#H.4" href="http://www.acm.org/about/class/ccs98-html#H.4">H.4</a> [<strong>Information Systems Applications</strong>]: Linked Data</li>
-                            <li><a rel="schema:about" resource="http://acm.rkbexplorer.com/ontologies/acm#D.2" href="http://www.acm.org/about/class/ccs98-html#D.2">D.2</a> [<strong>Software Engineering</strong>]: Semantic Web</li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section id="keywords" about="">
-                    <h2>Keywords</h2>
-                    <div>
-                        <ul rel="schema:about">
-                            <li><a resource="http://dbpedia.org/resource/Linked_Data" href="http://en.wikipedia.org/wiki/Linked_Data">Linked Data</a></li>
-                            <li><a resource="http://dbpedia.org/resource/SDMX" href="http://en.wikipedia.org/wiki/SDMX">SDMX</a></li>
-                            <li><a resource="http://dbpedia.org/resource/Statistics" href="http://en.wikipedia.org/wiki/Statistics">Statistics</a></li>
-                            <li><a resource="http://dbpedia.org/resource/Data_modeling" href="http://en.wikipedia.org/wiki/Data_modeling">Data modeling</a></li>
-                            <li><a resource="http://dbpedia.org/resource/Data_transformation" href="http://en.wikipedia.org/wiki/Data_transformation">Data transformation</a></li>
-                            <li><a resource="http://dbpedia.org/resource/Dataspaces" href="http://en.wikipedia.org/wiki/Dataspaces">Dataspaces</a></li>
-                            <li><a resource="http://dbpedia.org/resource/Knowledge_management" href="http://en.wikipedia.org/wiki/Knowledge_management">Knowledge management</a></li>
-                        </ul>
-                    </div>
-                </section>
-
+<article class="todo">
                 <section id="introduction" about="" rel="schema:hasPart">
                     <h2 about="#introduction" property="schema:name">Introduction</h2>
                     <div about="#introduction" property="schema:description" typeof="deo:Introduction">
@@ -1469,7 +1447,6 @@ Rough coverage:
                         <p>We thank <a href="http://richard.cyganiak.de/">Richard Cyganiak</a> for his ongoing support, as well as graciously offering to host the dataspaces on a server at <a href="http://deri.ie/">Digital Enterprise Research Institute</a>. We also acknowledge the support of <a href="http://bfh.ch/">Bern University of Applied Sciences</a> for partially funding the transformation effort for the pilot Swiss Statistics Linked Data project and thank <a href="http://www.bfs.admin.ch/">Swiss Federal Statistical Office</a> for the excellent collaboration from the very beginning.</p>
                     </div>
                 </section>
-            </div>
 </article>
 
 
@@ -1478,7 +1455,13 @@ Rough coverage:
 
 
 
-<article>
+
+
+
+
+
+
+<article class="todo">
   <p><a href="http://csarven.ca/linked-statistical-data-analysis">Linked Statistical Data Analysis</a></p>
                     <section id="abstract">
                         <h2>Abstract</h2>
@@ -1828,7 +1811,7 @@ Rough coverage:
 
 
 
-<article>
+<article class="todo">
 <p><a href="http://csarven.ca/sparqlines-sparql-to-sparkline">http://csarven.ca/sparqlines-sparql-to-sparkline</a></p>
 
                     <section id="abstract">
@@ -2106,7 +2089,6 @@ Rough coverage:
                         </div>
                     </section>
 </article>
-
 
 
         </div>
