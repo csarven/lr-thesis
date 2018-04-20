@@ -845,6 +845,1270 @@ Rough coverage:
 <hr />
 
 
+
+
+<article>
+
+<p class="todo">shorten first two papers... and write challenges/limitations for something like sparqlines.. eg. remote data.. offline.. archiving/caching.. doublecheck what i said..</p>
+
+<p class=todo">move to structure chapter?</p>
+
+
+  <p><a href="http://csarven.ca/linked-sdmx-data">Linked SDMX Data</a></p>
+
+                <section id="abstract" about="">
+                    <h2>Abstract</h2>
+                    <div property="schema:abstract">
+                        <p>As statistical data is inherently highly structured and comes with rich metadata (in form of code lists, data cubes etc.), it would be a missed opportunity to not tap into it from the Linked Data angle. At the time of this writing, there exists no simple way to transform statistical data into Linked Data since the raw data comes in different shapes and forms. Given that SDMX (Statistical Data and Metadata eXchange) is arguably the most widely used standard for statistical data exchange, a great amount of statistical data about our societies is yet to be discoverable and identifiable in a uniform way. In this article, we present the design and implementation of SDMX-ML to RDF/XML XSL transformations, as well as the publication of <a href="http://oecd.270a.info/">OECD</a>, <a href="http://bfs.270a.info/">BFS</a>, <a href="http://fao.270a.info/">FAO</a>, <a href="http://ecb.270a.info/">ECB</a>, <a href="http://imf.270a.info/">IMF</a>, <a href="http://uis.270a.info/">UIS</a>, <a href="http://frb.270a.info/">FRB</a>, <a href="http://bis.270a.info/">BIS</a>, and <a href="http://abs.270a.info/">ABS</a> dataspaces with that tooling.</p>
+                    </div>
+                </section>
+
+                <section id="categories-and-subject-descriptors" about="">
+                    <h2>Categories and Subject Descriptors</h2>
+                    <div>
+                        <ul>
+                            <li><a rel="schema:about" resource="http://acm.rkbexplorer.com/ontologies/acm#H.4" href="http://www.acm.org/about/class/ccs98-html#H.4">H.4</a> [<strong>Information Systems Applications</strong>]: Linked Data</li>
+                            <li><a rel="schema:about" resource="http://acm.rkbexplorer.com/ontologies/acm#D.2" href="http://www.acm.org/about/class/ccs98-html#D.2">D.2</a> [<strong>Software Engineering</strong>]: Semantic Web</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="keywords" about="">
+                    <h2>Keywords</h2>
+                    <div>
+                        <ul rel="schema:about">
+                            <li><a resource="http://dbpedia.org/resource/Linked_Data" href="http://en.wikipedia.org/wiki/Linked_Data">Linked Data</a></li>
+                            <li><a resource="http://dbpedia.org/resource/SDMX" href="http://en.wikipedia.org/wiki/SDMX">SDMX</a></li>
+                            <li><a resource="http://dbpedia.org/resource/Statistics" href="http://en.wikipedia.org/wiki/Statistics">Statistics</a></li>
+                            <li><a resource="http://dbpedia.org/resource/Data_modeling" href="http://en.wikipedia.org/wiki/Data_modeling">Data modeling</a></li>
+                            <li><a resource="http://dbpedia.org/resource/Data_transformation" href="http://en.wikipedia.org/wiki/Data_transformation">Data transformation</a></li>
+                            <li><a resource="http://dbpedia.org/resource/Dataspaces" href="http://en.wikipedia.org/wiki/Dataspaces">Dataspaces</a></li>
+                            <li><a resource="http://dbpedia.org/resource/Knowledge_management" href="http://en.wikipedia.org/wiki/Knowledge_management">Knowledge management</a></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="introduction" about="" rel="schema:hasPart">
+                    <h2 about="#introduction" property="schema:name">Introduction</h2>
+                    <div about="#introduction" property="schema:description" typeof="deo:Introduction">
+                        <p>While access to statistical data in the public sector has increased in recent years, a range of technical challenges makes it difficult for data consumers to tap into this data at ease. These are particularly related to the following two areas:</p>
+                        <ul>
+                            <li>Automation of data transformation of data from high profile statistical organizations.</li>
+                            <li>Minimization of third-party interpretation of the source data and metadata and lossless transformations.</li>
+                        </ul>
+
+                        <p>Development teams often face low-level repetitive data management tasks to deal with someone else's data. Within the context of Linked Data, one aspect is to transform this raw statistical data (e.g., SDMX-ML) into an RDF representation in order to be able to start tapping into what's out there in a uniform way.</p>
+
+                        <p>The contributions of this article are two-fold. We present an approach for transforming SDMX-ML based on XSLT 2.0 templates and showcase our implementation which transforms SDMX-ML data to RDF/XML. Following this, SDMX-ML data from <a href="http://www.oecd.org/">OECD</a> (Organisation for Economic Co-operation and Development), <a href="http://www.bfs.admin.ch/">BFS</a> (<span xml:lang="de">Bundesamt für Statistik</span>@de, Swiss Federal Statistical Office@en), <a href="http://www.fao.org/">FAO</a> (Food and Agriculture Organization of the United Nations), <a href="http://www.ecb.int/">ECB</a> (European Central Bank), and <a href="http://www.imf.org/">IMF</a> (International Monetary Fund), <a href="http://www.uis.unesco.org/">UIS</a> (UNESCO Institute for Statistics), <a href="http://www.federalreserve.org/">FRB</a> (Federal Reserve Board), <a href="http://www.bis.org/">BIS</a> (Bank for International Settlements), <a href="http://abs.270a.info/">ABS</a> (Australian Bureau of Statistics) are retrieved, transformed and published as Linked Data.</p>
+                    </div>
+                </section>
+
+                <section id="background" about="" rel="schema:hasPart">
+                    <h2 about="#background" property="schema:name">Background</h2>
+                    <div about="#background" property="schema:description">
+                        <p>As pointed out in <a href="http://csarven.ca/statistical-linked-dataspaces"><cite>Statistical Linked Dataspaces</cite></a> (Capadisli, S., 2012), what linked statistics provide, and in fact enable, are queries across datasets: Given that the dimension concepts are interlinked, one can learn from a certain observation's dimension value, and enable the automation of cross-dataset queries.</p>
+
+                        <p>Moreover, a number of approaches have been undertaken in the past to go from raw statistical data from the publisher to linked statistical data, as discussed in great detail in <a href="http://www.springerlink.com/content/t2244913r2583jw1/"><cite>Official statistics and the Practice of Data Fidelity</cite></a> (Cyganiak, R., 2011). These approaches go from retrieval of the data by majority; in tabular formats: Microsoft Excel or CSV, tree formats: XML with a custom schema, SDMX-ML, PC-Axis, to transformation into different RDF serialization formats. As far as graph formats go, majority of datasets in those formats not published by the owners. However, there are number of statistical linked dataspaces in the <a href="http://lod-cloud.net/">LOD Cloud</a> already.</p>
+
+                        <p>A number of transformation efforts are performed by the Linked Data community based on various formats. For example, the <a href="http://worldbank.270a.info/">World Bank Linked Dataspace</a> is based on custom XML that the <a href="http://worldbank.org/">World Bank</a> provides through their APIs with the application of XSL Templates. The <a href="http://transparency.270a.info/">Transparency International</a> Linked Dataspace's data is based on CSV files with the transformation step through <a href="http://code.google.com/p/google-refine/">Google Refine</a> and the <a href="http://refine.deri.ie/">RDF Extension</a>. That is, data sources provide different data formats for the public, with or without accompanying metadata e.g., vocabularies, provenance. Hence, this repetitive work is no exception to Linked Data teams as they have to constantly be involved either by way of hand-held transformation efforts, or in best-case scenarios, it is done semi-automatically. Currently, there is no automation of the transformation step to the best of our knowledge. This is generally due to the difficulty of the task when dealing with the quality and consistency of the statistical data that is published on the Web, as well as the data formats that are typically focused on consumption. Although SDMX-ML is the primary format of the high profile statistical data organizations, it is yet to be taken advantage of.</p>
+                    </div>
+                </section>
+
+                <section id="sdmx-ml-to-linked-data" about="" rel="schema:hasPart">
+                    <h2 about="#sdmx-ml-to-linked-data" property="schema:name">SDMX-ML to Linked Data</h2>
+                    <div about="#sdmx-ml-to-linked-data" property="schema:description">
+                        <p>Recently, SDMX is approved by ISO as <a href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=52500">International Standard</a>. It is a standard which provides the possibility to consistently carry out data flows between publishers and consumers. SDMX-ML (using XML syntax) is considered to be the gold standard for expressing statistical data. It has a highly structured mechanism to represent statistical observations, classifications, and data structures. Organizations behind SDMX are <a href="http://www.bis.org/">BIS</a> (Bank for International Settlements), <a href="http://www.oecd.org/">OECD</a>, <a href="http://www.un.org/">UN</a> (United Nations), <a href="http://www.ecb.int/">ECB</a>, <a href="http://worldbank.org/">World Bank</a>, <a href="http://www.imf.org/">IMF</a>, <a href="http://www.fao.org/">FAO</a>, and <a href="http://epp.eurostat.ec.europa.eu/">Eurostat</a>.</p>
+
+                        <p>We argue that high-fidelity statistical data representation in Linked Data should take advantage of SDMX-ML as it is widely adopted by data producers with rich data about our societies, making the need for transforming SDMX-ML to RDF and publishing accompanying Linked Dataspaces of paramount importance</p>
+
+                        <section id="data-sources" about="" rel="schema:hasPart">
+                            <h3 about="#data-sources" property="schema:name">Data Sources</h3>
+                            <div about="#data-sources" property="schema:description">
+                                <p>As a demonstration of the SDMX-ML to RDF transformations, the selection of datasets here are from the following organizations. Instead of regurgitating publisher's profile about themselves, and to keep this part brief, I'll quote the first sentences from their about pages:</p>
+
+                                <dl>
+                                    <dt>OECD</dt>
+                                    <dd><q>The mission of the Organisation for Economic Co-operation and Development (OECD) is to promote policies that will improve the economic and social well-being of people around the world</q> from <a href="http://www.oecd.org/about/">OECD Our mission</a>.</dd>
+
+                                    <dt>BFS</dt>
+                                    <dd><q>Swiss Statistics, the Federal Statistical Office’s web portal. Offering a modern and appealing interface, our website proposes a wide range of statistical information on the most important areas of life: population, health, economy, employment, education and much more</q> from <a href="http://www.bfs.admin.ch/bfs/portal/en/index/dienstleistungen/premiere_visite/01.html">BFS Welcome</a>.</dd>
+
+                                    <dt>FAO</dt>
+                                    <dd><q>Achieving food security for all is at the heart of FAO's efforts - to make sure people have regular access to enough high-quality food to lead active, healthy lives</q> from <a href="http://www.fao.org/about/en/">FAO's mandate</a>.</dd>
+
+                                    <dt>ECB</dt>
+                                    <dd><q>Whose main task is to maintain the euro's purchasing power and thus price stability in the euro area</q> from <a href="http://www.ecb.int/">ECB home</a>.</dd>
+
+                                    <dt>IMF</dt>
+                                    <dd><q>Working to foster global monetary cooperation, secure financial stability, facilitate international trade, promote high employment and sustainable economic growth, and reduce poverty around the world</q> from <a href="http://www.imf.org/">IMF home</a>.</dd>
+
+                                    <dt>UIS</dt>
+                                    <dd><q>The primary source for cross-nationally comparable statistics on education, science and technology, culture, and communication for more than 200 countries and territories</q> from <a href="http://www.uis.unesco.org/">UIS home</a>.</dd>
+
+                                    <dt>FRB</dt>
+                                    <dd><q>The Federal Reserve, the central bank of the United States, provides the nation with a safe, flexible, and stable monetary and financial system</q> from <a href="http://www.federalreserve.gov/">FRB home</a>.</dd>
+
+                                    <dt>BIS</dt>
+                                    <dd><q>The Bank for International Settlements (BIS) is an international organisation which fosters international monetary and financial cooperation and serves as a bank for central banks</q> from <a href="http://www.bis.org/">BIS home</a>.</dd>
+
+                                    <dt>ABS</dt>
+                                    <dd><q>We assist and encourage informed decision making, research and discussion within governments and the community, by leading a high quality, objective and responsive national statistical service</q> from <a href="http://www.abs.gov.au/">ABS mission statement</a>.</dd>
+                                </dl>
+
+                                <p>The OECD, FAO, ECB, IMF, UIS, BIS, ABS datasets consisted of observational and structural data. The OECD, ECB, UIS, BIS, ABS provided complete coverage (to the best of our knowledge), whereas FAO had partial fishery related data, and IMF partial data over their REST service. BFS had all of their classifications available, with no observational data in SDMX-ML.</p>
+                            </div>
+                        </section>
+
+                        <section id="data-retrieval" about="" rel="schema:hasPart">
+                            <h3 about="#data-retrieval" property="schema:name">Data Retrieval</h3>
+                            <div about="#data-retrieval" property="schema:description">
+                                <p>As SDMX-ML publishers have their own publishing processes, availability and accessibility of the data varied. After obtaining the dataset codes, names, and URLs with common Linux command-line work, a Bash script was created to retrieve the data.</p>
+
+                                <p id="data-retrieval-oecd">On how to retrieve all of the datasets from the OECD website was not entirely clear. In order to automatically get a hold of list of datasets, I copied the innerHTML of the DOM tree that contained all the dataset codes from <a href="http://stats.oecd.org/">OECD.StatExtracts</a> to a temporary file. This was done due to the fact that a simple scrape of an HTTP GET wasn't possible as the data on the page was populated via JavaScript on <code>document</code> ready. After constructing a list of datasets and structures to get, two REST API endpoints were called.</p>
+
+                                <p id="data-retrieval-bfs">BFS offered a Microsoft Excel <a href="http://www.bfs.admin.ch/bfs/portal/en/index/infothek/nomenklaturen/sdmx.Document.139474.xls">document</a> which contained a catalog of their classifications and URLs for retrieval.</p>
+
+                                <p id="data-retrieval-fao">After searching for keywords along the lines of <code>SDMX site:fao.org</code> at a search-engine nearby, <a href="http://www.fao.org/figis/sdmx/">FAO Fisheries</a> and <a href="http://data.fao.org/sdmx/index.html">data.fao.org</a> SDMX Registry and Repository, and its children pages were marked for SDMX-ML retrieval.</p>
+
+                                <p id="data-retrieval-ecb">ECB had a similar REST API to OECD. Additionally, SDMX Dataflows was retrieved to get a primary list of datasets to retrieve. Some of the large datasets was retrieved by making multiple smaller calls to the API using a call per refereance area.</p>
+
+                                <p id="data-retrieval-imf">IMF had the same procedure as ECB and OECD.</p>
+
+                                <p id="data-retrieval-frb">FRB had the same procedure as above.</p>
+
+                                <p id="data-retrieval-uis">UIS had the same procedure as above.</p>
+
+                                <p id="data-retrieval-bis">BIS had the same procedure as above.</p>
+
+                                <p id="data-retrieval-abs">ABS had the same procedure as above.</p>
+                            </div>
+                        </section>
+
+                        <section id="provenance" about="" rel="schema:hasPart">
+                            <h3 about="#provenance" property="schema:name">Provenance</h3>
+                            <div about="#provenance" property="schema:description">
+                                <p>We now discuss provenance at: retrieval, transformation, and post-processing.</p>
+
+                                <section id="provenance-at-retrieval" about="" rel="schema:hasPart">
+                                    <h4 about="#provenance-at-retrieval" property="schema:name">Provenance at Retrieval</h4>
+                                    <div about="#provenance-at-retrieval" property="schema:description">
+                                        <p>At the time of data retrieval, information pertaining to provenance was captured using the <a href="http://www.w3.org/TR/prov-o/">PROV Ontology</a> in order to further enrich the data. This RDF/XML document contains <code>prov:Activity</code> information which indicates the location of the XML document on the local filesystem. It contains other provenance data like when it was retrieved, with what tools, etc. This provenance data from retrieval may be provided to the XSL Transformer during the transformation phase and VoID enrichment.</p>
+                                    </div>
+                                </section>
+
+                                <section id="provenance-at-transformation" about="" rel="schema:hasPart">
+                                    <h4 about="#provenance-at-transformation" property="schema:name">Provenance at Transformation</h4>
+                                    <div about="#provenance-at-transformation" property="schema:description">
+                                        <p>Resources of type <code>qb:DataStructureDefinition</code>, <code>qb:DataSet</code>, <code>skos:ConceptScheme</code> are also typed with the <code>prov:Entity</code> class. Also properties <code>prov:wasAttributedTo</code> were added to these resources with the <code>creator</code> value which is of type <code>prov:Agent</code> obtained from XSLT configuration. There is a unique <code>prov:Activity</code> for each transformation, and it has a <code>schema:name</code>, and contains values for <code>prov:startedAtTime</code>, <code>prov:wasAssociatedWith</code> (the creator), <code>prov:used</code> (i.e., source XML, XSL to transform) to what was <code>prov:generated</code> (and source data URI that it <code>prov:wasDerivedFrom</code>). It also declares <code>dcterms:license</code> where value taken from XSLT configuration. The provenance document from the retrieval phase may be provided to the transformer. In this case, it establishes a link between the current provenance activity (i.e., the transformation), with the earlier provenance activity (i.e., the retrieval) using the <code>prov:wasInformedBy</code> property.</p>
+                                    </div>
+                                </section>
+
+                                <section id="provenance-at-post-processing" about="" rel="schema:hasPart">
+                                    <h4 about="#provenance-at-post-processing" property="schema:name">Provenance at Post-processing</h4>
+                                    <div about="#provenance-at-post-processing" property="schema:description">
+                                        <p>The post-processing step for provenance is intended to retain provenance data for future use. As datasets get updated, it is important to preserve information about past activities by way of exporting all instances of the <code>prov:Activity</code> class from the RDF store. Activities are unique artifacts, on a conceptual level as well as with regard to referencing them. Since one of the main concerns of provenance is to keep track of activities, this post-processing step also allows us to retain a historical account of all activities during the data lifecycle, and to preserve all previously published URIs (cf. <a href="http://www.w3.org/Provider/Style/URI.html">Cool URIs don't change</a>).</p>
+                                    </div>
+                                </section>
+                            </div>
+                        </section>
+
+                        <section id="data-preprocessing" about="" rel="schema:hasPart">
+                            <h3 about="#data-preprocessing" property="schema:name">Data Preprocessing</h3>
+                            <div about="#data-preprocessing" property="schema:description">
+                                <p>By in large, there was no need to pre-process the data as the transformation dealt with the data as it was. However, some non-vital SDMX components were omitted from the output. For instance, one type of attribute in OECD and ECB observations contained free-text as opposed to its corresponding code from a codelist. Since the RDF Data Cube required codes as opposed to free-text for dimension values, some attributes were excluded. The decision here was to trade-off some precision in favour of retaining the dataset.</p>
+                            </div>
+                        </section>
+
+                        <section id="data-modeling" about="" rel="schema:hasPart">
+                            <h3 about="#data-modeling" property="schema:name">Data Modeling</h3>
+                            <div about="#data-modeling" property="schema:description">
+                                <p>This section goves over several areas which are at the heart of representing statistical data in SDMX-ML as Linked Data. The approach taken was to provide a level of consistency for data consumers and tool builders for all statistical Linked Data with its origins from data in SDMX-ML.</p>
+
+                                <section id="vocabularies" about="" rel="schema:hasPart">
+                                    <h4 about="#vocabularies" property="schema:name">Vocabularies</h4>
+                                    <div about="#vocabularies" property="schema:description">
+                                        <p>Besides the common vocabularies: RDF RDFS, XSD, OWL, XSD, the RDF Data Cube vocabulary is used to describe multi-dimensional statistical data, and SDMX-RDF for the statistical information model. PROV-O is used for provenance coverage. SKOS and XKOS to cover concepts, concept schemes and their relationships to one another.</p>
+                                    </div>
+                                </section>
+
+                                <section id="version-in-uri" about="" rel="schema:hasPart">
+                                    <h4 about="#version-in-uri" property="schema:name">Versioning</h4>
+                                    <div about="#version-in-uri" property="schema:description">
+                                        <p>SDMX data publishers version their classifications and the generated cubes refer to particular versions of those classifications. Consequently, versions need to be explicitly part of classification URIs in order to uniquely identify them. Although including version information in the URI is disputed by some authors, it is a good exception for identifying different concepts and data structures. Jeni Tennison et al discussed <a href="http://www.jenitennison.com/blog/node/112">Versioning URIs</a>, and concluded that there was no one-size-fits all solution. An alternative approach using named graphs for a series of changes was proposed in <a href="http://www.springerlink.com/index/10.1007/978-1-4614-1767-5">Linking UK Government Data</a>.</p>
+                                    </div>
+                                </section>
+
+                                <section id="uri-patterns" about="" rel="schema:hasPart">
+                                    <h4 about="#uri-patterns" property="schema:name">URI Patterns</h4>
+                                    <div about="#uri-patterns" property="schema:description">
+                                        <p>An outline for the URI patterns is given in table below: <code>authority</code> is replaced with the domain (see also: <a href="#agency-identifiers-and-uris">Agency identifiers and URIs</a>) followed with <code>class</code>, <code>code</code>, <code>concept</code>, <code>dataset</code>, <code>property</code>, <code>provenance</code>, or <code>slice</code> as example. These tokens as well as <code>/</code> which is used to separate the dimension concepts in URIs can be configured in the toolkit.</p>
+
+                                        <p>In order to construct the URIs for the above patterns, some of the data values are normalized to make them URI safe but not altered in other ways (e.g., lower-casing). The rationale for this was to keep the consistency of terms in SDMX and RDF.</p>
+
+                                        <table id="uri-patterns-outline">
+                                            <caption>URI Patterns</caption>
+                                            <thead><tr><th>Entity type</th><th>URI Pattern</th></tr></thead>
+                                            <tbody>
+                                                <tr><td><code>qb:DataStructureDefinition</code></td><td><code>http://{authority}/structure/{version}/{KeyFamilyID}</code></td></tr>
+                                                <tr><td><code>qb:ComponentSpecification</code></td><td><code>http://{authority}/component/{KeyFamilyID}/{dimension|measure|attribute}/{version}/{conceptSchemeID}/{conceptID}</code></td></tr>
+                                                <tr><td><code>qb:DataSet</code></td><td><code>http://{authority}/dataset/{datasetID}</code></td></tr>
+                                                <tr><td><code>qb:Observation</code></td><td><code>http://{authority}/dataset/{datasetID}/{dimension-1}/../{dimension-n}</code></td></tr>
+                                                <tr><td><code>qb:Slice</code></td><td><code>http://{authority}/slice/{KeyFamilyID}/{dimension-1}/../{dimension-n-no-FREQ}</code></td></tr>
+                                                <tr><td><code>skos:Collection</code></td><td><code>http://{authority}/code/{version}/{hierarchicalCodeListID}</code>,<br/>
+                                                                                <code>http://{authority}/code/{version}/{hierarchyID}</code></td></tr>
+                                                <tr><td><code>sdmx:CodeList</code></td><td><code>http://{authority}/code/{version}/{codeListID}</code></td></tr>
+                                                <tr><td><code>skos:ConceptScheme</code></td><td><code>http://{authority}/concept/{version}/{conceptSchemeID}</code></td></tr>
+                                                <tr><td><code>skos:Concept</code>,<br/>
+                                                        <code>sdmx:Concept</code></td><td><code>http://{authority}/code/{version}/{codeListID}/{codeID}</code><br/>
+                                                                             <code>http://{authority}/concept/{version}/{conceptSchemeID}/{conceptID}</code></td></tr>
+                                                <tr><td><code>owl:Class</code>,<br/>
+                                                        <code>rdfs:Class</code></td><td><code>http://{authority}/class/{version}/{codeListID}</code></td></tr>
+                                                <tr><td><code>rdf:Property</code>,<br/>
+                                                        <code>qb:ComponentProperty</code></td><td><code>http://{authority}/{property|dimension|measure|attribute}/{version}/{conceptSchemeID}/{conceptID}</code></td></tr>
+
+                                                <tr><td><code>qb:DimensionProperty</code></td><td><code>http://{authority}/dimension/{version}/{conceptSchemeID}/{conceptID}</code></td></tr>
+                                                <tr><td><code>qb:MeasureProperty</code></td><td><code>http://{authority}/measure/{version}/{conceptSchemeID}/{conceptID}</code></td></tr>
+                                                <tr><td><code>qb:AttributeProperty</code></td><td><code>http://{authority}/attribute/{version}/{conceptSchemeID}/{conceptID}</code></td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </section>
+
+                                <section id="datatypes" about="" rel="schema:hasPart">
+                                    <h4 about="#datatypes" property="schema:name">Datatypes</h4>
+                                    <div about="#datatypes" property="schema:description">
+                                        <p>XSD datatypes are assigned to literals are based on the value of the measure component (e.g., decimal, year). In the absence of this datatype, observation values are checked whether they can be casted to <code>xsd:decimal</code>. Otherwise, they are left as plain literals.</p>
+                                    </div>
+                                </section>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+
+
+                <section id="linked-sdmx-data-transformation" about="" rel="schema:hasPart">
+                    <h2 about="#linked-sdmx-data-transformation" property="schema:name">Linked SDMX Data Transformation</h2>
+                    <div about="#linked-sdmx-data-transformation" property="schema:description">
+                        <p>The <a href="https://github.com/csarven/linked-sdmx">Linked SDMX</a> XSLT 2.0 templates and scripts are developed to transform SDMX-ML data and metadata to RDF/XML. Its goals are:</p>
+                        <ul>
+                            <li>To improve access and discovery of cross-domain statistical data.</li>
+                            <li>To perform the transformation in a lossless and semantics preserving way.</li>
+                            <li>To support and encourage statistical agencies to publish their data using RDF and integrating the transformation into their workflow.</li>
+                        </ul>
+
+
+                        <p>The key advantage of this transformation approach is that additional interpretations are not required by the data modeler especially in comparison to alternative transformation (e.g., CSV or XML to RDF serialization). Since the SDMX-RDF vocabulary is based on SDMX-ML standard, and the RDF Data Cube vocabulary is closely aligned with the SDMX information model, the transformation is to a large extent a matter of mapping the source SDMX-ML data to its counter parts in RDF.</p>
+
+
+                        <section id="features-of-the-transformation" about="" rel="schema:hasPart">
+                            <h3 about="#features-of-the-transformation" property="schema:name">Features of the transformation</h3>
+                            <div about="#features-of-the-transformation" property="schema:description">
+                                <ul>
+                                    <li>Transforms SDMX KeyFamilies, ConceptSchemes and Concepts, CodeLists and Codes, Hierarchical CodeLists, DataSets.</li>
+                                    <li>Configurability for SDMX publisher's needs.</li>
+                                    <li>Detection and referencing CodeLists and Codes of external agencies.</li>
+                                    <li>Support of interlinking publisher-specific annotation types.</li>
+                                    <li>Support for omission of components.</li>
+                                    <li>Inclusion of provenance data.</li>
+                                </ul>
+
+                                <figure id="linked-sdmx-transformation-process">
+                                    <figcaption>Transformation Process</figcaption>
+                                    <object type="image/svg+xml" data="/media/images/articles/linked-sdmx-transformation.svg" width="460" height="175"></object>
+                                </figure>
+                            </div>
+                        </section>
+
+                        <section id="what-is-inside" about="" rel="schema:hasPart">
+                            <h3 about="#what-is-inside" property="schema:name">What is inside?</h3>
+                            <div about="#what-is-inside" property="schema:description">
+                                <p>It comes with scripts and sample data:</p>
+
+                                <ul>
+                                    <li>XSLT 2.0 templates to transform Generic SDMX-ML data and metadata. It includes the main XSL template for generic SDMX-ML, an XSL for common templates and functions, and an RDF/XML configuration file to set preferences like base URIs, delimiters in URIs, how to map annotation types.</li>
+                                    <li>Bash script that transforms sample data using saxonb-xslt.</li>
+                                    <li>Sample SDMX Message and Structure retrieved from those organizations that are initially involved in the SDMX standard, as well as from BFS.</li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section id="requirements" about="" rel="schema:hasPart">
+                            <h3 about="#requirements" property="schema:name">Requirements</h3>
+                            <div about="#requirements" property="schema:description">
+                                <p>The requirements for the Linked SDMX toolkit are an XSLT 2.0 processor to transform, and optionally to configure some of the settings in the transformation with provided <code>config.ttl</code> (in RDF Turtle) and transforming that to an abbreviated version of RDF/XML. In sequel some of they key features are described in more detail.</p>
+
+                                <p>The transformation follows some common Linked Data practices as well as other ones out of thin air.</p>
+                            </div>
+                        </section>
+
+                        <section id="configuration" about="" rel="schema:hasPart">
+                            <h3 about="#configuration" property="schema:name">Configuration</h3>
+                            <div about="#configuration" property="schema:description">
+                                <p>The config file is used to pre-configure some of the decisions that are made in XSL templates. Here is an outline for some of the noteworthy things.</p>
+
+                                <section id="agency-identifiers-and-uris" about="" rel="schema:hasPart">
+                                    <h4 about="#agency-identifiers-and-uris" property="schema:name">Agency identifiers and URIs</h4>
+                                    <div about="#agency-identifiers-and-uris" property="schema:description">
+                                        <p><code>agencies.ttl</code> is used to track some of the mappings for maintenance agencies. It includes the maintenance agency's i.e., the SDMX publisher's, identifier that's in the SDMX Registry, as well as the base URI for that agency. This file allows references to external agency identifiers to be looked up for their base URI and used in the transformations. Currently this agency recognition is treated as either "SDMX" or some agency that's publishing the actual statistics.</p>
+
+                                        <p>In the case of SDMX, when there is a reference to SDMX CodeLists and Codes, it is typically indicated by the component agency being set to <code>SDMX</code> e.g., <code>codelistAgency="SDMX"</code> of a <code>structure:Component</code> and/or <code>agencyID="SDMX"</code> of a CodeList with <code>id="CL_FREQ"</code>. When this is detected, corresponding URIs from the SDMX-RDF vocabulary is used e.g., for metadata; <code>http://purl.org/linked-data/sdmx/2009/code#freq</code>, and data; <code>http://purl.org/linked-data/sdmx/2009/code#freq-A</code>.</p>
+
+                                        <p>Similarly, an agency might use some other agency's codes. By following the same URI pattern conventions, the agency file is used to find the corresponding base URI in order to make a reference. For example, here is a coded property that's used by European Central Bank (<code>ECB</code>) to associate a code list that's defined by Eurostat (<code>eurostat</code>):</p>
+
+<pre>
+&lt;http://ecb.270a.info/property/OBS_STATUS&gt;
+&lt;http://purl.org/linked-data/cube#codeList&gt;
+&lt;http://eurostat.270a.info/code/1.0/CL_OBS_STATUS&gt;
+</pre>
+
+                                        <p>Naturally, the transformation does not re-define metadata that's from an external agency as the owners of the data would define them under their authority.</p>
+                                    </div>
+                                </section>
+
+                                <section id="uri-configurations" about="" rel="schema:hasPart">
+                                    <h4 about="#uri-configurations" property="schema:name">URI configurations</h4>
+                                    <div about="#uri-configurations" property="schema:description">
+                                        <p>Base URIs can be set for classes, codelists, concept schemes, datasets, slices, properties, provenance, as well as for the source SDMX data.</p>
+
+                                        <p>The value for <code>uriThingSeparator</code> e.g., <code>/</code>, lets one set the delimiter to separate the "thing" from the rest of the URI. This is typically either a <code>/</code> or <code>#</code>. For example, if slash is used, an URI would end up like <code>http://{authority}/code/{version}/CL_GEO</code> (note the last slash before CL_GEO). If hash is used, an URI would end up like <code>http://{authority}/code/{version}#CL_GEO</code>.</p>
+
+                                        <p>Similarly, <code>uriDimensionSeparator</code> can be set to separate dimension values that's used in RDF Data Cube observation URIs. As observation should have its own unique URI, the method to construct URIs is done by taking dimension values as safe terms to be used in URIs separated by the value in <code>uriDimensionSeparator</code>. For example, here is a crazy looking observation URI where <code>uriDimensionSeparator</code> is set to <code>/</code>: <code>http://{authority}/dataset/HEALTH_STAT/EVIEFE00/EVIDUREV/AUS/1960</code>. But with <code>uriThingSeparator</code> set to <code>#</code> and <code>uriDimensionSeparator</code> set to <code>-</code>, it could end up like <code>http://{authority}/dataset/HEALTH_STAT#EVIEFE00-EVIDUREV-AUS-1960</code>. <code>HEALTH_STAT</code> is the dataset id.</p>
+
+                                        <p>Creator's URI can also be set which is also used for provenance data.</p>
+                                    </div>
+                                </section>
+
+                                <section id="default-language" about="" rel="schema:hasPart">
+                                    <h4 about="#default-language" property="schema:name">Default language</h4>
+                                    <div about="#default-language" property="schema:description">
+                                        <p>From the configuration, it is possible to force a default <code>xml:lang</code> on <code>skos:prefLabel</code> and <code>skos:definition</code> when lang is not originally in the data. If <code>config.rdf</code>contains a non-empty lang value it will use it. Default language may also be applied in the case of Annotations. See Interlinking SDMX Annotations for example.</p>
+                                    </div>
+                                </section>
+
+
+                                <section id="interlinking-sdmx-annotations" about="" rel="schema:hasPart">
+                                    <h4 about="#interlinking-sdmx-annotations" property="schema:name">Interlinking SDMX Annotations</h4>
+                                    <div about="#interlinking-sdmx-annotations" property="schema:description">
+                                        <p>SDMX Annotations contain important information that can be put to use by the publisher. Data in AnnotationTypes are typically used as publisher's internal conventions. Hence, there is no standardization on how they are used across all SDMX publishers. In order not to leave this information behind in the final transformation, the configuration allows publishers to define the way they should be transformed. This is done by setting <code>interlinkAnnotationTypes</code>: the AnnotationType to detect (in <code>rdfs:type</code>), the predicate (as an XML QName) to use (in <code>rdf:predicate</code>), whether to apply instances of Concepts or Codes to apply to, or as Literals (in <code>rdf:range</code>), and whether to target AnnotationText or AnnotationTitle (in <code>rdfs:label</code>). Currently this feature is only applied to Annotations in Concepts and Codes. Only the AnnotationTypes with a corresponding configuration will be applied, and unspecific ones will be skipped.</p>
+                                    </div>
+                                </section>
+
+
+                                <section id="omitting-components" about="" rel="schema:hasPart">
+                                    <h4 about="#omitting-components" property="schema:name">Omitting components</h4>
+                                    <div about="#omitting-components" property="schema:description">
+                                        <p>There are cases in which certain data parts contain errors. To get around this until the data is fixed at source, and without giving up on rest of the data at hand, as well as without making any significant assumptions or changes to the remaining data, <code>omitComponents</code> is a configuration option to explicitly skip over those parts. For example, if the Attribute values in a DataSet don't correspond to coded values - where they may contain whitespace - they can be skipped without damaging the rest of the data. This obviously gives up on precision in favour of still making use of the data.</p>
+                                    </div>
+                                </section>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+
+                <section id="linked-datasets" about="" rel="schema:hasPart">
+                    <h2 about="#linked-datasets" property="schema:name">Linked Datasets</h2>
+                    <div about="#linked-datasets" property="schema:description">
+                        <p>This section provides information on the publication of OECD, BFS, FAO, ECB, UIS, FRB, and BIS datasets.</p>
+
+                        <p>The original SDMX-ML files were transformed to RDF/XML using XSLT 2.0. Saxon’s command-line XSLT and XQuery Processor tool was used for the transformations, and employed as part of Bash scripts to iterate through all the files in the datasets.</p>
+
+                        <section id="rdf-datasets" about="" rel="schema:hasPart">
+                            <h3 about="#rdf-datasets" property="schema:name">RDF Datasets</h3>
+                            <div about="#rdf-datasets" property="schema:description">
+                                <p>Here are some statistics for the transformations.</p>
+
+                                <p>The command-line tool <code>saxonb-xslt</code> was used to conduct the XSL transformations. 12000M of memory was allocated on a machine with Intel(R) Xeon(R) CPU E5620 @ 2.40GHz. Linux kernel 3.2.0-33-generic was used. Table [<a href="#transformation-time">Transformation time</a>] provides information on datasets; input SDMX-ML size, output RDF/XML size, their size difference in ratio, and the total amount transformation time.</p>
+
+                                <table id="transformation-time">
+                                    <caption>Transformation time</caption>
+                                    <thead>
+                                        <tr><th>Dataset</th><th>Input size</th><th>Output size</th><th>Ratio</th><th>Time</th></tr>
+                                    </thead>
+                                    <tfoot><tr><td colspan="5">Input size (rounded) refers to the original data in XML, and the output (rounded) is the RDF/XML size. Time is the real process time.</td></tr></tfoot>
+                                    <tbody>
+                                        <tr><td>OECD</td><td>3400 MB</td><td>24000 MB</td><td>1:7.1</td><td>131m25.795s</td></tr>
+                                        <tr><td>BFS</td><td>111 MB</td><td>154 MB</td><td>1:1.4</td><td>2m38.225s</td></tr>
+                                        <tr><td>FAO</td><td>902 MB</td><td>4400 MB</td><td>1:4.9</td><td>31m48.207s</td></tr>
+                                        <tr><td>ECB</td><td>11000 MB</td><td>35000 MB</td><td>1:3.2</td><td>316m46.329s</td></tr>
+                                        <tr><td>IMF</td><td>392 MB</td><td>3400 MB</td><td>1:8.7</td><td>28m11.826s</td></tr>
+                                        <tr><td>UIS</td><td>115 MB</td><td>896 MB</td><td>1:7.8</td><td>2m33.214s</td></tr>
+                                        <tr><td>FRB</td><td>783 MB</td><td>11000 MB</td><td>1:14.1</td><td>96m20.676s</td></tr>
+                                        <tr><td>BIS</td><td>845 MB</td><td>4000 MB</td><td>1:4.7</td><td>21m7.203s</td></tr>
+                                        <tr><td>ABS</td><td>34000 MB</td><td>160000 MB</td><td>1:4.7</td><td>831m52.558s</td></tr>
+                                    </tbody>
+                                </table>
+
+                                <p>Table [<a href="#transformed-data">Transformed data</a>] provides data on the transformed data; number of triples it contains, as well as the number of <code>qb:Observation</code>s, and the ratio.</p>
+
+                                <table id="transformed-data">
+                                    <caption>Transformed data</caption>
+                                    <thead><tr><th>Data</th><th>Number of triples</th><th>Number of observations</th><th>Ratio</th></tr></thead>
+                                    <tfoot><tr><td colspan="4">Metadata (from <code>graph/meta</code>) includes dataset structures and classifications. Ratio refers to rounded ratio of total number of triples (rounded) to number of observations (rounded) in the dataset.</td></tr></tfoot>
+                                    <tbody>
+                                        <tr><th>OECD Dataset</th><td>305 million</td><td>30 million</td><td>10.2:1</td></tr>
+                                        <tr><th>OECD Metadata</th><td>1.15 million</td><td>N/A</td><td>N/A</td></tr>
+                                        <tr><th>BFS Metadata</th><td>1.5 million</td><td>N/A</td><td>N/A</td></tr>
+                                        <tr><th>FAO Dataset</th><td>53 million</td><td>7.2 million</td><td>7.4:1</td></tr>
+                                        <tr><th>FAO Metadata</th><td>0.37 million</td><td>N/A</td><td>N/A</td></tr>
+                                        <tr><th>ECB Dataset</th><td>469 million</td><td>26 million</td><td>18:1</td></tr>
+                                        <tr><th>ECB Metadata</th><td>0.47 million</td><td>N/A</td><td>N/A</td></tr>
+                                        <tr><th>IMF Dataset</th><td>36 million</td><td>3.3 million</td><td>10.9:1</td></tr>
+                                        <tr><th>IMF Metadata</th><td>0.05 million</td><td>N/A</td><td>N/A</td></tr>
+                                        <tr><th>UIS Dataset</th><td>10.4 million</td><td>1.4 million</td><td>7.4:1</td></tr>
+                                        <tr><th>UIS Metadata</th><td>0.09 million</td><td>N/A</td><td>N/A</td></tr>
+                                        <tr><th>FRB Dataset</th><td>135 million</td><td>9.8 million</td><td>13.8:1</td></tr>
+                                        <tr><th>FRB Metadata</th><td>0.04 million</td><td>N/A</td><td>N/A</td></tr>
+                                        <tr><th>BIS Dataset</th><td>54 million</td><td>3.6 million</td><td>15:1</td></tr>
+                                        <tr><th>BIS Metadata</th><td>0.04 million</td><td>N/A</td><td>N/A</td></tr>
+                                        <tr><th>ABS Dataset</th><td>2360 million</td><td>160 million</td><td>14.8:1</td></tr>
+                                        <tr><th>ABS Metadata</th><td>6.06 million</td><td>N/A</td><td>N/A</td></tr>
+                                    </tbody>
+                                </table>
+
+                                <p>Table [<a href="#resource-counts">Resource counts</a>] provides further statistics on prominent resources. It gives a contrast between the classifications and the dataset.</p>
+
+                                <table id="resource-counts">
+                                    <caption>Resource counts</caption>
+                                    <thead><tr><th>Source dataset</th><th><code>skos:ConceptScheme</code></th><th><code>skos:Concept</code></th><th><code>rdf:Property</code></th><th><code>qb:Observation</code></th></tr></thead>
+                                    <tfoot><tr><td colspan="4">Count of resources in datasets</td></tr></tfoot>
+                                    <tbody>
+                                        <tr><td>OECD</td><td>1209</td><td>80918</td><td>129</td><td>30183484</td></tr>
+                                        <tr><td>BFS</td><td>216</td><td>120202</td><td>0</td><td>0</td></tr>
+                                        <tr><td>FAO</td><td>32</td><td>28115</td><td>12</td><td>7186764</td></tr>
+                                        <tr><td>ECB</td><td>147</td><td>55609</td><td>231</td><td>25791005</td></tr>
+                                        <tr><td>IMF</td><td>25</td><td>3397</td><td>42</td><td>3603719</td></tr>
+                                        <tr><td>UIS</td><td>35</td><td>4515</td><td>12</td><td>1437651</td></tr>
+                                        <tr><td>FRB</td><td>76</td><td>2935</td><td>64</td><td>9768292</td></tr>
+                                        <tr><td>BIS</td><td>27</td><td>1560</td><td>31</td><td>3606466</td></tr>
+                                        <tr><td>ABS</td><td>2830</td><td>548953</td><td>111</td><td>160065287</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+
+                        <section id="interlinking" about="" rel="schema:hasPart">
+                            <h3 about="#interlinking" property="schema:name">Interlinking</h3>
+                            <div about="#interlinking" property="schema:description">
+                                <p>Initial interlinking is done among the classifications themselves in the datasets. The OECD and UIS classifications in particular contained highly similar codes (in some cases the same) throughout its codelists. Majority of the interlinks are between <code>skos:Concept</code>s with link relation <code>skos:exactMatch</code>.</p>
+
+                                <p>The consequent interlinking was done with <a href="http://dbpedia.org/">DBpedia</a>, <a href="http://worldbank.270a.info/">World Bank Linked Data</a>, <a href="http://transparency.270a.info/">Transparency International Linked Data</a>, and <a href="http://eunis.eea.europa.eu/">EUNIS</a> using <a href="http://aksw.org/Projects/limes">LInk discovery framework for MEtric Spaces</a> (LIMES): <a href="http://www.dit.unitn.it/~p2p/OM-2011/om2011_Tpaper1.pdf"><cite>A Time-Efficient Hybrid Approach to Link Discovery</cite></a> (Ngonga Ngomo, A.-C., 2011)</p>
+
+                                <table id="interlinks-between-datasets">
+                                    <caption>Interlinks between datasets</caption>
+                                    <thead><tr><th>Source dataset</th><th>Target dataset</th><th>Link count</th></tr></thead>
+                                    <tbody>
+                                        <tr><td>OECD</td><td>World Bank</td><td>3487</td></tr>
+                                        <tr><td>OECD</td><td>Transparency International</td><td>3335</td></tr>
+                                        <tr><td>OECD</td><td>DBpedia</td><td>3613</td></tr>
+                                        <tr><td>OECD</td><td>BFS</td><td>3383</td></tr>
+                                        <tr><td>OECD</td><td>FAO</td><td>3360</td></tr>
+                                        <tr><td>OECD</td><td>ECB</td><td>3495</td></tr>
+
+                                        <tr><td>BFS</td><td>World Bank</td><td>185</td></tr>
+                                        <tr><td>BFS</td><td>DBpedia</td><td>261</td></tr>
+
+                                        <tr><td>FAO</td><td>World Bank</td><td>178</td></tr>
+                                        <tr><td>FAO</td><td>Transparency International</td><td>167</td></tr>
+                                        <tr><td>FAO</td><td>DBpedia</td><td>875</td></tr>
+                                        <tr><td>FAO</td><td>EUNIS</td><td>359</td></tr>
+                                        <tr><td>FAO</td><td>ECB</td><td>210</td></tr>
+              
+                                        <tr><td>ECB</td><td>World Bank</td><td>188</td></tr>
+                                        <tr><td>ECB</td><td>Transparency International</td><td>167</td></tr>
+                                        <tr><td>ECB</td><td>DBpedia</td><td>239</td></tr>
+                                        <tr><td>ECB</td><td>BFS</td><td>221</td></tr>
+                                        <tr><td>ECB</td><td>FAO</td><td>210</td></tr>
+
+                                        <tr><td>IMF</td><td>World Bank</td><td>26</td></tr>
+                                        <tr><td>IMF</td><td>Transparency International</td><td>23</td></tr>
+                                        <tr><td>IMF</td><td>DBpedia</td><td>25</td></tr>
+                                        <tr><td>IMF</td><td>BFS</td><td>24</td></tr>
+                                        <tr><td>IMF</td><td>FAO</td><td>23</td></tr>
+                                        <tr><td>IMF</td><td>ECB</td><td>26</td></tr>
+
+                                        <tr><td>UIS</td><td>World Bank</td><td>964</td></tr>
+                                        <tr><td>UIS</td><td>Transparency International</td><td>854</td></tr>
+                                        <tr><td>UIS</td><td>DBpedia</td><td>964</td></tr>
+                                        <tr><td>UIS</td><td>BFS</td><td>849</td></tr>
+                                        <tr><td>UIS</td><td>FAO</td><td>825</td></tr>
+                                        <tr><td>UIS</td><td>ECB</td><td>855</td></tr>
+                                        <tr><td>UIS</td><td>IMF</td><td>119</td></tr>
+                                        <tr><td>UIS</td><td>OECD</td><td>17337</td></tr>
+                                        <tr><td>UIS</td><td>FRB</td><td>800</td></tr>
+                                        <tr><td>UIS</td><td>Geonames</td><td>959</td></tr>
+                                        <tr><td>UIS</td><td>IATI</td><td>964</td></tr>
+                                        <tr><td>UIS</td><td>Humanitarian Response</td><td>835</td></tr>
+                                        <tr><td>UIS</td><td>Eurostat</td><td>964</td></tr>
+
+                                        <tr><td>FRB</td><td>DBpedia</td><td>280</td></tr>
+                                        <tr><td>FRB</td><td>World Bank</td><td>280</td></tr>
+                                        <tr><td>FRB</td><td>ECB</td><td>276</td></tr>
+                                        <tr><td>FRB</td><td>OECD</td><td>34</td></tr>
+                                        <tr><td>FRB</td><td>UIS</td><td>280</td></tr>
+
+                                        <tr><td>BIS</td><td>DBpedia</td><td>534</td></tr>
+                                        <tr><td>BIS</td><td>World Bank</td><td>487</td></tr>
+                                        <tr><td>BIS</td><td>ECB</td><td>574</td></tr>
+                                        <tr><td>BIS</td><td>Transparency International</td><td>406</td></tr>
+                                        <tr><td>BIS</td><td>UIS</td><td>2310</td></tr>
+                                        <tr><td>BIS</td><td>IMF</td><td>72</td></tr>
+                                        <tr><td>BIS</td><td>FRB</td><td>54</td></tr>
+                                        <tr><td>BIS</td><td>OECD</td><td>17</td></tr>
+                                        <tr><td>BIS</td><td>FAO</td><td>472</td></tr>
+                                        <tr><td>BIS</td><td>BFS</td><td>466</td></tr>
+                                        <tr><td>BIS</td><td>Geonames</td><td>515</td></tr>
+                                        <tr><td>BIS</td><td>Eurostat</td><td>489</td></tr>
+                                        <tr><td>BIS</td><td>NASA</td><td>46</td></tr>
+
+                                        <tr><td>ABS</td><td>DBpedia</td><td>99</td></tr>
+                                        <tr><td>ABS</td><td>World Bank</td><td>99</td></tr>
+                                        <tr><td>ABS</td><td>ECB</td><td>99</td></tr>
+                                        <tr><td>ABS</td><td>Transparency International</td><td>99</td></tr>
+                                        <tr><td>ABS</td><td>UIS</td><td>495</td></tr>
+                                        <tr><td>ABS</td><td>IMF</td><td>99</td></tr>
+                                        <tr><td>ABS</td><td>FAO</td><td>99</td></tr>
+                                        <tr><td>ABS</td><td>BFS</td><td>99</td></tr>
+                                        <tr><td>ABS</td><td>BIS</td><td>198</td></tr>
+                                        <tr><td>ABS</td><td>Geonames</td><td>99</td></tr>
+                                        <tr><td>ABS</td><td>Eurostat</td><td>99</td></tr>
+                                    </tbody>
+                                </table>
+
+                                <p>Figure [<a href="#linked-sdmx-concept-links">SDMX concept links</a>] gives an overview of the complete connectivity of a concept that's linked internally, externally, and with sdmx-codes where applicable, as well as the interlinking that was done to an external concept.</p>
+
+                                <figure id="linked-sdmx-concept-links">
+                                    <figcaption>SDMX Concept links</figcaption>
+                                    <object type="image/svg+xml" data="/media/images/articles/linked-sdmx-concept-links.svg" width="557" height="175"></object>
+                                </figure>
+                            </div>
+                        </section>
+
+                        <section id="rdf-data-storage" about="" rel="schema:hasPart">
+                            <h3 about="#rdf-data-storage" property="schema:name">RDF Data Storage</h3>
+                            <div about="#rdf-data-storage" property="schema:description">
+                                <p><a href="http://jena.apache.org/">Apache Jena</a>&#8217;s <a href="http://incubator.apache.org/jena/documentation/tdb/">TDB</a> storage system is used to load the RDFized data using TDB&#8217;s incremental <code>tdbloader</code> utility. <code>tdbstats</code>, the tool for <a href="http://jena.apache.org/documentation/tdb/optimizer.html">TDB Optimizer</a> is executed after a complete load to internally update the count of resources in order for TDB to make the best decision to come up with future query results.</p>
+
+                                <p>Individual datasets from each organization were transformed to N-Triples format before loading into the store. Each RDF Data Cube dataset was imported into its own <code>NAMED GRAPH</code> in the store. Given the significant load speed on an empty database, N-Triples were ordered from largest to smallest, and then loaded.</p>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+
+                <section id="publication" about="" rel="schema:hasPart">
+                    <h2 about="#publication" property="schema:name">Publication</h2>
+                    <div about="#publication" property="schema:description">
+                        <p>The publication steps are described in this section.</p>
+
+                        <section id="dataset-discovery-and-statistics" about="" rel="schema:hasPart">
+                            <h3 about="#dataset-discovery-and-statistics" property="schema:name">Dataset Discovery and Statistics</h3>
+                            <div about="#dataset-discovery-and-statistics" property="schema:description">
+                                <p>As VoID file is generally intended to give an overview of the dataset metadata i.e., what it contains, ways to access it or query it, each dataspace contains <a href="http://www.w3.org/TR/void/">Vocabulary of Interlinked Datasets</a> (<dfn><abbr title="Vocabulary of Interlinked Datasets">VoID</abbr></dfn>) files accessible through their <code>.well-known/void</code>. Each <a href="http://oecd.270a.info/.well-known/void">OECD</a>, <a href="http://bfs.270a.info/.well-known/void">BFS</a>, <a href="http://fao.270a.info/.well-known/void">FAO</a>, <a href="http://ecb.270a.info/.well-known/void">ECB</a>, <a href="http://imf.270a.info/.well-known/void">IMF</a>, <a href="http://uis.270a.info/.well-known/void">UIS</a>, <a href="http://frb.270a.info/.well-known/void">FRB</a>, <a href="http://bis.270a.info/.well-known/void">BIS</a>, <a href="http://abs.270a.info/.well-known/void">ABS</a> VoID contains locations to RDF datadumps, named graphs that are used in the SPARQL endpoint, used vocabularies, size of the datasets, interlinks to external datasets, as well as the provenance data which was gathered through the retrieval and transformation process. The VoID files were generated automatically by first importing the LODStats information into respective <code>graph/void</code> into the store, and then a SPARQL <code>CONSTRUCT</code> query to include all triples as well as additional ones which could be actively created based on the available information in all graphs.</p>
+
+                                <p>Dataset statistics are generated and are included in the VoID file using LODStats, <a href="http://svn.aksw.org/papers/2011/RDFStats/public.pdf"><cite>LODStats &#8211; An Extensible Framework for High-performance Dataset Analytics</cite></a> (Demter, J., 2012).</p>
+                            </div>
+                        </section>
+
+                        <section id="user-interface" about="" rel="schema:hasPart">
+                            <h3 about="#user-interface" property="schema:name">User-interface</h3>
+                            <div about="#user-interface" property="schema:description">
+                                <p>The HTML pages are generated by the <a href="https://github.com/csarven/linked-data-pages">Linked Data Pages</a> framework, where <a href="http://code.google.com/p/moriarty/">Moriarty</a>, <a href="http://code.google.com/p/paget/">Paget</a>, and <a href="https://github.com/semsol/arc2">ARC2</a> does the heavy lifting for it. Given the lessons learned over the years about Linked Data publishing, there is a consideration to either take Linked Data Pages further (originally written in 2010), or to adapt one of the existing frameworks after careful analysis.</p>
+                            </div>
+                        </section>
+
+                        <section id="sparql-endpoint" about="" rel="schema:hasPart">
+                            <h3 about="#sparql-endpoint" property="schema:name">SPARQL Endpoint</h3>
+                            <div about="#sparql-endpoint" property="schema:description">
+                                <p>Apache Jena <a href="http://incubator.apache.org/jena/documentation/serving_data/index.html">Fuseki</a> is used to run the SPARQL server for the three datasets. SPARQL Endpoints are publicly accessible and read only at their respective <code>/sparql</code> and <code>/query</code> locations for <a href="http://oecd.270a.info/sparql">OECD</a>, <a href="http://bfs.270a.info/sparql">BFS</a>, <a href="http://fao.270a.info/sparql">FAO</a>, <a href="http://ecb.270a.info/sparql">ECB</a>, <a href="http://imf.270a.info/sparql">IMF</a>, <a href="http://uis.270a.info/sparql">UIS</a>, <a href="http://frb.270a.info/sparql">FRB</a>, <a href="http://bis.270a.info/sparql">BIS</a>, <a href="http://abs.270a.info/sparql">ABS</a>. Currently, 12000MB of memory is allocated for the single Fuseki server running all datasets.</p>
+                            </div>
+                        </section>
+
+                        <section id="data-dumps" about="" rel="schema:hasPart">
+                            <h3 about="#data-dumps" property="schema:name">Data Dumps</h3>
+                            <div about="#data-dumps" property="schema:description">
+                                <p>The data dumps for the datasets are available from their respective <code>/data/</code> directories: <a href="http://oecd.270a.info/data/">OECD</a>, <a href="http://bfs.270a.info/data/">BFS</a>, <a href="http://fao.270a.uisinfo/data/">FAO</a>, <a href="http://ecb.270a.info/data/">ECB</a>, <a href="http://imf.270a.info/data/">IMF</a>, <a href="http://frb.270a.info/data/">FRB</a>, <a href="http://uis.270a.info/data/">UIS</a>, <a href="http://bis.270a.info/data/">BIS</a>, <a href="http://abs.270a.info/data/">ABS</a>. Additionally, they are mentioned in the VoID files. The <a href="http://datahub.io/">the Data Hub</a> entries (<a href="#dataset-announcement">see below</a>) also contains links to the dumps.</p>
+                            </div>
+                        </section>
+
+                        <section id="source-code" about="" rel="schema:hasPart">
+                            <h3 about="#source-code" property="schema:name">Source Code</h3>
+                            <div about="#source-code" property="schema:description">
+                                <p>The code for transformations is at <a href="https://github.com/csarven/linked-sdmx">csarven/linked-sdmx</a>, and for retrieval and data loading to RDF store for OECD is at <a href="https://github.com/csarven/oecd-linked-data">csarven/oecd-linked-data</a>, for BFS is at <a href="https://github.com/csarven/bfs-linked-data">csarven/bfs-linked-data</a>, for FAO is at <a href="https://github.com/csarven/fao-linked-data">csarven/fao-linked-data</a>, for ECB is at <a href="https://github.com/csarven/ecb-linked-data">csarven/ecb-linked-data</a>, for IMF is at <a href="https://github.com/csarven/imf-linked-data">csarven/imf-linked-data</a>, for UIS is at <a href="https://github.com/csarven/uis-linked-data">csarven/uis-linked-data</a>, for FRB is at <a href="https://github.com/csarven/frb-linked-data">csarven/frb-linked-data</a>, for ABS is at <a href="https://github.com/csarven/abs-linked-data">csarven/abs-linked-data</a>. All using the <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License 2.0</a>.</p>
+                            </div>
+                        </section>
+
+                        <section id="data-license" about="" rel="schema:hasPart">
+                            <h3 about="#data-license" property="schema:name">Data License</h3>
+                            <div about="#data-license" property="schema:description">
+                              <p>All published Linked Data adheres to original data publisher’s data license and terms of use. Additionally attributions are given on the websites. The <em>Linked Data</em> version of the data is licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</a>.</p>
+                            </div>
+                        </section>
+
+                        <section id="dataset-announcement" about="" rel="schema:hasPart">
+                            <h3 about="#dataset-announcement" property="schema:name">Announcing the Datasets</h3>
+                            <div about="#dataset-announcement" property="schema:description">
+                                <p>For other ways for these datasets to be discovered, they are announced at mailing lists, status update services, and at the Data Hub: OECD is at <a href="http://datahub.io/dataset/oecd-linked-data">oecd-linked-data</a>, BFS is at <a href="http://datahub.io/dataset/bfs-linked-data">bfs-linked-data</a>, FAO is at <a href="http://datahub.io/dataset/fao-linked-data">fao-linked-data</a>, ECB is at <a href="http://datahub.io/dataset/ecb-linked-data">ecb-linked-data</a>, IMF is at <a href="http://datahub.io/dataset/imf-linked-data">imf-linked-data</a>, UIS is at <a href="http://datahub.io/dataset/uis-linked-data">uis-linked-data</a>, FRB is at <a href="http://datahub.io/dataset/frb-linked-data">frb-linked-data</a>, BIS is at <a href="http://datahub.io/dataset/bis-linked-data">bis-linked-data</a>, ABS is at <a href="http://datahub.io/dataset/abs-linked-data">abs-linked-data</a>.</p>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+
+                <section id="conclusions" about="" rel="schema:hasPart">
+                    <h2 about="#conclusions" property="schema:name">Conclusions</h2>
+                    <div about="#conclusions" property="schema:description" typeof="sro:Conclusion">
+                        <p>With this work we provided an automated approach for transforming statistical SDMX-ML data to Linked Data in a single step. As a result, this effort helps to publish and consume large amounts of quality statistical Linked Data. Its goal is to shift focus from mundane development efforts to automating the generation of quality statistical data. Moreover, it facilitates to provide RDF serializations alongside the existing formats used by high profile statistical data owners. Our approach to employ XSLT transformations does not require changes to well established workflows at the statistical agencies.</p>
+
+                        <p>One aspect of future work is to improve the SDMX-ML to RDF transformation quality and quantity. Regarding quality, we aim to test our transformation with further datasets to identify shortcomings and special cases being currently not yet covered by the implementation. Also, we plan the development of a coherent approach for (semi-)automatically interlinking different statistical dataspaces, which establishes links on all possible levels (e.g. classifications, observations). With regard to quantity, we plan to publish statistical dataspaces for Bank for International Settlements (BIS), World Bank and Eurostat based on SDMX-ML data.</p>
+
+                        <p>The current transformation is mostly based on the generic SDMX format. Since some of the publishers make their data available in compact SDMX format, the transformation toolkit has to be extended. Alternatively, the compact format can be transformed to the generic format first (for which tools exist) and then Linked SDMX transformations can be applied. Ultimately, we hope that Linked Data publishing will become a direct part of the original data owners workflows and data publishing efforts. Therefore, further collaboration on this will expedite the provision of uniform access to statistical Linked Data.</p>
+                    </div>
+                </section>
+
+                <section id="acknowledgements" about="" rel="schema:hasPart">
+                    <h2 about="#acknowledgements" property="schema:name">Acknowledgements</h2>
+                    <div about="#acknowledgements" property="schema:description">
+                        <p>We thank <a href="http://richard.cyganiak.de/">Richard Cyganiak</a> for his ongoing support, as well as graciously offering to host the dataspaces on a server at <a href="http://deri.ie/">Digital Enterprise Research Institute</a>. We also acknowledge the support of <a href="http://bfh.ch/">Bern University of Applied Sciences</a> for partially funding the transformation effort for the pilot Swiss Statistics Linked Data project and thank <a href="http://www.bfs.admin.ch/">Swiss Federal Statistical Office</a> for the excellent collaboration from the very beginning.</p>
+                    </div>
+                </section>
+            </div>
+</article>
+
+
+
+
+
+
+
+<article>
+  <p><a href="http://csarven.ca/linked-statistical-data-analysis">Linked Statistical Data Analysis</a></p>
+                    <section id="abstract">
+                        <h2>Abstract</h2>
+                        <div datatype="rdf:HTML" property="schema:abstract">
+                            <p>Linked Data design principles are increasingly employed to publish and consume high-fidelity, heterogeneous statistical datasets in a distributed fashion. While vast amounts of linked statistics are available, access and reuse of the data is subject to expertise in corresponding technologies. There exists no user-centred interfaces for researchers, journalists and interested people to compare statistical data retrieved from different sources on the Web. Given that the RDF Data Cube vocabulary is used to describe statistical data, its use makes it possible to discover and identify statistical data artefacts in a uniform way. In this article, the design and implementation of a user-centric application and service is presented. Behind the scene, the platform utilizes federated SPARQL queries to gather statistical data from distributed data stores. The R language for statistical computing is employed to perform statistical analyses and visualizations. The Shiny application and server bridges the front-end Web user interface with R on the server-side in order to compare statistical macrodata, and stores analyses results in RDF for future research. As a result, distributed linked statistics with accompanying provenance data can be more easily explored and analysed by interested parties.</p>
+                        </div>
+                    </section>
+
+                    <section id="keywords">
+                        <h2>Keywords</h2>
+                        <div>
+                            <ul rel="schema:about">
+                                <li><a resource="http://dbpedia.org/resource/Linked_Data" href="https://en.wikipedia.org/wiki/Linked_Data">Linked Data</a></li>
+                                <li><a resource="http://dbpedia.org/resource/SDMX" href="https://en.wikipedia.org/wiki/SDMX">SDMX</a></li>
+                                <li><a resource="http://dbpedia.org/resource/Statistics" href="https://en.wikipedia.org/wiki/Statistics">Statistics</a></li>
+                                <li><a resource="http://dbpedia.org/resource/Statistical_database" href="https://en.wikipedia.org/wiki/Statistical_database">Statistical database</a></li>
+                                <li><a resource="http://dbpedia.org/resource/Data_integration" href="https://en.wikipedia.org/wiki/Data_integration">Data integration</a></li>
+                                <li><a resource="http://dbpedia.org/resource/Regression_analysis" href="https://en.wikipedia.org/wiki/Regression_analysis">Regression analysis</a></li>
+                                <li><a resource="http://dbpedia.org/resource/User_interface" href="https://en.wikipedia.org/wiki/User_interface">User interface</a></li>
+                            </ul>
+                        </div>
+                    </section>
+
+
+                    <section id="introduction" rel="schema:hasPart" resource="#introduction">
+                        <h2 property="schema:name" resource="#introduction" typeof="deo:Introduction">Introduction</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>Statistical data artefacts and the analyses conducted on the data are fundamental for testing scientific theories about our society and the universe we live in. As statistics are often used to add credibility to an argument or advice, they influence the decisions we make. The decisions are, however, complex beings on their own with multiple variables based on facts, cognitive processes, social demands, and maybe even factors that are unknown to us. In order for the society to track and learn from its own vast knowledge about events and things, it needs to be able to gather statistical information from heterogeneous and distributed sources. This is to uncover insights, make predictions, or build smarter systems that society needs to progress.</p>
+
+                            <p>Due to a range of technical challenges, development teams often face low-level repetitive statistical data management tasks with partial tooling at their disposal. These challenges on the surface include: data integration, synchronization, and access in a uniform way. In addition, designing user-centric interfaces for data analysis that is functionally consistent (i.e., improving usability and learning), reasonably responsive, provenance friendly (e.g., fact checkable) still requires much attention.</p>
+
+                            <p>This brings us to the core of our research challenge: How do we reliably acquire statistical data in a uniform way and conduct well-formed analyses that are easily accessible and usable by citizens, meanwhile strengthening trust between the user and the system?</p>
+
+                            <p>This article presents an approach, <em>Statistical Linked Data Analyses</em>, addressing this challenge. In a nutshell, it takes advantage of Linked Data design principles that are widely accepted as a way to publish and consume data without central coordination on the Web. The work herein offers a Web based user-interface for researchers, journalists, or interested people to compare statistical data from different sources against each other without having any knowledge of the technology underneath or the expertise to develop themselves. Our approach is based on performing decentralized (i.e. federated) structured queries to retrieve data from various SPARQL endpoints, conducting various data analyses, and providing analysis results back to the user. For future research, analyses are stored so that they can be discovered and reused.</p>
+
+                            <p>We have an implementation of a statistical analyses service at <a href="http://stats.270a.info/">stats.270a.info</a> [<a href="#ref-1">1</a>] which addresses the challenge and realizes the approach. The service is intended to allow humans and machines explore statistical analyses. There are two additional products of this service: first, the analysis results are stored for future discovery, and second, it creates valuable statistical artefacts which can be reused in a uniform way.</p>
+
+                    <p>As a result, we demonstrate with this work, how linked data principles can be applied to statistical data. We show in particular, that federated SPARQL queries facilitate novel statistical analyses, which previously required cumbersome manual statistical data integration efforts. The automatized integration and analysis workflow also enables provenance tracing from visualizations combining statistical data from various sources back to the original raw data.</p>
+                        </div>
+                    </section>
+
+                    <section id="background" rel="schema:hasPart" resource="#background">
+                        <h2 property="schema:name">Background and Related Work</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>As we discussed already in <a href="http://csarven.ca/statistical-linked-dataspaces">Statistical Linked Dataspaces</a> [<a href="#ref-2">2</a>] linked statistics  enable queries across datasets: Given that the dimension concepts are interlinked, one can learn from a certain observation's dimension value, and enable the automation of cross-dataset queries.</p>
+
+                            <p>The <a href="http://www.w3.org/TR/vocab-data-cube/">RDF Data Cube vocabulary</a> [<a href="#ref-3">3</a>] is used to describe multi-dimensional statistical data, along with SDMX-RDF as one of the statistical information models. It makes it possible to represent significant amounts of heterogeneous statistical data as Linked Data where they can be discovered and identified in a uniform way. The statistical artefacts that use this vocabulary, are invaluable for statisticians, researchers, and developers.</p>
+
+                            <p><a href="http://csarven.ca/linked-sdmx-data">Linked SDMX Data</a> [<a href="#ref-4">4</a>] provided templates and tooling to transform SDMX-ML data from statistical agencies to RDF/XML, resulting in linked statistical datasets at <a href="http://270a.info/">270a.info</a> [<a href="#ref-5">5</a>] using the RDF Data Cube vocabulary. In addition to semantically uplifting the original data, information pertaining provenance was kept track using the <a href="http://www.w3.org/TR/prov-o/">PROV Ontology</a> [<a href="#ref-6">6</a>] at transformation time, while incorporating retrieval time provenance data.</p>
+
+                            <p><a href="http://dcevents.dublincore.org/IntConf/dc-2011/paper/download/27/16">Performing Statistical Methods on Linked Data</a> [<a href="#ref-7">7</a>] investigated simple statistical calculations, such as linear regression and presented the results using R [<a href="#ref-8">8</a>] and SPARQL queries. It highlighted the importance of a wide range of typical issues on data integration for heterogeneous statistical data. The other technical issues raised are SPARQL query performance, and the use of a central SPARQL endpoint, which contained multiple data sources. For future work, the work pointed out a friendly user-interface that allows dataset selection, statistical method and a visualization of the results.</p>
+
+                            <p><a href="http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Workshops/COLD/cold2011_submission_13.pdf">Defining and Executing Assessment Tests on Linked Data for Statistical Analysis</a> [<a href="#ref-9">9</a>] explains: identification of data items, analysis of data characteristics, and data matching as key requirements to conduct statistical analysis on integrated Linked Data.</p>
+
+                            <p><a href="http://www.few.vu.nl/~wrvhage/papers/LOP_JoDS_2012.pdf">Linked Open Piracy: A story about e-Science, Linked Data, and statistics</a> [<a href="#ref-10">10</a>] investigated analysis and visualization of piracy reports to answer domain questions through a <a href="http://cran.r-project.org/web/packages/SPARQL/index.html">SPARQL client for R</a> [<a href="#ref-11">11</a>].</p>
+
+                            <p><a href="http://www.hicss.hawaii.edu/hicss_46/bp46/hc6.pdf">Towards Next Generation Health Data Exploration</a>: A Data Cube-based Investigation into Population Statistics for Tobacco [<a href="#ref-12">12</a>], presents the <a href="http://orion.tw.rpi.edu/~jimmccusker/qb.js/">qb.js</a> [<a href="#ref-13">13</a>] tool to explore data that is expressed as RDF Data Cubes. It is designed to formulate and explore hypotheses. Under the hood, it makes a SPARQL query to an endpoint which contains the data that it analyzes.</p>
+
+                            <p><a href="http://svn.aksw.org/papers/2012/ESWC_PublishingStatisticData/public.pdf">Publishing Statistical Data on the Web</a> [<a href="#ref-14">14</a>] explains <a href="http://aksw.org/Projects/CubeViz">CubeViz</a> [<a href="#ref-15">15</a>], which was developed to visualize multidimensional statistical data. It is a faceted browser, which utilizes the RDF Data Cube vocabulary, with a chart visualization component. The inspection and results are for a single dataset.</p>
+
+                            <p><a href="http://www.google.com/publicdata/">Google Public Data Explorer</a> [<a href="#ref-16">16</a>], derived from the <a href="http://www.gapminder.org/">Gapminder</a> [<a href="#ref-17">17</a>] tool, displays statistical data as line graphs, bar graphs, cross sectional plots or on maps. The process to display the data requires the data to be uploaded in CSV format, and accompanying <a href="https://developers.google.com/public-data/">Dataset Publishing Language</a> (DSPL) [<a href="#ref-18">18</a>] in XML to describe the data and metadata of the datasets. Its visualizations and comparisons are based on one dataset at a time.</p>
+
+                            <p><a href="http://www.ke.tu-darmstadt.de/bibtex/attachments/single/310">Generating Possible Interpretations for Statistics from Linked Open Data</a> [<a href="#ref-19">19</a>] talks about <a href="http://www.ke.tu-darmstadt.de/resources/explain-a-lod">Explain-a-LOD</a> [<a href="#ref-20">20</a>] tool which focuses on generating hypotheses that explain statistics. It has a configuration to compare two variables, and then provides possible interpretations of the correlation analysis for users to review.</p>
+
+                            <p>Looking at this state-of-the-art, we can see that the analyses are commonly conducted on central repositories. As statistical Linked Data is published by different parties independently from one another, it is only reasonable to work towards a solution that can gather, integrate and analyse the data without having to resort to centralism.</p>
+                        </div>
+                    </section>
+
+                    <section id="lsd-analysis" rel="schema:hasPart" resource="#lsd-analysis">
+                        <h2 property="schema:name">Analysis platform for Linked Statistical Data</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>Our analysis platform focuses on two goals: 1) a Web user interface for researchers to compare macrodata observations and to view plots and analysis results, 2) caching and storage of analyses for future research and reuse. Here, we describe the platform at <a href="http://stats.270a.info/">stats.270a.info</a>. Figure [<a href="#figure-linked-stats-analysis-architecture">1</a>] shows the architecture for Linked Stats Analysis.</p>
+
+                            <figure id="figure-linked-stats-analysis-architecture">
+                                <object type="image/svg+xml" width="640" height="415" data="http://csarven.ca/media/images/articles/linked-stats-analysis-architecture.svg"></object>
+                                <figcaption>Linked Stats Analysis Architecture.</figcaption>
+                            </figure>
+
+                            <section id="requirements" rel="schema:hasPart" resource="#requirements" >
+                                <h3 property="schema:name">Functional Requirements</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p>The requirements for functionality and performance are that Linked Data design principles are employed behind the scenes to pull in the statistical data that are needed to conduct analyses, and to make the results of the analyses available using the same methods for both, humans and machines. While achieving this workflow includes many steps, the front-end interface for humans should aim for minimum interactivity that is required to accomplish this. Finally, the performance of the system should be reasonable for a Web user interface, as it needs to present the analysis and display visualizations. Additionally, essential parts of the analyses should be cached and stored for future use both, for application responsiveness and data discovery. Finally and most importantly, the interface needs to foster trust while presenting the analyses. Therefore, the interface should be accompanied with data provenance and provide sufficient detail for the user.</p>
+                                </div>
+                            </section>
+
+                            <section id="user-interface" rel="schema:hasPart" resource="#use-interface">
+                                <h3 property="schema:name">User interface</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p>A web application was created to provide users with a simple interface to conduct regression analysis and display of scatter plots. In the case of regression analysis, the interface presents three drop-down selection areas for the user: an independent variable, a dependent variable, and a time series. Both, the independent and dependent variables are composed of a list of datasets with observations, and time series are composed of reference periods of those observations. Upon selecting and submitting datasets to compare, the interface then presents a scatter plot with a line of best fit from a list of tested linear models. Figure [<a href="#figure-stats.270a.info.ui">2</a>] shows a screenshot of the user interface. The points in the scatter plot represent locations, in this case countries, which happen to have a measure value for both variables as well as the reference period that was selected by the user. Below the scatter-plot, a table of analysis results is presented.</p>
+
+                                    <figure id="figure-stats.270a.info.ui">
+                                        <img src="http://csarven.ca/media/images/articles/stats.270a.info.ui.png" width="480" height="440" alt="stats.270a.info user interface"/>
+                                        <figcaption>stats.270a.info analysis user interface.</figcaption>
+                                    </figure>
+
+                                    <p>The datasets are compiled by gathering <code>qb:DataSet</code>s (an RDF Data Cube class for datasets) from each statistical dataspace at 270a.info. Similarly, the reference periods are derived from calendar intervals e.g., <code>YYYY</code>, <code>YYYY-MM-DD</code> or <code>YYYY-QQ</code>.</p>
+                                </div>
+                            </section>
+
+                            <section id="provenance" rel="schema:hasPart" resource="#provenance">
+                                <h3 property="schema:name">Provenance</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p>In order to foster trust and confidence for the user, the human-centred interface as well as the machine-friendly representation of the data accompanies provenance data. On the analysis interface, an <q>Oh yeah?</q> link guides users to a page about the provenance activity for the information. These previously generated provenance activities provide links to all data sources which were used for the analysis, query construct for data aggregation, as well as metadata about the used tools, assigned license, production timestamps, and responsible agents for the generated analysis. Thus, in addition to analysis metadata, the user is able to track the data all the way back to its origins (at the statistical agencies), and reproduce or compare their results.</p>
+                                </div>
+                            </section>
+
+                            <section id="comparability" rel="schema:hasPart" resource="#comparability">
+                                <h3 property="schema:name">Comparability</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p>At this time, the majority of the interlinks in Linked Open Data between statistical concepts (i.e. reference areas) are determined based on their notations and labels. In order to precisely measure the differences between statistical concepts, the following should be factored in: <em>temporality</em>, <em>geographic areas</em>, <em>domains</em>, and <em>drifts</em>, as mentioned in <a href="https://docs.google.com/viewer?a=v&#38;pid=sites&#38;srcid=ZGVmYXVsdGRvbWFpbnxib3N1bmRncmVufGd4OjJiY2M1OWMyMTBiNmNlZDg">Data quality in information systems</a> [<a href="#ref-21">21</a>], and <a href="http://link.springer.com/chapter/10.1007%2F978-3-642-16438-5_17">What Is Concept Drift and How to Measure It?</a> [<a href="#ref-22">22</a>]. In practice for instance, this means that a reference area from a particular reference period is not necessarily the same concept as another one found elsewhere, without incorporating some of these characteristics. To take an example, if an observation has a reference area dimension value as RU (Russia) with reference period 2013, the question is, to what degree can that particular observation be compared or used with another observation with the same reference area value, but with a reference period between 1922–1991 – given that latter reference area historically corresponds to USSR (Union of Soviet Socialist Republics) and is different from RU. If this sort of metadata is not provided by statistical services or incorrectly represented in the data, it is worthwhile to account for it, either when interlinks are made across code lists or when the observations from different data sources are used together. Additionally, all assumptions and accuracies should be documented.</p>
+                                </div>
+                            </section>
+
+                            <section id="data-requirements" rel="schema:hasPart" resource="#data-requirements">
+                                <h3 property="schema:name">Data Requirements</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p>Our expectation regarding the data is that it is modeled using the RDF Data Cube vocabulary and is <a href="http://www.w3.org/TR/vocab-data-cube/#wf">well-formed</a>. Specifically, it needs to pass some of the integrity constraints as outlined by the vocabulary specification. For our application, some of the essential checks are that: 1) a unique data structure definition (DSD) is used for a dataset, 2) the DSD includes a measure (value of each observation), 3) concept dimensions have code lists, and 4) codes are from the code lists.</p>
+
+                                    <p>In addition to well-formedness, to compare variables from two datasets, there needs to be an agreement on the concepts that are being matched for in respective observations. In the case of regression analysis, the primary concern is about reference areas (i.e. locations), and making sure that the comparison made for the observations from dataset<sub>x</sub> (independent variable) and dataset<sub>y</sub> (dependent variable) are using concepts that are interlinked (using the property <code>skos:exactMatch</code>). Practically, a concept, for example Switzerland, from at least one of the dataset's code lists should have an arc to the other dataset's concept. It ensures that there is a reliable degree of confidence that the particular concept is interchangeable. Hence, the measure corresponding to the phenomenon being observed, is about the same location in both datasets. Concepts in the datasets were interlinked using the <a href="http://aksw.org/Projects/limes">LInk discovery framework for MEtric Spaces</a> (LIMES) [<a href="#ref-23">23</a>]. Figure [<a href="#figure-270a.info.interlinks">3</a>] shows outbound interlinks for the datasets at <a href="http://270a.info/">http://270a.info/</a>.</p>
+
+                                    <figure id="figure-270a.info.interlinks">
+                                        <object type="image/svg+xml" width="640" height="480" data="http://270a.info/media/images/270a.cloud.svg"></object>
+                                        <figcaption>Outbound interlinks for 270a.info datasets.</figcaption>
+                                    </figure>
+
+                                    <p>One additional requirement from the datasets is that the RDF Data Cube component properties (e.g., dimensions, measures) either use <code>sdmx-dimension:refArea</code>, <code>sdmx-dimension:refPeriod</code>, <code>sdmx-measure:obsValue</code> directly or respective sub-properties (<code>rdfs:subPropertyOf</code>). Given decentralized mappings of the statistical datasets (published as SDMX-ML), their commonality is expected to be the use, or a reference to SDMX-RDF properties in order to achieve generalized federated queries without having complete knowledge of the structures of the datasets, but rather only the essential bits.</p>
+
+                                    <p>In order to proceed with the analysis, we use the selections made by the user: dataset<sub>x</sub> and dataset<sub>y</sub>, reference period, and then gather all observations with corresponding reference areas, and measures. Only the observations with reference areas which have a interlinks are retained in the final result.</p>
+                                </div>
+                            </section>
+
+
+                            <section id="application" rel="schema:hasPart" resource="#application">
+                                <h3 property="schema:name">Application</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p>The R package <a href="http://www.rstudio.com/shiny/">Shiny</a> [<a href="#ref-24">24</a>] along with <a href="https://github.com/rstudio/shiny-server">Shiny server</a> [<a href="#ref-25">25</a>] is used to build an interactive web application. A Shiny application was built to essentially allow an interaction between the front-end Web application and R. User inputs are set to trigger an event which is sent to the Shiny server and handled by the application written in R. While the application uses R for statistical analysis and visualizations, to achieve the goals of this research, other statistical computing software can be used. The motivation to use R is due to it being a popular open-source software for statistical analysis and it being a requirement of Shiny server.</p>
+
+                                    <p>The application assembles a SPARQL query using the input values and then sends them to the SPARQL endpoint at <a href="http://stats.270a.info/sparql">stats.270a.info/sparql</a>, which dispatches federated queries to the two SPARQL endpoints where the datasets are located. The SPARQL query request is handled by the <a href="http://cran.r-project.org/web/packages/SPARQL/index.html">SPARQL client for R</a>. The query results are retrieved and given to R for statistical data analysis. R generates a scatter plot containing the independent and dependent variable, where each point in the chart is a reference area (e.g., country) for that particular reference period selection. Regression analysis is done where correlation, p-value, and the line of best fit is determined after testing several linear models, and shown in the user interface.</p>
+                                </div>
+                            </section>
+
+                            <section id="federated-queries" rel="schema:hasPart" resource="#federated-queries">
+                                <h3 property="schema:name">Federated Queries</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p>During this research, establishing a correct and reasonably performing federated querying was one of the most challenging steps. This was due in part by ensuring dataset integrity, finding a balance between processing and filtering applicable observations at remote endpoints and at the originating endpoint. The challenge was compromising between what should be processed remotely and sent over the wire versus handling some of that workload by the parent endpoint. Since one of the requirements was to ensure that the concepts are interlinked at either one of the endpoints (in which case, it is optional per endpoint), each endpoint had to include each observation's reference area as well as its interlinked concept. The result from both endpoints was first joined and then filtered in order to avoid false negatives. That is, either concept<sub>x</sub> has a <code>skos:exactMatch</code> relationship to concept<sub>y</sub>, or vice versa, or concept<sub>x</sub> and concept<sub>y</sub> are the same. One quick and simple way to minimize the number of results was to filter out exact matches at each endpoint which did not contain the other dataset's domain name. Hence, minimizing the number of <em>join</em> operations which had to be handled by the parent endpoint.</p>
+
+                                    <p>In order to put the cost of queries briefly into perspective i.e., the conducted tests and sample sizes of the dataspaces that were used; the total number of triples (including observations and metadata) per endpoint are: 50 thousand (<a href="http://transparency.270a.info/">Transparency International</a> [<a href="#ref-26">26</a>]), 54 million (<a href="http://fao.270a.info/">Food and Agriculture Organization of the United Nations</a> [FAO] [<a href="#ref-27">27</a>]), 305 million (<a href="http://oecd.270a.info/">Organisation for Economic Co-operation and Development</a> [OECD] [<a href="#ref-28">28</a>]), 221 million (<a href="http://worldbank.270a.info/">World Bank</a> [<a href="#ref-29">29</a>]), 470 million (<a href="http://ecb.270a.info/">European Central Bank</a> [ECB] [<a href="#ref-30">30</a>]), 36 million (<a href="http://imf.270a.info/">International Monetary Fund</a> [IMF] [<a href="#ref-31">31</a>]).</p>
+
+                                    <p>The anatomy of the query is shown in Figure [<a href="#federated-sparql-query">3</a>]. The SPARQL Endpoint and the dataset URIs are the only requirements. The structure of the statements and operations tries to get the most out of <a href="http://jena.apache.org/">Apache Jena</a>'s [<a href="#ref-32">32</a>] <a href="http://incubator.apache.org/jena/documentation/tdb/">TDB</a> storage system [<a href="#ref-33">33</a>], <a href="http://jena.apache.org/documentation/tdb/optimizer.html">TDB Optimizer</a> [<a href="#ref-34">34</a>] and <a href="http://incubator.apache.org/jena/documentation/serving_data/index.html">Fuseki</a> [<a href="#ref-35">35</a>] SPARQL endpoints. Better performing queries can be achieved by knowing the predicate frequency upfront, and ordering them in for a dataset to avoid processing of false negatives.</p>
+
+                                    <figure id="federated-sparql-query" rel="schema:hasPart" resource="#federated-sparql-query" class="listing">
+                                        <pre property="schema:description" resource="#federated-sparql-query" typeof="fabio:Script">
+<code>SELECT DISTINCT ?refAreaY ?x ?y ?identityX ?identityY</code>
+<code>WHERE {</code>
+<code>SERVICE <strong>&lt;http://example.org/sparql&gt;</strong> {</code>
+<code>SELECT DISTINCT ?identityX ?refAreaX ?refAreaXExactMatch ?measureX</code>
+<code>WHERE {</code>
+<code>  ?observationX qb:dataSet <strong>&lt;http://example.org/dataset/X&gt;</strong> .</code>
+<code>  ?observationX ?propertyRefPeriodX <strong>exampleRefPeriod:1234</strong> .</code>
+<code>  ?propertyRefAreaX rdfs:subPropertyOf* sdmx-dimension:refArea .</code>
+<code>  ?observationX ?propertyRefAreaX ?refAreaX .</code>
+<code>  ?propertyMeasureX rdfs:subPropertyOf* sdmx-measure:obsValue .</code>
+<code>  ?observationX ?propertyMeasureX ?x .</code>
+<code>  <strong>&lt;http://example.org/dataset/X&gt;</strong></code>
+<code>    qb:structure/stats:identityDimension ?propertyIdentityX .</code>
+<code>  ?observationX ?propertyIdentityX ?identityX .</code>
+<code>  OPTIONAL {</code>
+<code>    ?refAreaX skos:exactMatch ?refAreaXExactMatch .</code>
+<code>    FILTER (STRSTARTS(STR(?refAreaXExactMatch), "<strong>http://example.net/</strong>"))</code>
+<code>  }</code>
+<code>}</code>
+<code>}</code>
+<code>SERVICE <strong>&lt;http://example.net/sparql&gt;</strong> {</code>
+<code>SELECT DISTINCT ?identityY ?refAreaY ?refAreaYExactMatch ?measureY</code>
+<code>WHERE {</code>
+<code>  ?observationY qb:dataSet <strong>&lt;http://example.net/dataset/Y&gt;</strong> .</code>
+<code>  ?observationY ?propertyRefPeriodY <strong>exampleRefPeriod:1234</strong> .</code>
+<code>  ?propertyRefAreaY rdfs:subPropertyOf* sdmx-dimension:refArea .</code>
+<code>  ?observationY ?propertyRefAreaY ?refAreaY .</code>
+<code>  ?propertyMeasureY rdfs:subPropertyOf* sdmx-measure:obsValue .</code>
+<code>  ?observationY ?propertyMeasureY ?y .</code>
+<code>  <strong>&lt;http://example.net/dataset/Y&gt;</strong></code>
+<code>    qb:structure/stats:identityDimension ?propertyIdentityY .</code>
+<code>  ?observationY ?propertyIdentityY ?identityY .</code>
+<code>  OPTIONAL {</code>
+<code>    ?refAreaY skos:exactMatch ?refAreaYExactMatch .</code>
+<code>    FILTER (STRSTARTS(STR(?refAreaYExactMatch), "<strong>http://example.org/</strong>"))</code>
+<code>  }</code>
+<code>}</code>
+<code>}</code>
+<code>FILTER (SAMETERM(?refAreaYExactMatch, ?refAreaX)</code>
+<code>      || SAMETERM(?refAreaXExactMatch, ?refAreaY)</code>
+<code>      || SAMETERM(?refAreaY, ?refAreaX))</code>
+<code>}</code>
+                                        </pre>
+                                        <figcaption><span property="schema:name">Federated SPARQL query integrating statistical linked data.</span></figcaption>
+                                    </figure>
+
+                                    <p>For the time being, the use of named graphs in the SPARQL queries were excluded for a good reason. For federated queries to work with the goal of minimal knowledge about store organization, the queries had to work without including graph names. However, by employing the <a href="http://www.w3.org/TR/void/">Vocabulary of Interlinked Datasets</a> (VoID) [<a href="#ref-36">36</a>], it is possible to extract both, the location of the SPARQL endpoint, as well as the graph names within. This is left as a future enhancement.</p>
+
+                                    <p>As statistical datasets are multi-dimensional, slicing the datasets with only reference area and reference period are insufficient to distinguish records. It is likely that there would be duplicate results if we leave the column order to reference area, measure<sub>x</sub>, measure<sub>y</sub>. For this reason, there is an additional expectation from the datasets indicating one other dimension to group the observations with. This grouping is also used to display faceted scatter-plots.</p>
+
+                                    <p>Recommendations from <a href="http://arxiv.org/abs/1304.0567">On the Formulation of Performant SPARQL Queries</a> [<a href="#ref-37">37</a>] and <a href="http://arxiv.org/abs/1306.1723">Querying over Federated SPARQL Endpoints &#8212; A State of the Art Survey</a> [<a href="#ref-38">38</a>] were applied where applicable.</p>
+                                </div>
+                            </section>
+
+
+                            <section id="analysis-caching-and-storing" rel="schema:hasPart" resource="#analysis-caching-and-storing">
+                                <h3 property="schema:name">Analysis caching and storing</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p>In order to optimize application reactivity for all users, previously user selected options for analysis are cached in the Shiny server session. That is, the service is able to provide cached results which were triggered by different users.</p>
+                                    <p>In addition to a cache that is closest to the user, results from the federated queries as well as the R analysis, which was previously conducted, is stored back into the RDF store with a SPARQL Update. This serves multiple purposes. In the event that the Shiny server is restarted and the cache is no longer available, previously calculated results in the store can be reused, which is still more cost efficient than making new federated queries.</p>
+                                    <p>Another reason for storing the results back in the RDF store is to offer them over the stats.270a.info SPARQL endpoint for additional discovery and reuse of analysis for researchers. Interesting use cases from this approach emerge immediately. For instance, a researcher or journalist can investigate analysis that meets their criteria. Some examples are as follows:</p>
+
+                                    <ul>
+                                        <li>analysis which is statistically significant, and has to do with Gross Domestic Product (GDP) and health subjects,</li>
+                                        <li>a list of indicator pairs with strong correlations,</li>
+                                        <li>using the line of best fit of a regression analysis to predict or forecast possible outcomes,</li>
+                                        <li>countries which have less mortality rate than average with high corruption.</li>
+                                    </ul>
+                                </div>
+                            </section>
+
+                            <section id="uri-patterns" rel="schema:hasPart" resource="#uri-patterns">
+                                <h3 property="schema:name">URI patterns</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p>The design pattern for analyses URIs are aimed to keep the length as minimal as possible, while leaving a trace to encourage self exploration and reuse. The general URI pattern with base <code>http://stats.270a.info/analysis/</code> is as follows for regression analysis:</p>
+                                    <pre>{independentVariable}/{dependentVariable}/{referencePeriod}</pre>
+
+                                    <p>As URIs for both independent and dependent variable are based on datasets, and the reference period is codified, their prefixed names are used instead in the analysis URI to keep them short and friendly:</p>
+                                    <pre>{prefix}:{dataset}/{prefix}:{dataset}/{prefix}:{refPeriod}</pre>
+
+                                    <p>For example, the URI <a href="http://stats.270a.info/analysis/worldbank:SP.DYN.IMRT.IN/transparency:CPI2009/year:2009">http://stats.270a.info/analysis/worldbank:SP.DYN.IMRT.IN/transparency:CPI2009/year:2009</a> refers to an analysis which entails the infant mortality rate from the World Bank dataset as the independent variable, 2009 corruption perceptions index from the Transparency International dataset as the dependent variable, and reference interval for year 2009. The variable values are prefixed names, which correspond to their respective datasets, i.e., <code>worldbank:SP.DYN.IMRT.IN</code> becomes <a href="http://worldbank.270a.info/dataset/SP.DYN.IMRT.IN">http://worldbank.270a.info/dataset/SP.DYN.IMRT.IN</a>, and <code>transparency:CPI2009</code> becomes <a href="http://transparency.270a.info/dataset/CPI2009">http://transparency.270a.info/dataset/CPI2009</a> when processed.</p>
+                                </div>
+                            </section>
+
+                            <section id="vocabularies" rel="schema:hasPart" resource="#vocabularies" >
+                                <h3 property="schema:name">Vocabularies</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p>Besides the common vocabularies: RDF, RDFS, XSD, OWL, the RDF Data Cube vocabulary is used to describe multi-dimensional statistical data, and SDMX-RDF for the statistical information model. PROV-O is used for provenance coverage.</p>
+
+                                    <p>A statistical vocabulary (<a href="http://stats.270a.info/vocab">http://stats.270a.info/vocab</a>)[<a href="#ref-39">39</a>] is created to describe analyses. It contains classes for analyses, summaries and each data row that is retrieved. Some of the properties include: graph (e.g., scatter plot), independent and dependent variables, reference period, sample size, p-value, correlation value, correlation method that is used, adjusted R-squared, best model that is tested, reference area, measure values for both variables, and the identity concept for both variables.</p>
+
+                                    <p>Future plans for this vocabulary is to reflect back on the experience, and to consider alignment with <a href="http://semanticscience.org/ontology/sio.owl">Semanticscience Integrated Ontology</a> (SIO) [<a href="#ref-40">40</a>]. While SIO is richer, queries are more complex than necessary for simple analysis reuse at stats.270a.info.</p>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+
+
+                    <section id="results" rel="schema:hasPart" resource="#results">
+                        <h2 property="schema:name" resource="#results" typeof="deo:Results">Results</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>Putting it all together: following the Linked Data design principles, the platform for linked statistical data analyses is now available for different types of users. Human users with a Web browser can interact with the application with a few clicks. This is arguably the simplest approach for researchers and journalists without having to go down the development road. Additionally, humans as well as machines can consume the same analysis as an RDF or JSON serialization. In the case of JSON, the analyses can be used as part of a widget on a webpage. The Scalar Vector Graphics (SVG) format of the scatter plot can be used in articles on the Web. Storing the analyses permanently and having it accessible over a SPARQL endpoint opens up the possibility for researchers to discover interesting statistics. Finally, with the help of Apache Rewrites, <a href="http://csarven.ca/statistical-linked-dataspaces#linked-data-pages">Linked Data Pages</a> [<a href="#ref-41">41</a>] handles the top down direction of these requests and provides dereferenceable URIs for a <em>follow your nose</em> type of exploration. The <a href="https://github.com/csarven/lsd-analysis">source code</a> [<a href="#ref-42">42</a>] is available at a public repository.</p>
+                        </div>
+                    </section>
+
+
+                    <section id="discussion-and-evaluation" rel="schema:hasPart" resource="#discussion-and-evaluation">
+                        <h2 property="schema:name">Discussion and Evaluation</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>In order to test and experiment with the techniques outlined in our work, we postulate that the approaches to conduct federated queries to gather necessary data for analysis can be summarized by either constructing general or custom query patterns. The generalized approach is essentially where the same query pattern is used for all endpoints. The custom approach is where each endpoint gets a uniquely constructed query pattern.</p>
+
+                            <p>The approach to writing general queries that can work over any endpoint which hosts well-formed statistical data passing the integrity checks of the RDF Data Cube vocabulary. Therefore, in this case, the queries do not consist of any predetermined information about the endpoint. The approach is essentially aimed towards the possibility to scale the number of endpoints within its reach. Achieving optimal query patterns tend to be challenging in this case.</p>
+
+                            <p>In contrast, the custom approach will offer an improvement over the generalized approach when performance is in question, since it can factor in information about the data organization for each endpoint. This may typically include information like named graphs to look into, available interlinks, metadata about comparability and so on. When this information is available to the system in a controlled environment e.g., endpoint monitoring, industrial use-cases would benefit from the custom approach as performance of the system is essential.</p>
+
+                            <p>For our research, the technique we focused on favoured the scalability of the system with minimal human intervention. This was achieved by having an implementation where by only making the system be aware of new statistical Linked Data endpoints, the rest of the pipeline and interface functioned as consistently as before. Having said that, it is worth repeating that it is not ideal if performance is top priority.</p>
+                        </div>
+                    </section>
+
+
+                    <section id="conclusions" rel="schema:hasPart" resource="#conclusions">
+                        <h2 property="schema:name" resource="#conclusions" typeof="deo:Conclusion">Conclusions and Future Work</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>We believe that the presented work here and the prior <a href="http://csarven.ca/linked-sdmx-data">Linked SDMX Data</a> effort contributed towards strengthening the relationship between Semantic Web / Linked Data and statistical communities. The stats.270a.info service is intended to allow humans and machines explore statistical analyses.</p>
+                            <p>In the following we discuss some research and application areas that are planned in future work:</p>
+                            <p>Making the query optimization file from Jena TDB available in RDF and at SPARQL endpoints (or placed in VoID along with <a href="https://github.com/AKSW/LODStats">LODStats</a> [<a href="#ref-43">43</a>]) can help to devise better performing federated queries.</p>
+                            <p>With the availability of more interlinks across datasets, we can investigate analyses that are not dependent on reference areas. For instance, interlinking currencies, health matters, policies, or concepts on comparability can contribute towards various analyses.</p>
+                            <p>Enriching the datasets with information on comparability can lead to achieving more coherent results. This is particularly important given that the <a href="http://epp.eurostat.ec.europa.eu/portal/page/portal/quality/code_of_practice">European Statistics Code of Practice</a> [<a href="#ref-44">44</a>] from the <a href="http://ec.europa.eu/">European Commission</a> lists <em>Coherence and Comparability</em> as one of the principles that national and community statistical authorities should adhere to. While the research at hand is not obligated to follow those guidelines, they are highly relevant for providing quality statistical analyses.</p>
+                            <p>The availability of the analysis in a JSON serialization, and the cached scatter plot in SVG format, makes it possible for a webpage widget to use them. For instance, they can be dynamically used in articles or wiki pages with all references intact. As the Linked Data approach allows one to explore resources from one item to another, consumers of the article can follow the trace all the way back to the source. This is arguably an ideal scenario to show provenance and references for fact-checking in online or journal articles. Moreover, since the analysis is stored, and the queried data can also be exported in different formats, it can be reused to reproduce the results.</p>
+
+                            <p>This brings us to an outlook for Linked Statistical Data Analyses. The reuse of Linked analyses artefacts as well as the approach to collect data from different sources can help us build smarter systems. It can be employed in fact-checking scenarios as well as uncovering decision-making processes, where knowledge from different sources is put to their potential use when combined.</p>
+                        </div>
+                    </section>
+
+                    <section id="acknowledgements" rel="schema:hasPart" resource="#acknowledgements">
+                        <h2 property="schema:name" resource="#acknowledgements" typeof="deo:Acknowledgements">Acknowledgements</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>Many thanks to colleagues whom helped one way or another during the course of this work (not implying any endorsement); in no particular order: <a href="http://www.transparency.org/whoweare/contact#S_deborah_hardoon">Deborah Hardoon</a> (<a href="http://transparency.org/">Transparency International</a>), <a href="http://bis.uni-leipzig.de/AxelNgonga">Axel-Cyrille Ngonga Ngomo</a> (<a href="http://www.zv.uni-leipzig.de/">Universität Leipzig</a>, <a href="http://aksw.org/">AKSW</a>), <a href="http://www.wirtschaft.bfh.ch/de/ueber_uns/kontakt/detailseite.html?tx_bfhpersonalpages_p=rca2&#38;tx_bfhpersonalpages_screen=data">Alberto Rascón</a> (<a href="http://bfh.ch/">Berner Fachhochshule</a> [BFS]), <a href="http://www.wirtschaft.bfh.ch/de/ueber_uns/kontakt/detailseite.html?tx_bfhpersonalpages_p=mam10&#38;tx_bfhpersonalpages_screen=data">Michael Mosimann</a> (BFS), <a href="http://www.joecheng.com/">Joe Cheng</a> (<a href="http://www.rstudio.com/">RStudio, Inc.</a>), <a href="http://www.w3.org/2011/gld/wiki/Main_Page">Government Linked Data Working Group</a>, <a href="https://groups.google.com/forum/#!forum/publishing-statistical-data">Publishing Statistical Data</a> group, <a href="http://jena.apache.org/">Apache Jena</a>, <a href="http://www.epimorphics.com/web/about#afs">Andy Seaborne</a> (<a href="http://epimorphics.com/">Epimorphics Ltd</a>), <a href="http://richard.cyganiak.de/#">Richard Cyganiak</a> (<a href="http://deri.ie/">Digital Enterprise Research Institute</a> [DERI]). And, DERI for graciously offering to host this work on their servers.</p>
+                        </div>
+                    </section>
+
+
+                    <section id="references">
+                        <h2>References</h2>
+                        <div>
+                            <ol>
+                                <li id="ref-1">stats.270a.info, <a about="" rel="schema:citation" href="http://stats.270a.info/">http://stats.270a.info/</a></li>
+                                <li id="ref-2">Capadisli, S.: Statistical Linked Dataspaces. Master's thesis, National University of Ireland (2012), <a about="" rel="schema:citation" href="http://csarven.ca/statistical-linked-dataspaces">http://csarven.ca/statistical-linked-dataspaces</a></li>
+                                <li id="ref-3">The RDF Data Cube vocabulary, <a about="" rel="schema:citation" href="http://www.w3.org/TR/vocab-data-cube/">http://www.w3.org/TR/vocab-data-cube/</a></li>
+                                <li id="ref-4">Capadisli, S., Auer, S. Ngonga Ngomo, A.-C., Linked SDMX Data, Semantic Web Journal (2013), <a about="" rel="schema:citation" href="http://csarven.ca/linked-sdmx-data">http://csarven.ca/linked-sdmx-data</a></li>
+                                <li id="ref-5">270a.info, <a about="" rel="schema:citation" href="http://270a.info/">http://270a.info/</a></li>
+                                <li id="ref-6">The PROV Ontology, <a about="" rel="schema:citation" href="http://www.w3.org/TR/prov-o/">http://www.w3.org/TR/prov-o/</a></li>
+                                <li id="ref-7">Zapilko, B., Mathiak, B.: Performing Statistical Methods on Linked Data, Proc. Int'l Conf. on Dublin Core and Metadata Applications (2011), <a about="" rel="schema:citation" href="http://dcevents.dublincore.org/IntConf/dc-2011/paper/download/27/16">http://dcevents.dublincore.org/IntConf/dc-2011/paper/download/27/16</a></li>
+                                <li id="ref-8">The R Project for Statistical Computing, <a href="http://www.r-project.org/">http://www.r-project.org/</a></li>
+                                <li id="ref-9">Zapilko, B., Mathiak, B.: Defining and Executing Assessment Tests on Linked Data for Statistical Analysis, COLD, ISWC (2011), <a about="" rel="schema:citation" href="http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Workshops/COLD/cold2011_submission_13.pdf">http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/Workshops/COLD/cold2011_submission_13.pdf</a></li>
+                                <li id="ref-10">Hage, W. R. v., Marieke v., Malaisé., V.: Linked Open Piracy: A story about e-Science, Linked Data, and statistics (2012), <a about="" rel="schema:citation" href="http://www.few.vu.nl/~wrvhage/papers/LOP_JoDS_2012.pdf">http://www.few.vu.nl/~wrvhage/papers/LOP_JoDS_2012.pdf</a></li>
+                                <li id="ref-11">SPARQL client for R, <a about="" rel="schema:citation" href="http://cran.r-project.org/web/packages/SPARQL/index.html">http://cran.r-project.org/web/packages/SPARQL/index.html</a></li>
+                                <li id="ref-12">McCusker, J. P., McGuinness, D. L., Lee, J., Thomas, C., Courtney, P., Tatalovich, Z., Contractor, N., Morgan, G., Shaikh, A.: Towards Next Generation Health Data Exploration: A Data Cube-based Investigation into Population Statistics for Tobacco, Hawaii International Conference on System Sciences (2012), <a about="" rel="schema:citation" href="http://www.hicss.hawaii.edu/hicss_46/bp46/hc6.pdf">http://www.hicss.hawaii.edu/hicss_46/bp46/hc6.pdf</a></li>
+                                <li id="ref-13">qb.js, <a about="" rel="schema:citation" href="http://orion.tw.rpi.edu/~jimmccusker/qb.js/">http://orion.tw.rpi.edu/~jimmccusker/qb.js/</a></li>
+                                <li id="ref-14">Percy E. Rivera Salas, P. E. R., Mota, F. M. D., Martin, M., Auer, S., Breitman, K., Casanova, M. A.: Publishing Statistical Data on the Web, ISWC (2012), <a about="" rel="schema:citation" href="http://svn.aksw.org/papers/2012/ESWC_PublishingStatisticData/public.pdf">http://svn.aksw.org/papers/2012/ESWC_PublishingStatisticData/public.pdf</a></li>
+                                <li id="ref-15">CubeViz, <a about="" rel="schema:citation" href="http://aksw.org/Projects/CubeViz">http://aksw.org/Projects/CubeViz</a></li>
+                                <li id="ref-16">Google Public Data Explorer, <a about="" rel="schema:citation" href="http://www.google.com/publicdata/">http://www.google.com/publicdata/</a></li>
+                                <li id="ref-17">Gapminder, <a about="" rel="schema:citation" href="http://www.gapminder.org/">http://www.gapminder.org/</a></li>
+                                <li id="ref-18">Dataset Publishing Language, <a about="" rel="schema:citation" href="https://developers.google.com/public-data/">https://developers.google.com/public-data/</a></li>
+                                <li id="ref-19">Paulheim, H.: Generating Possible Interpretations for Statistics from Linked Open Data, ESWC (2012), <a about="" rel="schema:citation" href="http://www.ke.tu-darmstadt.de/bibtex/attachments/single/310">http://www.ke.tu-darmstadt.de/bibtex/attachments/single/310</a></li>
+                                <li id="ref-20">Explain-a-LOD, <a about="" rel="schema:citation" href="http://www.ke.tu-darmstadt.de/resources/explain-a-lod">http://www.ke.tu-darmstadt.de/resources/explain-a-lod</a></li>
+                                <li id="ref-21">Sundgren, B.: <a about="" rel="schema:citation" href="https://docs.google.com/viewer?a=v&#38;pid=sites&#38;srcid=ZGVmYXVsdGRvbWFpbnxib3N1bmRncmVufGd4OjJiY2M1OWMyMTBiNmNlZDg">Data quality in information systems</a>, Workshop on Data Quality (2013)</li>
+                                <li id="ref-22">Wang, S., Schlobach, S., Klein, M.C.A.: What Is Concept Drift and How to Measure It? In: Knowledge Engineering and Management by the Masses - 17th International Conference, EKAW 2010. Proceedings. pp. 241–256. Lecture Notes in Computer Science, 6317, Springer, (2010)<a about="" rel="schema:citation" href="http://link.springer.com/chapter/10.1007%2F978-3-642-16438-5_17">http://link.springer.com/chapter/10.1007%2F978-3-642-16438-5_17</a></li>
+                                <li id="ref-23">Ngonga Ngomo, A.-C.: LInk discovery framework for MEtric Spaces (LIMES): A Time-Efficient Hybrid Approach to Link Discovery (2011), <a about="" rel="schema:citation" href="http://aksw.org/Projects/limes">http://aksw.org/Projects/limes</a></li>
+                                <li id="ref-24">Shiny, <a about="" rel="schema:citation" href="http://www.rstudio.com/shiny/">http://www.rstudio.com/shiny/</a></li>
+                                <li id="ref-25">Shiny server, <a about="" rel="schema:citation" href="https://github.com/rstudio/shiny-server">https://github.com/rstudio/shiny-server</a></li>
+                                <li id="ref-26">Transparency International, <a about="" rel="schema:citation" href="http://transparency.270a.info/">http://transparency.270a.info/</a></li>
+                                <li id="ref-27">Food and Agriculture Organization of the United Nations, <a about="" rel="schema:citation" href="http://fao.270a.info/">http://fao.270a.info/</a></li>
+                                <li id="ref-28">Organisation for Economic Co-operation and Development, <a about="" rel="schema:citation" href="http://oecd.270a.info/">http://oecd.270a.info/</a></li>
+                                <li id="ref-29">World Bank, <a about="" rel="schema:citation" href="http://worldbank.270a.info/">http://worldbank.270a.info/</a></li>
+                                <li id="ref-30">European Central Bank, <a about="" rel="schema:citation" href="http://ecb.270a.info/">http://ecb.270a.info/</a></li>
+                                <li id="ref-31">International Monetary Fund, <a about="" rel="schema:citation" href="http://imf.270a.info/">http://imf.270a.info/</a></li>
+                                <li id="ref-32">Apache Jena, <a about="" rel="schema:citation" href="http://jena.apache.org/">http://jena.apache.org/</a></li>
+                                <li id="ref-33">Jena TDB, <a about="" rel="schema:citation" href="http://jena.apache.org/documentation/tdb/index.html">http://jena.apache.org/documentation/tdb/index.html</a></li>
+                                <li id="ref-34">Jena TDB Optimizer, <a about="" rel="schema:citation" href="http://jena.apache.org/documentation/tdb/optimizer.html">http://jena.apache.org/documentation/tdb/optimizer.html</a></li>
+                                <li id="ref-35">Jena Fuseki, <a about="" rel="schema:citation" href="https://jena.apache.org/documentation/serving_data/">https://jena.apache.org/documentation/serving_data/</a></li>
+                                <li id="ref-36">Vocabulary of Interlinked Datasets, <a about="" rel="schema:citation" href="http://www.w3.org/TR/void/">http://www.w3.org/TR/void/</a></li>
+                                <li id="ref-37">Loizou, A., Groth, P.: On the Formulation of Performant SPARQL Queries, arXiv:1304.0567 (2013) <a about="" rel="schema:citation" href="http://arxiv.org/abs/1304.0567">http://arxiv.org/abs/1304.0567</a></li>
+                                <li id="ref-38">Rakhmawati, N.R., Umbrich, J., Karnstedt, M., Hasnain, A., Hausenblas, M.: Querying over Federated SPARQL Endpoints &#8212; A State of the Art Survey, arXiv:1306.1723 (2013) <a about="" rel="schema:citation" href="http://arxiv.org/abs/1306.1723">http://arxiv.org/abs/1306.1723</a></li>
+                                <li id="ref-39">Stats Vocab, <a about="" rel="schema:citation" href="http://stats.270a.info/vocab">http://stats.270a.info/vocab</a></li>
+                                <li id="ref-40">Semanticscience Integrated Ontology, <a about="" rel="schema:citation" href="http://semanticscience.org/ontology/sio.owl">http://semanticscience.org/ontology/sio.owl</a></li>
+                                <li id="ref-41">Linked Data Pages, <a about="" rel="schema:citation" href="http://csarven.ca/statistical-linked-dataspaces#linked-data-pages">http://csarven.ca/statistical-linked-dataspaces#linked-data-pages</a></li>
+                                <li id="ref-42">LSD Analysis code at GitHub, <a about="" rel="schema:citation" href="https://github.com/csarven/lsd-analysis">https://github.com/csarven/lsd-analysis</a></li>
+                                <li id="ref-43">Demter, J., Auer, S., Martin, M., Lehmann, J.: LODStats – An Extensible Framework for High-performance Dataset Analytics, EKAW (2012), <a about="" rel="schema:citation" href="http://svn.aksw.org/papers/2011/RDFStats/public.pdf">http://svn.aksw.org/papers/2011/RDFStats/public.pdf</a></li>
+                                <li id="ref-44">European Statistics Code of Practice, <a about="" rel="schema:citation" href="http://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/KS-32-11-955">http://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/KS-32-11-955</a></li>
+                            </ol>
+                        </div>
+                    </section>
+</article>
+
+
+
+<article>
+<p><a href="http://csarven.ca/sparqlines-sparql-to-sparkline">http://csarven.ca/sparqlines-sparql-to-sparkline</a></p>
+
+                    <section id="abstract">
+                        <h2>Abstract</h2>
+                        <div datatype="rdf:HTML" property="schema:abstract">
+                            <p>This article presents <em>sparqlines</em>: statistical observations fetched from SPARQL endpoints and displayed as inline-charts. An inline-chart, also known as a <a href="https://en.wikipedia.org/wiki/Sparkline"><em>sparkline</em></a>, is concise, and located where it is discussed in the text, complementing the supporting text without breaking the reader’s flow. For example, the 
+                            <span rel="schema:hasPart" resource="#figure-GDP-per-capita-growth--annual---">
+                                <a href="http://worldbank.270a.info/dataset/NY.GDP.PCAP.KD.ZG" property="schema:name" rel="prov:wasDerivedFrom" resource="http://worldbank.270a.info/dataset/NY.GDP.PCAP.KD.ZG" typeof="qb:DataSet">GDP per capita growth (annual %)</a> [Canada]
+                                <span class="sparkline" rel="schema:image" resource="#GDP-per-capita-growth--annual---">
+                                    <svg height="100%" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# xsd: http://www.w3.org/2001/XMLSchema# qb: http://purl.org/linked-data/cube# prov: http://www.w3.org/ns/prov# schema: https://schema.org/" version="1.1" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <style type="text/css">/*<![CDATA[*/line { stroke:#000; stroke-width:1px; } circle { stroke:#f00; fill:#f00; }/*]]>*/</style>
+                                        <g rel="prov:wasDerivedFrom" resource="http://worldbank.270a.info/dataset/NY.GDP.PCAP.KD.ZG">
+                                            <metadata rel="schema:license" resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+                                            <title property="schema:name">GDP per capita growth (annual %)</title>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1961" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1961"><line x1="0.9615384615384616%" x2="0.9615384615384616%" y1="43.16454574172421%" y2="43.16454574172421%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1962" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1962"><line x1="0.9615384615384616%" x2="2.8461538461538463%" y1="43.16454574172421%" y2="0.2602253013133691%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1963" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1963"><line x1="2.8461538461538463%" x2="4.730769230769231%" y1="0.2602253013133691%" y2="20.546079976437966%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1964" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1964"><line x1="4.730769230769231%" x2="6.615384615384616%" y1="20.546079976437966%" y2="4.9166537468372695%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1965" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1965"><line x1="6.615384615384616%" x2="8.5%" y1="4.9166537468372695%" y2="4.731637579170197%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1966" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1966"><line x1="8.5%" x2="10.384615384615385%" y1="4.731637579170197%" y2="5.859252100219621%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1967" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1967"><line x1="10.384615384615385%" x2="12.26923076923077%" y1="5.859252100219621%" y2="43.58392297111188%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1968" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1968"><line x1="12.26923076923077%" x2="14.153846153846153%" y1="43.58392297111188%" y2="16.605031338302297%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1969" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1969"><line x1="14.153846153846153%" x2="16.03846153846154%" y1="16.605031338302297%" y2="14.17112377526918%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1970" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1970"><line x1="16.03846153846154%" x2="17.92307692307692%" y1="14.17112377526918%" y2="42.73729961025032%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1971" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1971"><line x1="17.92307692307692%" x2="19.807692307692307%" y1="42.73729961025032%" y2="27.685195209211884%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1972" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1972"><line x1="19.807692307692307%" x2="21.69230769230769%" y1="27.685195209211884%" y2="14.826164877967003%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1973" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1973"><line x1="21.69230769230769%" x2="23.576923076923077%" y1="14.826164877967003%" y2="1.4210854715202004e-14%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1974" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1974"><line x1="23.576923076923077%" x2="25.46153846153846%" y1="1.4210854715202004e-14%" y2="35.39007629908832%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1975" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1975"><line x1="25.46153846153846%" x2="27.346153846153843%" y1="35.39007629908832%" y2="56.008189983767984%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1976" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1976"><line x1="27.346153846153843%" x2="29.230769230769226%" y1="56.008189983767984%" y2="14.398016142296555%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1977" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1977"><line x1="29.230769230769226%" x2="31.115384615384617%" y1="14.398016142296555%" y2="31.113117376011147%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1978" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1978"><line x1="31.115384615384617%" x2="33%" y1="31.113117376011147%" y2="24.010867612061844%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1979" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1979"><line x1="33%" x2="34.88461538461538%" y1="24.010867612061844%" y2="25.516209087392284%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1980" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1980"><line x1="34.88461538461538%" x2="36.76923076923077%" y1="25.516209087392284%" y2="46.03805171008273%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1981" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1981"><line x1="36.76923076923077%" x2="38.65384615384615%" y1="46.03805171008273%" y2="31.353777706294892%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1982" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1982"><line x1="38.65384615384615%" x2="40.53846153846154%" y1="31.353777706294892%" y2="98%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1983" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1983"><line x1="40.53846153846154%" x2="42.42307692307692%" y1="98%" y2="37.049138412484396%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1984" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1984"><line x1="42.42307692307692%" x2="44.30769230769231%" y1="37.049138412484396%" y2="3.8990386857101242%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1985" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1985"><line x1="44.30769230769231%" x2="46.19230769230769%" y1="3.8990386857101242%" y2="14.466152419708749%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1986" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1986"><line x1="46.19230769230769%" x2="48.07692307692307%" y1="14.466152419708749%" y2="40.20714194723098%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1987" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1987"><line x1="48.07692307692307%" x2="49.96153846153846%" y1="40.20714194723098%" y2="24.23504082493062%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1988" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1988"><line x1="49.96153846153846%" x2="51.84615384615385%" y1="24.23504082493062%" y2="16.4155854058384%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1989" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1989"><line x1="51.84615384615385%" x2="53.730769230769226%" y1="16.4155854058384%" y2="46.513539215559256%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1990" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1990"><line x1="53.730769230769226%" x2="55.61538461538461%" y1="46.513539215559256%" y2="68.88140254723645%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1991" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1991"><line x1="55.61538461538461%" x2="57.49999999999999%" y1="68.88140254723645%" y2="91.51801871119973%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1992" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1992"><line x1="57.49999999999999%" x2="59.38461538461538%" y1="91.51801871119973%" y2="58.89063066569448%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1993" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1993"><line x1="59.38461538461538%" x2="61.269230769230774%" y1="58.89063066569448%" y2="42.041295592538034%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1994" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1994"><line x1="61.269230769230774%" x2="63.153846153846146%" y1="42.041295592538034%" y2="14.563197311382893%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1995" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1995"><line x1="63.153846153846146%" x2="65.03846153846155%" y1="14.563197311382893%" y2="34.19521785880608%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1996" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1996"><line x1="65.03846153846155%" x2="66.92307692307693%" y1="34.19521785880608%" y2="49.44858112486089%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1997" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1997"><line x1="66.92307692307693%" x2="68.8076923076923%" y1="49.44858112486089%" y2="21.72442052861726%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1998" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1998"><line x1="68.8076923076923%" x2="70.6923076923077%" y1="21.72442052861726%" y2="20.975803658149985%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1999" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/1999"><line x1="70.6923076923077%" x2="72.57692307692308%" y1="20.975803658149985%" y2="5.386196833413024%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2000" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2000"><line x1="72.57692307692308%" x2="74.46153846153847%" y1="5.386196833413024%" y2="9.161609941779957%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2001" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2001"><line x1="74.46153846153847%" x2="76.34615384615385%" y1="9.161609941779957%" y2="46.98143019467036%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2002" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2002"><line x1="76.34615384615385%" x2="78.23076923076924%" y1="46.98143019467036%" y2="33.71789219866544%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2003" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2003"><line x1="78.23076923076924%" x2="80.11538461538463%" y1="33.71789219866544%" y2="45.81166841275399%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2004" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2004"><line x1="80.11538461538463%" x2="82%" y1="45.81166841275399%" y2="32.79500363273925%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2005" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2005"><line x1="82%" x2="83.88461538461539%" y1="32.79500363273925%" y2="33.68496358846721%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2006" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2006"><line x1="83.88461538461539%" x2="85.76923076923077%" y1="33.68496358846721%" y2="33.70021419695024%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2007" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2007"><line x1="85.76923076923077%" x2="87.65384615384616%" y1="33.70021419695024%" y2="42.15969197718631%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2008" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2008"><line x1="87.65384615384616%" x2="89.53846153846155%" y1="42.15969197718631%" y2="59.31341793784153%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2009" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2009"><line x1="89.53846153846155%" x2="91.42307692307693%" y1="59.31341793784153%" y2="96.43770278569066%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2010" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2010"><line x1="91.42307692307693%" x2="93.3076923076923%" y1="96.43770278569066%" y2="33.011290571731266%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2011" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2011"><line x1="93.3076923076923%" x2="95.1923076923077%" y1="33.011290571731266%" y2="38.88670062678091%" /></a>
+                                            <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2012" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2012"><line x1="95.1923076923077%" x2="97.07692307692308%" y1="38.88670062678091%" y2="49.719411631415205%" /></a>
+                                            <a target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2012"><circle cx="97.07692307692308%" cy="49.719411631415205%" r="1" /></a>
+                                        </g>
+                                    </svg>
+                                </span>
+                            </span> claimed by the <a href="http://worldbank.270a.info/">World Bank Linked Dataspace</a>.
+                            We demonstrate an implementation which allows scientists or authors to easily enhance their work with sparklines generated from their own or public statistical linked datasets. This article includes an active demonstration accessible at <a href="http://csarven.ca/sparqlines-sparql-to-sparkline">http://csarven.ca/sparqlines-sparql-to-sparkline</a>.</p>
+                        </div>
+                    </section>
+
+
+                    <section id="introduction" inlist="" rel="schema:hasPart" resource="#introduction">
+                        <h2 property="schema:name">Introduction</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>In this article we introduce <em>sparqlines</em>, an integration of statistical data retrieval using SPARQL with displaying observations in the form of word-size graphics: sparklines. We describe an implementation which is part of a Web based authoring tool (<a href="https://dokie.li/">dokieli</a>). We cover how the data is modelled and exposed in order to be suitable for embedding; demonstrate how to embed data as both static and dynamic sparklines and discuss the technical requirements of each; and walk through the user interactions to do so.</p>
+
+                            <p>Our contribution is the generation of a well-established visual aid to reading statistical data (the sparkline) directly from the dataset itself, at the time of authoring the supporting text as part of the writing workflow. This enables authors who are already publishing data to use it directly, as well as encouraging them to make their data available for others to use, and offers an easy way to present the reader with a way to better understand the information.</p>
+
+                            <p>We conclude with a discussion, including design considerations. The code of our implementation is open source, and we invite you to try it out and make requests for more advanced features: <a href="https://github.com/linkeddata/dokieli">https://github.com/linkeddata/dokieli</a>.</p>
+                        </div>
+                    </section>
+
+                    <section id="related-work" inlist="" rel="schema:hasPart" resource="#related-work">
+                        <h2 property="schema:name">Related Work</h2>
+                        <div datatype="rdf:HTML" property="schema:description" resource="#related-work" typeof="deo:RelatedWork">
+                            <section id="sparklines" inlist="" rel="schema:hasPart" resource="#sparklines">
+                                <h3 property="schema:name">Sparklines</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p id="sparkline-description">The earliest known implementation of an inline-chart was designed and programmed by <a href="http://pete.zelchenko.com/">Peter Zelchenko</a> and Mike Medved to represent historical charts efficiently in the <a href="http://pete.zelchenko.com/portfolio/screen/2gk.htm">QuoteTracker</a> software in early 1999 [<a href="#ref-1">1</a>]. They are <q>datawords</q>, carrying dense information with the resolution of typography, particularly useful in places where the available screen real estate is minimal. <a href="http://www.edwardtufte.com/">Edward Tufte</a> describes sparkline as <q cite="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001OR&amp;topic_id=1"><a href="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001OR&amp;topic_id=1">small intense, simple, word-sized graphic with typographic resolution</a></q> [<a href="#ref-2">2</a>]. They are designed to be included anywhere, for example embedded in a sentence, table or even a map, within the relevant context. When embedded in a sentence, they support the text, allowing continuous reading <embed class="sparkline" src="media/images/GDP-per-capita-growth--annual---.svg" type="image/svg+xml" /> without the need to refer to a figure disjoint from the original context, whilst still providing an opportunity for the reader to investigate further by clicking on the data line to access each point of source, per <a href="#figure-static-sparkline">Figure 1</a>.</p>
+
+                                    <p id="sparkline-graphics">Sparkline graphics typically have a variable long dimension and a constrained short dimension. In the case of a typographic line, the constraint can be fixed to the height of the font-size of the encapsulating component. For example, the computed CSS <code>height</code> value of the <code>embed</code> HTML element that contains the sparkline on the current viewing device is <samp class="height">20px</samp>, and so the embedded sparkline in this paragraph will have a vertical aspect ratio as such.</p>
+
+                                    <script>document.addEventListener('DOMContentLoaded', function(){var s = document.querySelector('#sparkline-description .sparkline'); document.querySelector('#sparkline-graphics .height').innerHTML = s.ownerDocument.defaultView.getComputedStyle(s, null)["height"];});</script>
+
+                                    <figure id="figure-static-sparkline" rel="schema:hasPart" resource="#figure-static-sparkline">
+                                        <object data="media/images/GDP-per-capita-growth--annual---.svg" height="60" rel="schema:image" type="image/svg+xml" width="640"></object>
+                                        <figcaption property="schema:name">A typical static figure in an article disjoint from the original context</figcaption>
+                                    </figure>
+                                    <style>/*<![CDATA[*/
+                                        #figure-static-sparkline object {
+                                            height:60px !important;
+                                            min-height:60px !important;
+                                        }
+                                    /*]]>*/</style>
+
+                                    <p>Sparklines appear in many places where small datafeeds are useful; programmatical insertion in text-editors and spreadsheets, fitness feeds from wearable watches, social media analytics, streaming real-time quotes, electroencephalograms, system dashboards and trays, temperature and stock activity, to name a few. Studies show that novice and experienced investors using stock reports with Sparklines will experience reduced cognitive load [<a href="#ref-3">3</a>].</p>
+
+                                    <p>Sparklines in line, bar, column or win/loss graphs can be programatically included in <cite>Google Drive</cite> documents by including data from an embedded table or sequence of numbers via the Google Charts API [<a href="ref-4">4</a>].</p>
+
+                                    <p>The <cite><a href="https://archive.org/web/">Wayback Machine</a></cite> uses sparklines to show an application of the snapshots of a URL through time: <!-- <img style="display:block; margin:1em 0;" src="https://web.archive.org/web/jsp/graph.jsp?nomonth=1&amp;graphdata=1029_75_1996:-1:000000000000_2004:-1:010000000430_2005:-1:122430033004_2006:-1:193656640155_2007:-1:634212110911_2008:-1:111111164102_2009:-1:111100000000_2010:-1:101111112322_2011:-1:122221241511_2012:-1:232130203201_2013:-1:5015212111cf_2014:-1:e20112312222_2015:-1:135221123011_2016:3:225300000000" /> --></p>
+
+                                    <p>There are sparkline implementations in JavaScript libraries like d3.js and jQuery. Sparkline implementations also exist for command-line interfaces. These tools tend to take input data in tabular form (CSV). Sparklines can also be created by simple use of <a href="https://rosettacode.org/wiki/Sparkline_in_unicode">Unicode characters</a>: <code>▂▁▄▃▆▅█▇</code>.</p>
+                                </div>
+                            </section>
+
+                            <section id="rdf-data-cube-and-sparql" inlist="" rel="schema:hasPart" resource="#rdf-data-cube-and-sparql">
+                                <h3 property="schema:name">RDF Data Cube and SPARQL</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p>Statistical data that is modelled with the RDF Data Cube vocabulary [<a href="#ref-5">5</a>] makes it possible to discover and identify artefacts in a uniform way. This is in contrast to writing applications to consume data from endpoints with heterogeneous data models. For front-end Web applications, data can be fetched, explored, and filtered from <a href="http://csarven.ca/statistical-linked-dataspaces">statistical linked dataspaces</a> with SPARQL endpoints, e.g., <a href="http://270a.info/">http://270a.info/</a>. Utilising this method of access from within various types of articles on the Web, makes it possible to build applications which put more focus on user-interfaces rather than handling different data models case by case, or burdensome data integration tasks. Furthermore, having easy access to highly structured multidimensional data - essentially through an <code>HTTP GET</code> request - makes it desirable to create static and real-time visualisations.</p>
+
+                                    <p><a href="https://github.com/mgskjaeveland/sgvizler">Sgvizler</a> is a SPARQL result set visualisation JavaScript library that uses Google Charts API to create sparkline images [<a href="#ref-6">6</a>]. These are block-level raster images.</p>
+
+                                    <p>Investigation of analysis and visualisation of piracy reports have been conducted through endpoint querying with a <a href="http://cran.r-project.org/web/packages/SPARQL/index.html">SPARQL client for R</a> [<a href="#ref-7">7</a>].</p>
+
+                                    <p><a href="http://aksw.org/Projects/CubeViz">CubeViz</a> was developed to visualise multidimensional statistical data. It is a faceted browser, which utilizes the RDF Data Cube vocabulary, with a chart visualisation component [<a href="#ref-8">8</a>].</p>
+
+                                    <p><a href="http://csarven.ca/linked-statistical-data-analysis">Linked Statistical Data Analysis</a> [<a href="#ref-9">9</a>], presents a way to reuse data through federated SPARQL queries, and generation of statistical analyses and scatter plots. The <a href="http://stats.270a.info/">stats.270a.info</a> service stores computed analysis, and makes it possible for future discovery.</p>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+
+                    <section id="data-provision" inlist="" rel="schema:hasPart" resource="#data-provision">
+                        <h2 property="schema:name">Data Provision</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>In order to use sparqlines, data has to be both well-formed and available over a SPARQL endpoint. Here we briefly discuss both of these requirements.</p>
+
+                            <p>The RDF Data Cube vocabulary is used to describe multidimensional statistical data. It makes it possible to represent significant amounts of heterogeneous statistical data as Linked Data which can be discovered and identified in a uniform way. To qualify for consumption as a sparqline, the data must conform with some of the integrity constraints of the RDF Data Cube model, e.g., IC-1 (Unique DataSet), IC-11 (All dimensions required), IC-12 (No duplicate observations), IC-14 (All measures present).</p>
+
+                            <p>Additional enrichments on the data cubes can improve their discovery and reuse. Examples include but not limited to; providing human-readable <em>labels</em> for the datasets (with language tags), <em>classifications</em>, and <em>data structure definition</em>, as well as <em>provenance</em> level data like license, last updated.</p>
+
+                            <p>In order to allow user interfaces which can utilise a group of observations in a dataset, <em>slices</em> should be made available in the data. This enables consuming applications to dissect datasets (through SPARQL queries) for arbitrary subsets of observations. For example, while it is possible to construct a general query to get all of the observations in a dataset which have a particular dimension, it may be preferable to only query for such subsets provided that their structures can be identified and externally referenced. In the case of sparklines, one common use case for slices is to present data in time-series.</p>
+
+                            <p>SPARQL queries are used to filter for graph patterns in the RDF Data Cube datasets. Depending on the user interface application, there may be multiple queries made to the SPARQL endpoints in order to filter the data based on user input. For example, an initial query may be a cursory inspection to discover suitable datasets with given parameters, e.g., what the dataset is about, the type of dimensions and their values, and subsequent queries may be to retrieve the matching datasets or slices with observations and their measure values.</p>
+                        </div>
+                    </section>
+
+                    <section id="static-and-dynamic-sparqlines" inlist="" rel="schema:hasPart" resource="#static-and-dynamic-sparqlines">
+                        <h2 property="schema:name">Static and Dynamic Sparqlines</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>The data behind a sparqline can be static: a fixed historical set to which no new points are added; or dynamic: subject to change as new data is gathered. Both of these cases are accommodated by our implementation.</p>
+
+                            <table>
+                                <caption>Static and Dynamic Sparklines</caption>
+                                <thead>
+                                    <tr><th></th><th>Use</th><th>Methods</th><th>Example</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>Static</th>
+                                        <td>Historical data or a fixed snapshot</td>
+                                        <td>
+                                            <ul>
+                                                <li>Pre-rendered SVG</li>
+                                                <li>Embedded directly from datastore</li>
+                                            </ul>
+                                        </td>
+                                        <td><embed class="sparkline" src="media/images/GDP-per-capita-growth--annual---.svg" height="240" rel="schema:image" type="image/svg+xml" width="640" /></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Dynamic</th>
+                                        <td>Data which may be subject to updates</td>
+                                        <td>
+                                            <ul>
+                                                <li>Re-fetches data on page load or polls in real-time</li>
+                                                <li>Embed source as API endpoint which returns the sparkline</li>
+                                            </ul>
+                                        </td>
+                                        <td><!--<embed class="sparkline" src="http://stats.270a.info/sparkline.svg?void:sparqlEndpoint=http%3A%2F%2Fworldbank.270a.info%2Fsparql&amp;qb:DataSet=http%3A%2F%2Fworldbank.270a.info%2Fdataset%2FNY.GDP.MKTP.CD&amp;refArea=CA" type="image/svg+xml" />--> (reload article in browser)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <section id="embedding-sparqlines" inlist="" rel="schema:hasPart" resource="embedding-sparqlines">
+                        <h2 property="schema:name">Embedding Sparqlines</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>Our implementation allows authors to select text they have written which describes the data they want to visualise; it searches available datasets for those relevant to the text, and lets the user choose the most appropriate if there’s more than one. The sparqline is inserted along with a reference to the source.</p>
+
+                            <p>A specific example workflow is demonstrated when this article is viewed in a Web browser (at its canonical URL: http://csarven.ca/sparqlines-sparql-to-sparkline). Enable the <button class="editor-enable" title="Enable editor"><i class="fa fa-i-cursor"></i>Edit</button> mode from the <button>☰</button> menu and highlight the text <samp id="interactive-annotation-example">GDP of Canada</samp>. What occurs is as follows:</p>
+
+                            <ol property="schema:hasPart" resource="#embedding-sparqlines-workflow" typeof="opmw:WorkflowTemplate deo:Model">
+                                <li id="interactive-annotation-text-entry" about="#embedding-sparqlines-text-entry" typeof="opmw:WorkflowTemplateProcess" rel="opmw:isStepOfTemplate" resource="#embedding-sparqlines-workflow" property="rdfs:label">User enters text in a sentence e.g., <samp>GDP of Canada</samp>.</li>
+                                <li id="interactive-annotation-text-selection" about="#embedding-sparqlines-text-selection" typeof="opmw:WorkflowTemplateProcess" rel="opmw:isStepOfTemplate" resource="#embedding-sparqlines-workflow" property="rdfs:label">User selects text <samp>GDP of Canada</samp> with their mouse or keyboard.</li>
+                                <li id="interactive-annotation-toolbar-selection" about="#embedding-sparqlines-toolbar-selection" typeof="opmw:WorkflowTemplateProcess" rel="opmw:isStepOfTemplate" resource="#embedding-sparqlines-workflow" property="rdfs:label">The user select the <q>sparkline</q> option from presented authoring toolbar.</li>
+                                <li id="interactive-annotation-tokenise-text" about="#embedding-sparqlines-tokenise-text" typeof="opmw:WorkflowTemplateProcess" rel="opmw:isStepOfTemplate" resource="#embedding-sparqlines-workflow" property="rdfs:label">The input text is split into two: 1) <samp>GDP</samp> and 2) <samp>Canada</samp> segments, whereby the first term is the concept, and the second is a reference area. Reference areas are disambiguated against an internal dictionary.</li>
+                                <li id="interactive-annotation-sparql-query-for-input" about="#embedding-sparqlines-sparql-query-for-input" typeof="opmw:WorkflowTemplateProcess" rel="opmw:isStepOfTemplate" resource="#embedding-sparqlines-workflow" property="rdfs:label">System constructs a SPARQL query URL and sends it to the World Bank Linked Dataspace endpoint, looking for a graph pattern where the datasets of labels have <q>GDP</q> in them in which there is at least one observation for the reference area <q>Canada</q>.</li>
+                                <li id="interactive-annotation-dataset-selection" about="#embedding-sparqlines-dataset-selection" typeof="opmw:WorkflowTemplateProcess" rel="opmw:isStepOfTemplate" resource="#embedding-sparqlines-workflow" property="rdfs:label">User is given a list of datasets to select from which match the above criteria, and the user selects desired dataset.</li>
+                                <li id="interactive-annotation-sparql-query-observations" about="#embedding-sparqlines-sparql-query-observations" typeof="opmw:WorkflowTemplateProcess" rel="opmw:isStepOfTemplate" resource="#embedding-sparqlines-workflow" property="rdfs:label">System sends a SPARQL query to get the observations of the selected dataset for Canada.</li>
+                                <li id="interactive-annotation-create-sparkline" about="#embedding-sparqlines-create-sparkline" typeof="opmw:WorkflowTemplateProcess" rel="opmw:isStepOfTemplate" resource="#embedding-sparqlines-workflow" property="rdfs:label">A sparkline is created and displayed for the user, also indicating the number of observations it has.</li>
+                                <li id="interactive-annotation-embed-sparkline" about="#embedding-sparqlines-embed-sparkline" typeof="opmw:WorkflowTemplateProcess" rel="opmw:isStepOfTemplate" resource="#embedding-sparqlines-workflow" property="rdfs:label">If the user is happy with this visualisation they include it in the text. A hyperlink to the dataset, and a sparkline SVG is inserted back into the sentence replacing <samp>GDP of Canada</samp> with <samp>GDP per capita growth (annual %)</samp>.</li>
+                            </ol>
+
+                            <p>Figure [<a href="#figure-dokieli-sparkline">2</a>] is a video screencast of this interaction.</p>
+
+                            <figure id="figure-dokieli-sparqlines" rel="schema:hasPart" resource="#figure-dokieli-sparqlines">
+                                <video controls="controls" height="400" id="video-dokieli-sparqlines" poster="https://dokie.li/media/images/GDP-per-capita-growth--annual---.svg" preload="none" rel="schema:hasPart" width="800">
+                                    <source about="#video-dokieli-sparqlines" rel="schema:hasPart" resource="https://dokie.li/media/video/dokieli-sparqlines.webm" src="https://dokie.li/media/video/dokieli-sparqlines.webm" type="video/webm" typeof="fabio:Film" />
+                                </video>
+                                <figcaption property="schema:name">Video of Sparqlines interaction in dokieli</figcaption>
+                            </figure>
+
+                            <style type="text/css">/*<![CDATA[*/
+                                #embedding-sparqlines button {
+                                    font-family:sans-serif;
+                                    font-size:initial;
+                                    font-weight:normal;
+                                    line-height:1;
+                                    background-color:inherit;
+                                    border:0 none;
+                                    margin:0;
+                                    padding:0;
+                                }
+                                #embedding-sparqlines .editor-enable i,
+                                #embedding-sparqlines .editor-disable i {
+                                    margin-right:0.25em;
+                                }
+                                #embedding-sparqlines .editor-disable {
+                                    background-color:#eee;
+                                }
+                            /*]]>*/</style>
+                        </div>
+                    </section>
+
+                    <section id="semantic-publishing">
+                        <h2 property="schema:name">Semantic Publishing</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>Our implementation in dokieli automatically includes semantic annotations within the embedded sparqlines. The sparqline resource has its own URI that can be used for global referencing. The RDF statements are represented using the HTML+RDFa syntax, and they preserve the following information:</p>
+
+                            <ul>
+                                <li>The part of the document to which the sparqline belongs (<code>rel="schema:hasPart"</code>).</li>
+                                <li>The human-readable name for the figure (based on the dataset used), where it was derived from (the <code>qb:DataSet</code> instance), and the generated SVG.</li>
+                                <li>The SVG resource has statements to indicate:
+                                    <ul>
+                                        <li>linked statistical dataset which was used (<code>rel="prov:wasDerivedFrom"</code>).</li>
+                                        <li>human-readable name of the dataset (<code>property="schema:name"</code>).</li>
+                                        <li>license for the generated SVG (<code>rel="schema:license"</code>).</li>
+                                        <li>further information for each <code>qb:Observation</code> (<code>rel="rdfs:seeAlso"</code>).</li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <p>This information can be discovered and parsed as RDF, thus making easy to access and reuse by third-party applications. For example, another author can cite or include these sparqlines in their work.</p>
+                        </div>
+                    </section>
+
+                    <section id="discussion-and-conclusions" inlist="" rel="schema:hasPart" resource="#discussion-and-conclusions">
+                        <h2 property="schema:name">Discussion and Conclusions</h2>
+                        <div datatype="rdf:HTML" property="schema:description" resource="#discussion-and-conclusions" typeof="deo:Discussion">
+                            <p>We have presented a preliminary implementation of sparklines generated from SPARQL endpoints and embedded directly through authoring tool. This allows authors to visualise their data in an optimal way without breaking their workflow. However, there is a lot of scope for future work in this area. We now discuss some areas for further development.</p>
+
+                            <p><strong>Design principles</strong>: Tufte makes recommendations on readability, as well as applying Cleveland’s analytical method of choosing aspect ratios <em>banking to 45°</em> [<a href="#ref-2">2</a>, <a href="#ref-10">10</a>, <a href="#ref-11">11</a>]. Cleveland’s method has been extended to generate banked sparklines by providing the vertical dimension to fit a typographical line. These approaches help maximize the clarity of the line segments [<a href="#ref-12">12</a>]. Applying these methods is a future implementation in dokieli (<a href="https://github.com/linkeddata/dokieli/issues/159">issue 159</a>).</p>
+
+                            <p><strong>Dataset interaction</strong>: Building on existing work in faceted searching and browsing of RDF data, authors can explore suitable datasets with a combination of searching using natural-language and filtering through available datasets and dimensions of interest. This approach is convenient for datasets in RDF Data Cubes since they are highly structured and classified. Further work is needed to improve the process for disambiguation of the author’s input in natural language in order to discover appropriate URIs in the dataset.</p>
+
+                            <p><strong>Privacy considerations</strong>: Many researchers collect experimental data which has sensitive or identifiable information. This information should not be exposed through public SPARQL endpoints. Measures such as access control lists can allow researchers to generate sparqlines over sensitive data.</p>
+
+                            <p><strong>Data availability</strong>: SPARQL endpoints are notoriously unreliable and they may have high setup costs for new datasets. Applications which rely on endpoints to generate sparqlines with dynamic data, may want to initially include a local cached copy from the last access point in the article. The application can then asynchronously fetch or subscribe for new updates.</p>
+                        </div>
+                    </section>
+</article>
+
+
+
         </div>
       </article>
     </main>
