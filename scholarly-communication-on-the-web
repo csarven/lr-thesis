@@ -454,18 +454,27 @@ transform:rotate(-60deg);
                 <footer><cite>Merovingian, The Matrix Reloaded</cite></footer>
               </blockquote>
 
+              <p class="todo">There are several definitions for "open" and . The definition given by <cite><a href="https://opendefinition.org/">The Open Definition</a></cite> is as follows:</p>
+
+              <blockquote cite="https://opendefinition.org/od/2.1/en/">
+                <p>Open data and content can be freely used, modified, and shared by anyone for any purpose</p>
+
+                <footer><cite><a href="https://opendefinition.org/od/2.1/en/">The Open Definition</a></cite></footer>
+              </blockquote>
+
+              <p class="todo">The definition of "free" in context of software that's widely acknowledged is as follows:</p>
+
+              <blockquote cite="">
+                <p>Free software is a matter of liberty, not price. ’free speech', not 'free beer'</p>
+                <footer><cite><a href=""></a></cite>, Stallman</footer>
+              </blockquote>
+
+
               <p>Several movements during the 1990s towards fundamentally transforming scholarly communication using newly available digital network technologies.</p>
 
               <section id="open-science" inlist="" rel="schema:hasPart" resource="#open-science">
                 <h3 property="schema:name">Open Science</h3>
                 <div dataype="rdf:HTML" property="schema:description">
-                  <p class="todo">There are several definitions for "open" and . The definition given by <cite><a href="https://opendefinition.org/">The Open Definition</a></cite> is as follows:</p>
-
-                  <blockquote cite="https://opendefinition.org/od/2.1/en/">
-                    <p>Open data and content can be freely used, modified, and shared by anyone for any purpose</p>
-
-                    <footer><cite><a href="https://opendefinition.org/od/2.1/en/">The Open Definition</a></cite></footer>
-                  </blockquote>
 
                   <p><q>Open Science</q> is a broadly understood notion that is intended to foster an accessible approach to conducting science and scholarship. While there is no single agreed definition of open science, the general consensus is about improving the practice of scientific communication in a transparent, traceable, verifiable, and reusable manner. For all intents and purposes, we can work with the European-funded project <cite><a href="https://www.fosteropenscience.eu/">Facilitate Open Science Training for European Research</a></cite> (<abbr title="Facilitate Open Science Training for European Research">FOSTER</abbr>)'s definition:</p>
 
@@ -599,11 +608,36 @@ transform:rotate(-60deg);
 <!-- Discontent in Research Communication -->
 <!-- Defective Communication -->
 <!-- Technical and Social Debt -->
-                  <h4>Criticisms and Controversies</h4>
+<!-- Criticisms and Controversies -->
+
+                  <p>The scholarly communication has been the subject of controversies over the past decades..</p>
+
+                  <p>Controlling access in all intents and purposes is like controlling science (communication)</p>
+<blockquote>
+<pre>
+APIs mean Snoop, Control and Censor.
+– Snoop: publishers monitor who is using the literature ,
+when and for what
+– Control: publishers control what you get, when, how
+much, and in what form
+– Censor: publishers control what results you publish
+and how.
+</pre>
+<footer>PMR slideshare slide 44</footer>
+</blockquote>
+
                   <p>Cost</p>
-                  <p>Access</p>
-                  <p>Formats</p>
+                  <p>Profit margins..</p>
+                  <p>Knowledge Neocolonialism/Capitalism: https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science</p>
+                  <p>Elite</p>
+
+                  <p>Access: paywall/toll, restrictions to do research eg. http://onsnetwork.org/chartgerink/2015/11/16/elsevier-stopped-me-doing-my-research/ http://onsnetwork.org/chartgerink/2016/02/23/wiley-also-stopped-my-doing-my-research/</p>
+
+                  <p>Formats: not great for content mining</p>
+
                   <p>Coupling of Functions</p>
+                  <p>coupling of publication impact to an incentive system</p>
+
                 </div>
               </section>
             </div>
