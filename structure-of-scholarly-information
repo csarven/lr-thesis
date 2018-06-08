@@ -768,6 +768,8 @@ Rough coverage:
                   <p>There UI adapts to the <em>document mode</em> the user is in: <cite>author</cite>, <cite>review</cite>, <cite>social</cite>. By default the <cite>social</cite> mode is engaged. The <i class="fa fa-bars"></i> <a href="#dokieli-menu">dokieli menu</a> allows the user to engage the author mode through the <i class="fa fa-i-cursor"></i> <a href="#editor-enable">Edit</a> operation, and the review mode with <i class="fa fa-balance-scale"></i> <a href="#review-enable">Review</a>. See also <var>setDocumentMode</var> (do.js).</p>
 
                   <p class="todo">describe what the ux means under LR view... what does it mean for the user? functionality that is offered by the UI ... eg. save, activities, to create/edit..    affordances offered by user's preferences eg. prefered views, personal storage.. </p>
+
+                  <p class="todo">https://en.wikipedia.org/wiki/Adaptive_hypermedia</p>
                 </div>
               </section>
 
