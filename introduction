@@ -20,9 +20,18 @@
       <article about="" typeof="schema:Article">
         <h1 property="schema:name">Introduction</h1>
         <div datatype="rdf:HTML" property="schema:description">
+          <p>This article is about the advancement of intellectual communication in the Web age. The underlying work is presented with the backdrop of history of information exchange in context of available communication mediums.</p>
+
+          <p>We will soon discuss the past human endeavours towards enlightenment in order to orient ourselves with the current affairs in scholarly communication. We will then seek the fundamental differences in intellectual communities in the pursuit of knowledge. Understanding the structures and frameworks of these (meta)physical societies enables us to rationalise their qualities, as well as their constraints and limitations. As we analyse the current state of scholarly communication as part of a global socio-technical system, our research questions and answers address the challenges and opportunities offered by new media and technologies, alongside efficient (re)use of digital resources for individuals.</p>
+
+          <p>The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.</p>
+
+<!--
     <p>As per <cite><a href="https://eprints.soton.ac.uk/id/eprint/263347">A Framework for Web Science</a></cite>, Linked Research can be seen as one way to further the science of decentralised information systems in context of scholarly communication, as well as the the study of <em>Web Science</em> itself.</p>
 
     <p>As we embrace the Web as the medium for LR, we consider that interconnectivity of scholarly work can be improved foremost through the Linked Data stack. The initiative to use the [Semantic] Web to its full potential for scholarly activities is nothing new. The LR approach is however timely in the sense that a substantial number of fundamental Web standards have matured to interact with the paradigm shift in scholarly communication, but we find that to meet some of these principles we have to still develop new standards and tools.</p>
+-->
+
 
 <!-- CONTEXT: Why the need is so pressing or important     -->
 <!-- NEED: Why something needed to be done at all          -->
