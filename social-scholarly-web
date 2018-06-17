@@ -25,7 +25,7 @@
             <h2 property="schema:name">Introduction</h2>
             <div dataptype="rdf:HTML" property="schema:description">
               <blockquote>
-                <p>`Why' is the only real social power, without it you are powerless.</p>
+                <p>'Why' is the only real source of power, without it you are powerless.</p>
                 <footer><cite>Merovingian, The Matrix Reloaded</cite></footer>
               </blockquote>
 
@@ -48,6 +48,8 @@
               <p>The effects of big conferences demanding old practices. We're not developing or advancing our own technologies. They're stunting growth. Do you want to grow your team with latex experience or web publishing experience? Are you perpetuating bad practice through supervisor->student requirements? Not sharpening our native web skills. Hindering us from shaping the space to OUR needs.</p>
 
               <p>As to what constitutes a "publisher" is left at the discretion of different scholarly communities. -- </p>
+
+<p>** What are the design decisions?</p>
             </div>
           </section>
 

@@ -19,12 +19,14 @@
     <main>
       <article about="" typeof="schema:Article">
         <h1 property="schema:name">Introduction</h1>
+
         <div datatype="rdf:HTML" property="schema:description">
-          <p>This article is about the advancement of intellectual communication in the Web age. The underlying work is presented with the backdrop of history of information exchange in context of available communication mediums.</p>
+          <blockquote cite="http://www.cs.yale.edu/homes/tap/Files/hopper-wit.html">
+            <p>Humans are allergic to change. They love to say, 'We’ve always done it this way.' I try to fight that. That’s why I have a clock on my wall that runs counter-clockwise.</p>
+            <footer><a href="https://en.wikipedia.org/Grace_Hopper">Grace Hopper</a>, <cite><a href="http://www.cs.yale.edu/homes/tap/Files/hopper-wit.html">The OCLC Newsletter</a></cite>, 1987</footer>
+          </blockquote>
 
-          <p>We will soon discuss the past human endeavours towards enlightenment in order to orient ourselves with the current affairs in scholarly communication. We will then seek the fundamental differences in intellectual communities in the pursuit of knowledge. Understanding the structures and frameworks of these (meta)physical societies enables us to rationalise their qualities, as well as their constraints and limitations. As we analyse the current state of scholarly communication as part of a global socio-technical system, our research questions and answers address the challenges and opportunities offered by new media and technologies, alongside efficient (re)use of digital resources for individuals.</p>
-
-          <p>The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.</p>
+          <p>This article is about the advancement of intellectual communication in the Web age. The underlying work is presented with the backdrop of history of information exchange in context of available communication mediums. We will soon discuss the past human endeavours towards enlightenment in order to orient ourselves with the current affairs in scholarly communication. We will then seek the fundamental differences in intellectual communities in the pursuit of knowledge. Understanding the structures and frameworks of these (meta)physical societies enables us to rationalise their qualities, as well as quantity their constraints and limitations. As we analyse the current state of scholarly communication as part of a global socio-technical system, our research questions and answers address the challenges and opportunities offered by new media and technologies, alongside efficient (re)use of digital resources for individuals. The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.</p>
 
 <!--
     <p>As per <cite><a href="https://eprints.soton.ac.uk/id/eprint/263347">A Framework for Web Science</a></cite>, Linked Research can be seen as one way to further the science of decentralised information systems in context of scholarly communication, as well as the the study of <em>Web Science</em> itself.</p>
@@ -109,6 +111,19 @@ How can we improve scholarly communication by incorporating the inherent qualiti
 
 How can we improve scholarly communication .. autonomous, .. social
 
+What is the issue of centralisation for scholars on the Web?
+How is the issue of centralisation for scholars on the Web?
+
+How can open Web-native standards be applied to realise a contributor-centric scholarly communication?
+
+How can open (Semantic) Web-native standards contribute to solve information centralisation and interoperability problems in publishing, annotations scholarly communication, lower their access costs, increase their quality, and facilitate their reuse and analysis? If not, what extensions are needed?
+
+
+              <ul>
+                <li>What are the units of human and machine-readable scholarly information? Why self-publishing and what is it like to actualise? What constitutes a scholarly contribution on the Web? What can be deconstructed? What and at what granularity can information be communicated? What are persistent and permanent artefacts? Where would distributed scholarly information exist, be findable and used?</li>
+                <li>Does scholarly communication on the Web amplify or intensify decentralisation? Or is it the case where scholarly information is easily centralised? How can the workflows in scholarly communication be realised using Web technologies in a decentralised fashion? Do we have the fundamental mechanisms and ability to derive at feasible implementations to adopt a decentralised scholarly Web paradigm?</li>
+                <li>Is there a paradigm shift and what is our situation? What are the effects of social Web on scholars? Are the new forms of involvement revive what was once lost? How can scholars participate and exchange information in a decentralised manner?</li>
+              </ul>
 
 
 What does improve mean:
