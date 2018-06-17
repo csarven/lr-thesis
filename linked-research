@@ -61,7 +61,6 @@
 
               <nav>
                 <ul>
-                  <li><a href="#freedom of expression">freedom of expression</a></li>
                   <li><a href="#autonomy">autonomy</a></li>
                   <li><a href="#universal-access">universal access</a></li>
                   <li><a href="#interpretable">interpretable</a></li>
@@ -72,27 +71,6 @@
               <p class="todo">Mention before/current state of affairs.. similar to framing-our-vocabulary </p>
               <p class="todo">Mention types of actors involved</p>
               <p class="todo">Add diagram with connections/verbs between the principles</p>
-
-              <section id="freedom-of-expression" inlist="" rel="schema:hasPart" resource="#freedom-of-expression">
-                <h3 property="schema:name">Freedom of Expression</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>We require articulation of contributions with no interference using any creative means to co-create and co-participate.</p>
-
-                  <p>We inherit:</p>
-
-                  <blockquote cite="http://www.un.org/en/universal-declaration-human-rights/">
-                    <h5>Article 19.</h5>
-
-                    <p>Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.</p>
-
-                    <footer><cite><a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite></footer>
-                  </blockquote>
-
-                  <p>The <em>freedom of expression</em> in context of scientific communication does not entail that a "personal journal" - blogpost - qualifies as a "scientific literature" without receiving certification from the community. By free expression we mean that actors should not be subject to arbitrary constraints on how they communicate their contributions with the rest of the world. <span class="todo">Expand on the importance of decoupling</span></p>
-
-                  <p><em>Effects and Artefacts</em>: It extends the physical, social, psychological, and intellectual functions of an <em>actor</em>.</p>
-                </div>
-              </section>
 
               <section id="autonomy" inlist="" rel="schema:hasPart" resource="#autonomy">
                 <h3 property="schema:name">Autonomy</h3>
@@ -107,6 +85,18 @@
 
                   <p>Autonomy is an important ingredient to fully exercise freedom of expression. If a URI is governed by a third-party entity, ie. other than the researcher who shares the contents of a scientific resource, then it is possible that the URLs may no longer resolve, and the content may be subject to change in ways beyond researcher's control. Whereas without intermediaries, the researcher has sufficient ownership and control as to what happens at their URI space. A by-product of this ability is the notion of <em>self-registration</em> with respect to the registration function. Trust in this case is placed on the Web space that is closer to the owners of the URI and the publisher of the retrievable representations.</p>
 
+                  <p>In this context, the notion of freedom of expression necessitates that the articulation of scholarly contributions are not subject to arbitrary interference from third-parties, and allow actors to seek the most appropriate ways to co-create and co-participate. We inherit:</p>
+
+                  <blockquote cite="http://www.un.org/en/universal-declaration-human-rights/">
+                    <h5>Article 19.</h5>
+
+                    <p>Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.</p>
+
+                    <footer><cite><a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite></footer>
+                  </blockquote>
+
+                  <p>The <em>freedom of expression</em> in context of scientific communication does not entail that any artefact, eg. a personal journal - blogpost - qualifies as a scientific literature without receiving some kind of a certification from the community. By free expression we mean that actors should not be subject to arbitrary constraints on how they communicate their knowledge and make their contributions with the rest of the world. Enrolling in the certification process of some literature can for instance mean that reviewers may engage in any aspect and granularity of the contribution itself, eg. a weakness for an argument in one literature can be contrasted (and linked) with a scientific result presented in another literature.</p>
+
                   <p>The concerns about authenticity, persistence and permanence of data and knowledge is constant regardless of where the resources reside on the Web. Hence, strictly trusting scholarly knowledge based on its registered location is ultimately fragile in that it is unavoidable to prevent all sorts of threats to preservation in a long enough timeline. However, since the registration function is decoupled from archiving, we are able to delegate that trust to a "third-party" that is best fit to handle the preservation and to some extent guarantee the authenticity of the units of communication. This is particularly important if archival and trust is considered to be part of the global scholarly commons. As archival is an external function of scholarly communication, the notion of self-registration does not extend to archiving artefacts at a URI space that the actor controls, eg. authorised to modify artefacts.</p>
 
 <!-- This is further explored in the <cite><a href="https://www.w3.org/DesignIssues/Evolution.html#ToII">Test of Independent Invention</a></cite> thought experiment. -->
@@ -119,7 +109,7 @@
 
                   <p>While we aim for autonomous systems, we also seek interoperability and cooperation for actual communication take to place via universal access and interpretable information.</p>
 
-                  <p><em>Effects and Artefacts</em>: It extends the physical function of an <em>actor</em>.</p>
+                  <p><em>Effects and Artefacts</em>: It extends the physical, social, psychological, and intellectual functions of an <em>actor</em>.</p>
                 </div>
               </section>
 
