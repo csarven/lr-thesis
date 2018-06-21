@@ -26,7 +26,7 @@
             <footer><a href="https://en.wikipedia.org/Grace_Hopper">Grace Hopper</a>, <cite><a href="http://www.cs.yale.edu/homes/tap/Files/hopper-wit.html">The OCLC Newsletter</a></cite>, 1987</footer>
           </blockquote>
 
-          <p>This article is about the advancement of intellectual communication in the Web age. The underlying work is presented with the backdrop of history of information exchange in context of available communication mediums. We will soon discuss the past human endeavours towards enlightenment in order to orient ourselves with the current affairs in scholarly communication. We will then seek the fundamental differences in intellectual communities in the pursuit of knowledge. Understanding the structures and frameworks of these (meta)physical societies enables us to rationalise their qualities, as well as quantity their constraints and limitations. As we analyse the current state of scholarly communication as part of a global socio-technical system, our research questions and answers address the challenges and opportunities offered by new media and technologies, alongside efficient (re)use of digital resources for individuals. The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.</p>
+          <p>This article is about the advancement of intellectual communication in the Web age. The underlying work is presented with the backdrop of history of information exchange in context of available communication mediums. We will soon discuss the past human endeavours towards enlightenment in order to orient ourselves with the current affairs in scholarly communication. We will then seek the fundamental differences in intellectual communities in the pursuit of knowledge. Understanding the structures and frameworks of these (meta)physical societies enables us to rationalise their qualities, as well as quantify their constraints and limitations. As we analyse the current state of scholarly communication as part of a global socio-technical system, our research questions and answers address the challenges and opportunities offered by new media and technologies, alongside efficient (re)use of digital resources for different types of agents. The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.</p>
 
 <!--
     <p>As per <cite><a href="https://eprints.soton.ac.uk/id/eprint/263347">A Framework for Web Science</a></cite>, Linked Research can be seen as one way to further the science of decentralised information systems in context of scholarly communication, as well as the the study of <em>Web Science</em> itself.</p>
@@ -204,9 +204,9 @@ gift economy
 </pre>
 
 different representations -- there is a reason for common formats (templates .. what to expect from a paper from a discipiline... familiarity.) .... dokieli shows some possibilities to show common patterns.. (acm/lncs) -- this is for human mostly
- 
 
-there is also familiatiy for machines / interop.. eg. knowing where to look for hypothesis ... 
+
+there is also familiatiy for machines / interop.. eg. knowing where to look for hypothesis ...
 
 
 describe the fundmanetals more abstractly... before diving into specific standards.
