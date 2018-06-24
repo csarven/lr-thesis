@@ -122,7 +122,7 @@ transform:rotate(-60deg);
 
         <dl id="document-modified">
           <dt>Modified</dt>
-          <dd><time content="2018-04-13T13:02:14.874Z" datatype="xsd:dateTime" datetime="2018-04-13T13:02:14.874Z" property="schema:dateModified">2018-04-13</time></dd>
+          <dd><time content="2018-06-24T23:54:00.000Z" datatype="xsd:dateTime" datetime="2018-06-24T23:54:00.000Z" property="schema:dateModified">2018-06-24</time></dd>
         </dl>
 
         <dl id="document-latest-version">
@@ -467,7 +467,7 @@ Understanding Me: Lectures and Interviews, p. 179, ISBN: 9780262633178
 
                   <p>The challenges of Web Science involves social and technical aspects, eg user interface to data, information policy, resilience, diverse devices, collective creativity, and decentralisation. This thesis falls into the domain of Web Science as scholarly communication is inherently social and has broad implications across society. In particular, the thesis examines autonomous and interoperable information systems in context of conducting scholarly communication on the Web.</p>
 
-                  <p id="global-village">The Web not only expedited the flow of human knowledge with a friendly interface, it enabled social interactions to take place where it would not have been possible otherwise due to physical or social constraints. The global adoption of the Web brought new forms of human association and social action. In essence, the Web is one form of a <q>global village</q> that McLuhan describes where there is greater requirement on individuals to participate than earlier forms of electric media, eg. telegraph, telephone, radio, television. Nevertheless, the way the society reacts to this medium (Web) is perhaps more important than the content that is on it.</p>
+                  <p id="global-village">The Web not only expedited the flow of human knowledge with a friendly interface, it enabled social interactions to take place where it would not have been possible otherwise due to physical or social constraints. The global adoption of the Web brought new forms of human association and social action. In essence, the Web is one form of a <q>global village</q> that McLuhan describes where there is greater requirement on individuals to participate than earlier forms of electric media, eg. telegraph, electric light, telephone, radio, television. Nevertheless, the way the society reacts to this medium (Web) is perhaps more important than the content that is on it.</p>
 
                   <p>The openness of the Web and the ease of involvement for both humans and machines (through common protocols) helped its great expansion without a particular central point of failure or coordination. Scholarly communication on the Web happens to be one of the circumstances where different kinds of agents interact, whether they are sentient or something else. <span class="todo">All of the four forces and functions have been realised, technically and socially, on the Web.</span></p>
 
@@ -804,7 +804,7 @@ and how.
                 <footer><cite><a href="https://www.worldcat.org/title/through-the-vanishing-point/oclc/250420453">Through the Vanishing Point: Space in Poetry and Painting</a></cite>.</footer>
               </blockquote>
 
-              <p>Today's scholarly communication has some of the effects that Web created, however, it still draws its sociotechnical organisation from the print age and the refereed journal system. The intention is not to undermine the values of the print-centric approach, but to explore and apply native features of the Web eg. autonomy, access, hypermedia, to scholarly communication.</p>
+              <p>Today's scholarly communication includes some of the effects of the Web, however, it still draws its sociotechnical organisation from the print age and the refereed journal system. It operates as a visual medium. The intention is not to undermine the values of the print-centric approach, but to explore and apply native features of the Web to scholarly communication; autonomous involvement, mass access to create, read, and experience knowledge, and perhaps most importantly, social engagement.</p>
             </div>
           </section>
         </div>
