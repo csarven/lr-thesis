@@ -638,7 +638,7 @@ Understanding Me: Lectures and Interviews, p. 179, ISBN: 9780262633178
                             <li>0 of the HTML contain standardised machine-readable components, and the patterns differ from one vendor/service provider to another;</li>
                           </ul>
                         </li>
-                        <li>10 are inaccessible, ie. require special access rights;</li>
+                        <li>10 are inaccessible, ie. require special access rights or not found;</li>
                       </ul>
                     </li>
                   </ul>
