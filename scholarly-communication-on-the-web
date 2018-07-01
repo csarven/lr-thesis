@@ -629,8 +629,9 @@ Understanding Me: Lectures and Interviews, p. 179, ISBN: 9780262633178
                   <p>The FAIR principles are intended to express policy goals, as opposed to a technical prescription to building a data infrastructure and exchange. From that angle, we can see that the FAIR principles are not constrained to the Web platform. It is neither is it the case that FAIR principles reveal the natural constraints that are imposed by third-party publishers. For instance, if we start our information discovery from the FAIR principles article, we can observe the following:</p>
 
                   <ul>
+                    <li>0 reviews are known to be publicly available or accessible, meanwhile it is claimed that <q cite="https://www.nature.com/sdata/publish/for-authors#aims-scope">Scientific Data is a peer-reviewed, open-access journal.</q></li>
                     <li>The article proposes several guidelines in human-readable form, however, the guidelines themselves do not conform to <q>F1. (meta)data are assigned a globally unique and persistent identifier.</q></li>
-                    <li>Of the 32 citations:
+                    <li>Of the 32 citations made in the article:
                       <ul>
                         <li>22 are accessible for user-agents guided by a human, eg. from a Web browser, where 1 only works within a session, ie. the identifiers are ephemeral once the session expires;
                           <ul>
