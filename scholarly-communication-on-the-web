@@ -594,10 +594,20 @@ Understanding Me: Lectures and Interviews, p. 179, ISBN: 9780262633178
                 </div>
               </section>
 
-              <section id="guides-to-information-exchange" inlist="" rel="schema:hasPart" resource="#guides-to-information-exchange">
-                <h3 property="schema:name">Guides to Information Exchange</h3>
+              <section id="scholarly-information-exchange" inlist="" rel="schema:hasPart" resource="#scholarly-information-exchange">
+                <h3 property="schema:name">Scholarly Information Exchange</h3>
                 <div dataype="rdf:HTML" property="schema:description">
-                  <p>Plethora of guides, best practices, and principles exist in this space.</p>
+                  <p>We will first observe current practices in scholarly information exchange in particular to article and review management<span class="todo">(as well as social interactions?)</span>.</p>
+
+                  <h4>Article and Review Management</h4>
+                  <p class="todo">easychair</p>
+                  <p class="todo">review sytems</p>
+
+                  <hr/>
+
+                  <p>In parallel to the existing practices in scholarly information exchange which generally revolve around print-centric workflows, there are best practice and guiding principles which are Web-centric. While the importance of the new approaches are acknowledged by the community, and there is a increasing social demand for their use, its adoption with respect to the state of scholarly market is still in its infancy. Later we will investigate some of the core barriers.</p>
+
+                  <p>While a plethora of guides, best practices, and principles exist in this space.</p>
 
                   <h4>Data on the Web Best Practices</h4>
                   <p>The W3C Recommendation for <cite><a href="https://www.w3.org/TR/dwbp/">Data on the Web Best Practices</a></cite> (<abbr title="Data on the Web Best Practices">DWBP</abbr>) provides a range of best practices, in order to benefit comprehension, processability, discoverability, reuse, trust, linkability, access, and interoperability. The DWBP can be used by <q cite="https://www.w3.org/TR/dwbp/#bestPractices">data publishers in order to help them and data consumers to overcome the different challenges faced when publishing and consuming data on the Web</q>.</p>
@@ -616,10 +626,26 @@ Understanding Me: Lectures and Interviews, p. 179, ISBN: 9780262633178
                     <dd>(Meta)data to optimise the reuse of data with domain-relevant, license, and provenance information.</dd>
                   </dl>
 
-                  <p>The FAIR principles are intended to express policy goals, as opposed to a technical prescription to building a data infrastructure and exchange. From that angle, we can see that the FAIR principles are not constrained to the Web platform.</p>
+                  <p>The FAIR principles are intended to express policy goals, as opposed to a technical prescription to building a data infrastructure and exchange. From that angle, we can see that the FAIR principles are not constrained to the Web platform. It is neither is it the case that FAIR principles reveal the natural constraints that are imposed by third-party publishers. For instance, if we start our information discovery from the FAIR principles article, we can observe the following:</p>
 
+                  <ul>
+                    <li>The article proposes several guidelines in human-readable form, however, the guidelines themselves do not conform to <q>F1. (meta)data are assigned a globally unique and persistent identifier.</q></li>
+                    <li>Of the 32 citations:
+                      <ul>
+                        <li>22 are accessible for user-agents guided by a human, eg. from a Web browser, where 1 only works within a session, ie. the identifiers are ephemeral once the session expires;
+                          <ul>
+                            <li>18 are available in HTML, 4 only in PDF;</li>
+                            <li>0 of the HTML contain standardised machine-readable components, and the patterns differ from one vendor/service provider to another;</li>
+                          </ul>
+                        </li>
+                        <li>10 are inaccessible, ie. require special access rights;</li>
+                      </ul>
+                    </li>
+                  </ul>
+
+<!--                   <p class="todo">perhaps find something a bit more information quality centric</p>
                   <h4>The Vienna Principles</h4>
-                  <p>The <cite><a href="http://viennaprinciples.org/v1/">Vienna Principles</a></cite> proposes twelve principles that is a response to the deficits of the current scholarly communication system (in 2016). The principles are design to help with the debate on how to improve the current system. They include: <q>accessibility, discoverability, reusability, reproducibility, transparency, understandability, collaboration, quality assurance, evaluation, validates progress, innovation, public good</q>.</p>
+                  <p>The <cite><a href="http://viennaprinciples.org/v1/">Vienna Principles</a></cite> proposes twelve principles that is a response to the deficits of the current scholarly communication system (in 2016). The principles are design to help with the debate on how to improve the current system. They include: <q>accessibility, discoverability, reusability, reproducibility, transparency, understandability, collaboration, quality assurance, evaluation, validates progress, innovation, public good</q>.</p> -->
                 </div>
               </section>
 
