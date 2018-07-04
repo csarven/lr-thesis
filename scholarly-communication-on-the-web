@@ -195,7 +195,6 @@ transform:rotate(-60deg);
 
               <p>I invite the reader to consider two conceptions that describe the effects of technological mediums on society and its similarities with the evolution of scientific paradigms. This will serve as the historical framing for this thesis and the realisation of a range of effects and artefacts by applying the methods and values that are native to the Web.</p>
 
-              <blockquote cite="https://blog.whatwg.org/">
                 <!-- <p>Print, in turning the vernaculars into mass media, or closed systems, created the uniform, centralizing forces of modern nationalism.</p> -->
                 <!-- <footer><p><cite><a href="http://www.worldcat.org/oclc/993539009">The Gutenberg Galaxy</a></cite>, p. 226</p></footer> -->
 
@@ -205,11 +204,9 @@ transform:rotate(-60deg);
                 <!-- <p>The invention of typography confirmed and extended the new visual stress of applied knowledge, providing the first uniformly repeatable COMMODITY, the first assembly-line, and the first mass-production.</p> -->
                 <!-- <footer><p><cite><a href="http://www.worldcat.org/oclc/993539009">The Gutenberg Galaxy</a></cite>, p. 142</p></footer> -->
 
-<!-- “Gutenberg had, in effect, made every man a reader. Today, Xerox and other forms of reprography tend to make every man a publisher”
-Understanding Me: Lectures and Interviews, p. 179, ISBN: 9780262633178
- -->
-                <p>Gutenberg made everyone a reader. Xerox makes everyone a publisher.</p>
-                <footer><cite><a href="http://www.collectionscanada.gc.ca/innis-mcluhan/030003-2030-e.html">Interview with Nina Sutton</a></cite>, 1975, Marshall McLuhan</footer>
+              <blockquote cite="urn:isbn:9780262633178">
+                <p>Gutenberg had, in effect, made every man a reader. Today, Xerox and other forms of reprography tend to make every man a publisher. This massive reversal has, for one of its consequences, elitism. The nature of the mass production of uniform volumes certainly did not foster elites but rather habits of universal reading. Paradoxically, when there are many readers, the author can wield great private power, whereas small reading elites may exert large corporate power.</p>
+                <footer><cite><a href="urn:isbn:026213442X">Understanding Me</a></cite>, The Future of the Book, p. 179, 1972, Marshall McLuhan</footer>
               </blockquote>
 
               <p>In the 1962 book, <cite><a href="http://www.worldcat.org/oclc/993539009" rel="schema:url">The Gutenberg Galaxy</a></cite>, <a href="https://en.wikipedia.org/wiki/Marshall_McLuhan">Marshall McLuhan</a> explains how the adoption of new technological mediums shifted human culture in Europe through four eras, with emphasis placed on extending our senses:</p>
