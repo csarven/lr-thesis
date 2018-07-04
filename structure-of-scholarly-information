@@ -154,6 +154,19 @@ Rough coverage:
 * Embedding statistical and experimental data, and views
 </pre>
 
+<p>The structure of a scholarly journal article has been mostly conserved during the evolution of scientific communication. Articles include a sequence of sections, usually an abstract; introduction and background relevant to earlier work; methods used to justify experiments; research results; discussion and conclusions; and list of references.</p>
+
+<blockquote cite="urn:isbn:0123876729">
+  <p>The journal article has four chief functions:</p>
+  <ul>
+    <li>The dissemination of information</li>
+    <li>The archiving, or permanent preservation, of the information</li>
+    <li>The assignment of priority in the information</li>
+    <li>Quality control</li>
+  </ul>
+  <footer><cite>Encyclopedia of International Media and Communications</cite>, Journals, Scholarly, p. 688, 2003, urn:isbn:0123876729</footer>
+</blockquote>
+
           <section id="structure-and-semantics" inlist="" rel="schema:hasPart" resource="#structure-and-semantics">
             <h2 property="schema:name">Structure and Semantics</h2>
             <div datatype="rdf:HTML" property="schema:description">
