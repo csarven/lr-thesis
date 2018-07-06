@@ -27,20 +27,16 @@
           </blockquote>
 
           <p>This article is about the advancement of intellectual communication using the Web environment. The underlying work is presented with the backdrop of history of information exchange in context of available communication mediums. We will soon discuss the past human endeavours towards enlightenment in order to orient ourselves with the current affairs in scholarly communication. We will then seek the fundamental differences in intellectual communities in the pursuit of knowledge. Understanding the structures and frameworks of these (meta)physical societies enables us to rationalise their qualities, as well as quantify their constraints and limitations. As we analyse the current state of scholarly communication as part of a global socio-technical system, our research questions and answers address the challenges and opportunities offered by new media and technologies, alongside efficient (re)use of digital resources for different types of agents. The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.</p>
-
 <!--
     <p>As per <cite><a href="https://eprints.soton.ac.uk/id/eprint/263347">A Framework for Web Science</a></cite>, Linked Research can be seen as one way to further the science of decentralised information systems in context of scholarly communication, as well as the the study of <em>Web Science</em> itself.</p>
 
     <p>As we embrace the Web as the medium for LR, we consider that interconnectivity of scholarly work can be improved foremost through the Linked Data stack. The initiative to use the [Semantic] Web to its full potential for scholarly activities is nothing new. The LR approach is however timely in the sense that a substantial number of fundamental Web standards have matured to interact with the paradigm shift in scholarly communication, but we find that to meet some of these principles we have to still develop new standards and tools.</p>
 -->
-
-
 <!-- CONTEXT: Why the need is so pressing or important     -->
 <!-- NEED: Why something needed to be done at all          -->
 <!-- TASK: What was undertaken to address the need         -->
 <!-- OBJECT: What the present document does or covers      -->
 <!-- FINDINGS: What the work done yielded or revealed      -->
-
 <!-- CONCLUSION :What the findings mean for the audience   -->
 <!-- PERSPECTIVES: What the future holds, beyond this work -->
 
@@ -54,8 +50,7 @@
 
               <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover relations. The knowledge industry can better address societal challenges by embracing the virtues of the Web via decentralisation and interconnectivity of our collective knowledge.</p>
 
-<pre>
-* How do the sociotechnical developments affected scholarly communication on the Web? 3-4 decades. (problems for day to day operations for a researcher/user)
+  <pre>* How do the sociotechnical developments affected scholarly communication on the Web? 3-4 decades. (problems for day to day operations for a researcher/user)
 * Problems in scholarly communication (an analysis of core areas)
 ** open access to scholarly communication
 ** Proliferation of scientific publications (In the last 10 years, the scientific output in the form of published articles has almost doubled https://www.nsf.gov/statistics/2018/nsf18300/nsf18300.pdf)
@@ -67,7 +62,7 @@
 ** influence of venue level metrics distracts from assessing individual contributions
 ** peer-review
 ** Social aspects are not well tied together - disconnected social graphs, personal/profile data
-</pre>
+  </pre>
             </div>
           </section>
 
@@ -78,142 +73,133 @@
             </div>
           </section>
 
-<hr/>
-
           <p>Is and can our system be productive, resilient and organised? Can it evolve? If redesigned, can it operate within established and unexpected parameters as part of a even greater larger ecosystem? What assumptions have we adopted?</p>
 
           <p>.. "#OpenScience" that has a wider scope than what revolves around those "publishers" ie. acknowledging the possibility that scholarly information can come from and be anywhere provided that it is "scientific". Then we can accurately analyse "openness".</p>
 
           <p>This thesis serves a multi-purpose role. The typical role is by employing different reading modes, the reader can consume its contents through their preferred medium eg, printed paper, electronic device access to the Web. The other, and less common, is an exemplification of the Linked Research design principles, and the technical implementation itself. For instance, when this thesis is access through the Web, it demonstrates itself, since the interactive and semantic features can be directly observed while reading and consuming. It showcases how scholarly communication can adapt to the audience, whether the content is read on a screen or printed on paper, listen with a screen reader, watched as a movie, shown as a presentation, interacted with in the document, as well as its social functions.</p>
 
-<hr/>
-
-<section id="problem-statement" inlist="" rel="schema:hasPart" resource="#problem-statement">
-  <h2 property="schema:name">Problem Statement</h2>
-  <div datatype="rdf:HTML" property="schema:description">
-<pre>
-scholarly communication didn't change much but ... we don't exploit the technical advances
-* we can't find things.. or at least cumbersome (text-based and/or structured interfaces to find/discover). web of documents -> data
-* coupling of functions (--- maybe not. this is not directly a concern for the researcher but on the evolution of the system)
-* (de)centralisation
-</pre>
-  </div>
-</section>
+  <section id="problem-statement" inlist="" rel="schema:hasPart" resource="#problem-statement">
+    <h2 property="schema:name">Problem Statement</h2>
+    <div datatype="rdf:HTML" property="schema:description">
+      <pre>scholarly communication didn't change much but ... we don't exploit the technical advances
+  * we can't find things.. or at least cumbersome (text-based and/or structured interfaces to find/discover). web of documents -> data
+  * coupling of functions (--- maybe not. this is not directly a concern for the researcher but on the evolution of the system)
+  * (de)centralisation</pre>
+    </div>
+  </section>
 
 
 
-<section id="research-questions" inlist="" rel="schema:hasPart" resource="#research-questions">
-  <h2 property="schema:name">Research Questions</h2>
-  <div datatype="rdf:HTML" property="schema:description">
-<pre>
-What can scholarly communication achieve when we study and celebrate maximum innovation?
+  <section id="research-questions" inlist="" rel="schema:hasPart" resource="#research-questions">
+    <h2 property="schema:name">Research Questions</h2>
+    <div datatype="rdf:HTML" property="schema:description">
+      <pre>What can scholarly communication achieve when we study and celebrate maximum innovation?
 
-How can we improve the scholarly communication process on the Web?
-How can we improve scholarly communication by incorporating the inherent qualities (native characteristics?) of the Web?
+  How can we improve the scholarly communication process on the Web?
+  How can we improve scholarly communication by incorporating the inherent qualities (native characteristics?) of the Web?
 
-How can we improve scholarly communication .. autonomous, .. social
+  How can we improve scholarly communication .. autonomous, .. social
 
-What is the issue of centralisation for scholars on the Web?
-How is the issue of centralisation for scholars on the Web?
+  What is the issue of centralisation for scholars on the Web?
+  How is the issue of centralisation for scholars on the Web?
 
-How can open Web-native standards be applied to realise a contributor-centric scholarly communication?
+  How can open Web-native standards be applied to realise a contributor-centric scholarly communication?
 
-How can open (Semantic) Web-native standards contribute to solve information centralisation and interoperability problems in publishing, annotations scholarly communication, lower their access costs, increase their quality, and facilitate their reuse and analysis? If not, what extensions are needed?
-
-
-              <ul>
-                <li>What are the units of human and machine-readable scholarly information? Why self-publishing and what is it like to actualise? What constitutes a scholarly contribution on the Web? What can be deconstructed? What and at what granularity can information be communicated? What are persistent and permanent artefacts? Where would distributed scholarly information exist, be findable and used?</li>
-                <li>Does scholarly communication on the Web amplify or intensify decentralisation? Or is it the case where scholarly information is easily centralised? How can the workflows in scholarly communication be realised using Web technologies in a decentralised fashion? Do we have the fundamental mechanisms and ability to derive at feasible implementations to adopt a decentralised scholarly Web paradigm?</li>
-                <li>Is there a paradigm shift and what is our situation? What are the effects of social Web on scholars? Are the new forms of involvement revive what was once lost? How can scholars participate and exchange information in a decentralised manner?</li>
-              </ul>
+  How can open (Semantic) Web-native standards contribute to solve information centralisation and interoperability problems in publishing, annotations scholarly communication, lower their access costs, increase their quality, and facilitate their reuse and analysis? If not, what extensions are needed?
 
 
-What does improve mean:
-* Technical: Web-native (5 LR principles?); ..
-** How can we realize a Web-native and decentralised scholarly communication?
-
-** How can we represent and author scholarly information on the Web? (structure of scholarly information)
-** Why self-publishing (contributions) and how can we facilitate it? (decentralisation, social scholarly web)
-** How can it be more social?
-** How can we reuse data to improve information quality towards learnability and trust?
-*** integrate data and textual publications? (interactive linked statistics)
+                <ul>
+                  <li>What are the units of human and machine-readable scholarly information? Why self-publishing and what is it like to actualise? What constitutes a scholarly contribution on the Web? What can be deconstructed? What and at what granularity can information be communicated? What are persistent and permanent artefacts? Where would distributed scholarly information exist, be findable and used?</li>
+                  <li>Does scholarly communication on the Web amplify or intensify decentralisation? Or is it the case where scholarly information is easily centralised? How can the workflows in scholarly communication be realised using Web technologies in a decentralised fashion? Do we have the fundamental mechanisms and ability to derive at feasible implementations to adopt a decentralised scholarly Web paradigm?</li>
+                  <li>Is there a paradigm shift and what is our situation? What are the effects of social Web on scholars? Are the new forms of involvement revive what was once lost? How can scholars participate and exchange information in a decentralised manner?</li>
+                </ul>
 
 
+  What does improve mean:
+  * Technical: Web-native (5 LR principles?); ..
+  ** How can we realize a Web-native and decentralised scholarly communication?
 
-* Social: collaboration and workflows
-** How can collaboration and workflows in scholarly communication be realised using Web technologies in decentralised manner? (publishing, annotations, call for contributions, proceedings...)
-
-* Economic:
-** Cost for publishing and reuse?
-
-[
-Contrasting approaches;.. removal of some barriers (technological)
-Works technologically but there are other variables at play..
-]
-
-* how should we combine open standards to realise this?
-
-Hypothesis:
-* Compared to standard (established) publication (registration) approach, actor (content creator) having control of registration and accessibility functions improves freedom of expression and interpretability
-** how much improve? what's significant?
-
-* check qualitative hypothesis.. ?
+  ** How can we represent and author scholarly information on the Web? (structure of scholarly information)
+  ** Why self-publishing (contributions) and how can we facilitate it? (decentralisation, social scholarly web)
+  ** How can it be more social?
+  ** How can we reuse data to improve information quality towards learnability and trust?
+  *** integrate data and textual publications? (interactive linked statistics)
 
 
-How to we ensure that inquiries can locate units of information?
+
+  * Social: collaboration and workflows
+  ** How can collaboration and workflows in scholarly communication be realised using Web technologies in decentralised manner? (publishing, annotations, call for contributions, proceedings...)
+
+  * Economic:
+  ** Cost for publishing and reuse?
+
+  [
+  Contrasting approaches;.. removal of some barriers (technological)
+  Works technologically but there are other variables at play..
+  ]
+
+  * how should we combine open standards to realise this?
+
+  Hypothesis:
+  * Compared to standard (established) publication (registration) approach, actor (content creator) having control of registration and accessibility functions improves freedom of expression and interpretability
+  ** how much improve? what's significant?
+
+  * check qualitative hypothesis.. ?
 
 
-problem statement:
-* a lot of defficinencies in the current SC... it is however possible SC fulfills all required functinos.. self-publishing paradigm..
+  How to we ensure that inquiries can locate units of information?
 
 
-Republic of Letters
-private correspondence between researchers
-
-How do people define "open communication"?
-
-https://en.wikipedia.org/wiki/Design_science
-
-</pre>
+  problem statement:
+  * a lot of defficinencies in the current SC... it is however possible SC fulfills all required functinos.. self-publishing paradigm..
 
 
-    <p>With the growing power of the printing press (15th century and onwards), and sufficiently large international readers; the mass production and distribution of printed material gave rise to intellectuals and elite as a distinct and independent social class in Europe. The term "literate men" (or "men of letters") is derived from the French term <q lang=fr">homme de lettres</q>, refers to a metaphysical literary society - not synonymous with academic - that became apparent in Europe and America. This long-distance, international, and private correspondence network between the literary figures formed the basis of the concept, <cite><a href="https://en.wikipedia.org/wiki/Republic_of_Letters">Republic of Letters</a></cite> in the 17th century - <cite><a href="http://www.worldcat.org/oclc/611804138">The Printing Press as an Agent of Change</a></cite>, p. 136-138, 1979, <a href="https://en.wikipedia.org/wiki/Elizabeth_Eisenstein">Elizabeth Eisenstein</a>.</p>
+  Republic of Letters
+  private correspondence between researchers
 
-    <p><cite><a href="https://en.wikipedia.org/wiki/Royal_Society">The Royal Society</a></cite> effectively established authority for a metaphyshical community for scientists and scholars. <cite lang="fr"><a href="https://en.wikipedia.org/wiki/Journal_des_s%C3%A7avans">Journal des sçavans</a></cite> published in 1665 was the first academic journal in Europe, followed by <cite><a href="https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society">Philosophical Transactions of the Royal Society</a></cite> in the same year.</p>
+  How do people define "open communication"?
 
-    <p>The first journal that strongly focused on scientific communication came later in 1666 in <cite lang="fr"><a href="https://en.wikipedia.org/wiki/Comptes_rendus_de_l%27Acad%C3%A9mie_des_Sciences">Mémoires de l'Académie des Sciences</a></cite></p>
-  </div>
-</section>
+  https://en.wikipedia.org/wiki/Design_science
 
-<p>Mention what's out of scope? Non Web-native protocols/standards eg blockchain, transformation/extraction workflows, search/find, ontology/vocabulary for units of information, profile creation/editing, storage/server mechanisms, filtering articles</p>
+  </pre>
 
 
-<section id="assumptions" inlist="" rel="schema:hasPart" resource="#assumptions">
-  <h2 property="schema:name">Assumptions</h2>
-  <div datatype="rdf:HTML" property="schema:description">
-    <p>At many times in this thesis it may appear that I am taking an idealist stance with regards to the motivations of academics, but certainly many (even most) academic researchers are motivated to some extent by personal gain, whether that is career advancement, prestige, influence, or financial gain. All of these aspects are part of the "social machine" of scholarly communication, and are explored in [the various appropriate chapters].</p>
+      <p>With the growing power of the printing press (15th century and onwards), and sufficiently large international readers; the mass production and distribution of printed material gave rise to intellectuals and elite as a distinct and independent social class in Europe. The term "literate men" (or "men of letters") is derived from the French term <q lang="fr">homme de lettres</q>, refers to a metaphysical literary society - not synonymous with academic - that became apparent in Europe and America. This long-distance, international, and private correspondence network between the literary figures formed the basis of the concept, <cite><a href="https://en.wikipedia.org/wiki/Republic_of_Letters">Republic of Letters</a></cite> in the 17th century - <cite><a href="http://www.worldcat.org/oclc/611804138">The Printing Press as an Agent of Change</a></cite>, p. 136-138, 1979, <a href="https://en.wikipedia.org/wiki/Elizabeth_Eisenstein">Elizabeth Eisenstein</a>.</p>
 
-    <p>As for the technical machinery, the assumption is that researchers want to share their articles and artefacts in good faith, with other researchers and the public at large. Nevertheless, we're always aware that at all times there are other social factors at play which may need to be addressed in combination with the technical solutions.</p>
+      <p><cite><a href="https://en.wikipedia.org/wiki/Royal_Society">The Royal Society</a></cite> effectively established authority for a metaphyshical community for scientists and scholars. <cite lang="fr"><a href="https://en.wikipedia.org/wiki/Journal_des_s%C3%A7avans">Journal des sçavans</a></cite> published in 1665 was the first academic journal in Europe, followed by <cite><a href="https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society">Philosophical Transactions of the Royal Society</a></cite> in the same year.</p>
 
-    <p>Average case of single third-party doing it may be more efficient or less risky than a group of individuals doing the same thing...</p>
-  </div>
-</section>
+      <p>The first journal that strongly focused on scientific communication came later in 1666 in <cite lang="fr"><a href="https://en.wikipedia.org/wiki/Comptes_rendus_de_l%27Acad%C3%A9mie_des_Sciences">Mémoires de l'Académie des Sciences</a></cite></p>
+    </div>
+  </section>
 
-<section id="thesis-overview" inlist="" rel="schema:hasPart" resource="#thesis-overview">
-  <h2 property="schema:name">Thesis Overview</h2>
-  <div datatype="rdf:HTML" property="schema:description">
-<pre>
-* Main Contributions (method, implementation, concept, .. standards)
+  <p>Mention what's out of scope? Non Web-native protocols/standards eg blockchain, transformation/extraction workflows, search/find, ontology/vocabulary for units of information, profile creation/editing, storage/server mechanisms, filtering articles</p>
+
+
+  <section id="assumptions" inlist="" rel="schema:hasPart" resource="#assumptions">
+    <h2 property="schema:name">Assumptions</h2>
+    <div datatype="rdf:HTML" property="schema:description">
+      <p>At many times in this thesis it may appear that I am taking an idealist stance with regards to the motivations of academics, but certainly many (even most) academic researchers are motivated to some extent by personal gain, whether that is career advancement, prestige, influence, or financial gain. All of these aspects are part of the "social machine" of scholarly communication, and are explored in [the various appropriate chapters].</p>
+
+      <p>As for the technical machinery, the assumption is that researchers want to share their articles and artefacts in good faith, with other researchers and the public at large. Nevertheless, we're always aware that at all times there are other social factors at play which may need to be addressed in combination with the technical solutions.</p>
+
+      <p>Average case of single third-party doing it may be more efficient or less risky than a group of individuals doing the same thing...</p>
+    </div>
+  </section>
+
+  <section id="thesis-overview" inlist="" rel="schema:hasPart" resource="#thesis-overview">
+    <h2 property="schema:name">Thesis Overview</h2>
+    <div datatype="rdf:HTML" property="schema:description">
+      <pre>* Main Contributions (method, implementation, concept, .. standards)
 * Structure (what's ahead and why)
 * List of Articles (mostly reviewed works, standards)
-</pre>
-  </div>
-</section>
+      </pre>
+    </div>
+  </section>
 
-<pre>
-Commons -- check history
+  <pre>Commons -- check history
 gift economy
-</pre>
+  </pre>
 
 different representations -- there is a reason for common formats (templates .. what to expect from a paper from a discipiline... familiarity.) .... dokieli shows some possibilities to show common patterns.. (acm/lncs) -- this is for human mostly
 
