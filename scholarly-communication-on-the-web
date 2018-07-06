@@ -13,8 +13,6 @@
     <script src="scripts/simplerdf.js"></script>
     <script src="scripts/medium-editor.min.js"></script>
     <script src="scripts/do.js"></script>
-
-
 <!-- <style>
 @media screen and (min-width: 980px) {
 #understanding-the-medium {
@@ -122,7 +120,7 @@ transform:rotate(-60deg);
 
         <dl id="document-modified">
           <dt>Modified</dt>
-          <dd><time content="2018-06-24T23:54:00.000Z" datatype="xsd:dateTime" datetime="2018-06-24T23:54:00.000Z" property="schema:dateModified">2018-06-24</time></dd>
+          <dd><time content="2018-07-06T22:33:23.525Z" datatype="xsd:dateTime" datetime="2018-07-06T22:33:23.525Z" property="schema:dateModified">2018-07-06</time></dd>
         </dl>
 
         <dl id="document-latest-version">
@@ -186,23 +184,15 @@ transform:rotate(-60deg);
           <section id="mediums-and-paradigms" inlist="" rel="schema:hasPart" resource="#mediums-and-paradigms">
             <h2 property="schema:name">Mediums and Paradigms</h2>
             <div datatype="rdf:HTML" property="schema:description">
-          <!--
+          
+<!--
               <blockquote cite="https://blog.whatwg.org/">
                 <p>Please leave your sense of logic at the door, thanks!</p>
                 <footer><p><cite><a href="irc://irc.freenode.net/whatwg">#whatwg</a></cite></p></footer>
               </blockquote>
-          -->
+-->
 
               <p>I invite the reader to consider two conceptions that describe the effects of technological mediums on society and its similarities with the evolution of scientific paradigms. This will serve as the historical framing for this thesis and the realisation of a range of effects and artefacts by applying the methods and values that are native to the Web.</p>
-
-                <!-- <p>Print, in turning the vernaculars into mass media, or closed systems, created the uniform, centralizing forces of modern nationalism.</p> -->
-                <!-- <footer><p><cite><a href="http://www.worldcat.org/oclc/993539009">The Gutenberg Galaxy</a></cite>, p. 226</p></footer> -->
-
-                <!-- <p>Scholasticism, like Senecanism, was directly related to the oral traditions of aphoristic learning.</p> -->
-                <!-- <footer><p><cite><a href="http://www.worldcat.org/oclc/993539009">The Gutenberg Galaxy</a></cite>, p. 117</p></footer> -->
-
-                <!-- <p>The invention of typography confirmed and extended the new visual stress of applied knowledge, providing the first uniformly repeatable COMMODITY, the first assembly-line, and the first mass-production.</p> -->
-                <!-- <footer><p><cite><a href="http://www.worldcat.org/oclc/993539009">The Gutenberg Galaxy</a></cite>, p. 142</p></footer> -->
 
               <blockquote cite="urn:isbn:9780262633178">
                 <p>Gutenberg had, in effect, made every man a reader. Today, Xerox and other forms of reprography tend to make every man a publisher. This massive reversal has, for one of its consequences, elitism. The nature of the mass production of uniform volumes certainly did not foster elites but rather habits of universal reading. Paradoxically, when there are many readers, the author can wield great private power, whereas small reading elites may exert large corporate power.</p>
@@ -259,10 +249,12 @@ transform:rotate(-60deg);
             <h2 property="schema:name">Web: A Social Machine</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p>The World Wide Web is inherently social. In <cite><a href="http://www.worldcat.org/oclc/729965164" title="Chapter 10: Web of People, p123">Weaving the Web</a></cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> states that he <q cite="http://www.worldcat.org/oclc/729965164">designed it for a social effect – to help people work together – and not as a technical toy</q>. The Web's remarkable growth is fundamentally due to its social characteristics above anything else.</p>
-
-              <!-- <aside class="note">
+              
+<!--
+              <aside class="note">
                 <p>Ironically, one of the weaknesses of the system is also the social centralisation of the Web. For instance, the domain name system is ultimately a hierarchical structure which can be brought down or controlled by an authority; states or people.</p>
-              </aside> -->
+              </aside>
+-->
 
               <p>Berners-Lee mentions that the challenge in creating a global system was to define the basic common rules of protocol for machines to exchange information.</p>
 
@@ -284,7 +276,8 @@ transform:rotate(-60deg);
 
                   <p>In 2004, the W3C <cite><a href="https://tag.w3.org/">Technical Architecture Group</a></cite> (<abbr title="Technical Architecture Group">TAG</abbr>) codifies the design principles, constraints, and good practice notes of the Web architecture in <cite><a href="https://www.w3.org/TR/webarch/">Architecture of the World Wide Web, Volume One</a></cite> (<abbr title="Architecture of the World Wide Web">AWWW</abbr>). It documents the three architectural bases of the Web: <q>Identification</q>, <q>Interaction</q>, <q>Data Formats</q>, and states that the specifications emerging from each may evolve independently - principle of <cite><a href="https://www.w3.org/TR/webarch/#orthogonal-specs">orthogonality</a></cite> - in order to increase the flexibility and robustness of the Web.</p>
 
-                  <!-- https://www.w3.org/TR/webarch/#general -->
+                  
+<!-- https://www.w3.org/TR/webarch/#general -->
 
                   <section id="architecture-of-the-web-identification" inlist="" rel="schema:hasPart" resource="#architecture-of-the-web-identification">
                     <h4 property="schema:name">Identification</h4>
@@ -497,7 +490,7 @@ transform:rotate(-60deg);
 
               <p title="">"Many of the larger journals.. began to sell subscriptions to nonmembers at relatively higher prices than members pay; most nonmembers' subscripts are institutional."
 
-              <p title="688">In <cite>Little Science, Big Science</cite>, Derek de Solla Price, notes that "first journals became prominent as a vehicle of scholarship in sciences. In the humanities, in particular, books remained until recently the main form of publication favored by scholars for recording their work and establishing their reputations." Today, journals in all areas of knowledge exist.</p>
+              </p><p title="688">In <cite>Little Science, Big Science</cite>, Derek de Solla Price, notes that "first journals became prominent as a vehicle of scholarship in sciences. In the humanities, in particular, books remained until recently the main form of publication favored by scholars for recording their work and establishing their reputations." Today, journals in all areas of knowledge exist.</p>
 
 
 
@@ -628,7 +621,7 @@ transform:rotate(-60deg);
                   <p class="todo">easychair</p>
                   <p class="todo">review sytems</p>
 
-                  <hr/>
+                  <hr />
 
                   <p>In parallel to the existing practices in scholarly information exchange which generally revolve around print-centric workflows, there are best practice and guiding principles which are Web-centric. While the importance of the new approaches are acknowledged by the community, and there is a increasing social demand for their use, its adoption with respect to the state of scholarly market is still in its infancy. Later we will investigate some of the core barriers.</p>
 
@@ -668,7 +661,6 @@ transform:rotate(-60deg);
                       </ul>
                     </li>
                   </ul>
-
 <!--                   <p class="todo">perhaps find something a bit more information quality centric</p>
                   <h4>The Vienna Principles</h4>
                   <p>The <cite><a href="http://viennaprinciples.org/v1/">Vienna Principles</a></cite> proposes twelve principles that is a response to the deficits of the current scholarly communication system (in 2016). The principles are design to help with the debate on how to improve the current system. They include: <q>accessibility, discoverability, reusability, reproducibility, transparency, understandability, collaboration, quality assurance, evaluation, validates progress, innovation, public good</q>.</p> -->
@@ -701,18 +693,17 @@ transform:rotate(-60deg);
                   <p>The scholarly communication has been the subject of controversies over the past decades..</p>
 
                   <p>Controlling access in all intents and purposes is like controlling science (communication)</p>
-<blockquote>
-<pre>
-APIs mean Snoop, Control and Censor.
+
+                  <blockquote>
+                    <pre>APIs mean Snoop, Control and Censor.
 – Snoop: publishers monitor who is using the literature ,
 when and for what
 – Control: publishers control what you get, when, how
 much, and in what form
 – Censor: publishers control what results you publish
-and how.
-</pre>
-<footer>PMR slideshare slide 44</footer>
-</blockquote>
+and how.</pre>
+                    <footer>PMR slideshare slide 44</footer>
+                  </blockquote>
 
                   <p>Cost</p>
                   <p>Profit margins..</p>
