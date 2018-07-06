@@ -785,6 +785,10 @@ Rough coverage:
                   <p class="todo">describe what the ux means under LR view... what does it mean for the user? functionality that is offered by the UI ... eg. save, activities, to create/edit..    affordances offered by user's preferences eg. prefered views, personal storage.. </p>
 
                   <p class="todo">https://en.wikipedia.org/wiki/Adaptive_hypermedia</p>
+
+                  <p class="todo">Information discovery can start from two locations</p>
+
+                  <p class="todo">For example: when a person signs in with their WebID, dokieli looks up their profile description to gather information eg. name, avatar.., personal inbox location, preferred storage location, outbox location. Depending on what it finds, and what the document contains, or the action person takes on the document, the user-interface adapts towards that.</p>
                 </div>
               </section>
 
