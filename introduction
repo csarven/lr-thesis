@@ -2,7 +2,7 @@
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Introduction - Linked Research Design Issues</title>
+    <title>Introduction</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="media/css/basic.css" media="all" rel="stylesheet" title="Basic" />
     <link href="media/css/thesis.css" media="all" rel="stylesheet alternate" title="Thesis" />
@@ -18,6 +18,12 @@
   <body about="" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ pimspace: http://www.w3.org/ns/pim/space# cc: https://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# mem: http://mementoweb.org/ns# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ void: http://rdfs.org/ns/void# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# bibo: http://purl.org/ontology/bibo/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio# rel: https://www.w3.org/ns/iana/link-relations/relation#" typeof="schema:CreativeWork sioc:Post prov:Entity">
     <main>
       <article about="" typeof="schema:Article">
+        <dl id="document-modified">
+          <dt>Modified</dt>
+          <dd><time content="2018-07-08T13:19:00.815Z" datatype="xsd:dateTime" datetime="2018-07-08T13:19:00.815Z" property="schema:dateModified">2018-07-08</time></dd>
+        </dl>
+        <dl id="document-license"><dt>License</dt><dd><a href="https://creativecommons.org/licenses/by/4.0/" rel="schema:license" title="Creative Commons Attribution">CC BY 4.0</a></dd></dl>
+
         <h1 property="schema:name">Introduction</h1>
 
         <div datatype="rdf:HTML" property="schema:description">
@@ -165,9 +171,9 @@
   </pre>
 
 
-      <p>With the growing power of the printing press from the 15th century and onwards across Europe, and sufficiently large international readers; the mass production and distribution of printed material gave rise to intellectuals and elite as a distinct and independent social class. The term "literate men" (or "men of letters") is derived from the French term <q lang="fr">homme de lettres</q>, refers to a metaphysical literary society - not synonymous with <em>academic</em> - that produced and had access to such body of knowledge in Europe and America. This long-distance, international, and private correspondence network between the literary figures formed the basis of the concept, <cite><a href="https://en.wikipedia.org/wiki/Republic_of_Letters">Republic of Letters</a></cite> in the 17th century - <cite><a href="http://www.worldcat.org/oclc/611804138">The Printing Press as an Agent of Change</a></cite>, p. 136-138, 1979, <a href="https://en.wikipedia.org/wiki/Elizabeth_Eisenstein">Elizabeth Eisenstein</a>.</p>
+      <p>With the growing power of the printing press from the 15th century and onward, and sufficiently large international readers across Europe; the mass production and distribution of printed material gave rise to the formation of intellectuals and elite as a distinct and independent social class. The term "literate men" (or <q>men of letters</q>) is derived from the French term <q lang="fr">homme de lettres</q>, refers to a metaphysical <em>literary</em> society - not synonymous with <em>academic</em> - that produced and had access to such body of knowledge in Europe and America. This long-distance, international, and private correspondence network between the literary figures formed the basis of the concept, <cite><a href="https://en.wikipedia.org/wiki/Republic_of_Letters">Republic of Letters</a></cite> in the 17th century - <cite><a href="http://www.worldcat.org/oclc/611804138">The Printing Press as an Agent of Change</a></cite>, p. 136-139, 1979, <a href="https://en.wikipedia.org/wiki/Elizabeth_Eisenstein">Elizabeth Eisenstein</a>.</p>
 
-      <p><cite><a href="https://en.wikipedia.org/wiki/Royal_Society">The Royal Society</a></cite> effectively established authority for a metaphyshical community for scientists and scholars. <cite lang="fr"><a href="https://en.wikipedia.org/wiki/Journal_des_s%C3%A7avans">Journal des sçavans</a></cite> published in 1665 was the first academic journal in Europe, followed by <cite><a href="https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society">Philosophical Transactions of the Royal Society</a></cite> in the same year.</p>
+      <p><cite><a href="https://en.wikipedia.org/wiki/Royal_Society">The Royal Society</a></cite> effectively established authority for a metaphysical community for scientists and scholars. <cite lang="fr"><a href="https://en.wikipedia.org/wiki/Journal_des_s%C3%A7avans">Journal des sçavans</a></cite> published in 1665 was the first academic journal in Europe, followed by <cite><a href="https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society">Philosophical Transactions of the Royal Society</a></cite> in the same year.</p>
 
       <p>The first journal that strongly focused on scientific communication came later in 1666 in <cite lang="fr"><a href="https://en.wikipedia.org/wiki/Comptes_rendus_de_l%27Acad%C3%A9mie_des_Sciences">Mémoires de l'Académie des Sciences</a></cite></p>
     </div>
