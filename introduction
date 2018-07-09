@@ -20,19 +20,23 @@
       <article about="" typeof="schema:Article">
         <dl id="document-modified">
           <dt>Modified</dt>
-          <dd><time content="2018-07-08T13:19:00.815Z" datatype="xsd:dateTime" datetime="2018-07-08T13:19:00.815Z" property="schema:dateModified">2018-07-08</time></dd>
+          <dd><time content="2018-07-09T13:05:20.729Z" datatype="xsd:dateTime" datetime="2018-07-09T13:05:20.729Z" property="schema:dateModified">2018-07-09</time></dd>
         </dl>
         <dl id="document-license"><dt>License</dt><dd><a href="https://creativecommons.org/licenses/by/4.0/" rel="schema:license" title="Creative Commons Attribution">CC BY 4.0</a></dd></dl>
+        
 
         <h1 property="schema:name">Introduction</h1>
 
         <div datatype="rdf:HTML" property="schema:description">
-          <blockquote cite="http://www.cs.yale.edu/homes/tap/Files/hopper-wit.html">
-            <p>Humans are allergic to change. They love to say, 'We’ve always done it this way.' I try to fight that. That’s why I have a clock on my wall that runs counter-clockwise.</p>
-            <footer><a href="https://en.wikipedia.org/Grace_Hopper">Grace Hopper</a>, <cite><a href="http://www.cs.yale.edu/homes/tap/Files/hopper-wit.html">The OCLC Newsletter</a></cite>, 1987</footer>
-          </blockquote>
+          <p>The core message of this thesis is that, we can apply the lessons from the history of human communication shifts towards answering research questions and the challenges in advancing scholarly communication on the Web. The explanations and the developments propose a way in which the society; and scholars in particular, can be autonomous actors when exchanging their discoveries, knowledge, and innovation. The ideas are fundamentally aligned with the inherent properties of the Web.<br /></p><p>This article is about the advancement of intellectual communication using the Web environment. The underlying work is presented with the backdrop of history of information exchange in context of available communication mediums. We will soon discuss the past human endeavours towards enlightenment in order to orient ourselves with the current affairs in scholarly communication. We will then seek the fundamental differences in intellectual communities in the pursuit of knowledge. Understanding the structures and frameworks of these (meta)physical societies enables us to rationalise their qualities, as well as quantify their constraints and limitations. As we analyse the current state of scholarly communication as part of a global sociotechnical system, our research questions and answers address the challenges and opportunities offered by new media and technologies, alongside efficient (re)use of digital resources for different types of agents. The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.</p>
 
-          <p>This article is about the advancement of intellectual communication using the Web environment. The underlying work is presented with the backdrop of history of information exchange in context of available communication mediums. We will soon discuss the past human endeavours towards enlightenment in order to orient ourselves with the current affairs in scholarly communication. We will then seek the fundamental differences in intellectual communities in the pursuit of knowledge. Understanding the structures and frameworks of these (meta)physical societies enables us to rationalise their qualities, as well as quantify their constraints and limitations. As we analyse the current state of scholarly communication as part of a global socio-technical system, our research questions and answers address the challenges and opportunities offered by new media and technologies, alongside efficient (re)use of digital resources for different types of agents. The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.</p>
+          <hr />
+
+          <p>With the growing power of the printing press from the 15th century and onward, and sufficiently large international readers across Europe, the mass production and distribution of printed material gave rise to the formation of intellectuals and elite as a distinct and independent social class. The term "literate men" (or <q>men of letters</q>) is derived from the French term <q lang="fr">homme de lettres</q>, refers to a metaphysical <em>literary</em> society - not synonymous with <em>academic</em> - that produced and had access to such body of knowledge in Europe and America. This long-distance, international, and private correspondence network between the literary figures formed the basis of the concept, <cite><a href="https://en.wikipedia.org/wiki/Republic_of_Letters">Republic of Letters</a></cite> in the 17th century - <cite><a href="http://www.worldcat.org/oclc/611804138">The Printing Press as an Agent of Change</a></cite>, p. 136-139, 1979, <a href="https://en.wikipedia.org/wiki/Elizabeth_Eisenstein">Elizabeth Eisenstein</a>.</p>
+
+          <p><cite><a href="https://en.wikipedia.org/wiki/Royal_Society">The Royal Society</a></cite> effectively established authority for a metaphysical community for scientists and scholars. <cite lang="fr"><a href="https://en.wikipedia.org/wiki/Journal_des_s%C3%A7avans">Journal des sçavans</a></cite> published in 1665 was the first academic journal in Europe, followed by <cite><a href="https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society">Philosophical Transactions of the Royal Society</a></cite> in the same year.</p>
+
+          <p>The first journal that strongly focused on scientific communication came later in 1666 in <cite lang="fr"><a href="https://en.wikipedia.org/wiki/Comptes_rendus_de_l%27Acad%C3%A9mie_des_Sciences">Mémoires de l'Académie des Sciences</a></cite></p>
 <!--
     <p>As per <cite><a href="https://eprints.soton.ac.uk/id/eprint/263347">A Framework for Web Science</a></cite>, Linked Research can be seen as one way to further the science of decentralised information systems in context of scholarly communication, as well as the the study of <em>Web Science</em> itself.</p>
 
@@ -49,7 +53,7 @@
           <section id="context" rel="schema:hasPart" resource="#context">
             <h2 property="schema:name">Context</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>The field of our study is interdisciplinary given that scholarly communication in conjunction with the Web is an interplay of socio-technical systems. The work described here captures a particular connection of ideas and development crossing over Web sciences and engineering, media theory and application, autonomous and federation of information systems.</p>
+              <p>The field of our study is interdisciplinary given that scholarly communication in conjunction with the Web is an interplay of sociotechnical systems. The work described here captures a particular connection of ideas and development crossing over Web sciences and engineering, media theory and application, autonomous and federation of information systems.</p>
 
               <p>The context of this thesis is based on the neutrally observable scholarly communication in conjunction with the World Wide Web. Thus, what will be described here will not be about the imminent transformation to what scholarly communication is or how it should be, but rather a description of a network of relatable ideas, initiatives, and development.</p>
 
@@ -170,12 +174,6 @@
 
   </pre>
 
-
-      <p>With the growing power of the printing press from the 15th century and onward, and sufficiently large international readers across Europe; the mass production and distribution of printed material gave rise to the formation of intellectuals and elite as a distinct and independent social class. The term "literate men" (or <q>men of letters</q>) is derived from the French term <q lang="fr">homme de lettres</q>, refers to a metaphysical <em>literary</em> society - not synonymous with <em>academic</em> - that produced and had access to such body of knowledge in Europe and America. This long-distance, international, and private correspondence network between the literary figures formed the basis of the concept, <cite><a href="https://en.wikipedia.org/wiki/Republic_of_Letters">Republic of Letters</a></cite> in the 17th century - <cite><a href="http://www.worldcat.org/oclc/611804138">The Printing Press as an Agent of Change</a></cite>, p. 136-139, 1979, <a href="https://en.wikipedia.org/wiki/Elizabeth_Eisenstein">Elizabeth Eisenstein</a>.</p>
-
-      <p><cite><a href="https://en.wikipedia.org/wiki/Royal_Society">The Royal Society</a></cite> effectively established authority for a metaphysical community for scientists and scholars. <cite lang="fr"><a href="https://en.wikipedia.org/wiki/Journal_des_s%C3%A7avans">Journal des sçavans</a></cite> published in 1665 was the first academic journal in Europe, followed by <cite><a href="https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society">Philosophical Transactions of the Royal Society</a></cite> in the same year.</p>
-
-      <p>The first journal that strongly focused on scientific communication came later in 1666 in <cite lang="fr"><a href="https://en.wikipedia.org/wiki/Comptes_rendus_de_l%27Acad%C3%A9mie_des_Sciences">Mémoires de l'Académie des Sciences</a></cite></p>
     </div>
   </section>
 
