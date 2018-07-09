@@ -20,7 +20,7 @@
       <article about="" typeof="schema:Article">
         <dl id="document-modified">
           <dt>Modified</dt>
-          <dd><time content="2018-07-09T13:43:57.226Z" datatype="xsd:dateTime" datetime="2018-07-09T13:43:57.226Z" property="schema:dateModified">2018-07-09</time></dd>
+          <dd><time content="2018-07-09T14:23:12.429Z" datatype="xsd:dateTime" datetime="2018-07-09T14:23:12.429Z" property="schema:dateModified">2018-07-09</time></dd>
         </dl>
         <dl id="document-license"><dt>License</dt><dd><a href="https://creativecommons.org/licenses/by/4.0/" rel="schema:license" title="Creative Commons Attribution">CC BY 4.0</a></dd></dl>
         <dl id="document-status"><dt>Document Status</dt><dd prefix="pso: http://purl.org/spar/pso/" rel="pso:holdsStatusInTime" resource="#a2f53cf6-0f0c-45b6-a00c-568f7ee8deee"><span rel="pso:withStatus" resource="http://purl.org/spar/pso/draft" typeof="pso:PublicationStatus">Draft</span></dd></dl>
@@ -32,11 +32,15 @@
 
           <hr />
 
-          <p>With the growing power of the printing press since the 15th century, and sufficiently large international readers across Europe, the mass production and distribution of printed material gave rise to the formation of intellectuals as a distinct and independent social class. The term "literate men" (or <q>men of letters</q>) is derived from the French term <q lang="fr">homme de lettres</q>, refers to a metaphysical <em>literary</em> society - not synonymous with <em>academic</em> - that produced and had access to substantial knowledge in Europe and America. This long-distance, international, and private correspondence network between the literary figures formed the basis of the concept, <cite><a href="https://en.wikipedia.org/wiki/Republic_of_Letters">Republic of Letters</a></cite> in the 17th century - <cite><a href="http://www.worldcat.org/oclc/611804138">The Printing Press as an Agent of Change</a></cite>, p. 136-139, 1979, <a href="https://en.wikipedia.org/wiki/Elizabeth_Eisenstein">Elizabeth Eisenstein</a>.</p>
+          <p>With the growing power of the printing press since the 15th century, and sufficiently large international readers across Europe, the mass production and distribution of printed material gave rise to the formation of intellectuals as a distinct and independent social class. The term "literate men" (or <q>men of letters</q>) - derived from the French term <q lang="fr">homme de lettres</q> - refers to a metaphysical <em>literary</em> society that produced and had access to substantial knowledge in Europe and America. This long-distance, international, and private correspondence network between the literary figures formed the basis of the concept, <cite><a href="https://en.wikipedia.org/wiki/Republic_of_Letters">Republic of Letters</a></cite> in the 17th century - <cite><a href="http://www.worldcat.org/oclc/611804138">The Printing Press as an Agent of Change</a></cite>, p. 136-139, 1979, <a href="https://en.wikipedia.org/wiki/Elizabeth_Eisenstein">Elizabeth Eisenstein</a>.</p>
 
           <p><cite><a href="https://en.wikipedia.org/wiki/Royal_Society">The Royal Society</a></cite> effectively established authority for a metaphysical community for scientists and scholars. <cite lang="fr"><a href="https://en.wikipedia.org/wiki/Journal_des_s%C3%A7avans">Journal des sçavans</a></cite> published in 1665 was the first academic journal in Europe, followed by <cite><a href="https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society">Philosophical Transactions of the Royal Society</a></cite> in the same year.</p>
 
           <p>The first journal that strongly focused on scientific communication came later in 1666 in <cite lang="fr"><a href="https://en.wikipedia.org/wiki/Comptes_rendus_de_l%27Acad%C3%A9mie_des_Sciences">Mémoires de l'Académie des Sciences</a></cite></p>
+
+          <p>Eisenstein postulates that the printed book played a central role in the <q>rapid dissemination of knowledge to whole new classes that created the modern new attitudes to both science and religion at the end of the fifteenth century.</q> The mere availability of prior knowledge to the public, stimulated scientific curiosity further, and eventually gave birth to the scientific revolution - <cite><a href="http://www.worldcat.org/oclc/611804138">The Printing Press as an Agent of Change</a></cite>, p. 691, <a href="https://en.wikipedia.org/wiki/Elizabeth_Eisenstein">Elizabeth Eisenstein</a>. In <a href="scholarly-communication-on-the-web">scholarly communication on the Web</a>, we observe this phenomenon from the point of McLuhan's theory on the effects of media and Kuhn's scientific paradigm shifts.</p>
+
+
 <!--
     <p>As per <cite><a href="https://eprints.soton.ac.uk/id/eprint/263347">A Framework for Web Science</a></cite>, Linked Research can be seen as one way to further the science of decentralised information systems in context of scholarly communication, as well as the the study of <em>Web Science</em> itself.</p>
 
