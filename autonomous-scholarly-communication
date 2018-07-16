@@ -49,6 +49,13 @@
           <section id="control-yourself" inlist="" rel="schema:hasPart" resource="#control-yourself">
             <h2 property="schema:name">Control Yourself</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <section id="decentralised-storage" inlist="" rel="schema:hasPart" resource="#standards-for-decentralised-web">
+                <h3property="schema:name">Decentralised Storage</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>Some of the advantages of decentralised storage: censorship resistance, persistent availability, self-monitoring, organic growth and optimisation, monopoly disruption.</p>
+                <div>
+              </section>
+
 <pre>
 ** Personal storage space (LDP/Solid/Fedora/mayktso)
 ** WebID
