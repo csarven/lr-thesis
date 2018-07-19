@@ -91,6 +91,12 @@ Consider moving this to LR chapter ()
             </div>
           </section>
 
+          <section id="notification" inlist="" rel="schema:hasPart" resource="#notification">
+            <h2 property="schema:name">Notification</h2>
+            <div dataptype="rdf:HTML" property="schema:description">
+              <p>..</p>
+            </div>
+          </section>
 
           <section id="annotation" inlist="" rel="schema:hasPart" resource="#annotation">
             <h2 property="schema:name">Annotation</h2>
@@ -99,6 +105,7 @@ Consider moving this to LR chapter ()
               <p>Comparison of annotation services/tools. These tools meet our 'social' like needs, but don't necessarily meet the LR principles.</p>
             </div>
           </section>
+
 
           <section id="role-of-institutions" inlist="" rel="schema:hasPart" resource="#role-of-institutions">
             <h2 property="schema:name">Role of Institutions</h2>
