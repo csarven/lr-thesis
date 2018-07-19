@@ -54,19 +54,21 @@
             </div>
           </section>
 
-          <section id="archivability" inlist="" rel="schema:hasPart" resource="#archivability">
-            <h2 property="schema:name">Archivability</h2>
+          <section id="archiving-and-preservation" inlist="" rel="schema:hasPart" resource="#archiving-and-preservation">
+            <h2 property="schema:name">Archiving and Preservation</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Is it feasible to capture different states of units of communication, for example:</p>
+              <p>Author self-publishes.. trusted-third parties archive...</p>
+
+              <p>Is it feasible to  capture different states of articles, notifications, and annotations?</p>
+
               <ul>
                 <li>a versioned article;</li>
                 <li>publicly accessible annotations about the article;</li>
                 <li>personal annotations</li>
               </ul>
 
-              <p>Current..</p>
+              <p>Requirements.. Which formats and what's their quality?</p>
 
-              <p>Through self-publishing and interaction</p>
             </div>
           </section>
 
