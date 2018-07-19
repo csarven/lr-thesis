@@ -440,6 +440,11 @@ transform:rotate(-60deg);
               <section id="web-science" inlist="" rel="schema:hasPart" resource="#web-science">
                 <h3 property="schema:name">Web Science</h3>
                 <div datatype="rdf:HTML" property="schema:description">
+                  <blockquote cite="https://www.theinquirer.net/inquirer/feature/1735712/professor-wendy-hall-speaks">
+                    <p>Web science – what makes the Web what it is, how it evolves and will evolve, what are the scenarios that could kill it or change it in ways that would be detrimental to its use.</p>
+                    <footer><cite><a href="https://web.archive.org/web/20101004130346/http://www.theinquirer.net:80/inquirer/feature/1735712/professor-wendy-hall-speaks">Still hates computers</a></cite>, The Inquirer, 2010, <a href="https://en.wikipedia.org/wiki/Wendy_Hall">Dame Wendy Hall</a></footer>
+                  </blockquote>
+
                   <p id="web-science"><cite>Web Science</cite> - <cite><a href="https://eprints.soton.ac.uk/262615/1/Web%2520Science.htm">Creating a Science of the Web</a></cite> - is an interdisciplinary field of study concerned with understanding and developing sociotechnical systems like the Web alongside human society.</p>
 
                   <p>In <cite><a href="http://eprints.soton.ac.uk/263347/1/1800000001%5B1%5D.pdf">A Framework for Web Science</a></cite>, authors state that:</p>
