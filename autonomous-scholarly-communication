@@ -408,6 +408,14 @@
 </section>
 
 
+          <section id="the-effects-and-artefacts-of-autonomous-engagement" rel="schema:hasPart" resource="#the-effects-and-artefacts-of-autonomous-engagement">
+            <h2 property="schema:name">The Effects and Artefacts of Autonomous Engagement</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>The future of self-registration of scholarly units depends in large part on how well its practitioners, advocates, educators alike, are able to reconcile the ideals that the medium offers with the realities of the commercial third-party systems within which scholarly communication operates and the homogenizing influences of scholarly socialisation.</p>
+
+              <p>While these challenges are technically surmountable, they need to be taken seriously if, the extreme case where "anyone can say anything about anything" is subject to be treated on equal grounds as a piece of information that is well certified. One contemporary and popular example of this scenario is where nearly all scientists being in agreement on the presence of global warming, climate change, and its consequences. In order to honour a commitment to public service, scientific communication - independent to self-registration - must remain grounded on reproducible and/or replicable facts and explanations, attributable and accountable participants. After all, the output affects journalism, further scientific knowledge exchange, policy making, as well public opinion and perception.</p>
+            </div>
+          </section>
 
         </div>
       </article>
