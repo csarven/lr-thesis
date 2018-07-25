@@ -50,16 +50,85 @@
           </section>
 
 
-          <section id="modularity-and-extensibility" inlist="" rel="schema:hasPart" resource="#modularity-and-extensibility">
-            <h2 property="schema:name">Modularity and Extensibility</h2>
+          <section id="control-yourself" inlist="" rel="schema:hasPart" resource="#control-yourself">
+            <h2 property="schema:name">Control Yourself</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p>The notion of <q>control yourself</q>..</p>
+            </div>
+          </section>
+
+
+          <section id="standards-for-decentralised-web" inlist="" rel="schema:hasPart" resource="#standards-for-decentralised-web">
+            <h2 property="schema:name">Standards for Decentralised Web</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+<pre>
+** HTTP
+** LDP
+** AS2, AP
+** WebAnnotation
+** LDN
+** Versioning: Memento, Fedora spec
+** Archiving
+</pre>
+
+
+              <section id="modularity-and-extensibility" inlist="" rel="schema:hasPart" resource="#modularity-and-extensibility">
+                <h3 property="schema:name">Modularity and Extensibility</h3>
+                <div datatype="rdf:HTML" property="schema:description">
 <pre>
 ** Interoperable standards / technology stack
 ** Pay as you go (linked information space), eg. own profile today, own storage space tomorrow..
 ** ORCID: storage, inbox, outbox, sameAs, preferredURI..
 </pre>
+                </div>
+              </section>
+
             </div>
           </section>
+
+
+          <section id="decentralised-storage" inlist="" rel="schema:hasPart" resource="#standards-for-decentralised-web">
+            <h2 property="schema:name">Decentralised Storage</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>Some of the advantages of decentralised storage: censorship resistance, persistent availability, self-monitoring, organic growth and optimisation, monopoly disruption.</p>
+              <p>Disadvantages...</p>
+
+              <p>Personal storage space (LDP/Solid/Fedora/mayktso)</p>
+            </div>
+          </section>
+
+
+          <section id="universal-identity-for-the-web" inlist="" rel="schema:hasPart" resource="#universal-identity-for-the-web">
+            <h2 property="schema:name">Universal Identity for the Web</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>The <cite><a href="https://www.w3.org/2005/Incubator/webid/spec/">WebID</a></cite> specification outlines a universal identification mechanism on the Web that is distributed...</p>
+              <p>https://www.w3.org/2005/Incubator/webid/spec/identity</p>
+              <p>https://www.w3.org/2005/Incubator/webid/spec/tls</p>
+
+              <p>Extensibility... and self-expression (contrast with silo/accounts and trusted third-party managed identification systems eg ORCID</p>
+            </div>
+          </section>
+
+
+          <section id="authentication-and-authorization" inlist="" rel="schema:hasPart" resource="#authentication-and-authorization">
+            <h2 property="schema:name">Global Authentication and Authorization</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>Authentication mechanisms: moving from username/password --> TLS, OIDC, ?</p>
+
+              <section id="authentication" inlist="" rel="schema:hasPart" resource="#authentication">
+                <h3 property="schema:name">Authentication</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                </div>
+              </section>
+
+              <section id="access-control" inlist="" rel="schema:hasPart" resource="#access-control">
+                <h3 property="schema:name">Access Control</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                </div>
+              </section>
+            </div>
+          </section>
+
 
           <section id="archiving-and-preservation" inlist="" rel="schema:hasPart" resource="#archiving-and-preservation">
             <h2 property="schema:name">Archiving and Preservation</h2>
@@ -81,40 +150,6 @@
             </div>
           </section>
 
-          <section id="control-yourself" inlist="" rel="schema:hasPart" resource="#control-yourself">
-            <h2 property="schema:name">Control Yourself</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <section id="decentralised-storage" inlist="" rel="schema:hasPart" resource="#standards-for-decentralised-web">
-                <h3 property="schema:name">Decentralised Storage</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>Some of the advantages of decentralised storage: censorship resistance, persistent availability, self-monitoring, organic growth and optimisation, monopoly disruption.</p>
-                </div>
-              </section>
-
-<pre>
-** Personal storage space (LDP/Solid/Fedora/mayktso)
-** WebID
-** Global authentication mechanism (TLS, OIDC..)
-** ACL
-</pre>
-            </div>
-          </section>
-
-
-          <section id="standards-for-decentralised-web" inlist="" rel="schema:hasPart" resource="#standards-for-decentralised-web">
-            <h2 property="schema:name">Standards for Decentralised Web</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-<pre>
-** HTTP
-** LDP
-** AS2, AP
-** WebAnnotation
-** LDN
-** Versioning: Memento, Fedora spec
-** Archiving
-</pre>
-            </div>
-          </section>
 
           <section id="implementing-a-read-write-web" inlist="" rel="schema:hasPart" resource="#implementing-a-read-write-web">
             <h2 property="schema:name">Implementing a Read-Write Web</h2>
@@ -139,6 +174,8 @@
           <section id="linked-specifications-reports" rel="schema:hasPart" resource="#linked-specifications-reports">
             <h2 property="schema:name">Linked Specifications, Test Suites, and Implementation Reports</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo">The relevance of this section/work is about independent publishing (different jurisdictions) but following same line of Web standards / interop... pay-as-you-go... the sum is greater</p>
+
               <p>This article describes the semantic structure and linking of the W3C Recommendation <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (LDN), its test suite, and implementation reports.</p>
 
               <p>Semantically interlinking and detailed machine-readability of components related to Web standards and their implementations is novel, and can be useful for coherently documenting software projects and their conformance with specifications. Everything presented here is open source and reusable by other specifications (W3C standards or not), test suites, and implementations.</p>
