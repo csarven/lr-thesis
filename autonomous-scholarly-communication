@@ -72,7 +72,7 @@
             <div datatype="rdf:HTML" property="schema:description">
               <p>Discoverability</p>
               <p>Sustainability</p>
-              <p>Trust, reliability</p>
+              <p>Trust, reliability, .. to distinguish fakescience/predatory from legit/non-predatory Beyond "anyone can say anything about anything" eg. publish study preregistration to establish trust, share provenance, data, software/code.., open peer review (OPR) process (when/who/what)</p>
             </div>
           </section>
 
@@ -89,6 +89,10 @@
 ** Versioning: Memento, Fedora spec
 ** Archiving
 </pre>
+
+              <p id="internet-web-protocols">The foundational communication and transfer protocols of the Internet and the Web (eg. <abbr title="Transmission Control Protocol">TCP</abbr>/<abbr title="Internet Protocol">IP</abbr>, DNS, HTTP) are designed to operate in a decentralised and distributed manner.</p>
+
+
 
 
               <section id="modularity-and-extensibility" inlist="" rel="schema:hasPart" resource="#modularity-and-extensibility">
@@ -222,7 +226,7 @@
           <section id="the-effects-and-artefacts-of-autonomous-engagement" rel="schema:hasPart" resource="#the-effects-and-artefacts-of-autonomous-engagement">
             <h2 property="schema:name">The Effects and Artefacts of Autonomous Engagement</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p> The Web’s design stands out because of its absence of centralised control, both for technical reasons of scalability and resilience as well as a societal need for freedom of expression. A challenge in such large-scale decentralised networks is how related publications can be semantically interlinked, even if they are authored and published by different parties. Centralising their publications is practiced by the majority of authoring networks today, demanding authors to give up some or all of their control in exchange for technical simplicity.</p>
+              <p>The Web’s design stands out because of its absence of centralised control, both for technical reasons of scalability and resilience as well as a societal need for freedom of expression. A challenge in such large-scale decentralised networks is how related publications can be semantically interlinked, even if they are authored and published by different parties. Centralising their publications is practiced by the majority of authoring networks today, demanding authors to give up some or all of their control in exchange for technical simplicity.</p>
 
               <p>dokieli shows it is possible to build a social machine wherein people interact with each other without the need of centralised coordination. Users can choose storage space for their content independently of the applications with which they edit and view that content. Documents are connected statically through links and dynamically through Linked Data Notifications. This is a proof for the viability of a decentralised authoring and annotation environment built with Web standards.</p>
 
