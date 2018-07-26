@@ -42,7 +42,7 @@
           <section id="control-yourself" inlist="" rel="schema:hasPart" resource="#control-yourself">
             <h2 property="schema:name">Control Yourself</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p about="" id="problem-statement" rel="schema:hasPart"><span about="#problem-statement" property="schema:description" typeof="deo:ProblemStatement">While the Web was originally conceived as a decentralised <em>application</em> running on the Internet, where every organisation and individual can participate, it became increasingly centralised with <a class="todo" href="https://news.netcraft.com/archives/category/web-server-survey/">less than 1% of the servers serving more than 99% of the content</a>. The main reason for this is rooted in business and state incentives, as well as technology: it is currently much easier and more efficient to author, manage, publish, and search large amounts of similarly structured content using a centralised platform. Blogger, YouTube and Facebook, for example, are centralised authoring, publishing, and search platforms for blog posts, videos or social network content respectively.</span></p>
+              <p about="" id="problem-statement" rel="schema:hasPart"><span about="#problem-statement" property="schema:description" typeof="deo:ProblemStatement">While the Web was originally conceived as a decentralised <em>application</em> running on the Internet, where every organisation and individual can participate, it became increasingly centralised with <a class="todo" href="https://news.netcraft.com/archives/category/web-server-survey/">less than 1% of the servers serving more than 99% of the content</a>. The domination of centralisation is essentially due to economic and state incentives, and it has shaped the technical infrastructure: it is currently much easier and more efficient to author, manage, publish, and search large amounts of similarly structured content using a centralised platform. Blogger, YouTube and Facebook, for example, are centralised authoring, publishing, and search platforms for blog posts, videos or social network content respectively.</span></p>
 
               <p>However, independence of centralised platforms is a necessity for ownership of published ideas, and to establish a relation of trust. For example, Facebook has been accused of <a href="http://www.slate.com/articles/technology/technology/2016/05/yes_facebook_is_biased_now_it_should_admit_it.html">bias</a>, <a href="https://www.theguardian.com/media/2016/jul/12/how-technology-disrupted-the-truth">false information</a>, and <a href="https://www.nytimes.com/2016/09/10/technology/facebook-vietnam-war-photo-nudity.html">censorship</a>—but rather than blaming this on any particular platform, we identify it as an unavoidable result of centralisation. After all, there is a continued tension between unrestricted publication rights on the one hand, and a guarantee of balanced, verified information on the other. In a fully decentralised setting, each source is filterless and responsible for its own quality and reputation, while others are free to selectively (dis-)trust certain sources using any mechanism they desire.</p>
 
@@ -67,11 +67,21 @@
           </section>
 
 
+          <section id="challenges" inlist="" rel="schema:hasPart" resource="#challenges">
+            <h2 property="schema:name">Challenges</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>Discoverability</p>
+              <p>Sustainability</p>
+              <p>Trust, reliability</p>
+            </div>
+          </section>
+
+
           <section id="standards-for-decentralised-web" inlist="" rel="schema:hasPart" resource="#standards-for-decentralised-web">
             <h2 property="schema:name">Standards for Decentralised Web</h2>
             <div datatype="rdf:HTML" property="schema:description">
 <pre>
-** HTTP
+** TCP/IP, DNS, HTTP
 ** LDP
 ** AS2, AP
 ** WebAnnotation
@@ -178,6 +188,18 @@
 *** dokie.li/docs#storage
 *** dokie.li/docs#web-extension
 </pre>
+
+
+              <section id="adoption-of-dokieli" inlist="" rel="schema:hasPart" resource="#adoption-of-dokieli">
+                <h3 property="schema:name">Adoption of dokieli</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p id="adoption-w3c-use">The W3C Working Group Note <cite><a href="https://www.w3.org/TR/annotation-html/" rel="cito:citesAsAuthority">Embedding Web Annotations in HTML</a></cite> includes examples from dokieli’s use of the Web Annotation data <cite><a href="https://www.w3.org/TR/annotation-model/" rel="cito:citesAsAuthority">Model</a></cite> and <cite><a href="https://www.w3.org/TR/annotation-vocab/" rel="cito:citesAsAuthority">Vocabulary</a></cite> with motivations for example for <q>Lightweight, decentralised Annotation Tools</q>. The W3C <cite><a href="https://www.w3.org/TR/ldn/" rel="cito:citesAsAuthority">Linked Data Notifications</a></cite> specification uses dokieli’s HTML+RDFa template, and the <a href="https://linkedresearch.org/ldn/" rel="cito:citesAsAuthority">Editor’s Draft</a> showcase dokieli as a consumer of LDN and Web Annotations. The LDN <a href="https://linkedresearch.org/ldn/tests/" rel="cito:citesAsAuthority">test suite</a> also uses dokieli’s templates and stylesheets.</p>
+
+                  <p id="adoption-academic">The academic workshop <cite><a href="http://semstats.org/">SemStats</a></cite> series use dokieli in its Website templates, including the call for contributions. <cite><a href="http://ceur-ws.org/">CEUR-WS.org</a></cite>, an <q>Online Proceedings for Scientific Conferences and Workshops</q> offers the tooling <cite><a href="https://github.com/ceurws/ceur-make">ceur-make</a></cite> to help organisers generate proceedings using dokieli’s HTML+RDFa template, e.g., <cite><a href="http://ceur-ws.org/Vol-1654/">SemStats 2016</a></cite>. We list a community (of academics) who self-publish their articles and thesis using dokieli with different stylesheets and derived scripts under its <cite><a href="https://github.com/linkeddata/dokieli/wiki#examples-in-the-wild">examples in the wild</a></cite>. The conference series: WWW (e.g., <a href="http://events.linkeddata.org/ldow2018/">LDOW</a> and <a href="http://sociam.org/wow2017/">WOW</a> workshops), <a href="https://iswc2018.semanticweb.org/calls/html-submission-guide/">ISWC</a>, and <a href="http://2018.eswc-conferences.org/call-papers">ESWC</a> propose dokieli as one tooling in which authors can use to make their contributions to the calls with.</p>
+
+                  <p id="adoption-misc">The <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> website uses dokieli in its templates on the site as well as workshop proposals and call for contributions. <a href="http://csarven.ca/">csarven.ca</a> uses dokieli in full, where some articles (like this article) offer pointers to a public annotation service in which users may wish to use for their annotations. Articles also dynamically embed annotations from personal storage spaces.</p>
+                </div>
+              </section>
             </div>
           </section>
 
@@ -200,9 +222,23 @@
           <section id="the-effects-and-artefacts-of-autonomous-engagement" rel="schema:hasPart" resource="#the-effects-and-artefacts-of-autonomous-engagement">
             <h2 property="schema:name">The Effects and Artefacts of Autonomous Engagement</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p> The Web’s design stands out because of its absence of centralised control, both for technical reasons of scalability and resilience as well as a societal need for freedom of expression. A challenge in such large-scale decentralised networks is how related publications can be semantically interlinked, even if they are authored and published by different parties. Centralising their publications is practiced by the majority of authoring networks today, demanding authors to give up some or all of their control in exchange for technical simplicity.</p>
+
+              <p>dokieli shows it is possible to build a social machine wherein people interact with each other without the need of centralised coordination. Users can choose storage space for their content independently of the applications with which they edit and view that content. Documents are connected statically through links and dynamically through Linked Data Notifications. This is a proof for the viability of a decentralised authoring and annotation environment built with Web standards.</p>
+
+              <p>On the other hand, dokieli’s use of standards shows that dokieli itself is only one means to an end: once the document has been created, it lives on independently. The social machine consists of people and documents, connected by Web standards, with dokieli acting as just one possible catalyst. Different Web applications can incorporate any of dokieli’s functions and implement the principles to varying extents. Since the data is loosely coupled to the application, we avoid the <em>walled garden</em> problem of many current social platforms today.</p>
+
+              <p>A couple of important socio-technical challenges remain. Resources might want to indicate in a granular way which actions they support or encourage, such as liking, bookmarking, or sharing, and perhaps conditions about which notifications should be sent when any of these events take place. In order to encourage positive behaviour, we might want ways to provide moderation, and solutions to prevent harassment and abuse. Closely related is the issue of identity, pseudonymity and anonymity, and its relation with trust and verification. While there is likely no final solution to these issues in an open ecosystem, it is worthwhile exploring within dokieli or other tools based on similar design principles.</p>
+
+              <p>Future work can examine how additional features can be realised on top of existing Web standards, or where more development is required. Real-time collaborative editing is often realised with centralised communication (even though some peer to peer alternatives exist). Services like top-down annotations or automated entity marking can improve the discoverability of a publication, yet the question of how to offer these without being tied to certain servers needs to be still solved.</p>
+
+              <hr />
+
               <p>The future of self-registration of scholarly units depends in large part on how well its practitioners, advocates, educators alike, are able to reconcile the ideals that the medium offers with the realities of the commercial third-party systems within which scholarly communication operates and the homogenizing influences of scholarly socialisation.</p>
 
               <p>While these challenges are technically surmountable, they need to be taken seriously if, the extreme case where "anyone can say anything about anything" is subject to be treated on equal grounds as a piece of information that is well certified. One contemporary and popular example of this scenario is where nearly all scientists being in agreement on the presence of global warming, climate change, and its consequences. In order to honour a commitment to public service, scientific communication - independent to self-registration - must remain grounded on reproducible and/or replicable facts and explanations, attributable and accountable participants. After all, the output affects journalism, further scientific knowledge exchange, policy making, as well public opinion and perception.</p>
+
+              <p class="todo">Add notes from fragile science</p>
             </div>
           </section>
 
