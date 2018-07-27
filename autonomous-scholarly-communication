@@ -72,7 +72,12 @@
             <div datatype="rdf:HTML" property="schema:description">
               <p>Discoverability</p>
               <p>Sustainability</p>
-              <p>Trust, reliability, .. to distinguish fakescience/predatory from legit/non-predatory Beyond "anyone can say anything about anything" eg. publish study preregistration to establish trust, share provenance, data, software/code.., open peer review (OPR) process (when/who/what)</p>
+              <p>Trust, reliability, .. to distinguish fakescience/predatory from legit/non-predatory Beyond "anyone can say anything about anything" eg. publish study preregistration to establish trust, share provenance, data, software/code.., open peer review (OPR) process (when/who/what), competing/conflict of interest, grant information</p>
+
+
+              <p>In <cite><a href="https://f1000research.com/articles/6-588/v2">What is open peer review? A systematic review</a></cite>, Ross-Hellauer summarises criticisms of traditional peer review: <q>unreliability and inconsistency, delay and expense, lack of accountability and risks of subversion, social and publication biases, lack of incentives, wastefulness</q>
+
+
             </div>
           </section>
 
