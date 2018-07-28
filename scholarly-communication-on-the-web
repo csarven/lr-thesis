@@ -433,6 +433,13 @@ transform:rotate(-60deg);
                     <footer><cite><a href="https://www.w3.org/DesignIssues/LinkedData.html">Linked Data - Design Issues</a></cite>, 2006</footer>
                   </blockquote>
 
+                  <div class="note">
+                    <h4>Note</h4>
+                    <div>
+                      <p>In the <a href="https://web.archive.org/web/20061115043657/http://www.w3.org/DesignIssues/LinkedData.html">original version</a> of the Linked Data design principles, the third statement was <q>When someone looks up a URI, provide useful information.</q> The principles that are currently in use was updated in 2009.</p>
+                    </div>
+                  </div>
+
                   <p>It can be noted here that the application of the Linked Data design principles to identify, describe, and discover information, is compatible with the AWWW.</p>
                 </div>
               </section>
