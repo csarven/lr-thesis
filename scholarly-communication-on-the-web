@@ -541,6 +541,8 @@ transform:rotate(-60deg);
               <p id="unix-philosophy">In <cite><a href="http://www.catb.org/~esr/writings/taoup/html/">The Art of Unix Programming</a></cite>, 2003, Eric S. Raymond captures <a href="http://www.catb.org/~esr/writings/taoup/html/ch01s06.html">a series of bottom-up design rules</a> for the Unix environment and software including: modularity, clarity, composition, separation, parsimony, transparency, robustness, least surprise, silence, repair, economy, generation, optimization, diversity, and extensibility.</p>
 
 
+              <p>See also <cite><a href="https://www.w3.org/DesignIssues/Open.html">The Many Meanings of Open</a></cite></p>
+
 
               <p>Several movements during the 1990s towards fundamentally transforming scholarly communication using newly available digital network technologies.</p>
 
