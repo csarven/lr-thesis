@@ -333,7 +333,7 @@ transform:rotate(-60deg);
                         <dd>A specific type of URI that persistently identifies a resource. Once assigned to a resource, it cannot be reassigned.</dd>
                       </dl>
 
-                      <p>In this thesis, we will focus mostly on URIs with the <span class="highlight-uri-scheme">"<span class="highlight-uri-scheme-http">http</span>" scheme</span>.</p>
+                      <p>In this thesis, we will focus mostly on URIs with the <span class="highlight-uri-scheme">"<span class="highlight-uri-scheme-http">http</span>" scheme</span>. As specified in Axiom 2b: identity, the owner of the HTTP URI defines the identity relationship which exists between a URI and the resources associated with it. Their reuse and persistence are defined by the information publisher - which may be also be the "owner" of the URI space.</p>
                     </div>
                   </section>
 
