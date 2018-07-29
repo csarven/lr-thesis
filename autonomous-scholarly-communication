@@ -178,6 +178,14 @@
 
               <p>http://tracer.mementoweb.org/</p>
 
+              <h3>URI Persistence and Permanence</h3>
+              <p>In a long enough timeline, .. more of a promise. URIs are not inherently persistent but persistable.</p>
+              <p>Perseverance on Persistence: "what it would take to be able to persistently, precisely, and seamlessly revisit the web of the past" - hvdsomp</p>
+              <p>"Ultimately URI registration is a social agreement. URI owners declare a policy eg. implicit, written, verbal. If you announce a policy for your URIs eg. what happens in 1000 years, that says something about its intentions/reuse. Just as w3id, doi. Trust is built from there." - csarven</p>
+              <p>Publish (make public) archiving and permanence policies.. degree of accountability</p>
+              <p><abbr title="Persistent Identifier">PID</abbr>, DOI, w3id, PURL</p>
+
+              <p>See also <cite><a href="http://www.ijdc.net/article/download/9.1.331/362/">Persistent Identifiers for Scholarly Assets and the Web: The Need for an Unambiguous Mapping</a></cite> (10.2218/ijdc.v9i1.320) , <cite><a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2001414">Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data</a></cite> , <cite><a href="https://arxiv.org/pdf/1602.09102.pdf">Persistent URIs Must Be Used To Be Persistent</a></cite> , <cite><a href="http://philarcher.org/diary/2013/uripersistence/">Study on Persistent URIs</a></cite> (explores best practices)</p>
             </div>
           </section>
 
