@@ -186,6 +186,8 @@
               <p><abbr title="Persistent Identifier">PID</abbr>, DOI, w3id, PURL</p>
 
               <p>See also <cite><a href="http://www.ijdc.net/article/download/9.1.331/362/">Persistent Identifiers for Scholarly Assets and the Web: The Need for an Unambiguous Mapping</a></cite> (10.2218/ijdc.v9i1.320) , <cite><a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2001414">Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data</a></cite> , <cite><a href="https://arxiv.org/pdf/1602.09102.pdf">Persistent URIs Must Be Used To Be Persistent</a></cite> , <cite><a href="http://philarcher.org/diary/2013/uripersistence/">Study on Persistent URIs</a></cite> (explores best practices)</p>
+
+              <p>Maybe move <a href="linked-research#registration-of-identifiers-with-social-contracts">registration-of-identifiers-with-social-contracts</a> here.</p>
             </div>
           </section>
 
