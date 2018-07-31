@@ -85,17 +85,13 @@
           <section id="standards-for-decentralised-web" inlist="" rel="schema:hasPart" resource="#standards-for-decentralised-web">
             <h2 property="schema:name">Standards for Decentralised Web</h2>
             <div datatype="rdf:HTML" property="schema:description">
-<pre>
-** TCP/IP, DNS, HTTP
-** LDP
-** AS2, AP
-** WebAnnotation
-** LDN
-** Versioning: Memento, Fedora spec
-** Archiving
-</pre>
+              <p id="internet-web-protocols"><strong>Internet and Web Protocols</strong>: The foundational communication and transfer protocols of the Internet and the Web (eg. <abbr title="Transmission Control Protocol">TCP</abbr>/<abbr title="Internet Protocol">IP</abbr>, <abbr title="Domain Name Server">DNS</abbr>, <abbr title="Hypertxt Transfer Protocol">HTTP</abbr>) are designed to operate in a decentralised and distributed manner. In terms of global functionality, removing a single node from the network - a machine with an IP address - does not halt the whole network. Similarly, when an HTTP URL is no longer available (eg. typical "404 Not Found", "410 Gone" status messages), the other URLs are not affected. This particular behaviour, where the Web being functional without requiring bi-directional hyperlinks is considered to be a "feature" (rather than a "bug") of the overall system. However, Ted Nelson disputes this design choice with respect to the original Hypertext design.</p>
 
-              <p id="internet-web-protocols">The foundational communication and transfer protocols of the Internet and the Web (eg. <abbr title="Transmission Control Protocol">TCP</abbr>/<abbr title="Internet Protocol">IP</abbr>, DNS, HTTP) are designed to operate in a decentralised and distributed manner. In terms of global functionality, removing a single node from the network does not halt the whole network. Similarly, if an HTTP URL is no longer accessible (eg. typical "404 Not Found", "410 Gone" status messages) everything else still functions. This particular behaviour, where the Web being functional without requiring bi-directional hyperlinks is considered to "feature" (rather than a "bug") of the overall system. While Nelson disputes that with respect to the original Hypertext design.</p>
+              <p id="read-write-architecture"><strong>Read-Write architecture</strong>: LDP, LDT, RDF Form, Hydra</p>
+
+              <p id="social-web"><strong>Social Web</strong>: ActivityStream 2, ActivityPub, Web Annotation, Linked Data Notifications</p>
+
+              <p id="versioning"><strong>Versioning</strong>: Memento, Fedora spec</p>
 
 
               <section id="modularity-and-extensibility" inlist="" rel="schema:hasPart" resource="#modularity-and-extensibility">
@@ -119,7 +115,7 @@
               <p>Some of the advantages of decentralised storage: censorship resistance, persistent availability, self-monitoring, organic growth and optimisation, monopoly disruption.</p>
               <p>Disadvantages...</p>
 
-              <p>Personal storage space (LDP/Solid/Fedora/mayktso)</p>
+              <p>Personal storage space: Virtually any HTTP server, but more specifically servers with an approach for a read-write Linked Data architecture (LDP/Solid/Fedora/mayktso)</p>
 
               <p>Places the foremost responsibility on the "owners" of the units of communication to determine backup and replication strategies, in addition to third-party's performing the same functions.</p>
             </div>
@@ -131,34 +127,68 @@
             <div datatype="rdf:HTML" property="schema:description">
               <p>Identity can be personal, community, or state issued...</p>
 
+              <p>Identities, pseudonyms, and personas.. <cite><a href="http://dx.doi.org/10.1145/2740908.2743975S">Social Personal Data Stores: the Nuclei of Decentralised Social Machines</a></cite></p>
+
+              <p>In <cite><a href="http://dr.amy.gy/">The Presentation of Self on a Decentralised Web</a></cite>, 2017, Amy Guy, the study reveals that <q cite="https://rhiaro.github.io/thesis/chapter3#ccccc">online self-presentation is both constituted and affected by <em>who</em> sees a representation of an individual, and <em>what</em> it is they see, both of which are encompassed by the situation <em>whereby</em> it is seen</q>. The results are summarised as a conceptual framework as the 5Cs for presentation of the self online: <q>context, control, customisability, connectivity, cascade</q>.</p>
+
+              <p>Desired qualities: global identifier, extensible, self-expression,</p>
+
+              <p>Extensibility... and self-expression (contrast with silo/accounts and trusted third-party managed identification systems</p>
+
+              <p>Third-party controlled:</p>
+              <p>Community or state controlled identifiers are a class of identifiers that are ultimately third-party controlled in that their ownership, governance, description is beyond the individuals jurisdiction. For some use cases, this can be desirable in that the persistence and maintenance of the identifiers are handled by the group as a whole. Typically there are policies in place with a promise to keep them around .. </p>
+
+              <p>ORCID aims to be part of the commons/community managed. Ultimately third-party controlled - outside of the researcher's jurisdiction, constrained expression..</p>
+
+              <p>Self-controlled:</p>
+              <p>..</p>
+
+              <figure>
+                <object></object>
+                <figcaption>Control: Personal|-----|Community</figcaption>
+              </figure>
+
+              <p>In this thesis we are generally interested in identifiers that enable their owners maximum expression.</p>
 
               <p>The <cite><a href="https://www.w3.org/2005/Incubator/webid/spec/">WebID</a></cite> specification outlines a universal identification mechanism on the Web that is distributed...</p>
               <p>https://www.w3.org/2005/Incubator/webid/spec/identity</p>
-              <p>https://www.w3.org/2005/Incubator/webid/spec/tls</p>
 
-              <p>Extensibility... and self-expression (contrast with silo/accounts and trusted third-party managed identification systems eg ORCID</p>
+              <p>Relationships between identifiers: sameAs, preferredURI</p>
+
+              <p>My personal WebID: http://csarven.ca/#i and my ORCID: http://orcid.org/0000-0002-0880-9125</p>
             </div>
           </section>
 
-
-          <section id="authentication-and-authorization" inlist="" rel="schema:hasPart" resource="#authentication-and-authorization">
-            <h2 property="schema:name">Global Authentication and Authorization</h2>
+          <section id="authentication" inlist="" rel="schema:hasPart" resource="#authentication">
+            <h2 property="schema:name">Authentication</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p>Authentication mechanisms: moving from username/password --> TLS, OIDC, ?</p>
 
-              <section id="authentication" inlist="" rel="schema:hasPart" resource="#authentication">
-                <h3 property="schema:name">Authentication</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                </div>
-              </section>
+              <p><cite><a href="https://www.w3.org/2005/Incubator/webid/spec/tls">WebID-TLS</a></cite></p>
 
-              <section id="access-control" inlist="" rel="schema:hasPart" resource="#access-control">
-                <h3 property="schema:name">Access Control</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                </div>
-              </section>
+              <p><cite><a href="https://www.w3.org/TR/webauthn/">Web Authentication: An API for accessing Public Key credentials</a></cite></p>
             </div>
           </section>
+
+          <section id="authorization" inlist="" rel="schema:hasPart" resource="#authorization">
+            <h2 lang="en-us" property="schema:name" xml:lang="en-us">Authorization</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p><cite><a href="https://www.w3.org/wiki/WebAccessControl">Web Access Control</a></cite> mechanism with the <cite><a href="https://www.w3.org/ns/auth/acl">Access Control List</a></cite> (<abbr title="Access Control List">ACL</abbr>)</p>
+
+              <p>The ACL ontology, allows four modes of access: <q>Read</q>, <q>Write</q>, <q>Append</q>, and <q>Control</q>. As implied by the name, <em>read</em> allows resources to be accessible and interpretable. <em>Write</em> allows resources to be modified or deleted. <em>Append</em> is a specific kind of Write in that while adding of information is permitted, removal is not. <em>Control</em> permits full read and write access.</p>
+
+              <p>The following code snippet allows an agent to be the owner of a resource:</p>
+              <figure class="listing">
+                <pre><code>&lt;#owner&gt;</code>
+<code>  a acl:Authorization ;</code>
+<code>  acl:agent &lt;http://csarven.ca#i&gt; ;</code>
+<code>  acl:accessTo &lt;./&gt; ;</code>
+<code>  acl:mode acl:Control .</code></pre>
+                <figcaption>Authorisation policy that gives control access to an agent for a resource.</figcaption>
+              </figure>
+            </div>
+          </section>
+
 
 
           <section id="persistence-and-preservation" inlist="" rel="schema:hasPart" resource="#persistence-and-preservation">
