@@ -320,7 +320,7 @@ transform:rotate(-60deg);
                         <footer><cite><a href="https://www.w3.org/DesignIssues/Axioms.html#uri" rel="cito:includesQuotationFrom">Universal Resource Identifiers -- Axioms of Web Architecture</a></cite></footer>
                       </blockquote>
 
-                      <p>URIs makes it possible for real or abstract objects to be identified. When HTTP URIs are dereferenced different representations (data formats) are made available from corresponding <cite><a href="https://tools.ietf.org/html/rfc1738">Uniform Resource Locators</a></cite> (<abbr title="Uniform Resource Locator">URL</abbr>). While URIs makes it possible to identify (name) things on the Web, URLs make it possible for humans and machines to locate and to interact further with content.</p>
+                      <p>URIs make it possible for real or abstract objects to be identified. When HTTP URIs are dereferenced different representations (data formats) are made available from corresponding <cite><a href="https://tools.ietf.org/html/rfc1738">Uniform Resource Locators</a></cite> (<abbr title="Uniform Resource Locator">URL</abbr>). While URIs makes it possible to identify (name) things on the Web, URLs make it possible for humans and machines to locate and to interact further with content.</p>
 
                       <p>We refer to W3C's <cite><a href="https://www.w3.org/TR/uri-clarification/">URIs, URLs, and URNs: Clarifications and Recommendations 1.0</a></cite> from 2001 to distinguish their purpose:</p>
 
@@ -332,6 +332,8 @@ transform:rotate(-60deg);
                         <dt>URN</dt>
                         <dd>A specific type of URI that persistently identifies a resource. Once assigned to a resource, it cannot be reassigned.</dd>
                       </dl>
+
+                      <p id="generic-resources">A URI represents a resource as a conceptual entity and can have different electronic representations. The degree of genericity of a resource on the other hand is determined by the authority that allocates the URI. For example, a spectrum of URIs - generic to specific - can be assigned to a resource while conceptually being about the same thing. Time, language, content type, and the target medium are some of the common dimensions of genericity that Web software handles - <cite><a href="https://www.w3.org/DesignIssues/Generic">Generic Resources</a></cite>.
 
                       <p>In this thesis, we will focus mostly on URIs with the <span class="highlight-uri-scheme">"<span class="highlight-uri-scheme-http">http</span>" scheme</span>. As specified in Axiom 2b: identity, the owner of the HTTP URI defines the identity relationship which exists between a URI and the resources associated with it. Their reuse and persistence are defined by the information publisher - which may be also be the "owner" of the URI space.</p>
                     </div>
