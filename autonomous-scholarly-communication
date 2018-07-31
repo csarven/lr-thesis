@@ -56,7 +56,7 @@
 
               <p>If scholarly communication is predominately and increasingly driven by the Web, how can we approach to integrate scholarly affairs with the inherent properties of the Web? One way to look at this is by examining history: the printing press played a major role in moving the non-literate public to learn to read and write for themselves. Given the Web, we find ourselves in a similar situation, with different modes of communication. In order to use the Web effectively - as far as taking advantage of its built-in characteristics, the research community essentially needs to better position itself to self-publish and disseminate their knowledge, as well as be more attributable and accountable in their social engagement. This kind of ongoing (r)evolution is vital for the advancement of scholarly communication; unchaining itself from antiquated and inadequate practices, towards actual and complete Web-centric information flows and participations, in order to better aid societal advancement.</p>
 
-              <p>The notion of <q>control yourself</q> can postulate that the knowledge creators and participants can objectively demonstrate that self-publishing of different units of communication can be socially, technically, and financially preferable to a third-party's handling of the same information and interactions, as well as their reuse.</p>
+              <p>The notion of <q>control yourself</q> can postulate that the knowledge creators and participants can objectively demonstrate that self-publishing of different units of communication can be socially, technically, and financially preferable to a third-party's handling of the same information and interactions, as well as their reuse. It opens up the possibility for autonomous (decentralised) participation, enabling universally accessible units that are human and machine-readable, as well as socially aware interactions.</p>
 
               <hr />
 
@@ -75,7 +75,7 @@
               <p>Trust, reliability, .. to distinguish fakescience/predatory from legit/non-predatory Beyond "anyone can say anything about anything" eg. publish study preregistration to establish trust, share provenance, data, software/code.., open peer review (OPR) process (when/who/what), competing/conflict of interest, grant information</p>
 
 
-              <p>In <cite><a href="https://f1000research.com/articles/6-588/v2">What is open peer review? A systematic review</a></cite>, Ross-Hellauer summarises criticisms of traditional peer review: <q>unreliability and inconsistency, delay and expense, lack of accountability and risks of subversion, social and publication biases, lack of incentives, wastefulness</q>
+              <p>In <cite><a href="https://f1000research.com/articles/6-588/v2">What is open peer review? A systematic review</a></cite>, Ross-Hellauer summarises criticisms of traditional peer review: <q>unreliability and inconsistency, delay and expense, lack of accountability and risks of subversion, social and publication biases, lack of incentives, wastefulness</q></p>
 
 
             </div>
@@ -95,9 +95,7 @@
 ** Archiving
 </pre>
 
-              <p id="internet-web-protocols">The foundational communication and transfer protocols of the Internet and the Web (eg. <abbr title="Transmission Control Protocol">TCP</abbr>/<abbr title="Internet Protocol">IP</abbr>, DNS, HTTP) are designed to operate in a decentralised and distributed manner.</p>
-
-
+              <p id="internet-web-protocols">The foundational communication and transfer protocols of the Internet and the Web (eg. <abbr title="Transmission Control Protocol">TCP</abbr>/<abbr title="Internet Protocol">IP</abbr>, DNS, HTTP) are designed to operate in a decentralised and distributed manner. In terms of global functionality, removing a single node from the network does not halt the whole network. Similarly, if an HTTP URL is no longer accessible (eg. typical "404 Not Found", "410 Gone" status messages) everything else still functions. This particular behaviour, where the Web being functional without requiring bi-directional hyperlinks is considered to "feature" (rather than a "bug") of the overall system. While Nelson disputes that with respect to the original Hypertext design.</p>
 
 
               <section id="modularity-and-extensibility" inlist="" rel="schema:hasPart" resource="#modularity-and-extensibility">
@@ -122,6 +120,8 @@
               <p>Disadvantages...</p>
 
               <p>Personal storage space (LDP/Solid/Fedora/mayktso)</p>
+
+              <p>Places the foremost responsibility on the "owners" of the units of communication to determine backup and replication strategies, in addition to third-party's performing the same functions.</p>
             </div>
           </section>
 
@@ -199,6 +199,10 @@
               <p>See also <cite><a href="http://www.ijdc.net/article/download/9.1.331/362/">Persistent Identifiers for Scholarly Assets and the Web: The Need for an Unambiguous Mapping</a></cite> (https://www.slideshare.net/hvdsomp/persistent-identifiers-and-the-web-the-need-for-an-unambiguous-mapping) , <cite><a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2001414">Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data</a></cite> , <cite><a href="https://arxiv.org/pdf/1602.09102.pdf">Persistent URIs Must Be Used To Be Persistent</a></cite> (not using DOIs when even available) , <cite><a href="http://philarcher.org/diary/2013/uripersistence/">Study on Persistent URIs</a></cite> (explores best practices)</p>
 
               <p>Maybe move <a href="linked-research#registration-of-identifiers-with-social-contracts">registration-of-identifiers-with-social-contracts</a> here.</p>
+
+
+              <p>Content Integrity.. link rot / content drift</p>
+              <p><cite><a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115253">Scholarly Context Not Found: One in Five Articles Suffers from Reference Rot</a></cite></p>
             </div>
           </section>
 
