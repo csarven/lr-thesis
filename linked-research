@@ -118,7 +118,7 @@
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>The desire to have scientific knowledge accessible and serve humanity for good was expressed by <a href="https://en.wikipedia.org/wiki/Vannevar_Bush">Vannevar Bush</a> through the concept of a <cite>memex</cite> - to supplement their collective memory - in his <cite><a href="https://web.archive.org/web/20100115164714/http://www.ps.uni-saarland.de:80/~duchier/pub/vbush/vbush.txt">As We May Think</a></cite> in 1945.</p>
 
-                  <p>A globally democractic scientific and scholarly inquiry and progress fundamentally depends upon a well-informed citizenry. For societies to be well informed, the people must have ready access to information about the knowledge output of the scholarly community, the actions of the public officials based on available knowledge, and the development of public policies. The philosophical underpinnings of the <cite><a href="https://en.wikipedia.org/wiki/Freedom_of_information">Freedom of Information</a></cite> (<abbr title="Freedom of Information">FOI</abbr>) social movement trace back to the Age of Enlightenment (<span class="todo"></span>). Over the centuries, governments have incorporated constitutional, legal, and historical expressions of the people's right to public information (<span class="todo"></span>). A global freedom of information movement can be traced to the <cite>World Press Conference</cite> in 1893. The movement revolved around the need for unrestricted "access to news at its source and free transmission" of the news - - <cite>Freedom of Information Laws</cite>, p.53-54, urn:isbn:0123876729. A parallel movement in scholarly communication today is under the umbrella of <cite>Open Science</cite></p>
+                  <p>A globally democratic scientific and scholarly inquiry and progress fundamentally depends upon a well-informed citizenry. For societies to be well informed, the people must have ready access to information about the knowledge output of the scholarly community, the actions of the public officials based on available knowledge, and the development of public policies. The philosophical underpinnings of the <cite><a href="https://en.wikipedia.org/wiki/Freedom_of_information">Freedom of Information</a></cite> (<abbr title="Freedom of Information">FOI</abbr>) social movement trace back to the Age of Enlightenment (<span class="todo"></span>). Over the centuries, governments have incorporated constitutional, legal, and historical expressions of the people's right to public information (<span class="todo"></span>). A global freedom of information movement can be traced to the <cite>World Press Conference</cite> in 1893. The movement revolved around the need for unrestricted "access to news at its source and free transmission" of the news - - <cite>Freedom of Information Laws</cite>, p.53-54, urn:isbn:0123876729. A parallel movement in scholarly communication today is under the umbrella of <cite>Open Science</cite></p>
 
                   <p>We attribute <em>universal access</em> to information into two distinct but related areas:</p>
 
@@ -140,7 +140,7 @@
                   </blockquote>
 
 
-                  <p id="free-culture"><strong>Free Culture</strong>: In order to disseminate scientific information on the Web with minimal friction, usage rights and responsibilities should permit anyone to share and remix information under various conditions. We align this with existing movements like Open Science, and the <a href="https://en.wikipedia.org/wiki/Free-culture_movement">free-culture movement</a> so that both humans and machines can participate by modifying and (re)distributing units of communication without delay in the form of <q>free content and open content</q> that is network-accessible through open communication protocols. Policies about the permissions and obligations should be human and machine-interpretable to facilitate accurate, fair, secure, and privacy-aware use.</p>
+                  <p id="free-culture"><strong>Free Culture</strong>: In order to disseminate scientific information on the Web with minimal friction, usage rights and responsibilities should permit anyone to share, reuse, and remix information under various conditions. We align this with existing movements like Open Science, and the <a href="https://en.wikipedia.org/wiki/Free-culture_movement">free-culture movement</a> so that both humans and machines can participate by modifying and (re)distributing units of communication without delay in the form of <q>free content and open content</q> that is network-accessible through open communication protocols. Policies about the permissions and obligations should be human and machine-interpretable to facilitate accurate, fair, secure, and privacy-aware use.</p>
 
 
                   <h5 id="inclusiveness-diversity">Inclusiveness and Diversity</h5>
@@ -190,7 +190,6 @@
                   </ul>
 
                   <p id="localization">The localization of content would mean that user's preferred (or acceptable) visual design can be presented. For instance, human-readable numeric, date and time formats can be adapted to what we are familiar with; symbols, icons, and colours can be anywhere from what's culturally acceptable, familiar or comfortable for us to use; text and graphics can be normalised or transformed to minimise misinterpretation.</p>
-
 
                   <p><em>Effects and Artefacts</em>: It extends the physical, social, psychological, or intellectual function of an <em>actor</em>.</p>
                 </div>
@@ -350,7 +349,7 @@
           <section id="registration-of-identifiers-with-social-contracts" inlist="" rel="schema:hasPart" resource="#registration-of-identifiers-with-social-contracts">
             <h2 property="schema:name">Registration of Identifiers with Social Contracts</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Identifying units on the Web can be done with kinds of social contracts. Here we discuss a few that pertain to registration:</p>
+              <p>Identifying units on the Web can be done with different kinds of social contracts. Here we discuss a few that pertain to registration:</p>
 
               <p id="purl"><cite><a href="">Persistent Uniform Resource Locator</a></cite> (<abbr title="Persistent Uniform Resource locator">PURL</abbr>) is a way to provide an HTTP URL a permanent redirect to another HTTP URL. PURLs can be registered and managed by anyone. The PURL service is currently administered by the <cite><a href="https://archive.org/">Internet Archive</a></cite>.</p>
 
