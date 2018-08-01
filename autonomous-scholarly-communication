@@ -181,10 +181,20 @@
               <figure class="listing">
                 <pre><code>&lt;#owner&gt;</code>
 <code>  a acl:Authorization ;</code>
-<code>  acl:agent &lt;http://csarven.ca#i&gt; ;</code>
+<code>  acl:agent &lt;http://csarven.ca/#i&gt; ;</code>
 <code>  acl:accessTo &lt;./&gt; ;</code>
 <code>  acl:mode acl:Control .</code></pre>
-                <figcaption>Authorisation policy that gives control access to an agent for a resource.</figcaption>
+                <figcaption>An authorisation policy that gives control access to an agent for a resource.</figcaption>
+              </figure>
+
+              <p>The following code snippet allows a class of agents to perform read and append operations on a resource eg. an inbox:</p>
+              <figure class="listing">
+                <pre><code>&lt;#public&gt;</code>
+<code>  a acl:Authorization ;</code>
+<code>  acl:agentClass foaf:Agent ;</code>
+<code>  acl:accessTo &lt;./&gt; ;</code>
+<code>  acl:mode acl:Read , acl:Append .</code></pre>
+                <figcaption>An authorisation policy that gives append access to a class of agents for a resource.</figcaption>
               </figure>
             </div>
           </section>
