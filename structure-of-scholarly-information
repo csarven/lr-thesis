@@ -212,7 +212,7 @@ Rough coverage:
                 <div>
                   <dl>
                     <dt id="declarative-programming-paradigm">Declarative programming paradigm</dt>
-                    <dd>...</dd>
+                    <dd>Declarative programming is a style of building the structure and expressing the semantics of programs without explicitly describing its flow of control, ie. the <em>what</em> to accomplish. The imperative programming style on the other hand is about the <em>how</em> to program should execute; use statements to change the program state. The declarative approach tends to be shorter, easy to understand, independent of implementation, less likely to contain errors as well as to easily correct, and tractable. Many markup languages such as HTML and XML family (XSLT, SVG, MathML) are declarative. For example, HTML is a declarative domain-specific markup language on what can be processed or should appear as part of a Webapage. Moreover, HTML being easy to understand further contributed to its adoption eg. anyone that wanted to express some information in a Webpage could "view source" of existing Webpages without any further steps.</dd>
 
                     <dt id="rdf-as-the-language">RDF as the language</dt>
                     <dd>
