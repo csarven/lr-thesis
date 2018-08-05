@@ -67,6 +67,18 @@
           </section>
 
 
+              <section id="modularity-and-extensibility" inlist="" rel="schema:hasPart" resource="#modularity-and-extensibility">
+                <h2 property="schema:name">Modularity and Extensibility</h2>
+                <div datatype="rdf:HTML" property="schema:description">
+<pre>
+** Interoperable standards / technology stack
+** Pay as you go (linked information space), eg. own profile today, own storage space tomorrow..
+** ORCID: storage, inbox, outbox, sameAs, preferredURI..
+</pre>
+                </div>
+              </section>
+
+
           <section id="challenges" inlist="" rel="schema:hasPart" resource="#challenges">
             <h2 property="schema:name">Challenges</h2>
             <div datatype="rdf:HTML" property="schema:description">
@@ -85,25 +97,28 @@
           <section id="standards-for-decentralised-web" inlist="" rel="schema:hasPart" resource="#standards-for-decentralised-web">
             <h2 property="schema:name">Standards for Decentralised Web</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p id="internet-web-protocols"><strong>Internet and Web Protocols</strong>: The foundational communication and transfer protocols of the Internet and the Web (eg. <abbr title="Transmission Control Protocol">TCP</abbr>/<abbr title="Internet Protocol">IP</abbr>, <abbr title="Domain Name Server">DNS</abbr>, <abbr title="Hypertxt Transfer Protocol">HTTP</abbr>) are designed to operate in a decentralised and distributed manner. In terms of global functionality, removing a single node from the network - a machine with an IP address - does not halt the whole network. Similarly, when an HTTP URL is no longer available (eg. typical "404 Not Found", "410 Gone" status messages), the other URLs are not affected. This particular behaviour, where the Web being functional without requiring bi-directional hyperlinks is considered to be a "feature" (rather than a "bug") of the overall system. However, Ted Nelson disputes this design choice with respect to the original Hypertext design.</p>
 
-              <p id="read-write-architecture"><strong>Read-Write architecture</strong>: LDP, LDT, RDF Form, Hydra</p>
+              <p id="internet-web-protocols"><strong>Internet and Web Protocols</strong>: The foundational communication and transfer protocols of the Internet and the Web (eg. <abbr title="Transmission Control Protocol">TCP</abbr>/<abbr title="Internet Protocol">IP</abbr>, <abbr title="Domain Name Server">DNS</abbr>, <abbr title="Hypertext Transfer Protocol">HTTP</abbr>) are designed to operate in a decentralised and distributed manner. In terms of global functionality, removing a single node from the network - a machine with an IP address - does not halt the whole network. Similarly, when an HTTP URL is no longer available (eg. typical "404 Not Found", "410 Gone" status messages), the other URLs are not affected. This particular behaviour, where the Web being functional without requiring bi-directional hyperlinks is considered to be a "feature" (rather than a "bug") of the overall system. However, Ted Nelson disputes this design choice with respect to the original Hypertext design.</p>
+
+              <p id="read-write-web"><strong>Read-Write Web</strong>: AWWW, .. HTTP, URI</p>
+
+
+              <p id="linked-data-platform"><cite><a href="https://www.w3.org/TR/ldp/">Linked Data Platform</a></cite> (<abbr title="Linked Data Platform">LDP</abbr>) is a RESTful read-write API for Web resources, which can group related resources together into constructs known as <q>Containers</q>. It uses the RDF data model the describe the state of RDF and non-RDF resources. <cite><a href="https://www.w3.org/TR/ldp-ucr/">Linked Data Platform Use Cases and Requirements</a> outlines a wide-range of user stories, use cases, scenarioes, and requirements which was used as the bases for the LDP specification.</p>
+
+              <p id="hydra-core-vocabulary"><cite><a href="http://www.hydra-cg.com/spec/latest/core/">Hydra</a></cite> is a vocabulary to enable the creation of hypermedia-driven Web APIs by enabling a server to advertise affordances of its resources - machine-readable valid state transitions - to a client. A client uses this information to construct HTTP requests in order to perform possible read-write operations. Hydra enables generic client applications to be built without hardcoding knowledge about the available operations against Web APIs.</p>
+
+              <p id="linked-data-fragments"><cite><a href="http://linkeddatafragments.org/">Linked Data Fragments</a></cite> (<abbr title="Linked Data Fragments">LDF</abbr>) is the concept of having a uniform view on Linked Data interfaces that can be used towards reliable Web querying. To that end, a client asks a server about the kinds of Linked Data fragments that are available and then dynamically adapts its query plan for the server to execute. A Linked Data fragment is defined by three characteristics: data (what triples does it contain?), metadata (what do we know abut it?), controls (how to access more data?).</p>
+
+              <p id="triple-pattern-fragments"><cite><a href="http://www.hydra-cg.com/spec/latest/triple-pattern-fragments/">Triple Pattern Fragments</a></cite> (<abbr title="Triple Pattern Fragments">TPF</abbr>) is one possible way for a server to define a fragment that enable live querying over the dataset on the client-side. TPF's hypermedia controls are expressed using the Hydra vocabulary.</p>
+
+              <!-- <p id="linked-data-templates"><strong>Linked Data Templates</strong>: <cite><a href="">Linked Data Templates</a></cite> (<abbr title="Linked Data Templates">LDT</abbr>)</p> -->
+
+              <!-- <p id="rdforms"></p> -->
+
 
               <p id="social-web"><strong>Social Web</strong>: ActivityStream 2, ActivityPub, Web Annotation, Linked Data Notifications</p>
 
               <p id="versioning"><strong>Versioning</strong>: Memento, Fedora spec</p>
-
-
-              <section id="modularity-and-extensibility" inlist="" rel="schema:hasPart" resource="#modularity-and-extensibility">
-                <h3 property="schema:name">Modularity and Extensibility</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-<pre>
-** Interoperable standards / technology stack
-** Pay as you go (linked information space), eg. own profile today, own storage space tomorrow..
-** ORCID: storage, inbox, outbox, sameAs, preferredURI..
-</pre>
-                </div>
-              </section>
 
             </div>
           </section>
