@@ -114,6 +114,8 @@
 
               <!-- <p id="rdforms"></p> -->
 
+              <p id="rdf-post"><cite><a href="http://www.lsrn.org/semweb/rdfpost.html">RDF/POST Encoding for RDF</a></cite> uses the W3C HTML 4.01 Recommendation to specify read-write operations of RDF data through form-encoded RDF serialisation. Read operations are done by having an RDF/POST document encoded in HTTP GET URL, and write operations are sent via HTTP POST with form-urlencoded media type.</p>
+
               <p>The design pattern for these Linked Data centric read-write architectures can be categorised as follows:</p>
 
               <ul>
