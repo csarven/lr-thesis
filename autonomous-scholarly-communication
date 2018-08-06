@@ -104,7 +104,7 @@
 
               <hr />
 
-              <p id="linked-data-platform"><cite><a href="https://www.w3.org/TR/ldp/">Linked Data Platform</a></cite> (<abbr title="Linked Data Platform">LDP</abbr>) is a RESTful read-write API for Web resources, which can group related resources together into constructs known as <q>Containers</q>. It uses the RDF data model the describe the state of RDF and non-RDF resources. <cite><a href="https://www.w3.org/TR/ldp-ucr/">Linked Data Platform Use Cases and Requirements</a></cite> outlines a wide-range of user stories, use cases, scenarios, and requirements which was used as the bases for the LDP specification.</p>
+              <p id="linked-data-platform"><cite><a href="https://www.w3.org/TR/ldp/">Linked Data Platform</a></cite> (<abbr title="Linked Data Platform">LDP</abbr>) is a RESTful read-write API for Web resources. LDP has distinct notions for <q>resource</q> and <q>container</q>; constructs intended to group resources. LDP uses the RDF data model to describe the state of RDF and non-RDF resources. <cite><a href="https://www.w3.org/TR/ldp-ucr/">Linked Data Platform Use Cases and Requirements</a></cite> outlines a wide-range of user stories, use cases, scenarios, and requirements which was used as the bases for the LDP specification. LDP can be used to mimic a file system abstraction interacting with Web resources over HTTP. The <cite><a href=https://www.w3.org/TR/ldp-paging/">LDP Paging</a></cite> mechanism can be used by clients and servers to efficiently request and serve a resource description, eg. resources in a container, in multiple parts. All LDP servers and clients can interact with each other using the same HTTP interface in context of Linked Data to perform CRUD operations.</p>
 
               <p id="hydra-core-vocabulary"><cite><a href="http://www.hydra-cg.com/spec/latest/core/">Hydra</a></cite> is a vocabulary to enable the creation of hypermedia-driven Web APIs by enabling a server to advertise affordances of its resources - machine-readable valid state transitions - to a client. A client uses this information to construct HTTP requests in order to perform possible read-write operations. Hydra enables generic client applications to be built without hardcoding knowledge about the available operations against Web APIs.</p>
 
@@ -115,6 +115,10 @@
               <p id="linked-data-templates"><cite><a href="https://atomgraph.github.io/Linked-Data-Templates/">Linked Data Templates</a></cite> (<abbr title="Linked Data Templates">LDT</abbr>) provides the means to define read-write Linked Data APIs declaratively using SPARQL and specify a uniform interaction protocol for them. An LDT based server applies re-usable RDF ontologies to define application structure declaratively as a set of instructions for resource representation processing. To this end, "templating" is where an HTTP operation is mapped to a certain URI pattern that a server executes a SPARQL command in order to drive RDF CRUD processing. When a client triggers a particular request pattern, the server gives a suitable response based on available templates that are identified with URIs.</p>
 
               <p id="rdf-post"><cite><a href="http://www.lsrn.org/semweb/rdfpost.html">RDF/POST Encoding for RDF</a></cite> uses the W3C HTML 4.01 Recommendation to specify read-write operations of RDF data through form-encoded RDF serialisation. Read operations are done by having an RDF/POST document encoded in HTTP GET URL, and write operations are sent via HTTP POST with form-urlencoded media type.</p>
+
+              <p id="fedora-api"><cite><a href="https://fcrepo.github.io/fcrepo-specification/">Fedora API Specification</a></cite> refines the semantics and interaction patterns of the LDP specification in order to address the needs of repositories for durable access to digital data. Its goal is to facilitate interoperability with client applications. While the interactions patterns provides a mechanism for different client applications to communicate with servers, servers can be expected to vary in the kinds of services and affordances they offer for their resources. Fedora uses LDP as a foundation and defines the version identification and navigation scheme with respect to the Memento specification, integrates resource authorization and Web Access Control rules, provides a design for the publication of event notifications, and interaction patterns to support binary resource fixity verification.</p>
+
+              <hr />
 
               <p>The design pattern for these Linked Data centric read-write architectures can be categorised as follows:</p>
 
@@ -177,6 +181,10 @@
               <p>The <cite><a href="https://www.w3.org/2005/Incubator/webid/spec/">WebID</a></cite> specification outlines a universal identification mechanism on the Web that is distributed...</p>
               <p>https://www.w3.org/2005/Incubator/webid/spec/identity</p>
 
+
+              <p>A WebID is an HTTP URI that identifies an agent, eg. person, organisation, software. A WebID profile document is an RDF document that describes an agent.</p>
+
+
               <p>Relationships between identifiers: sameAs, preferredURI</p>
 
               <p>My personal WebID: http://csarven.ca/#i and my ORCID: http://orcid.org/0000-0002-0880-9125</p>
@@ -188,7 +196,12 @@
             <div datatype="rdf:HTML" property="schema:description">
               <p>Authentication mechanisms: moving from username/password --> TLS, OIDC, ?</p>
 
-              <p><cite><a href="https://www.w3.org/2005/Incubator/webid/spec/tls">WebID-TLS</a></cite></p>
+              <p><cite><a href="https://www.w3.org/2005/Incubator/webid/spec/tls">WebID-TLS</a></cite> is an enhancement to TLS protocol that includes looking up additional information from a WebID-Profile document </p>
+
+WebID+TLS — an enhancement to TLS protocol that includes looking up additional claims (specifically, Public Key association) from a WebID-Profile document en route to identity verification
+
+
+WebID+TLS+Delegation — an enhancement to WebID+TLS protocol that includes looking up delegation-oriented relationship types from a WebID-Profile document en route to identity verification.
 
               <p><cite><a href="https://www.w3.org/TR/webauthn/">Web Authentication: An API for accessing Public Key credentials</a></cite></p>
             </div>
