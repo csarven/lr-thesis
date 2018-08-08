@@ -177,6 +177,13 @@
                     <footer><cite><a href="http://www.w3.org/TR/ATAG20/#guidelines">ATAG 2.0 Guidelines</a></cite>, W3C</footer>
                   </blockquote>
 
+                  <p id="user-agent-accessibility-guidelines"><strong>User Agent Accessibility Guidelines</strong>: To support the general principles for the development of accessible user agents, ie. <q>any software that retrieves, renders and facilitates end-user interaction with web content</q>, the W3C <cite><a href="https://www.w3.org/TR/UAAG20/">User Agent Accessibility Guidelines</a></cite> (<abbr title="User Agent Accessibility Guidelines">UUAG</abbr>) specifies three layers of guidance for developers to integrate:</p>
+
+                  <ul>
+                    <li>overall principles: perceivable, operable, understandable, programmatic access, specifications and conventions;</li>
+                    <li>general guidelines to provide a framework to make user agents more accessible to users with disabilities;</li>
+                    <li>and success criteria in order to test conformance</li>
+                  </ul>
 
                   <p id="internationalization-and-localization"><strong lang="en-us" xml:lang="en-us">Internationalization and Localization</strong>: Adaptability of content and software to the needs of target audiences helps towards accessibility. For example, the mechanisms to cater information and interfaces so that people from any culture, region, or language preference can participate better. The W3C <cite><a href="https://www.w3.org/International/">internationalization</a></cite> (<abbr title="Internationalization">i18n</abbr>) and <cite><a href="">localization</a></cite> (<abbr title="Localization">l10n</abbr>) initiatives and best practices helps towards this end. Internationalization refers to the design and development of mechanisms so that adaptable localization can take place in users' environment.</p>
 
