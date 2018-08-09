@@ -64,7 +64,7 @@
 
               <p>We focus on two areas of centralisation on the Web that are at the forefront of the way scholarly communication is conducted on the Web and its ramifications on the rest of the sociotechnical system:</p>
 
-              <ul>
+              <ul type="lower-roman">
                 <li>data</li>
                 <li>application</li>
               </ul>
@@ -80,23 +80,14 @@
           </section>
 
 
-              <section id="modularity-and-extensibility" inlist="" rel="schema:hasPart" resource="#modularity-and-extensibility">
-                <h2 property="schema:name">Modularity and Extensibility</h2>
-                <div datatype="rdf:HTML" property="schema:description">
-<pre>
-** Interoperable standards / technology stack
-** Pay as you go (linked information space), eg. own profile today, own storage space tomorrow..
-** ORCID: storage, inbox, outbox, sameAs, preferredURI..
-</pre>
-                </div>
-              </section>
-
-
           <section id="challenges" inlist="" rel="schema:hasPart" resource="#challenges">
             <h2 property="schema:name">Challenges</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p>Interoperability</p>
+              <p>Modularity and Extensibility</p>
               <p>Discoverability</p>
               <p>Sustainability</p>
+              <p>Control</p>
               <p>Trust, reliability, .. to distinguish fakescience/predatory from legit/non-predatory Beyond "anyone can say anything about anything" eg. publish study preregistration to establish trust, share provenance, data, software/code.., open peer review (OPR) process (when/who/what), competing/conflict of interest, grant information</p>
 
 
@@ -159,6 +150,9 @@
               <p>Personal storage space: Virtually any HTTP server, but more specifically servers with an approach for a read-write Linked Data architecture (LDP/Solid/Fedora/mayktso)</p>
 
               <p>Places the foremost responsibility on the "owners" of the units of communication to determine backup and replication strategies, in addition to third-party's performing the same functions.</p>
+
+
+              <p>Pay as you go (linked information space), eg. own profile today, own storage space tomorrow..</p>
             </div>
           </section>
 
@@ -179,7 +173,8 @@
               <p>Third-party controlled:</p>
               <p>Community or state controlled identifiers are a class of identifiers that are ultimately third-party controlled in that their ownership, governance, description is beyond the individuals jurisdiction. For some use cases, this can be desirable in that the persistence and maintenance of the identifiers are handled by the group as a whole. Typically there are policies in place with a promise to keep them around .. </p>
 
-              <p>ORCID aims to be part of the commons/community managed. Ultimately third-party controlled - outside of the researcher's jurisdiction, constrained expression..</p>
+              <p>ORCID aims to be part of the commons/community managed. Ultimately third-party controlled - outside of the researcher's jurisdiction, constrained expression.. There is sameAs for WebID and possibly preferredURI: https://github.com/ORCID/ORCID-Source/issues/4398</p>
+              <p>ORCID: while having an ORCID, a person can have their storage, inbox ( https://twitter.com/csarven/status/905421364353490944 ), outbox ( https://twitter.com/csarven/status/991642357983514625 ) elsewhere...</p>
 
               <p>Self-controlled:</p>
               <p>..</p>
