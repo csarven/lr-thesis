@@ -144,11 +144,11 @@
                 <li><a href="https://www.w3.org/TR/selectors-states/">Selectors and States</a> describes the use of annotation Selectors as URI fragment identifiers relying on the formal specification and the semantics in the data model.</li>
               </ul>
 
-              <p id="activity-streams"><cite><a href="https://www.w3.org/TR/activitystreams-core/">Activity Streams 2.0</a></cite> (<abbr title="Activity Streams 2.0">AS</abbr>) detail a model for representing potential and completed activities with the intention of using specific types of activity vocabularies defined elsewhere. The <cite><a href="https://www.w3.org/TR/activitystreams-vocabulary/">Activity Vocabulary</a></cite> provides a foundational vocabulary to describe past, present, and future activities.</p>
+              <p id="activity-streams"><cite><a href="https://www.w3.org/TR/activitystreams-core/">Activity Streams 2.0</a></cite> (<abbr title="Activity Streams 2.0">AS</abbr>) detail a model for representing potential and completed activities with the intention of using specific types of activity vocabularies defined elsewhere. The <cite><a href="https://www.w3.org/TR/activitystreams-vocabulary/">Activity Vocabulary</a></cite> provides a foundational vocabulary to describe past, present, and future activities about objects.</p>
 
               <p id="linked-data-notifications"><cite><a href="https://www.w3.org/TR/ldn/"></a>Linked Data Notifications</cite> (<abbr title="Linked Data Notifications">LDN</abbr>)</p>
 
-              <p id="activitypub"><cite><a href="https://www.w3.org/TR/activitypub/">ActivityPub</a></cite> (<abbr title="ActivityPub">AP</abbr>)</p>
+              <p id="activitypub"><cite><a href="https://www.w3.org/TR/activitypub/">ActivityPub</a></cite> (<abbr title="ActivityPub">AP</abbr>) is a decentralized social networking protocol based upon the Activity Streams 2.0 data format. It provides a client to server API for CRUD operations, as well as a federated server to server API for delivering notifications and content. User accounts on servers have an inbox (to receive messages from the world), and an outbox (to send messages to others). AP's inbox property is the same as LDN's, and the targeting and delivery mechanism can be interoperably combined.</p>
             </div>
           </section>
 
