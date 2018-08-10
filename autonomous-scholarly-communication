@@ -144,7 +144,7 @@
                 <li><a href="https://www.w3.org/TR/selectors-states/">Selectors and States</a> describes the use of annotation Selectors as URI fragment identifiers relying on the formal specification and the semantics in the data model.</li>
               </ul>
 
-              <p id="activity-streams"><cite><a href="https://www.w3.org/TR/activitystreams-core/">Activity Streams 2.0</a></cite> (<abbr title="Activity Streams 2.0">AS</abbr>) detail a model for representing potential and completed activities with the intention of using specific types of activity vocabularies defined elsewhere. The <cite><a href="https://www.w3.org/TR/activitystreams-vocabulary/">Activity Vocabulary</a></cite> provides a foundational vocabulary to describe past, present, and future activities about objects.</p>
+              <p id="activity-streams"><cite><a href="https://www.w3.org/TR/activitystreams-core/">Activity Streams 2.0</a></cite> (<abbr title="Activity Streams 2.0">AS</abbr>) detail a model for representing potential and completed activities with the intention of using specific types of activity vocabularies defined elsewhere. The <cite><a href="https://www.w3.org/TR/activitystreams-vocabulary/">Activity Vocabulary</a></cite> provides a foundational vocabulary to describe past, present, and future activities eg. announcing, creating, following, offering, and about objects eg. actors, media.</p>
 
               <p id="linked-data-notifications"><cite><a href="https://www.w3.org/TR/ldn/"></a>Linked Data Notifications</cite> (<abbr title="Linked Data Notifications">LDN</abbr>)</p>
 
