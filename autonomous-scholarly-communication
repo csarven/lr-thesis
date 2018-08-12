@@ -178,10 +178,10 @@
                   <tr><th>Linked Data Fragments</th><td></td><td>✔</td><td>✔</td><td></td><td></td><td>✔</td></tr>
                   <tr><th>Fedora API</th><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td>✔</td></tr>
                   <tr><th>Memento</th><td></td><td>✔</td><td></td><td></td><td>✔</td><td>✔</td><td></td><td>✔</td></tr>
-                  <tr><th>Web Annotation</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
-                  <tr><th>Activity Streams</th><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td></td><td></td><td></td></tr>
+                  <tr><th>Web Annotation</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td></td></tr>
+                  <tr><th>Activity Streams</th><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td></td></tr>
                   <tr><th>Linked Data Notifications</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
-                  <tr><th>ActivityPub</th><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
+                  <tr><th>ActivityPub</th><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td></td></tr>
                   <tr><th>WebID</th><td>✔</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                   <tr><th>ACL</th><td>✔</td><td>✔</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                 </tbody>
