@@ -333,7 +333,7 @@ transform:rotate(-60deg);
                         <dd>A specific type of URI that persistently identifies a resource. Once assigned to a resource, it cannot be reassigned.</dd>
                       </dl>
 
-                      <p id="generic-resources">A URI represents a resource as a conceptual entity and can have different electronic representations. The degree of genericity of a resource on the other hand is determined by the authority that allocates the URI. For example, a spectrum of URIs - generic to specific - can be assigned to a resource while conceptually being about the same thing. Time, language, content type, and the target medium are some of the common dimensions of genericity that Web software handles - <cite><a href="https://www.w3.org/DesignIssues/Generic">Generic Resources</a></cite>.
+                      <p id="generic-resources">A URI represents a resource as a conceptual entity and can have different electronic representations. The degree of genericity of a resource on the other hand is determined by the authority that allocates the URI. For example, a spectrum of URIs - generic to specific - can be assigned to a resource while conceptually being about the same thing. Time, language, content type, and the target medium are some of the common dimensions of genericity that Web software handles - <cite><a href="https://www.w3.org/DesignIssues/Generic">Generic Resources</a></cite>.</p>
 
                       <p>In this thesis, we will focus mostly on URIs with the <span class="highlight-uri-scheme">"<span class="highlight-uri-scheme-http">http</span>" scheme</span>. As specified in Axiom 2b: identity, the owner of the HTTP URI defines the identity relationship which exists between a URI and the resources associated with it. Their reuse and persistence are defined by the information publisher - which may be also be the "owner" of the URI space.</p>
                     </div>
@@ -562,7 +562,15 @@ transform:rotate(-60deg);
 
                   <p>The <a href="http://oro.open.ac.uk/44719/2/kmi_foster_iknow.pdf#page=3" title="Fostering Open Science to Research using a Taxonomy and an eLearning Portal">Open Science taxonomy</a> developed by FOSTER maps the open science fields as follows: <q>Open Access, Open Data, Open Reproducible Research, Open Science Definition, Open Science Evaluation, Open Science Guidelines, Open Science Policies, Open Science Projects and Open Science Tools</q>.</p>
 
-                  <p>Many of the Linked Research principles are aligned with this or overlap with these concepts from Open Science. Open Science, however, is ambivalent about the communication medium.</p>
+                  <p>In <cite><a href="http://www.worldcat.org/oclc/695759425" title="9780226520919">The Sociology of Science: Theoretical and Empirical Investigations</a></cite>, 1942, Robert Merton introduced <q>four sets of institutional imperatives taken to comprise the ethos of modern science</q> in <q>The Normative Structure of Science</q>:</p>
+
+                  <ul>
+                    <li><em>Communalism</em>: in order to promote collective collaboration, intellectual output should have common ownership.</li>
+                    <li><em>Universalism</em>: scientific validity is kept independent of political and personal factors such that everyone has equal rights and possibility to obtain information.</li>
+                    <li><em>Disinterestedness</em>: the practice of science should benefit the common scientific enterprise with no conflicts of individual interest or gain.</li>
+                    <li><em>Organised skepticism</em>: scientific claims should be exposed to critical examination before being accepted to be part of common knowledge.</li>
+                  </ul>
+
                 </div>
               </section>
 
