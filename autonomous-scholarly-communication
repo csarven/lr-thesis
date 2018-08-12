@@ -107,7 +107,7 @@
 
               <hr />
 
-              <p>The following are a selection of open Web standards and practices that are designed with the notion of decentralisation, interoperability, and extensibility. The are based on use cases that facilitate discovery, read-write operations of interlinked Web resources.</p>
+              <p>The following are a selection of open Web standards and practices that are designed with the notion of decentralisation, interoperability, and extensibility. The are based on use cases that facilitate discovery, read-write operations of interlinked Web resources. Their core functions are listed in context of the forces in scientific communication in Table [].</p>
 
               <p id="linked-data-platform"><cite><a href="https://www.w3.org/TR/ldp/">Linked Data Platform</a></cite> (<abbr title="Linked Data Platform">LDP</abbr>) specifies a RESTful read-write protocol and vocabulary for Web resources. LDP has distinct notions for <q>resource</q> and <q>container</q>; where the container construct can group and manage resources. LDP uses the RDF data model to describe the state of RDF and non-RDF resources. <cite><a href="https://www.w3.org/TR/ldp-ucr/">Linked Data Platform Use Cases and Requirements</a></cite> outlines a wide-range of user stories, use cases, scenarios, and requirements which was used as the bases for the LDP specification. LDP can be used to mimic a file system abstraction interacting with Web resources over HTTP. The <cite><a href="https://www.w3.org/TR/ldp-paging/">LDP Paging</a></cite> mechanism can be used by clients and servers to efficiently request and serve a resource description, eg. resources in a container, in multiple parts. All LDP servers and clients can interact with each other using the same HTTP interface in context of Linked Data to perform CRUD operations.</p>
 
@@ -150,6 +150,49 @@
               <p id="linked-data-notifications"><cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (<abbr title="Linked Data Notifications">LDN</abbr>) is a resource-centric communication protocol for applications to generate notifications about activities, interactions, and new information, which may be presented to the user or processed further. It allows any resource (target) to advertise a receiving endpoint (inbox) for the messages anywhere on the Web. The server (receiver) hosting the inbox can have messages pushed to them by applications (sender), as well as how other applications (consumer) may retrieve those messages. Each notification in an inbox is an identifiable and reusable unit (URI), and can contain any data using any vocabulary.</p>
 
               <p id="activitypub"><cite><a href="https://www.w3.org/TR/activitypub/">ActivityPub</a></cite> (<abbr title="ActivityPub">AP</abbr>) is a decentralized social networking protocol based upon the Activity Streams 2.0 data format. It provides a client to server API for CRUD operations, as well as a federated server to server API for delivering notifications and content. User accounts on servers have an inbox (to receive messages from the world), and an outbox (to send messages to others). AP's inbox property is the same as LDN's, and the targeting and delivery mechanism can be interoperably combined.</p>
+
+
+              <table id="web-standards-for-forces-and-functions">
+                <caption>Web standards to fulfil forces and functions in scientific communication</caption>
+                <thead>
+                  <tr>
+                    <th rowspan="2">Standard</th>
+                    <th colspan="4">Forces</th>
+                    <th colspan="4">Functions</th>
+                  </tr>
+                  <tr>
+                    <th>Actor</th>
+                    <th>Accessibility</th>
+                    <th>Content</th>
+                    <th>Applicability</th>
+                    <th>Registration</th>
+                    <th>Awareness</th>
+                    <th>Certification</th>
+                    <th>Archive</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><th>Linked Data Platform</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
+                  <tr><th>Linked Data Templates</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
+                  <tr><th>Hydra Core</th><td></td><td>✔</td><td>✔</td><td></td><td></td><td>✔</td><td></td><td></td></tr>
+                  <tr><th>Linked Data Fragments</th><td></td><td>✔</td><td>✔</td><td></td><td></td><td>✔</td></tr>
+                  <tr><th>Fedora API</th><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td>✔</td></tr>
+                  <tr><th>Memento</th><td></td><td>✔</td><td></td><td></td><td>✔</td><td>✔</td><td></td><td>✔</td></tr>
+                  <tr><th>Web Annotation</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
+                  <tr><th>Activity Streams</th><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td></td><td></td><td></td></tr>
+                  <tr><th>Linked Data Notifications</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
+                  <tr><th>ActivityPub</th><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
+                  <tr><th>WebID</th><td>✔</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>ACL</th><td>✔</td><td>✔</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="9">
+                      <p>The suit of Web Annotation standards are grouped. Triple Pattern Fragments is grouped into Linked Data Fragments.</p>
+                    </td>
+                  </tr>
+                </tfoot>
+              </table>
             </div>
           </section>
 
