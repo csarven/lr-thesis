@@ -107,7 +107,7 @@
 
               <hr />
 
-              <p>The following are a selection of open Web standards and practices that are designed with the notion of decentralisation, interoperability, and extensibility. The are based on use cases that facilitate discovery, read-write operations of interlinked Web resources. Their core functions are listed in context of the forces in scientific communication in Table [].</p>
+              <p>The following are a selection of open Web specifications; standards and practices that are designed with the notion of decentralisation, interoperability, and extensibility. The are based on use cases that facilitate discovery, read-write operations of interlinked Web resources. Their core functions are listed in context of the forces in scientific communication in Table [].</p>
 
               <p id="linked-data-platform"><cite><a href="https://www.w3.org/TR/ldp/">Linked Data Platform</a></cite> (<abbr title="Linked Data Platform">LDP</abbr>) specifies a RESTful read-write protocol and vocabulary for Web resources. LDP has distinct notions for <q>resource</q> and <q>container</q>; where the container construct can group and manage resources. LDP uses the RDF data model to describe the state of RDF and non-RDF resources. <cite><a href="https://www.w3.org/TR/ldp-ucr/">Linked Data Platform Use Cases and Requirements</a></cite> outlines a wide-range of user stories, use cases, scenarios, and requirements which was used as the bases for the LDP specification. LDP can be used to mimic a file system abstraction interacting with Web resources over HTTP. The <cite><a href="https://www.w3.org/TR/ldp-paging/">LDP Paging</a></cite> mechanism can be used by clients and servers to efficiently request and serve a resource description, eg. resources in a container, in multiple parts. All LDP servers and clients can interact with each other using the same HTTP interface in context of Linked Data to perform CRUD operations.</p>
 
@@ -152,11 +152,11 @@
               <p id="activitypub"><cite><a href="https://www.w3.org/TR/activitypub/">ActivityPub</a></cite> (<abbr title="ActivityPub">AP</abbr>) is a decentralized social networking protocol based upon the Activity Streams 2.0 data format. It provides a client to server API for CRUD operations, as well as a federated server to server API for delivering notifications and content. User accounts on servers have an inbox (to receive messages from the world), and an outbox (to send messages to others). AP's inbox property is the same as LDN's, and the targeting and delivery mechanism can be interoperably combined.</p>
 
 
-              <table id="web-standards-for-forces-and-functions">
-                <caption>Web standards to fulfil forces and functions in scientific communication</caption>
+              <table id="specifications-for-forces-and-functions">
+                <caption>Specifications to fulfil forces and functions in scientific communication</caption>
                 <thead>
                   <tr>
-                    <th rowspan="2">Standard</th>
+                    <th rowspan="2">Specification</th>
                     <th colspan="4">Forces</th>
                     <th colspan="4">Functions</th>
                   </tr>
@@ -172,23 +172,28 @@
                   </tr>
                 </thead>
                 <tbody>
+                  <tr><th scope="rowgroup" colspan="9">Protocol</th></tr>
                   <tr><th>Linked Data Platform</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
                   <tr><th>Linked Data Templates</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
-                  <tr><th>Hydra Core</th><td></td><td>✔</td><td>✔</td><td></td><td></td><td>✔</td><td></td><td></td></tr>
                   <tr><th>Linked Data Fragments</th><td></td><td>✔</td><td>✔</td><td></td><td></td><td>✔</td></tr>
                   <tr><th>Fedora API</th><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td>✔</td></tr>
                   <tr><th>Memento</th><td></td><td>✔</td><td></td><td></td><td>✔</td><td>✔</td><td></td><td>✔</td></tr>
                   <tr><th>Web Annotation</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td></td></tr>
-                  <tr><th>Activity Streams</th><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td></td></tr>
-                  <tr><th>Linked Data Notifications</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
                   <tr><th>ActivityPub</th><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td></td></tr>
+                  <tr><th>Linked Data Notifications</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
                   <tr><th>WebID</th><td>✔</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+                <tbody>
+                  <tr><th scope="rowgroup" colspan="9">Model</th></tr>
                   <tr><th>ACL</th><td>✔</td><td>✔</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Hydra Core</th><td></td><td>✔</td><td>✔</td><td></td><td></td><td>✔</td><td></td><td></td></tr>
+                  <tr><th>Activity Streams</th><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td></td></tr>
+                  <tr><th>Robust Links</th><td></td><td></td><td>✔</td><td></td><td></td><td>✔</td><td></td><td>✔</td></tr>
                 </tbody>
                 <tfoot>
                   <tr>
                     <td colspan="9">
-                      <p>The suit of Web Annotation standards are grouped. Triple Pattern Fragments is grouped into Linked Data Fragments.</p>
+                      <p>The suit of Web Annotation standards are grouped. Triple Pattern Fragments is grouped into Linked Data Fragments. WebID incorporates identifier systems that can be used for actors (PURL, w3id, ORCID).</p>
                     </td>
                   </tr>
                 </tfoot>
