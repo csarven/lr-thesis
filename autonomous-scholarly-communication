@@ -265,7 +265,7 @@
 <code>  ldp:inbox &lt;http://csarven.ca/inbox/&gt; ;</code>
 <code>  as:outbox &lt;http://csarven.ca/outbox/&gt; ;</code>
 <code>  cert:key &lt;http://csarven.ca/#cert&gt; ;</code>
-<code>  rdfs:seeAlso &lt;http://csarven.ca/cv&gt;</code></pre>
+<code>  rdfs:seeAlso &lt;http://csarven.ca/cv&gt; .</code></pre>
                 <figcaption>An example profile.</figcaption>
               </figure>
 
@@ -283,10 +283,23 @@
 
               <p><cite><a href="https://www.w3.org/2005/Incubator/webid/spec/tls">WebID-TLS</a></cite> is an enhancement to TLS protocol that includes looking up additional information from a WebID-Profile document </p>
 
-WebID+TLS — an enhancement to TLS protocol that includes looking up additional claims (specifically, Public Key association) from a WebID-Profile document en route to identity verification
+<p><q>WebID+TLS — an enhancement to TLS protocol that includes looking up additional claims (specifically, Public Key association) from a WebID-Profile document en route to identity verification</q></p>
+
+              <p>An example cert:</p>
+
+              <figure class="listing">
+                <pre><code>&lt;http://csarven.ca/#i&gt;</code>
+<code>  cert:key &lt;http://csarven.ca/#cert&gt; .</code>
+
+<code>&lt;http://csarven.ca/#cert&gt;</code>
+<code>  a cert:RSAPublicKey ;</code>
+<code>  cert:exponent "65537"^^xsd:nonNegativeInteger ;</code>
+<code>  cert:modulus "caf6a78d16e80f930337453d84f790764c56ea58acbeda5de3d17b6e673569ef581b896b74466655fb3da2f9a961c6d46d99e77053a0aaf83fac4eab8b9198f20930672de22cb1b22f0ab85a66c95a6830eaa7be1e28ec197ff7a4a448243af2f206d2be458bbc71f32aa073315e22c9b2668fe15c732a33edcfd9fa39d04706191044f33e580f954e6a1d9c4bf08c820c4666f5ef8554cf1430a33b630c80d11f7d309cb641b213fcbfc9a5b699af625fe23627c403ff12d79514178728537aa173aba5bc5aeb87569eba1be3274aa53d9b2f8fe72f13ba8125e734e8e31128303c76594327c4c2e431e38f2b326cc244080e597a4d27a98ae3fe1edb5de785"^^xsd:hexBinary .</code></pre>
+                <figcaption>An example cert.</figcaption>
+              </figure>
 
 
-WebID+TLS+Delegation — an enhancement to WebID+TLS protocol that includes looking up delegation-oriented relationship types from a WebID-Profile document en route to identity verification.
+<p><q>WebID+TLS+Delegation — an enhancement to WebID+TLS protocol that includes looking up delegation-oriented relationship types from a WebID-Profile document en route to identity verification.</q></p>
 
               <p><cite><a href="https://www.w3.org/TR/webauthn/">Web Authentication: An API for accessing Public Key credentials</a></cite></p>
             </div>
