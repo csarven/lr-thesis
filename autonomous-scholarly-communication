@@ -222,7 +222,7 @@
           <section id="universal-identity-for-the-web" inlist="" rel="schema:hasPart" resource="#universal-identity-for-the-web">
             <h2 property="schema:name">Universal Identity for the Web</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Identity can be personal, community, or state issued...</p>
+              <p>Identity can be personal, community, or state issued.</p>
 
               <p>Identities, pseudonyms, and personas.. <cite><a href="http://dx.doi.org/10.1145/2740908.2743975S">Social Personal Data Stores: the Nuclei of Decentralised Social Machines</a></cite></p>
 
@@ -235,7 +235,7 @@
               <p>Third-party controlled:</p>
               <p>Community or state controlled identifiers are a class of identifiers that are ultimately third-party controlled in that their ownership, governance, description is beyond the individuals jurisdiction. For some use cases, this can be desirable in that the persistence and maintenance of the identifiers are handled by the group as a whole. Typically there are policies in place with a promise to keep them around .. </p>
 
-              <p>ORCID aims to be part of the commons/community managed. Ultimately third-party controlled - outside of the researcher's jurisdiction, constrained expression.. There is sameAs for WebID and possibly preferredURI: https://github.com/ORCID/ORCID-Source/issues/4398</p>
+              <p>ORCID aims to be part of the commons and managed by its <a href="https://orcid.org/about/community">community</a>. Ultimately third-party controlled - outside of the researcher's jurisdiction, constrained expression.. There is sameAs for WebID and possibly preferredURI: https://github.com/ORCID/ORCID-Source/issues/4398</p>
               <p>ORCID: while having an ORCID, a person can have their storage, inbox ( https://twitter.com/csarven/status/905421364353490944 ), outbox ( https://twitter.com/csarven/status/991642357983514625 ) elsewhere...</p>
 
               <p>Self-controlled:</p>
@@ -343,7 +343,7 @@ WebID+TLS+Delegation — an enhancement to WebID+TLS protocol that includes 
 
               <p>See also <cite><a href="http://www.ijdc.net/article/download/9.1.331/362/">Persistent Identifiers for Scholarly Assets and the Web: The Need for an Unambiguous Mapping</a></cite> (https://www.slideshare.net/hvdsomp/persistent-identifiers-and-the-web-the-need-for-an-unambiguous-mapping) , <cite><a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2001414">Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data</a></cite> , <cite><a href="https://arxiv.org/pdf/1602.09102.pdf">Persistent URIs Must Be Used To Be Persistent</a></cite> (not using DOIs when even available) , <cite><a href="http://philarcher.org/diary/2013/uripersistence/">Study on Persistent URIs</a></cite> (explores best practices)</p>
 
-              <p>Maybe move <a href="linked-research#registration-of-identifiers-with-social-contracts">registration-of-identifiers-with-social-contracts</a> here.</p>
+              <p>As discussed earlier in the <cite><a href="scholarly-communication-on-the-web#registration-of-identifiers-with-social-contracts">registration of identifiers with social contracts</a></cite>, PURL, w3id.org, and DOI, for instance, can be relied on to extend the lifetime of accessibility of units of scholarly information.</p>
 
 
               <p>Content Integrity.. link rot / content drift</p>
