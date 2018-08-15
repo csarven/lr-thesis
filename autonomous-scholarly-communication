@@ -246,7 +246,6 @@
                 <figcaption>Control: Personal|-----|Community</figcaption>
               </figure>
 
-
               <p>Different types of strings, eg. a username, an email address, an RSA public key, a URI, can be used to directly or indirectly identify agents. While each can be useful within their own context, Web-based identifiers (URI) make it possible to provide machine-readable descriptions when dereferenced, descriptions being extensible by their owners, as well as being interoperable global identifiers that can be interlinked unambiguously with other things.</p>
 
               <p id="webid"><cite><a href="https://www.w3.org/2005/Incubator/webid/spec/identity">Web Identity and Discovery</a></cite> (<abbr title="Web Identity and Discovery">WebID</abbr>) is a specification that outlines a distributed and extensible universal identification mechanism on the Web. A WebID is an HTTP URI denoting an agent, for example a person, organisation, or software. It can be used towards: the declaration of an agent's existence; discovery, describing or reference; authentication; and authorisation. WebID is distributed and decentralised in that any agent can be <em>named</em> anywhere on the Web under the jurisdiction of the URI owner. It is extensible in that it can be used injunction with secure authentication and access control mechanism, as well as having dereferenceable machine-readable descriptions which are themselves extensible. WebID can improve privacy and security and control over how each agent can identify themselves in order to allow fine grained access control to their information on the Web.</p>
@@ -279,7 +278,11 @@
           <section id="authentication" inlist="" rel="schema:hasPart" resource="#authentication">
             <h2 property="schema:name">Authentication</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p>Trust is ultimately tied to verifiable claims about identity and their provenance. <q>Today’s applications remain challenged by the basic notion of identity, perpetuating the mercurial state of trust.</q></p>
+
               <p>Authentication mechanisms: moving from username/password --> TLS, OIDC, ?</p>
+
+              <p id="web-of-trust"><cite><a href="https://en.wikipedia.org/wiki/Web_of_trust">Web of Trust</a></cite> (<abbr title="Web of Trust">WoT</abbr>) is a concept for a decentralised trust model used systems like <cite><a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy"><abbr title="Pretty Good Privacy">PGP</abbr></a></cite> to establish the authenticity of the binding between a public key and its owner. A public key cryptographic system uses a pair of keys: public keys (disseminated openly) and private keys (withheld by the owner). It has two main functions: authentication and encryption. For authentication, public key verifies that a holder of the paired private key sent the message. In the case of encryption, for example, when Guinan wants to send Picard a message, Guinan takes Picard's public key to encrypt a message where only Picard can decrypt the message with his private key. WoT essentially leaves trust decisions to the users, as opposed to a centralised mechanism with overarching authority.</p>
 
               <p><cite><a href="https://www.w3.org/2005/Incubator/webid/spec/tls">WebID-TLS</a></cite> is an enhancement to TLS protocol that includes looking up additional information from a WebID-Profile document </p>
 
