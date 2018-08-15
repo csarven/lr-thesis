@@ -271,7 +271,14 @@
 
               <p>Relationships between identifiers: sameAs, preferredURI</p>
 
-              <p>My personal WebID: http://csarven.ca/#i and my ORCID: http://orcid.org/0000-0002-0880-9125</p>
+              <p>My personal WebID: http://csarven.ca/#i and my ORCID: https://orcid.org/0000-0002-0880-9125:</p>
+
+              <figure class="listing">
+                <pre><code>&lt;https://orcid.org/0000-0002-0880-9125&lt; ;</code>
+<code>  owl:sameAs &lt;http://csarven.ca/#i&gt; ;</code>
+<code>  contact:preferredURI "http://csarven.ca/#i" .</pre>
+                <figcaption>WebID with same as and preferred URI relations.</figcaption>
+              </figure>
             </div>
           </section>
 
