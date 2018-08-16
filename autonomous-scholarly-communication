@@ -232,6 +232,8 @@
 
               <p>Extensibility... and self-expression (contrast with silo/accounts and trusted third-party managed identification systems</p>
 
+              <p>Multiple identities:</p>
+
               <p>Third-party controlled:</p>
               <p>Community or state controlled identifiers are a class of identifiers that are ultimately third-party controlled in that their ownership, governance, description is beyond the individuals jurisdiction. For some use cases, this can be desirable in that the persistence and maintenance of the identifiers are handled by the group as a whole. Typically there are policies in place with a promise to keep them around .. </p>
 
@@ -263,7 +265,7 @@
 <code></code>
 <code>&lt;<span class="highlight-webid">http://csarven.ca/#i</span>&gt;</code>
 <code>  a foaf:Person ;</code>
-<code>  foaf:name "Sarven Capadisli" ;</code>
+<code>  foaf:name "Sarven Capadisli"@en ;</code>
 <code>  foaf:mbox &lt;mailto:info@csarven.ca&gt; ;</code>
 <code>  foaf:img &lt;http://csarven.ca/media/images/sarven-capadisli.jpg&gt; ;</code>
 <code>  foaf:interest &lt;https://en.wikipedia.org/wiki/Media_theory&gt; ;</code>
@@ -295,7 +297,7 @@
           <section id="authentication" inlist="" rel="schema:hasPart" resource="#authentication">
             <h2 property="schema:name">Authentication</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Trust is ultimately tied to verifiable claims about identity and their provenance. <q>Today’s applications remain challenged by the basic notion of identity, perpetuating the mercurial state of trust.</q></p>
+              <p>Trust is ultimately tied to verifiable claims about identity and their provenance. While the creation and protection of third-party controlled online identities have received much focus, claiming and using personal identities online is still a challenge. Today's Web applications predominantly make use of online identities that are essentially tied to and controlled by authorities in which users are merely borrowing an identifier and its management. It is a common practice to where users are required to create accounts at each online service they wish to use, eg. social media sites. Moreover, the trust model of such design dictates claims and usage of online identities is not ultimately in the hands of the users, and can be taken away from the users by the owners of the URIs and service at any time and reason. Even in cases where third-party issues identities can be used across different services, it is subject to a privacy violation as the identity provider essentially gets to know which services the user's online identity is used with and for what purpose.</p>
 
               <p>Authentication mechanisms: moving from username/password --> TLS, OIDC, ?</p>
 
