@@ -258,12 +258,13 @@
 <code>  foaf:name "Sarven Capadisli" ;</code>
 <code>  foaf:mbox &lt;mailto:info@csarven.ca&gt; ;</code>
 <code>  foaf:img &lt;http://csarven.ca/media/images/sarven-capadisli.jpg&gt; ;</code>
-<code>  foaf:knows &lt;https://www.w3.org/People/Berners-Lee/card#i&gt; ;</code>
 <code>  foaf:interest &lt;https://en.wikipedia.org/wiki/Media_theory&gt; ;</code>
+<code>  cert:key &lt;http://csarven.ca/#cert&gt; ;</code>
+<code>  foaf:knows &lt;https://www.w3.org/People/Berners-Lee/card#i&gt; ;</code>
 <code>  pim:storage &lt;http://csarven.ca/&gt; ;</code>
 <code>  ldp:inbox &lt;http://csarven.ca/inbox/&gt; ;</code>
 <code>  as:outbox &lt;http://csarven.ca/outbox/&gt; ;</code>
-<code>  cert:key &lt;http://csarven.ca/#cert&gt; ;</code>
+<codE>  foaf:made &lt;https://dokie.li/&gt; ;</code>
 <code>  rdfs:seeAlso &lt;http://csarven.ca/cv&gt; .</code></pre>
                 <figcaption>An example profile.</figcaption>
               </figure>
@@ -274,9 +275,9 @@
               <p>My personal WebID: http://csarven.ca/#i and my ORCID: https://orcid.org/0000-0002-0880-9125:</p>
 
               <figure class="listing">
-                <pre><code>&lt;https://orcid.org/0000-0002-0880-9125&lt; ;</code>
+                <pre><code>&lt;https://orcid.org/0000-0002-0880-9125&gt; ;</code>
 <code>  owl:sameAs &lt;http://csarven.ca/#i&gt; ;</code>
-<code>  contact:preferredURI "http://csarven.ca/#i" .</pre>
+<code>  contact:preferredURI "http://csarven.ca/#i" .</code></pre>
                 <figcaption>WebID with same as and preferred URI relations.</figcaption>
               </figure>
             </div>
