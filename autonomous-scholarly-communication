@@ -252,13 +252,14 @@
 
               <p id="webid-profile"><cite class="highlight-webid-profile"><a href="https://www.w3.org/2005/Incubator/webid/spec/identity/#dfn-webid_profile">WebID Profile</a></cite> is an RDF document which uniquely describes agents denoted by a WebID.</p>
 
-              <p>The <cite>WebID</cite>: <samp class="highlight-webid">http://csarven.ca/#i</samp> refers to me (in real life) via the description found at the location of the <cite>WebID Profile</cite>: <a class="highlight-webid-profile" href="http://csarven.ca/">http://csarven.ca/</a>:</p>
+              <p>The <cite>WebID</cite>: <samp class="highlight-webid">http://csarven.ca/#i</samp> refers to me (in real life) via the description found at the location of the <cite>WebID Profile</cite> document: <a class="highlight-webid-profile" href="http://csarven.ca/">http://csarven.ca/</a>:</p>
 
               <figure id="webid-profile-example" class="listing">
                 <p><a class="highlight-webid" href="http://csarven.ca/#i"><span class="highlight-webid-profile">http://csarven.ca/</span>#i</a></p>
                 <style> #webid-profile-example > p { display:inline-block; } #webid-profile-example > p a { border: 1px solid #f00; } #webid-profile-example > p a span { border: 1px solid #00f; }</style>
                 <pre class="highlight-webid-profile"><code>&lt;http://csarven.ca/&gt;</code>
-<code>  a foaf:primaryTopic &lt;http://csarven.ca/#i&gt; .</code>
+<code>  a foaf:PersonalProfileDocument ;</code>
+<code>  foaf:primaryTopic &lt;http://csarven.ca/#i&gt; .</code>
 <code></code>
 <code>&lt;<span class="highlight-webid">http://csarven.ca/#i</span>&gt;</code>
 <code>  a foaf:Person ;</code>
