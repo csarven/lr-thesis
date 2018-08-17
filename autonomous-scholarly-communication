@@ -314,7 +314,7 @@
 
               <p><cite><a href="https://www.w3.org/ns/auth/cert">The Cert Ontology 1.0</a></cite> can be used in WebID Profile documents to specify an agent's certificate information. For example, an agent can indicate their public and private keys.</p>
 
-              <p>In order to create a self-signed certificate with a field for our WebID, we use the process outlined in: <cite><a href="https://www.w3.org/wiki/index.php?title=Foaf%2Bssl/HOWTO#How_to_create_a_certificate_which_includes_the_WebID_URI_for_multi-purpose_use">How to create a certificate which includes the WebID URI for multi-purpose use</a></cite>. We can create an RSA key that can be used to SSH to networks, include WebID URI and email information in the SAN to create an X.509 certificate which can be used to sign digitally sign emails, as well as to authenticate with from the Web browser. Once we obtain the certificate, it consists of information along the lines of:</p>
+              <p>In order to create a self-signed certificate with a field for our WebID, we use the process outlined in: <cite><a href="https://www.w3.org/wiki/index.php?title=Foaf%2Bssl/HOWTO#How_to_create_a_certificate_which_includes_the_WebID_URI_for_multi-purpose_use">How to create a certificate which includes the WebID URI for multi-purpose use</a></cite>. We can create an RSA key that can be used to SSH to networks, include WebID URI and email information in the SAN to create an X.509 certificate which can be used to sign digitally sign emails, as well as to authenticate with from the Web browser. The X.509 certificate and the private key can be bundled with the <cite><a href="https://tools.ietf.org/html/rfc7292">PKCS #12</a></cite> archive file format, and imported in Web browser's certificate manager. The certificate consists of information along the lines of:</p>
 
               <figure class="listing">
                 <pre><code>Certificate:</code>
@@ -366,8 +366,6 @@
 <code>  <span class="highlight-x509-modulus">cert:modulus</span> "caf6a78d16e80f930337453d84f790764c56ea58acbeda5de3d17b6e673569ef581b896b74466655fb3da2f9a961c6d46d99e77053a0aaf83fac4eab8b9198f20930672de22cb1b22f0ab85a66c95a6830eaa7be1e28ec197ff7a4a448243af2f206d2be458bbc71f32aa073315e22c9b2668fe15c732a33edcfd9fa39d04706191044f33e580f954e6a1d9c4bf08c820c4666f5ef8554cf1430a33b630c80d11f7d309cb641b213fcbfc9a5b699af625fe23627c403ff12d79514178728537aa173aba5bc5aeb87569eba1be3274aa53d9b2f8fe72f13ba8125e734e8e31128303c76594327c4c2e431e38f2b326cc244080e597a4d27a98ae3fe1edb5de785"^^xsd:hexBinary .</code></pre>
                 <figcaption>RSA Public Key information associated with a WebID URI.</figcaption>
               </figure>
-
-              <p>Lastly the X.509 certificate and the private key can be bundled with the <cite><a href="https://tools.ietf.org/html/rfc7292">PKCS #12</a></cite> archive file format, and imported in Web browser's certificate manager.</p>
             </div>
           </section>
 
