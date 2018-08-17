@@ -288,10 +288,7 @@
                 <figcaption>An WebID Profile describing a WebID.</figcaption>
               </figure>
 
-
-              <p>Relationships between identifiers: sameAs, preferredURI</p>
-
-              <p>My personal WebID: http://csarven.ca/#i and my ORCID: https://orcid.org/0000-0002-0880-9125:</p>
+              <p>While my personal WebID - under my control - is at <a href="http://csarven.ca/#i">http://csarven.ca/#i</a>, I have an ORCID identifier - controlled by the community - that also serves as a WebID: <a href="https://orcid.org/0000-0002-0880-9125">https://orcid.org/0000-0002-0880-9125</a>, which also has an RDF representation. As ORCID's user interface allows people to extend their descriptions with certain fields, it is possible to add <em>same as</em> or <em>preferred URI</em> relations:</p>
 
               <figure class="listing">
                 <pre><code>&lt;https://orcid.org/0000-0002-0880-9125&gt; ;</code>
@@ -299,6 +296,8 @@
 <code>  contact:preferredURI "http://csarven.ca/#i" .</code></pre>
                 <figcaption>WebID with same as and preferred URI relations.</figcaption>
               </figure>
+
+              <p>The <code>owl:sameAs</code> and <code>contact:preferredURI</code> information provides an opportunity for applications consuming the ORCID WebID to potentially discover more information about entity (me). This is particularly useful as the ORCID WebID Profile is not completely open to add arbitrary information, but only a constrained set of information. For example, specifying a person's picture or their contacts is not currently possible with ORCID, however, if the alternative profiles (http://csarven.ca/#i) contain such information, they can be purposed to know more about the entity.</p>
             </div>
           </section>
 
