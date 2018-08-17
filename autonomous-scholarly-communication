@@ -265,8 +265,8 @@
               <p>The <cite>WebID</cite>: <samp class="highlight-webid">http://csarven.ca/#i</samp> refers to me (in real life) via the description found at the location of the <cite>WebID Profile</cite> document: <a class="highlight-webid-profile" href="http://csarven.ca/">http://csarven.ca/</a>:</p>
 
               <figure id="webid-profile-example" class="listing">
-                <p><a class="highlight-webid" href="http://csarven.ca/#i"><span class="highlight-webid-profile">http://csarven.ca/</span>#i</a></p>
-                <style> #webid-profile-example > p { display:inline-block; } #webid-profile-example > p a { border: 1px solid #f00; } #webid-profile-example > p a span { border: 1px solid #00f; }</style>
+                <p><a class="highlight-webid" href="http://csarven.ca/#i" title="WebID"><span class="highlight-webid-profile" title="WebID Profile">http://csarven.ca/</span>#i</a></p>
+                <style> #webid-profile-example > p { display:inline-block; } #webid-profile-example > p a { border: 3px solid #f00; padding: 0.5em; letter-spacing:3px; text-decoration: none; } #webid-profile-example > p a span { border: 3px dashed #00f; padding: 0.15em; }</style>
                 <pre><code>&lt;<span class="highlight-webid-profile">http://csarven.ca/</span>&gt;</code>
 <code>  a foaf:PersonalProfileDocument ;</code>
 <code>  foaf:primaryTopic &lt;http://csarven.ca/#i&gt; .</code>
