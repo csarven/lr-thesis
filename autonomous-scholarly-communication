@@ -376,19 +376,21 @@
             <div datatype="rdf:HTML" property="schema:description">
               <p><cite><a href="https://www.w3.org/wiki/WebAccessControl">Web Access Control</a></cite> mechanism with the <cite><a href="https://www.w3.org/ns/auth/acl">Access Control List</a></cite> (<abbr title="Access Control List">ACL</abbr>)</p>
 
-              <p>The ACL ontology, allows four modes of access: <q>Read</q>, <q>Write</q>, <q>Append</q>, and <q>Control</q>. As implied by the name, <em>read</em> allows resources to be accessible and interpretable. <em>Write</em> allows resources to be modified or deleted. <em>Append</em> is a specific kind of Write in that while adding of information is permitted, removal is not. <em>Control</em> permits full read and write access.</p>
+              <p>The ACL ontology, enables a server to provide four modes of access: <q>Read</q>, <q>Write</q>, <q>Append</q>, and <q>Control</q>. As implied by the name, <em>read</em> allows a server's resources to be accessible and interpretable. <em>Write</em> allows resources to be modified or deleted. <em>Append</em> allows a specific kind of Write in that while adding of information is permitted, removal is not. <em>Control</em> permits full read and write access, which is typically given only to the owners (or administrators) of the resources.</p>
 
-              <p>The following code snippet allows an agent to be the owner of a resource:</p>
+              <p>The following code snippets of authorization policies are used to specify the ACL information (eg. <samp>resource.acl</samp>) associated with a resource (eg. <samp>resource</samp>) on the server. Setting an agent to be the owner of a resource:</p>
+
               <figure class="listing">
                 <pre><code>&lt;#owner&gt;</code>
 <code>  a acl:Authorization ;</code>
 <code>  acl:agent &lt;http://csarven.ca/#i&gt; ;</code>
 <code>  acl:accessTo &lt;./&gt; ;</code>
 <code>  acl:mode acl:Control .</code></pre>
-                <figcaption>An authorisation policy that gives control access to an agent for a resource.</figcaption>
+                <figcaption>An authorisation policy that assigns control access to an agent for a resource.</figcaption>
               </figure>
 
-              <p>The following code snippet allows a class of agents to perform read and append operations on a resource eg. an inbox:</p>
+              <p>Setting a class of agents to perform read and append operations on a resource eg. an inbox:</p>
+
               <figure class="listing">
                 <pre><code>&lt;#public&gt;</code>
 <code>  a acl:Authorization ;</code>
