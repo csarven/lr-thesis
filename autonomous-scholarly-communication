@@ -308,13 +308,13 @@
 
               <p id="tls"><cite><a href="https://tools.ietf.org/html/rfc5246">The Transport Layer Security Protocol Version 1.2</a></cite> (<abbr title="Transport Layer Security">TLS</abbr>) is a cryptographic protocol aimed at providing secure connections between applications. When applications eg. a server and a client (Web browser), communicate using the TLS protocol, it is private (secure) in that data is encrypted, identity of either party can be authenticated using public key cryptography (like PGP), and integrity of the exchanged data can be assured during transit.</p>
 
-              <p id="webid-tls"><cite><a href="https://www.w3.org/2005/Incubator/webid/spec/tls">WebID-TLS</a></cite> defines how a server can authenticate a user with a client application holding the user's public key certificate. As the extension mechanism in X.509 allows additional statements to be specified under the <code>Subject Alternative Name</code> (<abbr title="Subject Alternative Name">SAN</abbr>) field, it is used to declare the user's WebID for the <code>URI</code> field. When a verification agent, ie. the server, requests the client to authenticate themselves before serving a particular resource, the public key as well as the URI is extracted from the certificate. The server uses this URI towards dereferencing the WebID Profile and verifying the WebID claims. Once the identity verification is established, the server can look up its access control rules for the requested resource to determine if and how the request can be fulfilled.</p>
+              <p id="webid-tls"><cite><a href="https://www.w3.org/2005/Incubator/webid/spec/tls">WebID-TLS</a></cite> defines how a server can authenticate a user with a client application holding the user's public key certificate. As the extension mechanism in X.509 allows additional statements to be specified under the <code>Subject Alternative Name</code> (<abbr title="Subject Alternative Name">SAN</abbr>) field, it is used to declare the user's WebID for the <code>URI</code> field. When a client application running on the Web browser requests a resource from the server, the TLS connection gets established between them. Once TLS has been set up, the HTTP application protocol exchange takes place (eg. <code>GET</code>, <code>POST</code>). If the requested resource requires WebID authentication (see also <a href="#authorization">authorization</a> policies) the server can request the client to authenticate itself. When the Web browser encounters this certificate request, it may prompt its user to choose a certificate (from its certificate manager) - thereby signing a token with its private key - to let the client send it to the server. The verification agent extracts the public key as well as the WebID from the certificate. The server uses this WebID and decides if it needs to dereference the WebID Profile and verify the claims about the WebID. Once the identity verification is established, the server can look up its access control rules for the requested resource to determine if and how the request can be fulfilled.</p>
 
 <!-- discuss webid-tls-delegation ? -->
 
               <p><cite><a href="https://www.w3.org/ns/auth/cert">The Cert Ontology 1.0</a></cite> can be used in WebID Profile documents to specify an agent's certificate information. For example, an agent can indicate their public and private keys.</p>
 
-              <p>In order to create a self-signed certificate with a field for our WebID, we use the process outlined in: <cite><a href="https://www.w3.org/wiki/index.php?title=Foaf%2Bssl/HOWTO#How_to_create_a_certificate_which_includes_the_WebID_URI_for_multi-purpose_use">How to create a certificate which includes the WebID URI for multi-purpose use</a></cite>. We can create an RSA key that can be used to SSH to networks, include WebID URI and email information in the SAN to create an X.509 certificate which can be used to sign digitally sign emails, as well as to authenticate with from the Web browser. Once we obtain the certificate, the command <code>openssl x509 -in id_rsa.crt -text -noout</code> displays the information in the certificate along the lines of:</p>
+              <p>In order to create a self-signed certificate with a field for our WebID, we use the process outlined in: <cite><a href="https://www.w3.org/wiki/index.php?title=Foaf%2Bssl/HOWTO#How_to_create_a_certificate_which_includes_the_WebID_URI_for_multi-purpose_use">How to create a certificate which includes the WebID URI for multi-purpose use</a></cite>. We can create an RSA key that can be used to SSH to networks, include WebID URI and email information in the SAN to create an X.509 certificate which can be used to sign digitally sign emails, as well as to authenticate with from the Web browser. Once we obtain the certificate, it consists of information along the lines of:</p>
 
               <figure class="listing">
                 <pre><code>Certificate:</code>
@@ -367,7 +367,7 @@
                 <figcaption>RSA Public Key information associated with a WebID URI.</figcaption>
               </figure>
 
-
+              <p>Lastly the X.509 certificate and the private key can be bundled with the <cite><a href="https://tools.ietf.org/html/rfc7292">PKCS #12</a></cite> archive file format, and imported in Web browser's certificate manager.</p>
             </div>
           </section>
 
@@ -378,7 +378,7 @@
 
               <p>The ACL ontology, enables a server to provide four modes of access: <q>Read</q>, <q>Write</q>, <q>Append</q>, and <q>Control</q>. As implied by the name, <em>read</em> allows a server's resources to be accessible and interpretable. <em>Write</em> allows resources to be modified or deleted. <em>Append</em> allows a specific kind of Write in that while adding of information is permitted, removal is not. <em>Control</em> permits full read and write access, which is typically given only to the owners (or administrators) of the resources.</p>
 
-              <p>The following code snippets of authorization policies are used to specify the ACL information (eg. <samp>resource.acl</samp>) associated with a resource (eg. <samp>resource</samp>) on the server. Setting an agent to be the owner of a resource:</p>
+              <p>The following code snippets of authorization policies are used to specify the ACL information (eg. <samp>resource.acl</samp>) associated with a resource (eg. <samp>resource</samp>) on the server. For example, setting an agent (only <code>http://csarven.ca/#i</code>) to be the owner of a resource, :</p>
 
               <figure class="listing">
                 <pre><code>&lt;#owner&gt;</code>
