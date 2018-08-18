@@ -81,7 +81,10 @@
               <p>Trust, reliability, .. to distinguish fakescience/predatory from legit/non-predatory Beyond "anyone can say anything about anything" eg. publish study preregistration to establish trust, share provenance, data, software/code.., open peer review (OPR) process (when/who/what), competing/conflict of interest, grant information</p>
 
 
+              <p>Related: <cite><a href="http://ul.qucosa.de/api/qucosa%3A12983/attachment/ATT-0/">Distributed Semantic Social Networks: Architecture, Protocols and Applications</a></cite>, 2014, Sebastian Tramp. <cite><a href="http://svn.aksw.org/papers/2011/SWJ_DSSN/public.pdf">An Architecture of a Distributed Semantic Social Network</a></cite>, 2012, Sebastian Tramp. <cite><a href="https://tel.archives-ouvertes.fr/tel-00917965/document">Data ownership and interoperability for a decentralized social semantic web</a></cite>, 2013, Andrei Vlad Sambra.</p>
+
               <p>In <cite><a href="https://f1000research.com/articles/6-588/v2">What is open peer review? A systematic review</a></cite>, Ross-Hellauer summarises criticisms of traditional peer review: <q>unreliability and inconsistency, delay and expense, lack of accountability and risks of subversion, social and publication biases, lack of incentives, wastefulness</q></p>
+
 
 
             </div>
@@ -361,7 +364,7 @@
                 <figcaption>RSA Public Key information associated with a WebID URI.</figcaption>
               </figure>
 
-              <p id="webid-tls-delegation"><cite><a href="">WebID-TLS-Delegation</a></cite> is an an extension to WebID-TLS that enables users to delegate other agents to act on their behalf. In <cite><a href="http://ceur-ws.org/Vol-905/TrampEtAl_COLD2012.pdf">Extending the WebID Protocol with Access Delegation</a></cite>, Sebastian Tramp et al, states how a <q>principal</q> agent can delegate authentication and access to a trusted <q>secretary</q> agent - typically a third-party software - who can act <em>on behalf of</em> of the principal agent to perform (asynchronous) requests. A secretary with its own WebID acting on behalf of a user can potentially have the same (or required) privileges while still being distinguishable eg. via different public key, and capabilities. An agent can declare a delegation as follows:</p>
+              <p id="webid-tls-delegation"><cite>WebID-TLS-Delegation</cite> is an an extension to WebID-TLS that enables users to delegate other agents to act on their behalf. In <cite><a href="http://ceur-ws.org/Vol-905/TrampEtAl_COLD2012.pdf">Extending the WebID Protocol with Access Delegation</a></cite>, Sebastian Tramp et al, states how a <q>principal</q> agent can delegate authentication and access to a trusted <q>secretary</q> agent - typically a third-party software - who can act <em>on behalf of</em> of the principal agent to perform (asynchronous) requests. A secretary with its own WebID acting on behalf of a user can potentially have the same (or required) privileges while still being distinguishable eg. via different public key, and capabilities. An agent can declare a delegation as follows:</p>
 
               <figure class="listing">
                 <pre><code>&lt;<span class="highlight-webid">http://csarven.ca/#i</span>&gt;</code>
