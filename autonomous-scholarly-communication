@@ -86,6 +86,9 @@
 
               <p><cite><a href="http://svn.aksw.org/papers/2011/SWJ_DSSN/public.pdf">An Architecture of a Distributed Semantic Social Network</a></cite>, 2012, Sebastian Tramp. <cite><a href="https://tel.archives-ouvertes.fr/tel-00917965/document">Data ownership and interoperability for a decentralized social semantic web</a></cite>, 2013, Andrei Vlad Sambra.</p>
 
+              <p>Both Tramp and Sambra emphasise on using and extending the Web architecture and applying its principles towards a more decentralised notion of information reuse and user interaction. The core approaches use the Linked Data technology stack for publishing, retrieval, and integration; decoupling services and applications from the users data so that content creators are owners and have desired rights on their data and its use; and fostering data extensibility and distribution, as well as privacy.</p>
+
+
               <p>In <cite><a href="https://f1000research.com/articles/6-588/v2">What is open peer review? A systematic review</a></cite>, Ross-Hellauer summarises criticisms of traditional peer review: <q>unreliability and inconsistency, delay and expense, lack of accountability and risks of subversion, social and publication biases, lack of incentives, wastefulness</q></p>
 
 
