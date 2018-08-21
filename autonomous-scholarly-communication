@@ -223,7 +223,7 @@
 
               <p>Pay as you go (linked information space), eg. own profile today, own storage space tomorrow..</p>
 
-              <p><cite><a href="A Demonstration of the Solid Platform for Social Web Applications">https://doi.org/10.1145/2872518.2890529</a></cite></p>
+              <p><cite><a data-originalurl="https://doi.org/10.1145/2872518.2890529" data-versiondate="2018-08-21T10:11:43Z" data-versionurl="https://web.archive.org/web/20180821100927/http://gdac.uqam.ca/WWW2016-Proceedings/companion/p223.pdf" href="http://gdac.uqam.ca/WWW2016-Proceedings/companion/p223.pdf">A Demonstration of the Solid Platform for Social Web Applications</a></cite></p>
             </div>
           </section>
 
@@ -234,13 +234,11 @@
             <div datatype="rdf:HTML" property="schema:description">
               <p>Identity can generally be issued by a community, institution, state issued.</p>
 
-              <p>Identities, pseudonyms, and personas.. <cite><a href="https://www.research.ed.ac.uk/portal/files/20028374/vanKleek_et_al_2015_Social_Personal_Data_Stores.pdf" title="https://doi.org/10.1145/2740908.2743975">Social Personal Data Stores: the Nuclei of Decentralised Social Machines</a></cite></p>
+              <p id="social-personal-data-stores">In <cite><a href="https://www.research.ed.ac.uk/portal/files/20028374/vanKleek_et_al_2015_Social_Personal_Data_Stores.pdf" title="https://doi.org/10.1145/2740908.2743975">Social Personal Data Stores: the Nuclei of Decentralised Social Machines</a></cite>, 2015, Max Van Kleek et al, considers decentralised social applications from the user's perspective. The work states that existing personal data stores for the most part do not <q>account for the need for multiple identities, effective separation of roles and anonymity, and to prevent unwanted tracking and clickstream profiling</q>, and that future work should integrate people's need for privacy, creation, management, and switching of separate identities, pseudonyms, personas in order to be used in different contexts, eg. personal, professional.</p>
 
               <p>In <cite><a href="http://dr.amy.gy/">The Presentation of Self on a Decentralised Web</a></cite>, 2017, Amy Guy, the <q cite="https://rhiaro.github.io/thesis/chapter3#what-is-a-profile">What is a profile?</q> study describes <q>affordances of systems which integrate online profiles in a social capacity and raises five features of systems with regards to their representations of users: flexibility, access control, prominence, portability, representation.</q> Furthermore, Guy posits that <q cite="https://rhiaro.github.io/thesis/chapter3#ccccc">online self-presentation is both constituted and affected by <em>who</em> sees a representation of an individual, and <em>what</em> it is they see, both of which are encompassed by the situation <em>whereby</em> it is seen</q>. The results of the studies are summarised as a conceptual framework as the <q>5Cs</q> for online profiles and self presentation: <q>context, control, customisability, connectivity, cascade</q>.</p>
 
-              <p>Desired qualities: global identifier, extensible, self-expression,</p>
-
-              <p>Extensibility... and self-expression (contrast with silo/accounts and trusted third-party managed identification systems</p>
+              <p>Desired qualities: global identifier, extensible, self-expression (contrast with silo/accounts and trusted third-party managed identification systems</p>
 
               <p>Multiple identities:</p>
 
