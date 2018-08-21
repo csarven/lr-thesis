@@ -223,7 +223,7 @@
 
               <p>Pay as you go (linked information space), eg. own profile today, own storage space tomorrow..</p>
 
-              <p><cite><a data-originalurl="https://doi.org/10.1145/2872518.2890529" data-versiondate="2018-08-21T10:11:43Z" data-versionurl="https://web.archive.org/web/20180821100927/http://gdac.uqam.ca/WWW2016-Proceedings/companion/p223.pdf" href="http://gdac.uqam.ca/WWW2016-Proceedings/companion/p223.pdf">A Demonstration of the Solid Platform for Social Web Applications</a></cite></p>
+              <p id="a-demonstration-of-the-solid-platform-for-social-web-applications">In <cite><a data-originalurl="https://doi.org/10.1145/2872518.2890529" data-versiondate="2018-08-21T10:11:43Z" data-versionurl="https://web.archive.org/web/20180821100927/http://gdac.uqam.ca/WWW2016-Proceedings/companion/p223.pdf" href="http://gdac.uqam.ca/WWW2016-Proceedings/companion/p223.pdf">A Demonstration of the Solid Platform for Social Web Applications</a></cite>, 2016, Essam Mansour et al raise the concern that well-known Social Web applications are essentially <q>data silos</q> involving design patterns where each application being custom built to store its own data, along with custom authentication and access control mechanisms. Hence, users of such systems often cannot easily switch personal data storage services, or reuse their data with similar applications. Authors demonstrate the <cite>Solid platform</cite> to address the challenges in decentralised authentication, data management, as well as the development of interoperable and portable Social Web applications that interact with the platform.</p>
             </div>
           </section>
 
