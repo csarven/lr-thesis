@@ -399,14 +399,14 @@ transform:rotate(-60deg);
 
                   <p>We can represent the sentence "<span class="highlight-language-statement"><span class="highlight-language-subject">Otlet</span> <span class="highlight-language-predicate">influenced</span> <span class="highlight-language-object">Berners-Lee</span></span>" in one of the RDF syntaxes as follows:</p>
 
-                  <pre><span class="highlight-language-statement">&lt;<span class="highlight-language-subject" title="subject">http://dbpedia.org/resource/<strong>Paul_Otlet</strong></span>&gt;
+                  <pre id="paul-otlet-influenced-tim-berners-lee"><span class="highlight-language-statement">&lt;<span class="highlight-language-subject" title="subject">http://dbpedia.org/resource/<strong>Paul_Otlet</strong></span>&gt;
   &lt;<span class="highlight-language-predicate" title="predicate">http://dbpedia.org/ontology/<strong>influenced</strong></span>&gt; &lt;<span class="highlight-language-object" title="object">http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong></span>&gt; .</span></pre>
 
                   <p>RDF facilitates a uniform <q>follow your nose</q> type of exploration by following the semantics in the information provided in order to arrive at another unit of information. Applications can meaningfully interpret and integrate with disparate data without having any out-of-band knowledge, and retrieve more information about the terms.</p>
 
                   <p>We can describe <span class="highlight-language-subject">Berners-Lee's IRI</span> (subject) by giving it a human-readable <span class="highlight-language-predicate">name</span> (predicate):</p>
 
-                  <pre><span class="highlight-language-statement">&lt;<span class="highlight-language-subject" title="subject">http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong></span>&gt;
+                  <pre id="tim-berners-lee-name"><span class="highlight-language-statement">&lt;<span class="highlight-language-subject" title="subject">http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong></span>&gt;
   &lt;<span class="highlight-language-predicate" title="predicate">http://xmlns.com/foaf/0.1/name</span>&gt; "<span class="highlight-language-object" title="object">Tim Berners-Lee</span>"<span title="language tag">@en</span> .</span></pre>
 
                   <div class="note">
@@ -421,6 +421,29 @@ transform:rotate(-60deg);
                   </div>
 
                   <p>In order to address different system and interface needs, different syntaxes for RDF emerged over time, eg. <cite><a href="https://www.w3.org/TR/rdf-syntax-grammar/">RDF/XML</a></cite> as the grammar to define the <cite><a href="https://www.w3.org/TR/xml/">XML</a></cite> syntax for RDF graphs; <cite><a href="https://www.w3.org/TR/turtle/">Turtle</a></cite> as the syntax in the natural text form, <cite><a href="https://www.w3.org/TR/rdfa-core/">RDFa</a></cite> to express RDF statements in markup languages, <cite><a href="http://www.w3.org/TR/json-ld/">JSON-LD</a></cite> to serialize RDF in <cite><a href="https://tools.ietf.org/html/rfc4627">JSON</a></cite>.</p>
+
+                  <p id="sparql">In order to facilitate querying and manipulating RDF graph content on the Web or in an RDF store, <cite><a href="https://www.w3.org/TR/sparql11-overview/">SPARQL Protocol and RDF Query Language</a></cite> (<abbr title="SPARQL Protocol and RDF Query Language">SPARQL</abbr>) 1.1 provides a set of recommendations. The specifications address <a href="https://www.w3.org/TR/sparql11-query/">querying</a> to match, filter, and construct graph patterns, as well as integration of disparate sources of information; <a href="https://www.w3.org/TR/sparql11-federated-query/">federated querying</a> as an extension to executing queries distributed over different SPARQL endpoints; an <a href="https://www.w3.org/TR/sparql11-update/">update language</a> to update, create, and remove RDF graphs in a store; a <a href="https://www.w3.org/TR/sparql11-protocol/">protocol</a> to convey queries and updates over HTTP; <a href="https://www.w3.org/TR/sparql11-service-description/">service descriptions</a> in order to discover, and vocabulary for describing SPARQL services; <a href="https://www.w3.org/TR/sparql11-entailment/">entailment regimes</a> to retrieve solutions that implicitly follow from the queried graph; an alternative interface to SPARQL 1.1 Update that uses <a href="https://www.w3.org/TR/sparql11-http-rdf-update/">HTTP operations on RDF graphs</a>.</p>
+
+                  <p>Using the example RDF data from earlier about <a href="#paul-otlet-influenced-tim-berners-lee">Otlet's relation to Berners-Lee</a> and <a href="#tim-berners-lee-name">his name</a> in an RDF store, the following query returns the data in a tabular format for the <span class="highlight-language-predicate-name">name</span>s of <span class="highlight-language-object">object</span>s that match the graph pattern where the <span class="highlight-language-subject">subject</span>s <em class="highlight-language-predicate-influenced">influenced</em>.</p>
+
+                  <pre>SELECT <span class="highlight-language-object">?object</span> <span class="highlight-language-object-name">?name</span>
+WHERE {
+  &lt;<span class="highlight-language-subject">http://dbpedia.org/resource/Paul_Otlet</span>&gt;
+    &lt;<span class="highlight-language-predicate-influenced">http://dbpedia.org/ontology/influenced</span>&gt; <span class="highlight-language-object">?object</span> .
+  <span class="highlight-language-object">?object</span>
+    &lt;<span class="highlight-language-predicate-name">http://xmlns.com/foaf/0.1/name</span>&gt; <span class="highlight-language-object-name">?name</span> .
+}</pre>
+
+                  <p>Resulting in extracted data:</p>
+
+                  <table>
+                    <thead><th>?object</th><th>?name</th></thead>
+                    <tbody><td><a class="highlight-language-object" href="http://dbpedia.org/resource/Tim_Berners-Lee">http://dbpedia.org/resource/Tim_Berners-Lee</a></td><td><span class="highlight-language-object-name">"Tim Berners-Lee"@en</span></td></tbody>
+                  </table>
+
+                  <p>The SPARQL suite is a powerful set of languages in that we can inspect and manipulate information based on the graph nature of the data on the Web represented using the RDF language.</p>
+
+                  <hr />
 
                   <p>These initiatives are eventually manifested with the <q>Linked Data</q> design principles towards building a <em>Semantic Web</em> where humans and machines can explore the Web of data:</p>
 
