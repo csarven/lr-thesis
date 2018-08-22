@@ -73,7 +73,36 @@
           <section id="challenges" inlist="" rel="schema:hasPart" resource="#challenges">
             <h2 property="schema:name">Challenges</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>...</p>
+              <p>In <cite><a href="http://andrew.treloar.net/research/publications/ipres2014/iPres2014-paper.pdf">A Perspective on Archiving the Scholarly Web</a></cite>, Van de Sompel et al characterises the ongoing evolution and transition of objects pertaining to scholarly communication. In the <q cite="http://andrew.treloar.net/research/publications/ipres2014/iPres2014-paper.pdf">Figure 1: Scholarly Communication Evolution</q> and <q cite="http://andrew.treloar.net/research/publications/ipres2014/iPres2014-paper.pdf">Figure 2: Communicated Object Evolution</q> is reproduced below, left hand side reflects the status in the system of journals, whereas the right hand side reflects the status in a future, emerging system where the objects are considered to be Web-centric:</p>
+
+<figure about="#scholarly-communication-evolution" id="scholarly-communication-evolution">
+<pre>       Hidden |----- Research Process ----| Visible
+     Discrete |----- Registration --------| Continuous
+       Formal |----- Certification -------| Informal
+      Delayed |----- Awareness -----------| Instant
+Medium-driven |----- Archiving -----------| Content-driven</pre>
+<figcaption>Reproduction of the <q>Scholarly Communication Evolution</q> figure 1 from <cite><a property="prov:wasDerivedFrom" href="http://andrew.treloar.net/research/publications/ipres2014/iPres2014-paper.pdf">A Perspective on Archiving the Scholarly Web</a></cite> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</figcaption>
+</figure>
+
+<figure about="#communicated-object-evolution" id="communicated-object-evolution">
+<pre>     Fixed |----- Fixity -----------| Varying
+    Atomic |----- Composition ------| Compound
+   Uniform |----- Variety ----------| Diverse
+Standalone |----- Connectedness ----| Networked
+    Closed |----- Access -----------| Open</pre>
+<figcaption>Reproduction of the <q>Communicated Object Evolution</q> figure 2 from <cite><a property="prov:wasDerivedFrom" href="http://andrew.treloar.net/research/publications/ipres2014/iPres2014-paper.pdf">A Perspective on Archiving the Scholarly Web</a></cite> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</figcaption>
+</figure>
+
+              <p>Given that the research processing becoming more visible on the Web (eg. as per the <q>Open Science</q> movement), as well as the nature of objects transitioning to being more content-driven, Van de Sompel posits that the aforementioned indicators impact the functions in scientific communication, and in particular have a significant impact on the future of archiving:</p>
+
+              <ul>
+                <li>registration: a wide variety and versions of objects that are interrelated and interdependent;</li>
+                <li>certification: a variety of mechanisms that are decoupled from registration;</li>
+                <li>awareness: a variety of objects being communicated in real-time and social;</li>
+                <li>archiving: <q>no constraints on the number or kinds of parties that can hold archived copies</q>, and need for <q>appropriate levels of cross-archive interoperability in order to support seamless, uniform access to archived objects.</q></li>
+              </ul>
+
+              <hr />
 
               <p id="distributed-semantic-social-networks">In <cite><a href="http://svn.aksw.org/papers/2011/SWJ_DSSN/public.pdf">An Architecture of a Distributed Semantic Social Network</a></cite>, 2012, and <cite><a href="http://ul.qucosa.de/api/qucosa%3A12983/attachment/ATT-0/">Distributed Semantic Social Networks: Architecture, Protocols and Applications</a></cite>, 2014, Sebastian Tramp posits that the landscape of Social Web is increasingly losing its distributed nature. Tramp highlights that there is an increased use of centralised social platforms, where users are locked in to their respective platforms with not much opportunity to communicate easily with users on other platforms, as well as difficulty to relocate their social graphs and personal data. Interoperability between platforms being largely limited to proprietary APIs, and changes being at the discretion of the service provider. Users of the online services are being required to keep their - often overlapping - data individually at each platform up to date in order to minimise divergent information. Tramp argues that technical solutions should empower users to regain control and ownership over their data and its use, ensure privacy policies and rules that's user-centric (as opposed to driven by commercial interest), increased data security, information extensibility based on user's needs, reliability through distribution, and freedom of communication without centralised control. The output of Tramp's research is that Semantic Web technologies can be deployed to some extant to support the structure, maintenance, and usage of federated and distributed social networking on the Web. The evaluation is based on integration use case tests, eg. <cite><a href="https://www.w3.org/2005/Incubator/federatedsocialweb/wiki/SWAT0">SWAT0</a></cite>, <cite><a href="https://www.w3.org/2005/Incubator/federatedsocialweb/wiki/SWAT1_use_cases">SWAT1</a></cite>, formulated by the W3C <cite><a href="https://www.w3.org/2005/Incubator/federatedsocialweb/">Federated Social Web Incubator Group</a></cite>.</p>
 
@@ -472,8 +501,8 @@
           </section>
 
 
-          <section id="implementing-a-read-write-web" inlist="" rel="schema:hasPart" resource="#implementing-a-read-write-web">
-            <h2 property="schema:name">Implementing a Read-Write Web</h2>
+          <section id="implementing-a-read-write-linked-data-web" inlist="" rel="schema:hasPart" resource="#implementing-a-read-write-linked-data-web">
+            <h2 property="schema:name">Implementing a Read-Write Linked Data Web</h2>
             <div datatype="rdf:HTML" property="schema:description">
 <pre>
 ** csarven.ca/dokieli-rww
