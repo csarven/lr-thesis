@@ -90,7 +90,7 @@ Medium-driven |----- Archiving -----------| Content-driven</pre>
    Uniform |----- Variety ----------| Diverse
 Standalone |----- Connectedness ----| Networked
     Closed |----- Access -----------| Open</pre>
-<figcaption>Reproduction of the <q>Communicated Object Evolution</q> figure 2 from <cite><a property="prov:wasDerivedFrom" href="https://public.lanl.gov/herbertv/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">A Perspective on Archiving the Scholarly Web</a></cite> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</figcaption>
+<figcaption>Reproduction of the <q>Communicated Object Evolution</q> figure 2 from <cite><a property="prov:wasDerivedFrom" href="https://public.lanl.gov/herbertv/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">A Perspective on Archiving the Scholarly Web</a></cite> (originally <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</figcaption>
 </figure>
 
               <p>Given that the research processing becoming more visible on the Web (eg. as per the <q>Open Science</q> movement), as well as the nature of objects transitioning to being more content-driven, Van de Sompel posits that the aforementioned indicators impact the functions in scientific communication, and in particular have a significant impact on the future of archiving:</p>
@@ -101,6 +101,8 @@ Standalone |----- Connectedness ----| Networked
                 <li>awareness: a variety of objects being communicated in real-time and social;</li>
                 <li>archiving: <q>no constraints on the number or kinds of parties that can hold archived copies</q>, the need for <q>appropriate levels of cross-archive interoperability in order to support seamless, uniform access to archived objects</q>, that are temporally appropriate while context being preserved</li>
               </ul>
+
+              <p>Van de Sompel et al conclude that in order to address the needs of a distributed archival approach of scholarly Web objects, using standards towards interoperability will play a central role.</p>
 
               <hr />
 
