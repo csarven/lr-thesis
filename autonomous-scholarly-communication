@@ -73,7 +73,7 @@
           <section id="challenges" inlist="" rel="schema:hasPart" resource="#challenges">
             <h2 property="schema:name">Challenges</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>In <cite><a href="http://andrew.treloar.net/research/publications/ipres2014/iPres2014-paper.pdf">A Perspective on Archiving the Scholarly Web</a></cite>, Van de Sompel et al characterises the ongoing evolution and transition of objects pertaining to scholarly communication. In the <q cite="http://andrew.treloar.net/research/publications/ipres2014/iPres2014-paper.pdf">Figure 1: Scholarly Communication Evolution</q> and <q cite="http://andrew.treloar.net/research/publications/ipres2014/iPres2014-paper.pdf">Figure 2: Communicated Object Evolution</q> is reproduced below, left hand side reflects the status in the system of journals, whereas the right hand side reflects the status in a future, emerging system where the objects are considered to be Web-centric:</p>
+              <p>In <cite><a data-versiondate="2018-06-24T16:34:27Z" data-versionurl="https://web.archive.org/web/20180624163427/http://public.lanl.gov/herbertv/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf" href="https://public.lanl.gov/herbertv/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">A Perspective on Archiving the Scholarly Web</a></cite>, Van de Sompel et al characterises the ongoing evolution and transition of objects pertaining to scholarly communication. In the <q cite="https://public.lanl.gov/herbertv/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">Figure 1: Scholarly Communication Evolution</q> and <q cite="https://public.lanl.gov/herbertv/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">Figure 2: Communicated Object Evolution</q> is reproduced below, left hand side reflects the status in the system of journals, whereas the right hand side reflects the status in a future, emerging system where the objects are considered to be Web-centric:</p>
 
 <figure about="#scholarly-communication-evolution" id="scholarly-communication-evolution">
 <pre>       Hidden |----- Research Process ----| Visible
@@ -81,7 +81,7 @@
        Formal |----- Certification -------| Informal
       Delayed |----- Awareness -----------| Instant
 Medium-driven |----- Archiving -----------| Content-driven</pre>
-<figcaption>Reproduction of the <q>Scholarly Communication Evolution</q> figure 1 from <cite><a property="prov:wasDerivedFrom" href="http://andrew.treloar.net/research/publications/ipres2014/iPres2014-paper.pdf">A Perspective on Archiving the Scholarly Web</a></cite> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</figcaption>
+<figcaption>Reproduction of the <q>Scholarly Communication Evolution</q> figure 1 from <cite><a property="prov:wasDerivedFrom" href="https://public.lanl.gov/herbertv/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">A Perspective on Archiving the Scholarly Web</a></cite> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</figcaption>
 </figure>
 
 <figure about="#communicated-object-evolution" id="communicated-object-evolution">
@@ -90,7 +90,7 @@ Medium-driven |----- Archiving -----------| Content-driven</pre>
    Uniform |----- Variety ----------| Diverse
 Standalone |----- Connectedness ----| Networked
     Closed |----- Access -----------| Open</pre>
-<figcaption>Reproduction of the <q>Communicated Object Evolution</q> figure 2 from <cite><a property="prov:wasDerivedFrom" href="http://andrew.treloar.net/research/publications/ipres2014/iPres2014-paper.pdf">A Perspective on Archiving the Scholarly Web</a></cite> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</figcaption>
+<figcaption>Reproduction of the <q>Communicated Object Evolution</q> figure 2 from <cite><a property="prov:wasDerivedFrom" href="https://public.lanl.gov/herbertv/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">A Perspective on Archiving the Scholarly Web</a></cite> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</figcaption>
 </figure>
 
               <p>Given that the research processing becoming more visible on the Web (eg. as per the <q>Open Science</q> movement), as well as the nature of objects transitioning to being more content-driven, Van de Sompel posits that the aforementioned indicators impact the functions in scientific communication, and in particular have a significant impact on the future of archiving:</p>
