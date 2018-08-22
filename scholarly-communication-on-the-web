@@ -889,7 +889,7 @@ and how.</pre>
 
               <p>The tetrad serves as a conceptual categorisation of effects. It allows us to outline what the medium enables or has implications for based on testable observations. Verifying, realising, and analysing some of these effects in "the real world", or in day-to-day academic practice, is the core of this thesis. Whilst there exists a plethora of possible observations, this thesis will focus on:</p>
 
-              <ul>
+              <ul id="inspecting-effects-and-artefacts">
                 <li>composition of scholarly information</li>
                 <li>individual autonomy to create and consume knowledge</li>
                 <li>sociality of scholarly communication</li>
