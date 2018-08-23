@@ -216,7 +216,7 @@ Rough coverage:
 
                     <dt id="rdf-as-the-language">RDF as the language</dt>
                     <dd>
-                      <p>HTML is the predominant means to publish information on the Web. While this is sufficient to cover various use cases in the scholarly information space, it is limited in the sense that the granularity of machine-readable content is based on the classic hypertext model, ie. ultimately a relationship with loose semantics between documents or their parts. This is in contrast to using RDF as the language to communicate knowledge about arbitrary things at different levels of abstraction. We consider the application of the RDF <em>language</em> is the fundamental requirement since atomic statements about scientific information and scholarly activities can be expressed, as well as each component of a statement being universally identifiable. The language enables the information to be serialised using different syntaxes eg. HTML+RDFa, Turtle. Perhaps most importantly, the underlying data is intended to be manipulated as a <em>graph</em> of things, where its syntactical representations remaining isomorphic across serialisations.</p>
+                      <p>HTML is the predominant means to publish information on the Web. While this is sufficient to cover various use cases in the scholarly information space, it is limited in the sense that the granularity of machine-readable content is based on the classic hypertext model, ie. ultimately a relationship with loose semantics between documents or their parts. It is considered to be limited in terms of capturing domain-specific knowledge. This is in contrast to using RDF as the language to communicate knowledge about arbitrary things at different levels of abstraction. We consider the application of the RDF <em>language</em> is the fundamental requirement since atomic statements about scientific information and scholarly activities can be expressed, as well as each component of a statement being universally identifiable. The language enables the information to be serialised using different syntaxes eg. HTML+RDFa, Turtle. Perhaps most importantly, the underlying data is intended to be manipulated as a <em>graph</em> of things, where its syntactical representations remaining isomorphic across serialisations.</p>
                     </dd>
 
                     <dt id="human-and-machine-interpretable-units">Human and machine-interpretable units</dt>
@@ -225,7 +225,7 @@ Rough coverage:
 
                       <p id="content-negotiation-as-optimisation">The HTTP <cite><a href="https://tools.ietf.org/html/rfc7231#section-3.4">Content Negotiation</a></cite> mechanism can be used to serve a possible representation of a resource that the client prefers from a URI. The decision algorithm may be based on different dimensions of content negotiation, eg. media type, character set, encoding, language, time. All things equal, here we consider having simplicity in the design as a desired quality for a server requirement, in order to make data available for the purpose of read-write operations that a client can perform. For instance, to what extent can we serve a resource representation "as is" without having to perform media type conversions in order to satisfy both human and machine consumers?</p>
 
-                      <p>From the available RDF syntaxes, this line of reasoning brings us to encapsulating information using <cite><a href="https://www.w3.org/TR/rdfa-core/">RDFa</a></cite> - attribute-level extension - inside host languages like (X)HTML, and various XML-family languages eg. SVG, MathML. What makes <cite><a href="https://www.w3.org/TR/rdfa-in-html/">RDFa in HTML</a></cite>, for instance, an attractive combination is that it maps patterns in RDF which is ideal for enhanced machine control, while retaining the same document that is interpretable by humans. Essentially, interoperable information exchange and reuse by machines is intended to work over the RDF graph that is expressed through RDFa. Here HTML merely acts as the container to encapsulate the underlying information and to offer presentations and interactions (in regardless of the RDF syntax embedded in HTML). RDFa specifies only a syntax and allows independently defined specifications (like vocabularies) to be used. Existing HTTP servers can virtually serve HTML content without additional server or client-side modules or application logic. Ergo, RDFa in HTML manifests a low barrier to make human and machine-interpretable information available from a single URL.</p>
+                      <p>From the available RDF syntaxes, this line of reasoning brings us to encapsulating information using <cite><a href="https://www.w3.org/TR/rdfa-core/">RDFa 1.1</a></cite> - attribute-level extension - inside host languages like (X)HTML, and various XML-family languages eg. SVG, MathML. What makes <cite><a href="https://www.w3.org/TR/rdfa-in-html/">RDFa in HTML</a></cite>, for instance, an attractive combination is that it maps patterns in RDF which is ideal for enhanced machine control, while retaining the same document that is interpretable by humans. Essentially, interoperable information exchange and reuse by machines is intended to work over the RDF graph that is expressed through RDFa. Here HTML merely acts as the container to encapsulate the underlying information and to offer presentations and interactions (in regardless of the RDF syntax embedded in HTML). RDFa specifies only a syntax and allows independently defined specifications (like vocabularies) to be used. Existing HTTP servers can virtually serve HTML content without additional server or client-side modules or application logic. Ergo, RDFa in HTML manifests a low barrier to make human and machine-interpretable information available from a single URL.</p>
 
                       <div class="note" id="rdf-in-html">
                         <h4>Note</h4>
@@ -280,7 +280,7 @@ Rough coverage:
 
                   <p><strong>Rights and Responsibilities</strong>: <cite><a href="http://creativecommons.org/ns">Creative Commons Rights Expression Language</a></cite> lets licenses to be described - jurisdiction, permissions, requirements, license and work properties - and having them attached to digital works. The <cite><a href="https://creativecommons.org/licenses/">Creative Commons licenses</a></cite> (<abbr title="Creative Commons">CC</abbr>) licenses is intended to enable sharing and reuse of creativity and knowledge, by specifying how something - like scientific and scholarly resources - may be copied, distributed, edited, remixed, and built upon. The <cite><a href="https://www.w3.org/ns/odrl/2/">Open Digital Rights Language</a></cite> (<abbr title="Open Digital Rights Language">ODRL</abbr>) makes it possible to express permissions and obligations about the usage of content and services. <cite><a href="https://www.w3.org/TR/odrl-vocab/">ODRL Vocabulary &amp; Expression</a></cite> describes how to encode such policies.</p>
 
-                  <p><strong>Access Control and Certificates</strong>: The <cite><a href="https://www.w3.org/wiki/WebAccessControl">Web Access Control</a></cite> (<abbr title="Web Access Control">WAC</abbr>) mechanism with the <cite><a href="https://www.w3.org/ns/auth/acl">Access Control List</a></cite> (<abbr title="Access Control List">ACL</abbr>) vocabulary describes authorization policies in particular to access and operations - read, write, append, control - that can be done on Web resources by agents or groups. <cite><a href="https://www.w3.org/ns/auth/cert">The Cert Ontology 1.0</a></cert> can be used to indicate digital certificate information for agents.</p>
+                  <p><strong>Access Control and Certificates</strong>: The <cite><a href="https://www.w3.org/wiki/WebAccessControl">Web Access Control</a></cite> (<abbr title="Web Access Control">WAC</abbr>) mechanism with the <cite><a href="https://www.w3.org/ns/auth/acl">Access Control List</a></cite> (<abbr title="Access Control List">ACL</abbr>) vocabulary describes authorization policies in particular to access and operations - read, write, append, control - that can be done on Web resources by agents or groups. <cite><a href="https://www.w3.org/ns/auth/cert">The Cert Ontology 1.0</a></cite> can be used to indicate digital certificate information for agents.</p>
 
                   <p><strong>Provenance</strong>: <cite><a href="https://www.w3.org/TR/prov-o/">The PROV Ontology</a></cite> (<abbr title="The PROV Ontology">PROV-O</abbr>) can be used <q>to represent and interchange provenance information generated in different systems and under different contexts</q>. It can be also be <q>specialized for modeling application-specific provenance details in a variety of domains</q>, like for instance <cite><a href="http://www.opmw.org/model/OPMW/">The OPMW-PROV Ontology</a></cite> to describe workflow traces and their templates, which also extends the <cite><a href="http://www.opmw.org/model/p-plan/">P-Plan Ontology</a></cite> that is designed to represent scientific processes. The <cite><a href="https://w3id.org/ro/">Wf4Ever Research Object Model</a></cite> is used to describe workflow-centric <cite>Research Objects</cite>: aggregations of resources along with annotations on those resources relating to scientific workflows.</p>
 
@@ -302,26 +302,32 @@ Rough coverage:
                 <p class="todo">move this up... discuss the characteristics of the existing stuff.. and not really a comparison...</p>
 
 
-                <p><strong>Markup patterns</strong> There are plethora of attempts and approaches in this space. To name a few, most recently the W3C Community Group on <cite><a href="https://www.w3.org/community/scholarlyhtml/">Scholarly HTML</a></cite> with the aim to build a common, open format for the exchange of scholarly information; <cite><a href="https://essepuntato.github.io/papers/rash-peerj2016.html">Research Articles in Simplified HTML</a></cite>; and closely related: <cite><a href="http://www.idpf.org/epub">EPUB</a></cite> as an archive file including all material; <cite><a href="http://jats.niso.org/">Journal Article Tag Suite</a></cite> to describe scientific literature; <cite><a href="http://docbook.org/">DocBook</a></cite> for semantic technical documentation.</p>
+                <p id="markup-patterns"><strong>Markup patterns</strong>: There are plethora of approaches and developments to representing scholarly information with markup languages. Here we focus on a few and describe their characteristics.</p>
 
-                <div class="note">
-                  <h4>Note</h4>
-                  <div>
-                    <p>For historical and technical reasons, the commonality of these existing approaches is that, they are predominantly designed to address:</p>
+                <p id="scholarly-html"><cite><a href="https://www.w3.org/community/scholarlyhtml/">W3C Scholarly HTML Community Group</a></cite> has its mission to build a common, open format for the exchange of scholarly information. Its specification on <cite><a data-versiondate="2017-10-02T17:15:58Z" data-versionurl="https://web.archive.org/web/20171002171558/https://w3c.github.io/scholarly-html/" href="https://w3c.github.io/scholarly-html/">Scholarly HTML</a></cite> proposes a vernacular document format aimed at encoding <em>scholarly articles</em> built on open standards, as well as having them compatible with off-the-self Web browsers. One of its high-level goals is to enable structured metadata as well as semantic enrichments, accessibility, internationalisation. It applies the notion of <q>semantic overlays</q> for its markup patterns with focus on role-based semantics as defined in WAI-ARIA, DPUB-ARIA, and semantic representations using RDFa. The specification explains how concepts for people and organisation, article semantics, schema roles, actions, citations, document rights, and so forth can be marked using appropriate vocabularies - using <cite><a href="https://schema.org/">schema.org</a></cite> as base.</p>
 
-                    <ul>
-                      <li>print-centric characteristics, as opposed to Web-native</li>
-                      <li>prescriptive data representation for application needs</li>
-                      <li>dependence on specific environments, media or device</li>
-                      <li>a subset of scholarly information - usually literature, as opposed to annotations or notifications</li>
-                      <li>structure and semantics through HTML or XML, as opposed to the RDF layer</li>
-                      <li>duplicate information catered to humans and machines separately</li>
-                      <li>dependency on additional processing on top of existing information to make it human-readable</li>
-                    </ul>
+                <p id="rash"><cite><a href="https://essepuntato.github.io/papers/rash-peerj2016.html">Research Articles in Simplified HTML</a></cite></p>
 
-                    <p>With respect to the LR's <a href="framing-linked-research#acid-test">acid test</a>, these designs and the applications they enable tend to be inadequate to arrive at an interoperable information space on the Web.</p>
-                  </div>
-                </div>
+                <p id="epub">Related <cite><a href="http://www.idpf.org/epub">EPUB</a></cite> as an archive file including all material</p>
+
+                <p id="jats"><cite><a href="http://jats.niso.org/">Journal Article Tag Suite</a></cite> to describe scientific literature</p>
+
+                <p id="docbook"><cite><a href="http://docbook.org/">DocBook</a></cite> for semantic technical documentation.</p>
+
+
+                <p>For historical and technical reasons, the commonality of these existing approaches is that, they are predominantly designed to address:</p>
+
+                <ul>
+                  <li>print-centric characteristics, as opposed to Web-centric</li>
+                  <li>prescriptive data representation for application needs</li>
+                  <li>dependence on specific environments, media or device</li>
+                  <li>a subset of scholarly information - usually literature, as opposed to annotations or notifications</li>
+                  <li>structure and semantics through HTML or XML, as opposed to the RDF layer</li>
+                  <li>duplicate information catered to humans and machines separately</li>
+                  <li>dependency on additional processing on top of existing information to make it human-readable</li>
+                </ul>
+
+                <p>The conventions used to create and consume data in these workflows and applications are inadequate to arrive at an interoperable information space on the Web.</p>
 
 
                 <p id=""><cite><a href="https://www.era.lib.ed.ac.uk/bitstream/handle/1842/9957/Milowski2014.pdf">Enabling Scientific Data on the Web</a></cite> focuses on <q>enabling scientific data to exist on the Web in such a way that it can be processed both as viewable content and consumed data</q>.</p>
