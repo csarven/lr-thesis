@@ -20,9 +20,13 @@
       <article about="" typeof="schema:Article">
         <h1 property="schema:name">Autonomous Scholarly Communication</h1>
         <div datatype="rdf:HTML" property="schema:description">
+          <p class="todo">All section names and order needs review. Some information could be moved to other chapters.</p>
+
           <section id="information-society" inlist="" rel="schema:hasPart" resource="#information-society">
             <h2 property="schema:name">Information Society</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p class="notes">The point of this section was to describe a wider picture about information control in society.</p>
+
               <p>The term <q>information society</q> is used to loosely denote increasingly central role of information and communication technologies in social and economic activity. With the advent of the Internet and the Web, the production, distribution, and consumption of instantaneously accessible networked knowledge has further shaped social policies and practices around the world.</p>
 
               <p>As discussed earlier, throughout history, the complex connections between communication technologies and society transformed control structures of civilisations. Harold Innis and Marshall McLuhan argued that electronic media, unlike any other, compressed time and space - creating a <q>global village</q> - as well as facilitating the influence and potential of centralised control. While the Internet reinforces democratic (re)distribution of communicative power, and that the Web is inherently decentralised - with the exception of centralised notion of DNS tied to social agreements - today, centralisation of all forms of information exchange and various forms of (algorithmic) censorship - state or self-imposed - is commonplace; from governments, social media services, to increasingly various and variety of large-scale systems that collect, adopt, organise, and share data in diverse sectors. For instance, major information organisations like Google, Facebook, Elsevier, to a long tail of (social) media services, exert a great influence on how and what information can be accessible, expressible, reusable, with respect to the cost of human capital, as well as impact on society by creating information and <q>filter bubbles</q>. In essence knowledge elitism takes different shapes and forms on society. Information control tends to happen through system designs that are inherently centralised.</p>
@@ -34,6 +38,8 @@
           <section id="control-yourself" inlist="" rel="schema:hasPart" resource="#control-yourself">
             <h2 property="schema:name">Control Yourself</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p class="notes">Supposed to make a case for transitioning to a more decentralised and self-controlled identifiers and data. The tech is here...</p>
+
               <p about="" id="problem-statement" rel="schema:hasPart"><span about="#problem-statement" property="schema:description" typeof="deo:ProblemStatement">While the Web was originally conceived as a decentralised <em>application</em> running on the Internet, where every organisation and individual can participate, it became increasingly centralised with <a class="todo" href="https://news.netcraft.com/archives/category/web-server-survey/">less than 1% of the servers serving more than 99% of the content</a>. The domination of centralisation is essentially due to economic and state incentives, and it has shaped the technical infrastructure: it is currently much easier and more efficient to author, manage, publish, and search large amounts of similarly structured content using a centralised platform. Blogger, YouTube and Facebook, for example, are centralised authoring, publishing, and search platforms for blog posts, videos or social network content respectively.</span></p>
 
               <p>However, independence of centralised platforms is a necessity for ownership of published ideas, and to establish a relation of trust. For example, Facebook has been accused of <a href="http://www.slate.com/articles/technology/technology/2016/05/yes_facebook_is_biased_now_it_should_admit_it.html">bias</a>, <a href="https://www.theguardian.com/media/2016/jul/12/how-technology-disrupted-the-truth">false information</a>, and <a href="https://www.nytimes.com/2016/09/10/technology/facebook-vietnam-war-photo-nudity.html">censorship</a>—but rather than blaming this on any particular platform, we identify it as an unavoidable result of centralisation. After all, there is a continued tension between unrestricted publication rights on the one hand, and a guarantee of balanced, verified information on the other. In a fully decentralised setting, each source is filterless and responsible for its own quality and reputation, while others are free to selectively (dis-)trust certain sources using any mechanism they desire.</p>
@@ -73,6 +79,8 @@
           <section id="challenges" inlist="" rel="schema:hasPart" resource="#challenges">
             <h2 property="schema:name">Challenges</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo">I'm not sure what to call this section. It is a bit of a high level background / challenges / research and development areas? Should this merge with other subsections?</p>
+
               <p>In <cite><a data-versiondate="2018-06-24T16:34:27Z" data-versionurl="https://web.archive.org/web/20180822222954/https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf" href="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">A Perspective on Archiving the Scholarly Web</a></cite>, Van de Sompel et al characterises the ongoing evolution and transition of objects pertaining to scholarly communication. In the <q cite="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">Figure 1: Scholarly Communication Evolution</q> and <q cite="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">Figure 2: Communicated Object Evolution</q> is reproduced below, left hand side reflects the status in the system of journals, whereas the right hand side reflects the status in a future, emerging system where the objects are considered to be Web-centric:</p>
 
 <figure about="#scholarly-communication-evolution" id="scholarly-communication-evolution">
@@ -136,6 +144,8 @@ Standalone |----- Connectedness ----| Networked
           <section id="standards-for-decentralised-web" inlist="" rel="schema:hasPart" resource="#standards-for-decentralised-web">
             <h2 property="schema:name">Standards for Decentralised Web</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo">Write a few sentences for each standard how/why it helps scholarly communication.</p>
+
               <p id="internet-web-protocols">The foundational communication and transfer protocols of the Internet and the Web (eg. <abbr title="Transmission Control Protocol">TCP</abbr>/<abbr title="Internet Protocol">IP</abbr>, <abbr title="Domain Name Server">DNS</abbr>, <abbr title="Hypertext Transfer Protocol">HTTP</abbr>) are designed to operate in a decentralised and distributed manner. In terms of global functionality, removing a single node from the network - a machine with an IP address - does not halt the whole network. Similarly, when an HTTP URL is no longer available (eg. typical "404 Not Found", "410 Gone" status messages), the other URLs are not affected. This particular behaviour, where the Web being functional without requiring bi-directional hyperlinks is considered to be a "feature" (rather than a "bug") of the overall system. However, Ted Nelson disputes this design choice with respect to the original Hypertext design.</p>
 
               <p id="read-write-web">As discussed previously the <abbr title="Architecture of the World Wide Web">AWWW</abbr> enables the identification, discovery and description of information for the notion of a <q>Read-Write Web</q> where servers and clients interact using Web standards. Generally speaking <cite><a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">create, read, update and delete</a></cite> (<abbr title="Create, Read, Update and Delete">CRUD</abbr>) are the basic functions of persistent storage as well as conventions for user-interfaces to view and change information. Each CRUD operation can be mapped to an interaction method of the Web architecture. For example, the request function for HTTP would be: <math alttext="upper R e q u e s t equals upper M e t h o d vector-or-cross-product upper I upper R upper I vector-or-cross-product upper M e d i a upper T y p e vector-or-cross-product upper B o d y" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>Request</mi><mo>=</mo><mi>Method</mi><mo>⨯</mo><mi>IRI</mi><mo>⨯</mo><mi>MediaType</mi><mo>⨯</mo><mi>Body</mi></mrow></math>, where <em>IRI</em> being the identifier of a resource, and <em>MediaType</em> indicating the format of the content in <em>Body</em>, the mapping to some HTTP method(s) <em>typically</em> used as follows (implementations may differ in some areas):</p>
@@ -181,6 +191,7 @@ Standalone |----- Connectedness ----| Networked
 
               <p id="web-annotation"><cite><a href="https://www.w3.org/annotation/">Web Annotation</a></cite> (<abbr title="Web Annotation">WA</abbr>) is set of specifications for an interoperable, sharable, distributed Web Annotation architecture. The annotations convey information about a resource or associations between resources to meet different motivations and purposes, eg. assessing, replying, describing, bookmarking, as well as <q cite="https://www.w3.org/TR/annotation-model/#abstract">linking arbitrary content to a particular data point or to segments of timed multimedia resources</q>. The Recommendations and Notes include:</p>
 
+              <p class="todo">Perhaps only annotation-protocol and maybe annotation-model should be here and the rest in structure-of-scholarly-communication?</p>
               <ul>
                 <li><cite><a href="http://www.w3.org/TR/annotation-model/">Web Annotation Data Model</a></cite> describes the underlying annotation <em>abstract</em> data model as well as a JSON-LD serialization.</li>
                 <li><cite><a href="http://www.w3.org/TR/annotation-vocab/">Web Annotation Vocabulary</a></cite> provides the vocabulary which underpins the annotation data model.</li>
@@ -250,6 +261,8 @@ Standalone |----- Connectedness ----| Networked
           <section id="decentralised-storage" inlist="" rel="schema:hasPart" resource="#standards-for-decentralised-web">
             <h2 property="schema:name">Decentralised Storage</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p class="fixme">Should this be a subsection of #standards-for-decentralised-web ? Kinda like it flat</p>
+
               <p>Some of the advantages of decentralised storage: censorship resistance, persistent availability, self-monitoring, organic growth and optimisation, monopoly disruption.</p>
               <p>Disadvantages...</p>
 
@@ -267,25 +280,28 @@ Standalone |----- Connectedness ----| Networked
           <section id="universal-identity-for-the-web" inlist="" rel="schema:hasPart" resource="#universal-identity-for-the-web">
             <h2 property="schema:name">Universal Identity for the Web</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Identity can generally be issued by a community, institution, state issued.</p>
+              <p class="fixme">Should this be a subsection of #standards-for-decentralised-web ? Kinda like it flat</p>
+
+              <p class="todo">Identity can generally be issued by a community, institution, state issued....</p>
 
               <p id="social-personal-data-stores">In <cite><a href="https://www.research.ed.ac.uk/portal/files/20028374/vanKleek_et_al_2015_Social_Personal_Data_Stores.pdf" title="https://doi.org/10.1145/2740908.2743975">Social Personal Data Stores: the Nuclei of Decentralised Social Machines</a></cite>, 2015, Max Van Kleek et al, considers decentralised social applications from the user's perspective based on the shortcomings and dangers of <span lang="la" xml:lang="la" title="Latin phrase refering to what happens in practice, in contast to law">de facto</span> practices where user data and interactions being controlled by centralised service providers. The work states that existing personal data stores for the most part do not <q>account for the need for multiple identities, effective separation of roles and anonymity, and to prevent unwanted tracking and clickstream profiling</q>, and that future work should integrate people's need for privacy, creation, management, and switching of separate identities, pseudonyms, personas in order to be used in different contexts, eg. personal, professional.</p>
 
               <p>In <cite><a href="http://dr.amy.gy/">The Presentation of Self on a Decentralised Web</a></cite>, 2017, Amy Guy, the <q cite="https://rhiaro.github.io/thesis/chapter3#what-is-a-profile">What is a profile?</q> study describes <q>affordances of systems which integrate online profiles in a social capacity and raises five features of systems with regards to their representations of users: flexibility, access control, prominence, portability, representation.</q> Furthermore, Guy posits that <q cite="https://rhiaro.github.io/thesis/chapter3#ccccc">online self-presentation is both constituted and affected by <em>who</em> sees a representation of an individual, and <em>what</em> it is they see, both of which are encompassed by the situation <em>whereby</em> it is seen</q>. The results of the studies are summarised as a conceptual framework as the <q>5Cs</q> for online profiles and self presentation: <q>context, control, customisability, connectivity, cascade</q>.</p>
 
-              <p id="third-party-controlled">Community or state controlled identifiers are a class of identifiers that are ultimately third-party controlled in that their ownership, governance, description is beyond the individuals jurisdiction. For some use cases, this can be desirable in that the persistence and maintenance of the identifiers are handled by the group as a whole. Typically there are policies in place with a promise to keep them around .. </p>
-
-              <p>ORCID aims to be part of the commons and managed by its <a href="https://orcid.org/about/community">community</a>. Ultimately third-party controlled - outside of the researcher's jurisdiction, constrained expression.. There is sameAs for WebID and possibly preferredURI: https://github.com/ORCID/ORCID-Source/issues/4398</p>
-              <p>ORCID: while having an ORCID, a person can have their storage, inbox ( https://twitter.com/csarven/status/905421364353490944 ), outbox ( https://twitter.com/csarven/status/991642357983514625 ) elsewhere...</p>
-
+              <p id="third-party-controlled">Community or state controlled identifiers are a class of identifiers that are ultimately third-party controlled in that their ownership, governance, description is beyond the individuals jurisdiction. For some use cases, this can be desirable in that the persistence and maintenance of the identifiers are handled by the group as a whole. Typically there are policies in place with a promise to keep them around ...</p>
+              <p>ORCID aims to be part of the commons and managed by its <a href="https://orcid.org/about/community">community</a>. Ultimately third-party controlled - outside of the researcher's jurisdiction, constrained expression.. There is sameAs for WebID and possibly preferredURI: https://github.com/ORCID/ORCID-Source/issues/4398 ...</p>
+              <p>ORCID: while having an ORCID, a person can have their storage, inbox ( https://twitter.com/csarven/status/905421364353490944 ), outbox ( https://twitter.com/csarven/status/991642357983514625 ) elsewhere ...</p>
               <p>Self-controlled:</p>
               <p>..</p>
 
               <figure>
-                <object></object>
-                <figcaption>Control: Personal|-----|Community</figcaption>
+                <pre>                       |------ URI ownership ------|
+Contributor controlled |------ Data----------------| Third-party controlled
+                       |------ Application --------|</pre>
+                <figcaption>Range of control</figcaption>
               </figure>
 
+              <p class="todo">How do I jump to:</p>
               <p>Desired qualities: global identifier, extensible descriptions, self-expression (contrast with silo/accounts and trusted third-party managed identification systems, multiple identities (personal, professional), identity claim verification, social graph</p>
 
               <p>Different types of strings, eg. a username, an email address, an RSA public key, a URI, can be used to directly or indirectly identify agents. While each can be useful within their own context, Web-based identifiers (URI) make it possible to provide machine-readable descriptions when dereferenced, descriptions being extensible by their owners, as well as being interoperable global identifiers that can be interlinked unambiguously with other things.</p>
@@ -342,6 +358,8 @@ Standalone |----- Connectedness ----| Networked
           <section id="authentication" inlist="" rel="schema:hasPart" resource="#authentication">
             <h2 property="schema:name">Authentication</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p class="fixme">Should this be a subsection of #standards-for-decentralised-web ? Kinda like it flat</p>
+
               <p id="trust">Trust is ultimately tied to verifiable claims about identity and their provenance. While the creation and protection of third-party controlled online identities have received much focus, claiming and using personal identities online is still a challenge. Today's Web applications predominantly make use of online identities that are essentially tied to and controlled by authorities in which users are merely borrowing an identifier and its management. It is a common practice to where users are required to create accounts at each online service they wish to use, eg. social media sites. Moreover, the trust model of such design dictates claims and usage of online identities is not ultimately in the hands of the users, and can be taken away from the users by the owners of the URIs and service at any time and reason. Even in cases where third-party issues identities can be used across different services, it is subject to a privacy violation as the identity provider essentially gets to know which services the user's online identity is used with and for what purpose. Consequently such services can gradually build up information about users' actions as well as behavioural patterns on the Web. Lastly, portability and interoperability of the identities is generally under developed as there is no particular incentive for an identity provider to make it so - after all, providing "free" services for online identities, and then locking identities to well-defined circle of services is taken advantage of by large corporations given their business models. Perhaps most importantly, such online services (as well as applications) do not recognise the identity of users as a distinct notion from the applications and services they use towards authentication.</p>
 
               <p id="authentication-mechanisms">While there are different authentication mechanisms eg. <cite><a href="https://tools.ietf.org/html/rfc7617">The 'Basic' HTTP Authentication Scheme</a></cite>, service based authentication of centralised systems typically requiring a username and password, as well as being a typical re , <cite><a href="https://openid.net/connect/">OpenID Connect</a></cite> (<abbr title="OpenID Connect">OIDC</abbr>), <cite><a href="https://www.w3.org/TR/webauthn/">Web Authentication: An API for accessing Public Key credentials</a></cite>, in this thesis we will focus on digital certificates used by <a href="#tls">TLS</a>, ie. <a href="#x509">X.509 Certificate</a>.</p>
@@ -426,6 +444,8 @@ Standalone |----- Connectedness ----| Networked
           <section id="authorization" inlist="" rel="schema:hasPart" resource="#authorization">
             <h2 lang="en-us" property="schema:name" xml:lang="en-us">Authorization</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p class="fixme">Should this be a subsection of #standards-for-decentralised-web ? Kinda like it flat</p>
+
               <p><cite><a href="https://www.w3.org/ns/auth/acl">Access Control List</a></cite> (<abbr title="Access Control List">ACL</abbr>) ontology, enables a server to provide four modes of access: <q>Read</q>, <q>Write</q>, <q>Append</q>, and <q>Control</q>. As implied by the name, <em>read</em> allows a server's resources to be accessible and interpretable. <em>Write</em> allows resources to be modified or deleted. <em>Append</em> allows a specific kind of Write in that while adding of information is permitted, removal is not. <em>Control</em> permits full read and write access, which is typically given only to the owners (or administrators) of the resources.</p>
 
               <p>The following code snippets of authorization policies are used to specify the ACL information (eg. <samp>resource.acl</samp>) associated with a resource (eg. <samp>resource</samp>) on a server. For example, setting an authorization policy where an agent (only <code>http://csarven.ca/#i</code>) to be the owner of a resource:</p>
@@ -457,6 +477,8 @@ Standalone |----- Connectedness ----| Networked
           <section id="persistence-and-preservation" inlist="" rel="schema:hasPart" resource="#persistence-and-preservation">
             <h2 property="schema:name">Persistence and Preservation</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo">Rough. I'm not sure if this should be a key subsection or moved elsewhere</p>
+
               <p>Author self-publishes.. trusted-third parties archive...</p>
 
               <p>Is it feasible to capture different states of articles, notifications, and annotations?</p>
@@ -506,7 +528,7 @@ Standalone |----- Connectedness ----| Networked
           <section id="implementing-a-read-write-linked-data-web" inlist="" rel="schema:hasPart" resource="#implementing-a-read-write-linked-data-web">
             <h2 property="schema:name">Implementing a Read-Write Linked Data Web</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo">This section is mostly a dump of dokie.li/docs.. need to revise/extend.</p>
+              <p class="todo">This section is mostly a dump of dokie.li/docs.. need to revise/extend. What else should it focus on?</p>
 
 <!--XXX: 
               <p>In this section we describe a client-side application that reflects some of the <a href="scholarly-communication-on-the-web#inspecting-effects-and-artefacts">effects and artefacts of Web-centric scholarly communication</a> focusing on following areas:</p>
@@ -600,14 +622,14 @@ Standalone |----- Connectedness ----| Networked
                 </div>
               </section>
 
-              <section id="authentication" inlist="" rel="schema:hasPart" resource="#authentication">
+              <section id="authentication-dokieli" inlist="" rel="schema:hasPart" resource="#authentication">
                 <h3 property="schema:name">Authentication</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>dokieli was originally intended to handle different authentication mechanisms. <a href="https://www.w3.org/2005/Incubator/webid/spec/tls/">WebID-TLS</a> is currently supported to authenticate with servers.</p>
                 </div>
               </section>
 
-              <section id="storage" inlist="" rel="schema:hasPart" resource="#storage">
+              <section id="storage-dokieli" inlist="" rel="schema:hasPart" resource="#storage">
                 <h3 property="schema:name">Storage</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <dl>
@@ -620,7 +642,7 @@ Standalone |----- Connectedness ----| Networked
                 </div>
               </section>
 
-              <section id="web-extension" inlist="" rel="schema:hasPart" resource="#web-extension">
+              <section id="web-extension-dokieli" inlist="" rel="schema:hasPart" resource="#web-extension">
                 <h3 property="schema:name">Web Extension</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>The dokieli <cite><a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions">Web Extension</a></cite> is a minimal package of dokieli which contains the core CSS and JavaScript that works as a browser add-on. When user triggers it from their browser toolbar, it provides the same functionality as a <cite>single-page application</cite>, ie. initialised and rendered in the browser DOM.</p>
@@ -659,6 +681,8 @@ Standalone |----- Connectedness ----| Networked
           <section id="linked-specifications-reports" rel="schema:hasPart" resource="#linked-specifications-reports">
             <h2 property="schema:name">Linked Specifications, Test Suites, and Implementation Reports</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p class="fixme">I'm not sure what to do with this exactly...</p>
+
               <p class="todo">The relevance of this section/work is about independent publishing (different jurisdictions) but following same line of Web standards / interop... pay-as-you-go... the sum is greater</p>
 
               <p>This article describes the semantic structure and linking of the W3C Recommendation <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (LDN), its test suite, and implementation reports.</p>
