@@ -143,7 +143,19 @@
                   <p id="free-culture"><strong>Free Culture</strong>: In order to disseminate scientific information on the Web with minimal friction, usage rights and responsibilities should permit anyone to share, reuse, and remix information under various conditions. We align this with existing movements like Open Science, and the <a href="https://en.wikipedia.org/wiki/Free-culture_movement">free-culture movement</a> so that both humans and machines can participate by modifying and (re)distributing units of communication without delay in the form of <q>free content and open content</q> that is network-accessible through open communication protocols. Policies about the permissions and obligations should be human and machine-interpretable to facilitate accurate, fair, secure, and privacy-aware use.</p>
 
 
-                  <p id="accessibility"><strong>Accessibility</strong>: With the motivation to create and encourage inclusiveness and diversity in communication, we refer to <q>accessibility</q> (<abbr title="Accessibility">a11y</abbr>) in the widest sense that any agent; human, machine, or otherwise, can access and reuse information. We integrate the output of WAI as described in <cite><a href="structure-of-scholarly-information#inclusiveness-and-diversity">Inclusiveness and Diversity</a></cite>.</p>
+                  <p id="accessibility-usability-inclusion"><strong>Accessibility, Usability, and Inclusion</strong>: With the motivation to create and encourage inclusiveness and diversity in communication towards creating a Web that works for everyone, we refer to W3C's accessibility (<abbr title="Accessibility">a11y</abbr>) fundamentals:</p>
+
+                  <blockquote cite="https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion">
+                    <p><strong>Accessibility</strong>: addresses discriminatory aspects related to equivalent user experience for people with disabilities.</p>
+
+                    <p><strong>Usability</strong>: is about designing products to be effective, efficient, and satisfying.</p>
+
+                    <p><strong>Inclusion</strong>: is about diversity, and ensuring involvement of everyone to the greatest extent possible.</p>
+
+                    <footer><cite><a data-versiondate="2018-05-12T22:26:56Z" data-versionurl="https://web.archive.org/web/20180512222656/http://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/" href="https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/">Accessibility, Usability, and Inclusion</a></cite>, W3C, WAI</footer>
+                  </blockquote>
+
+                  <p>Thus we refer to <q>universal access</q> in the widest sense that any agent; human, machine, or other, can effectively access and reuse information.</p>
 
                   <p><em>Effects and Artefacts</em>: It extends the physical, social, psychological, or intellectual function of an <em>actor</em>.</p>
                 </div>
