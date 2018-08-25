@@ -295,10 +295,10 @@ Rough coverage:
               </section>
 
 
-              <section id="inclusiveness-and-diversity" rel="schema:hasPart" resource="#inclusiveness-and-diversity">
-                <h3 property="schema:name">Inclusiveness and Diversity</h3>
+              <section id="accessibility-usability-inclusion" rel="schema:hasPart" resource="#accessibility-usability-inclusion">
+                <h3 property="schema:name">Accessibility, Usability, and Inclusion</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>We acknowledge the diversity of people using the Web, not only the actors in scholarly communication, but anyone that may create or reuse the information. Our intention here is to have inclusive designs for wide range of people and their abilities. We outline and borrow key initiatives and solutions on content accessibility, accessible applications, authoring tools, and internationalisation. We refer to <q>accessibility</q> (<abbr title="Accessibility">a11y</abbr>) in the widest sense that any agent; human, machine, or otherwise, can access and reuse information.</p>
+                  <p>We acknowledge the diversity of people using the Web, not only the actors in scholarly communication, but anyone that may create or reuse the information. Our intention here is to have inclusive designs for wide range of people and their abilities. We outline and borrow key initiatives and solutions on content accessibility, accessible applications, authoring tools, and internationalisation. We refer to <q>accessibility</q> (<abbr title="Accessibility">a11y</abbr>) in the widest sense that any agent; human, machine, or other can effectively access information and participate.</p>
 
                   <p id="web-content-accessibility"><strong>Web Content Accessibility</strong>: The accessibility of units of communications can also be seen as an aim for all-inclusive design that is usable by humans with widest possible range of abilities and situations. For this, we defer to W3C's <cite><a href="https://www.w3.org/TR/WCAG/">Web Content Accessibility Guidelines</a></cite> (<abbr title="Web Content Accessibility Guidelines">WCAG</abbr>) to cover an array of recommendations to make content accessible to a wider range of people regardless of any disability, limitation, or sensitivity, through different media and interfaces. The goal is to provide a reliably mutually consistent expression of the content. For human-centric scholarly communication to thrive, units of communication should be targeted to aim to meet highest level of conformance criteria. W3C WCAG 2.1 provides a range of guidelines that can be adopted for better content accessibility:</p>
 
