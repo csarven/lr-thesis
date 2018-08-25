@@ -125,7 +125,7 @@
 
               <p>While centralisation of data and applications are two distinct areas of concern, some of the challenges we face in scholarly communication make them appear as one. When we discuss challenges around access to knowledge, the location and quality of the data is often conflated with the tools or services which are required to access the data. Being required to use particular software to create, format or share research articles, to create accounts on particular services, or agree to certain terms and conditions impose a set of characteristics on research output or data itself.</p>
 
-              <p>Data and application appear to be intertwined because the workflows that the researchers are required to use tend to be unique and proprietary and predominantly enforced by third-parties. While some of the differences in designs may be due to historical reasons they also ensure various forms of vendor lock-in on both the research outputs and the applications to generate, share and reuse them. The use of non-interoperable (or even post-facto) methods to create and exchange data on the Web leads to the fragmentation of data through silo-services, and along with it the dependency on applications having their interaction mechanisms established via out-of-band knowledge. If we strictly focus on the quality of machine-interpretability of scholarly information on the Web, the technical obstacles are evident and ample. The applications for the <span lang="la" xml:lang="la" title="Latin phrase meaning the existing state of affairs">status quo</span> need to be continuously hard-wired to know what to look for; what to do once something of interest is found; or where to go next in the discovery phase. Similarly, automating discovery of fine-grained information without human interference is still central to the limitations. Regardless of the technical imperfections, these designs are gains for businesses as they can impose their own set of requirements on their users, and control over data. The third parties which enforce centralisation of data and applications are often for-profit and may even be monopolies.</p>
+              <p>Data and application appear to be intertwined because the workflows that the researchers are required to use tend to be unique and proprietary and predominantly enforced by third-parties. While some of the differences in designs may be due to historical reasons they also ensure various forms of vendor lock-in on both the research outputs and the applications to generate, share and reuse them. The use of non-interoperable (or even post-facto) methods to create and exchange data on the Web leads to the fragmentation of data through silo-services, and along with it the dependency on applications having their interaction mechanisms established via out-of-band knowledge. If we strictly focus on the quality of machine-interpretability of scholarly information on the Web, the technical obstacles are evident and ample. The applications for the <span lang="la" title="Latin phrase meaning the existing state of affairs" xml:lang="la">status quo</span> need to be continuously hard-wired to know what to look for; what to do once something of interest is found; or where to go next in the discovery phase. Similarly, automating discovery of fine-grained information without human interference is still central to the limitations. Regardless of the technical imperfections, these designs are gains for businesses as they can impose their own set of requirements on their users, and control over data. The third parties which enforce centralisation of data and applications are often for-profit and may even be monopolies.</p>
 
               <p>We can approach an alternative to this centralisation by adopting Web-centric worfklows that are inherently interoperable by design, but most importantly by enabling the creators and the users of data and applications to be truly autonomous entities. Hence, we strive towards neutrality and democratisation of scholarly knowledge on all levels of access for humans and machines; and decentralisation and decoupling of data and applications while addressing some of the infrastructure limitations and needs in order to conduct genuine scholarly communication on the Web.</p>
 
@@ -143,23 +143,23 @@
 
               <p>In <cite><a data-versiondate="2018-06-24T16:34:27Z" data-versionurl="https://web.archive.org/web/20180822222954/https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf" href="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">A Perspective on Archiving the Scholarly Web</a></cite>, Van de Sompel et al characterises the ongoing evolution and transition of objects pertaining to scholarly communication. In the <q cite="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">Figure 1: Scholarly Communication Evolution</q> and <q cite="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">Figure 2: Communicated Object Evolution</q> is reproduced below, left hand side reflects the status in the system of journals, whereas the right hand side reflects the status in a future, emerging system where the objects are considered to be Web-centric:</p>
 
-<figure about="#scholarly-communication-evolution" id="scholarly-communication-evolution">
-<pre>       Hidden |----- Research Process ----| Visible
+              <figure about="#scholarly-communication-evolution" id="scholarly-communication-evolution">
+                <pre>       Hidden |----- Research Process ----| Visible
      Discrete |----- Registration --------| Continuous
        Formal |----- Certification -------| Informal
       Delayed |----- Awareness -----------| Instant
 Medium-driven |----- Archiving -----------| Content-driven</pre>
-<figcaption>Reproduction of the <q>Scholarly Communication Evolution</q> figure 1 from <cite><a property="prov:wasDerivedFrom" href="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">A Perspective on Archiving the Scholarly Web</a></cite> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</figcaption>
-</figure>
+                <figcaption>Reproduction of the <q>Scholarly Communication Evolution</q> figure 1 from <cite><a property="prov:wasDerivedFrom" href="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">A Perspective on Archiving the Scholarly Web</a></cite> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</figcaption>
+              </figure>
 
-<figure about="#communicated-object-evolution" id="communicated-object-evolution">
-<pre>     Fixed |----- Fixity -----------| Varying
+              <figure about="#communicated-object-evolution" id="communicated-object-evolution">
+                <pre>     Fixed |----- Fixity -----------| Varying
     Atomic |----- Composition ------| Compound
    Uniform |----- Variety ----------| Diverse
 Standalone |----- Connectedness ----| Networked
     Closed |----- Access -----------| Open</pre>
-<figcaption>Reproduction of the <q>Communicated Object Evolution</q> figure 2 from <cite><a property="prov:wasDerivedFrom" href="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">A Perspective on Archiving the Scholarly Web</a></cite> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</figcaption>
-</figure>
+                <figcaption>Reproduction of the <q>Communicated Object Evolution</q> figure 2 from <cite><a property="prov:wasDerivedFrom" href="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">A Perspective on Archiving the Scholarly Web</a></cite> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</figcaption>
+              </figure>
 
               <p>Given that the research processing becoming more visible on the Web (eg. as per the <q>Open Science</q> movement), as well as the nature of objects transitioning to being more content-driven, Van de Sompel posits that the aforementioned indicators impact the functions in scientific communication, and in particular have a significant impact on the future of archiving:</p>
 
@@ -289,7 +289,7 @@ Standalone |----- Connectedness ----| Networked
                   </tr>
                 </thead>
                 <tbody>
-                  <tr><th scope="rowgroup" colspan="9">Protocol</th></tr>
+                  <tr><th colspan="9" scope="rowgroup">Protocol</th></tr>
                   <tr><th>Linked Data Platform</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
                   <tr><th>Linked Data Templates</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
                   <tr><th>Linked Data Fragments</th><td></td><td>✔</td><td>✔</td><td></td><td></td><td>✔</td><td></td><td></td></tr>
@@ -302,7 +302,7 @@ Standalone |----- Connectedness ----| Networked
                   <tr><th>WebID-TLS</th><td>✔</td><td>✔</td><td>✔</td><td></td><td></td><td></td><td></td><td></td></tr>
                 </tbody>
                 <tbody>
-                  <tr><th scope="rowgroup" colspan="9">Model</th></tr>
+                  <tr><th colspan="9" scope="rowgroup">Model</th></tr>
                   <tr><th>Web Access Control</th><td>✔</td><td>✔</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                   <tr><th>Hydra Core</th><td></td><td>✔</td><td>✔</td><td></td><td></td><td>✔</td><td></td><td></td></tr>
                   <tr><th>Activity Streams</th><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td></td></tr>
@@ -382,7 +382,9 @@ Contributor controlled |------ Data----------------| Third-party controlled
 
               <figure class="listing" id="webid-profile-example">
                 <p><a class="highlight-webid" href="http://csarven.ca/#i" title="WebID"><span class="highlight-webid-profile" title="WebID Profile">http://csarven.ca/</span>#i</a></p>
+
                 <style> #webid-profile-example > p { display:inline-block; } #webid-profile-example > p a { border: 3px solid #f00; padding: 0.5em; letter-spacing:3px; text-decoration: none; } #webid-profile-example > p a span { border: 3px dashed #00f; padding: 0.15em; }</style>
+
                 <pre><code>&lt;<span class="highlight-webid-profile">http://csarven.ca/</span>&gt;</code>
 <code>  a foaf:PersonalProfileDocument ;</code>
 <code>  foaf:primaryTopic &lt;http://csarven.ca/#i&gt; .</code>
