@@ -185,18 +185,6 @@ Standalone |----- Connectedness ----| Networked
 
               <p>To distinguish fakescience/predatory from legit/non-predatory Beyond "anyone can say anything about anything" eg. publish study preregistration to establish trust, share provenance, data, software/code.., open peer review (OPR) process (when/who/what), competing/conflict of interest, grant information</p>
 -->
-
-              <p>While there are plethora of <cite>architecturally significant requirements</cite> such as institutional or orientations in society and industry, we focus on non-functional and functional requirements which enable personal and academic freedom, in particular to creating affordances towards autonomy and interoperable participation on the open Web.</p>
-
-              <p><strong>Non-Functional Requirements</strong>: given above initiatives and developments, we derive non-functional requirements for systems to aim at addressing the forces and functions in scientific communication through the following:</p>
-
-              <ul>
-                <li><em>Interoperability</em> to improve discovery, accessibility, integrability, and reusability</li>
-                <li><em>Security and privacy</em></li>
-                <li><em>Modularity and extensibility</em></li>
-                <li><em>Data integrity, transparency, and reliability</em></li>
-                <li>..</li>
-              </ul>
             </div>
           </section>
 
@@ -777,6 +765,20 @@ XXX:
               <p>The future of self-registration of scholarly units depends in large part on how well its practitioners, advocates, educators alike, are able to reconcile the ideals that the medium offers with the realities of the commercial third-party systems within which scholarly communication operates and the homogenizing influences of scholarly socialisation.</p>
 
               <p>While these challenges are technically surmountable, they need to be taken seriously if, the extreme case where "anyone can say anything about anything" is subject to be treated on equal grounds as a piece of information that is well certified. One contemporary and popular example of this scenario is where nearly all scientists being in agreement on the presence of global warming, climate change, and its consequences. In order to honour a commitment to public service, scientific communication - independent to self-registration - must remain grounded on reproducible and/or replicable facts and explanations, attributable and accountable participants. After all, the output affects journalism, further scientific knowledge exchange, policy making, as well public opinion and perception.</p>
+
+              <hr />
+
+              <p id="non-functional-requirements"><strong>Non-Functional Requirements</strong>: While there are plethora of <cite>architecturally significant requirements</cite> such as institutional or orientations in society and industry, we focus on non-functional and functional requirements which enable personal and academic freedom, in particular to creating affordances towards autonomy and interoperable participation on the open Web. Given above initiatives and developments, we derive non-functional requirements for systems to aim at addressing the forces and functions in scientific communication through the following:</p>
+
+              <ul>
+                <li><em>Interoperability</em> to improve discovery, accessibility, integrability, and reusability</li>
+                <li><em>Security and privacy</em></li>
+                <li><em>Modularity and extensibility</em></li>
+                <li><em>Data integrity, transparency, and reliability</em></li>
+                <li>..</li>
+              </ul>
+
+              <hr />
 
               <p class="todo">Add notes from fragile science</p>
             </div>
