@@ -142,51 +142,6 @@
           </section>
 
 
-          <section id="challenges" inlist="" rel="schema:hasPart" resource="#challenges">
-            <h2 property="schema:name">Challenges</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo">I'm not sure what to call this section. It is a bit of a high level background / challenges / research and development areas? Should this merge with other subsections?</p>
-
-              <p>In <cite><a data-versiondate="2018-06-24T16:34:27Z" data-versionurl="https://web.archive.org/web/20180822222954/https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf" href="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">A Perspective on Archiving the Scholarly Web</a></cite>, Van de Sompel et al characterises the ongoing evolution and transition of objects pertaining to scholarly communication. In the <q cite="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">Figure 1: Scholarly Communication Evolution</q> and <q cite="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">Figure 2: Communicated Object Evolution</q> is reproduced below, left hand side reflects the status in the system of journals, whereas the right hand side reflects the status in a future, emerging system where the objects are considered to be Web-centric:</p>
-
-              <figure about="#scholarly-communication-evolution" id="scholarly-communication-evolution">
-                <pre>       Hidden |----- Research Process ----| Visible
-     Discrete |----- Registration --------| Continuous
-       Formal |----- Certification -------| Informal
-      Delayed |----- Awareness -----------| Instant
-Medium-driven |----- Archiving -----------| Content-driven</pre>
-                <figcaption>Reproduction of the <q>Scholarly Communication Evolution</q> figure 1 from <cite><a property="prov:wasDerivedFrom" href="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">A Perspective on Archiving the Scholarly Web</a></cite> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</figcaption>
-              </figure>
-
-              <figure about="#communicated-object-evolution" id="communicated-object-evolution">
-                <pre>     Fixed |----- Fixity -----------| Varying
-    Atomic |----- Composition ------| Compound
-   Uniform |----- Variety ----------| Diverse
-Standalone |----- Connectedness ----| Networked
-    Closed |----- Access -----------| Open</pre>
-                <figcaption>Reproduction of the <q>Communicated Object Evolution</q> figure 2 from <cite><a property="prov:wasDerivedFrom" href="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">A Perspective on Archiving the Scholarly Web</a></cite> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</figcaption>
-              </figure>
-
-              <p>Given that the research processing becoming more visible on the Web (eg. as per the <q>Open Science</q> movement), as well as the nature of objects transitioning to being more content-driven, Van de Sompel posits that the aforementioned indicators impact the functions in scientific communication, and in particular have a significant impact on the future of archiving:</p>
-
-              <ul>
-                <li>registration: a wide variety and versions of objects that are compound, dynamic, interrelated, and interdependent are available from different Web platforms;</li>
-                <li>certification: a variety of mechanisms that are decoupled from registration;</li>
-                <li>awareness: a variety of objects being communicated in real-time and social;</li>
-                <li>archiving: <q>no constraints on the number or kinds of parties that can hold archived copies</q>, the need for <q>appropriate levels of cross-archive interoperability in order to support seamless, uniform access to archived objects</q>, that are temporally appropriate while context being preserved</li>
-              </ul>
-
-              <p>Van de Sompel et al conclude that in order to address the needs of a distributed archival approach for scholarly Web objects, using standards towards interoperability will play a central role.</p>
-
-<!--
-               <p>In <cite><a href="https://f1000research.com/articles/6-588/v2">What is open peer review? A systematic review</a></cite>, Ross-Hellauer summarises criticisms of traditional peer review: <q>unreliability and inconsistency, delay and expense, lack of accountability and risks of subversion, social and publication biases, lack of incentives, wastefulness</q></p>
-
-              <p>To distinguish fakescience/predatory from legit/non-predatory Beyond "anyone can say anything about anything" eg. publish study preregistration to establish trust, share provenance, data, software/code.., open peer review (OPR) process (when/who/what), competing/conflict of interest, grant information</p>
--->
-            </div>
-          </section>
-
-
           <section id="standards-for-decentralised-web" inlist="" rel="schema:hasPart" resource="#standards-for-decentralised-web">
             <h2 property="schema:name">Standards for Decentralised Web</h2>
             <div datatype="rdf:HTML" property="schema:description">
@@ -568,6 +523,9 @@ Contributor controlled |------ Data----------------| Third-party controlled
 
               <p>Content Integrity.. link rot / content drift</p>
               <p><cite><a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115253">Scholarly Context Not Found: One in Five Articles Suffers from Reference Rot</a></cite></p>
+
+
+              <hr />
 
 
               <p id="robust-links"><cite><a href="http://robustlinks.mementoweb.org/spec/">Robust Links</a></cite>: are human and machine-actionable approaches to <q>decorate</q> links in hypertext documents so that the context of linked resources is preserved at the time of linking. Given that in a long enough time line, content-drift and link-rot pose challenges to maintain context and integrity between resources, associating the datetime information when linking helps to retain such context. The datetime information can be accompanied with a snapshot of the target URI made at a Web archive or a versioning system when linking, and using either the original or the versioned resource as the primary reference. Including datetime information in the source document can make it possible to interpret the context of each of the links in the document and to discover relevant snapshots. In the event that a linked resource or a snapshot becomes inaccessible, the datetime information helps to discover temporally close alternative snapshots.</p>
