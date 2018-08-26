@@ -77,7 +77,9 @@ Consider moving this to LR chapter ()
 
               <p id="twitter"><cite><a href="https://twitter.com/">Twitter</a></cite>, ..</p>
 
-              <p id="scholar-social"><cite><a href="https://scholar.social/">Scholar Social</a></cite> is a Mastodon instance for academics with topical focus on scholarly communication. The site has a feature for a monthly journal club, in which its members can suggest a scholarly article of interest, read, and comment collectively.</p>
+              <p id="mastodon"><cite><a href="https://joinmastodon.org/">Mastodon</a></cite> is a decentralised social network based on open Web protocols and <a href="https://github.com/tootsuite/mastodon">free, open-source software</a>. Mastodon uses the ActivityPub protocol, hence the server is capable of communicating with other servers and clients based on ActivityPub in the federated universe (<q><abbr title="federated universe">fediverse</abbr></q>). Users of the system can exchange different kinds of social media (text, pictures, video), and different ways to organising and moderating content. In contrast to centralised social networks, it is intended to shift the focus to individuals and different communities communicating under their own autonomy. Besides its UI being available in the Web browser, there are plethora of native mobile and desktop client applications, other tooling to communicate with instances, as well as bridges from/to other non-AP based platforms.</p>
+
+              <p id="scholar-social"><cite><a href="https://scholar.social/">Scholar Social</a></cite> is a Mastodon instance geared towards academics with topical focus on scholarly communication. The site has a feature for a monthly journal club, in which its members can suggest a scholarly article of interest, read, and comment collectively.</p>
             </div>
           </section>
 
