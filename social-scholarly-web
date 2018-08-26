@@ -23,7 +23,7 @@
 
           <section id="introduction" inlist="" rel="schema:hasPart" resource="#introduction">
             <h2 property="schema:name">Introduction</h2>
-            <div dataptype="rdf:HTML" property="schema:description">
+            <div datatype="rdf:HTML" property="schema:description">
               <blockquote>
                 <p>'Why' is the only real source of power, without it you are powerless.</p>
                 <footer><cite>Merovingian, The Matrix Reloaded</cite></footer>
@@ -55,7 +55,7 @@
 
           <section id="the-status-quo" inlist="" rel="schema:hasPart" resource="#the-status-quo">
             <h2 property="schema:name">The Status Quo</h2>
-            <div dataptype="rdf:HTML" property="schema:description">
+            <div datatype="rdf:HTML" property="schema:description">
 <pre>
 * publishers - social acceptability of $$$$$ for access. Why are we okay with this?
 ** conference registration fees sending to publishers -> closed access is acceptable? poor quality/formats ok?
@@ -68,39 +68,43 @@ Consider moving this to LR chapter ()
 
           <section id="social-media-and-academia" inlist="" rel="schema:hasPart" resource="#social-media-and-academia">
             <h2 property="schema:name">Social Media and Academia</h2>
-            <div dataptype="rdf:HTML" property="schema:description">
+            <div datatype="rdf:HTML" property="schema:description">
 <pre>
 ** academics use social media to enhance scholarship - this is real/happening
 ** should it be institution supported? do academics speak for themselves online?
 
 </pre>
+
+              <p id="twitter"><cite><a href="https://twitter.com/">Twitter</a></cite>, ..</p>
+
+              <p id="scholar-social"><cite><a href="https://scholar.social/">Scholar Social</a></cite> is a Mastodon instance for academics with topical focus on scholarly communication. The site has a feature for a monthly journal club, in which its members can suggest a scholarly article of interest, read, and comment collectively.</p>
             </div>
           </section>
 
           <section id="scholarly-self" inlist="" rel="schema:hasPart" resource="#scholarly-self">
             <h2 property="schema:name">Scholarly Self</h2>
-            <div dataptype="rdf:HTML" property="schema:description">
+            <div datatype="rdf:HTML" property="schema:description">
 <pre>
 * scholarly profiles under own control
 ** The Presentation of Self Online (rhiaro)
 ** vs third-party (ORCID, Mendeley..)
 ** freedom from constraints eg. multiple profiles with arbitrary detail
 
-* Third-aparty services create ghost profiles for us any way..
+* Third-party services create ghost profiles for us any way..
 </pre>
             </div>
           </section>
 
           <section id="notification" inlist="" rel="schema:hasPart" resource="#notification">
             <h2 property="schema:name">Notification</h2>
-            <div dataptype="rdf:HTML" property="schema:description">
+            <div datatype="rdf:HTML" property="schema:description">
               <p>..</p>
             </div>
           </section>
 
           <section id="annotation" inlist="" rel="schema:hasPart" resource="#annotation">
             <h2 property="schema:name">Annotation</h2>
-            <div dataptype="rdf:HTML" property="schema:description">
+            <div datatype="rdf:HTML" property="schema:description">
               <p>Enabling 'social' scholarly comms through annotation stuff.</p>
               <p>Comparison of annotation services/tools. These tools meet our 'social' like needs, but don't necessarily meet the LR principles.</p>
             </div>
@@ -109,7 +113,7 @@ Consider moving this to LR chapter ()
 
           <section id="role-of-institutions" inlist="" rel="schema:hasPart" resource="#role-of-institutions">
             <h2 property="schema:name">Role of Institutions</h2>
-            <div dataptype="rdf:HTML" property="schema:description">
+            <div datatype="rdf:HTML" property="schema:description">
 <pre>
 * what roles could libraries/institutions play? eg notify about article/review
 * institutional repositories like eprints then they buy PURE from Springer.
@@ -120,7 +124,7 @@ Consider moving this to LR chapter ()
 
           <section id="social-implications" inlist="" rel="schema:hasPart" resource="#social-implications">
             <h2 property="schema:name">Social Implications</h2>
-            <div dataptype="rdf:HTML" property="schema:description">
+            <div datatype="rdf:HTML" property="schema:description">
 <pre>
 * social consequences of open science
 ** media pushed to the extreme (mcluhan) - global fight
@@ -139,7 +143,7 @@ Consider moving this to LR chapter ()
 
           <section id="personal-social-graph" inlist="" rel="schema:hasPart" resource="#personal-social-graph">
             <h2 property="schema:name">Personal Social Graph</h2>
-            <div dataptype="rdf:HTML" property="schema:description">
+            <div datatype="rdf:HTML" property="schema:description">
 <pre>
 * trusted network of people
 * can notify them, request review
@@ -151,7 +155,7 @@ Consider moving this to LR chapter ()
 
             <section id="call-for-linked-research" inlist="" rel="schema:hasPart" resource="#call-for-linked-research">
               <h2 property="schema:name">Call for Linked Research</h2>
-              <div dataptype="rdf:HTML" property="schema:description">
+              <div datatype="rdf:HTML" property="schema:description">
                 <p>This is an initiative to solicit input and participation from the community. It's tied to the principles, and calls for practical activity towards realising the goals.</p>
 <pre>
 ** all sorts of community effort in SW/webscience conferences/workshops
@@ -164,7 +168,7 @@ Consider moving this to LR chapter ()
 
             <section id="realising-social-changes" inlist="" rel="schema:hasPart" resource="#realising-social-changes">
               <h2 property="schema:name">Realising Social Changes</h2>
-              <div dataptype="rdf:HTML" property="schema:description">
+              <div datatype="rdf:HTML" property="schema:description">
                 <p>This section is about how we realise/enable the social changes technically, whilst still adhering to the LR principles (ie. why we can't just use twitter/easychair for academia etc).</p>
                 <p>Point at the social parts of the Control Yourself chapter (AP, AS2, LDN) and say how these fit into the ecosystem. How they mean we can do the things people need to do in scholarly communications in a way that meets the principles.</p>
                 <p>This is where we bring the decentralisation stuff back home to in-practice scholarly comms.</p>
@@ -180,7 +184,7 @@ Consider moving this to LR chapter ()
 
             <section id="challenging-the-status-quo" inlist="" rel="schema:hasPart">
               <h2 property="schema:name">Challenging the Status Quo</h2>
-              <div dataptype="rdf:HTML" property="schema:description">
+              <div datatype="rdf:HTML" property="schema:description">
 <pre>
 * Old man yelling at cloud
 * Mailing list and social media 'activism' - why is this worthwhile? why is this part of the contribution of LR
