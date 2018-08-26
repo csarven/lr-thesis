@@ -108,7 +108,7 @@
 
               <hr />
 
-              <p>Given our half a millennia of experience of mass print publishing, and half a century on electronic publishing, we are in a position to situate, examine and question our assumptions as to what constitutes scholarly knowledge exchange and participation in context of the Web. For instance, the Web - a <em>read-write</em> space - inherently enables anyone to be a "publisher" where each researcher can exercise their full creativity without being subject to arbitrary constraints. Any third-party involvement is fundamentally subject to conflict with that notion. Yet, third-party involvement, typically through for-profit service providers in conjunction with academic institutions and libraries, influence the quality and availability of publicly-funded research output and exchange. The social and professional incentives for academics can be traced to the workflows exerted by external forces.</p>
+              <p>Given our half a millennia of experience of mass print publishing, and half a century on electronic publishing, we are in a position to situate, examine and question our assumptions as to what constitutes scholarly knowledge exchange and participation in context of the Web. For instance, the Web - a <em>read-write</em> space - inherently enables anyone to be a "publisher" where each researcher can exercise their full creativity and expression without being subject to external constraints. With the exception where a third-party entity permits the level of expression that the knowledge creator can potentially seek, such external participants are subject to set constraints on the notion of freedom of expression. Yet, third-party involvement, typically through for-profit service providers in conjunction with academic institutions and libraries, influence the quality and availability of publicly-funded research output and exchange. The social and professional incentives for academics can be traced to the workflows exerted by external forces.</p>
 
               <p>If scholarly communication is predominately and increasingly driven by the Web, how can we approach the integration of scholarly processes with the inherent properties of the Web? One way to look at this is by examining history: the printing press played a major role in moving the non-literate public to learn to read and write for themselves. Given the Web, we find ourselves in a similar situation, with different modes of communication. In order to use the Web effectively - as far as taking advantage of its built-in characteristics, the research community essentially needs to better position itself to self-publish and disseminate their knowledge, as well as be more attributable and accountable in their social engagement. This kind of ongoing evolution is vital for the advancement of scholarly communication. Moving towards completely Web-centric information flows and participation requires the scholarly ecosystem to unchain itself from historic practices.</p>
 
@@ -669,7 +669,7 @@ XXX:
 
 
 
-          <section id="linked-specifications-reports" rel="schema:hasPart" resource="#linked-specifications-reports">
+          <section id="linked-specifications-reports" inlist="" rel="schema:hasPart" resource="#linked-specifications-reports">
             <h2 property="schema:name">Linked Specifications, Test Suites, and Implementation Reports</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p class="fixme">I'm not sure what to do with this exactly...</p>
@@ -685,7 +685,7 @@ XXX:
           </section>
 
 
-          <section id="the-effects-and-artefacts-of-autonomous-engagement" rel="schema:hasPart" resource="#the-effects-and-artefacts-of-autonomous-engagement">
+          <section id="the-effects-and-artefacts-of-autonomous-engagement" inlist="" rel="schema:hasPart" resource="#the-effects-and-artefacts-of-autonomous-engagement">
             <h2 property="schema:name">The Effects and Artefacts of Autonomous Engagement</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p>The Web’s design stands out because of its absence of centralised control, both for technical reasons of scalability and resilience as well as a societal need for freedom of expression. A challenge in such large-scale decentralised networks is how related publications can be semantically interlinked, even if they are authored and published by different parties. Centralising their publications is practiced by the majority of authoring networks today, demanding authors to give up some or all of their control in exchange for technical simplicity.</p>
