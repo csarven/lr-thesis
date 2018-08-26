@@ -180,16 +180,6 @@
 
               <p id="fedora-api"><cite><a href="https://fcrepo.github.io/fcrepo-specification/">Fedora API Specification</a></cite> refines the semantics and interaction patterns of the LDP specification in order to address the needs of repositories for durable access to digital data. Its goal is to facilitate interoperability with client applications. While the interactions patterns provides a mechanism for different client applications to communicate with servers, servers can be expected to vary in the kinds of services and affordances they offer for their resources. Fedora uses LDP as a foundation and defines the version identification and navigation scheme with respect to the <a href="#memento">Memento specification</a>, integrates resource authorization and <a href="#acl">access control list</a> rules (both described below), provides a design for the publication of event notifications, and interaction patterns to support binary resource fixity verification.</p>
 
-              <hr />
-
-              <p>The design pattern for these Linked Data centric read-write architectures can be categorised as follows:</p>
-
-              <ul>
-                <li>the ability to perform CRUD interactions against Web resources</li>
-                <li>decoupling software from domain or application-specific operations and data</li>
-                <li>declarative and machine-readable affordances for valid read-write operations</li>
-              </ul>
-
               <p id="memento"><cite><a href="https://tools.ietf.org/html/rfc7089">HTTP Framework for Time-Based Access to Resource States -- Memento</a></cite> (<abbr title="HTTP Framework for Time-Based Access to Resource States -- Memento">Memento</abbr>): introduces a uniform, datetime-based, version access capability that integrates present and past Web resources. As representations of resources change over time, there is a need to preserve (archive and version) earlier representations. One common resource versioning pattern on the Web consists of generic URIs referring to the latest version of an accessible resource, as well as having a dedicated version URI for each resource. The Memento framework facilitates the discovery and retrieval of distributed versioned resources with datetime negotiation, a variant of content-negotiation; and TimeMaps an index of URIs referring to the prior states of a resource. The framework also helps to recognise frozen states of resources - a promise that the resource state has not and will not change.</p>
 
               <p id="web-annotation"><cite><a href="https://www.w3.org/annotation/">Web Annotation</a></cite> (<abbr title="Web Annotation">WA</abbr>) is set of specifications for an interoperable, sharable, distributed Web Annotation architecture. The annotations convey information about a resource or associations between resources to meet different motivations and purposes, eg. assessing, replying, describing, bookmarking, as well as <q cite="https://www.w3.org/TR/annotation-model/#abstract">linking arbitrary content to a particular data point or to segments of timed multimedia resources</q>. <cite><a href="http://www.w3.org/TR/annotation-protocol/">Web Annotation Protocol</a></cite> is the HTTP API for publishing, syndicating, and distributing Web Annotations. Much of the protocol is based on using and extending LDP and REST best practices. <cite><a href="http://www.w3.org/TR/annotation-model/">Web Annotation Data Model</a></cite> describes the underlying annotation <em>abstract</em> data model as well as a JSON-LD serialization.</p>
@@ -248,6 +238,15 @@
                   </tr>
                 </tfoot>
               </table>
+
+              <p>The design pattern for these read-write Linked Data centric protocols and architectures can be categorised as follows:</p>
+
+              <ul>
+                <li>the ability to perform CRUD interactions against Web resources</li>
+                <li>decoupling software from domain or application-specific operations and data</li>
+                <li>descriptive and interconnected units of information</li>
+                <li>declarative and machine-readable affordances for valid read-write operations</li>
+              </ul>
             </div>
           </section>
 
