@@ -142,6 +142,23 @@
           </section>
 
 
+          <section id="decentralised-storage-and-social-applications" inlist="" rel="schema:hasPart" resource="#decentralised-storage-and-social-applications">
+            <h2 property="schema:name">Decentralised Storage and Social Applications</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>Some of the advantages of decentralised storage: censorship resistance, persistent availability, self-monitoring, organic growth and optimisation, monopoly disruption.</p>
+              <p>Disadvantages...</p>
+
+              <p>Personal storage space: Virtually any HTTP server, but more specifically servers with an approach for a read-write Linked Data architecture (LDP/Solid/Fedora/mayktso)</p>
+
+              <p>Places the foremost responsibility on the "owners" of the units of communication to determine backup and replication strategies, in addition to third-party's performing the same functions.</p>
+
+
+              <p>Pay as you go (linked information space), eg. own profile today, own storage space tomorrow..</p>
+
+              <p id="a-demonstration-of-the-solid-platform-for-social-web-applications">In <cite><a data-originalurl="https://doi.org/10.1145/2872518.2890529" data-versiondate="2018-08-21T10:11:43Z" data-versionurl="https://web.archive.org/web/20180821100927/http://gdac.uqam.ca/WWW2016-Proceedings/companion/p223.pdf" href="http://gdac.uqam.ca/WWW2016-Proceedings/companion/p223.pdf">A Demonstration of the Solid Platform for Social Web Applications</a></cite>, 2016, Essam Mansour et al raise the concern that well-known Social Web applications are essentially <q>data silos</q> involving design patterns where each application is custom built to store its own data, along with custom authentication and access control mechanisms. Hence, users of such systems often cannot easily switch personal data storage services, or reuse their data with similar applications. Authors demonstrate the <cite>Solid platform</cite> to address the challenges in decentralised authentication, data management, as well as the development of interoperable and portable Social Web applications that interact with the platform. A number of servers and client applications are implemented where it is possible to store RDF and non-RDF resources, as well as permitting operations via SPARQL queries for complex data retrieval and link-following. The client-side applications cover common "day-to-day" tasks eg. contacts management, event organisation, collaborative authoring, annotating, and social notifications, all meanwhile users are able to use their WebIDs and switch between applications with similar functions.</p>
+            </div>
+          </section>
+
           <section id="standards-for-decentralised-web" inlist="" rel="schema:hasPart" resource="#standards-for-decentralised-web">
             <h2 property="schema:name">Standards for Decentralised Web</h2>
             <div datatype="rdf:HTML" property="schema:description">
@@ -250,23 +267,6 @@
             </div>
           </section>
 
-
-          <section id="decentralised-storage" inlist="" rel="schema:hasPart" resource="#standards-for-decentralised-web">
-            <h2 property="schema:name">Decentralised Storage</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p>Some of the advantages of decentralised storage: censorship resistance, persistent availability, self-monitoring, organic growth and optimisation, monopoly disruption.</p>
-              <p>Disadvantages...</p>
-
-              <p>Personal storage space: Virtually any HTTP server, but more specifically servers with an approach for a read-write Linked Data architecture (LDP/Solid/Fedora/mayktso)</p>
-
-              <p>Places the foremost responsibility on the "owners" of the units of communication to determine backup and replication strategies, in addition to third-party's performing the same functions.</p>
-
-
-              <p>Pay as you go (linked information space), eg. own profile today, own storage space tomorrow..</p>
-
-              <p id="a-demonstration-of-the-solid-platform-for-social-web-applications">In <cite><a data-originalurl="https://doi.org/10.1145/2872518.2890529" data-versiondate="2018-08-21T10:11:43Z" data-versionurl="https://web.archive.org/web/20180821100927/http://gdac.uqam.ca/WWW2016-Proceedings/companion/p223.pdf" href="http://gdac.uqam.ca/WWW2016-Proceedings/companion/p223.pdf">A Demonstration of the Solid Platform for Social Web Applications</a></cite>, 2016, Essam Mansour et al raise the concern that well-known Social Web applications are essentially <q>data silos</q> involving design patterns where each application is custom built to store its own data, along with custom authentication and access control mechanisms. Hence, users of such systems often cannot easily switch personal data storage services, or reuse their data with similar applications. Authors demonstrate the <cite>Solid platform</cite> to address the challenges in decentralised authentication, data management, as well as the development of interoperable and portable Social Web applications that interact with the platform. A number of servers and client applications are implemented where it is possible to store RDF and non-RDF resources, as well as permitting operations via SPARQL queries for complex data retrieval and link-following. The client-side applications cover common "day-to-day" tasks eg. contacts management, event organisation, collaborative authoring, annotating, and social notifications, all meanwhile users are able to use their WebIDs and switch between applications with similar functions.</p>
-            </div>
-          </section>
 
           <section id="universal-identity-for-the-web" inlist="" rel="schema:hasPart" resource="#universal-identity-for-the-web">
             <h2 property="schema:name">Universal Identity for the Web</h2>
