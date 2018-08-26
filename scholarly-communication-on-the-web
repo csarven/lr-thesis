@@ -248,6 +248,23 @@ transform:rotate(-60deg);
           <section id="web-a-social-machine" inlist="" rel="schema:hasPart" resource="#web-a-social-machine">
             <h2 property="schema:name">Web: A Social Machine</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <blockquote cite="https://groups.google.com/forum/message/raw?msg=alt.hypertext/eCTkkOoWTAY/bJGhZyooXzkJ">
+                <pre>From: timbl@info .cern.ch (Tim Berners-Lee)
+Newsgroups: alt.hypertext
+Subject: WorldWideWeb: Summary
+Date: 6 Aug 91 16:00:12 GMT
+
+The WWW project merges the techniques of information retrieval and hypertext to  
+make an easy but powerful global information system.
+
+The project started with the philosophy that much academic information should  
+be freely available to anyone. It aims to allow information sharing within  
+internationally dispersed teams, and the dissemination of information by  
+support groups.</pre>
+                <footer><cite><a href="https://groups.google.com/forum/message/raw?msg=alt.hypertext/eCTkkOoWTAY/bJGhZyooXzkJ">WorldWideWeb: Summary</a></cite>, alt.hypertext, 1991, Tim Berners-Lee</footer>
+              </blockquote>
+
+
               <p>The World Wide Web is inherently social. In <cite><a href="http://www.worldcat.org/oclc/729965164" title="Chapter 10: Web of People, p123">Weaving the Web</a></cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> states that he <q cite="http://www.worldcat.org/oclc/729965164">designed it for a social effect – to help people work together – and not as a technical toy</q>. The Web's remarkable growth is fundamentally due to its social characteristics above anything else.</p>
               
 <!--
