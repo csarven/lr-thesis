@@ -178,8 +178,6 @@ Standalone |----- Connectedness ----| Networked
 
               <p id="data-ownership-and-interoperability-for-a-decentralized-social-semantic-web">In <cite><a href="https://tel.archives-ouvertes.fr/tel-00917965/document">Data ownership and interoperability for a decentralized social semantic web</a></cite>, 2013, Andrei Vlad Sambra acknowledges the same core challenges of the modern Web as Tramp, and sets out to identify key components that would help achieve true data ownership and interoperability. Sambra demonstrates how a stack of interoperable Web technologies around WebID and Linked Data can be used to build certain class of social Web applications, where users without centralised intermediaries can authenticate themselves, and participate in creating and exchanging data with servers that are equipped with social access controls.</p>
 
-              <p>Both Tramp and Sambra emphasise on using and extending the Web architecture and applying its principles towards a more decentralised notion of information reuse and user interaction. The core approaches use the Linked Data technology stack for publishing, retrieval, and integration; decoupling services and applications from the users data so that content creators are owners and have desired rights on their data and its use; and fostering data extensibility and distribution, as well as privacy.</p>
-
               <hr />
 
 <!--
@@ -206,6 +204,8 @@ Standalone |----- Connectedness ----| Networked
           <section id="standards-for-decentralised-web" inlist="" rel="schema:hasPart" resource="#standards-for-decentralised-web">
             <h2 property="schema:name">Standards for Decentralised Web</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p>Both Tramp and Sambra emphasise on using and extending the Web architecture and applying its principles towards a more decentralised notion of information reuse and user interaction. The core approaches use the Linked Data technology stack for publishing, retrieval, and integration; decoupling services and applications from the users data so that content creators are owners and have desired rights on their data and its use; and fostering data extensibility and distribution, as well as privacy.</p>
+
               <p class="todo">Write a few sentences for each standard how/why it helps scholarly communication.</p>
 
               <p id="internet-web-protocols">The foundational communication and transfer protocols of the Internet and the Web (eg. <abbr title="Transmission Control Protocol">TCP</abbr>/<abbr title="Internet Protocol">IP</abbr>, <abbr title="Domain Name Server">DNS</abbr>, <abbr title="Hypertext Transfer Protocol">HTTP</abbr>) are designed to operate in a decentralised and distributed manner. In terms of global functionality, removing a single node from the network - a machine with an IP address - does not halt the whole network. Similarly, when an HTTP URL is no longer available (eg. typical "404 Not Found", "410 Gone" status messages), the other URLs are not affected. This particular behaviour, where the Web being functional without requiring bi-directional hyperlinks is considered to be a "feature" (rather than a "bug") of the overall system. However, Ted Nelson disputes this design choice with respect to the original Hypertext design.</p>
