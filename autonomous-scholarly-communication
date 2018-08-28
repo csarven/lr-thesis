@@ -78,10 +78,8 @@
         </dl>
 
         <div datatype="rdf:HTML" property="schema:description">
-          <p class="todo">All section names and order needs review. Some information could be moved to other chapters.</p>
-
-          <section id="information-society" inlist="" rel="schema:hasPart" resource="#information-society">
-            <h2 property="schema:name">Information Society</h2>
+          <section id="control-yourself" inlist="" rel="schema:hasPart" resource="#control-yourself">
+            <h2 property="schema:name">Control Yourself</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p class="notes">The point of this section was to describe a wider picture about information control in society.</p>
 
@@ -90,12 +88,9 @@
               <p>Throughout history, the complex connections between communication technologies and society transformed control structures of civilisations. Harold Innis and Marshall McLuhan argued that electronic media, unlike any other, compressed time and space, creating a <q>global village</q> as well as facilitating the influence and potential of centralised control. While the Internet reinforces democratic (re)distribution of communicative power, and the Web is inherently decentralised (with the exception of DNS), centralisation of all forms of information exchange and various forms of censorship - state or self-imposed - is commonplace. Increasingly large-scale systems collect, organise and share data in diverse sectors. For instance, at the time of writing organisations like Google, Facebook and Elsevier, as well as a long tail of (social) media services, exert a great deal of influence on how information can be accessed, expressed and reused. This influence impacts society, affecting the cost of accessing information, the effort required to produce and distribute, and how information is spread or filtered. Information control tends to happen through system designs that are inherently centralised.</p>
 
               <p>The information needs of individuals, communities and societies vary on personal, local and global levels. Given access to the Internet and the Web, academic researchers can register their own URIs and control what they refer to, establish data storage and choose which applications to use for their social and scholarly activity. Scientific communities can make their discoveries available in the global commons; take part in reproducing and replicating others' findings; be involved in quality-control and certification processes, as well as incorporate interactions among researchers, examiners, journalists, policy makers, and the general public. Given these activities, the output for society is a democratic knowledge exchange at a global level.</p>
-            </div>
-          </section>
 
-          <section id="control-yourself" inlist="" rel="schema:hasPart" resource="#control-yourself">
-            <h2 property="schema:name">Control Yourself</h2>
-            <div datatype="rdf:HTML" property="schema:description">
+              <hr />
+
               <p class="notes">Supposed to make a case for transitioning to a more decentralised and self-controlled identifiers and data. The tech is here...</p>
 
               <p>The term <q>decentralisation</q> can mean different things depending on the context they are used. Even within a particular community, its definition can vary depending on a collection of standards and technologies that are used, as well as aspects of the system at varying degrees. In this thesis, I use the following definition in context of the Web architecture:</p>
