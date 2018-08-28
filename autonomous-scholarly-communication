@@ -219,53 +219,6 @@
               <p id="activitypub"><cite><a href="https://www.w3.org/TR/activitypub/">ActivityPub</a></cite> (<abbr title="ActivityPub">AP</abbr>) is a decentralized social networking protocol based upon the Activity Streams 2.0 data format. It provides a client to server API for CRUD operations, as well as a federated server to server API for delivering notifications and content. User accounts on servers have an inbox (to receive messages from the world), and an outbox (to send messages to others). AP's inbox property is the same as LDN's, and the targeting and delivery mechanism can be interoperably combined.</p>
 
 
-              <table id="specifications-for-forces-and-functions">
-                <caption>Specifications to fulfil forces and functions in scientific communication</caption>
-                <thead>
-                  <tr>
-                    <th rowspan="2">Specification</th>
-                    <th colspan="4">Forces</th>
-                    <th colspan="4">Functions</th>
-                  </tr>
-                  <tr>
-                    <th>Actor</th>
-                    <th>Accessibility</th>
-                    <th>Content</th>
-                    <th>Applicability</th>
-                    <th>Registration</th>
-                    <th>Awareness</th>
-                    <th>Certification</th>
-                    <th>Archive</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr><th colspan="9" scope="rowgroup">Protocol</th></tr>
-                  <tr><th>Linked Data Platform</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
-                  <tr><th>Linked Data Templates</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
-                  <tr><th>Linked Data Fragments</th><td></td><td>✔</td><td>✔</td><td></td><td></td><td>✔</td><td></td><td></td></tr>
-                  <tr><th>Fedora API</th><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td>✔</td></tr>
-                  <tr><th>Memento</th><td></td><td>✔</td><td></td><td></td><td>✔</td><td>✔</td><td></td><td>✔</td></tr>
-                  <tr><th>Web Annotation</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td></td></tr>
-                  <tr><th>ActivityPub</th><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td></td></tr>
-                  <tr><th>Linked Data Notifications</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
-                  <tr><th>WebID</th><td>✔</td><td></td><td>✔</td><td></td><td>✔</td><td></td><td></td><td></td></tr>
-                  <tr><th>WebID-TLS</th><td>✔</td><td>✔</td><td>✔</td><td></td><td></td><td></td><td></td><td></td></tr>
-                </tbody>
-                <tbody>
-                  <tr><th colspan="9" scope="rowgroup">Model</th></tr>
-                  <tr><th>Web Access Control</th><td>✔</td><td>✔</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                  <tr><th>Hydra Core</th><td></td><td>✔</td><td>✔</td><td></td><td></td><td>✔</td><td></td><td></td></tr>
-                  <tr><th>Activity Streams</th><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td></td></tr>
-                  <tr><th>Robust Links</th><td></td><td></td><td>✔</td><td></td><td></td><td>✔</td><td></td><td>✔</td></tr>
-                </tbody>
-                <tfoot>
-                  <tr>
-                    <td colspan="9">
-                      <p>The suit of Web Annotation standards are grouped. Triple Pattern Fragments is grouped into Linked Data Fragments. WebID incorporates identification systems that can be used for actors (PURL, w3id, ORCID), as well as the WebID Profile that describes it.</p>
-                    </td>
-                  </tr>
-                </tfoot>
-              </table>
 
               <p>The design pattern for these read-write Linked Data centric protocols and architectures can be categorised as follows:</p>
 
@@ -523,6 +476,9 @@ Contributor controlled |------ Data----------------| Third-party controlled
           </section>
 
 
+
+
+
           <section id="implementing-a-read-write-linked-data-web" inlist="" rel="schema:hasPart" resource="#implementing-a-read-write-linked-data-web">
             <h2 property="schema:name">Implementing a Read-Write Linked Data Web</h2>
             <div datatype="rdf:HTML" property="schema:description">
@@ -691,6 +647,56 @@ XXX:
               <p>As a concrete example of the benefits of this approach, the LDN test suite is itself an LDN implementation for the purpose of automating the collection and aggregation of implementation reports which were used directly towards the formal standardisation process.</p>
             </div>
           </section>
+
+          <hr />
+
+              <table id="specifications-for-forces-and-functions">
+                <caption>Specifications to fulfil forces and functions in scientific communication</caption>
+                <thead>
+                  <tr>
+                    <th rowspan="2">Specification</th>
+                    <th colspan="4">Forces</th>
+                    <th colspan="4">Functions</th>
+                  </tr>
+                  <tr>
+                    <th>Actor</th>
+                    <th>Accessibility</th>
+                    <th>Content</th>
+                    <th>Applicability</th>
+                    <th>Registration</th>
+                    <th>Awareness</th>
+                    <th>Certification</th>
+                    <th>Archive</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><th colspan="9" scope="rowgroup">Protocol</th></tr>
+                  <tr><th>Linked Data Platform</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
+                  <tr><th>Linked Data Templates</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
+                  <tr><th>Linked Data Fragments</th><td></td><td>✔</td><td>✔</td><td></td><td></td><td>✔</td><td></td><td></td></tr>
+                  <tr><th>Fedora API</th><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td>✔</td></tr>
+                  <tr><th>Memento</th><td></td><td>✔</td><td></td><td></td><td>✔</td><td>✔</td><td></td><td>✔</td></tr>
+                  <tr><th>Web Annotation</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td></td></tr>
+                  <tr><th>ActivityPub</th><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td></td></tr>
+                  <tr><th>Linked Data Notifications</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
+                  <tr><th>WebID</th><td>✔</td><td></td><td>✔</td><td></td><td>✔</td><td></td><td></td><td></td></tr>
+                  <tr><th>WebID-TLS</th><td>✔</td><td>✔</td><td>✔</td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+                <tbody>
+                  <tr><th colspan="9" scope="rowgroup">Model</th></tr>
+                  <tr><th>Web Access Control</th><td>✔</td><td>✔</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Hydra Core</th><td></td><td>✔</td><td>✔</td><td></td><td></td><td>✔</td><td></td><td></td></tr>
+                  <tr><th>Activity Streams</th><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td></td></tr>
+                  <tr><th>Robust Links</th><td></td><td></td><td>✔</td><td></td><td></td><td>✔</td><td></td><td>✔</td></tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="9">
+                      <p>The suit of Web Annotation standards are grouped. Triple Pattern Fragments is grouped into Linked Data Fragments. WebID incorporates identification systems that can be used for actors (PURL, w3id, ORCID), as well as the WebID Profile that describes it.</p>
+                    </td>
+                  </tr>
+                </tfoot>
+              </table>
 
 
           <section id="the-effects-and-artefacts-of-autonomous-engagement" inlist="" rel="schema:hasPart" resource="#the-effects-and-artefacts-of-autonomous-engagement">
