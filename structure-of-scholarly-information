@@ -207,7 +207,7 @@ Rough coverage:
               </section>
 
 
-              <section id="human-and-machine-interpretable-information-representation" rel="schema:hasPart" resource="#human-and-machine-interpretable-information-representation">
+              <section id="human-and-machine-interpretable-information-representation" inlist="" rel="schema:hasPart" resource="#human-and-machine-interpretable-information-representation">
                 <h3>Human and Machine-Interpretable Information Representation</h3>
                 <div>
                   <dl>
@@ -265,7 +265,7 @@ Rough coverage:
                 </div>
               </section>
 
-              <section id="vocabularies" rel="schema:hasPart" resource="#vocabularies">
+              <section id="vocabularies" inlist="" rel="schema:hasPart" resource="#vocabularies">
                 <h3 property="schema:name">Vocabularies</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>Here we describe a wide range of well-known Semantic Web vocabularies that can be used to model and describe units of communication. It is not intended to be an exhaustive list but to provide an overview on the kind of things that could be potentially described, anywhere from publishing articles, scholarly activities, to datasets holding scientific measurements.</p>
@@ -295,7 +295,7 @@ Rough coverage:
               </section>
 
 
-              <section id="accessibility-usability-inclusion" rel="schema:hasPart" resource="#accessibility-usability-inclusion">
+              <section id="accessibility-usability-inclusion" inlist="" rel="schema:hasPart" resource="#accessibility-usability-inclusion">
                 <h3 property="schema:name">Accessibility, Usability, and Inclusion</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>We acknowledge the diversity of people using the Web, not only the actors in scholarly communication, but anyone that may create or reuse the information. Our intention here is to have inclusive designs for wide range of people and their abilities. We outline and borrow key initiatives and solutions on content accessibility, accessible applications, authoring tools, and internationalisation. We refer to <q>accessibility</q> (<abbr title="Accessibility">a11y</abbr>) in the widest sense that any agent; human, machine, or other can effectively access information and participate.</p>
@@ -355,7 +355,7 @@ Rough coverage:
             </div>
           </section>
 
-          <section id="related-work" rel="schema:hasPart" resource="#related-work">
+          <section id="related-work" inlist="" rel="schema:hasPart" resource="#related-work">
             <h3 property="schema:name">Related Work</h3>
             <div datatype="rdf:HTML" property="schema:description">
                 <p class="todo">move this up... discuss the characteristics of the existing stuff.. and not really a comparison...</p>
