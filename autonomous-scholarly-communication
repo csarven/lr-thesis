@@ -74,7 +74,7 @@
 
         <dl id="document-status">
           <dt>Document Status</dt>
-          <dd prefix="pso: http://purl.org/spar/pso/" rel="pso:holdsStatusInTime" resource="#fa6a88d4-b4b9-4e5f-a15e-e90a7f121dc6"><span rel="pso:withStatus" resource="http://purl.org/spar/pso/draft" typeof="pso:PublicationStatus">Draft</span></dd>
+          <dd prefix="pso: http://purl.org/spar/pso/" rel="pso:holdsStatusInTime" resource="#bdc19f9e-1e06-45ef-b714-e42fb458f14f"><span rel="pso:withStatus" resource="http://purl.org/spar/pso/draft" typeof="pso:PublicationStatus">Draft</span></dd>
         </dl>
 
         <div datatype="rdf:HTML" property="schema:description">
@@ -106,7 +106,10 @@
                 <footer><cite><a data-versiondate="2018-08-27T14:56:53Z" data-versionurl="https://web.archive.org/web/20180827145653/https://content.sciendo.com/downloadpdf/journals/popets/2017/4/article-p404.pdf" href="https://content.sciendo.com/downloadpdf/journals/popets/2017/4/article-p404.pdf">Systematizing Decentralization and Privacy: Lessons from 15 Years of Research and Deployments</a></cite>, 2017, Carmela Troncoso et al</footer>
               </blockquote>
 
-              <p>A distributed system <q>may be managed by a single root of trust or authority</q>, hence <q>decentralized systems are a subset of distributed systems</q>.</p>
+              <p>On the other hand, messages and operations in centralised or distributed systems <q>may be managed by a single root of trust or authority</q>. From this position <q>decentralized systems are a subset of distributed systems</q> where they <q>embody a complex set of relationships of trust between parties managing different aspects of the system</q>. These systems are conceived of as a graph where the nodes correspond to the components of the system, and the edges correspond to connections between them. From a global perspective, the Web is a decentralised system, however, it can have components which are disjoint from the rest of the graph.</p>
+
+              <p>Troncoso et al, consider <em>security</em> and <em>privacy</em> to be integral aspects of systems. Security includes <q>confidentiality, integrity, authentication..availability, accountability, authorization, non-repudiation or non-equivocation</q>, and privacy considers <q>protections of users’ related data (identities, actions, etc.)</q>, and <q>formalized in terms of privacy properties (anonymity, pseudonymity, unlinkability, unobservability).</q></p>
+
 
               <hr />
 
@@ -514,6 +517,24 @@ Contributor controlled |------ Data----------------| Third-party controlled
           <section id="the-effects-and-artefacts-of-autonomous-engagement" inlist="" rel="schema:hasPart" resource="#the-effects-and-artefacts-of-autonomous-engagement">
             <h2 property="schema:name">The Effects and Artefacts of Autonomous Engagement</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p>We can reuse the same set of questions raised in <cite>Systematizing Decentralization and Privacy</cite> to study the design choices made in our researcher-centric scholarly system:</p>
+
+              <dl>
+                <dt>How is the system decentralized?</dt>
+                <dd></dd>
+                <dt>What advantages do we get from decentralizing?</dt>
+                <dd></dd>
+                <dt>How does decentralization support privacy?</dt>
+                <dd></dd>
+                <dt>What are the disadvantages of decentralizing?</dt>
+                <dd></dd>
+                <dt>What implicit centralized assumptions remain?</dt>
+                <dd></dd>
+                <dt>What can we learn from existing designs?</dt>
+                <dd></dd>
+              </dl>
+
+
               <p>The Web’s design stands out because of its absence of centralised control, both for technical reasons of scalability and resilience as well as a societal need for freedom of expression. A challenge in such large-scale decentralised networks is how related publications can be semantically interlinked, even if they are authored and published by different parties. Centralising their publications is practiced by the majority of authoring networks today, demanding authors to give up some or all of their control in exchange for technical simplicity.</p>
 
               <p>We can approach an alternative to this centralisation by adopting Web-centric worfklows that are inherently interoperable by design, but most importantly by enabling the creators and the users of data and applications to be autonomous entities, working towards the democratisation of scholarly knowledge for humans and machines. One way to achieve this is by decentralisation and decoupling of data and applications. While interoperability and application switching benefits the creators and users of the information, a 2017 report by The Media Lab, <cite><a href="http://dci.mit.edu/assets/papers/decentralized_web.pdf">https://web.archive.org/web/20170818210641/http://dci.mit.edu/assets/papers/decentralized_web.pdf</a></cite>, contents that <q cite="http://dci.mit.edu/assets/papers/decentralized_web.pdf">doing so threatens the business model of these companies, which rely on uniquely collecting and monetizing user data</q>, and that the approach is unlikely to be taken up by the big players directly. In <cite><a data-versiondate="2018-08-30T10:14:19Z" data-versionurl="https://web.archive.org/web/20180830101419/https://blog.dshr.org/2018/01/it-isnt-about-technology.html" href="https://blog.dshr.org/2018/01/it-isnt-about-technology.html">It Isn't About the Technology</a></cite>, Rosenthal while agrees with issue that MIT report raises, and adds that even if decentralisation and interoperable systems were increasingly adopted, academic institutions for instance would likely outsource parts of that infrastructure to <q>the cloud</q> where publishers would apply a strategy like Microsoft's <q>embrace, extend and extinguish</q>.</p>
