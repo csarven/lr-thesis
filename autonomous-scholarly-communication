@@ -42,6 +42,21 @@
           <dd><time content="2018-08-23T19:42:20.122Z" datatype="xsd:dateTime" datetime="2018-08-23T19:42:20.122Z" property="schema:dateModified">2018-08-23</time></dd>
         </dl>
 
+        <dl id="document-latest-version">
+          <dt>Latest Version</dt>
+          <dd><a href="https://linkedresearch.org/inbox/csarven.ca/bdc19f9e-1e06-45ef-b714-e42fb458f14f" rel="mem:memento rel:latest-version">https://linkedresearch.org/inbox/csarven.ca/bdc19f9e-1e06-45ef-b714-e42fb458f14f</a></dd>
+        </dl>
+
+        <dl id="document-timemap">
+          <dt>TimeMap</dt>
+          <dd><a href="https://linkedresearch.org/inbox/csarven.ca/autonomous-scholarly-communication.timemap" rel="mem:timemap">https://linkedresearch.org/inbox/csarven.ca/autonomous-scholarly-communication.timemap</a></dd>
+        </dl>
+
+        <dl id="document-license">
+          <dt>License</dt>
+          <dd><a href="https://creativecommons.org/licenses/by/4.0/" rel="schema:license" title="Creative Commons Attribution">CC BY 4.0</a></dd>
+        </dl>
+
         <dl id="document-inbox">
           <dt>Notifications Inbox</dt>
           <dd><a href="https://linkedresearch.org/inbox/csarven.ca/bdc19f9e-1e06-45ef-b714-e42fb458f14f/" rel="ldp:inbox">https://linkedresearch.org/inbox/csarven.ca/bdc19f9e-1e06-45ef-b714-e42fb458f14f/</a></dd>
@@ -60,21 +75,6 @@
         <dl id="document-status">
           <dt>Document Status</dt>
           <dd prefix="pso: http://purl.org/spar/pso/" rel="pso:holdsStatusInTime" resource="#fa6a88d4-b4b9-4e5f-a15e-e90a7f121dc6"><span rel="pso:withStatus" resource="http://purl.org/spar/pso/draft" typeof="pso:PublicationStatus">Draft</span></dd>
-        </dl>
-
-        <dl id="document-latest-version">
-          <dt>Latest Version</dt>
-          <dd><a href="https://linkedresearch.org/inbox/csarven.ca/bdc19f9e-1e06-45ef-b714-e42fb458f14f" rel="mem:memento rel:latest-version">https://linkedresearch.org/inbox/csarven.ca/bdc19f9e-1e06-45ef-b714-e42fb458f14f</a></dd>
-        </dl>
-
-        <dl id="document-timemap">
-          <dt>TimeMap</dt>
-          <dd><a href="https://linkedresearch.org/inbox/csarven.ca/autonomous-scholarly-communication.timemap" rel="mem:timemap">https://linkedresearch.org/inbox/csarven.ca/autonomous-scholarly-communication.timemap</a></dd>
-        </dl>
-
-        <dl id="document-license">
-          <dt>License</dt>
-          <dd><a href="https://creativecommons.org/licenses/by/4.0/" rel="schema:license" title="Creative Commons Attribution">CC BY 4.0</a></dd>
         </dl>
 
         <div datatype="rdf:HTML" property="schema:description">
