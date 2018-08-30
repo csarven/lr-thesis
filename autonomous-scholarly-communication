@@ -521,7 +521,8 @@ Contributor controlled |------ Data----------------| Third-party controlled
 
               <dl>
                 <dt>How is the system decentralized?</dt>
-                <dd></dd>
+                <dd>The distribution of tasks needed for maintaining the service within this infrastructure is user-interdependent. The nodes in the system are the Web resources on servers that make up information eg. profiles, articles, annotations, notifications. The advantage of this infrastructure is that, once a resource is registered (stored), they do not require users for its availability or functionality - a reduced attack surface and immune to user churn. Users retain their privacy in that, access and use of the resources are encapsulated, and such information about identity or actions taken is not required to spread to the rest of the network.</dd>
+
                 <dt>What advantages do we get from decentralizing?</dt>
                 <dd></dd>
                 <dt>How does decentralization support privacy?</dt>
