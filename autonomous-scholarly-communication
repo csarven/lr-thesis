@@ -230,6 +230,8 @@ Contributor controlled |------ Data----------------| Third-party controlled
 
               <p>Different types of strings, eg. a username, an email address, an RSA public key, a URI, can be used to directly or indirectly identify agents. While each can be useful within their own context, Web-based identifiers (URI) make it possible to provide machine-readable descriptions when dereferenced, descriptions being extensible by their owners, as well as being interoperable global identifiers that can be interlinked unambiguously with other things.</p>
 
+              <p><q cite="https://www.w3.org/TR/verifiable-claims-data-model/">Privacy is a spectrum that ranges from pseudo-anonymous to fully identified.</q> For example, a server can collect information about a client based on its device, machine, or browser fingerprint, even if the user did not directly disclose information about themselves. On the other hand, global identifiers like government-issued identifiers, credit card numbers, and full names, can be used to determine, track, and correlate an entity.</p>
+
               <p id="future-of-social-networking">The <cite><a href="https://www.w3.org/2008/09/msnws/report.html">W3C Workshop on the Future of Social Networking Report</a></cite>, 2009, concluded that distributed social networking is a possibility on the Web, given available data interoperability technologies, as well as further support of open source implementation of decentralised architectures. At the crux of the initiatives was to: foster preservation of privacy best practices for users; and their ability to trust claims; deepening user contexts and roles in social networking; enabling protocols for exchanging goods and services within communities, and; creating adapted user experienced with improved accessibility and mobility by closing the gap between implementations of social networks and device capabilities.</p>
 
               <p id="foaf+ssl">One of the conclusions of the workshop was that many of the existing technologies needed to create decentralized social networks already existed, eg. FOAF, OpenID, XMPP. <a href="https://www.w3.org/2008/09/msnws/papers/foaf+ssl.html" title="FOAF &amp; SSL: creating a global decentralised authentication protocol">One of contributions to the workshop</a> was presented by Henry Story et al based on <a href="https://web.archive.org/web/20080426014047/http://blogs.sun.com:80/bblfish/entry/foaf_ssl_creating_a_global is">original proposal</a> (combining <cite><a href="https://web.archive.org/web/20080426142811/http://blogs.sun.com:80/bblfish/entry/rdfauth_sketch_of_a_buzzword">RDFAuth</a></cite> by Henry Story and <cite><a href="https://lists.w3.org/Archives/Public/semantic-web/2008Mar/0207.html">sketch of a simple authentication protocol</a></cite> by Toby Inkster in 2008) for the notion of using Semantic Web vocabularies such as <abbr title="Friend of a Friend">FOAF</abbr> with SSL certificate exchange mechanism permits distributed and interlinked social networks to exist. The protocol was later posited in <cite><a href="http://dig.csail.mit.edu/2009/Papers/SPOT/foaf-ssl-spot2009.pdf">FOAF+SSL: RESTful Authentication for the Social Web</a></cite>. Its goal was set to protecting and controlling access to personal information distributed on the Web where identification and privacy is at its centre. The work on WebID and related extensions described below builds on this work.</p>
@@ -396,7 +398,16 @@ Contributor controlled |------ Data----------------| Third-party controlled
           <section id="persistence-and-preservation" inlist="" rel="schema:hasPart" resource="#persistence-and-preservation">
             <h2 property="schema:name">Persistence and Preservation</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo">Rough. I'm not sure if this should be a key subsection or moved elsewhere</p>
+              <p>Tim Berners-Lee outlines two issues for the persistence of HTTP URIs:</p>
+
+              <blockquote cite="https://www.w3.org/DesignIssues/PersistentDomains">
+                <ol>
+                  <li>The persistence of the opaque string which follows the domain name, and</li>
+                  <li>the persistence of the domain name  itself.</li>
+                </ol>
+                <footer><cite><a href="https://www.w3.org/DesignIssues/PersistentDomains">Persistent Domains</a></cite>, 2000, Tim Berners-Lee</footer>
+              </blockquote>
+
 
               <p>Author self-publishes.. trusted-third parties archive...</p>
 
@@ -413,22 +424,16 @@ Contributor controlled |------ Data----------------| Third-party controlled
               <p>http://tracer.mementoweb.org/</p>
 
 
-              <p>Tim Berners-Lee outlines two issues for the persistence of HTTP URIs:</p>
-
-              <blockquote cite="https://www.w3.org/DesignIssues/PersistentDomains">
-                <ol>
-                  <li>The persistence of the opaque string which follows the domain name, and</li>
-                  <li>the persistence of the domain name  itself.</li>
-                </ol>
-                <footer><cite><a href="https://www.w3.org/DesignIssues/PersistentDomains">Persistent Domains</a></cite>, 2000, Tim Berners-Lee</footer>
-              </blockquote>
-
-
               <p>In a long enough timeline, .. more of a promise. URIs are not inherently persistent but persistable.</p>
               <p>Perseverance on Persistence ( https://www.slideshare.net/hvdsomp/perseverance-on-persistence/ ): "what it would take to be able to persistently, precisely, and seamlessly revisit the web of the past" - hvdsomp</p>
               <p>"Ultimately URI registration is a social agreement. URI owners declare a policy eg. implicit, written, verbal. If you announce a policy for your URIs eg. what happens in 1000 years, that says something about its intentions/reuse. Just as w3id, doi. Trust is built from there." - csarven</p>
               <p>Publish (make public) archiving and permanence policies.. degree of accountability</p>
               <p><abbr title="Persistent Identifier">PID</abbr>, DOI, w3id, PURL</p>
+
+
+              <p><cite><a href="http://www.w3.org/Provider/Style/URI">Cool URIs don't change</a></cite></p>
+
+              <p id="persistence-policies">Persistence policies can come in different forms. For example, W3C's <a href="https://www.w3.org/Consortium/Persistence">URI Persistence Policy</a> is a document simply making a pledge as to how the resources under its domain will persist like throughout the lifetime of the Consortium, any changes to persistent resources will be archived, and in case that the organisation is disbanded, its resources can be made available under the same rights and license. These human-readable statements are useful institutional commitments to persistence. As mentioned earlier, the ODRL vocabulary can be used to provide a machine-readable policy about resources.</p>
 
               <p>Talk about URI (DNS based. who owns/rents it? me or someone else. it can go missing or becoming "uncool"; content drift) vs content-addressable; universally unique in that once the URI is assigned, even if the URI becomes inaccessible from the network, the same name can't be reassigned.</p>
 
@@ -448,7 +453,7 @@ Contributor controlled |------ Data----------------| Third-party controlled
 
               <hr />
 
-              <p id="trusty-uri"><cite><a href="http://trustyuri.net/">Trusty URIs</a></cite>: is a technique to include cryptographic hash values in URIs to uniquely associate them with an artifact. In <cite><a data-versiondate="2018-08-31T08:03:04Z" data-versionurl="https://web.archive.org/web/20180831080304/https://arxiv.org/pdf/1401.5775.pdf" href="https://arxiv.org/pdf/1401.5775.pdf">Trusty URIs: Verifiable, Immutable, and Permanent Digital Artifacts for Linked Data</a></cite>, 2014, Kuhn et al outline how specific resources and their entire reference trees can be verifiable. If the trusty URI of an artifact is known, it can be used to verify if the content of an artifact corresponds to what it is suppose to represent. This is useful to determine if the content is corrupted or manipulated. It follows that trusty URI artifacts are immutable as each version of a content generates a unique trusty URI. Trusty URI artifacts are considered to be permanent in that once archived or cached, the artifact can still be verified even if the original location is no longer available. An example, from the <cite><a href="http://trustyuri.net/spec/v1.FADQoZWcYugekAb4jW-Zm3_5Cd9tmkkYEV0bxK2fLSKao.md">Trusty URI Specification - Version 1</a></cite>: given resource <samp>http://example.org/r1</samp>, its trusty URI would be <samp>http://example.org/r1.<span class="highlight-trusty-module">RA</span>cbjcRIQozo2wBMq4WcCYkFAjRz0AX-Ux3PquZZrC68s</samp>, where <code class="highlight-trusty-module">RA</code> identifies the module as an RDF graph (independent of its serialization) of the resource, and the remaining characters signify the computed hash of the content. Applications can use trusty URI to encode their own references, as well as compute an artifacts' trusty URI and verify before using it.</p>
+              <p id="trusty-uri"><cite><a href="http://trustyuri.net/">Trusty URI</a></cite> is a technique to include cryptographic hash values in URIs to uniquely associate them with an artifact. In <cite><a data-versiondate="2018-08-31T08:03:04Z" data-versionurl="https://web.archive.org/web/20180831080304/https://arxiv.org/pdf/1401.5775.pdf" href="https://arxiv.org/pdf/1401.5775.pdf">Trusty URIs: Verifiable, Immutable, and Permanent Digital Artifacts for Linked Data</a></cite>, 2014, Kuhn et al outline how specific resources and their entire reference trees can be verifiable. If the trusty URI of an artifact is known, it can be used to verify if the content of an artifact corresponds to what it is suppose to represent. This is useful to determine if the content is corrupted or manipulated. It follows that trusty URI artifacts are immutable as each version of a content generates a unique trusty URI. Trusty URI artifacts are considered to be permanent in that once archived or cached, the artifact can still be verified even if the original location is no longer available. Applications can use trusty URI to encode their own references, as well as compute an artifacts' trusty URI and verify before using it. Trusty URIs can be used to represent byte-level file content and fro RDF graphs. An example from the <cite><a href="http://trustyuri.net/spec/v1.FADQoZWcYugekAb4jW-Zm3_5Cd9tmkkYEV0bxK2fLSKao.md">Trusty URI Specification - Version 1</a></cite>: given resource <samp>http://example.org/r1</samp>, its trusty URI would be <samp>http://example.org/r1.<span class="highlight-trusty-module">RA</span>cbjcRIQozo2wBMq4WcCYkFAjRz0AX-Ux3PquZZrC68s</samp>, where <code class="highlight-trusty-module">RA</code> identifies the module as an RDF graph (independent of its serialization) of the resource, and the remaining characters signify the computed hash of the content.</p>
 
               <p id="robust-links"><cite><a href="http://robustlinks.mementoweb.org/spec/">Robust Links</a></cite>: are human and machine-actionable approaches to <q>decorate</q> links in hypertext documents so that the context of linked resources is preserved at the time of linking. Given that in a long enough time line, content-drift and link-rot pose challenges to maintain context and integrity between resources, associating the datetime information when linking helps to retain such context. The datetime information can be accompanied with a snapshot of the target URI made at a Web archive or a versioning system when linking, and using either the original or the versioned resource as the primary reference. Including datetime information in the source document can make it possible to interpret the context of each of the links in the document and to discover relevant snapshots. In the event that a linked resource or a snapshot becomes inaccessible, the datetime information helps to discover temporally close alternative snapshots.</p>
             </div>
@@ -526,6 +531,8 @@ Contributor controlled |------ Data----------------| Third-party controlled
             <h2 property="schema:name">The Effects and Artefacts of Autonomous Engagement</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p>We can reuse the same set of questions raised in <cite>Systematizing Decentralization and Privacy</cite> to study the design choices made in our researcher-centric scholarly system:</p>
+
+              <p class="todo">This needs to either focus on the thesis contributions or keep it short and mention it as existing literature.</p>
 
               <dl>
                 <dt>How is the system decentralized?</dt>
