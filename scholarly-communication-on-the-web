@@ -267,12 +267,6 @@ support groups.</pre>
 
               <p>The World Wide Web is inherently social. In <cite><a href="http://www.worldcat.org/oclc/729965164" title="Chapter 10: Web of People, p123">Weaving the Web</a></cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> states that he <q cite="http://www.worldcat.org/oclc/729965164">designed it for a social effect – to help people work together – and not as a technical toy</q>. The Web's remarkable growth is fundamentally due to its social characteristics above anything else.</p>
               
-<!--
-              <aside class="note">
-                <p>Ironically, one of the weaknesses of the system is also the social centralisation of the Web. For instance, the domain name system is ultimately a hierarchical structure which can be brought down or controlled by an authority; states or people.</p>
-              </aside>
--->
-
               <p>In <cite><a href="https://www.w3.org/DesignIssues/ReadWriteLinkedData">Read-Write Linked Data</a></cite>, Berners-Lee states that the Web <q>was originally developed with the goal to be a collaborative space in which people could collectively design, discuss, share and manage things..a place we we are creative jointly ("intercreative™").</q> The technical challenges were creating a global system to define the basic common rules of protocol for machines to exchange information towards the meeting people's needs as well as shaping society.</p>
 
               <section id="architecture-of-the-web" inlist="" rel="schema:hasPart" resource="#architecture-of-the-web">
