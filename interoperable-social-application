@@ -820,6 +820,22 @@ XXX:
 
               <p id="decentralised-authoring-and-annotation-platforms"><strong>Decentralised authoring and annotation systems</strong>: <span id="libreoffice-online">Some authoring and publishing systems already go into a decentralised direction. However, they only realize a relatively small subset of the principles outlined in the last section. <cite><a href="https://github.com/libreoffice/online" rel="cito:discusses">LibreOffice Online</a></cite>, for example, allows collaborative editing of office documents (e.g., Writer) from the Web browser. Content can be stored under different CMSs in the cloud. The document’s interface consists of image tiles which are sent from the server and rendered in the browser. However, it hardly provides accessibility, rich interlinking and annotations or separations of concerns.</span> <span id="smallest-federated-wiki">The <cite><a href="http://fed.wiki.org/" rel="cito:discusses">Smallest Federated Wiki</a></cite> pages to be forked and maintain personal copies.</span> <span id="amaya"><cite><a href="https://www.w3.org/Amaya/" rel="cito:discusses">Amaya</a></cite> is a desktop Web editor application (to create and update documents) as well as a lightweight browser that was (1993) developed by W3C to provide a framework to test its technologies.</span></p>
 
+              <p class="todo" id="">Comparison of annotation tools... partly relate this to table: specifications-for-forces-and-functions</p>
+              <table>
+                <caption>Comparison of Annotation Tools</caption>
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Storage</th>
+                    <th>Personal identity</th>
+                    <th>Privacy</th>
+                    <th>Specifications</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot></tfoot>
+              </table>
+
               <p>The tools which provide good collaborative editing UIs appear to do so at the expense of data ownership and interoperability; those which promote creation and publication of data in open reusable formats are lacking facilities for linking discourse and conversation to concepts published. Decentralised creations also mean that each author can choose their own semantics (e.g. their own vocabulary to annotate RDF), and then such decentralised documents can link to each other and their schemas can also be mapped to each other, whereas in centralised platforms this is (if they support semantics at all) often prescribed, either technically enforced, or encouraged by social convention.</p>
             </div>
           </section>
