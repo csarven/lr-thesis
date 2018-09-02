@@ -531,7 +531,7 @@ Contributor controlled |------ Data----------------| Third-party controlled
             <div datatype="rdf:HTML" property="schema:description">
               <p>We can reuse the same set of questions raised in <cite>Systematizing Decentralization and Privacy</cite> to study the design choices made in our researcher-centric scholarly system:</p>
 
-              <p class="todo">This needs to either focus on the thesis contributions or keep it short and mention it as existing literature.</p>
+              <p class="todo">This needs to either focus on the thesis contributions or keep it short and mention it as existing literature. move to Evaluation?</p>
 
               <dl>
                 <dt>How is the system decentralized?</dt>
@@ -549,6 +549,8 @@ Contributor controlled |------ Data----------------| Third-party controlled
                 <dt>What can we learn from existing designs?</dt>
                 <dd></dd>
               </dl>
+
+              <p class="todo"><cite><a href="https://arxiv.org/pdf/1202.4503v1.pdf">A Critical Look at Decentralized Personal Data Architectures</a></cite> .. ?</p>
 
 
               <p>The Web’s design stands out because of its absence of centralised control, both for technical reasons of scalability and resilience as well as a societal need for freedom of expression. A challenge in such large-scale decentralised networks is how related publications can be semantically interlinked, even if they are authored and published by different parties. Centralising their publications is practiced by the majority of authoring networks today, demanding authors to give up some or all of their control in exchange for technical simplicity.</p>
