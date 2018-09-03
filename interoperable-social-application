@@ -718,6 +718,8 @@ XXX:
                 </div>
               </section>
 
+<section id="interactive-linked-statistics" inlist="" rel="schame:hasPart" resource="#sparqlines">
+</section>
 
               <section id="sparqlines" inlist="" rel="schema:hasPart" resource="#sparqlines">
                 <h3 property="schema:name">Sparqlines</h3>
