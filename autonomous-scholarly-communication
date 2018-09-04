@@ -211,9 +211,8 @@
 
               <p id="the-presentation-of-self-on-a-decentralised-web">In <cite><a href="http://dr.amy.gy/">The Presentation of Self on a Decentralised Web</a></cite>, 2017, Amy Guy, the <q cite="https://rhiaro.github.io/thesis/chapter3#what-is-a-profile">What is a profile?</q> study describes <q>affordances of systems which integrate online profiles in a social capacity and raises five features of systems with regards to their representations of users: flexibility, access control, prominence, portability, representation.</q> Furthermore, Guy posits that <q cite="https://rhiaro.github.io/thesis/chapter3#ccccc">online self-presentation is both constituted and affected by <em>who</em> sees a representation of an individual, and <em>what</em> it is they see, both of which are encompassed by the situation <em>whereby</em> it is seen</q>. The results of the studies are summarised as a conceptual framework as the <q>5Cs</q> for online profiles and self presentation: <q>context, control, customisability, connectivity, cascade</q>.</p>
 
-              <p id="third-party-controlled">Community or state controlled identifiers are a class of identifiers that are ultimately third-party controlled in that their ownership, governance, description is beyond the individuals jurisdiction. For some use cases, this can be desirable in that the persistence and maintenance of the identifiers are handled by the group as a whole. Typically there are policies in place with a promise to keep them around ...</p>
-              <p>ORCID aims to be part of the commons and managed by its <a href="https://orcid.org/about/community">community</a>. Ultimately third-party controlled - outside of the researcher's jurisdiction, constrained expression.. There is sameAs for WebID and possibly preferredURI: https://github.com/ORCID/ORCID-Source/issues/4398 ...</p>
-              <p>ORCID: while having an ORCID, a person can have their storage, inbox ( https://twitter.com/csarven/status/905421364353490944 ), outbox ( https://twitter.com/csarven/status/991642357983514625 ) elsewhere ...</p>
+              <p id="third-party-controlled"><strong>Third-party controlled</strong>: Community or state controlled identifiers are a class of identifiers that are ultimately third-party controlled in that their ownership, governance, description is beyond an individual's jurisdiction. The control of identifiers by a group has the quality of long-term promise for persistence. Typically there are policies in place which promise their longevity, and procedures in the event that the group longer manages the identifiers. ORCID aims to be part of the scholarly commons where it is managed by its <a href="https://orcid.org/about/community">community</a>. As discussed earlier, ORCID URI and profile description is useful to researchers, organisations, and interlinking researcher objects, however it is ultimately third-party controlled with the complete intention to serve the research community. One unintended consequence of this kind of centralisation in scholarly communication is that a growing number of institutions and publishers require researchers to participate with their ORCID identifiers, as opposed to any URI of a researcher. The resulting effects of <a href="https://orcid.org/content/requiring-orcid-publication-workflows-open-letter">such initiatives</a> are counter to autonomous participation in that a researcher has to conform to the terms and policies of multiple third-parties. On the other hand, the administration of the URI by the ORCID organisation removes the burden of maintaining the URI as well as the profile URL. In this case, a "trusted" third-party takes care of the identifier, where as researchers are responsible of updating the content.</p>
+
               <p>Self-controlled:</p>
               <p>..</p>
 
@@ -269,16 +268,19 @@ Contributor controlled |------ Data----------------| Third-party controlled
                 <figcaption>An WebID Profile describing a WebID.</figcaption>
               </figure>
 
-              <p>While my personal WebID - under my control - is at <a href="http://csarven.ca/#i">http://csarven.ca/#i</a>, I have an ORCID identifier - controlled by the community - that also serves as a WebID: <a href="https://orcid.org/0000-0002-0880-9125">https://orcid.org/0000-0002-0880-9125</a>, which also has an RDF representation. As ORCID's user interface allows people to extend their descriptions with certain fields, it is possible to add <em>same as</em> or <em>preferred URI</em> relations:</p>
+
+              <p class="todo"><strong>Multiple identifiers</strong>: .. linked</p>
+
+              <p id="orcid-sameas-webid">For instance, while ORCID profile description has constraints, it allows fundamental extensibility in the form of asserting a "same as" relation through its UI, so that the ORCID URI can be linked to other WebIDs. This essentially makes a connection to another <a href="structure-of-scholarly-information#self-describing"> document and facilitates <a href="structure-of-scholarly-information#follow-your-nose">follow-your-nose</a> discovery. My personal WebID which is under my control is <a href="http://csarven.ca/#i">http://csarven.ca/#i</a>. I also have an ORCID identifier that also serves as a WebID: <a href="https://orcid.org/0000-0002-0880-9125">https://orcid.org/0000-0002-0880-9125</a> which also has an RDF representation. As ORCID's user interface allows people to extend their descriptions with certain fields, it is possible to add <em>same as</em> or <em>preferred URI</em> relations:</p>
 
               <figure class="listing">
                 <pre><code>&lt;https://orcid.org/0000-0002-0880-9125&gt; ;</code>
-<code>  owl:sameAs &lt;http://csarven.ca/#i&gt; ;</code>
+<code>  <span class="highlight-predicate-sameas">owl:sameAs</span> &lt;http://csarven.ca/#i&gt; ;</code>
 <code>  contact:preferredURI "http://csarven.ca/#i" .</code></pre>
                 <figcaption>WebID with same as and preferred URI relations.</figcaption>
               </figure>
 
-              <p>The <code>owl:sameAs</code> and <code>contact:preferredURI</code> information provides an opportunity for applications consuming the ORCID WebID to potentially discover more information about entity (me). This is particularly useful as the ORCID WebID Profile is not completely open to add arbitrary information, but only a constrained set of information. For example, specifying a person's picture or their contacts is not currently possible with ORCID, however, if the alternative profiles (http://csarven.ca/#i) contain such information, they can be purposed to know more about the entity.</p>
+              <p>The <code class="highlight-predicate-sameas">owl:sameAs</code> and <code>contact:preferredURI</code> information provides an opportunity for applications consuming the ORCID WebID to potentially discover more information about other entities. This is particularly useful as the ORCID WebID Profile is not completely open to add arbitrary information. For example, specifying a person's picture or their contacts is not currently possible with ORCID, however, if the alternative profiles (http://csarven.ca/#i) contain such information, they can be purposed to know more about the entity.</p>
             </div>
           </section>
 
@@ -422,7 +424,7 @@ Contributor controlled |------ Data----------------| Third-party controlled
 
               <p id="analyzing-the-persistence-of-referenced-web-resources-with-memento">In <cite><a data-versiondate="2018-09-01:15:15:43Z" data-versionurl="https://web.archive.org/web/20180901151543/https://arxiv.org/pdf/1105.3459.pdf" href="https://arxiv.org/pdf/1105.3459.pdf">Analyzing the Persistence of Referenced Web Resources with Memento</a></cite>, 2011, Sanderson et al present the results of a study on the persistence and availability of Web resources cited from research articles in two scholarly repositories. The results show that within a few years of the URL being cited, 45% of the URLs referenced from arXiv still exist but are not preserved, and 28% of the resources referenced by articles in the UNT digital library have been lost. In order to address this commonly known as URIs ceasing to exist (link rot), authors suggest that repositories expose the links in the articles through an API so that Web crawlers can be used to archive. With the help of archives supporting the Memento protocol, the original context of the citation can still be reconstructed.</p>
 
-              <p id="reference-rot">Given the dynamic and ephemeral nature of the Web, and in particular management of URIs and corresponding representations at URLs, it poses a threat to integrity of Web-based scholarly content, and the consistency of scholarly records. One special area is about the formal citation of scholarly resources (eg. DOI, HTTP-DOI-URI), and "informal" referencing of other resources on the Web (ie. any HTTP URI). The <cite><a href="http://hiberlink.org/">Hiberlink</a></cite> project investigates <q>reference rot</q> in Web-based scholarly communication, and introduces the term to denote two problems in using URI references:</p>
+              <p id="reference-rot">Given the dynamic and ephemeral nature of the Web, and in particular management of URIs and corresponding representations at URLs, it poses a threat to integrity of Web-based scholarly content, and the consistency of scholarly records, as well as everywhere else. One special area is about the formal citation of scholarly resources (eg. DOI, HTTP-DOI-URI), and "informal" referencing of other resources on the Web (ie. any HTTP URI). The <cite><a href="http://hiberlink.org/">Hiberlink</a></cite> project investigates <q>reference rot</q> in Web-based scholarly communication, and introduces the term to denote two problems in using URI references:</p>
 
               <blockquote cite="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115253">
                 <dl>
@@ -506,7 +508,7 @@ Contributor controlled |------ Data----------------| Third-party controlled
                     <th>Registration</th>
                     <th>Awareness</th>
                     <th>Certification</th>
-                    <th>Archive</th>
+                    <th>Archiving</th>
                   </tr>
                 </thead>
                 <tbody>
