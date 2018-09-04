@@ -209,22 +209,12 @@
 
               <p id="social-personal-data-stores">In <cite><a href="https://www.research.ed.ac.uk/portal/files/20028374/vanKleek_et_al_2015_Social_Personal_Data_Stores.pdf" title="https://doi.org/10.1145/2740908.2743975">Social Personal Data Stores: the Nuclei of Decentralised Social Machines</a></cite>, 2015, Max Van Kleek et al, considers decentralised social applications from the user's perspective based on the shortcomings and dangers of <span lang="la" title="Latin phrase refering to what happens in practice, in contast to law" xml:lang="la">de facto</span> practices where user data and interactions being controlled by centralised service providers. The work states that existing personal data stores for the most part do not <q>account for the need for multiple identities, effective separation of roles and anonymity, and to prevent unwanted tracking and clickstream profiling</q>, and that future work should integrate people's need for privacy, creation, management, and switching of separate identities, pseudonyms, personas in order to be used in different contexts, eg. personal, professional.</p>
 
-              <p id="the-presentation-of-self-on-a-decentralised-web">In <cite><a href="http://dr.amy.gy/">The Presentation of Self on a Decentralised Web</a></cite>, 2017, Amy Guy, the <q cite="https://rhiaro.github.io/thesis/chapter3#what-is-a-profile">What is a profile?</q> study describes <q>affordances of systems which integrate online profiles in a social capacity and raises five features of systems with regards to their representations of users: flexibility, access control, prominence, portability, representation.</q> Furthermore, Guy posits that <q cite="https://rhiaro.github.io/thesis/chapter3#ccccc">online self-presentation is both constituted and affected by <em>who</em> sees a representation of an individual, and <em>what</em> it is they see, both of which are encompassed by the situation <em>whereby</em> it is seen</q>. The results of the studies are summarised as a conceptual framework as the <q>5Cs</q> for online profiles and self presentation: <q>context, control, customisability, connectivity, cascade</q>.</p>
+              <p id="the-presentation-of-self-on-a-decentralised-web">In <cite><a href="http://dr.amy.gy/">The Presentation of Self on a Decentralised Web</a></cite>, 2017, Amy Guy, the <q cite="https://rhiaro.github.io/thesis/chapter3#what-is-a-profile">What is a profile?</q> study describes <q>affordances of systems which integrate online profiles in a social capacity and raises five features of systems with regards to their representations of users: flexibility, access control, prominence, portability, representation.</q> Furthermore, Guy posits that <q cite="https://rhiaro.github.io/thesis/chapter3#ccccc">online self-presentation is both constituted and affected by <em>who</em> sees a representation of an individual, and <em>what</em> it is they see, both of which are encompassed by the situation <em>whereby</em> it is seen</q>. The results of the studies are summarised as a conceptual framework as the <q id="ccccc">5Cs</q> for online profiles and self presentation: <q>context, control, customisability, connectivity, cascade</q>.</p>
 
               <p id="third-party-controlled"><strong>Third-party controlled</strong>: Community or state controlled identifiers are a class of identifiers that are ultimately third-party controlled in that their ownership, governance, description is beyond an individual's jurisdiction. The control of identifiers by a group has the quality of long-term promise for persistence. Typically there are policies in place which promise their longevity, and procedures in the event that the group longer manages the identifiers. ORCID aims to be part of the scholarly commons where it is managed by its <a href="https://orcid.org/about/community">community</a>. As discussed earlier, ORCID URI and profile description is useful to researchers, organisations, and interlinking researcher objects, however it is ultimately third-party controlled with the complete intention to serve the research community. One unintended consequence of this kind of centralisation in scholarly communication is that a growing number of institutions and publishers require researchers to participate with their ORCID identifiers, as opposed to any URI of a researcher. The resulting effects of <a href="https://orcid.org/content/requiring-orcid-publication-workflows-open-letter">such initiatives</a> are counter to autonomous participation in that a researcher has to conform to the terms and policies of multiple third-parties. On the other hand, the administration of the URI by the ORCID organisation removes the burden of maintaining the URI as well as the profile URL. In this case, a "trusted" third-party takes care of the identifier, where as researchers are responsible of updating the content.</p>
 
               <p>Self-controlled:</p>
               <p>..</p>
-
-              <figure id="range-of-control">
-                <pre>                       |------ URI ownership ------|
-Contributor controlled |------ Data----------------| Third-party controlled
-                       |------ Applications --------|</pre>
-                <figcaption>Range of control (contributor or third-party) for URI ownership, data, and applications</figcaption>
-              </figure>
-
-              <p class="todo">How do I jump to:</p>
-              <p>Desired qualities: global identifier, extensible descriptions, self-expression (contrast with silo/accounts and trusted third-party managed identification systems, multiple identities (personal, professional), identity claim verification, social graph</p>
 
               <p id="identity-http-uri">Different types of strings, eg. a username, an email address, an RSA public key, a URI, can be used to directly or indirectly identify agents. While each can be useful within their own context, Web-based identifiers (HTTP URI) make it possible to provide machine-readable descriptions when dereferenced, descriptions being extensible by their owners, as well as being interoperable global identifiers that can be interlinked unambiguously with other things.</p>
 
@@ -269,7 +259,7 @@ Contributor controlled |------ Data----------------| Third-party controlled
               </figure>
 
 
-              <p class="todo"><strong>Multiple identifiers</strong>: .. linked</p>
+              <p class="todo" id="multiple-identities"><strong>Multiple identities</strong>: ..  (public, private, personal, professional, state..) linked</p>
 
               <p id="orcid-sameas-webid">For instance, while ORCID profile description has constraints, it allows fundamental extensibility in the form of asserting a "same as" relation through its UI, so that the ORCID URI can be linked to other WebIDs. This essentially makes a connection to another <a href="structure-of-scholarly-information#self-describing"> document and facilitates <a href="structure-of-scholarly-information#follow-your-nose">follow-your-nose</a> discovery. My personal WebID which is under my control is <a href="http://csarven.ca/#i">http://csarven.ca/#i</a>. I also have an ORCID identifier that also serves as a WebID: <a href="https://orcid.org/0000-0002-0880-9125">https://orcid.org/0000-0002-0880-9125</a> which also has an RDF representation. As ORCID's user interface allows people to extend their descriptions with certain fields, it is possible to add <em>same as</em> or <em>preferred URI</em> relations:</p>
 
@@ -281,6 +271,16 @@ Contributor controlled |------ Data----------------| Third-party controlled
               </figure>
 
               <p>The <code class="highlight-predicate-sameas">owl:sameAs</code> and <code>contact:preferredURI</code> information provides an opportunity for applications consuming the ORCID WebID to potentially discover more information about other entities. This is particularly useful as the ORCID WebID Profile is not completely open to add arbitrary information. For example, specifying a person's picture or their contacts is not currently possible with ORCID, however, if the alternative profiles (http://csarven.ca/#i) contain such information, they can be purposed to know more about the entity.</p>
+
+              <p class="todo"><strong>Desired qualities</strong>: Based on aforementioned research, standards, and practices in the field towards Web-based personal identifiers and representations, we can infer a set of qualities that can empower individuals when participating in a decentralised scholarly system:</p>
+
+              <ul>
+                <li>Self-hosted and individually-controlled personal identifier denoted with HTTP URI</li>
+                <!-- <li>Integration of <q>5Cs of digital personhood</q></li> -->
+                <li>Profile customisability and connectivity</li>
+                <li>Linkable multiple identities</li>
+                <li>Identity privacy and control</li>
+              </ul>
             </div>
           </section>
 
@@ -491,7 +491,6 @@ Contributor controlled |------ Data----------------| Third-party controlled
 
               <p>Pay as you go (linked information space), eg. own profile today, own storage space tomorrow..</p>
 
-
               <table id="specifications-for-forces-and-functions">
                 <caption>Specifications to fulfil forces and functions in scientific communication</caption>
                 <thead>
@@ -539,6 +538,15 @@ Contributor controlled |------ Data----------------| Third-party controlled
                   </tr>
                 </tfoot>
               </table>
+
+
+
+              <figure id="range-of-control">
+                <pre>                       |------ URI ownership ------|
+Individual controlled |------ Data----------------| Third-party controlled
+                       |------ Applications --------|</pre>
+                <figcaption>Range of control (individual or third-party) for URI ownership, data, and applications</figcaption>
+              </figure>
 
             </div>
           </section>
