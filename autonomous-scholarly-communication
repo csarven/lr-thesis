@@ -271,16 +271,6 @@
               </figure>
 
               <p>The <code class="highlight-predicate-sameas">owl:sameAs</code> and <code>contact:preferredURI</code> information provides an opportunity for applications consuming the ORCID WebID to potentially discover more information about other entities. This is particularly useful as the ORCID WebID Profile is not completely open to add arbitrary information. For example, specifying a person's picture or their contacts is not currently possible with ORCID, however, if the alternative profiles (http://csarven.ca/#i) contain such information, they can be purposed to know more about the entity.</p>
-
-              <p class="todo"><strong>Desired qualities</strong>: Based on aforementioned research, standards, and practices in the field towards Web-based personal identifiers and representations, we can infer a set of qualities that can empower individuals when participating in a decentralised scholarly system:</p>
-
-              <ul>
-                <li>Self-hosted and individually-controlled personal identifier denoted with HTTP URI</li>
-                <!-- <li>Integration of <q>5Cs of digital personhood</q></li> -->
-                <li>Profile customisability and connectivity</li>
-                <li>Linkable multiple identities</li>
-                <li>Identity privacy and control</li>
-              </ul>
             </div>
           </section>
 
@@ -540,14 +530,28 @@
               </table>
 
 
+              <p><strong>Desired qualities</strong>: Based on aforementioned research, standards, and practices in the field towards Web-based personal identifiers and representations, we can infer a set of qualities that can empower individuals when participating in a decentralised scholarly system:</p>
 
-              <figure id="range-of-control">
-                <pre>                       |------ URI ownership ------|
+              <ul>
+                <li>Self-hosted and individually-controlled personal identifier denoted with HTTP URI</li>
+                <li>Profile customisability and connectivity</li>
+                <li>Linkable multiple identities</li>
+                <li>Identity privacy and control</li>
+              </ul>
+
+
+              <p>We can observe different degrees of control:</p>
+
+              <figure id="degree-of-control">
+                <pre>                      |------ URI ownership ------|
 Individual controlled |------ Data----------------| Third-party controlled
-                       |------ Applications --------|</pre>
-                <figcaption>Range of control (individual or third-party) for URI ownership, data, and applications</figcaption>
+                      |------ Applications --------|</pre>
+                <figcaption>Degree of control (individual or third-party) for URI ownership, data, and applications</figcaption>
               </figure>
 
+              <p>On one end of the spectrum, an individual registers their own domain name, hosts their personal storage, and uses applications of their choosing. With that, they have highest degree of autonomy for their online presence and interactions. On the other end of the spectrum, an individual's identifier as well as a range of expressible identities, the data location and conditions of use, and assigned applications by third-party services.</p>
+
+              <p>Different degrees of control would influence the forces and functions in scholarly communication. For instance, while ORCID is third-party controlled, it is possible to customise the profile to link to other identities. Similarly, the profile description can indicate the location of researcher's personal online storage, inbox, as well as outbox, which can controlled by the individual. An application built with interoperable open Web standards can potentially communicate with services that conform to the same protocols and data models.</p>
             </div>
           </section>
 
