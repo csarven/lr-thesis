@@ -428,9 +428,7 @@
 
               <p id="scholarly-context-not-found">In <cite><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115253">Scholarly Context Not Found: One in Five Articles Suffers from Reference Rot</a></cite>, 2014, Klein et al acknowledge extensively studied phenomenon on link rot and content drift, and themselves <q>investigate the extent to which <em>reference rot</em> impacts the ability to revisit the web context that surrounds <abbr title="Science, Technology, and Medicine">STM</abbr> articles some time after their publication</q>. The results show that significant amount of HTTP URIs cited in STM articles are no longer responsive or adequate archived snapshots available. Authors state that it is impossible to adequately recreate the temporal context of the scholarly discourse, hence suggest that robust solutions are needed to combat the problem of reference rot. Authors can take practical steps to remedy some of these issues eg. using archives that support on-demand snapshots, embedding the archived URI with datetime information alongside the reference to the original resource - we discuss this further in <a href="#robust-links">Robust Links</a>.</p>
 
-              <p id="content-drift">From the point of losing ownership of a domain name, one kind of content drift would be if the content published at http://csarven.ca/ today may be different tomorrow if another authority gets to own csarven.ca and defines what goes there. Alternatively, it may be that the content at that location is dynamic, and could differ from one request to another. In both cases, content drift creates a situation where if the originally referenced resource is still the same. From the perspective of Web-based scholarly publications, changes to content - accidental or intentional - can impact the degree of reproducibility, replicability, comparability of research results, and maintaining a reliable scholarly record.</p>
-
-
+              <p id="content-drift">From the point of persistence of the domain name (losing ownership) as Berners-Lee describes, one kind of content drift would be if the content published at http://csarven.ca/ today may be different tomorrow if another authority gets to own csarven.ca and defines what goes there. Alternatively, it may be that the content at that location is dynamic, and could differ from one request to another. In both cases, content drift creates a situation where if the originally referenced resource is still the same. From the perspective of Web-based scholarly publications, changes to content - accidental or intentional - can impact the degree of reproducibility, replicability, comparability of research results, and maintaining a reliable scholarly record.</p>
 
               <p id="persistent-identifiers-for-scholarly-assets-and-the-web">In <cite><a data-versiondate="2018-09-01T16:01:52Z" data-versionurl="https://web.archive.org/web/20180901160152/http://www.ijdc.net/article/download/9.1.331/362/" href="http://www.ijdc.net/article/download/9.1.331/362/">Persistent Identifiers for Scholarly Assets and the Web: The Need for an Unambiguous Mapping</a></cite> Van de Sompel et al posit that while PIDs are assigned to resources outside of information access protocols (like HTTP), there is a need to unambiguously bridge the discovery of the Web-oriented resource eg. from PID to HTTP URI, in a way that is machine-actionable. For example, the PID paradigm has the following discovery path:</p>
 
@@ -545,7 +543,7 @@
               <figure id="degree-of-control">
                 <pre>                      |------ URI ownership ------|
 Individual controlled |------ Data----------------| Third-party controlled
-                      |------ Applications --------|</pre>
+                      |------ Applications -------|</pre>
                 <figcaption>Degree of control (individual or third-party) for URI ownership, data, and applications</figcaption>
               </figure>
 
@@ -605,7 +603,8 @@ Individual controlled |------ Data----------------| Third-party controlled
                 <li><em>Security and privacy</em></li>
                 <li><em>Modularity and extensibility</em></li>
                 <li><em>Data integrity, transparency, and reliability</em></li>
-                <li>..</li>
+                <li><em>Persistence and preservation</em></li>
+                <li>...</li>
               </ul>
 
             </div>
