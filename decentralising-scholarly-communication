@@ -29,8 +29,8 @@
 
         <dl id="document-identifier">
           <dt>Identifier</dt>
-          
-        <dd><a href="https://linkedresearch.org/csarven.ca/decentralising-scholarly-communication" rel="owl:sameAs">https://linkedresearch.org/csarven.ca/decentralising-scholarly-communication</a></dd></dl>
+          <dd><a href="https://linkedresearch.org/article/csarven.ca/decentralising-scholarly-communication" rel="owl:sameAs">https://linkedresearch.org/article/csarven.ca/decentralising-scholarly-communication</a></dd>
+        </dl>
 
         <dl id="document-created">
           <dt>Created</dt>
@@ -44,17 +44,17 @@
 
         <dl id="document-latest-version">
           <dt>Latest Version</dt>
-          <dd><a href="https://linkedresearch.org/csarven.ca/2192338e-67e0-4f71-b15c-1ed2a4e1622d" rel="rel:latest-version">https://linkedresearch.org/csarven.ca/2192338e-67e0-4f71-b15c-1ed2a4e1622d</a></dd>
+          <dd><a href="https://linkedresearch.org/article/csarven.ca/2192338e-67e0-4f71-b15c-1ed2a4e1622d" rel="rel:latest-version">https://linkedresearch.org/article/csarven.ca/2192338e-67e0-4f71-b15c-1ed2a4e1622d</a></dd>
         </dl>
 
         <dl id="document-predecessor-version">
           <dt>Predecessor Version</dt>
-          <dd><a href="https://linkedresearch.org/csarven.ca/bdc19f9e-1e06-45ef-b714-e42fb458f14f" rel="rel:predecessor-version">https://linkedresearch.org/csarven.ca/bdc19f9e-1e06-45ef-b714-e42fb458f14f</a></dd>
+          <dd><a href="https://linkedresearch.org/article/csarven.ca/bdc19f9e-1e06-45ef-b714-e42fb458f14f" rel="rel:predecessor-version">https://linkedresearch.org/article/csarven.ca/bdc19f9e-1e06-45ef-b714-e42fb458f14f</a></dd>
         </dl>
 
         <dl id="document-timemap">
           <dt>TimeMap</dt>
-          <dd><a href="https://linkedresearch.org/csarven.ca/decentralising-scholarly-communication.timemap" rel="mem:timemap">https://linkedresearch.org/csarven.ca/decentralising-scholarly-communication.timemap</a></dd>
+          <dd><a href="https://linkedresearch.org/article/csarven.ca/decentralising-scholarly-communication.timemap" rel="mem:timemap">https://linkedresearch.org/article/csarven.ca/decentralising-scholarly-communication.timemap</a></dd>
         </dl>
 
         <dl id="document-license">
