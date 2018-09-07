@@ -825,7 +825,24 @@ XXX:
 
               <p id="decentralised-authoring-and-annotation-platforms"><strong>Decentralised authoring and annotation systems</strong>: <span id="libreoffice-online">Some authoring and publishing systems already go into a decentralised direction. However, they only realize a relatively small subset of the principles outlined in the last section. <cite><a href="https://github.com/libreoffice/online" rel="cito:discusses">LibreOffice Online</a></cite>, for example, allows collaborative editing of office documents (e.g., Writer) from the Web browser. Content can be stored under different CMSs in the cloud. The document’s interface consists of image tiles which are sent from the server and rendered in the browser. However, it hardly provides accessibility, rich interlinking and annotations or separations of concerns.</span> <span id="smallest-federated-wiki">The <cite><a href="http://fed.wiki.org/" rel="cito:discusses">Smallest Federated Wiki</a></cite> pages to be forked and maintain personal copies.</span> <span id="amaya"><cite><a href="https://www.w3.org/Amaya/" rel="cito:discusses">Amaya</a></cite> is a desktop Web editor application (to create and update documents) as well as a lightweight browser that was (1993) developed by W3C to provide a framework to test its technologies.</span></p>
 
+              <p>The tools which provide good collaborative editing UIs appear to do so at the expense of data ownership and interoperability; those which promote creation and publication of data in open reusable formats are lacking facilities for linking discourse and conversation to concepts published. Decentralised creations also mean that each author can choose their own semantics (e.g. their own vocabulary to annotate RDF), and then such decentralised documents can link to each other and their schemas can also be mapped to each other, whereas in centralised platforms this is (if they support semantics at all) often prescribed, either technically enforced, or encouraged by social convention.</p>
+            </div>
+          </section>
+
+
+          <section id="evaluation" inlist="" rel="schema:hasPart" resource="#evaluation">
+            <h2 property="schema:name">Evaluation</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+<pre>
+* [LDN Implementations](https://linkedresearch.org/ldn/tests/summary)?
+* Experiment on document credibility/citability
+* User experiment with different tasks (for the purpose of showing that dokieli or parts of it is a contribution). How well do they understand or to what extent are they capable of using e.g., the vocabularies.. in authoring.
+* Interviews?
+* How hard/easy is it to adopt LR model or be interopable with other systems.
+</pre>
+
               <p class="todo" id="">Comparison of annotation tools... partly relate this to table: specifications-for-forces-and-functions</p>
+
               <table>
                 <caption>Comparison of Annotation Tools</caption>
                 <thead>
@@ -841,10 +858,26 @@ XXX:
                 <tfoot></tfoot>
               </table>
 
-              <p>The tools which provide good collaborative editing UIs appear to do so at the expense of data ownership and interoperability; those which promote creation and publication of data in open reusable formats are lacking facilities for linking discourse and conversation to concepts published. Decentralised creations also mean that each author can choose their own semantics (e.g. their own vocabulary to annotate RDF), and then such decentralised documents can link to each other and their schemas can also be mapped to each other, whereas in centralised platforms this is (if they support semantics at all) often prescribed, either technically enforced, or encouraged by social convention.</p>
+
+              <h3>Design Decisions for Decentralisation</h3>
+              <dl id="design-decision-decentralisation">
+                <dt>How is the system decentralized?</dt>
+                <dd>The distribution of tasks needed for maintaining a service is <em>user-independent</em>. The nodes in the system are the Web resources on servers that make up information like profiles, articles, annotations and notifications. The advantage of this infrastructure is that, once a resource is registered (stored), they do not require users for its availability or functionality - a reduced attack surface. Users retain their privacy in that, access and use of the resources are encapsulated, and such information about identity or actions taken is not necessarily required to spread to the rest of the network. In the case of compound resources including information from distributed resources, like with transclusions, or applications dynamically fetching information from different context, nodes may get to be aware of such cross-origin requests. The <em>network topology</em> is by default <em>point-to-point</em>, ie. connections between two endpoints. However, in the case of federated servers, information can be routed and disseminated to the whole network eg. when publishing an article subscribers can be notified. The <em>authority topology</em> is that nodes (client-server or server-server) <em>interact directly</em> with each other, without necessarily requiring third-party nodes to participate. In order to establish trust, a certain amount of transparency can be used make an authority <em>accountable</em>. In federated designs, users place their trust on their provider nodes who act as authorities on their behalf with other providers (server-server).</dd>
+
+                <dt>What advantages do we get from decentralizing?</dt>
+                <dd>There is no single point of failure, with high availability, system performance, and generally <em>survivable</em>. However, the system's usefulness may degrade if certain resources in the network disappear or become inaccessible. For example, if a notification about an annotation is no longer available, then the annotation may need to be discovered through other routes. There is a flexible trust model in that, there is <em>no natural central authority</em>. Multiple independent authorities exist, and each verify claims based on their own (or shared) decisions eg. self-signed certificates as part of web of trust, or in the case of "anyone can say anything", consumers of such information verify the statements based on their needs. There is a <em>distributed allocation of resources assists ease of deployment</em>, and independent extensibility. As with the open world assumption, nodes are not expected to know have complete knowledge, and conflicting knowledge can enter the system. Decentralised systems while benefit from network <em>location diversity</em>, they may also be subject to censored both on the network and legal levels. The <em>development and operation is decoupled</em> in that open software can be publicly visible and auditable before being used by authorities. Original resources as well as versioned or archived copies can have <em>publicly verifiable integrity</em>. Decentralised system are relatively secure in that compromising or weakening the system requires attackers to engage with different services, or alternatively code bases. <em>Public accountability</em> can be devised to detect and exclude misinformation, as well as misbehaving or compromised actors.</dd>
+
+                <dt>How does decentralization support privacy?</dt>
+                <dd></dd>
+                <dt>What are the disadvantages of decentralizing?</dt>
+                <dd></dd>
+                <dt>What implicit centralized assumptions remain?</dt>
+                <dd></dd>
+                <dt>What can we learn from existing designs?</dt>
+                <dd></dd>
+              </dl>
             </div>
           </section>
-
 
           <section id="scratching-the-surface" inlist="" rel="schema:hasPart" resource="#scratching-the-surface">
             <h3 property="schema:name">Scratching the Surface</h3>
