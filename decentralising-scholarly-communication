@@ -455,10 +455,10 @@
               <p id="persistent-identifiers-for-scholarly-assets-and-the-web">In <cite><a data-versiondate="2018-09-01T16:01:52Z" data-versionurl="https://web.archive.org/web/20180901160152/http://www.ijdc.net/article/download/9.1.331/362/" href="http://www.ijdc.net/article/download/9.1.331/362/">Persistent Identifiers for Scholarly Assets and the Web: The Need for an Unambiguous Mapping</a></cite> Van de Sompel et al posit that while PIDs are assigned to resources outside of information access protocols (like HTTP), there is a need to unambiguously bridge the discovery of the Web-oriented resource eg. from PID to HTTP URI, in a way that is machine-actionable. For example, the PID paradigm has the following discovery path:</p>
 
               <ol>
-                <li>PID (<samp>10.2218/ijdc.v9i1.320</samp>) is the resource identifier</li>
-                <li>HTTP-URI-PID (<samp>https://doi.org/10.2218/ijdc.v9i1.320</samp>) is the resolving URI</li>
-                <li>HTTP-URI-LAND (<samp>http://www.ijdc.net/article/view/9.1.331</samp>) is the redirect URI (landing page)</li>
-                <li>HTTP-URI-LOC (<samp>http://www.ijdc.net/article/download/9.1.331/362/</samp>) is the location URI of the content.</li>
+                <li>PID is the resource identifier eg. <samp>10.2218/ijdc.v9i1.320</samp></li>
+                <li>HTTP-URI-PID is the resolving URI eg. <samp>https://doi.org/10.2218/ijdc.v9i1.320</samp></li>
+                <li>HTTP-URI-LAND is the redirect URI (landing page) eg. <samp>http://www.ijdc.net/article/view/9.1.331</samp></li>
+                <li>HTTP-URI-LOC is the location URI of the content eg. <samp>http://www.ijdc.net/article/download/9.1.331/362/</samp></li>
               </ol>
 
               <p>Authors propose that using existing standards and practice, the essential ingredients for such a mapping is as follows. A PID has a Web equivalent HTTP-URI-PID, which is a requisite - minted by the naming authority. The HTTP-URI-PID can be content-negotiated to result in a) a human-readable representation at HTTP-URI-LAND or b) machine-readable representations with distinct HTTP-URI-MACH. The HTTP-URI-LAND remains the same for discovery, however, HTTP-URI-MACH uses an RDF-based approach to describe the aggregations of scholarly assets based on the OAI-ORE specification.</p>
