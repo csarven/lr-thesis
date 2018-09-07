@@ -889,6 +889,8 @@ XXX:
                   <p id="adoption-misc">The <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> website uses dokieli in its templates on the site as well as workshop proposals and call for contributions. <a href="http://csarven.ca/">csarven.ca</a> uses dokieli in full, where some articles (like this article) offer pointers to a public annotation service in which users may wish to use for their annotations. Articles also dynamically embed annotations from personal storage spaces.</p>
                 </div>
               </section>
+
+              <p class="todo">Is this useful? <cite><a data-versiondate="2018-09-02T19:37:42Z" data-versionurl="https://web.archive.org/web/20180902193742/https://arxiv.org/pdf/1202.4503v1.pdf" href="https://arxiv.org/pdf/1202.4503v1.pdf">A Critical Look at Decentralized Personal Data Architectures</a></cite> .. ?</p>
             </div>
           </section>
 
