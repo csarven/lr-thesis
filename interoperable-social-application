@@ -50,7 +50,8 @@ XXX:
                 <li>self-publish and consume human and machine-interpretable Linked Data, and decide where they can be accessed from</li>
                 <li>use a notification system to create awareness, facilitate discovery and reuse</li>
               </ul>
-
+            </div>
+          </section>
 
 
           <section id="implementation-of-interpretable-information" inlist="" rel="schema:hasPart" resource="#implementation-of-interpretable-information">
@@ -720,9 +721,11 @@ XXX:
                   </ol>
                 </div>
               </section>
+            </article>
 
 <section id="interactive-linked-statistics" inlist="" rel="schame:hasPart" resource="#sparqlines">
 </section>
+
 
               <section id="sparqlines" inlist="" rel="schema:hasPart" resource="#sparqlines">
                 <h3 property="schema:name">Sparqlines</h3>
@@ -802,19 +805,6 @@ XXX:
               </section>
 
 
-              <section id="adoption-of-dokieli" inlist="" rel="schema:hasPart" resource="#adoption-of-dokieli">
-                <h3 property="schema:name">Adoption of dokieli</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p id="adoption-w3c-use">The W3C Working Group Note <cite><a href="https://www.w3.org/TR/annotation-html/" rel="cito:citesAsAuthority">Embedding Web Annotations in HTML</a></cite> includes examples from dokieli’s use of the Web Annotation data <cite><a href="https://www.w3.org/TR/annotation-model/" rel="cito:citesAsAuthority">Model</a></cite> and <cite><a href="https://www.w3.org/TR/annotation-vocab/" rel="cito:citesAsAuthority">Vocabulary</a></cite> with motivations for example for <q>Lightweight, decentralised Annotation Tools</q>. The W3C <cite><a href="https://www.w3.org/TR/ldn/" rel="cito:citesAsAuthority">Linked Data Notifications</a></cite> specification uses dokieli’s HTML+RDFa template, and the <a href="https://linkedresearch.org/ldn/" rel="cito:citesAsAuthority">Editor’s Draft</a> showcase dokieli as a consumer of LDN and Web Annotations. The LDN <a href="https://linkedresearch.org/ldn/tests/" rel="cito:citesAsAuthority">test suite</a> also uses dokieli’s templates and stylesheets.</p>
-
-                  <p id="adoption-academic">The academic workshop <cite><a href="http://semstats.org/">SemStats</a></cite> series use dokieli in its Website templates, including the call for contributions. <cite><a href="http://ceur-ws.org/">CEUR-WS.org</a></cite>, an <q>Online Proceedings for Scientific Conferences and Workshops</q> offers the tooling <cite><a href="https://github.com/ceurws/ceur-make">ceur-make</a></cite> to help organisers generate proceedings using dokieli’s HTML+RDFa template, e.g., <cite><a href="http://ceur-ws.org/Vol-1654/">SemStats 2016</a></cite>. We list a community (of academics) who self-publish their articles and thesis using dokieli with different stylesheets and derived scripts under its <cite><a href="https://github.com/linkeddata/dokieli/wiki#examples-in-the-wild">examples in the wild</a></cite>. The conference series: WWW (e.g., <a href="http://events.linkeddata.org/ldow2018/">LDOW</a> and <a href="http://sociam.org/wow2017/">WOW</a> workshops), <a href="https://iswc2018.semanticweb.org/calls/html-submission-guide/">ISWC</a>, and <a href="http://2018.eswc-conferences.org/call-papers">ESWC</a> propose dokieli as one tooling in which authors can use to make their contributions to the calls with.</p>
-
-                  <p id="adoption-misc">The <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> website uses dokieli in its templates on the site as well as workshop proposals and call for contributions. <a href="http://csarven.ca/">csarven.ca</a> uses dokieli in full, where some articles (like this article) offer pointers to a public annotation service in which users may wish to use for their annotations. Articles also dynamically embed annotations from personal storage spaces.</p>
-                </div>
-              </section>
-            </div>
-          </section>
-
 
           <section id="related-work" inlist="" rel="schema:hasPart" resource="#related-work">
             <h2 property="schema:name">Related work</h2>
@@ -833,54 +823,78 @@ XXX:
           <section id="evaluation" inlist="" rel="schema:hasPart" resource="#evaluation">
             <h2 property="schema:name">Evaluation</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo">Should this be its own chapter including evaluation from LDN or be specific to dokieli?</p>
 <pre>
-* [LDN Implementations](https://linkedresearch.org/ldn/tests/summary)?
+* Should [LDN Implementations](https://linkedresearch.org/ldn/tests/summary)?
 * Experiment on document credibility/citability
 * User experiment with different tasks (for the purpose of showing that dokieli or parts of it is a contribution). How well do they understand or to what extent are they capable of using e.g., the vocabularies.. in authoring.
 * Interviews?
 * How hard/easy is it to adopt LR model or be interopable with other systems.
 </pre>
 
-              <p class="todo" id="">Comparison of annotation tools... partly relate this to table: specifications-for-forces-and-functions</p>
 
-              <table>
-                <caption>Comparison of Annotation Tools</caption>
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th>Storage</th>
-                    <th>Personal identity</th>
-                    <th>Privacy</th>
-                    <th>Specifications</th>
-                  </tr>
-                </thead>
-                <tbody></tbody>
-                <tfoot></tfoot>
-              </table>
+              <section id="design-decisions-for-decentralisation" inlist="" rel="schema:hasPart" resource="#design-decisions-for-decentralisation">
+                <h3 property="schema:name">Design Decisions for Decentralisation</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <dl id="design-decision-decentralisation">
+                    <dt>How is the system decentralized?</dt>
+                    <dd>The distribution of tasks needed for maintaining a service is <em>user-independent</em>. The nodes in the system are the Web resources on servers that make up information like profiles, articles, annotations and notifications. The advantage of this infrastructure is that, once a resource is registered (stored), they do not require users for its availability or functionality - a reduced attack surface. Users retain their privacy in that, access and use of the resources are encapsulated, and such information about identity or actions taken is not necessarily required to spread to the rest of the network. In the case of compound resources including information from distributed resources, like with transclusions, or applications dynamically fetching information from different context, nodes may get to be aware of such cross-origin requests. The <em>network topology</em> is by default <em>point-to-point</em>, ie. connections between two endpoints. However, in the case of federated servers, information can be routed and disseminated to the whole network eg. when publishing an article subscribers can be notified. The <em>authority topology</em> is that nodes (client-server or server-server) <em>interact directly</em> with each other, without necessarily requiring third-party nodes to participate. In order to establish trust, a certain amount of transparency can be used make an authority <em>accountable</em>. In federated designs, users place their trust on their provider nodes who act as authorities on their behalf with other providers (server-server).</dd>
+
+                    <dt>What advantages do we get from decentralizing?</dt>
+                    <dd>There is no single point of failure, with high availability, system performance, and generally <em>survivable</em>. However, the system's usefulness may degrade if certain resources in the network disappear or become inaccessible. For example, if a notification about an annotation is no longer available, then the annotation may need to be discovered through other routes. There is a flexible trust model in that, there is <em>no natural central authority</em>. Multiple independent authorities exist, and each verify claims based on their own (or shared) decisions eg. self-signed certificates as part of web of trust, or in the case of "anyone can say anything", consumers of such information verify the statements based on their needs. There is a <em>distributed allocation of resources assists ease of deployment</em>, and independent extensibility. As with the open world assumption, nodes are not expected to know have complete knowledge, and conflicting knowledge can enter the system. Decentralised systems while benefit from network <em>location diversity</em>, they may also be subject to censored both on the network and legal levels. The <em>development and operation is decoupled</em> in that open software can be publicly visible and auditable before being used by authorities. Original resources as well as versioned or archived copies can have <em>publicly verifiable integrity</em>. Decentralised system are relatively secure in that compromising or weakening the system requires attackers to engage with different services, or alternatively code bases. <em>Public accountability</em> can be devised to detect and exclude misinformation, as well as misbehaving or compromised actors.</dd>
+
+                    <dt>How does decentralization support privacy?</dt>
+                    <dd></dd>
+                    <dt>What are the disadvantages of decentralizing?</dt>
+                    <dd></dd>
+                    <dt>What implicit centralized assumptions remain?</dt>
+                    <dd></dd>
+                    <dt>What can we learn from existing designs?</dt>
+                    <dd></dd>
+                  </dl>
+                </div>
+              </section>
 
 
-              <h3>Design Decisions for Decentralisation</h3>
-              <dl id="design-decision-decentralisation">
-                <dt>How is the system decentralized?</dt>
-                <dd>The distribution of tasks needed for maintaining a service is <em>user-independent</em>. The nodes in the system are the Web resources on servers that make up information like profiles, articles, annotations and notifications. The advantage of this infrastructure is that, once a resource is registered (stored), they do not require users for its availability or functionality - a reduced attack surface. Users retain their privacy in that, access and use of the resources are encapsulated, and such information about identity or actions taken is not necessarily required to spread to the rest of the network. In the case of compound resources including information from distributed resources, like with transclusions, or applications dynamically fetching information from different context, nodes may get to be aware of such cross-origin requests. The <em>network topology</em> is by default <em>point-to-point</em>, ie. connections between two endpoints. However, in the case of federated servers, information can be routed and disseminated to the whole network eg. when publishing an article subscribers can be notified. The <em>authority topology</em> is that nodes (client-server or server-server) <em>interact directly</em> with each other, without necessarily requiring third-party nodes to participate. In order to establish trust, a certain amount of transparency can be used make an authority <em>accountable</em>. In federated designs, users place their trust on their provider nodes who act as authorities on their behalf with other providers (server-server).</dd>
+              <section id="comparison-of-annotation-applications" inlist="" rel="schema:hasPart" resource="#comparison-of-annotation-applications">
+                <h3 property="schema:name">Comparison of Annotation Applications</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p class="todo" id="">Comparison of annotation applications... partly relate this to table: specifications-for-forces-and-functions</p>
 
-                <dt>What advantages do we get from decentralizing?</dt>
-                <dd>There is no single point of failure, with high availability, system performance, and generally <em>survivable</em>. However, the system's usefulness may degrade if certain resources in the network disappear or become inaccessible. For example, if a notification about an annotation is no longer available, then the annotation may need to be discovered through other routes. There is a flexible trust model in that, there is <em>no natural central authority</em>. Multiple independent authorities exist, and each verify claims based on their own (or shared) decisions eg. self-signed certificates as part of web of trust, or in the case of "anyone can say anything", consumers of such information verify the statements based on their needs. There is a <em>distributed allocation of resources assists ease of deployment</em>, and independent extensibility. As with the open world assumption, nodes are not expected to know have complete knowledge, and conflicting knowledge can enter the system. Decentralised systems while benefit from network <em>location diversity</em>, they may also be subject to censored both on the network and legal levels. The <em>development and operation is decoupled</em> in that open software can be publicly visible and auditable before being used by authorities. Original resources as well as versioned or archived copies can have <em>publicly verifiable integrity</em>. Decentralised system are relatively secure in that compromising or weakening the system requires attackers to engage with different services, or alternatively code bases. <em>Public accountability</em> can be devised to detect and exclude misinformation, as well as misbehaving or compromised actors.</dd>
+                  <table id="comparison-of-annotation-applications">
+                    <caption>Comparison of Annotation Applications</caption>
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>Storage</th>
+                        <th>Personal identity</th>
+                        <th>Privacy</th>
+                        <th>Specifications</th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                    <tfoot></tfoot>
+                  </table>
+                </div>
+              </section>
 
-                <dt>How does decentralization support privacy?</dt>
-                <dd></dd>
-                <dt>What are the disadvantages of decentralizing?</dt>
-                <dd></dd>
-                <dt>What implicit centralized assumptions remain?</dt>
-                <dd></dd>
-                <dt>What can we learn from existing designs?</dt>
-                <dd></dd>
-              </dl>
+
+              <section id="adoption-of-dokieli" inlist="" rel="schema:hasPart" resource="#adoption-of-dokieli">
+                <h3 property="schema:name">Adoption of dokieli</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p id="adoption-w3c-use">The W3C Working Group Note <cite><a href="https://www.w3.org/TR/annotation-html/" rel="cito:citesAsAuthority">Embedding Web Annotations in HTML</a></cite> includes examples from dokieli’s use of the Web Annotation data <cite><a href="https://www.w3.org/TR/annotation-model/" rel="cito:citesAsAuthority">Model</a></cite> and <cite><a href="https://www.w3.org/TR/annotation-vocab/" rel="cito:citesAsAuthority">Vocabulary</a></cite> with motivations for example for <q>Lightweight, decentralised Annotation Tools</q>. The W3C <cite><a href="https://www.w3.org/TR/ldn/" rel="cito:citesAsAuthority">Linked Data Notifications</a></cite> specification uses dokieli’s HTML+RDFa template, and the <a href="https://linkedresearch.org/ldn/" rel="cito:citesAsAuthority">Editor’s Draft</a> showcase dokieli as a consumer of LDN and Web Annotations. The LDN <a href="https://linkedresearch.org/ldn/tests/" rel="cito:citesAsAuthority">test suite</a> also uses dokieli’s templates and stylesheets.</p>
+
+                  <p id="adoption-academic">The academic workshop <cite><a href="http://semstats.org/">SemStats</a></cite> series use dokieli in its Website templates, including the call for contributions. <cite><a href="http://ceur-ws.org/">CEUR-WS.org</a></cite>, an <q>Online Proceedings for Scientific Conferences and Workshops</q> offers the tooling <cite><a href="https://github.com/ceurws/ceur-make">ceur-make</a></cite> to help organisers generate proceedings using dokieli’s HTML+RDFa template, e.g., <cite><a href="http://ceur-ws.org/Vol-1654/">SemStats 2016</a></cite>. We list a community (of academics) who self-publish their articles and thesis using dokieli with different stylesheets and derived scripts under its <cite><a href="https://github.com/linkeddata/dokieli/wiki#examples-in-the-wild">examples in the wild</a></cite>. The conference series: WWW (e.g., <a href="http://events.linkeddata.org/ldow2018/">LDOW</a> and <a href="http://sociam.org/wow2017/">WOW</a> workshops), <a href="https://iswc2018.semanticweb.org/calls/html-submission-guide/">ISWC</a>, and <a href="http://2018.eswc-conferences.org/call-papers">ESWC</a> propose dokieli as one tooling in which authors can use to make their contributions to the calls with.</p>
+
+                  <p id="adoption-misc">The <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> website uses dokieli in its templates on the site as well as workshop proposals and call for contributions. <a href="http://csarven.ca/">csarven.ca</a> uses dokieli in full, where some articles (like this article) offer pointers to a public annotation service in which users may wish to use for their annotations. Articles also dynamically embed annotations from personal storage spaces.</p>
+                </div>
+              </section>
             </div>
           </section>
 
+
           <section id="scratching-the-surface" inlist="" rel="schema:hasPart" resource="#scratching-the-surface">
-            <h3 property="schema:name">Scratching the Surface</h3>
+            <h2 property="schema:name">Scratching the Surface</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p>dokieli shows it is possible to build a social machine wherein people interact with each other without the need of centralised coordination. Users can choose storage space for their content independently of the applications with which they edit and view that content. Documents are connected statically through links and dynamically through Linked Data Notifications. This is a proof for the viability of a decentralised authoring and annotation environment built with Web standards.</p>
 
