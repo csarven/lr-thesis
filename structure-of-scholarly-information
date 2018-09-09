@@ -355,12 +355,10 @@ Rough coverage:
             </div>
           </section>
 
-          <section id="related-work" inlist="" rel="schema:hasPart" resource="#related-work">
-            <h3 property="schema:name">Related Work</h3>
+          <section id="structural-patterns-in-the-wild" inlist="" rel="schema:hasPart" resource="#structural-patterns-in-the-wild">
+            <h3 property="schema:name">Structural Patterns in the Wild</h3>
             <div datatype="rdf:HTML" property="schema:description">
-                <p class="todo">move this up... discuss the characteristics of the existing stuff.. and not really a comparison...</p>
-
-                <p id="markup-patterns"><strong>Markup patterns</strong>: There are plethora of approaches and developments to representing scholarly information with markup languages. Here we focus on a few and describe their characteristics.</p>
+                <p>There are plethora of approaches and developments to representing scholarly information with markup languages. Here we focus on a few and describe their characteristics.</p>
 
                 <p id="scholarly-html"><cite><a href="https://www.w3.org/community/scholarlyhtml/">W3C Scholarly HTML Community Group</a></cite> has its mission to build a common, open format for the exchange of scholarly information. Its specification on <cite><a data-versiondate="2017-10-02T17:15:58Z" data-versionurl="https://web.archive.org/web/20171002171558/https://w3c.github.io/scholarly-html/" href="https://w3c.github.io/scholarly-html/">Scholarly HTML</a></cite> proposes a vernacular document format aimed at encoding <em>scholarly articles</em> built on open standards, as well as having them compatible with off-the-self Web browsers. One of its high-level goals is to enable structured metadata as well as semantic enrichments, accessibility, internationalisation. It applies the notion of <q>semantic overlays</q> for its markup patterns with focus on role-based semantics as defined in WAI-ARIA, DPUB-ARIA, and semantic representations using RDFa. The specification explains how concepts for people and organisation, article semantics, schema roles, actions, citations, document rights, and so forth can be marked using appropriate vocabularies - using <cite><a href="https://schema.org/">schema.org</a></cite> as base. In order to simplify authoring, where applicable, it is encouraged to use RDFa markup patterns where the depth (level of nesting in the DOM tree) for the RDF statements would be relatively flat. One consequences of this rule of thumb may be that there can be duplicate information or parts of the information being human-visible whereas some others would be intended only for machine use.</p>
 
