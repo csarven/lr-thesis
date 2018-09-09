@@ -8,7 +8,7 @@
     <link href="media/css/thesis.css" media="all" rel="stylesheet alternate" title="Thesis" />
     <link href="media/css/lncs.css" media="all" rel="stylesheet alternate" title="LNCS" />
     <link href="media/css/acm.css" media="all" rel="stylesheet alternate" title="ACM" />
-    <link href="mmanifestingedia/css/do.css" media="all" rel="stylesheet" />
+    <link href="media/css/do.css" media="all" rel="stylesheet" />
     <link href="media/css/font-awesome.min.css" media="all" rel="stylesheet" />
     <script src="scripts/simplerdf.js"></script>
     <script src="scripts/medium-editor.min.js"></script>
@@ -19,7 +19,6 @@
     <main>
       <article about="" typeof="schema:Article">
         <h1 property="schema:name">Implementing a Decentralised Linked Research Application</h1>
-<p class="todo">Title: implementing, developing, designing, establishing, manifesting..</p>
 
         <div datatype="rdf:HTML" property="schema:description">
           <section id="implementing-a-read-write-linked-data-web" inlist="" rel="schema:hasPart" resource="#implementing-a-read-write-linked-data-web">
