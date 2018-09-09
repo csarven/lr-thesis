@@ -176,7 +176,7 @@ Rough coverage:
 
               <p>This section covers semantic structure of the narrative aspects scholarly communication in particular. This can enhance <em>both</em> human- and machine-readability of information. Note also that we are interested here in structured representations of units irrespective of how they are produced.</p>
 
-              <p>Non-narrative units can also be semantically represented to enable easier reuse and interpretation; this is covered in more detail in  and <cite><a href="interoperable-social-application#interactive-linked-statistics">Interactive Linked Statistics</a></cite>.</p> 
+              <p>Non-narrative units can also be semantically represented to enable easier reuse and interpretation; this is covered in more detail in  and <cite><a href="decentralised-linked-research-application#interactive-linked-statistics">Interactive Linked Statistics</a></cite>.</p> 
 
 
               <p class="todo">Discuss whether it is only about the "document"/container or if it incorporates the graph around it</p>
