@@ -941,11 +941,13 @@ XXX:
                       <tr>
                         <th>Component</th>
                         <th><a href="#FM-F1A">FM-F1A</a></th>
+                        <th><a href="#FM-F1B">FM-F1B</a></th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <td><a href="https://dokie.li/docs#html-article">Article</a></td>
+                        <td class="earl:passed">✔</td>
                         <td class="earl:passed">✔</td>
                       </tr>
                     </tbody>
@@ -957,7 +959,9 @@ XXX:
                           </dl>
 
                           <dl class="abbr">
-                            <dt id="FM-F1A">PR</dt><dd>Identifier Uniqueness [<a href="https://purl.org/fair-metrics/FM_F1A">source</a>]</dd>
+                            <dt id="FM-F1A">F1A</dt><dd>Identifier Uniqueness [<a href="https://purl.org/fair-metrics/FM_F1A">source</a>]</dd>
+                            <dt id="FM-F1B">F1B</dt><dd>Identifier Persistence [<a href="https://purl.org/fair-metrics/FM_F1B">source</a>]</dd>
+
                           </dl>
                         </td>
                     </tfoot>

@@ -156,7 +156,6 @@
             </div>
           </section>
 
-
           <section id="read-write-linked-data" inlist="" rel="schema:hasPart" resource="#read-write-linked-data">
             <h2 property="schema:name">Read-Write Linked Data</h2>
             <div datatype="rdf:HTML" property="schema:description">

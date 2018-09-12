@@ -224,7 +224,7 @@ transform:rotate(-60deg);
 
               <blockquote>
                 <p>I simply assert the existence of significant limits to what the proponents of different theories can communicate to one another.</p>
-                <footer><cite><a href="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">Objectivity, Value Judgment, and Theory Choice</a></cite>, Thomas S. Kuhn, 1973</footer>
+                <footer><cite><a data-versiondate="2018-06-19T08:38:36Z" data-versionurl="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf" href="https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">Objectivity, Value Judgment, and Theory Choice</a></cite>, Thomas S. Kuhn, 1973</footer>
               </blockquote>
 
               <p>In <cite>The Structure of Scientific Revolutions</cite>, Thomas S. Kuhn proposes an explanation for the process of discovery and progress in the history and philosophy of science. Kuhn contended that science did not progress linearly through history, rather it starts with a period that's disorganised, and then a paradigm - a collection of <em>exemplar</em> agreed by scientists on how problems are to be understood - develops to organise things for day-to-day <q>normal science</q> to take place under the governed paradigm. After some time, <q>anomalies</q> in the paradigm accumulate and lead to a <q>crisis</q> phase where multiple competing paradigms attempt to resolve the issues. This is a particular point in which the community struggles to come to an agreement on the fittest way to practice future science. Finally a <q>paradigm shift</q> - revolution - refers to the last phase where transforming ideas and assertions mature enough to bring order to earlier anomalies, and cause a change in world view. Kuhn reasoned that progress in science was about the notion of moving away from less adequate concepts of and interactions with the world in favour of more fruitful. Progress was not a mere line leading to truth.</p>
@@ -711,23 +711,8 @@ WHERE {
                     <dd>(Meta)data to optimise the reuse of data with domain-relevant, license, and provenance information.</dd>
                   </dl>
 
-                  <p>The FAIR principles are intended to express policy goals, as opposed to a technical prescription to building a data infrastructure and exchange. From that angle, we can see that the FAIR principles are not constrained to the Web platform. It is neither is it the case that FAIR principles reveal the natural constraints that are imposed by third-party publishers. For instance, if we start our information discovery from the FAIR principles article, we can observe the following:</p>
+                  <p>The FAIR principles are intended to express policy goals, as opposed to a technical prescription to building a data infrastructure and exchange. From that angle, we can see that the FAIR principles are not constrained to the Web platform.</p>
 
-                  <ul>
-                    <li>0 reviews are known to be publicly available or accessible, meanwhile it is claimed that <q cite="https://www.nature.com/sdata/publish/for-authors#aims-scope">Scientific Data is a peer-reviewed, open-access journal.</q></li>
-                    <li>The article proposes several guidelines in human-readable form, however, the guidelines themselves do not conform to <q>F1. (meta)data are assigned a globally unique and persistent identifier.</q></li>
-                    <li>Of the 32 citations made in the article:
-                      <ul>
-                        <li>22 are accessible for user-agents guided by a human, eg. from a Web browser, where 1 only works within a session, ie. the identifiers are ephemeral once the session expires;
-                          <ul>
-                            <li>18 are available in HTML, 4 only in PDF;</li>
-                            <li>0 of the HTML contain standardised machine-readable components, and the patterns differ from one vendor/service provider to another;</li>
-                          </ul>
-                        </li>
-                        <li>10 are inaccessible, ie. require special access rights or not found;</li>
-                      </ul>
-                    </li>
-                  </ul>
 <!--                   <p class="todo">perhaps find something a bit more information quality centric</p>
                   <h4>The Vienna Principles</h4>
                   <p>The <cite><a href="http://viennaprinciples.org/v1/">Vienna Principles</a></cite> proposes twelve principles that is a response to the deficits of the current scholarly communication system (in 2016). The principles are design to help with the debate on how to improve the current system. They include: <q>accessibility, discoverability, reusability, reproducibility, transparency, understandability, collaboration, quality assurance, evaluation, validates progress, innovation, public good</q>.</p> -->
