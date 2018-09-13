@@ -961,7 +961,6 @@ XXX:
                           <dl class="abbr">
                             <dt id="FM-F1A">F1A</dt><dd>Identifier Uniqueness [<a href="https://purl.org/fair-metrics/FM_F1A">source</a>]</dd>
                             <dt id="FM-F1B">F1B</dt><dd>Identifier Persistence [<a href="https://purl.org/fair-metrics/FM_F1B">source</a>]</dd>
-
                           </dl>
                         </td>
                     </tfoot>
@@ -969,6 +968,19 @@ XXX:
 
                 </div>
               </section>
+
+
+              <section id="objectivity-value-judgment-and-theory-choice" inlist="" rel="schema:hasPart" resource="#objectivity-value-judgment-and-theory-choice">
+                <h3 property="schema:name">Objectivity, Value Judgment, and Theory Choice</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p><strong>Accuracy</strong>:</p>
+                  <p><strong>Consistency</strong>:</p>
+                  <p><strong>Scope</strong>:</p>
+                  <p><strong>Simplicity</strong>:</p>
+                  <p><strong>Fruitfulness</strong>:</p>
+                </div>
+              </section>
+
 
               <section id="adoption-of-dokieli" inlist="" rel="schema:hasPart" resource="#adoption-of-dokieli">
                 <h3 property="schema:name">Adoption of dokieli</h3>
