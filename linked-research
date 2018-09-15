@@ -449,7 +449,7 @@ building a mental infrastructure.
                 <li>Semantic Web Journal</li>
                 <li>Researcher Centric Scholarly Communication, The Web Conf</li>
                 <li>Workshops and tutorials - dokieli, OAI, SWIB, ESWC</li>
-                <li>LORC at ESWC2018. 2019?</li>
+                <li>LORC at ESWC2018, 2019</li>
                 <li>CEUR-WS</li>
                 <li>SemSci</li>
                 <li>SAVE-SD</li>
@@ -471,7 +471,7 @@ building a mental infrastructure.
 
               <p>LR is also a conceptual framework that describes how implementations in scholarly communication can interoperate. Its philosophy is influenced by the social machinery to build a knowledge Web for humans and machines as part of a cooperating system. Knowledge tends to get lost if it can't be retrieved, hence it has limited value. Thus, a holistic approach to universal access for all agents is an important criteria.</p>
 
-              <p>Is LR a yet another model? Not exactly. Its design is in agreement with certain qualities of the existing works and practices in the wild. However, LR looks at the problem space by revisiting the characteristics of the medium, and what the actors can achieve in context of scientific communication. Arbitrary or artificial barriers are anti-patterns.</p>
+              <p>LR's design is aligned with certain qualities of existing works and practices in the wild. However, LR looks at the problem space by revisiting the characteristics of the medium, and what the actors can achieve in context of scientific communication. Arbitrary or artificial barriers are considered to be anti-patterns.</p>
 
               <p>Are there ideological and technology traps? The traps can be seen as analogous to McLuhan's <q>reverses into</q> effect. When the LR design principles are pushed to the extreme, highly specialised and fine-grained centralised systems can and will emerge while still operating within the larger decentralised system on the Web. The degree of federation or interoperability among the autonomous systems will vary. The effects may be that of a new generation of third-party control and authority over certain information spaces. For example, just as centralised publishing and distribution services currently exist for the dominating paper-centric industry, the medium can still accommodate similar control over semantic and granular scientific resources. It is worthwhile to note that the ecosystem would only become more diverse as it expands. Entropy is an inherent property of the Web.</p>
 
