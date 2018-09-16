@@ -935,7 +935,20 @@ XXX:
                 <div datatype="rdf:HTML" property="schema:description">
                   <p><cite><a href="https://www.nature.com/articles/sdata2018118">FAIR Metrics</a></cite> ... <a href="https://github.com/FAIRMetrics/Metrics"></a> ... <a href="https://github.com/FAIRMetrics/Metrics/raw/master/ALL.pdf"></a></p>
 
-                  <table id="fair-metrics-results">
+                  <p>The <em>data structure definition</em> for the FAIR Metrics is as follows:</p>
+
+                  <div about="" rel="schema:hasPart">
+                    <dl about="#fair-metrics-data-structure-definition" id="fair-metrics-data-structure-definition" typeof="qb:DataStructureDefinition">
+                      <dt>Dimensions</dt>
+                      <dd><span rel="qb:component" resource="#fair-metrics-component-dimension-subject" typeof="qb:ComponentSpecification"><span rel="qb:componentProperty qb:dimension" resource="earl:subject" typeof="qb:DimensionProperty"><span property="skos:prefLabel">Subject</span></span></span></dd>
+                      <dd><span rel="qb:component" resource="#fair-metrics-component-dimension-test" typeof="qb:ComponentSpecification"><span rel="qb:componentProperty qb:dimension" resource="earl:test" typeof="qb:DimensionProperty"><span property="skos:prefLabel">Test</span></span></span></dd>
+                      <dd><span rel="qb:component" resource="#fair-metrics-component-dimension-mode" typeof="qb:ComponentSpecification"><span rel="qb:componentProperty qb:dimension" resource="earl:mode" typeof="qb:DimensionProperty"><span property="skos:prefLabel">Mode</span></span></span></dd>
+                      <dt>Measures</dt>
+                      <dd><span rel="qb:component" resource="#fair-metrics-component-measure-result" typeof="qb:ComponentSpecification"><span rel="qb:componentProperty qb:measure" resource="earl:result" typeof="qb:MeasureProperty"><span property="skos:prefLabel">Result</span></span></span> (Outcome, Info)</dd>
+                    </dl>
+                  </div>
+
+                  <table about="#fair-metrics-dataset-dokieli" id="fair-metrics-dataset-dokieli" typeof="qb:DataSet as:Object">
                     <caption>FAIR Metrics results</caption>
                     <thead>
                       <tr>
@@ -969,6 +982,17 @@ XXX:
                           <dl class="abbr">
                             <dt id="FM-F1A">F1A</dt><dd>Identifier Uniqueness [<a href="https://purl.org/fair-metrics/FM_F1A">source</a>]</dd>
                             <dt id="FM-F1B">F1B</dt><dd>Identifier Persistence [<a href="https://purl.org/fair-metrics/FM_F1B">source</a>]</dd>
+                          </dl>
+
+                          <dl>
+                            <dt>Identifier</dt>
+                            <dd property="dcterms:identifier" xml:lang="" lang="">a2ebd5be-b9ca-11e8-bdaa-338eda30385e</dd>
+                            <dt>Published</dt>
+                            <dd><time content="2018-09-16T18:10:00.181Z" datatype="xsd:dateTime" datetime="2018-09-16T18:10:00.181Z" property="as:published">2018-09-16</time></dd>
+                            <dt>Creator</dt>
+                            <dd><a href="http://csarven.ca/#i" property="as:actor">http://csarven.ca/#i</a></dd>
+                            <dt>Structure</dt>
+                            <dd><a rel="qb:structure" resource="#fair-metrics-data-structure-definition">FAIR Metrics</a></dd>
                           </dl>
                         </td>
                       </tr>
