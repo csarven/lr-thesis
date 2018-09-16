@@ -939,16 +939,20 @@ XXX:
                     <caption>FAIR Metrics results</caption>
                     <thead>
                       <tr>
-                        <th>Component</th>
-                        <th><a href="#FM-F1A">FM-F1A</a></th>
-                        <th><a href="#FM-F1B">FM-F1B</a></th>
+                        <th>Subject</th>
+                        <th>Test</th>
+                        <th>Mode</th>
+                        <th>Outcome</th>
+                        <th>Info</th>
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td><a href="https://dokie.li/docs#html-article">Article</a></td>
-                        <td class="earl:passed">✔</td>
-                        <td class="earl:passed">✔</td>
+                      <tr about="#test-article-fm-f1a" typeof="qb:Observation earl:Assertion">
+                        <td><meta property="qb:dataSet" resource="#test-article" /><a property="earl:subject" href="https://dokie.li/docs#html-article">Article</a></td>
+                        <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_F1A">FM-F1A</a></td>
+                        <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
+                        <td property="earl:result" resource="#result-test-article-fm-f1a" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
+                        <td property="earl:result" resource="#result-test-article-fm-f1a" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">Checked inline - <em>sentence level</em> - identifiers</span></td>
                       </tr>
                     </tbody>
                     <tfoot>
@@ -956,6 +960,10 @@ XXX:
                         <td>
                           <dl>
                             <dt class="earl:passed"><abbr title="Passed">✔</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#passed">Passed</a></dd>
+                            <dt class="earl:failed"><abbr title="Failed">✗</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#failed">Failed</a></dd>
+                            <dt class="earl:cantTell"><abbr title="Cannot tell">?</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#cantTell">Cannot tell</a></dd>
+                            <dt class="earl:inapplicable"><abbr title="Inapplicable">⌙</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#inapplicable">Inapplicable</a></dd>
+                            <dt class="earl:untested"><abbr title="Untested">○</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#untested">Untested</a></dd>
                           </dl>
 
                           <dl class="abbr">
