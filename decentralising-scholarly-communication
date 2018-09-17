@@ -497,7 +497,7 @@
 
               <p>Application characteristics: Interactions based on interoperable Web standards enables servers and clients to communicate </p>
 
-              <table id="specifications-for-forces-and-functions">
+              <table about="#specifications-for-forces-and-functions" id="specifications-for-forces-and-functions" typeof="qb:DataSet">
                 <caption>Specifications to fulfil forces and functions in scientific communication</caption>
                 <thead>
                   <tr>
@@ -516,29 +516,40 @@
                     <th>Archiving</th>
                   </tr>
                 </thead>
+
                 <tbody>
                   <tr><th colspan="9" scope="rowgroup">Protocol</th></tr>
-                  <tr><th>Linked Data Platform</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
-                  <tr><th>Linked Data Templates</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
-                  <tr><th>Linked Data Fragments</th><td></td><td>✔</td><td>✔</td><td></td><td></td><td>✔</td><td></td><td></td></tr>
-                  <tr><th>Fedora API</th><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td>✔</td></tr>
-                  <tr><th>Memento</th><td></td><td>✔</td><td></td><td></td><td>✔</td><td>✔</td><td></td><td>✔</td></tr>
-                  <tr><th>Web Annotation</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td></td></tr>
-                  <tr><th>ActivityPub</th><td>✔</td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td></td></tr>
-                  <tr><th>Linked Data Notifications</th><td></td><td>✔</td><td>✔</td><td></td><td>✔</td><td>✔</td><td></td><td></td></tr>
-                  <tr><th>WebID</th><td>✔</td><td></td><td>✔</td><td></td><td>✔</td><td></td><td></td><td></td></tr>
-                  <tr><th>WebID-TLS</th><td>✔</td><td>✔</td><td>✔</td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Linked Data Platform</th><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>⌙</td></tr>
+                  <tr><th>Linked Data Templates</th><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>⌙</td></tr>
+                  <tr><th>Linked Data Fragments</th><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>⌙</td><td>✔</td><td>⌙</td><td>⌙</td></tr>
+                  <tr><th>Fedora API</th><td>✔</td><td>✔</td><td>✔</td><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>✔</td></tr>
+                  <tr><th>Memento</th><td>⌙</td><td>✔</td><td>⌙</td><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>✔</td></tr>
+                  <tr><th>Web Annotation</th><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>✔</td><td>✔</td><td>✔</td><td>⌙</td></tr>
+                  <tr><th>ActivityPub</th><td>✔</td><td>✔</td><td>✔</td><td>⌙</td><td>✔</td><td>✔</td><td>✔</td><td>⌙</td></tr>
+                  <tr><th>Linked Data Notifications</th><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>⌙</td></tr>
+                  <tr><th>WebID</th><td>✔</td><td>⌙</td><td>✔</td><td>⌙</td><td>✔</td><td>⌙</td><td>⌙</td><td>⌙</td></tr>
+                  <tr><th>WebID-TLS</th><td>✔</td><td>✔</td><td>✔</td><td>⌙</td><td>⌙</td><td>⌙</td><td>⌙</td><td>⌙</td></tr>
                 </tbody>
+
                 <tbody>
                   <tr><th colspan="9" scope="rowgroup">Model</th></tr>
-                  <tr><th>Web Access Control</th><td>✔</td><td>✔</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                  <tr><th>Hydra Core</th><td></td><td>✔</td><td>✔</td><td></td><td></td><td>✔</td><td></td><td></td></tr>
-                  <tr><th>Activity Streams</th><td>✔</td><td></td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td></td></tr>
-                  <tr><th>Robust Links</th><td></td><td></td><td>✔</td><td></td><td></td><td>✔</td><td></td><td>✔</td></tr>
+                  <tr><th>Web Access Control</th><td>✔</td><td>✔</td><td>⌙</td><td>⌙</td><td>⌙</td><td>⌙</td><td>⌙</td><td>⌙</td></tr>
+                  <tr><th>Hydra Core</th><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>⌙</td><td>✔</td><td>⌙</td><td>⌙</td></tr>
+                  <tr><th>Activity Streams</th><td>✔</td><td>⌙</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>⌙</td></tr>
+                  <tr><th>Robust Links</th><td>⌙</td><td>⌙</td><td>✔</td><td>⌙</td><td>⌙</td><td>✔</td><td>⌙</td><td>✔</td></tr>
                 </tbody>
+
                 <tfoot>
                   <tr>
                     <td colspan="9">
+                      <dl>
+                        <dt class="earl:passed"><abbr title="Passed">✔</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#passed">Passed</a></dd>
+                        <dt class="earl:failed"><abbr title="Failed">✗</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#failed">Failed</a></dd>
+                        <dt class="earl:cantTell"><abbr title="Cannot tell">?</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#cantTell">Cannot tell</a></dd>
+                        <dt class="earl:inapplicable"><abbr title="Inapplicable">⌙</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#inapplicable">Inapplicable</a></dd>
+                        <dt class="earl:untested"><abbr title="Untested">○</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#untested">Untested</a></dd>
+                      </dl>
+
                       <p>The suit of Web Annotation standards are grouped. Triple Pattern Fragments is grouped into Linked Data Fragments. WebID incorporates identification systems that can be used for actors (PURL, w3id, ORCID), as well as the WebID Profile that describes it.</p>
                     </td>
                   </tr>
