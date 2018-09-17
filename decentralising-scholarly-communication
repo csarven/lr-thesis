@@ -82,7 +82,7 @@
           <dd prefix="pso: http://purl.org/spar/pso/" rel="pso:holdsStatusInTime" resource="#bdc19f9e-1e06-45ef-b714-e42fb458f14f"><span rel="pso:withStatus" resource="http://purl.org/spar/pso/draft" typeof="pso:PublicationStatus">Draft</span></dd>
         </dl>
 
-        <div datatype="rdf:HTML" property="schema:description">
+        <div datatype="rdf:HTML" id="content" property="schema:description">
           <section id="control-yourself" inlist="" rel="schema:hasPart" resource="#control-yourself">
             <h2 property="schema:name">Control Yourself</h2>
             <div datatype="rdf:HTML" property="schema:description">
@@ -519,24 +519,24 @@
 
                 <tbody>
                   <tr><th colspan="9" scope="rowgroup">Protocol</th></tr>
-                  <tr><th>Linked Data Platform</th><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>⌙</td></tr>
-                  <tr><th>Linked Data Templates</th><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>⌙</td></tr>
-                  <tr><th>Linked Data Fragments</th><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>⌙</td><td>✔</td><td>⌙</td><td>⌙</td></tr>
-                  <tr><th>Fedora API</th><td>✔</td><td>✔</td><td>✔</td><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>✔</td></tr>
-                  <tr><th>Memento</th><td>⌙</td><td>✔</td><td>⌙</td><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>✔</td></tr>
-                  <tr><th>Web Annotation</th><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>✔</td><td>✔</td><td>✔</td><td>⌙</td></tr>
-                  <tr><th>ActivityPub</th><td>✔</td><td>✔</td><td>✔</td><td>⌙</td><td>✔</td><td>✔</td><td>✔</td><td>⌙</td></tr>
-                  <tr><th>Linked Data Notifications</th><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>⌙</td></tr>
-                  <tr><th>WebID</th><td>✔</td><td>⌙</td><td>✔</td><td>⌙</td><td>✔</td><td>⌙</td><td>⌙</td><td>⌙</td></tr>
-                  <tr><th>WebID-TLS</th><td>✔</td><td>✔</td><td>✔</td><td>⌙</td><td>⌙</td><td>⌙</td><td>⌙</td><td>⌙</td></tr>
+                  <tr><th>Linked Data Platform</th><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td></tr>
+                  <tr><th>Linked Data Templates</th><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td></tr>
+                  <tr><th>Linked Data Fragments</th><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td></tr>
+                  <tr><th>Fedora API</th><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td></tr>
+                  <tr><th>Memento</th><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td></tr>
+                  <tr><th>Web Annotation</th><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td></tr>
+                  <tr><th>ActivityPub</th><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td></tr>
+                  <tr><th>Linked Data Notifications</th><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td></tr>
+                  <tr><th>WebID</th><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td></tr>
+                  <tr><th>WebID-TLS</th><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td></tr>
                 </tbody>
 
                 <tbody>
                   <tr><th colspan="9" scope="rowgroup">Model</th></tr>
-                  <tr><th>Web Access Control</th><td>✔</td><td>✔</td><td>⌙</td><td>⌙</td><td>⌙</td><td>⌙</td><td>⌙</td><td>⌙</td></tr>
-                  <tr><th>Hydra Core</th><td>⌙</td><td>✔</td><td>✔</td><td>⌙</td><td>⌙</td><td>✔</td><td>⌙</td><td>⌙</td></tr>
-                  <tr><th>Activity Streams</th><td>✔</td><td>⌙</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>⌙</td></tr>
-                  <tr><th>Robust Links</th><td>⌙</td><td>⌙</td><td>✔</td><td>⌙</td><td>⌙</td><td>✔</td><td>⌙</td><td>✔</td></tr>
+                  <tr><th>Web Access Control</th><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td></tr>
+                  <tr><th>Hydra Core</th><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td></tr>
+                  <tr><th>Activity Streams</th><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td></tr>
+                  <tr><th>Robust Links</th><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td><td class="earl:inapplicable">⌙</td><td class="earl:passed">✔</td></tr>
                 </tbody>
 
                 <tfoot>
