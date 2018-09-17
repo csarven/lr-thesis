@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Evaluation</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="media/css/basic.css" media="all" rel="stylesheet" title="Basic" />
+    <link href="media/css/thesis.css" media="all" rel="stylesheet alternate" title="Thesis" />
+    <link href="media/css/lncs.css" media="all" rel="stylesheet alternate" title="LNCS" />
+    <link href="media/css/acm.css" media="all" rel="stylesheet alternate" title="ACM" />
+    <link href="media/css/do.css" media="all" rel="stylesheet" />
+    <link href="media/css/font-awesome.min.css" media="all" rel="stylesheet" />
+    <script src="scripts/simplerdf.js"></script>
+    <script src="scripts/medium-editor.min.js"></script>
+    <script src="scripts/do.js"></script>
+  </head>
+
+  <body about="" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ pimspace: http://www.w3.org/ns/pim/space# cc: https://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# mem: http://mementoweb.org/ns# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ void: http://rdfs.org/ns/void# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# bibo: http://purl.org/ontology/bibo/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio# rel: https://www.w3.org/ns/iana/link-relations/relation#" typeof="schema:CreativeWork sioc:Post prov:Entity">
+    <main>
+      <article about="" typeof="schema:ScholarlyArticle">
+        <h1 property="schema:name">Evaluation</h1>
+        <div datatype="rdf:HTML" property="schema:description">
+
+<pre>
+* Should [LDN Implementations](https://linkedresearch.org/ldn/tests/summary)?
+* Experiment on document credibility/citability
+* User experiment with different tasks (for the purpose of showing that dokieli or parts of it is a contribution). How well do they understand or to what extent are they capable of using e.g., the vocabularies.. in authoring.
+* Interviews?
+* How hard/easy is it to adopt LR model or be interopable with other systems.
+</pre>
+
+
+          <section id="design-decisions-for-decentralisation" inlist="" rel="schema:hasPart" resource="#design-decisions-for-decentralisation">
+            <h2 property="schema:name">Design Decisions for Decentralisation</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>We can reuse the same set of questions raised in <cite>Systematizing Decentralization and Privacy</cite> to study the design choices made in our researcher-centric scholarly system:</p>
+
+              <dl id="design-decision-decentralisation">
+                <dt>How is the system decentralized?</dt>
+                <dd>The distribution of tasks needed for maintaining a service is <em>user-independent</em>. The nodes in the system are the Web resources on servers that make up information like profiles, articles, annotations and notifications. The advantage of this infrastructure is that, once a resource is registered (stored), they do not require users for its availability or functionality - a reduced attack surface. Users retain their privacy in that, access and use of the resources are encapsulated, and such information about identity or actions taken is not necessarily required to spread to the rest of the network. In the case of compound resources including information from distributed resources, like with transclusions, or applications dynamically fetching information from different context, nodes may get to be aware of such cross-origin requests. The <em>network topology</em> is by default <em>point-to-point</em>, ie. connections between two endpoints. However, in the case of federated servers, information can be routed and disseminated to the whole network eg. when publishing an article subscribers can be notified. The <em>authority topology</em> is that nodes (client-server or server-server) <em>interact directly</em> with each other, without necessarily requiring third-party nodes to participate. In order to establish trust, a certain amount of transparency can be used make an authority <em>accountable</em>. In federated designs, users place their trust on their provider nodes who act as authorities on their behalf with other providers (server-server).</dd>
+
+                <dt>What advantages do we get from decentralizing?</dt>
+                <dd>There is no single point of failure, with high availability, system performance, and generally <em>survivable</em>. However, the system's usefulness may degrade if certain resources in the network disappear or become inaccessible. For example, if a notification about an annotation is no longer available, then the annotation may need to be discovered through other routes. There is a flexible trust model in that, there is <em>no natural central authority</em>. Multiple independent authorities exist, and each verify claims based on their own (or shared) decisions eg. self-signed certificates as part of web of trust, or in the case of "anyone can say anything", consumers of such information verify the statements based on their needs. There is a <em>distributed allocation of resources assists ease of deployment</em>, and independent extensibility. As with the open world assumption, nodes are not expected to know have complete knowledge, and conflicting knowledge can enter the system. Decentralised systems while benefit from network <em>location diversity</em>, they may also be subject to censored both on the network and legal levels. The <em>development and operation is decoupled</em> in that open software can be publicly visible and auditable before being used by authorities. Original resources as well as versioned or archived copies can have <em>publicly verifiable integrity</em>. Decentralised system are relatively secure in that compromising or weakening the system requires attackers to engage with different services, or alternatively code bases. <em>Public accountability</em> can be devised to detect and exclude misinformation, as well as misbehaving or compromised actors.</dd>
+
+                <dt>How does decentralization support privacy?</dt>
+                <dd></dd>
+                <dt>What are the disadvantages of decentralizing?</dt>
+                <dd></dd>
+                <dt>What implicit centralized assumptions remain?</dt>
+                <dd></dd>
+                <dt>What can we learn from existing designs?</dt>
+                <dd></dd>
+              </dl>
+            </div>
+          </section>
+
+
+          <section id="comparison-of-annotation-applications" inlist="" rel="schema:hasPart" resource="#comparison-of-annotation-applications">
+            <h2 property="schema:name">Comparison of Annotation Applications</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo" id="">Comparison of annotation applications... partly relate this to table: specifications-for-forces-and-functions</p>
+
+              <table id="comparison-of-annotation-applications">
+                <caption>Comparison of Annotation Applications</caption>
+                <thead>
+                  <tr>
+                    <th>Application</th>
+                    <th>Storage</th>
+                    <th>Personal identity</th>
+                    <th>Privacy</th>
+                    <th>Specifications</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot></tfoot>
+              </table>
+            </div>
+          </section>
+
+
+          <section id="comparison-of-accessibility-applications" inlist="" rel="schema:hasPart" resource="#comparison-of-accessibility-applications">
+            <h2 property="schema:name">Comparison of Accessibility of Applications</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo" id="">We check for human and machine-accessibility, as well archivability.</p>
+
+              <table id="comparison-of-annotation-applications">
+                <caption>Comparison of Accessibility of Applications</caption>
+                <thead>
+                  <tr>
+                    <th>Application</th>
+                    <th></th>
+                    <th></th>
+                    <th>Standards</th>
+                    <th>Archivability</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot></tfoot>
+              </table>
+            </div>
+          </section>
+
+
+          <section id="comparison-of-interoperability-applications" inlist="" rel="schema:hasPart" resource="#comparison-of-interoperability-applications">
+            <h2 property="schema:name">Comparison of Interoperability of Applications</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo" id="">Level of interop.. does it create stuff that's standards compliant? can others use it? can it discover others stuff? can it reuse others stuff? is the reused and revised/enhanced reusable by other applications?</p>
+
+              <table id="comparison-of-annotation-applications">
+                <caption>Comparison of Accessibility of Applications</caption>
+                <thead>
+                  <tr>
+                    <th>Application</th>
+                    <th>Storage</th>
+                    <th>Personal identity</th>
+                    <th>Privacy</th>
+                    <th>Specifications</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot></tfoot>
+              </table>
+            </div>
+          </section>
+
+
+          <section id="fair-metrics" inlist="" rel="schema:hasPart" resource="#fair-metrics">
+            <h2 property="schema:name">FAIR Metrics</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p><cite><a href="https://www.nature.com/articles/sdata2018118">FAIR Metrics</a></cite> ... <a href="https://github.com/FAIRMetrics/Metrics"></a> ... <a href="https://github.com/FAIRMetrics/Metrics/raw/master/ALL.pdf"></a></p>
+
+              <section id="fair-metrics-data-structure-definition" inlist="" rel="schema:hasPart" resource="fair-metrics-data-structure-definition">
+                <h3 property="schema:name">FAIR Metrics Data Structure Definition</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <dl about="#fair-metrics-data-structure-definition" typeof="qb:DataStructureDefinition">
+                    <dt>Dimensions</dt>
+                    <dd><span rel="qb:component" resource="#fair-metrics-component-dimension-subject" typeof="qb:ComponentSpecification"><span rel="qb:componentProperty qb:dimension" resource="earl:subject" typeof="qb:DimensionProperty"><span property="skos:prefLabel">Subject - the test subject of an assertion</span></span></span></dd>
+                    <dd><span rel="qb:component" resource="#fair-metrics-component-dimension-test" typeof="qb:ComponentSpecification"><span rel="qb:componentProperty qb:dimension" resource="earl:test" typeof="qb:DimensionProperty"><span property="skos:prefLabel">Test - the test criterion of an assertion</span></span></span></dd>
+                    <dd><span rel="qb:component" resource="#fair-metrics-component-dimension-mode" typeof="qb:ComponentSpecification"><span rel="qb:componentProperty qb:dimension" resource="earl:mode" typeof="qb:DimensionProperty"><span property="skos:prefLabel">Mode - the mode in which the test was performed</span></span></span></dd>
+                    <dt>Measures</dt>
+                    <dd><span rel="qb:component" resource="#fair-metrics-component-measure-result" typeof="qb:ComponentSpecification"><span rel="qb:componentProperty qb:measure" resource="earl:result" typeof="qb:MeasureProperty"><span property="skos:prefLabel">Result - the result of an assertion</span></span></span> (Outcome, Info)</dd>
+                  </dl>
+                </div>
+              </section>
+
+              <section id="fair-metrics-dataset" inlist="" rel="schema:hasPart" resource="fair-metrics-dataset">
+                <h3 property="schema:name">FAIR Metrics Dataset</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <dl>
+                    <dt>Identifier</dt>
+                    <dd property="dcterms:identifier" xml:lang="" lang="">a2ebd5be-b9ca-11e8-bdaa-338eda30385e</dd>
+                    <dt>Published</dt>
+                    <dd><time content="2018-09-16T18:10:00.181Z" datatype="xsd:dateTime" datetime="2018-09-16T18:10:00.181Z" property="as:published">2018-09-16</time></dd>
+                    <dt>Creator</dt>
+                    <dd><a href="http://csarven.ca/#i" property="as:actor">http://csarven.ca/#i</a></dd>
+                    <dt>Structure</dt>
+                    <dd><a rel="qb:structure" href="#fair-metrics-data-structure-definition">FAIR Metrics</a></dd>
+                  </dl>
+                  <meta rel="rdfs:seeAlso" resource="#test-article-fm-f1a" />
+
+                  <table about="#fair-metrics-dataset-dokieli" id="fair-metrics-dataset-dokieli" typeof="qb:DataSet as:Object">
+                    <caption>FAIR Metrics results</caption>
+                    <thead>
+                      <tr>
+                        <th title="The test subject of an assertion"><a href="https://www.w3.org/TR/EARL10-Schema/#subject">Subject</a></th>
+                        <th title="The test criterion of an assertion"><a href="https://www.w3.org/TR/EARL10-Schema/#test">Test</a></th>
+                        <th title="The mode in which the test was performed"><a href="https://www.w3.org/TR/EARL10-Schema/#mode">Mode</a></th>
+                        <th title="The outcome of performing the test"><a href="https://www.w3.org/TR/EARL10-Schema/#outcome">Outcome</a></th>
+                        <th title="Additional warnings or error messages in a human-readable form"><a href="https://www.w3.org/TR/EARL10-Schema/#info">Info</a></th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      <tr about="#test-article-fm-f1a" typeof="qb:Observation earl:Assertion">
+                        <td><meta property="qb:dataSet" resource="#test-article" /><a property="earl:subject" href="https://dokie.li/docs#html-article">Article</a></td>
+                        <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_F1A">FM-F1A</a></td>
+                        <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
+                        <td property="earl:result" resource="#result-test-article-fm-f1a" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
+                        <td property="earl:result" resource="#result-test-article-fm-f1a" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">Checked inline - <em>sentence level</em> - identifiers</span></td>
+                      </tr>
+                    </tbody>
+
+                    <tfoot>
+                      <tr>
+                        <td colspan="5">
+                          <dl>
+                            <dt class="earl:passed"><abbr title="Passed">✔</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#passed">Passed</a></dd>
+                            <dt class="earl:failed"><abbr title="Failed">✗</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#failed">Failed</a></dd>
+                            <dt class="earl:cantTell"><abbr title="Cannot tell">?</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#cantTell">Cannot tell</a></dd>
+                            <dt class="earl:inapplicable"><abbr title="Inapplicable">⌙</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#inapplicable">Inapplicable</a></dd>
+                            <dt class="earl:untested"><abbr title="Untested">○</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#untested">Untested</a></dd>
+                          </dl>
+
+                          <dl class="abbr">
+                            <dt id="FM-F1A">F1A</dt><dd>Identifier Uniqueness [<a href="https://purl.org/fair-metrics/FM_F1A">source</a>]</dd>
+                            <dt id="FM-F1B">F1B</dt><dd>Identifier Persistence [<a href="https://purl.org/fair-metrics/FM_F1B">source</a>]</dd>
+                          </dl>
+                        </td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+              </section>
+            </div>
+          </section>
+
+
+          <section id="adoption-of-dokieli" inlist="" rel="schema:hasPart" resource="#adoption-of-dokieli">
+            <h2 property="schema:name">Adoption of dokieli</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p id="adoption-w3c-use">The W3C Working Group Note <cite><a href="https://www.w3.org/TR/annotation-html/" rel="cito:citesAsAuthority">Embedding Web Annotations in HTML</a></cite> includes examples from dokieli’s use of the Web Annotation data <cite><a href="https://www.w3.org/TR/annotation-model/" rel="cito:citesAsAuthority">Model</a></cite> and <cite><a href="https://www.w3.org/TR/annotation-vocab/" rel="cito:citesAsAuthority">Vocabulary</a></cite> with motivations for example for <q>Lightweight, decentralised Annotation Tools</q>. The W3C <cite><a href="https://www.w3.org/TR/ldn/" rel="cito:citesAsAuthority">Linked Data Notifications</a></cite> specification uses dokieli’s HTML+RDFa template, and the <a href="https://linkedresearch.org/ldn/" rel="cito:citesAsAuthority">Editor’s Draft</a> showcase dokieli as a consumer of LDN and Web Annotations. The LDN <a href="https://linkedresearch.org/ldn/tests/" rel="cito:citesAsAuthority">test suite</a> also uses dokieli’s templates and stylesheets.</p>
+
+              <p id="adoption-academic">The academic workshop <cite><a href="http://semstats.org/">SemStats</a></cite> series use dokieli in its Website templates, including the call for contributions. <cite><a href="http://ceur-ws.org/">CEUR-WS.org</a></cite>, an <q>Online Proceedings for Scientific Conferences and Workshops</q> offers the tooling <cite><a href="https://github.com/ceurws/ceur-make">ceur-make</a></cite> to help organisers generate proceedings using dokieli’s HTML+RDFa template, e.g., <cite><a href="http://ceur-ws.org/Vol-1654/">SemStats 2016</a></cite>. We list a community (of academics) who self-publish their articles and thesis using dokieli with different stylesheets and derived scripts under its <cite><a href="https://github.com/linkeddata/dokieli/wiki#examples-in-the-wild">examples in the wild</a></cite>. The conference series: WWW (e.g., <a href="http://events.linkeddata.org/ldow2018/">LDOW</a> and <a href="http://sociam.org/wow2017/">WOW</a> workshops), <a href="https://iswc2018.semanticweb.org/calls/html-submission-guide/">ISWC</a>, and <a href="http://2018.eswc-conferences.org/call-papers">ESWC</a> propose dokieli as one tooling in which authors can use to make their contributions to the calls with.</p>
+
+              <p id="adoption-misc">The <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> website uses dokieli in its templates on the site as well as workshop proposals and call for contributions. <a href="http://csarven.ca/">csarven.ca</a> uses dokieli in full, where some articles (like this article) offer pointers to a public annotation service in which users may wish to use for their annotations. Articles also dynamically embed annotations from personal storage spaces.</p>
+            </div>
+          </section>
+
+
+          <p class="todo">Is this useful? <cite><a data-versiondate="2018-09-02T19:37:42Z" data-versionurl="https://web.archive.org/web/20180902193742/https://arxiv.org/pdf/1202.4503v1.pdf" href="https://arxiv.org/pdf/1202.4503v1.pdf">A Critical Look at Decentralized Personal Data Architectures</a></cite> .. ?</p>
+
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
