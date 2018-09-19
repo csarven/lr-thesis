@@ -295,6 +295,17 @@
                 <li>sending notifications to the members of one's personal social graph</li>
                 <li>discovering annotations made by a particular social graph</li>
               </ul>
+
+              <p>A simple example of a social graph where someone knows someone that knows someone, is as follows:</p>
+
+              <figure class="listing">
+                <pre><code>&lt;https://www.w3.org/People/Berners-Lee/card#i&gt;</code>
+<code>  foaf:knows &lt;http://csarven.ca/#i&gt; .</code>
+<code></code>
+<code>&lt;http://csarven.ca/#i&gt;</code>
+<code>  foaf:knows &lt;https://bblfish.net/people/henry/card#me&gt; .</code></pre>
+                <figcaption>TimBL knows Sarven, and Sarven knows Henry</figcaption>
+              </figure>
             </div>
           </section>
 
