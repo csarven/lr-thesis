@@ -83,35 +83,6 @@ Consider moving this to LR chapter ()
             </div>
           </section>
 
-          <section id="scholarly-self" inlist="" rel="schema:hasPart" resource="#scholarly-self">
-            <h2 property="schema:name">Scholarly Self</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-<pre>
-* scholarly profiles under own control
-** The Presentation of Self Online (rhiaro)
-** vs third-party (ORCID, Mendeley..)
-** freedom from constraints eg. multiple profiles with arbitrary detail
-
-* Third-party services create ghost profiles for us any way..
-</pre>
-            </div>
-          </section>
-
-          <section id="notification" inlist="" rel="schema:hasPart" resource="#notification">
-            <h2 property="schema:name">Notification</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p>..</p>
-            </div>
-          </section>
-
-          <section id="annotation" inlist="" rel="schema:hasPart" resource="#annotation">
-            <h2 property="schema:name">Annotation</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p>Enabling 'social' scholarly comms through annotation stuff.</p>
-              <p>Comparison of annotation services/tools. These tools meet our 'social' like needs, but don't necessarily meet the LR principles.</p>
-            </div>
-          </section>
-
 
           <section id="role-of-institutions" inlist="" rel="schema:hasPart" resource="#role-of-institutions">
             <h2 property="schema:name">Role of Institutions</h2>
