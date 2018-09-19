@@ -352,8 +352,8 @@ Rough coverage:
             </div>
           </section>
 
-          <section id="structural-patterns-in-the-wild" inlist="" rel="schema:hasPart" resource="#structural-patterns-in-the-wild">
-            <h3 property="schema:name">Structural Patterns in the Wild</h3>
+          <section id="existing-markup-patterns" inlist="" rel="schema:hasPart" resource="#existing-markup-patterns">
+            <h3 property="schema:name">Existing Markup Patterns</h3>
             <div datatype="rdf:HTML" property="schema:description">
                 <p>There are plethora of approaches and developments to representing scholarly information with markup languages. Here we focus on a few and describe their characteristics.</p>
 
