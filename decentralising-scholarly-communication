@@ -287,6 +287,14 @@
               </figure>
 
               <p>The <code class="highlight-predicate-sameas">owl:sameAs</code> and <code>contact:preferredURI</code> information provides an opportunity for applications consuming the ORCID WebID to potentially discover more information about other entities. This is particularly useful as the ORCID WebID Profile is not completely open to add arbitrary information. For example, specifying a person's picture or their contacts is not currently possible with ORCID, however, if the alternative profiles (http://csarven.ca/#i) contain such information, they can be purposed to know more about the entity.</p>
+
+              <p id="social-graph"><strong>Social Graph</strong>: As part of identity extension and self-describing documents, an individual's connectivity to other entities can be stated. This is useful in that profiles of people, groups, organisations, and even software agents can manifest an information space that is at its core has social affordances. That is, different kinds of relationships between entities can be expressed for different use cases, eg:</p>
+
+              <ul>
+                <li>identifying a layer of generally trusted (or acknowledged) network of people</li>
+                <li>sending notifications to the members of one's personal social graph</li>
+                <li>discovering annotations made by a particular social graph</li>
+              </ul>
             </div>
           </section>
 

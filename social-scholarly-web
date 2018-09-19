@@ -157,18 +157,6 @@ Consider moving this to LR chapter ()
             </div>
           </section>
 
-
-          <section id="personal-social-graph" inlist="" rel="schema:hasPart" resource="#personal-social-graph">
-            <h2 property="schema:name">Personal Social Graph</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-<pre>
-* trusted network of people
-* can notify them, request review
-* can see annotations from one's social graph rather than randos
-</pre>
-            </div>
-          </section>
-
         </div>
       </article>
     </main>
