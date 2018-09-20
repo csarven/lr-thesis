@@ -740,104 +740,6 @@ WHERE {
                 </div>
               </section>
 
-              <section id="social-scholarly-web" inlist="" rel="schema:hasPart" resource="#social-scholarly-web">
-                <h3 property="schema:name">Social Scholarly Web</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>The scholarly ecosystem is inherently social. People collaborate and share.</p>
-
-                  <p>Communities of practice. Communities within and across institutions.. science is a global undertaking. Techniques for doing for science, the tools that are sued, the way works are assigned value or authority.. different things that are adopted in terms of technologies or methods, for publishing and dissemination of scientific work... Changes of how things are done shift over time in waves.. a slow process.. but sub-communities influence one another.</p>
-
-                  <p>There are both grassroots (bottom-up) changes in the publishing practice, as well as top-down, profit-driven and other third-party influences on the ecosystem.</p>
-
-                  <p>There is this ecosystem of many factors.. of pushing and pulling at each other.</p>
-                  <p>This is where we're going to describe/paint/lay out the ecosystem/landscape of scholarly comms, its relation to the Web, and in particular its relation to the social web.</p>
-
-                  <p>This "chapter" is going to talk about the cultural changes that LR is probing at.</p>
-                  <p>We're going to look at 'social' like tools that are somehow affecting or influencing scholarly comms in general (not necessarily decentralised ones). How is massive adoption of social media affecting academia? How are organisations taking advantage (or not) of this?</p>
-                  <p>(you're going to do a comparison of tools and stuff, like academia.edu, stuff like this would not exist if social media in general had not become popular. This is the answer to the question 'how is social media affecting scholarlycomms?')</p>
-                  <p>Why are we caring about this? -> We need to understand/reflect/observe/analyse the effects of the tools we use on the ecosystem and on science</p>
-
-                  <section id="social-media-and-academia" inlist="" rel="schema:hasPart" resource="#social-media-and-academia">
-                    <h4 property="schema:name">Social Media and Academia</h4>
-                    <div datatype="rdf:HTML" property="schema:description">
-<pre>
-** academics use social media to enhance scholarship - this is real/happening
-** should it be institution supported? do academics speak for themselves online?
-
-</pre>
-
-                      <p id="twitter"><cite><a href="https://twitter.com/">Twitter</a></cite>, ..</p>
-
-                      <p id="mastodon"><cite><a href="https://joinmastodon.org/">Mastodon</a></cite> is a decentralised social network based on open Web protocols and <a href="https://github.com/tootsuite/mastodon">free, open-source software</a>. Mastodon uses the ActivityPub protocol, hence the server is capable of communicating with other servers and clients based on ActivityPub - a federation universe (<a href="https://en.wikipedia.org/wiki/Fediverse"><abbr title="federation universe">fediverse</abbr></a>). Users of the system can exchange different kinds of social media (text, pictures, video) optionally with content warnings, different ways to organising and moderating content - without being subject to algorithmic content - as well as personal privacy settings. In contrast to centralised social networks, it is intended to shift the focus to individuals and different communities communicating under their own autonomy. In addition to individuals capable of running their own instances, there are search interfaces to help individuals find existing servers with a particular topic of interest or language, that are operated by independent organisations with different moderation policies. Besides its UI being available in the Web browser, there are plethora of native mobile and desktop client applications, other tooling to communicate with instances, as well as bridges from/to other non-AP based platforms.</p>
-
-                      <p id="scholar-social"><cite><a href="https://scholar.social/">Scholar Social</a></cite> is a Mastodon instance geared towards scientists, academics, librarians, and scholars with topical focus on scholarly communication. The site has a feature for a monthly journal club, in which its members can suggest a scholarly article of interest, read, and comment collectively. It also has an explicit code of conduct encouraging inclusivity and exercising academic freedom. While Scholar Social is just one particular community, it marks a milestone for academics discovering others in a multi-disciplinary field, as well as academic content in a social setting. At minimum, both fulfil the awareness function in scholarly communication. Hence, ActivityPub can be used by individuals as a single-user of a platform, as well as by communities - institution run or otherwise - which serve their own needs, while optionally being able to communicate with the rest of the federation.</p>
-                    </div>
-                  </section>
-
-
-                <section id="social-implications" inlist="" rel="schema:hasPart" resource="#social-implications">
-                  <h4 property="schema:name">Social Implications</h4>
-                  <div datatype="rdf:HTML" property="schema:description">
-<pre>
-* social consequences of open science
-** media pushed to the extreme (mcluhan) - global fight
-** https://github.com/linkeddata/dokieli/issues/152
-** social media running off with misleading headlines? #fakenews?
-*** https://shorensteincenter.org/information-disorder-framework-for-research-and-policymaking/
-** reputation / fact-checking
-
-"Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes." -- https://en.wikipedia.org/wiki/Goodhart%27s_law
-
-* open and transparent contributions
-** peer-review
-** bias and prejudice / positive behaviour and civil discourse
-
-* "Academic job offers that mentioned open science"
-** https://osf.io/7jbnt/
-</pre>
-
-
-                      <p>In <cite><a href="https://f1000research.com/articles/6-588/v2">What is open peer review? A systematic review</a></cite>, Ross-Hellauer summarises criticisms of traditional peer review: <q>unreliability and inconsistency, delay and expense, lack of accountability and risks of subversion, social and publication biases, lack of incentives, wastefulness</q></p>
-
-                      <p>To distinguish fakescience/predatory from legit/non-predatory Beyond "anyone can say anything about anything" eg. publish study preregistration to establish trust, share provenance, data, software/code.., open peer review (OPR) process (when/who/what), competing/conflict of interest, grant information</p>
-                    </div>
-                  </section>
-                </div> 
-              </section>
-
-              <section id="registration-of-identifiers-with-social-contracts" inlist="" rel="schema:hasPart" resource="#registration-of-identifiers-with-social-contracts">
-                <h3 property="schema:name">Registration of Identifiers with Social Contracts</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>Identifying units on the Web can be done with different kinds of social contracts. Here we discuss a few that pertain to registration:</p>
-
-                  <p id="purl"><cite><a href="https://purl.org/">Persistent Uniform Resource Locator</a></cite> (<abbr title="Persistent Uniform Resource locator">PURL</abbr>) is a way to provide an HTTP URL a permanent redirect to another HTTP URL. PURLs can be registered and managed by anyone. The PURL service is currently administered by the <cite><a href="https://archive.org/">Internet Archive</a></cite>.</p>
-
-                  <p id="w3id">Similar to PURLs, is the W3C <cite><a href="http://www.w3.org/community/perma-id/">Permanent Identifier Community Group</a></cite>'s resulting <cite><a href="https://w3id.org/">w3id.org</a></cite>, where a group of entities that pledge to ensure the operation of the community-drive service. w3id.org provides a permanent URL re-direction service, and it can be done by making a request to register and update a URI path. There are shared second-level paths eg. for people, that can be registered the same way. The service is flexible in that different server rules for redirections can be set. In the event that </p>
-
-                  <p id="doi"><cite><a href="https://doi.org/">Digital Object Identifier</a></cite> (<abbr title="Digital Object Identifier">DOI</abbr>) is an international standard for document identification, and the services that are offered through doi.org is managed by the International DOI Foundation (at the time of this writing). The foundation permits <a href="http://www.doi.org/registration_agencies.html">registration agencies</a> to manage DOI records. In order to have a resource assigned with a DOI, it has to be done through one of the DOI registration agencies. Given the statement in AWWW, <q><a href="https://www.w3.org/TR/webarch/#URI-persistence">URI persistence is a matter of policy and commitment on the part of the URI owner</a></q>, DOI introduces an additional layer of social contract to govern the discovery of scientific artefacts. A DOI is aimed at being a persistent identifier for an object it is assigned to, and has the mechanism to refer to the URL of an object where it can be found. That is, a DOI may refer to a landing page about the actual object and not necessarily the object itself; the latter happens to be a common practice in the scholarly information space. For literature that has restricted access, the resolved DOI is typically a webpage where an actor would need to go through the system's <q>paywall</q> or <q>access toll</q> in order to retrieve the content. For open literature, the resolved DOI would generally hyperlink to the actual scientific object in human-interpretable only fashion, or be part of a webpage accompanied by material unrelated to the scientific object itself, ie. information that the scientists neither assembled as part of their research nor intended for the consumer. If the actual URL of the object changes, the DOI's lookup table for the URL has to be updated. Otherwise, they'll point to dead links or unrelated information.</p>
-
-                  <p id="orcid"><cite><a href="https://orcid.org/">Open Researcher and Contributor ID</a></cite> (<abbr title="Open Researcher and Contributor ID">ORCID</abbr>) is a community-governed persistent identifier system for researchers and organisations. An ORCID identifier is specified as a URI. While anyone can create and update their ORCID profile, the identifier is ultimately owned and managed by the ORCID organisation and made available through <code>orcid.org</code>. Profiles are constrained to express to the UI's template and the kind of information ORCID is willing to store. For most intents and purpose, the free service offered by ORCID is sufficient for researchers, and provides a mechanism where researchers can aggregate information about their education, employment, funding, and works like academic publications and data. It also allows researchers to extend their profile descriptions, as well as linking to their alternative online profiles.</p>
-
-                  <p id="archives">In 1996, the <cite><a href="https://archive.org/">Internet Archive</a></cite> begun to archive the publicly accessible resources on the Internet, and provides free public access to its digital library. The <cite><a href="https://web.archive.org/">Wayback Machine</a></cite> is a service that allows users to search and access archived Web documents in particular. The Wayback Machine can be used to navigate through different versions of URLs based on the date-time in which they were accessed and stored. For example, all of the <a href="https://web.archive.org/web/*/http://csarven.ca/">captures of csarven.ca</a> as well as the other articles of the site are available, along with a <a href="https://web.archive.org/details/http://csarven.ca/">summary</a>. Any Web-wide publicly usable archival services, <a href="http://archive.is/">archive.is</a>, <a href="http://webcitation.org/">WebCite</a>, <a href="https://perma.cc/">Perma.cc</a>, <a href="https://webrecorder.io/">Webrecorder</a>; to dedicated digital preservation organisations eg. <a href="https://www.portico.org/">Portico</a>; libraries eg. <a href="https://www.lockss.org/" title="Lots Of Copies Keep Stuff Safe">LOCKSS</a>; global archives preserving content on behalf of all libraries eg. <a href="https://clockss.org/" title="Controlled LOCKSS">CLOCKSS</a>; subscription based service for all kinds of libraries, federal institutions, state archives, NGOs eg. <a href="https://archive-it.org/">Archive-It</a>; state or federal archives eg. <a href="https://www.bar.admin.ch/">Swiss Federal Archives</a>, <a href="https://www.bac-lac.gc.ca/">Library and Archives Canada</a>; institutional-run digital archives eg. <a href="https://www.tib.eu/" title="Leibniz Information Centre for Science and Technology University Library">TIB</a>, <a href="https://zenodo.org/">Zenodo</a>, can all be considered as different forms of social contracts, or <em>promises</em> made for long-term societal benefit. As a baseline, they can be considered to fulfil the registration and awareness functions.</p>
-
-
-                  <p id="persistent-identifier">A <cite>Persistent Identifier</cite> <abbr title="Persistent IDentifier">PID</abbr>) is <q cite="http://www.ijdc.net/article/download/9.1.331/362/">a string that complies with a well-defined syntax, minted in a namespace controlled by a naming authority</q>. PURL, w3id, ORCID, and DOI as described above are PIDs. PIDs are intended to be used as a long-lasting reference to a unit of information. For example, a DOI-based PID can be <samp>10.2218/ijdc.v9i1.320</samp>, and the organisation - in this case the International DOI Foundation - would be responsible to unambiguously map it to an accessible resource. Typically the process starts from a DOI URI <samp>https://doi.org/10.2218/ijdc.v9i1.320</samp> which (currently) resolves to <samp>http://www.ijdc.net/article/view/9.1.331</samp>. Other examples of PIDs include: URN, ISBN.</p>
-                </div>
-              </section>
-
-
-              <section id="the-status-quo" inlist="" rel="schema:hasPart" resource="#the-status-quo">
-                <h3 property="schema:name">The Status Quo</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-<pre>
-* publishers - social acceptability of $$$$$ for access. Why are we okay with this?
-** conference registration fees sending to publishers -> closed access is acceptable? poor quality/formats ok?
-* incentives, rewards, acknowledgement (altmetrics)
-
-Consider moving this to LR chapter ()
-</pre>
-                </div>
-              </section>
 
               <section id="dissatisfaction-in-communication" inlist="" rel="schema:hasPart" resource="#dissatistfaction-in-research-communication">
                 <h3 property="schema:name">Dissatisfaction in Communication</h3>
@@ -863,24 +765,130 @@ and how.</pre>
                     <footer>PMR slideshare slide 44</footer>
                   </blockquote>
 
-                  <p>Cost</p>
-                  <p>Profit margins..</p>
-                  <p>Knowledge Neocolonialism/Capitalism: https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science</p>
-                  <p>Elite</p>
 
-                  <p>Access: paywall/toll, restrictions to do research eg. http://onsnetwork.org/chartgerink/2015/11/16/elsevier-stopped-me-doing-my-research/ http://onsnetwork.org/chartgerink/2016/02/23/wiley-also-stopped-my-doing-my-research/</p>
 
                   <p>Formats: not great for content mining</p>
 
                   <p>Coupling of Functions</p>
                   <p>coupling of publication impact to an incentive system</p>
 
-                  <p>Rare disease families not having access..</p>
-                  <p>global south..</p>
+
+                  <section id="cost-of-knowledge" inlist="" rel="schema:hasPart" resource="#cost-of-knowledge">
+                    <h4 property="schema:name">Cost of Knowledge</h4>
+                    <div datatype="rdf:HTML" property="schema:description">
+                      <p>Cost</p>
+                      <p>Profit margins..</p>
+                      <p>Knowledge Neocolonialism/Capitalism: https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science</p>
+                      <p>Elite</p>
+
+                      <p>Access: paywall/toll, restrictions to do research eg. http://onsnetwork.org/chartgerink/2015/11/16/elsevier-stopped-me-doing-my-research/ http://onsnetwork.org/chartgerink/2016/02/23/wiley-also-stopped-my-doing-my-research/</p>
+
+                      <p>Rare disease families not having access..</p>
+                      <p>global south..</p>
+                    </div>
+                  </section>
+
+                  <section id="the-status-quo" inlist="" rel="schema:hasPart" resource="#the-status-quo">
+                    <h4 property="schema:name">The Status Quo</h4>
+                    <div datatype="rdf:HTML" property="schema:description">
+<pre>
+* publishers - social acceptability of $$$$$ for access. Why are we okay with this?
+** conference registration fees sending to publishers -> closed access is acceptable? poor quality/formats ok?
+* incentives, rewards, acknowledgement (altmetrics)
+
+Consider moving this to LR chapter ()
+</pre>
+                    </div>
+                  </section>
                 </div>
               </section>
             </div>
           </section>
+
+          <section id="social-scholarly-web" inlist="" rel="schema:hasPart" resource="#social-scholarly-web">
+            <h2 property="schema:name">Social Scholarly Web</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>The scholarly ecosystem is inherently social. People collaborate and share.</p>
+
+              <p>Communities of practice. Communities within and across institutions.. science is a global undertaking. Techniques for doing for science, the tools that are sued, the way works are assigned value or authority.. different things that are adopted in terms of technologies or methods, for publishing and dissemination of scientific work... Changes of how things are done shift over time in waves.. a slow process.. but sub-communities influence one another.</p>
+
+              <p>There are both grassroots (bottom-up) changes in the publishing practice, as well as top-down, profit-driven and other third-party influences on the ecosystem.</p>
+
+              <p>There is this ecosystem of many factors.. of pushing and pulling at each other.</p>
+              <p>This is where we're going to describe/paint/lay out the ecosystem/landscape of scholarly comms, its relation to the Web, and in particular its relation to the social web.</p>
+
+              <p>This "chapter" is going to talk about the cultural changes that LR is probing at.</p>
+              <p>We're going to look at 'social' like tools that are somehow affecting or influencing scholarly comms in general (not necessarily decentralised ones). How is massive adoption of social media affecting academia? How are organisations taking advantage (or not) of this?</p>
+              <p>(you're going to do a comparison of tools and stuff, like academia.edu, stuff like this would not exist if social media in general had not become popular. This is the answer to the question 'how is social media affecting scholarlycomms?')</p>
+              <p>Why are we caring about this? -> We need to understand/reflect/observe/analyse the effects of the tools we use on the ecosystem and on science</p>
+
+              <section id="social-media-and-academia" inlist="" rel="schema:hasPart" resource="#social-media-and-academia">
+                <h3 property="schema:name">Social Media and Academia</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+<pre>
+** academics use social media to enhance scholarship - this is real/happening
+** should it be institution supported? do academics speak for themselves online?
+
+</pre>
+
+                  <p id="twitter"><cite><a href="https://twitter.com/">Twitter</a></cite>, ..</p>
+
+                  <p id="mastodon"><cite><a href="https://joinmastodon.org/">Mastodon</a></cite> is a decentralised social network based on open Web protocols and <a href="https://github.com/tootsuite/mastodon">free, open-source software</a>. Mastodon uses the ActivityPub protocol, hence the server is capable of communicating with other servers and clients based on ActivityPub - a federation universe (<a href="https://en.wikipedia.org/wiki/Fediverse"><abbr title="federation universe">fediverse</abbr></a>). Users of the system can exchange different kinds of social media (text, pictures, video) optionally with content warnings, different ways to organising and moderating content - without being subject to algorithmic content - as well as personal privacy settings. In contrast to centralised social networks, it is intended to shift the focus to individuals and different communities communicating under their own autonomy. In addition to individuals capable of running their own instances, there are search interfaces to help individuals find existing servers with a particular topic of interest or language, that are operated by independent organisations with different moderation policies. Besides its UI being available in the Web browser, there are plethora of native mobile and desktop client applications, other tooling to communicate with instances, as well as bridges from/to other non-AP based platforms.</p>
+
+                  <p id="scholar-social"><cite><a href="https://scholar.social/">Scholar Social</a></cite> is a Mastodon instance geared towards scientists, academics, librarians, and scholars with topical focus on scholarly communication. The site has a feature for a monthly journal club, in which its members can suggest a scholarly article of interest, read, and comment collectively. It also has an explicit code of conduct encouraging inclusivity and exercising academic freedom. While Scholar Social is just one particular community, it marks a milestone for academics discovering others in a multi-disciplinary field, as well as academic content in a social setting. At minimum, both fulfil the awareness function in scholarly communication. Hence, ActivityPub can be used by individuals as a single-user of a platform, as well as by communities - institution run or otherwise - which serve their own needs, while optionally being able to communicate with the rest of the federation.</p>
+                </div>
+              </section>
+
+
+              <section id="social-implications" inlist="" rel="schema:hasPart" resource="#social-implications">
+                <h3 property="schema:name">Social Implications</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+<pre>
+* social consequences of open science
+** media pushed to the extreme (mcluhan) - global fight
+** https://github.com/linkeddata/dokieli/issues/152
+** social media running off with misleading headlines? #fakenews?
+*** https://shorensteincenter.org/information-disorder-framework-for-research-and-policymaking/
+** reputation / fact-checking
+
+"Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes." -- https://en.wikipedia.org/wiki/Goodhart%27s_law
+
+* open and transparent contributions
+** peer-review
+** bias and prejudice / positive behaviour and civil discourse
+
+* "Academic job offers that mentioned open science"
+** https://osf.io/7jbnt/
+</pre>
+
+
+                  <p>In <cite><a href="https://f1000research.com/articles/6-588/v2">What is open peer review? A systematic review</a></cite>, Ross-Hellauer summarises criticisms of traditional peer review: <q>unreliability and inconsistency, delay and expense, lack of accountability and risks of subversion, social and publication biases, lack of incentives, wastefulness</q></p>
+
+                  <p>To distinguish fakescience/predatory from legit/non-predatory Beyond "anyone can say anything about anything" eg. publish study preregistration to establish trust, share provenance, data, software/code.., open peer review (OPR) process (when/who/what), competing/conflict of interest, grant information</p>
+                </div>
+              </section>
+
+              <section id="registration-of-identifiers" inlist="" rel="schema:hasPart" resource="#registration-of-identifiers">
+                <h3 property="schema:name">Registration of Identifiers</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>Identifying units on the (scholarly) Web can be done with different kinds of social agreements and expectations. Here we discuss a few that pertain to registration of identifiers:</p>
+
+                  <p id="purl"><cite><a href="https://purl.org/">Persistent Uniform Resource Locator</a></cite> (<abbr title="Persistent Uniform Resource locator">PURL</abbr>) is a way to provide an HTTP URL a permanent redirect to another HTTP URL. PURLs can be registered and managed by anyone. The PURL service is currently administered by the <cite><a href="https://archive.org/">Internet Archive</a></cite>.</p>
+
+                  <p id="w3id">Similar to PURLs, is the W3C <cite><a href="http://www.w3.org/community/perma-id/">Permanent Identifier Community Group</a></cite>'s resulting <cite><a href="https://w3id.org/">w3id.org</a></cite>, where a group of entities that pledge to ensure the operation of the community-drive service. w3id.org provides a permanent URL re-direction service, and it can be done by making a request to register and update a URI path. There are shared second-level paths eg. for people, that can be registered the same way. The service is flexible in that different server rules for redirections can be set. In the event that </p>
+
+                  <p id="doi"><cite><a href="https://doi.org/">Digital Object Identifier</a></cite> (<abbr title="Digital Object Identifier">DOI</abbr>) is an international standard for document identification, and the services that are offered through doi.org is managed by the International DOI Foundation (at the time of this writing). The foundation permits <a href="http://www.doi.org/registration_agencies.html">registration agencies</a> to manage DOI records. In order to have a resource assigned with a DOI, it has to be done through one of the DOI registration agencies. Given the statement in AWWW, <q><a href="https://www.w3.org/TR/webarch/#URI-persistence">URI persistence is a matter of policy and commitment on the part of the URI owner</a></q>, DOI introduces an additional layer of social contract to govern the discovery of scientific artefacts. A DOI is aimed at being a persistent identifier for an object it is assigned to, and has the mechanism to refer to the URL of an object where it can be found. That is, a DOI may refer to a landing page about the actual object and not necessarily the object itself; the latter happens to be a common practice in the scholarly information space. For literature that has restricted access, the resolved DOI is typically a webpage where an actor would need to go through the system's <q>paywall</q> or <q>access toll</q> in order to retrieve the content. For open literature, the resolved DOI would generally hyperlink to the actual scientific object in human-interpretable only fashion, or be part of a webpage accompanied by material unrelated to the scientific object itself, ie. information that the scientists neither assembled as part of their research nor intended for the consumer. If the actual URL of the object changes, the DOI's lookup table for the URL has to be updated. Otherwise, they'll point to dead links or unrelated information.</p>
+
+                  <p id="orcid"><cite><a href="https://orcid.org/">Open Researcher and Contributor ID</a></cite> (<abbr title="Open Researcher and Contributor ID">ORCID</abbr>) is a community-governed persistent identifier system for researchers and organisations. An ORCID identifier is specified as a URI. While anyone can create and update their ORCID profile, the identifier is ultimately owned and managed by the ORCID organisation and made available through <code>orcid.org</code>. Profiles are constrained to express to the UI's template and the kind of information ORCID is willing to store. For most intents and purpose, the free service offered by ORCID is sufficient for researchers, and provides a mechanism where researchers can aggregate information about their education, employment, funding, and works like academic publications and data. It also allows researchers to extend their profile descriptions, as well as linking to their alternative online profiles.</p>
+
+                  <p id="archives">In 1996, the <cite><a href="https://archive.org/">Internet Archive</a></cite> begun to archive the publicly accessible resources on the Internet, and provides free public access to its digital library. The <cite><a href="https://web.archive.org/">Wayback Machine</a></cite> is a service that allows users to search and access archived Web documents in particular. The Wayback Machine can be used to navigate through different versions of URLs based on the date-time in which they were accessed and stored. For example, all of the <a href="https://web.archive.org/web/*/http://csarven.ca/">captures of csarven.ca</a> as well as the other articles of the site are available, along with a <a href="https://web.archive.org/details/http://csarven.ca/">summary</a>. Any Web-wide publicly usable archival services, <a href="http://archive.is/">archive.is</a>, <a href="http://webcitation.org/">WebCite</a>, <a href="https://perma.cc/">Perma.cc</a>, <a href="https://webrecorder.io/">Webrecorder</a>; to dedicated digital preservation organisations eg. <a href="https://www.portico.org/">Portico</a>; libraries eg. <a href="https://www.lockss.org/" title="Lots Of Copies Keep Stuff Safe">LOCKSS</a>; global archives preserving content on behalf of all libraries eg. <a href="https://clockss.org/" title="Controlled LOCKSS">CLOCKSS</a>; subscription based service for all kinds of libraries, federal institutions, state archives, NGOs eg. <a href="https://archive-it.org/">Archive-It</a>; state or federal archives eg. <a href="https://www.bar.admin.ch/">Swiss Federal Archives</a>, <a href="https://www.bac-lac.gc.ca/">Library and Archives Canada</a>; institutional-run digital archives eg. <a href="https://www.tib.eu/" title="Leibniz Information Centre for Science and Technology University Library">TIB</a>, <a href="https://zenodo.org/">Zenodo</a>, can all be considered as different forms of social contracts, or <em>promises</em> made for long-term societal benefit. As a baseline, they can be considered to fulfil the registration and awareness functions.</p>
+
+                  <p id="persistent-identifier">A <cite>Persistent Identifier</cite> <abbr title="Persistent IDentifier">PID</abbr>) is <q cite="http://www.ijdc.net/article/download/9.1.331/362/">a string that complies with a well-defined syntax, minted in a namespace controlled by a naming authority</q>. PURL, w3id, ORCID, and DOI as described above are PIDs. PIDs are intended to be used as a long-lasting reference to a unit of information. For example, a DOI-based PID can be <samp>10.2218/ijdc.v9i1.320</samp>, and the organisation - in this case the International DOI Foundation - would be responsible to unambiguously map it to an accessible resource. Typically the process starts from a DOI URI <samp>https://doi.org/10.2218/ijdc.v9i1.320</samp> which (currently) resolves to <samp>http://www.ijdc.net/article/view/9.1.331</samp>. Other examples of PIDs include: URN, ISBN.</p>
+                </div>
+              </section>
+            </div>
+          </section>
+
 
 
           <section id="forces-and-functions" inlist="" rel="schema:hasPart" resource="#forces-and-functions">
