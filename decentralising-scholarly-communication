@@ -427,7 +427,7 @@
                 <figcaption>An authorisation policy that gives append access to a class of agents for a resource.</figcaption>
               </figure>
 
-              <p>ACL plays a role in determining which authorization policies to apply when a researcher requests to access a resource.</p>
+              <p>ACL plays a role in determining which authorization policies to apply when a resource is requested eg. raw sensitive data, private social graph, initial versions of an article.</p>
             </div>
           </section>
 
