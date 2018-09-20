@@ -740,6 +740,71 @@ WHERE {
                 </div>
               </section>
 
+              <section id="social-scholarly-web" inlist="" rel="schema:hasPart" resource="#social-scholarly-web">
+                <h3 property="schema:name">Social Scholarly Web</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>The scholarly ecosystem is inherently social. People collaborate and share.</p>
+
+                  <p>Communities of practice. Communities within and across institutions.. science is a global undertaking. Techniques for doing for science, the tools that are sued, the way works are assigned value or authority.. different things that are adopted in terms of technologies or methods, for publishing and dissemination of scientific work... Changes of how things are done shift over time in waves.. a slow process.. but sub-communities influence one another.</p>
+
+                  <p>There are both grassroots (bottom-up) changes in the publishing practice, as well as top-down, profit-driven and other third-party influences on the ecosystem.</p>
+
+                  <p>There is this ecosystem of many factors.. of pushing and pulling at each other.</p>
+                  <p>This is where we're going to describe/paint/lay out the ecosystem/landscape of scholarly comms, its relation to the Web, and in particular its relation to the social web.</p>
+
+                  <p>This "chapter" is going to talk about the cultural changes that LR is probing at.</p>
+                  <p>We're going to look at 'social' like tools that are somehow affecting or influencing scholarly comms in general (not necessarily decentralised ones). How is massive adoption of social media affecting academia? How are organisations taking advantage (or not) of this?</p>
+                  <p>(you're going to do a comparison of tools and stuff, like academia.edu, stuff like this would not exist if social media in general had not become popular. This is the answer to the question 'how is social media affecting scholarlycomms?')</p>
+                  <p>Why are we caring about this? -> We need to understand/reflect/observe/analyse the effects of the tools we use on the ecosystem and on science</p>
+
+                  <section id="social-media-and-academia" inlist="" rel="schema:hasPart" resource="#social-media-and-academia">
+                    <h4 property="schema:name">Social Media and Academia</h4>
+                    <div datatype="rdf:HTML" property="schema:description">
+<pre>
+** academics use social media to enhance scholarship - this is real/happening
+** should it be institution supported? do academics speak for themselves online?
+
+</pre>
+
+                      <p id="twitter"><cite><a href="https://twitter.com/">Twitter</a></cite>, ..</p>
+
+                      <p id="mastodon"><cite><a href="https://joinmastodon.org/">Mastodon</a></cite> is a decentralised social network based on open Web protocols and <a href="https://github.com/tootsuite/mastodon">free, open-source software</a>. Mastodon uses the ActivityPub protocol, hence the server is capable of communicating with other servers and clients based on ActivityPub - a federation universe (<a href="https://en.wikipedia.org/wiki/Fediverse"><abbr title="federation universe">fediverse</abbr></a>). Users of the system can exchange different kinds of social media (text, pictures, video) optionally with content warnings, different ways to organising and moderating content - without being subject to algorithmic content - as well as personal privacy settings. In contrast to centralised social networks, it is intended to shift the focus to individuals and different communities communicating under their own autonomy. In addition to individuals capable of running their own instances, there are search interfaces to help individuals find existing servers with a particular topic of interest or language, that are operated by independent organisations with different moderation policies. Besides its UI being available in the Web browser, there are plethora of native mobile and desktop client applications, other tooling to communicate with instances, as well as bridges from/to other non-AP based platforms.</p>
+
+                      <p id="scholar-social"><cite><a href="https://scholar.social/">Scholar Social</a></cite> is a Mastodon instance geared towards scientists, academics, librarians, and scholars with topical focus on scholarly communication. The site has a feature for a monthly journal club, in which its members can suggest a scholarly article of interest, read, and comment collectively. It also has an explicit code of conduct encouraging inclusivity and exercising academic freedom. While Scholar Social is just one particular community, it marks a milestone for academics discovering others in a multi-disciplinary field, as well as academic content in a social setting. At minimum, both fulfil the awareness function in scholarly communication. Hence, ActivityPub can be used by individuals as a single-user of a platform, as well as by communities - institution run or otherwise - which serve their own needs, while optionally being able to communicate with the rest of the federation.</p>
+                    </div>
+                  </section>
+
+
+                <section id="social-implications" inlist="" rel="schema:hasPart" resource="#social-implications">
+                  <h4 property="schema:name">Social Implications</h4>
+                  <div datatype="rdf:HTML" property="schema:description">
+<pre>
+* social consequences of open science
+** media pushed to the extreme (mcluhan) - global fight
+** https://github.com/linkeddata/dokieli/issues/152
+** social media running off with misleading headlines? #fakenews?
+*** https://shorensteincenter.org/information-disorder-framework-for-research-and-policymaking/
+** reputation / fact-checking
+
+"Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes." -- https://en.wikipedia.org/wiki/Goodhart%27s_law
+
+* open and transparent contributions
+** peer-review
+** bias and prejudice / positive behaviour and civil discourse
+
+* "Academic job offers that mentioned open science"
+** https://osf.io/7jbnt/
+</pre>
+
+
+                      <p>In <cite><a href="https://f1000research.com/articles/6-588/v2">What is open peer review? A systematic review</a></cite>, Ross-Hellauer summarises criticisms of traditional peer review: <q>unreliability and inconsistency, delay and expense, lack of accountability and risks of subversion, social and publication biases, lack of incentives, wastefulness</q></p>
+
+                      <p>To distinguish fakescience/predatory from legit/non-predatory Beyond "anyone can say anything about anything" eg. publish study preregistration to establish trust, share provenance, data, software/code.., open peer review (OPR) process (when/who/what), competing/conflict of interest, grant information</p>
+                    </div>
+                  </section>
+                </div>     
+              </section>
+
               <section id="registration-of-identifiers-with-social-contracts" inlist="" rel="schema:hasPart" resource="#registration-of-identifiers-with-social-contracts">
                 <h3 property="schema:name">Registration of Identifiers with Social Contracts</h3>
                 <div datatype="rdf:HTML" property="schema:description">
@@ -760,6 +825,19 @@ WHERE {
                 </div>
               </section>
 
+
+              <section id="the-status-quo" inlist="" rel="schema:hasPart" resource="#the-status-quo">
+                <h3 property="schema:name">The Status Quo</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+<pre>
+* publishers - social acceptability of $$$$$ for access. Why are we okay with this?
+** conference registration fees sending to publishers -> closed access is acceptable? poor quality/formats ok?
+* incentives, rewards, acknowledgement (altmetrics)
+
+Consider moving this to LR chapter ()
+</pre>
+                </div>
+              </section>
 
               <section id="dissatisfaction-in-communication" inlist="" rel="schema:hasPart" resource="#dissatistfaction-in-research-communication">
                 <h3 property="schema:name">Dissatisfaction in Communication</h3>

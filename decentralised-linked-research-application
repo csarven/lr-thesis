@@ -447,7 +447,7 @@ XXX:
                   <section id="html-notification" inlist="" rel="schema:hasPart" resource="#html-notification">
                     <h4 property="schema:name">Notification</h4>
                     <div property="schema:description">
-                      <p>Notifications are discovered from <cite><a href="https://www.w3.org/TR/ldn/">LDN</a></cite> Inboxes - discussed further in <cite><a href="social-scholarly-web">Social Scholarly Web</a></cite> - which are normally linked from articles (or a fragment within).</p>
+                      <p>Notifications are discovered from <cite><a href="https://www.w3.org/TR/ldn/">LDN</a></cite> Inboxes - as discussed in <a href="linked-data-notifications">Linked Data Notifications</a> - which are normally linked from articles (or a fragment within).</p>
 
                       <p class="todo">talk about bidirectionality.. and what that enables</p>
 

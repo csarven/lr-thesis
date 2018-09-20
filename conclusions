@@ -37,6 +37,31 @@
                 </div>
               </section>
 
+
+          <section id="role-of-institutions" inlist="" rel="schema:hasPart" resource="#role-of-institutions">
+            <h3 property="schema:name">Role of Institutions</h3>
+            <div datatype="rdf:HTML" property="schema:description">
+              <blockquote>
+                <p>The task that remains is one of the redesigning social institutions so that they are consonant with the revealed potentials of resource availability and technological efficiency.</p>
+                <footer><cite>Information, Resource Use, and Economic Growth</cite>, Ann Arbor Conference on Natural Resources and Economic Growth, 1959, Richard Meier</footer>
+              </blockquote>
+
+<pre>
+* what roles could libraries/institutions play? eg notify about article/review
+* institutional repositories like eprints then they buy PURE from Springer.
+* ldprints
+</pre>
+            </div>
+          </section>
+
+              <!-- failure to adopt/cultivate? -->
+
+              <p>The effects of big conferences demanding old practices. We're not developing or advancing our own technologies. They're stunting growth. Do you want to grow your team with latex experience or web publishing experience? Are you perpetuating bad practice through supervisor->student requirements? Not sharpening our native web skills. Hindering us from shaping the space to OUR needs.</p>
+
+              <p>As to what constitutes a "publisher" is left at the discretion of different scholarly communities. -- </p>
+
+<p>** What are the design decisions?</p>
+
         </div>
       </article>
     </main>
