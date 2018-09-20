@@ -245,7 +245,7 @@ Rough coverage:
                     </dd>
 
                     <dt id="afforfance">Affordance</dt>
-                    <dd class="todo">Extend the idea of affordance/interface... (mentioned in web architecture: interaction).. how does HTML+RDFa help with that.. structure enables interaction .... with JS it is runtime/dynamic transclusion</dd>
+                    <dd>Hypertext has perceivable affordances in that both humans and machines can choose to act. For example, when a Web document is presented with a hyperlink, its users has the option to follow the link, if they so desire, by pressing a key on their keyboard, clicking on it with their mouse, with voice activation etc. If the user is already familiar with the link (for example, if the link is typically in purple) or uninterested, they can skip. The interaction with the hypertext is in essence non-linear, ie. we can follow the links as far as we are able to, or interested, and then come back to where we started. Similarly, machines, like Web-crawlers are able to perform exactly the same process. Moreover, hyperlinks marked up with specific relations to their target reference can signal information that can effectively trigger unique interactions. In that respect, RDFa in HTML+RDFa for instance can help enrich and enable the structure for different interaction possibilities, for example though runtime JavaScript or the Web browser's built-in understanding of the underlying actions. With respect to scholarly referencing, hypertext can not only reference other resources - as typical to print-based expressions - but it can also link.</dd>
 
                     <dt id="units-with-unique-identifiers">Units with unique identifiers</dt>
                     <dd>
