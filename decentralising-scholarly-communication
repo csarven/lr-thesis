@@ -296,7 +296,7 @@
                 <li>discovering annotations made by a particular social graph</li>
               </ul>
 
-              <p>An example of a social graph where someone knows someone that knows someone, is as follows:</p>
+              <p>Both the entities (nodes) and the relations (edges) of a social graph may have public and private parts. An example of a social graph where someone knows someone that knows someone, is as follows:</p>
 
               <figure class="listing">
                 <pre><code>&lt;https://www.w3.org/People/Berners-Lee/card#i&gt;</code>
