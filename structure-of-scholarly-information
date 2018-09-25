@@ -110,23 +110,7 @@
             <div datatype="rdf:HTML" property="schema:description">
               <p>Given that global strategic research is influenced by policies and industry, we acknowledge that different <em>information spaces</em> can be created by an ensemble of units of information. Such information spaces would serve to facilitate knowledge exchange in the scientific communication market. In this section, we use investigate existing approaches towards configuring different aspects of Web-centric information spaces.</p>
 
-              <p>The structure of a scholarly journal article has been mostly conserved during the evolution of scientific communication. Articles include a sequence of sections, usually an abstract; introduction and background relevant to earlier work; methods used to justify experiments; research results; discussion and conclusions; and list of references.</p>
-
-              <blockquote cite="urn:isbn:0123876729">
-                <p>The journal article has four chief functions:</p>
-                <ul>
-                  <li>The dissemination of information</li>
-                  <li>The archiving, or permanent preservation, of the information</li>
-                  <li>The assignment of priority in the information</li>
-                  <li>Quality control</li>
-                </ul>
-                <footer><cite><a href="http://www.worldcat.org/oclc/773482913">Encyclopedia of International Media and Communications</a></cite>, Scholarly Journals, Vol. 2, p. 690, 2003</footer>
-              </blockquote>
-
-<p class="todo" title="690">"The original purpose of the journal, back during the 1660s, was indeed to facilitate the faster communication of information to far-flung members of the societies".</p>
-
-              <p>Scholarly knowledge includes a range of research artefacts that needs to be described. These include research articles, peer reviews, research data, social interactions like review requests and notifications in general, as well as different kinds of annotations on research objects. The current state of access and use of scholarly knowledge is insufficient for society at large. By enabling accessible scholarly knowledge graphs as well as applications which make use of it, we hope to enable universal access to previous research. By improving the availability through linked research, we can facilitate discovery and building on existing research. A fundamental first step is to investigate and develop effective ways to represent fine-grained information that is accessible, human and machine-interpretable, and interconnected.</p>
-
+              <p>Scholarly knowledge a whole however includes a range of research artefacts that needs to be described, uniquely identifiable and be discoverable on the Web. These include research articles, peer reviews, research data, social interactions like review requests and notifications in general, as well as different kinds of annotations on research objects. The current state of access and use of scholarly knowledge is insufficient for society at large. By enabling accessible scholarly knowledge graphs as well as applications which make use of it, we hope to enable universal access to previous research. By improving the availability through linked research, we can facilitate discovery and building on existing research. A fundamental first step is to investigate and develop effective ways to represent fine-grained information that is accessible, human and machine-interpretable, and interconnected.</p>
 
               <p>Figure X depicts a typical high-level interplay between the <em>actors</em> and the <em>content</em> forces, and their functions (registration, awareness, certification, archive) in scholarly communication. Given that the <em>accessibility</em> and <em>applicability</em> are external forces, we assume that they are already integrated in this information space.</p>
 
@@ -171,6 +155,8 @@ Rough coverage:
           <section id="structure-and-semantics" inlist="" rel="schema:hasPart" resource="#structure-and-semantics">
             <h2 property="schema:name">Structure and Semantics</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p>The structure of a scholarly journal article has been mostly conserved during the evolution of scientific communication. Articles include a sequence of sections, usually an abstract; introduction and background relevant to earlier work; methods used to justify experiments; research results; discussion and conclusions; and list of references.</p>
+
               <p>Researchers exchange units of communication like scientific literature, annotation, datasets, workflows, argumentation, provenance, citation, and software. Knowledge may be represented or presented dynamically, or as a compilation of various independent units (compound). Semantic structure may be embedded in narrative or prose-based scholarly communication as well as used to enhance non-narrative units like experimental results or datasets. Narrative and non-narrative units may in turn include or refer to each other.</p>
 
               <p>This section covers semantic structure of the narrative aspects scholarly communication in particular. This can enhance <em>both</em> human- and machine-readability of information. Note also that we are interested here in structured representations of units irrespective of how they are produced.</p>

@@ -952,6 +952,18 @@ notes.fragile-science.txt
 
               <p>The registration and archiving are objective functions in that they are external to the research process, and considered to be indispensable in that information exchange cannot take place if there are no usable identifiers for the units of communication or if no knowledge preservation measures are put in place. Certification and awareness are subjective communication functions - internal to the research process. Registration and awareness are different aspects of <em>scientific observations</em>, ie. facilitating findable information. Certification and archiving are aspects of <em>scientific judgement</em>, ie. act as a filtering mechanism in the information space.</p>
 
+              <p>In today's scholarly publishing, the journal article is considered to have four chief functions:</p>
+
+              <blockquote cite="urn:isbn:0123876729">
+                <ul>
+                  <li>The dissemination of information</li>
+                  <li>The archiving, or permanent preservation, of the information</li>
+                  <li>The assignment of priority in the information</li>
+                  <li>Quality control</li>
+                </ul>
+                <footer><cite><a href="http://www.worldcat.org/oclc/773482913">Encyclopedia of International Media and Communications</a></cite>, Scholarly Journals, Vol. 2, p. 690, 2003</footer>
+              </blockquote>
+
               <p><cite><a href="http://www.dlib.org/dlib/september04/vandesompel/09vandesompel.html">Rethinking Scholarly Communication</a></cite> (2004) proposes to revise the notion of a unit of scholarly communication in two ways. In a technological sense, it suggests to recognise the compound and dynamic nature of units that work on the Web, eg. content can be the result of a combination of other registered items, make data available through interactions or depend on acquiring externally registered items. Van de Sompel et al. state that in order to empower scholarly communities from a systems perspective, there should be more flexibility on what constitutes a unit of scholarly communication in order to allow registration, as well as factoring timing and the quality of what is to be registered. The authors also acknowledge the presence of an additional function in the market which reflects the academic credit and policy in the current system. A derived function, <q>rewarding</q> of actors <q>for their performance in the communication system based on metrics derived from that system</q>. For rewarding to take place, the information space needs to provide the ability to extract meaningful metrics.</p>
 
 
