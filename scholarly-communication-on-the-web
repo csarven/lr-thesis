@@ -902,7 +902,7 @@ notes.fragile-science.txt
 
                   <p>To distinguish fakescience/predatory from legit/non-predatory Beyond "anyone can say anything about anything" eg. publish study preregistration to establish trust, share provenance, data, software/code.., open peer review (OPR) process (when/who/what), competing/conflict of interest, grant information</p>
 
-                  <p id="replicability-reproducibility">Reproducible research findings refers to the notion that when the exact methods are used to replicate or repeat to reach the same findings. However, for some research, reproduction is not always possible, for example when data is sensitive, or influenced by time or space. In this case, replication can be carried out to answer the same research questions using a similar or equivalent approaches.</p>
+                  <p id="reproducible-replicable">Reproducible research findings refers to the notion that when the exact methods are used to replicate or repeat to reach the same findings. However, for some research, reproduction is not always possible, for example when data is sensitive, or influenced by time or space. In this case, replication can be carried out to answer the same research questions using a similar or equivalent approaches. The reproduction of the original work can be either confirmatory, ie able to reproduce, or; contradictory, unable to reproduce or inconclusive.</p>
                 </div>
               </section>
 
