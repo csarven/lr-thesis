@@ -362,9 +362,7 @@ Rough coverage:
           <section id="linked-statistics" inlist="" rel="schema:hasPart" resource="#linked-statistics">
             <h2 property="schema:name">Linked Statistics</h2>
             <div datatype="rdf:HTML" property="schema:description">
-<pre class="todo">
-* shorten linked-sdmx-data and linked-statistical-data-analysis articles -- focus being on the data/structure
-</pre>
+              <p>Research data in the form of observational or experimental data follows a different structure than narrative content - generally in the form of articles, annotations, or notifications. That in this nature may be (semi-)automatically aggregated through instruments, stored, and viewed in different ways. Here we discuss</p>
 
               <section id="linked-sdmx-data" inlist="" rel="schema:hasPart" resource="#linked-sdmx-data">
                 <h3 property="schema:name">Linked SDMX Data</h3>
