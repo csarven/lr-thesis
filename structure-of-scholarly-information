@@ -123,7 +123,9 @@
 
               <p>Here authors create research literature in reply to a call for contributions; reviewers provide feedback on the research results; individuals annotate and re-share the literature; editors filter and assemble a collection of work; archives are notified about the research.</p>
 
-              <p>In this section we examine some of the existing Web standards and practices for the structure and semantics of scholarly information with focus on documents and observational data. The goal is to identify and apply patterns so that content creators can "register" different units of information at varying semantic granularity. Ultimately, we seek solutions that embrace interoperability and reusability, device and medium independence, as well as favourable for accessibility and archiving.</p>
+              <p>In this section we examine some of the existing Web standards and practices for the structure and semantics of scholarly information with focus on narrative documents and observational data. Scholarly documents with the characteristics of a continuous prose, such as those of research articles typically includes factual information about an investigation with supporting provenance-level information and references to underlying data. Annotations in the general sense can be similar to articles, however they are generally intended to encapsulate an indirection where target resources are associated with annotation activities with motivations, eg. commenting, bookmarking, or classifying. Notifications for scholarly activities serve as a way to inform a target of interest about events in general. We also examine representation and publication of statistical, experimental, or observational data on the Web following the Linked Data design principles.</p>
+
+              <p>One goal here is to identify and apply patterns so that content creators can "register" different units of information at varying semantic granularity. Ultimately, we seek solutions that embrace interoperability and reusability, device and medium independence, as well as favourable for accessibility and archiving.</p>
 
               <p class="todo">Is this still needed: list research questions for this chapter.. and reflect/explain at the end/conclusion in htis chapter</p>
             </div>
@@ -142,8 +144,7 @@ Rough coverage:
 
 * Web technologies for authoring, self-publishing; progressive enhancement, alternative presentations, exposing data along with "papers"
 
-* Multimodal active documents
-* Embedding statistical and experimental data, and views
+* Multimodal active documents?
 </pre>
 
 
@@ -362,7 +363,7 @@ Rough coverage:
           <section id="linked-statistics" inlist="" rel="schema:hasPart" resource="#linked-statistics">
             <h2 property="schema:name">Linked Statistics</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Research data in the form of observational or experimental data follows a different structure than narrative content - generally in the form of articles, annotations, or notifications. That in this nature may be (semi-)automatically aggregated through instruments, stored, and viewed in different ways. Here we discuss</p>
+              <p>Research data in the form of observational or experimental data follows a different structure than narrative content - which is a common characteristic of a research article, annotation, notification, or a profile. Structured data may be (semi-)automatically aggregated through instruments, stored, and viewed in different ways. Here we discuss...</p>
 
               <section id="linked-sdmx-data" inlist="" rel="schema:hasPart" resource="#linked-sdmx-data">
                 <h3 property="schema:name">Linked SDMX Data</h3>
