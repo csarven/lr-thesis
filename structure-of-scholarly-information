@@ -363,12 +363,65 @@ Rough coverage:
           <section id="linked-statistics" inlist="" rel="schema:hasPart" resource="#linked-statistics">
             <h2 property="schema:name">Linked Statistics</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Research data in the form of observational or experimental data follows a different structure than narrative content - which is a common characteristic of a research article, annotation, notification, or a profile. Structured data may be (semi-)automatically aggregated through instruments, stored, and viewed in different ways. Here we discuss...</p>
+              <p class="todo">Trim, paraphrase this section.</p>
+
+              <p>Research data in the form of observational or experimental data follows a different structure than narrative content - which is a common characteristic of a research article, annotation, notification, or a profile. Structured data may be (semi-)automatically aggregated through instruments, stored, and viewed in different ways.</p>
+
+              <p>As pointed out in <cite><a href="http://csarven.ca/statistical-linked-dataspaces">Statistical Linked Dataspaces</a></cite>, 2012, Capadisli, what linked statistics provide, and in fact enable, are queries across datasets: Given that the dimension concepts are interlinked, one can learn from a certain observation's dimension value, and enable the automation of cross-dataset queries. Moreover, domain-specific user interfaces can be built based on federated queries eg. <a href="#linked-statistical-data-analysis">Linked Statistical Data Analysis</a>, <a href="decentralised-linked-research-application#sparqlines">Sparqlines</a> to be discussed soon.</p>
 
               <section id="linked-sdmx-data" inlist="" rel="schema:hasPart" resource="#linked-sdmx-data">
                 <h3 property="schema:name">Linked SDMX Data</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>As statistical data is inherently highly structured and comes with rich metadata (in form of code lists, data cubes etc.), the application of the Linked Data design patterns is inherently suitable for representation and reuse on the Web. There exists no simple, standardised or (semi)automated way to transform statistical data into Linked Data since the raw data comes in different shapes and forms. Given that SDMX (Statistical Data and Metadata eXchange) is arguably the most widely used standard for statistical data exchange, a great amount of statistical data about our societies is yet to be discoverable and identifiable in a uniform way. We present the design and implementation of SDMX-ML to RDF/XML XSL transformations, as well as the publication of <a href="http://oecd.270a.info/">OECD</a>, <a href="http://bfs.270a.info/">BFS</a>, <a href="http://fao.270a.info/">FAO</a>, <a href="http://ecb.270a.info/">ECB</a>, <a href="http://imf.270a.info/">IMF</a>, <a href="http://uis.270a.info/">UIS</a>, <a href="http://frb.270a.info/">FRB</a>, <a href="http://bis.270a.info/">BIS</a>, and <a href="http://abs.270a.info/">ABS</a> dataspaces with that tooling.</p>
+                  <p>As statistical data is inherently highly structured and comes with rich metadata (in form of code lists, data cubes etc.), the application of the Linked Data design patterns is inherently suitable for representation and reuse on the Web. There exists no simple, standardised or (semi)automated way to transform statistical data into Linked Data since the raw data comes in different shapes and forms.</p>
+
+                  <p>While access to statistical data in the public sector has increased in recent years, a range of technical challenges makes it difficult for data consumers to take advantage at ease. These are particularly related to the following two areas:</p>
+
+                  <ul>
+                    <li>Automation of data transformation of data from high profile statistical organizations.</li>
+                    <li>Minimization of third-party interpretation of the source data and metadata and lossless transformations.</li>
+                  </ul>
+
+                  <p><cite><a href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=52500">Statistical Data and Metadata eXchange</a></cite> (<abbr title="Statistical Data and Metadata eXchange">SDMX</abbr>) is an ISO standard which provides the possibility to consistently carry out data flows between publishers and consumers. SDMX-ML (using XML syntax) is considered to be the gold standard for expressing statistical data. It has a highly structured mechanism to represent statistical observations, classifications, and data structures. Given that SDMX is arguably the most widely used standard for statistical data exchange (among statistical agencies and others), a great amount of statistical data about our societies is yet to be discoverable and identifiable through the open Web platform. Development teams often face low-level repetitive data management tasks to deal with someone else's data. Within the context of Linked Data, one aspect is to transform this raw statistical data eg. SDMX-ML, into an RDF representation in order to be able to use publicly available data in a uniform way.</p>
+
+                  <p><cite><a href="http://csarven.ca/linked-sdmx-data">Linked SDMX Data</a></cite>, 2013, Capadisli et al, ie. my colleagues and I, contribute as follows:</p>
+
+                  <ul>
+                    <li>an approach for transforming SDMX-ML based on XSLT 2.0 templates and the implementation which transforms SDMX-ML data to RDF/XML</li>
+                    <li>The extract, transform, load <abbr title="Extract Transform Load">ETL</abbr> process: a) retrieval of SDMX-ML data from APIs, b) their transformations to RDF/XML, and c) enrichment, d) storage in an RDF data store, and e) publicly accessible Linked Data publication based on the statistical data from the following agencies:
+                      <ul>
+                        <li><cite><a href="http://abs.270a.info/">Australian Bureau of Statistics</a></cite> (<abbr title="Australian Bureau of Statistics">ABS</abbr>)</li>
+                        <li><cite><a href="http://www.bfs.admin.ch/">Swiss Federal Statistical Office</a></cite> (<abbr lang="de" title="Bundesamt für Statistik" xml:lang="de">BFS</abbr>)</li>
+                        <li><cite><a href="http://www.bis.org/">Bank for International Settlements</a></cite> (<abbr title="Bank for International Settlements">BIS</abbr>)</li>
+                        <li><cite><a href="http://www.ecb.int/">European Central Bank</a></cite> (<abbr title="European Central Bank">ECB</abbr>)</li>
+                        <li><cite><a href="http://www.fao.org/">Food and Agriculture Organization of the United Nations</a></cite> (<abbr title="Food and Agriculture Organization of the United Nations">FAO</abbr>)</li>
+                        <li><cite><a href="http://www.federalreserve.org/">Federal Reserve Board</a></cite> (<abbr title="Federal Reserve Board">FRB</abbr>)</li>
+                        <li><cite><a href="http://www.imf.org/">International Monetary Fund</a></cite> (<abbr title="International Monetary Fund">IMF</abbr>)</li>
+                        <li><cite><a href="http://www.oecd.org/">Organisation for Economic Co-operation and Development</a></cite> (<abbr title="Organisation for Economic Co-operation and Development">OECD</abbr>)</li>
+                        <li><cite><a href="http://www.uis.unesco.org/">UNESCO Institute for Statistics</a> (<abbr title="UNESCO Institute for Statistics">UIS</abbr>)</cite></li>
+                      </ul>
+                    </li>
+                  </ul>
+
+                  <p>Each Linked Statistical Data (<abbr title="Linked Statistical Data">LSD</abbr>) endpoint:</p>
+
+                  <ul>
+                    <li>modeled using RDF, RDFS, XSD, OWL, XSD, DC Terms for general purpose descriptions; the RDF Data Cube vocabulary to describe multi-dimensional statistical data; PROV-O is used for provenance coverage; SKOS and XKOS to cover concepts, concept schemes and their relationships to one another;</li>
+                    <li>cross dataset and concept scheme interlinking;</li>
+                    <li>uniquely identifiable provenance level information at retrieval, transformation, and post-processing phases;</li>
+                    <li>licensed under CC0 1.0 Universal Public Domain Dedication;</li>
+                    <li>follows a URI template, where the URIs are versioned with respect to the original data counterparts</li>
+                    <li>data dumps;</li>
+                    <li>queryable SPARQL endpoint;</li>
+                  </ul>
+
+                  <p>The results are part of the <cite><a href="http://270a.info/">270a.info</a></cite> LSD Cloud which also includes data originally from <cite><a href="http://worldbank.org/">World Bank</a></cite> (<abbr title="World Bank">WB</abbr>) and <cite><a href="http://transparency.org/">Transparency International</a></cite> (<abbr title="Transparency International">TI</abbr>). The LSD Cloud is also part of the broader <cite><a href="http://lod-cloud.net/">Linked Open Data</a></cite> (<abbr title="Linked Open Data">LOD</abbr>) Cloud. At this point in time, the cloud is composed of X number of triples, where Y are statistical observations aggregated by statistical agencies. Figure <a href="interlinks-270a.info">interlinks-270a.info</a> is an overview of the LSD Cloud with interlinks across endpoints.</p>
+
+                  <figure id="interlinks-270a.info">
+                    <object type="image/svg+xml" width="640" height="480" data="http://270a.info/media/images/270a.cloud.svg"></object>
+                    <figcaption>Interlinks of Linked Statistical Data endpoints at 270a.info</figcaption>
+                  </figure>
+
+                  <p>What the LSD Cloud enables is that highly structured and interlinked statistical data and classifications that can be queried and used by decentralised applications.</p>
                 </div>
               </section>
 
