@@ -347,12 +347,12 @@ Rough coverage:
               <p id="existing-markup-patterns-characteristics"><strong>Summary of Characteristics</strong>: For historical and technical reasons, here we summarise some of their (shared) characteristics and intentions of their designs:</p>
 
               <ul>
-                <li>With the exception of <cite>Scholarly HTML</cite>, the markup methods cater to printability (as opposed to being Web-centric).</li>
+                <li>With the exception of <cite>Scholarly HTML</cite>, the markup methods cater to printability (as opposed to being Web-centric) or require transformations to other formats in order to be viewed and interacted further.</li>
                 <li>Data representations are prescriptive in that they are coupled with specific applications or workflows.</li>
-                <li>The generation or use of markup is dependent on specific environments, media or devices.</li>
-                <li>The scope of scholarly information is research articles (as opposed to annotations or notifications).</li>
+                <li>The generation or use of markup is dependent on specific environments for use or interchange, media or devices.</li>
+                <li>The structure of the information is scoped to general-purpose scholarly documents, as opposed to for example encapsulating social (scholarly) Web activities.</li>
                 <li>The structure and semantics of information is fundamentally based on HTML or XML (as opposed to the RDF language).</li>
-                <li>There is information duplicity as human and machine consumers are served with different data.</li>
+                <li>In some cases, there is information duplicity as human and machine consumers are served with different data.</li>
                 <li>There are post-processing dependencies (eg. via JavaScript execution) in order to turn hidden metadata into visible and readable by humans.</li>
               </ul>
             </div>
