@@ -143,7 +143,6 @@
 
               <p>Non-narrative units can also be semantically represented to enable easier reuse and interpretation; this is covered in more detail in <a href="#linked-statistics">Linked Statistics</a> and <cite><a href="decentralised-linked-research-application#interactive-linked-statistics">Interactive Linked Statistics</a></cite>.</p> 
 
-              <p cass="todo">Where should this go? <cite><a href="https://linkedsoftwaredependencies.org/articles/reproducibility/">Components.js: a semantic dependency injection framework for addressable and discoverable software configurations</a></cite>... for high level objects... there is a netowrk of htings and direction of links... their discoverability</p>
 
               <section id="units-of-communication" inlist="" rel="schema:hasPart" resource="#units-of-communication">
                 <h3 property="schema:name">Units of Communication</h3>
