@@ -21,10 +21,26 @@
         <h1 property="schema:name">Linked Data Notifications</h1>
 
         <div datatype="rdf:HTML" property="schema:description">
+          <p class="todo">Maybe this chapter should be called "Scholarly Activities" instead of LDN?</p>
+
+          <section id="scholarly-activities" inlist="" rel="schema:hasPart" resource="#scholarly-activities">
+            <h2 property="schema:name">Scholarly Activities</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo">Intro section</p>
+
+              <p>General info about using Web-centric notifications to make social scholarly web happen, and enpowering applications to discover activities out there.. 
+            </div>
+          </section> 
+
+          <section id="linked-data-notifications" inlist="" rel="schema:hasPart" resource="#linked-data-notifications">
+            <h2 property="schema:name">Linked Data Notifications</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+            </div>
+          </section>
+
           <section id="linked-specifications-reports" inlist="" rel="schema:hasPart" resource="#linked-specifications-reports">
             <h2 property="schema:name">Linked Specifications, Test Suites, and Implementation Reports</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p class="fixme">I'm not sure what to do with this exactly...</p>
 
               <p class="todo">The relevance of this section/work is about independent publishing (different jurisdictions) but following same line of Web standards / interop... pay-as-you-go... the sum is greater</p>
 
@@ -33,6 +49,21 @@
               <p>Semantically interlinking and detailed machine-readability of components related to Web standards and their implementations is novel, and can be useful for coherently documenting software projects and their conformance with specifications. Everything presented here is open source and reusable by other specifications (W3C standards or not), test suites, and implementations.</p>
 
               <p>As a concrete example of the benefits of this approach, the LDN test suite is itself an LDN implementation for the purpose of automating the collection and aggregation of implementation reports which were used directly towards the formal standardisation process.</p>
+            </div>
+          </section>
+
+          <section id="on-screen" inlist="" rel="schema:hasPart" resource="#on-screen">
+            <h2 property="schema:name">On screen!</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <blockquote cite="http://www.chakoteya.net/Voyager/613.htm">
+                <dl>
+                  <dt>Geordi La Forge</dt><dd>Captain, we are being hailed.</dd>
+                  <dt>Captain Jean-Luc Picard</dt><dd>On screen... (he remembers there is no longer a viewscreen)... Open a channel.</dd>
+                </dl>
+                <footer><cite><a data-versiondate="2018-10-03T15:13:45Z" data-versionurl="https://web.archive.org/web/20181003151345/https://www.imsdb.com/scripts/Star-Trek-Nemesis.html" href="https://www.imsdb.com/scripts/Star-Trek-Nemesis.html">Star Trek: Nemesis</a></cite>, 2003</footer>
+              </blockquote>
+
+              <p>wrap-up here</p>
             </div>
           </section>
         </div>
