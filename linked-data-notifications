@@ -23,18 +23,15 @@
         <div datatype="rdf:HTML" property="schema:description">
           <p class="todo">Maybe this chapter should be called "Scholarly Activities" instead of LDN?</p>
 
-          <section id="scholarly-activities" inlist="" rel="schema:hasPart" resource="#scholarly-activities">
-            <h2 property="schema:name">Scholarly Activities</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo">Intro section</p>
+          <p>General info about using Web-centric notifications to make social scholarly web happen, and enpowering applications to discover activities out there.. 
 
-              <p>General info about using Web-centric notifications to make social scholarly web happen, and enpowering applications to discover activities out there.. 
-            </div>
-          </section> 
+          <p>Notifications are sent over the Web for a variety of purposes, including social applications: <q>You have been invited to a graduation party!</q>, <q>Tim commented on your blog post!</q>, <q>Liz tagged you in a photo</q>. The notification data may be displayed to a human to acknowledge, or used to trigger some other application-specific process (or both). <span id="issue" about="#design-issue" datatype="rdf:HTML" property="schema:description" rel="dio:generatedByIntent" resource="#design-intent" typeof="dio:DesignIssue">In a decentralised architecture, notifications can be a key element for federation of information, and application integration. However in <span rel="dio:hasStatus" resource="#design-issue-status" typeof="dio:Active">centralised systems which prevail today</span>, this data is structured arbitrarily and typically only usable by the application that generated it in the first place. Current efforts towards <em>re-decentralising</em> the Web [<a class="ref" href="#ref-1">1</a>, <a class="ref" href="#ref-2">2</a>, <a class="ref" href="#ref-3">3</a>] are moving towards architectures in which data storage is decoupled from application logic, freeing end users to switch between applications, or to let multiple applications operate over the same data. So far, notifications are considered to be <em>ephemeral</em> resources which may disappear after transport, and thus are excluded from being designed for reuse.</span></p>
+
 
           <section id="linked-data-notifications" inlist="" rel="schema:hasPart" resource="#linked-data-notifications">
             <h2 property="schema:name">Linked Data Notifications</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p id="design-intent" about="#design-intent" datatype="rdf:HTML" property="schema:description" rel="dio:generatesIssue" resource="#design-issue" typeof="dio:Intent">We argue that notification data should not be locked into particular systems. We designed the <em>Linked Data Notifications (LDN)</em> protocol to support sharing and reuse of notifications <em>across</em> applications, regardless of how they were generated or what their contents are. We describe how the principles of identification, addressability and semantic representation can be applied to notifications on the Web. Specifying LDN as a formal protocol allows independently implemented, heterogeneous applications which generate and use notifications, to seamlessly work together. Thus, LDN supports the decentralisation of the Web as well as encourages the generation and consumption of Linked Data.</p>
             </div>
           </section>
 
@@ -63,7 +60,7 @@
                 <footer><cite><a data-versiondate="2018-10-03T15:13:45Z" data-versionurl="https://web.archive.org/web/20181003151345/https://www.imsdb.com/scripts/Star-Trek-Nemesis.html" href="https://www.imsdb.com/scripts/Star-Trek-Nemesis.html">Star Trek: Nemesis</a></cite>, 2003</footer>
               </blockquote>
 
-              <p>wrap-up here</p>
+              <p>Notifications are sent over the Web for a variety of purposes, for example, by social applications. The information contained within a notification is structured arbitrarily, and typically only usable by the application which generated it in the first place. In the spirit of Linked Data, we propose that notifications should be reusable by multiple authorised applications. Through separating the concepts of <em>senders</em>, <em>receivers</em> and <em>consumers</em> of notifications, and leveraging Linked Data principles of shared vocabularies and URIs, LDN provides a building block for decentralised Web applications. This permits end users more freedom to switch between the online tools they use, as well as generating greater value when notifications from different sources can be used in combination.</p>
             </div>
           </section>
         </div>
