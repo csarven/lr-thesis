@@ -533,22 +533,22 @@ WHERE {
                 <footer><cite>Merovingian, The Matrix Reloaded</cite></footer>
               </blockquote>
 
-              <p>The publication and dissemination of information - in the most general sense of the words - played a key role in the advancement of societies knowledge for centuries. The first journal, <cite>Academie des Scavans</cite> published by <cite>The Royal Society</cite> in 1665, evolved out of the exchange of letters among scholars and the transcripts of the meetings in scholarly societies. Within this recent memory, the most widely accepted purpose of a scholarly article is a way to communicate research results and other intellectual work with the public; to have an accurate archival record of the research findings; to build on top of earlier knowledge; as well as to have it serve towards crediting authors for the priority of their work. Today's scholarly journal; containing quality-controlled research reports, closely resemble the first journal. The proceedings of the meetings which are associated with the scholarly articles were published by societies and distributed to their subscribing members. From the earl on, due to the growth and demand for copies of the literature from non-members; mostly institutions, the larger journals began to sell subscriptions at relatively higher prices than members pay - <cite>Encyclopedia of International Media and Communications</cite>, Journals, Scholarly, p. 688, 2003, urn:isbn:0123876729</p>
+              <p>The publication and dissemination of information - in the most general sense of the words - played a key role in the advancement of societies knowledge for centuries. The first journal, <cite>Academie des Scavans</cite> published by <cite>The Royal Society</cite> in 1665, evolved out of the exchange of letters among scholars and the transcripts of the meetings in scholarly societies. Within this recent memory, the most widely accepted purpose of a scholarly article is a way to communicate research results and other intellectual work with the public; to have an accurate archival record of the research findings; to build on top of earlier knowledge; as well as to have it serve towards crediting authors for the priority of their work. Today's scholarly journal; containing quality-controlled research reports, closely resemble the first journal. The proceedings of the meetings which are associated with the scholarly articles were published by societies and distributed to their subscribing members. From the earl on, due to the growth and demand for copies of the literature from non-members; mostly institutions, the larger journals began to sell subscriptions at relatively higher prices than members pay - <cite><a href="http://www.worldcat.org/oclc/773482913">Encyclopedia of International Media and Communications</a></cite>, Scholarly Journals, Vol. 2, p. 688, 2003.</p>
 
-              <p>Before we proceed further, let's adopt a few basic definitions pertaining to scholar journal:</p>
+              <p>Before we proceed further, let's adopt a few basic definitions pertaining to scholarly journal:</p>
 
               <blockquote cite="urn:isbn:0123876729">
                 <dl>
-                  <dt>Scholarly journal</dt>
+                  <dt>[scholarly] journal</dt>
                   <dd>A periodical that contains in issue a number of articles on a particular subject, with articles usually being unrelated to each other and written by different authors, each of which contains a description of the results of a piece of research work or other scholarly investigation.</dd>
-                  <dt>Peer review</dt>
+                  <dt>peer review</dt>
                   <dd>A method of quality control of scholarly articles, whereby each article submitted for publication in a journal is sent to one or more scholars working the same research field as the author and the scholar(s) assess(es) whether the article is of a high enough standard and appropriate for publication in that particular journal.</dd>
-                  <dt>Citation index</dt>
+                  <dt>citation index</dt>
                   <dd>Publications that index primary journal articles and other information sources using as indexing terms the references cited in each article' bibliography.</dd>
-                  <dt>References</dt>
+                  <dt>references</dt>
                   <dd>The details of the authors, titles, and bibliographic origins of those articles that a current article cites as earlier work that supports its own arguments</dd>
                 </dl>
-                <footer><cite>Encyclopedia of International Media and Communications</cite>, Journals, Scholarly, p. 687, 2003, urn:isbn:0123876729</footer>
+                <footer><cite><a href="http://www.worldcat.org/oclc/773482913">Encyclopedia of International Media and Communications</a></cite>, Scholarly Journals, Vol. 2, p. 687, 2003, urn:isbn:0123876729</footer>
               </blockquote>
 
               <hr />
@@ -574,7 +574,7 @@ WHERE {
               <p id="unix-philosophy">In <cite><a href="http://www.catb.org/~esr/writings/taoup/html/">The Art of Unix Programming</a></cite>, 2003, Eric S. Raymond captures <a href="http://www.catb.org/~esr/writings/taoup/html/ch01s06.html">a series of bottom-up design rules</a> for the Unix environment and software including: modularity, clarity, composition, separation, parsimony, transparency, robustness, least surprise, silence, repair, economy, generation, optimization, diversity, and extensibility.</p>
 
 
-              <p>See also <cite><a href="https://www.w3.org/DesignIssues/Open.html">The Many Meanings of Open</a></cite></p>
+              <p class="todo">See also <cite><a href="https://www.w3.org/DesignIssues/Open.html">The Many Meanings of Open</a></cite></p>
 
 
               <p>Several movements during the 1990s towards fundamentally transforming scholarly communication using newly available digital network technologies.</p>
@@ -582,7 +582,6 @@ WHERE {
               <section id="open-science" inlist="" rel="schema:hasPart" resource="#open-science">
                 <h3 property="schema:name">Open Science</h3>
                 <div dataype="rdf:HTML" property="schema:description">
-
                   <p><q>Open Science</q> is a broadly understood notion that is intended to foster an accessible approach to conducting science and scholarship. While there is no single agreed definition of open science, the general consensus is about improving the practice of scientific communication in a transparent, traceable, verifiable, and reusable manner. For all intents and purposes, we can work with the European-funded project <cite><a href="https://www.fosteropenscience.eu/">Facilitate Open Science Training for European Research</a></cite> (<abbr title="Facilitate Open Science Training for European Research">FOSTER</abbr>)'s definition:</p>
 
                   <blockquote cite="https://www.fosteropenscience.eu/taxonomy/term/100">
@@ -601,7 +600,6 @@ WHERE {
                     <li><em>Disinterestedness</em>: the practice of science should benefit the common scientific enterprise with no conflicts of individual interest or gain.</li>
                     <li><em>Organised skepticism</em>: scientific claims should be exposed to critical examination before being accepted to be part of common knowledge.</li>
                   </ul>
-
                 </div>
               </section>
 
