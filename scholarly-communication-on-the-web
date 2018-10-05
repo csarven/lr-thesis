@@ -620,7 +620,7 @@ WHERE {
                   <blockquote cite="http://www.budapestopenaccessinitiative.org/read">
                     <p>The literature that should be freely accessible online is that which scholars give to the world without expectation of payment. Primarily, this category encompasses their peer-reviewed journal articles, but it also includes any unreviewed preprints that they might wish to put online for comment or to alert colleagues to important research findings. There are many degrees and kinds of wider and easier access to this literature. By "open access" to this literature, we mean its free availability on the public internet, permitting any users to read, download, copy, distribute, print, search, or link to the full texts of these articles, crawl them for indexing, pass them as data to software, or use them for any other lawful purpose, without financial, legal, or technical barriers other than those inseparable from gaining access to the internet itself. The only constraint on reproduction and distribution, and the only role for copyright in this domain, should be to give authors control over the integrity of their work and the right to be properly acknowledged and cited.</p>
 
-                    <footer><cite><a href="http://www.budapestopenaccessinitiative.org/read">Budapest Open Access Initiative</a></cite>, [Retrieved: 2018-02-10T21:23:20.092Z, Reason: cites as authority]</footer>
+                    <footer><cite><a data-versiondate="2018-10-05T19:58:34Z" data-versionurl="https://web.archive.org/web/20181005195834/https://www.budapestopenaccessinitiative.org/read" href="http://www.budapestopenaccessinitiative.org/read">Budapest Open Access Initiative</a></cite></footer>
                   </blockquote>
 
                   <p>In order to open up access to scholarly journal literature, BOAI recommends the adoption of two complementary strategies for open access (<abbr title="Open Access">OA</abbr>):</p>
@@ -717,6 +717,7 @@ WHERE {
           <section id="social-scholarly-web" inlist="" rel="schema:hasPart" resource="#social-scholarly-web">
             <h2 property="schema:name">Social Scholarly Web</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <div class="todo">
               <p>The scholarly ecosystem is inherently social. People collaborate and share.</p>
 
               <p>Communities of practice. Communities within and across institutions.. science is a global undertaking. Techniques for doing for science, the tools that are sued, the way works are assigned value or authority.. different things that are adopted in terms of technologies or methods, for publishing and dissemination of scientific work... Changes of how things are done shift over time in waves.. a slow process.. but sub-communities influence one another.</p>
@@ -730,7 +731,10 @@ WHERE {
               <p>We're going to look at 'social' like tools that are somehow affecting or influencing scholarly comms in general (not necessarily decentralised ones). How is massive adoption of social media affecting academia? How are organisations taking advantage (or not) of this?</p>
               <p>(you're going to do a comparison of tools and stuff, like academia.edu, stuff like this would not exist if social media in general had not become popular. This is the answer to the question 'how is social media affecting scholarlycomms?')</p>
               <p>Why are we caring about this? -> We need to understand/reflect/observe/analyse the effects of the tools we use on the ecosystem and on science</p>
+            </div>
 
+              <div class="todo">
+                <p>XXX Are these sections necessary?</p>
 
               <section id="social-implications" inlist="" rel="schema:hasPart" resource="#social-implications">
                 <h3 property="schema:name">Social Implications</h3>
@@ -767,6 +771,7 @@ WHERE {
                   <p id="scholar-social"><cite><a href="https://scholar.social/">Scholar Social</a></cite> is a Mastodon instance geared towards scientists, academics, librarians, and scholars with topical focus on scholarly communication. The site has a feature for a monthly journal club, in which its members can suggest a scholarly article of interest, read, and comment collectively. It also has an explicit code of conduct encouraging inclusivity and exercising academic freedom. While Scholar Social is just one particular community, it marks a milestone for academics discovering others in a multi-disciplinary field, as well as academic content in a social setting. At minimum, both fulfil the awareness function in scholarly communication. Hence, ActivityPub can be used by individuals as a single-user of a platform, as well as by communities - institution run or otherwise - which serve their own needs, while optionally being able to communicate with the rest of the federation.</p>
                 </div>
               </section>
+            </div>
 
 
               <section id="registration-of-identifiers" inlist="" rel="schema:hasPart" resource="#registration-of-identifiers">
