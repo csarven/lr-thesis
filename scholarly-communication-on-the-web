@@ -533,17 +533,9 @@ WHERE {
                 <footer><cite>Merovingian, The Matrix Reloaded</cite></footer>
               </blockquote>
 
-              <p>The main purpose of a scholarly article is to communicate research results and other intellectual work globally with the public. A widely accepted function of scholarly articles serve to have an accurate archival record of research findings; to build on top of earlier knowledge; as well as to have it serve towards crediting authors for the priority of their work. Today's scholarly journal; containing quality-controlled research reports, closely resemble the first journal, <cite>Academie des Scavans</cite> published by <cite>The Royal Society</cite> in 1665.</p>
+              <p>The publication and dissemination of information - in the most general sense of the words - played a key role in the advancement of societies knowledge for centuries. The first journal, <cite>Academie des Scavans</cite> published by <cite>The Royal Society</cite> in 1665, evolved out of the exchange of letters among scholars and the transcripts of the meetings in scholarly societies. Within this recent memory, the most widely accepted purpose of a scholarly article is a way to communicate research results and other intellectual work with the public; to have an accurate archival record of the research findings; to build on top of earlier knowledge; as well as to have it serve towards crediting authors for the priority of their work. Today's scholarly journal; containing quality-controlled research reports, closely resemble the first journal. The proceedings of the meetings which are associated with the scholarly articles were published by societies and distributed to their subscribing members. From the earl on, due to the growth and demand for copies of the literature from non-members; mostly institutions, the larger journals began to sell subscriptions at relatively higher prices than members pay - <cite>Encyclopedia of International Media and Communications</cite>, Journals, Scholarly, p. 688, 2003, urn:isbn:0123876729</p>
 
-              <p title="688">The first journal evolved out of the exchange of letters among scholars and the transcripts of the meetings in scholarly societies. "The history of the journal is bound up with the history of the learned society. As noted, the first journals were established to put on permanent record the proceedings of society meetings, and for many years the vast majority of journals were published by societies and distributed only to their members, who paid for them as part of their membership subscriptions. There were, however, exceptions to this rule. Some famous editors established their own journals, and these were named after these founding editors, for example, <cite lang="de" xml:lang="de">Hoppe-Seylers Zeitschrift für physiolgische Chemie</cite> and <cite>Liebigs Annalen der Chemi</cite>."</p>
-
-              <p title="688">"A major function of the learned scientific society is the advancement of knowledge in its field, and this has always included the publication and dissemination of information."</p>
-
-              <p title="">"Many of the larger journals.. began to sell subscriptions to nonmembers at relatively higher prices than members pay; most nonmembers' subscripts are institutional."</p>
-
-              <p title="688">In <cite>Little Science, Big Science</cite>, Derek de Solla Price, notes that "first journals became prominent as a vehicle of scholarship in sciences. In the humanities, in particular, books remained until recently the main form of publication favored by scholars for recording their work and establishing their reputations." Today, journals in all areas of knowledge exist.</p>
-
-
+              <p>Before we proceed further, let's adopt a few basic definitions pertaining to scholar journal:</p>
 
               <blockquote cite="urn:isbn:0123876729">
                 <dl>
@@ -558,6 +550,8 @@ WHERE {
                 </dl>
                 <footer><cite>Encyclopedia of International Media and Communications</cite>, Journals, Scholarly, p. 687, 2003, urn:isbn:0123876729</footer>
               </blockquote>
+
+              <hr />
 
               <p class="todo">There are several definitions for "open" and . The definition given by <cite><a href="https://opendefinition.org/">The Open Definition</a></cite> is as follows:</p>
 
