@@ -711,69 +711,6 @@ WHERE {
                   <p>There is more to simply publishing machine-readable scientific data on the Web. Analogous to the <q>FAIR principles</q>, data needs to "signal" potential opportunities for <em>reuse</em> as per <cite><a href="https://www.research.manchester.ac.uk/portal/files/29982854/POST-PEER-REVIEW-NON-PUBLISHERS.PDF">Why Linked Data is Not Enough for Scientists</a></cite> (<em>Research Objects</em>).</p>
                 </div>
               </section>
-
-
-              <section id="dissatisfaction-in-communication" inlist="" rel="schema:hasPart" resource="#dissatistfaction-in-research-communication">
-                <h3 property="schema:name">Dissatisfaction in Communication</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-<!-- The State of Communication -->
-<!-- Discontent in Research Communication -->
-<!-- Defective Communication -->
-<!-- Technical and Social Debt -->
-<!-- Criticisms and Controversies -->
-
-                  <p>The scholarly communication has been the subject of controversies over the past decades..</p>
-
-                  <p>Controlling access in all intents and purposes is like controlling science (communication)</p>
-
-                  <blockquote>
-                    <pre>APIs mean Snoop, Control and Censor.
-– Snoop: publishers monitor who is using the literature ,
-when and for what
-– Control: publishers control what you get, when, how
-much, and in what form
-– Censor: publishers control what results you publish
-and how.</pre>
-                    <footer>PMR slideshare slide 44</footer>
-                  </blockquote>
-
-
-
-                  <p>Formats: not great for content mining</p>
-
-                  <p>Coupling of Functions</p>
-                  <p>coupling of publication impact to an incentive system</p>
-
-
-                  <section id="cost-of-knowledge" inlist="" rel="schema:hasPart" resource="#cost-of-knowledge">
-                    <h4 property="schema:name">Cost of Knowledge</h4>
-                    <div datatype="rdf:HTML" property="schema:description">
-                      <p>Cost</p>
-                      <p>Profit margins..</p>
-                      <p>Knowledge Neocolonialism/Capitalism: https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science</p>
-                      <p>Elite</p>
-
-                      <p>Access: paywall/toll, restrictions to do research eg. http://onsnetwork.org/chartgerink/2015/11/16/elsevier-stopped-me-doing-my-research/ http://onsnetwork.org/chartgerink/2016/02/23/wiley-also-stopped-my-doing-my-research/</p>
-
-                      <p>Rare disease families not having access..</p>
-                      <p>global south..</p>
-                    </div>
-                  </section>
-
-                  <section id="the-status-quo" inlist="" rel="schema:hasPart" resource="#the-status-quo">
-                    <h4 property="schema:name">The Status Quo</h4>
-                    <div datatype="rdf:HTML" property="schema:description">
-<pre>
-* publishers - social acceptability of $$$$$ for access. Why are we okay with this?
-** conference registration fees sending to publishers -> closed access is acceptable? poor quality/formats ok?
-* incentives, rewards, acknowledgement (altmetrics)
-
-Consider moving this to LR chapter ()
-</pre>
-                    </div>
-                  </section>
-                </div>
-              </section>
             </div>
           </section>
 
@@ -876,10 +813,65 @@ notes.fragile-science.txt
                 </div>
               </section>
 
+              <section id="dissatisfaction-in-communication" inlist="" rel="schema:hasPart" resource="#dissatistfaction-in-research-communication">
+                <h3 property="schema:name">Dissatisfaction in Communication</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+<!-- The State of Communication -->
+<!-- Discontent in Research Communication -->
+<!-- Defective Communication -->
+<!-- Technical and Social Debt -->
+<!-- Criticisms and Controversies -->
+
+                  <p>The scholarly communication has been the subject of controversies over the past decades..</p>
+
+                  <p>Controlling access in all intents and purposes is like controlling science (communication)</p>
+
+                  <blockquote>
+                    <pre>APIs mean Snoop, Control and Censor.
+– Snoop: publishers monitor who is using the literature ,
+when and for what
+– Control: publishers control what you get, when, how
+much, and in what form
+– Censor: publishers control what results you publish
+and how.</pre>
+                    <footer>PMR slideshare slide 44</footer>
+                  </blockquote>
+
+                  <p>Formats: not great for content mining</p>
+                  <p>Coupling of Functions</p>
+                  <p>coupling of publication impact to an incentive system</p>
+
+                  <section id="cost-of-knowledge" inlist="" rel="schema:hasPart" resource="#cost-of-knowledge">
+                    <h4 property="schema:name">Cost of Knowledge</h4>
+                    <div datatype="rdf:HTML" property="schema:description">
+                      <p>Cost</p>
+                      <p>Profit margins..</p>
+                      <p>Knowledge Neocolonialism/Capitalism: https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science</p>
+                      <p>Elite</p>
+
+                      <p>Access: paywall/toll, restrictions to do research eg. http://onsnetwork.org/chartgerink/2015/11/16/elsevier-stopped-me-doing-my-research/ http://onsnetwork.org/chartgerink/2016/02/23/wiley-also-stopped-my-doing-my-research/</p>
+
+                      <p>Rare disease families not having access..</p>
+                      <p>global south..</p>
+                    </div>
+                  </section>
+
+                  <section id="the-status-quo" inlist="" rel="schema:hasPart" resource="#the-status-quo">
+                    <h4 property="schema:name">The Status Quo</h4>
+                    <div datatype="rdf:HTML" property="schema:description">
+<pre>
+* publishers - social acceptability of $$$$$ for access. Why are we okay with this?
+** conference registration fees sending to publishers -> closed access is acceptable? poor quality/formats ok?
+* incentives, rewards, acknowledgement (altmetrics)
+
+Consider moving this to LR chapter ()
+</pre>
+                    </div>
+                  </section>
+                </div>
+              </section>
             </div>
           </section>
-
-
 
           <section id="forces-and-functions" inlist="" rel="schema:hasPart" resource="#forces-and-functions">
             <h2 property="schema:name">Forces and Functions</h2>
