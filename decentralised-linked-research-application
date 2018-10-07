@@ -21,6 +21,8 @@
         <h1 property="schema:name">Implementing a Decentralised Linked Research Application</h1>
 
         <div datatype="rdf:HTML" property="schema:description">
+          <p class="todo">What are the core requirements for a contributor-controlled decentralised information space - access controlled read-write - and social participation? Conclusions should reflect on this</p>
+
 
               <p id="cathedral-bazaar">In the <cite><a href="http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/">The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary</a></cite>, 2000, by Eric Steven Raymond, examines top-down and bottom-up development processes in open source projects. The <em>Cathedral</em> model was corresponded to the top-down approach where software is <q>carefully crafted by individual wizards or small bands of mages working in splendid isolation, with no beta to be released before its time</q>. The <cem>Bazaar</cem> model on the other corresponded to the bottom-up approach with the idea to <q>release early and often, delegate everything you can, be open to the point of promiscuity</q>.</p>
 
