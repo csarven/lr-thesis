@@ -791,7 +791,7 @@ WHERE {
                 </div>
               </section>
 
-              <section id="quality-control-and-certification" inlist="" rel="schema:hasPart" resource="#quality-control-and-certification">
+              <section class="todo" id="quality-control-and-certification" inlist="" rel="schema:hasPart" resource="#quality-control-and-certification">
                 <h3 property="schema:name">Quality Control and Certification</h3>
                 <div datatype="rdf:HTML" property="schema:description">
 <pre>
@@ -812,11 +812,11 @@ notes.fragile-science.txt
 
                   <p>To distinguish fakescience/predatory from legit/non-predatory Beyond "anyone can say anything about anything" eg. publish study preregistration to establish trust, share provenance, data, software/code.., open peer review (OPR) process (when/who/what), competing/conflict of interest, grant information</p>
 
-                  <p id="reproducible-replicable">Reproducible research findings refers to the notion that when the exact methods are used to replicate or repeat to reach the same findings. However, for some research, reproduction is not always possible, for example when data is sensitive, or influenced by time or space. In this case, replication can be carried out to answer the same research questions using a similar or equivalent approaches. The reproduction of the original work can be either confirmatory, ie able to reproduce, or; contradictory, unable to reproduce or inconclusive.</p>
+                  <p id="reproducible-replicable">Reproducible research findings refers to the notion that when the exact methods are used to replicate or repeat to reach the same findings. However, for some research, reproduction is not always possible, for example when data is sensitive, or influenced by time or space. In this case, replication can be carried out to answer the same research questions using similar or equivalent approaches. The reproduction of the original work can be either confirmatory, ie. able to reproduce, or; contradictory, unable to reproduce or inconclusive. Thus, in order to reconstruct how the data was generated and to make sense of it, data needs to be accompanied by enough detail about its provisional interpretations.</p>
                 </div>
               </section>
 
-              <section id="dissatisfaction-in-communication" inlist="" rel="schema:hasPart" resource="#dissatistfaction-in-research-communication">
+              <section class="todo" id="dissatisfaction-in-communication" inlist="" rel="schema:hasPart" resource="#dissatistfaction-in-research-communication">
                 <h3 property="schema:name">Dissatisfaction in Communication</h3>
                 <div datatype="rdf:HTML" property="schema:description">
 <!-- The State of Communication -->
