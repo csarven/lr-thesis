@@ -553,6 +553,17 @@ WHERE {
 
               <hr />
 
+              <p>In <cite><a href="http://www.worldcat.org/oclc/695759425" title="9780226520919">The Sociology of Science: Theoretical and Empirical Investigations</a></cite>, 1942, Robert Merton introduced <q>four sets of institutional imperatives taken to comprise the ethos of modern science</q> in <q>The Normative Structure of Science</q>:</p>
+
+              <ul>
+                <li><em>Communalism</em>: in order to promote collective collaboration, intellectual output should have common ownership.</li>
+                <li><em>Universalism</em>: scientific validity is kept independent of political and personal factors such that everyone has equal rights and possibility to obtain information.</li>
+                <li><em>Disinterestedness</em>: the practice of science should benefit the common scientific enterprise with no conflicts of individual interest or gain.</li>
+                <li><em>Organised skepticism</em>: scientific claims should be exposed to critical examination before being accepted to be part of common knowledge.</li>
+              </ul>
+
+              <hr />
+
               <p>While there are many definitions for “open” and “free”, depending on the context assigned by different communities eg. <cite><a data-versiondate="2018-10-05T10:34:34Z" data-versionurl="https://web.archive.org/web/20181005103434/https://www.w3.org/DesignIssues/Open.html" href="https://www.w3.org/DesignIssues/Open.html">The Many Meanings of Open</a></cite> Berners-Lee, 2013, here we acknowledge those that are commonly used.</p>
 
               <p id="open-definition">The definition given by <cite><a href="https://opendefinition.org/">The Open Definition</a></cite> which is derived from the <cite>Open Source Definition</cite>, is as follows:</p>
@@ -575,30 +586,6 @@ WHERE {
               <hr />
 
               <p>Several movements during the 1990s towards fundamentally transforming scholarly communication using newly available digital network technologies.</p>
-
-              <section id="open-science" inlist="" rel="schema:hasPart" resource="#open-science">
-                <h3 property="schema:name">Open Science</h3>
-                <div dataype="rdf:HTML" property="schema:description">
-                  <p><q>Open Science</q> is a broadly understood notion that is intended to foster an accessible approach to conducting science and scholarship. While there is no single agreed definition of open science, the general consensus is about improving the practice of scientific communication in a transparent, traceable, verifiable, and reusable manner. For all intents and purposes, we can work with the European-funded project <cite><a href="https://www.fosteropenscience.eu/">Facilitate Open Science Training for European Research</a></cite> (<abbr title="Facilitate Open Science Training for European Research">FOSTER</abbr>)'s definition:</p>
-
-                  <blockquote cite="https://www.fosteropenscience.eu/taxonomy/term/100">
-                    <p>Open Science is the practice of science in such a way that others can collaborate and contribute, where research data, lab notes and other research processes are freely available, under terms that enable reuse, redistribution and reproduction of the research and its underlying data and methods.</p>
-
-                    <footer><cite><a href="https://www.fosteropenscience.eu/taxonomy/term/100">Open Science Definition</a></cite>, FOSTER</footer>
-                  </blockquote>
-
-                  <p>The <a href="http://oro.open.ac.uk/44719/2/kmi_foster_iknow.pdf#page=3" title="Fostering Open Science to Research using a Taxonomy and an eLearning Portal">Open Science taxonomy</a> developed by FOSTER maps the open science fields as follows: <q>Open Access, Open Data, Open Reproducible Research, Open Science Definition, Open Science Evaluation, Open Science Guidelines, Open Science Policies, Open Science Projects and Open Science Tools</q>.</p>
-
-                  <p>In <cite><a href="http://www.worldcat.org/oclc/695759425" title="9780226520919">The Sociology of Science: Theoretical and Empirical Investigations</a></cite>, 1942, Robert Merton introduced <q>four sets of institutional imperatives taken to comprise the ethos of modern science</q> in <q>The Normative Structure of Science</q>:</p>
-
-                  <ul>
-                    <li><em>Communalism</em>: in order to promote collective collaboration, intellectual output should have common ownership.</li>
-                    <li><em>Universalism</em>: scientific validity is kept independent of political and personal factors such that everyone has equal rights and possibility to obtain information.</li>
-                    <li><em>Disinterestedness</em>: the practice of science should benefit the common scientific enterprise with no conflicts of individual interest or gain.</li>
-                    <li><em>Organised skepticism</em>: scientific claims should be exposed to critical examination before being accepted to be part of common knowledge.</li>
-                  </ul>
-                </div>
-              </section>
 
               <section id="archives-and-repositories" inlist="" rel="schema:hasPart" resource="#archives-and-repositories">
                 <h3 property="schema:name">Archives and Repositories</h3>
@@ -667,6 +654,21 @@ WHERE {
                 <h3 property="schema:name">Open Archiving</h3>
                 <div dataype="rdf:HTML" property="schema:description">
                   <p>Archiving scholarly records is integral to access and preservation of the scientific knowledge for societal use. Scholarly communication over the Web is inherently about distributed activities. The <a href="http://web.archive.org/web/20000229151223/http://www.openarchives.org/ups1-press.htm">first meeting</a> in 1999 was held to agree on recommendations to <a href="http://www.dlib.org/dlib/february00/vandesompel-ups/02vandesompel-ups.html">address interoperability challenges</a> - such as search and linking - for data across publicly available distributed self-archiving solutions. To promote the global acceptance of self-archiving, with interoperable systems being core to its successful adoption, the <cite><a href="http://www.openarchives.org/">Open Archives Initiative</a> (<abbr title="Open Archives Initiative">OAI</abbr>) Organization</cite> was established to take on the development of technical recommendations - for metadata standards, discovery, and retrieval. This lead to the evolution of recommendations such as <cite><a href="http://www.openarchives.org/OAI/openarchivesprotocol.html">OAI-PMH</a></cite> for <q>Protocol for Metadata Harvesting</q>, and its successor <cite><a href="http://www.openarchives.org/rs/resourcesync">ResourceSync</a></cite> as resource a synchronization framework for servers; <cite><a href="http://www.openarchives.org/ore/toc">OAI-ORE</a></cite> for <q>Object Reuse and Exchange</q>; and <cite><a href="https://tools.ietf.org/html/rfc7089">Memento</a></cite> which specifies a time dimension to the Web architecture. In the 2015 article, <cite><a href="http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.html">Reminiscing About 15 Years of Interoperability Efforts</a></cite>, <a href="https://en.wikipedia.org/wiki/Herbert_Van_de_Sompel">Van de Sompel</a> et al. summarise the lessons learned on interoperability efforts by concluding that a shift from a <em>repository-centric</em> to a <em>Web-centric</em> perspective was essential in order have a <q>viable and sustainable</q> scholarly system.</p>
+                </div>
+              </section>
+
+              <section id="open-science" inlist="" rel="schema:hasPart" resource="#open-science">
+                <h3 property="schema:name">Open Science</h3>
+                <div dataype="rdf:HTML" property="schema:description">
+                  <p><q>Open Science</q> is a broadly understood notion that is intended to foster an accessible approach to conducting science and scholarship. While there is no single agreed definition of open science, the general consensus is about improving the practice of scientific communication in a transparent, traceable, verifiable, and reusable manner. For all intents and purposes, we can work with the European-funded project <cite><a href="https://www.fosteropenscience.eu/">Facilitate Open Science Training for European Research</a></cite> (<abbr title="Facilitate Open Science Training for European Research">FOSTER</abbr>)'s definition:</p>
+
+                  <blockquote cite="https://www.fosteropenscience.eu/taxonomy/term/100">
+                    <p>Open Science is the practice of science in such a way that others can collaborate and contribute, where research data, lab notes and other research processes are freely available, under terms that enable reuse, redistribution and reproduction of the research and its underlying data and methods.</p>
+
+                    <footer><cite><a href="https://www.fosteropenscience.eu/taxonomy/term/100">Open Science Definition</a></cite>, FOSTER</footer>
+                  </blockquote>
+
+                  <p>The <a href="http://oro.open.ac.uk/44719/2/kmi_foster_iknow.pdf#page=3" title="Fostering Open Science to Research using a Taxonomy and an eLearning Portal">Open Science taxonomy</a> developed by FOSTER maps the open science fields as follows: <q>Open Access, Open Data, Open Reproducible Research, Open Science Definition, Open Science Evaluation, Open Science Guidelines, Open Science Policies, Open Science Projects and Open Science Tools</q>.</p>
                 </div>
               </section>
 
