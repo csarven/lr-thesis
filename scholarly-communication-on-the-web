@@ -723,6 +723,8 @@ WHERE {
           <section id="social-scholarly-web" inlist="" rel="schema:hasPart" resource="#social-scholarly-web">
             <h2 property="schema:name">Social Scholarly Web</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo">Consider moving this section under a-brief-history-of-scholarship-on-the-web.. and reorder</p>
+
               <div class="todo">
               <p>The scholarly ecosystem is inherently social. People collaborate and share.</p>
 
@@ -743,11 +745,12 @@ there is a top-down social pressure for openness
             </div>
 
               <div class="todo">
-                <p>XXX Are these sections necessary?</p>
+                <p>XXX Are these sections necessary? Should they move to a different part of the thesis?</p>
 
               <section id="social-implications" inlist="" rel="schema:hasPart" resource="#social-implications">
                 <h3 property="schema:name">Social Implications</h3>
                 <div datatype="rdf:HTML" property="schema:description">
+                  <p class="todo">Move to Conclusions?</p>
 <pre>
 * social consequences of open science
 ** media pushed to the extreme (mcluhan) - global fight
