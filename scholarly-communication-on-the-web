@@ -555,20 +555,22 @@ WHERE {
 
               <p>While there are many definitions for “open” and “free”, depending on the context assigned by different communities eg. <cite><a data-versiondate="2018-10-05T10:34:34Z" data-versionurl="https://web.archive.org/web/20181005103434/https://www.w3.org/DesignIssues/Open.html" href="https://www.w3.org/DesignIssues/Open.html">The Many Meanings of Open</a></cite> Berners-Lee, 2013, here we acknowledge those that are commonly used.</p>
 
-              <p>The definition given by <cite><a href="https://opendefinition.org/">The Open Definition</a></cite> which is derived from the <cite>Open Source Definition</cite>, is as follows:</p>
+              <p id="open-definition">The definition given by <cite><a href="https://opendefinition.org/">The Open Definition</a></cite> which is derived from the <cite>Open Source Definition</cite>, is as follows:</p>
 
               <blockquote cite="https://opendefinition.org/od/2.1/en/">
-                <p>Open data and content can be freely used, modified, and shared by anyone for any purpose</p>
+                <p>Knowledge is open if anyone is free to access, use, modify, and share it — subject, at most, to measures that preserve provenance and openness.</p>
 
                 <footer><cite><a data-versiondate="2018-10-05T10:15:45Z" data-versionurl="https://web.archive.org/web/20181005101545/https://opendefinition.org/od/2.1/en/" href="https://opendefinition.org/od/2.1/en/">The Open Definition 2.1</a></cite></footer>
               </blockquote>
 
-              <p>The definition of <q>free</q> in context of software that is widely acknowledged is along the lines of:</p>
+              <p id="free-software">The definition of <q>free</q> (or <q>libre</q>) in context of software that is widely acknowledged is along the lines of:</p>
 
               <blockquote cite="https://www.gnu.org/philosophy/free-sw.html">
                 <p>“Free software” means software that respects users' freedom and community.  Roughly, it means that <b>the users have the freedom to run, copy, distribute, study, change and improve the software</b>.  Thus, “free software” is a matter of liberty, not price.  To understand the concept, you should think of “free” as in “free speech,” not as in “free beer”.  We sometimes call it “libre software,” borrowing the French or Spanish word for “free” as in freedom, to show we do not mean the software is gratis.</p>
                 <footer><cite><a data-versiondate="2018-10-05T10:22:56Z" data-versionurl="https://web.archive.org/web/20181005102256/https://www.gnu.org/philosophy/free-sw.html" href="https://www.gnu.org/philosophy/free-sw.html">What is free software?</a></cite>, GNU Project - Free Software Foundation</footer>
               </blockquote>
+
+              <p id="freedom-defined">In order for an item or piece of knowledge to be transferred in a way to foster rich culture, the <cite><a data-versiondate="2018-10-14T15:59:17Z" data-versionurl="https://web.archive.org/web/20181014155917/http://freedomdefined.org/Definition" href="http://freedomdefined.org/Definition">Free Culture Works</a></cite> defines <em>freedom</em> to mean the freedom to use; to study; to make and redistribute copies; and to make changes and improvements. The definition can be used as a <q>tool to determine whether a work or license should be considered "free."</q></p>
 
               <hr />
 
