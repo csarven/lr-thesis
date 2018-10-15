@@ -125,7 +125,7 @@ transform:rotate(-60deg);
 
         <dl id="document-latest-version">
           <dt>Latest Version</dt>
-          <dd><a href="https://linkedresearch.org/article/csarven.ca/6cd3a5e4-886c-4a54-88ae-50b7ac113d72" rel="mem:memento rel:latest-version">6cd3a5e4-886c-4a54-88ae-50b7ac113d72</a></dd>
+          <dd><a href="https://linkedresearch.org/article/csarven.ca/6cd3a5e4-886c-4a54-88ae-50b7ac113d72" rel="mem:memento rel:latest-version">https://linkedresearch.org/article/csarven.ca/6cd3a5e4-886c-4a54-88ae-50b7ac113d72</a></dd>
         </dl>
 
         <dl id="document-predecessor-version">
