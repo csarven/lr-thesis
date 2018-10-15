@@ -105,12 +105,12 @@ transform:rotate(-60deg);
 
         <dl id="document-identifier">
           <dt>Identifier</dt>
-          <dd><a href="https://linkedresearch.org/article/csarven.ca/scholarly-communication-on-the-web" rel="owl:sameAs">https://linkedresearch.org/article/csarven.ca/scholarly-communication-on-the-web</a></dd>
+          <dd><a href="https://linkedresearch.org/article/csarven.ca//scholarly-communication-on-the-web" rel="owl:sameAs">https://linkedresearch.org/article/csarven.ca//scholarly-communication-on-the-web</a></dd>
         </dl>
 
         <dl id="document-created">
           <dt>Created</dt>
-          <dd><time content="2018-03-20T10:58:24.608Z" datatype="xsd:dateTime" datetime="2018-03-20T10:58:24.608Z" property="schema:dateCreated">2018-03-20</time></dd>
+          <dd><time content="2018-10-15T21:52:41.828Z" datatype="xsd:dateTime" datetime="2018-10-15T21:52:41.828Z" property="schema:dateCreated">2018-10-15</time></dd>
         </dl>
 
         <dl id="document-published">
@@ -125,12 +125,12 @@ transform:rotate(-60deg);
 
         <dl id="document-latest-version">
           <dt>Latest Version</dt>
-          <dd><a href="https://linkedresearch.org/article/csarven.ca/88b9f863-923a-42c3-ace3-3225bcd48e28" rel="rel:latest-version">https://linkedresearch.org/article/csarven.ca/88b9f863-923a-42c3-ace3-3225bcd48e28</a></dd>
+          <dd><a href="https://linkedresearch.org/article/csarven.ca//b69a83f8-5487-4290-8cde-1bdd32925168" rel="mem:memento rel:latest-version">https://linkedresearch.org/article/csarven.ca//b69a83f8-5487-4290-8cde-1bdd32925168</a></dd>
         </dl>
 
         <dl id="document-predecessor-version">
           <dt>Predecessor Version</dt>
-          <dd><a href="https://linkedresearch.org/article/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b" rel="rel:predecessor-version">https://linkedresearch.org/article/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b</a></dd>
+          <dd><a href="https://linkedresearch.org/article/csarven.ca/6cd3a5e4-886c-4a54-88ae-50b7ac113d72" rel="mem:memento rel:predecessor-version">https://linkedresearch.org/article/csarven.ca/6cd3a5e4-886c-4a54-88ae-50b7ac113d72</a></dd>
         </dl>
 
         <dl id="document-timemap">
@@ -162,12 +162,12 @@ transform:rotate(-60deg);
 
         <dl id="document-inbox">
           <dt>Notifications Inbox</dt>
-          <dd><a href="https://linkedresearch.org/inbox/csarven.ca/88b9f863-923a-42c3-ace3-3225bcd48e28/" rel="ldp:inbox">https://linkedresearch.org/inbox/csarven.ca/88b9f863-923a-42c3-ace3-3225bcd48e28/</a></dd>
+          <dd><a href="https://linkedresearch.org/inbox/csarven.ca/6cd3a5e4-886c-4a54-88ae-50b7ac113d72/" rel="ldp:inbox">https://linkedresearch.org/inbox/csarven.ca/6cd3a5e4-886c-4a54-88ae-50b7ac113d72/</a></dd>
         </dl>
 
         <dl id="document-annotation-service">
           <dt>Annotation Service</dt>
-          <dd><a href="https://linkedresearch.org/annotation/csarven.ca/88b9f863-923a-42c3-ace3-3225bcd48e28/" rel="oa:annotationService">https://linkedresearch.org/annotation/csarven.ca/88b9f863-923a-42c3-ace3-3225bcd48e28/</a></dd>
+          <dd><a href="https://linkedresearch.org/annotation/csarven.ca/6cd3a5e4-886c-4a54-88ae-50b7ac113d72/" rel="oa:annotationService">https://linkedresearch.org/annotation/csarven.ca/6cd3a5e4-886c-4a54-88ae-50b7ac113d72/</a></dd>
         </dl>
 
         <dl id="document-in-reply-to">
@@ -452,8 +452,8 @@ WHERE {
                   <p>Resulting in extracted data:</p>
 
                   <table>
-                    <thead><th>?object</th><th>?name</th></thead>
-                    <tbody><td><a class="highlight-language-object" href="http://dbpedia.org/resource/Tim_Berners-Lee">http://dbpedia.org/resource/Tim_Berners-Lee</a></td><td><span class="highlight-language-object-name">"Tim Berners-Lee"@en</span></td></tbody>
+                    <thead><tr><th>?object</th><th>?name</th></tr></thead>
+                    <tbody><tr><td><a class="highlight-language-object" href="http://dbpedia.org/resource/Tim_Berners-Lee">http://dbpedia.org/resource/Tim_Berners-Lee</a></td><td><span class="highlight-language-object-name">"Tim Berners-Lee"@en</span></td></tr></tbody>
                   </table>
 
                   <p>The SPARQL suite is a powerful set of languages in that we can inspect and manipulate information based on the graph nature of the data on the Web represented using the RDF language.</p>
@@ -736,12 +736,10 @@ WHERE {
 
               <p>(you're going to do a comparison of tools and stuff, like academia.edu, stuff like this would not exist if social media in general had not become popular. This is the answer to the question 'how is social media affecting scholarlycomms?')</p>
 
-              <p>Why are we caring about this? -> We need to understand/reflect/observe/analyse the effects of the tools we use on the ecosystem and on science</p>
-<p>
+              <p>Why are we caring about this? -&gt; We need to understand/reflect/observe/analyse the effects of the tools we use on the ecosystem and on science</p><p>
 there is a top-down social pressure for openness
 * in the public interest
-* is it in the interest of the individual researcher?
-</p>
+* is it in the interest of the individual researcher?</p>
             </div>
 
               <div class="todo">
@@ -750,9 +748,7 @@ there is a top-down social pressure for openness
               <section id="social-implications" inlist="" rel="schema:hasPart" resource="#social-implications">
                 <h3 property="schema:name">Social Implications</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p class="todo">Move to Conclusions?</p>
-<pre>
-* social consequences of open science
+                  <p class="todo">Move to Conclusions?</p><pre>* social consequences of open science
 ** media pushed to the extreme (mcluhan) - global fight
 ** https://github.com/linkeddata/dokieli/issues/152
 ** social media running off with misleading headlines? #fakenews?
@@ -760,21 +756,15 @@ there is a top-down social pressure for openness
 
 
 * "Academic job offers that mentioned open science"
-** https://osf.io/7jbnt/
-</pre>
+** https://osf.io/7jbnt/</pre>
 
                 </div>
               </section>
 
               <section id="social-media-and-academia" inlist="" rel="schema:hasPart" resource="#social-media-and-academia">
                 <h3 property="schema:name">Social Media and Academia</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-<pre>
-** academics use social media to enhance scholarship - this is real/happening
-** should it be institution supported? do academics speak for themselves online?
-
-<cite><a href="http://firstmonday.org/ojs/index.php/fm/article/view/4937/4159">Academics and their online networks: Exploring the role of academic social networking sites</a></cite>
-</pre>
+                <div datatype="rdf:HTML" property="schema:description"><pre>** academics use social media to enhance scholarship - this is real/happening
+** should it be institution supported? do academics speak for themselves online?<cite><a href="http://firstmonday.org/ojs/index.php/fm/article/view/4937/4159">Academics and their online networks: Exploring the role of academic social networking sites</a></cite></pre>
 
                   <p id="twitter"><cite><a href="https://twitter.com/">Twitter</a></cite>, ..</p>
 
@@ -807,9 +797,7 @@ there is a top-down social pressure for openness
 
               <section class="todo" id="quality-control-and-certification" inlist="" rel="schema:hasPart" resource="#quality-control-and-certification">
                 <h3 property="schema:name">Quality Control and Certification</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-<pre>
-<cite><a data-versiondate="2018-09-20T15:46:12Z" data-versionurl="https://web.archive.org/web/20180920154612/http://cogprints.org/1692/1/harnad96.peer.review.html" href="http://cogprints.org/1692/1/harnad96.peer.review.html">Implementing Peer Review on the Net: Scientific Quality Control in Scholarly Electronic Journals</a></cite>
+                <div datatype="rdf:HTML" property="schema:description"><pre><cite><a data-versiondate="2018-09-20T15:46:12Z" data-versionurl="https://web.archive.org/web/20180920154612/http://cogprints.org/1692/1/harnad96.peer.review.html" href="http://cogprints.org/1692/1/harnad96.peer.review.html">Implementing Peer Review on the Net: Scientific Quality Control in Scholarly Electronic Journals</a></cite>
 
 ** reputation / fact-checking
 
@@ -819,8 +807,7 @@ there is a top-down social pressure for openness
 ** peer-review
 ** bias and prejudice / positive behaviour and civil discourse
 
-notes.fragile-science.txt
-</pre>
+notes.fragile-science.txt</pre>
 
                   <p>In <cite><a href="https://f1000research.com/articles/6-588/v2">What is open peer review? A systematic review</a></cite>, Ross-Hellauer summarises criticisms of traditional peer review: <q>unreliability and inconsistency, delay and expense, lack of accountability and risks of subversion, social and publication biases, lack of incentives, wastefulness</q></p>
 
@@ -875,14 +862,11 @@ and how.</pre>
 
                   <section id="the-status-quo" inlist="" rel="schema:hasPart" resource="#the-status-quo">
                     <h4 property="schema:name">The Status Quo</h4>
-                    <div datatype="rdf:HTML" property="schema:description">
-<pre>
-* publishers - social acceptability of $$$$$ for access. Why are we okay with this?
+                    <div datatype="rdf:HTML" property="schema:description"><pre>* publishers - social acceptability of $$$$$ for access. Why are we okay with this?
 ** conference registration fees sending to publishers -> closed access is acceptable? poor quality/formats ok?
 * incentives, rewards, acknowledgement (altmetrics)
 
-Consider moving this to LR chapter ()
-</pre>
+Consider moving this to LR chapter ()</pre>
                     </div>
                   </section>
                 </div>
@@ -955,7 +939,7 @@ Consider moving this to LR chapter ()
        Formal |----- Certification -------| Informal
       Delayed |----- Awareness -----------| Instant
 Medium-driven |----- Archiving -----------| Content-driven</pre>
-                <figcaption>Reproduction of the <q>Scholarly Communication Evolution</q> figure 1 from <cite><a property="prov:wasDerivedFrom" href="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">A Perspective on Archiving the Scholarly Web</a></cite> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</figcaption>
+                <figcaption>Reproduction of the <q>Scholarly Communication Evolution</q> figure 1 from <cite><a href="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf" property="prov:wasDerivedFrom">A Perspective on Archiving the Scholarly Web</a></cite> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</figcaption>
               </figure>
 
               <figure about="#communicated-object-evolution" id="communicated-object-evolution">
@@ -964,7 +948,7 @@ Medium-driven |----- Archiving -----------| Content-driven</pre>
    Uniform |----- Variety ----------| Diverse
 Standalone |----- Connectedness ----| Networked
     Closed |----- Access -----------| Open</pre>
-                <figcaption>Reproduction of the <q>Communicated Object Evolution</q> figure 2 from <cite><a property="prov:wasDerivedFrom" href="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">A Perspective on Archiving the Scholarly Web</a></cite> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</figcaption>
+                <figcaption>Reproduction of the <q>Communicated Object Evolution</q> figure 2 from <cite><a href="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf" property="prov:wasDerivedFrom">A Perspective on Archiving the Scholarly Web</a></cite> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</figcaption>
               </figure>
 
               <p>Given that the emergence of the Web influenced the communication market by transforming it from predominantly being medium-driven into a content-driven ecosystem, as well as the research processing becoming more visible on the Web (eg. as per the <q>Open Science</q> movement), Van de Sompel et al also posit that the aforementioned indicators impact the functions in scientific communication, and in particular have a significant impact on the future of archiving. The observation is based on the archival process held on the Web; unplanned and unconstrained archiving, organically occurring, by way of Web objects being deposited across distributed and dedicated archival services:</p>
