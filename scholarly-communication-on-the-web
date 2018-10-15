@@ -105,7 +105,7 @@ transform:rotate(-60deg);
 
         <dl id="document-identifier">
           <dt>Identifier</dt>
-          <dd><a href="https://linkedresearch.org/article/csarven.ca//scholarly-communication-on-the-web" rel="owl:sameAs">https://linkedresearch.org/article/csarven.ca//scholarly-communication-on-the-web</a></dd>
+          <dd><a href="https://linkedresearch.org/article/csarven.ca/scholarly-communication-on-the-web" rel="owl:sameAs">https://linkedresearch.org/article/csarven.ca/scholarly-communication-on-the-web</a></dd>
         </dl>
 
         <dl id="document-created">
