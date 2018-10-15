@@ -44,12 +44,12 @@
 
         <dl id="document-modified">
           <dt>Modified</dt>
-          <dd><time content="2018-03-03T00:00:00Z" datatype="xsd:dateTime" datetime="2018-03-03T00:00:00Z" property="schema:dateModified">2018-03-03</time></dd>
+          <dd><time content="2018-10-15T22:50:08.921Z" datatype="xsd:dateTime" datetime="2018-10-15T22:50:08.921Z" property="schema:dateModified">2018-10-15</time></dd>
         </dl>
-<!-- 
+
         <dl id="document-latest-version">
           <dt>Latest Version</dt>
-          <dd><a href="https://linkedresearch.org/article/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b" rel="mem:memento rel:latest-version">https://linkedresearch.org/article/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b</a></dd>
+          <dd><a href="https://article/csarven.ca/5676c06b-364e-4223-ac40-dac4d3e4d17c" rel="mem:memento rel:latest-version">https://article/csarven.ca/5676c06b-364e-4223-ac40-dac4d3e4d17c</a></dd>
         </dl>
 
         <dl id="document-timemap">
@@ -57,7 +57,6 @@
           <dd><a href="https://linkedresearch.org/article/csarven.ca/structure-of-scholarly-information.timemap" rel="mem:timemap">https://linkedresearch.org/article/csarven.ca/structure-of-scholarly-information.timemap</a></dd>
         </dl>
 
- -->
         <dl id="document-derived-from">
           <dt>Derived From</dt>
           <dd>
@@ -83,17 +82,17 @@
           <dt>License</dt>
           <dd><a href="https://creativecommons.org/licenses/by/4.0/" rel="schema:license" title="Creative Commons Attribution 4.0 Unported">CC BY 4.0</a></dd>
         </dl>
-<!--
+
         <dl id="document-inbox">
           <dt>Notifications Inbox</dt>
-          <dd><a href="https://linkedresearch.org/inbox/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b/" rel="ldp:inbox">https://linkedresearch.org/inbox/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b/</a></dd>
+          <dd><a href="https://linkedresearch.org/inbox/csarven.ca/5676c06b-364e-4223-ac40-dac4d3e4d17c/" rel="ldp:inbox">https://linkedresearch.org/inbox/csarven.ca/5676c06b-364e-4223-ac40-dac4d3e4d17c/</a></dd>
         </dl>
 
         <dl id="document-annotation-service">
           <dt>Annotation Service</dt>
-          <dd><a href="https://linkedresearch.org/annotation/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b/" rel="oa:annotationService">https://linkedresearch.org/annotation/csarven.ca/c0d378ce-1ca8-11e8-aece-3b8aec85050b/</a></dd>
+          <dd><a href="https://linkedresearch.org/annotation/csarven.ca/5676c06b-364e-4223-ac40-dac4d3e4d17c/" rel="oa:annotationService">https://linkedresearch.org/annotation/csarven.ca/5676c06b-364e-4223-ac40-dac4d3e4d17c/</a></dd>
         </dl>
--->
+
         <dl id="document-in-reply-to">
           <dt>In Reply To</dt>
           <dd><a href="https://linkedresearch.org/calls" rel="as:inReplyTo">Call for Linked Research</a></dd>
@@ -121,7 +120,7 @@
                 <figcaption property="schema:name">Linked Research ecosystem</figcaption>
               </figure>
 
-              <p>Here authors create research literature in reply to a call for contributions; reviewers provide feedback on the research results; individuals annotate and re-share the literature; editors filter and assemble a collection of work; archives are notified about the research. While the document-centric Web was mostly for human-readability, Linked Data-based Web is oriented towards improving discoverability, readability, and reuse for machines. For example, if research articles capture their <a href="http://csarven.ca/web-science-from-404-to-200#problem-space" rel="cito:citesAsEvidence">problem statements</a>, <a href="http://csarven.ca/call-for-linked-research#no-central-authority" rel="cito:citesAsEvidence">motivation</a> <a href="http://csarven.ca/sense-of-lsd-analysis#hypothesis-null" rel="cito:citesAsEvidence">hypothesis</a>, <a href="http://csarven.ca/cooling-down-web-science#introduction" rel="cito:citesAsEvidence">arguments</a>, <a href="http://csarven.ca/enabling-accessible-knowledge#workflow" rel="cito:citesAsEvidence">workflow steps</a>, <a href="http://csarven.ca/sense-of-lsd-analysis#methodology" rel="cito:citesAsEvidence">methodology</a>, <a href="http://csarven.ca/linked-data-notifications#protocol" rel="cito:citesAsEvidence">design</a>, <a href="http://csarven.ca/linked-statistical-data-analysis#results" rel="cito:citesAsEvidence">results</a>, <a href="http://csarven.ca/linked-data-notifications#analysis-and-evaluation">evaluation</a>, <a href="http://csarven.ca/linked-research-scholarly-communication#conclusions" rel="cito:citesAsEvidence">conclusions</a>, <a href="http://csarven.ca/dokieli#next-steps" rel="cito:citesAsEvidence">future challenges</a>, as well as all <a href="https://dokie.li/#figure-dokieli-citation" rel="cito:citesAsEvidence">inline semantic citations</a> (to name <em>a few</em>) where they are uniquely identified, related to other data, and discoverable, then specialised software can be used to verify the article’s well-formedness with respect to the domain. In essence, this materialises the possibility of articles being executable towards reproduction of computational results. Similarly, user interfaces can manifest environments where readers can rerun experiments or observe the effects of changing the input parameters of an algorithm. This provides an important affordance for a more <a title="Up and Down the Ladder of Abstraction" href="http://worrydream.com/LadderOfAbstraction/">involving environment for the user</a>, improves learnability of material, and supersedes the passive mode of simply reading about a proposed approach.</p>
+              <p>Here authors create research literature in reply to a call for contributions; reviewers provide feedback on the research results; individuals annotate and re-share the literature; editors filter and assemble a collection of work; archives are notified about the research. While the document-centric Web was mostly for human-readability, Linked Data-based Web is oriented towards improving discoverability, readability, and reuse for machines. For example, if research articles capture their <a href="http://csarven.ca/web-science-from-404-to-200#problem-space" rel="cito:citesAsEvidence">problem statements</a>, <a href="http://csarven.ca/call-for-linked-research#no-central-authority" rel="cito:citesAsEvidence">motivation</a> <a href="http://csarven.ca/sense-of-lsd-analysis#hypothesis-null" rel="cito:citesAsEvidence">hypothesis</a>, <a href="http://csarven.ca/cooling-down-web-science#introduction" rel="cito:citesAsEvidence">arguments</a>, <a href="http://csarven.ca/enabling-accessible-knowledge#workflow" rel="cito:citesAsEvidence">workflow steps</a>, <a href="http://csarven.ca/sense-of-lsd-analysis#methodology" rel="cito:citesAsEvidence">methodology</a>, <a href="http://csarven.ca/linked-data-notifications#protocol" rel="cito:citesAsEvidence">design</a>, <a href="http://csarven.ca/linked-statistical-data-analysis#results" rel="cito:citesAsEvidence">results</a>, <a href="http://csarven.ca/linked-data-notifications#analysis-and-evaluation">evaluation</a>, <a href="http://csarven.ca/linked-research-scholarly-communication#conclusions" rel="cito:citesAsEvidence">conclusions</a>, <a href="http://csarven.ca/dokieli#next-steps" rel="cito:citesAsEvidence">future challenges</a>, as well as all <a href="https://dokie.li/#figure-dokieli-citation" rel="cito:citesAsEvidence">inline semantic citations</a> (to name <em>a few</em>) where they are uniquely identified, related to other data, and discoverable, then specialised software can be used to verify the article’s well-formedness with respect to the domain. In essence, this materialises the possibility of articles being executable towards reproduction of computational results. Similarly, user interfaces can manifest environments where readers can rerun experiments or observe the effects of changing the input parameters of an algorithm. This provides an important affordance for a more <a href="http://worrydream.com/LadderOfAbstraction/" title="Up and Down the Ladder of Abstraction">involving environment for the user</a>, improves learnability of material, and supersedes the passive mode of simply reading about a proposed approach.</p>
 
               <p>In this section we examine some of the existing Web standards and practices for the structure and semantics of scholarly information with focus on narrative documents and observational data. Scholarly documents with the characteristics of a continuous prose, such as those of research articles typically includes factual information about an investigation with supporting provenance-level information and references to underlying data. Annotations in the general sense can be similar to articles, however they are generally intended to encapsulate an indirection where target resources are associated with annotation activities with motivations, eg. commenting, bookmarking, or classifying. Notifications for scholarly activities serve as a way to inform a target of interest about events in general. We also examine representation and publication of statistical, experimental, or observational data on the Web following the Linked Data design principles.</p>
 
@@ -396,7 +395,7 @@
                   <p>The results are part of the <cite><a href="http://270a.info/">270a.info</a></cite> LSD Cloud which also includes data originally from <cite><a href="http://worldbank.org/">World Bank</a></cite> (<abbr title="World Bank">WB</abbr>) and <cite><a href="http://transparency.org/">Transparency International</a></cite> (<abbr title="Transparency International">TI</abbr>). The LSD Cloud is also part of the broader <cite><a href="http://lod-cloud.net/">Linked Open Data</a></cite> (<abbr title="Linked Open Data">LOD</abbr>) Cloud. At this point in time, the cloud is composed of X number of triples, where Y are statistical observations aggregated by statistical agencies. Figure <a href="interlinks-270a.info">interlinks-270a.info</a> is an overview of the LSD Cloud with interlinks across endpoints.</p>
 
                   <figure id="interlinks-270a.info">
-                    <object type="image/svg+xml" width="640" height="480" data="http://270a.info/media/images/270a.cloud.svg"></object>
+                    <object data="http://270a.info/media/images/270a.cloud.svg" height="480" type="image/svg+xml" width="640"></object>
                     <figcaption>Interlinks of Linked Statistical Data endpoints at 270a.info</figcaption>
                   </figure>
 
