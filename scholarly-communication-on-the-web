@@ -309,25 +309,25 @@ support groups.</pre>
 
                       <p>In 1996, Berners-Lee gives a set of <em>axioms</em> for URIs as the backbone of what makes the Web a universal information space:</p>
 
-                      <blockquote cite="https://www.w3.org/DesignIssues/Axioms.html#uri">
+                      <blockquote cite="https://www.w3.org/DesignIssues/Axioms.html#uri" id="axioms-uri">
                         <dl>
-                          <dt>Axiom 0: Universality 1</dt>
+                          <dt id="axiom-0">Axiom 0: Universality 1</dt>
                           <dd>Any resource anywhere can be given a URI</dd>
 
-                          <dt>Axiom 0a: Universality 2</dt>
+                          <dt id="axiom-0a">Axiom 0a: Universality 2</dt>
                           <dd>Any resource of significance should be given a URI.</dd>
 
-                          <dt>Axiom 1: Global scope</dt>
+                          <dt id="axiom-1">Axiom 1: Global scope</dt>
                           <dd>It doesn't matter to whom or where you specify that URI, it will have the same meaning.</dd>
 
-                          <dt>Axiom 2a: sameness</dt>
+                          <dt id="axiom-2a">Axiom 2a: sameness</dt>
                           <dd>a URI will repeatably refer to "the same" thing</dd>
 
-                          <dt>Axiom 2b: identity</dt>
+                          <dt id="axiom-2b">Axiom 2b: identity</dt>
                           <dd>the significance of identity for a given URI is determined by the person who owns the URI, who first determined what it points to.</dd>
                         </dl>
 
-                        <footer><cite><a href="https://www.w3.org/DesignIssues/Axioms.html#uri" rel="cito:includesQuotationFrom">Universal Resource Identifiers -- Axioms of Web Architecture</a></cite></footer>
+                        <footer><cite><a href="https://www.w3.org/DesignIssues/Axioms.html#uri" rel="cito:includesQuotationFrom">Universal Resource Identifiers -- Axioms of Web Architecture</a></cite>, 1996, Tim Berners-Lee</footer>
                       </blockquote>
 
                       <p>URIs make it possible for real or abstract objects to be identified. When HTTP URIs are dereferenced different representations (data formats) are made available from corresponding <cite><a href="https://tools.ietf.org/html/rfc1738">Uniform Resource Locators</a></cite> (<abbr title="Uniform Resource Locator">URL</abbr>). While URIs makes it possible to identify (name) things on the Web, URLs make it possible for humans and machines to locate and to interact further with content.</p>
@@ -415,7 +415,7 @@ support groups.</pre>
                   <pre id="paul-otlet-influenced-tim-berners-lee"><span class="highlight-language-statement">&lt;<span class="highlight-language-subject" title="subject">http://dbpedia.org/resource/<strong>Paul_Otlet</strong></span>&gt;
   &lt;<span class="highlight-language-predicate" title="predicate">http://dbpedia.org/ontology/<strong>influenced</strong></span>&gt; &lt;<span class="highlight-language-object" title="object">http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong></span>&gt; .</span></pre>
 
-                  <p id="self-describing">As ad-hoc exploration is one of the goals of the Web, the W3C TAG Finding <cite><a href="http://www.w3.org/2001/tag/doc/selfDescribingDocuments">The Self-Describing Web</a></cite> reports how HTTP and other Web technologies can be used to <q>create, deploy and access <em>self-describing</em> Web resource representations that can be correctly interpreted.</q> It is expressed that the RDF language can be used to integrate with the Semantic Web such that the information encoded in a representation explicitly provides interoperable means to relate Web resources.</p>
+                  <p id="self-describing">As ad-hoc exploration is one of the goals of the Web, the W3C TAG Finding <cite><a href="http://www.w3.org/2001/tag/doc/selfDescribingDocuments">The Self-Describing Web</a></cite>, <span class="todo">YYYY</span>, reports how HTTP and other Web technologies can be used to <q>create, deploy and access <em>self-describing</em> Web resource representations that can be correctly interpreted.</q> It is expressed that the RDF language can be used to integrate with the Semantic Web such that the information encoded in a representation explicitly provides interoperable means to relate Web resources.</p>
 
                   <p id="follow-your-nose">RDF facilitates a uniform <q>follow your nose</q> type of exploration by following the relations in statements in order to arrive at another unit of <em>self-describing</em> information. The uniformity in graph traversal enables applications to meaningfully interpret and integrate with disparate data without having any out-of-band knowledge, and retrieve more information about the terms as they need to from the source. As the content identified at <code class="highlight-language-subject">http://dbpedia.org/resource/Paul_Otlet</code> describes itself, in the same way, the relation <code class="highlight-language-predicate">http://dbpedia.org/ontology/influenced</code> defines itself, and when we inspect a representation of <code class="highlight-language-object">http://dbpedia.org/resource/Tim_Berners-Lee</code>, we will find that it describes itself.</p>
 
