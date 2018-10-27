@@ -218,28 +218,34 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
     </div>
   </section>
 
-  <section id="thesis-overview" inlist="" rel="schema:hasPart" resource="#thesis-overview">
-    <h2 property="schema:name">Thesis Overview</h2>
-    <div datatype="rdf:HTML" property="schema:description">
-      <pre>
+          <section id="thesis-overview" inlist="" rel="schema:hasPart" resource="#thesis-overview">
+            <h2 property="schema:name">Thesis Overview</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <pre>
 * Structure (what's ahead and why)
 * List of Articles (mostly reviewed works, standards)
-      </pre>
+              </pre>
 
+              <section id="contributions" inlist="" rel="schema:hasPart" resource="#contributions" typeof="deo:Contribution">
+                <h3 property="schema:name">Contributions</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>* Main Contributions (method, implementation, concept, .. standards)</p>
 
-      <section id="contributions" inlist="" rel="schema:hasPart" resource="#contributions" typeof="deo:Contribution">
-        <h3 property="schema:name">Contributions</h3>
-        <div datatype="rdf:HTML" property="schema:description">
-          <p>* Main Contributions (method, implementation, concept, .. standards)</p>
+                  <ul>
+                    <li>..</li>
+                  </ul>
+                </div>
+              </section>
 
-          <ul>
-            <li>..</li>
-          </ul>
-        </div>
-      </section>
+              <section id="how-to-read-this-article" inlist="" rel="schema:hasPart" resource="#how-to-read-this-article">
+                <h3 property="schema:name">How to Read This Article</h3>
+                <div data="rdf:HTML" property="schema:description">
+                  <p rel="cito:parodies" resource="https://web.archive.org/web/20181027125108/https://html.spec.whatwg.org/multipage/introduction.html#how-to-read-this-specification">This article should be read like all other articles. First, it should be read cover-to-cover, multiple times. Then, it should be read backwards at least once. Then it should be read by picking random sections from the contents list and following all the cross-references.</p>
+                </div>
+              </section>
+            </div>
+          </section>
 
-    </div>
-  </section>
 
   <pre>Commons -- check history
 gift economy
