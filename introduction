@@ -243,6 +243,13 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
                   <p rel="cito:parodies" resource="https://web.archive.org/web/20181027125108/https://html.spec.whatwg.org/multipage/introduction.html#how-to-read-this-specification">This article should be read like all other articles. First, it should be read cover-to-cover, multiple times. Then, it should be read backwards at least once. Then it should be read by picking random sections from the contents list and following all the cross-references.</p>
                 </div>
               </section>
+
+              <section id="typographic-conventions" inlist="" rel="schema:hasPart" resource="#typographic-conventions">
+                <h3 property="schema:name">Typographic Conventions</h3>
+                <div data="rdf:HTML" property="schema:description">
+                  <p></p>
+                </div>
+              </section>
             </div>
           </section>
 
