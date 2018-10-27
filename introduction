@@ -237,6 +237,43 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
                 </div>
               </section>
 
+              <section id="literature-review-and-citations" inlist="" rel="schema:hasPart" resource="#literature-review-and-citations">
+                <h3 property="schema:name">Literature Review and Citations</h3>
+                <div data="rdf:HTML" property="schema:description">
+                  <p>The five review characteristics; focus, goal, perspective, coverage, and audience, are borrowed from the summary at <cite><a data-versiondate="2018-10-27T14:59:46Z" data-versionurl="https://web.archive.org/web/20181027145946/https://pareonline.net/pdf/v14n13.pdf" href="https://pareonline.net/pdf/v14n13.pdf">Practical Assessment, Research &amp; Evaluation</a></cite>, Randolph, 2009, which is based on <cite>Organizing knowledge syntheses: A taxonomy of literature reviews</cite>, Cooper, 1988.</p>
+
+                  <p><strong>Focus</strong>: The core focus of the reviews and cited material was to establish a connection between the available theories, as well as the application of certain interventions to help identify and apply a practical need. Hence, majority of the analysis and synthesis focuses on practices or applications in the field.</p>
+
+                  <p><strong>Goal</strong>: My intention is to present this thesis in a way that is technically and meaningfully connected with the knowledge out there. Hence, I would like any reader (human or machine) in the future to be able to observe and verify the connections that I have put together as much as possible. The main interest for the reviews and citations were information integration for the big picture, identification and discussion of central issues, and explicating arguments.</p>
+
+                  <p><strong>Perspective</strong>: As this thesis is about connecting and endorsing open scholarly knowledge, there is a selection bias in favour of (research) information based on the following criteria:</p>
+
+                  <ul>
+                    <li>Publicly accessible URL in the case of digital objects.</li>
+                    <li>Referencable URI in the case of printed material.</li>
+                    <li>Article or data including text and media in full.</li>
+                    <li>Accessible by anyone (humans and machines).</li>
+                    <li>Available to anyone without financial, legal, or technical barriers (free of charge, besides having a network connection).</li>
+                    <li>Favouring source materials (as opposed to third-party re-publications).</li>
+                  </ul>
+
+                  <p>For example, HTTP URIs of research objects resolving to <q>paywall</q> or <q>access toll</q> landing pages were excluded. The rationale is that, given above criteria, if information is <em>only</em> available to a subset of humans, then it is not deemed to be part of the observable and reproducible universe of knowledge - many consider this as a fundamental requirement of applying the scientific method. Fortunately, I was able to gather plenty of "open" and "free" resources to support the narrative of this thesis.</p>
+
+                  <p><strong>Coverage</strong>: The reviewed and cited works is composed of a purposive sample, examining only pivotal works and the source of concepts in the field to tie them together. While this selection is naturally not exhaustive in and itself, I have considered, located, and discussed material that was available at the time of my investigation. While there may be natural imperfections in data collection, evaluation, analysis, and interpretation in any literature review and bibliographic citations, I have aimed to be systematic in what's covered. To that end, the works - text, data, media, or other - mentioned in this thesis were included or excluded based on the following criteria:</p>
+
+                  <ul>
+                    <li>Information in English.</li>
+                    <li>Web accessible digital objects.</li>
+                    <li>Printed material accessible through a library loan.</li>
+                    <li>Referencing information that is legally made available to the public (to the best of my knowledge!)</li>
+                  </ul>
+
+                  <p><strong>Organisation</strong>: Historical and conceptual formats were used as organisation schemes. The primary background and related work in chapters and sections within <a href="scholarly-communication-on-the-web">scholarly-communication-on-the-web</a>, <a href="structure-of-scholarly-information">structure-of-scholarly-information</a>, <a href="decentralising-scholarly-communication">decentralising-scholarly-communication</a>, and first organised conceptually, and then chronologically ordered.</p>
+
+                  <p><strong>Audience</strong>: for anyone interested in traversing the connections and building on the underlying results.</p>
+                </div>
+              </section>
+
               <section id="how-to-read-this-article" inlist="" rel="schema:hasPart" resource="#how-to-read-this-article">
                 <h3 property="schema:name">How to Read This Article</h3>
                 <div data="rdf:HTML" property="schema:description">
@@ -247,25 +284,13 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
               <section id="typographic-conventions" inlist="" rel="schema:hasPart" resource="#typographic-conventions">
                 <h3 property="schema:name">Typographic Conventions</h3>
                 <div data="rdf:HTML" property="schema:description">
-                  <p></p>
+                  <p>...</p>
                 </div>
               </section>
             </div>
           </section>
 
-
-  <pre>Commons -- check history
-gift economy
-  </pre>
-
-different representations -- there is a reason for common formats (templates .. what to expect from a paper from a discipiline... familiarity.) .... dokieli shows some possibilities to show common patterns.. (acm/lncs) -- this is for human mostly
-
-
-there is also familiatiy for machines / interop.. eg. knowing where to look for hypothesis ...
-
-
-describe the fundmanetals more abstractly... before diving into specific standards.
-
+          <hr />
 
           <p><img alt="Illustration of Alice by Lewis Carroll - Alice’s Adventures Under Ground, the facsimile edition published by Macmillan in 1886" class="align-left lr" height="143" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/86/AAUG_p06.png/128px-AAUG_p06.png" title="Illustration of Alice by Lewis Carroll - Alice’s Adventures Under Ground, the facsimile edition published by Macmillan in 1886" width="128" /> <q cite="http://www.imdb.com/title/tt0133093/quotes?item=qt0324307">This is your last chance. After this, there is no turning back. You take the <span class="unicode-blue-pill">blue pill</span> - the story ends, you wake up in your bed and believe whatever you want to believe. You take the <span class="unicode-red-pill">red pill</span> - you stay in Wonderland and I show you how deep the rabbit-hole goes</q> - <cite><a href="http://www.imdb.com/title/tt0133093/quotes?item=qt032430">Morpheus</a></cite>, The Matrix (1999).</p>
         </div>
