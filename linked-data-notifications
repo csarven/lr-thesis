@@ -21,25 +21,34 @@
         <h1 property="schema:name">Linked Data Notifications</h1>
 
         <div datatype="rdf:HTML" property="schema:description">
-          <p>General info about using Web-centric notifications to make social scholarly web happen, and enpowering applications to discover activities out there.. </p>
+          <p>As when scholarly and social content is created and registered, it needs to be findable and reusable. The awareness function in scholarly and scientific communication can be addressed with a group of Web-centric standards. For instance, the specifications pertaining to <a href="decentralising-scholarly-communication#read-write-linked-data">read-write Linked Data</a>, vocabularies about <a href="structure-of-scholarly-information#publishing-and-referencing">publishing resources</a> and <a href="structure-of-scholarly-information#participation">social participation</a> can be used to meet a wide array of scholarly and social activities on the decentralised Web.</p>
 
-          <p>Notifications are sent over the Web for a variety of purposes, including social applications: <q>You have been invited to a graduation party!</q>, <q>Tim commented on your blog post!</q>, <q>Liz tagged you in a photo</q>. The notification data may be displayed to a human to acknowledge, or used to trigger some other application-specific process (or both). <span id="issue" about="#design-issue" datatype="rdf:HTML" property="schema:description" rel="dio:generatedByIntent" resource="#design-intent" typeof="dio:DesignIssue">In a decentralised architecture, notifications can be a key element for federation of information, and application integration. However in <span rel="dio:hasStatus" resource="#design-issue-status" typeof="dio:Active">centralised systems which prevail today</span>, this data is structured arbitrarily and typically only usable by the application that generated it in the first place. Current efforts towards <em>re-decentralising</em> the Web [<a class="ref" href="#ref-1">1</a>, <a class="ref" href="#ref-2">2</a>, <a class="ref" href="#ref-3">3</a>] are moving towards architectures in which data storage is decoupled from application logic, freeing end users to switch between applications, or to let multiple applications operate over the same data. So far, notifications are considered to be <em>ephemeral</em> resources which may disappear after transport, and thus are excluded from being designed for reuse.</span></p>
+          <p class="todo">Express as proposed solution for a research question:</p>
+          <p>In the section that follows, we will discuss a communications protocol that specifies how actors and applications can use a decentralised Linked Data notifications mechanism in order to fulfil the awareness function.</p>
 
+          <section id="linked-data-notifications" inlist="" rel="schema:hasPart" resource="#linked-data-notifications">
+            <h2 property="schema:name">Linked Data Notifications</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>Notifications are sent over the Web for a variety of purposes, including social applications: <q>You have been invited to a graduation party!</q>, <q>Tim commented on your blog post!</q>, <q>Liz tagged you in a photo</q>. The notification data may be displayed to a human to acknowledge, or used to trigger some other application-specific process (or both). <span id="issue" about="#design-issue" datatype="rdf:HTML" property="schema:description" rel="dio:generatedByIntent" resource="#design-intent" typeof="dio:DesignIssue">In a decentralised architecture, notifications can be a key element for federation of information, and application integration. However in <span rel="dio:hasStatus" resource="#design-issue-status" typeof="dio:Active">centralised systems which prevail today</span>, this data is structured arbitrarily and typically only usable by the application that generated it in the first place. Current efforts towards <em>re-decentralising</em> the Web [<a class="ref" href="#ref-1">1</a>, <a class="ref" href="#ref-2">2</a>, <a class="ref" href="#ref-3">3</a>] are moving towards architectures in which data storage is decoupled from application logic, freeing end users to switch between applications, or to let multiple applications operate over the same data. So far, notifications are considered to be <em>ephemeral</em> resources which may disappear after transport, and thus are excluded from being designed for reuse.</span></p>
+
+              <p id="design-intent" about="#design-intent" datatype="rdf:HTML" property="schema:description" rel="dio:generatesIssue" resource="#design-issue" typeof="dio:Intent">We argue that notification data should not be locked into particular systems. We designed the <em>Linked Data Notifications (LDN)</em> protocol to support sharing and reuse of notifications <em>across</em> applications, regardless of how they were generated or what their contents are. We describe how the principles of identification, addressability and semantic representation can be applied to notifications on the Web. Specifying LDN as a formal protocol allows independently implemented, heterogeneous applications which generate and use notifications, to seamlessly work together. Thus, LDN supports the decentralisation of the Web as well as encourages the generation and consumption of Linked Data.</p>
+            </div>
+          </section>
 
           <section id="decentralised-notifications-and-annotations" inlist="" rel="schema:hasPart" resource="decentralised-notifications-and-annotations">
             <h2 property="schema:name">Decentralised Notifications and Annotations</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>By using different arrangements of LDN, WA, AP, LDP mechanisms and related vocabularies, scholarly and social activities can be systematicaly discovered for a variety of use cases. Decentralised notifications and annotations surrounding an article can be determined as follows:</p>
+              <p>By using different arrangements of LDN, WA, AP, LDP mechanisms and related vocabularies, scholarly and social activities can be systematically discovered for a variety of use cases. Decentralised notifications and annotations surrounding an article can be determined as follows:</p>
 
               <ul>
-                <li>Article asserts the location of a preferred service for maintaining annotations about the the subject resource (via <code>oa:annotationService</code>) </li>
-                <li>Article asserts the location of a service that receives and serves notifications about the subject resource (via <code>ldp:inbox</code>)</li>
-                <li>An individual's profile asserting their preferred storage location (via <code>pim:storage</code>)</li>
-                <li>An individual's profile asserting the location of their activities (via <code>as:outbox</code>)</li>
-                <li>Members of an individual's social graph (via eg. <code>foaf:knows</code>) asserting their preferred storage location</li>
-                <li>Members of an individual's social graph asserting the location of their activities</li>
-                <li>Inbox and annotation service locations are known prior to interaction eg. trusted or used by a community.</li>
-                <li>Inbox and annotation service locations are manually input to the system eg. not publicised or private.</li>
+                <li id="subject-annotation-service">Resource asserts the location of a preferred service for maintaining annotations about the the subject resource (via <code>oa:annotationService</code>) </li>
+                <li id="subject-inbox">Resource asserts the location of a service that receives and serves notifications about the subject resource (via <code>ldp:inbox</code>)</li>
+                <li id="profile-storage">An individual's profile asserting their preferred storage location (via <code>pim:storage</code>)</li>
+                <li id="profile-outbox">An individual's profile asserting the location of their activities (via <code>as:outbox</code>)</li>
+                <li id="profile-knows-profile-storage">Members of an individual's social graph (via eg. <code>foaf:knows</code>) asserting their preferred storage location</li>
+                <li id="profile-knows-profile-outbox">Members of an individual's social graph asserting the location of their activities</li>
+                <li id="inbox-annotation-known">Inbox or annotation service locations are known prior to interaction eg. trusted or used by a community.</li>
+                <li id="inbox-annotation-manual">Inbox or annotation service locations are manually input to the system eg. not publicised or private.</li>
               </ul>
 
               <p>Applications can incrementally implement a combination of these approaches to discover distributed activities on the Web. Figure X depicts an interplay of decentralised personal profiles, notifications, and annotations.</p>
@@ -50,18 +59,9 @@
             </div>
           </section>
 
-
-          <section id="linked-data-notifications" inlist="" rel="schema:hasPart" resource="#linked-data-notifications">
-            <h2 property="schema:name">Linked Data Notifications</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p id="design-intent" about="#design-intent" datatype="rdf:HTML" property="schema:description" rel="dio:generatesIssue" resource="#design-issue" typeof="dio:Intent">We argue that notification data should not be locked into particular systems. We designed the <em>Linked Data Notifications (LDN)</em> protocol to support sharing and reuse of notifications <em>across</em> applications, regardless of how they were generated or what their contents are. We describe how the principles of identification, addressability and semantic representation can be applied to notifications on the Web. Specifying LDN as a formal protocol allows independently implemented, heterogeneous applications which generate and use notifications, to seamlessly work together. Thus, LDN supports the decentralisation of the Web as well as encourages the generation and consumption of Linked Data.</p>
-            </div>
-          </section>
-
           <section id="linked-specifications-reports" inlist="" rel="schema:hasPart" resource="#linked-specifications-reports">
             <h2 property="schema:name">Linked Specifications, Test Suites, and Implementation Reports</h2>
             <div datatype="rdf:HTML" property="schema:description">
-
               <p class="todo">The relevance of this section/work is about independent publishing (different jurisdictions) but following same line of Web standards / interop... pay-as-you-go... the sum is greater</p>
 
               <p>This article describes the semantic structure and linking of the W3C Recommendation <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (LDN), its test suite, and implementation reports.</p>
