@@ -220,6 +220,21 @@
 
           <p class="todo">Is this useful? <cite><a data-versiondate="2018-09-02T19:37:42Z" data-versionurl="https://web.archive.org/web/20180902193742/https://arxiv.org/pdf/1202.4503v1.pdf" href="https://arxiv.org/pdf/1202.4503v1.pdf">A Critical Look at Decentralized Personal Data Architectures</a></cite> .. ?</p>
 
+
+          <section id="notification-protocol" inlist="" rel="schema:hasPart" resource="#notification-protocol">
+            <h2 property="schema:name">Notification Protocol</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+<p class="todo">comparison of the shortcomings of existing systems and the benefits of the proposed system, followed by a discussion of the trade-offs that were necessary to realize those benefits.</p>
+
+<p class="todo">“Comparison summary”: what is the result of the evaluation here? “Compatibility with existing systems”: this is perhaps the clearest, but the conclusion about compatibility is implicit. “Optimizing implementation[s]”, “Data Formats and Content Negotiation”: what is evaluated? “Accommodating different targets”: how well is LDN doing compared to the others?</p>
+
+<p class="todo">What is good and bad? What is important, what is desirable? I would suggest to highlight the problems and assets somewhat more clearly.</p>
+
+<p class="todo"> Both in the discussion of related work and in the evaluation, I’d like to see a deeper understanding of current limitations, and how LDN addresses is and at what cost. More specifically, what are the problems of LDN, and are they inherent or fixable?</p>
+
+            </div>
+          </section>
+
         </div>
       </article>
     </main>

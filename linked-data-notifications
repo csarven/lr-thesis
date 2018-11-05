@@ -21,17 +21,58 @@
         <h1 property="schema:name">Linked Data Notifications</h1>
 
         <div datatype="rdf:HTML" property="schema:description">
-          <p>As scholarly and social content are created and are identifiable, they need to be findable in order to be usable. A grouping of Web-centric standards can meet this requirement en route to fulfilling the awareness function in scholarly communication. For instance, the specifications pertaining to <a href="decentralising-scholarly-communication#read-write-linked-data">read-write Linked Data</a>, vocabularies about <a href="structure-of-scholarly-information#publishing-and-referencing">publishing resources</a> and <a href="structure-of-scholarly-information#participation">social participation</a> can be used to meet a wide array of scholarly and social activities on the decentralised Web.</p>
+          <p>As scholarly and social content are created and are identifiable, they need to be findable in order to be usable. A set of Web-centric standards can meet this requirement en route to fulfilling the awareness function in scholarly communication. For instance, the specifications pertaining to <a href="decentralising-scholarly-communication#read-write-linked-data">read-write Linked Data</a>, vocabularies about <a href="structure-of-scholarly-information#publishing-and-referencing">publishing resources</a> and <a href="structure-of-scholarly-information#participation">social participation</a> can be used to meet a wide array of scholarly and social activities on the decentralised Web.</p>
 
           <p class="todo">Express as proposed solution for a research question:</p>
           <p>In the section that follows, we will discuss a communications protocol that specifies how actors and applications can use a decentralised Linked Data notifications mechanism in order to fulfil the awareness function.</p>
 
-          <section id="linked-data-notifications" inlist="" rel="schema:hasPart" resource="#linked-data-notifications">
-            <h2 property="schema:name">Linked Data Notifications</h2>
+          <p class="todo">clearer need and urgency from the beginning, perhaps more strongly tied to use cases</p>
+
+          <p>Why is it a problem that notifications are only usable by those who generate it?</p>
+
+          <p class="todo">current systems currently structure messages arbitrarily, because they are the only consumers of these messages. If we want to decentralize this, the messages need to have a similar structure. So structure is an additional requirement of decentralization, and I would suggest to write it down as such.</p>
+
+          <p class="todo">Propose a bunch of principles?</p>
+
+          <section id="use-cases-for-decentralised-notifications" inlist="" rel="schema:hasPart" resource="#use-case-for-decentralised-notifications">
+            <h2 property="schema:name">Use Cases for Decentralised Notifications</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo">list general social web UC to scholarly-centric (even mention Twitter as an example where people/scholars use notifications regularly</p>
+              <p class="todo">Generalise decentralised-notifications-and-annotations</p>
+              <p class="todo">specialised senders/consumers?</p>
+              <p class="todo">consistency checking (shacl/shex?)</p>
+
+              <p class="todo">What scenarios do you want to enable that are difficult or impossible today?</p>
+            </div>
+          </section>
+
+          <section id="overview-of-web-notification-systems" inlist="" rel="schema:hasPart" resource="#overview-of-web-notification-systems">
+            <h2 property="schema:name">Overview of Web Notification Systems</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo">cover linked-data-notifications#related work and maybe more?</p>
+            </div>
+          </section>
+
+          <section id="resource-centric-communication-protocol" inlist="" rel="schema:hasPart" resource="#resource-centric-communication-protocol">
+            <h2 property="schema:name">Resource-centric Communication Protocol</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo">Rationale behind architectural decisions</p>
+
               <p>Notifications are sent over the Web for a variety of purposes, including social applications: <q>You have been invited to a graduation party!</q>, <q>Tim commented on your blog post!</q>, <q>Liz tagged you in a photo</q>. The notification data may be displayed to a human to acknowledge, or used to trigger some other application-specific process (or both). <span id="issue" about="#design-issue" datatype="rdf:HTML" property="schema:description" rel="dio:generatedByIntent" resource="#design-intent" typeof="dio:DesignIssue">In a decentralised architecture, notifications can be a key element for federation of information, and application integration. However in <span rel="dio:hasStatus" resource="#design-issue-status" typeof="dio:Active">centralised systems which prevail today</span>, this data is structured arbitrarily and typically only usable by the application that generated it in the first place. Current efforts towards <em>re-decentralising</em> the Web [<a class="ref" href="#ref-1">1</a>, <a class="ref" href="#ref-2">2</a>, <a class="ref" href="#ref-3">3</a>] are moving towards architectures in which data storage is decoupled from application logic, freeing end users to switch between applications, or to let multiple applications operate over the same data. So far, notifications are considered to be <em>ephemeral</em> resources which may disappear after transport, and thus are excluded from being designed for reuse.</span></p>
 
               <p id="design-intent" about="#design-intent" datatype="rdf:HTML" property="schema:description" rel="dio:generatesIssue" resource="#design-issue" typeof="dio:Intent">We argue that notification data should not be locked into particular systems. We designed the <em>Linked Data Notifications (LDN)</em> protocol to support sharing and reuse of notifications <em>across</em> applications, regardless of how they were generated or what their contents are. We describe how the principles of identification, addressability and semantic representation can be applied to notifications on the Web. Specifying LDN as a formal protocol allows independently implemented, heterogeneous applications which generate and use notifications, to seamlessly work together. Thus, LDN supports the decentralisation of the Web as well as encourages the generation and consumption of Linked Data.</p>
+
+              <p about="#design-decision" datatype="rdf:HTML" property="schema:description" rel="dio:governsDesign" resource="#protocol" typeof="dio:DesignDecision">We build on existing W3C standards and Linked Data principles. In particular, the storage of notifications is compatible with the <cite>Linked Data Platform</cite> standard; notifications are identified by HTTP URIs; and notification contents are available as JSON-LD. A key architectural decision is the separation of concerns between <em>senders</em>, <em>receivers</em>, and <em>consumers</em> of notifications. Implementations of the protocol can play one or more of these roles, and interoperate successfully with implementations playing the complementary roles. This means that notifications generated by one application can be reused by a completely different application, accessed via the store where the notification data resides, through shared Linked Data vocabularies. LDN also pushes the decentralised approach further by allowing any <em>target</em> resource to advertise its Inbox anywhere on the Web; that is, targets do not need to be coupled to or controlled by a receiver, and can make use of a third-party <em>Inbox as a service</em>.<span about="#design-decision" rel="dio:supportedBy"><meta resource="http://csarven.ca/#i" /><meta resource="https://rhiaro.co.uk/#me" /></span></p>
+
+              <div about="" id="concept-scheme" rel="schema:hasPart" resource="#concept-scheme">
+                <p resource="#concept-scheme" typeof="skos:ConceptScheme"><span property="skos:definition">As the following terms used throughout this article may be subject to different interpretations by different communities, we provide some definitions here.</span></p>
+
+                <p rel="skos:hasTopConcept">By <strong about="#concept-decentralisation" id="concept-decentralisation" property="skos:prefLabel" rel="skos:topConceptOf" resource="#concept-scheme" typeof="skos:Concept">decentralisation</strong>, we mean <span about="#concept-decentralisation" property="skos:definition">data and applications are loosely coupled, and users are empowered to choose where their data is stored or held. We focus on Web-based decentralisation, where content is transported over HTTP, and resources are identified with URIs.</span> An <strong about="#concept-inbox" id="concept-inbox" property="skos:prefLabel" rel="skos:topConceptOf" resource="#concept-scheme" typeof="skos:Concept">Inbox</strong> is <span about="#concept-inbox" property="skos:definition">a container or directory (attached to a Web resource) which is used to store and serve a collection of notifications.</span> A <strong about="#concept-notification" id="concept-notification" property="skos:prefLabel" rel="skos:topConceptOf" resource="#concept-scheme" typeof="skos:Concept">notification</strong> is <span about="#concept-notification" property="skos:definition">a retrievable resource which returns RDF. The contents of notifications are intended to describe a change in state of some other resource, or contain new information for the attention of a user or process, and may be subject to constraints of the Inbox it is contained in.</span>
+                </p>
+              </div>
+
+
+              <p class="todo">Is JSON-LD a hard requirement? Can’t clients and servers agree at runtime about the serialization?</p>
             </div>
           </section>
 
@@ -75,6 +116,10 @@
           <section id="on-screen" inlist="" rel="schema:hasPart" resource="#on-screen">
             <h2 property="schema:name">On screen!</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo">Chapter discussion goes here</p>
+
+              <p class="todo">What are the lessons learned? What would you do differently next time? How do your findings generalize to to other domains? What impact can this have (this is minimally stated) and why? What is needed/still needs to be done to have such an impact?</p>
+
               <blockquote cite="http://www.chakoteya.net/Voyager/613.htm">
                 <dl>
                   <dt>Geordi La Forge</dt><dd>Captain, we are being hailed.</dd>
