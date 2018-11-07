@@ -26,20 +26,23 @@
 
           <p>This thesis postulates that knowledge creators can demonstrate that self-publishing different units of communication can be socially, technically, and financially preferable to a third-party's handling of the same information and interactions, as well as their reuse. <q>Control yourself</q> captures the idea that autonomous, decentralised participation in the scholarly ecosystem is possible and desirable. Web technologies enable universal accessibility of units of information that are human- and machine-readable, as well as the possibility to integrate social interactions with scholarly information.</p>
 
-              <section id="objectivity-value-judgment-and-theory-choice" inlist="" rel="schema:hasPart" resource="#objectivity-value-judgment-and-theory-choice">
-                <h3 property="schema:name">Objectivity, Value Judgment, and Theory Choice</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p><strong>Accuracy</strong>:</p>
-                  <p><strong>Consistency</strong>:</p>
-                  <p><strong>Scope</strong>:</p>
-                  <p><strong>Simplicity</strong>:</p>
-                  <p><strong>Fruitfulness</strong>:</p>
-                </div>
-              </section>
+          <section id="objectivity-value-judgment-and-theory-choice" inlist="" rel="schema:hasPart" resource="#objectivity-value-judgment-and-theory-choice">
+            <h2 property="schema:name">Objectivity, Value Judgment, and Theory Choice</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo">Should this be discussed in Evaluation, Linked Research or Conclusions .. if at all?</p>
+              <p>We will use Kuhn's five characteristics; <q cite="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">accuracy, consistency, scope, simplicity, and fruitfulness</q> from <cite><a href="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">Objectivity, Value Judgment, and Theory Choice</a></cite>, and justify why the <cite>Linked Research</cite> design principles describes a paradigm that can be further investigated towards genuine scholarly communication on the Web.</p>
+
+              <p><strong>Accuracy</strong>:</p>
+              <p><strong>Consistency</strong>:</p>
+              <p><strong>Scope</strong>:</p>
+              <p><strong>Simplicity</strong>:</p>
+              <p><strong>Fruitfulness</strong>:</p>
+            </div>
+          </section>
 
 
           <section id="role-of-institutions" inlist="" rel="schema:hasPart" resource="#role-of-institutions">
-            <h3 property="schema:name">Role of Institutions</h3>
+            <h2 property="schema:name">Role of Institutions</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <blockquote>
                 <p>The task that remains is one of the redesigning social institutions so that they are consonant with the revealed potentials of resource availability and technological efficiency.</p>
