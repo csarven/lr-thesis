@@ -40,16 +40,32 @@
               <p class="todo">list general social web UC to scholarly-centric (even mention Twitter as an example where people/scholars use notifications regularly</p>
               <p class="todo">Generalise decentralised-notifications-and-annotations</p>
               <p class="todo">specialised senders/consumers?</p>
-              <p class="todo">consistency checking (shacl/shex?)</p>
+              <p class="todo">consistency checking (SHACL/ShEx?)</p>
 
               <p class="todo">What scenarios do you want to enable that are difficult or impossible today?</p>
             </div>
           </section>
 
-          <section id="overview-of-web-notification-systems" inlist="" rel="schema:hasPart" resource="#overview-of-web-notification-systems">
+          <section id="overview-of-web-notification-systems" inlist="" rel="schema:hasPart" resource="#overview-of-web-notification-systems" typeof="deo:RelatedWork">
             <h2 property="schema:name">Overview of Web Notification Systems</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo">cover linked-data-notifications#related work and maybe more?</p>
+              <p>Many systems which make use of notifications operate either in a completely centralised way, or are decentralised only in the sense that different instances of the <em>same</em> codebase need to interoperate; we restrict our review to mechanisms which do not expect the notification to be received or used only by the same software or platform which sent it.</p>
+
+              <p>The contents of a notification is either: 1) URLs, indicating relations between Web resources, or 2) a ‘fat ping’ containing a blob of information. Semantic Pingback, Webmention, and Provenance Pingback follow the first form, and are also known as <cite>linkbacks</cite>, the suite of protocols that essentially allows Web documents to automatically reciprocate hyperlinks. This has the advantage that a verification mechanism can be tightly specified (the URL of the target must appear in the content of the source), but the disadvantage that notifications are only available for use cases involving Web publishing.</p>
+
+              <p id="semantic-pingback-and-webmention"><cite><a href="https://aksw.github.io/SemanticPingback/">Semantic Pingback</a></cite> [<a class="ref" href="#ref-2">2</a>] and <cite><a href="https://www.w3.org/TR/webmention">Webmention</a></cite> [<a class="ref" href="#ref-5">5</a>] both update the original <cite><a href="http://www.hixie.ch/specs/pingback/pingback">Pingback</a></cite> [<a class="ref" href="#ref-6">6</a>] mechanism by replacing the XML-RPC transport mechanism by a <code>x-www-form-urlencoded</code> request with two parameters (<code>source</code> and <code>target</code>). Resources which are the target for a notification advertise the respective receiving service or endpoint via a <code>Link</code> relation, either in HTTP headers or HTML. Semantic Pingback additionally enables discovery of the Pingback service where target description is available in RDF. While the content at source may indicate (in any convention or serialisation format) the type of relation between the source and target URLs, this information about the relation is not transmitted to the receiver’s endpoint; only the source and target URLs are sent. As such, there is also no way to distinguish between multiple potential mentions of the target at the source; this is left up to the receiver to interpret. Semantic Pingback does encourage generation of additional semantics about the relation(s) between the source and the target by processing the source as RDF if possible, and also defines specific ways for a receiving server to handle incoming pingback data in order to add the source data to an RDF knowledge base [<a class="ref" href="#ref-2">2</a>]. Beyond verifying that the source contains the URL of the target, Webmention does not specify any further requirements of the receiving server; nor is it expected that “mentions” are retrievable once they have been sent.</p>
+
+              <p id="provenance-pingback">A <cite><a href="http://www.w3.org/TR/prov-aq/#provenance-pingback">Provenance Pingback</a></cite> endpoint is also advertised via the HTTP <code>Link</code> header; it accepts a list of URIs for provenance records describing uses of the resource [<a class="ref" href="#ref-7">7</a>]. Provenance Pingback does not specify any further behaviour by the receiving server, but the contents at the URIs listed in the notification body must be semantic data.</p>
+
+              <p>Other notification mechanisms send more information than just URLs in the notification body; due to each mechanism’s focused use case, the payload is restricted to a particular vocabulary.</p>
+
+              <p><cite><a href="http://www.cibiv.at/~niko/dsnotify/">DSNotify</a></cite> is a centralised service which crawls datasets and observes changes to links with the specific use case of preserving link integrity between Linked Open Data resources. Third-party applications can register with the sending service to receive notifications of changes in the form of a specific XML payload [<a class="ref" href="#ref-8">8</a>].</p>
+
+              <p>With the <cite><a href="https://www.w3.org/2001/sw/wiki/SparqlPuSH">sparqlPuSH</a></cite> service, users may input a SPARQL query, the results of which are the specific updates they are interested in. The query is run periodically by the service, and the results are converted to RSS and Atom feeds, which is sent to a <a href="http://pubsubhubbub.github.io/PubSubHubbub/pubsubhubbub-core-0.4.html">PubSubHubbub</a> hub to which the user can subscribe [<a class="ref" href="#ref-9">9</a>].</p>
+
+              <p>The <cite><a href="http://www.openarchives.org/rs/notification/1.0/notification">ResourceSync Change Notification</a></cite> specification also sends update notifications via a <abbr title="PubSubHubbub">PuSH</abbr> hub, this time with an XML payload based on the Sitemap format [<a class="ref" href="#ref-10">10</a>].</p>
+
+              <p>Each of these mechanisms is triggered by subscription requests. That is, a user must actively solicit messages from a particular service, rather than having a way for a service to select a notification target and autonomously discover where to send notifications to.</p>
             </div>
           </section>
 
@@ -70,7 +86,6 @@
                 <p rel="skos:hasTopConcept">By <strong about="#concept-decentralisation" id="concept-decentralisation" property="skos:prefLabel" rel="skos:topConceptOf" resource="#concept-scheme" typeof="skos:Concept">decentralisation</strong>, we mean <span about="#concept-decentralisation" property="skos:definition">data and applications are loosely coupled, and users are empowered to choose where their data is stored or held. We focus on Web-based decentralisation, where content is transported over HTTP, and resources are identified with URIs.</span> An <strong about="#concept-inbox" id="concept-inbox" property="skos:prefLabel" rel="skos:topConceptOf" resource="#concept-scheme" typeof="skos:Concept">Inbox</strong> is <span about="#concept-inbox" property="skos:definition">a container or directory (attached to a Web resource) which is used to store and serve a collection of notifications.</span> A <strong about="#concept-notification" id="concept-notification" property="skos:prefLabel" rel="skos:topConceptOf" resource="#concept-scheme" typeof="skos:Concept">notification</strong> is <span about="#concept-notification" property="skos:definition">a retrievable resource which returns RDF. The contents of notifications are intended to describe a change in state of some other resource, or contain new information for the attention of a user or process, and may be subject to constraints of the Inbox it is contained in.</span>
                 </p>
               </div>
-
 
               <p class="todo">Is JSON-LD a hard requirement? Can’t clients and servers agree at runtime about the serialization?</p>
             </div>
