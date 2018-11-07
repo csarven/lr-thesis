@@ -55,213 +55,208 @@
             </div>
           </section>
 
-          <section id="notification-protocol" inlist="" rel="schema:hasPart" resource="#notification-protocol">
-            <h2 property="schema:name">Notification Protocol</h2>
+          <section id="comparison-of-notification-mechanisms" inlist="" rel="schema:hasPart" resource="#comparison-of-notification-mechanisms">
+            <h2 property="schema:name">Comparison of Notification Mechanisms</h2>
             <div datatype="rdf:HTML" property="schema:description">
-<p class="todo">comparison of the shortcomings of existing systems and the benefits of the proposed system, followed by a discussion of the trade-offs that were necessary to realize those benefits.</p>
+              <p><span class="todo">Paraphrase</span> Here we compare existing notification mechanisms and the benefits of Linked Data Notification, followed by a discussion of the trade-offs that were necessary to realize those benefits.</p>
 
-              <section id="comparison-of-notification-mechanisms" inlist="" rel="schema:hasPart" resource="#comparison-of-notification-mechanisms">
-                <h3 property="schema:name">Comparison of Notification Mechanisms</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>Here we compare existing notification mechanisms in context of 
+              <p><span class="todo">Paraphrase</span> We restrict our review to mechanisms which do not expect the notification to be received or used only by the same software or platform which sent it. The criteria includes our <a href="linked-data-notifications#requirements-and-design-considerations">requirements and design considerations</a> (<em>Rx</em>) along with additional technical information which helps to capture some design differences (<em>Tx</em>).</p>
 
-which do not expect the notification to be received or used only by the same software or platform which sent it
+              <figure>
+                <table id="comparison-of-notification-mechanisms">
+                  <caption>Comparison of notification mechanisms</caption>
+                  <thead>
+                    <tr>
+                      <th>Mechanism</th>
+                      <th>T1</th>
+                      <th>T2</th>
+                      <th>T3</th>
+                      <th>R1</th>
+                      <th>R2</th>
+                      <th>R3</th>
+                      <th>R4-A</th>
+                      <th>R4-B</th>
+                      <th>R4-C<sup>p</sup></th>
+                      <th>R4-C<sup>v</sup></th>
+                      <th>R4-C<sup>o</sup></th>
+                      <th>R5</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>Semantic Pingback</th>
+                      <td>Linkback</td>
+                      <td>POST</td>
+                      <td>RDF</td>
+                      <td>S R</td>
+                      <td>/</td>
+                      <td>/</td>
+                      <td>Any<sup>r</sup></td>
+                      <td>form urlencoded<sup>k</sup></td>
+                      <td>!</td>
+                      <td>! parse source</td>
+                      <td>Any<sup>r</sup></td>
+                      <td>X</td>
+                    </tr>
+                    <tr>
+                      <th>Webmention</th>
+                      <td>Linkback</td>
+                      <td>POST</td>
+                      <td>HTML</td>
+                      <td>S R</td>
+                      <td>–</td>
+                      <td>–</td>
+                      <td>Any<sup>h</sup></td>
+                      <td>form urlencoded<sup>k</sup></td>
+                      <td>!</td>
+                      <td>! parse source</td>
+                      <td>Any<sup>h</sup></td>
+                      <td>X</td>
+                    </tr>
+                    <tr>
+                      <th>Provenance Pingback</th>
+                      <td>Linkback</td>
+                      <td>POST</td>
+                      <td>RDF</td>
+                      <td>S R</td>
+                      <td>/</td>
+                      <td>/</td>
+                      <td>/</td>
+                      <td>URI list</td>
+                      <td>/</td>
+                      <td>/</td>
+                      <td>RDF<sup>q</sup></td>
+                      <td>X</td>
+                    </tr>
+                    <tr>
+                      <th>DSNotify</th>
+                      <td>Fat ping</td>
+                      <td>POST, PUT</td>
+                      <td>XML, PuSH</td>
+                      <td>S U</td>
+                      <td>/</td>
+                      <td>–</td>
+                      <td>–</td>
+                      <td>XML</td>
+                      <td>/</td>
+                      <td>–</td>
+                      <td>RDF<sup>t</sup></td>
+                      <td>!</td>
+                    </tr>
+                    <tr>
+                      <th>sparqlPuSH</th>
+                      <td>Fat ping</td>
+                      <td>POST</td>
+                      <td>XML, SPARQL, PuSH</td>
+                      <td>S U</td>
+                      <td>–</td>
+                      <td>–</td>
+                      <td>–</td>
+                      <td>XML<sup>ra</sup></td>
+                      <td>/</td>
+                      <td>–</td>
+                      <td>RDF<sup>t</sup></td>
+                      <td>!</td>
+                    </tr>
+                    <tr>
+                      <th>ResourceSync</th>
+                      <td>Fat ping</td>
+                      <td>POST</td>
+                      <td>XML, PuSH</td>
+                      <td>S U</td>
+                      <td>/</td>
+                      <td>–</td>
+                      <td>–</td>
+                      <td>XML<sup>s</sup></td>
+                      <td>/</td>
+                      <td>–</td>
+                      <td>?</td>
+                      <td>!</td>
+                    </tr>
+                    <tr>
+                      <th>Linked Data Notifications</th>
+                      <td>Fat ping</td>
+                      <td>POST</td>
+                      <td>JSON-LD</td>
+                      <td>S R C</td>
+                      <td>!</td>
+                      <td>! URI</td>
+                      <td>Any</td>
+                      <td>JSON-LD<sup>j</sup></td>
+                      <td>+ app</td>
+                      <td>+ app</td>
+                      <td>–</td>
+                      <td>O app</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <td colspan="14">
+                        <dl class="abbr">
+                          <dt>T1</dt><dd>Notification type</dd>
+                          <dt>T2</dt><dd>Delivery method</dd>
+                          <dt>T3</dt><dd>Dependencies</dd>
+                          <dt>R1</dt><dd>Modularity (application classes: S Sender, R Receiver, C Consumer, U Subscriber/User)</dd>
+                          <dt>R2</dt><dd>Reusability</dd>
+                          <dt>R3</dt><dd>Persistence - required? how?</dd>
+                          <dt>R4-A</dt><dd>Target representation</dd>
+                          <dt>R4-B</dt><dd>Notification body</dd>
+                          <dt>R4-C<sup>p</sup></dt><dd>Payload processing required?</dd>
+                          <dt>R4-C<sup>v</sup></dt><dd>Verification - required? how?</dd>
+                          <dt>R4-C<sup>o</sup></dt><dd>Requirements for referenced resources?</dd>
+                          <dt>R5</dt><dd>Subscription</dd>
+                        </dl>
+                        <hr/>
+                        <dl class="abbr">
+                          <dt>–</dt><dd>not applicable, out of scope</dd>
+                          <dt>/</dt><dd>not specified, in scope</dd>
+                          <dt>X</dt><dd>explicitly disallowed</dd>
+                          <dt>app</dt><dd>application specific decision</dd>
+                          <dt>!</dt><dd>required (<em>MUST</em>)</dd>
+                          <dt>+</dt><dd>recommended (<em>SHOULD</em>)</dd>
+                          <dt>O</dt><dd>optional (<em>MAY</em>)</dd>
+                          <dt>PuSH</dt><dd>PubSubHubbub</dd>
+                        </dl>
+                        <hr/>
+                        <dl class="abbr">
+                          <dt><sup>h</sup></dt><dd>HTML recommended</dd>
+                          <dt><sup>j</sup></dt><dd>Alternate RDF formats can be negotiated</dd>
+                          <dt><sup>k</sup></dt><dd><code>source</code> and <code>target</code> key–value pairs is required</dd>
+                          <dt><sup>q</sup></dt><dd>Provenance records with <a href="http://www.w3.org/TR/prov-o/">PROV Ontology</a></dd>
+                          <dt><sup>r</sup></dt><dd>RDF representation recommended</dd>
+                          <dt><sup>ra</sup></dt><dd>SPARQL results transformed to RSS/Atom</dd>
+                          <dt><sup>s</sup></dt><dd><a href="https://www.sitemaps.org/protocol.html">Sitemaps</a></dd>
+                          <dt><sup>t</sup></dt><dd>Described in an RDF store or dataset</dd>
+                        </dl>
+                      </td>
+                      <!-- Notes for how I removed some ?s:
+                        * target representation is - when there’s no discovery step for the sender ie. subscription based
 
-                    . The criteria includes our <a href="linked-data-notifications#requirements-and-design-considerations">requirements and design considerations</a> (<em>Rx</em>) along with additional technical information which helps to capture some design differences (<em>Tx</em>).</p>
+                        * verification required is - when there’s a subscription relationship because we assume the receiver trusts the sender
+                      -rhiaro -->
+                    </tr>
+                  </tfoot>
+                </table>
 
-                  <figure>
-                    <table id="comparison-of-notification-mechanisms">
-                      <caption>Comparison of notification mechanisms</caption>
-                      <thead>
-                        <tr>
-                          <th>Mechanism</th>
-                          <th>T1</th>
-                          <th>T2</th>
-                          <th>T3</th>
-                          <th>R1</th>
-                          <th>R2</th>
-                          <th>R3</th>
-                          <th>R4-A</th>
-                          <th>R4-B</th>
-                          <th>R4-C<sup>p</sup></th>
-                          <th>R4-C<sup>v</sup></th>
-                          <th>R4-C<sup>o</sup></th>
-                          <th>R5</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th>Semantic Pingback</th>
-                          <td>Linkback</td>
-                          <td>POST</td>
-                          <td>RDF</td>
-                          <td>S R</td>
-                          <td>/</td>
-                          <td>/</td>
-                          <td>Any<sup>r</sup></td>
-                          <td>form urlencoded<sup>k</sup></td>
-                          <td>!</td>
-                          <td>! parse source</td>
-                          <td>Any<sup>r</sup></td>
-                          <td>X</td>
-                        </tr>
-                        <tr>
-                          <th>Webmention</th>
-                          <td>Linkback</td>
-                          <td>POST</td>
-                          <td>HTML</td>
-                          <td>S R</td>
-                          <td>–</td>
-                          <td>–</td>
-                          <td>Any<sup>h</sup></td>
-                          <td>form urlencoded<sup>k</sup></td>
-                          <td>!</td>
-                          <td>! parse source</td>
-                          <td>Any<sup>h</sup></td>
-                          <td>X</td>
-                        </tr>
-                        <tr>
-                          <th>Provenance Pingback</th>
-                          <td>Linkback</td>
-                          <td>POST</td>
-                          <td>RDF</td>
-                          <td>S R</td>
-                          <td>/</td>
-                          <td>/</td>
-                          <td>/</td>
-                          <td>URI list</td>
-                          <td>/</td>
-                          <td>/</td>
-                          <td>RDF<sup>q</sup></td>
-                          <td>X</td>
-                        </tr>
-                        <tr>
-                          <th>DSNotify</th>
-                          <td>Fat ping</td>
-                          <td>POST, PUT</td>
-                          <td>XML, PuSH</td>
-                          <td>S U</td>
-                          <td>/</td>
-                          <td>–</td>
-                          <td>–</td>
-                          <td>XML</td>
-                          <td>/</td>
-                          <td>–</td>
-                          <td>RDF<sup>t</sup></td>
-                          <td>!</td>
-                        </tr>
-                        <tr>
-                          <th>sparqlPuSH</th>
-                          <td>Fat ping</td>
-                          <td>POST</td>
-                          <td>XML, SPARQL, PuSH</td>
-                          <td>S U</td>
-                          <td>–</td>
-                          <td>–</td>
-                          <td>–</td>
-                          <td>XML<sup>ra</sup></td>
-                          <td>/</td>
-                          <td>–</td>
-                          <td>RDF<sup>t</sup></td>
-                          <td>!</td>
-                        </tr>
-                        <tr>
-                          <th>ResourceSync</th>
-                          <td>Fat ping</td>
-                          <td>POST</td>
-                          <td>XML, PuSH</td>
-                          <td>S U</td>
-                          <td>/</td>
-                          <td>–</td>
-                          <td>–</td>
-                          <td>XML<sup>s</sup></td>
-                          <td>/</td>
-                          <td>–</td>
-                          <td>?</td>
-                          <td>!</td>
-                        </tr>
-                        <tr>
-                          <th>Linked Data Notifications</th>
-                          <td>Fat ping</td>
-                          <td>POST</td>
-                          <td>JSON-LD</td>
-                          <td>S R C</td>
-                          <td>!</td>
-                          <td>! URI</td>
-                          <td>Any</td>
-                          <td>JSON-LD<sup>j</sup></td>
-                          <td>+ app</td>
-                          <td>+ app</td>
-                          <td>–</td>
-                          <td>O app</td>
-                        </tr>
-                      </tbody>
-                      <tfoot>
-                        <tr>
-                          <td colspan="14">
-                            <dl class="abbr">
-                              <dt>T1</dt><dd>Notification type</dd>
-                              <dt>T2</dt><dd>Delivery method</dd>
-                              <dt>T3</dt><dd>Dependencies</dd>
-                              <dt>R1</dt><dd>Modularity (application classes: S Sender, R Receiver, C Consumer, U Subscriber/User)</dd>
-                              <dt>R2</dt><dd>Reusability</dd>
-                              <dt>R3</dt><dd>Persistence - required? how?</dd>
-                              <dt>R4-A</dt><dd>Target representation</dd>
-                              <dt>R4-B</dt><dd>Notification body</dd>
-                              <dt>R4-C<sup>p</sup></dt><dd>Payload processing required?</dd>
-                              <dt>R4-C<sup>v</sup></dt><dd>Verification - required? how?</dd>
-                              <dt>R4-C<sup>o</sup></dt><dd>Requirements for referenced resources?</dd>
-                              <dt>R5</dt><dd>Subscription</dd>
-                            </dl>
-                            <hr/>
-                            <dl class="abbr">
-                              <dt>–</dt><dd>not applicable, out of scope</dd>
-                              <dt>/</dt><dd>not specified, in scope</dd>
-                              <dt>X</dt><dd>explicitly disallowed</dd>
-                              <dt>app</dt><dd>application specific decision</dd>
-                              <dt>!</dt><dd>required (<em>MUST</em>)</dd>
-                              <dt>+</dt><dd>recommended (<em>SHOULD</em>)</dd>
-                              <dt>O</dt><dd>optional (<em>MAY</em>)</dd>
-                              <dt>PuSH</dt><dd>PubSubHubbub</dd>
-                            </dl>
-                            <hr/>
-                            <dl class="abbr">
-                              <dt><sup>h</sup></dt><dd>HTML recommended</dd>
-                              <dt><sup>j</sup></dt><dd>Alternate RDF formats can be negotiated</dd>
-                              <dt><sup>k</sup></dt><dd><code>source</code> and <code>target</code> key–value pairs is required</dd>
-                              <dt><sup>q</sup></dt><dd>Provenance records with <a href="http://www.w3.org/TR/prov-o/">PROV Ontology</a></dd>
-                              <dt><sup>r</sup></dt><dd>RDF representation recommended</dd>
-                              <dt><sup>ra</sup></dt><dd>SPARQL results transformed to RSS/Atom</dd>
-                              <dt><sup>s</sup></dt><dd><a href="https://www.sitemaps.org/protocol.html">Sitemaps</a></dd>
-                              <dt><sup>t</sup></dt><dd>Described in an RDF store or dataset</dd>
-                            </dl>
-                          </td>
-                          <!-- Notes for how I removed some ?s:
-                            * target representation is - when there’s no discovery step for the sender ie. subscription based
+                <figcaption><span class="todo">Important: Should it only cite, summarise or redistribute?</span>Table is a redistribution of <cite><a href="http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms" rel="owl:sameAs">comparison of notification mechanisms</a></cite> originally published in <cite>Linked Data Notifications: a resource-centric communication protocol</cite> on <time>2016-05-01</time> with <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></figcaption>
+              </figure>
 
-                            * verification required is - when there’s a subscription relationship because we assume the receiver trusts the sender
-                          -rhiaro -->
-                        </tr>
-                      </tfoot>
-                    </table>
-
-                    <figcaption><span class="todo">Important: Should it only cite, summarise or redistribute?</span>Table is a redistribution of <cite><a href="http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms" rel="owl:sameAs">comparison of notification mechanisms</a></cite> originally published in <cite>Linked Data Notifications: a resource-centric communication protocol</cite> on <time>2016-05-01</time> with <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></figcaption>
-                  </figure>
-
-                  <p>Given that each application requires to follow the steps listed in <q><a href="#sender-to-receiver">Sender to receiver interaction</a></q> and <q><a href="#consumer-to-receiver">Consumer to receiver interactions</a></q> the metrics are dependent on the performance of client and server to do HTTP requests and responses, and their respective payloads.</p>
-                </div>
-              </section>
-
+              <p class="todo">Given that each application requires to follow the steps listed in <q><a href="#sender-to-receiver">Sender to receiver interactions</a></q> and <q><a href="#consumer-to-receiver">Consumer to receiver interactions</a></q> the metrics are dependent on the performance of client and server to do HTTP requests and responses, and their respective payloads.</p>
 
 <p class="todo">“Comparison summary”: what is the result of the evaluation here? “Compatibility with existing systems”: this is perhaps the clearest, but the conclusion about compatibility is implicit. “Optimizing implementation[s]”, “Data Formats and Content Negotiation”: what is evaluated? “Accommodating different targets”: how well is LDN doing compared to the others?</p>
 
 <p class="todo">What is good and bad? What is important, what is desirable? I would suggest to highlight the problems and assets somewhat more clearly.</p>
 
 <p class="todo">Both in the discussion of related work and in the evaluation, I’d like to see a deeper understanding of current limitations, and how LDN addresses is and at what cost. More specifically, what are the problems of LDN, and are they inherent or fixable?</p>
-
             </div>
           </section>
 
+          <section id="linked-data-notifications-implementations" inlist="" rel="schema:hasPart" resource="#linked-data-notifications-implementations">
+            <h2 property="schema:name">Linked Data Notifications Implementations</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <cite><a href="https://linkedresearch.org/ldn/tests/summary">Summary of LDN Implementation Reports</a></cite>
+            </div>
+          </section>
 
           <section id="comparison-of-annotation-applications" inlist="" rel="schema:hasPart" resource="#comparison-of-annotation-applications">
             <h2 property="schema:name">Comparison of Annotation Applications</h2>
