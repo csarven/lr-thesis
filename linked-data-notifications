@@ -21,13 +21,16 @@
         <div datatype="rdf:HTML" property="schema:description">
           <p>As scholarly and social content are created and registered, ie. globally identifiable on the Web, they need to be findable in order to be usable. A set of Web-centric standards can meet this requirement en route to fulfilling the awareness function in scholarly communication. The specifications pertaining to <a href="decentralising-scholarly-communication#read-write-linked-data">read-write Linked Data</a>, vocabularies about <a href="structure-of-scholarly-information#publishing-and-referencing">publishing resources</a> and <a href="structure-of-scholarly-information#participation">social participation</a> can be combined in various ways to meet a wide array of scholarly and social activities on the decentralised Web. One of the ways that human and machine actors make content findable is where they announce its existence to interested parties, as well as where and how the content can be accessed. From the perspective of an information consumer, content discovery - intentional or accidental - can be accomplished through agreed communication protocols. For example, RFC 822 facilitates actors to compose a message and deliver to an electronic inbox. Similarly the recipients (owner of the inbox) look into their inbox to discover the message. In this section we focus on a system that works on the HTTP layer.</p>
 
-          <p>Centralised systems tend to communicate and structure messages arbitrarily because the general intention is that they are the only consumers. 
+          <p>Centralised systems tend to communicate over custom protocols and structure messages based on their needs with the intention that they are the only consumers. In addition, independently built applications across centralised systems are not designed to cooperate in how they create, discover, or make sense of notifications. Thus, notifications in the system are only usable by those who generate it. This poses as several limitations in context of the Web:</p>
 
+          <ul>
+            <li>scalability?</li>
+            <li>extensibility of applications</li>
+          </ul>
 
+          <p class="todo">Current major social media services on the Web fall into this category, and are not deemed to be interoperable. Post-facto interoperability happens on a need to basis, ie. custom Web Application Programming Interfaces (<abbr title="Application Programming Interface">API</abbr>) and data mapping is expected in order for information exchange to take place.</p>
 
-          If we want to decentralize this, the messages need to have a similar structure. So structure is an additional requirement of decentralization</p>
-
-          <p class="todo">Why is it a problem that notifications are only usable by those who generate it?</p>
+          <p>If we want to decentralize this, the messages need to have a similar structure. So structure is an additional requirement of decentralization</p>
 
           <p>In this section, we will discuss a communications protocol that specifies how actors and applications can use a decentralised Linked Data notifications mechanism in order to fulfil the <em>awareness</em> function.</p>
 
@@ -146,7 +149,7 @@
 
               <p>Notifications are sent over the Web for a variety of purposes, for example, by social applications. The information contained within a notification is structured arbitrarily, and typically only usable by the application which generated it in the first place. In the spirit of Linked Data, we propose that notifications should be reusable by multiple authorised applications. Through separating the concepts of <em>senders</em>, <em>receivers</em> and <em>consumers</em> of notifications, and leveraging Linked Data principles of shared vocabularies and URIs, LDN provides a building block for decentralised Web applications. This permits end users more freedom to switch between the online tools they use, as well as generating greater value when notifications from different sources can be used in combination.</p>
 
-              <p id="semantic-centralisation-of-notifications"><strong>Semantic Centralisation of Notifications</strong>: While LDN facilitates a decentralised architecture for notifications to be passed on and used, it does not prescribe the structure and semantics of the notifications themselves. The composition of the notifications are left as unspecified to foster different kinds of applications to be built to communicate information in any domain. Consequently, organic centralisation of notification models can materialise in that domain-centric applications would create and consume what is meaningful to them, with the expectation that they can coordinate among themselves. This kind of centralisation of notification semantics is an inherent property of free expression, the Web at large, and human-communication. After all, why do some human-languages disappear, survive, or evolve into something else?</p>
+              <p id="semantic-centralisation-of-notifications"><strong>Semantic Centralisation of Notifications</strong>: While LDN facilitates a decentralised architecture for notification exchange, it does not prescribe the structure and semantics of the notifications themselves. The composition of the notifications are unspecified to foster different kinds of applications to be built to communicate information in any domain. Consequently, organic centralisation of notification models can materialise in that domain-centric applications would create and consume what is meaningful to them in order to coordinate among themselves. This kind of centralisation of notification semantics is an inherent property of free expression, the Web at large, and human-communication.</p>
             </div>
           </section>
         </div>
