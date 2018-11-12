@@ -283,7 +283,8 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
                     <li>Article or data including text and media in full.</li>
                     <li>Accessible by anyone (humans and machines).</li>
                     <li>Available to anyone without financial, legal, or technical barriers (besides an Internet connection, free of charge).</li>
-                    <li>Favouring source materials (as opposed to third-party re-publications).</li>
+                    <li>Preference for source materials (as opposed to third-party re-publications).</li>
+                    <li>Preference for research material that can be publicly archived and recalled with free on-demand services.</li>
                   </ul>
 
                   <p>For example, HTTP URIs of research objects resolving to <q>paywall</q> or <q>access toll</q> landing pages were excluded. The rationale is that, given above criteria, if information is <em>only</em> available to a subset of humans, then it is not deemed to be part of the observable and reproducible universal knowledge - a fundamental requirement of applying the scientific method. Fortunately, I was able to gather plenty of "open" and "free" resources to support the narrative of this thesis.</p>
