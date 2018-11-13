@@ -290,7 +290,7 @@ support groups.</pre>
                   <section id="architecture-of-the-web-identification" inlist="" rel="schema:hasPart" resource="#architecture-of-the-web-identification">
                     <h4 property="schema:name">Identification</h4>
                     <div datatype="rdf:HTML" property="schema:description">
-                      <p>In context of the Web, anything - a resource - can be globally identified or named with a URI. As per <cite><a href="https://tools.ietf.org/html/rfc3986">RFC 3986</a></cite> the <q cite="https://tools.ietf.org/html/rfc3986#section-3">generic URI syntax</q> is defined as follows:</p>
+                      <p>In context of the Web, anything - a resource - can be globally identified or named with a URI. As per <cite><a href="https://tools.ietf.org/html/rfc3986">Uniform Resource Identifier (URI): Generic Syntax</a></cite> (<abbr title="Uniform Resource Identifier (URI): Generic Syntax">RFC 3986</abbr>) the <q cite="https://tools.ietf.org/html/rfc3986#section-3">generic URI syntax</q> is defined as follows:</p>
 
                       <pre><span class="highlight-uri">URI</span>         = <span class="highlight-uri-scheme">scheme</span> ":" <span class="highlight-uri-hier-part">hier-part</span> [ "?" <span class="highlight-uri-query">query</span> ] [ "#" <span class="highlight-uri-fragment">fragment</span> ]</pre>
 
