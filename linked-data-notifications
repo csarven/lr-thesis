@@ -46,22 +46,22 @@
           <section id="use-cases-for-decentralised-notifications" inlist="" rel="schema:hasPart" resource="#use-case-for-decentralised-notifications">
             <h2 property="schema:name">Use Cases for Decentralised Notifications</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>The W3C Social Web Working Group documented <cite><a href="https://www.w3.org/wiki/Socialwg/Social_API/User_stories">user stories</a></cite> in online social media. The user stories were based on existing open and proprietary platforms on the Web, including notifications about events, certifications, annotations, requests, and announcements. Furthermore, researchers and scholars perform discipline-centric activities to send, discover, and reuse notifications about:</p>
+              <p>The W3C Social Web Working Group documented <cite><a href="https://www.w3.org/wiki/Socialwg/Social_API/User_stories">user stories</a></cite> in online social media. The user stories were derived from existing open and proprietary platforms on the Web, including notifications about events, certifications, annotations, requests, and announcements.</p> 
+
+              <p>In addition to general social Web activities, researchers and scholars (actors) perform discipline-centric activities (content) to send (registration), discover, and reuse public and private notifications about:</p>
 
               <ul>
                 <li>a call for contributions;</li>
-                <li>annotating the publication of an article;</li>
+                <li>announcing the publication of an article;</li>
                 <li>requesting a review;</li>
                 <li>an annotation, referencing, reviewing, commenting, or reply to articles;</li>
                 <li>sharing of research methods and data sources;</li>
                 <li>change of state of resources: datasets, versioning, sensor readings, experimental observations;</li>
               </ul>
 
-              <p class="todo">Generalise decentralised-notifications-and-annotations</p>
-              <p class="todo">specialised senders/consumers?</p>
-              <p class="todo">consistency checking (SHACL/ShEx?)</p>
+              <p class="todo">How much should this be extended/expanded?</p>
 
-              <p class="todo">What scenarios do you want to enable that are difficult or impossible today?</p>
+              <p>We want to enable the same scenarios for scholars by way of using their preferred applications to read and write notifications, as well as their preferred locations to store notifications data. In addition, it should be possible for users to switch between applications without having to move their data. Lastly, users being able to change the location of their data without having to to change their application.</p>
             </div>
           </section>
 
@@ -116,6 +116,9 @@
 
               <p class="todo">For example, the requirement for reusability could be seen as a potential risk for privacy; what is the benefit of reusable notifications to balance that risk? Who would benefit the most from this principle (users, application developers, other) and in what way? A similar discussion could be made for R3 (persistence and retrievability).</p>
               <p>Once fetched by a 3rd-party, any piece of information could potentially be subject to privacy. Hence, this is orthogonal to whether the notifications are ephemeral or persistent. In R4-C, we briefly touch on various authentication methods which could be used alongside LDN with the idea that notifications are not necessarily public but only visible or reusable by intended parties. The receivers decide (based on their use case) which consumers (based on any criteria) can reuse. They achieve this by setting authentication and authorization settings on the notifications.</p>
+
+              <p class="todo">specialised senders/consumers?</p>
+              <p class="todo">consistency checking (SHACL/ShEx?)</p>
             </div>
           </section>
 
@@ -142,6 +145,7 @@
               </figure>
             </div>
           </section>
+
 
           <section id="linked-specifications-reports" inlist="" rel="schema:hasPart" resource="#linked-specifications-reports">
             <h2 property="schema:name">Linked Specifications, Test Suites, and Implementation Reports</h2>
@@ -172,6 +176,8 @@
               </blockquote>
 
               <p>Notifications are sent over the Web for a variety of purposes, for example, by social applications. The information contained within a notification is structured arbitrarily, and typically only usable by the application which generated it in the first place. In the spirit of Linked Data, we propose that notifications should be reusable by multiple authorised applications. Through separating the concepts of <em>senders</em>, <em>receivers</em> and <em>consumers</em> of notifications, and leveraging Linked Data principles of shared vocabularies and URIs, LDN provides a building block for decentralised Web applications. This permits end users more freedom to switch between the online tools they use, as well as generating greater value when notifications from different sources can be used in combination.</p>
+
+              <p class="todo">What scenarios do you want to enable that are difficult or impossible today?</p>
 
               <p id="semantic-centralisation-of-notifications"><strong>Semantic Centralisation of Notifications</strong>: While LDN facilitates a decentralised architecture for notification exchange, it does not prescribe the structure and semantics of the notifications themselves. The composition of the notifications are unspecified to foster different kinds of applications to be built to communicate information in any domain. Consequently, organic centralisation of notification models can materialise in that domain-centric applications would create and consume what is meaningful to them in order to coordinate among themselves. This kind of centralisation of notification semantics is an inherent property of free expression, the Web at large, and human-communication.</p>
             </div>
