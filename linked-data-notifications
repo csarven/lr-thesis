@@ -57,9 +57,11 @@
                 <li>an annotation, referencing, reviewing, commenting, or reply to articles;</li>
                 <li>sharing of research methods and data sources;</li>
                 <li>change of state of resources: datasets, versioning, sensor readings, experimental observations;</li>
+                <li>research findings based on topic of interest;</li>
+                <li>an indexing of published and archived articles;</li>
               </ul>
 
-              <p class="todo">How much should this be extended/expanded?</p>
+              <p class="todo">How much should that list be extended/expanded?</p>
 
               <p>We want to enable the same scenarios for scholars by way of using their preferred applications to read and write notifications, as well as their preferred locations to store notifications data. In addition, it should be possible for users to switch between applications without having to move their data. Lastly, users being able to change the location of their data without having to to change their application.</p>
             </div>
@@ -68,6 +70,8 @@
           <section id="overview-of-web-notification-systems" inlist="" rel="schema:hasPart" resource="#overview-of-web-notification-systems" typeof="deo:RelatedWork">
             <h2 property="schema:name">Overview of Web Notification Systems</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo">Paraphrase? Shorten? From http://csarven.ca/linked-data-notifications</p>
+
               <p>Many systems which make use of notifications operate either in a completely centralised way, or are decentralised only in the sense that different instances of the <em>same</em> codebase need to interoperate; we restrict our review to mechanisms which do not expect the notification to be received or used only by the same software or platform which sent it.</p>
 
               <p>The contents of a notification is either: 1) URLs, indicating relations between Web resources, or 2) a ‘fat ping’ containing a blob of information. Semantic Pingback, Webmention, and Provenance Pingback follow the first form, and are also known as <cite>linkbacks</cite>, the suite of protocols that essentially allows Web documents to automatically reciprocate hyperlinks. This has the advantage that a verification mechanism can be tightly specified (the URL of the target must appear in the content of the source), but the disadvantage that notifications are only available for use cases involving Web publishing.</p>
