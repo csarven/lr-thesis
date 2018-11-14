@@ -246,6 +246,8 @@
 <p class="todo">What is good and bad? What is important, what is desirable? I would suggest to highlight the problems and assets somewhat more clearly.</p>
 
 <p class="todo">Both in the discussion of related work and in the evaluation, I’d like to see a deeper understanding of current limitations, and how LDN addresses is and at what cost. More specifically, what are the problems of LDN, and are they inherent or fixable?</p>
+
+<p class="todo">extend this section with an in depth analysis of the differences between their work and other system that are mentioned, and a discussion on why these differences are important and how LDN provides improvements over them.</p>
             </div>
           </section>
 
@@ -253,6 +255,8 @@
             <h2 property="schema:name">Linked Data Notifications Implementations</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <cite><a href="https://linkedresearch.org/ldn/tests/summary">Summary of LDN Implementation Reports</a></cite>
+
+<p class="todo">re: "We note that any LDP implementation is a conforming LDN receiver; we refer here to the ones we have tested", mention the reasons why other LDP implementations are not tested, or how they have chosen the implementations that are tested.</p>
             </div>
           </section>
 
