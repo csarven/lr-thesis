@@ -71,7 +71,7 @@
           <section id="overview-of-web-notification-systems" inlist="" rel="schema:hasPart" resource="#overview-of-web-notification-systems" typeof="deo:RelatedWork">
             <h2 property="schema:name">Overview of Web Notification Systems</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo">Paraphrase? Shorten? From http://csarven.ca/linked-data-notifications</p>
+              <p class="todo">Paraphrase? Shorten? From http://csarven.ca/linked-data-notifications#related-work</p>
 
               <p>Many systems which make use of notifications operate either in a completely centralised way, or are decentralised only in the sense that different instances of the <em>same</em> codebase need to interoperate; we restrict our review to mechanisms which do not expect the notification to be received or used only by the same software or platform which sent it.</p>
 
@@ -91,14 +91,22 @@
 
               <p>Each of these mechanisms is triggered by subscription requests. That is, a user must actively solicit messages from a particular service, rather than having a way for a service to select a notification target and autonomously discover where to send notifications to.</p>
 
-              <p class="todo">In the Evaluation section, we present and discuss a <a href="evaluation#comparison-of-notification-mechanisms">Comparison of Notification Mechanisms</a> to understand current limitations, and how the proposed LDN protocol addresses them and at what cost.</p>
+              <p class="todo">In the Evaluation section, we present and discuss a <a href="evaluation#comparison-of-notification-mechanisms">Comparison of Notification Mechanisms</a> to better understand current limitations, and how the proposed protocol addresses them and at what cost.</p>
             </div>
           </section>
 
           <section id="resource-centric-communication-protocol" inlist="" rel="schema:hasPart" resource="#resource-centric-communication-protocol">
             <h2 property="schema:name">Resource-centric Communication Protocol</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo">Rationale behind architectural decisions</p>
+              <p>In this section we discuss requirements and design considerations for a decentralised notification protocol that conforms to the Linked Data design principles, as well as best practices for applications. We use these considerations to establish both concrete requirements and points of implementation-specific flexibility for the protocol.</p>
+
+              <p id="modularity"><strong>Modularity</strong>: </p>
+              <p id="reusability"><strong>Reusability</strong>: </p>
+              <p id="persistence-and-retrievability"><strong>Persistence and Retrievability</strong>: </p>
+              <p id="adaptability"><strong>Adaptability</strong>: </p>
+              <p id="subscribing"><strong>Subscribing</strong>: </p>
+
+              <hr />
 
               <p id="design-intent" about="#design-intent" datatype="rdf:HTML" property="schema:description" rel="dio:generatesIssue" resource="#design-issue" typeof="dio:Intent">We designed the <em>Linked Data Notifications (LDN)</em> protocol to support sharing and reuse of notifications <em>across</em> applications, regardless of how they were generated or what their contents are. We describe how the principles of identification, addressability and semantic representation can be applied to notifications on the Web. Specifying LDN as a formal protocol allows independently implemented, heterogeneous applications which generate and use notifications, to seamlessly work together. Thus, LDN supports the decentralisation of the Web as well as encourages the generation and consumption of Linked Data.</p>
 
@@ -107,8 +115,7 @@
               <div about="" id="concept-scheme" rel="schema:hasPart" resource="#concept-scheme">
                 <p resource="#concept-scheme" typeof="skos:ConceptScheme"><span property="skos:definition">As the following terms used throughout this article may be subject to different interpretations by different communities, we provide some definitions here.</span></p>
 
-                <p rel="skos:hasTopConcept">By <strong about="#concept-decentralisation" id="concept-decentralisation" property="skos:prefLabel" rel="skos:topConceptOf" resource="#concept-scheme" typeof="skos:Concept">decentralisation</strong>, we mean <span about="#concept-decentralisation" property="skos:definition">data and applications are loosely coupled, and users are empowered to choose where their data is stored or held. We focus on Web-based decentralisation, where content is transported over HTTP, and resources are identified with URIs.</span> An <strong about="#concept-inbox" id="concept-inbox" property="skos:prefLabel" rel="skos:topConceptOf" resource="#concept-scheme" typeof="skos:Concept">Inbox</strong> is <span about="#concept-inbox" property="skos:definition">a container or directory (attached to a Web resource) which is used to store and serve a collection of notifications.</span> A <strong about="#concept-notification" id="concept-notification" property="skos:prefLabel" rel="skos:topConceptOf" resource="#concept-scheme" typeof="skos:Concept">notification</strong> is <span about="#concept-notification" property="skos:definition">a retrievable resource which returns RDF. The contents of notifications are intended to describe a change in state of some other resource, or contain new information for the attention of a user or process, and may be subject to constraints of the Inbox it is contained in.</span>
-                </p>
+                <p>An <strong about="#concept-inbox" id="concept-inbox" property="skos:prefLabel" rel="skos:topConceptOf" resource="#concept-scheme" typeof="skos:Concept">Inbox</strong> is <span about="#concept-inbox" property="skos:definition">a container or directory (attached to a Web resource) which is used to store and serve a collection of notifications.</span> A <strong about="#concept-notification" id="concept-notification" property="skos:prefLabel" rel="skos:topConceptOf" resource="#concept-scheme" typeof="skos:Concept">notification</strong> is <span about="#concept-notification" property="skos:definition">a retrievable resource which returns RDF. The contents of notifications are intended to describe a change in state of some other resource, or contain new information for the attention of a user or process, and may be subject to constraints of the Inbox it is contained in.</span></p>
               </div>
 
               <figure id="figure-linked-data-notifications-overview" inlist="" rel="schema:hasPart" resource="#figure-linked-data-notifications-overview">
