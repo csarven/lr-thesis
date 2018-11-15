@@ -48,7 +48,7 @@
             <div datatype="rdf:HTML" property="schema:description">
               <p>The W3C Social Web Working Group documented <cite><a href="https://www.w3.org/wiki/Socialwg/Social_API/User_stories">user stories</a></cite> in online social media in the process of producing technical specifications to enable decentralised and federated social communication. The user stories were derived from existing open and proprietary platforms on the Web, including notifications about events, certifications, annotations, requests, and announcements.</p> 
 
-              <p>In addition to general social Web activities, researchers and scholars (actors) perform discipline-centric activities (content) to send (registration), discover, and reuse public and private notifications. To name a few:</p>
+              <p>In addition to general social Web activities, researchers and scholars (actors) perform discipline-centric activities to send (registration), discover (awareness), and reuse public and private notifications (content). To name a few:</p>
 
               <ul>
                 <li>a call for contributions;</li>
