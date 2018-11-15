@@ -46,15 +46,16 @@
           <section id="use-cases-for-decentralised-notifications" inlist="" rel="schema:hasPart" resource="#use-case-for-decentralised-notifications">
             <h2 property="schema:name">Use Cases for Decentralised Notifications</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>The W3C Social Web Working Group documented <cite><a href="https://www.w3.org/wiki/Socialwg/Social_API/User_stories">user stories</a></cite> in online social media. The user stories were derived from existing open and proprietary platforms on the Web, including notifications about events, certifications, annotations, requests, and announcements.</p> 
+              <p>The W3C Social Web Working Group documented <cite><a href="https://www.w3.org/wiki/Socialwg/Social_API/User_stories">user stories</a></cite> in online social media in the process of . The user stories were derived from existing open and proprietary platforms on the Web, including notifications about events, certifications, annotations, requests, and announcements.</p> 
 
-              <p>In addition to general social Web activities, researchers and scholars (actors) perform discipline-centric activities (content) to send (registration), discover, and reuse public and private notifications about:</p>
+              <p>In addition to general social Web activities, researchers and scholars (actors) perform discipline-centric activities (content) to send (registration), discover, and reuse public and private notifications. To name a few:</p>
 
               <ul>
                 <li>a call for contributions;</li>
                 <li>announcing the publication of an article;</li>
                 <li>requesting a review;</li>
-                <li>an annotation, referencing, reviewing, commenting, or reply to articles;</li>
+                <li>an annotation, review, comment, reply, bookmarking, referencing;</li>
+                <li>social actions and reactions like sharing, following, and diverse (dis)approvals;</li>
                 <li>sharing of research methods and data sources;</li>
                 <li>change of state of resources: datasets, versioning, sensor readings, experimental observations;</li>
                 <li>research findings based on topic of interest;</li>
