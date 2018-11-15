@@ -132,7 +132,7 @@
           <section id="decentralised-notifications-and-annotations" inlist="" rel="schema:hasPart" resource="decentralised-notifications-and-annotations">
             <h2 property="schema:name">Decentralised Notifications and Annotations</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo">This information discusses something broader than LDN. Should it move to the dokieli section?</p>
+              <p class="todo">This information discusses something broader than LDN. Should it move to the dokieli section? Some of it overlaps with <a href="http://csarven.ca/dokieli-rww#figure-dokieli-architecture-relations">http://csarven.ca/dokieli-rww#figure-dokieli-architecture-relations</a>.</p>
 
               <p>By using different arrangements of LDN, WA, AP, LDP mechanisms and related vocabularies, scholarly and social activities can be systematically discovered for a variety of use cases. Decentralised notifications and annotations surrounding an article can be determined as follows:</p>
 
