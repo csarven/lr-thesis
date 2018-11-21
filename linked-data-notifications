@@ -50,37 +50,46 @@
 
               <p>In addition to general social Web activities, researchers and scholars (actors) perform discipline-centric activities to send (registration), discover (awareness), and reuse public and private notifications (content). To name a few:</p>
 
+<!-- As <persona>, I can <what?> so that <why?> -->
               <dl>
                 <dt>Call for contributions</dt>
-                <dd>Scenario</dd>
+                <dd>Scenario: The organising committee for a conference would like to make a public announcement that they are now accepting research contributions that can be peer-reviewed.</dd>
                 <dd>Requirements:</dd>
 
                 <dt>Publicising an article</dt>
-                <dd>Scenario</dd>
+                <dd>Scenario: One of the authors of an article would like to let their colleagues know about the publication.</dd>
                 <dd>Requirements:</dd>
 
                 <dt>Request for review</dt>
-                <dd>Scenario</dd>
+                <dd>Scenario: The authors of an article wants their work to be reviewed by the members of their community.</dd>
                 <dd>Requirements:</dd>
 
                 <dt>Annotating artifacts</dt>
-                <dd>Scenario: ..review, comment, reply, bookmarking, referencing</dd>
+                <dd>Scenario: A reviewer or commenter wants to let the authors of an article know about their feedback.</dd>
+                <dd>Requirements:</dd>
+
+                <dt>Authors notify referenced article</dt>
+                <dd>Scenario: The authors of an article would like to announce that a reference targets another article so that their article can also be found.</dd>
                 <dd>Requirements:</dd>
 
                 <dt>Social actions and reactions</dt>
-                <dd>Scenario: ..sharing, following, and diverse (dis)approvals</dd>
+                <dd>Scenario: Researchers perform public and private actions on resources they come across, including bookmarking, re-sharing with others, announcing their emotional states, as well as following another researchers' activities.</dd>
                 <dd>Requirements:</dd>
 
                 <dt>Providing research information</dt>
-                <dd>Scenario: ..research methods and data sources</dd>
+                <dd>Scenario: A researcher wants to inform the scientific community that the research methods and data sources of their work is publicly available.</dd>
                 <dd>Requirements:</dd>
 
                 <dt>State change</dt>
-                <dd>Scenario: ..datasets, versioning, sensor readings, experimental observations</dd>
+                <dd>Scenario: As automated software detects changes in datasets, new version of an application, anomalies in sensor readings or experimental observations, it informs the laboratory's inbox.</dd>
                 <dd>Requirements:</dd>
 
                 <dt>Status update</dt>
-                <dd>Scenario: ..an indexing of published and archived articles; research findings based on topic of interest; informing an archive</dd>
+                <dd>Scenario: Indexing and archiving systems wants to inform the authors of an article about the recent activities that may be of interest to them, so that they can check for inconsistencies or unintended results.</dd>
+                <dd>Requirements:</dd>
+
+                <dt>Artifacts of interest</dt>
+                <dd>Scenario: A system upon coming across articles and annotations that is of interest to researchers sends wants to inform them based on their listed interests (research results, disputes over data analysis, new relations between research objects).</dd>
                 <dd>Requirements:</dd>
               </dl>
 
