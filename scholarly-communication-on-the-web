@@ -9,7 +9,6 @@
     <link href="media/css/lncs.css" media="all" rel="stylesheet alternate" title="LNCS" />
     <link href="media/css/acm.css" media="all" rel="stylesheet alternate" title="ACM" />
     <link href="media/css/do.css" media="all" rel="stylesheet" />
-    <link href="media/css/font-awesome.min.css" media="all" rel="stylesheet" />
     <script src="scripts/do.js"></script>
 <!-- <style>
 @media screen and (min-width: 980px) {
