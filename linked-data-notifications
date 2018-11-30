@@ -38,9 +38,9 @@
 
           <p>In centralised (social) Web systems which prevail today, notifications are structured arbitrarily and typically only usable by sanctioned applications that generated them in the first place. So far, notifications are considered to be <em>ephemeral</em> resources which may disappear after delivery, and thus are not designed for reuse. In such systems, communication and semantic interoperability across independently built applications is not expected. This design however places limitations on possible interactions around a notification. For example, current major social media services on the Web act as disjoint closed ecosystems, commonly known as "<a href="https://en.wikipedia.org/wiki/Closed_platform">walled gardens</a>" in contrast to open platforms with more possibilities for extensibility and reuse of applications and content. In essence, notifications and data are locked into particular systems, and users are restricted to using tightly coupled applications. Such software and systems are only capable of exchanging notifications if they have prior knowledge about the actors involved, location of the data, data formats, and user interfaces. Customarily, switching applications entails switching social providers, and having to create new profiles, and yet-again reconnect or build one's social network in the new system. This scenario is analogous to using an email application that's customised to each service provider, and only being able to send and receive emails from people that use the same provider. In order for information to flow between systems, ie. the degree of data portability, customised communication interfaces needs to be created after their initial implementations, and thus imposing additional maintenance tax for systems to cooperate.</p>
 
-          <p><span about="#design-issue" datatype="rdf:HTML" id="issue" property="schema:description" rel="dio:generatedByIntent" resource="#design-intent" typeof="dio:DesignIssue">In a decentralised architecture, notifications can be a key element for federation of information, and application integration. Current efforts towards <em>re-decentralising</em> the Web [<a class="ref" href="#ref-1">1</a>, <a class="ref" href="#ref-2">2</a>, <a class="ref" href="#ref-3">3</a>] are moving towards architectures in which data storage is decoupled from application logic, freeing end users to switch between applications, or to let multiple applications operate over the same data.</span></p>
+          <p>In a decentralised architecture, notifications can be a key element for federation of information, and application integration. Current efforts towards <em>re-decentralising</em> the Web [<a class="ref" href="#ref-1">1</a>, <a class="ref" href="#ref-2">2</a>, <a class="ref" href="#ref-3">3</a>] are moving towards architectures in which data storage is decoupled from application logic, freeing end users to switch between applications, or to let multiple applications operate over the same data.</span></p>
 
-          <p><span about="#design-intent" datatype="rdf:HTML" id="design-intent" property="schema:description" rel="dio:generatesIssue" resource="#design-issue" typeof="dio:Intent">We argue that notification data should not be locked into particular systems.</span> Data generated from independently built applications be discoverable and increase their chance for reusability by other applications. Users could choose where to store their notifications, and register their identifiers, as well as using their preferred applications to create, discover, and consume the data.</p>
+          <p>We argue that notification data should not be locked into particular systems.</span> Data generated from independently built applications be discoverable and increase their chance for reusability by other applications. Users could choose where to store their notifications, and register their identifiers, as well as using their preferred applications to create, discover, and consume the data.</p>
 
           <p>We will discuss a communication protocol that specifies how actors and applications can use a decentralised notification system that uses Linked Data to fulfil the <em>registration</em> and <em>awareness</em> functions. Parts of this section is adapted from work published as <cite><a href="http://csarven.ca/linked-data-notifications" rel="prov:wasDerivedFrom">Linked Data Notifications: a resource-centric communication protocol</a></cite>, Capadisli et al, 2017. The work reflects on the W3C <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> technical specification that attains interoperable notification exchange on the Web.</p>
 
@@ -125,7 +125,7 @@
               </blockquote>
 
 
-              <p>We want to enable the same activities for scholars by way of using their preferred applications to discover and send notifications, as well as to store incoming notifications where they prefer. In addition, it should be possible for users to switch between applications without having to move their data. Lastly, users being able to change the location of their data without having to to change their application.</p>
+              <p>We want to enable the same activities for scholars by way of using their preferred applications to discover and send notifications, as well as to store incoming notifications where they prefer. In addition, it should be possible for users to switch between applications without having to move their data. Lastly, users being able to change the location of their data without having to change their application.</p>
             </div>
           </section>
 
@@ -156,34 +156,55 @@
             </div>
           </section>
 
-          <section id="resource-centric-communication-protocol" inlist="" rel="schema:hasPart" resource="#resource-centric-communication-protocol">
-            <h2 property="schema:name">Resource-centric Communication Protocol</h2>
+          <section id="design-considerations" inlist="" rel="schema:hasPart" resource="#design-considerations">
+            <h2 property="schema:name">Design Considerations</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p>In this section we discuss requirements and design considerations for a decentralised notification protocol that conforms to the Linked Data design principles, as well as best practices for applications. We use these considerations to establish both concrete requirements and points of implementation-specific flexibility for the protocol.</p>
 
-              <p id="modularity"><strong>Modularity</strong>: To encourage modularity of applications, one should differentiate between different classes of implementation of the protocol. Two parties are involved in the creation of a notification: a <em>sender</em>, generating the notification data, and a <em>receiver</em>, storing the created resource. We also have the role of a <em>consumer</em>, which reads the notification data and repurposes it in some way. A software implementation can of course play two or all three of these roles; the important part is that it need not. A consuming application can read and use notification data without being concerned about ever sending or storing notifications.</p>
+              <p id="modularity"><strong>Modularity</strong>: To encourage modularity of applications, one should differentiate between different classes of implementation of the protocol. Two parties are involved in the creation of a notification: a <em>sender</em>, generating the notification data, and a <em>receiver</em>, storing the created resource. We also have the role of a <em>consumer</em>, which reads the notification data made available by a receiver, and repurposes it in some way. A software implementation can of course play two or all three of these roles; the important part is that it need not. A consuming application can read and use notification data without being concerned about ever sending or storing notifications.</p>
 
               <p id="reusability"><strong>Reusability</strong>: The relationship between the <em>consumer</em> and <em>receiver</em> roles is key to notifications being reusable. A consumer must be able to autonomously find the location of notifications for or about the particular resource it is interested in. To achieve this we place a requirement on the receiver to expose notifications it has been sent in such away to permit other applications to access them; and specify how any resource can advertise its receiving endpoint for consumers to discover. To promote fair use or remixing of notification contents, applications can incorporate rights and licensing information into the data. Similarly, applications may include additional information on licensing resources that the notification refers to. The presence of this type of information is important for consumers to assess the (re)usability of data.</p>
 
               <p id="persistence-and-retrievability"><strong>Persistence and Retrievability</strong>: Given the traditionally ephemeral nature of notifications, here we refer to persistence as units of information that can registered. Applications may benefit from referring to or reusing notifications if the notifications are known to be retrievable in the long term, or indicate their expected lifespan [<a href="decentralising-scholarly-communication#persistence-and-preservation">persistence-and-preservation</a>, <cite><a data-versiondate="2018-11-16T11:48:57Z" data-versionurl="https://web.archive.org/web/20181116114857/http://philarcher.org/diary/2013/uripersistence/" href="http://philarcher.org/diary/2013/uripersistence/">Study on Persistent URIs</a></cite>, <a href="https://www.w3.org/TR/dwbp/#UniqueIdentifiers">Use persistent URIs as identifiers of datasets</a>, <a href="https://tools.ietf.org/html/rfc7089">Memento</a>]. A <em>RESTful architecture</em> is well suited for persistent notifications, as it involves organisation of atomic resources, their discovery and description, and a lightweight API for the <abbr title="create, read, update, and delete">CRUD</abbr> operations [<cite><a href="http://ws-rest.org/2011/proc/a5-page.pdf">REST and Linked Data: a match made for domain driven development?</a></cite>]. This enforces the notion that notifications are considered resources in their own right, with their own dereferencable URIs.</p>
 
-              <p id="adaptability"><strong>Adaptability</strong>: </p>
-              <p id="subscribing"><strong>Subscribing</strong>: </p>
+              <p id="adaptability"><strong>Adaptability</strong>: We believe a notification protocol should be adaptable for different domains, but that there is no need to create multiple domain-specific notification protocols; the fundamental mechanics are the same given the three main architectural layers of the Web - identification, interaction, data formats.</p>
 
-              <hr />
+              <p id="target-representation"><strong>Target representation</strong>: Any resource may be the <em>target</em> of a notification. By target, we mean a notification may be addressed <em>to</em> the resource, be <em>about</em> the resource, or for a sender to otherwise decide that it is appropriate to draw the attention of the resource (or resource owner) to the information in the notification body. As such, any Web resource must be able to advertise an endpoint to which it can receive notifications. Resources can be RDF or non-RDF (such as an image, or CSV dataset), and may be informational (a blog post, a user profile) or non-informational (a person).</p>
 
+              <p id="notification-body"><strong>Notification body</strong>: We do not purport to be able to design a notifications ontology which is appropriate for every domain. Thus we consider the <em>contents</em> of a notification to be application specific. From a sender’s perspective, we derive two core principles: a notification can contain <em>any data</em>; a notification can use <em>any vocabulary</em>. From a consumer’s perspective, interoperability between different applications occurs through vocabulary reuse, and shared understanding of terms. This is in accordance with Linked Data principles in general. The practical upshot of this is that a calendar application which consumes event invitations using the <cite><a href="https://www.w3.org/TR/rdfcal/">RDF Calendar</a></cite> vocabulary is likely to completely ignore notifications containing the <cite><a href="https://www.w3.org/TR/prov-o/">PROV Ontology</a></cite>, even if it finds them all stored in the same place. For two independent applications operating in the <em>same</em> domain, a shared understanding of appropriate vocabulary terms is assumed.</p>
+
+              <p>However from a receiver’s perspective, exposing itself to receive any blobs of RDF data from unknown senders may be problematic. Thus, <strong>Notification verification</strong>: it should be possible for the receiver to enforce restrictions and accept only notifications that are acceptable according to its own criteria (deemed by e.g., user configuration; domain-specific receivers). This can be used as an anti-spam measure, a security protection, or for attaining application and data integrity.</p>
+
+              <p>Rejecting notifications which do not match a specific pattern in their contents, or the <em>shape</em> of the data, is one way to filter. For example, if the Inbox owner knows that they will only ever use a consuming application which processes friend requests, they can configure their receiver to filter out anything that does not match the pattern for a friend request, helping their consumer to be more efficient. If the notification constraints are also advertised by the receiving service as structured descriptions, generation and consumption of the notifications can be further automated. Possible specifications for doing so are W3C <cite><a href="https://www.w3.org/TR/shacl/">Shapes Constraint Language (SHACL)</a></cite> [<a class="ref" href="#ref-15">15</a>] or <cite><a href="https://shexspec.github.io/spec/">ShEx</a></cite>.</p>
+
+              <p>Receivers may wish to filter notifications by verifying the sender, through for example a whitelist or a Web of trust. This requires an authentication mechanism and since different authentication mechanisms are appropriate for different applications, the notification protocol should ideally be usable alongside various methods such as clientside certificates, e.g., WebID+TLS, token-based, e.g., OAuth 2.0, or digital signatures.</p>
+
+              <p>As <q>anyone can say anything about anything</q> a receiver may choose to resolve any external resources referred to by the notification, and cross-check the notification contents against authoritative sources. This is similar to how Semantic Pingback and Webmention require fetching and parsing of the source URL to verify existence of the target link.</p>
+
+
+              <p id="subscribing"><strong>Subscribing</strong>: In general, applications may require that new notifications are pushed to them in real-time, or to request them at appropriate intervals. To take this into account, we expand our definition of senders, receivers and consumers with the following interaction expectations: notifications are <em>pushed</em> from senders to receivers; and <em>pulled</em> from receivers by consumers.</p>
+
+              <p>Thus, an application which offers an endpoint or callback URL to which notifications should be sent directly is a receiver, and an application which fetches notifications from an endpoint on its own schedule is a consumer. Much of the related work <em>requires</em> notifications to be explicitly solicited to trigger sending. Since in a decentralised model, receivers may not be aware of possible sources for notifications, our sender-receiver relationship depends on the sender’s autonomy to make such decisions by itself. This does not preclude the scenario in which a receiver may wish to solicit notifications from a particular sender, but as there are already subscription mechanisms in wide use on the Web, we do not need to specify it as part of LDN. For example, <cite><a href="https://www.w3.org/TR/websub/">WebSub</a></cite> (recent W3C evolution of PubSubHubbub), the <cite>WebSocket Protocol</cite>, or <cite>HTTP Web Push</cite>.</p>
+            </div>
+          </section>
+
+          <section id="resource-centric-communication-protocol" inlist="" rel="schema:hasPart" resource="#resource-centric-communication-protocol">
+            <h2 property="schema:name">Resource-centric Communication Protocol</h2>
+            <div datatype="rdf:HTML" property="schema:description">
               <p class="todo">Linked Data Notifications is a protocol to facilitate exchanging messages between applications which serve as senders, receivers and/or consumers of RDF data.</p>
 
-              <p about="#design-intent" datatype="rdf:HTML" id="design-intent" property="schema:description" rel="dio:generatesIssue" resource="#design-issue" typeof="dio:Intent">We designed the <em>Linked Data Notifications (LDN)</em> protocol to support sharing and reuse of notifications <em>across</em> applications, regardless of how they were generated or what their contents are. We describe how the principles of identification, addressability and semantic representation can be applied to notifications on the Web. Specifying LDN as a formal protocol allows independently implemented, heterogeneous applications which generate and use notifications, to seamlessly work together. Thus, LDN supports the decentralisation of the Web as well as encourages the generation and consumption of Linked Data.</p>
+              <p>The <dfn id="ldn">Linked Data Notifications (<abbr title="Linked Data Notifications">LDN</abbr>)</dfn> protocol describes how servers (receivers) can receive messages pushed to them by applications (senders), as well as how other applications (consumers) may retrieve those messages. Any resource can advertise a receiving endpoint (Inbox) for notification messages. Messages are expressed in RDF, and can contain arbitrary data. It is not dependent on a complete implementation of LDP, but comprises an easy-to-implement subset. LDN is a <cite><a href="https://www.w3.org/TR/ldn">W3C Recommendation</a></cite>.</p>
 
-              <p about="#design-decision" datatype="rdf:HTML" property="schema:description" rel="dio:governsDesign" resource="#protocol" typeof="dio:DesignDecision">We build on existing W3C standards and Linked Data principles. In particular, the storage of notifications is compatible with the <cite>Linked Data Platform</cite> standard; notifications are identified by HTTP URIs; and notification contents are available as JSON-LD. A key architectural decision is the separation of concerns between <em>senders</em>, <em>receivers</em>, and <em>consumers</em> of notifications. Implementations of the protocol can play one or more of these roles, and interoperate successfully with implementations playing the complementary roles. This means that notifications generated by one application can be reused by a completely different application, accessed via the store where the notification data resides, through shared Linked Data vocabularies. LDN also pushes the decentralised approach further by allowing any <em>target</em> resource to advertise its Inbox anywhere on the Web; that is, targets do not need to be coupled to or controlled by a receiver, and can make use of a third-party <em>Inbox as a service</em>.<span about="#design-decision" rel="dio:supportedBy"><meta resource="http://csarven.ca/#i" /><meta resource="https://rhiaro.co.uk/#me" /></span></p>
+              <p about="#design-intent">We designed the <em>Linked Data Notifications (LDN)</em> protocol to support sharing and reuse of notifications <em>across</em> applications, regardless of how they were generated or what their contents are. We describe how the principles of identification, addressability and semantic representation can be applied to notifications on the Web. Specifying LDN as a formal protocol allows independently implemented, heterogeneous applications which generate and use notifications, to seamlessly work together. Thus, LDN supports the decentralisation of the Web as well as encourages the generation and consumption of Linked Data.</p>
+
+              <p about="#design-decision">We build on existing W3C standards and Linked Data principles. In particular, the storage of notifications is compatible with the <cite>Linked Data Platform</cite> standard; notifications are identified by HTTP URIs; and notification contents are available as JSON-LD. A key architectural decision is the separation of concerns between <em>senders</em>, <em>receivers</em>, and <em>consumers</em> of notifications. Implementations of the protocol can play one or more of these roles, and interoperate successfully with implementations playing the complementary roles. This means that notifications generated by one application can be reused by a completely different application, accessed via the store where the notification data resides, through shared Linked Data vocabularies. LDN also pushes the decentralised approach further by allowing any <em>target</em> resource to advertise its Inbox anywhere on the Web; that is, targets do not need to be coupled to or controlled by a receiver, and can make use of a third-party <em>Inbox as a service</em>.</p>
 
               <p>Beyond a generic understanding of hypermedia, LDN senders and consumers need little to <em>no prior</em> knowledge about how to interact with a server.</p>
 
-              <div about="" id="concept-scheme" rel="schema:hasPart" resource="#concept-scheme">
-                <p resource="#concept-scheme" typeof="skos:ConceptScheme"><span property="skos:definition">As the following terms used throughout this article may be subject to different interpretations by different communities, we provide some definitions here.</span></p>
+              <div about="" id="concept-scheme-ldn" rel="schema:hasPart" resource="#concept-scheme-ldn">
+                <p resource="#concept-scheme-ldn" typeof="skos:ConceptScheme"><span property="skos:definition">As the following terms used throughout this article may be subject to different interpretations by different communities, we provide some definitions here.</span></p>
 
-                <p>An <strong about="#concept-inbox" id="concept-inbox" property="skos:prefLabel" rel="skos:topConceptOf" resource="#concept-scheme" typeof="skos:Concept">Inbox</strong> is <span about="#concept-inbox" property="skos:definition">a container or directory (attached to a Web resource) which is used to store and serve a collection of notifications.</span> A <strong about="#concept-notification" id="concept-notification" property="skos:prefLabel" rel="skos:topConceptOf" resource="#concept-scheme" typeof="skos:Concept">notification</strong> is <span about="#concept-notification" property="skos:definition">a retrievable resource which returns RDF. The contents of notifications are intended to describe a change in state of some other resource, or contain new information for the attention of a user or process, and may be subject to constraints of the Inbox it is contained in.</span></p>
+                <p>An <strong about="#concept-ldn-inbox" id="concept-ldn-inbox" property="skos:prefLabel" rel="skos:topConceptOf" resource="#concept-scheme-ldn" typeof="skos:Concept">Inbox</strong> is <span about="#concept-ldn-inbox" property="skos:definition">a container or directory (attached to a Web resource) which is used to store and serve a collection of notifications.</span> A <strong about="#concept-ldn-notification" id="concept-ldn-notification" property="skos:prefLabel" rel="skos:topConceptOf" resource="#concept-scheme-ldn" typeof="skos:Concept">notification</strong> is <span about="#concept-ldn-notification" property="skos:definition">a retrievable resource which returns RDF that is normally discovered through an Inbox. The contents of notifications are intended to describe a change in state of some other resource, or contain new information for the attention of a user or process, and may be subject to constraints of the Inbox it is contained in.</span></p>
               </div>
 
               <figure id="figure-linked-data-notifications-overview" inlist="" rel="schema:hasPart" resource="#figure-linked-data-notifications-overview">
@@ -192,7 +213,78 @@
                 <figcaption property="schema:name">From <cite><a href="https://www.w3.org/TR/ldn/linked-data-notifications-overview.svg">Overview of Linked Data Notifications</a></cite>, 2017</figcaption>
               </figure>
 
-              <p class="todo">Is JSON-LD a hard requirement? Can’t clients and servers agree at runtime about the serialization?</p>
+
+              <section id="sender-receiver-consumer-interactions" inlist="" rel="schema:hasPart" resource="#sender-receiver-consumer-interactions">
+                <h3 property="schema:name">Sender, Receiver, Consumer Interactions</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>As discussed in <a href="#modularity">modularity</a>, two classes of interactions are possible: 1) <a href="#sender-to-receiver">sender-to-receiver</a>, 2) <a href="#consumer-to-receiver">consumer-to-receiver</a>.</p>
+
+                  <figure>
+                    <figcaption class="todo">Diagram</figcaption>
+                  </figure>
+
+                  <section id="sender-to-receiver" inlist="" rel="schema:hasPart" resource="#sender-to-receiver">
+                    <h4 property="schema:name">Sender to Receiver interactions</h4>
+                    <div datatype="rdf:HTML" property="schema:description">
+                      <p>The following steps (in order without skipping) describe the interaction between sender and receiver:</p>
+
+                      <ol>
+                        <li>A sender is triggered, either by a human or an automatic process, to deliver a notification;</li>
+                        <li>The sender chooses a target resource to send notifications to;</li>
+                        <li>The sender discovers the location of the target’s <em>Inbox</em> through the <code>ldp:inbox</code> relation in the HTTP <code>Link</code> header or RDF body of the target resource;</li>
+                        <li>The sender creates the body of the notification according to the needs of application;</li>
+                        <li>The sender makes a <code>POST</code> to the Inbox URL, containing the body in JSON-LD or in another serialisation acceptable by the server;</li>
+                        <li>The receiver optionally applies filtering rules, and sends the appropriate HTTP response code to accept or reject the notification;</li>
+                        <li>The receiver exposes the notification data (according to appropriate access control) for use by consumers.</li>
+                      </ol>
+                    </div>
+                  </section>
+
+                  <figure>
+                    <figcaption class="todo">Diagram</figcaption>
+                  </figure>
+
+                  <section id="consumer-to-receiver" inlist="" rel="schema:hasPart" resource="#consumer-to-receiver">
+                    <h4 property="schema:name">Consumer to Receiver interactions</h4>
+                    <div datatype="rdf:HTML" property="schema:description">
+                      <p>The following steps (in order without skipping) describe the interaction between consumer and receiver:</p>
+
+                      <ol>
+                        <li>A consumer selects a target and discovers the location of its Inbox in the same way as the sender;
+                        <li>A receiver responds to <code>GET</code> requests made to the Inbox URL with a listing of the URLs of notifications that have previously been accepted, linked to the Inbox with the <code>ldp:contains</code> predicate;
+                        <li>The receiver responds to <code>GET</code> requests made to the individual notification URLs with JSON-LD (or optionally other serialisations);</li>
+                        <li>Following the retrieval of notification listings or individual notifications, the consumer may perform further processing, combine with some other data, or simply present the results in a suitable human-readable way.</li>
+                      </ol>
+                    </div>
+                  </section>
+
+
+                  <section id="data-formats" inlist="" rel="schema:hasPart" resource="#data-formats">
+                    <h4 property="schema:name">Data Formats and Content Negotiation</h4>
+                    <div datatype="rdf:HTML" property="schema:description">
+                      <p>A specification and conforming implementations are integral to ensuring valid and interoperable applications. It is also generally mandated that a W3C specification aims to prescribe a design that ensures interoperability as much as possible. In this context, which data formats should be used by a notification specification requires decision making. Allowing LDN actors - sender, receiver, consumer - to handle data irrespective of the particular RDF serialisation permits flexibility, however it can also be costly to support. We take into account:</p>
+
+                      <ul>
+                        <li><em>application interoperability</em> eg. should applications support all current RDF formats, as well as new versions or formats in the future?</li>
+                        <li><em>maintenance of RDF parsers and serialisation libraries</em> eg. will the RDF libraries that applications use be kept up to date?</li>
+                        <li><em>complexity of their inclusion in applications</em> eg. what are the costs or concerns of using all RDF formats?</li>
+                        <li><em>run-time efficiency</em> eg. how well will applications perform going forward?</li>
+                      </ul>
+
+                      <p><strong>Why JSON-LD?</strong>: To address these issues, choosing a single RDF serialisation to <em>require</em> is necessary for consistent interoperability, as well as keeping processing requirements or external code dependencies minimal. While any RDF notation would satisfy that need, we have decided that LDN requires all applications to create and understand the JSON-LD syntax, both for the contents of Inbox as well as for individual notifications.</p>
+
+                      <p>To some extent, JSON-LD is compatible with existing JSON libraries or in some cases native programming language data structures. For example, Web browsers have a built-in interpreter for JavaScript that can handle JSON objects, that can take advantage of native object operations. Same data processing and manipulation operations are also available in a Node.js environment. Having said that, JSON-LD is intended to be processed as an RDF notation, as opposed to plain JSON. Hence, JSON-LD is just one convenience to certain kinds of environments that the application is confined to. JSON-LD is also advantageous in being familiar for developers who are <cite><a href="http://manu.sporny.org/2014/json-ld-origins-2/">used to JSON-based APIs but not RDF</a></cite>.</p>
+
+                      <p><strong>Content-negotiation</strong>: Optionally, applications may attempt to exchange different RDF serialisations by performing content negotiation. As in compliance with HTTP and REST principles, a sender may make an <code>OPTIONS</code> request to the receiver to determine the RDF content types accepted by the server. A receiver can expose <code>Accept-Post</code> headers for senders, and so the sender can serialize the notification in the request body accordingly. Consumers can send <code>Accept</code> headers to receivers to signal which RDF content types they prefer and capable of processing.</p>
+
+                      <p>JSON-LD is used as a minimum requirement for applications, while other RDF formats to discover and exchange notifications is still possible.</p>
+                    </div>
+                  </section>
+
+
+                </div>
+              </section>
+
 
               <p class="todo">For example, the requirement for reusability could be seen as a potential risk for privacy; what is the benefit of reusable notifications to balance that risk? Who would benefit the most from this principle (users, application developers, other) and in what way? A similar discussion could be made for R3 (persistence and retrievability).</p>
               <p>Once fetched by a 3rd-party, any piece of information could potentially be subject to privacy. Hence, this is orthogonal to whether the notifications are ephemeral or persistent. In R4-C, we briefly touch on various authentication methods which could be used alongside LDN with the idea that notifications are not necessarily public but only visible or reusable by intended parties. The receivers decide (based on their use case) which consumers (based on any criteria) can reuse. They achieve this by setting authentication and authorization settings on the notifications.</p>
