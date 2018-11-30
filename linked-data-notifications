@@ -277,7 +277,7 @@
 
                       <p><strong>Content-negotiation</strong>: Optionally, applications may attempt to exchange different RDF serialisations by performing content negotiation. As in compliance with HTTP and REST principles, a sender may make an <code>OPTIONS</code> request to the receiver to determine the RDF content types accepted by the server. A receiver can expose <code>Accept-Post</code> headers for senders, and so the sender can serialize the notification in the request body accordingly. Consumers can send <code>Accept</code> headers to receivers to signal which RDF content types they prefer and capable of processing.</p>
 
-                      <p>JSON-LD is used as a minimum requirement for applications, while other RDF formats to discover and exchange notifications is still possible.</p>
+                      <p>By mandating one RDF syntax (JSON-LD) for applications to communicate with, as well as permitting other syntaxes to discover and exchange notifications, compatibility across applications is assured.</p>
                     </div>
                   </section>
 
