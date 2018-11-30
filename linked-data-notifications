@@ -94,6 +94,10 @@
                 <dt>Artifacts of interest</dt>
                 <dd>Scenario: A system upon coming across articles and annotations that is of interest to researchers sends wants to inform them based on their listed interests (research results, disputes over data analysis, new relations between research objects).</dd>
                 <dd>Requirements:</dd>
+
+                <dt>Requesting access</dt>
+                <dd>Scenario: When one of the author does not yet have write-access to an article, they would like to make a request to their peers to have the required permissions.</dd>
+                <dd>Requirements:</dd>
               </dl>
 
 
@@ -271,7 +275,7 @@
                         <li><em>run-time efficiency</em> eg. how well will applications perform going forward?</li>
                       </ul>
 
-                      <p><strong>Why JSON-LD?</strong>: To address these issues, choosing a single RDF serialisation to <em>require</em> is necessary for consistent interoperability, as well as keeping processing requirements or external code dependencies minimal. While any RDF notation would satisfy that need, we have decided that LDN requires all applications to create and understand the JSON-LD syntax, both for the contents of Inbox as well as for individual notifications.</p>
+                      <p><strong>Why JSON-LD</strong>: To address these issues, choosing a single RDF serialisation to <em>require</em> is necessary for consistent interoperability, as well as keeping processing requirements or external code dependencies minimal. While any RDF notation would satisfy that need, we have decided that LDN requires all applications to create and understand the JSON-LD syntax, both for the contents of Inbox as well as for individual notifications.</p>
 
                       <p>To some extent, JSON-LD is compatible with existing JSON libraries or in some cases native programming language data structures. For example, Web browsers have a built-in interpreter for JavaScript that can handle JSON objects, that can take advantage of native object operations. Same data processing and manipulation operations are also available in a Node.js environment. Having said that, JSON-LD is intended to be processed as an RDF notation, as opposed to plain JSON. Hence, JSON-LD is just one convenience to certain kinds of environments that the application is confined to. JSON-LD is also advantageous in being familiar for developers who are <cite><a href="http://manu.sporny.org/2014/json-ld-origins-2/">used to JSON-based APIs but not RDF</a></cite>.</p>
 
