@@ -95,6 +95,8 @@ XXX:
 
                   <p class="todo">Move some of these to related work about HTML(+RDFa) patterns..</p>
 
+<p class="todo">Mention how existing @id value is reused when including new RDFa block.</p>
+
                   <dl>
                     <dt id="html-markup-syntax">Markup syntax</dt>
                     <dd>HTML <cite><a href="https://www.w3.org/TR/html-polyglot/">Polyglot Markup</a></cite> specifies a robust syntax such that documents can be parsed as both HTML and XML (<code>text/html</code>, <code>application/xhtml+xml</code>), and they can generally be used in either tooling without further intervention. See also <var>getDocument</var> (do.js) for details on DOM normalisation.</dd>
