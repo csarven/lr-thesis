@@ -59,6 +59,8 @@
 
               <p><span class="todo">Paraphrase</span> We restrict our review to mechanisms which do not expect the notification to be received or used only by the same software or platform which sent it. The criteria includes our <a href="linked-data-notifications#requirements-and-design-considerations">requirements and design considerations</a> (<em>Rx</em>) along with additional technical information which helps to capture some design differences (<em>Tx</em>).</p>
 
+              <p>The fiigure <a href="#comparison-of-notification-mechanisms">Comparison of notification mechanisms</a> is derived from <a href="http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms">http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms</a> and modified to include WebSub.</p>
+
               <figure>
                 <table id="comparison-of-notification-mechanisms">
                   <caption>Comparison of notification mechanisms</caption>
@@ -124,6 +126,21 @@
                       <td>/</td>
                       <td>RDF<sup>q</sup></td>
                       <td>X</td>
+                    </tr>
+                    <tr>
+                      <th>WebSub</th>
+                      <td>Fat ping</td>
+                      <td>POST</td>
+                      <td>None</td>
+                      <td>S, U</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td>Any</td>
+                      <td>form urlencoded</td>
+                      <td>/</td>
+                      <td>+ app</td>
+                      <td>-</td>
+                      <td>!</td>
                     </tr>
                     <tr>
                       <th>DSNotify</th>
