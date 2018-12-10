@@ -33,9 +33,10 @@
           <section id="implementing-a-read-write-linked-data-web" inlist="" rel="schema:hasPart" resource="#implementing-a-read-write-linked-data-web">
             <h2 property="schema:name">Implementing a Read-Write Linked Data Web</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo">in this section we demonstrate how the various standards described in this chapter can be pieced together into an application designed for researchers to particpate in the scholarly communication ecosystem.</p>
+              <p class="todo">in this section we demonstrate how the various standards described in this chapter can be pieced together into an application designed for researchers to participate in the scholarly communication ecosystem.</p>
 
 
+              <p class="todo">Mention context preserving eg. unique inboxes per article version so that when an article, its notifications, and the annotations are archives, it can be recalled and be meaningful as at the time of creation.</p>
 
 
               <p class="todo">This section is mostly a dump of dokie.li/docs.. need to revise/extend. What else should it focus on?</p>
