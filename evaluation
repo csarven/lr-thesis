@@ -255,6 +255,10 @@
                 <figcaption><span class="todo">Important: Should it only cite, summarise or redistribute?</span>Table is a redistribution of <cite><a href="http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms" rel="owl:sameAs">comparison of notification mechanisms</a></cite> originally published in <cite>Linked Data Notifications: a resource-centric communication protocol</cite> on <time>2016-05-01</time> with <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></figcaption>
               </figure>
 
+              <p>As protocols towards federation, WebSub's core functionality is a subscription mechanism whereas LDN is delivery. The former is push-based and the latter is pull-based. WebSub and LDN are both agnostic about the semantics within the notifications, however LDN uses RDF-based content-types.</p>
+
+              <p>Further similarities and differences between LDN and other federation protocols and social APIs are described in W3C <cite><a href="https://www.w3.org/TR/social-web-protocols/">Social Web Protocols</a></cite>. For example, a bridging code can be applied by applications implementing different specifications to achieve further interoperability between systems.</p>
+
               <p class="todo">Given that each application requires to follow the steps listed in <q><a href="#sender-to-receiver">Sender to receiver interactions</a></q> and <q><a href="#consumer-to-receiver">Consumer to receiver interactions</a></q> the metrics are dependent on the performance of client and server to do HTTP requests and responses, and their respective payloads.</p>
 
 <p class="todo">“Comparison summary”: what is the result of the evaluation here? “Compatibility with existing systems”: this is perhaps the clearest, but the conclusion about compatibility is implicit. “Optimizing implementation[s]”, “Data Formats and Content Negotiation”: what is evaluated? “Accommodating different targets”: how well is LDN doing compared to the others?</p>
