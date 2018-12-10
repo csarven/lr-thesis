@@ -370,6 +370,20 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
             </div>
           </section>
 
+
+          <section id="ldn-forces-functions" inlist="" rel="schema:hasPart" resource="ldn-forces-functions">
+            <h2 property="schema:name">Forces and Functions in Linked Data Notifications</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>We summarise here how LDN as a mechanism can help to fulfill some of the forces and functions in scientific communication.</p>
+
+              <p id="ldn-forces"><strong>Forces in LDN</strong>: The actors that are involved in LDN are Senders, Receivers, Consumers, as well as Targets.</p>
+
+              <p id="ldn-functions"><strong>Functions in LDN</strong>: As an LDN Sender's message is created, become referenceable and reusable by a Receiver using HTTP identifiers, the protocol first and foremost can meet the registration function. Second, because the mechanism includes a way for messages to be sent as well as read, it fulfills the awareness function.</p>
+
+              <p>We have incorporated this information in Table <cite><a href="decentralising-scholarly-communication#specifications-for-forces-and-functions">specifications-for-forces-and-functions</a></cite>.</p>
+            </div>
+          </section>
+
           <section id="on-screen" inlist="" rel="schema:hasPart" resource="#on-screen">
             <h2 property="schema:name">On screen!</h2>
             <div datatype="rdf:HTML" property="schema:description">
