@@ -281,33 +281,32 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                       </ol>
                     </div>
                   </section>
-
-
-                  <section id="data-formats" inlist="" rel="schema:hasPart" resource="#data-formats">
-                    <h4 property="schema:name">Data Formats and Content Negotiation</h4>
-                    <div datatype="rdf:HTML" property="schema:description">
-                      <p>A specification and conforming implementations are integral to ensuring valid and interoperable applications. It is also generally mandated that a W3C specification aims to prescribe a design that ensures interoperability as much as possible. In this context, which data formats should be used by a notification specification requires decision making. Allowing LDN actors - sender, receiver, consumer - to handle data irrespective of the particular RDF serialisation permits flexibility, however it can also be costly to support. We take into account:</p>
-
-                      <ul>
-                        <li><em>application interoperability</em> eg. should applications support all current RDF formats, as well as new versions or formats in the future?</li>
-                        <li><em>maintenance of RDF parsers and serialisation libraries</em> eg. will the RDF libraries that applications use be kept up to date?</li>
-                        <li><em>complexity of their inclusion in applications</em> eg. what are the costs or concerns of using all RDF formats?</li>
-                        <li><em>run-time efficiency</em> eg. how well will applications perform going forward?</li>
-                      </ul>
-
-                      <p><strong>Why JSON-LD</strong>: To address these issues, choosing a single RDF serialisation to <em>require</em> is necessary for consistent interoperability, as well as keeping processing requirements or external code dependencies minimal. While any RDF notation would satisfy that need, we have decided that LDN requires all applications to create and understand the JSON-LD syntax, both for the contents of Inbox as well as for individual notifications.</p>
-
-                      <p>To some extent, JSON-LD is compatible with existing JSON libraries or in some cases native programming language data structures. For example, Web browsers have a built-in interpreter for JavaScript that can handle JSON objects, that can take advantage of native object operations. Same data processing and manipulation operations are also available in a Node.js environment. Having said that, JSON-LD is intended to be processed as an RDF notation, as opposed to plain JSON. Hence, JSON-LD is just one convenience to certain kinds of environments that the application is confined to. JSON-LD is also advantageous in being familiar for developers who are <cite><a href="http://manu.sporny.org/2014/json-ld-origins-2/">used to JSON-based APIs but not RDF</a></cite>.</p>
-
-                      <p><strong>Content-negotiation</strong>: Optionally, applications may attempt to exchange different RDF serialisations by performing content negotiation. As in compliance with HTTP and REST principles, a sender may make an <code>OPTIONS</code> request to the receiver to determine the RDF content types accepted by the server. A receiver can expose <code>Accept-Post</code> headers for senders, and so the sender can serialize the notification in the request body accordingly. Consumers can send <code>Accept</code> headers to receivers to signal which RDF content types they prefer and capable of processing.</p>
-
-                      <p>By mandating one RDF syntax (JSON-LD) for applications to communicate with, as well as permitting other syntaxes to discover and exchange notifications, compatibility across applications is assured.</p>
-                    </div>
-                  </section>
-
-
                 </div>
               </section>
+
+
+              <section id="data-formats" inlist="" rel="schema:hasPart" resource="#data-formats">
+                <h3 property="schema:name">Data Formats and Content Negotiation</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>A specification and conforming implementations are integral to ensuring valid and interoperable applications. It is also generally mandated that a W3C specification aims to prescribe a design that ensures interoperability as much as possible. In this context, which data formats should be used by a notification specification requires decision making. Allowing LDN actors - sender, receiver, consumer - to handle data irrespective of the particular RDF serialisation permits flexibility, however it can also be costly to support. We take into account:</p>
+
+                  <ul>
+                    <li><em>application interoperability</em> eg. should applications support all current RDF formats, as well as new versions or formats in the future?</li>
+                    <li><em>maintenance of RDF parsers and serialisation libraries</em> eg. will the RDF libraries that applications use be kept up to date?</li>
+                    <li><em>complexity of their inclusion in applications</em> eg. what are the costs or concerns of using all RDF formats?</li>
+                    <li><em>run-time efficiency</em> eg. how well will applications perform going forward?</li>
+                  </ul>
+
+                  <p><strong>Why JSON-LD</strong>: To address these issues, choosing a single RDF serialisation to <em>require</em> is necessary for consistent interoperability, as well as keeping processing requirements or external code dependencies minimal. While any RDF notation would satisfy that need, we have decided that LDN requires all applications to create and understand the JSON-LD syntax, both for the contents of Inbox as well as for individual notifications.</p>
+
+                  <p>To some extent, JSON-LD is compatible with existing JSON libraries or in some cases native programming language data structures. For example, Web browsers have a built-in interpreter for JavaScript that can handle JSON objects, that can take advantage of native object operations. Same data processing and manipulation operations are also available in a Node.js environment. Having said that, JSON-LD is intended to be processed as an RDF notation, as opposed to plain JSON. Hence, JSON-LD is just one convenience to certain kinds of environments that the application is confined to. JSON-LD is also advantageous in being familiar for developers who are <cite><a href="http://manu.sporny.org/2014/json-ld-origins-2/">used to JSON-based APIs but not RDF</a></cite>.</p>
+
+                  <p><strong>Content-negotiation</strong>: Optionally, applications may attempt to exchange different RDF serialisations by performing content negotiation. As in compliance with HTTP and REST principles, a sender may make an <code>OPTIONS</code> request to the receiver to determine the RDF content types accepted by the server. A receiver can expose <code>Accept-Post</code> headers for senders, and so the sender can serialize the notification in the request body accordingly. Consumers can send <code>Accept</code> headers to receivers to signal which RDF content types they prefer and capable of processing.</p>
+
+                  <p>By mandating one RDF syntax (JSON-LD) for applications to communicate with, as well as permitting other syntaxes to discover and exchange notifications, compatibility across applications is assured.</p>
+                </div>
+              </section>
+
 
               <section id="security-privacy-content-considerations" inlist="" rel="schema:hasPart" resource="#security-privacy-content-considerations">
                 <h3 property="schema:name">Security, Privacy and Content Considerations</h3>
