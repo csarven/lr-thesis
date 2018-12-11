@@ -375,9 +375,28 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
             <div datatype="rdf:HTML" property="schema:description">
               <p>We summarise here how LDN as a mechanism can help to fulfill some of the forces and functions in scientific communication.</p>
 
-              <p id="ldn-forces"><strong>Forces in LDN</strong>: The actors that are involved in LDN are Senders, Receivers, Consumers, as well as Targets.</p>
+              <p id="ldn-forces">The <em>forces in LDN</em> are as follows:</p>
 
-              <p id="ldn-functions"><strong>Functions in LDN</strong>: As an LDN Sender's message is created, become referenceable and reusable by a Receiver using HTTP identifiers, the protocol first and foremost can meet the registration function. Second, because the mechanism includes a way for messages to be sent as well as read, it fulfills the awareness function.</p>
+              <dl>
+                <dt>Actors</dt>
+                <dd>The actors in LDN can be generally categorised into applications and documents (or things). Applications consist of one or more of the implementations of the LDN roles: Sender, Receiver, Consumer. Documents and researcher profiles for instance consist of the LDN Target.</dd>
+
+                <dt>Content</dt>
+                <dd></dd>
+
+                <dt>Accessibility</dt>
+                <dd></dd>
+              </dl>
+
+              <p id="ldn-functions">The <em>functions in LDN</em> are as follows:</p>
+
+              <dl>
+                <dt>Registration</dt>
+                <dd>As an LDN Sender's message is created, become referenceable and reusable by a Receiver using HTTP identifiers, the protocol first and foremost meets the registration function.</dd>
+
+                <dt>Awareness</dt>
+                <dd>As the mechanism includes a way for messages to be sent as well as read, it fulfills the awareness function.</dd>
+              </dl>
 
               <p>We have incorporated this information in Table <cite><a href="decentralising-scholarly-communication#specifications-for-forces-and-functions">specifications-for-forces-and-functions</a></cite>.</p>
             </div>
