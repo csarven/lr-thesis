@@ -379,13 +379,13 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 
               <dl>
                 <dt>Actors</dt>
-                <dd>The actors in LDN can be generally categorised into applications and documents (or things). Applications consist of one or more of the implementations of the LDN roles: Sender, Receiver, Consumer. Documents and researcher profiles for instance consist of the LDN Target.</dd>
+                <dd>The actors in LDN can be generally categorised into applications and documents (or things). Applications consist of one or more of the implementations of the LDN roles: Sender, Receiver, Consumer. The subject with an inbox, a document or a researcher profile for instance consists of the LDN Target.</dd>
 
                 <dt>Content</dt>
-                <dd></dd>
+                <dd>Target, Inbox, and Notifications correspond to accessible content.</dd>
 
                 <dt>Accessibility</dt>
-                <dd></dd>
+                <dd>An inbox and its notifications are made <em>available</em> to users and the applications they use via HTTP. When the HTTP URLs resolve, their contents are <em>retrievable</em> subject to authentication and authorisation.</dd>
               </dl>
 
               <p id="ldn-functions">The <em>functions in LDN</em> are as follows:</p>
