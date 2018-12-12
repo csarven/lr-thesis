@@ -311,9 +311,9 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
               <section id="security-privacy-content-considerations" inlist="" rel="schema:hasPart" resource="#security-privacy-content-considerations">
                 <h3 property="schema:name">Security, Privacy and Content Considerations</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p id="target-ownership"><strong>Target ownership</strong>: As per URI Ownership, the Inbox is ultimately controlled by the LDN Receiver, and subject to third-party access to HTTP headers and content. Hence, publishers of the resources advertising an Inbox (target) are expected or be aware of using servers they trust or control.</p>
+                  <p id="target-ownership"><strong>Target ownership</strong>: As per AWWW's <cite>URI Ownership</cite>, the Inbox is ultimately controlled by the owner of LDN Receiver, and subject to third-party access to HTTP headers and content. Hence, publishers of the resources advertising an Inbox (target) are expected or be aware of using servers they trust or control.</p>
 
-                  <p id="constraints"><strong>Constraints</strong>: One way to filter unwarranted notifications from being created on the server and exposed is where Inbox URLs announce their own constraints (eg. SHACL, Web Annotation Protocol) via an HTTP <code>Link</code> header or body of the resource with a <code>rel</code> value of <code>ldp:constrainedBy</code>. In this case, senders are required to comply with constraint specifications or the receiver may reject their notification.</p>
+                  <p id="constraints"><strong>Constraints</strong>: One way to filter unwarranted notifications from being created on the server and exposed is where Inbox URLs announce their own constraints (eg. SHACL, Web Annotation Protocol) via an HTTP <code>Link</code> header or body of the resource with a <code>rel</code> value of <code>ldp:constrainedBy</code>. For example, an LDN receiver may want to allow notifications with a certain "shape"; a model specifying allowed and required values in a notification. This is so that senders can comply with the advertised constraint specification or the receiver may reject their notification.</p>
 
                   <p id="authenticated-inboxes"><strong>Authenticated inboxes</strong>: The requirement for reusable notifications could be seen as a potential risk for privacy. The LDN Receivers are expected to consider implementing access control on the Inbox URL as well as the individual notification URL to restrict reading and writing to a whitelist of trusted senders. Various authentication methods which could be used alongside LDN with the idea that notifications are not necessarily public but only visible or reusable by intended parties. The receivers decide (based on their use case) which consumers (based on any criteria) can reuse. They achieve this by setting authentication and authorization settings on the notifications.</p>
 
@@ -382,7 +382,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                 <dd>The actors in LDN can be generally categorised into applications and documents (or things). Applications consist of one or more of the implementations of the LDN roles: Sender, Receiver, Consumer. The subject with an inbox, a document or a researcher profile for instance consists of the LDN Target.</dd>
 
                 <dt>Content</dt>
-                <dd>Target, Inbox, and Notifications correspond to accessible content.</dd>
+                <dd>Target, Inbox, and Notifications correspond to accessible qcontent.</dd>
 
                 <dt>Accessibility</dt>
                 <dd>An inbox and its notifications are made <em>available</em> to users and the applications they use via HTTP. When the HTTP URLs resolve, their contents are <em>retrievable</em> subject to authentication and authorisation.</dd>
