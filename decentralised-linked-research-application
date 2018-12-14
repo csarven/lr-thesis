@@ -89,6 +89,32 @@ XXX:
                 </div>
               </section>
 
+              <section id="decentralised-notifications-and-annotations" inlist="" rel="schema:hasPart" resource="decentralised-notifications-and-annotations">
+                <h2 property="schema:name">Decentralised Notifications and Annotations</h2>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p class="todo">Some of it overlaps with <a href="http://csarven.ca/dokieli-rww#figure-dokieli-architecture-relations">http://csarven.ca/dokieli-rww#figure-dokieli-architecture-relations</a>.</p>
+
+                  <p>By using different arrangements of LDN, WA, AP, LDP mechanisms and related vocabularies, scholarly and social activities can be systematically discovered for a variety of use cases. Decentralised notifications and annotations surrounding an article can be determined as follows:</p>
+
+                  <ul>
+                    <li id="subject-annotation-service">Resource asserts the location of a preferred service for maintaining annotations about the the subject resource (via <code>oa:annotationService</code>) </li>
+                    <li id="subject-inbox">Resource asserts the location of a service that receives and serves notifications about the subject resource (via <code>ldp:inbox</code>)</li>
+                    <li id="profile-storage">An individual's profile asserting their preferred storage location (via <code>pim:storage</code>)</li>
+                    <li id="profile-outbox">An individual's profile asserting the location of their activities (via <code>as:outbox</code>)</li>
+                    <li id="profile-knows-profile-storage">Members of an individual's social graph (via eg. <code>foaf:knows</code>) asserting their preferred storage location</li>
+                    <li id="profile-knows-profile-outbox">Members of an individual's social graph asserting the location of their activities</li>
+                    <li id="inbox-annotation-known">Inbox or annotation service locations are known prior to interaction eg. trusted or used by a community.</li>
+                    <li id="inbox-annotation-manual">Inbox or annotation service locations are manually input to the system eg. not publicised or private.</li>
+                  </ul>
+
+                  <p>Applications can incrementally implement a combination of these approaches to discover distributed activities on the Web. Figure X depicts an interplay of decentralised personal profiles, notifications, and annotations.</p>
+
+                  <figure class="todo">
+                    <figcaption>Interplay of Personal Profiles, Notifications, and Annotations</figcaption>
+                  </figure>
+                </div>
+              </section>
+
               <section id="html-patterns" inlist="" rel="schema:hasPart" resource="#html-patterns">
                 <h3 property="schema:name">HTML patterns</h3>
                 <div datatype="rdf:HTML" property="schema:description">
@@ -236,11 +262,8 @@ XXX:
 <code>    &lt;title&gt;&lt;/title&gt;</code>
 <code>    &lt;meta content="width=device-width, initial-scale=1" name="viewport" /&gt;</code>
 <code>    &lt;link href="https://dokie.li/media/css/basic.css" media="all" rel="stylesheet" title="Basic" /&gt;</code>
-<code>    &lt;link href="https://dokie.li/media/css/do.css" media="all" rel="stylesheet" /&gt;</code>
-<code>    &lt;link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all" rel="stylesheet" /&gt;</code>
-<code>    &lt;script src="https://dokie.li/scripts/simplerdf.js"&gt;&lt;/script&gt;</code>
-<code>    &lt;script src="https://dokie.li/scripts/medium-editor.min.js"&gt;&lt;/script&gt;</code>
-<code>    &lt;script src="https://dokie.li/scripts/do.js"&gt;&lt;/script&gt;</code>
+<code>    &lt;link href="https://dokie.li/media/css/dokieli.css" media="all" rel="stylesheet" /&gt;</code>
+<code>    &lt;script src="https://dokie.li/scripts/dokieli.js"&gt;&lt;/script&gt;</code>
 <code>  &lt;/head&gt;</code>
 <code></code>
 <code>  &lt;body about="" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ pimspace: http://www.w3.org/ns/pim/space# cc: https://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# mem: http://mementoweb.org/ns# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ void: http://rdfs.org/ns/void# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# bibo: http://purl.org/ontology/bibo/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio# rel: https://www.w3.org/ns/iana/link-relations/relation#" typeof="schema:CreativeWork sioc:Post prov:Entity"&gt;</code>
