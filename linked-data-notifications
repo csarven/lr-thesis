@@ -45,7 +45,16 @@
 
               <p>We argue that notification data should not be locked into particular systems. Data generated from independently built applications be discoverable and increase their chance for reusability by other applications. Users could choose where to store their notifications, and register their identifiers, as well as using their preferred applications to create, discover, and consume the data.</p>
 
-              <p>We will discuss a communication protocol that specifies how actors and applications can use a decentralised notification system that uses Linked Data to fulfil the <em>registration</em> and <em>awareness</em> functions, as well as support systems with their information flow with respect to the certification and archiving functions. Parts of this section is adapted from work published as <cite><a href="http://csarven.ca/linked-data-notifications" rel="prov:wasDerivedFrom">Linked Data Notifications: a resource-centric communication protocol</a></cite>, Capadisli et al, 2017. The work reflects on the W3C <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> technical specification that attains interoperable notification exchange on the Web.</p>
+              <p>We will discuss a communication protocol that specifies how actors and applications can use a decentralised notification system that uses Linked Data to fulfil the <em>registration</em> and <em>awareness</em> functions, as well as support systems with their information flow with respect to the certification and archiving functions. More specifically, the following research questions:</p>
+
+              <ul>
+                <li>How can actors use their preferred applications to discover, reuse, and send notifications?</li>
+                <li>How can users store incoming notifications where they prefer?</li>
+                <li>Would it be possible for users to switch between applications without having to move their data?</li>
+                <li>Can users change the location of their data without having to change their application?</li>
+              </ul>
+
+              <p>Parts of this section is adapted from work published as <cite><a href="http://csarven.ca/linked-data-notifications" rel="prov:wasDerivedFrom">Linked Data Notifications: a resource-centric communication protocol</a></cite>, Capadisli et al, 2017. The work reflects on the W3C <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> technical specification that attains interoperable notification exchange on the Web.</p>
             </div>
           </section>
 
@@ -134,13 +143,7 @@
                 <footer><cite><a href="https://www.w3.org/TR/ldp-ucr/">Linked Data Platform Use Cases and Requirements</a></cite>, W3C, 2014</footer>
               </blockquote>
 
-              <p>Our aim is to investigate and devise a messaging protocol that would be able to realise the use cases for scholars, provided that:</p>
-
-              <ul>
-                <li>users can use their preferred applications to discover, reuse, and send notifications, as well as to store incoming notifications where they prefer;</li>
-                <li>possibility for users to switch between applications without having to move their data;</li>
-                <li>users being able to change the location of their data without having to change their application.</li>
-              </ul>
+              <p>Our aim is to investigate and devise a messaging protocol that would be able to realise some of these use cases for scholars.</p>
             </div>
           </section>
 
