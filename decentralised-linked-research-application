@@ -21,22 +21,53 @@
           <p class="todo">What are the core requirements for a contributor-controlled decentralised information space - access controlled read-write - and social participation? Conclusions should reflect on this</p>
 
 
+          <section id="decentralised-notifications-and-annotations" inlist="" rel="schema:hasPart" resource="decentralised-notifications-and-annotations">
+            <h2 property="schema:name">Decentralised Notifications and Annotations</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo">Some of it overlaps with <a href="http://csarven.ca/dokieli-rww#figure-dokieli-architecture-relations">http://csarven.ca/dokieli-rww#figure-dokieli-architecture-relations</a>.</p>
+
+              <p>By using different arrangements of LDN, WA, AP, LDP mechanisms and related vocabularies, scholarly and social activities can be systematically discovered for a variety of use cases. Decentralised notifications and annotations surrounding an article can be determined as follows:</p>
+
+              <ul>
+                <li id="subject-annotation-service">Resource asserts the location of a preferred service for maintaining annotations about the the subject resource (via <code>oa:annotationService</code>) </li>
+                <li id="subject-inbox">Resource asserts the location of a service that receives and serves notifications about the subject resource (via <code>ldp:inbox</code>)</li>
+                <li id="profile-storage">An individual's profile asserting their preferred storage location (via <code>pim:storage</code>)</li>
+                <li id="profile-outbox">An individual's profile asserting the location of their activities (via <code>as:outbox</code>)</li>
+                <li id="profile-knows-profile-storage">Members of an individual's social graph (via eg. <code>foaf:knows</code>) asserting their preferred storage location</li>
+                <li id="profile-knows-profile-outbox">Members of an individual's social graph asserting the location of their activities</li>
+                <li id="inbox-annotation-known">Inbox or annotation service locations are known prior to interaction eg. trusted or used by a community.</li>
+                <li id="inbox-annotation-manual">Inbox or annotation service locations are manually input to the system eg. not publicised or private.</li>
+              </ul>
+
+              <p>Applications can incrementally implement a combination of these approaches to discover distributed activities on the Web. Figure X depicts an interplay of decentralised personal profiles, notifications, and annotations.</p>
+
+              <figure class="todo">
+                <figcaption>Interplay of Personal Profiles, Notifications, and Annotations</figcaption>
+              </figure>
+            </div>
+          </section>
+
+
+
+<!--
               <p id="cathedral-bazaar">In the <cite><a href="http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/">The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary</a></cite>, 2000, by Eric Steven Raymond, examines top-down and bottom-up development processes in open source projects. The <em>Cathedral</em> model was corresponded to the top-down approach where software is <q>carefully crafted by individual wizards or small bands of mages working in splendid isolation, with no beta to be released before its time</q>. The <cem>Bazaar</cem> model on the other corresponded to the bottom-up approach with the idea to <q>release early and often, delegate everything you can, be open to the point of promiscuity</q>.</p>
 
               <p id="unix-philosophy">In <cite><a href="http://www.catb.org/~esr/writings/taoup/html/">The Art of Unix Programming</a></cite>, 2003, Eric S. Raymond captures <a href="http://www.catb.org/~esr/writings/taoup/html/ch01s06.html">a series of bottom-up design rules</a> for the Unix environment and software including: modularity, clarity, composition, separation, parsimony, transparency, robustness, least surprise, silence, repair, economy, generation, optimization, diversity, and extensibility.</p>
+-->
 
-              <p class="todo">We highlight social scholarly communication use cases with <cite><a href="https://dokie.li/">dokieli</a></cite>, a clientside editor for decentralised scientific article publishing, annotations and social interactions [<a class="ref" href="#ref-17">17</a>]. dokieli uses LDN to send and consume notifications: When a reader comments on a fragment of text in an article, the application discovers the article’s Inbox and sends a notification about the annotation. dokieli also consumes notifications from this Inbox to fetch and display the annotation as marginalia (<a href="#figure-dokieli-annotation">figure 2</a>). A reader can share a dokieli-enabled article with their contacts; dokieli discovers each contact’s Inbox and sends a notification there (<a href="#figure-dokieli-share">figure 3</a>). When editing an article, the author can add a citation. If an Inbox is discovered in the cited article, dokieli sends a notification there to indicate what part of the article was cited by whom and where. dokieli-enabled articles also consume citation notifications to display these metrics for the author and other readers (<a href="#figure-dokieli-citation">figure 4</a>).</p>
+ 
 
-              <p>dokieli to implements the following use cases, to most intent, from the W3C <cite><a href="https://www.w3.org/TR/xhtml-rdfa-scenarios/">RDFa Use Cases: Scenarios for Embedding RDF in HTML</a></cite>: <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-1">Basic Structured Blogging</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-2">Publishing an Event - Overriding Some of the Rendered Data</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-3">Content Management Metadata</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-5">Web Clipboard</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-7">Advanced Data Structures</q>, and <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-8">Augmented Browsing for Scientists</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-9">Publishing a RDF Vocabulary</q>.</p>
-
-
-          <section id="implementing-a-read-write-linked-data-web" inlist="" rel="schema:hasPart" resource="#implementing-a-read-write-linked-data-web">
-            <h2 property="schema:name">Implementing a Read-Write Linked Data Web</h2>
+          <section id="implementing-a-read-write-linked-research-application" inlist="" rel="schema:hasPart" resource="#implementing-a-read-write-linked-data-web">
+            <h2 property="schema:name">Implementing a Read-Write Linked Res</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p class="todo">in this section we demonstrate how the various standards described in this chapter can be pieced together into an application designed for researchers to participate in the scholarly communication ecosystem.</p>
 
 
               <p class="todo">Mention context preserving eg. unique inboxes per article version so that when an article, its notifications, and the annotations are archives, it can be recalled and be meaningful as at the time of creation.</p>
+
+             <p class="todo">We highlight social scholarly communication use cases with <cite><a href="https://dokie.li/">dokieli</a></cite>, a clientside editor for decentralised scientific article publishing, annotations and social interactions [<a class="ref" href="#ref-17">17</a>]. dokieli uses LDN to send and consume notifications: When a reader comments on a fragment of text in an article, the application discovers the article’s Inbox and sends a notification about the annotation. dokieli also consumes notifications from this Inbox to fetch and display the annotation as marginalia (<a href="#figure-dokieli-annotation">figure 2</a>). A reader can share a dokieli-enabled article with their contacts; dokieli discovers each contact’s Inbox and sends a notification there (<a href="#figure-dokieli-share">figure 3</a>). When editing an article, the author can add a citation. If an Inbox is discovered in the cited article, dokieli sends a notification there to indicate what part of the article was cited by whom and where. dokieli-enabled articles also consume citation notifications to display these metrics for the author and other readers (<a href="#figure-dokieli-citation">figure 4</a>).</p>
+
+              <p>dokieli implements the following use cases, to most intent, from the W3C <cite><a href="https://www.w3.org/TR/xhtml-rdfa-scenarios/">RDFa Use Cases: Scenarios for Embedding RDF in HTML</a></cite>: <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-1">Basic Structured Blogging</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-2">Publishing an Event - Overriding Some of the Rendered Data</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-3">Content Management Metadata</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-5">Web Clipboard</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-7">Advanced Data Structures</q>, and <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-8">Augmented Browsing for Scientists</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-9">Publishing a RDF Vocabulary</q>.</p>
 
 
               <p class="todo">This section is mostly a dump of dokie.li/docs.. need to revise/extend. What else should it focus on?</p>
@@ -52,6 +83,7 @@ XXX:
 ** dokie.li/docs
 </pre>
 -->
+
 
               <p>In this section we describe dokieli's architecture which enables creators of information to:</p>
 
@@ -86,32 +118,6 @@ XXX:
                     <dt>Notification</dt>
                     <dd>A notification may have one of the following classes: <code>as:Announce</code>, <code>as:Like</code>, <code>as:Dislike</code>, <code>as:Relationship</code>. Notifications represented in HTML+RDFa do not include do.js.</dd>
                   </dl>
-                </div>
-              </section>
-
-              <section id="decentralised-notifications-and-annotations" inlist="" rel="schema:hasPart" resource="decentralised-notifications-and-annotations">
-                <h2 property="schema:name">Decentralised Notifications and Annotations</h2>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p class="todo">Some of it overlaps with <a href="http://csarven.ca/dokieli-rww#figure-dokieli-architecture-relations">http://csarven.ca/dokieli-rww#figure-dokieli-architecture-relations</a>.</p>
-
-                  <p>By using different arrangements of LDN, WA, AP, LDP mechanisms and related vocabularies, scholarly and social activities can be systematically discovered for a variety of use cases. Decentralised notifications and annotations surrounding an article can be determined as follows:</p>
-
-                  <ul>
-                    <li id="subject-annotation-service">Resource asserts the location of a preferred service for maintaining annotations about the the subject resource (via <code>oa:annotationService</code>) </li>
-                    <li id="subject-inbox">Resource asserts the location of a service that receives and serves notifications about the subject resource (via <code>ldp:inbox</code>)</li>
-                    <li id="profile-storage">An individual's profile asserting their preferred storage location (via <code>pim:storage</code>)</li>
-                    <li id="profile-outbox">An individual's profile asserting the location of their activities (via <code>as:outbox</code>)</li>
-                    <li id="profile-knows-profile-storage">Members of an individual's social graph (via eg. <code>foaf:knows</code>) asserting their preferred storage location</li>
-                    <li id="profile-knows-profile-outbox">Members of an individual's social graph asserting the location of their activities</li>
-                    <li id="inbox-annotation-known">Inbox or annotation service locations are known prior to interaction eg. trusted or used by a community.</li>
-                    <li id="inbox-annotation-manual">Inbox or annotation service locations are manually input to the system eg. not publicised or private.</li>
-                  </ul>
-
-                  <p>Applications can incrementally implement a combination of these approaches to discover distributed activities on the Web. Figure X depicts an interplay of decentralised personal profiles, notifications, and annotations.</p>
-
-                  <figure class="todo">
-                    <figcaption>Interplay of Personal Profiles, Notifications, and Annotations</figcaption>
-                  </figure>
                 </div>
               </section>
 
