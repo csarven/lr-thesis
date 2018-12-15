@@ -108,7 +108,7 @@
 
 
 
-              <p>These requirements for a sender, receiver, consumer overlap with the functional and non-functional requirements from LDP-UCR:</p>
+              <p>These requirements reflecting the interactions among senders, receivers, and consumers - in the general use of the terms - overlap with the functional and non-functional requirements from LDP-UCR:</p>
 
               <blockquote cite="https://www.w3.org/TR/ldp-ucr/">
                 <ul>
