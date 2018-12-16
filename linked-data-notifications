@@ -72,52 +72,51 @@
               <dl>
                 <dt>Call for contributions</dt>
                 <dd>Scenario: The organising committee for a conference would like to make a public announcement that they are now accepting research contributions that can be peer-reviewed.</dd>
-                <dd>Requirements:</dd>
+                <dd>Requirements: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
 
                 <dt>Publicising an article</dt>
                 <dd>Scenario: One of the authors of an article would like to let their colleagues know about the publication.</dd>
-                <dd>Requirements:</dd>
+                <dd>Requirements: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
 
                 <dt>Request for review</dt>
                 <dd>Scenario: The authors of an article wants their work to be reviewed by the members of their community.</dd>
-                <dd>Requirements:</dd>
+                <dd>Requirements: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
 
                 <dt>Annotating artifacts</dt>
                 <dd>Scenario: A reviewer or commenter wants to let the authors of an article know about their feedback.</dd>
-                <dd>Requirements:</dd>
+                <dd>Requirements: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
 
                 <dt>Authors notify referenced article</dt>
                 <dd>Scenario: The authors of an article would like to announce that a reference targets another article so that their article can also be found.</dd>
-                <dd>Requirements:</dd>
+                <dd>Requirements: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
 
                 <dt>Social actions and reactions</dt>
                 <dd>Scenario: Researchers perform public and private actions on resources they come across, including bookmarking, re-sharing with others, announcing their emotional states, as well as following another researchers' activities.</dd>
-                <dd>Requirements:</dd>
+                <dd>Requirements: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
 
                 <dt>Providing research information</dt>
                 <dd>Scenario: A researcher wants to inform the scientific community that the research methods and data sources of their work is publicly available.</dd>
-                <dd>Requirements:</dd>
+                <dd>Requirements: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
 
                 <dt>State change</dt>
                 <dd>Scenario: As automated software detects changes in datasets, new version of an application, anomalies in sensor readings or experimental observations, it informs the laboratory's inbox.</dd>
-                <dd>Requirements:</dd>
+                <dd>Requirements: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a>, <a href="#subscribing">Subscribing</a></dd>
 
                 <dt>Status update</dt>
                 <dd>Scenario: Indexing and archiving systems wants to inform the authors of an article about the recent activities that may be of interest to them, so that they can check for inconsistencies or unintended results.</dd>
-                <dd>Requirements:</dd>
+                <dd>Requirements: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
 
                 <dt>Artifacts of interest</dt>
                 <dd>Scenario: A system upon coming across articles and annotations that is of interest to researchers sends wants to inform them based on their listed interests (research results, disputes over data analysis, new relations between research objects).</dd>
-                <dd>Requirements:</dd>
+                <dd>Requirements: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
 
                 <dt>Requesting access</dt>
-                <dd>Scenario: When one of the author does not yet have write-access to an article, they would like to make a request to their peers to have the required permissions.</dd>
-                <dd>Requirements:</dd>
+                <dd>Scenario: When one of the authors does not have write-access to an article, they want to make a request to their peers to have the required permissions.</dd>
+                <dd>Requirements: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
               </dl>
 
 
-
-              <p>These requirements reflecting the interactions among senders, receivers, and consumers - in the general use of the terms - overlap with the functional and non-functional requirements from LDP-UCR:</p>
+              <p>These requirements reflecting the interactions among senders, receivers, and consumers - in the general use of application roles - overlap with the functional and non-functional requirements from LDP-UCR for client-server interactions:</p>
 
               <blockquote cite="https://www.w3.org/TR/ldp-ucr/">
                 <ul>
@@ -191,7 +190,7 @@
 
               <p id="notification-body"><strong>Notification body</strong> (<a href="http://csarven.ca/linked-data-notifications#notification-body">R4-B</a>): We do not purport to be able to design a notifications ontology which is appropriate for every domain. Thus we consider the <em>contents</em> of a notification to be application specific. From a sender’s perspective, we derive two core principles: a notification can contain <em>any data</em>; a notification can use <em>any vocabulary</em>. From a consumer’s perspective, interoperability between different applications occurs through vocabulary reuse, and shared understanding of terms. This is in accordance with Linked Data principles in general. The practical upshot of this is that a calendar application which consumes event invitations using the <cite><a href="https://www.w3.org/TR/rdfcal/">RDF Calendar</a></cite> vocabulary is likely to completely ignore notifications containing the <cite><a href="https://www.w3.org/TR/prov-o/">PROV Ontology</a></cite>, even if it finds them all stored in the same place. For two independent applications operating in the <em>same</em> domain, a shared understanding of appropriate vocabulary terms is assumed.</p>
 
-              <p>However from a receiver’s perspective, exposing itself to receive any blobs of RDF data from unknown senders may be problematic. Thus, <strong>Notification verification</strong> (<a href="http://csarven.ca/linked-data-notifications#notification-verification">R4-C</a>): it should be possible for the receiver to enforce restrictions and accept only notifications that are acceptable according to its own criteria (deemed by e.g., user configuration; domain-specific receivers). This can be used as an anti-spam measure, a security protection, or for attaining application and data integrity.</p>
+              <p id="notification-verification">However from a receiver’s perspective, exposing itself to receive any blobs of RDF data from unknown senders may be problematic. Thus, <strong>Notification verification</strong> (<a href="http://csarven.ca/linked-data-notifications#notification-verification">R4-C</a>): it should be possible for the receiver to enforce restrictions and accept only notifications that are acceptable according to its own criteria (deemed by e.g., user configuration; domain-specific receivers). This can be used as an anti-spam measure, a security protection, or for attaining application and data integrity.</p>
 
               <p>Rejecting notifications which do not match a specific pattern in their contents, or the <em>shape</em> of the data, is one way to filter. For example, if the Inbox owner knows that they will only ever use a consuming application which processes friend requests, they can configure their receiver to filter out anything that does not match the pattern for a friend request, helping their consumer to be more efficient. If the notification constraints are also advertised by the receiving service as structured descriptions, generation and consumption of the notifications can be further automated. Possible specifications for doing so are W3C <cite><a href="https://www.w3.org/TR/shacl/">Shapes Constraint Language (SHACL)</a></cite> [<a class="ref" href="#ref-15">15</a>] or <cite><a href="https://shexspec.github.io/spec/">ShEx</a></cite>.</p>
 
@@ -202,7 +201,7 @@
 
               <p id="subscribing"><strong>Subscribing</strong> (<a href="http://csarven.ca/linked-data-notifications#subscribing">R5</a>): In general, applications may require that new notifications are pushed to them in real-time, or to request them at appropriate intervals. To take this into account, we expand our definition of senders, receivers and consumers with the following interaction expectations: notifications are <em>pushed</em> from senders to receivers; and <em>pulled</em> from receivers by consumers.</p>
 
-              <p>Thus, an application which offers an endpoint or callback URL to which notifications should be sent directly is a receiver, and an application which fetches notifications from an endpoint on its own schedule is a consumer. Much of the related work <em>requires</em> notifications to be explicitly solicited to trigger sending. Since in a decentralised model, receivers may not be aware of possible sources for notifications, our sender-receiver relationship depends on the sender’s autonomy to make such decisions by itself. This does not preclude the scenario in which a receiver may wish to solicit notifications from a particular sender, but as there are already subscription mechanisms in wide use on the Web, we do not need to specify it as part of LDN. For example, <cite><a href="https://www.w3.org/TR/websub/">WebSub</a></cite> (recent W3C evolution of PubSubHubbub), the <cite>WebSocket Protocol</cite>, or <cite>HTTP Web Push</cite>.</p>
+              <p>Thus, an application which offers an endpoint or callback URL to which notifications should be sent directly is a receiver, and an application which fetches notifications from an endpoint on its own schedule is a consumer. Much of the related work <em>requires</em> notifications to be explicitly solicited to trigger sending. Since in a decentralised model, receivers may not be aware of possible sources for notifications, our sender-receiver relationship depends on the sender’s autonomy to make such decisions by itself. This does not preclude the scenario in which a receiver may wish to solicit notifications from a particular sender, but as there are already <em>subscription</em> mechanisms in wide use on the Web, we do not need to specify it as part of our protocol. For example, <cite><a href="https://www.w3.org/TR/websub/">WebSub</a></cite> (recent W3C evolution of PubSubHubbub), the <cite>WebSocket Protocol</cite>, or <cite>HTTP Web Push</cite>.</p>
             </div>
           </section>
 
@@ -369,14 +368,14 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
             <div datatype="rdf:HTML" property="schema:description">
               <p>Here we describe how LDN as a mechanism can help to fulfill some of the forces and functions in scientific communication. We argue that LDN can facilitate the realisation of interconnecting scholarly communication systems as posited in <cite>Rethinking Scholarly Communication</cite>.</p>
 
-              <p id="ldn-forces">As LDN is employed, we observe the <em>forces</em> at play:</p>
+              <p id="ldn-forces">As LDN is employed, we observe the <em>forces</em>:</p>
 
               <dl>
                 <dt>Actor</dt>
                 <dd>The actors in LDN can be categorised into documents (or things, or entities) and software applications. An LDN target (like a document or a researcher profile) with an inbox is the primary actor that affords the start of any communication. Applications consist of LDN implementations with one or more roles: sender, receiver, and consumer, with the purpose of delivering information to or about a target that can be used by interested parties.</dd>
 
                 <dt>Content</dt>
-                <dd>Target resources, inboxes, and notifications collectively compose the content in LDN's flow. That is, any target resource advertising an inbox relation; an inbox description with a collection of notifications (with optional data about creating and using notifications), and; individual notifications corresponds to accessible content. A notification's content can include or refer to any unit of information or communication in the scientific and scholarly system.</dd>
+                <dd>Target resources, inboxes, and notifications collectively comprise the content in LDN's flow. That is, any target resource advertising an inbox relation; an inbox description with a collection of notifications (with optional data about creating and using notifications), and; individual notifications corresponds to accessible content. A notification's content can include or refer to any unit of information or communication in the scientific and scholarly system.</dd>
 
                 <dt>Accessibility</dt>
                 <dd>An inbox and its notifications are made <em>available</em> to users and the applications they use via HTTP over a network connection. When an HTTP URL resolves, its contents are <em>retrievable</em>, subject to authentication and authorisation. Content can be created by and made available to different kinds of consumers: humans or machines.</dd>
