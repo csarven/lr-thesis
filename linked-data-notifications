@@ -45,7 +45,7 @@
 
               <p>We argue that notification data should not be locked into particular systems. Data generated from independently built applications be discoverable and increase their chance for reusability by other applications. Users could choose where to store their notifications, and register their identifiers, as well as using their preferred applications to create, discover, and consume the data.</p>
 
-              <p>We will discuss a communication protocol that specifies how actors and applications can use a decentralised notification system that uses Linked Data to fulfil the <em>registration</em> and <em>awareness</em> functions, as well as support systems with their information flow with respect to the certification and archiving functions. More specifically, the following research questions:</p>
+              <p>We will discuss a communication protocol that specifies how actors and applications can use a decentralised notification system that uses Linked Data to fulfil the <em>registration</em> and <em>awareness</em> functions, as well as support systems with their information flow with respect to the certification and archiving functions. More specifically, we will address the following research questions in context of <a href="decentralising-scholarly-communication#degree-of-control">degree of control</a> (as previously discussed in <cite>Decentralised Storage and Interoperable Applications</cite> section):</p>
 
               <ul>
                 <li>How can actors use their preferred applications to discover, reuse, and send notifications?</li>
