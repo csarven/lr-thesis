@@ -79,7 +79,7 @@
                 <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
 
                 <dt>Request for review</dt>
-                <dd><em>Scenario</em>: The authors of an article wants their work to be reviewed by the members of their community.</dd>
+                <dd><em>Scenario</em>: The authors of an article requests their work to be reviewed by the members of their community.</dd>
                 <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a></dd>
 
                 <dt>Annotating artifacts</dt>
@@ -87,15 +87,15 @@
                 <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
 
                 <dt>Authors notify referenced article</dt>
-                <dd><em>Scenario</em>: The authors of an article would like to announce that a reference targets another article so that their article can also be found.</dd>
+                <dd><em>Scenario</em>: In order to promote the relevancy of their article and its discovery, authors would like to announce that their article cited another article.</dd>
                 <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
 
                 <dt>Social actions and reactions</dt>
                 <dd><em>Scenario</em>: Researchers perform public and private actions on resources they come across, including bookmarking, re-sharing with others, announcing their emotional states, as well as following another researchers' activities.</dd>
-                <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
+                <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a>, <a href="#subscribing">Subscribing</a></dd>
 
                 <dt>Providing research information</dt>
-                <dd><em>Scenario</em>: A researcher wants to inform the scientific community that the research methods and data sources of their work is publicly available.</dd>
+                <dd><em>Scenario</em>: A researcher wants to inform the scientific community that the research methods and data sources of their work is publicly accessible.</dd>
                 <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
 
                 <dt>State change</dt>
@@ -103,12 +103,12 @@
                 <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a>, <a href="#subscribing">Subscribing</a></dd>
 
                 <dt>Status update</dt>
-                <dd><em>Scenario</em>: Indexing and archiving systems wants to inform the authors of an article about the recent activities that may be of interest to them, so that they can check for inconsistencies or unintended results.</dd>
+                <dd><em>Scenario</em>: Researchers would like to inform indexing and archiving systems about new or updates to existing artefacts so that they can perform their specialised operations.</dd>
                 <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
 
                 <dt>Artifacts of interest</dt>
-                <dd><em>Scenario</em>: A system upon coming across articles and annotations that is of interest to researchers sends wants to inform them based on their listed interests (research results, disputes over data analysis, new relations between research objects).</dd>
-                <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
+                <dd><em>Scenario</em>: A system upon coming across articles and annotations that is of interest to researchers wants to inform them based on their listed interests (research results, disputes over data analysis, new relations between research objects).</dd>
+                <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a>, <a href="#subscribing">Subscribing</a></dd>
 
                 <dt>Requesting access</dt>
                 <dd><em>Scenario</em>: When one of the authors does not have write-access to an article, they want to make a request to their peers to have the required permissions.</dd>
