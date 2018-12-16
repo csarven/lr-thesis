@@ -131,7 +131,7 @@
                       <th>WebSub</th>
                       <td>Fat ping</td>
                       <td>POST</td>
-                      <td>None</td>
+                      <td>Varies</td>
                       <td>S R U</td>
                       <td>-</td>
                       <td>-</td>
@@ -272,6 +272,8 @@
 <p class="todo">extend this section with an in depth analysis of the differences between their work and other system that are mentioned, and a discussion on why these differences are important and how LDN provides improvements over them.</p>
 
 <p class="todo">Anything from <a href="https://lib.ugent.be/fulltxt/RUG01/002/494/871/RUG01-002494871_2018_0001_AC.pdf#chapter.6">https://lib.ugent.be/fulltxt/RUG01/002/494/871/RUG01-002494871_2018_0001_AC.pdf#chapter.6</a>?</p>
+
+<p class="todo">Mention <a href="https://github.com/pubsubhubbub/PubSubHubbub/wiki/Comparing-Protocols">https://github.com/pubsubhubbub/PubSubHubbub/wiki/Comparing-Protocols</a> re light/fat ping?</p>
             </div>
           </section>
 
