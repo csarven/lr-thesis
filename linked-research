@@ -411,6 +411,105 @@ building a mental infrastructure.
           </section>
 
 
+          <section id="linked-specifications-reports" inlist="" rel="schema:hasPart" resource="#linked-specifications-reports">
+            <h2 property="schema:name">Linked Specifications, Test Suites, and Implementation Reports</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>In this section we build on <a href="linked-data-notifications#test-suite-and-implementation-reports">test suite and implementation reports</a> and <a href="evaluation#linked-data-notifications-implementations"></a> and describe the development of an interlinked, machine-readable W3C Recommendation, its test suite, and implementation reports as a whole.</p>
+
+              <p>Having the specifications and implementation reports appropriately interlinked and retrievable can facilitate their automated discovery and reuse. One attainable use case is to be able to find applications that match a certain conformance criteria, eg. in order to have fine-grained bundling of software packages. While this would typically include normative requirements, tests can potentially capture and reveal optional features of specifications. Prospective consumers of the compliance reports can be application developers finding appropriate software for use, as well as automatic software package managers.</p>
+
+              <p><a href="#figure-linked-specifications-reports">figure-linked-specifications-reports</a> depicts an overview of linking the LDN specification, its test suite, the generated implementation report for the dokieli project, reports summary, and an article citing the specification.</p>
+
+              <figure id="figure-linked-specifications-reports" rel="schema:hasPart" resource="#figure-linked-specifications-reports">
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="480" height="320" version="1.1" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# xsd: http://www.w3.org/2001/XMLSchema# schema: https://schema.org/" xml:lang="en" rel="schema:isPartOf" resource="http://csarven.ca/linked-specifications-reports">
+  <metadata about=""><tspan rel="schema:license" resource="https://creativecommons.org/licenses/by/4.0/"></tspan><tspan rel="schema:creator" resource="http://csarven.ca/#i"></tspan></metadata>
+  <title about="" property="schema:name">Linked Specifications, Test Suites, Implementation reports</title>
+  <style>text{font-family:sans-serif;}.link{font-size:13px;font-style:italic;}.predicate{font-size:13px;font-style:italic;}.actor{font-size:16px;}a text{fill:#00e}marker{overflow:visible}</style>
+
+  <defs>
+    <marker id="marker1603-8-0" orient="auto">
+      <path transform="matrix(-0.4,0,0,-0.4,-4,0)" d="M 0,0 5,-5 -12.5,0 5,5 Z" />
+    </marker>
+    <marker id="marker1603-8-0-5" orient="auto">
+      <path transform="matrix(-0.4,0,0,-0.4,-4,0)" d="M 0,0 5,-5 -12.5,0 5,5 Z" />
+    </marker>
+    <marker id="marker1603-8-0-9" orient="auto">
+      <path transform="matrix(-0.4,0,0,-0.4,-4,0)" d="M 0,0 5,-5 -12.5,0 5,5 Z" />
+    </marker>
+    <marker id="marker1603-8-0-9-9" orient="auto">
+      <path transform="matrix(-0.4,0,0,-0.4,-4,0)" d="M 0,0 5,-5 -12.5,0 5,5 Z" />
+    </marker>
+    <marker id="marker1603-8-8-9" orient="auto">
+      <path transform="matrix(-0.4,0,0,-0.4,-4,0)" d="M 0,0 5,-5 -12.5,0 5,5 Z" />
+    </marker>
+    <marker id="marker1603-8-8-9-6" orient="auto">
+      <path transform="matrix(-0.4,0,0,-0.4,-4,0)" d="M 0,0 5,-5 -12.5,0 5,5 Z" />
+    </marker>
+    <marker id="marker1603-8-8-9-7" orient="auto">
+      <path transform="matrix(-0.4,0,0,-0.4,-4,0)" d="M 0,0 5,-5 -12.5,0 5,5 Z" />
+    </marker>
+  </defs>
+
+  <g about="" rel="schema:hasPart" typeof="schema:ImageObject">
+    <text class="actor" x="8" y="35">Project</text>
+    <text class="actor" x="8" y="296">Article</text>
+    <text class="actor" x="238" y="288">Test Suite</text>
+    <text class="actor" x="186" y="62">Implementation Report</text>
+    <text class="actor" x="8" y="179">Specification</text>
+    <text class="actor" x="176" y="159">Reports Summary</text>
+
+    <a href="https://www.w3.org/TR/ldn/" target="_blank"><text class="link" x="4" y="196">https://www.w3.org/TR/ldn/</text></a>
+    <a href="http://csarven.ca/linked-data-notifications" target="_blank"><text class="link" x="4" y="312">http://csarven.ca/linked-data-notifications</text></a>
+    <a href="https://dokie.li/" target="_blank"><text class="link" x="4" y="16">https://dokie.li/</text></a>
+    <a href="https://linkedresearch.org/ldn/tests/summary" target="_blank"><text class="link" x="171" y="141">https://linkedresearch.org/ldn/tests/summary</text></a>
+    <a href="https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753" target="_blank"><text class="link" x="183" y="27"><tspan x="183" y="27">https://linkedresearch.org/ldn/tests/reports/</tspan><tspan x="183" y="43">2c5af2f0-f832-11e6-a642-0dd857219753</tspan></text></a>
+    <a href="https://linkedresearch.org/ldn/tests/" target="_blank"><text class="link" x="232" y="270">https://linkedresearch.org/ldn/tests/</text></a>
+
+    <text class="predicate" x="18" y="250">cites</text>
+    <text class="predicate" x="93" y="67">subject</text>
+    <text class="predicate" x="81" y="268">see also</text>
+    <text class="predicate" x="22" y="112">implements</text>
+    <text class="predicate" x="214" y="103">observation</text>
+    <text class="predicate" x="332" y="217">generates</text>
+    <text class="predicate" x="160" y="233">implements</text>
+
+    <path d="m 11.33,51.75 c -13.298,55.35 3.98,96.55 3.98,96.55" fill="none" stroke="#000" marker-end="url(#marker1603-8-0)" />
+    <path d="M 164,60.47 C 121.6,25.15 90.57,37.5 90.57,37.5" fill="none" stroke="#000" marker-end="url(#marker1603-8-0-5)" />
+    <path d="m 313.5,249 c 9.7,-47.9 -11.8,-75.4 -11.8,-75.4" fill="none" stroke="#000" marker-end="url(#marker1603-8-0-9)" />
+    <path d="M 262,245.3 C 247.5,205.5 216.3,197.7 216.3,197.7" fill="none" stroke="#000" marker-end="url(#marker1603-8-0-9-9)" />
+    <path d="M 212.7,123.8 C 187.8,100.9 198.1,71.26 198.1,71.26" fill="none" stroke="#000" marker-end="url(#marker1603-8-8-9)" />
+    <path d="M 10.12,273.4 C -4.782,238.3 12.78,213 12.78,213" fill="none" stroke="#000" marker-end="url(#marker1603-8-8-9-6)" />
+    <path d="m 104.1,216.3 c 36.4,43.6 79.8,54.5 79.8,54.5" fill="none" stroke="#000" marker-end="url(#marker1603-8-8-9-7)" />
+  </g>
+</svg>
+                <figcaption property="schema:name">An overview of linking a specification, test suite, generated implementation report for the project, reports summary, and an article citing the specification</figcaption>
+              </figure>
+
+              <p>The information patterns in the LDN <a href="#specification">specification</a> and the <a href="#implementation-reports">implementation reports</a> sections are reusable across other specifications and related components. Sources are available from:</p>
+
+              <ul>
+                <li>The specification: <a href="https://www.w3.org/TR/ldn/">https://www.w3.org/TR/ldn/</a></li>
+                <li>The test suite: <a href="https://linkedresearch.org/ldn/tests/">https://linkedresearch.org/ldn/tests/</a></li>
+                <li>Implementation reports summary and individual reports: <a href="https://linkedresearch.org/ldn/tests/summary">https://linkedresearch.org/ldn/tests/summary</a></li>
+              </ul>
+
+              <p>The test suite uses <em>mayktso</em> (<a href="https://github.com/csarven/mayktso">https://github.com/csarven/mayktso</a>) as the LDN receiver, but any conformant receiver implementation will work here.</p>
+
+              <p>The missing connection among existing specifications and test reports is that a uniform resource discovery is not possible between the test reports and the individual conformance criteria in the specifications, where a given information at a particular URL is both human and machine-processable (see <cite><a href="http://csarven.ca/linked-specifications-reports#related-work">related work</a></cite>.)
+
+              <p>The key takeaways are:</p>
+
+              <ul>
+                <li>Human and machine-readable documents via HTML+RDFa are feasible for specifications and implementation reports.</li>
+                <li>The connection between EARL and the QB vocabulary is suitable for multi-dimensional data without having to define new component specifications for the data cube.</li>
+                <li>Individual observations (test results) can be identified and discovered through contextual links in the specification, with the use of EARL and QB vocabularies.</li>
+                <li>The LDN protocol can support the possibility to send, receive and consume notifications about the implementation reports, as well as help with their discovery and reuse.</li>
+                <li>It is possible for other documents to refer to specific parts of the specification, test suite and reports.</li>
+              </ul>
+
+            </div>
+          </section>
+
           <section id="call-for-linked-research" inlist="" rel="schema:hasPart" resource="#call-for-linked-research">
             <h2 property="schema:name">Call for Linked Research</h2>
             <div datatype="rdf:HTML" property="schema:description">

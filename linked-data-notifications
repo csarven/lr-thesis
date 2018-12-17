@@ -343,7 +343,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 
 
               <section id="protocol-interaction-and-content" inlist="" rel="schema:hasPart" resource="#protocol-interactin-and-content">
-                <h2 property="schema:name">Protocol Interaction and Content</h2>
+                <h3 property="schema:name">Protocol Interaction and Content</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>Here we show some interactions between a server with the the target resource, and among sender, receiver, and consumer implementations.</p>
 
@@ -476,16 +476,58 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
           </section>
 
 
-          <section id="linked-specifications-reports" inlist="" rel="schema:hasPart" resource="#linked-specifications-reports">
-            <h2 property="schema:name">Linked Specifications, Test Suites, and Implementation Reports</h2>
+          <section id="test-suite-and-implementation-reports" inlist="" rel="schema:hasPart" resource="#test-suite-and-implementation-reports">
+            <h2 property="schema:name">Test Suite and Implementation Reports</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo">The relevance of this section/work is about independent publishing (different jurisdictions) but following same line of Web standards / interop... pay-as-you-go... the sum is greater</p>
+              <p>The W3C publishes <q>Technical Reports</q> — also known as <q>specifications</q> and sometimes called <q>standards</q> once they are widely adopted. These documents are intended to help different (current or future) implementations to have common core functionality and quality, comply with accessibility and internationalisation guidelines, and take security and privacy considerations into account. When an application, for instance, implements a specification, it can be checked against that specification’s conformance criteria for normative requirements. Specifications are typically accompanied with test suites to assist implementations to identify their conformance level as well as areas for improvement. Similarly, reports and feedback help specifications to improve and advance towards publication. Thus, a specification and conforming implementations are integral to ensuring valid and interoperable applications.</p>
 
-              <p>This article describes the semantic structure and linking of the W3C Recommendation <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (LDN), its test suite, and implementation reports.</p>
+              <p>As a concrete example of the benefits of resource-centric notifications, we took the liberty to both use the W3C process of creating a test suite for LDN, and the submission of reports about implementations to exemplify the LDN protocol itself, as well as to generate discoverable Linked Data about the specification and its implementations. The LDN test suite is itself an LDN implementation for the purpose of automating the collection and aggregation of implementation reports which were used directly towards the formal standardisation process.</p>
 
-              <p>Semantically interlinking and detailed machine-readability of components related to Web standards and their implementations is novel, and can be useful for coherently documenting software projects and their conformance with specifications. Everything presented here is open source and reusable by other specifications (W3C standards or not), test suites, and implementations.</p>
+              <p>The LDN <cite><a href="https://linkedresearch.org/ldn/tests/" rel="cito:citesAsEvidence">test suite</a></cite> covers each requirement of the specification with individual tests, and the test suite documentation is semantically linked with the specification itself accordingly. Once the tests have been run, the test suite generates a similarly linked implementation report. This report is submitted using LDN itself as the notification mechanism (more on this later). The listing of implementation reports (software conforming to the specification) is thus automatically updated.</p>
 
-              <p>As a concrete example of the benefits of this approach, the LDN test suite is itself an LDN implementation for the purpose of automating the collection and aggregation of implementation reports which were used directly towards the formal standardisation process.</p>
+
+              <p id="ldn-test-suites">The LDN Tests Suite puts the LDN protocol into practice by acting as an LDN receiver implementation (based on <cite><a href="https://github.com/csarven/mayktso" rel="cito:citesAsEvidence">mayktso</a></cite>). It also acts as a sender and consumer LDN implementation. Each part of the test suite (for <a href="https://linkedresearch.org/ldn/tests/sender" rel="cito:citesAsEvidence">Senders</a>, <a href="https://linkedresearch.org/ldn/tests/receiver" rel="cito:citesAsEvidence">Receivers</a>, and <a href="https://linkedresearch.org/ldn/tests/consumer" rel="cito:citesAsEvidence">Consumers</a>) advertise an <code>ldp:inbox</code>. Upon completion of a run of the tests, the system generates the report data and sends an LDN notification to the Inbox. The payload of the notification is the full report as RDF.</p>
+
+              <p id="ldn-consumers">As an LDN Consumer, the test suite generates the <a href="https://linkedresearch.org/ldn/tests/summary">summary</a> of the reports by fetching and processing Inbox contents. The notifications are aggregated automatically, and the semantics of the submitted reports are retained.</p>
+
+              <p>Once the notifications are fetched from the reports Inbox, an HTML+RDFa representation (alternatively in other RDF serialisations upon content negotiation) of the response is returned for a human- and machine-readable summary. The services are decoupled; that is, an implementer may generate their report independently of the test suite, and submit it vial the standard LDN protocol. Furthermore, projects can implement their own consumers and reuse the report data generated by the test suite directly, for example to demonstrate to potential users their conformance to the LDN specification.</p>
+
+
+              <p>All reports have their own URLs, and a representation in HTML+RDFa (optionally in other RDF serialisations via content negotiation at this particular test server). See for example <cite><a href="https://dokie.li/" rel="cito:citesAsEvidence">dokieli</a></cite>’s <a href="https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753" rel="cito:citesAsEvidence">implementation report and test results</a> as a sender. This provides the human-visible information, eg. what was tested and the results also in machine-readable form. The report can be seen as a dataset composed of observations based on the structure that was specified in the specification. Hence, each test report is a <code>qb:DataSet</code> (and generally equivalent in <code>as:Object</code>) where its <code>qb:structure</code> refers to <code>https://www.w3.org/TR/ldn/#data-structure-definition</code>. The dataset has <code>as:published</code> and <code>as:actor</code> for the agent that initiated the test and generated the report. The report may be accompanied with an additional <code>as:summary</code>. An example report at <a class="highlight-observation-url" href="https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753">https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753</a> has the following core information:</p>
+
+              <figure class="listing" id="code-ldn-test-report" rel="schema:hasPart" resource="#code-ldn-test-report">
+                <pre about="#code-ldn-test-report" lang="" property="schema:description" typeof="fabio:Script" xml:lang=""><code id="code-ldn-test-report-1">&lt;&gt;</code>
+<code id="code-ldn-test-report-2">  a qb:DataSet ;</code>
+<code id="code-ldn-test-report-3">  qb:structure <a href="https://www.w3.org/TR/ldn/#data-structure-definition">ldn:data-structure-definition</a> .</code>
+<code id="code-ldn-test-report-4"></code>
+<code id="code-ldn-test-report-5">&lt;<a class="highlight-observation-url" href="https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753#test-sender-header-post-content-type-json-ld">https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753#test-sender-header-post-content-type-json-ld</a>&gt;</code>
+<code id="code-ldn-test-report-6">  a qb:Observation, earl:Assertion ;</code>
+<code id="code-ldn-test-report-7">  qb:dataSet &lt;&gt; ;</code>
+<code id="code-ldn-test-report-8">  <span class="highlight-earl-subject">earl:subject</span> &lt;<a class="highlight-subject-project" href="https://dokie.li">https://dokie.li/</a>&gt; ;</code>
+<code id="code-ldn-test-report-9">  <span class="highlight-earl-test">earl:test</span> <a href="https://www.w3.org/TR/ldn/#test-sender-header-post-content-type-json-ld">ldn:test-sender-header-post-content-type-json-ld</a> ;</code>
+<code id="code-ldn-test-report-10">  <span class="highlight-earl-mode">earl:mode</span> earl:automatic ;</code>
+<code id="code-ldn-test-report-11">  <span class="highlight-earl-result">earl:result</span> [</code>
+<code id="code-ldn-test-report-12">    a earl:TestResult ;</code>
+<code id="code-ldn-test-report-13">    <span class="highlight-earl-outcome">earl:outcome</span> earl:passed ;</code>
+<code id="code-ldn-test-report-14">    <span class="highlight-earl-info">earl:info</span> "&lt;code&gt;Content-Type: application/ld+json; profile=&amp;quot;http://www.w3.org/ns/anno.jsonld&amp;quot;&lt;/code&gt; received."^^rdf:HTML ] .</code></pre>
+                <figcaption property="schema:name">A snippet of a test result dataset and an observation in Turtle syntax</figcaption>
+              </figure>
+
+              <p>The test results are provided in an HTML table, where each test is expressed as an <code>qb:Observation</code> (and equivalent <code>earl:Assertion</code>) in RDFa containing:</p>
+
+              <ul>
+                <li>a <code class="highlight-earl-subject">earl:subject</code> that refers to the URI of the application, eg. <a class="highlight-subject-project" href="https://dokie.li/">dokieli</a>, a <code>doap:Project</code> as an <a href="https://www.w3.org/TR/ldn/#ldn-sender">LDN Sender</a>.</li>
+                <li>a <code class="highlight-earl-test">earl:test</code> with the range being one the requirements (concepts) from the specification.</li>
+                <li>a <code class="highlight-earl-mode">earl:mode</code> referring to one of the EARL test modes that were carried out: <a href="https://www.w3.org/TR/EARL10/#automatic">automatic</a>, <a href="https://www.w3.org/TR/EARL10/#manual">manual</a>, <a href="https://www.w3.org/TR/EARL10/#semiAuto">semi-automatic</a>, <a href="https://www.w3.org/TR/EARL10/#undisclosed">undisclosed</a>, <a href="https://www.w3.org/TR/EARL10/#unknownMode">unknown</a>.</li>
+                <li>and a <code class="highlight-earl-result">earl:result</code> that gives information on the test <code class="highlight-earl-outcome">earl:outcome</code>: <a href="https://www.w3.org/TR/EARL10-Schema/#passed">passed</a>, <a href="https://www.w3.org/TR/EARL10-Schema/#failed">failed</a>, <a href="https://www.w3.org/TR/EARL10-Schema/#inapplicable">inapplicable</a>, <a href="https://www.w3.org/TR/EARL10-Schema/#cantTell">cannot tell</a>, <a href="https://www.w3.org/TR/EARL10-Schema/#untested">untested</a>, as well as detailed <code class="highlight-earl-info">earl:info</code> about the particular experiment.</li>
+              </ul>
+
+              <p>The implementation test report has some basic information linking to the <code>doap:Project</code> with a <code>doap:name</code>, and its <code>doap:maintainer</code>.</p>
+
+              <p>All of the sender, receiver, and consumer reports are available in separate aggregate tables in <cite><a href="https://linkedresearch.org/ldn/tests/summary" rel="cito:citesAsEvidence">LDN Tests Summary</a></cite>. The summary is a <code>void:Dataset</code> where each report is linked as a <code>void:subset</code>. This makes individual reports alternatively findable if the exploration starts from the summary of all test results.</p>
+
+
+              <p>In later sections, we take a closer look at the LDN <a href="evaluation#linked-data-notifications-implementations">implementations</a> in the Evaluation section. We will also describe further details on how the LDN <a href="linked-research#linked-specifications-reports">specification and implementation reports</a> are interlinked and retrievable to facilitate their automated discovery and reuse in the Linked Research section.</p>
             </div>
           </section>
 
