@@ -577,10 +577,6 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
           <section id="on-screen" inlist="" rel="schema:hasPart" resource="#on-screen">
             <h2 property="schema:name">On screen!</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo">Chapter discussion goes here</p>
-
-              <p class="todo">What are the lessons learned? What would you do differently next time? How do your findings generalize to to other domains? What impact can this have (this is minimally stated) and why? What is needed/still needs to be done to have such an impact?</p>
-
               <blockquote cite="http://www.chakoteya.net/Voyager/613.htm">
                 <dl>
                   <dt>Geordi La Forge</dt><dd>Captain, we are being hailed.</dd>
@@ -593,21 +589,17 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 
               <p>We describe the particular features necessary to make it easy to exchange notifications in a decentralised, interoperable way...</p>
 
-
-              <p>Notifications are sent over the Web for a variety of purposes, for example, by social applications. The information contained within a notification is structured arbitrarily, and typically only usable by the application which generated them in the first place. In line with Linked Data, we propose that notifications should be reusable by different applications. Through separating the concepts of <em>senders</em>, <em>receivers</em> and <em>consumers</em> of notifications, and leveraging Linked Data principles of shared vocabularies and URIs, LDN provides a building block for decentralised Web applications. This permits end users more freedom to switch between the online tools they use, as well as generating greater value when notifications from different sources can be used in combination.</p>
-
-              <p class="todo">Mention streams: <cite><a href="https://w3id.org/wesp/web-of-data-streams">On a Web of Data Streams</a></cite>, Dell'Aglio et al, 20017, and <cite><a href="http://ceur-ws.org/Vol-1934/contribution-12.pdf">Towards VoIS: a Vocabulary of Interlinked Streams</a></cite>, Sedira et al, 2017.</p>
-
               <p class="todo">What scenarios do you want to enable that are difficult or impossible today?</p>
 
-              <p class="todo">what is the benefit of reusable notifications to balance that risk? Who would benefit the most from this principle (users, application developers, other) and in what way? A similar discussion could be made for R3 (persistence and retrievability).</p>
-              <p class="todo">specialised senders/consumers?</p>
-              <p class="todo">If we want to decentralize this, the messages need to have a similar structure. So structure is an additional requirement of decentralization ?</p>
+
+              <p>Notifications are sent over the Web for a variety of purposes, for example, by social applications. The information contained within a notification is structured arbitrarily, and typically only usable by the application which generated them in the first place. In line with Linked Data, we propose that notifications should be reusable by different applications. Through separating the concepts of <em>senders</em>, <em>receivers</em> and <em>consumers</em> of notifications, and leveraging Linked Data principles of shared vocabularies and URIs, LDN provides a building block for decentralised Web applications. The three roles can be implemented independently from each other or all together in one system. This permits end users more freedom to switch between the online tools they use, as well as generating greater value when notifications from different sources can be used in combination.</p>
 
 
-              <p id="semantic-centralisation-of-notifications"><strong>Semantic Centralisation of Notifications</strong>: While LDN facilitates a decentralised architecture for notification exchange, it does not prescribe the structure and semantics of the notifications themselves. The composition of the notifications are unspecified to foster different kinds of applications to be built to communicate information in any domain. Consequently, organic centralisation of notification models can materialise in that domain-centric applications would create and consume what is meaningful to them in order to coordinate among themselves. This kind of centralisation of notification semantics is an inherent property of free expression, the Web at large, and human-communication.</p>
+              <p>As the reusability of notifications may be a privacy concern, we have outlined considerations on <a href="#authenticated-inboxes">authenticated inboxes</a> and <a href="#personally-identifiable-information">personally identifiable information</a>. As for persistence and retrievability, any consumer application can potentially benefit from being able to reuse notifications if a receiver plans to.</p>
 
-              <p class="todo">LDN serves as a building block rather than a complete solution for re-decentralisation. The three roles can be implemented independently from each other or all together in one system.</p>
+              <p class="todo">What are the lessons learned? What would you do differently next time? How do your findings generalize to to other domains? What impact can this have (this is minimally stated) and why? What is needed/still needs to be done to have such an impact?</p>
+
+              <p id="semantic-organisation-of-notifications"><strong>Semantic Organisation of Notifications</strong>: While LDN facilitates a decentralised architecture for notification exchange, it does not prescribe the structure and semantics of the notifications themselves. The composition of the notifications are unspecified to foster different kinds of applications to be built to communicate information in any domain. Consequently, organic organisation of notification models can materialise in that domain-centric applications would create and consume what is meaningful to them in order to coordinate among themselves. So while the notification system is globally decentralised, it enables communication that can be specialised and be only useful and meaningful to applications that understands a message's semantics.</p>
 
               <p>We need to consider both the needs of software systems and humans when large amounts of notification data are being generated and shared between diverse applications which may be operating without knowledge of each other. To organise and manage large amount of notifications over time, mechanisms should be in place to break representations of collections of notifications into multiple paged responses that may be easier to consume by applications.</p>
 
