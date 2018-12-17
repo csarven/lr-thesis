@@ -280,9 +280,11 @@
           <section id="linked-data-notifications-implementations" inlist="" rel="schema:hasPart" resource="#linked-data-notifications-implementations">
             <h2 property="schema:name">Linked Data Notifications Implementations</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <cite><a href="https://linkedresearch.org/ldn/tests/summary">Summary of LDN Implementation Reports</a></cite>
+              <p>In <cite><a href="https://linkedresearch.org/ldn/tests/summary">Summary of LDN Implementation Reports</a></cite>..</p>
 
-<p class="todo">re: "We note that any LDP implementation is a conforming LDN receiver; we refer here to the ones we have tested", mention the reasons why other LDP implementations are not tested, or how they have chosen the implementations that are tested.</p>
+              <p class="todo">re: "We note that any LDP implementation is a conforming LDN receiver; we refer here to the ones we have tested", mention the reasons why other LDP implementations are not tested, or how they have chosen the implementations that are tested.</p>
+
+              <p>The test suite software fulfills the base required functionality of the LDN protocol. In essence, the test suite can generally fulfill the <a href="linked-data-notifications#use-cases-for-decentralised-notifications">use-cases-for-decentralised-notifications</a>. In <cite><a href="#ldn-forces-functions">Forces and Functions in Linked Data Notifications</a></cite> we have described the forces and functions that are involved through the use of the LDN mechanism.</p>
             </div>
           </section>
 
