@@ -587,20 +587,9 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                 <footer><cite><a data-versiondate="2018-10-03T15:13:45Z" data-versionurl="https://web.archive.org/web/20181003151345/https://www.imsdb.com/scripts/Star-Trek-Nemesis.html" href="https://www.imsdb.com/scripts/Star-Trek-Nemesis.html">Star Trek: Nemesis</a></cite>, 2003</footer>
               </blockquote>
 
-              <p>A decentralised notification system that using established semantic models enables discovery...</p>
-
-              <p>We describe the particular features necessary to make it easy to exchange notifications in a decentralised, interoperable way...</p>
-
-              <p class="todo">What scenarios do you want to enable that are difficult or impossible today?</p>
-
-
               <p>Notifications are sent over the Web for a variety of purposes, for example, by social applications. The information contained within a notification is structured arbitrarily, and typically only usable by the application which generated them in the first place. In line with Linked Data, we propose that notifications should be reusable by different applications. Through separating the concepts of <em>senders</em>, <em>receivers</em> and <em>consumers</em> of notifications, and leveraging Linked Data principles of shared vocabularies and URIs, LDN provides a building block for decentralised Web applications. The three roles can be implemented independently from each other or all together in one system. This permits end users more freedom to switch between the online tools they use, as well as generating greater value when notifications from different sources can be used in combination.</p>
 
-
-              <p>As the reusability of notifications may be a privacy concern, we have outlined considerations on <a href="#authenticated-inboxes">authenticated inboxes</a> and <a href="#personally-identifiable-information">personally identifiable information</a>. As for persistence and retrievability, any consumer application can potentially benefit from being able to reuse notifications if a receiver plans to make those commitments.</p>
-
-
-              <p id="research-questions-ldn-response">A response to the <a href="#research-questions-ldn">research questions</a> in context of degree of control is as follows:</p>
+              <p id="research-questions-ldn-response">A response to the <a href="#research-questions-ldn">research questions</a> is as follows:</p>
 
               <dl>
                 <dt>How can actors use their preferred applications to discover, reuse, and send notifications?</dt>
@@ -616,13 +605,13 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                 <dd>Users can serve their inbox and the notifications from different HTTP URIs provided that they do not mind persistence. In this case, the target resource's inbox location would simply point to the new location. As inbox discovery starts from looking up a target resource's description, the new inbox location will be discovered as before.</dd>
               </dl>
 
-              <p class="todo">What are the lessons learned? What would you do differently next time? How do your findings generalize to to other domains? What impact can this have (this is minimally stated) and why? What is needed/still needs to be done to have such an impact?</p>
+              <p>As the reusability of notifications may be a privacy concern, we have outlined considerations on <a href="#authenticated-inboxes">authenticated inboxes</a> and <a href="#personally-identifiable-information">personally identifiable information</a>. As for <a href="#persistence-and-retrievability">persistence and retrievability</a>, any consumer application can potentially benefit from being able to reuse notifications if the owners of a receiver makes the necessary commitments.</p>
 
               <p id="semantic-organisation-of-notifications"><strong>Semantic Organisation of Notifications</strong>: While LDN facilitates a decentralised architecture for notification exchange, it does not prescribe the structure and semantics of the notifications themselves. The composition of the notifications are unspecified to foster different kinds of applications to be built to communicate information in any domain. Consequently, organic organisation of notification models can materialise in that domain-centric applications would create and consume what is meaningful to them in order to coordinate among themselves. So while the notification system is globally decentralised, it enables communication that can be specialised and be only useful and meaningful to applications that understands a message's semantics.</p>
 
               <p>We need to consider both the needs of software systems and humans when large amounts of notification data are being generated and shared between diverse applications which may be operating without knowledge of each other. To organise and manage large amount of notifications over time, mechanisms should be in place to break representations of collections of notifications into multiple paged responses that may be easier to consume by applications.</p>
 
-              <p>Relatedly, receivers may carry out resource management or garbage collection, or permit consumers or other applications to do so. For example, an application to consume messages might let an authenticated and authorised user ‘mark as read’ by adding a triple to the notification contents.</p>
+              <p>Relatedly, receivers may carry out resource management or garbage collection, or permit consumers or other applications to do so. For example, an application to consume messages might let an authenticated and authorised user ‘mark as read’ by adding a triple to the inbox or notification contents. That can be seen as an analogous feature that is available to some email applications.</p>
 
               <p>So far we have seen decentralised notifications applied in social networking scenarios, as well as for archival activities and scientific experiments through monitoring the state of online resources, datasets and files, or sensor outputs, and sending notifications when changes occur. We take a closer look at the LDN <a href="evaluation#linked-data-notifications-implementations">implementations</a> in the Evaluation section.</p>
             </div>

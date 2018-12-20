@@ -74,6 +74,9 @@ Need:
 </pre>
 
 <section id="results">
+              <p>A decentralised notification system that using established semantic models enables discovery...</p>
+
+              <p>We described the particular features necessary to make it easy to exchange notifications in a decentralised, interoperable way...</p>
 </section>
 
 <section id="limitations">
@@ -83,6 +86,7 @@ Need:
 </section>
 
 <section id="directions-for-future-research">
+                <p class="todo">What are the lessons learned? (specs is where it is at.. highly valuable but takes effort to align from a number of places.. social/technical challenges) What would you do differently next time? How do your findings generalize to to other domains? What impact can this have (this is minimally stated) and why? What is needed/still needs to be done to have such an impact?</p>
 </section>
 
 <blockquote>

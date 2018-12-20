@@ -271,6 +271,8 @@
 
 <p class="todo">extend this section with an in depth analysis of the differences between their work and other system that are mentioned, and a discussion on why these differences are important and how LDN provides improvements over them.</p>
 
+              <p>Per <a href="#adaptability">Adaptability</a>, we want LDN to be available for all resources in any publishing context. We consider lowering the bar for publishers of target resources to be a worthwhile trade-off against slightly increased complexity for senders and consumers. This is why we require that senders and consumers must be equipped to discover Inboxes through both HTTP headers and RDF content.</p>
+
 <p class="todo">Anything from <a href="https://lib.ugent.be/fulltxt/RUG01/002/494/871/RUG01-002494871_2018_0001_AC.pdf#chapter.6">https://lib.ugent.be/fulltxt/RUG01/002/494/871/RUG01-002494871_2018_0001_AC.pdf#chapter.6</a>?</p>
 
 <p class="todo">Mention <a href="https://github.com/pubsubhubbub/PubSubHubbub/wiki/Comparing-Protocols">https://github.com/pubsubhubbub/PubSubHubbub/wiki/Comparing-Protocols</a> re light/fat ping?</p>
