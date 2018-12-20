@@ -47,12 +47,14 @@
 
               <p>We will discuss a communication protocol that specifies how actors and applications can use a decentralised notification system that uses Linked Data to fulfil the <em>registration</em> and <em>awareness</em> functions, as well as support systems with their information flow with respect to the certification and archiving functions. More specifically, we will address the following research questions in context of <a href="decentralising-scholarly-communication#degree-of-control">degree of control</a> (as previously discussed in <cite>Decentralised Storage and Interoperable Applications</cite> section):</p>
 
-              <ul>
+              <ul id="research-questions-ldn">
                 <li>How can actors use their preferred applications to discover, reuse, and send notifications?</li>
                 <li>How can users store incoming notifications where they prefer?</li>
                 <li>Would it be possible for users to switch between applications without having to move their data?</li>
                 <li>Can users change the location of their data without having to change their application?</li>
               </ul>
+
+              <p>We will follow-up with our <a href="#research-questions-ldn-response">response</a> to the research questions at the end of this section.</p>
 
               <p>Parts of this section is adapted from work published as <cite><a href="http://csarven.ca/linked-data-notifications" rel="prov:wasDerivedFrom">Linked Data Notifications: a resource-centric communication protocol</a></cite>, Capadisli et al, 2017. The work reflects on the W3C <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> technical specification that attains interoperable notification exchange on the Web.</p>
             </div>
@@ -595,7 +597,24 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
               <p>Notifications are sent over the Web for a variety of purposes, for example, by social applications. The information contained within a notification is structured arbitrarily, and typically only usable by the application which generated them in the first place. In line with Linked Data, we propose that notifications should be reusable by different applications. Through separating the concepts of <em>senders</em>, <em>receivers</em> and <em>consumers</em> of notifications, and leveraging Linked Data principles of shared vocabularies and URIs, LDN provides a building block for decentralised Web applications. The three roles can be implemented independently from each other or all together in one system. This permits end users more freedom to switch between the online tools they use, as well as generating greater value when notifications from different sources can be used in combination.</p>
 
 
-              <p>As the reusability of notifications may be a privacy concern, we have outlined considerations on <a href="#authenticated-inboxes">authenticated inboxes</a> and <a href="#personally-identifiable-information">personally identifiable information</a>. As for persistence and retrievability, any consumer application can potentially benefit from being able to reuse notifications if a receiver plans to.</p>
+              <p>As the reusability of notifications may be a privacy concern, we have outlined considerations on <a href="#authenticated-inboxes">authenticated inboxes</a> and <a href="#personally-identifiable-information">personally identifiable information</a>. As for persistence and retrievability, any consumer application can potentially benefit from being able to reuse notifications if a receiver plans to make those commitments.</p>
+
+
+              <p id="research-questions-ldn-response">A response to the <a href="#research-questions-ldn">research questions</a> in context of degree of control is as follows:</p>
+
+              <dl>
+                <dt>How can actors use their preferred applications to discover, reuse, and send notifications?</dt>
+                <dd>Given LDN specification's criteria for interoperability, <em>any</em> conforming application conforming is a member of a class of interoperable LDN applications. Applications receiving pass results from applicable features in the test suite is one identifiable and reproducible way to measure the degree of interoperability.</dd>
+
+                <dt>How can users store incoming notifications where they prefer?</dt>
+                <dd>Any conforming LDN Receiver (server) would have the ability to store notifications, provided that the users have sufficient control - as per AWWW's <cite>URI Ownership</cite> - over the Inbox and the notifications within.</dd>
+
+                <dt>Would it be possible for users to switch between applications without having to move their data?</dt>
+                <dd>As the LDN specification only specifies the mechanism for information exchange, it is possible to switch between Receiver applications at the protocol level without any further action. The specification is only concerned about interoperability across applications, hence, implementation specific details are out of scope. For instance, if a Receiver internally uses a particular database software, switching to another database software or storage system would naturally require additional 'movement'.</dd>
+
+                <dt>Can users change the location of their data without having to change their application?</dt>
+                <dd>Users can serve their inbox and the notifications from different HTTP URIs provided that they do not mind persistence. In this case, the target resource's inbox location would simply point to the new location. As inbox discovery starts from looking up a target resource's description, the new inbox location will be discovered as before.</dd>
+              </dl>
 
               <p class="todo">What are the lessons learned? What would you do differently next time? How do your findings generalize to to other domains? What impact can this have (this is minimally stated) and why? What is needed/still needs to be done to have such an impact?</p>
 
