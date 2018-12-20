@@ -234,7 +234,7 @@
               <section id="application-interactions" inlist="" rel="schema:hasPart" resource="#application-interactions">
                 <h3 property="schema:name">Application Interactions</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>As discussed in <a href="#modularity">modularity</a>, two classes of interactions are possible: 1) <a href="#sender-to-receiver">sender-to-receiver</a>, 2) <a href="#consumer-to-receiver">consumer-to-receiver</a>.</p>
+                  <p>Building on the notion of <a href="#modularity">modularity</a>, we consider that <em>interoperability</em> occurs among two classes of interactions, between <a href="#sender-to-receiver">senders and receivers</a>, or between <a href="#consumer-to-receiver">consumers and receivers</a>, when the sender/consumer makes a request to the receiver, and the receiver sends the expected response.</p>
 
                   <section id="sender-to-receiver" inlist="" rel="schema:hasPart" resource="#sender-to-receiver">
                     <h4 property="schema:name">Sender to Receiver interactions</h4>

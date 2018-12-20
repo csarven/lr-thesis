@@ -289,6 +289,8 @@
               <p class="todo">Mention streams re extensibility: <cite><a href="https://w3id.org/wesp/web-of-data-streams">On a Web of Data Streams</a></cite>, Dell'Aglio et al, 20017, and <cite><a href="http://ceur-ws.org/Vol-1934/contribution-12.pdf">Towards VoIS: a Vocabulary of Interlinked Streams</a></cite>, Sedira et al, 2017.</p>
 
               <p>The test suite software fulfills the base required functionality of the LDN protocol. In essence, the test suite can generally fulfill the <a href="linked-data-notifications#use-cases-for-decentralised-notifications">use-cases-for-decentralised-notifications</a>. In <cite><a href="#ldn-forces-functions">Forces and Functions in Linked Data Notifications</a></cite> we have described the forces and functions that are involved through the use of the LDN mechanism.</p>
+
+              <p class="todo">LDN <a href="https://www.w3.org/TR/ldn/#exit-criteria">Exit Criteria</a>.</p>
             </div>
           </section>
 
