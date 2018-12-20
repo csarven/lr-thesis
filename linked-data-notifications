@@ -517,7 +517,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 
               <ul>
                 <li>a <code class="highlight-earl-subject">earl:subject</code> that refers to the URI of the application, eg. <a class="highlight-subject-project" href="https://dokie.li/">dokieli</a>, a <code>doap:Project</code> as an <a href="https://www.w3.org/TR/ldn/#ldn-sender">LDN Sender</a>.</li>
-                <li>a <code class="highlight-earl-test">earl:test</code> with the range being one the requirements (concepts) from the specification.</li>
+                <li>a <code class="highlight-earl-test">earl:test</code> with the range being one of the requirements (concepts) from the specification.</li>
                 <li>a <code class="highlight-earl-mode">earl:mode</code> referring to one of the EARL test modes that were carried out: <a href="https://www.w3.org/TR/EARL10/#automatic">automatic</a>, <a href="https://www.w3.org/TR/EARL10/#manual">manual</a>, <a href="https://www.w3.org/TR/EARL10/#semiAuto">semi-automatic</a>, <a href="https://www.w3.org/TR/EARL10/#undisclosed">undisclosed</a>, <a href="https://www.w3.org/TR/EARL10/#unknownMode">unknown</a>.</li>
                 <li>and a <code class="highlight-earl-result">earl:result</code> that gives information on the test <code class="highlight-earl-outcome">earl:outcome</code>: <a href="https://www.w3.org/TR/EARL10-Schema/#passed">passed</a>, <a href="https://www.w3.org/TR/EARL10-Schema/#failed">failed</a>, <a href="https://www.w3.org/TR/EARL10-Schema/#inapplicable">inapplicable</a>, <a href="https://www.w3.org/TR/EARL10-Schema/#cantTell">cannot tell</a>, <a href="https://www.w3.org/TR/EARL10-Schema/#untested">untested</a>, as well as detailed <code class="highlight-earl-info">earl:info</code> about the particular experiment.</li>
               </ul>
@@ -549,14 +549,14 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                 <dd>An inbox and its notifications are made <em>available</em> to users and the applications they use via HTTP over a network connection. When an HTTP URL resolves, its contents are <em>retrievable</em>, subject to authentication and authorisation. Content can be created by and made available to different kinds of consumers: humans or machines.</dd>
 
                 <dt>Applicability</dt>
-                <dd>As applicability an external function, it derives the dissemination of a call for societal need for problem finding and solving, as well as sharing of research results in the knowledge industry towards the advancement of scientific and technological knowledge. LDN merely acts as a way to fulfil this communication between different parties.</dd>
+                <dd>As applicability an external function, it derives the dissemination of a call for societal need for problem finding and solving, as well as sharing of research results in the knowledge industry towards the advancement of scientific and technological knowledge. LDN can merely act as a way to fulfil a communication requirement between different parties (universities, research institutions, industry, etc.)</dd>
               </dl>
 
               <p id="ldn-functions">The <em>functions</em>:</p>
 
               <dl>
                 <dt>Registration</dt>
-                <dd>As an LDN Sender's message is created, becomes referenceable and reusable by a Receiver with HTTP identifiers, the protocol first and foremost meets the registration function. Notifications being registered as their own entities further facilitates information discovery and reuse.</dd>
+                <dd>As an LDN Sender's message is created, becomes referenceable and reusable by a Receiver with globally unique HTTP identifiers, the protocol first and foremost meets the registration function. Notifications being registered as their own entities further facilitates information discovery and reuse.</dd>
 
                 <dt>Awareness</dt>
                 <dd>LDN accelerates information flow in an interoperable way. As the LDN protocol includes a way for content to be disseminated, as well as read by different consumers, it fulfills the awareness function. Awareness is integral to LDN in that it helps to inform systems that a registration of a unit of information took place; a request for quality-control and verification is sought-after, or has occurred; and for instance, an archiving service is informed to place a request for preserving the units.</dd>
@@ -565,7 +565,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                 <dd>LDN can help to communicate both, a request for as well as the results of a certification process such as a registered unit of information's significance and soundness. Information pertaining to certification about scientific and scholarly assertions at different levels can be communicated through LDN notifications. Similarly, information about a revocation of a unit of information can be circulated.</dd>
 
                 <dt>Archiving</dt>
-                <dd>In order for registered units of information to preserve, they need to be informed about their existence to archives so that they can be adequately stored and served on demand. One way of achieving that communication is through LDN's notification system which can systematically notify an archive about a newly or derived units.</dd>
+                <dd>In order for registered units of information to preserve, they need to be informed about their existence to archives so that they can be adequately stored and served on demand. One way of achieving that communication is through LDN's notification system which can systematically notify an archive about newly or derived units.</dd>
               </dl>
 
               <p>At its core, LDN operates to fulfill the registration and awareness function, and these are considered to be indispensable. With respect to the certification and archiving functions, LDN bridges systems that are dedicated to carry out those functions. For certification, LDN helps to distribute the acknowledgement of validity and quality-control of registered units of information across scholarly systems. Similarly, LDN can inform archiving systems about the existence and state of units of information that can be preserved. Lastly, LDN can be used to communicate information pertaining to rewarding, such as metrics directly derived from the system itself.</p>
