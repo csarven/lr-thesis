@@ -347,7 +347,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
               <section id="protocol-interaction-and-content" inlist="" rel="schema:hasPart" resource="#protocol-interactin-and-content">
                 <h3 property="schema:name">Protocol Interaction and Content</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>Here we show some interactions between a server with the the target resource, and among sender, receiver, and consumer implementations.</p>
+                  <p>Here we show some interactions between a server with a target resource, and among sender, receiver, and consumer implementations.</p>
 
                   <p>Discovering an inbox:</p>
 
@@ -367,7 +367,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                     <figcaption>Discovering an Inbox with a <code>GET</code> request to retrieve JSON-LD. Response in JSON-LD compact form.</figcaption>
                   </figure>
 
-                  <p>Receiver's get response</p>
+                  <p>Consumer requesting the inbox and receiver's response:</p>
 
                   <figure class="listing" id="get-inbox-response" rel="schema:hasPart" resource="#get-inbox-response">
                     <pre about="#get-inbox-response" property="schema:description" typeof="fabio:Script"><code>GET /inbox/ HTTP/1.1</code>
@@ -432,7 +432,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                   </figure>
 
 
-                  <p>Sending request:</p>
+                  <p>Sending a notification:</p>
 
                   <figure class="listing" id="sending-notification-request" rel="schema:hasPart" resource="#sending-notification-request">
                     <pre about="#sending-notification-request" property="schema:description" typeof="fabio:Script"><code>POST /inbox/ HTTP/1.1</code>
@@ -453,7 +453,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                   </figure>
 
 
-                  <p>Sending response:</p>
+                  <p>Response to send request:</p>
 
                   <figure class="listing" id="sending-notification-response" rel="schema:hasPart" resource="#sending-notification-response">
                     <pre about="#sending-notification-response" property="schema:description" typeof="fabio:Script"><code>HTTP/1.1 201 Created</code>
@@ -461,8 +461,22 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                     <figcaption property="schema:name">Example response to a <code>POST</code> request on an Inbox.</figcaption>
                   </figure>
 
+                  <p>Sender initiates content-negotiation and sends notifications:</p>
+
                   <figure class="listing" id="notification-qualified-relation" inlist="" rel="schema:hasPart" resource="#notification-qualified-relation">
-                    <pre about="#notification-qualified-relation" property="schema:description" typeof="fabio:Script"><code>@prefix as: &lt;https://www.w3.org/ns/activitystreams#&gt; .</code>
+                    <pre about="#notification-qualified-relation" property="schema:description" typeof="fabio:Script"><code>OPTIONS /inbox/ HTTP/1.1</code>
+<code>Host: example.org</code>
+<code></code>
+<code>HTTP/1.1 200 OK</code>
+<code>Allow: GET, HEAD, OPTIONS, POST</code>
+<code>Accept-Post: application/ld+json, text/turtle</code>
+<code></code>
+<code>POST /inbox/ HTTP/1.1</code>
+<code>Host: example.org</code>
+<code>Content-Type: text/turtle</code>
+<code>Content-Language: en</code>
+<code></code>
+<code>@prefix as: &lt;https://www.w3.org/ns/activitystreams#&gt; .</code>
 <code>@prefix cito: &lt;http://purl.org/spar/cito/&gt; .</code>
 <code>&lt;&gt; a as:Announce</code>
 <code>  as:object &lt;https://linkedresearch.org/resources#r-903b83&gt; ;</code>
@@ -470,7 +484,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 <code>&lt;https://linkedresearch.org/resources#r-903b83&gt;</code>
 <code>  cito:citesAsPotentialReading</code>
 <code>  &lt;http://csarven.ca/linked-data-notifications#protocol&gt; .</code></pre>
-                    <figcaption property="schema:name">An announcement of a specific citation relation between two entities (Turtle).</figcaption>
+                    <figcaption property="schema:name">Sender initiated content-negotiation, followed with an announcement of a specific citation relation between two entities (Turtle).</figcaption>
                   </figure>
                 </div>
               </section>
