@@ -33,10 +33,10 @@
                 <li id="subject-inbox">Resource asserts the location of a service that receives and serves notifications about the subject resource (via <code>ldp:inbox</code>)</li>
                 <li id="profile-storage">An individual's profile asserting their preferred storage location (via <code>pim:storage</code>)</li>
                 <li id="profile-outbox">An individual's profile asserting the location of their activities (via <code>as:outbox</code>)</li>
-                <li id="profile-index">An individual's profile asserting their type index registrations (via <code>publicTypeIndex</code> or <code>privateTypeIndex</code>)</li>
+                <li id="profile-index">An individual's profile asserting their type index registrations (via <code>solid:publicTypeIndex</code>)</li>
                 <li id="profile-knows-profile-storage">Members of an individual's social graph (via eg. <code>foaf:knows</code>) asserting their preferred storage location</li>
                 <li id="profile-knows-profile-outbox">Members of an individual's social graph asserting the location of their activities</li>
-                <li id="profile-knowns-profile-index">Members of an individual's social graph sharing their type index registration (via <code>publicTypeIndex</code> or <code>privateTypeIndex</code>)</li>
+                <li id="profile-knowns-profile-index">Members of an individual's social graph sharing their type index registration (via <code>solid:publicTypeIndex</code>)</li>
                 <li id="inbox-annotation-known">Inbox or annotation service locations are known prior to interaction eg. trusted or used by a community.</li>
                 <li id="inbox-annotation-manual">Inbox or annotation service locations are manually input to the system eg. not publicised or private.</li>
               </ul>
