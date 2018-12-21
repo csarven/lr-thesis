@@ -29,12 +29,14 @@
               <p>By using different arrangements of LDN, WA, AP, LDP mechanisms and related vocabularies, scholarly and social activities can be systematically discovered for a variety of use cases. Decentralised notifications and annotations surrounding an article can be determined as follows:</p>
 
               <ul>
-                <li id="subject-annotation-service">Resource asserts the location of a preferred service for maintaining annotations about the the subject resource (via <code>oa:annotationService</code>) </li>
+                <li id="subject-annotation-service">Resource asserts the location of a preferred service for maintaining annotations about the the subject resource (via <code>oa:annotationService</code>)</li>
                 <li id="subject-inbox">Resource asserts the location of a service that receives and serves notifications about the subject resource (via <code>ldp:inbox</code>)</li>
                 <li id="profile-storage">An individual's profile asserting their preferred storage location (via <code>pim:storage</code>)</li>
                 <li id="profile-outbox">An individual's profile asserting the location of their activities (via <code>as:outbox</code>)</li>
+                <li id="profile-index">An individual's profile asserting their type index registrations (via <code>publicTypeIndex</code> or <code>privateTypeIndex</code>)</li>
                 <li id="profile-knows-profile-storage">Members of an individual's social graph (via eg. <code>foaf:knows</code>) asserting their preferred storage location</li>
                 <li id="profile-knows-profile-outbox">Members of an individual's social graph asserting the location of their activities</li>
+                <li id="profile-knowns-profile-index">Members of an individual's social graph sharing their type index registration (via <code>publicTypeIndex</code> or <code>privateTypeIndex</code>)</li>
                 <li id="inbox-annotation-known">Inbox or annotation service locations are known prior to interaction eg. trusted or used by a community.</li>
                 <li id="inbox-annotation-manual">Inbox or annotation service locations are manually input to the system eg. not publicised or private.</li>
               </ul>
