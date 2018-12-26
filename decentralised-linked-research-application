@@ -780,6 +780,12 @@ XXX:
 
 <hr/>
 
+          <section id="dokieli-privacy" inlist="" rel="schema:hasPart" resource="dokieli-privacy">
+            <h3 property="schema:name">Privacy in dokieli</h3>
+            <div datatype="rdf:HTML" property="schema:description">
+            </div>
+          </section>
+
               <section id="interactive-linked-statistics" inlist="" rel="schame:hasPart" resource="#sparqlines">
                 <h3 property="schema:name">Interactive Linked Statistics</h3>
                 <div datatype="rdf:HTML" property="schema:description">
