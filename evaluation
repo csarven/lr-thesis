@@ -339,6 +339,47 @@
             </div>
           </section>
 
+          <section id="semantic-content-authoring-quality-attributes" inlist="" rel="schema:hasPart" resource="#semantic-content-authoring-quality-attributes">
+            <h2 property="schema:name">Semantic Content Authoring Quality Attributes</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>We use the structure of the table of results for <cite><abbr title="Semantic Content Authoring">SCA</abbr></cite> systems and include dokieli as an approach:</p>
+
+              <table id="quality-attributes-dokieli">
+                <caption>Quality attributes of dokieli</caption>
+                <thead>
+                  <tr>
+                    <th rowspan="2">Quality Attribute</th>
+                    <th rowspan="2">UI Feature</th>
+                    <th colspan="2">User Type</th>
+                    <th colspan="2">Authoring Approach</th>
+                    <th colspan="2">Domain</th>
+                  </tr>
+                  <tr>
+                    <th>Expert</th>
+                    <th>Non-expert</th>
+                    <th>Top-Down</th>
+                    <th>Bottom-Up</th>
+                    <th>Domain-independent</th>
+                    <th>Domain-specific</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><th>Usability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Customizability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Generalizability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Collaboration</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Portability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Accessibility</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Proactivity</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Automation</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Evolvability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Interoperability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Scalability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+                <tfoot></tfoot>
+              </table>
+            </div>
+          </section>
 
           <section id="comparison-of-interoperability-applications" inlist="" rel="schema:hasPart" resource="#comparison-of-interoperability-applications">
             <h2 property="schema:name">Comparison of Interoperability of Applications</h2>
