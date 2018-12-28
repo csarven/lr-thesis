@@ -320,7 +320,7 @@
           <section id="comparison-of-accessibility-applications" inlist="" rel="schema:hasPart" resource="#comparison-of-accessibility-applications">
             <h2 property="schema:name">Comparison of Accessibility of Applications</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo" id="">We check for human and machine-accessibility, as well archivability.</p>
+              <p class="todo" id="">We check for human and machine-accessibility, as well archivability. The challenges; accessibility, handling complexity in UI, formal and systematic methods for user interface evaluation, heuristic evaluation, support of crowdsourcing, UIs for ubiquitous devices, in the table are based on <cite>User Interfaces for Semantic Authoring of Textual Content: A Systematic Literature Review</cite> as we have discussed in <a href="decentralised-linked-research-application#overview-of-web-applications">Overview of Web Applications</a></p>
 
               <table id="comparison-of-y-applications">
                 <caption>Comparison of y of Applications</caption>
@@ -328,7 +328,7 @@
                   <tr>
                     <th>Application</th>
                     <th></th>
-                    <th></th>
+                    <th>Challenges</th>
                     <th>Standards</th>
                     <th>Archivability</th>
                   </tr>

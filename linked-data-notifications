@@ -339,7 +339,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 
                   <p id="relationship-with-activitypub"><strong>Relationship with ActivityPub</strong>: ActivityPub uses LDN's <a href="https://www.w3.org/TR/activitypub/#inbox">targeting</a> and <a href="https://www.w3.org/TR/activitypub/#delivery">delivery</a> mechanism with <a href="https://www.w3.org/TR/activitypub/#h-note-9">some specific constraints</a>.</p>
 
-                  <p><strong>Vocabularies</strong>: As LDN is agnostic about the contents of a notification, any Linked Data vocabulary can be used, including the vocabularies we have <a href="structure-of-scholarly-information#vocabularies">previously discussed</a>.</p>
+                  <p><strong>Vocabularies</strong>: As LDN is agnostic about the contents of a notification, any Linked Data vocabulary can be used, including the <a href="structure-of-scholarly-information#vocabularies">vocabularies</a> we have previously discussed.</p>
                 </div>
               </section>
 
