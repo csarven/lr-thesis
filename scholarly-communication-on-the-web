@@ -721,6 +721,72 @@ WHERE {
                 </div>
               </section>
 
+              <section id="paper-user-interface" inlist="" rel="schema:hasPart" resource="#paper-user-interface">
+                <h3 property="schema:name">Paper User Interface</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <blockquote cite="https://www.youtube.com/watch?v=1yLNGUeHapA&amp;start=50&amp;end=90">
+                    <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/1yLNGUeHapA?rel=0&amp;start=50&amp;end=90" allowfullscreen="true"></iframe>
+
+                    <p>Because paper enforces single sequence and there is no room for digression, it imposes a particular kind of order in the very nature of the structure. When I saw the computer, I said, ‘at last we can escape from the prison of paper’, and that was what my whole hypertext idea was about in 1960 and since. Contrarily, what did the other people do, they <strong>imitated paper</strong>, which to me seems totally insane.</p>
+
+                    <footer><cite><a href="https://www.youtube.com/watch?v=1yLNGUeHapA&amp;start=50&amp;end=90">Ted Nelson Demonstrates XanaduSpace (by Arthur Bullard)</a></cite>, <a href="http://en.wikipedia.org/wiki/Ted_Nelson">Ted Nelson</a>, 2013</footer>
+                  </blockquote>
+
+                  <p>The Web goes beyond the confines of the physical paper since ideas are hyper-orthogonal in nature. The user experiences between the Web and print-centric media differ greatly. In this section, we briefly compare PDF and HTML.</p>
+
+                  <p id="tex"><a href="https://en.wikipedia.org/wiki/Donald_Knuth">Donald E. Knuth</a>, the inventor of <cite><a href="https://en.wikipedia.org/wiki/TeX">TeX</a></cite>, considers it to be a program written using the literate programming approach. <cite><a href="https://en.wikipedia.org/wiki/LaTeX">LaTeX</a></cite>, which is widely used in scholarly articles is a collection of TeX macros. In some scientific communities, PDFs are usually generated from LaTeX.</p>
+
+                  <p id="pdf"><cite><a href="https://www.iso.org/obp/ui/#iso:std:iso:32000:-2:ed-1:v1:en">Portable Document Format</a></cite> (<abbr title="Portable Document Format">PDF</abbr>) (ISO 32000-2:2017) is intended for displaying and storing, and generally self-contained. However, it is not intended to be editable as the formatting instructions are no longer available. PDF is inherently layout oriented, and it is an optimal format for printing given its high-precision for typography. Third-party scholarly publishers tend to require a fixed layout with typographical guidelines for research documents, hence research articles in PDF are normally destined and designed for printing.</p>
+
+                  <p id="xmp">In order to facilitate metadata interchange, an <cite>Extensible Metadata Platform</cite> (<abbr title="Extensible Metadata Platform">XMP</abbr>) package in the form of XML (most commonly serialized as RDF/XML) may be embedded in PDF as per <cite><a href="https://wwwimages2.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2016-08/XMPSpecificationPart1.pdf">XMP Specification Part 1: Data Model, Serialization, and Core Properties</a></cite> (ISO 16684-1:2012). Otherwise, semantically useful information is not preserved when PDFs are generated, and makes it difficult to go back to source content format.</p>
+
+                  <p id="html-usage">HTML is both a content format for encoding information, and a document format for storing information. HTML is easy to reuse, exploit, process, and extend. HTML does not have a hard page limit, so it can reflow to fit different displays. HTML has ubiquitous support across devices.</p>
+
+                  <p id="html-css-pdf">If HTML is used as the original format to record the information, a PDF copy can be generated on demand, using the specifications of the user. With an accompanying CSS for the HTML, desired layout guidelines can be achieved. Converting from PDF to HTML+CSS while possible, the precision rests on rendering the view, as opposed to creating a structurally and semantically meaningful document.</p>
+
+                  <p id="pdf-legacy-format">Offloading fundamental research knowledge via PDF may be preferable or convenient for some, however it comes only at the cost of losing access to granular information. Thus, PDF’s primary focus; the presentation layer leads to legacy documents that are not reusable in the long run. A great amount of <em>reverse-engineering</em> is required to extract the underlying information (like content, tables, figures). The source format (like TeX, <a href="structure-of-scholarly-information#jats">JATS</a>, XML, HTML, or other) are used instead for content exchange and modifications.</p>
+
+                  <p>Table <a rel="schema:hasPart" resource="#comparison-tex-html" href="#comparison-tex-html">Comparison TeX HTML</a> compares the TeX and HTML stacks.</p>
+
+                  <table id="comparison-tex-html" about="#comparison-tex-html" rel="schema:hasPart"  typeof="doco:TableBox">
+                    <caption about="#table-label-comparison-tex-html" typeof="doco:TableLabel" rel="schema:description">Comparison of TeX and HTML</caption>
+                    <thead>
+                      <tr><th></th><th>TeX</th><th>HTML</th></tr>
+                    </thead>
+                    <tbody about="#table-data-comparison-tex-html" typeof="doco:Table" property="schema:description">
+                      <tr><th>System</th><td>Typesetting</td><td>Web</td></tr>
+                      <tr><th>Programming paradigm</th><td><a href="https://en.wikipedia.org/wiki/Literate_programming">Literate</a></td><td><a href="https://en.wikipedia.org/wiki/Declarative_programming">Declarative</a></td></tr>
+                      <tr><th>Device readiness</th><td>Moderate</td><td>Good</td></tr>
+                      <tr><th>Applicable media</th><td>Screen, Print</td><td>Any<sup><a href="#any-media">*</a></sup></td></tr>
+                      <tr><th>Layout</th><td>Fixed</td><td>Reflowable</td></tr>
+                      <tr><th>Modularity</th><td>Locked</td><td>Extensible</td></tr>
+                      <tr><th>Immutability</th><td>Core</td><td>Feasible</td></tr>
+                      <tr><th>Interactivity</th><td>Static</td><td>Dynamic</td></tr>
+                      <tr><th>Accessibility</th><td>Varies</td><td>Core</td></tr>
+                      <tr><th>Machine-readability</th><td>Low</td><td>High</td></tr>
+                      <tr><th>Linkability</th><td>Basic</td><td>Rich</td></tr>
+                      <tr><th>Reference granularity</th><td>Coarse</td><td>Fine</td></tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <td colspan="3">
+                          <p>We consider TeX stack family to include DVI, XMP, LaTeX, PDF and ECMAScript, whereas the HTML stack family to include hypertext and semantic (W3C) technologies and JavaScript.</p>
+
+                          <p id="any-media">Any media refers to W3C CSS <cite><a href="http://www.w3.org/TR/css3-mediaqueries/">Media Queries</a></cite>, 2012, eg. braille, handheld, print, screen, speech.</p>
+
+                          <p>Device readiness is an informal estimate on how likely a device will be able to open the stack, view, and offer interaction.</p>
+                        </td>
+                      </tr>
+                    </tfoot>
+                  </table>
+
+                  <blockquote cite="https://www.w3.org/DesignIssues/Principles#PLP">
+                    <p>I chose HTML not to be a programming language because I wanted different programs to do different things with it: present it differently, extract tables of contents, index it, and so on.</p>
+                    <footer><cite><a href="https://www.w3.org/DesignIssues/Principles#PLP">Principle of Least Power</a></cite>, Berners-Lee, 1998</footer>
+                  </blockquote>
+                </div>
+              </section>
+
               <section id="semantic-publishing" inlist="" rel="schema:hasPart" resource="#semantic-publishing">
                 <h3 property="schema:name">Semantic Publishing</h3>
                 <div datatype="rdf:HTML" property="schema:description">
