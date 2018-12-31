@@ -491,6 +491,8 @@ WHERE {
                   </div>
 
                   <p>We can note here that the application of the Linked Data design principles to identify, describe, and discover information, is compatible with the AWWW.</p>
+
+                  <p id="httprange-14">In practice, the notion of <q cite="https://www.w3.org/2001/tag/doc/httpRange-14/2007-08-31/HttpRange-14">dereferencing HTTP URIs</q>, and what fetched resources essentially self-described was ambiguous until the release of the famous W3C TAG finding on <a href="https://www.w3.org/2001/tag/doc/httpRange-14/2007-08-31/HttpRange-14">httpRange-14 issue</a>, as per <cite><a data-versiondate="2018-12-31T13:09:02Z" data-versionurl="https://web.archive.org/web/20181231130902/https://www.w3.org/2001/tag/issues.html" href="https://www.w3.org/2001/tag/issues.html#httpRange-14">httpRange-14: What is the range of the HTTP dereference function?</a></cite>. The core issue had to do with machine agents having a deterministic mechanism to distinguish between accessible digital objects on the Web (<q>information resources</q>) and references to a class of physical entities and abstract concepts (<q>non-information resources</q>), ie. things that are not "retrieval" on the Web but may only referred to. In <cite>Sense and Reference on the Web</cite>, Halpin posits that <q cite="http://www.ibiblio.org/hhalpin/homepage/thesis/#SECTION001133000000000000000">the definition of information object and information realization can be thought of as the classic division in philosophy of mind between an object given on a level of abstraction and some concrete thing that realizes that abstraction, where a single abstraction may have multiple realizations.</q></p>
                 </div>
               </section>
 
