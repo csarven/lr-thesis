@@ -473,24 +473,24 @@ WHERE {
 
                   <p>These initiatives are eventually manifested with the <q>Linked Data</q> design principles towards building a <em>Semantic Web</em> where humans and machines can explore the Web of data:</p>
 
-                  <blockquote cite="https://www.w3.org/DesignIssues/LinkedData.html">
+                  <blockquote cite="https://www.w3.org/DesignIssues/LinkedData">
                     <ol>
                       <li>Use URIs as names for things</li>
                       <li>Use HTTP URIs so that people can look up those names.</li>
                       <li>When someone looks up a URI, provide useful information, using the standards (RDF*, SPARQL)</li>
                       <li>Include links to other URIs. so that they can discover more things.</li>
                     </ol>
-                    <footer><cite><a href="https://www.w3.org/DesignIssues/LinkedData.html">Linked Data - Design Issues</a></cite>, 2006</footer>
+                    <footer><cite><a data-versiondate="2018-12-31T12:26:01Z" data-versionurl="https://web.archive.org/web/20181231122601/https://www.w3.org/DesignIssues/LinkedData" href="https://www.w3.org/DesignIssues/LinkedData">Linked Data - Design Issues</a></cite>, 2006 (revised in 2009)</footer>
                   </blockquote>
 
                   <div class="note">
                     <h4>Note</h4>
                     <div>
-                      <p>In the <a href="https://web.archive.org/web/20061115043657/http://www.w3.org/DesignIssues/LinkedData.html">original version</a> of the Linked Data design principles, the third statement was <q>When someone looks up a URI, provide useful information.</q> The principles that are currently in use was updated in 2009.</p>
+                      <p>In the <a href="https://web.archive.org/web/20061115043657/http://www.w3.org/DesignIssues/LinkedData.html">original version</a> (earliest archived) of the Linked Data design principles, the third statement was <q>When someone looks up a URI, provide useful information.</q> It was <a href="https://web.archive.org/web/20090708213925/http://www.w3.org/DesignIssues/LinkedData.html">updated in 2009</a> (earliest archived).</p>
                     </div>
                   </div>
 
-                  <p>It can be noted here that the application of the Linked Data design principles to identify, describe, and discover information, is compatible with the AWWW.</p>
+                  <p>We can note here that the application of the Linked Data design principles to identify, describe, and discover information, is compatible with the AWWW.</p>
                 </div>
               </section>
 
