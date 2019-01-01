@@ -908,6 +908,23 @@ notes.fragile-science.txt</pre>
               <section class="todo" id="dissatisfaction-in-communication" inlist="" rel="schema:hasPart" resource="#dissatistfaction-in-research-communication">
                 <h3 property="schema:name">Dissatisfaction in Communication</h3>
                 <div datatype="rdf:HTML" property="schema:description">
+                  <p>In <cite><a data-versiondate="2019-01-01T13:36:33Z" data-versionurl="https://web.archive.org/web/20190101133633/https://www.openlibhums.org/news/314/" href="https://www.openlibhums.org/news/314/">Open Access, the Global South and the Politics of Knowledge Production and Circulation</a></cite>, an Open Insights interview with Leslie Chan, 2018, states <q cite="https://www.openlibhums.org/news/314/"">Interoperability standards are indeed important for discovery and exchanges but they are external to the quality of research, which can only be assessed by those who have knowledge of the research areas.</q>
+
+
+                  <p><q cite="https://www.openlibhums.org/news/314/"">In the case of scholarly publishing, standards such as DOI, JIF, and even metadata standards, are not only technical decisions, but are also political decisions with public policy implications. This is because these standards are not neutral, but are designed to privilege certain types of knowledge or outputs, while rendering other invisible.</q></p>
+
+                  <p><q cite="https://www.openlibhums.org/news/314/">The quantitative and formulaic nature of the JIF gives it the illusion of objectivity and authority, but it is a technology that completely decontextualizes the nature of research and their real life impact.</q></p>
+
+                  <p><q cite="https://www.openlibhums.org/news/314/">there is far more money to be made in data extraction and sales of “research intelligence” than publishing.</q></p>
+
+                 <p><q cite="https://www.openlibhums.org/news/314/">students are active knowledge producers and critical scholars, not just passive receivers of knowledge codified by Global North institutions.</q></p>
+
+                 <p><q cite="https://www.openlibhums.org/news/314/">We are very concerned with the ethical implications of such big data applications and the potential biases such systems will replicate, given that they will likely built on existing data and highly biased criteria of academic success, such as the JIF.</q></p>
+
+                <p><q cite="https://www.openlibhums.org/news/314/">It is becoming clear that adding openness to an asymmetrical and highly unequal system simply amplifies the gap and empowers the already powerful.</q></p>
+
+                <cite><a href="http://knowledgegap.org/"></a></cite>
+
 <!-- The State of Communication -->
 <!-- Discontent in Research Communication -->
 <!-- Defective Communication -->
