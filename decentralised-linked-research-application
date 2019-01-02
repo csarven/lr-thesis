@@ -25,7 +25,7 @@
           <p>More specifically, we will address the following research questions in context of <a href="decentralising-scholarly-communication#degree-of-control">degree of control</a> (as previously discussed in <cite>Decentralised Storage and Interoperable Applications</cite> section):</p>
 
           <ul id="research-questions-dokieli">
-            <li>What are the elements of decentralised linked notifications and annotations?</li>
+            <li>What are the elements and interconnections of decentralised linked notifications and annotations?</li>
             <li>How can actors use their preferred identities and their descriptions in a clientside application?</li>
             <li>How can actors use their preferred clientside application to discover, reuse, and send notifications about annotations?</li>
             <li>How can actors discover annotations made by their social graph?</li>
