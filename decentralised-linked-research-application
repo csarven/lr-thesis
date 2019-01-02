@@ -18,9 +18,7 @@
         <h1 property="schema:name">Decentralised Linked Research Application</h1>
 
         <div datatype="rdf:HTML" property="schema:description">
-          <p class="todo">What are the core requirements for a contributor-controlled decentralised information space - access controlled read-write - and social participation? Conclusions should reflect on this</p>
-
-          <p id="practical-knowledge-representation-for-the-web">In 1999 article, <cite><a data-versiondate="2018-12-29T16:45:15Z" data-versionurl="https://web.archive.org/web/20181229164515/https://www.cs.vu.nl/~frankh/postscript/IJCAI99-III.html" href="https://www.cs.vu.nl/~frankh/postscript/IJCAI99-III.html">Practical Knowledge Representation for the Web</a></cite>, van Harmelen et al, 1999 stated that <q>the lack of semantic markup is a major barrier to the development of more intelligent document processing on the Web</q>, and <q>meta-data annotation of Web sources is essential for applying AI techniques on a large and successful scale</q>, which at large, remain as open issues today.</p>
+          <p>In the earlier sections, we have discussed research, standards, and practices towards different aspects of realising a decentralised information space. Each data space can be individually controlled with access controls for participating agents. Different applications can be implemented to operate on the same data, as well as send activities about the interactions on and around the data. In this section, we discuss a set of requirements for the implementation of a Web browser-based clientside editor for decentralised article publishing, annotations and social interactions.
 
           <p>One societal issue is that, communication of research knowledge have severe limitations and lack coordination. We observe that majority of the academic knowledge is presented as a package ie. binary file formats (like PDF, Word) merging structural, presentational, and behavioural layers, and often disconnected from other knowledge, due to policy, cost, or technical reasons. Relations between the information on a granular level do not exist, thus increasingly making it difficult to acquire knowledge which would be otherwise better machine and human-accessible.</p>
 
@@ -88,6 +86,8 @@
               <p class="todo">Mention context preserving eg. unique inboxes per article version so that when an article, its notifications, and the annotations are archives, it can be recalled and be meaningful as at the time of creation.</p>
 
               <p class="todo">mention "dokieli can let the user assign an inbox for the annotation that they are creating. This means that the annotation has its own inbox and it can be discovered by other means. The assignment of the inbox comes from user's preferred location for an inbox for the purpose of announcements. It is based on Solid's Type Index Registration approach."</p>
+
+              <p class="todo">preferred license / privacy</p>
 
               <p class="todo">We highlight social scholarly communication use cases with <cite><a href="https://dokie.li/">dokieli</a></cite>, a clientside editor for decentralised scientific article publishing, annotations and social interactions [<a class="ref" href="#ref-17">17</a>]. dokieli uses LDN to send and consume notifications: When a reader comments on a fragment of text in an article, the application discovers the article’s Inbox and sends a notification about the annotation. dokieli also consumes notifications from this Inbox to fetch and display the annotation as marginalia (<a href="#figure-dokieli-annotation">figure 2</a>). A reader can share a dokieli-enabled article with their contacts; dokieli discovers each contact’s Inbox and sends a notification there (<a href="#figure-dokieli-share">figure 3</a>). When editing an article, the author can add a citation. If an Inbox is discovered in the cited article, dokieli sends a notification there to indicate what part of the article was cited by whom and where. dokieli-enabled articles also consume citation notifications to display these metrics for the author and other readers (<a href="#figure-dokieli-citation">figure 4</a>).</p>
 
@@ -787,6 +787,8 @@ XXX:
           <section id="dokieli-privacy" inlist="" rel="schema:hasPart" resource="dokieli-privacy">
             <h3 property="schema:name">Privacy in dokieli</h3>
             <div datatype="rdf:HTML" property="schema:description">
+              <p>own personal data storage for articles, annotations, and inbox</p>
+              <p>Preferred proxy</p>
             </div>
           </section>
 
