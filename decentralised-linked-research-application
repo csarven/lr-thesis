@@ -68,7 +68,9 @@
                 <li id="inbox-annotation-manual">Inbox or annotation service locations are manually input to the system eg. not publicised or private.</li>
               </ul>
 
-              <p>Applications can incrementally implement a combination of these approaches to discover distributed activities on the Web. Figure X depicts an interplay of decentralised personal profiles, notifications, and annotations.</p>
+              <p>Applications can incrementally implement a combination of these approaches to deliver and discover distributed activities on the Web. For example, the preferred locations for general data storage, annotations and notifications for resources can be discovered, and used as input to create new resources eg. assigning an inbox for an annotation where the inbox location is derived from a profile's preferred location for a class of information. Thereby a chain of operations can be orchestrated for decentralised units of information.</p>
+
+              <p>Figure X depicts an interplay of decentralised personal profiles, notifications, and annotations.</p>
 
               <figure class="todo">
                 <figcaption>Interplay of Personal Profiles, Notifications, and Annotations</figcaption>
@@ -84,6 +86,8 @@
 
 
               <p class="todo">Mention context preserving eg. unique inboxes per article version so that when an article, its notifications, and the annotations are archives, it can be recalled and be meaningful as at the time of creation.</p>
+
+              <p class="todo">mention "dokieli can let the user assign an inbox for the annotation that they are creating. This means that the annotation has its own inbox and it can be discovered by other means. The assignment of the inbox comes from user's preferred location for an inbox for the purpose of announcements. It is based on Solid's Type Index Registration approach."</p>
 
               <p class="todo">We highlight social scholarly communication use cases with <cite><a href="https://dokie.li/">dokieli</a></cite>, a clientside editor for decentralised scientific article publishing, annotations and social interactions [<a class="ref" href="#ref-17">17</a>]. dokieli uses LDN to send and consume notifications: When a reader comments on a fragment of text in an article, the application discovers the article’s Inbox and sends a notification about the annotation. dokieli also consumes notifications from this Inbox to fetch and display the annotation as marginalia (<a href="#figure-dokieli-annotation">figure 2</a>). A reader can share a dokieli-enabled article with their contacts; dokieli discovers each contact’s Inbox and sends a notification there (<a href="#figure-dokieli-share">figure 3</a>). When editing an article, the author can add a citation. If an Inbox is discovered in the cited article, dokieli sends a notification there to indicate what part of the article was cited by whom and where. dokieli-enabled articles also consume citation notifications to display these metrics for the author and other readers (<a href="#figure-dokieli-citation">figure 4</a>).</p>
 
