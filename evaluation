@@ -259,8 +259,6 @@
 
               <p>ActivityPub's <a href="https://www.w3.org/TR/activitypub/#inbox">targeting</a> and <a href="https://www.w3.org/TR/activitypub/#delivery">delivery</a> mechanism overlaps with LDN's with <a href="https://www.w3.org/TR/activitypub/#h-note-9">some specific constraints</a>: Notifications must use a single AS2 Activity in compact JSON-LD syntax. Receivers are required to authenticate requests made by Senders, as well as verify the existence of an object (that the activity is about) that is mentioned in the notification by fetching its source from the origin server.</p>
 
-              <p>Further similarities and differences between LDN and other federation protocols and social APIs are described in W3C <cite><a href="https://www.w3.org/TR/social-web-protocols/">Social Web Protocols</a></cite>. For example, a bridging code can be applied by applications implementing different specifications to achieve further interoperability between systems.</p>
-
               <p class="todo">Given that each application requires to follow the steps listed in <q><a href="#sender-to-receiver">Sender to receiver interactions</a></q> and <q><a href="#consumer-to-receiver">Consumer to receiver interactions</a></q> the metrics are dependent on the performance of client and server to do HTTP requests and responses, and their respective payloads.</p>
 
 <p class="todo">“Comparison summary”: what is the result of the evaluation here? “Compatibility with existing systems”: this is perhaps the clearest, but the conclusion about compatibility is implicit. “Optimizing implementation[s]”, “Data Formats and Content Negotiation”: what is evaluated? “Accommodating different targets”: how well is LDN doing compared to the others?</p>

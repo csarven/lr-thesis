@@ -32,8 +32,8 @@
             <footer><cite><a data-versiondate="2018-09-12T07:20:21Z" data-versionurl="https://web.archive.org/web/20180912072021/http://www.chakoteya.net/Voyager/613.htm" href="http://www.chakoteya.net/Voyager/613.htm">Virtuoso</a>, Star Trek: Voyager</cite>, 2000</footer>
           </blockquote>
 
-          <section id="path-to-decentralised-awareness" inlist="" rel="schema:hasPart" resource="#path-to-decentralised-awareness">
-            <h2 property="schema:name">Path to Decentralised Awareness</h2>
+          <section id="fulling-the-awareness-function" inlist="" rel="schema:hasPart" resource="#fulling-the-awareness-function">
+            <h2 property="schema:name">Fulfilling the Awareness Function</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p>As scholarly and social content are created and registered, ie. globally identifiable on the Web, they need to be findable in order to be usable. A set of Web-centric standards can meet this requirement en route to fulfilling the registration and awareness functions in research and scientific communication. The specifications pertaining to <a href="decentralising-scholarly-communication#read-write-linked-data">read-write Linked Data</a>, vocabularies about <a href="structure-of-scholarly-information#publishing-and-referencing">publishing resources</a> and <a href="structure-of-scholarly-information#participation">social participation</a> can be combined in various ways to realise a wide array of scholarly and social activities in a decentralised fashion. One of the ways that actors can directly help to make content findable is by announcing its existence to interested parties, as well as from where and how the content can be accessed. From the perspective of an information consumer, content discovery can be accomplished through agreed communication protocols. For example, the <cite><a href="https://tools.ietf.org/html/rfc5322">Internet Message Format</a></cite> (<abbr title="Internet Message Format">RFC 5322</abbr>) specifies message structure and delivery to electronic mailboxes, and recipients can read the messages from their mailboxes. This is a decentralised system in that there is no single authority for all of the mailboxes, and anyone can control their own mailbox. In this section we will focus on a decentralised notification system that works on the HTTP application layer.</p>
 
@@ -41,110 +41,22 @@
 
               <p>In centralised (social) Web systems which prevail today, notifications are structured arbitrarily and typically only usable by sanctioned applications that generated them in the first place. So far, notifications are considered to be <em>ephemeral</em> resources which may disappear after delivery, and thus are not designed for reuse. In such systems, communication and semantic interoperability across independently built applications is not expected. This design however places limitations on possible interactions around a notification. For example, current major social media services on the Web act as disjoint closed ecosystems, commonly known as "<a href="https://en.wikipedia.org/wiki/Closed_platform">walled gardens</a>" in contrast to open platforms with more possibilities for extensibility and reuse of applications and content. In essence, notifications and data are locked into particular systems, and users are restricted to using tightly coupled applications. Such software and systems are only capable of exchanging notifications if they have prior knowledge about the actors involved, location of the data, data formats, and user interfaces. Customarily, switching applications entails switching social providers, and having to create new profiles, and yet-again reconnect or build one's social network in the new system. This scenario is analogous to using an email application that's customised to each service provider, and only being able to send and receive emails from people that use the same provider. In order for information to flow between systems, ie. the degree of data portability, customised communication interfaces needs to be created after their initial implementations, and thus imposing additional maintenance tax for systems to cooperate.</p>
 
-              <p>In a decentralised architecture, notifications can be a key element for federation of information, and application integration. Current efforts towards <em>re-decentralising</em> the Web [<a class="ref" href="#ref-1">1</a>, <a class="ref" href="#ref-2">2</a>, <a class="ref" href="#ref-3">3</a>] are moving towards architectures in which data storage is decoupled from application logic, freeing end users to switch between applications, or to let multiple applications operate over the same data.</p>
+              <p>In a decentralised architecture, notifications can be a key element for federation of information, and application integration. Current efforts towards <em>re-decentralising</em> the Web are moving towards architectures in which data storage is decoupled from application logic, freeing end users to switch between applications, or to let multiple applications operate over the same data.</p>
 
               <p>We argue that notification data should not be locked into particular systems. Data generated from independently built applications be discoverable and increase their chance for reusability by other applications. Users could choose where to store their notifications, and register their identifiers, as well as using their preferred applications to create, discover, and consume the data.</p>
 
-              <p>We will discuss a communication protocol that specifies how actors and applications can use a decentralised notification system that uses Linked Data to fulfil the <em>registration</em> and <em>awareness</em> functions, as well as support systems with their information flow with respect to the certification and archiving functions. More specifically, we will address the following research questions in context of <a href="decentralising-scholarly-communication#degree-of-control">degree of control</a> (as previously discussed in <cite>Decentralised Storage and Interoperable Applications</cite> section):</p>
+              <p>We will discuss a communication protocol that specifies how actors and applications can use a decentralised notification system that uses Linked Data to fulfil the <em>registration</em> and <em>awareness</em> functions, as well as support systems with their information flow with respect to the certification and archiving functions. More specifically, we will address the following <span class="todo">research questions</span> in context of <a href="decentralising-scholarly-communication#degree-of-control">degree of control</a> (as previously discussed in <cite>Decentralised Storage and Interoperable Applications</cite> section):</p>
 
-              <ul id="research-questions-ldn">
-                <li>How can actors use their preferred applications to discover, reuse, and send notifications?</li>
-                <li>How can users store incoming notifications where they prefer?</li>
-                <li>Would it be possible for users to switch between applications without having to move their data?</li>
-                <li>Can users change the location of their data without having to change their application?</li>
+              <ul>
+                <li>Actors can use their preferred applications to discover, reuse, and send notifications.</li>
+                <li>Users store incoming notifications where they prefer.</li>
+                <li>Users switching between applications without having to move their data.</li>
+                <li>Users change the location of their data without having to change their application.</li>
               </ul>
 
-              <p>We will follow-up with our <a href="#research-questions-ldn-response">response</a> to the research questions at the end of this section.</p>
+              <p class="todo">We will follow-up by <a href="#addressing">addressing</a> to the ... at the end of this section.</p>
 
               <p>Parts of this section is adapted from work published as <cite><a href="http://csarven.ca/linked-data-notifications" rel="prov:wasDerivedFrom">Linked Data Notifications: a resource-centric communication protocol</a></cite>, Capadisli et al, 2017. The work reflects on the W3C <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> technical specification that attains interoperable notification exchange on the Web.</p>
-            </div>
-          </section>
-
-          <section id="use-cases-for-decentralised-notifications" inlist="" rel="schema:hasPart" resource="#use-cases-for-decentralised-notifications">
-            <h2 property="schema:name">Use Cases for Decentralised Notifications</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p id="social-web-working-group-user-stories">In 2015, the <cite><a href="https://www.w3.org/Social/WG">W3C Social Web Working Group</a></cite> documented <cite><a data-versiondate="2018-11-17T14:07:32Z" data-versionurl="https://web.archive.org/web/20181117140732/https://www.w3.org/wiki/Socialwg/Social_API/User_stories" href="https://www.w3.org/wiki/Socialwg/Social_API/User_stories">user stories</a></cite> in online social media in the process of producing technical specifications to enable decentralised and federated social communication. The user stories were derived from existing open and proprietary platforms on the Web, including notifications about events, certifications, annotations, requests, and announcements.</p> 
-
-              <p id="linked-data-platform-use-cases-and-requirements">The <cite><a href="https://www.w3.org/TR/ldp-ucr/">Linked Data Platform Use Cases and Requirements</a></cite> (<abbr title="Linked Data Platform Use Cases and Requirements">LDP-UCR</abbr>) documents <q cite="https://www.w3.org/TR/ldp-ucr/#aggregation-and-mashups-of-infrastructure-data">Aggregation and Mashups of Infrastructure Data</q> as one of the user stories and <q cite="https://www.w3.org/TR/ldp-ucr/#uc6">Aggregate resources</q> as the derived use case.</p>
-
-              <p>In addition to general social Web activities, researchers, scholars, as well as software on their behalf (actors) perform discipline-centric activities to send (registration), discover (awareness), and reuse public and private notifications (accessibility, content). We describe some scenarios in scholarly communication, and list the requirements which are further described in <a href="#design-considerations">design considerations</a>:</p>
-
-<!-- As <persona>, I can <what?> so that <why?> -->
-
-              <dl>
-                <dt>Call for contributions</dt>
-                <dd><em>Scenario</em>: A conference's organising committee would like to make a public announcement that they are now accepting research contributions that can be peer-reviewed.</dd>
-                <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a></dd>
-
-                <dt>Publicising an article</dt>
-                <dd><em>Scenario</em>: One of the authors of an article would like to let their colleagues know about their publication.</dd>
-                <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
-
-                <dt>Request for review</dt>
-                <dd><em>Scenario</em>: The authors of an article requests their work to be reviewed by the members of their community.</dd>
-                <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a></dd>
-
-                <dt>Annotating artifacts</dt>
-                <dd><em>Scenario</em>: A reviewer or commenter wants to let the authors of an article know about their feedback.</dd>
-                <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
-
-                <dt>Authors notify referenced article</dt>
-                <dd><em>Scenario</em>: In order to promote the relevancy of their article and its discovery, authors would like to announce that their article cited another article.</dd>
-                <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
-
-                <dt>Social actions and reactions</dt>
-                <dd><em>Scenario</em>: Researchers perform public and private actions on resources they come across, including bookmarking, re-sharing with others, announcing their emotional states, as well as following another researchers' activities.</dd>
-                <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a>, <a href="#subscribing">Subscribing</a></dd>
-
-                <dt>Providing research information</dt>
-                <dd><em>Scenario</em>: A researcher wants to inform the scientific community that the research methods and data sources of their work is publicly accessible.</dd>
-                <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
-
-                <dt>State change</dt>
-                <dd><em>Scenario</em>: As automated software detects changes in datasets, new version of an application, anomalies in sensor readings or experimental observations, it informs the laboratory's inbox.</dd>
-                <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a>, <a href="#subscribing">Subscribing</a></dd>
-
-                <dt>Status update</dt>
-                <dd><em>Scenario</em>: Researchers would like to inform indexing and archiving systems about new or updates to existing artefacts so that they can perform their specialised operations.</dd>
-                <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
-
-                <dt>Artifacts of interest</dt>
-                <dd><em>Scenario</em>: A system upon coming across articles and annotations that is of interest to researchers wants to inform them based on their listed interests (research results, disputes over data analysis, new relations between research objects).</dd>
-                <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a>, <a href="#subscribing">Subscribing</a></dd>
-
-                <dt>Requesting access</dt>
-                <dd><em>Scenario</em>: When one of the authors does not have write-access to an article, they want to make a request to their peers to have the required permissions.</dd>
-                <dd><em>Requirements</em>: <a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
-              </dl>
-
-
-              <p>These requirements reflecting the interactions among senders, receivers, and consumers - in the general use of application roles - overlap with the functional and non-functional requirements from LDP-UCR for client-server interactions:</p>
-
-              <blockquote cite="https://www.w3.org/TR/ldp-ucr/">
-                <ul>
-                  <li>F2.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-f2.1">The system shall provide the ability to create resources within a container</a></li>
-                  <li>F3.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-f3.1">The system shall provide the ability to retrieve resource descriptions</a></li>
-                  <li>F3.2: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-f3.2">The system shall enable the client to retrieve the description of a hash URI</a></li>
-                  <li>F5.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-f5.1">The system shall provide the ability to determine if a resource has changed</a></li>
-                  <li>F6.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-f6.1">The system shall provide the ability to aggregate resources</a></li>
-                  <li>F6.2: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-f6.2">The system shall support the addition of a resource to multiple aggregations</a></li>
-                  <li>F7.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-f7.1">The system shall provide the ability to retrieve a collection-level description of a composition</a></li>
-                  <li>F7.2: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-f7.2">The system shall provide the ability to retrieve an item-level description of a composition or aggregation</a></li>
-                  <li>F8.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-f8.1">The system shall provide the ability to retrieve a paginated description of a composition or aggregation</a></li>
-
-                  <li>NF2.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-nf2.1">The system shall encourage non-duplication of resources</a></li>
-                  <li>NF2.2: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-nf2.2">The system shall support distribution of resources</a></li>
-                  <li>NF3.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-nf3.1">The system shall support the use of standard vocabularies where appropriate</a></li>
-                  <li>NF3.2: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-nf3.2">The system shall provide a scalable linking model</a></li>
-                  <li>NF4.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-nf4.1">The system shall permit unrestricted vocabulary</a></li>
-                  <li>NF5.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-nf5.1">The LDP shall ensure consistent access in the case of multiple simultaneous attempts to access a resource</a></li>
-                  <li>NF6.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-nf6.1">The system shall allow resource descriptions that are a "mix of simple data and collections"</a></li>
-                  <li>NF6.2: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-nf6.2">The system shall support relative URIs enabling sharing of collections</a></li>
-                </ul>
-                <footer><cite><a href="https://www.w3.org/TR/ldp-ucr/">Linked Data Platform Use Cases and Requirements</a></cite>, W3C, 2014</footer>
-              </blockquote>
-
-              <p>Our aim is to investigate and devise a messaging protocol that would be able to realise some of these use cases for scholars.</p>
             </div>
           </section>
 
@@ -175,10 +87,112 @@
             </div>
           </section>
 
+
+          <section id="use-cases-for-decentralised-notifications" inlist="" rel="schema:hasPart" resource="#use-cases-for-decentralised-notifications">
+            <h2 property="schema:name">Use Cases for Decentralised Notifications</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo">needs a bit of intro</p>
+
+              <p id="social-web-working-group-user-stories">In 2015, the <cite><a href="https://www.w3.org/Social/WG">W3C Social Web Working Group</a></cite> documented <cite><a data-versiondate="2018-11-17T14:07:32Z" data-versionurl="https://web.archive.org/web/20181117140732/https://www.w3.org/wiki/Socialwg/Social_API/User_stories" href="https://www.w3.org/wiki/Socialwg/Social_API/User_stories">user stories</a></cite> in online social media in the process of producing technical specifications to enable decentralised and federated social communication. The user stories were derived from existing open and proprietary platforms on the Web, including notifications about events, certifications, annotations, requests, and announcements.</p> 
+
+              <p id="linked-data-platform-use-cases-and-requirements">The <cite><a href="https://www.w3.org/TR/ldp-ucr/">Linked Data Platform Use Cases and Requirements</a></cite> (<abbr title="Linked Data Platform Use Cases and Requirements">LDP-UCR</abbr>) documents <q cite="https://www.w3.org/TR/ldp-ucr/#aggregation-and-mashups-of-infrastructure-data">Aggregation and Mashups of Infrastructure Data</q> as one of the user stories and <q cite="https://www.w3.org/TR/ldp-ucr/#uc6">Aggregate resources</q> as the derived use case.</p>
+
+              <p>In addition to general social Web activities, researchers, scholars, as well as software on their behalf (actors) perform discipline-centric activities to send (registration), discover (awareness), and reuse public and private notifications (accessibility, content). We describe some scenarios in scholarly communication, and list the requirements which are further described in <a href="#design-considerations">design considerations</a>:</p>
+
+<!-- As <persona>, I can <what?> so that <why?> -->
+
+              <p class="todo">Move the requirements to Design Considerations</p>
+
+              <dl>
+                <dt>Call for contributions</dt>
+                <dd><em>Scenario</em>: A conference's organising committee would like to make a public announcement that they are now accepting research contributions that can be peer-reviewed.</dd>
+                <dd><a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a></dd>
+
+                <dt>Publicising an article</dt>
+                <dd><em>Scenario</em>: One of the authors of an article would like to let their colleagues know about their publication.</dd>
+                <dd><a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
+
+                <dt>Request for review</dt>
+                <dd><em>Scenario</em>: The authors of an article requests their work to be reviewed by the members of their community.</dd>
+                <dd><a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a></dd>
+
+                <dt>Annotating artifacts</dt>
+                <dd><em>Scenario</em>: A reviewer or commenter wants to let the authors of an article know about their feedback.</dd>
+                <dd><a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
+
+                <dt>Authors notify referenced article</dt>
+                <dd><em>Scenario</em>: In order to promote the relevancy of their article and its discovery, authors would like to announce that their article cited another article.</dd>
+                <dd><a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
+
+                <dt>Social actions and reactions</dt>
+                <dd><em>Scenario</em>: Researchers perform public and private actions on resources they come across, including bookmarking, re-sharing with others, reactions such as "like", as well as following another researchers' activities.</dd>
+                <dd><a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a>, <a href="#subscribing">Subscribing</a></dd>
+
+                <dt>Providing research information</dt>
+                <dd><em>Scenario</em>: A researcher wants to inform the scientific community that the research methods and data sources of their work is publicly accessible.</dd>
+                <dd><a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
+
+                <dt>State change</dt>
+                <dd><em>Scenario</em>: As automated software detects changes in datasets, new version of an application, anomalies in sensor readings or experimental observations, it informs the laboratory's inbox.</dd>
+                <dd><a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a>, <a href="#subscribing">Subscribing</a></dd>
+
+                <dt>Status update</dt>
+                <dd><em>Scenario</em>: Researchers would like to inform indexing and archiving systems about new or updates to existing artefacts so that they can perform their specialised operations.</dd>
+                <dd><a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
+
+                <dt>Artifacts of interest</dt>
+                <dd><em>Scenario</em>: A system upon coming across articles and annotations that is of interest to researchers wants to inform them based on their listed interests (research results, disputes over data analysis, new relations between research objects).</dd>
+                <dd><a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a>, <a href="#subscribing">Subscribing</a></dd>
+
+                <dt>Requesting access</dt>
+                <dd><em>Scenario</em>: When one of the authors does not have write-access to an article, they want to make a request to their peers to have the required permissions.</dd>
+                <dd><a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
+              </dl>
+
+<!--
+
+              <p>These requirements reflecting the interactions among senders, receivers, and consumers - in the general use of application roles - overlap with the functional and non-functional requirements from LDP-UCR for client-server interactions:</p>
+
+              <blockquote cite="https://www.w3.org/TR/ldp-ucr/">
+                <ul>
+                  <li>F2.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-f2.1">The system shall provide the ability to create resources within a container</a></li>
+                  <li>F3.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-f3.1">The system shall provide the ability to retrieve resource descriptions</a></li>
+                  <li>F3.2: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-f3.2">The system shall enable the client to retrieve the description of a hash URI</a></li>
+                  <li>F5.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-f5.1">The system shall provide the ability to determine if a resource has changed</a></li>
+                  <li>F6.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-f6.1">The system shall provide the ability to aggregate resources</a></li>
+                  <li>F6.2: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-f6.2">The system shall support the addition of a resource to multiple aggregations</a></li>
+                  <li>F7.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-f7.1">The system shall provide the ability to retrieve a collection-level description of a composition</a></li>
+                  <li>F7.2: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-f7.2">The system shall provide the ability to retrieve an item-level description of a composition or aggregation</a></li>
+                  <li>F8.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-f8.1">The system shall provide the ability to retrieve a paginated description of a composition or aggregation</a></li>
+
+                  <li>NF2.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-nf2.1">The system shall encourage non-duplication of resources</a></li>
+                  <li>NF2.2: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-nf2.2">The system shall support distribution of resources</a></li>
+                  <li>NF3.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-nf3.1">The system shall support the use of standard vocabularies where appropriate</a></li>
+                  <li>NF3.2: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-nf3.2">The system shall provide a scalable linking model</a></li>
+                  <li>NF4.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-nf4.1">The system shall permit unrestricted vocabulary</a></li>
+                  <li>NF5.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-nf5.1">The LDP shall ensure consistent access in the case of multiple simultaneous attempts to access a resource</a></li>
+                  <li>NF6.1: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-nf6.1">The system shall allow resource descriptions that are a "mix of simple data and collections"</a></li>
+                  <li>NF6.2: <a href="https://www.w3.org/TR/ldp-ucr/#dfn-nf6.2">The system shall support relative URIs enabling sharing of collections</a></li>
+                </ul>
+                <footer><cite><a href="https://www.w3.org/TR/ldp-ucr/">Linked Data Platform Use Cases and Requirements</a></cite>, W3C, 2014</footer>
+              </blockquote>
+
+-->
+
+              <p class="todo">add exit</p>
+
+              <p>Our aim is to investigate and devise a messaging protocol that would be able to realise some of these use cases for scholars.</p>
+            </div>
+          </section>
+
           <section id="design-considerations" inlist="" rel="schema:hasPart" resource="#design-considerations">
             <h2 property="schema:name">Design Considerations</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p>In this section we discuss requirements and design considerations for a decentralised notification protocol that conforms to the Linked Data design principles, as well as best practices for applications. We use these considerations to establish both concrete requirements and points of implementation-specific flexibility for the protocol.</p>
+
+              <p class="todo">Mention that these are derived from the UCs.</p>
+
+              <p class="todo">make sure to focus only on consideration not how to do anything specifically</p>
 
               <p id="modularity"><strong>Modularity</strong> (<a href="http://csarven.ca/linked-data-notifications#modularity">R1</a>): To encourage modularity of applications, one should differentiate between different classes of implementation of the protocol. Two parties are involved in the creation of a notification: a <em>sender</em>, generating the notification data, and a <em>receiver</em>, storing the created resource. We also have the role of a <em>consumer</em>, which reads the notification data made available by a receiver, and repurposes it in some way. A software implementation can of course play two or all three of these roles; the important part is that it need not. A consuming application can read and use notification data without being concerned about ever sending or storing notifications.</p>
 
@@ -204,6 +218,28 @@
               <p id="subscribing"><strong>Subscribing</strong> (<a href="http://csarven.ca/linked-data-notifications#subscribing">R5</a>): In general, applications may require that new notifications are pushed to them in real-time, or to request them at appropriate intervals. To take this into account, we expand our definition of senders, receivers and consumers with the following interaction expectations: notifications are <em>pushed</em> from senders to receivers; and <em>pulled</em> from receivers by consumers.</p>
 
               <p>Thus, an application which offers an endpoint or callback URL to which notifications should be sent directly is a receiver, and an application which fetches notifications from an endpoint on its own schedule is a consumer. Much of the related work <em>requires</em> notifications to be explicitly solicited to trigger sending. Since in a decentralised model, receivers may not be aware of possible sources for notifications, our sender-receiver relationship depends on the sender’s autonomy to make such decisions by itself. This does not preclude the scenario in which a receiver may wish to solicit notifications from a particular sender, but as there are already <em>subscription</em> mechanisms in wide use on the Web, we do not need to specify it as part of our protocol. For example, <cite><a href="https://www.w3.org/TR/websub/">WebSub</a></cite> (recent W3C evolution of PubSubHubbub), the <cite>WebSocket Protocol</cite>, or <cite>HTTP Web Push</cite>.</p>
+
+              <p>In table below, we have an overview of the use cases with the design considerations:</p>
+
+              <table>
+                <caption>Design considerations derived from use cases for decentralised notifications</caption>
+                <thead>
+                  <tr><th></th><th><a href="#modularity">R1</a></th><th><a href="#reusability">R2</a></th><th><a href="#persistence-and-retrievability">R3</a></th><th><a href="#target-representation">R4-A</a></th><th><a href="#notification-body">R4-B</a></th><th><a href="#notification-verification">R4-C</a></th><th><a href="#subscribing">R5</a></th></tr>
+                </thead>
+                <tbody>
+                  <tr><th>Call for contributions</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Publicising an article</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Request for review</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Annotating artifacts</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Authors notify referenced article</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Social actions and reactions</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Providing research information</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>State change</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Status update</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Artifacts of interest</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Requesting access</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+              </table>
             </div>
           </section>
 
@@ -211,6 +247,8 @@
             <h2 property="schema:name">Resource-centric Communication Protocol</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p><dfn id="ldn">Linked Data Notifications (<abbr title="Linked Data Notifications">LDN</abbr>)</dfn> is an HTTP-based application protocol to facilitate exchanging messages between applications. LDN describes how servers (receivers) can receive messages pushed to them by applications (senders), as well as how other applications (consumers) may retrieve those messages. Any resource (target) can advertise a receiving endpoint (Inbox) for notification messages. Messages are expressed in RDF, and can contain arbitrary data. LDN is a <cite><a href="https://www.w3.org/TR/ldn">W3C Recommendation</a></cite>.</p>
+
+              <p class="todo">Should the LDN spec be included in the appendix</p>
 
               <p about="#design-intent">We designed the LDN protocol to support sharing and reuse of notifications <em>across</em> applications, regardless of how they were generated or what their contents are. We describe how the principles of identification, addressability and semantic representation can be applied to notifications on the Web. Specifying LDN as a formal protocol allows independently implemented, heterogeneous applications which generate and use notifications, to seamlessly work together. Thus, LDN supports the decentralisation of the Web as well as encourages the generation and consumption of Linked Data.</p>
 
@@ -323,7 +361,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 
                   <p id="authenticated-inboxes"><strong>Authenticated inboxes</strong>: The requirement for reusable notifications could be seen as a potential risk for privacy. The LDN Receivers are expected to consider implementing access control on the Inbox URL as well as the individual notification URL to restrict reading and writing to a whitelist of trusted senders. Various authentication methods which could be used alongside LDN with the idea that notifications are not necessarily public but only visible or reusable by intended parties. The receivers decide (based on their use case) which consumers (based on any criteria) can reuse. They achieve this by setting authentication and authorization settings on the notifications.</p>
 
-                  <p id="personally-identifiable-information"><strong>Personally identifiable information</strong>: Notification payloads may contain any data including that which identifies the sender or the receiver. As access to the Inbox and notification data is under the control of the receiver, they ultimately determine what information may be exposed to the world. Once fetched by a 3rd-party, any piece of information could potentially be subject to privacy. Hence, this is orthogonal to whether the notifications are ephemeral or persistent.</p>
+                  <p id="personally-identifiable-information"><strong>Personally identifiable information</strong>: Notification payloads may contain any data including that which identifies the sender or the receiver. As access to the Inbox and notification data is under the control of the receiver, they ultimately determine what information may be exposed to the world. Once fetched by a 3rd-party, any piece of information could potentially be subject to further (unauthorised) distribution and reuse. Hence, this is orthogonal to whether the notifications are ephemeral or persistent.</p>
 
                   <p id="security-and-privacy-review"><strong>Security and Privacy Review</strong>: The LDN specification includes a <cite><a href="https://www.w3.org/TR/ldn/#security-and-privacy-review">Security and Privacy Review</a></cite> covering threat models categorised as: <q cite="https://www.w3.org/TR/2015/NOTE-security-privacy-questionnaire-20151210/">Passive Network Attackers, Active Network Attackers, Same-Origin Policy Violations, Third-Party Tracking</q> as outlined in W3C <cite><a href="https://www.w3.org/TR/2015/NOTE-security-privacy-questionnaire-20151210/">Self-Review Questionnaire: Security and Privacy</a></cite>.</p>
                 </div>
@@ -339,7 +377,9 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 
                   <p id="relationship-with-activitypub"><strong>Relationship with ActivityPub</strong>: ActivityPub uses LDN's <a href="https://www.w3.org/TR/activitypub/#inbox">targeting</a> and <a href="https://www.w3.org/TR/activitypub/#delivery">delivery</a> mechanism with <a href="https://www.w3.org/TR/activitypub/#h-note-9">some specific constraints</a>. It is possible for LDN Senders to deliver notifications to AP servers.</p>
 
-                  <p><strong>Vocabularies</strong>: As LDN is agnostic about the contents of a notification, any Linked Data vocabulary can be used, including the <a href="structure-of-scholarly-information#vocabularies">vocabularies</a> we have previously discussed.</p>
+                  <p id="linked-data-vocabularies"><strong>Linked Data vocabularies</strong>: As LDN is agnostic about the contents of a notification, any Linked Data vocabulary can be used, including the <a href="structure-of-scholarly-information#vocabularies">vocabularies</a> we have previously discussed in <cite>Structure of Scholarly Information</cite>.</p>
+
+                  <p id="federation-protocols"><strong>Relationship with other federation protocols</strong>: Further similarities and differences between LDN and other federation protocols and social APIs are described in W3C <cite><a href="https://www.w3.org/TR/social-web-protocols/">Social Web Protocols</a></cite>. For example, a bridging code can be applied by applications implementing different specifications to achieve further interoperability between systems.</p>
                 </div>
               </section>
 
@@ -564,14 +604,16 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                 <dd>An inbox and its notifications are made <em>available</em> to users and the applications they use via HTTP over a network connection. When an HTTP URL resolves, its contents are <em>retrievable</em>, subject to authentication and authorisation. Content can be created by and made available to different kinds of consumers: humans or machines.</dd>
 
                 <dt>Applicability</dt>
-                <dd>As applicability an external function, it derives the dissemination of a call for societal need for problem finding and solving, as well as sharing of research results in the knowledge industry towards the advancement of scientific and technological knowledge. LDN can merely act as a way to fulfil a communication requirement between different parties (universities, research institutions, industry, etc.)</dd>
+                <dd>As applicability is an external function, it derives the dissemination of a call for societal need for problem finding and solving, as well as sharing of research results in the knowledge industry towards the advancement of scientific and technological knowledge. LDN can merely act as a way to fulfil a communication requirement between different parties (universities, research institutions, industry, etc.)</dd>
               </dl>
 
               <p id="ldn-functions">The <em>functions</em>:</p>
 
+              <p class="todo">What does LDN enable for these functions that wasn't possible before eg. decentralisation.</p>
+
               <dl>
                 <dt>Registration</dt>
-                <dd>As an LDN Sender's message is created, becomes referenceable and reusable by a Receiver with globally unique HTTP identifiers, the protocol first and foremost meets the registration function. Notifications being registered as their own entities further facilitates information discovery and reuse.</dd>
+                <dd>Prior to LDN, notifications generally would not be considered as persistent units of information. Notifications being registered as their own entities as HTTP URIs facilitates information discovery and reuse.</dd>
 
                 <dt>Awareness</dt>
                 <dd>LDN accelerates information flow in an interoperable way. As the LDN protocol includes a way for content to be disseminated, as well as read by different consumers, it fulfills the awareness function. Awareness is integral to LDN in that it helps to inform systems that a registration of a unit of information took place; a request for quality-control and verification is sought-after, or has occurred; and for instance, an archiving service is informed to place a request for preserving the units.</dd>
@@ -583,7 +625,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                 <dd>In order for registered units of information to preserve, they need to be informed about their existence to archives so that they can be adequately stored and served on demand. One way of achieving that communication is through LDN's notification system which can systematically notify an archive about newly or derived units.</dd>
               </dl>
 
-              <p>At its core, LDN operates to fulfill the registration and awareness function, and these are considered to be indispensable. With respect to the certification and archiving functions, LDN bridges systems that are dedicated to carry out those functions. For certification, LDN helps to distribute the acknowledgement of validity and quality-control of registered units of information across scholarly systems. Similarly, LDN can inform archiving systems about the existence and state of units of information that can be preserved. Lastly, LDN can be used to communicate information pertaining to rewarding, such as metrics directly derived from the system itself.</p>
+              <p>At its core, LDN fulfill the awareness function. Registration of scholarly artefacts are not addressed by LDN, however, notifications which reference scholarly artefacts are registered. With respect to the certification and archiving functions, LDN bridges systems that are dedicated to carry out those functions. For certification, LDN helps to distribute the acknowledgement of validity and quality-control of registered units of information across scholarly systems. Similarly, LDN can inform archiving systems about the existence and state of units of information that can be preserved. Lastly, LDN can be used to communicate information pertaining to rewarding, such as metrics directly derived from the system itself.</p>
 
               <p>The information herein in factored into Table <cite><a href="decentralising-scholarly-communication#specifications-for-forces-and-functions">specifications-for-forces-and-functions</a></cite>.</p>
             </div>
@@ -600,33 +642,44 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                 <footer><cite><a data-versiondate="2018-10-03T15:13:45Z" data-versionurl="https://web.archive.org/web/20181003151345/https://www.imsdb.com/scripts/Star-Trek-Nemesis.html" href="https://www.imsdb.com/scripts/Star-Trek-Nemesis.html">Star Trek: Nemesis</a></cite>, 2003</footer>
               </blockquote>
 
+              <p class="todo">In this section we summarise and contextualise..</p>
+
               <p>Notifications are sent over the Web for a variety of purposes, for example, by social applications. The information contained within a notification is structured arbitrarily, and typically only usable by the application which generated them in the first place. In line with Linked Data, we propose that notifications should be reusable by different applications. Through separating the concepts of <em>senders</em>, <em>receivers</em> and <em>consumers</em> of notifications, and leveraging Linked Data principles of shared vocabularies and URIs, LDN provides a building block for decentralised Web applications. The three roles can be implemented independently from each other or all together in one system. This permits end users more freedom to switch between the online tools they use, as well as generating greater value when notifications from different sources can be used in combination.</p>
 
-              <p id="research-questions-ldn-response">A response to the <a href="#research-questions-ldn">research questions</a> is as follows:</p>
 
-              <dl>
-                <dt>How can actors use their preferred applications to discover, reuse, and send notifications?</dt>
-                <dd>Given LDN specification's criteria for interoperability, <em>any</em> conforming application conforming is a member of a class of interoperable LDN applications. Applications receiving pass results from applicable features in the test suite is one identifiable and reproducible way to measure the degree of interoperability.</dd>
+              <section id="addressing" inlist="" rel="schema:hasPart" resource="#addressing">
+                <h3 property="schema:name">Addressing</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <dl>
+                    <dt>Actors can use their preferred applications to discover, reuse, and send notifications</dt>
+                    <dd>Given LDN specification's criteria for interoperability, <em>any</em> conforming application conforming is a member of a class of interoperable LDN applications. Applications receiving pass results from applicable features in the test suite is one identifiable and reproducible way to measure the degree of interoperability.</dd>
 
-                <dt>How can users store incoming notifications where they prefer?</dt>
-                <dd>Any conforming LDN Receiver (server) would have the ability to store notifications, provided that the users have sufficient control - as per AWWW's <cite>URI Ownership</cite> - over the Inbox and the notifications within.</dd>
+                    <dt>Users store incoming notifications where they prefer</dt>
+                    <dd>Any conforming LDN Receiver (server) would have the ability to store notifications, provided that the users have sufficient control - as per AWWW's <cite>URI Ownership</cite> - over the Inbox and the notifications within.</dd>
 
-                <dt>Would it be possible for users to switch between applications without having to move their data?</dt>
-                <dd>As the LDN specification only specifies the mechanism for information exchange, it is possible to switch between Receiver applications at the protocol level without any further action. The specification is only concerned about interoperability across applications, hence, implementation specific details are out of scope. For instance, if a Receiver internally uses a particular database software, switching to another database software or storage system would naturally require additional 'movement'.</dd>
+                    <dt>Users switching between applications without having to move their data</dt>
+                    <dd>As the LDN specification only specifies the mechanism for information exchange, it is possible to switch between Receiver applications at the protocol level without any further action. The specification is only concerned about interoperability across applications, hence, implementation specific details are out of scope. For instance, if a Receiver internally uses a particular database software, switching to another database software or storage system would naturally require additional 'movement'.</dd>
 
-                <dt>Can users change the location of their data without having to change their application?</dt>
-                <dd>Users can serve their inbox and the notifications from different HTTP URIs provided that they do not mind persistence. In this case, the target resource's inbox location would simply point to the new location. As inbox discovery starts from looking up a target resource's description, the new inbox location will be discovered as before.</dd>
-              </dl>
+                    <dt>Users change the location of their data without having to change their application</dt>
+                    <dd>Users can serve their inbox and the notifications from different HTTP URIs provided that they do not mind persistence. In this case, the target resource's inbox location would simply point to the new location. As inbox discovery starts from looking up a target resource's description, the new inbox location will be discovered as before.</dd>
+                  </dl>
+                </div>
+              </section>
 
-              <p>As the reusability of notifications may be a privacy concern, we have outlined considerations on <a href="#authenticated-inboxes">authenticated inboxes</a> and <a href="#personally-identifiable-information">personally identifiable information</a>. As for <a href="#persistence-and-retrievability">persistence and retrievability</a>, any consumer application can potentially benefit from being able to reuse notifications if the owners of a receiver makes the necessary commitments.</p>
+              <section id="additional-considerations" inlist="" rel="schema:hasPart" resource="#additional-considerations">
+                <h3 property="schema:name">Additional Considerations</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>As the reusability of notifications may be a privacy concern, we have outlined considerations on <a href="#authenticated-inboxes">authenticated inboxes</a> and <a href="#personally-identifiable-information">personally identifiable information</a>. As for <a href="#persistence-and-retrievability">persistence and retrievability</a>, any consumer application can potentially benefit from being able to reuse notifications if the owners of a receiver makes the necessary commitments.</p>
 
-              <p>The interaction between consumers and receivers describes a <em>pull</em> mechanism. A <a href="#subscribing">subscribing</a> mechanism in the sense of receivers <em>push</em> content changes to consumers is left out of scope. First, there are existing specifications that can fulfill use cases requiring a push mechanism, and can be interoperably combined with LDN eg. ActivityPub, WebSub, <cite><a href="https://tools.ietf.org/html/rfc6455">The WebSocket Protocol</a></cite>, <cite><a href="https://tools.ietf.org/html/rfc8030">Generic Event Delivery Using HTTP Push</a></cite>. Second, a push based interaction can still be arranged between LDN applications, where it would be implementation specific. For example, in a notification, a sender specifies the location of an inbox where it can receive updates about content changes. Then, an application that consumes the notifications manages its own subscriber list, and pushes content to the inbox as specified in the notification.</p>
+                  <p>The interaction between consumers and receivers describes a <em>pull</em> mechanism. A <a href="#subscribing">subscribing</a> mechanism in the sense of receivers <em>push</em> content changes to consumers is left out of scope. First, there are existing specifications that can fulfill use cases requiring a push mechanism, and can be interoperably combined with LDN eg. ActivityPub, WebSub, <cite><a href="https://tools.ietf.org/html/rfc6455">The WebSocket Protocol</a></cite>, <cite><a href="https://tools.ietf.org/html/rfc8030">Generic Event Delivery Using HTTP Push</a></cite>. Second, a push based interaction can still be arranged between LDN applications, where it would be implementation specific. For example, in a notification, a sender specifies the location of an inbox where it can receive updates about content changes. Then, an application that consumes the notifications manages its own subscriber list, and pushes content to the inbox as specified in the notification.</p>
 
-              <p id="semantic-organisation-of-notifications"><strong>Semantic Organisation of Notifications</strong>: While LDN facilitates a decentralised architecture for notification exchange, it does not prescribe the structure and semantics of the notifications themselves. The composition of the notifications are unspecified to foster different kinds of applications to be built to communicate information in any domain. Consequently, organic organisation of notification models can materialise in that domain-centric applications would create and consume what is meaningful to them in order to coordinate among themselves. So while the notification system is globally decentralised, it enables communication that can be specialised and be only useful and meaningful to applications that understands a message's semantics.</p>
+                  <p id="semantic-organisation-of-notifications"><strong>Semantic Organisation of Notifications</strong>: While LDN facilitates a decentralised architecture for notification exchange, it does not prescribe the structure and semantics of the notifications themselves. The composition of the notifications are unspecified to foster different kinds of applications to be built to communicate information in any domain. Consequently, organic organisation of notification models can materialise in that domain-centric applications would create and consume what is meaningful to them in order to coordinate among themselves. So while the notification system is globally decentralised, it enables communication that can be specialised and be only useful and meaningful to applications that understands a message's semantics.</p>
 
-              <p>We need to consider both the needs of software systems and humans when large amounts of notification data are being generated and shared between diverse applications which may be operating without knowledge of each other. To organise and manage large amount of notifications over time, mechanisms should be in place to break representations of collections of notifications into multiple paged responses that may be easier to consume by applications.</p>
+                  <p>We need to consider both the needs of software systems and humans when large amounts of notification data are being generated and shared between diverse applications which may be operating without knowledge of each other. To organise and manage large amount of notifications over time, mechanisms should be in place to break representations of collections of notifications into multiple paged responses that may be easier to consume by applications.</p>
 
-              <p>Relatedly, receivers may carry out resource management or garbage collection, or permit consumers or other applications to do so. For example, an application to consume messages might let an authenticated and authorised user ‘mark as read’ by adding a triple to the inbox or notification contents. That can be seen as an analogous feature that is available to some email applications.</p>
+                  <p>Relatedly, receivers may carry out resource management or garbage collection, or permit consumers or other applications to do so. For example, an application to consume messages might let an authenticated and authorised user ‘mark as read’ by adding a triple to the inbox or notification contents. That can be seen as an analogous feature that is available to some email applications.</p>
+                </div>
+              </section>
 
               <p>So far we have seen decentralised notifications applied in social networking scenarios, as well as for archival activities and scientific experiments through monitoring the state of online resources, datasets and files, or sensor outputs, and sending notifications when changes occur. We take a closer look at the LDN <a href="evaluation#linked-data-notifications-implementations">implementations</a> in the Evaluation section.</p>
             </div>
