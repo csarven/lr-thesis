@@ -194,11 +194,9 @@
           <section id="design-considerations" inlist="" rel="schema:hasPart" resource="#design-considerations">
             <h2 property="schema:name">Design Considerations</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>In this section we discuss requirements and design considerations for a decentralised notification protocol that conforms to the Linked Data design principles, as well as best practices for applications. We use these considerations to establish both concrete requirements and points of implementation-specific flexibility for the protocol.</p>
+              <p>This section details design considerations for a decentralised notification protocol. These considerations are derived from the use cases in the previous section, and also take into account conformance to the Linked Data design principles, as well as Web application best practices. We use these considerations to establish the concrete requirements and the points of implementation-specific flexibility for the protocol.</p>
 
-              <p class="todo">Mention that these are derived from the UCs.</p>
-
-              <p class="todo">make sure to focus only on consideration not how to do anything specifically</p>
+              <p class="todo">make sure to focus only on consideration not how to do anything specifically. Make each one of these only one paragraph if poss.</p>
 
               <p id="modularity"><strong>Modularity</strong> (<a href="http://csarven.ca/linked-data-notifications#modularity">R1</a>): To encourage modularity of applications, one should differentiate between different classes of implementation of the protocol. Two parties are involved in the creation of a notification: a <em>sender</em>, generating the notification data, and a <em>receiver</em>, storing the created resource. We also have the role of a <em>consumer</em>, which reads the notification data made available by a receiver, and repurposes it in some way. A software implementation can of course play two or all three of these roles; the important part is that it need not. A consuming application can read and use notification data without being concerned about ever sending or storing notifications.</p>
 
@@ -220,12 +218,11 @@
 
               <p>As <q>anyone can say anything about anything</q> a receiver may choose to resolve any external resources referred to by the notification, and cross-check the notification contents against authoritative sources. This is similar to how Semantic Pingback and Webmention require fetching and parsing of the source URL to verify existence of the target link.</p>
 
-
               <p id="subscribing"><strong>Subscribing</strong> (<a href="http://csarven.ca/linked-data-notifications#subscribing">R5</a>): In general, applications may require that new notifications are pushed to them in real-time, or to request them at appropriate intervals. To take this into account, we expand our definition of senders, receivers and consumers with the following interaction expectations: notifications are <em>pushed</em> from senders to receivers; and <em>pulled</em> from receivers by consumers.</p>
 
               <p>Thus, an application which offers an endpoint or callback URL to which notifications should be sent directly is a receiver, and an application which fetches notifications from an endpoint on its own schedule is a consumer. Much of the related work <em>requires</em> notifications to be explicitly solicited to trigger sending. Since in a decentralised model, receivers may not be aware of possible sources for notifications, our sender-receiver relationship depends on the sender’s autonomy to make such decisions by itself. This does not preclude the scenario in which a receiver may wish to solicit notifications from a particular sender, but as there are already <em>subscription</em> mechanisms in wide use on the Web, we do not need to specify it as part of our protocol. For example, <cite><a href="https://www.w3.org/TR/websub/">WebSub</a></cite> (recent W3C evolution of PubSubHubbub), the <cite>WebSocket Protocol</cite>, or <cite>HTTP Web Push</cite>.</p>
 
-              <p>In table below, we have an overview of the use cases with the design considerations:</p>
+              <p>The table below shows the design considerations as applicable to each use case.</p>
 
               <table>
                 <caption>Design considerations derived from use cases for decentralised notifications</caption>
