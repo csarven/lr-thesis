@@ -591,22 +591,22 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
           <section id="ldn-forces-functions" inlist="" rel="schema:hasPart" resource="ldn-forces-functions">
             <h2 property="schema:name">Forces and Functions in Linked Data Notifications</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Here we describe how LDN as a mechanism can help to fulfill some of the forces and functions in scientific communication. We argue that LDN can facilitate the realisation of interconnecting scholarly communication systems as posited in <cite>Rethinking Scholarly Communication</cite>.</p>
+              <p>This section goes into detail about how LDN fulfills or supports some of the forces and functions in scientific communication. LDN can facilitate the realisation of interconnecting scholarly communication systems as posited in <cite>Rethinking Scholarly Communication</cite>.</p>
 
-              <p id="ldn-forces">As LDN is employed, we observe the <em>forces</em>:</p>
+              <p id="ldn-forces">Assuming multiple interoperating implementations of LDN, we observe the <em>forces</em>:</p>
 
               <dl>
                 <dt>Actor</dt>
-                <dd>The actors in LDN can be categorised into documents (or things, or entities) and software applications. An LDN target (like a document or a researcher profile) with an inbox is the primary actor that affords the start of any communication. Applications consist of LDN implementations with one or more roles: sender, receiver, and consumer, with the purpose of delivering information to or about a target that can be used by interested parties.</dd>
+                <dd>The actors involved in executing the LDN protocol can be categorised into documents (or things, or entities) and software applications. An LDN target (like a document or a researcher profile) with an inbox is the actor that affords the start of any communication. Applications consist of LDN implementations with one or more roles: sender, receiver, and consumer, with the purpose of delivering information to or about a target that can be used by interested parties.</dd>
 
                 <dt>Content</dt>
-                <dd>Target resources, inboxes, and notifications collectively comprise the content in LDN's flow. That is, any target resource advertising an inbox relation; an inbox description with a collection of notifications (with optional data about creating and using notifications), and; individual notifications corresponds to accessible content. A notification's content can include or refer to any unit of information or communication in the scientific and scholarly system.</dd>
+                <dd>Target resources, inboxes, and notifications collectively comprise the content in LDN's flow. That is, any target resource advertising an inbox relation; an inbox description with a collection of notifications (with optional data about creating and using notifications), and individual notifications with any RDF contents. A notification's content can include or refer to any unit of information or communication in the scientific and scholarly system.</dd>
 
                 <dt>Accessibility</dt>
-                <dd>An inbox and its notifications are made <em>available</em> to users and the applications they use via HTTP over a network connection. When an HTTP URL resolves, its contents are <em>retrievable</em>, subject to authentication and authorisation. Content can be created by and made available to different kinds of consumers: humans or machines.</dd>
+                <dd>An inbox and its notifications are made <em>available</em> to users and applications via HTTP over a network connection. When an HTTP URL resolves, its contents are <em>retrievable</em>, subject to authentication and authorisation. Content can be created by and made available to different kinds of consumers: humans or machines.</dd>
 
                 <dt>Applicability</dt>
-                <dd>As applicability is an external function, it derives the dissemination of a call for societal need for problem finding and solving, as well as sharing of research results in the knowledge industry towards the advancement of scientific and technological knowledge. LDN can merely act as a way to fulfil a communication requirement between different parties (universities, research institutions, industry, etc.)</dd>
+                <dd>Applicability of scholarly communication comes from research which responds to problems or answers questions, which can be used or built upon by others. Notifications enable communication between different parties (individuals, universities, research institutions, industry, etc.) and LDN enables more direct, non-centralised control over this communication.</dd>
               </dl>
 
               <p id="ldn-functions">The <em>functions</em>:</p>
@@ -618,16 +618,16 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                 <dd>Prior to LDN, notifications generally would not be considered as persistent units of information. Notifications being registered as their own entities as HTTP URIs facilitates information discovery and reuse.</dd>
 
                 <dt>Awareness</dt>
-                <dd>LDN accelerates information flow in an interoperable way. As the LDN protocol includes a way for content to be disseminated, as well as read by different consumers, it fulfills the awareness function. Awareness is integral to LDN in that it helps to inform systems that a registration of a unit of information took place; a request for quality-control and verification is sought-after, or has occurred; and for instance, an archiving service is informed to place a request for preserving the units.</dd>
+                <dd>The LDN protocol provides a way for content to be disseminated, as well as read by different consumers. LDN can be used to inform systems that a registration of a unit of information took place; a request for quality-control and verification is sought-after, or has occurred; and for instance, an archiving service is informed to place a request for preserving the units.</dd>
 
                 <dt>Certification</dt>
-                <dd>LDN can help to communicate both, a request for as well as the results of a certification process such as a registered unit of information's significance and soundness. Information pertaining to certification about scientific and scholarly assertions at different levels can be communicated through LDN notifications. Similarly, information about a revocation of a unit of information can be circulated.</dd>
+                <dd>LDN can be implemented to support scholarly certification mechanisms. Notifications can be sent to request review, as well to return the results of a certification process such as a registered unit of information's significance and soundness. Units of information at any level of granularity can be referenced in notifications, from entire articles to individual data points. Similarly, information about a revocation of a unit of information can be circulated.</dd>
 
                 <dt>Archiving</dt>
-                <dd>In order for registered units of information to preserve, they need to be informed about their existence to archives so that they can be adequately stored and served on demand. One way of achieving that communication is through LDN's notification system which can systematically notify an archive about newly or derived units.</dd>
+                <dd>LDN can be implemented to support archival processes. When new units of information are registered, or existing units of information are updated, archives can be notified in order to store a persistent copy of the resources.</dd>
               </dl>
 
-              <p>At its core, LDN fulfill the awareness function. Registration of scholarly artefacts are not addressed by LDN, however, notifications which reference scholarly artefacts are registered. With respect to the certification and archiving functions, LDN bridges systems that are dedicated to carry out those functions. For certification, LDN helps to distribute the acknowledgement of validity and quality-control of registered units of information across scholarly systems. Similarly, LDN can inform archiving systems about the existence and state of units of information that can be preserved. Lastly, LDN can be used to communicate information pertaining to rewarding, such as metrics directly derived from the system itself.</p>
+              <p>Primarily, LDN fulfill the awareness function. Registration of scholarly artefacts are not addressed by LDN, however, notifications which reference scholarly artefacts are registered. With respect to the certification and archiving functions, LDN can be employed to bridge systems that are dedicated to carrying out those functions. For certification, LDN helps to distribute the acknowledgement of validity and quality-control of registered units of information across scholarly systems. Similarly, LDN can inform archiving systems about the existence and state of units of information to can be preserved. Lastly, LDN can be used to communicate information pertaining to rewards, incentives and feedback, and metrics could be directly derived from the notification system itself.</p>
 
               <p>The information herein in factored into Table <cite><a href="decentralising-scholarly-communication#specifications-for-forces-and-functions">specifications-for-forces-and-functions</a></cite>.</p>
             </div>
