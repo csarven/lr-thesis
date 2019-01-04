@@ -628,8 +628,8 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
               <p>Notifications maybe purposed in a number of ways in a decentralised scholarly communication ecosystem. This section has outlined specific use cases, and used these to derive design considerations. An overview of existing protocols for decentralised notifications indicates their respective strengths and shortcomings, and a new protocol is designed to meet our needs in light of this. The Linked Data Notifications protocol separates the concepts of <em>senders</em>, <em>receivers</em> and <em>consumers</em> of notifications for modularity, and leverages Linked Data concepts of shared vocabularies and URIs, thus providing a building block for notifications between diverse decentralised Web applications. The three roles can be implemented independently from each other or all together in one system. This permits end users more freedom to switch between the online tools they use, as well as generating greater value when notifications from different sources can be shared between applications and used in combination.</p>
 
 
-              <section id="addressing-requirements-of-control" inlist="" rel="schema:hasPart" resource="#addressing-requirements-of-control">
-                <h3 property="schema:name">Addressing Requirements of Control</h3>
+              <section id="degree-of-control-in-ldn" inlist="" rel="schema:hasPart" resource="#degree-of-control-in-ldn">
+                <h3 property="schema:name">Degree of Control in LDN</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>At the beginning of this section, four requirements relating to user control over data were listed. LDN addresses each of these as follows:</p>
                   

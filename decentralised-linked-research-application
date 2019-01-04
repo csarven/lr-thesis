@@ -885,6 +885,8 @@ XXX:
           </section>
 
 
+
+
           <section id="dokieli-forces-functions" inlist="" rel="schema:hasPart" resource="dokieli-forces-functions">
             <h2 property="schema:name">Forces and Functions in dokieli</h2>
             <div datatype="rdf:HTML" property="schema:description">
@@ -940,6 +942,21 @@ XXX:
               <p>A couple of important socio-technical challenges remain. Resources might want to indicate in a granular way which actions they support or encourage, such as liking, bookmarking, or sharing, and perhaps conditions about which notifications should be sent when any of these events take place. In order to encourage positive behaviour, we might want ways to provide moderation, and solutions to prevent harassment and abuse. Closely related is the issue of identity, pseudonymity and anonymity, and its relation with trust and verification. While there is likely no final solution to these issues in an open ecosystem, it is worthwhile exploring within dokieli or other tools based on similar design principles.</p>
 
               <p>Future work can examine how additional features can be realised on top of existing Web standards, or where more development is required. Real-time collaborative editing is often realised with centralised communication (even though some peer to peer alternatives exist). Services like top-down annotations or automated entity marking can improve the discoverability of a publication, yet the question of how to offer these without being tied to certain servers needs to be still solved.</p>
+
+              <section id="degree-of-control-in-dokieli" inlist="" rel="schema:hasPart" resource="#degree-of-control-in-dokieli">
+                <h3 property="schema:name">Degree of Control in dokieli</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <ul>
+                    <li>Interoperable applications through decentralised Linked Notifications and Web Annotations.</li>
+                    <li>Creating human and machine-interpretable Web resources.</li>
+                    <li>Actors use their preferred WebID in clientside applications.</li>
+                    <li>Actors use their preferred clientside application to perform HTTP-based read-write operations on their personal data storage or where they have access to.</li>
+                    <li>Actors switch between applications without having to move or alter the schema of their data.</li>
+                    <li>Actors relocating data without having to change their preferred application.</li>
+                    <li>Querying and visualising statistical data from clientside applications.</li>
+                  </ul>
+                </div>
+              </section>
             </div>
           </section>
 
