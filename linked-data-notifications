@@ -32,7 +32,7 @@
             <footer><cite><a data-versiondate="2018-09-12T07:20:21Z" data-versionurl="https://web.archive.org/web/20180912072021/http://www.chakoteya.net/Voyager/613.htm" href="http://www.chakoteya.net/Voyager/613.htm">Virtuoso</a>, Star Trek: Voyager</cite>, 2000</footer>
           </blockquote>
 
-          <p>Parts of this section are adapted from work published as <cite><a href="http://csarven.ca/linked-data-notifications" rel="prov:wasDerivedFrom">Linked Data Notifications: a resource-centric communication protocol</a></cite>, Capadisli et al (2017), <a href="http://2017.eswc-conferences.org/">Extended Semantic Web Conference</a>, (Best Student Paper Award). Additionally some parts are adapted from <cite><a href="http://csarven.ca/linked-specifications-reports" rel="prov:wasDerivedFrom">Linked Specifications, Test Suites, and Implementation Reports</a></cite>, Capadisli (2018), TheWebConf Developers Track. Finally, parts of the W3C Recommendation <cite><a href="https://www.w3.org/TR/ldn/" rel="prov:wasDerivedFrom">Linked Data Notifications</a></cite> (eds. Capadisli & Guy, 2017) have been integrated as well.</p>
+          <p>Parts of this section are adapted from work published as <cite><a href="http://csarven.ca/linked-data-notifications" rel="prov:wasDerivedFrom">Linked Data Notifications: a resource-centric communication protocol</a></cite>, Capadisli et al (2017), <a href="http://2017.eswc-conferences.org/">Extended Semantic Web Conference</a>, (Best Student Paper Award). Additionally some parts are adapted from <cite><a href="http://csarven.ca/linked-specifications-reports" rel="prov:wasDerivedFrom">Linked Specifications, Test Suites, and Implementation Reports</a></cite>, Capadisli (2018), TheWebConf Developers Track. Finally, parts of the W3C Recommendation <cite><a href="https://www.w3.org/TR/ldn/" rel="prov:wasDerivedFrom">Linked Data Notifications</a></cite>, editors Capadisli and Guy, 2017, have been integrated as well.</p>
 
           <section id="fulling-the-awareness-function" inlist="" rel="schema:hasPart" resource="#fulling-the-awareness-function">
             <h2 property="schema:name">Fulfilling the Awareness Function</h2>
@@ -87,7 +87,7 @@
 
               <p>Each of these mechanisms are triggered by subscription requests. That is, a user must actively solicit messages from a particular service, rather than having a way for a service to select a notification target and autonomously discover where to send notifications to.</p>
 
-              <p>In the Evaluation section, we present and discuss a <a href="evaluation#comparison-of-notification-mechanisms">Comparison of Notification Mechanisms</a> to better understand current limitations, and how the proposed protocol addresses them and at what cost.</p>
+              <p>We present and discuss a <a href="#comparison-of-notification-mechanisms">Comparison of Notification Mechanisms</a> to better understand current limitations, and how the proposed protocol addresses them and at what cost.</p>
             </div>
           </section>
 
@@ -564,10 +564,27 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 
               <p>All of the sender, receiver, and consumer reports are available in separate aggregate tables in <cite><a href="https://linkedresearch.org/ldn/tests/summary" rel="cito:citesAsEvidence">LDN Tests Summary</a></cite>. The summary is a <code>void:Dataset</code> where each report is linked as a <code>void:subset</code>. This makes individual reports alternatively findable if the exploration starts from the summary of all test results.</p>
 
-              <p>The test suite software fulfills the base required functionality of the LDN protocol. In later sections, we take a closer look at the LDN <a href="evaluation#linked-data-notifications-implementations">implementations</a> in the Evaluation section. We will also describe further details on how the LDN <a href="linked-research#linked-specifications-reports">specification and implementation reports</a> are interlinked and retrievable to facilitate their automated discovery and reuse in the Linked Research section.</p>
+              <p>The test suite software fulfills the base required functionality of the LDN protocol. In later sections, we take a closer look at the LDN <a href="#linked-data-notifications-implementations">implementations</a>. We will also describe further details on how the LDN <a href="linked-research#linked-specifications-reports">specification and implementation reports</a> are interlinked and retrievable to facilitate their automated discovery and reuse in the Linked Research section.</p>
             </div>
           </section>
 
+
+          <section id="linked-data-notifications-implementations" inlist="" rel="schema:hasPart" resource="#linked-data-notifications-implementations">
+            <h2 property="schema:name">Linked Data Notifications Implementations</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>So far we have seen decentralised notifications applied in social networking scenarios, as well as for archival activities and scientific experiments through monitoring the state of online resources, datasets and files, or sensor outputs, and sending notifications when changes occur.</p>
+
+              <p>In <cite><a href="https://linkedresearch.org/ldn/tests/summary">Summary of LDN Implementation Reports</a></cite>..</p>
+
+              <p class="todo">re: "We note that any LDP implementation is a conforming LDN receiver; we refer here to the ones we have tested", mention the reasons why other LDP implementations are not tested, or how they have chosen the implementations that are tested.</p>
+
+              <p class="todo">Mention streams re extensibility: <cite><a href="https://w3id.org/wesp/web-of-data-streams">On a Web of Data Streams</a></cite>, Dell'Aglio et al, 20017, and <cite><a href="http://ceur-ws.org/Vol-1934/contribution-12.pdf">Towards VoIS: a Vocabulary of Interlinked Streams</a></cite>, Sedira et al, 2017.</p>
+
+              <p>The test suite software fulfills the base required functionality of the LDN protocol. In essence, the test suite can generally fulfill the <a href="linked-data-notifications#use-cases-for-decentralised-notifications">use-cases-for-decentralised-notifications</a>. In <cite><a href="#ldn-forces-functions">Forces and Functions in Linked Data Notifications</a></cite> we have described the forces and functions that are involved through the use of the LDN mechanism.</p>
+
+              <p class="todo">LDN <a href="https://www.w3.org/TR/ldn/#exit-criteria">Exit Criteria</a>.</p>
+            </div>
+          </section>
 
           <section id="ldn-forces-functions" inlist="" rel="schema:hasPart" resource="ldn-forces-functions">
             <h2 property="schema:name">Forces and Functions in Linked Data Notifications</h2>
@@ -612,20 +629,235 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
             </div>
           </section>
 
-          <section id="on-screen" inlist="" rel="schema:hasPart" resource="#on-screen">
-            <h2 property="schema:name">On screen!</h2>
+          <section id="contextualising-ldn" inlist="" rel="schema:hasPart" resource="#on-screen">
+            <h2 property="schema:name">Contextualising LDN</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <blockquote cite="http://www.chakoteya.net/Voyager/613.htm">
-                <dl>
-                  <dt>Geordi La Forge</dt><dd>Captain, we are being hailed.</dd>
-                  <dt>Captain Jean-Luc Picard</dt><dd>On screen... (he remembers there is no longer a viewscreen)... Open a channel.</dd>
-                </dl>
-                <footer><cite><a data-versiondate="2018-10-03T15:13:45Z" data-versionurl="https://web.archive.org/web/20181003151345/https://www.imsdb.com/scripts/Star-Trek-Nemesis.html" href="https://www.imsdb.com/scripts/Star-Trek-Nemesis.html">Star Trek: Nemesis</a></cite>, 2003</footer>
-              </blockquote>
+              <p>In this section we discussed how notifications maybe purposed in a number of ways in a decentralised scholarly communication ecosystem. We outlined specific use cases, and used these to derive design considerations. An overview of existing protocols for decentralised notifications indicates their respective strengths and shortcomings, and a new protocol is designed to meet our needs in light of this. The Linked Data Notifications protocol separates the concepts of <em>senders</em>, <em>receivers</em> and <em>consumers</em> of notifications for modularity, and leverages Linked Data concepts of shared vocabularies and URIs, thus providing a building block for notifications between diverse decentralised Web applications. The three roles can be implemented independently from each other or all together in one system. This permits end users more freedom to switch between the online tools they use, as well as generating greater value when notifications from different sources can be shared between applications and used in combination.</p>
 
-              <p class="todo">In this section we summarise and contextualise and conclude..</p>
+              <section id="comparison-of-notification-mechanisms" inlist="" rel="schema:hasPart" resource="#comparison-of-notification-mechanisms">
+                <h3 property="schema:name">Comparison of Notification Mechanisms</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p><span class="todo">Paraphrase</span> Here we compare existing notification mechanisms and the benefits of Linked Data Notification, followed by a discussion of the trade-offs that were necessary to realize those benefits.</p>
 
-              <p>Notifications maybe purposed in a number of ways in a decentralised scholarly communication ecosystem. This section has outlined specific use cases, and used these to derive design considerations. An overview of existing protocols for decentralised notifications indicates their respective strengths and shortcomings, and a new protocol is designed to meet our needs in light of this. The Linked Data Notifications protocol separates the concepts of <em>senders</em>, <em>receivers</em> and <em>consumers</em> of notifications for modularity, and leverages Linked Data concepts of shared vocabularies and URIs, thus providing a building block for notifications between diverse decentralised Web applications. The three roles can be implemented independently from each other or all together in one system. This permits end users more freedom to switch between the online tools they use, as well as generating greater value when notifications from different sources can be shared between applications and used in combination.</p>
+                  <p><span class="todo">Paraphrase</span> We restrict our review to mechanisms which do not expect the notification to be received or used only by the same software or platform which sent it. The criteria includes our <a href="linked-data-notifications#requirements-and-design-considerations">requirements and design considerations</a> (<em>Rx</em>) along with additional technical information which helps to capture some design differences (<em>Tx</em>).</p>
+
+                  <p>The fiigure <a href="#comparison-of-notification-mechanisms">Comparison of notification mechanisms</a> is derived from <a href="http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms">http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms</a> and modified to include WebSub.</p>
+
+                  <figure>
+                    <table id="comparison-of-notification-mechanisms">
+                      <caption>Comparison of notification mechanisms</caption>
+                      <thead>
+                        <tr>
+                          <th>Mechanism</th>
+                          <th>T1</th>
+                          <th>T2</th>
+                          <th>T3</th>
+                          <th>R1</th>
+                          <th>R2</th>
+                          <th>R3</th>
+                          <th>R4-A</th>
+                          <th>R4-B</th>
+                          <th>R4-C<sup>p</sup></th>
+                          <th>R4-C<sup>v</sup></th>
+                          <th>R4-C<sup>o</sup></th>
+                          <th>R5</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th>Semantic Pingback</th>
+                          <td>Linkback</td>
+                          <td>POST</td>
+                          <td>RDF</td>
+                          <td>S R</td>
+                          <td>/</td>
+                          <td>/</td>
+                          <td>Any<sup>r</sup></td>
+                          <td>form urlencoded<sup>k</sup></td>
+                          <td>!</td>
+                          <td>! parse source</td>
+                          <td>Any<sup>r</sup></td>
+                          <td>X</td>
+                        </tr>
+                        <tr>
+                          <th>Webmention</th>
+                          <td>Linkback</td>
+                          <td>POST</td>
+                          <td>HTML</td>
+                          <td>S R</td>
+                          <td>–</td>
+                          <td>–</td>
+                          <td>Any<sup>h</sup></td>
+                          <td>form urlencoded<sup>k</sup></td>
+                          <td>!</td>
+                          <td>! parse source</td>
+                          <td>Any<sup>h</sup></td>
+                          <td>X</td>
+                        </tr>
+                        <tr>
+                          <th>Provenance Pingback</th>
+                          <td>Linkback</td>
+                          <td>POST</td>
+                          <td>RDF</td>
+                          <td>S R</td>
+                          <td>/</td>
+                          <td>/</td>
+                          <td>/</td>
+                          <td>URI list</td>
+                          <td>/</td>
+                          <td>/</td>
+                          <td>RDF<sup>q</sup></td>
+                          <td>X</td>
+                        </tr>
+                        <tr>
+                          <th>WebSub</th>
+                          <td>Fat ping</td>
+                          <td>POST</td>
+                          <td>Varies</td>
+                          <td>S R U</td>
+                          <td>-</td>
+                          <td>-</td>
+                          <td>Any</td>
+                          <td>form urlencoded</td>
+                          <td>/</td>
+                          <td>+ app</td>
+                          <td>-</td>
+                          <td>!</td>
+                        </tr>
+                        <tr>
+                          <th>DSNotify</th>
+                          <td>Fat ping</td>
+                          <td>POST, PUT</td>
+                          <td>XML, PuSH</td>
+                          <td>S U</td>
+                          <td>/</td>
+                          <td>–</td>
+                          <td>–</td>
+                          <td>XML</td>
+                          <td>/</td>
+                          <td>–</td>
+                          <td>RDF<sup>t</sup></td>
+                          <td>!</td>
+                        </tr>
+                        <tr>
+                          <th>sparqlPuSH</th>
+                          <td>Fat ping</td>
+                          <td>POST</td>
+                          <td>XML, SPARQL, PuSH</td>
+                          <td>S U</td>
+                          <td>–</td>
+                          <td>–</td>
+                          <td>–</td>
+                          <td>XML<sup>ra</sup></td>
+                          <td>/</td>
+                          <td>–</td>
+                          <td>RDF<sup>t</sup></td>
+                          <td>!</td>
+                        </tr>
+                        <tr>
+                          <th>ResourceSync</th>
+                          <td>Fat ping</td>
+                          <td>POST</td>
+                          <td>XML, PuSH</td>
+                          <td>S U</td>
+                          <td>/</td>
+                          <td>–</td>
+                          <td>–</td>
+                          <td>XML<sup>s</sup></td>
+                          <td>/</td>
+                          <td>–</td>
+                          <td>?</td>
+                          <td>!</td>
+                        </tr>
+                        <tr>
+                          <th>Linked Data Notifications</th>
+                          <td>Fat ping</td>
+                          <td>POST</td>
+                          <td>JSON-LD</td>
+                          <td>S R C</td>
+                          <td>!</td>
+                          <td>! URI</td>
+                          <td>Any</td>
+                          <td>JSON-LD<sup>j</sup></td>
+                          <td>+ app</td>
+                          <td>+ app</td>
+                          <td>–</td>
+                          <td>O app</td>
+                        </tr>
+                      </tbody>
+                      <tfoot>
+                        <tr>
+                          <td colspan="14">
+                            <dl class="abbr">
+                              <dt>T1</dt><dd>Notification type</dd>
+                              <dt>T2</dt><dd>Delivery method</dd>
+                              <dt>T3</dt><dd>Dependencies</dd>
+                              <dt>R1</dt><dd>Modularity (application classes: S Sender, R Receiver, C Consumer, U Subscriber/User)</dd>
+                              <dt>R2</dt><dd>Reusability</dd>
+                              <dt>R3</dt><dd>Persistence - required? how?</dd>
+                              <dt>R4-A</dt><dd>Target representation</dd>
+                              <dt>R4-B</dt><dd>Notification body</dd>
+                              <dt>R4-C<sup>p</sup></dt><dd>Payload processing required?</dd>
+                              <dt>R4-C<sup>v</sup></dt><dd>Verification - required? how?</dd>
+                              <dt>R4-C<sup>o</sup></dt><dd>Requirements for referenced resources?</dd>
+                              <dt>R5</dt><dd>Subscription</dd>
+                            </dl>
+                            <hr/>
+                            <dl class="abbr">
+                              <dt>–</dt><dd>not applicable, out of scope</dd>
+                              <dt>/</dt><dd>not specified, in scope</dd>
+                              <dt>X</dt><dd>explicitly disallowed</dd>
+                              <dt>app</dt><dd>application specific decision</dd>
+                              <dt>!</dt><dd>required (<em>MUST</em>)</dd>
+                              <dt>+</dt><dd>recommended (<em>SHOULD</em>)</dd>
+                              <dt>O</dt><dd>optional (<em>MAY</em>)</dd>
+                              <dt>PuSH</dt><dd>PubSubHubbub</dd>
+                            </dl>
+                            <hr/>
+                            <dl class="abbr">
+                              <dt><sup>h</sup></dt><dd>HTML recommended</dd>
+                              <dt><sup>j</sup></dt><dd>Alternate RDF formats can be negotiated</dd>
+                              <dt><sup>k</sup></dt><dd><code>source</code> and <code>target</code> key–value pairs is required</dd>
+                              <dt><sup>q</sup></dt><dd>Provenance records with <a href="http://www.w3.org/TR/prov-o/">PROV Ontology</a></dd>
+                              <dt><sup>r</sup></dt><dd>RDF representation recommended</dd>
+                              <dt><sup>ra</sup></dt><dd>SPARQL results transformed to RSS/Atom</dd>
+                              <dt><sup>s</sup></dt><dd><a href="https://www.sitemaps.org/protocol.html">Sitemaps</a></dd>
+                              <dt><sup>t</sup></dt><dd>Described in an RDF store or dataset</dd>
+                            </dl>
+                          </td>
+                          <!-- Notes for how I removed some ?s:
+                            * target representation is - when there’s no discovery step for the sender ie. subscription based
+
+                            * verification required is - when there’s a subscription relationship because we assume the receiver trusts the sender
+                          -rhiaro -->
+                        </tr>
+                      </tfoot>
+                    </table>
+
+                    <figcaption><span class="todo">Important: Should it only cite, summarise or redistribute?</span>Table is a redistribution of <cite><a href="http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms" rel="owl:sameAs">comparison of notification mechanisms</a></cite> originally published in <cite>Linked Data Notifications: a resource-centric communication protocol</cite> on <time>2016-05-01</time> with <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></figcaption>
+                  </figure>
+
+                  <p>As protocols towards federation, WebSub's core functionality is a subscription mechanism whereas LDN is delivery. The former is push-based and the latter is pull-based. WebSub and LDN are both agnostic about the semantics within the notifications, however LDN uses RDF-based content-types.</p>
+
+                  <p>ActivityPub's <a href="https://www.w3.org/TR/activitypub/#inbox">targeting</a> and <a href="https://www.w3.org/TR/activitypub/#delivery">delivery</a> mechanism overlaps with LDN's with <a href="https://www.w3.org/TR/activitypub/#h-note-9">some specific constraints</a>: Notifications must use a single AS2 Activity in compact JSON-LD syntax. Receivers are required to authenticate requests made by Senders, as well as verify the existence of an object (that the activity is about) that is mentioned in the notification by fetching its source from the origin server.</p>
+
+                  <p class="todo">Given that each application requires to follow the steps listed in <q><a href="#sender-to-receiver">Sender to receiver interactions</a></q> and <q><a href="#consumer-to-receiver">Consumer to receiver interactions</a></q> the metrics are dependent on the performance of client and server to do HTTP requests and responses, and their respective payloads.</p>
+
+<p class="todo">“Comparison summary”: what is the result of the evaluation here? “Compatibility with existing systems”: this is perhaps the clearest, but the conclusion about compatibility is implicit. “Optimizing implementation[s]”, “Data Formats and Content Negotiation”: what is evaluated? “Accommodating different targets”: how well is LDN doing compared to the others?</p>
+
+<p class="todo">What is good and bad? What is important, what is desirable? I would suggest to highlight the problems and assets somewhat more clearly.</p>
+
+<p class="todo">Both in the discussion of related work and in the evaluation, I’d like to see a deeper understanding of current limitations, and how LDN addresses is and at what cost. More specifically, what are the problems of LDN, and are they inherent or fixable?</p>
+
+<p class="todo">extend this section with an in depth analysis of the differences between their work and other system that are mentioned, and a discussion on why these differences are important and how LDN provides improvements over them.</p>
+
+<p>Per <a href="#adaptability">Adaptability</a>, we want LDN to be available for all resources in any publishing context. We consider lowering the bar for publishers of target resources to be a worthwhile trade-off against slightly increased complexity for senders and consumers. This is why we require that senders and consumers must be equipped to discover Inboxes through both HTTP headers and RDF content.</p>
+
+<p class="todo">Anything from <a href="https://lib.ugent.be/fulltxt/RUG01/002/494/871/RUG01-002494871_2018_0001_AC.pdf#chapter.6">https://lib.ugent.be/fulltxt/RUG01/002/494/871/RUG01-002494871_2018_0001_AC.pdf#chapter.6</a>?</p>
+
+<p class="todo">Mention <a href="https://github.com/pubsubhubbub/PubSubHubbub/wiki/Comparing-Protocols">https://github.com/pubsubhubbub/PubSubHubbub/wiki/Comparing-Protocols</a> re light/fat ping?</p>
+                </div>
+              </section>
 
 
               <section id="degree-of-control-in-ldn" inlist="" rel="schema:hasPart" resource="#degree-of-control-in-ldn">
@@ -663,8 +895,6 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                   <p id="updating-and-deleting-notifications"><strong>Updating and Deleting Notifications</strong>: Receivers may want to carry out resource management or garbage collection, or permit consumers or other applications to do so. For example, an application to consume messages might let an authenticated and authorised user ‘mark as read’ by adding a triple to the inbox or notification contents.</p>
                 </div>
               </section>
-
-              <p>So far we have seen decentralised notifications applied in social networking scenarios, as well as for archival activities and scientific experiments through monitoring the state of online resources, datasets and files, or sensor outputs, and sending notifications when changes occur. We take a closer look at the LDN <a href="evaluation#linked-data-notifications-implementations">implementations</a> in the Evaluation section.</p>
             </div>
           </section>
         </div>

@@ -50,11 +50,11 @@
 
               <p id="cenrtalised-autoring-and-annotation-platforms"><strong>Centralised authoring and annotation platforms</strong>: <span id="googledocs-medium-authorea"><cite><a href="https://docs.google.com/" rel="cito:discusses">Google Docs</a></cite>, <cite><a href="https://medium.com/" rel="cito:discusses">Medium</a></cite>, and <cite><a href="https://en.wikipedia.org/wiki/Wikipedia">Wikipedia</a></cite> (running <cite><a href="https://en.wikipedia.org/wiki/MediaWiki">MediaWiki</a></cite>) are examples of Web applications for collaborative creation and publication of content which require account creation and data storage with respective centralised services. They allow multiple participants to annotate and hold discussions around the primary content; users must access their accounts to be notified of updates to conversations, and data from both the main content and related discussion is confined to the service which was used to create it.</span> <span id="wordpress"><cite><a href="https://wordpress.org/" rel="cito:discusses">WordPress</a></cite> is a free and open-source platform for article publication which can be self-hosted on a server controlled by the user. Visitors may sign-in with their WordPress accounts to leave comments on others’ articles, however they are typically under the hosting site’s database.</span> <span id="hypothesis"><cite><a href="https://hypothes.is/" rel="cito:discusses">Hypothesis</a></cite> makes it possible for users to leave annotations on different types of documents on the Web using a browser plugin or via a proxy. Annotations may be private or public, and can be threaded to form conversations around a piece of content. Despite allowing the attachment of annotations to resources hosted anywhere, they depend on centralised account creation and storage for the annotations themselves. Hypothesis is open source, with an API that uses Web Annotations data model, and may be self-hosted, but currently it is not possible to federate between different instances.</span> <span id="pundit"><cite><a href="http://thepund.it/" rel="cito:discusses">Pundit</a></cite> is a set of tools that allow web annotation with highlights, comments and semantic annotations. It is similar to Hypothesis in its architecture and deployment, i.e., annotations made through the pundit client require it to be saved on its corresponding annotations server.</span></p>
 
-              <p id="decentralised-authoring-and-annotation-platforms"><strong>Decentralised authoring and annotation systems</strong>: <span id="libreoffice-online">Some authoring and publishing systems already some aspects of decentralised systems. <cite><a href="https://github.com/libreoffice/online" rel="cito:discusses">LibreOffice Online</a></cite>, for example, allows collaborative editing of office documents (e.g., Writer) from the Web browser. Content can be stored under different CMSs in the cloud. The document’s interface consists of image tiles which are sent from the server and rendered in the browser. However, it hardly provides accessibility, rich interlinking and annotations or separations of concerns.</span> <span id="pandoc-scholar"><cite><a rel="cito:discusses" href="https://github.com/pandoc-scholar/pandoc-scholar">Pandoc Scholar</cite></a> manuscripts to be written in plain Markdown text files, which can be converted into common publication formats, such as PDF, HTML or EPUB, using Pandoc (<a href="https://peerj.com/articles/cs-112/">Formatting Open Science: agilely creating multiple document formats for academic manuscripts with Pandoc Scholar</a>)</span> <span id="smallest-federated-wiki">The <cite><a href="http://fed.wiki.org/" rel="cito:discusses">Smallest Federated Wiki</a></cite> pages to be forked and maintain personal copies.</span> <span id="amaya"><cite><a href="https://www.w3.org/Amaya/" rel="cito:discusses">Amaya</a></cite> is a desktop Web editor application (to create and update documents) as well as a lightweight browser that was (1993) developed by W3C to provide a framework to test its technologies.</span></p>
+              <p id="decentralised-authoring-and-annotation-platforms"><strong>Decentralised authoring and annotation systems</strong>: <span id="libreoffice-online">Some authoring and publishing systems already some aspects of decentralised systems. <cite><a href="https://github.com/libreoffice/online" rel="cito:discusses">LibreOffice Online</a></cite>, for example, allows collaborative editing of office documents (e.g., Writer) from the Web browser. Content can be stored under different CMSs in the cloud. The document’s interface consists of image tiles which are sent from the server and rendered in the browser. However, it hardly provides accessibility, rich interlinking and annotations or separations of concerns.</span> <span id="pandoc-scholar"><cite><a rel="cito:discusses" href="https://github.com/pandoc-scholar/pandoc-scholar">Pandoc Scholar</a></cite> manuscripts to be written in plain Markdown text files, which can be converted into common publication formats, such as PDF, HTML or EPUB, using Pandoc (<a href="https://peerj.com/articles/cs-112/">Formatting Open Science: agilely creating multiple document formats for academic manuscripts with Pandoc Scholar</a>)</span> <span id="smallest-federated-wiki">The <cite><a href="http://fed.wiki.org/" rel="cito:discusses">Smallest Federated Wiki</a></cite> pages to be forked and maintain personal copies.</span> <span id="amaya"><cite><a href="https://www.w3.org/Amaya/" rel="cito:discusses">Amaya</a></cite> is a desktop Web editor application (to create and update documents) as well as a lightweight browser that was (1993) developed by W3C to provide a framework to test its technologies.</span></p>
 
               <p>The tools which provide good collaborative editing UIs appear to do so at the expense of data ownership and interoperability; those which promote creation and publication of data in open reusable formats are lacking facilities for linking discourse and conversation to concepts published. Decentralised creations also mean that each author can choose their own semantics (e.g. their own vocabulary to annotate RDF), and then such decentralised documents can link to each other and their schemas can also be mapped to each other, whereas in centralised platforms this is (if they support semantics at all) often prescribed, either technically enforced, or encouraged by social convention.</p>
 
-              <p class="class">In our Evaluation section, we will reuse the article's <cite><a href="semantic-content-authoring-quality-attributes">Semantic Content Authoring Quality Attributes</a></cite>. Mention evaluation#linked-data-notifications-implementations evaluation#comparison-of-annotation-applications evaluation#comparison-of-accessibility-applications evaluation#comparison-of-interoperability-applications evaluation#fair-metrics evaluation#adoption-of-dokieli</p>
+              <p class="class">We will reuse <cite><a href="semantic-content-authoring-quality-attributes">Semantic Content Authoring Quality Attributes</a></cite>. Mention #linked-data-notifications-implementations #comparison-of-annotation-applications #comparison-of-accessibility-applications #comparison-of-interoperability-applications #fair-metrics #adoption-of-dokieli</p>
             </div>
           </section>
 
@@ -884,6 +884,211 @@ XXX:
             </div>
           </section>
 
+
+          <section id="comparison-of-annotation-applications" inlist="" rel="schema:hasPart" resource="#comparison-of-annotation-applications">
+            <h2 property="schema:name">Comparison of Annotation Applications</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo" id="">Comparison of annotation applications... partly relate this to table: specifications-for-forces-and-functions</p>
+
+              <table id="comparison-of-annotation-applications">
+                <caption>Comparison of Annotation Applications</caption>
+                <thead>
+                  <tr>
+                    <th>Application</th>
+                    <th>Storage</th>
+                    <th>Personal identity</th>
+                    <th>Privacy</th>
+                    <th>Specifications</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot></tfoot>
+              </table>
+            </div>
+          </section>
+
+
+          <section id="comparison-of-accessibility-applications" inlist="" rel="schema:hasPart" resource="#comparison-of-accessibility-applications">
+            <h2 property="schema:name">Comparison of Accessibility of Applications</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo" id="">We check for human and machine-accessibility, as well archivability.</p>
+
+              <table id="comparison-of-y-applications">
+                <caption>Comparison of y of Applications</caption>
+                <thead>
+                  <tr>
+                    <th>Application</th>
+                    <th></th>
+                    <th>Challenges</th>
+                    <th>Standards</th>
+                    <th>Archivability</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot></tfoot>
+              </table>
+            </div>
+          </section>
+
+          <section id="semantic-content-authoring-quality-attributes" inlist="" rel="schema:hasPart" resource="#semantic-content-authoring-quality-attributes">
+            <h2 property="schema:name">Semantic Content Authoring Quality Attributes</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>We use the structure of the table of results for <cite><abbr title="Semantic Content Authoring">SCA</abbr></cite> systems and include dokieli as an approach:</p>
+
+              <table id="quality-attributes-dokieli">
+                <caption>Quality attributes of dokieli</caption>
+                <thead>
+                  <tr>
+                    <th rowspan="2">Quality Attribute</th>
+                    <th rowspan="2">UI Feature</th>
+                    <th colspan="2">User Type</th>
+                    <th colspan="2">Authoring Approach</th>
+                    <th colspan="2">Domain</th>
+                  </tr>
+                  <tr>
+                    <th>Expert</th>
+                    <th>Non-expert</th>
+                    <th>Top-Down</th>
+                    <th>Bottom-Up</th>
+                    <th>Domain-independent</th>
+                    <th>Domain-specific</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><th>Usability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Customizability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Generalizability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Collaboration</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Portability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Accessibility</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Proactivity</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Automation</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Evolvability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Interoperability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Scalability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+                <tfoot></tfoot>
+              </table>
+            </div>
+          </section>
+
+          <section id="comparison-of-interoperability-applications" inlist="" rel="schema:hasPart" resource="#comparison-of-interoperability-applications">
+            <h2 property="schema:name">Comparison of Interoperability of Applications</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo" id="">Level of interop.. does it create stuff that's standards compliant? can others use it? can it discover others stuff? can it reuse others stuff? is the reused and revised/enhanced reusable by other applications?</p>
+
+              <table id="comparison-of-x-applications">
+                <caption>Comparison of y of Applications</caption>
+                <thead>
+                  <tr>
+                    <th>Application</th>
+                    <th>Storage</th>
+                    <th>Personal identity</th>
+                    <th>Privacy</th>
+                    <th>Specifications</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot></tfoot>
+              </table>
+            </div>
+          </section>
+
+
+          <section id="fair-metrics" inlist="" rel="schema:hasPart" resource="#fair-metrics">
+            <h2 property="schema:name">FAIR Metrics</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p><cite><a href="https://www.nature.com/articles/sdata2018118">FAIR Metrics</a></cite> ... <a href="https://github.com/FAIRMetrics/Metrics"></a> ... <a href="https://github.com/FAIRMetrics/Metrics/raw/master/ALL.pdf"></a></p>
+
+              <section id="fair-metrics-data-structure-definition" inlist="" rel="schema:hasPart" resource="fair-metrics-data-structure-definition">
+                <h3 property="schema:name">FAIR Metrics Data Structure Definition</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <dl about="#fair-metrics-data-structure-definition" typeof="qb:DataStructureDefinition">
+                    <dt>Dimensions</dt>
+                    <dd><span rel="qb:component" resource="#fair-metrics-component-dimension-subject" typeof="qb:ComponentSpecification"><span rel="qb:componentProperty qb:dimension" resource="earl:subject" typeof="qb:DimensionProperty"><span property="skos:prefLabel">Subject - the test subject of an assertion</span></span></span></dd>
+                    <dd><span rel="qb:component" resource="#fair-metrics-component-dimension-test" typeof="qb:ComponentSpecification"><span rel="qb:componentProperty qb:dimension" resource="earl:test" typeof="qb:DimensionProperty"><span property="skos:prefLabel">Test - the test criterion of an assertion</span></span></span></dd>
+                    <dd><span rel="qb:component" resource="#fair-metrics-component-dimension-mode" typeof="qb:ComponentSpecification"><span rel="qb:componentProperty qb:dimension" resource="earl:mode" typeof="qb:DimensionProperty"><span property="skos:prefLabel">Mode - the mode in which the test was performed</span></span></span></dd>
+                    <dt>Measures</dt>
+                    <dd><span rel="qb:component" resource="#fair-metrics-component-measure-result" typeof="qb:ComponentSpecification"><span rel="qb:componentProperty qb:measure" resource="earl:result" typeof="qb:MeasureProperty"><span property="skos:prefLabel">Result - the result of an assertion</span></span></span> (Outcome, Info)</dd>
+                  </dl>
+                </div>
+              </section>
+
+              <section id="fair-metrics-dataset" inlist="" rel="schema:hasPart" resource="fair-metrics-dataset">
+                <h3 property="schema:name">FAIR Metrics Dataset</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <dl>
+                    <dt>Identifier</dt>
+                    <dd property="dcterms:identifier" xml:lang="" lang="">a2ebd5be-b9ca-11e8-bdaa-338eda30385e</dd>
+                    <dt>Published</dt>
+                    <dd><time content="2018-09-16T18:10:00.181Z" datatype="xsd:dateTime" datetime="2018-09-16T18:10:00.181Z" property="as:published">2018-09-16</time></dd>
+                    <dt>Creator</dt>
+                    <dd><a href="http://csarven.ca/#i" property="as:actor">http://csarven.ca/#i</a></dd>
+                    <dt>Structure</dt>
+                    <dd><a rel="qb:structure" href="#fair-metrics-data-structure-definition">FAIR Metrics</a></dd>
+                  </dl>
+                  <meta rel="rdfs:seeAlso" resource="#test-article-fm-f1a" />
+
+                  <table about="#fair-metrics-dataset-dokieli" id="fair-metrics-dataset-dokieli" typeof="qb:DataSet as:Object">
+                    <caption>FAIR Metrics results</caption>
+                    <thead>
+                      <tr>
+                        <th title="The test subject of an assertion"><a href="https://www.w3.org/TR/EARL10-Schema/#subject">Subject</a></th>
+                        <th title="The test criterion of an assertion"><a href="https://www.w3.org/TR/EARL10-Schema/#test">Test</a></th>
+                        <th title="The mode in which the test was performed"><a href="https://www.w3.org/TR/EARL10-Schema/#mode">Mode</a></th>
+                        <th title="The outcome of performing the test"><a href="https://www.w3.org/TR/EARL10-Schema/#outcome">Outcome</a></th>
+                        <th title="Additional warnings or error messages in a human-readable form"><a href="https://www.w3.org/TR/EARL10-Schema/#info">Info</a></th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      <tr about="#test-article-fm-f1a" typeof="qb:Observation earl:Assertion">
+                        <td><meta property="qb:dataSet" resource="#test-article" /><a property="earl:subject" href="https://dokie.li/docs#html-article">Article</a></td>
+                        <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_F1A">FM-F1A</a></td>
+                        <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
+                        <td property="earl:result" resource="#result-test-article-fm-f1a" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
+                        <td property="earl:result" resource="#result-test-article-fm-f1a" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">Checked inline - <em>sentence level</em> - identifiers</span></td>
+                      </tr>
+                    </tbody>
+
+                    <tfoot>
+                      <tr>
+                        <td colspan="5">
+                          <dl>
+                            <dt class="earl:passed"><abbr title="Passed">✔</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#passed">Passed</a></dd>
+                            <dt class="earl:failed"><abbr title="Failed">✗</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#failed">Failed</a></dd>
+                            <dt class="earl:cantTell"><abbr title="Cannot tell">?</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#cantTell">Cannot tell</a></dd>
+                            <dt class="earl:inapplicable"><abbr title="Inapplicable">⌙</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#inapplicable">Inapplicable</a></dd>
+                            <dt class="earl:untested"><abbr title="Untested">○</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#untested">Untested</a></dd>
+                          </dl>
+
+                          <dl class="abbr">
+                            <dt id="FM-F1A">F1A</dt><dd>Identifier Uniqueness [<a href="https://purl.org/fair-metrics/FM_F1A">source</a>]</dd>
+                            <dt id="FM-F1B">F1B</dt><dd>Identifier Persistence [<a href="https://purl.org/fair-metrics/FM_F1B">source</a>]</dd>
+                          </dl>
+                        </td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+              </section>
+            </div>
+          </section>
+
+
+          <section id="adoption-of-dokieli" inlist="" rel="schema:hasPart" resource="#adoption-of-dokieli">
+            <h2 property="schema:name">Adoption of dokieli</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p id="adoption-w3c-use">The W3C Working Group Note <cite><a href="https://www.w3.org/TR/annotation-html/" rel="cito:citesAsAuthority">Embedding Web Annotations in HTML</a></cite> includes examples from dokieli’s use of the Web Annotation data <cite><a href="https://www.w3.org/TR/annotation-model/" rel="cito:citesAsAuthority">Model</a></cite> and <cite><a href="https://www.w3.org/TR/annotation-vocab/" rel="cito:citesAsAuthority">Vocabulary</a></cite> with motivations for example for <q>Lightweight, decentralised Annotation Tools</q>. The W3C <cite><a href="https://www.w3.org/TR/ldn/" rel="cito:citesAsAuthority">Linked Data Notifications</a></cite> specification uses dokieli’s HTML+RDFa template, and the <a href="https://linkedresearch.org/ldn/" rel="cito:citesAsAuthority">Editor’s Draft</a> showcase dokieli as a consumer of LDN and Web Annotations. The LDN <a href="https://linkedresearch.org/ldn/tests/" rel="cito:citesAsAuthority">test suite</a> also uses dokieli’s templates and stylesheets.</p>
+
+              <p id="adoption-academic">The academic workshop <cite><a href="http://semstats.org/">SemStats</a></cite> series use dokieli in its Website templates, including the call for contributions. <cite><a href="http://ceur-ws.org/">CEUR-WS.org</a></cite>, an <q>Online Proceedings for Scientific Conferences and Workshops</q> offers the tooling <cite><a href="https://github.com/ceurws/ceur-make">ceur-make</a></cite> to help organisers generate proceedings using dokieli’s HTML+RDFa template, e.g., <cite><a href="http://ceur-ws.org/Vol-1654/">SemStats 2016</a></cite>. We list a community (of academics) who self-publish their articles and thesis using dokieli with different stylesheets and derived scripts under its <cite><a href="https://github.com/linkeddata/dokieli/wiki#examples-in-the-wild">examples in the wild</a></cite>. The conference series: WWW (e.g., <a href="http://events.linkeddata.org/ldow2018/">LDOW</a> and <a href="http://sociam.org/wow2017/">WOW</a> workshops), <a href="https://iswc2018.semanticweb.org/calls/html-submission-guide/">ISWC</a>, and <a href="http://2018.eswc-conferences.org/call-papers">ESWC</a> propose dokieli as one tooling in which authors can use to make their contributions to the calls with.</p>
+
+              <p id="adoption-misc">The <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> website uses dokieli in its templates on the site as well as workshop proposals and call for contributions. <a href="http://csarven.ca/">csarven.ca</a> uses dokieli in full, where some articles (like this article) offer pointers to a public annotation service in which users may wish to use for their annotations. Articles also dynamically embed annotations from personal storage spaces.</p>
+            </div>
+          </section>
+
+
+          <p class="todo">Is this useful? <cite><a data-versiondate="2018-09-02T19:37:42Z" data-versionurl="https://web.archive.org/web/20180902193742/https://arxiv.org/pdf/1202.4503v1.pdf" href="https://arxiv.org/pdf/1202.4503v1.pdf">A Critical Look at Decentralized Personal Data Architectures</a></cite> .. ?</p>
 
 
 

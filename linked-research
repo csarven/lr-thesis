@@ -413,7 +413,7 @@ building a mental infrastructure.
           <section id="linked-specifications-reports" inlist="" rel="schema:hasPart" resource="#linked-specifications-reports">
             <h2 property="schema:name">Linked Specifications, Test Suites, and Implementation Reports</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>In this section we build on <a href="linked-data-notifications#test-suite-and-implementation-reports">test suite and implementation reports</a> and <a href="evaluation#linked-data-notifications-implementations"></a> and describe the development of an interlinked, machine-readable W3C Recommendation, its test suite, and implementation reports as a whole.</p>
+              <p>In this section we build on <a href="linked-data-notifications#test-suite-and-implementation-reports">test suite and implementation reports</a> and <a href="linked-data-notifications#linked-data-notifications-implementations"></a> and describe the development of an interlinked, machine-readable W3C Recommendation, its test suite, and implementation reports as a whole.</p>
 
               <p>Having the specifications and implementation reports appropriately interlinked and retrievable can facilitate their automated discovery and reuse. One attainable use case is to be able to find applications that match a certain conformance criteria, eg. in order to have fine-grained bundling of software packages. While this would typically include normative requirements, tests can potentially capture and reveal optional features of specifications. Prospective consumers of the compliance reports can be application developers finding appropriate software for use, as well as automatic software package managers.</p>
 
