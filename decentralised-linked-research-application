@@ -18,21 +18,21 @@
         <h1 property="schema:name">Decentralised Linked Research Application</h1>
 
         <div datatype="rdf:HTML" property="schema:description">
-          <p>One societal issue is that, communication of research knowledge have severe limitations and lack coordination. We observe that majority of the academic knowledge is presented as a package ie. binary file formats (like PDF, Word) merging structural, presentational, and behavioural layers, and often disconnected from other knowledge, due to policy, cost, or technical reasons. Relations between the information on a granular level do not exist, thus increasingly making it difficult to acquire knowledge which would be otherwise better machine and human-accessible.</p>
+          <p>We observe that majority of the academic knowledge is presented as a package ie. binary file formats (like PDF, Word) merging structural, presentational, and behavioural layers, and often disconnected from other knowledge, due to policy, cost, or technical reasons. A side-effect is that, as research communication is still primarily driven by the constraints of the print medium, it makes it challenging for efficient machine-readable coordination on the Web. One open challenge here is the continuous advancement of creating, communicating, and consuming human and machine-accessible information suitable for the Web platform.</p>
 
-          <p>In the earlier sections, we have discussed progress in research, standards, and practices towards different aspects of realising a decentralised information space. Each dataspace can be individually controlled with access controls for participating agents. Different applications can be implemented to operate on the same data, as well as send activities about the interactions about the data. In this section, we specifically discuss a set of requirements for the implementation of a Web browser-based clientside editor for decentralised article publishing, annotations and social interactions.</p>
+          <p>In the earlier sections, we have discussed progress in research, standards, and practices towards different aspects of realising a decentralised information space. Each dataspace can be individually controlled with access controls for participating agents. Different applications can be implemented to operate on the same data, as well as send activities about the interactions about the data. In this section, we specifically discuss a set of requirements for the implementation of a clientside editor for decentralised article publishing, annotations and social interactions.</p>
 
           <p>More specifically, we will address the following research questions in context of <a href="decentralising-scholarly-communication#degree-of-control">degree of control</a> (as previously discussed in <cite>Decentralised Storage and Interoperable Applications</cite> section):</p>
 
           <p class="todo">Formulate these in terms of how protocols and data formats / interoperability...</p>
 
           <ul id="research-questions-dokieli">
-            <li>What are the elements and interconnections of decentralised notifications and annotations?</li>
-            <li>How can actors use their preferred identities and their descriptions in a clientside application?</li>
-            <li>How can actors use their preferred clientside application to discover, reuse, and send notifications about annotations?</li>
-            <li>How can actors discover annotations made by their social graph?</li>
-            <li>Would it be possible for users to switch between applications without having to move their data?</li>
-            <li>Can users change the location of their data without having to change their application?</li>
+            <li>The elements and connections of decentralised notifications and annotations.</li>
+            <li>Actors use their preferred Web identities in a clientside application.</li>
+            <li>Actors use their preferred clientside application to discover, reuse, and send notifications about annotations.</li>
+            <li>Actors discover annotations made by their social graph.</li>
+            <li>Actors switch between applications without having to move their data.</li>
+            <li>Actors change the location of their data without having to change their application.</li>
           </ul>
 
           <p>Finally, we will discuss the <a href="#dokieli-forces-functions">forces and functions in dokieli</a>.</p>
@@ -94,7 +94,7 @@
           <section id="implementing-a-read-write-application" inlist="" rel="schema:hasPart" resource="#implementing-a-read-write-application">
             <h2 property="schema:name">Implementing a Read-Write Application</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>In this section we demonstrate how the various standards described in this chapter can be pieced together into an application designed for researchers to participate in the scholarly communication ecosystem.</p>
+              <p>In this section we demonstrate how the various standards described can be pieced together into an application designed for researchers to participate in the scholarly communication ecosystem.</p>
 
 
               <p class="todo">Mention context preserving eg. unique inboxes per article version so that when an article, its notifications, and the annotations are archives, it can be recalled and be meaningful as at the time of creation.</p>
