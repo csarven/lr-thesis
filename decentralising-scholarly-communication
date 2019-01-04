@@ -527,6 +527,22 @@ Individual controlled |------ Data----------------| Third-party controlled
 
               <p>Different degrees of control would influence the forces and functions in scholarly communication. For instance, while ORCID is third-party controlled, it is possible to customise the profile to link to other identities. Similarly, the profile description can indicate the location of researcher's personal online storage, inbox, as well as outbox, which can controlled by the individual. An application built with interoperable open Web standards can potentially communicate with services that conform to the same protocols and data models.</p>
 
+
+              <p id="desired-qualities"><strong>Desired qualities</strong>: Based on aforementioned research, standards, and practices in the field towards Web-based personal identifiers and representations, we can infer a set of qualities that can empower individuals when participating in a decentralised scholarly system:</p>
+
+              <ul>
+                <li>Self-hosted and individually-controlled personal identifiers denoted with HTTP URIs</li>
+                <li>Profile customisability and connectivity</li>
+                <li>Linkable multiple identities</li>
+                <li>Identity privacy and control</li>
+              </ul>
+            </div>
+          </section>
+
+
+          <section id="forces-and-functions-in-specifications" inlist="" rel="schema:hasPart" resource="#forces-and-functions-in-specifications">
+            <h2 property="schema:name">Forces and Functions in Specifications</h2>
+            <div datatype="rdf:HTML" property="schema:description">
               <p id="standards-based-forces-and-functions"><strong>Standards-based Forces and Functions</strong>: While every system of scholarly communication can have its forces and functions arbitrarily configured irrespective of their actual implementation, we have focused on a subset arrangement that is based on existing (or possibly future) Web specifications. The table below instantiates some of the commonly known Web <em>specifications</em> and practices that we have discussed earlier towards fulfilling the forces and functions. Thus, a Web-centric interoperable information space can be manifested through the implementations of specifications.</p>
 
               <table about="#specifications-for-forces-and-functions" id="specifications-for-forces-and-functions" typeof="qb:DataSet">
@@ -588,19 +604,8 @@ Individual controlled |------ Data----------------| Third-party controlled
                   </tr>
                 </tfoot>
               </table>
-
-
-              <p id="desired-qualities"><strong>Desired qualities</strong>: Based on aforementioned research, standards, and practices in the field towards Web-based personal identifiers and representations, we can infer a set of qualities that can empower individuals when participating in a decentralised scholarly system:</p>
-
-              <ul>
-                <li>Self-hosted and individually-controlled personal identifiers denoted with HTTP URIs</li>
-                <li>Profile customisability and connectivity</li>
-                <li>Linkable multiple identities</li>
-                <li>Identity privacy and control</li>
-              </ul>
             </div>
           </section>
-
 
 
           <section id="the-effects-and-artefacts-of-autonomous-engagement" inlist="" rel="schema:hasPart" resource="#the-effects-and-artefacts-of-autonomous-engagement">
