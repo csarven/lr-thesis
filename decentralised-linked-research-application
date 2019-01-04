@@ -22,17 +22,16 @@
 
           <p>In the earlier sections, we have discussed progress in research, standards, and practices towards different aspects of realising a decentralised information space. Each dataspace can be individually controlled with access controls for participating agents. Different applications can be implemented to operate on the same data, as well as send activities about the interactions about the data. In this section, we specifically discuss a set of requirements for the implementation of a clientside editor for decentralised article publishing, annotations and social interactions.</p>
 
-          <p>More specifically, we will address the following research questions in context of <a href="decentralising-scholarly-communication#degree-of-control">degree of control</a> (as previously discussed in <cite>Decentralised Storage and Interoperable Applications</cite> section):</p>
+          <p>More specifically, we will address the following requirements for the research question on <span class="todo">X</span> in context of <a href="decentralising-scholarly-communication#degree-of-control">degree of control</a> (as previously discussed in <cite>Decentralised Storage and Interoperable Applications</cite> section):</p>
 
-          <p class="todo">Formulate these in terms of how protocols and data formats / interoperability...</p>
-
-          <ul id="research-questions-dokieli">
-            <li>The elements and connections of decentralised notifications and annotations.</li>
-            <li>Actors use their preferred Web identities in a clientside application.</li>
-            <li>Actors use their preferred clientside application to discover, reuse, and send notifications about annotations.</li>
-            <li>Actors discover annotations made by their social graph.</li>
-            <li>Actors switch between applications without having to move their data.</li>
-            <li>Actors change the location of their data without having to change their application.</li>
+          <ul>
+            <li>Interoperable applications through decentralised Linked Notifications and Web Annotations.</li>
+            <li>Creating human and machine-interpretable Web resources.</li>
+            <li>Actors use their preferred WebID in clientside applications.</li>
+            <li>Actors use their preferred clientside application to perform HTTP-based read-write operations on their personal data storage or where they have access to.</li>
+            <li>Actors switch between applications without having to move or alter the schema of their data.</li>
+            <li>Actors relocating data without having to change their preferred application.</li>
+            <li>Querying and visualising statistical data from clientside applications.</li>
           </ul>
 
           <p>Finally, we will discuss the <a href="#dokieli-forces-functions">forces and functions in dokieli</a>.</p>
@@ -63,7 +62,7 @@
           <section id="decentralised-linked-notifications-and-annotations" inlist="" rel="schema:hasPart" resource="decentralised-linked-notifications-and-annotations">
             <h2 property="schema:name">Decentralised Linked Notifications and Annotations</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>The functional and non-functional requirements from LDP-UCR for client-server interactions, as discussed in <a href="linked-data-notifications#use-cases-for-decentralised-notifications">Use Cases for Decentralised Notifications</a>, are also applicable for a clientside application for authoring, publishing, and sharing content. In order to represent different units of information in social and scholarly communication, Linked Data <a href="structure-of-scholarly-information#vocabularies">vocabularies</a> can be used.</p>
+              <p>The functional and non-functional requirements from the <cite><a href="https://www.w3.org/TR/ldp-ucr/">Linked Data Platform Use Cases and Requirements</a></cite> (<abbr title="Linked Data Platform Use Cases and Requirements">LDP-UCR</abbr>) are applicable for authoring, publishing, and sharing content. In order to represent different units of information in social and scholarly communication, Linked Data <a href="structure-of-scholarly-information#vocabularies">vocabularies</a> can be used.</p>
 
               <p>By using different arrangements of LDN, WA, AP, LDP mechanisms and related vocabularies, scholarly and social activities can be systematically discovered for a variety of use cases. Decentralised notifications and annotations surrounding an article can be determined as follows:</p>
 
