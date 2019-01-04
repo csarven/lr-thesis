@@ -99,9 +99,11 @@
 
               <p id="social-web-working-group-user-stories">In 2015, the <cite><a href="https://www.w3.org/Social/WG">W3C Social Web Working Group</a></cite> documented <cite><a data-versiondate="2018-11-17T14:07:32Z" data-versionurl="https://web.archive.org/web/20181117140732/https://www.w3.org/wiki/Socialwg/Social_API/User_stories" href="https://www.w3.org/wiki/Socialwg/Social_API/User_stories">user stories</a></cite> in online social media in the process of producing technical specifications to enable decentralised and federated social communication. The user stories were derived from existing open and proprietary platforms on the Web, including notifications about events, certifications, annotations, requests, and announcements.</p> 
 
+              <p class="todo">Quote one or two of the relevant user stories?</p>
+
               <p id="linked-data-platform-use-cases-and-requirements">The <cite><a href="https://www.w3.org/TR/ldp-ucr/">Linked Data Platform Use Cases and Requirements</a></cite> (<abbr title="Linked Data Platform Use Cases and Requirements">LDP-UCR</abbr>) documents <q cite="https://www.w3.org/TR/ldp-ucr/#aggregation-and-mashups-of-infrastructure-data">Aggregation and Mashups of Infrastructure Data</q> as one of the user stories and <q cite="https://www.w3.org/TR/ldp-ucr/#uc6">Aggregate resources</q> as the derived use case.</p>
 
-              <p>In addition to general social Web activities, researchers, scholars, as well as software on their behalf (actors) perform discipline-centric activities to send (registration), discover (awareness), and reuse public and private notifications (accessibility, content). We describe some scenarios in scholarly communication, and list the requirements which are further described in <a href="#design-considerations">design considerations</a>:</p>
+              <p>In addition to general social Web activities, researchers and scholars, as well as software on their behalf (actors) perform discipline-specific activities to send (registration), discover (awareness), and reuse public and private notifications (accessibility, content). We describe some scenarios in scholarly communication which are facilitated by notifications:</p>
 
 <!-- As <persona>, I can <what?> so that <why?> -->
 
@@ -137,7 +139,7 @@
                 <dd><a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
 
                 <dt>State change</dt>
-                <dd><em>Scenario</em>: As automated software detects changes in datasets, new version of an application, anomalies in sensor readings or experimental observations, it informs the laboratory's inbox.</dd>
+                <dd><em>Scenario</em>: As automated software detects changes in datasets, new version of an application, anomalies in sensor readings or experimental observations, it informs the laboratory.</dd>
                 <dd><a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a>, <a href="#subscribing">Subscribing</a></dd>
 
                 <dt>Status update</dt>
@@ -145,7 +147,7 @@
                 <dd><a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a></dd>
 
                 <dt>Artifacts of interest</dt>
-                <dd><em>Scenario</em>: A system upon coming across articles and annotations that is of interest to researchers wants to inform them based on their listed interests (research results, disputes over data analysis, new relations between research objects).</dd>
+                <dd><em>Scenario</em>: A recommender system, upon coming across articles and annotations that may be of interest to a researcher, wants to inform them based on their listed interests (research results, disputes over data analysis, new relations between research objects).</dd>
                 <dd><a href="#modularity">Modularity</a>, <a href="#reusability">Reusability</a>, <a href="#persistence-and-retrievability">Persistence and Retrievability</a>, <a href="#target-representation">Target representation</a>, <a href="#notification-body">Notification body</a>, <a href="#notification-verification">Notification verification</a>, <a href="#subscribing">Subscribing</a></dd>
 
                 <dt>Requesting access</dt>
@@ -185,7 +187,7 @@
 
               <p class="todo">add exit</p>
 
-              <p>Our aim is to investigate and devise a messaging protocol that would be able to realise some of these use cases for scholars.</p>
+              <p>A useful decentralised notification protocol would be able to realise some of these use cases for scholars. In the next section I describe specific design considerations derived from these uses cases, which can be used to inform the design of the protocol.</p>
             </div>
           </section>
 
