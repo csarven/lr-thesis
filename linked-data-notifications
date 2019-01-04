@@ -629,7 +629,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 
               <p>Primarily, LDN fulfill the awareness function. Registration of scholarly artefacts are not addressed by LDN, however, notifications which reference scholarly artefacts are registered. With respect to the certification and archiving functions, LDN can be employed to bridge systems that are dedicated to carrying out those functions. For certification, LDN helps to distribute the acknowledgement of validity and quality-control of registered units of information across scholarly systems. Similarly, LDN can inform archiving systems about the existence and state of units of information to can be preserved. Lastly, LDN can be used to communicate information pertaining to rewards, incentives and feedback, and metrics could be directly derived from the notification system itself.</p>
 
-              <p>The information herein in factored into Table <cite><a href="decentralising-scholarly-communication#specifications-for-forces-and-functions">specifications-for-forces-and-functions</a></cite>.</p>
+              <p>The information herein is factored into Table <cite><a href="decentralising-scholarly-communication#specifications-for-forces-and-functions">specifications-for-forces-and-functions</a></cite>.</p>
             </div>
           </section>
 
@@ -644,23 +644,25 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                 <footer><cite><a data-versiondate="2018-10-03T15:13:45Z" data-versionurl="https://web.archive.org/web/20181003151345/https://www.imsdb.com/scripts/Star-Trek-Nemesis.html" href="https://www.imsdb.com/scripts/Star-Trek-Nemesis.html">Star Trek: Nemesis</a></cite>, 2003</footer>
               </blockquote>
 
-              <p class="todo">In this section we summarise and contextualise..</p>
+              <p class="todo">In this section we summarise and contextualise and conclude..</p>
 
-              <p>Notifications are sent over the Web for a variety of purposes, for example, by social applications. The information contained within a notification is structured arbitrarily, and typically only usable by the application which generated them in the first place. In line with Linked Data, we propose that notifications should be reusable by different applications. Through separating the concepts of <em>senders</em>, <em>receivers</em> and <em>consumers</em> of notifications, and leveraging Linked Data principles of shared vocabularies and URIs, LDN provides a building block for decentralised Web applications. The three roles can be implemented independently from each other or all together in one system. This permits end users more freedom to switch between the online tools they use, as well as generating greater value when notifications from different sources can be used in combination.</p>
+              <p>Notifications maybe purposed in a number of ways in a decentralised scholarly communication ecosystem. This section has outlined specific use cases, and used these to derive design considerations. An overview of existing protocols for decentralised notifications indicates their respective strengths and shortcomings, and a new protocol is designed to meet our needs in light of this. The Linked Data Notifications protocol separates the concepts of <em>senders</em>, <em>receivers</em> and <em>consumers</em> of notifications for modularity, and leverages Linked Data concepts of shared vocabularies and URIs, thus providing a building block for notifications between diverse decentralised Web applications. The three roles can be implemented independently from each other or all together in one system. This permits end users more freedom to switch between the online tools they use, as well as generating greater value when notifications from different sources can be shared between applications and used in combination.</p>
 
 
-              <section id="addressing" inlist="" rel="schema:hasPart" resource="#addressing">
-                <h3 property="schema:name">Addressing</h3>
+              <section id="addressing-requirements-of-control" inlist="" rel="schema:hasPart" resource="#addressing-requirements-of-control">
+                <h3 property="schema:name">Addressing Requirements of Control</h3>
                 <div datatype="rdf:HTML" property="schema:description">
+                  <p>At the beginning of this section, four requirements relating to user control over data were listed. This is a key concept in decentralised systems in general. LDN addresses each of these as follows:</p>
+                  
                   <dl>
                     <dt>Actors can use their preferred applications to discover, reuse, and send notifications</dt>
-                    <dd>Given LDN specification's criteria for interoperability, <em>any</em> conforming application conforming is a member of a class of interoperable LDN applications. Applications receiving pass results from applicable features in the test suite is one identifiable and reproducible way to measure the degree of interoperability.</dd>
+                    <dd>LDN was developed as a W3C standard, with strict criteria for interoperability. Applications which implement any of the roles of the protocol can confirm their conformance with the test suite, and are thus expected to be able to interoperate with other conformant applications. Actors should be able to choose any available conformant application and maintain expected notification-related functionality.</dd>
 
                     <dt>Users store incoming notifications where they prefer</dt>
-                    <dd>Any conforming LDN Receiver (server) would have the ability to store notifications, provided that the users have sufficient control - as per AWWW's <cite>URI Ownership</cite> - over the Inbox and the notifications within.</dd>
+                    <dd>Any conforming LDN Receiver (server) under a particular user's control - which they trust, and are authorised to read - can be chosen to store notifications.</dd>
 
-                    <dt>Users switching between applications without having to move their data</dt>
-                    <dd>As the LDN specification only specifies the mechanism for information exchange, it is possible to switch between Receiver applications at the protocol level without any further action. The specification is only concerned about interoperability across applications, hence, implementation specific details are out of scope. For instance, if a Receiver internally uses a particular database software, switching to another database software or storage system would naturally require additional 'movement'.</dd>
+                    <dt>Users can switch between applications without having to move their data</dt>
+                    <dd>LDN specifies the mechanism for information exchange, so it is possible to switch between Receiver applications at the protocol level without any further action (implementation-specific details like database storage mechanism may require additional work for portability of data already stored there; this is out of scope of the LDN specification). A user's Receiver, where notification data is stored, has no bearing on their ability to alternate between sending and consuming applications as needed.</dd>
 
                     <dt>Users change the location of their data without having to change their application</dt>
                     <dd>Users can serve their inbox and the notifications from different HTTP URIs provided that they do not mind persistence. In this case, the target resource's inbox location would simply point to the new location. As inbox discovery starts from looking up a target resource's description, the new inbox location will be discovered as before.</dd>
