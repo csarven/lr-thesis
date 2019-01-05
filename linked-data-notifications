@@ -578,11 +578,11 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
               <section id="ldn-report-receiver" rel="schema:hasPart" resource="#ldn-report-receiver">
                 <h3 property="schema:name">Receiver reports</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <dl id="document-derived-from">
+                  <dl class="document-derived-from">
                     <dt>Derived From</dt>
                     <dd><a href="https://linkedresearch.org/ldn/tests/summary#ldn-report-receiver" rel="prov:wasDerivedFrom">https://linkedresearch.org/ldn/tests/summary#ldn-report-receiver</a></dd>
                   </dl>
-                  <dl id="document-derived-on">
+                  <dl class="document-derived-on">
                     <dt>Derived On</dt>
                     <dd><time content="2019-01-05T14:27:51.450Z" datatype="xsd:dateTime" datetime="2019-01-05T14:27:51.450Z" property="prov:generatedAtTime">2019-01-05</time></dd>
                   </dl>
@@ -620,11 +620,11 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
               <section id="ldn-report-consumer" rel="schema:hasPart" resource="#ldn-report-consumer">
                 <h3 property="schema:name">Consumer reports</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <dl id="document-derived-from">
+                  <dl class="document-derived-from">
                     <dt>Derived From</dt>
                     <dd><a href="https://linkedresearch.org/ldn/tests/summary#ldn-report-consumer" rel="prov:wasDerivedFrom">https://linkedresearch.org/ldn/tests/summary#ldn-report-consumer</a></dd>
                   </dl>
-                  <dl id="document-derived-on">
+                  <dl class="document-derived-on">
                     <dt>Derived On</dt>
                     <dd><time content="2019-01-05T14:27:51.450Z" datatype="xsd:dateTime" datetime="2019-01-05T14:27:51.450Z" property="prov:generatedAtTime">2019-01-05</time></dd>
                   </dl>
@@ -662,11 +662,11 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
               <section id="ldn-report-sender" rel="schema:hasPart" resource="#ldn-report-sender">
                 <h3 property="schema:name">Sender reports</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <dl id="document-derived-from">
+                  <dl class="document-derived-from">
                     <dt>Derived From</dt>
                     <dd><a href="https://linkedresearch.org/ldn/tests/summary#ldn-report-sender" rel="prov:wasDerivedFrom">https://linkedresearch.org/ldn/tests/summary#ldn-report-sender</a></dd>
                   </dl>
-                  <dl id="document-derived-on">
+                  <dl class="document-derived-on">
                     <dt>Derived On</dt>
                     <dd><time content="2019-01-05T14:27:51.450Z" datatype="xsd:dateTime" datetime="2019-01-05T14:27:51.450Z" property="prov:generatedAtTime">2019-01-05</time></dd>
                   </dl>
