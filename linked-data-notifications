@@ -949,19 +949,25 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                     <figcaption>Table is a redistribution of <cite><a href="http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms" rel="owl:sameAs">comparison of notification mechanisms</a></cite> originally published in <cite>Linked Data Notifications: a resource-centric communication protocol</cite>, <time>2016-05-01</time>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
                   </figure>
 
+                  <p>For modularity, we note that all notification mechanisms have multiple actors, with the Sender being a common overlapping role for an application.</p>
+
+                  <p>LDN is the only mechanism that holds the notion that notifications should be reusable, and requires servers to make them available for consumers. The specifications for the other mechanisms either consider notification reuse as inapplicable or left as unspecified.</p>
+
+                  <p>Persistence and retrievability follows in the LDN case as notifications are referable and dereferenceable HTTP URIs. In the case of the other notification mechanisms, notifications are considered to be ephemeral resources.</p>
+
+                  <p>The mechanisms with the fat ping approach all require structured data in XML or JSON-LD. Only LDN requires the use of the RDF language through JSON-LD with optionally allowing negotiating alternate RDF formats. Thus, the notification content including other information about other referable resources as well as being potentially network-retrievable.</p>
+
+                  <p>In placing no constraints on the contained information, LDN enables a sender to be precise and lossless with the data it is transmitting. Approaches which send only URLs rely on the receiver interpreting a third-party resource, which may or may not contain structured markup or be under the control of the sender. Approaches which offer additional guidance to aid the receiver in interpreting the source document(s) nonetheless still restricts the sender. LDN therefore offers flexibility to senders, increasing the potential uses for the notification mechanism. LDN compensates for increased complexity on the receiver’s end by recommending filtering mechanisms, and moving some of the burden of understanding notifications to the consumer role. As such LDN can cover a broader variety of use cases.</p>
+
+                  <p>WebSub and LDN both recommend that receiver applications should process the payload, however do not further specify a criteria for the applications. Semantic Pingback and Webmention require processing of the information url-encoded form in order to proceed with the information in the linkback. Thus, they require receivers to parse the content at the source URL in order to verify the message (by finding the target URL). In the case of WebSub and LDN, as processing is left at the discretion of the receiver, linkback style verification is not required. WebSub or PuSh based mechanisms require subscribing as part of its core design, Semantic Pingback, Webmention, and Provenance Pingback strictly disallow subscribing. LDN allows the possibility for applications to perform subscription-like interaction by taking on multiple roles.</p>
+
+                  <p>LDN is available in any publishing context. We consider lowering the bar for publishers of target resources to be a worthwhile trade-off against slightly increased complexity for senders and consumers. This is why we require that senders and consumers must be equipped to discover Inboxes through both HTTP headers and RDF content. 
+
                   <p>As protocols towards federation, WebSub's core functionality is a subscription mechanism whereas LDN is delivery. The former is push-based and the latter is pull-based. WebSub and LDN are both agnostic about the semantics within the notifications, however LDN uses RDF-based content-types.</p>
 
-                  <p class="todo">Given that each application requires to follow the steps listed in <q><a href="#sender-to-receiver">Sender to receiver interactions</a></q> and <q><a href="#consumer-to-receiver">Consumer to receiver interactions</a></q> the metrics are dependent on the performance of client and server to do HTTP requests and responses, and their respective payloads.</p>
-
-<p class="todo">“Comparison summary”: what is the result of the evaluation here? “Compatibility with existing systems”: this is perhaps the clearest, but the conclusion about compatibility is implicit. “Optimizing implementation[s]”, “Data Formats and Content Negotiation”: what is evaluated? “Accommodating different targets”: how well is LDN doing compared to the others?</p>
-
-<p class="todo">What is good and bad? What is important, what is desirable? I would suggest to highlight the problems and assets somewhat more clearly.</p>
+                  <p>The metrics for all of the HTTP-based notification mechanisms dependent on the performance of client and server to do HTTP requests and responses, and their respective payloads. The mechanisms that require verification an additional network request to complete the process.</p>
 
 <p class="todo">Both in the discussion of related work and in the evaluation, I’d like to see a deeper understanding of current limitations, and how LDN addresses is and at what cost. More specifically, what are the problems of LDN, and are they inherent or fixable?</p>
-
-<p class="todo">extend this section with an in depth analysis of the differences between their work and other system that are mentioned, and a discussion on why these differences are important and how LDN provides improvements over them.</p>
-
-<p>Per <a href="#adaptability">Adaptability</a>, we want LDN to be available for all resources in any publishing context. We consider lowering the bar for publishers of target resources to be a worthwhile trade-off against slightly increased complexity for senders and consumers. This is why we require that senders and consumers must be equipped to discover Inboxes through both HTTP headers and RDF content.</p>
 
 <p class="todo">Anything from <a href="https://lib.ugent.be/fulltxt/RUG01/002/494/871/RUG01-002494871_2018_0001_AC.pdf#chapter.6">https://lib.ugent.be/fulltxt/RUG01/002/494/871/RUG01-002494871_2018_0001_AC.pdf#chapter.6</a>?</p>
                 </div>
