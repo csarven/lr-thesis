@@ -562,7 +562,18 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
           <section id="linked-data-notifications-implementations" inlist="" rel="schema:hasPart" resource="#linked-data-notifications-implementations">
             <h2 property="schema:name">Linked Data Notifications Implementations</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>So far we have seen decentralised notifications applied in social networking scenarios, as well as for archival activities and scientific experiments through monitoring the state of online resources, datasets and files, or sensor outputs, and sending notifications when changes occur. As part of a W3C requirement for implementations report to test interoperability, the <cite><a href="https://linkedresearch.org/ldn/tests/summary">Summary of LDN Implementation Reports</a></cite> is documented and readable by human and machine consumers. The <a href="#ldn-report-receiver">Receiver</a>, <a href="#ldn-report-consumer">Consumer</a>, and <a href="#ldn-report-sender">Sender</a> reports listed below are snapshots of the tests summary data as of 2019-01-05. Individual test reports can also be access as discussed earlier in <cite><a href="#test-suite-and-implementation-reports">Test Suite and Implementation Reports</a></:</p>
+              <p>So far we have seen decentralised notifications applied in social networking scenarios, as well as for archival activities and scientific experiments through monitoring the state of online resources, datasets and files, or sensor outputs, and sending notifications when changes occur.</p>
+
+              <p>In order for the LDN specification to advance to W3C Proposed Recommendation status, an <cite><a href="https://www.w3.org/TR/ldn/#exit-criteria">Exit Criteria</a></cite> outlined the requirements for implementations. At least two independent, interoperable implementations of each feature had to be fulfilled. Each feature was implemented by a different set of products. There was no requirement that all features needed to be implemented by a single product.</p>
+
+              <p>In order to verify the conformance and support of the LDN features in implementations, the LDN <cite><a href="https://linkeresearch.org/ldn/tests/">Test Suite</a></cite> was development. Individual <a href="https://linkedresearch.org/ldn/tests/reports/">reports</a> as well as a <a href="https://linkedresearch.org/ldn/tests/summary">summary</a> of all reports were made public using <a href="https://creativecommons.org/licenses/by/4.0/">CC BY</a> license. The <cite><a href="https://linkedresearch.org/ldn/tests/summary">Summary of LDN Implementation Reports</a></cite> is documented and readable by human and machine consumers. The <a href="#ldn-report-receiver">Receiver</a>, <a href="#ldn-report-consumer">Consumer</a>, and <a href="#ldn-report-sender">Sender</a> reports listed below are snapshots of the tests summary data as of 2019-01-05.</p>
+
+              <p>Once an implementation has passed the relevant tests, an implementation report was submitted to help enable the specification progress to W3C Recommendation. Implementations were also submitted after the Recommendation, and remain open to accept new implementation reports. Running the tests generated a checklist, filled in where possible, to indicate the outcome of the tests with additional information, and thus indicating the features implemented according to the specification.</p>
+
+              <dl>
+                <dt>Test outcomes</dt>
+                <dd>It returns a <a href="https://www.w3.org/TR/EARL10-Schema/#passed" class="earl:passed">passed</a>/<a href="https://www.w3.org/TR/EARL10-Schema/#failed" class="earl:failed">failed</a> response for individual requirements of the LDN spec. It also tests some optional features; you will get an <a href="https://www.w3.org/TR/EARL10-Schema/#inapplicable" class="earl:inapplicable">inapplicable</a> response if you do not implement them, rather than a fail. Some of the test outcomes will require manual checking, hence they will be marked with <a href="https://www.w3.org/TR/EARL10-Schema/#cantTell" class="earl:cantTell">cannot tell</a>. If a test was skipped or no value provided, it will be marked as <a href="https://www.w3.org/TR/EARL10-Schema/#untested" class="earl:untested">untested</a>.</dd>
+              </dl>
 
               <section id="ldn-report-receiver" rel="schema:hasPart" resource="#ldn-report-receiver">
                 <h3 property="schema:name">Receiver reports</h3>
@@ -689,14 +700,6 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                   </table>
                 </div>
               </section>
-
-              <p class="todo">re: "We note that any LDP implementation is a conforming LDN receiver; we refer here to the ones we have tested", mention the reasons why other LDP implementations are not tested, or how they have chosen the implementations that are tested.</p>
-
-              <p class="todo">Mention streams re extensibility: <cite><a href="https://w3id.org/wesp/web-of-data-streams">On a Web of Data Streams</a></cite>, Dell'Aglio et al, 20017, and <cite><a href="http://ceur-ws.org/Vol-1934/contribution-12.pdf">Towards VoIS: a Vocabulary of Interlinked Streams</a></cite>, Sedira et al, 2017.</p>
-
-              <p>The test suite software fulfills the base required functionality of the LDN protocol. In essence, the test suite can generally fulfill the <a href="linked-data-notifications#use-cases-for-decentralised-notifications">use-cases-for-decentralised-notifications</a>. In <cite><a href="#ldn-forces-functions">Forces and Functions in Linked Data Notifications</a></cite> we have described the forces and functions that are involved through the use of the LDN mechanism.</p>
-
-              <p class="todo">LDN <a href="https://www.w3.org/TR/ldn/#exit-criteria">Exit Criteria</a>.</p>
             </div>
           </section>
 
