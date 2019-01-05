@@ -348,7 +348,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 
                   <p id="relationship-with-ldp"><strong>Relationship with Linked Data Platform</strong>: An LDN Receiver is not dependent on a complete implementation of the <abbr title="Linked Data Platform">LDP</abbr> specification, but comprises an easy-to-implement subset. An LDN Inbox is comparable to an LDP <cite><a href="https://www.w3.org/TR/ldp/#dfn-linked-data-platform-basic-container">BasicContainer</a></cite>. Thus, the core features necessary to exchange notifications between LDN applications is effectively possible with existing, as well as future implementations of LDP.</p>
 
-                  <p id="relationship-with-activitypub"><strong>Relationship with ActivityPub</strong>: ActivityPub uses LDN's <a href="https://www.w3.org/TR/activitypub/#inbox">targeting</a> and <a href="https://www.w3.org/TR/activitypub/#delivery">delivery</a> mechanism with <a href="https://www.w3.org/TR/activitypub/#h-note-9">some specific constraints</a>. It is possible for LDN Senders to deliver notifications to AP servers.</p>
+                  <p id="relationship-with-activitypub"><strong>Relationship with ActivityPub</strong>: ActivityPub uses LDN's <a href="https://www.w3.org/TR/activitypub/#inbox">targeting</a> and <a href="https://www.w3.org/TR/activitypub/#delivery">delivery</a> mechanism with <a href="https://www.w3.org/TR/activitypub/#h-note-9">some specific constraints</a>. Notifications must use a single AS2 Activity in compact JSON-LD syntax. Receivers are required to authenticate requests made by Senders, as well as verify the existence of an object (that the activity is about) that is mentioned in the notification by fetching its source from the origin server. It is possible for LDN Senders to deliver notifications to AP servers. It is also possible for AP clients to deliver messages to LDN Receivers with some bridging.</p>
 
                   <p id="linked-data-vocabularies"><strong>Linked Data vocabularies</strong>: As LDN is agnostic about the contents of a notification, any Linked Data vocabulary can be used, including the <a href="structure-of-scholarly-information#vocabularies">vocabularies</a> we have previously discussed in <cite>Structure of Scholarly Information</cite>.</p>
 
@@ -754,14 +754,14 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
               <section id="comparison-of-notification-mechanisms" inlist="" rel="schema:hasPart" resource="#comparison-of-notification-mechanisms">
                 <h3 property="schema:name">Comparison of Notification Mechanisms</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p><span class="todo">Paraphrase</span> Here we compare existing notification mechanisms and the benefits of Linked Data Notification, followed by a discussion of the trade-offs that were necessary to realize those benefits.</p>
+                  <p>Here we compare existing notification mechanisms and the benefits of Linked Data Notification, followed by a discussion of the trade-offs that were necessary to realize those benefits.</p>
 
                   <p><span class="todo">Paraphrase</span> We restrict our review to mechanisms which do not expect the notification to be received or used only by the same software or platform which sent it. The criteria includes our <a href="linked-data-notifications#requirements-and-design-considerations">requirements and design considerations</a> (<em>Rx</em>) along with additional technical information which helps to capture some design differences (<em>Tx</em>).</p>
 
-                  <p>The fiigure <a href="#comparison-of-notification-mechanisms">Comparison of notification mechanisms</a> is derived from <a href="http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms">http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms</a> and modified to include WebSub.</p>
+                  <p>The figure <cite><a href="#table-comparison-of-notification-mechanisms">Comparison of notification mechanisms</a></cite> is derived from <a href="http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms">http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms</a> and modified to include <cite>WebSub</cite>.</p>
 
                   <figure>
-                    <table id="comparison-of-notification-mechanisms">
+                    <table id="table-comparison-of-notification-mechanisms">
                       <caption>Comparison of notification mechanisms</caption>
                       <thead>
                         <tr>
@@ -942,21 +942,14 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                               <dt><sup>t</sup></dt><dd>Described in an RDF store or dataset</dd>
                             </dl>
                           </td>
-                          <!-- Notes for how I removed some ?s:
-                            * target representation is - when there’s no discovery step for the sender ie. subscription based
-
-                            * verification required is - when there’s a subscription relationship because we assume the receiver trusts the sender
-                          -rhiaro -->
                         </tr>
                       </tfoot>
                     </table>
 
-                    <figcaption><span class="todo">Important: Should it only cite, summarise or redistribute?</span>Table is a redistribution of <cite><a href="http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms" rel="owl:sameAs">comparison of notification mechanisms</a></cite> originally published in <cite>Linked Data Notifications: a resource-centric communication protocol</cite> on <time>2016-05-01</time> with <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></figcaption>
+                    <figcaption>Table is a redistribution of <cite><a href="http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms" rel="owl:sameAs">comparison of notification mechanisms</a></cite> originally published in <cite>Linked Data Notifications: a resource-centric communication protocol</cite>, <time>2016-05-01</time>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
                   </figure>
 
                   <p>As protocols towards federation, WebSub's core functionality is a subscription mechanism whereas LDN is delivery. The former is push-based and the latter is pull-based. WebSub and LDN are both agnostic about the semantics within the notifications, however LDN uses RDF-based content-types.</p>
-
-                  <p>ActivityPub's <a href="https://www.w3.org/TR/activitypub/#inbox">targeting</a> and <a href="https://www.w3.org/TR/activitypub/#delivery">delivery</a> mechanism overlaps with LDN's with <a href="https://www.w3.org/TR/activitypub/#h-note-9">some specific constraints</a>: Notifications must use a single AS2 Activity in compact JSON-LD syntax. Receivers are required to authenticate requests made by Senders, as well as verify the existence of an object (that the activity is about) that is mentioned in the notification by fetching its source from the origin server.</p>
 
                   <p class="todo">Given that each application requires to follow the steps listed in <q><a href="#sender-to-receiver">Sender to receiver interactions</a></q> and <q><a href="#consumer-to-receiver">Consumer to receiver interactions</a></q> the metrics are dependent on the performance of client and server to do HTTP requests and responses, and their respective payloads.</p>
 
@@ -971,8 +964,6 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 <p>Per <a href="#adaptability">Adaptability</a>, we want LDN to be available for all resources in any publishing context. We consider lowering the bar for publishers of target resources to be a worthwhile trade-off against slightly increased complexity for senders and consumers. This is why we require that senders and consumers must be equipped to discover Inboxes through both HTTP headers and RDF content.</p>
 
 <p class="todo">Anything from <a href="https://lib.ugent.be/fulltxt/RUG01/002/494/871/RUG01-002494871_2018_0001_AC.pdf#chapter.6">https://lib.ugent.be/fulltxt/RUG01/002/494/871/RUG01-002494871_2018_0001_AC.pdf#chapter.6</a>?</p>
-
-<p class="todo">Mention <a href="https://github.com/pubsubhubbub/PubSubHubbub/wiki/Comparing-Protocols">https://github.com/pubsubhubbub/PubSubHubbub/wiki/Comparing-Protocols</a> re light/fat ping?</p>
                 </div>
               </section>
 
