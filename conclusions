@@ -54,6 +54,8 @@
             </div>
           </section>
 
+          <p class="todo">mention how the design decisions wasn't done in a vacuum. It was done within the context of W3C and SWWG... and the broader context of decentralisation efforts.</p>
+
               <!-- failure to adopt/cultivate? -->
 
               <p>The effects of big conferences demanding old practices. We're not developing or advancing our own technologies. They're stunting growth. Do you want to grow your team with latex experience or web publishing experience? Are you perpetuating bad practice through supervisor->student requirements? Not sharpening our native web skills. Hindering us from shaping the space to OUR needs.</p>
