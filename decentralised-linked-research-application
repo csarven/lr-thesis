@@ -137,6 +137,13 @@ XXX:
               <p>For annotations and notifications, dokieli meets interoperability requirements (for protocols and vocabularies), and remains flexible about the content serialisation that servers prefer. For instance, dokieli attempts to trigger content-negotiation with a server through the HTTP <code>OPTIONS</code> request in order to check which HTTP methods can be requested for a URI.</p>
 
 
+              <section id="authenticating" inlist="" rel="schema:hasPart" resource="#authenticating">
+                <h3 property="schema:name">Authenticating</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+
+                </div>
+              </section>
+
               <section id="creating-resources" inlist="" rel="schema:hasPart" resource="#creating-resources">
                 <h3 property="schema:name">Creating Resources</h3>
                 <div datatype="rdf:HTML" property="schema:description">
@@ -158,223 +165,14 @@ XXX:
                 </div>
               </section>
 
-            </div>
-          </section>
 
-
-
-<hr />
-
-              <p class="contribution">From the point of enabling further ORCID: while having an ORCID, a person can have their storage, inbox ( https://twitter.com/csarven/status/905421364353490944 ), outbox ( https://twitter.com/csarven/status/991642357983514625 ) elsewhere ...</p>
-
-<hr/>
-
-          <section id="user-interaction" inlist="" rel="schema:hasPart" resource="#user-interaction">
-            <h3 property="schema:name">User Interaction</h3>
-            <div datatype="rdf:HTML" property="schema:description">
-              <section id="document-modes" inlist="" rel="schema:hasPart" resource="#document-modes">
-                <h4 property="schema:name">Document modes</h4>
+              <section id="dokieli-privacy" inlist="" rel="schema:hasPart" resource="dokieli-privacy">
+                <h3 property="schema:name">Privacy in dokieli</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>There UI adapts to the <em>document mode</em> the user is in: <cite>author</cite>, <cite>review</cite>, <cite>social</cite>. By default the <cite>social</cite> mode is engaged. The <i class="fa fa-bars"></i> <a href="#dokieli-menu">dokieli menu</a> allows the user to engage the author mode through the <i class="fa fa-i-cursor"></i> <a href="#editor-enable">Edit</a> operation, and the review mode with <i class="fa fa-balance-scale"></i> <a href="#review-enable">Review</a>. See also <var>setDocumentMode</var> (do.js).</p>
-
-                  <p class="todo">describe what the ux means under LR view... what does it mean for the user? functionality that is offered by the UI ... eg. save, activities, to create/edit..    affordances offered by user's preferences eg. prefered views, personal storage.. </p>
-
-                  <p class="todo">https://en.wikipedia.org/wiki/Adaptive_hypermedia</p>
-
-                  <p class="todo">Information discovery can start from two locations</p>
-
-                  <p class="todo">For example: when a person signs in with their WebID, dokieli looks up their profile description to gather information eg. name, avatar.., personal inbox location, preferred storage location, outbox location. Depending on what it finds, and what the document contains, or the action person takes on the document, the user-interface adapts towards that.</p>
+                  <p>own personal data storage for articles, annotations, and inbox</p>
+                  <p>Preferred proxy</p>
                 </div>
               </section>
-
-              <section id="dokieli-menu" inlist="" rel="schema:hasPart" resource="#dokieli-menu">
-                <h4 property="schema:name">dokieli menu</h4>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <dl>
-                    <dt id="signin-user"><i class="fa fa-user-secret"></i>Sign in</dt>
-                    <dd>This is where the user can enter their WebID to let dokieli know about who they are. dokieli fetches their WebID and related information to further help with dokieli's operations. Authentication is not done at this stage.</dd>
-
-                    <dt id="resource-share"><i class="fa fa-bullhorn"></i>Share</dt>
-                    <dd>User can share the current article or a part of it with their contacts, automatically discovered via <samp>foaf:knows</samp> as well as traversing equivalent profiles (<code>owl:sameAs</code>). Notification can also be sent to specific targets by entering their IRIs. dokieli sends a notification to the selected targets with information like: who sent it, when, license, motivation.</dd>
-
-                    <dt id="resource-reply"><i class="fa fa-reply"></i>Reply</dt>
-                    <dd>An article can be replied with a note and have its own <a href="#resource-license-method">license</a>. To choose the location of the reply, the <a href="#resource-browser-method">resource browser</a> can be used on <a href="#personal-storage">personal storage</a> or an annotation service.</dd>
-
-                    <dt id="review-enable"><i class="fa fa-balance-scale"></i>Review</dt>
-                    <dd>This feature changes the <a href="#document-modes">document mode</a> to <cite>Review</cite> and gives different context for annotations. When a user selects a span of text, a toolbar provides the following options to motivations:
-                      <dl>
-                        <dt><i class="fa fa-thumbs-up"></i>Approve</dt>
-                        <dd>General agreement with the selected text. Optional text should specify why it is a strong point or a convincing argument.</dd>
-                        <dt><i class="fa fa-thumbs-down"></i>Disapprove</dt>
-                        <dd>General disagreement with the selected text. Optional text should specify why it is a weak point, an error, or inaccurate.</dd>
-                        <dt><i class="fa fa-crosshairs"></i>Specificity</dt>
-                        <dd>Request to increase specificity on selected text. Optional text should indicate that a citation or more specificity is needed.</dd>
-                      </dl>
-                    </dd>
-
-                    <dt id="resource-new"><i class="fa fa-lightbulb-o"></i>New</dt>
-                    <dd>This feature allows a new document to be created at specified location. The new document is constructed based on  If the user is signed in with their WebID and their personal storage location is identifier, the default location for the new resource will have the storage URL (<code>pim:storage</code>) as its base. If the user does not have a WebID and a storage, and if the article refers to an annotation service (<code>oa:annotationService</code>), it will use that URL instead. The URL can be input directly, and otherwise a name will be autogenerated for the resource. This feature uses the <cite><a href="#resource-browser-method">resource browser</a></cite> to navigate HTTP URLs. See also <var>generateAttributeId</var> (do.js). On create, the resulting hyperlink will be shown and a new tab in the browser will be prompted.</dd>
-
-                    <dt id="resource-open"><i class="fa fa-coffee"></i>Open</dt>
-                    <dd>Documents can be opened from a local filesystem or by entering an HTTP URL. Both options read the resource's content, and if dokieli's CSS and JavaScript are not present, they are included before updating the DOM and initiating dokieli. This feature uses the <cite><a href="#resource-browser-method">resource browser</a></cite> to navigate HTTP URLs. See also <var>openDocument</var> (do.js).</dd>
-
-                    <dt id="resource-save"><i class="fa fa-life-ring"></i>Save</dt>
-                    <dd>This feature makes a <a href="#http-put">write operation</a> (<code>HTTP PUT</code>) request to the current location of the document (<var>window.location</var>). The document is normalised in that dokieli related items are removed from the DOM before making the request.</dd>
-
-                    <dt id="resource-save-as"><i class="fa fa-paper-plane-o"></i>Save As</dt>
-                    <dd>The <cite>Save As</cite> operation is similar to <cite>New</cite> for normalising some of the URLs and same as <cite>Save</cite> operation for normalising the DOM before making the request to specified location. If <cite>Derivation data</cite> is checked for inclusion, <a href="#html-document-derived-from-on">derived from and on</a> information is included in the created document. This feature uses the <cite><a href="#resource-browser-method">resource browser</a></cite> to navigate HTTP URLs.</dd>
-
-                    <dt id="resource-export"><i class="fa fa-external-link"></i>Export</dt>
-                    <dd>Provides options to 1) exports the article as HTML and save to filesystem, 2) Makes a request to the Internet Archive to crawl all resources references in this article.</dd>
-
-                    <dt id="resource-print"><i class="fa fa-print"></i>Print</dt>
-                    <dd>Requests to print the current document (<code>window.print()</code>).</dd>
-
-                    <dt id="editor-enable"><i class="fa fa-i-cursor"></i>Edit</dt>
-                    <dd><cite>Editor</cite> is one of the document modes a user can be in. The available features reflect the edit operation. Edits reside in the DOM until a <cite>Save</cite> or <cite>Save As</cite> is triggered. There are several editor features in following categories: content formatting and structuring (<i class="fa fa-header">2</i>, <i class="fa fa-header">3</i>, <i class="fa fa-header">4</i>, <i class="fa fa-italic"></i>, <i class="fa fa-bold"></i>, <i class="fa fa-list-ol"></i>, <i class="fa fa-list-ul"></i>, <b>code</b>, <i class="fa fa-code fa-lg"></i>, <i class="fa fa-picture-o"></i>, <i class="fa fa-table"></i>, <i class="fa fa-link"></i>, <i class="fa fa-quote-right"></i>), including interactive and embeddable objects (<i class="fa fa-line-chart"></i>), inline semantic relations (<i class="fa fa-rocket"></i>), footnotes and citations (<i class="fa fa-hashtag"></i>), and annotations (<i class="fa fa-sticky-note"></i>).
-                    </dd>
-
-                    <dt id="resource-source"><i class="fa fa-code"></i>Source</dt>
-                    <dd>Users can edit the current state of the article. <em>Updating</em>, only updates the DOM, and leave the saving to <cite>Save</cite> or <cite>Save As</cite>.</dd>
-
-                    <dt id="embed-data-meta"><i class="fa fa-table"></i>Embed Data</dt>
-                    <dd>This feature allows hidden RDF data to be stored with the document. Turtle, JSON-LD, and TriG can all be edited and stored independently.</dd>
-                  </dl>
-
-                  <p id="base-url-selection-method">To determine the base URL, when new documents are created or saved as, media resources from <var>head link, [src], object[data]</var> (querySelector) will have their URLs normalised to use current document's base URL as its absolute URL (this is the <q>Use references as is</q> option). If <q>Copy to your storage</q> is selected, relative URLs will not be updated as the copy operation reuses the same file paths when resource are copied to destination. The <em>copy</em> operation does an <code>HTTP GET</code> for each source, then <code>HTTP PUT</code> to target.</p>
-
-                  <p id="resource-browser-method">The <em>resource browser</em> eg. available for <cite>New</cite>, <cite>Open</cite>, <cite>Save As</cite> operations can be used to navigate through a Webspace. It does this by using the <cite><a href="https://www.w3.org/TR/ldp/">Linked Data Platform</a></cite>'s containment rules to retrieve and then display the container's index. If the user's personal storage location is known, it will be used as default location for the resource browser. Alternatively, if the article refers to an annotation service, it will be used as start location.</p>
-
-                  <p id="resource-license-method">Users are given a choice to specify the <em>rights and license</em> for their annotations from a list of <cite><a href="https://creativecommons.org/">Creative Commons</a></cite> licenses, eg. <span resource="#annotation-rights" typeof="schema:ChooseAction">CC BY 4.0</span>. If applicable, the notification payload will use the <cite><a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a></cite> license.</p>
-
-                  <dl>
-                    <dt id="dokieli-views"><i class="fa fa-magic"></i>Views</dt>
-                    <dd>The dokieli menu will list primary and alternate stylesheets that are <a href="#html-css">detected in HTML</a>. <cite>Native</cite> is always available and it will essentially disable all other stylesheets, thereby user-agent's default stylesheets are gets applied. When a view is selected, eg. <cite>Basic</cite> (which happens to be the one that is used on this article as primary), it becomes the primary stylesheet, and the rest of the stylesheets become alternate and disabled.</dd>
-                  </dl>
-                </div>
-              </section>
-            </div>
-          </section>
-
-
-
-
-
-
-
-
-
-
-
-              <section id="http-operations" inlist="" rel="schema:hasPart" resource="#http-operations">
-                <h3 property="schema:name">HTTP operations</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>dokieli conforms to <cite><a href="https://www.w3.org/TR/ldp/" rel="cito:citesAsAuthority">Linked Data Platform</a></cite> (LDP) protocol for create, update, and delete operations.</p>
-
-                  <p id="http-put">Article operations like <cite>New</cite>, <cite>Save</cite>, <cite>Save As</cite>,  <cite>Reply</cite> use <code>HTTP PUT</code>, <cite>Review</cite> and other annotation operations use <code>HTTP POST</code>.</p>
-
-                  <p id="http-post">Notifications are sent with <code>HTTP POST</code>. <cite>Save</cite> and <cite>Save As</cite> normalises the HTML before sending.</p>
-
-                  <table id="http-request-to-send">
-                    <caption>Request to send</caption>
-                    <thead>
-                      <tr>
-                        <th></th>
-                        <th>HTTP method(s)</th>
-                        <th><code>Content-Type</code></th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr><th>Article</th><td><code>PUT</code></td><td><code>text/html</code></td></tr>
-                      <tr><th>Annotation</th><td><code>OPTIONS</code>, <code>POST</code></td><td><code>text/html</code>, <code>application/ld+json</code>, <code>text/turtle</code></td></tr>
-                      <tr><th>Notification</th><td><code>OPTIONS</code>, <code>POST</code></td><td><code>text/html</code>, <code>application/ld+json</code>, <code>text/turtle</code></td></tr>
-                    </tbody>
-                    <tfoot>
-                      <tr>
-                        <td colspan="3">
-                          <dl>
-                            <dt id="request-to-send-article">Article</dt>
-                            <dd>Articles typically use <code>text/html</code> with embedded RDFa. Where a server implements <code>GET</code> with <code>text/html</code>, and allows <code>PUT</code> for writing, the assumption is that it can allow <code>text/html</code>. In the future, dokieli can check for the <code>Accept-Put</code> header with <code>OPTIONS</code> to determine a suitable type. At this time, HTML+RDFa is an important default for articles.</dd>
-
-                            <dt id="request-to-send-annotation">Annotation</dt>
-                            <dd>Annotations use the <code>POST</code> method with <code>Content-Type</code> header value determined by type of location to write to: personal storage space eg. given a profile's <code>pim:storage</code>; made to an annotation service eg. an article's <code>oa:annotationService</code>; sent to profile's outbox's outbox: <code>as:outbox</code>. The <cite><a href="https://www.w3.org/TR/annotation-protocol/">Web Annotation Protocol</a></cite> requires <code>application/ld+json</code> by default. dokieli sends an <code>OPTIONS</code> request to check for the <code>Accept-Post</code> header and sends the payload in one of the serializations that the server prefers. If it is not set, it will fallback to <code>application/ld+json</code> as preferred by Wen Annotation and ActivityPub.</dd>
-
-                            <dt id="request-to-send-notification">Notification</dt>
-                            <dd>Notifications use <code>OPTIONS</code> to check the response's <code>Accept-Post</code> HTTP header. If it is set and matches one of the acceptable RDF mediatypes that dokieli can parse, it will use that mediatype to serialize the payload before <code>POST</code>ing. <span rel="schema:hasPart" resource="#dokieli-notification-post-content-type-json-ld">If it is not set, it will fallback to <code>application/ld+json</code> as required by the <cite><a href="https://www.w3.org/TR/ldn/#test-sender-header-post-content-type-json-ld" rel="cito:citesAsAuthority">Linked Data Notifications</a></cite> specification.</span></dd>
-                          </dl>
-                        </td>
-                      </tr>
-                    </tfoot>
-                  </table>
-
-                  <aside id="http-patch">
-                    <p>Current reasons for using <code>HTTP POST</code> and <code>PUT</code> instead of <code>PATCH</code>:</p>
-
-                    <ul>
-                      <li>Servers with <cite><a href="https://tools.ietf.org/html/rfc5261" rel="cito:citesAsAuthority">XML Patch</a></cite> and mediatype <code>application/xml-patch+xml</code> (<cite><a href="https://tools.ietf.org/html/rfc7351" rel="cito:citesAsAuthority">RFC 7351</a></cite>) capability in the Linked Data ecosystem are not well supported.</li>
-
-                      <li><code>HTTP PATCH</code> with <cite><a href="https://www.w3.org/TR/sparql11-update/" rel="cito:citesAsAuthority">SPARQL Update</a></cite> (using mediatype <code>application/sparql-update</code>) would not work for RDFa representations because it would require additional server-side knowledge: HTML+RDFa serializer. This also makes server implementations a dependency for dokieli which is an undesirable design pattern.</li>
-
-                      <li><code>HTTP PATCH</code> can help to optimise HTTP requests provided that the server processes the SPARQL query and eventually publishes the final state of the article. dokieli's use of <code>HTTP POST</code> and <code>HTTP PUT</code> on the other hand does not expect or impose operations other than to store and serve the article. If servers would like to do versioning and how, dokieli leaves it to the servers to decide.</li>
-                    </ul>
-                  </aside>
-
-                  <p id="http-proxy">Due to <cite><a href="https://www.w3.org/TR/mixed-content/">Mixed Content</a></cite> implementations in Web browsers, ie. <q>fetching of content over unencrypted or unauthenticated connections in the context of an encrypted and authenticated document</q>, is subject to being blocked by the Web browser. Hence, an https document (eg article at https) will not be able to use the contents of an http document (eg. an http WebID). As a workaround, dokieli uses a proxy endpoint by default in order to use the contents of an http resource. An https document fetching an https resource will not use the proxy.</p>
-                </div>
-              </section>
-
-              <section id="authentication-dokieli" inlist="" rel="schema:hasPart" resource="#authentication">
-                <h3 property="schema:name">Authentication</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>dokieli was originally intended to handle different authentication mechanisms. <a href="https://www.w3.org/2005/Incubator/webid/spec/tls/">WebID-TLS</a> is currently supported to authenticate with servers.</p>
-                </div>
-              </section>
-
-              <section id="storage-dokieli" inlist="" rel="schema:hasPart" resource="#storage">
-                <h3 property="schema:name">Storage</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <dl>
-                    <dt id="personal-storage">Personal storage</dt>
-                    <dd>WebID's with <code>pim:storage</code> can get to use their personal online data storage with dokieli's read-write operations, eg all annotations, <cite>Reply</cite>, <cite>Review</cite>, <cite>New</cite>, <cite>Save As</cite>.</dd>
-
-                    <dt id="local-storage">Local storage</dt>
-                    <dd>There is a <cite>Local Storage</cite> feature which uses user-agent's <var>window.localStorage</var>, with default 1m autosave.</dd>
-                  </dl>
-                </div>
-              </section>
-
-              <section id="web-extension-dokieli" inlist="" rel="schema:hasPart" resource="#web-extension">
-                <h3 property="schema:name">Web Extension</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>The dokieli <cite><a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions">Web Extension</a></cite> is a minimal package of dokieli which contains the core CSS and JavaScript that works as a browser add-on. When user triggers it from their browser toolbar, it provides the same functionality as a <cite>single-page application</cite>, ie. initialised and rendered in the browser DOM.</p>
-
-                  <p>Currently the extension works with Firefox and Chrome/Chromium browsers. Two ways to do this:</p>
-
-                  <ol>
-                    <li>Extensions are available from <cite><a href="https://addons.mozilla.org/en-US/firefox/addon/dokieli/">Add-ons for Firefox</a></cite> and <cite><a href="https://chrome.google.com/webstore/detail/ddmhaonbhodhgkaljpjlglodncddalid">Chrome Web Store</a></cite>.</li>
-
-                    <li>Clone <a href="https://github.com/linkeddata/dokieli">https://github.com/linkeddata/dokieli</a> and import directory:
-                      <ul>
-                        <li>Firefox: <q>Load Temporary Add-on</q> from Add-ons (or go to <code>about:debugging</code> from addressbar) and import by selecting a file from the directory (eg manifest.json). See also <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Temporary_Installation_in_Firefox">temporary add-on installation</a>.</li>
-                        <li>Chrome/Chromium: Check the <q>developer more</q> option, under <cite>Extensions</cite> (or go to <code>chrome://extensions/</code> from addressbar) and import the directory.</li>
-                      </ul>
-                    </li>
-                  </ol>
-                </div>
-              </section>
-<hr/>
-
-<p><cite><a data-versiondate="2018-09-20T15:50:46Z" data-versionurl="https://web.archive.org/web/20180920155046/https://www.southampton.ac.uk/~harnad/Papers/Harnad/harnad95.interactive.cognition.html" href="https://www.southampton.ac.uk/~harnad/Papers/Harnad/harnad95.interactive.cognition.html">Interactive Cognition: Exploring the Potential of Electronic Quote/Commenting</a></cite></p>
-
-<hr/>
-
-          <section id="dokieli-privacy" inlist="" rel="schema:hasPart" resource="dokieli-privacy">
-            <h3 property="schema:name">Privacy in dokieli</h3>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p>own personal data storage for articles, annotations, and inbox</p>
-              <p>Preferred proxy</p>
-            </div>
-          </section>
 
               <section id="interactive-linked-statistics" inlist="" rel="schame:hasPart" resource="#sparqlines">
                 <h3 property="schema:name">Interactive Linked Statistics</h3>
@@ -452,8 +250,24 @@ XXX:
                             We demonstrate an implementation which allows scientists or authors to easily enhance their work with sparklines generated from their own or public statistical linked datasets. This article includes an active demonstration accessible at <a href="http://csarven.ca/sparqlines-sparql-to-sparkline">http://csarven.ca/sparqlines-sparql-to-sparkline</a>.</p>
                 </div>
               </section>
+
             </div>
           </section>
+
+
+
+<hr />
+
+              <p class="contribution">From the point of enabling further ORCID: while having an ORCID, a person can have their storage, inbox ( https://twitter.com/csarven/status/905421364353490944 ), outbox ( https://twitter.com/csarven/status/991642357983514625 ) elsewhere ...</p>
+
+<hr/>
+
+<hr/>
+
+<p><cite><a data-versiondate="2018-09-20T15:50:46Z" data-versionurl="https://web.archive.org/web/20180920155046/https://www.southampton.ac.uk/~harnad/Papers/Harnad/harnad95.interactive.cognition.html" href="https://www.southampton.ac.uk/~harnad/Papers/Harnad/harnad95.interactive.cognition.html">Interactive Cognition: Exploring the Potential of Electronic Quote/Commenting</a></cite></p>
+
+<hr/>
+
 
 
           <section id="comparison-of-annotation-applications" inlist="" rel="schema:hasPart" resource="#comparison-of-annotation-applications">
