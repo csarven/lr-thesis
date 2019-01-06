@@ -747,6 +747,8 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
             <div datatype="rdf:HTML" property="schema:description">
               <p>In this section we discussed how notifications may be purposed in a number of ways in a decentralised scholarly communication ecosystem. We outlined specific use cases, and used these to derive design considerations. An overview of existing protocols for decentralised notifications indicates their respective strengths and shortcomings, and a new protocol is designed to meet our needs in light of this. The Linked Data Notifications protocol separates the concepts of <em>senders</em>, <em>receivers</em> and <em>consumers</em> of notifications for modularity, and leverages Linked Data concepts of shared vocabularies and URIs, thus providing a building block for notifications between diverse decentralised Web applications. The three roles can be implemented independently from each other or all together in one system. This permits end users more freedom to switch between the online tools they use, as well as generating greater value when notifications from different sources can be shared between applications and used in combination.</p>
 
+              <p>The utility and flexibility of LDN is demonstrated to some extent by the various implementations reported as part of the standardisation process. In this final concluding section, I evaluate LDN by comparing it along various axes with the potential alternatives. I also explain its relationship with other Web standards in the Linked Data or decentralisation space, and describe how LDN addresses users' degree of control over their data and applications. Finally, I discuss additional considerations that were omitted from LDN at the time of standardisation but may be important to take into account for certain implementations.</p>
+
               <section id="comparison-of-notification-mechanisms" inlist="" rel="schema:hasPart" resource="#comparison-of-notification-mechanisms">
                 <h3 property="schema:name">Comparison of Notification Mechanisms</h3>
                 <div datatype="rdf:HTML" property="schema:description">
@@ -1021,11 +1023,11 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                 </div>
               </section>
 
-              <p>There are many diverse use cases within scholarly communication now and likely to be more in the future, hence leaving the protocol flexible accommodates unexpected use. Specialisation may be necessary, however not at the protocol level. Thus, we leave it up to applications to specialise their functionality.</p>
+              <p>As we have seen in <cite>Scholarly Communication on the Web</cite>, research communication is continuously transitioning from print-centric to Web-centric. LDN being rooted to Web-centric protocols and formats builds on a reliable and relevant foundation for it to be used as part of the future scholarly communications ecosystem.</p>
 
-              <p>As we have seen in <cite>Scholarly Communication on the Web</cite>, research communication is continuously transitioning from print-centric to Web-centric. Thus, LDN being rooted to Web-centric protocols and formats builds on a reliable foundation.</p>
+              <p>There are many diverse use cases for notifications within scholarly communication now and likely to be more in the future, so designing the protocol to be flexible permits a common thread of data sharing between these different cases, as well as accommodating unexpected use. Specialisation may be necessary for notifications to be particularly useful in a lot of scenarios, however the protocol is not the level to do this. Thus, LDN leaves it up to applications to specialise their functionality for particular domains or user needs.</p>
 
-              <p>In the next section, we will look at LDN in context of a specific application for (scholarly) authoring, annotations, and social interactions.</p>
+              <p>In the next section, I present LDN as one part of the broader scholarly communication ecosystem through an implementation which ties together many relevant protocols, and encompasses article authoring, annotations, and social interactions.</p>
             </div>
           </section>
         </div>
