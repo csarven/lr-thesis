@@ -598,6 +598,8 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                       </tr>
                     </tfoot>
                   </table>
+
+                  <p>We note here that some of the receiver implementations are either LDP-based, extension of LDP, generally LD-based platforms, stand-alone libraries, or integrated into existing domain specific systems, eg personal websites.</p>
                 </div>
               </section>
 
@@ -640,6 +642,8 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                       </tr>
                     </tfoot>
                   </table>
+
+                  <p>We note here that some of the consumer implementations are either capable of interacting with LDP servers, streaming-capable implementations of LDN, stand-alone libraries, or domain specific applications.</p>
                 </div>
               </section>
 
@@ -682,6 +686,8 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                       </tr>
                     </tfoot>
                   </table>
+
+                  <p>We note here that some of the sender implementations are either capable of interacting with LDP servers, streaming-capable implementations of LDN, stand-alone libraries, or domain specific applications.</p>
                 </div>
               </section>
             </div>
@@ -740,7 +746,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>Here we compare existing notification mechanisms and the benefits of Linked Data Notification, followed by a discussion of the trade-offs that were necessary to realize those benefits.</p>
 
-                  <p>We restrict our review to mechanisms which do not expect the notification to be received or used only by the same software or platform which sent it. The criteria includes our <a href="linked-data-notifications#requirements-and-design-considerations">requirements and design considerations</a> (<em>Rx</em>) along with additional technical information which helps to capture some design differences (<em>Tx</em>).</p>
+                  <p>The comparison criteria includes our <a href="linked-data-notifications#requirements-and-design-considerations">requirements and design considerations</a> (<em>Rx</em>) along with additional technical information which helps to capture some design differences (<em>Tx</em>).</p>
 
                   <p>The figure <cite><a href="#table-comparison-of-notification-mechanisms">Comparison of notification mechanisms</a></cite> is derived from <a href="http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms">http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms</a> and modified to include <cite>WebSub</cite>.</p>
 
@@ -893,7 +899,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                               <dt>T1</dt><dd>Notification type</dd>
                               <dt>T2</dt><dd>Delivery method</dd>
                               <dt>T3</dt><dd>Dependencies</dd>
-                              <dt>R1</dt><dd>Modularity (application classes: S Sender, R Receiver, C Consumer, U Subscriber/User)</dd>
+                              <dt>R1</dt><dd>Modularity (application classes: S Sender, R Receiver, C Consumer, U Subscriber)</dd>
                               <dt>R2</dt><dd>Reusability</dd>
                               <dt>R3</dt><dd>Persistence - required? how?</dd>
                               <dt>R4-A</dt><dd>Target representation</dd>
@@ -941,7 +947,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 
                   <p>The mechanisms with the fat ping approach require structured data in XML or JSON-LD. Only LDN requires the use of the RDF language through JSON-LD with optionally allowing negotiating alternate RDF formats. Thus, the notification content including other information about other referable resources as well as being potentially network-retrievable.</p>
 
-                  <p>In placing no constraints on the contained information, LDN enables a sender to be precise and lossless with the data it is transmitting. Approaches which send only URLs rely on the receiver interpreting a third-party resource, which may or may not contain structured markup or be under the control of the sender. Approaches which offer additional guidance to aid the receiver in interpreting the source document(s) nonetheless still restricts the sender. LDN therefore offers flexibility to senders, increasing the potential uses for the notification mechanism. LDN compensates for increased complexity on the receiver’s end by recommending filtering mechanisms, and moving some of the burden of understanding notifications to the consumer role. As such LDN can cover a broader variety of use cases.</p>
+                  <p>In placing no constraints on the contained information, LDN enables a sender to be precise and lossless with the data it is transmitting. Approaches which send only URLs (as with linkback) rely on the receiver interpreting a third-party resource, which may or may not contain structured content or be under the control of the sender. Approaches which offer additional guidance to aid the receiver in interpreting the source document(s) nonetheless still restricts the sender. LDN therefore offers flexibility to senders, increasing the potential uses for the notification mechanism. LDN compensates for increased complexity on the receiver’s end by recommending filtering mechanisms, and moving some of the burden of understanding notifications to the consumer role. As such LDN can cover a broader variety of use cases.</p>
 
                   <p>WebSub and LDN both recommend that receiver applications should process the payload, however do not further specify a criteria for the applications. Semantic Pingback and Webmention require processing of the information url-encoded form in order to proceed with the information in the linkback. Thus, they require receivers to parse the content at the source URL in order to verify the message (by finding the target URL). In the case of WebSub and LDN, as processing is left at the discretion of the receiver, linkback style verification is not required. WebSub or PuSh based mechanisms require subscribing as part of its core design, Semantic Pingback, Webmention, and Provenance Pingback strictly disallow subscribing. LDN allows the possibility for applications to perform subscription-like interaction by taking on multiple roles.</p>
 
