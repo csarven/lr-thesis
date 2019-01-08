@@ -297,7 +297,7 @@ building a mental infrastructure.
 
               <dl id="forces-in-linked-research">
                 <dt>Actor</dt>
-                <dd>Any <q cite="https://www.w3.org/TR/webarch/#def-web-agent">web agent</q>—people or software acting on the information space.</dd>
+                <dd>Any <q cite="https://www.w3.org/TR/webarch/#def-web-agent">web agent</q> — person or software — is able to participate in scholarly communication using WebIDs.</dd>
 
                 <dt>Accessibility</dt>
                 <dd>A registered IRI for a unit of information can resolve to an HTTP URL as per content negotiation.</dd>

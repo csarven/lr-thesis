@@ -24,11 +24,11 @@
 
           <p>More specifically, we will address the following requirements for the research question on <span class="todo">X</span> in context of <a href="decentralising-scholarly-communication#degree-of-control">degree of control</a> (as previously discussed in <cite>Decentralised Storage and Interoperable Applications</cite> section):</p>
 
-          <ul>
-            <li>Interoperable applications through decentralised Linked Notifications and Web Annotations.</li>
-            <li>Creating human and machine-interpretable Web resources.</li>
+           <ul>
+            <li>Interoperable applications through Linked Data Notifications and Web Annotations.</li>
+            <!-- <li>Creating human and machine-interpretable Web resources.</li> -->
             <li>Actors use their preferred WebID in clientside applications.</li>
-            <li>Actors use their preferred clientside application to perform HTTP-based read-write operations on their personal data storage or where they have access to.</li>
+            <li>Actors use their preferred clientside application to perform HTTP-based read-write operations on their where they have access to.</li>
             <li>Actors switch between applications without having to move or alter the schema of their data.</li>
             <li>Actors relocating data without having to change their preferred application.</li>
             <li>Querying and visualising statistical data from clientside applications.</li>
@@ -478,13 +478,13 @@ XXX:
           <section id="dokieli-forces-functions" inlist="" rel="schema:hasPart" resource="dokieli-forces-functions">
             <h2 property="schema:name">Forces and Functions in dokieli</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>We argue that dokieli can facilitate the realisation of interconnecting scholarly communication systems.</p>
+              <p>This section goes into detail about how dokieli fulfills or supports some of the forces and functions in scientific communication.</p>
 
               <p id="dokieli-forces">As dokieli is employed, we observe the <em>forces</em>:</p>
 
               <dl>
                 <dt>Actor</dt>
-                <dd></dd>
+                <dd>Any <q cite="https://www.w3.org/TR/webarch/#def-web-agent">web agent</q> — person or software — is able to participate by identifying themselves with WebIDs.</dd>
 
                 <dt>Content</dt>
                 <dd></dd>
@@ -535,10 +535,10 @@ XXX:
                 <h3 property="schema:name">Degree of Control in dokieli</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <ul>
-                    <li>Interoperable applications through decentralised Linked Notifications and Web Annotations.</li>
-                    <li>Creating human and machine-interpretable Web resources.</li>
+                    <li>Interoperable applications through Linked Data Notifications and Web Annotations.</li>
+                    <!-- <li>Creating human and machine-interpretable Web resources.</li> -->
                     <li>Actors use their preferred WebID in clientside applications.</li>
-                    <li>Actors use their preferred clientside application to perform HTTP-based read-write operations on their personal data storage or where they have access to.</li>
+                    <li>Actors use their preferred clientside application to perform HTTP-based read-write operations on their where they have access to.</li>
                     <li>Actors switch between applications without having to move or alter the schema of their data.</li>
                     <li>Actors relocating data without having to change their preferred application.</li>
                     <li>Querying and visualising statistical data from clientside applications.</li>
