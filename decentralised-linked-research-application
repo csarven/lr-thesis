@@ -484,16 +484,16 @@ XXX:
 
               <dl>
                 <dt>Actor</dt>
-                <dd>Any <q cite="https://www.w3.org/TR/webarch/#def-web-agent">web agent</q> — person or software — is able to participate by identifying themselves with WebIDs.</dd>
+                <dd>Any <q cite="https://www.w3.org/TR/webarch/#def-web-agent">web agent</q> — person or software — can use WebIDs for their identities when participating in reading and writing resources. Actors may also contribute anonymously, be pseudonymous, or unlinkable. Applications like dokieli can follow links in an actor's profile description to discover the members of their social network.</dd>
 
                 <dt>Content</dt>
-                <dd></dd>
+                <dd>Actors can author, publish, and reuse Web resources, including articles, annotations, notifications, as well as query statistical data and lookup citation references. Information in dokieli is automatically expressed by the application for certain aspects of units of information or explicitly expressed by the actor using suitable Linked Data <a href="structure-of-scholarly-information#vocabularies">vocabularies</a>. Any fragment of <a href="scholarly-communication-on-the-web#axiom-0a">resource of significance</a> can be assigned a URI.</dd>
 
                 <dt>Accessibility</dt>
-                <dd></dd>
+                <dd>Actors can access publicly available HTTP URIs directly or authenticate themselves in order to retrieve representations of access controlled resources - including articles, annotations, and notifications - provided that they are authorized to. Actors can set access rules on resources they control.</dd>
 
                 <dt>Applicability</dt>
-                <dd></dd>
+                <dd>Applicability of scholarly communication comes from research which responds to problems or answers questions, which can be used or built upon by others. dokieli makes it possible to both express and share units of information pertaining to applicability.</dd>
               </dl>
 
               <p id="dokieli-functions">The <em>functions</em>:</p>
