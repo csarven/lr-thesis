@@ -724,7 +724,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 
               <dl>
                 <dt>Registration</dt>
-                <dd>Prior to LDN, notifications generally would not be considered as persistent units of information. Notifications being registered as their own entities as HTTP URIs facilitates information discovery and reuse.</dd>
+                <dd>Prior to LDN, notifications generally would not be considered as persistent units of information. Notifications being registered as their own entities as HTTP URIs facilitates information discovery and reuse. Registration of scholarly artefacts are not addressed by LDN, however, notifications which reference scholarly artefacts are registered.</dd>
 
                 <dt>Awareness</dt>
                 <dd>The LDN protocol provides a way for content to be disseminated, as well as read by different consumers. LDN can be used to inform systems that a registration of a unit of information took place; a request for quality-control and verification is sought-after, or has occurred; and for instance, an archiving service is informed to place a request for preserving the units.</dd>
