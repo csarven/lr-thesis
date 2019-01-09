@@ -736,8 +736,6 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
                 <dd>LDN can be implemented to support archival processes. When new units of information are registered, or existing units of information are updated, archives can be notified in order to store a persistent copy of the resources.</dd>
               </dl>
 
-              <p>Primarily, LDN fulfill the awareness function. Registration of scholarly artefacts are not addressed by LDN, however, notifications which reference scholarly artefacts are registered. With respect to the certification and archiving functions, LDN can be employed to bridge systems that are dedicated to carrying out those functions. For certification, LDN helps to distribute the acknowledgement of validity and quality-control of registered units of information across scholarly systems. Similarly, LDN can inform archiving systems about the existence and state of units of information to can be preserved. Lastly, LDN can be used to communicate information pertaining to rewards, incentives and feedback, and metrics could be directly derived from the notification system itself.</p>
-
               <p>The information herein is factored into table <cite><a href="decentralising-scholarly-communication#specifications-for-forces-and-functions">Specifications for Forces and Functions</a></cite>.</p>
             </div>
           </section>

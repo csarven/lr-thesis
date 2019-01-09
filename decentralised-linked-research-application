@@ -487,7 +487,7 @@ XXX:
                 <dd>Any <q cite="https://www.w3.org/TR/webarch/#def-web-agent">web agent</q> — person or software — can use WebIDs for their identities when participating in reading and writing resources. Actors may also contribute anonymously, be pseudonymous, or unlinkable. Applications like dokieli can follow links in an actor's profile description to discover the members of their social network.</dd>
 
                 <dt>Content</dt>
-                <dd>Actors can author, publish, and reuse Web resources, including articles, annotations, notifications, as well as query statistical data and lookup citation references. Information in dokieli is automatically expressed by the application for certain aspects of units of information or explicitly expressed by the actor using suitable Linked Data <a href="structure-of-scholarly-information#vocabularies">vocabularies</a>. Any fragment of <a href="scholarly-communication-on-the-web#axiom-0a">resource of significance</a> can be assigned a URI.</dd>
+                <dd>Actors can author, publish, and reuse Web resources, including articles, annotations, notifications, as well as query statistical data and lookup citation references. Any fragment of <a href="scholarly-communication-on-the-web#axiom-0a">resource of significance</a> can be assigned a URI. Information in dokieli is automatically expressed by the application for certain aspects of units of information or explicitly expressed by the actor using suitable Linked Data <a href="structure-of-scholarly-information#vocabularies">vocabularies</a>.</dd>
 
                 <dt>Accessibility</dt>
                 <dd>Actors can access publicly available HTTP URIs directly or authenticate themselves in order to retrieve representations of access controlled resources - including articles, annotations, and notifications - provided that they are authorized to. Actors can set access rules on resources they control.</dd>
@@ -500,19 +500,17 @@ XXX:
 
               <dl>
                 <dt>Registration</dt>
-                <dd></dd>
+                <dd>Articles, annotations, and notifications can be registered as their own entities by assigning HTTP URIs at any location the actor has ownership or access to, facilitating information discovery and reuse. Registration of units of information are triggered by dokieli and then realised by servers.</dd>
 
                 <dt>Awareness</dt>
-                <dd></dd>
+                <dd>The LDN protocol is used to disseminate notifications to document, profile, or community managed scholarly communication inboxes. The kind of notifications range from information sharing, request for feedback, replies, reviews or annotations of resources, to bringing attention to citation back-references.</dd>
 
                 <dt>Certification</dt>
-                <dd></dd>
+                <dd>Units of information at any level of granularity can be annotated or replied to, from entire articles to individual data points as part of quality-control. All artefacts for the purpose of quality-control are registered units of information that can be dereferenced, and can be announced to any party of interest; inboxes of individuals and scholarly communities.</dd>
 
                 <dt>Archiving</dt>
-                <dd></dd>
+                <dd>dokieli can inform the APIs of archiving systems (in the form of an annotation) about the existence and state of units of information that can be crawled and preserved.</dd>
               </dl>
-
-              <p>...</p>
             </div>
           </section>
 
