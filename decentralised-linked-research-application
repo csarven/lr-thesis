@@ -136,7 +136,7 @@ XXX:
               <section id="authentication" inlist="" rel="schema:hasPart" resource="#authentication">
                 <h3 property="schema:name">Authentication</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>Actors can authenticate themselves using <a href="#webid-tls">WebID-TLS</a> and <a href="#webid-oidc">WebID-OIDC</a> mechanisms in order to be authorized to read, write, or control resources.</p>
+                  <p>Actors can authenticate themselves using <a href="#webid-tls">WebID-TLS</a> and <a href="#webid-oidc">WebID-OIDC</a> mechanisms on route to determine their level of authorization to read, write, and control resources. The workflow for authentication starts by user inputting their WebID (HTTP URI) or their Identity Provider URL as a shorthand for their WebID. The Web resources in which the user wishes to interact with may be under any domain, whether self-hosted or another party's, running a server application conforming to the same standards.</p>
                 </div>
               </section>
 
@@ -154,19 +154,33 @@ XXX:
                 </div>
               </section>
 
-              <section id="discovering-resources" inlist="" rel="schema:hasPart" resource="#discovering-resources">
-                <h3 property="schema:name">Discovering Resources</h3>
+              <section id="dokieli-overview" inlist="" rel="schema:hasPart" resource="#notifications">
+                <h3 property="schema:name">Overview</h3>
                 <div datatype="rdf:HTML" property="schema:description">
+                  <p>dokieli applies the notion of articles, annotations, notifications, and profiles as described in <a href="structure-of-scholarly-informationunits-of-communication">Units of Communication</a>. Here we summarise the key protocols and data models in use. Later, we will describe some of the key uses in further detail.</p>
 
+                  <p id="separation-of-concerns">dokieli adopts <cite>progressive enhancement</cite> strategy for the structural, presentational, and behavioural layers to allow content and base functionality to be accessible through different media and devices. The content in HTML+RDFa that dokieli produces <em>is</em> accessible (readable by human and machine consumers) without requiring any CSS or JavaScript, ie. text-browser safe.</p>
+
+                  <p id="serialisations">dokieli can serialise articles, annotations, and notifications in HTML+RDFa, Turtle, and JSON-LD, depending on server content-negotiation. Articles are represented in HTML+RDFa so that information is usable by both humans and machine consumers while maintaining lowest requirements for publishing, eg. a single URL with full payload in HTML+RDFa can be accessible from any HTTP server. No additional requirements necessary from clients (eg. JavaScript support and enabled) or servers (eg. additional RDF based content-negotiation). For annotations and notifications, dokieli first meets interoperability requirements (for protocols and vocabularies), and remains flexible about the serialisation that servers prefer. Similarly for consuming content, it can work with any of the serialisations as mentioned.</p>
+
+                  <p id="human-machine-readable">dokieli takes the approach of having all human-visible content in HTML, and all structured statements be made in context of their content in RDFa. This is optimal in avoiding data duplication in the same document which happens to be the case with the other serialisations in RDF. The approach also helps to avoid the creation and usage of multiple data islands, ie. separately for humans and machines. It is efficient in that it has no dependency on JavaScript in order to make the hidden machine-readable content be consumable from a human user interface. One exception to this rule is allowing authors to use the <cite>Embed Data</cite> feature to include Turtle, JSON-LD, or TriG data blocks for alternative reasons.</p>
+
+                  <p><strong>Articles</strong>: An article - in the most general sense of the term - may contain RDF classes like <code>schema:CreativeWork</code>, <code>sioc:Post</code>, <code>prov:Entity</code>, <code>schema:Article</code>, <code>as:Article</code>. While the body of annotations may also considered as articles in their own right, we reserve the usage of the term articles in particular to primary research documents typically containing structured prose.</p>
+
+                  <p><strong>Annotations</strong>: dokieli uses the Web Annotation <cite>Data Model</cite> and <cite>Vocabulary</cite> to express the annotations it creates, as well as implementing the Web Annotation <cite>Protocol</cite> in order to communicate with conforming annotation servers. dokieli applies the <cite>Embedding Web Annotations in HTML</cite> approach. In fact, the examples in the W3C Note were derived from dokieli's application of the WA vocabulary for HTML+RDFa representations. This is one of the key contributions of this thesis and to technical specifications. An annotation has the <code>oa:Annotation</code> RDF class, contains a link to its body content and the target resource in which it is associated with.</p>
+
+                  <p><strong>Notifications</strong>: dokieli implements the LDN protocol to discover social and scholarly activities, such as annotations with different motivations, as well as sending contextual notifications to recipients (like documents or web-agents). A notification may have one of the following classes: <code>as:Announce</code>, <code>as:Like</code>, <code>as:Dislike</code>, <code>as:Relationship</code>.</p>
+
+                  <p><strong>Profiles</strong>: Actors can use their personal WebIDs, and profile descriptions when interacting with the Web resources.</p>
                 </div>
               </section>
-
 
               <section id="dokieli-privacy" inlist="" rel="schema:hasPart" resource="dokieli-privacy">
                 <h3 property="schema:name">Privacy in dokieli</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>own personal data storage for articles, annotations, and inbox</p>
                   <p>Preferred proxy</p>
+                  <p>activities</p>
                 </div>
               </section>
 
