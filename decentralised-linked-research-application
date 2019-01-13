@@ -146,10 +146,29 @@
                 </div>
               </section>
 
-              <section id="authentication" inlist="" rel="schema:hasPart" resource="#authentication">
-                <h3 property="schema:name">Authentication</h3>
+              <section id="personal-identities" inlist="" rel="schema:hasPart" resource="#personal-identities">
+                <h3 property="schema:name">Personal Identities</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>Actors can authenticate themselves using <a href="#webid-tls">WebID-TLS</a> and <a href="#webid-oidc">WebID-OIDC</a> mechanisms on route to determine their level of authorization to read, write, and control resources. The workflow for authentication starts by user inputting their WebID (HTTP URI) or their Identity Provider URL as a shorthand for their WebID. The Web resources in which the user wishes to interact with may be under any domain, whether self-hosted or another party's, running a server application conforming to the same standards.</p>
+                  <p id="authentication"><strong>Authentication</strong>: Actors can authenticate themselves using <a href="#webid-tls">WebID-TLS</a> and <a href="#webid-oidc">WebID-OIDC</a> mechanisms on route to determine their level of authorization to read, write, and control resources. The workflow for authentication starts by user inputting their WebID (HTTP URI) or their Identity Provider URL as a shorthand for their WebID in dokieli UI. The Web resources in which the user wishes to interact with may be under any domain, whether self-hosted or another party's, running a server application conforming to the same standards.</p>
+
+                  <p id="profile-description">In order to adopt dokieli's user-interface and the kinds of interactions that user can perform, we dereference the user's <a href="#webid">WebID</a> (HTTP URI), and parse the <a href="#webid-profile">WebID Profile</a> document to glean the following kinds of information:</p>
+
+                  <ul>
+                    <li>Name (eg. <code>foaf:name</code> and equivalents)</li>
+                    <li>Image (eg. <code>foaf:image</code> and equivalents)</li>
+                    <li>Homepage (eg. <code>foaf:homepage</code> and equivalents)</li>
+                    <li><a href="decentralising-scholarly-communication#social-graph">Social graph</a> (<code>foaf:knows</code>)</li>
+                    <li><a href="decentralising-scholarly-communication#pds">Storage</a> (<code>pim:storage</code>)</li>
+                    <li><a href="linked-data-notifications#inbox-notification">Inbox</a> (<code>ldp:inbox</code>, and alias <code>as:inbox</code>)</li>
+                    <li><a href="decentralising-scholarly-communication#activitypub">Outbox</a> (<code>as:outbox</code>)</li>
+                    <li>Preferences (<code>pim:preferencesFile</code>, <code>solid:publicTypeIndex</code>, <code>solid:privateTypeIndex</code>)</li>
+                    <li>Preferred proxy (<code>solid:preferredProxy</code>)</li>
+                    <li><a href="decentralising-scholarly-communication#multiple-identities">Multiple identities</a> (<code>owl:sameAs</code>)</li>
+                    <li>Additional information (<code>rdfs:seeAlso</code>)</li>
+                    <li><a href="decentralising-scholarly-communication#webid-tls-delegation">Delegated agent</a> (<code>acl:delegates</code>)</li>
+                  </ul>
+
+                  <p>When dokieli encounters <code>owl:sameAs</code> and <code>rdfs:seeAlso</code>, 
                 </div>
               </section>
 
