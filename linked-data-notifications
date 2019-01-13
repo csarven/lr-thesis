@@ -101,7 +101,7 @@
 
               <p id="linked-data-platform-use-cases-and-requirements">The <cite><a href="https://www.w3.org/TR/ldp-ucr/">Linked Data Platform Use Cases and Requirements</a></cite> (<abbr title="Linked Data Platform Use Cases and Requirements">LDP-UCR</abbr>) documents <q cite="https://www.w3.org/TR/ldp-ucr/#aggregation-and-mashups-of-infrastructure-data">Aggregation and Mashups of Infrastructure Data</q> as one of the user stories and <q cite="https://www.w3.org/TR/ldp-ucr/#uc6">Aggregate resources</q> as the derived use case.</p>
 
-              <p>In addition to general social Web activities, researchers and scholars, as well as software on their behalf (actors) perform discipline-specific activities to send (registration), discover (awareness), and reuse public and private notifications (accessibility, content). We describe some scenarios in scholarly communication which are facilitated by notifications:</p>
+              <p id="scholarly-communication-notification-use-cases">In addition to general social Web activities, researchers and scholars, as well as software on their behalf (actors) perform discipline-specific activities to send (registration), discover (awareness), and reuse public and private notifications (accessibility, content). We describe some scenarios in scholarly communication which are facilitated by notifications:</p>
 
               <dl>
                 <dt>Call for contributions</dt>

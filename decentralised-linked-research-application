@@ -89,24 +89,19 @@
           <section id="implementing-a-read-write-application" inlist="" rel="schema:hasPart" resource="#implementing-a-read-write-application">
             <h2 property="schema:name">Implementing a Read-Write Application</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>In this section we demonstrate how the various standards described can be pieced together into an application designed for researchers to participate in the scholarly communication ecosystem.</p>
+              <p>In this section we demonstrate how the various standards described can be pieced together into an application designed for researchers to participate in the scholarly communication ecosystem autonomously. We highlight some scholarly communication use cases with <cite><a href="https://dokie.li/">dokieli</a></cite>, a clientside editor for decentralised article publishing, annotations and social interactions.</p>
 
-              <p class="todo">We highlight social scholarly communication use cases with <cite><a href="https://dokie.li/">dokieli</a></cite>, a clientside editor for decentralised scientific article publishing, annotations and social interactions [<a class="ref" href="#ref-17">17</a>]. dokieli uses LDN to send and consume notifications: When a reader comments on a fragment of text in an article, the application discovers the article’s Inbox and sends a notification about the annotation. dokieli also consumes notifications from this Inbox to fetch and display the annotation as marginalia (<a href="#figure-dokieli-annotation">figure 2</a>). A reader can share a dokieli-enabled article with their contacts; dokieli discovers each contact’s Inbox and sends a notification there (<a href="#figure-dokieli-share">figure 3</a>). When editing an article, the author can add a citation. If an Inbox is discovered in the cited article, dokieli sends a notification there to indicate what part of the article was cited by whom and where. dokieli-enabled articles also consume citation notifications to display these metrics for the author and other readers (<a href="#figure-dokieli-citation">figure 4</a>).</p>
+              <p>dokieli implements the use cases pertaining to <a href="#decentralised-linked-notifications-and-annotations">Decentralised Linked Notifications and Annotations</a> as outlined earlier, as well as those specific to <a href="linked-data-notifications#scholarly-communication-notification-use-cases">scholarly communication</a>.</p>
 
-              <p>dokieli implements the following use cases, to most intent, from the W3C <cite><a href="https://www.w3.org/TR/xhtml-rdfa-scenarios/">RDFa Use Cases: Scenarios for Embedding RDF in HTML</a></cite>: <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-1">Basic Structured Blogging</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-2">Publishing an Event - Overriding Some of the Rendered Data</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-3">Content Management Metadata</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-5">Web Clipboard</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-7">Advanced Data Structures</q>, and <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-8">Augmented Browsing for Scientists</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-9">Publishing a RDF Vocabulary</q>.</p>
+              <p>dokieli is inherently a general-purpose authoring, annotating, and notifying application. While it implements use cases specific to research or scholarly communication, it is not constrained to it. For instance, dokieli is capable of rendering the following use cases from the W3C <cite><a href="https://www.w3.org/TR/xhtml-rdfa-scenarios/">RDFa Use Cases: Scenarios for Embedding RDF in HTML</a></cite>: <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-1">Basic Structured Blogging</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-2">Publishing an Event - Overriding Some of the Rendered Data</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-3">Content Management Metadata</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-5">Web Clipboard</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-7">Advanced Data Structures</q>, and <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-8">Augmented Browsing for Scientists</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-9">Publishing a RDF Vocabulary</q>.</p>
 
+              <p>dokieli uses LDN to send and consume notifications: When a reader comments on a fragment of text in an article, the application discovers the article’s Inbox and sends a notification about the annotation. dokieli also consumes notifications from this Inbox to fetch and display the annotation as marginalia (<a href="#figure-dokieli-annotation">figure 2</a>). A reader can share a dokieli-enabled article with their contacts; dokieli discovers each contact’s Inbox and sends a notification there (<a href="#figure-dokieli-share">figure 3</a>). When editing an article, the author can add a citation. If an Inbox is discovered in the cited article, dokieli sends a notification there to indicate what part of the article was cited by whom and where. dokieli-enabled articles also consume citation notifications to display these metrics for the author and other readers (<a href="#figure-dokieli-citation">figure 4</a>).</p>
 
-              <p class="todo">This section is mostly a dump of dokie.li/docs.. need to revise/extend. What else should it focus on?</p>
 
 <!--
-XXX: 
-              <p>In this section we describe a client-side application that reflects some of the <a href="scholarly-communication-on-the-web#inspecting-effects-and-artefacts">effects and artefacts of Web-centric scholarly communication</a> focusing on following areas:</p>
-
 <pre>
-** csarven.ca/dokieli-rww
 *** outbox in WebID Profile ... discuss in connection to extension
 *** memento, immutable.. internet archive features
-** dokie.li/docs
 </pre>
 -->
 
@@ -121,7 +116,6 @@ XXX:
 
 <hr />
 
-              <p>Creating articles, annotations, and notifications in dokieli is intended to be done through its UI, where it takes care of majority of the semantic content generation.</p>
 
               <section id="information-overview" inlist="" rel="schema:hasPart" resource="#information-overview">
                 <h3 property="schema:name">Information Overview</h3>
@@ -130,9 +124,9 @@ XXX:
 
                   <p id="separation-of-concerns"><strong>Separation of Concerns</strong>: dokieli adopts <cite>progressive enhancement</cite> strategy for the structural, presentational, and behavioural layers to allow content and base functionality to be accessible through different media and devices. The content representation in HTML+RDFa that dokieli produces is accessible (readable by human and machine consumers) without requiring any CSS or JavaScript, ie. text-browser safe.</p>
 
-                  <p id="serialisations"><strong>Serialisations</strong>: dokieli can serialise articles, annotations, and notifications in HTML+RDFa, Turtle, and JSON-LD, depending on server content-negotiation. Articles are represented in HTML+RDFa so that information is usable by both humans and machine consumers while maintaining lowest requirements for publishing, eg. a single URL with full payload in HTML+RDFa can be accessible from any HTTP server. No additional requirements necessary from clients eg. JavaScript support and enabled, or servers eg. additional RDF based content-negotiation. For annotations and notifications, dokieli first meets interoperability requirements (for protocols and vocabularies), and remains flexible about the serialisation that servers prefer. Similarly for consuming content, it can work with any of the serialisations as mentioned.</p>
-
                   <p id="human-machine-readable"><strong>Human and Machine-Readable</strong>: <a href="structure-of-scholarly-information#why-rdfa">Why RDFa</a> explained having all human-visible content in HTML, and all structured statements be made in context of their content in RDFa, thereby a close association between structured data and visual locality. dokieli takes this approach when preparing documents, also to avoid any data duplication in the same document - adhering to the <abbr title="Don't Repeat Yourself">DRY</abbr> principle. The approach also helps to avoid the creation and usage of multiple data islands, ie. separately for humans and machines. Consequently, it has the advantage of not having any dependency on JavaScript in order to make the hidden machine-readable content be consumable from a human user interface. One exception to this rule is where dokieli allows authors to use embed Turtle, JSON-LD, or TriG data blocks in HTML typically for the purpose of non-prose information. We cannot know in advance what new kinds of information or data can be integrated into articles. So, dokieli sets no constraints on what information and how it can be be expressed in order to facilitate extensibility. Information can be expressed using different vocabularies, enabling reuse of existing data models and the addition of new semantic expressions.</p>
+
+                  <p id="serialisations"><strong>Serialisations</strong>: dokieli can serialise articles, annotations, and notifications in HTML+RDFa, Turtle, and JSON-LD, depending on server content-negotiation. Articles are represented in HTML+RDFa so that information is usable by both humans and machine consumers while maintaining lowest requirements for publishing, eg. a single URL with full payload in HTML+RDFa can be accessible from any HTTP server. No additional requirements necessary from clients eg. JavaScript support and enabled, or servers eg. additional RDF based content-negotiation. For annotations and notifications, dokieli first meets interoperability requirements (for protocols and vocabularies), and remains flexible about the serialisation that servers prefer. Similarly for consuming content, it can work with any of the serialisations as mentioned.</p>
 
                   <p id="notification-inbox"><strong>Notification Inbox</strong>: An article or an arbitrary unit of information within may be associated with a notification inbox as per LDN's <code>ldp:inbox</code>. Articles containing the inbox relation is detected by dokieli, and used to send notifications about annotations that the user creates. While orthogonal, articles and inboxes can also preserve context in that a unique inbox can be associated with a unique version of an article, so that annotations will refer to the specific version of an article, as well as being specifically recalled through the unique inbox. dokieli also enables users to assign an inbox for the annotation that they are creating. This has the advantage that the annotation has its own inbox and it can be discovered by other means. This approach is supplementary to threaded annotations, ie. annotations on annotations, can be used independently of the primary article. The assignment of the inbox comes from user's preferred location for an inbox for the purpose of announcements. It is based on Solid's Type Index Registration approach."</p>
 
@@ -140,8 +134,7 @@ XXX:
 
                   <p id="license"><strong>License</strong>: Actors can assign any license and rights to their documents or any fragment within. All of the Creative Commons licenses are available from the dokieli UI for actors to use for articles and annotations. Notifications are licensed with CC0 1.0 Universal (public domain dedication).</p>
 
-                  <p>dokieli applies the notion of articles, annotations, notifications, and profiles as described in <a href="structure-of-scholarly-informationunits-of-communication">Units of Communication</a>.</p>
-
+                  <p>dokieli applies the notion of articles, annotations, notifications, and profiles as described in <a href="structure-of-scholarly-informationunits-of-communication">Units of Communication</a>. Creating articles, annotations, and notifications in dokieli is intended to be done through its UI, and generates the required structured content.</p>
 
                   <p id="articles"><strong>Articles</strong>: An article - in the most general sense of the term - may contain RDF classes like <code>schema:CreativeWork</code>, <code>sioc:Post</code>, <code>prov:Entity</code>, <code>schema:Article</code>, <code>as:Article</code>. While the body of annotations may also considered as articles in their own right, we reserve the usage of the term articles in particular to primary research documents typically containing structured prose. Actors can assign unique identifiers to any fragment of information.</p>
 
@@ -570,6 +563,10 @@ XXX:
                   </ul>
                 </div>
               </section>
+
+              <hr />
+
+              <p>In this section we described a client-side application that reflects some of the <a href="scholarly-communication-on-the-web#inspecting-effects-and-artefacts">effects and artefacts of Web-centric scholarly communication</a>.</p>
             </div>
           </section>
 
