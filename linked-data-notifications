@@ -222,6 +222,16 @@
             <div datatype="rdf:HTML" property="schema:description">
               <p><dfn id="ldn">Linked Data Notifications (<abbr title="Linked Data Notifications">LDN</abbr>)</dfn> is an HTTP-based protocol to facilitate exchanging messages between applications. LDN describes how servers (receivers) can receive messages pushed to them by applications (senders), as well as how other applications (consumers) may retrieve those messages. Any resource (target) can advertise a receiving endpoint (Inbox) for notification messages. Messages are expressed in RDF, and can contain arbitrary data. LDN is a <cite><a href="https://www.w3.org/TR/ldn/">W3C Recommendation</a></cite>.</p>
 
+              <dl id="inbox-notification" rel="schema:hasPart" resource="#inbox-notification">
+                <!-- <p resource="#concept-scheme" typeof="skos:ConceptScheme"><span property="skos:definition">As the following terms used throughout this article may be subject to different interpretations by different communities, we provide some definitions here.</span></p> -->
+
+                <dt>Inbox</dt>
+                <dd rel="skos:hasTopConcept">An <span about="#concept-inbox" id="concept-inbox" property="skos:prefLabel" rel="skos:topConceptOf" resource="#concept-scheme" typeof="skos:Concept">inbox</span> is <span about="#concept-inbox" property="skos:definition">a container or directory (attached to a Web resource) which is used to store and serve a collection of notifications.</span></dd>
+
+                <dt>Notification</dt>
+                <dd rel="skos:hasTopConcept">A <span about="#concept-notification" id="concept-notification" property="skos:prefLabel" rel="skos:topConceptOf" resource="#concept-scheme" typeof="skos:Concept">notification</span> is <span about="#concept-notification" property="skos:definition">a retrievable resource in an inbox which returns content expressed in RDF. The contents of notifications are intended to describe a change in state of some other resource, or contain new information for the attention of a user or process, and may be subject to constraints of the Inbox it is contained in.</span></dd>
+              </dl>
+
               <p class="todo">Should the LDN spec be included in the appendix? What are the conditions (rights) for including it here?</p>
 
               <p id="design-intent">We designed the LDN protocol to support sharing and reuse of notifications <em>across</em> applications, regardless of how they were generated or what their contents are. We describe how the principles of identification, addressability and semantic representation can be applied to notifications on the Web. Specifying LDN as a formal protocol allows independently implemented, heterogeneous applications which generate and use notifications, to seamlessly work together. Thus, LDN supports the decentralisation of the Web as well as encourages the generation and consumption of Linked Data.</p>
