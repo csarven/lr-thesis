@@ -168,7 +168,7 @@
                     <li><a href="decentralising-scholarly-communication#webid-tls-delegation">Delegated agent</a> (<code>acl:delegates</code>)</li>
                   </ul>
 
-                  <p>When dokieli encounters <code>owl:sameAs</code> and <code>rdfs:seeAlso</code>, 
+                  <p>When dokieli encounters <code>owl:sameAs</code> and <code>rdfs:seeAlso</code>, it contentiously traverses the resources to mine relevant information until all options are exhausted through <a href="structure-of-scholarly-information#follow-your-nose">follow-your-nose</a> type of exploration eg. if the primary WebID does not have a fullname or an inbox relation, but a <em>same as</em> is present, dokieli will attempt to find that information from there.</p> 
                 </div>
               </section>
 
