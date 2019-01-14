@@ -151,7 +151,7 @@
                 <div datatype="rdf:HTML" property="schema:description">
                   <p id="authentication"><strong>Authentication</strong>: Actors can authenticate themselves using <a href="#webid-tls">WebID-TLS</a> and <a href="#webid-oidc">WebID-OIDC</a> mechanisms on route to determine their level of authorization to read, write, and control resources. The workflow for authentication starts by user inputting their WebID (HTTP URI) or their Identity Provider URL as a shorthand for their WebID in dokieli UI. The Web resources in which the user wishes to interact with may be under any domain, whether self-hosted or another party's, running a server application conforming to the same standards.</p>
 
-                  <p id="profile-description">In order to adopt dokieli's user-interface and the kinds of interactions that user can perform, we dereference the user's <a href="#webid">WebID</a> (HTTP URI), and parse the <a href="#webid-profile">WebID Profile</a> document to glean the following kinds of information:</p>
+                  <p id="profile-description"><strong>Profile Description</strong>: In order to adopt dokieli's user-interface and the kinds of interactions that a user can perform, we dereference the user's <a href="#webid">WebID</a> (HTTP URI), and parse the <a href="#webid-profile">WebID Profile</a> document to glean the following kinds of information:</p>
 
                   <ul>
                     <li>Name (eg. <code>foaf:name</code> and equivalents)</li>
@@ -168,7 +168,7 @@
                     <li><a href="decentralising-scholarly-communication#webid-tls-delegation">Delegated agent</a> (<code>acl:delegates</code>)</li>
                   </ul>
 
-                  <p>When dokieli encounters <code>owl:sameAs</code> and <code>rdfs:seeAlso</code> relations in WebID Profiles, it traverses the resources contentiously to mine as much relevant information as possible. The reason for this is both, to discover, as well as to fuse a graph that can be used to adopt the interface and the possible interactions. For example, driven by <a href="structure-of-scholarly-information#follow-your-nose">follow-your-nose</a> type of exploration, a human-readable name, an inbox relation, list of contacts can be put together by looking at the interconnected identity graph that is semantically associated.</p>
+                  <p>When dokieli encounters <code>owl:sameAs</code> and <code>rdfs:seeAlso</code> relations in WebID Profiles, it traverses the resources continuously to mine for relevant information. The reason for this is both, to discover, as well as to fuse a graph that can be used to adopt the interface and the possible interactions. For example, driven by <a href="structure-of-scholarly-information#follow-your-nose">follow-your-nose</a> type of exploration, a human-readable name, an inbox relation, list of contacts, and other information can be put together by looking at the interconnected identity graph that is semantically associated.</p>
                 </div>
               </section>
 
