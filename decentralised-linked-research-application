@@ -168,7 +168,7 @@
                     <li><a href="decentralising-scholarly-communication#webid-tls-delegation">Delegated agent</a> (<code>acl:delegates</code>)</li>
                   </ul>
 
-                  <p>When dokieli encounters <code>owl:sameAs</code> and <code>rdfs:seeAlso</code>, it contentiously traverses the resources to mine relevant information until all options are exhausted through <a href="structure-of-scholarly-information#follow-your-nose">follow-your-nose</a> type of exploration eg. if the primary WebID does not have a fullname or an inbox relation, but a <em>same as</em> is present, dokieli will attempt to find that information from there.</p> 
+                  <p>When dokieli encounters <code>owl:sameAs</code> and <code>rdfs:seeAlso</code> relations in WebID Profiles, it traverses the resources contentiously to mine as much relevant information as possible. The reason for this is both, to discover, as well as to fuse a graph that can be used to adopt the interface and the possible interactions. For example, driven by <a href="structure-of-scholarly-information#follow-your-nose">follow-your-nose</a> type of exploration, a human-readable name, an inbox relation, list of contacts can be put together by looking at the interconnected identity graph that is semantically associated.</p>
                 </div>
               </section>
 
