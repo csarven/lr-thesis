@@ -231,6 +231,14 @@
                 </div>
               </section>
 
+              <section id="citations" inlist="" rel="schema:hasPart" resource="#citations">
+                <h3 property="schema:name">Citations</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>Mention <a data-versiondate="2019-01-15T15:07:06Z" data-versionurl="https://web.archive.org/web/20190115150706/https://openaccess.leidenuniv.nl/bitstream/handle/1887/65227/STI2018_paper_241.pdf" href="https://openaccess.leidenuniv.nl/bitstream/handle/1887/65227/STI2018_paper_241.pdf"> ?</p>
+                </div>
+              </section>
+
+
               <section id="dokieli-privacy" inlist="" rel="schema:hasPart" resource="#dokieli-privacy">
                 <h3 property="schema:name">Privacy in dokieli</h3>
                 <div datatype="rdf:HTML" property="schema:description">
