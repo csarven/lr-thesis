@@ -232,7 +232,13 @@
               <section id="citations" inlist="" rel="schema:hasPart" resource="#citations">
                 <h3 property="schema:name">Citations</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>Mention <a data-versiondate="2019-01-15T15:07:06Z" data-versionurl="https://web.archive.org/web/20190115150706/https://openaccess.leidenuniv.nl/bitstream/handle/1887/65227/STI2018_paper_241.pdf" href="https://openaccess.leidenuniv.nl/bitstream/handle/1887/65227/STI2018_paper_241.pdf"> ?</p>
+                  <p id="inline-citations">The registration of units of information with URIs enables us to create RDF relations between them. For example, actors can make link specific statements within and across resources, as well as annotate their intentions. The CiTO ontology as well as other Linked Data vocabularies enables this by characterising research citations both factually and rhetorically.</p>
+
+                  <p>One way to build a citation in dokieli is by authors selecting a node or a text fragment of interest in their document, and then inserting the URI of the resource to be linked to, as well as a semantic link type eg. <q>agrees with</q>, <q>confirms</q>, <q>cites as evidence</q>, from the CiTO and schema.org ontologies. dokieli takes this user input, and proceeds to retrieve data (like title, authors), from the linked document and adds a scientific endnote reference.</p>
+
+                  <p>If the cited article advertises its won LDN inbox, a notification of the citation is sent as well, thus allowing bi-directional linking.</p>
+
+                  <p class="todo">Mention <a data-versiondate="2019-01-15T15:07:06Z" data-versionurl="https://web.archive.org/web/20190115150706/https://openaccess.leidenuniv.nl/bitstream/handle/1887/65227/STI2018_paper_241.pdf" href="https://openaccess.leidenuniv.nl/bitstream/handle/1887/65227/STI2018_paper_241.pdf">Why (almost) Everything We Know About Citations is Wrong: Evidence from Authors</a>, Teplitskiy et al, 2018, ?</p>
                 </div>
               </section>
 
