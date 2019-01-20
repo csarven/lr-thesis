@@ -1109,9 +1109,9 @@ Standalone |----- Connectedness ----| Networked
                 <footer><cite><a href="http://www.worldcat.org/oclc/981396559">Laws of Media</a></cite>, p. 93</footer>
               </blockquote>
 
-              <p>In recent decades there has been a global shift in communication forms that are used for scientific activities. This perhaps demonstrates a desire for amplification of the senses that are used to consume and create knowledge. For instance, print-centric emphasises the linearity of scientific information representation and its communication, whereas a Web-centric approach makes multimodal interactions possible within the same domain. Scientists need no longer fit their understanding of the world within the confines of static and two-dimensional descriptions of phenomena. The need to travel great distances for first-hand observations and collaboration is also reduced. With electronic media, and more specifically the Web, we have the option to also watch, listen, and participate around measured observations - instantaneously - as the events occur; or after the fact, around persistent and detailed logs. Just as the invention of the printing press transformed the codification and mobility of knowledge, the Web transformed and extended human and machine communication on all fronts. What will be further explored in this thesis is the extent to which our current scholastic activities make use of the inherent qualities of the Web, as well as ways to further take advantage of these qualities.</p>
+              <p>In recent decades there has been a global shift in communication forms used for scientific activities. This perhaps demonstrates a desire for amplification of the senses that are used to consume and create knowledge. For instance, print-centric emphasises the linearity of scientific information representation and its communication, whereas a Web-centric approach makes multimodal interactions possible within the same domain. Scientists need no longer fit their understanding of the world within the confines of static and two-dimensional descriptions of phenomena. The need to travel great distances for first-hand observations and collaboration is also reduced. With electronic media, and more specifically the Web, we have the option to also watch, listen, and participate around measured observations, instantaneously as the events occur, or after the fact around persistent and detailed logs. Just as the invention of the printing press transformed the codification and mobility of knowledge, the Web transformed and extended human and machine communication on all fronts. What will be further explored in this thesis is the extent to which our current scholarly activities make use of the inherent qualities of the Web, as well as ways to further take advantage of these qualities.</p>
 
-              <p>In order to help us understand the effects of the Web on scholarly communication, we can use <a href="http://dbpedia.org/Marshall_McLuhan" rel="cito:credits">McLuhan</a>'s tetrad on media effects as a heuristic device, a set of four questions:</p>
+              <p>In order to help us understand the effects of the Web on scholarly communication, we can use <a href="http://dbpedia.org/Marshall_McLuhan" rel="cito:credits">McLuhan</a>'s tetrad of media effects as a heuristic device; a set of four questions:</p>
 
               <blockquote cite="http://www.worldcat.org/oclc/981396559" rel="cito:includesQuotationFrom">
                 <ul>
@@ -1123,26 +1123,20 @@ Standalone |----- Connectedness ----| Networked
                 <footer><cite><a href="http://www.worldcat.org/oclc/981396559">Laws of Media</a></cite>, p. 7</footer>
               </blockquote>
 
-              <p>The questions are intended to be complimentary and studied simultaneously. They correspond to four effects: <q>enhances</q>, <q>obsolesces</q>, <q>retrieves</q>, and <q>reverses into</q>. We can use this tetrad to situate the effects and artefacts of scholarly communication on the Web in relation to adjacent mediums, in particular, to print media.</p>
+              <p>The questions are intended to be complimentary and studied simultaneously. They correspond to four effects: <q>enhances</q>, <q>obsolesces</q>, <q>retrieves</q>, and <q>reverses into</q>. I use this tetrad to situate the effects and artefacts of scholarly communication on the Web in relation to adjacent mediums, in particular, to print media:</p>
 
               <dl>
                 <dt>Enhances</dt>
-                <dd>access to information, autonomy, social connections, decentralisation, distribution, immediacy,multi-modality</dd>
+                <dd>access to information, autonomy, social connections, decentralisation, distribution, immediacy, multi-modality</dd>
                 <dt>Obsolesces</dt>
                 <dd>centralisation, isolation, distance, memorisation, privacy, tactility, travel, linearity, typographical conventions</dd>
                 <dt>Retrieves</dt>
                 <dd>community, correspondence, direct representation, free expression, dialogue, involvement, public space, self-control</dd>
                 <dt>Reverses into</dt>
-                <dd>collectivism, degraded information quality, group-think, information overload, fabricated, lack of accountability, information, noise, third-party control</dd>
+                <dd>collectivism, degraded information quality, group-think, information overload, fabrication, lack of accountability, information, noise, third-party control</dd>
               </dl>
 
-              <p>The tetrad serves as a conceptual categorisation of effects. It allows us to outline what the medium enables or has implications for based on testable observations. Verifying, realising, and analysing some of these effects in "the real world", or in day-to-day academic practice, is the core of this thesis. Whilst there exists a plethora of possible observations, this thesis will focus on:</p>
-
-              <ul id="inspecting-effects-and-artefacts">
-                <li>composition of scholarly information</li>
-                <li>individual autonomy to create and consume knowledge</li>
-                <li>sociality of scholarly communication</li>
-              </ul>
+              <p id="inspecting-effects-and-artefacts">The tetrad serves as a conceptual categorisation of impacts of a medium. It allows us to outline and analyse what the medium enables or has implications for based on observations in "the real world", or in day-to-day academic practice. In particular, we can examine the Web's effects and artefacts with regards to composition of scholarly information, individual autonomy to create and consume knowledge, and sociality of scholarly communication.</p>
 
               <p>By examining these effects, we can hone in on understanding what the underlying <em>form</em> does to us, society at large, and scientific communication itself. It provides us with a foundation to go further in uncovering the nature of scholarly communication's interplay with the Web. What has it shaped? What are the current challenges? How do we envision the communication to be? How can we use the medium better whether through its original intentions or new?</p>
 
