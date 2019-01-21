@@ -143,6 +143,17 @@
                 </div>
               </section>
 
+              <section id="deployment" inlist="" rel="schema:hasPart" resource="#deployment">
+                <h3 property="schema:name">Deployment</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>dokieli employs two complementary deployment approaches: <em>single-page application</em> and <em>Web browser extension</em>.</p>
+
+                  <p id="single-page-application">dokieli’s presentational and behavioural code layers can be included in Web pages in order to trigger them as active single-page applications. It is a smart client that allows different kinds of articles eg. academic, blog posts, news, to be authored and annotated from within Web browsers, without necessarily having them deployed from a server, ie. it can be used offline or on localhost. dokieli internally handles its content and structural and semantic representation based on user’s interactivity. Articles, profiles and their contact information, notifications, annotations with different motivations, for instance, can be read and written ubiquitously to any Web space with supporting HTTP methods and access control mechanisms.</p>
+
+                  <p id="web-browser-extension">The Web browser extension is a thin wrapper around dokieli’s core code in order to embed itself in any HTML-based Web page on the Web. It inherits all of the features of a single-page application. While HTML based documents on the Web vary in their quality, dokieli’s write operations generate HTML+RDFa. One of the utilities for the extension is to have a consistent interface for annotating node or text selections on a Web page, building structured citations, creating derivations of Web resources as well as sharing parts of pages with ones contacts via notifications, without having a service dependency or being limited by the Web page’s UI.</p>
+                </div>
+              </section>
+
               <section id="http-operations" inlist="" rel="schema:hasPart" resource="#http-operations">
                 <h3 property="schema:name">HTTP operations</h3>
                 <div datatype="rdf:HTML" property="schema:description">
