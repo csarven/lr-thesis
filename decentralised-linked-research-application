@@ -113,6 +113,16 @@
                 <li>Actors can use the notification system to announce and consume information, as well as to facilitate discovery and reuse.</li>
               </ul>
 
+              <section id="deployment" inlist="" rel="schema:hasPart" resource="#deployment">
+                <h3 property="schema:name">Deployment</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>dokieli employs two complementary deployment approaches: <em>single-page application</em> and <em>Web browser extension</em>.</p>
+
+                  <p id="single-page-application">dokieli’s presentational and behavioural code layers can be included in Web pages in order to trigger them as active single-page applications. It is a smart client that allows different kinds of articles eg. academic, blog posts, news, to be authored and annotated from within Web browsers, without necessarily having them deployed from a server, ie. it can be used offline or on localhost. dokieli internally handles its content and structural and semantic representation based on user’s interactivity. Articles, profiles and their contact information, notifications, annotations with different motivations, for instance, can be read and written ubiquitously to any Web space with supporting HTTP methods and access control mechanisms.</p>
+
+                  <p id="web-browser-extension">The Web browser extension is a thin wrapper around dokieli’s core code in order to embed itself in any HTML-based Web page on the Web. It inherits all of the features of a single-page application. While HTML based documents on the Web vary in their quality, dokieli’s write operations generate HTML+RDFa. One of the utilities for the extension is to have a consistent interface for annotating node or text selections on a Web page, building structured citations, creating derivations of Web resources as well as sharing parts of pages with ones contacts via notifications, without having a service dependency or being limited by the Web page’s UI.</p>
+                </div>
+              </section>
 
               <section id="information-overview" inlist="" rel="schema:hasPart" resource="#information-overview">
                 <h3 property="schema:name">Information Overview</h3>
@@ -140,17 +150,6 @@
                   <p id="notifications"><strong>Notifications</strong>: dokieli implements the LDN protocol to discover social and scholarly activities, such as annotations with different motivations, as well as sending contextual notifications to recipients (like documents or web-agents). A notification may have one of the following classes: <code>as:Announce</code>, <code>as:Like</code>, <code>as:Dislike</code>, <code>as:Relationship</code>.</p>
 
                   <p id="profiles"><strong>Profiles</strong>: Actors can use their personal WebIDs, and profile descriptions when interacting with the Web resources.</p>
-                </div>
-              </section>
-
-              <section id="deployment" inlist="" rel="schema:hasPart" resource="#deployment">
-                <h3 property="schema:name">Deployment</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>dokieli employs two complementary deployment approaches: <em>single-page application</em> and <em>Web browser extension</em>.</p>
-
-                  <p id="single-page-application">dokieli’s presentational and behavioural code layers can be included in Web pages in order to trigger them as active single-page applications. It is a smart client that allows different kinds of articles eg. academic, blog posts, news, to be authored and annotated from within Web browsers, without necessarily having them deployed from a server, ie. it can be used offline or on localhost. dokieli internally handles its content and structural and semantic representation based on user’s interactivity. Articles, profiles and their contact information, notifications, annotations with different motivations, for instance, can be read and written ubiquitously to any Web space with supporting HTTP methods and access control mechanisms.</p>
-
-                  <p id="web-browser-extension">The Web browser extension is a thin wrapper around dokieli’s core code in order to embed itself in any HTML-based Web page on the Web. It inherits all of the features of a single-page application. While HTML based documents on the Web vary in their quality, dokieli’s write operations generate HTML+RDFa. One of the utilities for the extension is to have a consistent interface for annotating node or text selections on a Web page, building structured citations, creating derivations of Web resources as well as sharing parts of pages with ones contacts via notifications, without having a service dependency or being limited by the Web page’s UI.</p>
                 </div>
               </section>
 
