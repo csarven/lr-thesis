@@ -242,7 +242,7 @@
                     <figcaption>The citing entity (an argument) cites the cited entity (observation results) as source of factual evidence for statements it contains.</figcaption>
                   </figure>
 
-                  <p>Building on the availability of globally identifiable and structured units of information, we are able to examine information not pertaining to citations. For instance, as an article has its own inbox to receive notifications, it is capable of receiving notifications about back-references, ie. being informed that a citation was made and thus creating discoverable bi-directional linking between two units of information. Once a citation is made through the dokieli UI, dokieli proceeds to check if the cited article advertises its own LDN inbox, and if so, sends a notification to it indicating the exact relationship.</p>
+                  <p>Once a citation is made through the dokieli user interface, dokieli proceeds to check if the cited article advertises its own LDN inbox, and if so, sends a notification to indicate the citation function. This notification serves as an announcement for the back-reference, ie. being informed that a citation was made and thus creating discoverable bi-directional linking between the units of information. With the help of an inbox consumer, like dokieli, the cited article can also inform the reader about the back-references out there on the Web.</p>
                 </div>
               </section>
 
