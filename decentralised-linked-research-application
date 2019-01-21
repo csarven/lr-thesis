@@ -143,6 +143,33 @@
                 </div>
               </section>
 
+              <section id="http-operations" inlist="" rel="schema:hasPart" resource="#http-operations">
+                <h3 property="schema:name">HTTP operations</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>dokieli implements the <a href="decentralising-scholarly-communication#crud-http">HTTP based CRUD operations</a> - create, update, and delete operations - and in particular, conforms to some of the clientside operations expected to communicate with LDP implementations.</p>
+
+                  <p>Before dokieli makes a write request to a server, it triggers content-negotiation through <code>OPTIONS</code> and checks for <code>Allow</code> and <code>Accept-Post</code> headers in order to determine server's preferences. In the absence of successful negotiation, dokieli proceeds to make the request as per the required parameters of LDN, WAP, AP, and LDN. For example, <code>HTTP POST</code> with <code>application/ld+json</code> content type would be used for annotations and notifications, if a server's preference is not determined.</p>
+
+                  <p>Articles typically use <code>text/html</code> with embedded RDFa. Where a server implements <code>GET</code> with <code>text/html</code>, and allows <code>PUT</code> for writing, the assumption is that it can allow payloads with <code>text/html</code> content type. HTML+RDFa is considered to be an important default for articles for being human and machine-readable. Hence, if a server is capable of handling HTML+RDFa, it will receive articles, annotations, and notifications in that form. Otherwise, dokieli will re-serialize the content into an alternative RDF syntax that the server prefers or capable of handling.</p>
+
+                  <p><code>HTTP GET</code> is used to read resources. Article-level actions like <cite>New</cite>, <cite>Save</cite>, <cite>Save As</cite>, <cite>Reply</cite> use <code>HTTP PUT</code>. All annotation actions, notifications, as well as archiving functions use <code>HTTP POST</code> as per WAP, AP, and LDN.</p>
+
+                  <aside id="http-patch">
+                    <p>As of this writing, the reasons to use <code>HTTP POST</code> and <code>PUT</code> instead of <code>PATCH</code> are as follows:</p>
+
+                    <ul>
+                      <li>Servers with <cite><a href="https://tools.ietf.org/html/rfc5261" rel="cito:citesAsAuthority">XML Patch</a></cite> and mediatype <code>application/xml-patch+xml</code> (<cite><a href="https://tools.ietf.org/html/rfc7351" rel="cito:citesAsAuthority">RFC 7351</a></cite>) capability in the Linked Data ecosystem are not well supported.</li>
+
+                      <li><code>HTTP PATCH</code> with <cite><a href="https://www.w3.org/TR/sparql11-update/" rel="cito:citesAsAuthority">SPARQL Update</a></cite> (using mediatype <code>application/sparql-update</code>) would not work for RDFa representations because it would require additional server-side knowledge: HTML+RDFa serializer. This also makes server implementations a dependency for dokieli which is an undesirable design pattern.</li>
+
+                      <li><code>HTTP PATCH</code> can help to optimise HTTP requests provided that the server processes the SPARQL query and eventually publishes the final state of the article. dokieli's use of <code>HTTP POST</code> and <code>HTTP PUT</code> on the other hand does not expect or impose operations other than to store and serve the article. If servers would like to do versioning and how, dokieli leaves it to the servers to decide.</li>
+                    </ul>
+                  </aside>
+
+                  <p id="http-proxy">Due to <cite><a href="https://www.w3.org/TR/mixed-content/">Mixed Content</a></cite> implementations in Web browsers, ie. <q>fetching of content over unencrypted or unauthenticated connections in the context of an encrypted and authenticated document</q>, is subject to being blocked by the Web browser. Hence, a document available from <code>https:</code> will not be able to use the contents of a document available from <code>http:</code>. As a workaround, dokieli uses a proxy endpoint by default in order to use the contents of an http resource. An https document fetching an https resource will not use the proxy. The location of the proxy is determined from user's profile (if one specified). Alternatively, a built-in (but configurable) proxy location is used.</p>
+                </div>
+              </section>
+
               <section id="personal-identities" inlist="" rel="schema:hasPart" resource="#personal-identities">
                 <h3 property="schema:name">Personal Identities</h3>
                 <div datatype="rdf:HTML" property="schema:description">
@@ -172,6 +199,11 @@
               <section id="creating-resources" inlist="" rel="schema:hasPart" resource="#creating-resources">
                 <h3 property="schema:name">Creating Resources</h3>
                 <div datatype="rdf:HTML" property="schema:description">
+                  <p>The appearance of documents is determined with CSS3. Different stylesheets can be applied to the same HTML structure so that a document can be presented flexibly, in the most appropriate way for a particular circumstance. Stylesheets can be switched from either dokieli’s menu or through Web browser with native controls, for example from a two-column layout required by an academic journal to a design in keeping with the author’s blog.</p>
+
+                  <p>When JavaScript is enabled on the clientside, dokieli provides a rich editing interface which includes visual and structural formatting of text as well as embedding machine-readable semantics, media, dynamic citations, and inclusion of statistical charts from live endpoints. An external personal data store, or even internet connection, are not needed at this stage as modifications to a document made in the browser this way can be persisted to a local filesystem using the dokieli menu <em>export</em> function (or the browser’s <em>save as</em>), or through browser’s native local storage.</p>
+
+                  <p>Articles: Save, Save As, Annotations, Notifications</p>
 
                 </div>
               </section>
@@ -241,6 +273,8 @@
 <code id="citation-data-shape-must-L2">  <span class="highlight-cites-as-evidence">cito:citesAsEvidence</span> &lt;http://example.net/observation#results&gt; .</code></pre>
                     <figcaption>The citing entity (an argument) cites the cited entity (observation results) as source of factual evidence for statements it contains.</figcaption>
                   </figure>
+
+                  <p>Citing units of information in dokieli also introduces a citable unit, thereby the registration of a unit which can be semantically annotated as well as extended in any way the author deems useful.</p>
 
                   <p id="notifying-cited-entity"><strong>Notifying Cited Entity</strong>: Once a citation is made through the dokieli user interface, dokieli proceeds to check if the cited article advertises its own LDN inbox, and if so, sends a notification to indicate the citation function. This notification serves as an announcement for the back-reference, ie. being informed that a citation was made and thus creating discoverable bi-directional linking between the units of information. With the help of an inbox consumer, like dokieli, the cited article can also inform the reader about the back-references out there on the Web.</p>
 
