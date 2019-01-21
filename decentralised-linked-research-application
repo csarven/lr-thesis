@@ -243,6 +243,15 @@
                   </figure>
 
                   <p id="notifying-cited-entity"><strong>Notifying Cited Entity</strong>: Once a citation is made through the dokieli user interface, dokieli proceeds to check if the cited article advertises its own LDN inbox, and if so, sends a notification to indicate the citation function. This notification serves as an announcement for the back-reference, ie. being informed that a citation was made and thus creating discoverable bi-directional linking between the units of information. With the help of an inbox consumer, like dokieli, the cited article can also inform the reader about the back-references out there on the Web.</p>
+
+                  <p>The following screenscast illustrates a clientside interaction in dokieli where the user cites a unit of information with a particular relationship, and a notification sent to the cited entity's inbox.</p>
+
+                  <figure id="figure-dokieli-citation" inlist="" rel="schema:hasPart" resource="#figure-dokieli-citation">
+                    <video about="" controls="controls" id="video-dokieli-citation" poster="https://dokie.li/media/images/dokieli-citation.jpg" preload="none" rel="schema:hasPart" width="800">
+                      <source about="#video-dokieli-citation" rel="schema:hasPart" resource="https://dokie.li/media/video/dokieli-citation.webm" src="https://dokie.li/media/video/dokieli-citation.webm" type="video/webm" typeof="fabio:Film" />
+                    </video>
+                    <figcaption property="schema:name"><a href="https://dokie.li/media/video/dokieli-citation.webm">Video</a> of semantic inline citations</figcaption>
+                  </figure>
                 </div>
               </section>
 
