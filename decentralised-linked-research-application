@@ -48,7 +48,7 @@
               <p>The tools which provide good collaborative editing user-interfaces appear to do so at the expense of data ownership and interoperability; those which promote creation and publication of data in open reusable formats are lacking facilities for linking discourse and conversation to concepts published. Decentralised creations also mean that each author can choose their own semantics eg. their own vocabulary to annotate using the RDF language, and then such decentralised documents can link to each other and their schemas can also be mapped to each other, whereas in centralised platforms this is (if they support semantics at all) often prescribed, either technically enforced, or encouraged by social convention.</p>
 
 
-              <p>In <cite><a data-versiondate="2018-12-28T11:36:36Z" data-versionurl="https://web.archive.org/web/20181228113636/http://svn.aksw.org/papers/2011/JWS_SemanticContentAuthoring/public.pdf" href="http://svn.aksw.org/papers/2011/JWS_SemanticContentAuthoring/public.pdf">User Interfaces for Semantic Authoring of Textual Content: A Systematic Literature Review</a></cite>, Khalili et al, 2011, provide an analysis on approaches for <q>Semantic Content Authoring</q> (<abbr title="Semantic Content Authoring">SCA</abbr>), which is defined as <q>a tool-supported manual composition process aiming at the creation of semantic documents. With an ontology and a user interface appropriate for the type of content, semantic authoring can be easier than traditional composition of content and the resulting content can be of higher quality.</q> The article proposes a set of <q>quality attributes</q> - as non-functional requirements - to evaluate the performance of SCA systems: usability, customizability, generalizability, collaboration, portability, accessibility, proactivity, automation, evolvability, interoperability, and scalability. Based on the starting point of the authoring process, the authors distinguish the approaches, and generally categorised as <q>bottom-up</q> (lifting unstructured content to a semantic level) or <q>top-down</q> (semantic representations from the beginning requiring users with the knowledge of the domain), and sometimes a hybrid of the two. A survey of tools are presented (in article's Table 3) covering different types of users, expected domain knowledge, and authoring approach. The article also discusses <cite>Research and Technology Challenges</cite> and identifies a gap in addressing <q>accessibility</q>, <q>handling complexity in UIs</q>, <q>formal and systematic methods for user interface evaluation</q>, <q>heuristic evaluation</q>, <q>support of crowdsourcing</q>, UIs for ubiquitous devices.</p>
+              <p>In <cite><a data-versiondate="2018-12-28T11:36:36Z" data-versionurl="https://web.archive.org/web/20181228113636/http://svn.aksw.org/papers/2011/JWS_SemanticContentAuthoring/public.pdf" href="http://svn.aksw.org/papers/2011/JWS_SemanticContentAuthoring/public.pdf">User Interfaces for Semantic Authoring of Textual Content: A Systematic Literature Review</a></cite>, Khalili et al, 2011, provide an analysis on approaches for <q>Semantic Content Authoring</q> (<abbr title="Semantic Content Authoring">SCA</abbr>), which is defined as <q>a tool-supported manual composition process aiming at the creation of semantic documents. With an ontology and a user interface appropriate for the type of content, semantic authoring can be easier than traditional composition of content and the resulting content can be of higher quality.</q> The article proposes a set of <q>quality attributes</q<dt>as non-functional requirements - to evaluate the performance of SCA systems: usability, customizability, generalizability, collaboration, portability, accessibility, proactivity, automation, evolvability, interoperability, and scalability. Based on the starting point of the authoring process, the authors distinguish the approaches, and generally categorised as <q>bottom-up</q> (lifting unstructured content to a semantic level) or <q>top-down</q> (semantic representations from the beginning requiring users with the knowledge of the domain), and sometimes a hybrid of the two. A survey of tools are presented (in article's Table 3) covering different types of users, expected domain knowledge, and authoring approach. The article also discusses <cite>Research and Technology Challenges</cite> and identifies a gap in addressing <q>accessibility</q>, <q>handling complexity in UIs</q>, <q>formal and systematic methods for user interface evaluation</q>, <q>heuristic evaluation</q>, <q>support of crowdsourcing</q>, UIs for ubiquitous devices.</p>
 
               <p class="class">We will reuse <cite><a href="#semantic-content-authoring-quality-attributes">Semantic Content Authoring Quality Attributes</a></cite>. Mention #linked-data-notifications-implementations #comparison-of-annotation-applications #comparison-of-accessibility-applications #comparison-of-interoperability-applications #fair-metrics #adoption-of-dokieli</p>
             </div>
@@ -156,7 +156,7 @@
               <section id="http-operations" inlist="" rel="schema:hasPart" resource="#http-operations">
                 <h3 property="schema:name">HTTP operations</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>dokieli implements the <a href="decentralising-scholarly-communication#crud-http">HTTP based CRUD operations</a> - create, update, and delete operations - and in particular, conforms to some of the clientside operations expected to communicate with LDP implementations.</p>
+                  <p>dokieli implements the <a href="decentralising-scholarly-communication#crud-http">HTTP based CRUD operations</a<dt>create, update, and delete operations - and in particular, conforms to some of the clientside operations expected to communicate with LDP implementations.</p>
 
                   <p>Before dokieli makes a write request to a server, it triggers content-negotiation through <code>OPTIONS</code> and checks for <code>Allow</code> and <code>Accept-Post</code> headers in order to determine server's preferences. In the absence of successful negotiation, dokieli proceeds to make the request as per the required parameters of LDN, WAP, AP, and LDN. For example, <code>HTTP POST</code> with <code>application/ld+json</code> content type would be used for annotations and notifications, if a server's preference is not determined.</p>
 
@@ -298,6 +298,76 @@
                   <p>Once the annotation is created and has a dereferenceable HTTP URI (subject to access control rules), a notification can be sent to the inbox of the target resource about the annotation if an article or arbitrary parts advertises an LDN inbox. Depending on the motivation of the annotation, the notification is modelled with the <cite>Activity vocabulary</cite> eg. the <a href="https://www.w3.org/TR/activitystreams-vocabulary/#dfn-create">Create</a> activity (<code>as:Create</code>), to indicate that the actor has created the object.</p>
 
                   <p>In order to discover and view previously created annotations around article, dokieli follows LDN's discovery mechanism for notifications about annotations, and then subsequently fetches the annotations in order to display them in context of what they are associated with.</p>
+
+                  <p>In 2016, the <cite><a href="https://hypothes.is/annotating-all-knowledge/">Annotating All Knowledge Coalition</a></cite> derived user stories based on the notion of what open annotation can enable. Below is a list of responses with respect to dokieli, to each of the the user stories <a href="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">derived from</a> <cite><a data-versiondate="2019-01-22T12:10:41Z" data-versionurl="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/" href="https://hypothes.is/blog/a-coalition-of-scholarly-annotators/">A Coalition for Scholarly Annotation</a></cite>:</p>
+
+                  <dl rel="prov:wasDerivedFrom" resource="#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">
+                    <dt>As an author of a paper, I want to invite a small group of colleagues to provide feedback.</dt>
+                    <dd>✔ Handled with the Share notification.</dd>
+
+                    <dt>As a pre-print publisher, I want to create and manage an overlay journal.</dt>
+                    <dd>✗ Not of interest to dokieli development, but how dokieli is used eg https://linkedresearch.org/ based journal.</dd>
+
+                    <dt>As a journal publisher, I want to implement a peer review system that brings authors and reviewers together in role-defined groups.</dt>
+                    <dd>✔ Partly possible in dokieli. No explicit roles are assigned by the tooling, but rather ACL on an inbox which can receive annotations/reviews for select individuals/groups for any part of the document.</dd>
+
+                    <dt>As a university librarian, I want students’ dissertations to be annotated openly so they carry forward an expectation that things should work that way.</dt>
+                    <dd>✔</dd>
+
+                    <dt>As a biomedical researcher, I want to use human curation of the literature to develop examples we can use to train our text mining algorithms.</dt>
+                    <dd>✔/✗ I suspect that this is intended to be a top-down annotation. This is a todo in https://github.com/linkeddata/dokieli/issues/54 .</dd>
+
+                    <dt>As a journal publisher, I want to create safe spaces for commentary so that authors and expert readers can participate comfortably.</dt>
+                    <dd>+1 "safe space" is of interest, but unclear by this description. If based around ACL, Solid+dokieli covers this. If it is about whether who can annotate and whether those annotations are made visible without filtering, this is not yet handled. Currently, the owner of the inbox decides or has a chance to restrict the notifications, and annotations to be viewed thereafter.</dd>
+
+                    <dt>As a vision-impaired user, I want annotation tools to be accessible to me.</dt>
+                    <dd>+1. More ARIA https://github.com/linkeddata/dokieli/issues/24 on top of out of the box good accessibility practices?</dd>
+
+                    <dt>As an annotator, I want to be able to assign DOIs to individual contributions, or to sets of them.</dt>
+                    <dd>✔/✗ "DOI" is unclear whether it is a DOI string or an HTTP URL that happens to be doi.org. dokieli is interested in HTTP URIs and the contributor controls where they save their items. DOI string generation and/or registering is out of scope.</dd>
+
+                    <dt>As an author, I want annotation to integrate with my preferred writing tool so that annotations can flow back into the text.</dt>
+                    <dd>✔ If such tooling supports the Web Annotation vocabulary and able to send a notification to the inbox of a dokieli URI, it will work out of the box.</dd>
+
+                    <dt>As a scientist, I want to participate in a journal club that travels around the web, annotating papers in many different publishing systems.</dt>
+                    <dd>I think this is out of scope. Annotating in dokieli is not like genius/hypothes.is where the user could potentially annotate any type of document (PDF/HTML..) and have their annotation stored at a centralised service. dokieli annotation UI annotates articles that comes with the dokieli UI (the JavaScript essentially) and lets the annotator store wherever they have access to.</dd>
+
+                    <dt>As an author, I want to annotate my own published work, noting errata and supplying new context.</dt>
+                    <dd>✔</dd>
+
+                    <dt>As an editor, I want to document key editorial decisions and expose them to the public.</dt>
+                    <dd>✔/✗ This is a particular type of annotation (with motivation) I suppose. Created https://github.com/linkeddata/dokieli/issues/146 to include `oa:editing`.,</dd>
+
+                    <dt>As a scientist I want to annotate everywhere using my ORCID identity.</dt>
+                    <dd>✔/✗ The requirement is that, ORCID needs to be used as a WebID and the profile needs to have an storage.</dd>
+
+                    <dt>As a researcher, I want control over the annotations I make in various contexts so I can assemble this work into a coherent form and claim credit for it.</dt>
+                    <dd>✔ Control? Yes, this is handled by placing the contribution at a location that one trusts and has ACL settings eg., posting the annotation on own website. dokieli can assign an ACL to an annotation.</dd>
+
+                    <dt>As a publisher, I want to commission expert annotators whose commentary adds value to my content.</dt>
+                    <dd>✔ This is about filtering or working with specific inboxes. Owner of the dokieli document can assign different inboxes for different parts of the document (if needed). The "experts" with certain ACL can notify that inbox about their annotation.</dd>
+
+                    <dt>As a user, I want to be able to upvote or downvote annotations so I can help improve the quality of discussion.</dt>
+                    <dd>+1. It'll be part of https://github.com/linkeddata/dokieli/issues/146 . PS: up/downvote doesn't "improve the quality of discussion". If anything, it is a lazy way of "contributing". Preference is to say something constructive or add more information. Any way..</dd>
+
+                    <dt>As a funder, I want to bring grant reviewers together in private annotation spaces where discussion is tightly coupled to the documents they are reviewing.</dt>
+                    <dd>✔ Is this a forum/commentary space where they can read each others' annotations for all articles? What's unique to it? Otherwise, this is already possible by the fact that one gets to see a review/annotation in context of the document if they have read permissions.</dd>
+
+                    <dt>As publisher, I want to be able to review and moderate annotations in my own authoritative layer.</dt>
+                    <dd>✔/✗ We might need a special way for the owner of the inbox to display the notifications and the annotations, and flex their superpowers over them. Those with write control can already delete a notification through the UI.</dd>
+
+                    <dt>As an author, I want to be able to annotate and interconnect the references I cite.</dt>
+                    <dd>✔/✗ Unclear about the "interconnect" part. Is this just about being able to annotate a citation? If so, it is not particularly different than how the annotations and citations currently works in dokieli.</dd>
+
+                    <dt>As a publisher, I understand that readers may view my content through a variety of lenses, but I want to present my own annotation layer as the authoritative one.</dt>
+                    <dd>+1 We can have different stylesheets. It can be covered in https://github.com/linkeddata/dokieli/issues/146 and https://github.com/linkeddata/dokieli/issues/147</dd>
+
+                    <dt>As the developer of a journal publishing system, I want to deliver a bundled annotation service that integrates with my identity system.</dt>
+                    <dd>Unclear. Out of scope. Probably of interest to https://linkedresearch.org/ and a particular way of using dokieli.</dd>
+
+                    <dt>As a publisher, I want to project a curated view of a paper’s peer-review process onto the published paper.</dt>
+                    <dd>I think this will be covered in https://github.com/linkeddata/dokieli/issues/41</dd>
+                  </dl>
                 </div>
               </section>
 
@@ -628,7 +698,7 @@
                         <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_F1A">FM-F1A</a></td>
                         <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
                         <td property="earl:result" resource="#result-test-article-fm-f1a" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
-                        <td property="earl:result" resource="#result-test-article-fm-f1a" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">Checked inline - <em>sentence level</em> - identifiers</span></td>
+                        <td property="earl:result" resource="#result-test-article-fm-f1a" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">Checked inline - <em>sentence level</em<dt>identifiers</span></td>
                       </tr>
                     </tbody>
 
