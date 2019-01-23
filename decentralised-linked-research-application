@@ -241,67 +241,67 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <th>assessing</th>
+                        <th><a href="https://www.w3.org/TR/annotation-vocab/#assessing">assessing</a></th>
                         <td>Sends notification to target's inbox about the annotation as a <code>as:Like</code> activity.</td>
                         <td>Assessments in the form of "approval" and "disapproval" with comments and license that can be created from and displayed in the UI. User mode: social.</t>
                       </tr>
                       <tr>
-                        <th>bookmarking</th>
+                        <th><a href="https://www.w3.org/TR/annotation-vocab/#bookmarking">bookmarking</a></a></th>
                         <th></th>
                         <td>Node or text level targeting for an annotation including a description and tags. User mode: social.</td>
                       </tr>
                       <tr>
-                        <th>classifying</th>
+                        <th><a href="https://www.w3.org/TR/annotation-vocab/#classifying">classifying</a></th>
                         <th></th>
                         <td></td>
                       </tr>
                       <tr>
-                        <th>commenting</th>
+                        <th><a href="https://www.w3.org/TR/annotation-vocab/#commenting">commenting</a></th>
                         <td></td>
                         <td>Node or text level targeting for an annotation including a description and tags. User mode: author.</td>
                       </tr>
                       <tr>
-                        <th>describing</th>
+                        <th><a href="https://www.w3.org/TR/annotation-vocab/#describing">describing</a></th>
                         <th></th>
                         <td>Used as part of purpose for bookmarking and commenting. User mode: social, author.</td>
                       </tr>
                       <tr>
-                        <th>editing</th>
+                        <th><a href="https://www.w3.org/TR/annotation-vocab/#editing">editing</a></th>
                         <td></td>
                         <td></td>
                       </tr>
                       <tr>
-                        <th>highlighting</th>
+                        <th><a href="https://www.w3.org/TR/annotation-vocab/#highlighting">highlighting</a></th>
                         <td></td>
                         <td>Node or text level targeting that gives the user a URI based on Web Annotation Selector. User mode: social.</td>
                       </tr>
                       <tr>
-                        <th>identifying</th>
+                        <th><a href="https://www.w3.org/TR/annotation-vocab/#identifying">identifying</a></th>
                         <td></td>
                         <td></td>
                       </tr>
                       <tr>
-                        <th>linking</th>
+                        <th><a href="https://www.w3.org/TR/annotation-vocab/#linking">linking</a></th>
                         <td></td>
                         <td></td>
                       </tr>
                       <tr>
-                        <th>moderating</th>
+                        <th><a href="https://www.w3.org/TR/annotation-vocab/#moderating">moderating</a></th>
                         <td></td>
                         <td></td>
                       </tr>
                       <tr>
-                        <th>questioning</th>
+                        <th><a href="https://www.w3.org/TR/annotation-vocab/#questioning">questioning</a></th>
                         <td>Sends notification to target's inbox about the annotation as a <code>as:Create</code> activity.</td>
                         <td>A note to indicate a request for specificity (like "citation needed") including a license that can be created from and displayed in the UI. User mode: social.</td>
                       </tr>
                       <tr>
-                        <th>replying</th>
+                        <th><a href="https://www.w3.org/TR/annotation-vocab/#replying">replying</a></th>
                         <td>Sends notification to target's inbox about the annotation as a <code>as:Announce</code> activity.</td>
                         <td>A note to indicate a reply including a license that can be created from and displayed in the UI. User mode: social.</td>
                       </tr>
                       <tr>
-                        <th>tagging</th>
+                        <th><a href="https://www.w3.org/TR/annotation-vocab/#tagging">tagging</a></th>
                         <td></td>
                         <td>Used as part of purpose for bookmarking and commenting. User mode: author, social.</td>
                       </tr>
@@ -309,16 +309,19 @@
                     <tfoot>
                       <tr>
                         <td colspan="3">
-                          <dl class="abbr">
-                            <dt>Motivation</dt>
-                            <dd>Refers to Web Annotation Data Model's motivations</dd>
-                            <dt>Notification</dt>
-                            <dd>Using the Linked Data Notifications protocol with notifications using any vocabulary.</dd>
-                            <dt>Method</dt>
-                            <dd>"author" user mode refers to document formatting. "social" refers to common online interactions.</dd>
+                          <dl>
+                            <dt>Modified</dt>
+                            <dd><time content="2019-01-23T16:07:00.000Z" datatype="xsd:dateTime" datetime="2019-01-23T16:07:00.000Z" property="schema:dateModified">2019-01-23</time></dd>
                           </dl>
 
-                          <p>Data as of 2019-01-23</p>
+                          <dl>
+                            <dt>Motivation</dt>
+                            <dd>Web Annotation Data Model's motivations.</dd>
+                            <dt>Notification</dt>
+                            <dd>Using the Linked Data Notifications protocol with notifications using any vocabulary. Notifications include Creative Commons license.</dd>
+                            <dt>Method</dt>
+                            <dd>User actions, data creating and reuse. "author" user mode refers to document structuring. "social" refers to common online interactions.</dd>
+                          </dl>
                         </td>
                       </tr>
                     </tfoot>
