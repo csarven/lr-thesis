@@ -301,72 +301,80 @@
 
                   <p>In 2016, the <cite><a href="https://hypothes.is/annotating-all-knowledge/">Annotating All Knowledge Coalition</a></cite> derived user stories based on the notion of what open annotation can enable. Below is a list of responses with respect to dokieli, to each of the the user stories <a href="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">derived from</a> <cite><a data-versiondate="2019-01-22T12:10:41Z" data-versionurl="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/" href="https://hypothes.is/blog/a-coalition-of-scholarly-annotators/">A Coalition for Scholarly Annotation</a></cite>:</p>
 
+                  <dl>
+                    <dt class="earl:passed"><abbr title="Passed">✔</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#passed">Passed</a></dd>
+                    <dt class="earl:failed"><abbr title="Failed">✗</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#failed">Failed</a></dd>
+                    <dt class="earl:cantTell"><abbr title="Cannot tell">?</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#cantTell">Cannot tell</a></dd>
+                    <dt class="earl:inapplicable"><abbr title="Inapplicable">⌙</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#inapplicable">Inapplicable</a></dd>
+                    <dt class="earl:untested"><abbr title="Untested">○</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#untested">Untested</a></dd>
+                  </dl>
+
                   <dl rel="prov:wasDerivedFrom" resource="#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">
                     <dt>As an author of a paper, I want to invite a small group of colleagues to provide feedback.</dt>
-                    <dd>✔ Handled with the Share notification.</dd>
+                    <dd>Implemented with the <q>Share</q> feature using LDN.</dd>
 
                     <dt>As a pre-print publisher, I want to create and manage an overlay journal.</dt>
-                    <dd>✗ Not of interest to dokieli development, but how dokieli is used eg https://linkedresearch.org/ based journal.</dd>
+                    <dd>Inapplicable</dd>
 
                     <dt>As a journal publisher, I want to implement a peer review system that brings authors and reviewers together in role-defined groups.</dt>
-                    <dd>✔ Partly possible in dokieli. No explicit roles are assigned by the tooling, but rather ACL on an inbox which can receive annotations/reviews for select individuals/groups for any part of the document.</dd>
+                    <dd>Actors can notify each other and annotate resources. However, there is no particular system to manage it as a whole.</dd>
 
                     <dt>As a university librarian, I want students’ dissertations to be annotated openly so they carry forward an expectation that things should work that way.</dt>
-                    <dd>✔</dd>
+                    <dd><a href="#annotations">Annotations</a> with various motivations are implemented.</dd>
 
                     <dt>As a biomedical researcher, I want to use human curation of the literature to develop examples we can use to train our text mining algorithms.</dt>
-                    <dd>✔/✗ I suspect that this is intended to be a top-down annotation. This is a todo in https://github.com/linkeddata/dokieli/issues/54 .</dd>
+                    <dd>Actors can select, add, and edit semantic markup (HTML+RDFa) as well embed structured data blocks for Nanotations using TriG, as well as JSON-LD and Turtle. Common document formatting features are supported.</dd>
 
                     <dt>As a journal publisher, I want to create safe spaces for commentary so that authors and expert readers can participate comfortably.</dt>
-                    <dd>+1 "safe space" is of interest, but unclear by this description. If based around ACL, Solid+dokieli covers this. If it is about whether who can annotate and whether those annotations are made visible without filtering, this is not yet handled. Currently, the owner of the inbox decides or has a chance to restrict the notifications, and annotations to be viewed thereafter.</dd>
+                    <dd>Actors with the required access control privileges to an inbox manages the information flow. There is no overarching system to create <em>a space</em>.</dd>
 
                     <dt>As a vision-impaired user, I want annotation tools to be accessible to me.</dt>
-                    <dd>+1. More ARIA https://github.com/linkeddata/dokieli/issues/24 on top of out of the box good accessibility practices?</dd>
+                    <dd>WCAG, ATAG, ARIA.</dd>
 
                     <dt>As an annotator, I want to be able to assign DOIs to individual contributions, or to sets of them.</dt>
-                    <dd>✔/✗ "DOI" is unclear whether it is a DOI string or an HTTP URL that happens to be doi.org. dokieli is interested in HTTP URIs and the contributor controls where they save their items. DOI string generation and/or registering is out of scope.</dd>
+                    <dd>DOI generation or registering is out of scope.</dd>
 
                     <dt>As an author, I want annotation to integrate with my preferred writing tool so that annotations can flow back into the text.</dt>
-                    <dd>✔ If such tooling supports the Web Annotation vocabulary and able to send a notification to the inbox of a dokieli URI, it will work out of the box.</dd>
+                    <dd>Annotations that are generated use the Web Annotation Data Model. Web Annotation Selectors and States is used to create selectors that an actor can use.</dd>
 
                     <dt>As a scientist, I want to participate in a journal club that travels around the web, annotating papers in many different publishing systems.</dt>
-                    <dd>I think this is out of scope. Annotating in dokieli is not like genius/hypothes.is where the user could potentially annotate any type of document (PDF/HTML..) and have their annotation stored at a centralised service. dokieli annotation UI annotates articles that comes with the dokieli UI (the JavaScript essentially) and lets the annotator store wherever they have access to.</dd>
+                    <dd>Out of scope.</dd>
 
                     <dt>As an author, I want to annotate my own published work, noting errata and supplying new context.</dt>
-                    <dd>✔</dd>
+                    <dd>Authors can annotate with various motivations, include <q>codetags</q>.</dd>
 
                     <dt>As an editor, I want to document key editorial decisions and expose them to the public.</dt>
-                    <dd>✔/✗ This is a particular type of annotation (with motivation) I suppose. Created https://github.com/linkeddata/dokieli/issues/146 to include `oa:editing`.,</dd>
+                    <dd>Editors can annotate with various motivations.</dd>
 
                     <dt>As a scientist I want to annotate everywhere using my ORCID identity.</dt>
-                    <dd>✔/✗ The requirement is that, ORCID needs to be used as a WebID and the profile needs to have an storage.</dd>
+                    <dd>Scientists using their ORCID URI (as their WebID) including the storage location in their profile can annotate anywhere.</dd>
 
                     <dt>As a researcher, I want control over the annotations I make in various contexts so I can assemble this work into a coherent form and claim credit for it.</dt>
-                    <dd>✔ Control? Yes, this is handled by placing the contribution at a location that one trusts and has ACL settings eg., posting the annotation on own website. dokieli can assign an ACL to an annotation.</dd>
+                    <dd>Researchers having access controls to their annotation storage can.</dd>
 
                     <dt>As a publisher, I want to commission expert annotators whose commentary adds value to my content.</dt>
-                    <dd>✔ This is about filtering or working with specific inboxes. Owner of the dokieli document can assign different inboxes for different parts of the document (if needed). The "experts" with certain ACL can notify that inbox about their annotation.</dd>
+                    <dd>Publishers of articles and annotations can assign different inboxes to receive notifications about commentaries.</dd>
 
                     <dt>As a user, I want to be able to upvote or downvote annotations so I can help improve the quality of discussion.</dt>
-                    <dd>+1. It'll be part of https://github.com/linkeddata/dokieli/issues/146 . PS: up/downvote doesn't "improve the quality of discussion". If anything, it is a lazy way of "contributing". Preference is to say something constructive or add more information. Any way..</dd>
+                    <dd>Annotations can be created with the <q>assessing</q> motivation, as well as indicate their approval, disapproval, questioning with comments.</dd>
 
                     <dt>As a funder, I want to bring grant reviewers together in private annotation spaces where discussion is tightly coupled to the documents they are reviewing.</dt>
-                    <dd>✔ Is this a forum/commentary space where they can read each others' annotations for all articles? What's unique to it? Otherwise, this is already possible by the fact that one gets to see a review/annotation in context of the document if they have read permissions.</dd>
+                    <dd>Reviewers can annotate with various motivations, including approval, disapproval, questioning with comments.</dd>
 
                     <dt>As publisher, I want to be able to review and moderate annotations in my own authoritative layer.</dt>
-                    <dd>✔/✗ We might need a special way for the owner of the inbox to display the notifications and the annotations, and flex their superpowers over them. Those with write control can already delete a notification through the UI.</dd>
+                    <dd>Out of scope.</dd>
 
                     <dt>As an author, I want to be able to annotate and interconnect the references I cite.</dt>
-                    <dd>✔/✗ Unclear about the "interconnect" part. Is this just about being able to annotate a citation? If so, it is not particularly different than how the annotations and citations currently works in dokieli.</dd>
+                    <dd>Citing and annotations with various motivations is implemented.</dd>
 
                     <dt>As a publisher, I understand that readers may view my content through a variety of lenses, but I want to present my own annotation layer as the authoritative one.</dt>
-                    <dd>+1 We can have different stylesheets. It can be covered in https://github.com/linkeddata/dokieli/issues/146 and https://github.com/linkeddata/dokieli/issues/147</dd>
+                    <dd>Preferred stylesheet can be applied.</dd>
 
                     <dt>As the developer of a journal publishing system, I want to deliver a bundled annotation service that integrates with my identity system.</dt>
-                    <dd>Unclear. Out of scope. Probably of interest to https://linkedresearch.org/ and a particular way of using dokieli.</dd>
+                    <dd>Out of scope.</dd>
 
                     <dt>As a publisher, I want to project a curated view of a paper’s peer-review process onto the published paper.</dt>
-                    <dd>I think this will be covered in https://github.com/linkeddata/dokieli/issues/41</dd>
+                    <dd>Memento and provenance information is generated and consumed in articles. All annotations and unique inboxes can be used. RobustLinks are also shown.</dd>
                   </dl>
                 </div>
               </section>
