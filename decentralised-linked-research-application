@@ -263,7 +263,7 @@
                       <tr>
                         <th>describing</th>
                         <th></th>
-                        <td>Used as part of purpose for bookmarking and commenting. User mode: author.</td>
+                        <td>Used as part of purpose for bookmarking and commenting. User mode: social, author.</td>
                       </tr>
                       <tr>
                         <th>editing</th>
@@ -298,7 +298,7 @@
                       <tr>
                         <th>replying</th>
                         <td>Sends notification to target's inbox about the annotation as a <code>as:Announce</code> activity.</td>
-                        <td>A note to indicate a reply including a license that can be created from and displayed in the UI. Sends notification to target's inbox about the annotation as a <code>as:Create</code> activity. User mode: social.</td>
+                        <td>A note to indicate a reply including a license that can be created from and displayed in the UI. User mode: social.</td>
                       </tr>
                       <tr>
                         <th>tagging</th>
