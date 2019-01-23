@@ -301,14 +301,6 @@
 
                   <p>In 2016, the <cite><a href="https://hypothes.is/annotating-all-knowledge/">Annotating All Knowledge Coalition</a></cite> derived user stories based on the notion of what open annotation can enable. Below is a list of responses with respect to dokieli, to each of the the user stories <a href="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">derived from</a> <cite><a data-versiondate="2019-01-22T12:10:41Z" data-versionurl="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/" href="https://hypothes.is/blog/a-coalition-of-scholarly-annotators/">A Coalition for Scholarly Annotation</a></cite>:</p>
 
-                  <dl>
-                    <dt class="earl:passed"><abbr title="Passed">✔</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#passed">Passed</a></dd>
-                    <dt class="earl:failed"><abbr title="Failed">✗</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#failed">Failed</a></dd>
-                    <dt class="earl:cantTell"><abbr title="Cannot tell">?</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#cantTell">Cannot tell</a></dd>
-                    <dt class="earl:inapplicable"><abbr title="Inapplicable">⌙</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#inapplicable">Inapplicable</a></dd>
-                    <dt class="earl:untested"><abbr title="Untested">○</abbr></dt><dd><a href="https://www.w3.org/TR/EARL10-Schema/#untested">Untested</a></dd>
-                  </dl>
-
                   <dl rel="prov:wasDerivedFrom" resource="#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">
                     <dt>As an author of a paper, I want to invite a small group of colleagues to provide feedback.</dt>
                     <dd>Implemented with the <q>Share</q> feature using LDN.</dd>
