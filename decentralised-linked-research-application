@@ -236,6 +236,7 @@
                       <tr>
                         <th>Motivation</th>
                         <th>Notification</th>
+                        <th>Storage</th>
                         <th>Method</th>
                       </tr>
                     </thead>
@@ -243,40 +244,48 @@
                       <tr>
                         <th><a href="https://www.w3.org/TR/annotation-vocab/#assessing">assessing</a></th>
                         <td>Sends notification to target's inbox about the annotation as a <code>as:Like</code> activity.</td>
+                        <td>Actor's preferred storage, outbox, or annotation service.</td>
                         <td>Assessments in the form of "approval" and "disapproval" with comments and license that can be created from and displayed in the UI. User mode: social.</t>
                       </tr>
                       <tr>
                         <th><a href="https://www.w3.org/TR/annotation-vocab/#bookmarking">bookmarking</a></a></th>
-                        <th></th>
+                        <td></td>
+                        <td>Actor's preferred storage, outbox, or annotation service.</td>
                         <td>Node or text level targeting for an annotation including a description and tags. User mode: social.</td>
                       </tr>
                       <tr>
                         <th><a href="https://www.w3.org/TR/annotation-vocab/#classifying">classifying</a></th>
-                        <th></th>
+                        <td></td>
+                        <td></td>
                         <td></td>
                       </tr>
                       <tr>
                         <th><a href="https://www.w3.org/TR/annotation-vocab/#commenting">commenting</a></th>
                         <td></td>
+                        <td>Integrated into the target resource.</td>
                         <td>Node or text level targeting for an annotation including a description and tags. User mode: author.</td>
                       </tr>
                       <tr>
                         <th><a href="https://www.w3.org/TR/annotation-vocab/#describing">describing</a></th>
-                        <th></th>
+                        <td></td>
+                        <td>Actor's preferred storage, outbox, annotation service, or integrated into the target resource.</td>
                         <td>Used as part of purpose for bookmarking and commenting. User mode: social, author.</td>
                       </tr>
                       <tr>
                         <th><a href="https://www.w3.org/TR/annotation-vocab/#editing">editing</a></th>
                         <td></td>
                         <td></td>
+                        <td></td>
                       </tr>
                       <tr>
                         <th><a href="https://www.w3.org/TR/annotation-vocab/#highlighting">highlighting</a></th>
                         <td></td>
+                        <td>URI selectable from the user agent or interface.</td>
                         <td>Node or text level targeting that gives the user a URI based on Web Annotation Selector. User mode: social.</td>
                       </tr>
                       <tr>
                         <th><a href="https://www.w3.org/TR/annotation-vocab/#identifying">identifying</a></th>
+                        <td></td>
                         <td></td>
                         <td></td>
                       </tr>
@@ -284,25 +293,30 @@
                         <th><a href="https://www.w3.org/TR/annotation-vocab/#linking">linking</a></th>
                         <td></td>
                         <td></td>
+                        <td></td>
                       </tr>
                       <tr>
                         <th><a href="https://www.w3.org/TR/annotation-vocab/#moderating">moderating</a></th>
+                        <td></td>
                         <td></td>
                         <td></td>
                       </tr>
                       <tr>
                         <th><a href="https://www.w3.org/TR/annotation-vocab/#questioning">questioning</a></th>
                         <td>Sends notification to target's inbox about the annotation as a <code>as:Create</code> activity.</td>
+                        <td>Actor's preferred storage, outbox, or annotation service.</td>
                         <td>A note to indicate a request for specificity (like "citation needed") including a license that can be created from and displayed in the UI. User mode: social.</td>
                       </tr>
                       <tr>
                         <th><a href="https://www.w3.org/TR/annotation-vocab/#replying">replying</a></th>
                         <td>Sends notification to target's inbox about the annotation as a <code>as:Announce</code> activity.</td>
+                        <td>Actor's preferred storage, outbox, or annotation service.</td>
                         <td>A note to indicate a reply including a license that can be created from and displayed in the UI. User mode: social.</td>
                       </tr>
                       <tr>
                         <th><a href="https://www.w3.org/TR/annotation-vocab/#tagging">tagging</a></th>
                         <td></td>
+                        <td>Actor's preferred storage, outbox, annotation service, or integrated into the target resource.</td>
                         <td>Used as part of purpose for bookmarking and commenting. User mode: author, social.</td>
                       </tr>
                     </tbody>
