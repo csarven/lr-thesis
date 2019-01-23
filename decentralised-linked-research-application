@@ -228,70 +228,100 @@
               <section id="annotations" inlist="" rel="schema:hasPart" resource="#annotations">
                 <h3 property="schema:name">Annotations</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>Annotations can be created to associate a node or a selection with a particular user motivation. The following motivations from the WA vocabulary can be activated by the user from dokieli's user interface: highlighting, bookmarking, tagging, commenting, describing, replying, assessing, approving, disapproving. With the exception of highlighting, all of the annotation actions can be registered and stored as a unit of information at actor's <a href="#profile-storage">storage</a>, <a href="#profile-index">registered locations</a>, <a href="#profile-outbox">outbox</a>, or article's <a href="#subject-annotation-service">annotation service</a>. The users can provide a text note for their annotations, assign a <a href="#license">license</a>, as well as designate an <a href="#subject-inbox">inbox</a> for their annotation, so that it can receive its own notifications.</p>
+                  <p>Annotations can be created to associate a node or a selection with a particular user motivation. The following motivations from the WA vocabulary can be activated by the user from dokieli's user interface: highlighting, bookmarking, tagging, commenting, describing, replying, assessing, questioning. With the exception of highlighting, all of the annotation actions can be registered and stored as a unit of information at actor's <a href="#profile-storage">storage</a>, <a href="#profile-index">registered locations</a>, <a href="#profile-outbox">outbox</a>, or article's <a href="#subject-annotation-service">annotation service</a>. The users can provide a text note for their annotations, assign a <a href="#license">license</a>, as well as designate an <a href="#subject-inbox">inbox</a> for their annotation, so that it can receive its own notifications.</p>
 
                   <table>
-                    <caption>Implemented Web Annotation motivations in dokieli and corresponding user modes</caption>
+                    <caption>Implemented Web Annotation motivations in dokieli with associated Linked Data Notifications and method</caption>
                     <thead>
                       <tr>
-                        <th>motivation</th>
-                        <th>user mode</th>
+                        <th>Motivation</th>
+                        <th>Notification</th>
+                        <th>Method</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <th>assessing</th>
-                        <td>social</td>
+                        <td>Sends notification to target's inbox about the annotation as a <code>as:Like</code> activity.</td>
+                        <td>Assessments in the form of "approval" and "disapproval" with comments and license that can be created from and displayed in the UI. User mode: social.</t>
                       </tr>
                       <tr>
                         <th>bookmarking</th>
-                        <td>social</td>
+                        <th></th>
+                        <td>node or text level targeting for the annotation includes a description and user tags. User mode: social.</td>
                       </tr>
                       <tr>
                         <th>classifying</th>
+                        <th></th>
                         <td></td>
                       </tr>
                       <tr>
                         <th>commenting</th>
                         <td></td>
+                        <td>node or text level targeting for the annotation includes a description and user tags. User mode: author.</td>
                       </tr>
                       <tr>
                         <th>describing</th>
-                        <td>author</td>
+                        <th></th>
+                        <td>Used as part of purpose for bookmarking and commenting. User mode: author.</td>
                       </tr>
                       <tr>
                         <th>editing</th>
                         <td></td>
+                        <td></td>
                       </tr>
                       <tr>
                         <th>highlighting</th>
-                        <td>social</td>
+                        <td></td>
+                        <td>node or text level targeting that gives the user a URI based on Web Annotation Selector. User mode: social.</td>
                       </tr>
                       <tr>
                         <th>identifying</th>
+                        <td></td>
                         <td></td>
                       </tr>
                       <tr>
                         <th>linking</th>
                         <td></td>
+                        <td></td>
                       </tr>
                       <tr>
                         <th>moderating</th>
                         <td></td>
+                        <td></td>
                       </tr>
                       <tr>
                         <th>questioning</th>
-                        <td>social</td>
+                        <td>Sends notification to target's inbox about the annotation as a <code>as:Create</code> activity.</td>
+                        <td>A note to indicate a request for specificity (like "citation needed") including a license that can be created from and displayed in the UI. User mode: social.</td>
                       </tr>
                       <tr>
                         <th>replying</th>
-                        <td>social</td>
+                        <td>Sends notification to target's inbox about the annotation as a <code>as:Announce</code> activity.</td>
+                        <td>A note to indicate a reply including a license that can be created from and displayed in the UI. Sends notification to target's inbox about the annotation as a <code>as:Create</code> activity. User mode: social.</td>
                       </tr>
                       <tr>
                         <th>tagging</th>
-                        <td>author, social</td>
+                        <td></td>
+                        <td>Used as par of purpose for bookmarking and commenting. User mode: author, social.</td>
                       </tr>
                     </tbody>
+                    <tfoot>
+                      <tr>
+                        <td colspan="3">
+                          <dl class="abbr">
+                            <dt>Motivation</dt>
+                            <dd>Refers to Web Annotation Data Model's motivations</dd>
+                            <dt>Notification</dt>
+                            <dd>Using the Linked Data Notifications protocol with notifications using any vocabulary.</dd>
+                            <dt>Method</dt>
+                            <dd>"author" user mode refers to document formatting. "social" refers to common online interactions.</dd>
+                          </dl>
+
+                          <p>Data as of 2019-01-23</p>
+                        </td>
+                      </tr>
+                    </tfoot>
                   </table>
 
 
