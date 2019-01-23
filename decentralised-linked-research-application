@@ -248,7 +248,7 @@
                       <tr>
                         <th>bookmarking</th>
                         <th></th>
-                        <td>node or text level targeting for the annotation includes a description and user tags. User mode: social.</td>
+                        <td>Node or text level targeting for an annotation including a description and tags. User mode: social.</td>
                       </tr>
                       <tr>
                         <th>classifying</th>
@@ -258,7 +258,7 @@
                       <tr>
                         <th>commenting</th>
                         <td></td>
-                        <td>node or text level targeting for the annotation includes a description and user tags. User mode: author.</td>
+                        <td>Node or text level targeting for an annotation including a description and tags. User mode: author.</td>
                       </tr>
                       <tr>
                         <th>describing</th>
@@ -273,7 +273,7 @@
                       <tr>
                         <th>highlighting</th>
                         <td></td>
-                        <td>node or text level targeting that gives the user a URI based on Web Annotation Selector. User mode: social.</td>
+                        <td>Node or text level targeting that gives the user a URI based on Web Annotation Selector. User mode: social.</td>
                       </tr>
                       <tr>
                         <th>identifying</th>
@@ -303,7 +303,7 @@
                       <tr>
                         <th>tagging</th>
                         <td></td>
-                        <td>Used as par of purpose for bookmarking and commenting. User mode: author, social.</td>
+                        <td>Used as part of purpose for bookmarking and commenting. User mode: author, social.</td>
                       </tr>
                     </tbody>
                     <tfoot>
