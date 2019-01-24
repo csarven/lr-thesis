@@ -248,7 +248,7 @@
                         <td>Sends notification to target's inbox about the annotation as a <code>as:Like</code> activity.</td>
                       </tr>
                       <tr>
-                        <th><a href="https://www.w3.org/TR/annotation-vocab/#bookmarking">bookmarking</a></a></th>
+                        <th><a href="https://www.w3.org/TR/annotation-vocab/#bookmarking">bookmarking</a></th>
                         <td>Node or text level targeting for an annotation including a description and tags. User mode: social.</td>
                         <td>Actor's preferred storage, outbox, or annotation service.</td>
                         <td></td>
@@ -267,7 +267,7 @@
                       </tr>
                       <tr>
                         <th><a href="https://www.w3.org/TR/annotation-vocab/#describing">describing</a></th>
-                        <td>Used as part of purpose for bookmarking and commenting. User mode: social, author.</td>
+                        <td>A note to indicate a footnote. Used as part of purpose for bookmarking and commenting. User mode: social, author.</td>
                         <td>Actor's preferred storage, outbox, annotation service, or integrated into the target resource.</td>
                         <td></td>
                       </tr>
@@ -448,8 +448,8 @@
               </section>
 
 
-              <section id="social-sharing" inlist="" rel="schema:hasPart" resource="#social-sharing">
-                <h3 property="schema:name">Social Sharing</h3>
+              <section id="sharing-resources" inlist="" rel="schema:hasPart" resource="#sharing-resources">
+                <h3 property="schema:name">Sharing Resources</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>The notification is modelled with using of the Activity vocabulary's eg. <a href="https://www.w3.org/TR/activitystreams-vocabulary/#dfn-announce">Announce</a>, to indicate that the actor is calling the target's attention the object.</p>
                 </div>
