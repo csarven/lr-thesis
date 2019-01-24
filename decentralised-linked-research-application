@@ -451,7 +451,14 @@
               <section id="sharing-resources" inlist="" rel="schema:hasPart" resource="#sharing-resources">
                 <h3 property="schema:name">Sharing Resources</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>The notification is modelled with using of the Activity vocabulary's eg. <a href="https://www.w3.org/TR/activitystreams-vocabulary/#dfn-announce">Announce</a>, to indicate that the actor is calling the target's attention the object.</p>
+                  <p>A key aspect of the Social Web is sharing with others. After (optionally) authenticating with a WebID, dokieli documents can be shared with contacts, which are discovered from the user’s WebID profile. Contacts whose profiles advertise an LDN Inbox will receive a notification of the share. The notification is modelled with the Activity vocabulary, eg. <a href="https://www.w3.org/TR/activitystreams-vocabulary/#dfn-announce">Announce</a>, to indicate that the actor is calling the target's attention the object. Recipients can use any LDN-compatible application to view the notification, without needing to have ever used dokieli before.</p>
+
+                  <figure id="figure-dokieli-share" inlist="" rel="schema:hasPart" resource="#figure-dokieli-share">
+                    <video controls="controls" id="video-dokieli-share" poster="https://dokie.li/media/images/dokieli-share.jpg" preload="none" rel="schema:hasPart" width="800">
+                      <source about="#video-dokieli-share" rel="schema:hasPart" resource="https://dokie.li/media/video/dokieli-share.webm" src="https://dokie.li/media/video/dokieli-share.webm" type="video/webm" typeof="fabio:Film" />
+                    </video>
+                    <figcaption property="schema:name"><a href="https://dokie.li/media/video/dokieli-share.webm">Video</a> of dokieli Share</figcaption>
+                  </figure>
                 </div>
               </section>
 
