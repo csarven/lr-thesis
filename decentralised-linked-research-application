@@ -343,6 +343,14 @@
                     </tfoot>
                   </table>
 
+                  <figure class="listing" id="example-annotation-replying">
+                    <pre><code>&lt;http://example.org/annotation&gt;</code>
+<code>  a <span class="highlight-oa-annotation">oa:Annotation</span> ;</code>
+<code>  oa:motivatedBy <span class="highlight-oa-replying">oa:replying</span> ;</code>
+<code>  oa:hasTarget <span class="highlight-oa-hastarget">http://example.net/article</span> ;</code>
+<code>  oa:hasBody <span class="highlight-oa-hasbody">http://example.info/note</span> .</code></pre>
+                    <figcaption>Example representation of an annotation that was motivated by replying.</figcaption>
+                  </figure>
 
                   <p>Once the annotation is created and has a dereferenceable HTTP URI (subject to access control rules), a notification can be sent to the inbox of the target resource about the annotation if an article or arbitrary parts advertises an LDN inbox. Depending on the motivation of the annotation, the notification is modelled with the <cite>Activity vocabulary</cite> eg. the <a href="https://www.w3.org/TR/activitystreams-vocabulary/#dfn-create">Create</a> activity (<code>as:Create</code>), to indicate that the actor has created the object.</p>
 
