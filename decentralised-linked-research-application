@@ -176,7 +176,7 @@
                     </ul>
                   </aside>
 
-                  <p id="http-proxy">Due to <cite><a href="https://www.w3.org/TR/mixed-content/">Mixed Content</a></cite> implementations in Web browsers, ie. <q>fetching of content over unencrypted or unauthenticated connections in the context of an encrypted and authenticated document</q>, is subject to being blocked by the Web browser. Hence, a document available from <code>https:</code> will not be able to use the contents of a document available from <code>http:</code>. As a workaround, dokieli uses a proxy endpoint by default in order to use the contents of an http resource. An https document fetching an https resource will not use the proxy. The location of the proxy is determined from user's profile (if one specified). Alternatively, a built-in (but configurable) proxy location is used.</p>
+                  <p id="http-proxy">Due to <cite><a href="https://www.w3.org/TR/mixed-content/">Mixed Content</a></cite> implementations in Web browsers, ie. <q>fetching of content over unencrypted or unauthenticated connections in the context of an encrypted and authenticated document</q>, is subject to being blocked by the Web browser. Hence, a document available from <code>https:</code> will not be able to use the contents of a document available from <code>http:</code>. As a workaround, dokieli implements the notion of using a <a href="#preferred proxy">preferred proxy</a> that a user-agent can use in order to access the contents of an http resource. An https document fetching an https resource will not use the proxy.</p>
                 </div>
               </section>
 
@@ -580,8 +580,10 @@
                 <h3 property="schema:name">Privacy in dokieli</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>own personal data storage for articles, annotations, and inbox</p>
-                  <p>Preferred proxy</p>
                   <p>activities</p>
+                  <p>Actors can have privacy of their interactions and the artefacts they create through authentication mechanisms, using preferred proxies, or participating anonymously.</p>
+
+                  <p id="preferred-proxy"><strong>Preferred Proxy</strong>: A proxy endpoint can act as an intermediary between the clientside application and the destination server. This is useful in a number of scenarios for dokieli, such as getting around <a href="http-proxy">Mixed Content</a> issues as discussed earlier, as well as concealing the identity of the user agent and the actor prefers to when making requests to a server. An actor's preferred proxy can be determined by checking the WebID Profile description for the <code>solid:preferredProxy</code> relation, and if found, dokieli can use it to route requests when need. Alternatively, a built-in (but configurable) proxy location in dokieli is used.</p>
                 </div>
               </section>
 
