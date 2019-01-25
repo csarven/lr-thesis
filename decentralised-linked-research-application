@@ -254,9 +254,29 @@
                         <td>None</td>
                       </tr>
                       <tr>
+                        <td>Share</td>
+                        <td>None</td>
+                        <td>Sends notification using the Activity vocabulary's Announce about the target resource.</td>
+                      </tr>
+                      <tr>
                         <td>Citation</td>
                         <td>None</td>
                         <td><a href="#notifying-cited-entity">Notifies cited entity</a> about the citing entity's reference and the author's intention for the citation.</td>
+                      </tr>
+                      <tr>
+                        <td>Archive</td>
+                        <td>Sends notification using the Activity vocabulary's Announce about the target resource.</td>
+                        <td>None</td>
+                      </tr>
+                      <tr>
+                        <td>Version</td>
+                        <td>Generates a derived copy of the current document as a mutable resource including provenance.</td>
+                        <td>None</td>
+                      </tr>
+                      <tr>
+                        <td>Export</td>
+                        <td>Downloads the document to local system.</td>
+                        <td>None</td>
                       </tr>
                     </tbody>
                     <tfoot>
