@@ -154,7 +154,7 @@
               </section>
 
               <section id="http-operations" inlist="" rel="schema:hasPart" resource="#http-operations">
-                <h3 property="schema:name">HTTP operations</h3>
+                <h3 property="schema:name">HTTP Operations</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>dokieli implements the <a href="decentralising-scholarly-communication#crud-http">HTTP based CRUD operations</a> - create, update, and delete operations - and in particular, conforms to some of the clientside operations expected to communicate with LDP implementations.</p>
 
@@ -209,19 +209,76 @@
               <section id="creating-resources" inlist="" rel="schema:hasPart" resource="#creating-resources">
                 <h3 property="schema:name">Creating Resources</h3>
                 <div datatype="rdf:HTML" property="schema:description">
+                  <p>An actor may require to be <a href="#authentication">authenticated</a> and <a href="#acl">authorized</a> with their <a href="#webid">WebID</a> to create Web resources.</p>
+
+                  <p>dokieli allows write-operations for articles, annotations, and notifications. The user-interface.</p>
+
+                  <table>
+                    <caption>Registration of units and content in dokieli</caption>
+                    <thead>
+                      <tr>
+                        <th>Purpose</th>
+                        <th>Resource</th>
+                        <th>Notification</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>New</td>
+                        <td>Actors can create new resources by inputting the location where they are authorized. New resources are an HTML+RDFa document (a basic template) with dokieli's JavaScript and CSS.</td>
+                        <td>None</td>
+                      </tr>
+                      <tr>
+                        <td>Save</td>
+                        <td></td>
+                        <td>None</td>
+                      </tr>
+                      <tr>
+                        <td>Save As</td>
+                        <td></td>
+                        <td>None</td>
+                      </tr>
+                      <tr>
+                        <td>Reply</td>
+                        <td>A note reply modelled around <code>oa:Annotation</code> and other data..</td>
+                        <td>Sends notification using the Activity vocabulary's Announce.</td>
+                      </tr>
+                      <tr>
+                        <td>Annotation</td>
+                        <td>A note modelled around <code>oa:Annotation</code> and other data.</td>
+                        <td>Sends notifications for <code>as:Add</code> motivated by <a href="#dokieli-bookmarking">bookmarking</a>, <code>as:Announce</code>, <code>as:Like</code> and <code>as:Dislike</code> motivated by <a href="#dokieli-assessing">assessing</a>, <code>as:Relationship</code>.</td>
+                      </tr>
+                      <tr>
+                        <td>Activity</td>
+                        <td>Sends activities about the annotations and encapsulates with Activity vocabulary's Create.</td>
+                        <td>None</td>
+                      </tr>
+                      <tr>
+                        <td>Citation</td>
+                        <td>None</td>
+                        <td><a href="#notifying-cited-entity">Notifies cited entity</a> about the citing entity's reference and the author's intention for the citation.</td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <td colspan="3">
+                          <p>Any vocabulary schema:CreativeWork or one of its specialisations like <code>schema:Article</code>, <code>sioc:Post</code>, <code>prov:Entity</code>.</p>
+
+                          <p>Notifications include information about its actor, notification date, rights and license, as well as information pertaining to the activity that it is in reference to eg. an annotation motivated by replying.</p>
+
+                          <p>Web Annotation Data Model is used for the annotations. The annotation also includes information about its author, publication date, rights and license, system that was used to render the target resource (dokieli) for the annotation.</p>
+                        </td>
+                      </tr>
+                    </tfoot>
+                  </table>
+
+                  <p>Documents use HTML5 <cite><a href="https://www.w3.org/TR/html-polyglot/" rel="cito:citesAsAuthority">Polyglot Markup</a></cite>. Semantics is embedded directly into human-visible prose using RDFa.</p>
+
                   <p>The appearance of documents is determined with CSS3. Different stylesheets can be applied to the same HTML structure so that a document can be presented flexibly, in the most appropriate way for a particular circumstance. Stylesheets can be switched from either dokieli’s menu or through Web browser with native controls, for example from a two-column layout required by an academic journal to a design in keeping with the author’s blog.</p>
 
                   <p>When JavaScript is enabled on the clientside, dokieli provides a rich editing interface which includes visual and structural formatting of text as well as embedding machine-readable semantics, media, dynamic citations, and inclusion of statistical charts from live endpoints. An external personal data store, or even internet connection, are not needed at this stage as modifications to a document made in the browser this way can be persisted to a local filesystem using the dokieli menu <em>export</em> function (or the browser’s <em>save as</em>), or through browser’s native local storage.</p>
 
-                  <p>Articles: Save, Save As, Annotations, Notifications</p>
-
-                </div>
-              </section>
-
-              <section id="publishing-resources" inlist="" rel="schema:hasPart" resource="#publishing-resources">
-                <h3 property="schema:name">Publishing Resources</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-
+                  <p>These client-triggered mechanisms and methods applied to creating resources helps fulfill the registration function.</p>
                 </div>
               </section>
 
