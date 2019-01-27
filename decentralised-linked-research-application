@@ -22,6 +22,8 @@
 
           <p>In the earlier sections, we have discussed progress in research, standards, and practices towards different aspects of realising a decentralised information space. Each dataspace can be individually controlled with access controls for participating agents. Different applications can be implemented to operate on the same data, as well as send activities about the interactions about the data. In this section, we specifically discuss a set of requirements for the implementation of a clientside editor for decentralised article publishing, annotations and social interactions.</p>
 
+          <p class="todo">Explain how dokieli is a <a href="decentralising-scholarly-communication#socially-aware-read-write-linked-data">socially-aware read-write Linked Data</a> application.</p>
+
           <p>More specifically, we will address the following requirements for the research question on <span class="todo">X</span> in context of <a href="decentralising-scholarly-communication#degree-of-control">degree of control</a> (as previously discussed in <cite>Decentralised Storage and Interoperable Applications</cite> section):</p>
 
            <ul>
@@ -579,11 +581,15 @@
               <section id="dokieli-privacy" inlist="" rel="schema:hasPart" resource="#dokieli-privacy">
                 <h3 property="schema:name">Privacy in dokieli</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>own personal data storage for articles, annotations, and inbox</p>
-                  <p>activities</p>
-                  <p>Actors can have privacy of their interactions and the artefacts they create through authentication mechanisms, using preferred proxies, or participating anonymously.</p>
+                  <p>Creating awareness and enabling actors to protect their data privacy is essential to fostering user's trust in the systems they use. The adoption of standards and practices with different <a href="#degree-of-control">degrees of control</a> can yield different privacy measures. In the decentralised and interoperable environment that dokieli operates in, comes with a number of challenges and opportunities.</p>
 
-                  <p id="preferred-proxy"><strong>Preferred Proxy</strong>: A proxy endpoint can act as an intermediary between the clientside application and the destination server. This is useful in a number of scenarios for dokieli, such as getting around <a href="http-proxy">Mixed Content</a> issues as discussed earlier, as well as concealing the identity of the user agent and the actor prefers to when making requests to a server. An actor's preferred proxy can be determined by checking the WebID Profile description for the <code>solid:preferredProxy</code> relation, and if found, dokieli can use it to route requests when need. Alternatively, a built-in (but configurable) proxy location in dokieli is used.</p>
+                  <p id="data-privacy"><strong>Data Privacy</strong>: With respect to data privacy, actors can have exercise their autonomy through the use of <abbr title="Personal Data Store">PDS</abbr> for their profiles, articles, annotations, and notifications. As a <a href="#pds-expectation">PDS can provide us</a> with the means to safeguard data, dokieli as a clientside application, enables actors to perform <a href="#read-write-linked-data">read-write Linked Data</a> operations where and when they prefer.</p>
+
+                  <p id="user-privacy"><strong>User Privacy</strong>: As read-write operations are set by servers, dokieli does not require user account creations in order to interact with them. Actors are able to participate anonymously or identify themselves to dokieli by using their preferred <a href="#personal-identities">personal identities</a> when needed. Actors authenticate against the servers they prefer in order to perform access-controlled actions. Thus, dokieli acts as a conduit perform read-write operations against PDS.</p>
+
+                  <p id="preferred-proxy"><strong>Preferred Proxy</strong>: A proxy acts as an intermediary between the clientside application and the destination server. This is useful in a number of scenarios for dokieli, such as getting around <a href="#http-proxy">Mixed Content</a> issues, absence of <cite><a href="https://www.w3.org/TR/cors/">Cross-Origin Resource Sharing</a></cite> (<abbr title="Cross-Origin Resource Sharing">CORS</abbr>) support, as well as concealing the identity of the actor when making requests to a target server. An actor's preferred proxy can be determined by checking their WebID Profile description for the <code>solid:preferredProxy</code> relation, and if found, dokieli can use it to route requests when needed. Alternatively, a built-in (but user configurable) proxy location in dokieli is used.</p>
+
+                  <p id="private-activities"><strong>Private Activities</strong>: The ability for actors to create and discover <a href="#activities">activities</a> made within their social network without going through intermediaries, makes it possible to isolate units of information that is both access-controlled and invisible (or be unknown) to third-parties.</p>
                 </div>
               </section>
 
