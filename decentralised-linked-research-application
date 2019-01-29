@@ -554,7 +554,8 @@
                     <video controls="controls" id="video-dokieli-share" poster="https://dokie.li/media/images/dokieli-share.jpg" preload="none" rel="schema:hasPart" width="800">
                       <source about="#video-dokieli-share" rel="schema:hasPart" resource="https://dokie.li/media/video/dokieli-share.webm" src="https://dokie.li/media/video/dokieli-share.webm" type="video/webm" typeof="fabio:Film" />
                     </video>
-                    <figcaption property="schema:name"><a href="https://dokie.li/media/video/dokieli-share.webm">Video</a> of dokieli Share</figcaption>
+
+                    <figcaption property="schema:name"><a href="https://dokie.li/media/video/dokieli-share.webm">Video</a> of dokieli Share [<time datetime="PT36S" property="schema:duration" datatype="xsd:duration">36s</time>, <span lang="" property="schema:encodingFormat" xml:lang="">WebM</span>]</figcaption>
                   </figure>
                 </div>
               </section>
@@ -582,7 +583,8 @@
                     <video about="" controls="controls" id="video-dokieli-citation" poster="https://dokie.li/media/images/dokieli-citation.jpg" preload="none" rel="schema:hasPart" width="800">
                       <source about="#video-dokieli-citation" rel="schema:hasPart" resource="https://dokie.li/media/video/dokieli-citation.webm" src="https://dokie.li/media/video/dokieli-citation.webm" type="video/webm" typeof="fabio:Film" />
                     </video>
-                    <figcaption property="schema:name"><a href="https://dokie.li/media/video/dokieli-citation.webm">Video</a> of semantic inline citations</figcaption>
+
+                    <figcaption property="schema:name"><a href="https://dokie.li/media/video/dokieli-citation.webm">Video</a> of semantic inline citations and notification in dokieli [<time datetime="PT43S" property="schema:duration" datatype="xsd:duration">43s</time>, <span lang="" property="schema:encodingFormat" xml:lang="">WebM</span>]</figcaption>
                   </figure>
                 </div>
               </section>
@@ -679,6 +681,13 @@
                                 </span>
                             </span> claimed by the <a href="http://worldbank.270a.info/">World Bank Linked Dataspace</a>.
                             We demonstrate an implementation which allows scientists or authors to easily enhance their work with sparklines generated from their own or public statistical linked datasets. This article includes an active demonstration accessible at <a href="http://csarven.ca/sparqlines-sparql-to-sparkline">http://csarven.ca/sparqlines-sparql-to-sparkline</a>.</p>
+
+                  <figure id="figure-dokieli-sparqlines" rel="schema:video" resource="#figure-dokieli-sparqlines">
+                    <video controls="controls" id="video-dokieli-sparqlines" poster="https://dokie.li/media/images/GDP-per-capita-growth--annual---.svg" preload="none" resource="#figure-dokieli-sparqlines" typeof="schema:VideoObject" width="800">
+                      <source rel="schema:contentUrl" resource="https://dokie.li/media/video/dokieli-sparqlines.webm" src="https://dokie.li/media/video/dokieli-sparqlines.webm" type="video/webm" />
+                    </video>
+                    <figcaption property="schema:name"><a href="https://dokie.li/media/video/dokieli-sparqlines.webm">Video</a> of Sparqlines interaction in dokieli [<time datetime="PT26S" property="schema:duration" datatype="xsd:duration">26s</time>, <span lang="" property="schema:encodingFormat" xml:lang="">WebM</span>]</figcaption>
+                  </figure>
                 </div>
               </section>
 
