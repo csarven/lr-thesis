@@ -504,6 +504,16 @@
                     <dt>As a publisher, I want to project a curated view of a paper’s peer-review process onto the published paper.</dt>
                     <dd>Memento and provenance information is generated and consumed in articles. All annotations and unique inboxes can be used. RobustLinks are also shown.</dd>
                   </dl>
+
+                  <p>A <a href="#figure-dokieli-annotation">screencast of an annotation in dokieli</a> is shown below.</p>
+
+                  <figure id="figure-dokieli-annotation" inlist="" rel="schema:hasPart" resource="#figure-dokieli-annotation">
+                    <video controls="controls" id="video-dokieli-annotation" inlist="" poster="https://dokie.li/media/images/dokieli-annotation.jpg" preload="none" rel="schema:hasPart" width="800">
+                      <source about="#video-dokieli-annotation" rel="schema:hasPart" resource="https://dokie.li/media/video/dokieli-annotation.webm" src="https://dokie.li/media/video/dokieli-annotation.webm" type="video/webm" typeof="fabio:Film" />
+                    </video>
+
+                    <figcaption property="schema:name"><a href="https://dokie.li/media/video/dokieli-annotation.webm">Video</a> of dokieli Web Annotation [<time datetime="PT31S" property="schema:duration" datatype="xsd:duration">31s</time>, <span lang="" property="schema:encodingFormat" xml:lang="">WebM</span>]</figcaption>
+                  </figure>
                 </div>
               </section>
 
