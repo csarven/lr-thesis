@@ -819,7 +819,7 @@
           <section id="fair-metrics" inlist="" rel="schema:hasPart" resource="#fair-metrics">
             <h2 property="schema:name">FAIR Metrics</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p><cite><a href="https://www.nature.com/articles/sdata2018118">FAIR Metrics</a></cite> ... <a href="https://github.com/FAIRMetrics/Metrics"></a> ... <a href="https://github.com/FAIRMetrics/Metrics/raw/master/ALL.pdf"></a></p>
+              <p>As the <a href="#fair-guiding-principles">FAIR guiding principles</a> has been increasingly accepted and endorsed by research communities, we apply the corresponding <cite><a href="https://github.com/FAIRMetrics/Metrics">FAIR Metrics</a></cite> as outlined in <cite><a version-datadate="2019-01-30T16:57:04Z" version-dataurl="https://web.archive.org/web/20190130165704/https://www.nature.com/articles/sdata2018118" href="https://www.nature.com/articles/sdata2018118">A design framework and exemplar metrics for FAIRness</a></cite>, Wilkinson et al, 2018, we use it here to assess the degree in which dokieli meets the FAIR principles.</p>
 
               <section id="fair-metrics-data-structure-definition" inlist="" rel="schema:hasPart" resource="fair-metrics-data-structure-definition">
                 <h3 property="schema:name">FAIR Metrics Data Structure Definition</h3>
