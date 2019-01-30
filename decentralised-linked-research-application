@@ -848,7 +848,7 @@
                     <dt>Structure</dt>
                     <dd><a rel="qb:structure" href="#fair-metrics-data-structure-definition">FAIR Metrics</a></dd>
                   </dl>
-                  <meta rel="rdfs:seeAlso" resource="#test-article-fm-f1a" />
+                  <meta rel="rdfs:seeAlso" resource="#test-dokieli-fm-f1a" />
 
                   <table about="#fair-metrics-dataset-dokieli" id="fair-metrics-dataset-dokieli" typeof="qb:DataSet as:Object">
                     <caption>FAIR Metrics results</caption>
@@ -863,12 +863,44 @@
                     </thead>
 
                     <tbody>
-                      <tr about="#test-article-fm-f1a" typeof="qb:Observation earl:Assertion">
-                        <td><meta property="qb:dataSet" resource="#test-article" /><a property="earl:subject" href="https://dokie.li/docs#html-article">Article</a></td>
+                      <tr about="#test-dokieli-fm-f1a" typeof="qb:Observation earl:Assertion">
+                        <td><meta property="qb:dataSet" resource="#test-dokieli" /><a property="earl:subject" href="https://dokie.li/docs#html-dokieli">dokieli</a></td>
                         <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_F1A">FM-F1A</a></td>
                         <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
-                        <td property="earl:result" resource="#result-test-article-fm-f1a" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
-                        <td property="earl:result" resource="#result-test-article-fm-f1a" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">Checked inline - <em>sentence level</em> - identifiers</span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-f1a" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-f1a" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">Initiates the registration of HTTP URIs. Creates local identifiers (including Web Annotation Selectors and States) in documents. Uses HTTP URIs, DOI and ISSN names for citations.</span></td>
+                      </tr>
+
+                      <tr about="#test-dokieli-fm-f1b" typeof="qb:Observation earl:Assertion">
+                        <td><meta property="qb:dataSet" resource="#test-dokieli" /><a property="earl:subject" href="https://dokie.li/docs#html-dokieli">dokieli</a></td>
+                        <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_F1B">FM-F1B</a></td>
+                        <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-f1b" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-f1b" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">Policy about identifiers persistence can be created and retrieved.</span></td>
+                      </tr>
+
+                      <tr about="#test-dokieli-fm-f2" typeof="qb:Observation earl:Assertion">
+                        <td><meta property="qb:dataSet" resource="#test-dokieli" /><a property="earl:subject" href="https://dokie.li/docs#html-dokieli">dokieli</a></td>
+                        <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_F2">FM-F2</a></td>
+                        <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-f2" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-f2" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">All information of significance is machine-readable based on the RDF language, encoded using RDFa in HTML and SVG, JSON-LD, Turtle.</span></td>
+                      </tr>
+
+                      <tr about="#test-dokieli-fm-f3" typeof="qb:Observation earl:Assertion">
+                        <td><meta property="qb:dataSet" resource="#test-dokieli" /><a property="earl:subject" href="https://dokie.li/docs#html-dokieli">dokieli</a></td>
+                        <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_F3">FM-F3</a></td>
+                        <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-f3" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-f3" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">No distinction made for "data" and "metadata" as all documents are human and machine-readable, and can refer to other resources.</span></td>
+                      </tr>
+
+                      <tr about="#test-dokieli-fm-f4" typeof="qb:Observation earl:Assertion">
+                        <td><meta property="qb:dataSet" resource="#test-dokieli" /><a property="earl:subject" href="https://dokie.li/docs#html-dokieli">dokieli</a></td>
+                        <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_F4">FM-F4</a></td>
+                        <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-f4" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-f4" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">Units of information is findable from search engines, Web archives, Linked Open Data Cloud.</span></td>
                       </tr>
                     </tbody>
 
@@ -884,8 +916,9 @@
                           </dl>
 
                           <dl class="abbr">
-                            <dt id="FM-F1A">F1A</dt><dd>Identifier Uniqueness [<a href="https://purl.org/fair-metrics/FM_F1A">source</a>]</dd>
-                            <dt id="FM-F1B">F1B</dt><dd>Identifier Persistence [<a href="https://purl.org/fair-metrics/FM_F1B">source</a>]</dd>
+                            <dt id="FM-F1A">F1A</dt><dd>Identifier uniqueness [<a href="https://purl.org/fair-metrics/FM_F1A">source</a>]</dd>
+                            <dt id="FM-F1B">F1B</dt><dd>Identifier persistence [<a href="https://purl.org/fair-metrics/FM_F1B">source</a>]</dd>
+                            <dt id="FM-F2">F2</dt><dd>Machine-readability of metadata [<a href="https://purl.org/fair-metrics/FM_F2">source</a>]</dd>
                           </dl>
                         </td>
                       </tr>
@@ -910,11 +943,11 @@
 
               <p id="adoption-examples-in-the-wild">We list a community (of academics) who self-publish their articles and thesis using dokieli with different stylesheets and derived scripts under its <cite><a href="https://github.com/linkeddata/dokieli/wiki#examples-in-the-wild">examples in the wild</a></cite>.</p>
 
-              <p id="adoption-conferences">The conference series: WWW (e.g., <a href="http://events.linkeddata.org/ldow2018/">LDOW</a> and <a href="http://sociam.org/wow2017/">WOW</a> workshops), <a href="https://iswc2018.semanticweb.org/calls/html-submission-guide/">ISWC</a>, and <a href="http://2018.eswc-conferences.org/call-papers">ESWC</a> propose dokieli as one tooling in which authors can use to make their contributions to the calls with.</p>
+              <p id="adoption-conferences">The conference series: WWW (eg. <a href="http://events.linkeddata.org/ldow2018/">LDOW</a> and <a href="http://sociam.org/wow2017/">WOW</a> workshops), <a href="https://iswc2018.semanticweb.org/calls/html-submission-guide/">ISWC</a>, and <a href="http://2018.eswc-conferences.org/call-papers">ESWC</a> propose dokieli as one tooling in which authors can use to make their contributions to the calls with.</p>
 
               <p id="adoption-solid"><cite><a href="https://github.com/solid/solid-panes">Solid Panes</a></cite> is a set of core Solid-compatible applications includes to create human-readable and Linked Data documents. A pane displays the dokieli document using a part of its window.</p>
 
-              <p id="adoption-personal">The <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> website uses dokieli in its templates on the site as well as workshop proposals and call for contributions.</p>
+              <p id="adoption-linked-research">The <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> website uses dokieli in its templates on the site as well as workshop proposals and call for contributions.</p>
 
               <p id="adoption-personal">I practice what I preach: my personal website at <a href="http://csarven.ca/">csarven.ca</a> uses dokieli, where some articles (like this article) offer pointers to a public annotation service in which users may wish to use for their annotations. Articles also dynamically embed annotations from personal storage spaces.</p>
             </div>
