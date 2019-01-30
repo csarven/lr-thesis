@@ -902,6 +902,81 @@
                         <td property="earl:result" resource="#result-test-dokieli-fm-f4" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
                         <td property="earl:result" resource="#result-test-dokieli-fm-f4" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">Units of information is findable from search engines, Web archives, Linked Open Data Cloud.</span></td>
                       </tr>
+
+
+                      <tr about="#test-dokieli-fm-a1.1" typeof="qb:Observation earl:Assertion">
+                        <td><meta property="qb:dataSet" resource="#test-dokieli" /><a property="earl:subject" href="https://dokie.li/docs#html-dokieli">dokieli</a></td>
+                        <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_A1.1">FM-A1.1</a></td>
+                        <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-a1.1" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-a1.1" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info"></span></td>
+                      </tr>
+                      <tr about="#test-dokieli-fm-a1.2" typeof="qb:Observation earl:Assertion">
+                        <td><meta property="qb:dataSet" resource="#test-dokieli" /><a property="earl:subject" href="https://dokie.li/docs#html-dokieli">dokieli</a></td>
+                        <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_A1.1">FM-A1.2</a></td>
+                        <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-a1.2" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-a1.2" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info"></span></td>
+                      </tr>
+
+                      <tr about="#test-dokieli-fm-a2" typeof="qb:Observation earl:Assertion">
+                        <td><meta property="qb:dataSet" resource="#test-dokieli" /><a property="earl:subject" href="https://dokie.li/docs#html-dokieli">dokieli</a></td>
+                        <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_A2">FM-A2</a></td>
+                        <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-a2" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-a2" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info"></span></td>
+                      </tr>
+
+
+
+                      <tr about="#test-dokieli-fm-i1" typeof="qb:Observation earl:Assertion">
+                        <td><meta property="qb:dataSet" resource="#test-dokieli" /><a property="earl:subject" href="https://dokie.li/docs#html-dokieli">dokieli</a></td>
+                        <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_A2">FM-I1</a></td>
+                        <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-i1" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-i1" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info"></span></td>
+                      </tr>
+
+                      <tr about="#test-dokieli-fm-i2" typeof="qb:Observation earl:Assertion">
+                        <td><meta property="qb:dataSet" resource="#test-dokieli" /><a property="earl:subject" href="https://dokie.li/docs#html-dokieli">dokieli</a></td>
+                        <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_A2">FM-I2</a></td>
+                        <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-i2" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-i2" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info"></span></td>
+                      </tr>
+
+                      <tr about="#test-dokieli-fm-i3" typeof="qb:Observation earl:Assertion">
+                        <td><meta property="qb:dataSet" resource="#test-dokieli" /><a property="earl:subject" href="https://dokie.li/docs#html-dokieli">dokieli</a></td>
+                        <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_I3">FM-I3</a></td>
+                        <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-i3" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-i3" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info"></span></td>
+                      </tr>
+
+
+                      <tr about="#test-dokieli-fm-r1.1" typeof="qb:Observation earl:Assertion">
+                        <td><meta property="qb:dataSet" resource="#test-dokieli" /><a property="earl:subject" href="https://dokie.li/docs#html-dokieli">dokieli</a></td>
+                        <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_A2">FM-R1.1</a></td>
+                        <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-r1.1" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-r1.1" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info"></span></td>
+                      </tr>
+
+                      <tr about="#test-dokieli-fm-r1.2" typeof="qb:Observation earl:Assertion">
+                        <td><meta property="qb:dataSet" resource="#test-dokieli" /><a property="earl:subject" href="https://dokie.li/docs#html-dokieli">dokieli</a></td>
+                        <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_A2">FM-R1.2</a></td>
+                        <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-r1.2" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-r1.2" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info"></span></td>
+                      </tr>
+
+                      <tr about="#test-dokieli-fm-r1.3" typeof="qb:Observation earl:Assertion">
+                        <td><meta property="qb:dataSet" resource="#test-dokieli" /><a property="earl:subject" href="https://dokie.li/docs#html-dokieli">dokieli</a></td>
+                        <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_A2">FM-R1.3</a></td>
+                        <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-r1.3" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-r1.3" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info"></span></td>
+                      </tr>
                     </tbody>
 
                     <tfoot>
