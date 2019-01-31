@@ -848,7 +848,21 @@
                     <dt>Structure</dt>
                     <dd><a rel="qb:structure" href="#fair-metrics-data-structure-definition">FAIR Metrics</a></dd>
                   </dl>
+
                   <meta rel="rdfs:seeAlso" resource="#test-dokieli-fm-f1a" />
+                  <meta rel="rdfs:seeAlso" resource="#test-dokieli-fm-f1b" />
+                  <meta rel="rdfs:seeAlso" resource="#test-dokieli-fm-f2" />
+                  <meta rel="rdfs:seeAlso" resource="#test-dokieli-fm-f3" />
+                  <meta rel="rdfs:seeAlso" resource="#test-dokieli-fm-f4" />
+                  <meta rel="rdfs:seeAlso" resource="#test-dokieli-fm-a1.1" />
+                  <meta rel="rdfs:seeAlso" resource="#test-dokieli-fm-a1.2" />
+                  <meta rel="rdfs:seeAlso" resource="#test-dokieli-fm-a2" />
+                  <meta rel="rdfs:seeAlso" resource="#test-dokieli-fm-i1" />
+                  <meta rel="rdfs:seeAlso" resource="#test-dokieli-fm-i2" />
+                  <meta rel="rdfs:seeAlso" resource="#test-dokieli-fm-i3" />
+                  <meta rel="rdfs:seeAlso" resource="#test-dokieli-fm-r1.1" />
+                  <meta rel="rdfs:seeAlso" resource="#test-dokieli-fm-r1.2" />
+                  <meta rel="rdfs:seeAlso" resource="#test-dokieli-fm-r1.3" />
 
                   <table about="#fair-metrics-dataset-dokieli" id="fair-metrics-dataset-dokieli" typeof="qb:DataSet as:Object">
                     <caption>FAIR Metrics results</caption>
