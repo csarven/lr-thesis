@@ -819,7 +819,7 @@
           <section id="fair-metrics" inlist="" rel="schema:hasPart" resource="#fair-metrics">
             <h2 property="schema:name">FAIR Metrics</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>As the <a href="#fair-guiding-principles">FAIR guiding principles</a> has been increasingly accepted and endorsed by research communities, we apply the corresponding <cite><a href="https://github.com/FAIRMetrics/Metrics">FAIR Metrics</a></cite> as outlined in <cite><a version-datadate="2019-01-30T16:57:04Z" version-dataurl="https://web.archive.org/web/20190130165704/https://www.nature.com/articles/sdata2018118" href="https://www.nature.com/articles/sdata2018118">A design framework and exemplar metrics for FAIRness</a></cite>, Wilkinson et al, 2018, we use it here to assess the degree in which the resources produced through dokieli meets the FAIR principles.</p>
+              <p>As the <a href="#fair-guiding-principles">FAIR guiding principles</a> has been increasingly accepted and endorsed by research communities, we apply the corresponding <cite><a href="https://github.com/FAIRMetrics/Metrics">FAIR Metrics</a></cite> as outlined in <cite><a version-datadate="2019-01-30T16:57:04Z" version-dataurl="https://web.archive.org/web/20190130165704/https://www.nature.com/articles/sdata2018118" href="https://www.nature.com/articles/sdata2018118">A design framework and exemplar metrics for FAIRness</a></cite>, Wilkinson et al, 2018, on dokieli. We the FAIR metrics to assess the degree in which the resources issued through dokieli meets the FAIR principles.</p>
 
               <section id="fair-metrics-data-structure-definition" inlist="" rel="schema:hasPart" resource="fair-metrics-data-structure-definition">
                 <h3 property="schema:name">FAIR Metrics Data Structure Definition</h3>
@@ -994,18 +994,23 @@
                             <dt id="FM-F1A">FM-F1A</dt><dd>Identifier uniqueness [<a href="https://purl.org/fair-metrics/FM_F1A">source</a>]</dd>
                             <dt id="FM-F1B">FM-F1B</dt><dd>Identifier persistence [<a href="https://purl.org/fair-metrics/FM_F1B">source</a>]</dd>
                             <dt id="FM-F2">FM-F2</dt><dd>Machine-readability of metadata [<a href="https://purl.org/fair-metrics/FM_F2">source</a>]</dd>
+                            <dt id="FM-F3">FM-F3</dt><dd>Resource Identifier in Metadata [<a href="https://purl.org/fair-metrics/FM_F3">source</a>]</dd>
+                            <dt id="FM-F4">FM-F4</dt><dd>Indexed in a searchable resource [<a href="https://purl.org/fair-metrics/FM_F4">source</a>]</dd>
+
                             <dt id="FM-A1.1">FM-A1.1</dt><dd>Access Protocol [<a href="https://purl.org/fair-metrics/FM_A1.1">source</a>]</dd>
                             <dt id="FM-A1.2">FM-A1.2</dt><dd>Access authorization [<a href="https://purl.org/fair-metrics/FM_A1.2">source</a>]</dd>
                             <dt id="FM-A2">FM-A2</dt><dd>Metadata Longevity [<a href="https://purl.org/fair-metrics/FM_A2">source</a>]</dd>
+
                             <dt id="FM-I1">FM-I1</dt><dd>Use a Knowledge Representation Language [<a href="https://purl.org/fair-metrics/FM_I1">source</a>]</dd>
                             <dt id="FM-I2">FM-I2</dt><dd>Use FAIR Vocabularies [<a href="https://purl.org/fair-metrics/FM_I2">source</a>]</dd>
                             <dt id="FM-I3">FM-I3</dt><dd>Use Qualified References [<a href="https://purl.org/fair-metrics/FM_I3">source</a>]</dd>
+
                             <dt id="FM-R1.1">FM-R1.1</dt><dd>Accessible Usage License [<a href="https://purl.org/fair-metrics/FM_R1.1">source</a>]</dd>
                             <dt id="FM-R1.2">FM-R1.2</dt><dd>Detailed Provenance [<a href="https://purl.org/fair-metrics/FM_R1.2">source</a>]</dd>
                             <dt id="FM-R1.3">FM-R1.3</dt><dd>Meets Community Standards [<a href="https://purl.org/fair-metrics/FM_R1.3">source</a>]</dd>
                           </dl>
 
-                          <p>The generated and consumed data reflects what dokieli's capabilities with respect to potentially interacting with servers adhering to common open Web standards and practices.</p>
+                          <p>The generated and consumed data reflects dokieli's capabilities with respect to potentially interacting with servers adhering to common open Web standards and practices.</p>
                         </td>
                       </tr>
                     </tfoot>
