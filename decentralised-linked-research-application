@@ -909,14 +909,15 @@
                         <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_A1.1">FM-A1.1</a></td>
                         <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
                         <td property="earl:result" resource="#result-test-dokieli-fm-a1.1" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
-                        <td property="earl:result" resource="#result-test-dokieli-fm-a1.1" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info"></span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-a1.1" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">Uses <a href="decentralising-scholarly-communication#webid-tls">WebID-TLS</a> and <a href="decentralising-scholarly-communication#webid-oidc">WebID-OIDC</a> to access HTTP URIs.</span></td>
                       </tr>
+
                       <tr about="#test-dokieli-fm-a1.2" typeof="qb:Observation earl:Assertion">
                         <td><meta property="qb:dataSet" resource="#test-dokieli" /><a property="earl:subject" href="https://dokie.li/">dokieli</a></td>
                         <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_A1.1">FM-A1.2</a></td>
                         <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
                         <td property="earl:result" resource="#result-test-dokieli-fm-a1.2" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
-                        <td property="earl:result" resource="#result-test-dokieli-fm-a1.2" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info"></span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-a1.2" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">HTTP URIs requiring authentication relies on an actor's use of <a href="decentralising-scholarly-communication#webid-tls">WebID-TLS</a> or <a href="decentralising-scholarly-communication#webid-oidc">WebID-OIDC</a>, and the authorization by the server will be handled by its own access policies eg. <a href="decentralising-scholarly-communication#acl">ACL</a>, communicated back to the client. Actors can publish ACL rules for HTTP URIs.</span></td>
                       </tr>
 
                       <tr about="#test-dokieli-fm-a2" typeof="qb:Observation earl:Assertion">
@@ -924,9 +925,8 @@
                         <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_A2">FM-A2</a></td>
                         <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
                         <td property="earl:result" resource="#result-test-dokieli-fm-a2" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
-                        <td property="earl:result" resource="#result-test-dokieli-fm-a2" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info"></span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-a2" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">Policy about metadata plan can be created and retrieved.</span></td>
                       </tr>
-
 
 
                       <tr about="#test-dokieli-fm-i1" typeof="qb:Observation earl:Assertion">
@@ -934,7 +934,7 @@
                         <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_A2">FM-I1</a></td>
                         <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
                         <td property="earl:result" resource="#result-test-dokieli-fm-i1" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
-                        <td property="earl:result" resource="#result-test-dokieli-fm-i1" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info"></span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-i1" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">All units of significance can be expressed through accessible Linked Data <a href="structure-of-scholarly-information#vocabularies">vocabularies</a>.</span></td>
                       </tr>
 
                       <tr about="#test-dokieli-fm-i2" typeof="qb:Observation earl:Assertion">
@@ -942,7 +942,7 @@
                         <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_A2">FM-I2</a></td>
                         <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
                         <td property="earl:result" resource="#result-test-dokieli-fm-i2" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
-                        <td property="earl:result" resource="#result-test-dokieli-fm-i2" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info"></span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-i2" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">All units of significance can be expressed through accessible Linked Data <a href="structure-of-scholarly-information#vocabularies">vocabularies</a>.</span></td>
                       </tr>
 
                       <tr about="#test-dokieli-fm-i3" typeof="qb:Observation earl:Assertion">
@@ -950,7 +950,7 @@
                         <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_I3">FM-I3</a></td>
                         <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
                         <td property="earl:result" resource="#result-test-dokieli-fm-i3" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
-                        <td property="earl:result" resource="#result-test-dokieli-fm-i3" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info"></span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-i3" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">All units of significance can be expressed through accessible Linked Data <a href="structure-of-scholarly-information#vocabularies">vocabularies</a>. Generated HTML, SVG, MathML are the host language for RDFa. JSON-LD and Turtle are also used to create and consume Web resources.</span></td>
                       </tr>
 
 
@@ -959,7 +959,7 @@
                         <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_A2">FM-R1.1</a></td>
                         <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
                         <td property="earl:result" resource="#result-test-dokieli-fm-r1.1" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
-                        <td property="earl:result" resource="#result-test-dokieli-fm-r1.1" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info"></span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-r1.1" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">Uses Linked Data vocabularies to express statements about particular rights and licenses in resources eg. Creative Commons. Information pertaining to rights and license can be created and retrieved.</span></td>
                       </tr>
 
                       <tr about="#test-dokieli-fm-r1.2" typeof="qb:Observation earl:Assertion">
@@ -967,7 +967,7 @@
                         <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_A2">FM-R1.2</a></td>
                         <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
                         <td property="earl:result" resource="#result-test-dokieli-fm-r1.2" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
-                        <td property="earl:result" resource="#result-test-dokieli-fm-r1.2" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info"></span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-r1.2" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">Information pertaining to provenance is generated and can be explicitly included by actors eg. can express "was derived from", "cites as evidence" to any unit of information.</span></td>
                       </tr>
 
                       <tr about="#test-dokieli-fm-r1.3" typeof="qb:Observation earl:Assertion">
@@ -975,7 +975,7 @@
                         <td><a property="earl:test" href="https://purl.org/fair-metrics/FM_A2">FM-R1.3</a></td>
                         <td property="earl:mode" resource="earl:semiAuto"><a href="https://www.w3.org/TR/EARL10-Schema/#semiAuto">semiAuto</a></td>
                         <td property="earl:result" resource="#result-test-dokieli-fm-r1.3" typeof="earl:TestResult"><span property="earl:outcome" resource="earl:passed">✔</span></td>
-                        <td property="earl:result" resource="#result-test-dokieli-fm-r1.3" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info"></span></td>
+                        <td property="earl:result" resource="#result-test-dokieli-fm-r1.3" typeof="earl:TestResult"><span datatype="rdf:HTML" property="earl:info">Resources can be shared with <cite>Linked Open Data Cloud</cite>, as well as with <cite>Linked Open Research Cloud</cite> using the <cite>Linked Data Notifications</cite> protocol. Any consumer conforming to various <a href="#read-write-linked-data">Read-Write Linked Data</a> protocols and Linked Data <a href="#vocabularies">vocabularies</a> can reuse.</span></td>
                       </tr>
                     </tbody>
 
@@ -991,10 +991,21 @@
                           </dl>
 
                           <dl class="abbr">
-                            <dt id="FM-F1A">F1A</dt><dd>Identifier uniqueness [<a href="https://purl.org/fair-metrics/FM_F1A">source</a>]</dd>
-                            <dt id="FM-F1B">F1B</dt><dd>Identifier persistence [<a href="https://purl.org/fair-metrics/FM_F1B">source</a>]</dd>
-                            <dt id="FM-F2">F2</dt><dd>Machine-readability of metadata [<a href="https://purl.org/fair-metrics/FM_F2">source</a>]</dd>
+                            <dt id="FM-F1A">FM-F1A</dt><dd>Identifier uniqueness [<a href="https://purl.org/fair-metrics/FM_F1A">source</a>]</dd>
+                            <dt id="FM-F1B">FM-F1B</dt><dd>Identifier persistence [<a href="https://purl.org/fair-metrics/FM_F1B">source</a>]</dd>
+                            <dt id="FM-F2">FM-F2</dt><dd>Machine-readability of metadata [<a href="https://purl.org/fair-metrics/FM_F2">source</a>]</dd>
+                            <dt id="FM-A1.1">FM-A1.1</dt><dd>Access Protocol [<a href="https://purl.org/fair-metrics/FM_A1.1">source</a>]</dd>
+                            <dt id="FM-A1.2">FM-A1.2</dt><dd>Access authorization [<a href="https://purl.org/fair-metrics/FM_A1.2">source</a>]</dd>
+                            <dt id="FM-A2">FM-A2</dt><dd>Metadata Longevity [<a href="https://purl.org/fair-metrics/FM_A2">source</a>]</dd>
+                            <dt id="FM-I1">FM-I1</dt><dd>Use a Knowledge Representation Language [<a href="https://purl.org/fair-metrics/FM_I1">source</a>]</dd>
+                            <dt id="FM-I2">FM-I2</dt><dd>Use FAIR Vocabularies [<a href="https://purl.org/fair-metrics/FM_I2">source</a>]</dd>
+                            <dt id="FM-I3">FM-I3</dt><dd>Use Qualified References [<a href="https://purl.org/fair-metrics/FM_I3">source</a>]</dd>
+                            <dt id="FM-R1.1">FM-R1.1</dt><dd>Accessible Usage License [<a href="https://purl.org/fair-metrics/FM_R1.1">source</a>]</dd>
+                            <dt id="FM-R1.2">FM-R1.2</dt><dd>Detailed Provenance [<a href="https://purl.org/fair-metrics/FM_R1.2">source</a>]</dd>
+                            <dt id="FM-R1.3">FM-R1.3</dt><dd>Meets Community Standards [<a href="https://purl.org/fair-metrics/FM_R1.3">source</a>]</dd>
                           </dl>
+
+                          <p>The generated and consumed data reflects what dokieli's capabilities with respect to potentially interacting with servers adhering to common open Web standards and practices.</p>
                         </td>
                       </tr>
                     </tfoot>
