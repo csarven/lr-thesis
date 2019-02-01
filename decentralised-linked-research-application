@@ -776,19 +776,61 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr><th>Usability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                  <tr><th>Customizability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                  <tr><th>Generalizability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                  <tr><th>Collaboration</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                  <tr><th>Portability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                  <tr><th>Accessibility</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                  <tr><th>Proactivity</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                  <tr><th>Automation</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                  <tr><th>Evolvability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                  <tr><th>Interoperability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                  <tr><th>Scalability</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th rowspan="4">Usability</th><th>Single Point of Entry Interface</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Faceted Browsing</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Faceted Viewing</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Inline Editing and View Editing</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
                 </tbody>
-                <tfoot></tfoot>
+                <tbody>
+                  <tr><th rowspan="2">Customizability</th><th>Living UIs</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Providing Different Semantic Views</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+                <tbody>
+                  <tr><th rowspan="3">Generalizability</th><th>Supporting Multiple Ontologies</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Supporting Ontology Modification</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Supporting Heterogeneous Document/Content Formats</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+                <tbody>
+                  <tr><th rowspan="3">Collaboration</th><th>Access Control</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Support of Standard Formats</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>UIs for Social Collaboration</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+                <tbody>
+                  <tr><th rowspan="2">Portability</th><th>Cross-browser Compatibility</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>UIs for Mobile Devices</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+                <tbody>
+                  <tr><th>Accessibility</th><th>Accessible UIs</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+                <tbody>
+                  <tr><th rowspan="4">Proactivity</th><th>Resource Suggestion</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Real-time Semantic Tagging</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Concept Reuse</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Real-time Validation</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+                <tbody>
+                  <tr><th>Automation</th><th>Automatic Annotation</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+                <tbody>
+                  <tr><th rowspan="3">Evolvability</th><th>Resource Consistency</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Document and Annotation Consistency</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Versioning and Change Tracking</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+                <tbody>
+                  <tr><th rowspan="2">Interoperability</th><th>Support of Standard Formats</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Semantic Syndication</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+                <tbody>
+                  <tr><th rowspan="2">Scalability</th><th>Support of Caching</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                  <tr><th>Suitable Storage Strategies</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="8">
+                      <p>Extension of <q>Table 6: Overview of results</q> including dokieli.</p>
+                    </td>
+                  </tr>
+                </tfoot>
               </table>
             </div>
           </section>
