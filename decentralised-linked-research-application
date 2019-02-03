@@ -779,53 +779,6 @@
             </div>
           </section>
 
-          <section id="comparison-of-interoperability-applications" inlist="" rel="schema:hasPart" resource="#comparison-of-interoperability-applications">
-            <h2 property="schema:name">Comparison of Interoperability of Applications</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo" id="">Level of interop.. does it create stuff that's standards compliant? can others use it? can it discover others stuff? can it reuse others stuff? is the reused and revised/enhanced reusable by other applications?</p>
-
-              <table id="comparison-of-x-applications">
-                <caption>Comparison of y of Applications</caption>
-                <thead>
-                  <tr>
-                    <th>Application</th>
-                    <th>Storage</th>
-                    <th>Personal identity</th>
-                    <th>Privacy</th>
-                    <th>Specifications</th>
-                    <th>Accessibility</th>
-                    <th>Archivability</th>
-                  </tr>
-                </thead>
-                <tbody></tbody>
-                <tfoot></tfoot>
-              </table>
-            </div>
-          </section>
-
-
-          <section id="comparison-of-annotation-applications" inlist="" rel="schema:hasPart" resource="#comparison-of-annotation-applications">
-            <h2 property="schema:name">Comparison of Annotation Applications</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo" id="">Comparison of annotation applications... partly relate this to table: specifications-for-forces-and-functions</p>
-
-              <table id="comparison-of-annotation-applications">
-                <caption>Comparison of Annotation Applications</caption>
-                <thead>
-                  <tr>
-                    <th>Application</th>
-                    <th>Storage</th>
-                    <th>Personal identity</th>
-                    <th>Privacy</th>
-                    <th>Specifications</th>
-                  </tr>
-                </thead>
-                <tbody></tbody>
-                <tfoot></tfoot>
-              </table>
-            </div>
-          </section>
-
 
           <section id="fair-metrics" inlist="" rel="schema:hasPart" resource="#fair-metrics">
             <h2 property="schema:name">FAIR Metrics</h2>
@@ -1046,6 +999,60 @@
           </section>
 
 
+          <section id="applications" inlist="" rel="schema:hasPart" resource="#applications">
+            <h2 property="schema:name">Effects and Artefacts of Applications</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo" id="">Level of interop.. does it create stuff that's standards compliant?</p>
+
+              <p>can others use it? can it discover others stuff? can it reuse others stuff? is the reused and revised/enhanced reusable by other applications?</p>
+
+              <table id="applications">
+                <caption></caption>
+                <thead>
+                  <tr>
+                    <th>Application</th>
+                    <th>Specifications</th>
+                    <th>Storage</th>
+                    <th>Personal identity</th>
+                    <th>Privacy</th>
+                    <th>Accessibility</th>
+                    <th>Archivability</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <th>dokieli</th>
+                    <td>Linked Data vocabularies, Web Annotation, Linked Data Notifications, ActivityPub</td>
+                    <td>Writes to any HTTP URI that the actor is authorised. Exports to local disk. Creates copy in browser's local storage.</td>
+                    <td>Any WebID</td>
+                    <td>User and data privacy, preferred proxy, private activities</td>
+                    <td>All content accessible from HTML, WCAG</td>
+                    <td>Publicly archivable.</td>
+                  </tr>
+                  <tr>
+                    <th></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+
+                <tfoot>
+                  <tr>
+                    <td>
+                      <p>Degree of control</p>
+                      <p>Actors' Control in Applications</p>
+                      <p>Publicly archivable?</p>
+                    </td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+          </section>
 
 
 
