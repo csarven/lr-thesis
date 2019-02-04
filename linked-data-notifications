@@ -222,6 +222,15 @@
             <div datatype="rdf:HTML" property="schema:description">
               <p><dfn id="ldn">Linked Data Notifications (<abbr title="Linked Data Notifications">LDN</abbr>)</dfn> is an HTTP-based protocol to facilitate exchanging messages between applications. LDN describes how servers (receivers) can receive messages pushed to them by applications (senders), as well as how other applications (consumers) may retrieve those messages. Any resource (target) can advertise a receiving endpoint (Inbox) for notification messages. Messages are expressed in RDF, and can contain arbitrary data. LDN is a <cite><a href="https://www.w3.org/TR/ldn/">W3C Recommendation</a></cite>.</p>
 
+              <p>LDN is defined using the following basic principles:</p>
+
+              <ul>
+                <li>The protocol is developed within the framework laid out by the <abbr title="Architecture of the World Wide Web">AWWW</abbr>.</li>
+                <li>Interactions are designed to take place over HTTP.</li>
+                <li>Any Web resource may be the target of a notification.</li>
+                <li>Notifications may contain any data and use any Linked Data vocabulary.</li>
+              </ul>
+
               <dl id="inbox-notification" rel="schema:hasPart" resource="#inbox-notification">
                 <!-- <p resource="#concept-scheme" typeof="skos:ConceptScheme"><span property="skos:definition">As the following terms used throughout this article may be subject to different interpretations by different communities, we provide some definitions here.</span></p> -->
 
