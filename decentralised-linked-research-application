@@ -1025,7 +1025,7 @@
 
                 <tbody>
                   <tr>
-                    <th>dokieli</th>
+                    <th><a href="https://dokie.li/">dokieli</a></th>
                     <td>Performs CRUD operations to any HTTP URI that the actor is authorised to for articles, annotations, and notifications. Offline-readable by exporting article to local disk. Uses browser's local storage for actor's profile and article cache.</td>
                     <td>Uses any WebID and allows actors to authenticate.</td>
                     <td>User and data privacy, preferred proxy, private activities</td>
@@ -1033,12 +1033,12 @@
                     <td>Linked Data vocabularies, Web Annotation, Linked Data Notifications, ActivityPub</td>
                   </tr>
                   <tr>
-                    <th></th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <th><a href="https://web.hypothes.is/">Hypothes.is</a></th>
+                    <td>Each application instance is configured to use a specific storage location. All CRUD operations (of that instance) performed by actors communicate with that particular location.</td>
+                    <td>Each application instance is configured to use a specific identity provider eg. accounts at hypothes.is, orcid.org.</td>
+                    <td>Each application instance can be configured to use different accounts of the <cite><a href="https://www.google.com/analytics/">Google Analytics</a></cite> (<abbr title="Google Analytics">GA</abbr>) tracking service. The default browser extension uses GA per active URL. Allows private annotations.</td>
+                    <td>Annotations are accessible through HTML if JavaScript is enabled. JSON representation of the annotations is rendered in the DOM. Implements ARIA.</td>
+                    <td>Each application instance is configured to use its own API endpoint to find annotations.</td>
                   </tr>
                 </tbody>
 
