@@ -506,11 +506,14 @@
             <div datatype="rdf:HTML" property="schema:description">
               <p id="server-client-categories"><cite>The Presentation of Self on a Decentralised Web</cite> describes various types of decentralised social systems. The arrangement between serves and clients generally falls into three categories:</p>
 
-              <ul type="lower-alpha">
-                <li id="server-client-a">server and client are tightly coupled in that the UI can only communicate with a specific server.</li>
-                <li id="server-client-b">server and client are loosely coupled in that client is pre-configured to only communicate with one server.</li>
-                <li id="server-client-c">server and client are decoupled in that a client can communicate with any server.</li>
-              </ul>
+              <dl>
+                <dt id="server-client-tightly-coupled">Tightly coupled</dt>
+                <dd>Server hosts data and the client, user controls the client.</dd>
+                <dt id="server-client-loosely-coupled">Loosely coupled</dt>
+                <dd>Server hosts data, client is pre-configured to communicate with that server.</dd>
+                <dt id="server-client-decoupled">Decoupled</dt>
+                <dd>Servers host data, clients can communicate with any server.</dd>
+              </dl>
 
               <p>The server-client arrangement (<a href="#server-client-c">c</a>) in particular sets a higher requirement for using Web specifications that are based on open consensus and widely deployed in order for their ecosystem to function.</p>
 
