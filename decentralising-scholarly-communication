@@ -504,15 +504,15 @@
           <section id="decentralised-storage-and-interoperable-applications" inlist="" rel="schema:hasPart" resource="#decentralised-storage-and-interopearble-applications">
             <h2 property="schema:name">Decentralised Storage and Interoperable Applications</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p id="server-client-categories"><cite>The Presentation of Self on a Decentralised Web</cite> describes various types of decentralised social systems. The arrangement between serves and clients generally falls into three categories:</p>
+              <p id="server-client-categories"><cite>The Presentation of Self on a Decentralised Web</cite> describes various types of decentralised social systems. The arrangement between servers and clients generally falls into three categories, and what actors control:</p>
 
               <dl>
                 <dt id="server-client-tightly-coupled">Tightly coupled</dt>
                 <dd>Server hosts data and the client, user controls the client.</dd>
                 <dt id="server-client-loosely-coupled">Loosely coupled</dt>
-                <dd>Server hosts data, client is pre-configured to communicate with that server.</dd>
+                <dd>Server hosts data, client is pre-configured to communicate with that server, user controls the client.</dd>
                 <dt id="server-client-decoupled">Decoupled</dt>
-                <dd>Servers host data, clients can communicate with any server.</dd>
+                <dd>Servers host data, clients can communicate with any server, user controls client and data.</dd>
               </dl>
 
               <p>The server-client arrangement (<a href="#server-client-c">c</a>) in particular sets a higher requirement for using Web specifications that are based on open consensus and widely deployed in order for their ecosystem to function.</p>
