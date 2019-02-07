@@ -514,6 +514,14 @@
   
               <p id="pds-expectation">An individual responsible for a PDS entails that they responsible as well as accountable of its operation, abilities, policies and practice decisions on data, persistence strategies and so forth. PDS makes it possible for actors to safeguard their data by setting authentication and authorization rules for any or class of agents, being able to act as the source of truth for WebIDs and the descriptions in the profiles. Running a PDS fundamentally requires the system to fulfil the registration function for the content it makes available. As archiving is an external function, we expect other services to meet that requirement. The certification function can be fulfilled in a similar manner to registration in that the actors that are involved in the quality-control process can register their own units of information in their PDS in response to target units.</p>
 
+              <p id="servers-clients-categories"><cite>The Presentation of Self on a Decentralised Web</cite> describes various types of decentralised social systems. The arrangement between serves and clients generally falls into three categories:</p>
+
+              <ul type="lower-alpha">
+                <li>server and client are tightly coupled in that the UI can only communicate with a specific server.</li>
+                <li>server and client are loosely coupled in that client is pre-configured to only communicate with one server.</li>
+                <li>server and client are decoupled in that a client can communicate with any server.</li>
+              </ul>
+
               <p id="degree-of-control"><strong>Degree of Control</strong>: We can observe different degrees of control; individual and third-party opposite ends for URI ownership, data, and applications:</p>
 
               <figure id="degree-of-control-individual-third-party">
@@ -526,7 +534,6 @@ Individual controlled |------ Data----------------| Third-party controlled
               <p>On one end of the spectrum, an individual registers their own domain name, hosts their personal storage, and uses applications of their choosing. With that, they have highest degree of autonomy for their online presence and interactions. On the other end of the spectrum, an individual's identifier as well as a range of expressible identities, the data location and conditions of use, and assigned applications by third-party services.</p>
 
               <p>Different degrees of control would influence the forces and functions in scholarly communication. For instance, while ORCID is third-party controlled, it is possible to customise the profile to link to other identities. Similarly, the profile description can indicate the location of researcher's personal online storage, inbox, as well as outbox, which can controlled by the individual. An application built with interoperable open Web standards can potentially communicate with services that conform to the same protocols and data models.</p>
-
 
               <p id="desired-qualities"><strong>Desired qualities</strong>: Based on aforementioned research, standards, and practices in the field towards Web-based personal identifiers and representations, we can infer a set of qualities that can empower individuals when participating in a decentralised scholarly system:</p>
 
