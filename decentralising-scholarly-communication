@@ -515,7 +515,7 @@
                 <dd>Servers host data, clients can communicate with any server, user controls client and data.</dd>
               </dl>
 
-              <p>The server-client arrangement (<a href="#server-client-c">c</a>) in particular sets a higher requirement for using Web specifications that are based on open consensus and widely deployed in order for their ecosystem to function.</p>
+              <p>The decoupled server-client arrangement in particular sets a higher requirement for using Web specifications that are based on open consensus and widely deployed in order for their ecosystem to function.</p>
 
               <p>In this section I summarise some of the key characteristics of decentralised dataspaces, and expectations from servers and client applications.</p>
 
