@@ -996,7 +996,7 @@
 
               <p id="mediawiki"><cite><a href="https://www.mediawiki.org/" rel="cito:discusses">MediaWiki</a></cite></p>
 
-              <p id="hypothes.is"><cite><a href="https://hypothes.is/" rel="cito:discusses">Hypothes.is</a></cite> has a server and client application that makes it possible for users to leave annotations on different types of documents on the Web using a browser extension via their proxy server. Annotations may be private or public, and can be threaded to form conversations around a piece of content. Despite allowing the attachment of annotations to resources hosted anywhere, it depends on centralised user accounts and storage space for the annotations themselves. User identity can be configured to authenticate with ORCID. A Hypothes.is client application is preconfigured to use an annotation server. Annotations can be self-hosted, however the servers do not federate.</p>
+              <p id="hypothes.is"><cite><a href="https://hypothes.is/" rel="cito:discusses">Hypothes.is</a></cite> has a server and client application that makes it possible for users to leave annotations on different types of documents on the Web using either a browser extension, proxy service, or embedded in HTML documents. Annotations may be private or public, and can be threaded to form conversations around a piece of content. Each client application is configured to use specific accounts or identity providers eg. hypothes.is, orcid.org, as well specific storage space for the annotations themselves. All CRUD operations (of that instance) performed by actors communicate with that particular location. User identity can be configured to authenticate with ORCID. A Hypothes.is client application is preconfigured to use an annotation server. Annotations can be self-hosted, however the servers do not federate. It is possible for actors to mark their annotations as public, private, or for a group. The Web browser extension uses the <cite><a href="https://www.google.com/analytics/">Google Analytics</a></cite> (<abbr title="Google Analytics">GA</abbr>) tracking service per active URL. Annotations are accessible through HTML if JavaScript is enabled. JSON representation of the annotations is rendered in the DOM. Implements ARIA. Each application instance is configured to use its own API endpoint to find annotations and related data. It is possible to fetch an annotation that is represented with the WA Data Model from a server, however the annotation is not machine-discoverable.</p>
 
               <p>One common architectural aspect to these systems is that they <a href="#server-client-loosely-couple">loosely couple</a> the server with a designated client application. For instance, they require account creation and data storage with respect to a appointed centralised service. In essence, the user interface is restricted to communicate with a particular service endpoint, as well as an authority that governs all actor identities and the data they have produced. They allow multiple participants to annotate and hold discussions around the primary content; users must access their accounts to be notified of updates to conversations, and data from both the main content and related discussion is confined to the service which was used to create it. The data formats and schemas are consistent across storage instances in that it is possible to migrate data from one location to another using the same server application and storage mechanism. The Web resources tend to be archivable while their access being at the discretion of server owners.</p>
 
@@ -1006,81 +1006,18 @@
 
               <p id="amaya"><cite><a href="https://www.w3.org/Amaya/" rel="cito:discusses">Amaya</a></cite> is a desktop Web editor application, to create and update documents with remote access features, as well as a lightweight browser that was developed by W3C (1996-2012) to provide a framework to test its technologies. Annotations in Amaya can be attached to a Web document or a selected part of the document (without modifying the primary document) and stored locally or on a remote annotation server.</p>
 
+              <p>A tentative view of the interoperability between Hypothes.is and dokieli is as follows. The client applications Hypothes.is and dokieli are non-conflicting in that when used in the same content or context, each can still be used on its own. A Hypothes.is client application can search and fetch annotations from a server using the Hypothes.is API, and render them on the target resource. dokieli can discover the WA annotation service of a Web resource, fetch annotations from servers conforming to the WAP and LDP, and render them on the target resource. Additional data about the annotation can be shown in both applications. A Hypothes.is client application can authenticate with a particular server using OAuth. Actors with WebID in dokieli can authenticate with servers supporting WebID-TLS and WebID-OIDC. Both can create annotations given authorization. Hypothes.is application can extend and direct annotations to a group using the same server. dokieli uses the HTTP <code>OPTIONS</code> method to determine the communication options from servers based on WAP and LDP, and adopts for subsequent requests eg. triggers content negotiation with servers to determine preferred RDF serialization of Web Annotation and profile. The Hypothes.is client can only fetch annotations from a corresponding Hypothes.is server. dokieli can only fetch annotations from servers implementing LDP or WAP. Putting the method of annotation fetching aside, it is possible for either client application to render an annotation serialized as JSON-LD that is created by the other application.</p>
+
+<div class="outline">
               <p>Publicly archivable?</p>
               <p>Degree of interoperability of the protocols and formats: </p>
 
               <p>Level of interop.. does it create stuff that's standards compliant?</p>
 
               <p>can others use it? can it discover others stuff? can it reuse others stuff? is the reused and revised/enhanced reusable by other applications?</p>
-
-              <table id="applications">
-                <caption></caption>
-                <thead>
-                  <tr>
-                    <th>Application</th>
-                    <th>Storage</th>
-                    <th>Personal identity</th>
-                    <th>Privacy</th>
-                    <th>Accessibility</th>
-                    <th>Interoperability</th>
-                  </tr>
-                </thead>
-
-                <tbody>
-                  <tr>
-                    <th><a href="https://dokie.li/">dokieli</a></th>
-                    <td>Performs CRUD operations to any HTTP URI that the actor is authorised to for articles, annotations, and notifications. Offline-readable by exporting article to local disk. Uses browser's local storage for actor's profile and article cache.</td>
-                    <td>Uses any WebID and allows actors to authenticate.</td>
-                    <td>User and data privacy, preferred proxy, private activities</td>
-                    <td>Creates content that is human and machine-readable through HTML and various RDF serialisations. Implements WCAG, ARIA, ATAG. Internationalised content and interface. Creates content that is Web archive-friendly.</td>
-                    <td>Uses Linked Data vocabularies and protocols: Web Annotation, Linked Data Notifications, ActivityPub.</td>
-                  </tr>
-                  <tr>
-                    <th><a href="https://web.hypothes.is/">Hypothes.is</a></th>
-                    <td>Each application instance is configured to use a specific storage location. All CRUD operations (of that instance) performed by actors communicate with that particular location.</td>
-                    <td>Each application instance is configured to use a specific identity provider eg. accounts at hypothes.is, orcid.org.</td>
-                    <td>Each application instance can be configured to use different accounts of the <cite><a href="https://www.google.com/analytics/">Google Analytics</a></cite> (<abbr title="Google Analytics">GA</abbr>) tracking service. The default browser extension uses GA per active URL. Allows private annotations.</td>
-                    <td>Annotations are accessible through HTML if JavaScript is enabled. JSON representation of the annotations is rendered in the DOM. Implements ARIA.</td>
-                    <td>Each application instance is configured to use its own API endpoint to find annotations. A annotation serialized using the WA Data Model can be retrieved from the server's API.</td>
-                  </tr>
-                  <tr>
-                    <th>Google Drive</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <th>MediaWiki</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <th>WordPress</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-
-                <tfoot>
-                  <tr>
-                    <td>
-                      <p>Data as of 2019-01-04</p>
-                    </td>
-                  </tr>
-                </tfoot>
-              </table>
+</div>
 
               <p>Existing server and client applications in particular to authoring and publishing are complex systems in that while they adhere or adopt some aspects of open Web specifications, they also include proprietary designs. Such systems also have varying characteristics of centralisation and decentralisation, hence, while some aspects are interoperable, other areas require post facto efforts to interop.</p>
-
-              <p>A tentative view of the interoperability between Hypothes.is and dokieli is as follows. The client applications Hypothes.is and dokieli are non-conflicting in that when used in the same content or context, each can still be used on its own. A Hypothes.is client application can search and fetch annotations from a server using the Hypothes.is API, and render them on the target resource. dokieli can discover the WA annotation service of a Web resource, fetch annotations from servers conforming to the WAP and LDP, and render them on the target resource. Additional data about the annotation can be shown in both applications. A Hypothes.is client application can authenticate with a particular server using OAuth. Actors with WebID in dokieli can authenticate with servers supporting WebID-TLS and WebID-OIDC. Both can create annotations given authorization. Hypothes.is application can extend and direct annotations to a group using the same server. dokieli uses the HTTP <code>OPTIONS</code> method to determine the communication options from servers based on WAP and LDP, and adopts for subsequent requests eg. triggers content negotiation with servers to determine preferred RDF serialization of Web Annotation and profile. The Hypothes.is client can only fetch annotations from a corresponding Hypothes.is server. dokieli can only fetch annotations from servers implementing LDP or WAP. Method of annotation fetching aside, it is possible for either client application to render an annotation serialized as JSON-LD that is created by the other application.</p>
 
               <p>The tools which provide good collaborative editing user-interfaces appear to do so at the expense of data ownership and interoperability; those which promote creation and publication of data in open reusable formats are lacking facilities for linking discourse and conversation to concepts published. Decentralised creations also mean that each author can choose their own semantics eg. their own vocabulary to annotate using the RDF language, and then such decentralised documents can link to each other and their schemas can also be mapped to each other, whereas in centralised systems this is (if they support semantics at all) often prescribed, either technically enforced, or encouraged by social convention.</p>
             </div>
