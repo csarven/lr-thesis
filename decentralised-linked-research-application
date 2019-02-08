@@ -79,6 +79,17 @@
             <div datatype="rdf:HTML" property="schema:description">
               <p>In this section we demonstrate how the various standards described can be pieced together into an application designed for researchers to participate in the scholarly communication ecosystem autonomously. We highlight some scholarly communication use cases with <cite><a href="https://dokie.li/">dokieli</a></cite>, a clientside editor for decentralised article publishing, annotations and social interactions.</p>
 
+              <p>The dokieli project uses the following licenses:</p>
+
+              <dl>
+                <dt>Code</dt>
+                <dd><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></dd>
+                <dt>Content</dt>
+                <dd><a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a></dd>
+              </dl>
+
+              <p>I am the primary maintainer of the project.</p>
+
               <p>dokieli implements the use cases pertaining to <a href="#decentralised-linked-notifications-and-annotations">Decentralised Linked Notifications and Annotations</a> as outlined earlier, as well as those specific to <a href="linked-data-notifications#scholarly-communication-notification-use-cases">scholarly communication</a>.</p>
 
               <p>dokieli is inherently a general-purpose authoring, annotating, and notifying application. While it implements use cases specific to research or scholarly communication, it is not constrained to it. For instance, dokieli is capable of rendering the following use cases from the W3C <cite><a href="https://www.w3.org/TR/xhtml-rdfa-scenarios/">RDFa Use Cases: Scenarios for Embedding RDF in HTML</a></cite>: <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-1">Basic Structured Blogging</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-2">Publishing an Event - Overriding Some of the Rendered Data</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-3">Content Management Metadata</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-5">Web Clipboard</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-7">Advanced Data Structures</q>, and <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-8">Augmented Browsing for Scientists</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-9">Publishing a RDF Vocabulary</q>.</p>
