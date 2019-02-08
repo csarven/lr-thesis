@@ -425,8 +425,8 @@ support groups.</pre>
 
                   <p>We can represent the sentence "<span class="highlight-language-statement"><span class="highlight-language-subject">Otlet</span> <span class="highlight-language-predicate">influenced</span> <span class="highlight-language-object">Berners-Lee</span></span>" in one of the RDF syntaxes as follows:</p>
 
-                  <pre id="paul-otlet-influenced-tim-berners-lee"><span class="highlight-language-statement">&lt;<span class="highlight-language-subject" title="subject">http://dbpedia.org/resource/<strong>Paul_Otlet</strong></span>&gt;
-  &lt;<span class="highlight-language-predicate" title="predicate">http://dbpedia.org/ontology/<strong>influenced</strong></span>&gt; &lt;<span class="highlight-language-object" title="object">http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong></span>&gt; .</span></pre>
+                  <pre id="paul-otlet-influenced-tim-berners-lee"><span class="highlight-language-statement"><code>&lt;<span class="highlight-language-subject" title="subject">http://dbpedia.org/resource/<strong>Paul_Otlet</strong></span>&gt;</code>
+<code>  &lt;<span class="highlight-language-predicate" title="predicate">http://dbpedia.org/ontology/<strong>influenced</strong></span>&gt; &lt;<span class="highlight-language-object" title="object">http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong></span>&gt; .</code></span></pre>
 
                   <p id="self-describing">As ad-hoc exploration is one of the goals of the Web, the W3C TAG Finding <cite><a href="http://www.w3.org/2001/tag/doc/selfDescribingDocuments">The Self-Describing Web</a></cite>, 2009, reports how HTTP and other Web technologies can be used to <q>create, deploy and access <em>self-describing</em> Web resource representations that can be correctly interpreted.</q> It is expressed that the RDF language can be used to integrate with the Semantic Web such that the information encoded in a representation explicitly provides interoperable means to relate Web resources.</p>
 
@@ -434,8 +434,8 @@ support groups.</pre>
 
                   <p>We can describe <span class="highlight-language-subject">Berners-Lee's IRI</span> (subject) by giving it a human-readable <span class="highlight-language-predicate">name</span> (predicate):</p>
 
-                  <pre id="tim-berners-lee-name"><span class="highlight-language-statement">&lt;<span class="highlight-language-subject" title="subject">http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong></span>&gt;
-  &lt;<span class="highlight-language-predicate" title="predicate">http://xmlns.com/foaf/0.1/name</span>&gt; "<span class="highlight-language-object" title="object">Tim Berners-Lee</span>"<span title="language tag">@en</span> .</span></pre>
+                  <pre id="tim-berners-lee-name"><span class="highlight-language-statement"><code>&lt;<span class="highlight-language-subject" title="subject">http://dbpedia.org/resource/<strong>Tim_Berners-Lee</strong></span>&gt;</code>
+<code>  &lt;<span class="highlight-language-predicate" title="predicate">http://xmlns.com/foaf/0.1/name</span>&gt; "<span class="highlight-language-object" title="object">Tim Berners-Lee</span>"<span title="language tag">@en</span> .</code></span></pre>
 
                   <div class="note">
                     <h4>Note</h4>
@@ -454,13 +454,13 @@ support groups.</pre>
 
                   <p>Using the example RDF data from earlier about <a href="#paul-otlet-influenced-tim-berners-lee">Otlet's relation to Berners-Lee</a> and <a href="#tim-berners-lee-name">his name</a> in an RDF store, the following query returns the data in a tabular format for the <span class="highlight-language-predicate-name">name</span>s of <span class="highlight-language-object">object</span>s that match the graph pattern where the <span class="highlight-language-subject">subject</span>s <em class="highlight-language-predicate-influenced">influenced</em>.</p>
 
-                  <pre>SELECT <span class="highlight-language-object">?object</span> <span class="highlight-language-object-name">?name</span>
-WHERE {
-  &lt;<span class="highlight-language-subject">http://dbpedia.org/resource/Paul_Otlet</span>&gt;
-    &lt;<span class="highlight-language-predicate-influenced">http://dbpedia.org/ontology/influenced</span>&gt; <span class="highlight-language-object">?object</span> .
-  <span class="highlight-language-object">?object</span>
-    &lt;<span class="highlight-language-predicate-name">http://xmlns.com/foaf/0.1/name</span>&gt; <span class="highlight-language-object-name">?name</span> .
-}</pre>
+                  <pre><code>SELECT <span class="highlight-language-object">?object</span> <span class="highlight-language-object-name">?name</span></code>
+<code>WHERE {</code>
+<code>  &lt;<span class="highlight-language-subject">http://dbpedia.org/resource/Paul_Otlet</span>&gt;</code>
+<code>    &lt;<span class="highlight-language-predicate-influenced">http://dbpedia.org/ontology/influenced</span>&gt; <span class="highlight-language-object">?object</span> .</code>
+<code>  <span class="highlight-language-object">?object</span></code>
+<code>    &lt;<span class="highlight-language-predicate-name">http://xmlns.com/foaf/0.1/name</span>&gt; <span class="highlight-language-object-name">?name</span> .</code>
+<code>}</code></pre>
 
                   <p>Resulting in extracted data:</p>
 
