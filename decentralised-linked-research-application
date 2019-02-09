@@ -37,9 +37,7 @@
           <section id="decentralised-linked-notifications-and-annotations" inlist="" rel="schema:hasPart" resource="#decentralised-linked-notifications-and-annotations">
             <h2 property="schema:name">Decentralised Linked Notifications and Annotations</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>The functional and non-functional requirements from the <cite><a href="https://www.w3.org/TR/ldp-ucr/">Linked Data Platform Use Cases and Requirements</a></cite> (<abbr title="Linked Data Platform Use Cases and Requirements">LDP-UCR</abbr>) are applicable for authoring, publishing, and sharing content. In order to represent different units of information in social and scholarly communication, Linked Data <a href="structure-of-scholarly-information#vocabularies">vocabularies</a> can be used.</p>
-
-              <p>By using different arrangements of LDN, WA, AP, LDP mechanisms and related vocabularies, scholarly and social activities can be systematically discovered for a variety of use cases. Decentralised notifications and annotations surrounding an article can be determined as follows:</p>
+              <p>By using different arrangements of LDN, WA, AP, LDP mechanisms and as well as relevant Linked Data vocabularies, scholarly and social activities can be systematically created, linked, discovered, and reused for a variety of use cases. In this section, I present an overview of <em>a</em> decentralised information space including actor profiles, notifications, and annotations. As units of information are structured and semantically interconnected, it forms a knowledge graph with the following key components with respect to technical specifications and practices:</p>
 
               <ul>
                 <li id="subject-annotation-service">Resource asserts the location of a preferred service for maintaining annotations about the the subject resource (via <code>oa:annotationService</code>)</li>
@@ -54,7 +52,7 @@
                 <li id="inbox-annotation-manual">Inbox or annotation service locations are manually input to the system eg. not publicised or private.</li>
               </ul>
 
-              <p>Applications can incrementally implement a combination of these approaches to deliver and discover distributed activities on the Web. For example, the preferred locations for general data storage, annotations and notifications for resources can be discovered, and used as input to create new resources eg. assigning an inbox for an annotation where the inbox location is derived from a profile's preferred location for a class of information. Thereby a chain of operations can be orchestrated for decentralised units of information.</p>
+              <p>Applications can incrementally implement a combination of these approaches to deliver and discover distributed activities on the Web. For example, the preferred locations for data storage, annotations and notifications for resources can be discovered, and used as input to create new resources eg. assigning an inbox for an annotation where the inbox location is derived from a profile's preferred location for a class of information. Thereby a chain of operations can be orchestrated for decentralised units of information.</p>
 
               <p>Figure X depicts an interplay of decentralised personal profiles, notifications, and annotations.</p>
 
