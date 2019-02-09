@@ -77,22 +77,33 @@
           <section id="implementing-a-read-write-application" inlist="" rel="schema:hasPart" resource="#implementing-a-read-write-application">
             <h2 property="schema:name">Implementing a Read-Write Application</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>In this section we demonstrate how the various standards described can be pieced together into an application designed for researchers to participate in the scholarly communication ecosystem autonomously. We highlight some scholarly communication use cases with <cite><a href="https://dokie.li/">dokieli</a></cite>, a clientside editor for decentralised article publishing, annotations and social interactions.</p>
+              <p>In this section we demonstrate how the various standards described can be pieced together into an application designed for researchers to participate in the scholarly communication ecosystem autonomously. We highlight some scholarly communication use cases with <cite><a href="https://dokie.li/">dokieli</a></cite>.</p>
 
-              <p>The dokieli project uses the following licenses:</p>
-
-              <dl>
-                <dt>Code</dt>
-                <dd><a data-versiondate="2019-02-08T11:33:58Z" data-versionurl="https://web.archive.org/web/20190208113358/http://www.apache.org/licenses/LICENSE-2.0" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></dd>
-                <dt>Content</dt>
-                <dd><a data-versiondate="2019-02-08T11:35:10Z" data-versionurl="https://web.archive.org/web/20190208113510/https://creativecommons.org/licenses/by/4.0/" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a></dd>
-              </dl>
+              <div class="note">
+                <h3>About dokieli</h3>
+                <div>
+                  <dl>
+                    <dt>Project website</dt>
+                    <dd><a href="https://dokie.li/">https://dokie.li/</a></dd>
+                    <dt>Source code</dt>
+                    <dd><a href="https://github.com/linkeddata/dokieli">Git repository</a></dd>
+                    <dt>Code license</dt>
+                    <dd><a data-versiondate="2019-02-08T11:33:58Z" data-versionurl="https://web.archive.org/web/20190208113358/http://www.apache.org/licenses/LICENSE-2.0" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></dd>
+                    <dt>Content license</dt>
+                    <dd><a data-versiondate="2019-02-08T11:35:10Z" data-versionurl="https://web.archive.org/web/20190208113510/https://creativecommons.org/licenses/by/4.0/" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a></dd>
+                    <dt>Documentation</dt>
+                    <dd><a href="https://dokie.li/docs">https://dokie.li/docs</a></dd>
+                    <dt>Community</dt>
+                    <dd><a href="https://gitter.im/linkeddata/dokieli">Public chat</a></dd>
+                  </dl>
+                </div>
+              </div>
 
               <p>I am the primary maintainer of the project.</p>
 
               <p>dokieli implements the use cases pertaining to <a href="#decentralised-linked-notifications-and-annotations">Decentralised Linked Notifications and Annotations</a> as outlined earlier, as well as those specific to <a href="linked-data-notifications#scholarly-communication-notification-use-cases">scholarly communication</a>.</p>
 
-              <p>dokieli is inherently a general-purpose authoring, annotating, and notifying application. While it implements use cases specific to research or scholarly communication, it is not constrained to it. For instance, dokieli is capable of rendering the following use cases from the W3C <cite><a href="https://www.w3.org/TR/xhtml-rdfa-scenarios/">RDFa Use Cases: Scenarios for Embedding RDF in HTML</a></cite>: <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-1">Basic Structured Blogging</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-2">Publishing an Event - Overriding Some of the Rendered Data</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-3">Content Management Metadata</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-5">Web Clipboard</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-7">Advanced Data Structures</q>, and <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-8">Augmented Browsing for Scientists</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-9">Publishing a RDF Vocabulary</q>.</p>
+              <p>dokieli is a general-purpose clientside editor for decentralised article publishing, annotations and social interactions. While it implements use cases specific to research or scholarly communication, it is not constrained to it. For instance, dokieli is capable of rendering the following use cases from the W3C <cite><a href="https://www.w3.org/TR/xhtml-rdfa-scenarios/">RDFa Use Cases: Scenarios for Embedding RDF in HTML</a></cite>: <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-1">Basic Structured Blogging</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-2">Publishing an Event - Overriding Some of the Rendered Data</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-3">Content Management Metadata</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-5">Web Clipboard</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-7">Advanced Data Structures</q>, and <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-8">Augmented Browsing for Scientists</q>, <q cite="https://www.w3.org/TR/xhtml-rdfa-scenarios/#use-case-9">Publishing a RDF Vocabulary</q>.</p>
 
               <p>dokieli uses LDN to send and consume notifications: When a reader comments on a fragment of text in an article, the application discovers the article’s Inbox and sends a notification about the annotation. dokieli also consumes notifications from this Inbox to fetch and display the annotation as marginalia (<a href="#figure-dokieli-annotation">figure 2</a>). A reader can share a dokieli-enabled article with their contacts; dokieli discovers each contact’s Inbox and sends a notification there (<a href="#figure-dokieli-share">figure 3</a>). When editing an article, the author can add a citation. If an Inbox is discovered in the cited article, dokieli sends a notification there to indicate what part of the article was cited by whom and where. dokieli-enabled articles also consume citation notifications to display these metrics for the author and other readers (<a href="#figure-dokieli-citation">figure 4</a>).</p>
 
