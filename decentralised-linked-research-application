@@ -424,7 +424,7 @@
 
                   <p>In order to discover and view previously created annotations around article, dokieli follows LDN's discovery mechanism for notifications about annotations, and then subsequently fetches the annotations in order to display them in context of what they are associated with.</p>
 
-                  <p>In 2016, the <cite><a href="https://hypothes.is/annotating-all-knowledge/">Annotating All Knowledge Coalition</a></cite> derived user stories based on the notion of what open annotation can enable. Below is a list of responses with respect to dokieli, for each of the user stories <a href="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">derived from</a> <cite><a data-versiondate="2019-01-22T12:10:41Z" data-versionurl="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/" href="https://hypothes.is/blog/a-coalition-of-scholarly-annotators/">A Coalition for Scholarly Annotation</a></cite>:</p>
+                  <p>In 2016, the <cite><a href="https://hypothes.is/annotating-all-knowledge/">Annotating All Knowledge Coalition</a></cite> derived user stories based on the notion of what open annotation can enable. Below is a list of responses with respect to dokieli, for each of the user stories <a href="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">derived from</a> <cite><a data-versiondate="2019-01-22T12:10:41Z" data-versionurl="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/" href="https://hypothes.is/blog/a-coalition-of-scholarly-annotators/">A Coalition for Scholarly Annotation</a></cite>. The term <q>publisher</q> in context of dokieli is any actor with the means to trigger registration of resources and having their content potentially accessible to anyone or access controlled.</p>
 
                   <dl rel="prov:wasDerivedFrom" resource="#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">
                     <dt>As an author of a paper, I want to invite a small group of colleagues to provide feedback.</dt>
@@ -479,7 +479,7 @@
                     <dd>Reviewers can annotate with various motivations, including approval, disapproval, questioning with comments.</dd>
 
                     <dt>As publisher, I want to be able to review and moderate annotations in my own authoritative layer.</dt>
-                    <dd>Out of scope.</dd>
+                    <dd>Actors can create their reviews where they prefer and have access to. Moderating annotations owned by other actors can only be done if the publisher has access to.</dd>
 
                     <dt>As an author, I want to be able to annotate and interconnect the references I cite.</dt>
                     <dd>Citing and annotations with various motivations is implemented.</dd>
