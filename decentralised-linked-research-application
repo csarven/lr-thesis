@@ -581,7 +581,7 @@
               <section id="social-reviews" inlist="" rel="schema:hasPart" resource="#social-reviews">
                 <h3 property="schema:name">Social Reviews</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>It is possible to use dokieli's create operations as a composite to fulfill social and scholarly activities. One common scenario includes soliciting reviews, reviewing, and announcement the review, and final decisions made by community members. We can combine the following operations in dokieli:</p>
+                  <p>It is possible to use dokieli's create operations as a composite to fulfill social and scholarly activities. One common scenario includes soliciting reviews, reviewing, and announcement the review, and final decisions made by community members. We can combine <a href="#creating-resources">creating resources</a>, <a href="#annotations">annotations</a>, <a href="#sharing-resources">sharing resources</a> in dokieli as follows:</p>
 
                   <ul>
                     <li>Actor A publishes their article at preferred location.</li>
@@ -590,6 +590,7 @@
                     <li>Actor B reviews and annotates the derived resource by storing their annotations at preferred location. Notifications are sent to the inbox about the annotation.</li>
                     <li>Actor B sends Actor A a notification sharing the location of the annotated resource.</li>
                     <li>Actor A visits Actor B's derived resource and discovers the review and annotations.</li>
+                    <li>Actor B sends a notification to a community inbox that is dedicated to monitor scholarly activities about their review and annotations so that it can be discovered by other actors.</li>
                   </ul>
 
                   <figure class="todo">
