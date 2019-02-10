@@ -214,17 +214,17 @@
                       </tr>
                       <tr>
                         <td>Save</td>
-                        <td class="todo"></td>
+                        <td>Overwrites the current resource with the current state of the resource in user-agent.</td>
                         <td>None</td>
                       </tr>
                       <tr>
                         <td>Save As</td>
-                        <td class="todo"></td>
+                        <td>Actors creates a derived copy of the current resource (with its scripts and media) including provenance information that is stored at a preferred location. A unique notification inbox and annotation service can be assigned to the derived resource.</td>
                         <td>None</td>
                       </tr>
                       <tr>
                         <td>Reply</td>
-                        <td>A note reply modelled around <code>oa:Annotation</code> and other data..</td>
+                        <td>A note reply modelled around <code>oa:Annotation</code> and other data motivated by <a href="#dokieli-replying">replying</a>.</td>
                         <td>Sends notification using the Activity vocabulary's Announce.</td>
                       </tr>
                       <tr>
@@ -249,12 +249,17 @@
                       </tr>
                       <tr>
                         <td>Archive</td>
-                        <td>Sends notification using the Activity vocabulary's Announce about the target resource.</td>
+                        <td>Sends an archival request as a Web Annotation.</td>
                         <td>None</td>
                       </tr>
                       <tr>
                         <td>Version</td>
                         <td>Generates a derived copy of the current document as a mutable resource including provenance.</td>
+                        <td>None</td>
+                      </tr>
+                      <tr>
+                        <td>Immutable</td>
+                        <td>Generates a derived copy of the current document as an immutable resource including provenance. Creates or updates a Memento Timemap including a reference to the immutable resource.</td>
                         <td>None</td>
                       </tr>
                       <tr>
