@@ -135,6 +135,7 @@
 
                   <p id="provenance-memento"><strong>Provenance and Memento</strong>: dokieli can create resources that are derived from other resources, such that provenance data is retained eg. using <code>prov:wasDerivedFrom</code>, <code>prov:generatedAtTime</code>, in the derived copy. Versioned and immutable resources can be created and include information on their history eg. <code>rel:latest-version</code>, <code>rel:predecessor-version</code>. Memento TimeMap is also created to keep references to memento versions of the created resources (using <code>mem:memento</code>), as well as resources linking to their timemap with <code>mem:timemap</code>.</p>
 
+                  <p id="resource-archiving"><strong>Resource archiving</strong>: dokieli uses Internet Archive's API to create archived resources and to cite the snapshots with Web Annotations.</p>
                 </div>
               </section>
 
