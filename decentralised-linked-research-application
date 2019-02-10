@@ -133,7 +133,7 @@
 
                   <p id="profiles"><strong>Profiles</strong>: Actors can use their personal WebIDs, and profile descriptions when interacting with the Web resources.</p>
 
-                  <p id="provenance-memento"><strong>Provenance and Memento</strong>: dokieli can create resources that are derived from other resources, such that provenance data is retained eg. using <code>prov:wasDerivedFrom</code>, <code>prov:generatedAtTime</code>, in the derived copy. Versioned and immutable resources can be created and include information on their history eg. <code>rel:latest-version</code>, <code>rel:predecessor-version</code>. Memento TimeMap is also created to keep references to memento versions of the created resources (using <code>mem:memento</code>), as well as resources linking to their timemap with <code>mem:timemap</code>.</p>
+                  <p id="provenance-memento"><strong>Provenance and Memento</strong>: dokieli can create resources that are derived from other resources, such that provenance data is retained eg. using <code>prov:wasDerivedFrom</code>, <code>prov:generatedAtTime</code>, in the derived copy. Versioned and immutable resources can be created and include information on their history eg. <code>rel:latest-version</code>, <code>rel:predecessor-version</code>. Memento TimeMap is also created to keep references to memento versions of the created resources (using <code>mem:memento</code>), as well as resources linking to their TimeMap with <code>mem:timemap</code>.</p>
 
                   <p id="resource-archiving"><strong>Resource archiving</strong>: dokieli uses Internet Archive's API to create archived resources and to cite the snapshots with Web Annotations.</p>
                 </div>
@@ -195,7 +195,7 @@
               <section id="creating-resources" inlist="" rel="schema:hasPart" resource="#creating-resources">
                 <h3 property="schema:name">Creating Resources</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>An actor may require to be <a href="#authentication">authenticated</a> and <a href="#acl">authorized</a> with their <a href="#webid">WebID</a> to create Web resources. The table on <a href="#unit-registration-content-dokieli">unit registration and content in dokieli</a> includes the functions in dokieli that requests write-operations to a server for articles, annotations, and notifications.</p>
+                  <p>An actor may require to be <a href="#authentication">authenticated</a> and <a href="#acl">authorized</a> with their <a href="#webid">WebID</a> to create Web resources. The table on <a href="#unit-registration-content-dokieli">unit registration and content in dokieli</a> includes the functions in dokieli that requests write-operations to a server for articles, annotations, and notifications. These client-triggered mechanisms and methods applied to creating resources are done with HTTP URIs, and helps fulfill the registration function of scholarly communication.</p>
 
                   <table id="unit-registration-content-dokieli">
                     <caption>Unit registration and content in dokieli</caption>
@@ -219,7 +219,7 @@
                       </tr>
                       <tr>
                         <td>Save As</td>
-                        <td>Actors creates a derived copy of the current resource (with its scripts and media) including provenance information that is stored at a preferred location. A unique notification inbox and annotation service can be assigned to the derived resource.</td>
+                        <td>Actors creates a derived copy of the current resource (with its scripts and media) including provenance information at preferred location. A unique notification inbox and annotation service can be assigned to the derived resource.</td>
                         <td>None</td>
                       </tr>
                       <tr>
@@ -259,7 +259,7 @@
                       </tr>
                       <tr>
                         <td>Immutable</td>
-                        <td>Generates a derived copy of the current document as an immutable resource including provenance. Creates or updates a Memento Timemap including a reference to the immutable resource.</td>
+                        <td>Generates a derived copy of the current document as an immutable resource including provenance. Creates or updates a Memento TimeMap including a reference to the immutable resource.</td>
                         <td>None</td>
                       </tr>
                       <tr>
@@ -283,18 +283,18 @@
 
                   <p>Documents use HTML5 <cite><a href="https://www.w3.org/TR/html-polyglot/" rel="cito:citesAsAuthority">Polyglot Markup</a></cite>. Semantics is embedded directly into human-visible prose using RDFa.</p>
 
-                  <p>The appearance of documents is determined with CSS3. Different stylesheets can be applied to the same HTML structure so that a document can be presented flexibly, in the most appropriate way for a particular circumstance. Stylesheets can be switched from either dokieli’s menu or through Web browser with native controls, for example from a two-column layout required by an academic journal to a design in keeping with the author’s blog.</p>
+                  <p>The appearance of HTML in the Web browser is handled with CSS3. Different stylesheets can be applied to the same HTML structure so that a document can be presented flexibly, in the most appropriate way for a particular circumstance, eg a theme resembling a blog post or a scholarly article. Stylesheets can be switched from either dokieli’s menu or through Web browser with native controls. External stylsheets can also be applied dynamically.</p>
 
                   <p>When JavaScript is enabled on the clientside, dokieli provides a rich editing interface which includes visual and structural formatting of text as well as embedding machine-readable semantics, media, dynamic citations, and inclusion of statistical charts from live endpoints. An external personal data store, or even internet connection, are not needed at this stage as modifications to a document made in the browser this way can be persisted to a local filesystem using the dokieli menu <em>export</em> function (or the browser’s <em>save as</em>), or through browser’s native local storage.</p>
 
-                  <p>These client-triggered mechanisms and methods applied to creating resources helps fulfill the registration function.</p>
+                  <p>These client-triggered mechanisms and methods applied to creating resources helps fulfill the registration function. All created resources are considered to be archive-friendly ie. through the application of <a href="#separation-of-concerns">separation of concerns</a> and keeping <a href="#human-machine-readable">human and machine-readable</a> resources where possible.</p>
                 </div>
               </section>
 
               <section id="annotations" inlist="" rel="schema:hasPart" resource="#annotations">
                 <h3 property="schema:name">Annotations</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>Annotations can be created to associate a node or a selection with a particular user motivation. In dokieli with the exception of highlighting, the implemented annotation actions can be registered and stored as a unit of information at actor's <a href="#profile-storage">storage</a>, <a href="#profile-index">type index location</a>, <a href="#profile-outbox">outbox</a>, or article's <a href="#subject-annotation-service">annotation service</a>. The users can provide a text note for their annotations, assign a <a href="#license">license</a>, as well as designate an <a href="#subject-inbox">inbox</a> for their annotation, so that it can receive its own notifications. The Table on WA motivations includes the method applied, location of the annotation, and associated notification.</p>
+                  <p>Annotations can be created to associate a node or a selection with a particular user motivation. The annotation can be registered and stored as a unit of information at actor's <a href="#profile-storage">storage</a>, <a href="#profile-index">type index location</a>, <a href="#profile-outbox">outbox</a>, or article's <a href="#subject-annotation-service">annotation service</a>. The users can provide a text note for their annotations, assign a <a href="#license">license</a>, as well as designate an <a href="#subject-inbox">inbox</a> for their annotation, so that it can receive its own notifications. The Table on WA motivations includes the method applied, location of the annotation, and associated notification.</p>
 
                   <table>
                     <caption>Implementation of Web Annotation motivations and notifications in dokieli</caption>
@@ -409,27 +409,29 @@
                     </tfoot>
                   </table>
 
+                  <p>An example of a Web Annotation with reply motivation is in Listing:</p>
+
                   <figure class="listing" id="example-annotation-replying">
                     <pre><code>&lt;http://example.org/annotation&gt;</code>
 <code>  a <span class="highlight-oa-annotation">oa:Annotation</span> ;</code>
 <code>  oa:motivatedBy <span class="highlight-oa-replying">oa:replying</span> ;</code>
 <code>  oa:hasTarget &lt;<span class="highlight-oa-hastarget">http://example.net/article</span>&gt; ;</code>
 <code>  oa:hasBody &lt;<span class="highlight-oa-hasbody">http://example.info/note</span>&gt; .</code></pre>
-                    <figcaption>Example representation of an annotation that was motivated by replying.</figcaption>
+                    <figcaption>Example representation of an annotation that is motivated by replying.</figcaption>
                   </figure>
 
-                  <p>Once the annotation is created and has a dereferenceable HTTP URI (subject to access control rules), a notification can be sent to the inbox of the target resource about the annotation if an article or arbitrary parts advertises an LDN inbox. Depending on the motivation of the annotation, the notification is modelled with the <cite>Activity vocabulary</cite> eg. the <a href="https://www.w3.org/TR/activitystreams-vocabulary/#dfn-create">Create</a> activity (<code>as:Create</code>), to indicate that the actor has created the object.</p>
+                  <p>Once an annotation is created and has a dereferenceable HTTP URI (subject to access control rules), a notification can be sent to the inbox of the target resource about the annotation if an article or arbitrary parts advertises an LDN inbox. Depending on the motivation of the annotation, the notification is modelled with the <cite>Activity vocabulary</cite> eg. the <a href="https://www.w3.org/TR/activitystreams-vocabulary/#dfn-create">Create</a> activity (<code>as:Create</code>), to indicate that the actor has created the object.</p>
 
                   <p>In order to discover and view previously created annotations around article, dokieli follows LDN's discovery mechanism for notifications about annotations, and then subsequently fetches the annotations in order to display them in context of what they are associated with.</p>
 
-                  <p>In 2016, the <cite><a href="https://hypothes.is/annotating-all-knowledge/">Annotating All Knowledge Coalition</a></cite> derived user stories based on the notion of what open annotation can enable. Below is a list of responses with respect to dokieli, to each of the the user stories <a href="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">derived from</a> <cite><a data-versiondate="2019-01-22T12:10:41Z" data-versionurl="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/" href="https://hypothes.is/blog/a-coalition-of-scholarly-annotators/">A Coalition for Scholarly Annotation</a></cite>:</p>
+                  <p>In 2016, the <cite><a href="https://hypothes.is/annotating-all-knowledge/">Annotating All Knowledge Coalition</a></cite> derived user stories based on the notion of what open annotation can enable. Below is a list of responses with respect to dokieli, for each of the user stories <a href="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">derived from</a> <cite><a data-versiondate="2019-01-22T12:10:41Z" data-versionurl="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/" href="https://hypothes.is/blog/a-coalition-of-scholarly-annotators/">A Coalition for Scholarly Annotation</a></cite>:</p>
 
                   <dl rel="prov:wasDerivedFrom" resource="#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">
                     <dt>As an author of a paper, I want to invite a small group of colleagues to provide feedback.</dt>
-                    <dd>Implemented with the <q>Share</q> feature using LDN.</dd>
+                    <dd>Implemented with the <em>Share</em> feature using LDN.</dd>
 
                     <dt>As a pre-print publisher, I want to create and manage an overlay journal.</dt>
-                    <dd>Inapplicable</dd>
+                    <dd>Inapplicable for the most part. It is possible to open and render a collection of activities eg. published articles, which can be treated as a journal volume.</dd>
 
                     <dt>As a journal publisher, I want to implement a peer review system that brings authors and reviewers together in role-defined groups.</dt>
                     <dd>Actors can notify each other and annotate resources. However, there is no particular system to manage it as a whole.</dd>
@@ -441,22 +443,22 @@
                     <dd>Actors can select, add, and edit semantic markup (HTML+RDFa) as well embed structured data blocks for Nanotations using TriG, as well as JSON-LD and Turtle. Common document formatting features are supported.</dd>
 
                     <dt>As a journal publisher, I want to create safe spaces for commentary so that authors and expert readers can participate comfortably.</dt>
-                    <dd>Actors with the required access control privileges to an inbox manages the information flow. There is no overarching system to create <em>a space</em>.</dd>
+                    <dd>Actors with the required access control privileges to an inbox manages the information flow. There is no overarching system to create or manage <em>a space</em> as each resource is individually controlled by their owners. It is possible for LDN inbox owners to filter notifications which refers to unwanted annotations.</dd>
 
                     <dt>As a vision-impaired user, I want annotation tools to be accessible to me.</dt>
-                    <dd>WCAG, ATAG, ARIA.</dd>
+                    <dd>WCAG are applied, and ARIA is used where applicable. The application of ATAG is in progress.</dd>
 
                     <dt>As an annotator, I want to be able to assign DOIs to individual contributions, or to sets of them.</dt>
-                    <dd>DOI generation or registering is out of scope.</dd>
+                    <dd>DOI generation or DOI registration is out of scope. Moreover, current DOI registration systems do not have authentication mechanisms that allows annotators to identify themselves with their WebID in order to assign a DOI.</dd>
 
                     <dt>As an author, I want annotation to integrate with my preferred writing tool so that annotations can flow back into the text.</dt>
                     <dd>Annotations that are generated use the Web Annotation Data Model. Web Annotation Selectors and States is used to create selectors that an actor can use.</dd>
 
                     <dt>As a scientist, I want to participate in a journal club that travels around the web, annotating papers in many different publishing systems.</dt>
-                    <dd>Out of scope.</dd>
+                    <dd>Any accessible URL rendered as HTML (including different publishing systems) can be annotated, and the annotation can be stored at actor's preferred location eg. community's annotation service.</dd>
 
                     <dt>As an author, I want to annotate my own published work, noting errata and supplying new context.</dt>
-                    <dd>Authors can annotate with various motivations, include <q>codetags</q>.</dd>
+                    <dd>Authors can annotate with various motivations and include <q>codetags</q>.</dd>
 
                     <dt>As an editor, I want to document key editorial decisions and expose them to the public.</dt>
                     <dd>Editors can annotate with various motivations.</dd>
