@@ -1058,6 +1058,8 @@
           <section id="adoption-of-dokieli" inlist="" rel="schema:hasPart" resource="#adoption-of-dokieli">
             <h2 property="schema:name">Adoption of dokieli</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p>dokieli is first and foremost intended to demonstrate the potential of an application that is built entirely on open Web standards, meanwhile enabling actors to control their own data and respecting their privacy. During the process of exemplifying its core principles as an implementation, it has raised awareness and had some success in its adoption. Here I list some of those:</p>
+
               <p id="adoption-w3c-annotation">The W3C Working Group Note <cite><a href="https://www.w3.org/TR/annotation-html/" rel="cito:citesAsAuthority">Embedding Web Annotations in HTML</a></cite> includes examples from dokieli’s publishing and consuming of the Web Annotation Data <cite><a href="https://www.w3.org/TR/annotation-model/" rel="cito:citesAsAuthority">Model</a></cite> and <cite><a href="https://www.w3.org/TR/annotation-vocab/" rel="cito:citesAsAuthority">Vocabulary</a></cite> with motivations based on general use cases, for example: personal annotating, offline-first annotations, lightweight, decentralized annotation Tools, collaborative annotating, and wholly internal annotations.</p>
  
               <p id="adoption-w3c-ldn">The W3C <cite><a href="https://www.w3.org/TR/ldn/" rel="cito:citesAsAuthority">Linked Data Notifications</a></cite> specification uses dokieli’s HTML+RDFa template, and the <a href="https://linkedresearch.org/ldn/" rel="cito:citesAsAuthority">Editor’s Draft</a> showcase dokieli as a consumer of LDN and Web Annotations, as well as allowing the user to create new annotations and send notifications. The LDN <a href="https://linkedresearch.org/ldn/tests/" rel="cito:citesAsAuthority">Test Suite</a> also uses dokieli’s templates and stylesheets.</p>
@@ -1066,21 +1068,20 @@
 
               <p id="adoption-ceur"><cite><a href="http://ceur-ws.org/">CEUR-WS.org</a></cite>, an <q>Online Proceedings for Scientific Conferences and Workshops</q> offers the tooling <cite><a href="https://github.com/ceurws/ceur-make">ceur-make</a></cite> to help organisers generate proceedings using dokieli’s HTML+RDFa template, eg. <cite><a href="http://ceur-ws.org/Vol-1654/">SemStats 2016</a></cite>.</p>
 
-              <p id="adoption-examples-in-the-wild">We list a community (of academics) who self-publish their articles and thesis using dokieli with different stylesheets and derived scripts under its <cite><a href="https://github.com/linkeddata/dokieli/wiki#examples-in-the-wild">examples in the wild</a></cite>.</p>
+              <p id="adoption-examples-in-the-wild">A community of researcher who self-publish their articles and thesis using dokieli with different stylesheets and derived scripts are listed in dokieli's <cite><a href="https://github.com/linkeddata/dokieli/wiki#examples-in-the-wild">examples in the wild</a></cite>.</p>
 
-              <p id="adoption-conferences">The conference series: WWW (eg. <a href="http://events.linkeddata.org/ldow2018/">LDOW</a> and <a href="http://sociam.org/wow2017/">WOW</a> workshops), <a href="https://iswc2018.semanticweb.org/calls/html-submission-guide/">ISWC</a>, and <a href="http://2018.eswc-conferences.org/call-papers">ESWC</a> propose dokieli as one tooling in which authors can use to make their contributions to the calls with.</p>
+              <p id="adoption-conferences">The conference series: WWW (eg. <a href="http://events.linkeddata.org/ldow2018/">LDOW</a> and <a href="http://sociam.org/wow2017/">WOW</a> workshops), <a href="https://iswc2019.semanticweb.org/calls/html-submission-guide/">ISWC</a>, and <a href="http://2018.eswc-conferences.org/call-papers">ESWC</a> propose dokieli as one tooling in which authors can use to make their contributions to the calls with.</p>
 
               <p id="adoption-solid"><cite><a href="https://github.com/solid/solid-panes">Solid Panes</a></cite> is a set of core Solid-compatible applications includes to create human-readable and Linked Data documents. A pane displays the dokieli document using a part of its window.</p>
 
               <p id="adoption-linked-research">The <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> website uses dokieli in its templates on the site as well as workshop proposals and call for contributions.</p>
 
-              <p id="adoption-personal">I practice what I preach: my personal website at <a href="http://csarven.ca/">csarven.ca</a> uses dokieli, where some articles (like this article) offer pointers to a public annotation service in which users may wish to use for their annotations. Articles also dynamically embed annotations from personal storage spaces.</p>
+              <p id="adoption-personal">Practising what I preach: personal website at <a href="http://csarven.ca/">http://csarven.ca</a> uses dokieli, where some articles - like this one you are reading - offer pointers to a public annotation service in which users may wish to use for their annotations, as well as an inbox to send notifications to eg. replies, citations. Articles also dynamically embed annotations from personal storage spaces.</p>
             </div>
           </section>
 
 
           <p class="todo">Is this useful? <cite><a data-versiondate="2018-09-02T19:37:42Z" data-versionurl="https://web.archive.org/web/20180902193742/https://arxiv.org/pdf/1202.4503v1.pdf" href="https://arxiv.org/pdf/1202.4503v1.pdf">A Critical Look at Decentralized Personal Data Architectures</a></cite> .. ?</p>
-
 
 
           <section id="dokieli-forces-functions" inlist="" rel="schema:hasPart" resource="dokieli-forces-functions">
