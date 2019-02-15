@@ -1061,7 +1061,7 @@
               <p class="todo" id="remotestorage">RemoteStorage?</p>
 
               <aside>
-                <p>I have saved discussing the <em>best</em> to last, Amaya and Annotea:</p>
+                <p>I have saved discussing the landmark to last, Amaya and Annotea:</p>
               </aside>
 
               <p id="amaya"><cite><a href="https://www.w3.org/Amaya/" rel="cito:discusses">Amaya</a></cite> is a desktop Web browser and editor that was developed by W3C (1996-2012) to provide a framework to experiment and validate Web specifications. It allows documents to be created and updated with remote access features.</p>
@@ -1104,9 +1104,6 @@
           </section>
 
 
-          <p class="todo">Is this useful? <cite><a data-versiondate="2018-09-02T19:37:42Z" data-versionurl="https://web.archive.org/web/20180902193742/https://arxiv.org/pdf/1202.4503v1.pdf" href="https://arxiv.org/pdf/1202.4503v1.pdf">A Critical Look at Decentralized Personal Data Architectures</a></cite> .. ?</p>
-
-
           <section id="dokieli-forces-functions" inlist="" rel="schema:hasPart" resource="dokieli-forces-functions">
             <h2 property="schema:name">Forces and Functions in dokieli</h2>
             <div datatype="rdf:HTML" property="schema:description">
@@ -1116,32 +1113,32 @@
 
               <dl>
                 <dt>Actor</dt>
-                <dd>Any <q cite="https://www.w3.org/TR/webarch/#def-web-agent">web agent</q> — person or software — can use WebIDs for their identities when participating in reading and writing resources. Actors may also contribute anonymously, be pseudonymous, or unlinkable. Applications like dokieli can follow links in an actor's profile description to discover the members of their social network.</dd>
+                <dd>Any <a href="https://www.w3.org/TR/webarch/#def-web-agent">web agent</a> — person or software — can use WebIDs for their identities to read and write resources. Actors can contribute anonymously, be pseudonymous, or unlinkable. The application adapts to the information that is available from the profile description. An actors social network can be discovered and used to communicate and collaborate.</dd>
 
                 <dt>Content</dt>
-                <dd>Actors can author, publish, and reuse Web resources, including articles, annotations, notifications, as well as query statistical data and lookup citation references. Any fragment of <a href="scholarly-communication-on-the-web#axiom-0a">resource of significance</a> can be assigned a URI. Information in dokieli is automatically expressed by the application for certain aspects of units of information or explicitly expressed by the actor using suitable Linked Data <a href="structure-of-scholarly-information#vocabularies">vocabularies</a>.</dd>
+                <dd>Actors can author, publish, and reuse Web resources, including articles, annotations, notifications, as well as query statistical data and lookup citation references. Any fragment of <a href="scholarly-communication-on-the-web#axiom-0a">resource of significance</a> can be assigned a URI, defined or described, as well as interlinked with other URIs. Information is semantically expressed with Linked Data <a href="structure-of-scholarly-information#vocabularies">vocabularies</a> by the application and actively by the actor.</dd>
 
                 <dt>Accessibility</dt>
-                <dd>Actors can access publicly available HTTP URIs directly or authenticate themselves in order to retrieve representations of access controlled resources - including articles, annotations, and notifications - provided that they are authorized to. Actors can set access rules on resources they control.</dd>
+                <dd>Actors can access publicly available HTTP URIs directly or authenticate themselves in order to retrieve representations of access controlled Web resources - including articles, annotations, and notifications - provided that they are authorized to. Actors can set access rules on resources they control.</dd>
 
                 <dt>Applicability</dt>
-                <dd>Applicability of scholarly communication comes from research which responds to problems or answers questions, which can be used or built upon by others. dokieli makes it possible to both express and share units of information pertaining to applicability.</dd>
+                <dd>Applicability of scholarly communication comes from research which responds to problems or answers questions, which can be used or built upon by others. The application makes it possible to both express and share units of information pertaining to applicability.</dd>
               </dl>
 
               <p id="dokieli-functions">The <em>functions</em>:</p>
 
               <dl>
                 <dt>Registration</dt>
-                <dd>Articles, annotations, and notifications can be registered as their own entities by assigning HTTP URIs at any location the actor has ownership or access to, facilitating information discovery and reuse. Registration of units of information are triggered by dokieli and then realised by servers.</dd>
+                <dd>Articles, annotations, and notifications can be registered as their own entities by assigning HTTP URIs at any location the actor has ownership or access to, facilitating information discovery and reuse. Registration of units of information are triggered by the application and then realised by servers. Registration is also triggered by requesting a snapshot from archiving services.</dd>
 
                 <dt>Awareness</dt>
-                <dd>The LDN protocol is used to disseminate notifications to document, profile, or community managed scholarly communication inboxes. The kind of notifications range from information sharing, request for feedback, replies, reviews or annotations of resources, to bringing attention to citation back-references.</dd>
+                <dd>The LDN protocol is used to disseminate notifications to document, profile, or community managed inboxes. The kind of notifications range from information sharing, request for feedback, replies, assessments, or annotations of resources, to bringing attention to citation back-references.</dd>
 
                 <dt>Certification</dt>
-                <dd>Units of information at any level of granularity can be annotated or replied to, from entire articles to individual data points as part of quality-control. All artefacts for the purpose of quality-control are registered units of information that can be dereferenced, and can be announced to any party of interest; inboxes of individuals and scholarly communities.</dd>
+                <dd>Units of information at any level of granularity can be annotated or replied to, from entire articles to individual data points as part of quality-control. All artefacts for the purpose of quality-control are registered units of information that can be dereferenced, and can be announced to individuals or groups.</dd>
 
                 <dt>Archiving</dt>
-                <dd>dokieli can inform the APIs of archiving systems (in the form of an annotation) about the existence and state of units of information that can be crawled and preserved.</dd>
+                <dd>dokieli can inform the APIs of archiving systems about the existence and state of units of information that can be crawled and preserved. Actors can reuse the archived URIs.</dd>
               </dl>
             </div>
           </section>
@@ -1151,6 +1148,8 @@
           <section id="scratching-the-surface" inlist="" rel="schema:hasPart" resource="#scratching-the-surface">
             <h2 property="schema:name">Scratching the Surface</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p>https://www.w3.org/History/1989/proposal.html</p>
+
               <p class="todo">History.. nothing new here? Amaya.. Annotea</p>
               <p><cite><a data-versiondate="2018-09-20T15:50:46Z" data-versionurl="https://web.archive.org/web/20180920155046/https://www.southampton.ac.uk/~harnad/Papers/Harnad/harnad95.interactive.cognition.html" href="https://www.southampton.ac.uk/~harnad/Papers/Harnad/harnad95.interactive.cognition.html">Interactive Cognition: Exploring the Potential of Electronic Quote/Commenting</a></cite></p>
 
