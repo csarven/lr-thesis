@@ -153,12 +153,14 @@
                     <li>Versioned resources</li>
                     <li>Immutable resources</li>
                     <li>Archiving</li>
-                    <li>Document sections</li>
+                    <li>Contents, list of tables, figures and abbreviations</li>
+                    <li>Sectioning content</li>
                     <li>Paragraphs</li>
                     <li>Selections (arbitrary)</li>
                     <li>References and citations</li>
                     <li>Definitions</li>
-                    <li>Figures, Tables, Listings</li>
+                    <li>Figures, tables, code listings</li>
+                    <li>Code line numbers</li>
                     <li>Access-control policy</li>
                     <li>Canonical identifier (annotation)</li>
                     <li>Embedded data resources</li>
