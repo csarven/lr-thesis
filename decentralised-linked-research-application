@@ -1081,8 +1081,6 @@
 
               <p id="libreoffice-online"><cite><a href="https://github.com/libreoffice/online" rel="cito:discusses">LibreOffice Online</a></cite>'s <cite>Writer</cite>, for example, allows collaborative editing of office documents from the Web browser. Content can be stored under different CMSs in the cloud. The document’s interface consists of image tiles which are sent from the server and rendered in the browser. However, it hardly provides accessibility, rich interlinking and annotations.</p>
 
-              <p id="smallest-federated-wiki">The users of <cite><a href="http://fed.wiki.org/" rel="cito:discusses">Smallest Federated Wiki</a></cite> can fork pages and maintain personal copies at their preferred locations.</p>
-
               <p class="todo" id="remotestorage">RemoteStorage?</p>
 
               <aside>
