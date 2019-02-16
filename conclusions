@@ -38,13 +38,20 @@
           </section>
 
 
-              <section id="level-of-conceptual-interoperability" inlist="" rel="schema:hasPart" resource="#degree-of-control-in-dokieli">
-                <h3 property="schema:name">Levels of conceptual interoperability</h3>
+              <section id="levels-of-conceptual-interoperability" inlist="" rel="schema:hasPart" resource="#levels-of-conceptual-interoperability">
+                <h3 property="schema:name">Levels of Conceptual Interoperability</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p><cite><a data-versiondate="2019-02-16T01:10:14Z" data-versionurl="https://web.archive.org/web/20190216011014/http://www.iiisci.org/journal/CV$/sci/pdfs/P468106.pdf" href="http://www.iiisci.org/journal/CV$/sci/pdfs/P468106.pdf">Applying the Levels of Conceptual Interoperability Model in Support of Integratability, Interoperability, and Composability for System-of-Systems Engineering</a></cite></p>
+                  <p><cite><a data-versiondate="2019-02-16T01:10:14Z" data-versionurl="https://web.archive.org/web/20190216011014/http://www.iiisci.org/journal/CV$/sci/pdfs/P468106.pdf" href="http://www.iiisci.org/journal/CV$/sci/pdfs/P468106.pdf">Applying the Levels of Conceptual Interoperability Model in Support of Integratability, Interoperability, and Composability for System-of-Systems Engineering</a></cite>, Tolk, 2007</p>
+
+
+                  <p><cite><a data-versiondate="2019-02-16T01:21:17Z" data-versionurl="https://web.archive.org/web/20190216012117/https://arxiv.org/pdf/0908.0191.pdf" href="https://arxiv.org/pdf/0908.0191.pdf">The Levels of Conceptual Interoperability Model:  Applying Systems Engineering Principles to M&SM</a></cite>, Wang, 2009</p> 
+
+
+                  <p><cite><a data-versiondate="2017-12-09T04:39:45Z" data-versionurl="https://web.archive.org/web/20171209043945/http://dcpapers.dublincore.org/pubs/article/viewFile/3851/2036" href="http://dcpapers.dublincore.org/pubs/article/viewFile/3851/2036">Applying the Levels of Conceptual Interoperability Model to a Digital Library Ecosystem –a Case Study</a></cite>, Kostelic, 2017</p>
                 </div>
               </section>
 
+              <p><cite><a data-versiondate="2019-02-16T13:36:12Z" data-versionurl="https://web.archive.org/web/20190216133612/http://www.csl.sri.com/users/neumann/chats4.html" href="http://www.csl.sri.com/users/neumann/chats4.html">Principled Assuredly Trustworthy Composable Architectures</a></cite>, Neumann, 2004</p>
 
           <section id="role-of-institutions" inlist="" rel="schema:hasPart" resource="#role-of-institutions">
             <h2 property="schema:name">Role of Institutions</h2>
