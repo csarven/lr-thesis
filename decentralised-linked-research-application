@@ -1205,6 +1205,8 @@
 
               <hr />
 
+              <p>dokieli performs read and write operations on HTTP URIs which pertain to user's actions in the UI.</p>
+
               <p class="todo">Social implications of dokieli Web Extension and social graph. For instance, the ability of annotating and sharing information even if the primary article doesn't have an inbox or offers an annotation service. There is no 'admin' that oversees everything, but that each actor has control privileges to whatever they are given. Having the ability ot annotate anything and store it at a preferred location gives an actor their autonomy. This can be contrasted with annotation systems that may restricts annotations being created with particular targets or annotations having particular information in its body.</p>
 
               <p class="todo">Mention dokieli happens to be one application that demonstrates the potentials of decentralised notifications and annotations. The information it creates does not result in a vendor lock-in, as other applications are able to reuse them.</p>
