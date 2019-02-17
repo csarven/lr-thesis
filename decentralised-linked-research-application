@@ -256,12 +256,12 @@
                       <tr>
                         <td>Reply</td>
                         <td>A note reply modelled around <code>oa:Annotation</code> and other data motivated by <a href="#dokieli-replying">replying</a>.</td>
-                        <td>Sends notification using the Activity vocabulary's Announce.</td>
+                        <td>Sends and consumes notification using the Activity vocabulary's Announce.</td>
                       </tr>
                       <tr>
                         <td>Annotation</td>
                         <td>A note modelled around <code>oa:Annotation</code> and other data.</td>
-                        <td>Sends notifications for <code>as:Add</code> motivated by <a href="#dokieli-bookmarking">bookmarking</a>, <code>as:Announce</code>, <code>as:Like</code> and <code>as:Dislike</code> motivated by <a href="#dokieli-assessing">assessing</a>, <code>as:Relationship</code>.</td>
+                        <td>Sends and consumes notifications for activities <code>as:Add</code>, motivated by <a href="#dokieli-bookmarking">bookmarking</a>; <code>as:Announce</code>, motivated by <a href="#dokieli-replying">replying</a>, <a href="#dokieli-questioning">questioning</a>; <code>as:Like</code> and <code>as:Dislike</code> motivated by <a href="#dokieli-assessing">assessing</a>. Can also consume notifications using <code>as:Relationship</code>.</td>
                       </tr>
                       <tr>
                         <td>Activity</td>
@@ -276,7 +276,7 @@
                       <tr>
                         <td>Citation</td>
                         <td>None</td>
-                        <td><a href="#notifying-cited-entity">Notifies cited entity</a> about the citing entity's reference and the author's intention for the citation.</td>
+                        <td><a href="#notifying-cited-entity">Notifies cited entity</a> about the citing entity's reference and the author's intention for the citation. Consumes notifications about citations.</td>
                       </tr>
                       <tr>
                         <td>Archive</td>
@@ -460,7 +460,7 @@
                     </tfoot>
                   </table>
 
-                  <p>An example of a Web Annotation with reply motivation is in Listing:</p>
+                  <p>An example of a Web Annotation with the reply motivation:</p>
 
                   <figure class="listing" id="example-annotation-replying">
                     <pre><code>&lt;http://example.org/annotation&gt;</code>
@@ -468,18 +468,18 @@
 <code>  oa:motivatedBy <span class="highlight-oa-replying">oa:replying</span> ;</code>
 <code>  oa:hasTarget &lt;<span class="highlight-oa-hastarget">http://example.net/article</span>&gt; ;</code>
 <code>  oa:hasBody &lt;<span class="highlight-oa-hasbody">http://example.info/note</span>&gt; .</code></pre>
-                    <figcaption>Example representation of an annotation that is motivated by replying.</figcaption>
+                    <figcaption>Example annotation that is motivated by replying.</figcaption>
                   </figure>
 
                   <p>Once an annotation is created and has a dereferenceable HTTP URI (subject to access control rules), a notification can be sent to the inbox of the target resource about the annotation if an article or arbitrary parts advertises an LDN inbox. Depending on the motivation of the annotation, the notification is modelled with the <cite>Activity vocabulary</cite> eg. the <a href="https://www.w3.org/TR/activitystreams-vocabulary/#dfn-create">Create</a> activity (<code>as:Create</code>), to indicate that the actor has created the object.</p>
 
                   <p>In order to discover and view previously created annotations around article, dokieli follows LDN's discovery mechanism for notifications about annotations, and then subsequently fetches the annotations in order to display them in context of what they are associated with.</p>
 
-                  <p id="aak-use-cases">In 2016, the <cite><a href="https://hypothes.is/annotating-all-knowledge/">Annotating All Knowledge Coalition</a></cite> derived user stories based on the notion of what open annotation can enable. Below is a description of how dokieli realises the user stories <a href="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">derived from</a> <cite><a data-versiondate="2019-01-22T12:10:41Z" data-versionurl="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/" href="https://hypothes.is/blog/a-coalition-of-scholarly-annotators/">A Coalition for Scholarly Annotation</a></cite>. The term <q>publisher</q> that is used in these user stories usually refer to an entity other the creators of the core content. Whereas in dokieli, a <q>publisher</q> is any actor capable of triggering the registration of resources and having their content potentially accessible to anyone or access controlled.</p>
+                  <p id="aak-use-cases">In 2016, the <cite><a href="https://hypothes.is/annotating-all-knowledge/">Annotating All Knowledge Coalition</a></cite> derived user stories based on the notion of what open annotation can enable. Below is a description of how dokieli realises the user stories <a href="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">derived from</a> <cite><a data-versiondate="2019-01-22T12:10:41Z" data-versionurl="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/" href="https://hypothes.is/blog/a-coalition-of-scholarly-annotators/">A Coalition for Scholarly Annotation</a></cite>. The term <q>publisher</q> that is used in these user stories usually refer to an entity that is other than the creators of the content. Whereas in dokieli, a <q>publisher</q> is <em>any</em> actor capable of triggering the registration of resources and having their content potentially accessible to anyone.</p>
 
                   <dl rel="prov:wasDerivedFrom" resource="#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">
                     <dt>As an author of a paper, I want to invite a small group of colleagues to provide feedback.</dt>
-                    <dd>Implemented with the <em>Share</em> feature using LDN.</dd>
+                    <dd>Implemented with the <em>Share</em> feature using the actor's social graph data, and LDN for dissemination.</dd>
 
                     <dt>As a pre-print publisher, I want to create and manage an overlay journal.</dt>
                     <dd>Inapplicable for the most part. It is possible to open and render a collection of activities eg. published articles, which can be treated as a journal volume.</dd>
@@ -1069,7 +1069,7 @@
           <section id="web-publishing-systems" inlist="" rel="schema:hasPart" resource="#web-publishing-systems">
             <h2 property="schema:name">Web Publishing Systems</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Throughout this article I have highlighted the environment that the AWWW enables with the goal of fostering a universally accessible and interoperable information space. I have also looked at the ongoing initiatives towards the decoupling of functions in scientific communication. Here I reuse some of these notions to situate dokieli with some of the existing work as representatives for different areas in Web publishing. There is plethora of examples for centralised and decentralised systems on the Web. Some of the authoring and publishing systems already fulfill some aspects of decentralised systems which operate over HTTP. I focus on <a href="#degree-of-control">degree of control</a> with respect to applications, data and identity, privacy, accessibility, and interoperability, as well as approximating where in the <a href="#server-client-spectrum">server-client spectrum</a> (tightly or loosely coupled) in which a system generally falls under.</p>
+              <p>Throughout this article I have highlighted the environment that the AWWW enables with the goal of fostering a universally accessible and interoperable information space. I have also looked at the ongoing initiatives towards the decoupling of functions in scientific communication. Here I reuse some of these notions to situate dokieli with some existing work that can be (subjectively) considered as representative for different areas in <q>Web publishing</q>. There is plethora of examples for centralised and decentralised systems on the Web. Some of the authoring and publishing systems already fulfill some aspects of decentralised systems which operate over HTTP. I focus on <a href="#degree-of-control">degree of control</a> with respect to applications, data and identity, privacy, accessibility, and interoperability, as well as approximating where in the <a href="#server-client-spectrum">server-client spectrum</a> (tightly or loosely coupled) in which a system generally falls under.</p>
 
               <p id="gmtf">Currently, <cite><a href="https://docs.google.com/" rel="cito:discusses">Google Docs</a></cite>, <cite><a href="https://medium.com/" rel="cito:discusses">Medium</a></cite>, <cite><a href="https://twitter.com/" rel="cito:discusses">Twitter</a></cite>, <cite><a href="https://facebook.com/" rel="cito:discusses">Facebook</a></cite> are examples of well-known Web applications for collaborative creation and publication of content. Users create accounts on these systems to perform access controlled read-write operations on data stored on the same server. These kind of systems allow users to authenticate with their identity provider from preconfigured authorities, as well providing their own accounts on the system. Each service generally has a custom API and vocabulary that a trusted client application (normally hosted on the same server) uses to interact with the server in order to perform CRUD operations through the user interface. They are categorically a server-client that is <a href="#server-client-tightly-coupled">tightly coupled</a>.</p>
 
@@ -1093,6 +1093,7 @@
 
               <p id="annotea">As per <cite><a data-versiondate="2019-02-13T22:13:15Z" data-versionurl="https://web.archive.org/web/20190213221315/https://www.w3.org/2001/Annotea/Papers/www10/annotea-www10.html" href="https://www.w3.org/2001/Annotea/Papers/www10/annotea-www10.html">Annotea: An Open RDF Infrastructure for Shared Web Annotations</a></cite>, Kahan, 2001, the <cite><a data-versiondate="2019-02-12T02:58:06Z" data-versiourl="https://web.archive.org/web/20190212025806/http://www.w3.org/2001/Annotea/" href="https://www.w3.org/2001/Annotea/">Annotea</a></cite> system was the earliest approach to creating and sharing Web-based annotations built on the RDF infrastructure. The client application was integrated into Amaya where it was able to store and recall annotations locally or from a remote annotation server, with the expectation of an access controlled server using the standard HTTP authentication mechanisms. Annotea annotations independent Web resources. Annotea has a <cite><a href="https://www.w3.org/2001/Annotea/User/Protocol.html">protocol</a></cite> that specifies the CRUD operations for servers and clients, and enables different applications to be built. Annotea in Amaya for instance allowed the user to specify the URI of an annotation server. In order to reference target resources, annotations used <cite><a href="https://www.w3.org/TR/xptr-element/">XML Pointer Language</a></cite> (<abbr title="XML Pointer Language">XPointer</abbr>) to specify the part of HTML or XML-based documents that the annotation was in context of. Annotea laid out a path for subsequent systems, influencing <cite><a href="http://www.openannotation.org/spec/core/">Open Annotation Data Model</a></cite> which later evolved into the WA Data Model.</p>
 
+              <hr />
 
               <p id="dokieli-hypothesis">A tentative view of the interoperability between Hypothes.is and dokieli is as follows. The client applications Hypothes.is and dokieli are non-conflicting in that when used in the same content or context, each can still be used on its own. A Hypothes.is client application can search and fetch annotations from a server using the Hypothes.is API, and render them on the target resource. dokieli can discover the WA annotation service of a Web resource, fetch annotations from servers conforming to the WAP and LDP, and render them on the target resource. Additional data about the annotation can be shown in both applications. A Hypothes.is client application can authenticate with a particular server using OAuth. Actors with WebID in dokieli can authenticate with servers supporting WebID-TLS and WebID-OIDC. Both can create annotations given authorization. Hypothes.is application can extend and direct annotations to a group using the same server. dokieli uses the HTTP <code>OPTIONS</code> method to determine the communication options from servers based on WAP and LDP, and adopts for subsequent requests eg. triggers content negotiation with servers to determine preferred RDF serialization of Web Annotation and profile. The Hypothes.is client can only fetch annotations from a corresponding Hypothes.is server. dokieli can only fetch annotations from servers implementing LDP or WAP. Putting the method of annotation fetching aside, it is possible for either client application to render an annotation serialized as JSON-LD that is created by the other application.</p>
 
@@ -1124,7 +1125,7 @@
 
               <p id="adoption-linked-research">The <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> website uses dokieli in its templates on the site as well as workshop proposals and call for contributions.</p>
 
-              <p id="adoption-personal">Practising what I preach: personal website at <a href="http://csarven.ca/">http://csarven.ca</a> uses dokieli, where some articles - like this one you are reading - offer pointers to a public annotation service in which users may wish to use for their annotations, as well as an inbox to send notifications to eg. replies, citations. Articles also dynamically embed annotations from personal storage spaces.</p>
+              <p id="adoption-personal">My personal website at <a href="http://csarven.ca/">http://csarven.ca/</a> uses dokieli, where some articles - like this one you are reading - offer pointers to a public annotation service in which users can optionally send their annotations to, in addition to their own storage. There is also an inbox associated with the article to send notifications to eg. replies, reviews, citations.</p>
             </div>
           </section>
 
@@ -1138,7 +1139,7 @@
 
               <dl>
                 <dt>Actor</dt>
-                <dd>Any <a href="https://www.w3.org/TR/webarch/#def-web-agent">web agent</a> — person or software — can use WebIDs for their identities to read and write resources. Actors can contribute anonymously, be pseudonymous, or unlinkable. The application adapts to the information that is available from the profile description. An actors social network can be discovered and used to communicate and collaborate.</dd>
+                <dd>Any <a href="https://www.w3.org/TR/webarch/#def-web-agent">web agent</a> — person or software — can use WebIDs for their identities to read and write resources. Actors can contribute anonymously, be pseudonymous, or unlinkable. The application adapts to the information that is available from the profile description. An actor's social graph can be discovered and used to communicate.</dd>
 
                 <dt>Content</dt>
                 <dd>Actors can author, publish, and reuse Web resources, including articles, annotations, notifications, as well as query statistical data and lookup citation references. Any fragment of <a href="scholarly-communication-on-the-web#axiom-0a">resource of significance</a> can be assigned a URI, defined or described, as well as interlinked with other URIs. Information is semantically expressed with Linked Data <a href="structure-of-scholarly-information#vocabularies">vocabularies</a> by the application and actively by the actor.</dd>
