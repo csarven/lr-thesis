@@ -20,7 +20,8 @@
         <div datatype="rdf:HTML" property="schema:description">
           <blockquote cite="https://www.w3.org/History/1989/proposal.html">
             <p>Information systems start small and grow. They also start isolated and then merge. A new system must allow existing systems to be linked together without requiring any central control or coordination.</p>
-            <footer><cite><a data-versiondate="2019T02T15:00:28:43Z" data-versionurl="https://web.archive.org/web/20190215002843/https://www.w3.org/History/1989/proposal.html" href="https://www.w3.org/History/1989/proposal.html">Information Management: A Proposal</a></cite>, Berners-Lee, 1989</footer>
+
+            <footer>Non-Centralisation, CERN Requirements, <cite><a data-versiondate="2019T02T15:00:28:43Z" data-versionurl="https://web.archive.org/web/20190215002843/https://www.w3.org/History/1989/proposal.html" href="https://www.w3.org/History/1989/proposal.html">Information Management: A Proposal</a></cite>, Berners-Lee, 1989</footer>
           </blockquote>
 
           <p>We observe that academic articles are commonly represented in packages, like binary file formats (like PDF, Word) merging structural, presentational, and behavioural layers. Such forms are often disconnected from other knowledge in that navigation from unit of information to another is non-continuous for both human and machine users. This is generally due to historical policy, cost, or technical reasons. One side-effect is that, as research communication is still primarily driven by the constraints of the print medium, it is challenging for efficient machine-readable coordination on the Web, as well as continuous advancement of creating, communicating, and consuming human and machine-usable information as part of the <abbr title="Open Web Platform">OWP</abbr>.</p>
@@ -460,7 +461,7 @@
                     </tfoot>
                   </table>
 
-                  <p>An example of a Web Annotation with the reply motivation:</p>
+                  <p>An brief example of a Web Annotation with the reply motivation:</p>
 
                   <figure class="listing" id="example-annotation-replying">
                     <pre><code>&lt;http://example.org/annotation&gt;</code>
@@ -1069,7 +1070,7 @@
           <section id="web-publishing-systems" inlist="" rel="schema:hasPart" resource="#web-publishing-systems">
             <h2 property="schema:name">Web Publishing Systems</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Throughout this article I have highlighted the environment that the AWWW enables with the goal of fostering a universally accessible and interoperable information space. I have also looked at the ongoing initiatives towards the decoupling of functions in scientific communication. Here I reuse some of these notions to situate dokieli with some existing work that can be (subjectively) considered as representative for different areas in <q>Web publishing</q>. There is plethora of examples for centralised and decentralised systems on the Web. Some of the authoring and publishing systems already fulfill some aspects of decentralised systems which operate over HTTP. I focus on <a href="#degree-of-control">degree of control</a> with respect to applications, data and identity, privacy, accessibility, and interoperability, as well as approximating where in the <a href="#server-client-spectrum">server-client spectrum</a> (tightly or loosely coupled) in which a system generally falls under.</p>
+              <p>Throughout this article I have highlighted the environment that the AWWW enables with the goal of fostering a universally accessible and interoperable information space. I have also looked at the ongoing initiatives towards the decoupling of functions in scientific communication. Here I reuse some of these notions to situate dokieli with some existing work that can be (subjectively) <em>considered as representative</em> for different areas in <q>Web publishing</q>. There is plethora of examples for centralised and decentralised systems on the Web. Some of the authoring and publishing systems already fulfill some aspects of decentralised systems which operate over HTTP. I focus on <a href="#degree-of-control">degree of control</a> with respect to applications, data and identity, privacy, accessibility, and interoperability, as well as approximating where in the <a href="#server-client-spectrum">server-client spectrum</a> (tightly or loosely coupled) in which a system generally falls under.</p>
 
               <p id="gmtf">Currently, <cite><a href="https://docs.google.com/" rel="cito:discusses">Google Docs</a></cite>, <cite><a href="https://medium.com/" rel="cito:discusses">Medium</a></cite>, <cite><a href="https://twitter.com/" rel="cito:discusses">Twitter</a></cite>, <cite><a href="https://facebook.com/" rel="cito:discusses">Facebook</a></cite> are examples of well-known Web applications for collaborative creation and publication of content. Users create accounts on these systems to perform access controlled read-write operations on data stored on the same server. These kind of systems allow users to authenticate with their identity provider from preconfigured authorities, as well providing their own accounts on the system. Each service generally has a custom API and vocabulary that a trusted client application (normally hosted on the same server) uses to interact with the server in order to perform CRUD operations through the user interface. They are categorically a server-client that is <a href="#server-client-tightly-coupled">tightly coupled</a>.</p>
 
@@ -1171,25 +1172,17 @@
 
 
 
-          <section id="scratching-the-surface" inlist="" rel="schema:hasPart" resource="#scratching-the-surface">
-            <h2 property="schema:name">Scratching the Surface</h2>
+          <section id="contextualising-dokieli" inlist="" rel="schema:hasPart" resource="#contextualising-dokieli">
+            <h2 property="schema:name">Contextualising dokieli</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>https://www.w3.org/History/1989/proposal.html</p>
+              <p>In https://www.w3.org/History/1989/proposal.html</p>
 
               <p class="todo">History.. nothing new here? Amaya.. Annotea</p>
               <p><cite><a data-versiondate="2018-09-20T15:50:46Z" data-versionurl="https://web.archive.org/web/20180920155046/https://www.southampton.ac.uk/~harnad/Papers/Harnad/harnad95.interactive.cognition.html" href="https://www.southampton.ac.uk/~harnad/Papers/Harnad/harnad95.interactive.cognition.html">Interactive Cognition: Exploring the Potential of Electronic Quote/Commenting</a></cite></p>
 
+              <p>I contend that dokieli is a <a href="decentralising-scholarly-communication#socially-aware-read-write-linked-data">socially-aware read-write Linked Data</a> application.</p>
 
-              <p>dokieli shows it is possible to build a social machine wherein people interact with each other without the need of centralised coordination. Users can choose storage space for their content independently of the applications with which they edit and view that content. Documents are connected statically through links and dynamically through Linked Data Notifications. This is a proof for the viability of a decentralised authoring and annotation environment built with Web standards.</p>
-
-              <p>On the other hand, dokieli’s use of standards shows that dokieli itself is only one means to an end: once the document has been created, it lives on independently. The social machine consists of people and documents, connected by Web standards, with dokieli acting as just one possible catalyst. Different Web applications can incorporate any of dokieli’s functions and implement the principles to varying extents. Since the data is decoupled from the application, we avoid the <em>walled garden</em> problem of many current social platforms today, as well as various forms of vendor lock-in with some applications loosely coupled with data. In essence, it is possible to swap dokieli with another client application for any standards-compliant server. This is one of the key steps to liberating actors to create and share without setting burdens on data and application control.</p>
-
-              <p>We propose a shift in scholarly communication: adoption of <em>native</em> Web technologies and standards declaratively from ground up; authoring, publishing and consuming, in order to improve the quality of knowledge representation and acquisition on the Web. Researchers should control and make their knowledge accessible to the greatest extent possible. Our argument is antithetical to knowledge extraction methods from non-machine processable documents, post-publishing semantic uplifting, as well as inadequate user experiences in context of the Web. In our approach, we adopt Web technologies which are designed with the principles to evolve and have information accessible to many.</p>
-
-              <p>A couple of important socio-technical challenges remain. Resources might want to indicate in a granular way which actions they support or encourage, such as liking, bookmarking, or sharing, and perhaps conditions about which notifications should be sent when any of these events take place. In order to encourage positive behaviour, we might want ways to provide moderation, and solutions to prevent harassment and abuse. Closely related is the issue of identity, pseudonymity and anonymity, and its relation with trust and verification. While there is likely no final solution to these issues in an open ecosystem, it is worthwhile exploring within dokieli or other tools based on similar design principles.</p>
-
-              <p>Future work can examine how additional features can be realised on top of existing Web standards, or where more development is required. Real-time collaborative editing is often realised with centralised communication (even though some peer to peer alternatives exist). Services like top-down annotations or automated entity marking can improve the discoverability of a publication, yet the question of how to offer these without being tied to certain servers needs to be still solved.</p>
-
+              <p>The Web resources that dokieli creates can be accessed by many <em>web agents</em>. It is possible for the web agents to discover and use all sorts of semantically connected things on their own accord.</p>
 
               <section id="degree-of-control-in-dokieli" inlist="" rel="schema:hasPart" resource="#degree-of-control-in-dokieli">
                 <h3 property="schema:name">Degree of Control in dokieli</h3>
@@ -1203,22 +1196,27 @@
                     <li>Actors relocating data without having to change their preferred application.</li>
                     <li>Querying and visualising statistical data from clientside applications.</li>
                   </ul>
+
+                  <p>dokieli only performs read and write operations on HTTP URIs which pertain to user's actions in the UI.</p>
+
+                  <p>Future work can examine how additional features can be realised on top of existing Web standards, or where more development is required. Real-time collaborative editing is often realised with centralised communication (even though some peer to peer alternatives exist). Services like top-down annotations or automated entity marking can improve the discoverability of a publication, yet the question of how to offer these without being tied to certain servers needs to be still solved.</p>
                 </div>
               </section>
 
-              <hr />
+              <section id="effects-and-artefacts-of-dokieli" inlist="" rel="schema:hasPart" resource="#effects-and-artefacts-of-dokieli">
+                <h3 property="schema:name">Effects and Artefacts of dokieli</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>dokieli shows it is possible to build a social machine wherein people interact with each other without the need of centralised coordination. Users can choose storage space for their content independently of the applications with which they edit and view that content. Documents are connected statically through links and dynamically through Linked Data Notifications. This is a proof for the viability of a social and decentralised authoring and annotation environment based on Web standards. dokieli happens to be one application that demonstrates the potentials of decentralised notifications and annotations. The information it creates does not result in a vendor lock-in, as other applications are able to reuse them [Proof?].</p>
 
-              <p>dokieli performs read and write operations on HTTP URIs which pertain to user's actions in the UI.</p>
+                  <p>On the other hand, dokieli’s use of standards shows that dokieli itself is only one means to an end: once the document has been created, it lives on independently. The social machine consists of people and documents, connected by Web standards, with dokieli acting as just one possible catalyst. Different Web applications can incorporate any of dokieli’s functions and implement the principles to varying extents. Since the data is decoupled from the application, we avoid the <em>walled garden</em> problem of current social platforms today, as well as various forms of vendor lock-in with some applications, even if they are loosely coupled with data. In essence, it is possible to swap dokieli with another client application for any standards-compliant server. This is one of the key steps to liberating actors to create and share without setting burdens on URI, data and application control.</p>
 
-              <p class="todo">Social implications of dokieli Web Extension and social graph. For instance, the ability of annotating and sharing information even if the primary article doesn't have an inbox or offers an annotation service. There is no 'admin' that oversees everything, but that each actor has control privileges to whatever they are given. Having the ability ot annotate anything and store it at a preferred location gives an actor their autonomy. This can be contrasted with annotation systems that may restricts annotations being created with particular targets or annotations having particular information in its body.</p>
+                  <p>A couple of important socio-technical challenges remain. Resources might want to indicate in a granular way which actions they support or encourage, such as assessments, bookmarking, or sharing, and perhaps conditions about which notifications should be sent when any of these events take place. In order to encourage positive behaviour, we might want ways to provide moderation, and solutions to prevent harassment and abuse. Closely related is the issue of identity, pseudonymity and anonymity, and its relation with trust and verification. While there is likely no final solution to these issues in an open ecosystem, it is worthwhile exploring within dokieli or other tools based on similar design principles.</p>
 
-              <p class="todo">Mention dokieli happens to be one application that demonstrates the potentials of decentralised notifications and annotations. The information it creates does not result in a vendor lock-in, as other applications are able to reuse them.</p>
+                  <p>Social implications of dokieli Web Extension and social graph. For instance, the ability of annotating and sharing information even if the primary article does not have an inbox or offers an annotation service. There is no administrator that oversees everything, but that each actor has control privileges to what they are given. Having the ability to annotate anything and store it at a preferred location enables actor autonomy. This can be contrasted with annotation systems that may restricts annotations being created with particular targets or annotations having particular information in its body.</p>
 
-              <hr />
-
-              <p>I contend that how dokieli is a <a href="decentralising-scholarly-communication#socially-aware-read-write-linked-data">socially-aware read-write Linked Data</a> application.</p>
-
-              <p>In this section we described a client-side application that reflects some of the <a href="scholarly-communication-on-the-web#inspecting-effects-and-artefacts">effects and artefacts of Web-centric scholarly communication</a>.</p>
+                  <p>Mcluhan..With respect to the <a href="scholarly-communication-on-the-web#inspecting-effects-and-artefacts">effects and artefacts of Web-centric scholarly communication</a>, dokieli ...</p>
+                </div>
+              </section>
             </div>
           </section>
 
