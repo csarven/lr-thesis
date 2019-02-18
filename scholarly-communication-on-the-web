@@ -538,7 +538,7 @@ support groups.</pre>
                   
                   <p>In the same vein, furthering the study of <em>Web Science</em> itself can be done through advancements in how we communicate scholarly findings; through better enabling universal access and connections within knowledge.</p>
 
-                  <p id="global-village">The Web not only expedited the flow of human knowledge with a friendly interface, it enabled social interactions to take place which would not have been possible otherwise due to physical or social constraints. The global adoption of the Web brought new forms of human association and social action. In essence, the Web creates one form of a <q>global village</q>, described by McLuhan, whereby there is greater requirement of individuals to participate than with earlier forms of electric media eg. telegraph, electric light, telephone, radio, television. Nevertheless, the way the society reacts to the medium of the Web is perhaps more important than the content that is on it.</p>
+                  <p id="global-village">The Web not only expedited the flow of human knowledge with a friendly interface, it enabled social interactions to take place which would not have been possible otherwise due to physical or social constraints. The global adoption of the Web brought new forms of human association and social action. In essence, the Web creates one form of a <q>global village</q>, described by McLuhan, whereby there is greater requirement of individuals to participate than with earlier forms of electric media eg. telegraph, electric light, telephone, radio, television. The way society reacts to the Web as a medium is perhaps more important than the content that is on it.</p>
 
                   <p id="dialectical-reading">In <cite><a href="https://www.ideals.illinois.edu/bitstream/handle/2142/13425/credibility.pdf" title="Alternative: http://hdl.handle.net/2142/13425">Credibility of the Web: Why We Need Dialectical Reading</a></cite>, Bruce, 2000 explores Kaufmann's <q>modes of reading</q> from the 1977 essay <cite>Art of Reading</cite> (<cite><a href="http://www.worldcat.org/oclc/469418474">The Future of the Humanities</a></cite>) in context of the characteristics of the Web:</p>
 
@@ -554,8 +554,6 @@ support groups.</pre>
               </section>
 
               <hr />
-
-              <p class="todo">(belongs in intro) The scope of the technologies and standards described in this thesis and the contributions therein is within the context of the Web. There are undoubtedly many exciting initiatives and developments that use Internet protocols which can address many of the same challenges (and maybe even better), however it would take more than one thesis to do these justice. Here we keep the scope to the Web and look forward to interoperability with innovations in other application layers.</p>
 
               <p class="todo">Outro: now we know what science is, and what the web is, we look at science on the web..</p>
             </div>
