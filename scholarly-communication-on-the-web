@@ -264,6 +264,15 @@ transform:rotate(-60deg);
 
                   <p>As the characteristics of the spoken word carried over to writing, and writing to print, print media also influenced electronic media like the Web and hypermedia. Print's typography and knowledge organisation affects the standards, tools, and interfaces that are still used today to exchange knowledge on the Web, as well as certain social expectations or assumptions. For example, authoring tools help us to design and create electronic documents that resemble print representations even if they are not intended to be printed. McLuhan described this phenomenon as though looking at the <q>rear-view mirror</q>; <q>the old medium is always the content of the new medium</q>, <cite><a href="https://archive.org/details/thisismarshallmcluhanthemediumisthemessage">This is Marshall McLuhan: The Medium is the Massage</a></cite>, 1967, Marshall McLuhan. While scholarly communication is moving forward by adopting the Web, the content is drawn from the print world.</p>
 
+                  <p>In <cite><a href="http://www.worldcat.org/oclc/695759425" title="9780226520919">The Sociology of Science: Theoretical and Empirical Investigations</a></cite>, 1942, Robert Merton introduced <q>four sets of institutional imperatives taken to comprise the ethos of modern science</q> in <q>The Normative Structure of Science</q>:</p>
+
+                  <ul>
+                    <li><em>Communalism</em>: in order to promote collective collaboration, intellectual output should have common ownership.</li>
+                    <li><em>Universalism</em>: scientific validity is kept independent of political and personal factors such that everyone has equal rights and possibility to obtain information.</li>
+                    <li><em>Disinterestedness</em>: the practice of science should benefit the common scientific enterprise with no conflicts of individual interest or gain.</li>
+                    <li><em>Organised skepticism</em>: scientific claims should be exposed to critical examination before being accepted to be part of common knowledge.</li>
+                  </ul>
+
                   <p class="todo">Say which RQ (from intro) this 'chapter' is contributing towards answering.</p>
 
                   <p>We need to examine our assumptions about scholarly communication on the Web in order to understand its social implications. Building on the previous brief histories of media evolution and scientific communication, the next review is of the history of the Web (a <q>social machine</q>) and then then specific role the Web plays in contemporary scholarly communication. The focus of the rest of this section is on structural changes in scholarly communication, as opposed to the evolution of technical advancements.</p>
@@ -565,7 +574,9 @@ support groups.</pre>
                 <footer><cite>Merovingian, The Matrix Reloaded</cite></footer>
               </blockquote>
 
-              <p>The publication and dissemination of information - in the most general sense of the words - played a key role in the advancement of societies' knowledge for centuries. The first journal, <cite>Academie des Scavans</cite> published by <cite>The Royal Society</cite> in 1665, evolved out of the exchange of letters among scholars and the <a data-versiondate="2019-01-21T21:26:33Z" data-versionurl="https://web.archive.org/web/20190121212633/https://blogs.royalsociety.org/history-of-science/2019/01/15/meeting-sloane/" href="https://blogs.royalsociety.org/history-of-science/2019/01/15/meeting-sloane/">transcripts of the meetings</a> in scholarly societies discussing experiments, publications and natural curiosities. With this in mind, the most widely accepted purpose of a scholarly article is as a way to communicate research results and other intellectual work with the public; to have an accurate archival record of the research findings; to build on top of earlier knowledge; as well as to have it serve towards crediting authors for their work. Today's scholarly journals, containing quality-controlled research reports, closely resemble the first journal. From early on, due to the growth and demand for copies of the literature from non-members, mostly institutions, the larger journals began to sell subscriptions at relatively higher prices than members pay [<cite><a href="http://www.worldcat.org/oclc/773482913">Encyclopedia of International Media and Communications</a></cite>, Scholarly Journals, Vol. 2, p. 688, 2003].</p>
+              <p>In <a href="#mediums-and-paradigms">Mediums and Paradigms</a> I have discussed the wide reaching effects of communication mediums as well as scientific frameworks adopted by society. In this section we zoom in on the history of scholarship in order to contextualise the practices and their influences to date.</p>
+
+              <p>The publication and dissemination of information - in the most general sense of the words - played a key role in the advancement of societies' knowledge for centuries. The first journal, <cite>Academie des Scavans</cite> published by <cite>The Royal Society</cite> in 1665, evolved out of the exchange of letters among scholars and the <a data-versiondate="2019-01-21T21:26:33Z" data-versionurl="https://web.archive.org/web/20190121212633/https://blogs.royalsociety.org/history-of-science/2019/01/15/meeting-sloane/" href="https://blogs.royalsociety.org/history-of-science/2019/01/15/meeting-sloane/">transcripts of the meetings</a> in scholarly societies discussing experiments, publications and natural curiosities. With this in mind, the most widely accepted purpose of a scholarly article is as a way to communicate research results and other intellectual work with the public; to have an accurate archival record of the research findings; to build on top of earlier knowledge; as well as to have it serve towards crediting authors for their work. Today's scholarly journals, containing quality-controlled research reports, closely resemble the first journal. <cite><a href="http://www.worldcat.org/oclc/773482913">Encyclopedia of International Media and Communications</a></cite>, Scholarly Journals, Vol. 2, p. 688, 2003, states that due to the growth and demand for copies of the literature from non-members, mostly institutions, the larger journals began to sell subscriptions at relatively higher prices than members pay.</p>
 
               <p>I adopt the following definitions pertaining to scholarly journal:</p>
 
@@ -583,45 +594,35 @@ support groups.</pre>
                 <footer><cite><a href="http://www.worldcat.org/oclc/773482913">Encyclopedia of International Media and Communications</a></cite>, Scholarly Journals, Vol. 2, p. 687, 2003, urn:isbn:0123876729</footer>
               </blockquote>
 
-              <hr />
+              <section id="open-and-free" inlist="" rel="schema:hasPart" resource="#open-and-free">
+                <h3 property="schema:name">Open and Free</h3>
+                <div dataype="rdf:HTML" property="schema:description">
+                  <p>While there are many definitions for “open” and “free”, depending on the context assigned by different communities eg. <cite><a data-versiondate="2018-10-05T10:34:34Z" data-versionurl="https://web.archive.org/web/20181005103434/https://www.w3.org/DesignIssues/Open.html" href="https://www.w3.org/DesignIssues/Open.html">The Many Meanings of Open</a></cite> Berners-Lee, 2013, here we acknowledge those that are commonly used.</p>
 
-              <p>In <cite><a href="http://www.worldcat.org/oclc/695759425" title="9780226520919">The Sociology of Science: Theoretical and Empirical Investigations</a></cite>, 1942, Robert Merton introduced <q>four sets of institutional imperatives taken to comprise the ethos of modern science</q> in <q>The Normative Structure of Science</q>:</p>
+                  <p id="open-definition">The definition given by <cite><a href="https://opendefinition.org/">The Open Definition</a></cite> which is derived from the <cite>Open Source Definition</cite>, is as follows:</p>
 
-              <ul>
-                <li><em>Communalism</em>: in order to promote collective collaboration, intellectual output should have common ownership.</li>
-                <li><em>Universalism</em>: scientific validity is kept independent of political and personal factors such that everyone has equal rights and possibility to obtain information.</li>
-                <li><em>Disinterestedness</em>: the practice of science should benefit the common scientific enterprise with no conflicts of individual interest or gain.</li>
-                <li><em>Organised skepticism</em>: scientific claims should be exposed to critical examination before being accepted to be part of common knowledge.</li>
-              </ul>
+                  <blockquote cite="https://opendefinition.org/od/2.1/en/">
+                    <p>Knowledge is open if anyone is free to access, use, modify, and share it — subject, at most, to measures that preserve provenance and openness.</p>
 
-              <hr />
+                    <footer><cite><a data-versiondate="2018-10-05T10:15:45Z" data-versionurl="https://web.archive.org/web/20181005101545/https://opendefinition.org/od/2.1/en/" href="https://opendefinition.org/od/2.1/en/">The Open Definition 2.1</a></cite></footer>
+                  </blockquote>
 
-              <p>While there are many definitions for “open” and “free”, depending on the context assigned by different communities eg. <cite><a data-versiondate="2018-10-05T10:34:34Z" data-versionurl="https://web.archive.org/web/20181005103434/https://www.w3.org/DesignIssues/Open.html" href="https://www.w3.org/DesignIssues/Open.html">The Many Meanings of Open</a></cite> Berners-Lee, 2013, here we acknowledge those that are commonly used.</p>
+                  <p id="free-software">The definition of <q>free</q> (or <q>libre</q>) in context of software that is widely acknowledged is along the lines of:</p>
 
-              <p id="open-definition">The definition given by <cite><a href="https://opendefinition.org/">The Open Definition</a></cite> which is derived from the <cite>Open Source Definition</cite>, is as follows:</p>
+                  <blockquote cite="https://www.gnu.org/philosophy/free-sw.html">
+                    <p>“Free software” means software that respects users' freedom and community.  Roughly, it means that <b>the users have the freedom to run, copy, distribute, study, change and improve the software</b>.  Thus, “free software” is a matter of liberty, not price.  To understand the concept, you should think of “free” as in “free speech,” not as in “free beer”.  We sometimes call it “libre software,” borrowing the French or Spanish word for “free” as in freedom, to show we do not mean the software is gratis.</p>
+                    <footer><cite><a data-versiondate="2018-10-05T10:22:56Z" data-versionurl="https://web.archive.org/web/20181005102256/https://www.gnu.org/philosophy/free-sw.html" href="https://www.gnu.org/philosophy/free-sw.html">What is free software?</a></cite>, GNU Project - Free Software Foundation</footer>
+                  </blockquote>
 
-              <blockquote cite="https://opendefinition.org/od/2.1/en/">
-                <p>Knowledge is open if anyone is free to access, use, modify, and share it — subject, at most, to measures that preserve provenance and openness.</p>
+                  <p id="freedom-defined">In order for an item or piece of knowledge to be transferred in a way to foster rich culture, the <cite><a data-versiondate="2018-10-14T15:59:17Z" data-versionurl="https://web.archive.org/web/20181014155917/http://freedomdefined.org/Definition" href="http://freedomdefined.org/Definition">Free Cultural Works</a></cite> defines <em>freedom</em> to mean the freedom to use; to study; to make and redistribute copies; and to make changes and improvements. The definition can be used as a <q>tool to determine whether a work or license should be considered "free."</q></p>
 
-                <footer><cite><a data-versiondate="2018-10-05T10:15:45Z" data-versionurl="https://web.archive.org/web/20181005101545/https://opendefinition.org/od/2.1/en/" href="https://opendefinition.org/od/2.1/en/">The Open Definition 2.1</a></cite></footer>
-              </blockquote>
+                  <p id="open-content">The definition of <cite><a data-versiondate="2018-11-05T17:00:59Z" data-versionurl="https://web.archive.org/web/20181105170059/http://opencontent.org/definition/" href="http://opencontent.org/definition/">Open Content</a></cite> explains how users of works to have free and perpetual permission to engage in activities with the right to retain, reuse, revise, remix and redistribute content.</p>
 
-              <p id="free-software">The definition of <q>free</q> (or <q>libre</q>) in context of software that is widely acknowledged is along the lines of:</p>
+                  <p id="creative-commons"><cite><a href="https://creativecommons.org/">Creative Commons</a></cite> (<abbr title="Creative Commons">CC</abbr>) <a data-versiondate="2018-11-05T17:26:55Z" data-versionurl="https://web.archive.org/web/20181105172655/https://creativecommons.org/licenses/" href="https://creativecommons.org/licenses/">licenses</a> is one of public copyright licenses that can be used on works which grant additional permissions for the purpose of free distribution of an otherwise copyrighted work. With the exception of <abbr title="Creative Commons public domain dedication">CC0</abbr> (public domain) license, all CC licenses require users of the works to attribute the creators. CC0, CC BY (Attribution) and CC BY-SA (Attribution-ShareAlike) are compatible with the definition of Free Cultural works.</p>
+                </div>
+              </section>
 
-              <blockquote cite="https://www.gnu.org/philosophy/free-sw.html">
-                <p>“Free software” means software that respects users' freedom and community.  Roughly, it means that <b>the users have the freedom to run, copy, distribute, study, change and improve the software</b>.  Thus, “free software” is a matter of liberty, not price.  To understand the concept, you should think of “free” as in “free speech,” not as in “free beer”.  We sometimes call it “libre software,” borrowing the French or Spanish word for “free” as in freedom, to show we do not mean the software is gratis.</p>
-                <footer><cite><a data-versiondate="2018-10-05T10:22:56Z" data-versionurl="https://web.archive.org/web/20181005102256/https://www.gnu.org/philosophy/free-sw.html" href="https://www.gnu.org/philosophy/free-sw.html">What is free software?</a></cite>, GNU Project - Free Software Foundation</footer>
-              </blockquote>
-
-              <p id="freedom-defined">In order for an item or piece of knowledge to be transferred in a way to foster rich culture, the <cite><a data-versiondate="2018-10-14T15:59:17Z" data-versionurl="https://web.archive.org/web/20181014155917/http://freedomdefined.org/Definition" href="http://freedomdefined.org/Definition">Free Cultural Works</a></cite> defines <em>freedom</em> to mean the freedom to use; to study; to make and redistribute copies; and to make changes and improvements. The definition can be used as a <q>tool to determine whether a work or license should be considered "free."</q></p>
-
-              <p id="open-content">The definition of <cite><a data-versiondate="2018-11-05T17:00:59Z" data-versionurl="https://web.archive.org/web/20181105170059/http://opencontent.org/definition/" href="http://opencontent.org/definition/">Open Content</a></cite> explains how users of works to have free and perpetual permission to engage in activities with the right to retain, reuse, revise, remix and redistribute content.</p>
-
-              <p id="creative-commons"><cite><a href="https://creativecommons.org/">Creative Commons</a></cite> (<abbr title="Creative Commons">CC</abbr>) <a data-versiondate="2018-11-05T17:26:55Z" data-versionurl="https://web.archive.org/web/20181105172655/https://creativecommons.org/licenses/" href="https://creativecommons.org/licenses/">licenses</a> is one of public copyright licenses that can be used on works which grant additional permissions for the purpose of free distribution of an otherwise copyrighted work. With the exception of <abbr title="Creative Commons public domain dedication">CC0</abbr> (public domain) license, all CC licenses require users of the works to attribute the creators. CC0, CC BY (Attribution) and CC BY-SA (Attribution-ShareAlike) are compatible with the definition of Free Cultural works.</p>
-
-              <hr />
-
-              <p>Several movements during the 1990s towards fundamentally transforming scholarly communication using newly available digital network technologies.</p>
+              <p>I now discuss several movements which emerged since the 1990s towards fundamentally transforming scholarly communication using newly available digital network technologies.</p>
 
               <section id="archives-and-repositories" inlist="" rel="schema:hasPart" resource="#archives-and-repositories">
                 <h3 property="schema:name">Archives and Repositories</h3>
