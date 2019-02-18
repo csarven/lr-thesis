@@ -189,7 +189,7 @@ transform:rotate(-60deg);
               </blockquote>
 -->
 
-              <p>I invite the reader to consider two concepts: the effects of technological mediums on society and its similarities with the evolution of scientific paradigms. This will serve as the historical framing for this thesis and helps to contextualise the application of core methods and values of the Web on scholarly communication.</p>
+              <p>The effects of technological mediums on society have some similarities to the evolution of scientific paradigms. This will serve as the historical framing for this thesis and helps to contextualise the application of core methods and values of the Web on scholarly communication.</p>
 
               <section id="on-mediums" inlist="" rel="schema:hasPart" resource="#on-mediums">
                 <h3 property="schema:name">On Mediums</h3>
@@ -230,13 +230,30 @@ transform:rotate(-60deg);
                     <footer><cite><a data-versiondate="2018-06-19T08:38:36Z" data-versionurl="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf" href="https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">Objectivity, Value Judgment, and Theory Choice</a></cite>, Thomas S. Kuhn, 1973</footer>
                   </blockquote>
 
-                  <p>In <cite>The Structure of Scientific Revolutions</cite>, Thomas S. Kuhn proposes an explanation for the process of discovery and progress in the history and philosophy of science. Kuhn contended that science did not progress linearly through history, rather it starts with a period that's disorganised, and then a paradigm - a collection of <em>exemplar</em> agreed by scientists on how problems are to be understood - develops to organise things for day-to-day <q>normal science</q> to take place under the governed paradigm. After some time, <q>anomalies</q> in the paradigm accumulate and lead to a <q>crisis</q> phase where multiple competing paradigms attempt to resolve the issues. This is a particular point in which the community struggles to come to an agreement on the fittest way to practice future science. Finally a <q>paradigm shift</q> - revolution - refers to the last phase where transforming ideas and assertions mature enough to bring order to earlier anomalies, and cause a change in world view. Kuhn reasoned that progress in science was about the notion of moving away from less <em>adequate</em> concepts of and interactions with the world in favour of more <em>fruitful</em>. Progress was not a mere line leading to truth.</p>
+                  <p>In <cite>The Structure of Scientific Revolutions</cite>, Thomas S. Kuhn proposes an explanation for the process of discovery and progress in the history and philosophy of science. Kuhn contended that science did not progress linearly through history, rather it starts with a period that's disorganised, and then a paradigm - a collection of <em>exemplar</em> agreed by scientists on how problems are to be understood - develops to organise things for day-to-day <q>normal science</q> to take place under the governed paradigm. After some time, <q>anomalies</q> in the paradigm accumulate and lead to a <q>crisis</q> phase where multiple competing paradigms attempt to resolve the issues. This is a particular point in which the community struggles to come to an agreement on the fittest way to practice future science. Finally a <q>paradigm shift</q> - revolution - refers to the last phase where transforming ideas and assertions mature enough to bring order to earlier anomalies, and cause a change in world view.</p>
+
+                  <p>In <cite><a href="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">Objectivity, Value Judgment, and Theory Choice</a></cite>, Kuhn, 1973, sets out five characteristics as a basis to explain which paradigms and methods have been adopted in the past, or may be considered for adoption in the future:</p>
+
+                  <dl class="todo">
+                    <dt>Accuracy</dt>
+                    <dd></dd>
+                    <dt>Consistency</dt>
+                    <dd></dd>
+                    <dt>Scope</dt>
+                    <dd></dd>
+                    <dt>Simplicity</dt>
+                    <dd></dd>
+                    <dt>Fruitfulness</dt>
+                    <dd></dd>
+                  </dl>
+
+                  <p>Kuhn reasoned that progress in science was about the notion of moving away from less adequate concepts of and interactions with the world in favour of more <em>fruitful</em>. Progress was not a mere line leading to truth.</p>
 
                   <p>As to which paradigm can be objectively determined to be better, Kuhn argued that scientists' decision was ultimately inter-subjective and required value judgement because paradigms - the ideas and assertions within - were not necessarily directly comparable. For example, early versions of the heliocentric model proposed by Copernicus in <cite><a href="https://en.wikipedia.org/wiki/Commentariolus">Commentariolus</a></cite> (1514), as well as the matured version in <cite lang="la" xml:lang="la"><a href="https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium">De revolutionibus orbium coelestium</a></cite> (1543) was neither quantitatively or qualitatively more accurate than Ptolemy's <cite><a href="https://en.wikipedia.org/wiki/Geocentric_model">geocentric model</a></cite> (c. 2nd century CE) based on the knowledge and instruments available at the time. While they were equally internally consistent, geocentrism was regarded to be more consistent with the other accepted theories and doctrines in comparison. Copernicus' case however offered a simpler explanation and broader scope of application. These were attractive characteristics for Kepler and Galileo when they came to investigate. With Newton's laws for motion and gravitation, the heliocentric model matured enough to set a new course for science and research.</p>
 
                   <p>Another example demonstrating the complexity of choosing a theory was from the perspective of language and communication. For instance, the term "mass" has radically different meanings in Newton's theory of gravity and Einstein's relativity theory because the definitions are isolated to their respective paradigms. However, General Relativity gave a new lens towards understanding the interaction of mass in space-time. While the definition for mass changed, Einstein's theory was still able to precisely predict Newton's theory, and further provided an explanation for how gravity worked.</p>
 
-                  <p>Later on I will describe the paradigm in which scientific and scholarly communication is currently situated, and investigate the emerging alternative paradigm that better integrates with the Web. In order to understand the adequacy of different technical frameworks for scholarly communication, we will use Kuhn's five characteristics; <q cite="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">accuracy, consistency, scope, simplicity, and fruitfulness</q> from <cite><a href="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">Objectivity, Value Judgment, and Theory Choice</a></cite>, and justify why the <cite>Linked Research</cite> design principles describes a framework that can be further investigated towards practices that are closely aligned with virtues of the Web.</p>
+                  <p>Later on I will describe the paradigm in which scientific and scholarly communication is currently situated, and investigate the emerging alternative paradigm that better integrates with the Web.</p>
                 </div>
               </section>
 
