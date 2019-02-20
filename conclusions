@@ -55,6 +55,23 @@
 
               <p><cite><a data-versiondate="2019-02-16T13:36:12Z" data-versionurl="https://web.archive.org/web/20190216133612/http://www.csl.sri.com/users/neumann/chats4.html" href="http://www.csl.sri.com/users/neumann/chats4.html">Principled Assuredly Trustworthy Composable Architectures</a></cite>, Neumann, 2004</p>
 
+
+              <section id="social-implications" inlist="" rel="schema:hasPart" resource="#social-implications">
+                <h3 property="schema:name">Social Implications</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p class="todo">Move to Conclusions?</p><pre>* social consequences of open science
+** media pushed to the extreme (mcluhan) - global fight
+** https://github.com/linkeddata/dokieli/issues/152
+** social media running off with misleading headlines? #fakenews?
+*** https://shorensteincenter.org/information-disorder-framework-for-research-and-policymaking/
+
+
+* "Academic job offers that mentioned open science"
+** https://osf.io/7jbnt/</pre>
+
+                </div>
+              </section>
+
           <section id="role-of-institutions" inlist="" rel="schema:hasPart" resource="#role-of-institutions">
             <h2 property="schema:name">Role of Institutions</h2>
             <div datatype="rdf:HTML" property="schema:description">
