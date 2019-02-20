@@ -918,28 +918,21 @@ there is a top-down social pressure for openness
 
                   <p>The peer review model towards quality control has received extensive criticism. These are studied in <cite><a data-versiondate="2019-02-20T00:38:46Z" data-versionurl="https://web.archive.org/web/20190220003846/https://f1000research.com/articles/6-1151" href="https://f1000research.com/articles/6-1151">A multi-disciplinary perspective on emergent and future innovations in peer review</a></cite>. The article examines different approaches to peer review models and systems. In context of <q>decoupled post-publication (annotation services)</q>, the article states that while there are online communities and services for peer review, the systems are largely non-interoperable in that <q>most evaluations are difficult to discover, lost, or rarely available in an appropriate context or platform for re-use</q>.</p>
 
-
-
-
-* open and transparent contributions
-** peer-review
 ** bias and prejudice / positive behaviour and civil discourse
-                  
-
-https://f1000research.com/articles/6-1151#d34048e4035
 
 
-<p>The article <cite><a href="https://www.tandfonline.com/doi/full/10.1080/08109028.2014.891710">Publisher, be damned! From price gouging to the open road</a></cite>, Harvie, 2014, critised the large profits made by for-profit publishers while taking advantage of academics' labours. After internal disagreements, the article was <a data-versiondate="2019-02-20T01:11:47Z" data-versionurl="https://web.archive.org/web/20190220011147/https://figshare.com/articles/Publisher_be_damned_From_price_gouging_to_the_open_road/1046703" href="http://figshare.com/articles/Publisher_be_damned_From_price_gouging_to_the_open_road/1046703">originally published</a> by the publisher introducing a disclaimer warning <q>the accuracy of the content should not be relied upon. Such events show how academic freedom can face limitations and be just to manipulation when external publishers are involved.</q>
 
-<p><cite a href="https://journals.sagepub.com/doi/full/10.1177/0162243919829567">Technoscience Rent: Toward a Theory of Rentiership for Technoscientific Capitalism</cite></p>
+                  <p>The article <cite><a data-versiondate="2019-02-20T16:21:25Z" data-versionurl="https://web.archive.org/web/20190220162125/https://www.tandfonline.com/doi/full/10.1080/08109028.2014.891710" href="https://www.tandfonline.com/doi/full/10.1080/08109028.2014.891710">Publisher, be damned! From price gouging to the open road</a></cite>, Harvie, 2014, critised the large profits made by for-profit publishers while taking advantage of academics' labours. After internal disagreements (between the publisher and the editorial board), the article was published where the <a data-versiondate="2019-02-20T01:11:47Z" data-versionurl="https://web.archive.org/web/20190220011147/https://figshare.com/articles/Publisher_be_damned_From_price_gouging_to_the_open_road/1046703" href="http://figshare.com/articles/Publisher_be_damned_From_price_gouging_to_the_open_road/1046703">original version</a> included a disclaimer warning introduced by the publisher stating <q>the accuracy of the content should not be relied upon.</q> Such events show how academic freedom can face limitations and be subject to censorship and manipulation when external parties ultimately control the distribution of knowledge.</q>
+
+                  <p><cite><a data-versiondate="2019-02-20T16:54:53Z" data-versionurl="https://web.archive.org/web/20190220165453/https://journals.sagepub.com/doi/full/10.1177/0162243919829567" href="https://journals.sagepub.com/doi/full/10.1177/0162243919829567">Technoscience Rent: Toward a Theory of Rentiership for Technoscientific Capitalism</cite>, Birch, 2019.</p>
 
 
-** reputation / fact-checking
+** fact-checking
                   <p>To distinguish fakescience/predatory from legit/non-predatory Beyond "anyone can say anything about anything" eg. publish study preregistration to establish trust, share provenance, data, software/code.., open peer review (OPR) process (when/who/what), competing/conflict of interest, grant information</p>
 
                   <p id="reproducible-replicable">Reproducible research findings refers to the notion that when the exact methods are used to replicate or repeat to reach the same findings. However, for some research, reproduction is not always possible, for example when data is sensitive, or influenced by time or space. In this case, replication can be carried out to answer the same research questions using similar or equivalent approaches. The reproduction of the original work can be either confirmatory, ie. able to reproduce, or; contradictory, unable to reproduce or inconclusive. Thus, in order to reconstruct how the data was generated and to make sense of it, data needs to be accompanied by enough detail about its provisional interpretations.</p>
 
-
+** reputation
                   <blockquote cite="https://en.wikipedia.org/wiki/Goodhart%27s_law">
                     <p>Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.</p>
                     <footer><cite><a href="https://en.wikipedia.org/wiki/Goodhart%27s_law">Goodhart's law</a></cite></footer>
