@@ -943,10 +943,9 @@ there is a top-down social pressure for openness
                 </div>
               </section>
 
-              <section id="dissatisfaction-in-communication" inlist="" rel="schema:hasPart" resource="#dissatistfaction-in-research-communication">
-                <h3 property="schema:name">Dissatisfaction in Communication</h3>
+              <section id="privilege-and-gatekeeping" inlist="" rel="schema:hasPart" resource="#privilege-and-gatekeeping">
+                <h3 property="schema:name">Privilege and Gatekeeping</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>Privilege and gatekeeping..</p>
 
                   <p>In <cite><a data-versiondate="2019-01-01T13:36:33Z" data-versionurl="https://web.archive.org/web/20190101133633/https://www.openlibhums.org/news/314/" href="https://www.openlibhums.org/news/314/">Open Access, the Global South and the Politics of Knowledge Production and Circulation</a></cite>, an Open Insights interview with Leslie Chan, 2018, states <q cite="https://www.openlibhums.org/news/314/">Interoperability standards are indeed important for discovery and exchanges but they are external to the quality of research, which can only be assessed by those who have knowledge of the research areas.</q></p>
 
@@ -989,9 +988,7 @@ and how.</pre>
                   <p>Coupling of Functions</p>
                   <p>coupling of publication impact to an incentive system</p>
 
-                  <section id="cost-of-knowledge" inlist="" rel="schema:hasPart" resource="#cost-of-knowledge">
-                    <h4 property="schema:name">Cost of Knowledge</h4>
-                    <div datatype="rdf:HTML" property="schema:description">
+
                       <p><a href="https://eua.eu/downloads/publications/eua-big-deals-survey-report---the-first-mapping-of-major-scientific-publishing-contracts-in-europe.pdf">EUA BIG DEALS SURVEY REPORT APRIL 2018 The First Mapping of Major Scientific Publishing Contracts in Europe</a>, <a href="https://oa2020.org/wp-content/uploads/pdfs/B14-12-Lidiia-Borell-Damian.pdf">EUROPEAN UNIVERSITY ASSOCIATION Big Deals Survey 2018 Preliminary results</a> <q>Total (27 European countries) = ~ 907 947 409 EUR Note: for 4 countries, only the total amount for the surveyed consortium is known. This is a conservative figure. No APCs included in this figure</q> </p>
 
                       <p><cite><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127502">The Oligopoly of Academic Publishers in the Digital Era</a></cite></p>
@@ -1007,8 +1004,7 @@ and how.</pre>
 
                       <p>Rare disease families not having access..</p>
                       <p>global south..</p>
-                    </div>
-                  </section>
+
                 </div>
               </section>
             </div>
