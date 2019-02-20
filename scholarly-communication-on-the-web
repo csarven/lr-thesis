@@ -855,13 +855,13 @@ How is it changing the landscape?
 
                   <p id="orcid"><cite><a href="https://orcid.org/">Open Researcher and Contributor ID</a></cite> (<abbr title="Open Researcher and Contributor ID">ORCID</abbr>) is a community-governed persistent identifier system for researchers and organisations. An ORCID identifier is specified as a URI. While anyone can create and update their ORCID profile, the identifier is ultimately owned and managed by the ORCID organisation and made available through <code>orcid.org</code>. Profiles are constrained to express to the UI's template and the kind of information ORCID is willing to store. For most intents and purpose, the free service offered by ORCID is sufficient for researchers, and provides a mechanism where researchers can aggregate information about their education, employment, funding, and works like academic publications and data. It also allows researchers to extend their profile descriptions, as well as linking to their alternative online profiles.</p>
 
-                  <p id="archives">In 1996, the <cite><a href="https://archive.org/">Internet Archive</a></cite> begun to archive the publicly accessible resources on the Internet, and provides free public access to its digital library. The <cite><a href="https://web.archive.org/">Wayback Machine</a></cite> is a service that allows users to search and access archived Web documents in particular. The Wayback Machine can be used to navigate through different versions of URLs based on the date-time in which they were accessed and stored. For example, all of the <a href="https://web.archive.org/web/*/http://csarven.ca/">captures of csarven.ca</a> as well as the other articles of the site are available, along with a <a href="https://web.archive.org/details/http://csarven.ca/">summary</a>. Any Web-wide publicly usable archival services, <a href="http://archive.is/">archive.is</a>, <a href="http://webcitation.org/">WebCite</a>, <a href="https://perma.cc/">Perma.cc</a>, <a href="https://webrecorder.io/">Webrecorder</a>; to dedicated digital preservation organisations eg. <a href="https://www.portico.org/">Portico</a>; libraries eg. <a href="https://www.lockss.org/" title="Lots Of Copies Keep Stuff Safe">LOCKSS</a>; global archives preserving content on behalf of all libraries eg. <a href="https://clockss.org/" title="Controlled LOCKSS">CLOCKSS</a>; subscription based service for all kinds of libraries, federal institutions, state archives, NGOs eg. <a href="https://archive-it.org/">Archive-It</a>; state or federal archives eg. <a href="https://www.bar.admin.ch/">Swiss Federal Archives</a>, <a href="https://www.bac-lac.gc.ca/">Library and Archives Canada</a>; institutional-run digital archives eg. <a href="https://www.tib.eu/" title="Leibniz Information Centre for Science and Technology University Library">TIB</a>, <a href="https://zenodo.org/">Zenodo</a>, can all be considered as different forms of social contracts, or <em>promises</em> made for long-term societal benefit.</p>
-
-                  <p id="persistent-identifier"><cite><a data-versiondate="2018-09-01T16:01:52Z" data-versionurl="https://web.archive.org/web/20180901160152/http://www.ijdc.net/article/download/9.1.331/362/" href="http://www.ijdc.net/article/download/9.1.331/362/">Persistent Identifiers for Scholarly Assets and the Web: The Need for an Unambiguous Mapping</a></cite> Van de Sompel, 2014 a <cite>Persistent Identifier</cite> <abbr title="Persistent IDentifier">PID</abbr>) is considered to be a <q cite="http://www.ijdc.net/article/download/9.1.331/362/">string that complies with a well-defined syntax, minted in a namespace controlled by a naming authority</q>. PURL, w3id, ORCID, and DOI as described above are PIDs. For digital objects accessible over the Internet, PIDs are intended to be used as a long-lasting reference to a unit of information, and be <em>actionable</em> in the sense that the environment can be directed to the identified source. For example, a DOI-based PID can be <samp>10.2218/ijdc.v9i1.320</samp>, and the organisation - in this case the International DOI Foundation - would be responsible to maintain an unambiguous mapping to an accessible resource. Typically once mapped, the process starts from a DOI URI <samp>https://doi.org/10.2218/ijdc.v9i1.320</samp> which (currently) resolves to the location <samp>http://www.ijdc.net/article/view/9.1.331</samp> where its contents can be retrieved. URN, International Standard Book Number (<abbr title="International Standard Book Number">ISBN</abbr>), Archival Resource Keys (<abbr title="Archival Resource Keys">ARK</abbr>) are other examples of PID.</p>
-
                   <p id="purl"><cite><a href="https://purl.org/">Persistent Uniform Resource Locator</a></cite> (<abbr title="Persistent Uniform Resource locator">PURL</abbr>) is a way to provide an HTTP URL a permanent redirect to another HTTP URL. PURLs can be registered and managed by anyone. The PURL service is currently administered by the <cite><a href="https://archive.org/">Internet Archive</a></cite>.</p>
 
                   <p id="w3id">Similar to PURLs, is the W3C <cite><a href="http://www.w3.org/community/perma-id/">Permanent Identifier Community Group</a></cite>'s resulting <cite><a href="https://w3id.org/">w3id.org</a></cite>, where a group of entities that pledge to ensure the operation of the community-drive service. w3id.org provides a permanent URL re-direction service, and it can be done by making a request to register and update a URI path. There are shared second-level paths eg. for people, that can be registered the same way. The service is flexible in that different server rules for redirections can be set. In the event that </p>
+
+                  <p id="persistent-identifier"><cite><a data-versiondate="2018-09-01T16:01:52Z" data-versionurl="https://web.archive.org/web/20180901160152/http://www.ijdc.net/article/download/9.1.331/362/" href="http://www.ijdc.net/article/download/9.1.331/362/">Persistent Identifiers for Scholarly Assets and the Web: The Need for an Unambiguous Mapping</a></cite> Van de Sompel, 2014, states that a <cite>Persistent Identifier</cite> <abbr title="Persistent IDentifier">PID</abbr>) is a <q cite="http://www.ijdc.net/article/download/9.1.331/362/">string that complies with a well-defined syntax, minted in a namespace controlled by a naming authority</q>. PURL, w3id, ORCID, and DOI are PIDs. For digital objects accessible over the Internet, PIDs are intended to be used as a long-lasting reference to a unit of information, and be <em>actionable</em> in the sense that the environment can be directed to the identified source. For example, a DOI-based PID can be <samp>10.2218/ijdc.v9i1.320</samp>, and the organisation - in this case the International DOI Foundation - would be responsible to maintain an unambiguous mapping to an accessible resource. Typically once mapped, the process starts from a DOI URI <samp>https://doi.org/10.2218/ijdc.v9i1.320</samp> which (currently) resolves to the location <samp>http://www.ijdc.net/article/view/9.1.331</samp> where its contents can be retrieved. URN, International Standard Book Number (<abbr title="International Standard Book Number">ISBN</abbr>), Archival Resource Keys (<abbr title="Archival Resource Keys">ARK</abbr>) are other examples of PID.</p>
+
+                  <p id="archives">In 1996, the <cite><a href="https://archive.org/">Internet Archive</a></cite> begun to archive the publicly accessible resources on the Internet, and provides free public access to its digital library. The <cite><a href="https://web.archive.org/">Wayback Machine</a></cite> is a service that allows users to search and access archived Web documents in particular. The Wayback Machine can be used to navigate through different versions of URLs based on the date-time in which they were accessed and stored. For example, all of the <a href="https://web.archive.org/web/*/http://csarven.ca/">captures of csarven.ca</a> as well as the other articles of the site are available, along with a <a href="https://web.archive.org/details/http://csarven.ca/">summary</a>. Any Web-wide publicly usable archival services, <a href="http://archive.is/">archive.is</a>, <a href="http://webcitation.org/">WebCite</a>, <a href="https://perma.cc/">Perma.cc</a>, <a href="https://webrecorder.io/">Webrecorder</a>; to dedicated digital preservation organisations eg. <a href="https://www.portico.org/">Portico</a>; libraries eg. <a href="https://www.lockss.org/" title="Lots Of Copies Keep Stuff Safe">LOCKSS</a>; global archives preserving content on behalf of all libraries eg. <a href="https://clockss.org/" title="Controlled LOCKSS">CLOCKSS</a>; subscription based service for all kinds of libraries, federal institutions, state archives, NGOs eg. <a href="https://archive-it.org/">Archive-It</a>; state or federal archives eg. <a href="https://www.bar.admin.ch/">Swiss Federal Archives</a>, <a href="https://www.bac-lac.gc.ca/">Library and Archives Canada</a>; institutional-run digital archives eg. <a href="https://www.tib.eu/" title="Leibniz Information Centre for Science and Technology University Library">TIB</a>, <a href="https://zenodo.org/">Zenodo</a>, can all be considered as different forms of social contracts, or <em>promises</em> made for long-term societal benefit.</p>
                 </div>
               </section>
             </div>
@@ -870,12 +870,11 @@ How is it changing the landscape?
           <section id="social-scholarly-web" inlist="" rel="schema:hasPart" resource="#social-scholarly-web">
             <h2 property="schema:name">Social Scholarly Web</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo">Consider moving this section under a-brief-history-of-scholarship-on-the-web.. and reorder</p>
+              <p>The scholarly ecosystem is inherently social. People collaborate and share.</p>
+              * incentives, rewards, acknowledgement (altmetrics)
 
-              <div class="todo">
               <p>mention connection to existing research on how scholars use social media.. also talk about altmetrics. there is a research field around this.. stuff like https://arxiv.org/pdf/1812.11813 https://web.archive.org/web/20190103181240/https://arxiv.org/pdf/1812.11813.pdf</p>
 
-              <p>The scholarly ecosystem is inherently social. People collaborate and share.</p>
 
               <p>There are both grassroots (bottom-up) changes in the publishing practice, as well as top-down, profit-driven and other third-party influences on the ecosystem.</p>
 
@@ -889,26 +888,7 @@ How is it changing the landscape?
 there is a top-down social pressure for openness
 * in the public interest
 * is it in the interest of the individual researcher?</p>
-            </div>
 
-              <div class="todo">
-                <p>XXX Are these sections necessary? Should they move to a different part of the thesis?</p>
-
-              <section id="social-implications" inlist="" rel="schema:hasPart" resource="#social-implications">
-                <h3 property="schema:name">Social Implications</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p class="todo">Move to Conclusions?</p><pre>* social consequences of open science
-** media pushed to the extreme (mcluhan) - global fight
-** https://github.com/linkeddata/dokieli/issues/152
-** social media running off with misleading headlines? #fakenews?
-*** https://shorensteincenter.org/information-disorder-framework-for-research-and-policymaking/
-
-
-* "Academic job offers that mentioned open science"
-** https://osf.io/7jbnt/</pre>
-
-                </div>
-              </section>
 
               <section id="social-media-and-academia" inlist="" rel="schema:hasPart" resource="#social-media-and-academia">
                 <h3 property="schema:name">Social Media and Academia</h3>
@@ -924,35 +904,43 @@ there is a top-down social pressure for openness
                   <p id="scholar-social"><cite><a href="https://scholar.social/">Scholar Social</a></cite> is a Mastodon instance geared towards scientists, academics, librarians, and scholars with topical focus on scholarly communication. The site has a feature for a monthly journal club, in which its members can suggest a scholarly article of interest, read, and comment collectively. It also has an explicit code of conduct encouraging inclusivity and exercising academic freedom. While Scholar Social is just one particular community, it marks a milestone for academics discovering others in a multi-disciplinary field, as well as academic content in a social setting. At minimum, both fulfil the awareness function in scholarly communication. Hence, ActivityPub can be used by individuals as a single-user of a platform, as well as by communities - institution run or otherwise - which serve their own needs, while optionally being able to communicate with the rest of the federation.</p>
                 </div>
               </section>
-            </div>
 
 
-
-              <section class="todo" id="quality-control-and-certification" inlist="" rel="schema:hasPart" resource="#quality-control-and-certification">
+              <section id="quality-control-and-certification" inlist="" rel="schema:hasPart" resource="#quality-control-and-certification">
                 <h3 property="schema:name">Quality Control and Certification</h3>
-                <div datatype="rdf:HTML" property="schema:description"><pre><cite><a data-versiondate="2018-09-20T15:46:12Z" data-versionurl="https://web.archive.org/web/20180920154612/http://cogprints.org/1692/1/harnad96.peer.review.html" href="http://cogprints.org/1692/1/harnad96.peer.review.html">Implementing Peer Review on the Net: Scientific Quality Control in Scholarly Electronic Journals</a></cite>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>In <cite><a data-versiondate="2019-02-19T23:50:31Z" data-versionurl="https://web.archive.org/web/20190219235031/http://cogprints.org/1685/1/12harnad.html" href="http://cogprints.org/1685/1/12harnad.html">Free at Last: The Future of Peer-Reviewed Journals</a></cite>, Harnad, 1999, states that <q>Peer review is a quality-control and certification (QC/C) filter necessitated by the vast scale of learned research today.</q> In <cite><a data-versiondate="2018-09-20T15:46:12Z" data-versionurl="https://web.archive.org/web/20180920154612/http://cogprints.org/1692/1/harnad96.peer.review.html" href="http://cogprints.org/1692/1/harnad96.peer.review.html">Implementing Peer Review on the Net: Scientific Quality Control in Scholarly Electronic Journals</a></cite>, Harnad, 1996, states that electronic networks offer the possibility of efficient and equitable <em>peer review</em> published and on going work, which can replicate the traditional paper form. As the medium revolutionised interactive publications, it was possible for peer review to be supplemented with online commentary.</p>
 
-** reputation / fact-checking
 
-"Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes." -- https://en.wikipedia.org/wiki/Goodhart%27s_law
 
 * open and transparent contributions
 ** peer-review
 ** bias and prejudice / positive behaviour and civil discourse
-
-notes.fragile-science.txt</pre>
-
                   <p>In <cite><a href="https://f1000research.com/articles/6-588/v2">What is open peer review? A systematic review</a></cite>, Ross-Hellauer summarises criticisms of traditional peer review: <q>unreliability and inconsistency, delay and expense, lack of accountability and risks of subversion, social and publication biases, lack of incentives, wastefulness</q></p>
 
+
+
+** reputation / fact-checking
                   <p>To distinguish fakescience/predatory from legit/non-predatory Beyond "anyone can say anything about anything" eg. publish study preregistration to establish trust, share provenance, data, software/code.., open peer review (OPR) process (when/who/what), competing/conflict of interest, grant information</p>
 
                   <p id="reproducible-replicable">Reproducible research findings refers to the notion that when the exact methods are used to replicate or repeat to reach the same findings. However, for some research, reproduction is not always possible, for example when data is sensitive, or influenced by time or space. In this case, replication can be carried out to answer the same research questions using similar or equivalent approaches. The reproduction of the original work can be either confirmatory, ie. able to reproduce, or; contradictory, unable to reproduce or inconclusive. Thus, in order to reconstruct how the data was generated and to make sense of it, data needs to be accompanied by enough detail about its provisional interpretations.</p>
+
+
+                  <blockquote cite="https://en.wikipedia.org/wiki/Goodhart%27s_law">
+                    <p>Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.</p>
+                    <footer><cite><a href="https://en.wikipedia.org/wiki/Goodhart%27s_law">Goodhart's law</a></cite></footer>
+                  </blockquote>
+
+                  <p><cite><a data-versiondate="2019-02-19T23:51:16Z" data-versionurl="https://web.archive.org/web/20190219235116/https://www.frontiersin.org/articles/10.3389/fnhum.2013.00291/full" href="https://www.frontiersin.org/articles/10.3389/fnhum.2013.00291/full">Deep impact: unintended consequences of journal rank</a></cite></p>
+
                 </div>
               </section>
 
-              <section class="todo" id="dissatisfaction-in-communication" inlist="" rel="schema:hasPart" resource="#dissatistfaction-in-research-communication">
+              <section id="dissatisfaction-in-communication" inlist="" rel="schema:hasPart" resource="#dissatistfaction-in-research-communication">
                 <h3 property="schema:name">Dissatisfaction in Communication</h3>
                 <div datatype="rdf:HTML" property="schema:description">
+                  <p>Privilege and gatekeeping..</p>
+
                   <p>In <cite><a data-versiondate="2019-01-01T13:36:33Z" data-versionurl="https://web.archive.org/web/20190101133633/https://www.openlibhums.org/news/314/" href="https://www.openlibhums.org/news/314/">Open Access, the Global South and the Politics of Knowledge Production and Circulation</a></cite>, an Open Insights interview with Leslie Chan, 2018, states <q cite="https://www.openlibhums.org/news/314/">Interoperability standards are indeed important for discovery and exchanges but they are external to the quality of research, which can only be assessed by those who have knowledge of the research areas.</q></p>
 
                   <p><q cite="https://www.openlibhums.org/news/314/">In the case of scholarly publishing, standards such as DOI, JIF, and even metadata standards, are not only technical decisions, but are also political decisions with public policy implications. This is because these standards are not neutral, but are designed to privilege certain types of knowledge or outputs, while rendering other invisible.</q></p>
@@ -1012,16 +1000,6 @@ and how.</pre>
 
                       <p>Rare disease families not having access..</p>
                       <p>global south..</p>
-                    </div>
-                  </section>
-
-                  <section id="the-status-quo" inlist="" rel="schema:hasPart" resource="#the-status-quo">
-                    <h4 property="schema:name">The Status Quo</h4>
-                    <div datatype="rdf:HTML" property="schema:description"><pre>* publishers - social acceptability of $$$$$ for access. Why are we okay with this?
-** conference registration fees sending to publishers -> closed access is acceptable? poor quality/formats ok?
-* incentives, rewards, acknowledgement (altmetrics)
-
-Consider moving this to LR chapter ()</pre>
                     </div>
                   </section>
                 </div>
@@ -1099,7 +1077,7 @@ Consider moving this to LR chapter ()</pre>
 
               <p>The authors conclude that in order to address the needs of a distributed archival approach for scholarly Web objects, standards will play a central role for interoperable systems.</p>
 
-              <p>Given the dynamic nature of units of communication on the Web, vertical integration, stepping through the four functions in order (as per the traditional journal-centric ecosystem), turns out to be inadequate. Hence, an affirmation of the outlook as outlined in <cite>Rethinking Scholarly Communication</cite>, that the essential functions need to be <q cite="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">fulfilled in discreet, disaggregated, and distributed manners, and in which a variety of networked pathways interconnect the autonomous hubs that fulfil these functions</q>. The act of <q>recording</q> (or <em>registering</em> in the most general sense) a unit of communication is not a replacement for <em>archiving</em> or persistence, even if the freely available Web services are used towards this end. The authors distinguish recording and archiving in that the former is short-term, no guarantees provided, used for many read-write operations, and part of a scholarly process. Archiving serves a different function, in that it is intended for the long-term, and there is an attempt of a guarantee (or promise) and the archived artefact becomes part of the scholarly record.</p> 
+              <p>Given the dynamic nature of units of communication on the Web, vertical integration, stepping through the four functions in order (as per the traditional journal-centric ecosystem), turns out to be inadequate. Hence, an affirmation of the outlook as outlined in <cite>Rethinking Scholarly Communication</cite>, that the essential functions need to be <q cite="https://hvdsomp.info/papers/Papers/2014/iPres2014_Sompel_Treloar.pdf">fulfilled in discreet, disaggregated, and distributed manners, and in which a variety of networked pathways interconnect the autonomous hubs that fulfil these functions</q>. The act of <q>recording</q> (or <em>registering</em> in the most general sense) a unit of communication is not a replacement for <em>archiving</em> or persistence, even if the freely available Web services are used towards this end. The authors distinguish recording and archiving in that the former is short-term, no guarantees provided, used for many read-write operations, and part of a scholarly process. Archiving serves a different function, in that it is intended for the long-term, and there is an attempt of a guarantee (or promise) and the archived artefact becomes part of the scholarly record.</p>
 
               <p>The authors call for another archival paradigm that is based off the characteristics of the Web. That is, given the inherently interlinked and dynamic nature of Web objects, archived resources cannot be treated as atomic resources as they do not necessarily contain the complete content. For instance, a research document on the Web may refer to external media or interactive scripts, aggregated objects, and changing or ephemeral objects. This is in contrast to the traditional journal-centric approach to archival where all material - physical paper - can be eventually tracked to library stacks. Hence, the future of archiving needs to consider the nature of the object, including the degree to which it can be archived. The complexity and care that is required for the proper preservation of digital objects is further described in <cite><a href="http://www.dlib.org/dlib/november05/rosenthal/11rosenthal.html">Requirements for Digital Preservation Systems</a></cite>, Rosenthal, 2005, provides a taxonomy of threat models: software, communication, network, economic, organisational, to name a few, which pose a particular risk to permanent information loss. Thus, it is important to bare these potential issues in mind when considering what scholarly units of information will contain and how they will be made available.</p>
             </div>
