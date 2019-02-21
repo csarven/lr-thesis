@@ -870,7 +870,8 @@ How is it changing the landscape?
           <section id="social-scholarly-web" inlist="" rel="schema:hasPart" resource="#social-scholarly-web">
             <h2 property="schema:name">Social Scholarly Web</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>The scholarly ecosystem is inherently social. People collaborate and share.</p>
+              <p>Just as the Web is inherently social, the scholarly ecosystem is as well. Researchers and scholars have been exchanging and collaborating on their findings and questioning eg. the Republic of Letters. The social dimension not only exerts a force within the research community, but also that from the society. In this section, I will overview how researchers use social media, quality control and certification, and access to research knowledge in context of privilege and gatekeeping.</p>
+
               * incentives, rewards, acknowledgement (altmetrics)
 
               <p>mention connection to existing research on how scholars use social media.. also talk about altmetrics. there is a research field around this.. stuff like https://arxiv.org/pdf/1812.11813 https://web.archive.org/web/20190103181240/https://arxiv.org/pdf/1812.11813.pdf</p>
@@ -879,10 +880,6 @@ How is it changing the landscape?
               <p>There are both grassroots (bottom-up) changes in the publishing practice, as well as top-down, profit-driven and other third-party influences on the ecosystem.</p>
 
               <p>Communities of practice. Communities within and across institutions.. science is a global undertaking. Techniques for doing for science, the tools that are sued, the way works are assigned value or authority.. different things that are adopted in terms of technologies or methods, for publishing and dissemination of scientific work... Changes of how things are done shift over time in waves.. a slow process.. but sub-communities influence one another.</p>
-
-              <p>We're going to look at 'social' like tools that are somehow affecting or influencing scholarly comms in general (not necessarily decentralised ones). How is massive adoption of social media affecting academia? How are organisations taking advantage (or not) of this?</p>
-
-              <p>(you're going to do a comparison of tools and stuff, like academia.edu, stuff like this would not exist if social media in general had not become popular. This is the answer to the question 'how is social media affecting scholarlycomms?')</p>
 
               <p>Why are we caring about this? -&gt; We need to understand/reflect/observe/analyse the effects of the tools we use on the ecosystem and on science</p><p>
 there is a top-down social pressure for openness
@@ -894,6 +891,10 @@ there is a top-down social pressure for openness
                 <h3 property="schema:name">Social Media and Academia</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>"The proliferation of social media over the last decade provides excellent examples of how digital communities can leverage new technologies for great effect."</p>
+
+              <p>We're going to look at 'social' like tools that are somehow affecting or influencing scholarly comms in general (not necessarily decentralised ones). How is massive adoption of social media affecting academia? How are organisations taking advantage (or not) of this?</p>
+
+              <p>(you're going to do a comparison of tools and stuff, like academia.edu, stuff like this would not exist if social media in general had not become popular. This is the answer to the question 'how is social media affecting scholarlycomms?')</p>
 
 reach and engagement..
 
@@ -925,10 +926,6 @@ reach and engagement..
 
 
 
-                  <p>The article <cite><a data-versiondate="2019-02-20T16:21:25Z" data-versionurl="https://web.archive.org/web/20190220162125/https://www.tandfonline.com/doi/full/10.1080/08109028.2014.891710" href="https://www.tandfonline.com/doi/full/10.1080/08109028.2014.891710">Publisher, be damned! From price gouging to the open road</a></cite>, Harvie, 2014, critised the large profits made by for-profit publishers while taking advantage of academics' labours. After internal disagreements (between the publisher and the editorial board), the article was published where the <a data-versiondate="2019-02-20T01:11:47Z" data-versionurl="https://web.archive.org/web/20190220011147/https://figshare.com/articles/Publisher_be_damned_From_price_gouging_to_the_open_road/1046703" href="http://figshare.com/articles/Publisher_be_damned_From_price_gouging_to_the_open_road/1046703">original version</a> introduced a disclaimer warning by the publisher stating that <q>the accuracy of the content should not be relied upon.</q> Such unfortunate turn of events exemplifies how academic freedom can be jeopardised, subject to censorship and manipulation when external parties ultimately control the distribution of knowledge.</q>
-
-                  <p><cite><a data-versiondate="2019-02-20T16:54:53Z" data-versionurl="https://web.archive.org/web/20190220165453/https://journals.sagepub.com/doi/full/10.1177/0162243919829567" href="https://journals.sagepub.com/doi/full/10.1177/0162243919829567">Technoscience Rent: Toward a Theory of Rentiership for Technoscientific Capitalism</a></cite>, Birch, 2019.</p>
-
 
 ** fact-checking
                   <p>To distinguish fakescience/predatory from legit/non-predatory Beyond "anyone can say anything about anything" eg. publish study preregistration to establish trust, share provenance, data, software/code.., open peer review (OPR) process (when/who/what), competing/conflict of interest, grant information</p>
@@ -949,11 +946,21 @@ reach and engagement..
               <section id="privilege-and-gatekeeping" inlist="" rel="schema:hasPart" resource="#privilege-and-gatekeeping">
                 <h3 property="schema:name">Privilege and Gatekeeping</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>A corpus of research articles on the topic of "open" and "free" access to knowledge is listed in <cite><a href="http://www.citeulike.org/group/13803">Group: Open Access Irony Award</a></cite>, 2019, where individual articles at the time of their publication are themselves publicly inaccessible, require subscription or payment. In <cite><a href="">Practicing What You Preach: Evaluating Access of Open Access Research</a></cite>, Schultz, 2018, conducts is to find out how many published research articles about OA fall into the category of publishing their work in paywalled journals and fail to make it open. One way to make sense of this phenomenon is that while the research community has shown increasing interest in studying and pursuing open access to knowledge (over several decades), the scholarly system in which the researchers operate in is still constrained or tied to traditional models of publishing and distribution.</p>
+
+<!-- The State of Communication -->
+<!-- Discontent in Research Communication -->
+<!-- Defective Communication -->
+<!-- Technical and Social Debt -->
+<!-- Criticisms and Controversies -->
+
+                  <p>A corpus of research articles on the topic of "open" and "free" access to research is listed collected in <cite><a href="http://www.citeulike.org/group/13803">Group: Open Access Irony Award</a></cite>, 2019, where individual articles at the time of their publication are themselves inaccessible, require subscription or payment. In <cite><a href="https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2F4k9zd%2F%3Fdirect%26mode%3Drender">Practicing What You Preach: Evaluating Access of Open Access Research</a></cite>, Schultz, 2018, sets to find out how many published research articles about OA fall into the category of publishing their work in paywalled journals and fail to make it open. One way to make sense of this phenomenon is that while the research community has shown increasing interest in studying and pursuing open access to research (over several decades, if not more generally over centuries), the scholarly system in which the researchers operate in is still constrained or tied to traditional models of publishing and distribution.</p>
+
+                  <p id="publisher-be-damned">The article <cite><a data-versiondate="2019-02-20T16:21:25Z" data-versionurl="https://web.archive.org/web/20190220162125/https://www.tandfonline.com/doi/full/10.1080/08109028.2014.891710" href="https://www.tandfonline.com/doi/full/10.1080/08109028.2014.891710">Publisher, be damned! From price gouging to the open road</a></cite>, Harvie, 2014, criticised the large profits made by for-profit publishers while taking advantage of academics' labours. After internal disagreements (between the publisher and the editorial board), the article was published where the <a data-versiondate="2019-02-20T01:11:47Z" data-versionurl="https://web.archive.org/web/20190220011147/https://figshare.com/articles/Publisher_be_damned_From_price_gouging_to_the_open_road/1046703" href="http://figshare.com/articles/Publisher_be_damned_From_price_gouging_to_the_open_road/1046703">original version</a> introduced a disclaimer warning by the publisher stating that <q>the accuracy of the content should not be relied upon.</q> Such unfortunate turn of events exemplifies how academic freedom can be jeopardised, subject to censorship and manipulation when external parties ultimately control the distribution of knowledge.</q>
+
+                  <p><cite><a data-versiondate="2019-02-20T16:54:53Z" data-versionurl="https://web.archive.org/web/20190220165453/https://journals.sagepub.com/doi/full/10.1177/0162243919829567" href="https://journals.sagepub.com/doi/full/10.1177/0162243919829567">Technoscience Rent: Toward a Theory of Rentiership for Technoscientific Capitalism</a></cite>, Birch, 2019.</p>
 
 
-
-                  <p>In <cite><a data-versiondate="2019-01-01T13:36:33Z" data-versionurl="https://web.archive.org/web/20190101133633/https://www.openlibhums.org/news/314/" href="https://www.openlibhums.org/news/314/">Open Access, the Global South and the Politics of Knowledge Production and Circulation</a></cite>, an Open Insights interview with Leslie Chan, 2018, states <q cite="https://www.openlibhums.org/news/314/">Interoperability standards are indeed important for discovery and exchanges but they are external to the quality of research, which can only be assessed by those who have knowledge of the research areas.</q></p>
+                  <p>In <cite><a data-versiondate="2019-01-01T13:36:33Z" data-versionurl="https://web.archive.org/web/20190101133633/https://www.openlibhums.org/news/314/" href="https://www.openlibhums.org/news/314/">Open Access, the Global South and the Politics of Knowledge Production and Circulation</a></cite>, an Open Insights interview with Leslie Chan, 2018, states <q cite="https://www.openlibhums.org/news/314/">interoperability standards are indeed important for discovery and exchanges but they are external to the quality of research, which can only be assessed by those who have knowledge of the research areas.</q></p>
 
                   <p><q cite="https://www.openlibhums.org/news/314/">In the case of scholarly publishing, standards such as DOI, JIF, and even metadata standards, are not only technical decisions, but are also political decisions with public policy implications. This is because these standards are not neutral, but are designed to privilege certain types of knowledge or outputs, while rendering other invisible.</q></p>
 
@@ -969,11 +976,6 @@ reach and engagement..
 
                 <cite><a href="http://knowledgegap.org/"></a></cite>
 
-<!-- The State of Communication -->
-<!-- Discontent in Research Communication -->
-<!-- Defective Communication -->
-<!-- Technical and Social Debt -->
-<!-- Criticisms and Controversies -->
 
                   <p>The scholarly communication has been the subject of controversies over the past decades..</p>
 
