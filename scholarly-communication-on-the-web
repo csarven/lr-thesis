@@ -924,19 +924,20 @@ reach and engagement..
 
 ** bias and prejudice / positive behaviour and civil discourse
 
-
-
+                  <p id="reproducible-replicable">Reproducible research findings refers to the notion that when the exact methods are used to replicate or repeat to reach the same findings. However, for some research, reproduction is not always possible, for example when data is sensitive, or influenced by time or space. In this case, replication can be carried out to answer the same research questions using similar or equivalent approaches. The reproduction of the original work can be either confirmatory, ie. able to reproduce, or; contradictory, unable to reproduce or inconclusive. Thus, in order to reconstruct how the data was generated and to make sense of it, data needs to be accompanied by enough detail about its provisional interpretations.</p>
 
 ** fact-checking
                   <p>To distinguish fakescience/predatory from legit/non-predatory Beyond "anyone can say anything about anything" eg. publish study preregistration to establish trust, share provenance, data, software/code.., open peer review (OPR) process (when/who/what), competing/conflict of interest, grant information</p>
-
-                  <p id="reproducible-replicable">Reproducible research findings refers to the notion that when the exact methods are used to replicate or repeat to reach the same findings. However, for some research, reproduction is not always possible, for example when data is sensitive, or influenced by time or space. In this case, replication can be carried out to answer the same research questions using similar or equivalent approaches. The reproduction of the original work can be either confirmatory, ie. able to reproduce, or; contradictory, unable to reproduce or inconclusive. Thus, in order to reconstruct how the data was generated and to make sense of it, data needs to be accompanied by enough detail about its provisional interpretations.</p>
 
 ** reputation
                   <blockquote cite="https://en.wikipedia.org/wiki/Goodhart%27s_law">
                     <p>Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.</p>
                     <footer><cite><a href="https://en.wikipedia.org/wiki/Goodhart%27s_law">Goodhart's law</a></cite></footer>
                   </blockquote>
+
+                  <p>The current scholarly system implements metrics for impact of various scholarly artefacts. <cite><a href="https://en.wikipedia.org/wiki/Citation_impact">Citations impacts</a><cite> quantifies the importance of academic articles, journals, and authors. Article citations is used to indicate how often it is referenced. <cite><a href="https://en.wikipedia.org/wiki/Impact_factor">Journal Impact Factor</a></cite> (<abbr title="Journal Impact Factor">JIF</abbr>) is used to indicate the relative importance of an academic journal within its field. <cite><a href="">h-index</a></cite> is used to measure authors productivity of their output in their field. The validity of these has received numerous criticisms.</p>
+
+                  <p><cite><a data-versiondate="2019-02-22T23:28:46Z" data-versionurl="https://web.archive.org/web/20190222232846/https://www.frontiersin.org/articles/10.3389/fnhum.2018.00037/full" href="https://www.frontiersin.org/articles/10.3389/fnhum.2018.00037/full">Prestigious Science Journals Struggle to Reach Even Average Reliability</a></cite>, Brembs, 2018, examines accumulating data which suggests <q>methodological quality and, consequently, reliability of published research works in several fields may be decreasing with increasing journal rank</q></p>
 
                   <p><cite><a data-versiondate="2019-02-19T23:51:16Z" data-versionurl="https://web.archive.org/web/20190219235116/https://www.frontiersin.org/articles/10.3389/fnhum.2013.00291/full" href="https://www.frontiersin.org/articles/10.3389/fnhum.2013.00291/full">Deep impact: unintended consequences of journal rank</a></cite></p>
 
@@ -952,7 +953,7 @@ reach and engagement..
 <!-- Technical and Social Debt -->
 <!-- Criticisms and Controversies -->
 
-                  <p>The scholarly communication system has been the subject of controversies ever since the shift towards its systematisation and the interplay of the forces in society, market, and industry. Controlling access to information or knowledge in all intents and purposes has been a race to controlling science (communication) and power. Moreover, intelligence gleaned from users data has not only been profitable by major publishers, but has also raised long-standing privacy issues. Given the ethical implications and biases exerted on the scholarly system at a global level, evaluation of the system has also been an area of study and debated.</p>
+                  <p>The scholarly communication system has been the subject of controversies internationally ever since the shift towards its systematisation and the effect of the forces in society, research market and knowledge industry. Controlling access to information or knowledge in all intents and purposes has been a race to controlling science (communication), financial and political power. Moreover, intelligence gleaned from users data has not only been profitable, but has also raised long-standing privacy issues.</p>
 
                   <p>In <cite><a data-versiondate="2019-01-01T13:36:33Z" data-versionurl="https://web.archive.org/web/20190101133633/https://www.openlibhums.org/news/314/" href="https://www.openlibhums.org/news/314/">Open Access, the Global South and the Politics of Knowledge Production and Circulation</a></cite>, an Open Insights interview with Leslie Chan, 2018, states that <q cite="https://www.openlibhums.org/news/314/">adding openness to an asymmetrical and highly unequal system simply amplifies the gap and empowers the already powerful.</q></p>
 
