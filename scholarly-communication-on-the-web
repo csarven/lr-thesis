@@ -892,13 +892,18 @@ there is a top-down social pressure for openness
               <section id="social-media-and-academia" inlist="" rel="schema:hasPart" resource="#social-media-and-academia">
                 <h3 property="schema:name">Social Media and Academia</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>Contemporary social media and networking sites has been facilitating academics to exchange information more efficiently and effectively. There are online communities geared towards scientists, academics, librarians, and scholars with topical focus on various aspects of scholarly communication. In <cite><a data-versiondate="2019-02-24T00:09:24Z" data-versionurl="https://web.archive.org/web/20190224000924/https://firstmonday.org/ojs/index.php/fm/article/view/4937/4159" href="https://firstmonday.org/ojs/index.php/fm/article/view/4937/4159">Academics and their online networks: Exploring the role of academic social networking sites</a></cite>, Jordan, 2015, discusses the proliferation of social networking sites predominantly operated by businesses independently of education institutions. Academics from different disciplines communicate to publish and review articles, pose and answer questions, construct identities and build profiles, exchange messages, as well as explore trends.</p>
+                  <p>Contemporary social media and networking sites has been facilitating academics to exchange information more efficiently and effectively. There are online communities geared towards scientists, academics, librarians, and scholars with topical focus on various aspects of scholarly communication. In <cite><a data-versiondate="2019-02-24T00:09:24Z" data-versionurl="https://web.archive.org/web/20190224000924/https://firstmonday.org/ojs/index.php/fm/article/view/4937/4159" href="https://firstmonday.org/ojs/index.php/fm/article/view/4937/4159">Academics and their online networks: Exploring the role of academic social networking sites</a></cite>, Jordan, 2015, discusses the proliferation of social networking sites predominantly operated by businesses independently of education institutions. Academics from different disciplines communicate to publish and review articles in different states (pre-prints to post-prints), pose and answer questions, construct identities and build profiles, exchange messages, as well as explore trends.</p>
 
-                  <p>How can institutions, libraries, archives better support academics in their scholarly?</p>
+                  <p>As the Web deeply impacts societies, in addition to using social media, researchers and academics have also been studying socio-technical systems from their respective disciplines.</p>
+
+, 
+                  <p id="citizen-science">In recent years, there has also been growing number of community-led initiatives for individuals to help researchers and scientists by performing <cite><a href="https://en.wikipedia.org/wiki/Citizen_science">citizen science</a></cite></q> independently, from sharing photos of coral reefs, analysing radio signals, to solving protein structures.</p>
 
               <p>We're going to look at 'social' like tools that are somehow affecting or influencing scholarly comms in general (not necessarily decentralised ones). How is massive adoption of social media affecting academia? How are organisations taking advantage (or not) of this?</p>
 
               <p>(Stuff like this would not exist if social media in general had not become popular. This is the answer to the question 'how is social media affecting scholarlycomms?')</p>
+
+                  <p>In essence, online social media websites and applications exist 
                 </div>
               </section>
 
