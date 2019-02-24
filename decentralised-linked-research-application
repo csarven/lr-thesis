@@ -723,7 +723,9 @@ document.addEventListener('DOMContentLoaded', function(){
               <section id="interactive-linked-statistics" inlist="" rel="schame:hasPart" resource="#sparqlines">
                 <h3 property="schema:name">Interactive Linked Statistics</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p class="todo"></p>
+<p class="notes">Mention this?
+There are couple of approaches: 1) include a self-contained application in a document, usually through object/iframe, 2) custom widgets fetching, manipulating, rendering data eg. sparqlines, 3) authoring/executing code in a document along the lines of <a href="https://jupyter.org/">Jupyter</a> notebook, and executable environments like <a href="https://mybinder.org/">binder</a></p>
+
 <p><a href="http://csarven.ca/sparqlines-sparql-to-sparkline">http://csarven.ca/sparqlines-sparql-to-sparkline</a></p>
 <p>
 * write challenges/limitations for something like sparqlines.. eg. remote data.. offline.. archiving/caching..
