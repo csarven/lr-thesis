@@ -950,62 +950,30 @@ there is a top-down social pressure for openness
               <section id="privilege-and-gatekeeping" inlist="" rel="schema:hasPart" resource="#privilege-and-gatekeeping">
                 <h3 property="schema:name">Privilege and Gatekeeping</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-<!-- The State of Communication -->
-<!-- Discontent in Research Communication -->
-<!-- Defective Communication -->
-<!-- Technical and Social Debt -->
-<!-- Criticisms and Controversies -->
-
                   <p>The scholarly communication system has been the subject of controversies internationally ever since the shift towards its systematisation and the effect of the forces in society, research market and knowledge industry. Controlling access to information or knowledge in all intents and purposes has been a race to controlling science (communication), financial and political power. Moreover, intelligence gleaned from users data has not only been profitable, but has also raised long-standing privacy issues.</p>
 
+                  <p><a data-versiondate="2019-02-24T23:19:26Z" data-versionurl="https://web.archive.org/web/20190224231926/https://eua.eu/downloads/publications/eua-big-deals-survey-report---the-first-mapping-of-major-scientific-publishing-contracts-in-europe.pdf" href="https://eua.eu/downloads/publications/eua-big-deals-survey-report---the-first-mapping-of-major-scientific-publishing-contracts-in-europe.pdf">EUA BIG DEALS SURVEY REPORT APRIL 2018: The First Mapping of Major Scientific Publishing Contracts in Europe</a>, reports that the consortia including universities, libraries, government representatives, and scientific organisations, has <q>EUR 421,047,848 for combined expenditure on periodicals, databases and e-books in the period covered by the report.</q></p>
 
-                  <p><a href="https://eua.eu/downloads/publications/eua-big-deals-survey-report---the-first-mapping-of-major-scientific-publishing-contracts-in-europe.pdf">EUA BIG DEALS SURVEY REPORT APRIL 2018 The First Mapping of Major Scientific Publishing Contracts in Europe</a>, <a href="https://oa2020.org/wp-content/uploads/pdfs/B14-12-Lidiia-Borell-Damian.pdf">EUROPEAN UNIVERSITY ASSOCIATION Big Deals Survey 2018 Preliminary results</a> <q>Total (27 European countries) = ~ 907 947 409 EUR Note: for 4 countries, only the total amount for the surveyed consortium is known. This is a conservative figure. No APCs included in this figure</q> </p>
-
-                  <p>Profit margins..</p>
-                  <p>Knowledge Neocolonialism/Capitalism: https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science</p>
+                  <p>Profit margins... Knowledge Neocolonialism/Capitalism: https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science</p>
 
                   <p><cite><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127502">The Oligopoly of Academic Publishers in the Digital Era</a></cite></p>
 
                   <p><cite><a href="http://knowledgegap.org/index.php/sub-projects/rent-seeking-and-financialization-of-the-academic-publishing-industry/preliminary-findings/">Publishers are increasingly in control of scholarly infrastructure and why we should care</a></cite></p>
 
-
+                  <p><cite><a data-versiondate="2019-02-20T16:54:53Z" data-versionurl="https://web.archive.org/web/20190220165453/https://journals.sagepub.com/doi/full/10.1177/0162243919829567" href="https://journals.sagepub.com/doi/full/10.1177/0162243919829567">Technoscience Rent: Toward a Theory of Rentiership for Technoscientific Capitalism</a></cite>, Birch, 2019.</p>
 
                   <p>In <cite><a data-versiondate="2019-01-01T13:36:33Z" data-versionurl="https://web.archive.org/web/20190101133633/https://www.openlibhums.org/news/314/" href="https://www.openlibhums.org/news/314/">Open Access, the Global South and the Politics of Knowledge Production and Circulation</a></cite>, an Open Insights interview with Leslie Chan, 2018, states that <q cite="https://www.openlibhums.org/news/314/">adding openness to an asymmetrical and highly unequal system simply amplifies the gap and empowers the already powerful.</q></p>
 
                   <p>A corpus of research articles on the topic of "open" and "free" access to research is listed collected in <cite><a data-versiondate="2019-02-22T11:33:31Z" data-versionurl="https://web.archive.org/web/20190222113331/http://www.citeulike.org/group/13803" href="http://www.citeulike.org/group/13803">Group: Open Access Irony Award</a></cite>, 2019, where individual articles at the time of their publication are themselves inaccessible, require subscription or payment. In <cite><a href="https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2F4k9zd%2F%3Fdirect%26mode%3Drender">Practicing What You Preach: Evaluating Access of Open Access Research</a></cite>, Schultz, 2018, sets to find out how many published research articles about OA fall into the category of publishing their work in paywalled journals and fail to make it open. One way to make sense of this phenomenon is that while the research community has shown increasing interest in studying and pursuing open access to research (over several decades, if not more generally over centuries), the scholarly system in which the researchers operate in is still constrained or tied to traditional models of publishing and distribution.</p>
 
-<!-- Cost of Knowledge -->
+                  <p id="publisher-be-damned">The article <cite><a data-versiondate="2019-02-20T16:21:25Z" data-versionurl="https://web.archive.org/web/20190220162125/https://www.tandfonline.com/doi/full/10.1080/08109028.2014.891710" href="https://www.tandfonline.com/doi/full/10.1080/08109028.2014.891710">Publisher, be damned! From price gouging to the open road</a></cite>, Harvie, 2014, criticises the large profits made by for-profit publishers while taking advantage of academics' labours. After internal disagreements (between the publisher and the editorial board), the article was published where the <a data-versiondate="2019-02-20T01:11:47Z" data-versionurl="https://web.archive.org/web/20190220011147/https://figshare.com/articles/Publisher_be_damned_From_price_gouging_to_the_open_road/1046703" href="http://figshare.com/articles/Publisher_be_damned_From_price_gouging_to_the_open_road/1046703">original version</a> introduced a disclaimer warning by the publisher stating that <q>the accuracy of the content should not be relied upon.</q> Such unfortunate turn of events exemplifies how academic freedom can be jeopardised, subject to censorship and manipulation when external parties ultimately control the distribution of knowledge.</p>
 
-                  <p><cite><a data-versiondate="2019-02-20T16:54:53Z" data-versionurl="https://web.archive.org/web/20190220165453/https://journals.sagepub.com/doi/full/10.1177/0162243919829567" href="https://journals.sagepub.com/doi/full/10.1177/0162243919829567">Technoscience Rent: Toward a Theory of Rentiership for Technoscientific Capitalism</a></cite>, Birch, 2019.</p>
+                  <blockquote cite="https://www.openlibhums.org/news/314/">
+                    <p>In the case of scholarly publishing, standards such as DOI, JIF, and even metadata standards, are not only technical decisions, but are also political decisions with public policy implications. This is because these standards are not neutral, but are designed to privilege certain types of knowledge or outputs, while rendering other invisible.</p>
+                    <footer><cite><a data-versiondate="2019-01-01T13:36:33Z" data-versionurl="https://web.archive.org/web/20190101133633/https://www.openlibhums.org/news/314/" href="https://www.openlibhums.org/news/314/">Open Access, the Global South and the Politics of Knowledge Production and Circulation</a></cite>, an Open Insights interview with Leslie Chan, 2018</footer>
+                  </blockquote>
 
-<!-- Control -->
-
-                  <p id="publisher-be-damned">The article <cite><a data-versiondate="2019-02-20T16:21:25Z" data-versionurl="https://web.archive.org/web/20190220162125/https://www.tandfonline.com/doi/full/10.1080/08109028.2014.891710" href="https://www.tandfonline.com/doi/full/10.1080/08109028.2014.891710">Publisher, be damned! From price gouging to the open road</a></cite>, Harvie, 2014, criticised the large profits made by for-profit publishers while taking advantage of academics' labours. After internal disagreements (between the publisher and the editorial board), the article was published where the <a data-versiondate="2019-02-20T01:11:47Z" data-versionurl="https://web.archive.org/web/20190220011147/https://figshare.com/articles/Publisher_be_damned_From_price_gouging_to_the_open_road/1046703" href="http://figshare.com/articles/Publisher_be_damned_From_price_gouging_to_the_open_road/1046703">original version</a> introduced a disclaimer warning by the publisher stating that <q>the accuracy of the content should not be relied upon.</q> Such unfortunate turn of events exemplifies how academic freedom can be jeopardised, subject to censorship and manipulation when external parties ultimately control the distribution of knowledge.</p>
-
-
-
-                  <p><q cite="https://www.openlibhums.org/news/314/">interoperability standards are indeed important for discovery and exchanges but they are external to the quality of research, which can only be assessed by those who have knowledge of the research areas.</q></p>
-
-<!-- Technical/Political decisions -->
-                  <p><q cite="https://www.openlibhums.org/news/314/">In the case of scholarly publishing, standards such as DOI, JIF, and even metadata standards, are not only technical decisions, but are also political decisions with public policy implications. This is because these standards are not neutral, but are designed to privilege certain types of knowledge or outputs, while rendering other invisible.</q></p>
-                  <p><q cite="https://www.openlibhums.org/news/314/">The quantitative and formulaic nature of the JIF gives it the illusion of objectivity and authority, but it is a technology that completely decontextualizes the nature of research and their real life impact.</q></p>
-
-                  <p><q cite="https://www.openlibhums.org/news/314/">there is far more money to be made in data extraction and sales of “research intelligence” than publishing.</q></p>
-
-                 <p><q cite="https://www.openlibhums.org/news/314/">students are active knowledge producers and critical scholars, not just passive receivers of knowledge codified by Global North institutions.</q></p>
-
-                 <p><q cite="https://www.openlibhums.org/news/314/">We are very concerned with the ethical implications of such big data applications and the potential biases such systems will replicate, given that they will likely built on existing data and highly biased criteria of academic success, such as the JIF.</q></p>
-
-                <p><q cite="https://www.openlibhums.org/news/314/">It is becoming clear that adding openness to an asymmetrical and highly unequal system simply amplifies the gap and empowers the already powerful.</q></p>
-
-                  <p><q cite="https://www.openlibhums.org/news/314/">there is far more money to be made in data extraction and sales of “research intelligence” than publishing.</q></p>
-
-                <cite><a href="http://knowledgegap.org/"></a></cite>
-
-
-
-
-                  <p id="effects-of-third-parties-on-scholarly-communication">Some of the observable effects of commercial participants in the scholarly ecosystem on scholarly communication is that, they have the means monitor the usage and interaction of units of scholarly information, censor who or what information gets shared and at what cost, have the agency to control the flow of information, and influence by exerting force on coupling their notion of an academic impact to an incentive system.</p>
+                  <p id="effects-of-third-parties-on-scholarly-communication">Some of the observable effects of commercial participants in the scholarly ecosystem on scholarly communication is that, they have the means monitor the usage and interaction of units of scholarly information, censor who or what information gets shared and at what cost, have the agency to control the flow of information, and influence the coupling of their notion of academic impact to a biased incentive system.</p>
                 </div>
               </section>
             </div>
