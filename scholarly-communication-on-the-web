@@ -1080,11 +1080,13 @@ How is it changing the landscape?
 
               <p>Today, it is evident that the typical academic publishing scenario requires adherence to the <em>printability</em> aspects of the information eg. <span class="unicode-document">page length, typographical guidelines</span>. That is, all of the encompassing data or supporting artefacts for any given research output typically must be channeled through the characteristics of print media. In practice, this leads the research community to use tools that are tailored solely for printing or viewing (on screen). This (sticking to print) leads to unnecessary information loss or arbitrary filtering of the content, which might be otherwise preserved if a different medium was used. Since print is only one possible way to represent and communicate the information, it is worthwhile to investigate and employ alternative or complimentary representations that are more appropriate given the affordances of the Web. Traditional electronic document formats, on the hot end of the media spectrum, are trying remain relevant inside a cool medium.</p>
 
+<!--
               <blockquote cite="http://www.worldcat.org/oclc/250420453" title="McLuhan, M. and H. Parker (1968) Through the Vanishing Point: Space in Poetry and Painting. New York: Harper and Row; London: Evanston.">
                 <p>It is not that there is anything wrong with the old environment, but it simply will not serve as navigational guide to the new one.</p>
 
                 <footer><cite><a href="https://www.worldcat.org/title/through-the-vanishing-point/oclc/250420453">Through the Vanishing Point: Space in Poetry and Painting</a></cite>.</footer>
               </blockquote>
+-->
 
               <p>This section served to acknowledge initiatives and developments that went into scholarly communication in the age of information and Web, against their historical backdrop. It also introduces some frameworks for description and analysis of technologies and processes particular to scholarly communication, and communication mediums in general, which we will continue to refer to through the rest of this thesis. Subsequent sections are dedicated to devising a scholarly space that is more fitting to the medium of the Web.</p>
             </div>
