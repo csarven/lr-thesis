@@ -141,6 +141,9 @@
 
               <p>Non-narrative units can also be semantically represented to enable easier reuse and interpretation; this is covered in more detail in <a href="#linked-statistics">Linked Statistics</a> and <cite><a href="decentralised-linked-research-application#interactive-linked-statistics">Interactive Linked Statistics</a></cite>.</p> 
 
+<!--
+todo: tree view / diagram of the items
+-->
 
               <section id="units-of-communication" inlist="" rel="schema:hasPart" resource="#units-of-communication">
                 <h3 property="schema:name">Units of Communication</h3>
@@ -199,6 +202,10 @@
                   <p id="formal-grammars"><strong>Formal grammars</strong>: While HTML markup with formal grammars has the quality of being efficient for cooperating systems, it comes at the cost of wider interoperability. That is, if an application is designed to <em>only</em> work with a particular flavour or subset of HTML, then it would not be able to work with arbitrary HTML documents on the Web. Hence, having profiles or grammars in and itself not an issue, however its <em>effects</em> are likely to be that they are less interoperable than they can be. This is in contrast to applications safely ignoring information patterns they do not understand or interested in using, even if they have their preferred internal grammars or HTML templates. From the consuming side, if the application's information <em>reuse</em> is dependent on HTML a specific schema or tree structure, effectively locks the application into coping with those patterns, and ultimately less flexible about handling expressions that the application is unfamiliar with. The effect is a constrained or a closed information system.</p>
                 </div>
               </section>
+
+<!--
+  todo: mention sub organisation.. categorise into 3-4 items?
+-->
 
               <section id="vocabularies" inlist="" rel="schema:hasPart" resource="#vocabularies">
                 <h3 property="schema:name">Vocabularies</h3>

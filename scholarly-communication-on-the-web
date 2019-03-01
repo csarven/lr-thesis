@@ -189,6 +189,12 @@ transform:rotate(-60deg);
               </blockquote>
 -->
 
+<!--
+todo: s/technological/communication?
+
+add figures to help
+-->
+
               <p>The effects of technological mediums on society have some similarities to the evolution of scientific paradigms. This will serve as the historical framing for this thesis and helps to contextualise the application of core methods and values of the Web on scholarly communication.</p>
 
               <section id="on-mediums" inlist="" rel="schema:hasPart" resource="#on-mediums">
@@ -876,6 +882,11 @@ How is it changing the landscape?
                 <p>Experience with the ªWorld-Wide Webº (W3) global information initiative suggests that the whole mechanism of academic research will change with new technology.   However, when we try (dangerously) to see the shape of things to come, it seems that some old institutions may resurface  but in a new form.</p>
                 <footer><cite><a data-versiondate="2019-02-24T13:24:20Z" data-versionurl="https://web.archive.org/web/20190224132420/https://www.w3.org/History/1994/WWW/Journals/PhysicsWorld/PW.ascii" href="https://www.w3.org/History/1994/WWW/Journals/PhysicsWorld/PW.ascii">Physics World article for end March 1992</a></cite>, Berners-Lee, 1992</footer>
               </blockquote>
+
+<!--
+  todo:
+  add core aspects / systematic representation?
+-->
 
               <p>The scholarly ecosystem is inherently social. Researchers and scholars have been exchanging and collaborating on their findings and questioning, just as they were in the era of the <cite>Republic of Letters</cite>. The social dimension not only exerts a force within the research community, from the society, and eventually flowing back out to society. As the Web deeply impacts societies, in addition to using social media, researchers and academics have also been studying socio-technical systems from their respective disciplines. We need to understand the effects of the tools we use on the ecosystem and on scientific and scholarly communication. There is a top-down social pressure for research openness and access to knowledge that is in the public interest, however, achieving it through the methods and ethics that is challenging for societies. In this section, I will overview how researchers use social media, quality control and certification, and access to research knowledge in context of privilege and gatekeeping.</p>
 
