@@ -233,7 +233,7 @@ add figures to help
                 <div datatype="rdf:HTML" property="schema:description">
                   <blockquote>
                     <p>I simply assert the existence of significant limits to what the proponents of different theories can communicate to one another.</p>
-                    <footer><cite><a data-versiondate="2018-06-19T08:38:36Z" data-versionurl="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf" href="https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">Objectivity, Value Judgment, and Theory Choice</a></cite>, Thomas S. Kuhn, 1973</footer>
+                    <footer><cite><a data-versiondate="2018-06-19T08:38:36Z" data-versionurl="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf" href="https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">Objectivity, Value Judgment, and Theory Choice</a></cite>, Kuhn, 1973</footer>
                   </blockquote>
 
                   <p>In <cite>The Structure of Scientific Revolutions</cite>, Thomas S. Kuhn proposes an explanation for the process of discovery and progress in the history and philosophy of science. Kuhn contended that science did not progress linearly through history, rather it starts with a period that's disorganised, and then a paradigm - a collection of <em>exemplar</em> agreed by scientists on how problems are to be understood - develops to organise things for day-to-day <q>normal science</q> to take place under the governed paradigm. After some time, <q>anomalies</q> in the paradigm accumulate and lead to a <q>crisis</q> phase where multiple competing paradigms attempt to resolve the issues. This is a particular point in which the community struggles to come to an agreement on the fittest way to practice future science. Finally a <q>paradigm shift</q> - revolution - refers to the last phase where transforming ideas and assertions mature enough to bring order to earlier anomalies, and cause a change in world view.</p>
@@ -268,9 +268,9 @@ add figures to help
                 <div datatype="rdf:HTML" property="schema:description">
                   <p><cite>The Gutenberg Galaxy</cite> and <cite>The Structure of Scientific Revolutions</cite> were coincidently published in 1962. While the accomplishments of McLuhan and Kuhn had differences in methodology and structure, they reveal the overwhelming effects of patterns of change when new technologies and paradigms are adopted by society. These major communication shifts in society as a whole, and specifically in the mode of scientific inquiry, are rare and significant events in history. Content follows form; mediums and paradigms shape the space.</p>
 
-                  <p>As the characteristics of the spoken word carried over to writing, and writing to print, print media also influenced electronic media like the Web and hypermedia. Print's typography and knowledge organisation affects the standards, tools, and interfaces that are still used today to exchange knowledge on the Web, as well as certain social expectations or assumptions. For example, authoring tools help us to design and create electronic documents that resemble print representations even if they are not intended to be printed. McLuhan described this phenomenon as though looking at the <q>rear-view mirror</q>; <q>the old medium is always the content of the new medium</q>, <cite><a href="https://archive.org/details/thisismarshallmcluhanthemediumisthemessage">This is Marshall McLuhan: The Medium is the Massage</a></cite>, 1967, Marshall McLuhan. While scholarly communication is moving forward by adopting the Web, the content is drawn from the print world.</p>
+                  <p>As the characteristics of the spoken word carried over to writing, and writing to print, print media also influenced electronic media like the Web and hypermedia. Print's typography and knowledge organisation affects the standards, tools, and interfaces that are still used today to exchange knowledge on the Web, as well as certain social expectations or assumptions. For example, authoring tools help us to design and create electronic documents that resemble print representations even if they are not intended to be printed. McLuhan described this phenomenon as though looking at the <q>rear-view mirror</q>; <q>the old medium is always the content of the new medium</q>, <cite><a href="https://archive.org/details/thisismarshallmcluhanthemediumisthemessage">This is Marshall McLuhan: The Medium is the Massage</a></cite>, McLuhan, 1967. While scholarly communication is moving forward by adopting the Web, the content is drawn from the print world.</p>
 
-                  <p>In <cite><a href="http://www.worldcat.org/oclc/695759425" title="9780226520919">The Sociology of Science: Theoretical and Empirical Investigations</a></cite>, 1942, Robert Merton introduced <q>four sets of institutional imperatives taken to comprise the ethos of modern science</q> in <q>The Normative Structure of Science</q>:</p>
+                  <p>In <cite><a href="http://www.worldcat.org/oclc/695759425" title="9780226520919">The Sociology of Science: Theoretical and Empirical Investigations</a></cite>, Merton, 1942, introduced <q>four sets of institutional imperatives taken to comprise the ethos of modern science</q> in <q>The Normative Structure of Science</q>:</p>
 
                   <ul>
                     <li><em>Communalism</em>: in order to promote collective collaboration, intellectual output should have common ownership.</li>
@@ -303,7 +303,7 @@ The project started with the philosophy that much academic information should
 be freely available to anyone. It aims to allow information sharing within
 internationally dispersed teams, and the dissemination of information by
 support groups.</pre>
-                <footer><cite><a data-versiondate="2018-08-26T22:07:07Z" data-versionurl="https://web.archive.org/web/20180826220707/https://groups.google.com/forum/message/raw?msg=alt.hypertext/eCTkkOoWTAY/bJGhZyooXzkJ" href="https://groups.google.com/forum/message/raw?msg=alt.hypertext/eCTkkOoWTAY/bJGhZyooXzkJ">WorldWideWeb: Summary</a></cite>, alt.hypertext, 1991, Tim Berners-Lee</footer>
+                <footer><cite><a data-versiondate="2018-08-26T22:07:07Z" data-versionurl="https://web.archive.org/web/20180826220707/https://groups.google.com/forum/message/raw?msg=alt.hypertext/eCTkkOoWTAY/bJGhZyooXzkJ" href="https://groups.google.com/forum/message/raw?msg=alt.hypertext/eCTkkOoWTAY/bJGhZyooXzkJ">WorldWideWeb: Summary</a></cite>, alt.hypertext, Berners-Lee, 1991</footer>
               </blockquote>
 
               <p>The World Wide Web is inherently social. In <cite><a href="http://www.worldcat.org/oclc/729965164" title="Chapter 10: Web of People, p123">Weaving the Web</a></cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> states that he <q cite="http://www.worldcat.org/oclc/729965164">designed it for a social effect – to help people work together</q>. The Web's remarkable growth is fundamentally due to its social characteristics above anything else. The technical challenge was to define the basic common rules of protocol for machines to exchange information in a global system. In the remainder of this section, I outline the core components of the <a href="#architecture-of-the-web">architecture of the Web</a>, discuss the notion and practice of <a href="#linked-data">Linked Data</a>, and postulate how the <a href="#web-science">Web Science</a> framework can help towards a holistic understanding of the interplay between social and technical challenges.</p>
@@ -366,7 +366,7 @@ support groups.</pre>
                           <dd>the significance of identity for a given URI is determined by the person who owns the URI, who first determined what it points to.</dd>
                         </dl>
 
-                        <footer><cite><a href="https://www.w3.org/DesignIssues/Axioms.html#uri" rel="cito:includesQuotationFrom">Universal Resource Identifiers -- Axioms of Web Architecture</a></cite>, 1996, Tim Berners-Lee</footer>
+                        <footer><cite><a href="https://www.w3.org/DesignIssues/Axioms.html#uri" rel="cito:includesQuotationFrom">Universal Resource Identifiers -- Axioms of Web Architecture</a></cite>, Berners-Lee, 1996</footer>
                       </blockquote>
 
                       <p>URIs make it possible for real or abstract <em>things</em> to be identified. When HTTP URIs are dereferenced different representations (data formats) are made available from corresponding <cite><a href="https://tools.ietf.org/html/rfc1738">Uniform Resource Locators</a></cite> (<abbr title="Uniform Resource Locator">URL</abbr>s). While URIs makes it possible to identify (name) things on the Web, URLs make it possible for humans and machines to locate and to interact further with content.</p>
@@ -518,10 +518,10 @@ support groups.</pre>
                       <li>When someone looks up a URI, provide useful information, using the standards (RDF*, SPARQL)</li>
                       <li>Include links to other URIs. so that they can discover more things.</li>
                     </ol>
-                    <footer><cite><a data-versiondate="2018-12-31T12:26:01Z" data-versionurl="https://web.archive.org/web/20181231122601/https://www.w3.org/DesignIssues/LinkedData" href="https://www.w3.org/DesignIssues/LinkedData">Linked Data - Design Issues</a></cite>, 2006 (revised in 2009)</footer>
+                    <footer><cite><a data-versiondate="2018-12-31T12:26:01Z" data-versionurl="https://web.archive.org/web/20181231122601/https://www.w3.org/DesignIssues/LinkedData" href="https://www.w3.org/DesignIssues/LinkedData">Linked Data - Design Issues</a></cite>, 2006 (<a href="#linked-data-design-principles-revised">revised in 2009</a>)</footer>
                   </blockquote>
 
-                  <div class="note">
+                  <div id="linked-data-design-principles-revised" class="note">
                     <h4>Note</h4>
                     <div>
                       <p>In the <a href="https://web.archive.org/web/20061115043657/http://www.w3.org/DesignIssues/LinkedData.html">original version</a> (earliest archived) of the Linked Data design principles, the third statement was <q>When someone looks up a URI, provide useful information.</q> It was <a href="https://web.archive.org/web/20090708213925/http://www.w3.org/DesignIssues/LinkedData.html">updated in 2009</a> (earliest archived).</p>
@@ -603,7 +603,7 @@ support groups.</pre>
               <section id="open-and-free" inlist="" rel="schema:hasPart" resource="#open-and-free">
                 <h3 property="schema:name">Open and Free</h3>
                 <div dataype="rdf:HTML" property="schema:description">
-                  <p>While there are many definitions for “open” and “free”, depending on the context assigned by different communities eg. <cite><a data-versiondate="2018-10-05T10:34:34Z" data-versionurl="https://web.archive.org/web/20181005103434/https://www.w3.org/DesignIssues/Open.html" href="https://www.w3.org/DesignIssues/Open.html">The Many Meanings of Open</a></cite> Berners-Lee, 2013, here we acknowledge those that are commonly used.</p>
+                  <p>While there are many definitions for “open” and “free”, depending on the context assigned by different communities eg. <cite><a data-versiondate="2018-10-05T10:34:34Z" data-versionurl="https://web.archive.org/web/20181005103434/https://www.w3.org/DesignIssues/Open.html" href="https://www.w3.org/DesignIssues/Open.html">The Many Meanings of Open</a></cite>, Berners-Lee, 2013, here we acknowledge those that are commonly used.</p>
 
                   <p id="open-definition">The definition given by <cite><a href="https://opendefinition.org/">The Open Definition</a></cite> which is derived from the <cite>Open Source Definition</cite>, is as follows:</p>
 
@@ -727,7 +727,7 @@ How is it changing the landscape?
                   <p>The W3C Recommendation for <cite><a href="https://www.w3.org/TR/dwbp/">Data on the Web Best Practices</a></cite> (<abbr title="Data on the Web Best Practices">DWBP</abbr>) provides a wide range of best practices, in order to benefit comprehension, processability, discoverability, reuse, trust, linkability, access, and interoperability. The DWBP can be used by <q cite="https://www.w3.org/TR/dwbp/#bestPractices">data publishers in order to help them and data consumers to overcome the different challenges faced when publishing and consuming data on the Web</q>. DWBP applies to all data publishers but is pertinent for researchers.</p>
 
                   <h4 id="fair-guiding-principles">FAIR Guiding Principles</h4>
-                  <p>The <cite><a data-versiondate="2018-10-05T11:34:54Z" data-versionurl="https://web.archive.org/web/20181005113454/https://www.nature.com/articles/sdata201618" href="https://www.nature.com/articles/sdata201618" title="The FAIR Guiding Principles for scientific data management and stewardship">FAIR Guiding Principles</a></cite>, 2016, is a set of principles intended to facilitate knowledge discovery and reuse for machines and humans. The elements of the principles include:</p>
+                  <p>The <cite><a data-versiondate="2018-10-05T11:34:54Z" data-versionurl="https://web.archive.org/web/20181005113454/https://www.nature.com/articles/sdata201618" href="https://www.nature.com/articles/sdata201618" title="The FAIR Guiding Principles for scientific data management and stewardship">FAIR Guiding Principles</a></cite>, Wilkinson 2016, is a set of principles to facilitate knowledge discovery and reuse for machines and humans. The FAIR principles are intended to express policy goals, as opposed to a technical prescription to building a data infrastructure and exchange. The elements of the principles include:</p>
 
                   <dl>
                     <dt>Findable</dt>
@@ -739,8 +739,6 @@ How is it changing the landscape?
                     <dt>Reusable</dt>
                     <dd>(Meta)data to optimise the reuse of data with domain-relevant, license, and provenance information.</dd>
                   </dl>
-
-                  <p>The FAIR principles are intended to express policy goals, as opposed to a technical prescription to building a data infrastructure and exchange.</p>
 
                   <p id="cloudy-increasingly-fair"><cite><a data-versiondate="2018-10-08T07:42:51Z" data-versionurl="https://web.archive.org/web/20181008074251/https://content.iospress.com/articles/information-services-and-use/isu824" href="https://content.iospress.com/articles/information-services-and-use/isu824">Cloudy, increasingly FAIR; revisiting the FAIR Data guiding principles for the European Open Science Cloud</a></cite>, Barend, 2017, posits that data are often open but not necessarily FAIR; data could be closed yet perfectly FAIR. FAIR does not directly proscribe data quality, trustworthiness, ethics or responsibility. Hence, conforming with the FAIR principles does not necessarily adhere to the scientific method.</p>
 
