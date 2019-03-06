@@ -1124,7 +1124,7 @@ There are couple of approaches: 1) include a self-contained application in a doc
                     </tfoot>
                   </table>
 
-                  <p>This table shows that dokieli fares well with the FAIR principles. The technical standards and practices that are applied to dokieli fulfill each metric.</p>
+                  <p>This table shows that dokieli fares well with the FAIR principles. The technical standards and practices that are applied to dokieli fulfill each metric. One observation here is that the application of Linked Data principles <q>out-of-the-box</q> consequently scores very high against the FAIR Metrics.</p>
                 </div>
               </section>
             </div>
