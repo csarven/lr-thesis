@@ -685,7 +685,7 @@ document.addEventListener('DOMContentLoaded', function(){
               <section id="social-reviews" inlist="" rel="schema:hasPart" resource="#social-reviews">
                 <h3 property="schema:name">Social Reviews</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>It is possible to use dokieli's create operations as a composite to fulfill social and scholarly activities. One common scenario includes soliciting reviews, reviewing, announcement of the review, and final decisions made by community members. We can combine <a href="#creating-resources">creating resources</a>, <a href="#annotations">annotations</a>, <a href="#sharing-resources">sharing resources</a> in dokieli as follows:</p>
+                  <p>It is possible to use dokieli's create operations as a composite to fulfill social and scholarly activities. One common scenario includes soliciting reviews, reviewing, announcement of the review, and final decisions made by community members. Combining <a href="#creating-resources">creating resources</a>, <a href="#annotations">annotations</a> and <a href="#sharing-resources">sharing resources</a> in dokieli is as follows:</p>
 
                   <ul>
                     <li>Actor A publishes their article at preferred location.</li>
@@ -798,7 +798,7 @@ There are couple of approaches: 1) include a self-contained application in a doc
                                     </svg>
                                 </span>
                             </span> claimed by the <a href="http://worldbank.270a.info/">World Bank Linked Dataspace</a>.
-                            We demonstrate an implementation which allows scientists or authors to easily enhance their work with sparklines generated from their own or public statistical linked datasets. This article includes an active demonstration accessible at <a href="http://csarven.ca/sparqlines-sparql-to-sparkline">http://csarven.ca/sparqlines-sparql-to-sparkline</a>.</p>
+                            I demonstrate an implementation which allows scientists or authors to easily enhance their work with sparklines generated from their own or public statistical linked datasets. This article includes an active demonstration accessible at <a href="http://csarven.ca/sparqlines-sparql-to-sparkline">http://csarven.ca/sparqlines-sparql-to-sparkline</a>.</p>
 
                   <figure id="figure-dokieli-sparqlines" rel="schema:video" resource="#figure-dokieli-sparqlines">
                     <video controls="controls" id="video-dokieli-sparqlines" poster="https://dokie.li/media/images/GDP-per-capita-growth--annual---.svg" preload="none" resource="#figure-dokieli-sparqlines" typeof="schema:VideoObject" width="800">
@@ -1162,7 +1162,7 @@ There are couple of approaches: 1) include a self-contained application in a doc
             <div datatype="rdf:HTML" property="schema:description">
               <p>This section goes into detail about how dokieli fulfills or supports some of the forces and functions in scientific communication.</p>
 
-              <p id="dokieli-forces">As dokieli is employed, we observe the <em>forces</em>:</p>
+              <p id="dokieli-forces">As dokieli is employed, I observe the <em>forces</em>:</p>
 
               <dl>
                 <dt>Actor</dt>
