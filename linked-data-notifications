@@ -1006,7 +1006,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
               <section id="degree-of-control-in-ldn" inlist="" rel="schema:hasPart" resource="#degree-of-control-in-ldn">
                 <h3 property="schema:name">Degree of Control in LDN</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>At the beginning of this section, four requirements relating to <cite><a href="decentralising-scholarly-communication#degree-of-control">degree of control</a></cite> were listed. LDN addresses each of these as follows:</p>
+                  <p>At the beginning of this section, four requirements relating to <cite><a href="decentralising-scholarly-communication#degree-of-control">Degree of Control</a></cite> were listed. LDN addresses each of these as follows:</p>
                   
                   <dl>
                     <dt>Actors can use their preferred applications to discover, reuse, and send notifications</dt>
