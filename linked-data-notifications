@@ -48,7 +48,7 @@
 
               <p>Similarly for a decentralised scholarly Web, notification data should not be locked into particular systems. Data generated from independently built applications should be discoverable and increase their chance for reusability by other applications. Users can choose where to store their notifications as well as using their preferred applications to create, discover, and consume the data.</p>
 
-              <p>The following are core requirements of a notifications protocol in context of <cite><a href="decentralising-scholarly-communication#degree-of-control">degree of control</a></cite> (as in <cite>Decentralised Storage and Interoperable Applications</cite>):</p>
+              <p>The following are core requirements of a notifications protocol in context of <cite><a href="decentralising-scholarly-communication#degree-of-control">Degree of Control</a></cite>:</p>
 
               <ul>
                 <li>Actors can use their preferred applications to discover, reuse, and send notifications.</li>
@@ -1006,7 +1006,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
               <section id="degree-of-control-in-ldn" inlist="" rel="schema:hasPart" resource="#degree-of-control-in-ldn">
                 <h3 property="schema:name">Degree of Control in LDN</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>At the beginning of this section, four requirements relating to user control over data were listed. LDN addresses each of these as follows:</p>
+                  <p>At the beginning of this section, four requirements relating to <cite><a href="decentralising-scholarly-communication#degree-of-control">degree of control</a></cite> were listed. LDN addresses each of these as follows:</p>
                   
                   <dl>
                     <dt>Actors can use their preferred applications to discover, reuse, and send notifications</dt>
