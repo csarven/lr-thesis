@@ -169,7 +169,65 @@
               <section id="http-operations" inlist="" rel="schema:hasPart" resource="#http-operations">
                 <h3 property="schema:name">HTTP Operations</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>dokieli implements the <a href="decentralising-scholarly-communication#crud-http">HTTP based CRUD operations</a> - create, update, and delete - and in particular, conforms to some of the clientside operations expected to communicate with LDP implementations.</p>
+                  <p>dokieli implements the <a href="decentralising-scholarly-communication#crud-http">HTTP based CRUD operations</a> - create, update, and delete - and in particular, conforms to some of the clientside operations expected to communicate with LDP, WAP, AP implementations.</p>
+
+                  <table id="crud-http">
+                    <thead>
+                      <tr>
+                        <th>Method</th>
+                        <th>Resource</th>
+                        <th>Intent</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><code>HTTP GET</code></td>
+                        <td>Any resource</td>
+                        <td>Read</td>
+                      </tr>
+                      <tr>
+                        <td><code>HTTP HEAD</code></td>
+                        <td>Any resource</td>
+                        <td>Read</td>
+                      </tr>
+                      <tr>
+                        <td><code>HTTP OPTIONS</code></td>
+                        <td>Any resource (collection)</td>
+                        <td>Read</td>
+                      </tr>
+                      <tr>
+                        <td><code>HTTP POST</code></td>
+                        <td>Annotation, notification</td>
+                        <td>Create<span class="todo">, Update</span></td>
+                      </tr>
+                      <tr>
+                        <td><code>HTTP PUT</code></td>
+                        <td>Any resource</td>
+                        <td>Create, Update</td>
+                      </tr>
+                      <tr>
+                        <td><code>HTTP PATCH</code></td>
+                        <td>Memento TimeMap, ACL</td>
+                        <td>Create, Update, Delete</td>
+                      </tr>
+                      <tr>
+                        <td><code>HTTP DELETE</code></td>
+                        <td>Any resource</td>
+                        <td>Delete</td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <td colspan="3">
+                          <p>The term <q>collection</q> (as in WA and AP) is used synonymously with <q>container</q> (as in LDP).</p>
+
+                          <p>Any resource pertains to any kind of object identified with HTTP URI eg an article, annotation, inbox and notification, media, scripts, ACL, as well as SPARQL endpoints. Its application depends on context.</p>
+
+                          <p>Retrieve and read HTTP message and body, parse and use relevant information.</p>
+                        </td>
+                      </tr>
+                    </tfoot>
+                  </table>
 
                   <p>Before dokieli makes a write request to a server, it triggers content-negotiation through <code>OPTIONS</code> and checks for <code>Allow</code> and <code>Accept-Post</code> headers in order to determine server's preferences. In the absence of successful negotiation, dokieli proceeds to make the request as per the required parameters of LDN, WAP, AP, and LDN. For example, <code>HTTP POST</code> with <code>application/ld+json</code> content type would be used for annotations and notifications, if a server's preference is not determined.</p>
 
@@ -219,8 +277,8 @@
                 </div>
               </section>
 
-              <section id="creating-resources" inlist="" rel="schema:hasPart" resource="#creating-resources">
-                <h3 property="schema:name">Creating Resources</h3>
+              <section id="cruding-resources" inlist="" rel="schema:hasPart" resource="#crud-resources">
+                <h3 property="schema:name">CRUDing Resources</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>An actor may require to be <a href="#authentication">authenticated</a> and <a href="#acl">authorized</a> with their <a href="#webid">WebID</a> to create Web resources. The table on <a href="#unit-registration-content-dokieli">unit registration and content in dokieli</a> includes the functions in dokieli that requests write-operations to a server for articles, annotations, and notifications. These client-triggered mechanisms and methods applied to creating resources are done with HTTP URIs, and helps fulfill the registration function of scholarly communication.</p>
 
@@ -228,7 +286,8 @@
                     <caption>Unit registration and content in dokieli</caption>
                     <thead>
                       <tr>
-                        <th>Purpose</th>
+                        <th>Action</th>
+                        <th>Method</th>
                         <th>Resource</th>
                         <th>Notification</th>
                       </tr>
@@ -236,75 +295,89 @@
                     <tbody>
                       <tr>
                         <td>New</td>
-                        <td>Actors can create new resources (articles) by inputting the location where they are authorized to. New resources include a HTML+RDFa document (a basic template) with dokieli's JavaScript and CSS.</td>
+                        <td><code>HTTP PUT</code></td>
+                        <td>Actors can create new resources (articles) by inputting the location where they are authorized to. New resources include a HTML+RDFa document (a basic template) with dokieli's JavaScript and CSS. Uses <code>HTTP PUT</code>.</td>
                         <td>None</td>
                       </tr>
                       <tr>
                         <td>Save</td>
-                        <td>Overwrites the current resource with the current state of the resource in user-agent.</td>
+                        <td><code>HTTP PUT</code></td>
+                        <td>Overwrites the current resource with the current state of the resource in user-agent. Uses <code>HTTP PUT</code>.</td>
                         <td>None</td>
                       </tr>
                       <tr>
                         <td>Save As</td>
-                        <td>Actors creates a derived copy of the current resource (with its scripts and media) including provenance information at preferred location. A unique notification inbox and annotation service can be assigned to the derived resource.</td>
+                        <td><code>HTTP PUT</code></td>
+                        <td>Actors creates a derived copy of the current resource (with its scripts and media) including provenance information at preferred location. A unique notification inbox and annotation service can be assigned to the derived resource. Uses <code>HTTP PUT</code>.</td>
                         <td>None</td>
                       </tr>
                       <tr>
                         <td>Reply</td>
+                        <td><code>HTTP POST</code></td>
                         <td>A note reply modelled around <code>oa:Annotation</code> and other data motivated by <a href="#dokieli-replying">replying</a>.</td>
                         <td>Sends and consumes notification using the Activity vocabulary's Announce.</td>
                       </tr>
                       <tr>
                         <td>Annotation</td>
+                        <td><code>HTTP POST</code></td>
                         <td>A note modelled around <code>oa:Annotation</code> and other data.</td>
                         <td>Sends and consumes notifications for activities <code>as:Add</code>, motivated by <a href="#dokieli-bookmarking">bookmarking</a>; <code>as:Announce</code>, motivated by <a href="#dokieli-replying">replying</a>, <a href="#dokieli-questioning">questioning</a>; <code>as:Like</code> and <code>as:Dislike</code> motivated by <a href="#dokieli-assessing">assessing</a>. Can also consume notifications using <code>as:Relationship</code>.</td>
                       </tr>
                       <tr>
                         <td>Activity</td>
+                        <td><code>HTTP POST</code></td>
                         <td>Sends activities about the annotations and encapsulates with Activity vocabulary's Create.</td>
                         <td>None</td>
                       </tr>
                       <tr>
                         <td>Share</td>
                         <td>None</td>
+                        <td>None</td>
                         <td>Sends notification using the Activity vocabulary's Announce about the target resource.</td>
                       </tr>
                       <tr>
                         <td>Citation</td>
+                        <td><code>HTTP GET</code></td>
                         <td>Sends an archival request to the Internet Archive.</td>
                         <td><a href="#notifying-cited-entity">Notifies cited entity</a> about the citing entity's reference and the author's intention for the citation. Consumes notifications about citations.</td>
                       </tr>
                       <tr>
                         <td>Archive</td>
+                        <td><code>HTTP GET</code></td>
                         <td>Sends an archival request to the Internet Archive.</td>
                         <td>None</td>
                       </tr>
                       <tr>
                         <td>Version</td>
+                        <td><code>HTTP PUT</code></td>
                         <td>Generates a derived copy of the current document as a mutable resource including provenance.</td>
                         <td>None</td>
                       </tr>
                       <tr>
                         <td>Immutable</td>
+                        <td><code>HTTP PUT</code></td>
                         <td>Generates a derived copy of the current document as an immutable resource including provenance. Creates or updates a Memento TimeMap including a reference to the immutable resource.</td>
                         <td>None</td>
                       </tr>
                       <tr>
                         <td>Export</td>
+                        <td>None</td>
                         <td>Downloads the document to local system.</td>
                         <td>None</td>
                       </tr>
                     </tbody>
                     <tfoot>
                       <tr>
-                        <td colspan="3">
+                        <td colspan="4">
                           <p>Articles by default are generally modelled to express <code>schema:CreativeWork</code>, <code>sioc:Post</code>, <code>prov:Entity</code>, <code>as:Article</code>.</p>
 
-                          <p>Notifications include information about its actor, notification date, rights and license, as well as information pertaining to the activity that it is in reference to eg. an annotation motivated by replying.</p>
+                          <p>Notifications include information about its actor, notification date, rights and license, as well as information pertaining to the activity that it is in reference to eg. an annotation motivated by replying. All notifications are created through a <code>HTTP POST</code> request.</p>
 
                           <p>The Web Annotation Data Model is used for annotations. An annotation includes information about its author, publication date, rights and license, system that was used to render the target resource (in this case dokieli) for the annotation.</p>
 
-                          <p>Actions such as <em>New</em>, <em>Save</em>, <em>Save As</em>, <em>Reply</em>, <em>Version</em> are intended to create or update mutable resources, whereas <em>Immutable</em> is intended to create an immutable resource. The server ultimately decides whether to promise immutability or Memento based discovery.</p> 
+                          <p>Actions such as <em>New</em>, <em>Save</em>, <em>Save As</em>, <em>Reply</em>, <em>Version</em> are intended to create or update mutable resources, whereas <em>Immutable</em> is intended to create an immutable resource. The server ultimately decides whether to promise immutability or Memento based discovery.</p>
+
+                          <p>The <q>Archive</q> action uses <code>HTTP GET</code> as per Internet Archive's API.</p>
                         </td>
                       </tr>
                     </tfoot>
