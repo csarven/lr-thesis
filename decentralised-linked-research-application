@@ -389,6 +389,8 @@
               <section id="annotations" inlist="" rel="schema:hasPart" resource="#annotations">
                 <h3 property="schema:name">Annotations</h3>
                 <div datatype="rdf:HTML" property="schema:description">
+                  <p>Annotation of artefacts facilitates a social behaviour in that it is a collaborative effort: some actors create primary resources while others create associations between those resources, add new information, or extend existing information. Consequently, such activities help actors to learn, discover or explore new knowledge. Annotations in the marginalia of primary resources for example is considered to be an essential part of having <q>fruitful interaction</q> (<cite><a href=""></a></cite>, Sherman, 2008).</p>
+
                   <p id="dpub-annotation-uc">dokieli implements the following <a href="https://www.w3.org/TR/dpub-annotation-uc/#use-cases">use cases</a> from W3C Interest Group Note, <cite><a data-versiondate="2019-02-14T01:04:56Z" data-versionurl="https://web.archive.org/web/20190214010456/https://www.w3.org/TR/dpub-annotation-uc/" href="https://www.w3.org/TR/dpub-annotation-uc/">Digital Publishing Annotation Use Cases</a></cite>:</p>
 
                   <ul>
@@ -407,7 +409,7 @@
                     <li>2.4.5 Publication (or Part) is not Published Openly</li>
                   </ul>
 
-                  <p>Annotations can be created to associate a node or a selection with a particular user motivation. The annotation can be registered and stored as a unit of information at actor's <a href="#profile-storage">storage</a>, <a href="#profile-index">type index location</a>, <a href="#profile-outbox">outbox</a>, or article's <a href="#subject-annotation-service">annotation service</a>. The users can provide a text note for their annotations, assign a <a href="#license">license</a>, as well as designate an <a href="#subject-inbox">inbox</a> for their annotation, so that it can receive its own notifications. The Table on WA motivations includes the method applied, location of the annotation, and associated notification.</p>
+                  <p>A Web Annotation can be created to associate a node or a selection with a particular user motivation. The annotation can be registered and stored as a unit of information at actor's <a href="#profile-storage">storage</a>, <a href="#profile-index">type index location</a>, <a href="#profile-outbox">outbox</a>, or article's <a href="#subject-annotation-service">annotation service</a>. The users can provide a text note for their annotations, assign a <a href="#license">license</a>, as well as designate an <a href="#subject-inbox">inbox</a> for their annotation, so that it can receive its own notifications. The Table on WA motivations includes the method applied, location of the annotation, and associated notification.</p>
 
                   <table>
                     <caption>Implementation of Web Annotation motivations and notifications in dokieli</caption>
