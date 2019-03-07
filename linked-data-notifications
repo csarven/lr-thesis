@@ -311,8 +311,8 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 
                       <ol>
                         <li>A consumer selects a target and discovers the location of its Inbox in the same way as the sender;</li>
-                        <li>A receiver responds to <code>GET</code> requests made to the Inbox URL with a listing of the URLs of notifications that have previously been accepted, linked to the Inbox with the <code>ldp:contains</code> predicate;</li>
-                        <li>The receiver responds to <code>GET</code> requests made to the individual notification URLs with JSON-LD (or optionally other serialisations);</li>
+                        <li>A receiver responds to <code>HTTP GET</code> requests made to the Inbox URL with a listing of the URLs of notifications that have previously been accepted, linked to the Inbox with the <code>ldp:contains</code> predicate;</li>
+                        <li>The receiver responds to <code>HTTP GET</code> requests made to the individual notification URLs with JSON-LD (or optionally other serialisations);</li>
                         <li>Following the retrieval of notification listings or individual notifications, the consumer may perform further processing, combine with some other data, or simply present the results in a suitable human-readable way.</li>
                       </ol>
                     </div>
@@ -337,7 +337,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 
                   <p>To some extent, JSON-LD is compatible with existing JSON libraries or in some cases native programming language data structures. For example, Web browsers have a built-in interpreter for JavaScript that can handle JSON objects, that can take advantage of native object operations. Same data processing and manipulation operations are also available in a Node.js environment. Having said that, JSON-LD is intended to be processed as an RDF notation, as opposed to plain JSON. Hence, JSON-LD is just one convenience to certain kinds of environments that the application is confined to. JSON-LD is also advantageous in being familiar for developers who are <cite><a href="http://manu.sporny.org/2014/json-ld-origins-2/">used to JSON-based APIs but not RDF</a></cite>.</p>
 
-                  <p><strong>Content-negotiation</strong>: Optionally, applications may attempt to exchange different RDF serialisations by performing <strong>content negotiation</strong>. As in compliance with HTTP and REST principles, a sender may make an <code>OPTIONS</code> request to the receiver to determine the RDF content types accepted by the server. A receiver can expose <code>Accept-Post</code> headers for senders, and so the sender can serialize the notification in the request body accordingly. Consumers can send <code>Accept</code> headers to receivers to signal which RDF content types they prefer and capable of processing.</p>
+                  <p><strong>Content-negotiation</strong>: Optionally, applications may attempt to exchange different RDF serialisations by performing <strong>content negotiation</strong>. As in compliance with HTTP and REST principles, a sender may make an <code>HTTP OPTIONS</code> request to the receiver to determine the RDF content types accepted by the server. A receiver can expose <code>Accept-Post</code> headers for senders, and so the sender can serialize the notification in the request body accordingly. Consumers can send <code>Accept</code> headers to receivers to signal which RDF content types they prefer and capable of processing.</p>
 
                   <p>By mandating one RDF syntax (JSON-LD) for applications to communicate with, as well as permitting other syntaxes to discover and exchange notifications, compatibility across applications is assured.</p>
                 </div>
@@ -379,7 +379,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 <code>  "@id": "http://csarven.ca/#i",</code>
 <code>  "inbox": "http://csarven.ca/inbox/"</code>
 <code>}</code></pre>
-                    <figcaption>Discovering an Inbox with a <code>GET</code> request to retrieve JSON-LD. Response in JSON-LD compact form.</figcaption>
+                    <figcaption>Discovering an Inbox with a <code>HTTP GET</code> request to retrieve JSON-LD. Response in JSON-LD compact form.</figcaption>
                   </figure>
 
                   <p>Consumer requesting the inbox and receiver's response:</p>
@@ -402,7 +402,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 <code>    "http://example.org/inbox/92d72f00"</code>
 <code>  ]</code>
 <code>}</code></pre>
-                    <figcaption>Receiver responding to a <code>GET</code> request on the Inbox with a listing of notifications.</figcaption>
+                    <figcaption>Receiver responding to a <code>HTTP GET</code> request on the Inbox with a listing of notifications.</figcaption>
                   </figure>
 
 
@@ -523,7 +523,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 
               <p>The services are decoupled; that is, an implementer may generate their report independently of the test suite, and submit it vial the standard LDN protocol. Furthermore, projects can implement their own consumers and reuse the report data generated by the test suite directly, for example to demonstrate to potential users their conformance to the LDN specification.</p>
 
-              <p>All reports have their own URLs, and a human-readable representation in HTML+RDFa, in addition to JSON-LD or other RDF syntax per <code>OPTIONS</code> and <code>Accept-Post</code> negotiation at this particular test server. See for example <cite><a href="https://dokie.li/" rel="cito:citesAsEvidence">dokieli</a></cite>’s <a href="https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753" rel="cito:citesAsEvidence">implementation report and test results</a> as a sender. This provides the human-visible information, eg. what was tested and the results also in machine-readable form. The report can be seen as a dataset composed of observations based on the structure that was specified in the specification. Hence, each test report is a <code>qb:DataSet</code> (and generally equivalent in <code>as:Object</code>) where its <code>qb:structure</code> refers to <code>https://www.w3.org/TR/ldn/#data-structure-definition</code>. The dataset has <code>as:published</code> and <code>as:actor</code> for the agent that initiated the test and generated the report. The report may be accompanied with an additional <code>as:summary</code>. An example report at <a class="highlight-observation-url" href="https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753">https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753</a> has the following core information:</p>
+              <p>All reports have their own URLs, and a human-readable representation in HTML+RDFa, in addition to JSON-LD or other RDF syntax per <code>HTTP OPTIONS</code> and <code>Accept-Post</code> negotiation at this particular test server. See for example <cite><a href="https://dokie.li/" rel="cito:citesAsEvidence">dokieli</a></cite>’s <a href="https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753" rel="cito:citesAsEvidence">implementation report and test results</a> as a sender. This provides the human-visible information, eg. what was tested and the results also in machine-readable form. The report can be seen as a dataset composed of observations based on the structure that was specified in the specification. Hence, each test report is a <code>qb:DataSet</code> (and generally equivalent in <code>as:Object</code>) where its <code>qb:structure</code> refers to <code>https://www.w3.org/TR/ldn/#data-structure-definition</code>. The dataset has <code>as:published</code> and <code>as:actor</code> for the agent that initiated the test and generated the report. The report may be accompanied with an additional <code>as:summary</code>. An example report at <a class="highlight-observation-url" href="https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753">https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753</a> has the following core information:</p>
 
               <figure class="listing" id="code-ldn-test-report" rel="schema:hasPart" resource="#code-ldn-test-report">
                 <pre about="#code-ldn-test-report" lang="" property="schema:description" typeof="fabio:Script" xml:lang=""><code id="code-ldn-test-report-1">&lt;&gt;</code>
