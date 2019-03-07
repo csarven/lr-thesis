@@ -23,6 +23,24 @@
 
           <p>This thesis postulates that knowledge creators can demonstrate that self-publishing different units of communication can be socially, technically, and financially preferable to a third-party's handling of the same information and interactions, as well as their reuse. <q>Control yourself</q> captures the idea that autonomous, decentralised participation in the scholarly ecosystem is possible and desirable. Web technologies enable universal accessibility of units of information that are human- and machine-readable, as well as the possibility to integrate social interactions with scholarly information.</p>
 
+          <section id="findings" rel="schema:hasPart" resource="#findings">
+            <h2 property="schema:name">Findings</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+            </div>
+          </section>
+
+          <section id="conclusion" rel="schema:hasPart" resource="#conclusion">
+            <h2 property="schema:name">Conclusion</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+            </div>
+          </section>
+
+          <section id="perspectives" rel="schema:hasPart" resource="#perspectives">
+            <h2 property="schema:name">Perspectives</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+            </div>
+          </section>
+
           <section id="objectivity-value-judgment-and-theory-choice" inlist="" rel="schema:hasPart" resource="#objectivity-value-judgment-and-theory-choice">
             <h2 property="schema:name">Objectivity, Value Judgment, and Theory Choice</h2>
             <div datatype="rdf:HTML" property="schema:description">

@@ -68,14 +68,6 @@
     <p>As we embrace the Web as the medium for LR, we consider that interconnectivity of scholarly work can be improved foremost through the Linked Data stack. The initiative to use the [Semantic] Web to its full potential for scholarly activities is nothing new. The LR approach is however timely in the sense that a substantial number of fundamental Web standards have matured to interact with the paradigm shift in scholarly communication, but we find that to meet some of these principles we have to still develop new standards and tools.</p>
 -->
 
-<!-- CONTEXT: Why the need is so pressing or important     -->
-<!-- NEED: Why something needed to be done at all          -->
-<!-- TASK: What was undertaken to address the need         -->
-<!-- OBJECT: What the present document does or covers      -->
-<!-- FINDINGS: What the work done yielded or revealed      -->
-<!-- CONCLUSION :What the findings mean for the audience   -->
-<!-- PERSPECTIVES: What the future holds, beyond this work -->
-
           <section id="context" rel="schema:hasPart" resource="#context">
             <h2 property="schema:name">Context</h2>
             <div datatype="rdf:HTML" property="schema:description">
@@ -117,24 +109,6 @@
 
           <section id="object" rel="schema:hasPart" resource="#object">
             <h2 property="schema:name">Object</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-            </div>
-          </section>
-
-          <section id="findings" rel="schema:hasPart" resource="#findings">
-            <h2 property="schema:name">Findings</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-            </div>
-          </section>
-
-          <section id="conclusion" rel="schema:hasPart" resource="#conclusion">
-            <h2 property="schema:name">Conclusion</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-            </div>
-          </section>
-
-          <section id="perspectives" rel="schema:hasPart" resource="#perspectives">
-            <h2 property="schema:name">Perspectives</h2>
             <div datatype="rdf:HTML" property="schema:description">
             </div>
           </section>
@@ -243,13 +217,7 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
   <section id="assumptions" inlist="" rel="schema:hasPart" resource="#assumptions">
     <h2 property="schema:name">Assumptions</h2>
     <div datatype="rdf:HTML" property="schema:description">
-      <p>At many times in this thesis it may appear that I am taking an idealist stance with regards to the motivations of academics, but certainly many (perhaps even most) academic researchers are motivated to some extent by personal gain, whether that is career advancement, prestige, input or influence to society, or financial gain. All of these aspects are part of the "social machine" of scholarly communication, and are explored in [the various appropriate chapters].</p>
-
-      <p>As for the technical machinery, an assumption is that researchers want to share their articles and artefacts in good faith, with other researchers and the public at large. Nevertheless, we're always aware that at all times there are other social factors at play which may need to be addressed in combination with the technical solutions.</p>
-
-      <p>Average case of single third-party doing it may be more efficient or less risky than a group of individuals doing the same thing...</p>
-
-      <p>"it is reasonable (in the absence of convincing argument to the contrary)"</p>
+      <p>At many times in this thesis it may appear that I am taking an idealist stance with regards to the motivations of academics, but certainly many (perhaps even most) academic researchers are motivated to some extent personally, whether that is with goal to take part in advancing knowledge, society or life, career advancement, earn prestige, or financial gain. All of these aspects are part of the "social machine" of scholarly communication, and are explored in the various appropriate sections. As for the technical machinery, an assumption is that researchers want to share their work and contributions in good faith with other researchers and the public at large.</p>
     </div>
   </section>
 
@@ -391,9 +359,7 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
                     <dd><a href="http://www.w3.org/1999/xhtml/vocab">http://www.w3.org/1999/xhtml/vocab#</a></dd>
                   </dl>
 
-                  <p>I use the terms "thesis" and "article" interchangeably to refer to the work here. I use the term "section" for significant content grouping. I have refrained from using terms that are closely associated with the paper medium, so for example, there are no "chapters" in this article, just "sections".</p>
-
-                  <p>I deliberately avoid convention with "e.g." and "i.e." abbreviations because I think "eg." and "ie." requires less cognitive effort, and less pretentious.</p>
+                  <p>I use the terms "thesis" and "article" interchangeably to refer to the work here. I use the term "section" for significant content grouping. I have refrained from using terms that are closely associated with the print media, so for example, there are no "chapters" in this article, just "sections" or the collection of identifiable and accessible resources.</p>
                 </div>
               </section>
             </div>
