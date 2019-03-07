@@ -240,22 +240,20 @@ add figures to help
 
                   <p>In <cite><a href="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">Objectivity, Value Judgment, and Theory Choice</a></cite>, Kuhn, 1973, sets out five characteristics as a basis to explain which paradigms and methods have been adopted in the past, or may be considered for adoption in the future:</p>
 
-                  <dl class="todo">
+                  <dl>
                     <dt>Accuracy</dt>
-                    <dd></dd>
+                    <dd>Significant application of quantitative and qualitative agreements in a domain.</dd>
                     <dt>Consistency</dt>
-                    <dd></dd>
+                    <dd>Internal and external consistency in relation to related theories.</dd>
                     <dt>Scope</dt>
-                    <dd></dd>
+                    <dd>Coverage and consequences of theories in what they can explain.</dd>
                     <dt>Simplicity</dt>
-                    <dd></dd>
+                    <dd>Computational labour required for explanations.</dd>
                     <dt>Fruitfulness</dt>
-                    <dd></dd>
+                    <dd>Explaining previously unnoted relationships or potential to disclose new phenomenon.</dd>
                   </dl>
 
-                  <p>Kuhn reasoned that progress in science was about the notion of moving away from less adequate concepts of and interactions with the world in favour of more <em>fruitful</em>. Progress was not a mere line leading to truth.</p>
-
-                  <p>As to which paradigm can be objectively determined to be better, Kuhn argued that scientists' decision was ultimately inter-subjective and required value judgement because paradigms - the ideas and assertions within - were not necessarily directly comparable. For example, early versions of the heliocentric model proposed by Copernicus in <cite><a href="https://en.wikipedia.org/wiki/Commentariolus">Commentariolus</a></cite> (1514), as well as the matured version in <cite lang="la" xml:lang="la"><a href="https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium">De revolutionibus orbium coelestium</a></cite> (1543) was neither quantitatively or qualitatively more accurate than Ptolemy's <cite><a href="https://en.wikipedia.org/wiki/Geocentric_model">geocentric model</a></cite> (c. 2nd century CE) based on the knowledge and instruments available at the time. While they were equally internally consistent, geocentrism was regarded to be more consistent with the other accepted theories and doctrines in comparison. Copernicus' case however offered a simpler explanation and broader scope of application. These were attractive characteristics for Kepler and Galileo when they came to investigate. With Newton's laws for motion and gravitation, the heliocentric model matured enough to set a new course for science and research.</p>
+                  <p>Kuhn reasoned that progress in science was not a mere line leading to truth, but the notion of moving away from less adequate concepts of and interactions with the world in favour of more <em>fruitful</em>. As to which paradigm can be objectively determined to be better, Kuhn argued that scientists' decision was ultimately inter-subjective and required value judgement because paradigms - the ideas and assertions within - were not necessarily directly comparable. For example, early versions of the heliocentric model proposed by Copernicus in <cite><a href="https://en.wikipedia.org/wiki/Commentariolus">Commentariolus</a></cite> (1514), as well as the matured version in <cite lang="la" xml:lang="la"><a href="https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium">De revolutionibus orbium coelestium</a></cite> (1543) was neither quantitatively or qualitatively more accurate than Ptolemy's <cite><a href="https://en.wikipedia.org/wiki/Geocentric_model">geocentric model</a></cite> (c. 2nd century CE) based on the knowledge and instruments available at the time. While they were equally internally consistent, geocentrism was regarded to be more consistent with the other accepted theories and doctrines in comparison. Copernicus' case however offered a simpler explanation and broader scope of application. These were attractive characteristics for Kepler and Galileo when they came to investigate. With Newton's laws for motion and gravitation, the heliocentric model matured enough to set a new course for science and research.</p>
 
                   <p>Another example demonstrating the complexity of choosing a theory was from the perspective of language and communication. For instance, the term "mass" has radically different meanings in Newton's theory of gravity and Einstein's relativity theory because the definitions are isolated to their respective paradigms. However, General Relativity gave a new lens towards understanding the interaction of mass in space-time. While the definition for mass changed, Einstein's theory was still able to precisely predict Newton's theory, and further provided an explanation for how gravity worked.</p>
 
