@@ -1274,9 +1274,8 @@ There are couple of approaches: 1) include a self-contained application in a doc
               <p class="todo">History.. nothing new here? Amaya.. Annotea</p>
               <p><cite><a data-versiondate="2018-09-20T15:50:46Z" data-versionurl="https://web.archive.org/web/20180920155046/https://www.southampton.ac.uk/~harnad/Papers/Harnad/harnad95.interactive.cognition.html" href="https://www.southampton.ac.uk/~harnad/Papers/Harnad/harnad95.interactive.cognition.html">Interactive Cognition: Exploring the Potential of Electronic Quote/Commenting</a></cite></p>
 
-              <p>I contend that dokieli is a <a href="decentralising-scholarly-communication#socially-aware-read-write-linked-data">socially-aware read-write Linked Data</a> application.</p>
+              <p>dokieli is composed of use cases that are realised through a collection of open Web standards. I contend that dokieli is a <a href="decentralising-scholarly-communication#socially-aware-read-write-linked-data">socially-aware read-write Linked Data</a> application. It demonstrates how decentralised units of communication can be co-created and used by actors and applications.</p>
 
-              <p>The Web resources that dokieli creates can be accessed by many <em>web agents</em>. It is possible for the web agents to discover and use all sorts of semantically connected things on their own accord.</p>
 
               <section id="web-publishing-systems" inlist="" rel="schema:hasPart" resource="#web-publishing-systems">
                 <h3 property="schema:name">Web Publishing Systems</h3>

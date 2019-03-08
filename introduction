@@ -132,6 +132,11 @@
   <section id="research-questions" inlist="" rel="schema:hasPart" resource="#research-questions">
     <h2 property="schema:name">Research Questions</h2>
     <div datatype="rdf:HTML" property="schema:description">
+* characterisation of scholarly communication in context of the Web
+* devising a decentralised model for scholarly communication
+* human and machine-readable representation for units of communication and interactions
+
+
       <pre>What can scholarly communication achieve when we study and celebrate maximum innovation?
 
   How can we improve the scholarly communication process on the Web?
@@ -212,16 +217,11 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
   <p>Mention what's out of scope? Non Web-native protocols/standards eg blockchain, transformation/extraction workflows, search/find, ontology/vocabulary for units of information, profile creation/editing, storage/server mechanisms, filtering articles</p>
 
 
-  <section id="assumptions" inlist="" rel="schema:hasPart" resource="#assumptions">
-    <h2 property="schema:name">Assumptions</h2>
-    <div datatype="rdf:HTML" property="schema:description">
-      <p>At many times in this thesis it may appear that I am taking an idealist stance with regards to the motivations of academics, but certainly many (perhaps even most) academic researchers are motivated to some extent personally, whether that is with goal to take part in advancing knowledge, society or life, career advancement, earn prestige, or financial gain. All of these aspects are part of the "social machine" of scholarly communication, and are explored in the various appropriate sections. As for the technical machinery, an assumption is that researchers want to share their work and contributions in good faith with other researchers and the public at large.</p>
-    </div>
-  </section>
-
           <section id="thesis-overview" inlist="" rel="schema:hasPart" resource="#thesis-overview">
             <h2 property="schema:name">Thesis Overview</h2>
             <div datatype="rdf:HTML" property="schema:description">
+
+
               <pre>
 * Structure (what's ahead and why)
 * Show diagram of the area of research eg. forces and functions of knowledge, and place the contributions in that diagram [dokieli: content, accessibility, registration, archiving; LDN: registration, awareness]
@@ -231,13 +231,30 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
               <section id="contributions" inlist="" rel="schema:hasPart" resource="#contributions">
                 <h3 property="schema:name">Contributions</h3>
                 <div datatype="rdf:HTML" property="schema:description" typeof="deo:Contribution">
-                  <p>The contributions of the underlying work addresses how an ensemble of standards pertaining to communication and information exchange can be used to enable autonomous, accessible, interpretable, and social scholarly communication on the Web. The explanations and the developments propose a way in which individuals - researchers in particular - can be autonomous and cooperative entities when exchanging their discoveries, knowledge, and innovation. </p>
+                  <p>The contributions of the underlying work addresses how an ensemble of standards pertaining to communication and information exchange can be used to enable autonomous, accessible, interpretable, and social scholarly communication on the Web. The explanations and the developments propose a way in which individuals - researchers in particular - can be autonomous and cooperative entities when exchanging their discoveries, knowledge, and innovation.</p>
 
                   <figure>
                     <figcaption>This Thesis is a Knowledge Graph</figcaption>
                   </figure>
 
-                  <p>* Main Contributions (method, implementation, concept, .. standards)</p>
+                  <p>This thesis is composed of the following topics:</p>
+
+                  <dl>
+                    <dt><cite><a href="scholarly-communication-on-the-web">Scholarly Communication on the Web</a></cite></dt>
+                    <dd>How can we make use of our understanding of technological communication mediums and scientific paradigm shifts? What is the cross section of the architecture of the Web, Web Science and scholarly communication? What are desirable effects and artefacts for a Web-centric scholarly communication? What are the interplay of forces and functions in scientific communication on the Web?</dd>
+                    <dt><cite><a href="structure-of-scholarly-information">Structure of Scholarly Information</a></cite></dt>
+                    <dd>What are some of the structures and semantics of units of scholarly communication on the Web? How can human and machine-readable representations be expressed and used?</dd>
+                    <dt><cite><a href="decentralising-scholarly-communication">Decentralising Scholarly Communication</a></cite></dt>
+                    <dd>Why is there a need to research, design and use decentralised systems? What are the elements and degrees of control? What are the characteristics of a decentralised system in context of the interplay of forces and functions in scientific communication?</dd>
+                    <dt><cite><a href="linked-data-notifications">Linked Data Notifications</a></cite></dt>
+                    <dd>What are the requirements of a decentralised notifications protocol? How can the awareness function be fulfilled for use cases in research and academic communication?</dd>
+                    <dt><cite><a href="decentralised-linked-research-application">Decentralised Linked Research Application</a></cite></dt>
+                    <dd>What is the information space like for decentralised and linked notifications, annotations, and profiles? How can actors maximise their degree of control of URI ownership, data, and the applications they used? How can a general-purpose clientside application for decentralised article publishing, annotations, and social interactions be realised?</dd>
+                    <dt><cite><a href="linked-research">Linked Research</a></cite></dt>
+                    <dd>Why are the principles of autonomy, universal access, human and machine-interpretable and social relevant to enabling and empowering the actors in research and academic communication?</dd>
+                  </dl>
+
+                  <p>In <cite><a href="conclusions">Conclusions</a></cite>, I will connect and discuss all findings, meaning, and perspectives for the future.</p>
                 </div>
               </section>
 
@@ -280,10 +297,10 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
                 </div>
               </section>
 
-              <section id="how-to-read-this-article" inlist="" rel="schema:hasPart" resource="#how-to-read-this-article">
-                <h3 property="schema:name">How to Read This Article</h3>
-                <div data="rdf:HTML" property="schema:description">
-                  <p rel="cito:parodies" resource="https://web.archive.org/web/20181027125108/https://html.spec.whatwg.org/multipage/introduction.html#how-to-read-this-specification">This article should be read like all other articles. First, it should be read cover-to-cover, multiple times. Then, it should be read backwards at least once. Then it should be read by picking random sections from the contents list and following all the cross-references.</p>
+              <section id="assumptions" inlist="" rel="schema:hasPart" resource="#assumptions">
+                <h3 property="schema:name">Assumptions</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>At many times in this thesis it may appear that I am taking an idealist stance with regards to the motivations of academics, but certainly many (perhaps even most) academic researchers are motivated to some extent personally, whether that is with goal to take part in advancing collective knowledge, society and life, career advancement, prestige, or financial gain. All of these aspects are part of the "social machine" of scholarly communication, and are explored in the various appropriate sections. As for the technical machinery, I assume that researchers want to share their work and contributions in good faith with other researchers and the public at large.</p>
                 </div>
               </section>
 
@@ -364,6 +381,13 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
                   </dl>
 
                   <p>I use the terms "thesis" and "article" interchangeably to refer to the work here. I use the term "section" for significant content grouping. I have refrained from using terms that are closely associated with the print media, so for example, there are no "chapters" in this article, just "sections" or the collection of identifiable and accessible resources.</p>
+                </div>
+              </section>
+
+              <section id="how-to-read-this-article" inlist="" rel="schema:hasPart" resource="#how-to-read-this-article">
+                <h3 property="schema:name">How to Read This Article</h3>
+                <div data="rdf:HTML" property="schema:description">
+                  <p rel="cito:parodies" resource="https://web.archive.org/web/20181027125108/https://html.spec.whatwg.org/multipage/introduction.html#how-to-read-this-specification">This article should be read like all other articles. First, it should be read cover-to-cover, multiple times. Then, it should be read backwards at least once. Then it should be read by picking random sections from the contents list and following all the cross-references.</p>
                 </div>
               </section>
             </div>
