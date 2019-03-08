@@ -40,8 +40,6 @@
 
           <p id="information-society">The term <q><a href="https://en.wikipedia.org/wiki/Information_society">information society</a></q> is used to loosely denote increasingly central role of information and communication technologies in social and economic activity. With the advent of the Internet and the Web, the production, distribution, and consumption of instantaneously accessible networked knowledge has further shaped social policies and practices around the world.</p>
 
-          <p>The core message of this thesis is that we can apply the lessons from the history of human communication shifts towards answering research questions and the challenges in advancing scholarly communication on the Web. The explanations and the developments propose a way in which the society; and scholars in particular, can be autonomous actors when exchanging their discoveries, knowledge, and innovation. The contributions use the Web architecture and its affordances towards the progress of scholarly communication on the Web that is autonomous, accessible, interpretable, and social.</p>
-
           <p>This article is about the advancement of intellectual communication using the Web environment. The underlying work is presented with the backdrop of history of information exchange in context of available communication mediums. We will soon discuss the past human endeavours towards enlightenment in order to orient ourselves with the current affairs in scholarly communication. We will then seek the fundamental differences in intellectual communities in the pursuit of knowledge. Understanding the structures and frameworks of these (meta)physical societies enables us to rationalise their qualities, as well as quantify their constraints and limitations. As we analyse the current state of scholarly communication as part of a global sociotechnical system, our research questions and answers address the challenges and opportunities offered by new media and technologies, alongside efficient (re)use of digital resources for different types of agents. The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.</p>
 
           <hr />
@@ -233,6 +231,12 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
               <section id="contributions" inlist="" rel="schema:hasPart" resource="#contributions">
                 <h3 property="schema:name">Contributions</h3>
                 <div datatype="rdf:HTML" property="schema:description" typeof="deo:Contribution">
+                  <p>The contributions of the underlying work addresses how an ensemble of standards pertaining to communication and information exchange can be used to enable autonomous, accessible, interpretable, and social scholarly communication on the Web. The explanations and the developments propose a way in which individuals - researchers in particular - can be autonomous and cooperative entities when exchanging their discoveries, knowledge, and innovation. </p>
+
+                  <figure>
+                    <figcaption>This Thesis is a Knowledge Graph</figcaption>
+                  </figure>
+
                   <p>* Main Contributions (method, implementation, concept, .. standards)</p>
                 </div>
               </section>
