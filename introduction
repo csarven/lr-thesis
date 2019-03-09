@@ -42,18 +42,19 @@
             <h2 property="schema:name">Motivation</h2>
             <div datatype="rdf:HTML" property="schame:description">
               <p>What's my motivation?</p>
+
+              <p id="information-society">The term <q><a href="https://en.wikipedia.org/wiki/Information_society">information society</a></q> is used to loosely denote increasingly central role of information and communication technologies in social and economic activity. With the advent of the Internet and the Web, the production, distribution, and consumption of instantaneously accessible networked knowledge has further shaped social policies and practices around the world.</p>
+
+              <p>This article is about the advancement of intellectual communication using the Web environment. The underlying work is presented with the backdrop of history of information exchange in context of available communication mediums. We will soon discuss the past human endeavours towards enlightenment in order to orient ourselves with the current affairs in scholarly communication. We will then seek the fundamental differences in intellectual communities in the pursuit of knowledge. Understanding the structures and frameworks of these (meta)physical societies enables us to rationalise their qualities, as well as quantify their constraints and limitations. As we analyse the current state of scholarly communication as part of a global sociotechnical system, our research questions and answers address the challenges and opportunities offered by new media and technologies, alongside efficient (re)use of digital resources for different types of agents. The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.</p>
+
+
+              <p><strong>Assumptions</strong>: At many times in this thesis it may appear that I am taking an idealist stance with regards to the motivations of academics, but certainly many (perhaps even most) academic researchers are motivated to some extent personally, whether that is with goal to take part in advancing collective knowledge, society and life, career advancement, prestige, or financial gain. All of these aspects are part of the "social machine" of scholarly communication, and are explored in the various appropriate sections. As for the technical machinery, I assume that researchers want to share their work and contributions in good faith with other researchers and the public at large.</p>
             </div>
           </section>
 
           <section id="context" inlist="" rel="schema:hasPart" resource="#context">
             <h2 property="schema:name">Context</h2>
             <div datatype="rdf:HTML" property="schame:description">
-              <p id="information-society">The term <q><a href="https://en.wikipedia.org/wiki/Information_society">information society</a></q> is used to loosely denote increasingly central role of information and communication technologies in social and economic activity. With the advent of the Internet and the Web, the production, distribution, and consumption of instantaneously accessible networked knowledge has further shaped social policies and practices around the world.</p>
-
-              <p>This article is about the advancement of intellectual communication using the Web environment. The underlying work is presented with the backdrop of history of information exchange in context of available communication mediums. We will soon discuss the past human endeavours towards enlightenment in order to orient ourselves with the current affairs in scholarly communication. We will then seek the fundamental differences in intellectual communities in the pursuit of knowledge. Understanding the structures and frameworks of these (meta)physical societies enables us to rationalise their qualities, as well as quantify their constraints and limitations. As we analyse the current state of scholarly communication as part of a global sociotechnical system, our research questions and answers address the challenges and opportunities offered by new media and technologies, alongside efficient (re)use of digital resources for different types of agents. The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.</p>
-
-              <hr />
-
               <p>In <cite><a href="http://www.worldcat.org/oclc/611804138">The Printing Press as an Agent of Change</a></cite>, 1979, <a href="https://en.wikipedia.org/wiki/Elizabeth_Eisenstein">Elizabeth Eisenstein</a> traces the impact of the communications revolution on a variety of sociocultural movements that shaped the modern mind that started by the invention of the printing press developed by Johannes Gutenberg (circa 1439). Eisenstein demonstrates that the printing press, as a technological innovation, was a potent force in the evolution of social systems, as well as a communication technology which intensified the evolutionary process in the storage and dissemination of information and data. Perhaps more generally, Eisenstein explains how <q>printing altered <em>written communications within the Commonwealth of Learning</em></q>, p. xiv.</p>
 
               <p>With the growing power of the printing press since the 15th century, and sufficiently large international readers across Europe, the mass production and distribution of printed material gave rise to the formation of intellectuals as a distinct and independent social class. The long-distance, international, and private correspondence network between the literary figures formed the basis for the concepts, <cite>Commonwealth of Learning</cite>; vernacular science-writing in Latin aimed at non-academic readers, as well as aiding the literary <q>underground</q> trade among researchers to propel theories and data collection, and the <cite><a href="https://en.wikipedia.org/wiki/Republic_of_Letters">Republic of Letters</a></cite> (<abbr title="Republic of Letters">RoL</abbr>) - used interchangeably with <q>men of letters</q> and <q>literati</q>, derived from the French term <q lang="fr" xml:lang="fr">homme de lettres</q> - refers to a metaphysical <em>literary</em> society that produced and had access to substantial (non)scientific knowledge in Europe and America in the 17th century, p. 136-139.</p>
@@ -223,7 +224,7 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
                     <figcaption>This Thesis is a Knowledge Graph</figcaption>
                   </figure>
 
-                  <p>Background, context, and observations  composed of the following topics:</p>
+                  <p>This thesis is composed of the following topics:</p>
 
                   <dl>
                     <dt><cite><a href="scholarly-communication-on-the-web">Scholarly Communication on the Web</a></cite></dt>
@@ -277,16 +278,9 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
                     <li>Referencing information that is legally made available to the public (to the best of my knowledge!)</li>
                   </ul>
 
-                  <p><strong>Organisation</strong>: Historical and conceptual formats were used as organisation schemes. The primary background and related work in chapters and sections within <a href="scholarly-communication-on-the-web">scholarly-communication-on-the-web</a>, <a href="structure-of-scholarly-information">structure-of-scholarly-information</a>, and <a href="decentralising-scholarly-communication">decentralising-scholarly-communication</a>, are first organised conceptually, and then chronologically ordered.</p>
+                  <p><strong>Organisation</strong>: Historical and conceptual formats were used as organisation schemes. My observations and categorisations are in <a href="scholarly-communication-on-the-web">Scholarly Communication on the Web</a>, <a href="structure-of-scholarly-information">Structure of Scholarly Information</a> and <a href="decentralising-scholarly-communication">Decentralising Scholarly Communication</a>, and are first organised conceptually, and then chronologically ordered.</p>
 
                   <p><strong>Audience</strong>: for anyone interested in traversing the connections and building on the underlying results.</p>
-                </div>
-              </section>
-
-              <section id="assumptions" inlist="" rel="schema:hasPart" resource="#assumptions">
-                <h3 property="schema:name">Assumptions</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>At many times in this thesis it may appear that I am taking an idealist stance with regards to the motivations of academics, but certainly many (perhaps even most) academic researchers are motivated to some extent personally, whether that is with goal to take part in advancing collective knowledge, society and life, career advancement, prestige, or financial gain. All of these aspects are part of the "social machine" of scholarly communication, and are explored in the various appropriate sections. As for the technical machinery, I assume that researchers want to share their work and contributions in good faith with other researchers and the public at large.</p>
                 </div>
               </section>
 
