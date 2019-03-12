@@ -41,14 +41,12 @@
           <section id="motivation" inlist="" rel="schema:hasPart" resource="#motivation">
             <h2 property="schema:name">Motivation</h2>
             <div datatype="rdf:HTML" property="schame:description">
-              <p>What's my motivation? What's my story?</p>
+              <p>What's my motivation? What's my story? There is a problem people care about. I have an approach that gives a piece of the solution. Gather around folks..</p>
 
-              <p id="information-society">The term <q><a href="https://en.wikipedia.org/wiki/Information_society">information society</a></q> is used to loosely denote increasingly central role of information and communication technologies in social and economic activity. With the advent of the Internet and the Web, the production, distribution, and consumption of instantaneously accessible networked knowledge has further shaped social policies and practices around the world.</p>
-
-              <p>This article is about the advancement of intellectual communication using the Web environment. The underlying work is presented with the backdrop of history of information exchange in context of available communication mediums. We will soon discuss the past human endeavours towards enlightenment in order to orient ourselves with the current affairs in scholarly communication. We will then seek the fundamental differences in intellectual communities in the pursuit of knowledge. Understanding the structures and frameworks of these (meta)physical societies enables us to rationalise their qualities, as well as quantify their constraints and limitations. As we analyse the current state of scholarly communication as part of a global sociotechnical system, our research questions and answers address the challenges and opportunities offered by new media and technologies, alongside efficient (re)use of digital resources for different types of agents. The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.</p>
+              <p id="information-society">I live in an <q><a href="https://en.wikipedia.org/wiki/Information_society">information society</a></q> that uses variety of media to communicate and advance social activities. The Web has shaped social policies and practices around the world. It has also influenced in a way to be more active participants in information exchange.</p>
 
 
-              <p><strong>Assumptions</strong>: At many times in this thesis it may appear that I am taking an idealist stance with regards to the motivations of academics, but certainly many (perhaps even most) academic researchers are motivated to some extent personally, whether that is with goal to take part in advancing collective knowledge, society and life, career advancement, prestige, or financial gain. All of these aspects are part of the "social machine" of scholarly communication, and are explored in the various appropriate sections. As for the technical machinery, I assume that researchers want to share their work and contributions in good faith with other researchers and the public at large.</p>
+              <p id="assumptions"><strong>Assumptions</strong>: At many times in this thesis it may appear that I am taking an idealist stance with regards to the motivations of academics, but certainly many (perhaps even most) academic researchers are motivated to some extent personally, whether that is with goal to take part in advancing collective knowledge, society and life, career advancement, prestige, or financial gain. All of these aspects are part of the "social machine" of scholarly communication, and are explored in the various appropriate sections. As for the technical machinery, I assume that researchers want to share their work and contributions in good faith with other researchers and the public at large.</p>
 
               <p>The thesis examines autonomous and interoperable information systems in context of conducting scholarly communication on the Web.</p>
 
@@ -163,6 +161,8 @@ What desired properties must it have? -> The requirements
 
 To whom should this interaction be useful?
 To achieve which of their goals? -> The stakeholder goals
+
+The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.
                 </div>
               </section>
 
@@ -283,13 +283,6 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
           <section id="thesis-overview" inlist="" rel="schema:hasPart" resource="#thesis-overview">
             <h2 property="schema:name">Thesis Overview</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <blockquote cite="https://biblio.ugent.be/publication/522209/file/1873597.pdf">
-                <p>Static stand-alone paper is not an appropriate habitat for a thesis on linking. Therefore, the paper is included with the CD-ROM, not vice versa.</p>
-                <footer><cite><a data-versiondate="2019-03-12T15:07:33Z" dataversion-url="https://web.archive.org/web/20190312150733/https://biblio.ugent.be/publication/522209/file/1873597.pdf" href="https://biblio.ugent.be/publication/522209/file/1873597.pdf">Dynamic and context-sensitive linking of scholarly information</a></cite>, Van de Sompel, 2000</footer>
-              </blockquote>
-
-              <p>This <q>paper</q> is part of our Web.</p>
-
               <section id="contributions" inlist="" rel="schema:hasPart" resource="#contributions">
                 <h3 property="schema:name">Contributions</h3>
                 <div datatype="rdf:HTML" property="schema:description" typeof="deo:Contribution">
@@ -307,10 +300,15 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
               <section id="document-structure" inlist="" rel="schema:hasPart" resource="#document-structure">
                 <h3 property="schema:name">Structure</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>The complete knowledge graph of this thesis is visualised as follows:</p>
+                  <blockquote cite="https://biblio.ugent.be/publication/522209/file/1873597.pdf">
+                    <p>Static stand-alone paper is not an appropriate habitat for a thesis on linking. Therefore, the paper is included with the CD-ROM, not vice versa.</p>
+                    <footer><cite><a data-versiondate="2019-03-12T15:07:33Z" dataversion-url="https://web.archive.org/web/20190312150733/https://biblio.ugent.be/publication/522209/file/1873597.pdf" href="https://biblio.ugent.be/publication/522209/file/1873597.pdf">Dynamic and context-sensitive linking of scholarly information</a></cite>, Van de Sompel, 2000</footer>
+                  </blockquote>
+
+                  <p>The machine-readable information that this thesis comprises can be visualised as a graphs:</p>
 
                   <figure>
-                    <figcaption>This Thesis is a Knowledge Graph</figcaption>
+                    <figcaption>This Thesis is a <q>Knowledge Graph</q></figcaption>
                   </figure>
 
                   <p>This thesis is composed of the following topics:</p>
