@@ -143,29 +143,6 @@ Current paradigm sucks...
             <div datatype="rdf:HTML" property="schema:description">
               <p>The purpose of this thesis is to describe ...</p>
 
-              <section id="technical-research-problem" inlist="" rel="schema:hasPart" resource="#technical-research-problem">
-                <h3 property="schema:name">Technical Research Problem</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>How to {(re)design an artifact}
-                    that satisfies {requirements}
-                    so that {stakeholder goals can be achieved}
-                    in {problem context}?</p>
-
-What must be designed by the researcher? -> The artifact
-
-What is given to the researcher?
-With what will the artifact interact? -> The problem context
-
-What is the interaction?
-What desired properties must it have? -> The requirements
-
-To whom should this interaction be useful?
-To achieve which of their goals? -> The stakeholder goals
-
-The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.
-                </div>
-              </section>
-
               <section id="knowledge-question" inlist="" rel="schema:hasPart" resource="#knowledge-question">
                 <h3 property="schema:name">Knowledge Question</h3>
                 <div datatype="rdf:HTML" property="schema:description">
@@ -277,6 +254,28 @@ So:
 Hypothesis: lack of widely deployed (standardised) decentralised authentication mechanisms impede adoption of the distributed Web paradigm.
   </pre>
 
+              <section id="technical-research-problem" inlist="" rel="schema:hasPart" resource="#technical-research-problem">
+                <h3 property="schema:name">Technical Research Problem</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>How to {(re)design an artifact}
+                    that satisfies {requirements}
+                    so that {stakeholder goals can be achieved}
+                    in {problem context}?</p>
+
+What must be designed by the researcher? -> The artifact
+
+What is given to the researcher?
+With what will the artifact interact? -> The problem context
+
+What is the interaction?
+What desired properties must it have? -> The requirements
+
+To whom should this interaction be useful?
+To achieve which of their goals? -> The stakeholder goals
+
+The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.
+                </div>
+              </section>
             </div>
           </section>
 
@@ -294,8 +293,6 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
                 </pre>
                 </div>
               </section>
-
-              <p>Dive into:</p>
 
               <section id="document-structure" inlist="" rel="schema:hasPart" resource="#document-structure">
                 <h3 property="schema:name">Structure</h3>
@@ -462,7 +459,10 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
 
           <hr />
 
-          <p><img alt="Illustration of Alice by Lewis Carroll - Alice’s Adventures Under Ground, the facsimile edition published by Macmillan in 1886" class="align-left lr" height="143" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/86/AAUG_p06.png/128px-AAUG_p06.png" title="Illustration of Alice by Lewis Carroll - Alice’s Adventures Under Ground, the facsimile edition published by Macmillan in 1886" width="128" /> <q cite="http://www.imdb.com/title/tt0133093/quotes?item=qt0324307">This is your last chance. After this, there is no turning back. You take the <span class="unicode-blue-pill">blue pill</span> - the story ends, you wake up in your bed and believe whatever you want to believe. You take the <span class="unicode-red-pill">red pill</span> - you stay in Wonderland and I show you how deep the rabbit-hole goes</q> - <cite><a href="http://www.imdb.com/title/tt0133093/quotes?item=qt032430">Morpheus</a></cite>, The Matrix (1999).</p>
+          <blockquote cite="http://www.imdb.com/title/tt0133093/quotes?item=qt0324307">
+            <p>This is your last chance. After this, there is no turning back. You take the <span class="unicode-blue-pill">blue pill</span> - the story ends, you wake up in your bed and believe whatever you want to believe. You take the <span class="unicode-red-pill">red pill</span> - you stay in Wonderland and I show you how deep the rabbit-hole goes.</p>
+            <footer><cite><a href="http://www.imdb.com/title/tt0133093/quotes?item=qt032430">Morpheus</a></cite>, The Matrix, 1999</footer>
+          </blockquote>
         </div>
       </article>
     </main>
