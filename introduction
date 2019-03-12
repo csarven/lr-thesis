@@ -53,14 +53,32 @@
               <p>The thesis examines autonomous and interoperable information systems in context of conducting scholarly communication on the Web.</p>
 
               <p>I argue that the current state of scholarly communication to be more effective, we need to apply and use the native affordances of the Web to its fullest degree.</p>
+
+              <p class="todo"><a href="#the-printing-press-as-an-agent-of-change">The Printing Press as an Agent of Change</a></p>
+
             </div>
           </section>
 
 
-          <section id="context" inlist="" rel="schema:hasPart" resource="#context">
-            <h2 property="schema:name">Context</h2>
+          <section id="research-goal" inlist="" rel="schema:hasPart" resource="#research-goal">
+            <h2 property="schema:name">Research Goal</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo"><a href="#the-printing-press-as-an-agent-of-change">The Printing Press as an Agent of Change</a></p>
+              <section id="problem-context" inlist="" rel="schema:hasPart" resource="#problem-context">
+                <h3 property="schema:name">Problem Context</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+    Why does the research need to be conducted?
+
+    Problem identification (What is wrong with the current situation)
+    Background (what is the nature of the problem that readers need to understand)
+    Scope of the problem (How big is the problem; # of persons affected)
+    Consequences of the problem (what is the cost of not fixing it)
+    Knowledge gaps (what info is lacking)
+    Proposed solution (how will this new study contribute to solving the problem)
+
+    <pre>scholarly communication didn't change much but ... we don't exploit the technical advances
+    * we can't find things.. or at least cumbersome (text-based and/or structured interfaces to find/discover). web of documents -> data
+    * coupling of functions (--- maybe not. this is not directly a concern for the researcher but on the evolution of the system)
+    * (de)centralisation</pre>
 
               <p>The field of our study is interdisciplinary given that scholarly communication in conjunction with the Web is an interplay of sociotechnical systems. The work described here captures a particular connection of ideas and development crossing over Web sciences and engineering, media theory and application, autonomous and federation of information systems.</p>
 
@@ -83,23 +101,92 @@
 ** Social aspects are not well tied together - disconnected social graphs, personal/profile data
   </pre>
 
-              <p>Is and can our system be productive, resilient and organised? Can it evolve? If redesigned, can it operate within established and unexpected parameters as part of a even greater larger ecosystem? What assumptions have we adopted?</p>
-            </div>
-          </section>
+                  <p>Is and can our system be productive, resilient and organised? Can it evolve? If redesigned, can it operate within established and unexpected parameters as part of a even greater larger ecosystem? What assumptions have we adopted?</p>
+                </div>
+              </section>
 
-          <section id="problem-statement" inlist="" rel="schema:hasPart" resource="#problem-statement">
-            <h2 property="schema:name">Problem Statement</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-<pre>scholarly communication didn't change much but ... we don't exploit the technical advances
-* we can't find things.. or at least cumbersome (text-based and/or structured interfaces to find/discover). web of documents -> data
-* coupling of functions (--- maybe not. this is not directly a concern for the researcher but on the evolution of the system)
-* (de)centralisation</pre>
+              <section id="artifact-design-goal" inlist="" rel="schema:hasPart" resource="#artifact-design-goal">
+                <h3 property="schema:name">Artifact Design Goal</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>Socially-aware and interoperable communication..</p>
+                  <p>solve, mitigate, improve problem in the social context of the project</p>
+                </div>
+              </section>
+
+              <section id="knowlede-goal" inlist="" rel="schema:hasPart" resource="#knowledge-goal">
+                <h3 property="schema:name">Knowledge Goal</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>History.. explain what's happening</p>
+                </div>
+              </section>
+
+              <section id="prediction-goal" inlist="" rel="schema:hasPart" resource="#prediction-goal">
+                <h3 property="schema:name">Prediction Goal</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p><cite><a href="linked-research">Linked Research</a></cite>?</p>
+                </div>
+              </section>
             </div>
           </section>
 
           <section id="research-questions" inlist="" rel="schema:hasPart" resource="#research-questions">
             <h2 property="schema:name">Research Questions</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p>The purpose of this thesis is to describe ...</p>
+
+              <section id="technical-research-problem" inlist="" rel="schema:hasPart" resource="#technical-research-problem">
+                <h3 property="schema:name">Technical Research Problem</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>How to {(re)design an artifact}
+                    that satisfies {requirements}
+                    so that {stakeholder goals can be achieved}
+                    in {problem context}?</p>
+
+What must be designed by the researcher? -> The artifact
+
+What is given to the researcher?
+With what will the artifact interact? -> The problem context
+
+What is the interaction?
+What desired properties must it have? -> The requirements
+
+To whom should this interaction be useful?
+To achieve which of their goals? -> The stakeholder goals
+                </div>
+              </section>
+
+              <section id="knowledge-question" inlist="" rel="schema:hasPart" resource="#knowledge-question">
+                <h3 property="schema:name">Knowledge Question</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>Empirical.. descriptive: what happened?
+                  what events were observed, when and where they happened, who was involved, which device were affected.</p>
+
+                  <p>prediction problem: use knowledge of what has happened so far and generalizing from this.</p>
+
+                  <p>open question: no specification of its possible answers.</p>
+
+<p>
+  Effect questions: (artifact x context) produce effects?
+    What effects are produced by the interaction between the artifact and context?
+
+  Trade-off questions: (alternative artifact x context) produce effects?
+    What effects do similar artifacts have in this context?
+    How does the artifact perform in this context compared to similar artifacts?
+
+  Sensitivity questions: (artifact x alternative context) produce effects?
+    What effects are produced by the artifact in different contexts?
+    What happens if the context becomes bigger/smaller?
+    What assumptions does the design of the artifact make about its context?
+
+  Requirements satisfaction questions: Do effects satisfy requirements?
+    Does the stimulus-response behavior satisfy functional requirements?
+    Does the performance satisfy nonfunctional requirements?
+</p>
+                </div>
+              </section>
+
+
+
 * characterisation of scholarly communication in context of the Web
 * devising a decentralised model for scholarly communication
 * human and machine-readable representation for units of communication and interactions
@@ -198,6 +285,13 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
             <h2 property="schema:name">Thesis Overview</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p>Dive into:</p>
+
+              <blockquote cite="https://biblio.ugent.be/publication/522209/file/1873597.pdf">
+                <p>Static stand-alone paper is not an appropriate habitat for a thesis on linking. Therefore, the paper is included with the CD-ROM, not vice versa.</p>
+                <footer><cite><a data-versiondate="2019-03-12T15:07:33Z" dataversion-url="https://web.archive.org/web/20190312150733/https://biblio.ugent.be/publication/522209/file/1873597.pdf" href="https://biblio.ugent.be/publication/522209/file/1873597.pdf">Dynamic and context-sensitive linking of scholarly information</a></cite>, Van de Sompel, 2000</footer>
+              </blockquote>
+
+              <p>This <q>paper</q> is a part of our Web.</p>
 
               <section id="document-structure" inlist="" rel="schema:hasPart" resource="#document-structure">
                 <h3 property="schema:name">Structure</h3>
