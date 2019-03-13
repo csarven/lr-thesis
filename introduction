@@ -67,44 +67,19 @@
               <section id="problem-context" inlist="" rel="schema:hasPart" resource="#problem-context">
                 <h3 property="schema:name">Problem Context</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-Current paradigm sucks...
+                  <p>There are several sociotechnical limitations in the contemporary paradigm that the scholarly communication operates in. I will summarise a subset of problem areas relating to interoperability and autonomy. Each problem space will be further explored in relevant sections of this thesis.</p>
 
-    Why does the research need to be conducted?
+                  <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover and build new relations.</p>
 
-    Problem identification (What is wrong with the current situation)
-    Background (what is the nature of the problem that readers need to understand)
-    Scope of the problem (How big is the problem; # of persons affected)
-    Consequences of the problem (what is the cost of not fixing it)
-    Knowledge gaps (what info is lacking)
-    Proposed solution (how will this new study contribute to solving the problem)
+                  <p>Data on the Web tends to be locked into non-interoperable Web systems or be only usable by applications which created it. Actors - creators and readers - in these system often do not have the means to switch between applications and share data between them.</p>
 
-    <pre>scholarly communication didn't change much but ... we don't exploit the technical advances
-    * we can't find things.. or at least cumbersome (text-based and/or structured interfaces to find/discover). web of documents -> data
-    * coupling of functions (--- maybe not. this is not directly a concern for the researcher but on the evolution of the system)
-    * (de)centralisation</pre>
+                  <p>There is a lack of diverse value chains for different units of scholarly communication due to tightly coupled proprietary systems. The actors in these systems create and exchange information by (or forced into) using packaged systems and workflows, give up their rights, and not have control over how their creations can be disseminated and reused.</p>
 
-              <p>The field of our study is interdisciplinary given that scholarly communication in conjunction with the Web is an interplay of sociotechnical systems. The work described here captures a particular connection of ideas and development crossing over Web sciences and engineering, media theory and application, autonomous and federation of information systems.</p>
+                  <p>The actors in the system commonly use print-centric tools and data representations to exchange content on the Web. Actors' degree of expression on Web media is constrained to third-party tool or service provider's solutions, and are not interoperable with one another.</p>
 
-              <p>The context of this thesis is based on the neutrally observable scholarly communication in conjunction with the World Wide Web. Thus, what will be described here will not be about the imminent transformation to what scholarly communication is or how it should be, but rather a description of a network of relatable ideas, initiatives, and development.</p>
+                  <p>Social aspects of scholarly communication are not well tied together in that actors "rent" personal and professional identifiers and storage from third-parties, manage multiple disconnected profiles, connections, and data spaces.</p>
 
-
-              <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover relations. The knowledge industry can better address societal challenges by embracing the virtues of the Web via decentralisation and interconnectivity of our collective knowledge.</p>
-
-  <pre>* How do the sociotechnical developments affected scholarly communication on the Web? 3-4 decades. (problems for day to day operations for a researcher/user)
-* Problems in scholarly communication (an analysis of core areas)
-** open access to scholarly communication
-** Proliferation of scientific publications (In the last 10 years, the scientific output in the form of published articles has almost doubled https://www.nsf.gov/statistics/2018/nsf18300/nsf18300.pdf)
-** Reproducibility
-** Inadequate use of electronic / Web-native possibilities (eg due to third-party workflows/publication pipelines)
-** Findability and retrievability -- machine-assisted
-** (inter)Linking distributed scholarly artefacts
-
-** influence of venue level metrics distracts from assessing individual contributions
-** peer-review
-** Social aspects are not well tied together - disconnected social graphs, personal/profile data
-  </pre>
-
-                  <p>Is and can our system be productive, resilient and organised? Can it evolve? If redesigned, can it operate within established and unexpected parameters as part of a even greater larger ecosystem? What assumptions have we adopted?</p>
+                  <p>These class of problems and inefficiencies in the scholarly system have implications on access, interoperability, findability, cost and privacy.</p>
                 </div>
               </section>
 
@@ -127,8 +102,12 @@ Current paradigm sucks...
                 <h3 property="schema:name">Prediction Goal</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>What do you think will happen?</p>
-                  <p>Change in paradigm?</p>
-                  <p><cite><a href="linked-research">Linked Research</a></cite>?</p>
+
+                  <p>Change in paradigm? Self-archive/publish where you want.</p>
+                  <p><cite><a href="linked-research">Linked Research</a></cite>-like?</p>
+                  <p>Can dokieli be used in a non-domain specific way? yes</p>
+
+                  <p>Is and can our system be productive, resilient and organised? Can it evolve? If redesigned, can it operate within established and unexpected parameters as part of a even greater larger ecosystem? What assumptions have we adopted?</p>
                 </div>
               </section>
             </div>
