@@ -55,12 +55,12 @@
           <section id="research-goal" inlist="" rel="schema:hasPart" resource="#research-goal">
             <h2 property="schema:name">Research Goal</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>In this section I outline research goals for different actors in the system.</p>
+              <p>This section serves as an outline for social and technical research goals. Each goal is further explored and related material is reviewed in relevant sections of this thesis.</p>
 
               <section id="stakeholders" inlist="" rel="schema:hasPart" resource="#stakeholders">
                 <h3 property="schema:name">Stakeholders</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>Source of goals and constraints: Researchers.. academia.. public/society.. </p>
+                  <p>Scientific research and communication is conducted by variety of stakeholders in society, acting as forces that are both internal and external to the process. For example, research sponsors allocate funds and operate on different constraints. Researchers may be driven by curiosity to advance our understanding of the universe. The public at large is eventually interested in seeing research results used for the well-being of life.</p>
                 </div>
               </section>
 
