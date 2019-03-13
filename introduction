@@ -86,12 +86,11 @@
               <section id="artifact-design-goal" inlist="" rel="schema:hasPart" resource="#artifact-design-goal">
                 <h3 property="schema:name">Artifact Design Goal</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>Socially-aware and interoperable communication..</p>
-                  <p>solve, mitigate, improve problem in the social context of the project</p>
+                  <p>In order for systems and actors in scholarly communication to efficiently participate in exchanging knowledge through the Web, they need to have more control over their creations, as well have choice to use their preferred data spaces and socially-aware applications.</p>
                 </div>
               </section>
 
-              <section id="knowlede-goal" inlist="" rel="schema:hasPart" resource="#knowledge-goal">
+              <section id="knowledge-goal" inlist="" rel="schema:hasPart" resource="#knowledge-goal">
                 <h3 property="schema:name">Knowledge Goal</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>History.. explain what's happening</p>
