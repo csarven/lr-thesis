@@ -57,6 +57,8 @@
           <section id="research-goal" inlist="" rel="schema:hasPart" resource="#research-goal">
             <h2 property="schema:name">Research Goal</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p>In this section I outline research goals for different actors in the system.</p>
+
               <section id="stakeholders" inlist="" rel="schema:hasPart" resource="#stakeholders">
                 <h3 property="schema:name">Stakeholders</h3>
                 <div datatype="rdf:HTML" property="schema:description">
@@ -278,10 +280,12 @@ The results are an exemplar for scholarly information exchange on the Web based 
           <section id="thesis-overview" inlist="" rel="schema:hasPart" resource="#thesis-overview">
             <h2 property="schema:name">Thesis Overview</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p>Dive into:</p>
+
               <section id="contributions" inlist="" rel="schema:hasPart" resource="#contributions">
                 <h3 property="schema:name">Contributions</h3>
                 <div datatype="rdf:HTML" property="schema:description" typeof="deo:Contribution">
-                  <p>The contributions of the underlying work addresses how an ensemble of standards pertaining to communication and information exchange can be used to enable autonomous, accessible, interpretable, and social scholarly communication on the Web. The explanations and the developments propose a way in which individuals - researchers in particular - can be autonomous and cooperative entities when exchanging their discoveries, knowledge, and innovation.</p>
+                  <p>What constitutes a scholarly contribution? While the jury may be out on their verdict, I refer to the findings and results on how an ensemble of open Web standards can be used to enable autonomous, accessible, interpretable, and social scholarly communication on the Web. The explanations and the developments propose a way in which individuals can be self-sovereign and cooperative entities when exchanging their discoveries, knowledge, and innovation.</p>
 
                 <pre>
 * Show diagram of the area of research eg. forces and functions of knowledge, and place the contributions in that diagram [dokieli: content, accessibility, registration, archiving; LDN: registration, awareness]
