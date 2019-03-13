@@ -87,19 +87,41 @@
                 <h3 property="schema:name">Artifact Design Goal</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>In order for systems and actors in scholarly communication to efficiently participate in exchanging knowledge through the Web, they need to have more control over their creations, as well have choice to use their preferred data spaces and socially-aware applications.</p>
+
+                  <p>Actors need to be able to use their own identities and profiles in applications when performing read-write operations on data on the Web.</p>
                 </div>
               </section>
 
               <section id="knowledge-goal" inlist="" rel="schema:hasPart" resource="#knowledge-goal">
                 <h3 property="schema:name">Knowledge Goal</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>History.. explain what's happening</p>
+                  <p class="todo">Do contributions belong here or only in knowledge questions?</p>
+
+                  <p>The corpus of knowledge is based on the following main areas:</p>
+
+                  <ul>
+                    <li>Situating scholarly communication with respect to technological communication mediums and scientific paradigms.</li>
+                    <li>Foundations of the architecture of the Web, the study of Web Science and scholarship on the Web.</li>
+                    <li>Examining practises in social media and academia, quality control and certification, privileged access to scholarly knowledge and various forms of gatekeeping.</li>
+                    <li>Core forces and functions in scientific communication.</li>
+                    <li>Understanding potential effects and artefacts of Web-centric scholarly communication.</li>
+                    <li>Common structures and semantics of units of scholarly communication on the Web.</li>
+                    <li>Approaches in human and machine-readable representations on the Web.</li>
+                    <li>The characteristics of centralised and decentralised systems.</li>
+                    <li>Standards and practices for interoperable information spaces and exchange, including personal identities, authentication and authorization, persistence and preservation, decentralised storage and interoperable applications.</li>
+                    <li>Common elements and degrees of control over research and scholarly artefacts.</li>
+                    <li class="todo">Characteristics of Web specifications for forces and functions in scientific communication.</li>
+                  </ul>
+
+                  <p>The research knowledge was collected with the logistical constraints that are outlined in <cite><a href="literature-review-and-citations">Literature Review and Citations</a></cite>.</p>
                 </div>
               </section>
 
               <section id="prediction-goal" inlist="" rel="schema:hasPart" resource="#prediction-goal">
                 <h3 property="schema:name">Prediction Goal</h3>
                 <div datatype="rdf:HTML" property="schema:description">
+                  <p class="todo">Probably best to write this after the LR chapter or at the same time as Conclusions.</p>
+
                   <p>What do you think will happen?</p>
 
                   <p>Change in paradigm? Self-archive/publish where you want.</p>
