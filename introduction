@@ -51,11 +51,12 @@
             </div>
           </section>
 
+          <p>In order to frame the <q>design science</q> of this thesis, the sections on <a href="#research-goals">Research Goals</a> and <a href="#research-questions">Research Questions</a> are based on <cite>Research Goals and Research Questions</cite> in <cite><a data-versiondate="2019-03-14T10:10:15Z" data-versionurl="https://web.archive.org/web/20190314101015/https://www.springer.com/cda/content/document/cda_downloaddocument/9783662438381-c1.pdf" href="https://www.springer.com/cda/content/document/cda_downloaddocument/9783662438381-c1.pdf">Design Science Methodology for Information Systems and Software Engineering</a></cite>, Wieringa, 2014.</p>
 
-          <section id="research-goal" inlist="" rel="schema:hasPart" resource="#research-goal">
-            <h2 property="schema:name">Research Goal</h2>
+          <section id="research-goals" inlist="" rel="schema:hasPart" resource="#research-goals">
+            <h2 property="schema:name">Research Goals</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>This section serves as an outline for social and technical research goals and is based on <cite><a data-versiondate="2019-03-14T10:10:15Z" data-versionurl="https://web.archive.org/web/20190314101015/https://www.springer.com/cda/content/document/cda_downloaddocument/9783662438381-c1.pdf" href="https://www.springer.com/cda/content/document/cda_downloaddocument/9783662438381-c1.pdf">Design Science Methodology for Information Systems and Software Engineering</a></cite>, Wieringa, 2014. Each goal is further explored and related material is reviewed in relevant sections of this thesis.</p>
+              <p>This section serves as an outline for social and technical research goals. Each goal is further explored and related material is reviewed in relevant sections of this thesis.</p>
 
               <section id="stakeholders" inlist="" rel="schema:hasPart" resource="#stakeholders">
                 <h3 property="schema:name">Stakeholders</h3>
@@ -85,8 +86,8 @@
                 </div>
               </section>
 
-              <section id="artifact-design-goal" inlist="" rel="schema:hasPart" resource="#artifact-design-goal">
-                <h3 property="schema:name">Artifact Design Goal</h3>
+              <section id="technical-research-goals" inlist="" rel="schema:hasPart" resource="#artifact-design-goals">
+                <h3 property="schema:name">Technical Research Goals</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>In order for systems and actors in scholarly communication to efficiently participate in exchanging knowledge through the Web, they need to have more control over their creations, as well have choice to use their preferred data spaces and socially-aware applications.</p>
 
@@ -94,16 +95,15 @@
                 </div>
               </section>
 
-              <section id="knowledge-goal" inlist="" rel="schema:hasPart" resource="#knowledge-goal">
-                <h3 property="schema:name">Knowledge Goal</h3>
+              <section id="knowledge-goals" inlist="" rel="schema:hasPart" resource="#knowledge-goals">
+                <h3 property="schema:name">Knowledge Goals</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p class="todo">Do contributions belong here or only in knowledge questions?</p>
-
-                  <p>The corpus of knowledge is based on the following main areas:</p>
+                  <p>The following knowledge goals are aimed to describe key mechanisms underlying existing technical designs in context of the <a href="#problemc-context">problem context</a>.</p>
 
                   <ul>
                     <li>Situating scholarly communication with respect to technological communication mediums and scientific paradigms.</li>
-                    <li>Foundations of the architecture of the Web, the study of Web Science and scholarship on the Web.</li>
+                    <li>Foundations of the architecture of the Web and the framework of Web Science.</li>
+                    <li>History and state of scholarship on the Web.</li>
                     <li>Examining practises in social media and academia, quality control and certification, privileged access to scholarly knowledge and various forms of gatekeeping.</li>
                     <li>Core forces and functions in scientific communication.</li>
                     <li>Understanding potential effects and artefacts of Web-centric scholarly communication.</li>
@@ -112,21 +112,21 @@
                     <li>The characteristics of centralised and decentralised systems.</li>
                     <li>Standards and practices for interoperable information spaces and exchange, including personal identities, authentication and authorization, persistence and preservation, decentralised storage and interoperable applications.</li>
                     <li>Common elements and degrees of control over research and scholarly artefacts.</li>
-                    <li class="todo">Characteristics of Web specifications for forces and functions in scientific communication.</li>
+                    <li>Characteristics of Web specifications for forces and functions in scientific communication.</li>
                   </ul>
 
-                  <p>The research knowledge was collected with the logistical constraints that are outlined in <cite><a href="literature-review-and-citations">Literature Review and Citations</a></cite>.</p>
+                  <p>The corpus of collected knowledge is driven by understanding the current state of knowledge in the field based on scientific, technical, and professional literature. The research knowledge was collected with the logistical constraints that are outlined in <cite><a href="#literature-review-and-citations">Literature Review and Citations</a></cite>.</p>
                 </div>
               </section>
 
-              <section id="prediction-goal" inlist="" rel="schema:hasPart" resource="#prediction-goal">
-                <h3 property="schema:name">Prediction Goal</h3>
+              <section id="prediction-goals" inlist="" rel="schema:hasPart" resource="#prediction-goals">
+                <h3 property="schema:name">Prediction Goals</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p class="todo">Probably best to write this after the LR chapter or at the same time as Conclusions.</p>
 
                   <p>What do you think will happen?</p>
 
-                  <p>Change in paradigm? Self-archive/publish where you want.</p>
+                  <p>Change in paradigm? Implications? eg. creator self-archive/publishes.. community accessible quality-control/certification.</p>
                   <p><cite><a href="linked-research">Linked Research</a></cite>-like?</p>
                   <p>Can dokieli be used in a non-domain specific way? yes</p>
 
@@ -141,8 +141,8 @@
             <div datatype="rdf:HTML" property="schema:description">
               <p>The purpose of this thesis is to describe ...</p>
 
-              <section id="knowledge-question" inlist="" rel="schema:hasPart" resource="#knowledge-question">
-                <h3 property="schema:name">Knowledge Question</h3>
+              <section id="knowledge-questions" inlist="" rel="schema:hasPart" resource="#knowledge-questions">
+                <h3 property="schema:name">Knowledge Questions</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>Empirical.. descriptive: what happened?
                   what events were observed, when and where they happened, who was involved, which device were affected.</p>
