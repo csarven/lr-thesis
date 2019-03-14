@@ -55,12 +55,14 @@
           <section id="research-goal" inlist="" rel="schema:hasPart" resource="#research-goal">
             <h2 property="schema:name">Research Goal</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>This section serves as an outline for social and technical research goals. Each goal is further explored and related material is reviewed in relevant sections of this thesis.</p>
+              <p>This section serves as an outline for social and technical research goals and is based on <cite><a data-versiondate="2019-03-14T10:10:15Z" data-versionurl="https://web.archive.org/web/20190314101015/https://www.springer.com/cda/content/document/cda_downloaddocument/9783662438381-c1.pdf" href="https://www.springer.com/cda/content/document/cda_downloaddocument/9783662438381-c1.pdf">Design Science Methodology for Information Systems and Software Engineering</a></cite>, Wieringa, 2014. Each goal is further explored and related material is reviewed in relevant sections of this thesis.</p>
 
               <section id="stakeholders" inlist="" rel="schema:hasPart" resource="#stakeholders">
                 <h3 property="schema:name">Stakeholders</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>Scientific research and communication is conducted by variety of stakeholders in society, acting as forces that are both internal and external to the process. For example, research sponsors allocate funds and operate on different constraints. Researchers may be driven by curiosity to advance our understanding of the universe. The public at large is eventually interested in seeing research results used for the well-being of life.</p>
+                  <p>There are various stakeholders in research and communication, acting as forces that are both internal and external to the processes.
+
+                  For example, research sponsors allocate funds and operate on different constraints. Researchers may be driven by curiosity to advance our understanding of the universe. The public at large is eventually interested in seeing research results used for the well-being of life.</p>
                 </div>
               </section>
 
