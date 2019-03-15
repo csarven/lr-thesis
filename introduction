@@ -19,7 +19,7 @@
 
         <dl id="document-modified">
           <dt>Modified</dt>
-          <dd><time content="2019-03-12T14:27:03.140Z" datatype="xsd:dateTime" datetime="2019-03-12T14:27:03.140Z" property="schema:dateModified">2019-03-12</time></dd>
+          <dd><time content="2019-03-15T22:59:53.382Z" datatype="xsd:dateTime" datetime="2019-03-15T22:59:53.382Z" property="schema:dateModified">2019-03-15</time></dd>
         </dl>
 
         <dl id="document-license">
@@ -156,16 +156,16 @@
                   </ul>
 
 
-What must be designed by the researcher? -> The artifact
+What must be designed by the researcher? -&gt; The artifact
 
 What is given to the researcher?
-With what will the artifact interact? -> The problem context
+With what will the artifact interact? -&gt; The problem context
 
 What is the interaction?
-What desired properties must it have? -> The requirements
+What desired properties must it have? -&gt; The requirements
 
 To whom should this interaction be useful?
-To achieve which of their goals? -> The stakeholder goals
+To achieve which of their goals? -&gt; The stakeholder goals
 
 The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.
                 </div>
@@ -189,9 +189,7 @@ The results are an exemplar for scholarly information exchange on the Web based 
                     <li>What open Web specifications and practices are there for interoperable information spaces, allowing personal identities, authentication and authorization, persistence and preservation, decentralised storage and applications?</li>
                     <li>What are common degrees of control over research and scholarly artefacts?</li>
                     <li>What are the characteristics of Web specifications for forces and functions in scientific communication.</li>
-                  </ul>
-
-<p class="notes">
+                  </ul><p class="notes">
   Effect questions: (artifact x context) produce effects?
     What effects are produced by the interaction between the artifact and context?
 
@@ -206,14 +204,11 @@ The results are an exemplar for scholarly information exchange on the Web based 
 
   Requirements satisfaction questions: Do effects satisfy requirements?
     Does the stimulus-response behavior satisfy functional requirements?
-    Does the performance satisfy nonfunctional requirements?
-</p>
+    Does the performance satisfy nonfunctional requirements?</p>
 
 
                 </div>
-              </section>
-
-<div class="notes">
+              </section><div class="notes">
 * characterisation of scholarly communication in context of the Web
 * devising a decentralised model for scholarly communication
 * human and machine-readable representation for units of communication and interactions
@@ -290,8 +285,7 @@ Who can be a publisher?
 
 Question: How do we know who is who in a social network without authentication?
 So:
-Hypothesis: lack of widely deployed (standardised) decentralised authentication mechanisms impede adoption of the distributed Web paradigm.
-</div>
+Hypothesis: lack of widely deployed (standardised) decentralised authentication mechanisms impede adoption of the distributed Web paradigm.</div>
 
             </div>
           </section>
@@ -331,17 +325,17 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
 
                   <dl>
                     <dt><cite><a href="scholarly-communication-on-the-web">Scholarly Communication on the Web</a></cite></dt>
-                    <dd></dd>
+                    <dd>.</dd>
                     <dt><cite><a href="structure-of-scholarly-information">Structure of Scholarly Information</a></cite></dt>
-                    <dd></dd>
+                    <dd>.</dd>
                     <dt><cite><a href="decentralising-scholarly-communication">Decentralising Scholarly Communication</a></cite></dt>
-                    <dd></dd>
+                    <dd>.</dd>
                     <dt><cite><a href="linked-data-notifications">Linked Data Notifications</a></cite></dt>
-                    <dd></dd>
+                    <dd>.</dd>
                     <dt><cite><a href="decentralised-linked-research-application">Decentralised Linked Research Application</a></cite></dt>
-                    <dd></dd>
+                    <dd>.</dd>
                     <dt><cite><a href="linked-research">Linked Research</a></cite></dt>
-                    <dd></dd>
+                    <dd>.</dd>
                   </dl>
 
                   <p>In <cite><a href="conclusions">Conclusions</a></cite>, I will connect and discuss all findings, meaning, and perspectives for the future.</p>
@@ -415,18 +409,7 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
                         <td>monospaced text</td>
                         <td><code>&lt;script type=""&gt;</code>, <code>ldp:inbox</code> (see also <a href="#document-convention">document convention</a></td>
                       </tr>
-                      <tr>
-                        <td>Contributions</td>
-                        <td></td>
-                        <td></td>
-                      </tr>
                     </tbody>
-                    <tfoot>
-                      <tr>
-                        <td>
-                        </td>
-                      </tr>
-                    </tfoot>
                   </table>
                 </div>
               </section>
