@@ -61,9 +61,7 @@
               <section id="stakeholders" inlist="" rel="schema:hasPart" resource="#stakeholders">
                 <h3 property="schema:name">Stakeholders</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>There are various stakeholders in research and communication, acting as forces that are both internal and external to the processes.
-
-                  For example, research sponsors allocate funds and operate on different constraints. Researchers may be driven by curiosity to advance our understanding of the universe. The public at large is eventually interested in seeing research results used for the well-being of life.</p>
+                  <p>There are various stakeholders in research acting as forces that are both internal and external to scholarly communication. In order to address societal concerns, research sponsors fund projects to attain reusable technical designs and acquire new knowledge. Knowledge workers like researchers and scholars are driven by curiosity to advance our understanding of the universe. The public is interested in accessing applications of research to educate and for the well-being of life. The market needs efficient functioning of scientific communication in order to translate the output to capital.</p>
                 </div>
               </section>
 
@@ -74,24 +72,22 @@
 
                   <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover and build new relations.</p>
 
-                  <p>Data on the Web tends to be locked into non-interoperable Web systems or be only usable by applications which created it. Actors - creators and readers - in these system often do not have the means to switch between applications and share data between them.</p>
+                  <p>Data on the Web tends to be locked into non-interoperable Web systems or be only usable by applications which created it. Actors - creators and readers - in these systems often do not have the means to switch between applications and share data between them.</p>
 
                   <p>There is a lack of diverse value chains for different units of scholarly communication due to tightly coupled proprietary systems. The actors in these systems create and exchange information by (or forced into) using packaged systems and workflows, give up their rights, and not have control over how their creations can be disseminated and reused.</p>
 
-                  <p>The actors in the system commonly use print-centric tools and data representations to exchange content on the Web. Actors' degree of expression on Web media is constrained to third-party tool or service provider's solutions, and are not interoperable with one another.</p>
+                  <p>The actors in the system commonly use print-centric tools and data representations to exchange content on the Web and neglecting native affordances of the Web. Actors' degree of expression on Web media is constrained to third-party tool or service provider's solutions, and are not interoperable with one another and resulting in deficiencies in the ecosystem.</p>
 
                   <p>Social aspects of scholarly communication are not well tied together in that actors "rent" personal and professional identifiers and storage from third-parties, manage multiple disconnected profiles, connections, and data spaces.</p>
 
-                  <p>These class of problems and inefficiencies in the scholarly system have implications on access, interoperability, findability, cost and privacy.</p>
+                  <p>These class of problems in the scholarly ecosystem have implications on access, interoperability, findability, cost and privacy.</p>
                 </div>
               </section>
 
               <section id="technical-research-goals" inlist="" rel="schema:hasPart" resource="#artifact-design-goals">
                 <h3 property="schema:name">Technical Research Goals</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>In order for systems and actors in scholarly communication to efficiently participate in exchanging knowledge through the Web, they need to have more control over their creations, as well have choice to use their preferred data spaces and socially-aware applications.</p>
-
-                  <p>Actors need to be able to use their own identities and profiles in applications when performing read-write operations on data on the Web.</p>
+                  <p>In order for systems and actors in scholarly communication to efficiently and effectively participate in exchanging information and knowledge through the Web, they need to have more control over their artefacts, be able to use their preferred data spaces and socially-aware applications, use own Web identities in applications, and ability to better shape their digital creations.</p>
                 </div>
               </section>
 
@@ -110,19 +106,19 @@
                     <li>Common structures and semantics of units of scholarly communication on the Web.</li>
                     <li>Approaches in human and machine-readable representations on the Web.</li>
                     <li>The characteristics of centralised and decentralised systems.</li>
-                    <li>Standards and practices for interoperable information spaces and exchange, including personal identities, authentication and authorization, persistence and preservation, decentralised storage and interoperable applications.</li>
+                    <li>Specifications and practices for interoperable information spaces, allowing personal identities, authentication and authorization, persistence and preservation, decentralised storage and applications.</li>
                     <li>Common elements and degrees of control over research and scholarly artefacts.</li>
                     <li>Characteristics of Web specifications for forces and functions in scientific communication.</li>
                   </ul>
 
-                  <p>The corpus of collected knowledge is driven by understanding the current state of knowledge in the field based on scientific, technical, and professional literature. The research knowledge was collected with the logistical constraints that are outlined in <cite><a href="#literature-review-and-citations">Literature Review and Citations</a></cite>.</p>
+                  <p>The corpus of collected knowledge is driven by understanding the current state of knowledge in the field based on scientific, technical, and professional literature. The research knowledge was collected with the logistical, and in my opinion, ethical constraints that are outlined in <cite><a href="#literature-review-and-citations">Literature Review and Citations</a></cite>.</p>
                 </div>
               </section>
 
               <section id="prediction-goals" inlist="" rel="schema:hasPart" resource="#prediction-goals">
                 <h3 property="schema:name">Prediction Goals</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p class="todo">Probably best to write this after the LR chapter or at the same time as Conclusions.</p>
+                  <p class="todo">Probably best to write this after the LR section or at the same time as Conclusions.</p>
 
                   <p>What do you think will happen?</p>
 
@@ -139,19 +135,63 @@
           <section id="research-questions" inlist="" rel="schema:hasPart" resource="#research-questions">
             <h2 property="schema:name">Research Questions</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>The purpose of this thesis is to describe ...</p>
+              <p>I first outline the <a href="#technical-research-problems">technical research problems</a> and then a set of corresponding <a href="#knowledge-questions">knowledge questions</a>.</p>
+
+              <section id="technical-research-problems" inlist="" rel="schema:hasPart" resource="#technical-research-problems">
+                <h3 property="schema:name">Technical Research Problems</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>How to {(re)design an artifact}
+                    that satisfies {requirements}
+                    so that {stakeholder goals can be achieved}
+                    in {problem context}?</p>
+
+                  <ul>
+                    <li>How can server and client-side web applications be designed
+                    to use human and machine-readable units of information
+                    so that autonomous actors can create and exchange information
+                    in scholarly communication on the Web?</li>
+
+                    <li>Which Web standards can be used in the design of socially-aware applications
+                    that allows free expression, </li>
+                  </ul>
+
+
+What must be designed by the researcher? -> The artifact
+
+What is given to the researcher?
+With what will the artifact interact? -> The problem context
+
+What is the interaction?
+What desired properties must it have? -> The requirements
+
+To whom should this interaction be useful?
+To achieve which of their goals? -> The stakeholder goals
+
+The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.
+                </div>
+              </section>
 
               <section id="knowledge-questions" inlist="" rel="schema:hasPart" resource="#knowledge-questions">
                 <h3 property="schema:name">Knowledge Questions</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>Empirical.. descriptive: what happened?
-                  what events were observed, when and where they happened, who was involved, which device were affected.</p>
+                  <p>The <a href="#knowledge-goals">knowledge goals</a> can be refined into following knowledge questions:</p>
 
-                  <p>prediction problem: use knowledge of what has happened so far and generalizing from this.</p>
+                  <ul>
+                    <li>How can we situate scholarly communication using the Web with respect to technological communication mediums and scientific paradigms.</li>
+                    <li>What does the architecture of the Web and the framework of Web Science include?</li>
+                    <li>What is part of the evolution of scholarship on the Web?</li>
+                    <li>What are the practises in social media and academia, quality control and certification, privileged access to scholarly knowledge and various forms of gatekeeping?</li>
+                    <li>What are the core forces and functions in scientific communication?</li>
+                    <li>What are the potential effects and artefacts of Web-centric scholarly communication?</li>
+                    <li>What are standardised structures and semantics to represent units of scholarly communication on the Web?</li>
+                    <li>How can human and machine-readable Web resources be represented?</li>
+                    <li>What are the core characteristics of centralised and decentralised systems?</li>
+                    <li>What open Web specifications and practices are there for interoperable information spaces, allowing personal identities, authentication and authorization, persistence and preservation, decentralised storage and applications?</li>
+                    <li>What are common degrees of control over research and scholarly artefacts?</li>
+                    <li>What are the characteristics of Web specifications for forces and functions in scientific communication.</li>
+                  </ul>
 
-                  <p>open question: no specification of its possible answers.</p>
-
-<p>
+<p class="notes">
   Effect questions: (artifact x context) produce effects?
     What effects are produced by the interaction between the artifact and context?
 
@@ -168,17 +208,18 @@
     Does the stimulus-response behavior satisfy functional requirements?
     Does the performance satisfy nonfunctional requirements?
 </p>
+
+
                 </div>
               </section>
 
-
-
+<div class="notes">
 * characterisation of scholarly communication in context of the Web
 * devising a decentralised model for scholarly communication
 * human and machine-readable representation for units of communication and interactions
 
 
-      <pre>What can scholarly communication achieve when we study and celebrate maximum innovation?
+ What can scholarly communication achieve when we study and celebrate maximum innovation?
 
   How can we improve the scholarly communication process on the Web?
   How can we improve scholarly communication by incorporating the inherent qualities (native characteristics?) of the Web?
@@ -250,30 +291,8 @@ Who can be a publisher?
 Question: How do we know who is who in a social network without authentication?
 So:
 Hypothesis: lack of widely deployed (standardised) decentralised authentication mechanisms impede adoption of the distributed Web paradigm.
-  </pre>
+</div>
 
-              <section id="technical-research-problem" inlist="" rel="schema:hasPart" resource="#technical-research-problem">
-                <h3 property="schema:name">Technical Research Problem</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>How to {(re)design an artifact}
-                    that satisfies {requirements}
-                    so that {stakeholder goals can be achieved}
-                    in {problem context}?</p>
-
-What must be designed by the researcher? -> The artifact
-
-What is given to the researcher?
-With what will the artifact interact? -> The problem context
-
-What is the interaction?
-What desired properties must it have? -> The requirements
-
-To whom should this interaction be useful?
-To achieve which of their goals? -> The stakeholder goals
-
-The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.
-                </div>
-              </section>
             </div>
           </section>
 
@@ -287,10 +306,10 @@ The results are an exemplar for scholarly information exchange on the Web based 
                 <div datatype="rdf:HTML" property="schema:description" typeof="deo:Contribution">
                   <p>What constitutes a scholarly contribution? While the jury may be out on their verdict, I refer to the findings and results on how an ensemble of open Web standards can be used to enable autonomous, accessible, interpretable, and social scholarly communication on the Web. The explanations and the developments propose a way in which individuals can be self-sovereign and cooperative entities when exchanging their discoveries, knowledge, and innovation.</p>
 
-                <pre>
+                <div class="notes">
 * Show diagram of the area of research eg. forces and functions of knowledge, and place the contributions in that diagram [dokieli: content, accessibility, registration, archiving; LDN: registration, awareness]
 * List of Articles (mostly reviewed works, standards)
-                </pre>
+                </div>
                 </div>
               </section>
 
@@ -312,17 +331,17 @@ The results are an exemplar for scholarly information exchange on the Web based 
 
                   <dl>
                     <dt><cite><a href="scholarly-communication-on-the-web">Scholarly Communication on the Web</a></cite></dt>
-                    <dd>How can we make use of our understanding of technological communication mediums and scientific paradigm shifts? What is the cross section of the architecture of the Web, Web Science and scholarly communication? What are desirable effects and artefacts for a Web-centric scholarly communication? What are the interplay of forces and functions in scientific communication on the Web?</dd>
+                    <dd></dd>
                     <dt><cite><a href="structure-of-scholarly-information">Structure of Scholarly Information</a></cite></dt>
-                    <dd>What are some of the structures and semantics of units of scholarly communication on the Web? How can human and machine-readable representations be expressed and used?</dd>
+                    <dd></dd>
                     <dt><cite><a href="decentralising-scholarly-communication">Decentralising Scholarly Communication</a></cite></dt>
-                    <dd>Why is there a need to research, design and use decentralised systems? What are the elements and degrees of control? What are the characteristics of a decentralised system in context of the interplay of forces and functions in scientific communication?</dd>
+                    <dd></dd>
                     <dt><cite><a href="linked-data-notifications">Linked Data Notifications</a></cite></dt>
-                    <dd>What are the requirements of a decentralised notifications protocol? How can the awareness function be fulfilled for use cases in research and academic communication?</dd>
+                    <dd></dd>
                     <dt><cite><a href="decentralised-linked-research-application">Decentralised Linked Research Application</a></cite></dt>
-                    <dd>What is the information space like for decentralised and linked notifications, annotations, and profiles? How can actors maximise their degree of control of URI ownership, data, and the applications they used? How can a general-purpose clientside application for decentralised article publishing, annotations, and social interactions be realised?</dd>
+                    <dd></dd>
                     <dt><cite><a href="linked-research">Linked Research</a></cite></dt>
-                    <dd>Why are the principles of autonomy, universal access, human and machine-interpretable and social relevant to enabling and empowering the actors in research and academic communication?</dd>
+                    <dd></dd>
                   </dl>
 
                   <p>In <cite><a href="conclusions">Conclusions</a></cite>, I will connect and discuss all findings, meaning, and perspectives for the future.</p>
@@ -444,7 +463,7 @@ The results are an exemplar for scholarly information exchange on the Web based 
                     <dd><a href="http://www.w3.org/1999/xhtml/vocab">http://www.w3.org/1999/xhtml/vocab#</a></dd>
                   </dl>
 
-                  <p>I use the terms "thesis" and "article" interchangeably to refer to the work here. I use the term "section" for significant content grouping. I have refrained from using terms that are closely associated with the print media, so for example, there are no "chapters" in this article, just "sections" or the collection of identifiable and accessible resources.</p>
+                  <p>I use the terms "thesis" and "article" interchangeably to refer to the work here. I use the term "section" for significant content grouping. I have refrained from using terms that are closely associated with the print media, so for example, there are no "chapters" in this article, just "sections" or the collection of identifiable and accessible Web resources.</p>
                 </div>
               </section>
 
