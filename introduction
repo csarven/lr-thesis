@@ -19,7 +19,7 @@
 
         <dl id="document-modified">
           <dt>Modified</dt>
-          <dd><time content="2019-03-15T22:59:53.382Z" datatype="xsd:dateTime" datetime="2019-03-15T22:59:53.382Z" property="schema:dateModified">2019-03-15</time></dd>
+          <dd><time content="2019-03-15T23:30:43.604Z" datatype="xsd:dateTime" datetime="2019-03-15T23:30:43.604Z" property="schema:dateModified">2019-03-15</time></dd>
         </dl>
 
         <dl id="document-license">
@@ -140,22 +140,20 @@
               <section id="technical-research-problems" inlist="" rel="schema:hasPart" resource="#technical-research-problems">
                 <h3 property="schema:name">Technical Research Problems</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>How to {(re)design an artifact}
-                    that satisfies {requirements}
-                    so that {stakeholder goals can be achieved}
-                    in {problem context}?</p>
+                  <p class="notes">
+How to {(re)design an artifact}
+that satisfies {requirements}
+so that {stakeholder goals can be achieved}
+in {problem context}?</p>
 
                   <ul>
                     <li>How can server and client-side web applications be designed
                     to use human and machine-readable units of information
                     so that autonomous actors can create and exchange information
                     in scholarly communication on the Web?</li>
-
-                    <li>Which Web standards can be used in the design of socially-aware applications
-                    that allow shaping of content, </li>
                   </ul>
 
-
+                  <p class="notes">
 What must be designed by the researcher? -&gt; The artifact
 
 What is given to the researcher?
@@ -165,9 +163,8 @@ What is the interaction?
 What desired properties must it have? -&gt; The requirements
 
 To whom should this interaction be useful?
-To achieve which of their goals? -&gt; The stakeholder goals
+To achieve which of their goals? -&gt; The stakeholder goals</p>
 
-The results are an exemplar for scholarly information exchange on the Web based on the application of open standards and architectural design principles.
                 </div>
               </section>
 
@@ -189,26 +186,30 @@ The results are an exemplar for scholarly information exchange on the Web based 
                     <li>What open Web specifications and practices are there for interoperable information spaces, allowing personal identities, authentication and authorization, persistence and preservation, decentralised storage and applications?</li>
                     <li>What are common degrees of control over research and scholarly artefacts?</li>
                     <li>What are the characteristics of Web specifications for forces and functions in scientific communication.</li>
-                  </ul><p class="notes">
-  Effect questions: (artifact x context) produce effects?
-    What effects are produced by the interaction between the artifact and context?
+                    <li>Which standards and practices can be used to design socially-aware read-write Linked Data applications?</li>
+                  </ul>
 
-  Trade-off questions: (alternative artifact x context) produce effects?
-    What effects do similar artifacts have in this context?
-    How does the artifact perform in this context compared to similar artifacts?
+                  <p class="notes">
+Effect questions: (artifact x context) produce effects?
+  What effects are produced by the interaction between the artifact and context?
 
-  Sensitivity questions: (artifact x alternative context) produce effects?
-    What effects are produced by the artifact in different contexts?
-    What happens if the context becomes bigger/smaller?
-    What assumptions does the design of the artifact make about its context?
+Trade-off questions: (alternative artifact x context) produce effects?
+  What effects do similar artifacts have in this context?
+  How does the artifact perform in this context compared to similar artifacts?
 
-  Requirements satisfaction questions: Do effects satisfy requirements?
-    Does the stimulus-response behavior satisfy functional requirements?
-    Does the performance satisfy nonfunctional requirements?</p>
+Sensitivity questions: (artifact x alternative context) produce effects?
+  What effects are produced by the artifact in different contexts?
+  What happens if the context becomes bigger/smaller?
+  What assumptions does the design of the artifact make about its context?
+
+Requirements satisfaction questions: Do effects satisfy requirements?
+  Does the stimulus-response behavior satisfy functional requirements?
+  Does the performance satisfy nonfunctional requirements?</p>
 
 
                 </div>
-              </section><div class="notes">
+              </section>
+              <div class="notes">
 * characterisation of scholarly communication in context of the Web
 * devising a decentralised model for scholarly communication
 * human and machine-readable representation for units of communication and interactions
@@ -295,18 +296,6 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
             <div datatype="rdf:HTML" property="schema:description">
               <p>Dive into:</p>
 
-              <section id="contributions" inlist="" rel="schema:hasPart" resource="#contributions">
-                <h3 property="schema:name">Contributions</h3>
-                <div datatype="rdf:HTML" property="schema:description" typeof="deo:Contribution">
-                  <p>What constitutes a scholarly contribution? While the jury may be out on their verdict, I refer to the findings and results on how an ensemble of open Web standards can be used to enable autonomous, accessible, interpretable, and social scholarly communication on the Web. The explanations and the developments propose a way in which individuals can be self-sovereign and cooperative entities when exchanging their discoveries, knowledge, and innovation.</p>
-
-                <div class="notes">
-* Show diagram of the area of research eg. forces and functions of knowledge, and place the contributions in that diagram [dokieli: content, accessibility, registration, archiving; LDN: registration, awareness]
-* List of Articles (mostly reviewed works, standards)
-                </div>
-                </div>
-              </section>
-
               <section id="document-structure" inlist="" rel="schema:hasPart" resource="#document-structure">
                 <h3 property="schema:name">Structure</h3>
                 <div datatype="rdf:HTML" property="schema:description">
@@ -321,7 +310,7 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
                     <figcaption>This Thesis is a <q>Knowledge Graph</q></figcaption>
                   </figure>
 
-                  <p>This thesis is composed of the following topics:</p>
+                  <p>This thesis is sectioned into following main topic areas:</p>
 
                   <dl>
                     <dt><cite><a href="scholarly-communication-on-the-web">Scholarly Communication on the Web</a></cite></dt>
