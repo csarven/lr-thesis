@@ -771,7 +771,7 @@ document.addEventListener('DOMContentLoaded', function(){
                     <figcaption>Soliciting reviews, reviewing, and announcements</figcaption>
                   </figure>
 
-                  <p>This particular scenario shows that it is possible for each actor to create and control resources, including articles, annotations, and notifications at their PDS or preferred locations. It is one way to combine standards-compliant mechanisms meanwhile actors can exercise their free expression, self-publish, as well as share their works with other actors and services. In essence, the registration, certification, awareness, and archiving functions in scholarly communication are fulfilled in this scenario without a central authority.</p>
+                  <p>This particular scenario shows that it is possible for each actor to create and control resources, including articles, annotations, and notifications at their PDS or preferred locations. It is one way to combine standards-compliant mechanisms meanwhile actors can shape their content, self-publish, as well as share their works with other actors and services. In essence, the registration, certification, awareness, and archiving functions in scholarly communication are fulfilled in this scenario without a central authority.</p>
                 </div>
               </section>
 
