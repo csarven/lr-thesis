@@ -146,11 +146,27 @@ that satisfies {requirements}
 so that {stakeholder goals can be achieved}
 in {problem context}?</p>
 
-                  <ul>
+                  <ul class="notes">
                     <li>How can server and client-side web applications be designed
                     to read and write human and machine-readable units of information
                     so that autonomous actors can exchange information
                     in scholarly communication on the Web?</li>
+
+
+                    <li>Interoperable applications through Linked Data Notifications and Web Annotations.</li>
+                    <!-- <li>Creating human and machine-interpretable Web resources.</li> -->
+                    <li>Actors use their preferred WebID in clientside applications.</li>
+                    <li>Actors use their preferred clientside application to perform HTTP-based read-write operations on their where they have access to.</li>
+                    <li>Actors switch between applications without having to move or alter the schema of their data.</li>
+                    <li>Actors relocating data without having to change their preferred application.</li>
+                    <li>Querying and visualising statistical data from clientside applications.</li>
+                <li>Actors can use their preferred applications to discover, reuse, and send notifications.</li>
+                <li>Actors store incoming notifications where they prefer.</li>
+                <li>Actors switching between applications without having to move their data.</li>
+                <li>Actors change the location of their data without having to change their application.</li>
+                <li>Actors can use their own WebIDs to identify themselves with, and use their profile information to adapt the user interface.</li>
+                <li>Actors can publish and consume human and machine-readable Linked Data, and decide where they are made available from and the conditions for access and reuse.</li>
+                <li>Actors can use the notification system to announce, as well as discover relevant information.</li>
                   </ul>
 
                   <p class="notes">
