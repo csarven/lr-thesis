@@ -61,7 +61,7 @@
               <section id="stakeholders" inlist="" rel="schema:hasPart" resource="#stakeholders">
                 <h3 property="schema:name">Stakeholders</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>There are various stakeholders in research acting as forces that are both internal and external to scholarly communication. In order to address societal concerns, research sponsors fund projects to attain reusable technical designs and acquire new knowledge. Knowledge workers like researchers and scholars are driven by curiosity to advance our understanding of the universe. The public is interested in accessing applications of research to educate and for the well-being of life. The market needs efficient functioning of scientific communication in order to translate the output to capital.</p>
+                  <p>In research projects, there are various stakeholders acting as internal and external forces in scholarly communication. In order to address societal concerns, research sponsors fund projects to attain reusable technical designs and acquire new knowledge in the process. Knowledge workers like researchers and scholars are driven by curiosity to advance our understanding of the universe. The public is interested in accessing applications of research to educate and for the well-being of life. The industry needs efficient functioning of scientific communication in order to translate the return of research capital.</p>
                 </div>
               </section>
 
@@ -320,7 +320,7 @@ Hypothesis: lack of widely deployed (standardised) decentralised authentication 
                     <footer><cite><a data-versiondate="2019-03-12T15:07:33Z" dataversion-url="https://web.archive.org/web/20190312150733/https://biblio.ugent.be/publication/522209/file/1873597.pdf" href="https://biblio.ugent.be/publication/522209/file/1873597.pdf">Dynamic and context-sensitive linking of scholarly information</a></cite>, Van de Sompel, 2000</footer>
                   </blockquote>
 
-                  <p>The machine-readable information that this thesis comprises can be visualised as a graph:</p>
+                  <p>All information of significance in this thesis is made available as <cite><a href="scholarly-communication-on-the-web#linked-data">Linked Data</a></cite> on the Web. Here is a visualisation:</p>
 
                   <figure>
                     <figcaption>This Thesis is a <q>Knowledge Graph</q></figcaption>
