@@ -106,8 +106,12 @@
                     <li>Common structures and semantics of units of scholarly communication on the Web.</li>
                     <li>Approaches in human and machine-readable representations on the Web.</li>
                     <li>The characteristics and effects of centralised and decentralised systems.</li>
-                    <li>Specifications and practices for interoperable information spaces, allowing personal identities, authentication and authorization, persistence and preservation, decentralised storage and applications.</li>
-                    <li>Common elements and degrees of control over research and scholarly artefacts.</li>
+                    <li>Specifications and practices for interoperable information spaces.</li>
+                    <li>Universal identities on the Web.</li>
+                    <li>Authentication and authorization mechanisms.</li>
+                    <li>Persistence and preservation of Web resources.</li>
+                    <li>Characteristics of decentralised dataspaces and interoperable applications.</li>
+                    <li>Actors degrees of control over identifiers, data and applications.</li>
                     <li>Characteristics of Web specifications for forces and functions in scientific communication.</li>
                   </ul>
 
@@ -145,7 +149,7 @@
                   <p>How to design decentralised Web applications
                     that can read and write human- and machine-readable units of information
                     so that actors can independently exchange information
-                    in an open scholarly communication system?</p>
+                    in an open and decoupled scholarly communication ecosystem?</p>
 
                   <p class="notes">
 How to {(re)design an artifact}
