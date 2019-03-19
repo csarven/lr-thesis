@@ -518,7 +518,7 @@
           <section id="degree-of-control" inlist="" rel="schema:hasPart" resource="#degree-of-control">
             <h2 property="schema:name">Degree of Control</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>We can observe different degrees of control; individual and third-party opposite ends for URI ownership, data, and applications:</p>
+              <p>We can observe different degrees of control; individual and third-party opposite ends for identifiers, data, and applications:</p>
 
               <dl id="identifiers-data-applications">
                 <dt>Identifiers</dt>
@@ -530,15 +530,15 @@
               </dl>
 
               <figure id="degree-of-control-individual-third-party">
-                <pre>                      |------ URI ownership ------|
+                <pre>                      |------ Identifiers ------|
 Individual controlled |------ Data----------------| Third-party controlled
                       |------ Applications -------|</pre>
-                <figcaption>Degree of control (individual or third-party) for URI ownership, data, and applications</figcaption>
+                <figcaption>Degree of control (individual or third-party) for identifiers, data, and applications</figcaption>
               </figure>
 
               <p>On one end of the spectrum, an individual registers their own domain name, hosts their personal storage, and uses applications of their choosing. With that, they have highest degree of autonomy for their online presence and interactions. On the other end of the spectrum, an individual's identifier as well as a range of expressible identities, the data location and conditions of use, and assigned applications by third-party services.</p>
 
-              <p>I focus on interactions based on the <a href="https://en.wikipedia.org/wiki/Client%E2%80%93server_model">client–server model</a> under the <a href="scholarly-communication-on-the-web#architecture-of-the-web">architecture of the Web</a>, where data and applications are conceptually and operationally decoupled units.</p>
+              <p>I focus on interactions based on the <a href="https://en.wikipedia.org/wiki/Client%E2%80%93server_model">client–server model</a> under the <a href="scholarly-communication-on-the-web#architecture-of-the-web">architecture of the Web</a>, identifiers and data are conceptually decoupled components. In the case of identifiers, I focus mainly on HTTP-based URIs, and the social conventions around <a href="#uri-ownership">URI Ownership</a>. Finally, the applications comprise software that actors can use.</p>
 
               <p>While centralisation of data and applications are two distinct areas of concern, some of the challenges we face in scholarly communication make them appear as one. When we discuss challenges around access to knowledge, the location and quality of the data is often conflated with the tools or services which are required to access the data. Being required to use particular software to create, format or share research articles, to create accounts on particular services, or agree to certain terms and conditions impose a set of characteristics on research output or data itself.</p>
 
