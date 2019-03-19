@@ -161,6 +161,11 @@ Need:
 
 <p id="final-thoughts">dokieli emerged out of my frustrations with the publishing and consuming practices in the Semantic Web research community.</p>
 
+<p>
+  Hypothesis:
+  * Compared to standard (established) publication (registration) approach, actor (content creator) having control of registration and accessibility functions improves shaping of information and interpretability
+  ** how much improve? what's significant?</p>
+
               <p>I propose a shift in scholarly communication: adoption of <em>native</em> Web technologies and standards declaratively from ground up; authoring, publishing and consuming, in order to improve the quality of knowledge representation and acquisition on the Web. Researchers should control and make their knowledge accessible to the greatest extent possible. Our argument is antithetical to knowledge extraction methods from non-machine processable documents, post-publishing semantic uplifting, as well as inadequate user experiences in context of the Web. In our approach, we adopt Web technologies which are designed with the principles to evolve and have information accessible to many.</p>
 
           <section id="the-printing-press-as-an-agent-of-change" inlist="" rel="schema:hasPart" resource="#the-printing-press-as-an-agent-of-change">

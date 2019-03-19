@@ -98,7 +98,8 @@
 
                   <ul>
                     <li>Situating scholarly communication with respect to technological communication mediums and scientific paradigms.</li>
-                    <li>Foundations of the architecture of the Web and the objectives of Web Science.</li>
+                    <li>Foundations of the architecture of the Web.</li>
+                    <li>Objectives of Web Science.</li>
                     <li>History and state of scholarship on the Web.</li>
                     <li>Examining practises in social media and academia, quality control and certification, privileged access to scholarly knowledge and various forms of gatekeeping.</li>
                     <li>Core forces and functions in scientific communication.</li>
@@ -111,7 +112,8 @@
                     <li>Authentication and authorization mechanisms.</li>
                     <li>Persistence and preservation of Web resources.</li>
                     <li>Characteristics of decentralised dataspaces and interoperable applications.</li>
-                    <li>Actors degrees of control over identifiers, data and applications.</li>
+                    <li>Actors' degrees of control over identifiers, data and applications.</li>
+                    <li>Systematics of an actor-controlled decentralised scholarly system.</li>
                     <li>Characteristics of Web specifications for forces and functions in scientific communication.</li>
                   </ul>
 
@@ -122,6 +124,7 @@
               <section id="prediction-goals" inlist="" rel="schema:hasPart" resource="#prediction-goals">
                 <h3 property="schema:name">Prediction Goals</h3>
                 <div datatype="rdf:HTML" property="schema:description">
+                  <div class="notes">
                   <p class="todo">Probably best to write this after the LR section or at the same time as Conclusions.</p>
 
                   <p>What do you think will happen?</p>
@@ -131,6 +134,9 @@
                   <p>Can dokieli be used in a non-domain specific way? yes</p>
 
                   <p>Is and can our system be productive, resilient and organised? Can it evolve? If redesigned, can it operate within established and unexpected parameters as part of a even greater larger ecosystem? What assumptions have we adopted?</p>
+
+                  <p>Why self-publishing and what is it like to actualise? What constitutes a scholarly contribution on the Web? What can be deconstructed?</p>
+                  </div>
                 </div>
               </section>
             </div>
@@ -196,7 +202,8 @@ To achieve which of their goals? -&gt; The stakeholder goals</p>
 
                   <ul>
                     <li>How can we situate scholarly communication using the Web with respect to technological communication mediums and scientific paradigms?</li>
-                    <li>What does the architecture of the Web and the framework of Web Science include?</li>
+                    <li>What is the architecture of the Web?</li>
+                    <li>What does the framework of Web Science include?</li>
                     <li>What is part of the evolution of scholarship on the Web?</li>
                     <li>What are the practises in social media and academia, quality control and certification, privileged access to scholarly knowledge and various forms of gatekeeping?</li>
                     <li>What are the core forces and functions in scientific communication?</li>
@@ -204,10 +211,15 @@ To achieve which of their goals? -&gt; The stakeholder goals</p>
                     <li>What are standardised structures and semantics to represent units of scholarly communication on the Web?</li>
                     <li>How can human and machine-readable Web resources be represented?</li>
                     <li>What are the core characteristics of centralised and decentralised systems?</li>
-                    <li>What open Web specifications and practices are there for interoperable information spaces, allowing personal identities, authentication and authorization, persistence and preservation, decentralised storage and applications?</li>
-                    <li>What are common degrees of control over research and scholarly artefacts?</li>
-                    <li>What are the characteristics of Web specifications for forces and functions in scientific communication.</li>
-                    <li>Which standards and practices can be used to design socially-aware read-write Linked Data applications?</li>
+                    <li>What open Web specifications and practices are there for interoperable information spaces?</li>
+                    <li>How do universal identities on the Web work?</li>
+                    <li>What authentication and authorization mechanisms are there?</li>
+                    <li>How are persistence and preservation of Web resources achieved?</li>
+                    <li>What are the characteristics of decentralised dataspaces and interoperable applications?</li>
+                    <li>What are actors' degrees of control over identifiers, data and applications?</li>
+                    <li>What are the systematics of an actor-controlled decentralised scholarly system?</li>
+                    <li>What are the characteristics of Web specifications for forces and functions in scientific communication?</li>
+                    <li>How can standards and practices be applied to design a socially-aware read-write Linked Data client applications?</li>
                   </ul>
 
                   <p class="notes">
@@ -227,88 +239,8 @@ Requirements satisfaction questions: Do effects satisfy requirements?
   Does the stimulus-response behavior satisfy functional requirements?
   Does the performance satisfy nonfunctional requirements?</p>
 
-
                 </div>
               </section>
-              <div class="notes">
-* characterisation of scholarly communication in context of the Web
-* devising a decentralised model for scholarly communication
-* human and machine-readable representation for units of communication and interactions
-
-
- What can scholarly communication achieve when we study and celebrate maximum innovation?
-
-  How can we improve the scholarly communication process on the Web?
-  How can we improve scholarly communication by incorporating the inherent qualities (native characteristics?) of the Web?
-
-  How can we improve scholarly communication .. autonomous, .. social
-
-  What is the issue of centralisation for scholars on the Web?
-  How is the issue of centralisation for scholars on the Web?
-
-  How can open Web-native standards be applied to realise a contributor-centric scholarly communication?
-
-  How can open (Semantic) Web-native standards contribute to solve information centralisation and interoperability problems in publishing, annotations scholarly communication, lower their access costs, increase their quality, and facilitate their reuse and analysis? If not, what extensions are needed?
-
-
-                <ul>
-                  <li>What are the units of human and machine-readable scholarly information? Why self-publishing and what is it like to actualise? What constitutes a scholarly contribution on the Web? What can be deconstructed? What and at what granularity can information be communicated? What are persistent and permanent artefacts? Where would distributed scholarly information exist, be findable and used?</li>
-                  <li>Does scholarly communication on the Web amplify or intensify decentralisation? Or is it the case where scholarly information is easily centralised? How can the workflows in scholarly communication be realised using Web technologies in a decentralised fashion? Do we have the fundamental mechanisms and ability to derive at feasible implementations to adopt a decentralised scholarly Web paradigm?</li>
-                  <li>Is there a paradigm shift and what is our situation? What are the effects of social Web on scholars? Are the new forms of involvement revive what was once lost? How can scholars participate and exchange information in a decentralised manner?</li>
-                </ul>
-
-
-  What does improve mean:
-  * Technical: Web-native (5 LR principles?); ..
-  ** How can we realize a Web-native and decentralised scholarly communication?
-
-  ** How can we represent and author scholarly information on the Web? (structure of scholarly information)
-  ** Why self-publishing (contributions) and how can we facilitate it? (decentralisation, social scholarly web)
-  ** How can it be more social?
-  ** How can we reuse data to improve information quality towards learnability and trust?
-  *** integrate data and textual publications? (interactive linked statistics)
-
-
-
-  * Social: collaboration and workflows
-  ** How can collaboration and workflows in scholarly communication be realised using Web technologies in decentralised manner? (publishing, annotations, call for contributions, proceedings...)
-
-  * Economic:
-  ** Cost for publishing and reuse?
-
-  [
-  Contrasting approaches;.. removal of some barriers (technological)
-  Works technologically but there are other variables at play..
-  ]
-
-  * how should we combine open standards to realise this?
-
-  Hypothesis:
-  * Compared to standard (established) publication (registration) approach, actor (content creator) having control of registration and accessibility functions improves shaping of information and interpretability
-  ** how much improve? what's significant?
-
-  * check qualitative hypothesis.. ?
-
-
-  How to we ensure that inquiries can locate units of information?
-
-
-  problem statement:
-  * a lot of defficinencies in the current SC... it is however possible SC fulfills all required functinos.. self-publishing paradigm..
-
-
-  How do people define "open communication"?
-
-  https://en.wikipedia.org/wiki/Design_science
-
-
-Who can be a publisher?
-  Why self-publishing?
-
-Question: How do we know who is who in a social network without authentication?
-So:
-Hypothesis: lack of widely deployed (standardised) decentralised authentication mechanisms impede adoption of the distributed Web paradigm.</div>
-
             </div>
           </section>
 
