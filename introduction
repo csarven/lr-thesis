@@ -56,7 +56,7 @@
           <section id="research-goals" inlist="" rel="schema:hasPart" resource="#research-goals">
             <h2 property="schema:name">Research Goals</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>This section serves as <em>an outline</em> for social and technical research goals. Each goal is further explored and related material is reviewed in relevant sections of this thesis.</p>
+              <p>This section contains the <em>outlines</em> for social and technical research goals of this thesis. Each goal is further explored and related material is reviewed in relevant sections.</p>
 
               <section id="stakeholders" inlist="" rel="schema:hasPart" resource="#stakeholders">
                 <h3 property="schema:name">Stakeholders</h3>
@@ -70,31 +70,31 @@
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>There are several sociotechnical limitations in the contemporary paradigm that the scholarly communication operates in. I will summarise a subset of problem areas relating to interoperability and autonomy. Each problem space will be further explored in relevant sections of this thesis.</p>
 
-                  <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover and build new relations.</p>
+                  <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover and make new connections between information.</p>
 
                   <p>Data on the Web tends to be locked into non-interoperable Web systems or be only usable by applications which created it. Actors - creators and readers - in these systems often do not have the means to switch between applications and share data between them.</p>
 
                   <p>There is a lack of diverse value chains for different units of scholarly communication due to tightly coupled proprietary systems. The actors in these systems create and exchange information by (or forced into) using packaged systems and workflows, give up their rights, and not have control over how their creations can be disseminated and reused.</p>
 
-                  <p>The actors in the system commonly use print-centric tools and data representations to exchange content on the Web and neglect native affordances of the Web (media). Actors' possibility to shape their contributions in Web media is typically constrained to third-party service provider's centralised and non-interoperable solutions. Consequently, resulting in deficiencies and in an inequitable ecosystem.</p>
+                  <p>The actors in the system commonly use print-centric tools and data representations to exchange content on the Web and neglect to take advantage of the available affordances of the Web (media). Actors' possibility to shape their contributions in Web media is typically constrained to third-party service provider's centralised and non-interoperable solutions. Consequently, resulting in deficiencies in the ecosystem.</p>
 
-                  <p>Social aspects of scholarly communication are not well tied together in that actors "rent" personal and professional identifiers and storage from third-parties, manage multiple disconnected profiles, their social connections, and data spaces.</p>
+                  <p>Actors rental of personal and professional identifiers, as well as data storage from third-parties are subject to privacy issues. Actors typically manage multiple disconnected profiles, social connections, and data spaces.</p>
 
-                  <p>These class of problems in the scholarly ecosystem have implications on access, interoperability, findability, cost and privacy, to name a few.</p>
+                  <p>These class of problems in the scholarly ecosystem have implications on access, interoperability, findability, cost and privacy.</p>
                 </div>
               </section>
 
               <section id="technical-research-goals" inlist="" rel="schema:hasPart" resource="#artifact-design-goals">
                 <h3 property="schema:name">Technical Research Goals</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>In order for systems and actors in scholarly communication to efficiently and effectively participate in exchanging information and knowledge through the Web, they need to have more control over their artefacts, be able to use their preferred data spaces and socially-aware applications, use own Web identities in applications, ability to better shape their digital creations, as well as to enable and facilitate their reuse.</p>
+                  <p>In order for systems and actors in scholarly communication to efficiently and effectively participate in exchanging information and knowledge through the Web, they need to have more control over their artefacts, be able to use their preferred data spaces and socially-aware applications, use own Web identities in applications, have ability to shape their digital creations as far as the Web architecture allows, and facilitate their reuse.</p>
                 </div>
               </section>
 
               <section id="knowledge-goals" inlist="" rel="schema:hasPart" resource="#knowledge-goals">
                 <h3 property="schema:name">Knowledge Goals</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>The following knowledge goals are aimed to describe key mechanisms underlying existing technical designs in context of the <a href="#problemc-context">problem context</a>.</p>
+                  <p>The following knowledge goals are aimed to describe key mechanisms underlying existing <a href="#technical-research-goals">technical research goals</a> (designs) in context of the <a href="#problemc-context">problem context</a>.</p>
 
                   <ul>
                     <li>Situating scholarly communication with respect to technological communication mediums and scientific paradigms.</li>
@@ -123,7 +123,7 @@
                   <p>What do you think will happen?</p>
 
                   <p>Change in paradigm? Implications? eg. creator self-archive/publishes.. community accessible quality-control/certification.</p>
-                  <p><cite><a href="linked-research">Linked Research</a></cite>-like?</p>
+                  <p>Design characteristics of <cite><a href="linked-research">Linked Research</a></cite>-like?</p>
                   <p>Can dokieli be used in a non-domain specific way? yes</p>
 
                   <p>Is and can our system be productive, resilient and organised? Can it evolve? If redesigned, can it operate within established and unexpected parameters as part of a even greater larger ecosystem? What assumptions have we adopted?</p>
@@ -135,11 +135,18 @@
           <section id="research-questions" inlist="" rel="schema:hasPart" resource="#research-questions">
             <h2 property="schema:name">Research Questions</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>I first outline the <a href="#technical-research-problems">technical research problems</a> and then a set of corresponding <a href="#knowledge-questions">knowledge questions</a>.</p>
+              <p>I first outline the <a href="#technical-research-problems">technical research problems</a> and then a set of corresponding <a href="#knowledge-questions">knowledge questions</a>. The questions refine the <a href="#reseach-goals">research goals</a>.</p>
 
               <section id="technical-research-problems" inlist="" rel="schema:hasPart" resource="#technical-research-problems">
                 <h3 property="schema:name">Technical Research Problems</h3>
                 <div datatype="rdf:HTML" property="schema:description">
+                  <p>The overarching design problem is the following:</p>
+
+                  <p>How to design decentralised Web applications
+                    that can read and write human- and machine-readable units of information
+                    so that actors can independently exchange information
+                    in an open scholarly communication system?</p>
+
                   <p class="notes">
 How to {(re)design an artifact}
 that satisfies {requirements}
@@ -147,12 +154,6 @@ so that {stakeholder goals can be achieved}
 in {problem context}?</p>
 
                   <ul class="notes">
-                    <li>How can server and client-side web applications be designed
-                    to read and write human and machine-readable units of information
-                    so that autonomous actors can exchange information
-                    in scholarly communication on the Web?</li>
-
-
                     <li>Interoperable applications through Linked Data Notifications and Web Annotations.</li>
                     <!-- <li>Creating human and machine-interpretable Web resources.</li> -->
                     <li>Actors use their preferred WebID in clientside applications.</li>
