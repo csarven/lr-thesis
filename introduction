@@ -173,9 +173,9 @@
                       so that actors can independently compose and disseminate information
                       in order to decouple applications and data use?</dd>
 
-                    <dt id="technical-research-problem-fair-linked-data"><abbr title="Findable, Accessible, Interoperable, Reusable">FAIR</abbr> Linked Data</dt>
+                    <dt id="technical-research-problem-linked-data">Linked Data</dt>
                     <dd>How can a server-client application interaction
-                      produce data that is findable, accessible, interoperable, and reusable
+                      produce Linked Data that is findable, accessible, interoperable, and reusable
                       so that actors can use their preferred applications
                       in order to foster a human- and machine-readable ecosystem?</dd>
 
@@ -192,7 +192,7 @@
                   <nav>
                     <ul>
                       <li><a href="#technical-research-problem-decentralised-notifications">Decentralised Notifications</a> in <cite><a href="linked-data-notifications">Linked Data Notifications</a></cite></li>
-                      <li><a href="#technical-research-problem-fair-linked-data">FAIR Linked Data</a> and <a href="#technical-research-problems-raca-aware-application">RACA-Aware Application</a> in <cite><a href="decentralised-linked-research-appplication">Decentralised Linked Research Application</a></cite></li>
+                      <li><a href="#technical-research-problem-linked-data">Linked Data</a> and <a href="#technical-research-problems-raca-aware-application">RACA-Aware Application</a> in <cite><a href="decentralised-linked-research-appplication">Decentralised Linked Research Application</a></cite></li>
                     </ul>
                   </nav>
                 </div>
@@ -280,7 +280,7 @@ Requirements satisfaction questions: Do effects satisfy requirements?
                     <dt><cite><a href="linked-data-notifications">Linked Data Notifications</a></cite></dt>
                     <dd>Answers technical research problem on how to design a decentralised notification protocol.</dd>
                     <dt><cite><a href="decentralised-linked-research-application">Decentralised Linked Research Application</a></cite></dt>
-                    <dd>Answers technical research problems on how to design a FAIR and RACA-Aware application.</dd>
+                    <dd>Answers technical research problems on how to design a RACA-Aware Linked Data application.</dd>
                     <dt><cite><a href="linked-research">Linked Research</a></cite></dt>
                     <dd>A description and explanation of the effects of applying Web-centric standards and practices in order to enable and empower creators and consumers of open knowledge, as well as a generalisation of core principles that can serve as an exemplar to set forth a shift in scholarly communication.</dd>
                   </dl>
