@@ -231,12 +231,10 @@
 
                     <li>What is the mechanism a client application to perform decentralised read-write operations.</li>
 
-                    <li>What effects are produced by the interaction between the artifact and problem context?</li>
-                    <li>What effects do similar artifacts have in this context?</li>
+                    <li>What effects are produced by the interaction between the artifact and context?</li>
                     <li>How does the artifact perform in this context compared to similar artifacts?</li>
                     <li>What effects are produced by the artifact in different contexts?</li>
-                    <li>What assumptions does the design of the artifact make about its context?</li>
-                    <li class="todo">Does the stimulus-response behavior satisfy functional requirements?</li>
+                    <li>Does the stimulus-response behavior satisfy functional requirements?</li>
                     <li>Does the performance satisfy nonfunctional requirements?</li>
                   </ul>
                 </div>
