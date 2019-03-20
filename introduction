@@ -62,6 +62,8 @@
                 <h3 property="schema:name">Stakeholders</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>In research projects, there are various stakeholders acting as internal and external forces in scholarly communication. In order to address societal concerns, research sponsors fund projects to attain reusable technical designs and acquire new knowledge in the process. Knowledge workers like researchers and scholars are driven by curiosity to advance our understanding of the universe. The public is interested in accessing applications of research to educate and for the well-being of life. The industry needs efficient functioning of scientific communication in order to translate the return of research capital.</p>
+
+                  <p>In the underlying work, I am a stakeholder acting as a knowledge worker, a member of the public, an operator (<q>end user</q>, maintainer, operational supporter).</p>
                 </div>
               </section>
 
@@ -150,59 +152,38 @@
               <section id="technical-research-problems" inlist="" rel="schema:hasPart" resource="#technical-research-problems">
                 <h3 property="schema:name">Technical Research Problems</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>The problems consist of artifacts, requirements, stakeholders, and context. The central design problem is the following:</p>
+                  <p>Technical research problems - also known as <q>research questions</q> - consist of artifacts to (re)design, requirements to satisfy, stakeholders goals to achieve, and the problem context. The overarching technical research problem is defined as follows:</p>
 
-                  <p>How to design decentralised Web applications
+                  <dl id="technical-research-problem-central">
+                    <dt>Central Design Problem</dt>
+                    <dd>How to design decentralised Web applications
                     that can read and write human- and machine-readable units of information
                     so that actors can independently exchange information
-                    in an open and decoupled scholarly communication ecosystem?</p>
+                    in an open and decoupled scholarly communication ecosystem?</dd>
+                  </dl>
 
                   <p>This research problem can be refined into three sub-problems:</p>
 
-                  <p class="notes">
-How to {(re)design an artifact}
-that satisfies {requirements}
-so that {stakeholder goals can be achieved}
-in {problem context}?</p>
+                  <dl id="technical-research-problems-internal">
+                    <dt id="technical-research-problem-decentralised-notifications">Decentralised Notifications</dt>
+                    <dd>How to design a Web communication protocol
+                      that enables applications to create, discover and consume universally identifiable and structured notifications
+                      so that actors can independently compose and disseminate information
+                      in order to decouple applications and data use?</dd>
 
-                  <ul>
-                    <li>How can a client application
-                      perform registration, archiving, certification and awareness
-                      so that actors can autonomously participate
-                      in order read-write access-controlled Linked Data?
-                    </li>
-                  </ul>
+                    <dt id="technical-research-problem-fair-linked-data"><abbr title="Findable, Accessible, Interoperable, Reusable">FAIR</abbr> Linked Data</dt>
+                    <dd>How can a server-client application interaction
+                      produce data that is findable, accessible, interoperable, and reusable
+                      so that actors can use their preferred applications
+                      in order to foster a human- and machine-readable ecosystem?</dd>
 
-
-                  <ul class="notes">
-                    <li>Interoperable applications through Linked Data Notifications and Web Annotations.</li>
-                    <!-- <li>Creating human and machine-interpretable Web resources.</li> -->
-                    <li>Actors use their preferred WebID in clientside applications.</li>
-                    <li>Actors use their preferred clientside application to perform HTTP-based read-write operations on their where they have access to.</li>
-                    <li>Actors switch between applications without having to move or alter the schema of their data.</li>
-                    <li>Actors relocating data without having to change their preferred application.</li>
-                    <li>Querying and visualising statistical data from clientside applications.</li>
-                <li>Actors can use their preferred applications to discover, reuse, and send notifications.</li>
-                <li>Actors store incoming notifications where they prefer.</li>
-                <li>Actors switching between applications without having to move their data.</li>
-                <li>Actors change the location of their data without having to change their application.</li>
-                <li>Actors can use their own WebIDs to identify themselves with, and use their profile information to adapt the user interface.</li>
-                <li>Actors can publish and consume human and machine-readable Linked Data, and decide where they are made available from and the conditions for access and reuse.</li>
-                <li>Actors can use the notification system to announce, as well as discover relevant information.</li>
-                  </ul>
-
-                  <p class="notes">
-What must be designed by the researcher? -&gt; The artifact
-
-What is given to the researcher?
-With what will the artifact interact? -&gt; The problem context
-
-What is the interaction?
-What desired properties must it have? -&gt; The requirements
-
-To whom should this interaction be useful?
-To achieve which of their goals? -&gt; The stakeholder goals</p>
-
+                    <dt id="technical-research-problem-raca-aware-application"><abbr title="Registration, Awareness, Certification, Archiving">RACA</abbr>-Aware Application</dt>
+                    <dd>How can a client application
+                      perform registration, awareness, certification and archiving
+                      so that actors can autonomously and cooperatively participate
+                      in reading and writing access-controlled Linked Data?
+                    </dd>
+                  </dl>
                 </div>
               </section>
 
