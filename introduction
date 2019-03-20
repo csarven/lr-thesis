@@ -119,6 +119,8 @@
                     <li>Actors' degrees of control over identifiers, data and applications.</li>
                     <li>Systematics of an actor-controlled decentralised scholarly system.</li>
                     <li>Characteristics of Web specifications for forces and functions in scientific communication.</li>
+                    <li>The communication protocol that decouples application roles.</li>
+                    <li>The mechanism for a client application to perform decentralised read-write operations.</li>
                   </ul>
 
                   <p>The corpus of collected knowledge is driven by understanding the current state of knowledge in the field based on scientific, technical, and professional literature. The research knowledge was collected with the logistical, and in my opinion, ethical constraints that are outlined in <cite><a href="#literature-review-and-citations">Literature Review and Citations</a></cite>.</p>
@@ -181,9 +183,9 @@
 
                     <dt id="technical-research-problem-raca-aware-application"><abbr title="Registration, Awareness, Certification, Archiving">RACA</abbr>-Aware Application</dt>
                     <dd>How can a client application
-                      perform registration, awareness, certification and archiving
-                      so that actors can autonomously and cooperatively participate
-                      in reading and writing access-controlled Linked Data?
+                      engage in registration, awareness, certification and archiving
+                      so that actors can autonomously cooperate
+                      in reading and writing access-controlled decentralised Linked Data?
                     </dd>
                   </dl>
 
@@ -211,8 +213,10 @@
                     <li>What are the practises in social media and academia, quality control and certification, privileged access to scholarly knowledge and various forms of gatekeeping?</li>
                     <li>What are the core forces and functions in scientific communication?</li>
                     <li>What are the potential effects and artefacts of Web-centric scholarly communication?</li>
+
                     <li>What are standardised structures and semantics to represent units of scholarly communication on the Web?</li>
                     <li>How can human and machine-readable Web resources be represented?</li>
+
                     <li>What are the core characteristics of centralised and decentralised systems?</li>
                     <li>What open Web specifications and practices are there for interoperable information spaces?</li>
                     <li>How do universal identities on the Web work?</li>
@@ -223,27 +227,18 @@
                     <li>What are the systematics of an actor-controlled decentralised scholarly system?</li>
                     <li>What are the characteristics of Web specifications for forces and functions in scientific communication?</li>
 
+                    <li>What is the mechanism of a communication protocol to decouple application roles to exchange structured notifications?</li>
 
+                    <li>What is the mechanism a client application to perform decentralised read-write operations.</li>
 
+                    <li>What effects are produced by the interaction between the artifact and problem context?</li>
+                    <li>What effects do similar artifacts have in this context?</li>
+                    <li>How does the artifact perform in this context compared to similar artifacts?</li>
+                    <li>What effects are produced by the artifact in different contexts?</li>
+                    <li>What assumptions does the design of the artifact make about its context?</li>
+                    <li class="todo">Does the stimulus-response behavior satisfy functional requirements?</li>
+                    <li>Does the performance satisfy nonfunctional requirements?</li>
                   </ul>
-
-                  <p class="notes">
-Effect questions: (artifact x context) produce effects?
-  What effects are produced by the interaction between the artifact and context?
-
-Trade-off questions: (alternative artifact x context) produce effects?
-  What effects do similar artifacts have in this context?
-  How does the artifact perform in this context compared to similar artifacts?
-
-Sensitivity questions: (artifact x alternative context) produce effects?
-  What effects are produced by the artifact in different contexts?
-  What happens if the context becomes bigger/smaller?
-  What assumptions does the design of the artifact make about its context?
-
-Requirements satisfaction questions: Do effects satisfy requirements?
-  Does the stimulus-response behavior satisfy functional requirements?
-  Does the performance satisfy nonfunctional requirements?</p>
-
                 </div>
               </section>
             </div>
@@ -331,6 +326,8 @@ Requirements satisfaction questions: Do effects satisfy requirements?
               <section id="typographic-conventions" inlist="" rel="schema:hasPart" resource="#typographic-conventions">
                 <h3 property="schema:name">Typographic Conventions</h3>
                 <div data="rdf:HTML" property="schema:description">
+                  <p class="todo">Update conventions table</p>
+
                   <table>
                     <caption>Representation of subjects</caption>
                     <thead>
@@ -366,7 +363,7 @@ Requirements satisfaction questions: Do effects satisfy requirements?
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>I use the terms "thesis" and "article" interchangeably to refer to the work here. I use the term "section" for significant content grouping. I have refrained from using terms that are closely associated with the print media, so for example, there are no "chapters" in this article, just "sections" or the collection of identifiable and accessible Web resources.</p>
 
-                  <p>The prefixes and namespaces that are used in this article are as follows:</p>
+                  <p class="todo">The prefixes and namespaces that are used in this article are as follows:</p>
 
                   <dl>
                     <dt><code>as</code></dt>
