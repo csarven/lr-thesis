@@ -33,17 +33,19 @@
         </dl>
 
         <div datatype="rdf:HTML" property="schema:description">
-          <blockquote>
+          <blockquote cite="https://en.wikiquote.org/wiki/The_Matrix_Reloaded">
             <p>'Why' is the only real source of power, without it you are powerless.</p>
-            <footer><cite>Merovingian, The Matrix Reloaded</cite></footer>
+            <footer><cite>Merovingian</cite>, <a href="https://en.wikiquote.org/wiki/The_Matrix_Reloaded">The Matrix Reloaded</a>, 2003</footer>
           </blockquote>
 
           <section id="motivation" inlist="" rel="schema:hasPart" resource="#motivation">
             <h2 property="schema:name">Motivation</h2>
             <div datatype="rdf:HTML" property="schame:description">
+              <p class="todo">What is my personal interest?</p>
+
               <p id="information-society">I live in an <q><a href="https://en.wikipedia.org/wiki/Information_society">information society</a></q>, which makes use of variety of communication media to meet societal needs. The Web has shaped social policies and practices around the world, as well as influence the creation and use of other technologies. It has also reconfigured individuals to be active participants in global information exchange, as well as passive consumers partly due to the abundance of instantaneously accessible multimedia. To date - 30 years old as of this writing - the Web has served for "good" and "evil". Like any human technology, what we devise and how we use them has societal implications.</p>
 
-              <p id="the-story">We can start this story from anywhere. I argue that in order to best contextualise this thesis, it is essential to operate under the understanding of communication mediums and scientific revolutions, as well as their effects on society. This is especially because the research goals of this thesis at its core is socio-technical, and that a clear division between them will not do its justice. One overarching goal is to foster the social machinery from different perspectives that is required to build a knowledge Web for any type of user; human or machine. While I set the problem context to scholarly communication, applications of the knowledge and generated artefacts are potentially applicable to other initiatives in society.</p>
+              <p id="the-story">We can start this story from anywhere. I argue that in order to best contextualise this thesis, it is essential to operate under the understanding of communication mediums and scientific revolutions, as well as their effects on society. This is especially because the research goals of this thesis at its core is sociotechnical, and that a clear division between them will not do its justice. One overarching goal is to foster the social machinery from different perspectives that is required to build a knowledge Web for any type of user; human or machine. While I set the problem context to scholarly communication, applications of the knowledge and generated artefacts are potentially applicable to other initiatives in society.</p>
 
               <p id="assumptions">I assume that researchers in scholarly communication are motivated to some extent personally, whether that is with the goal to take part in advancing collective knowledge, society and life, career advancement, prestige, or financial gain. Researchers are intrinsically interested in making their impact by way of sharing their findings in manner that is most accessible to potential users. As for the underlying technical machinery for information exchange, I assume that it is useful to aim in designing interoperable information systems to help us address problems in context of societal goals. All of these aspects are part of the "social machine" of scholarly communication, and are explored through the sections.</p>
 
@@ -70,7 +72,7 @@
               <section id="problem-context" inlist="" rel="schema:hasPart" resource="#problem-context">
                 <h3 property="schema:name">Problem Context</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>There are several sociotechnical limitations in the contemporary paradigm that the scholarly communication operates in. I will summarise a subset of problem areas relating to interoperability and autonomy. Each problem space will be further explored in relevant sections of this thesis.</p>
+                  <p>There are several sociotechnical limitations in the contemporary paradigm that the scholarly communication operates in. I will summarise a subset of problem areas relating to interoperability and autonomy. Each problem space will be reviewed and explored in relevant sections of this thesis.</p>
 
                   <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover and make new connections between information.</p>
 
@@ -260,9 +262,9 @@ Requirements satisfaction questions: Do effects satisfy requirements?
                     <footer><cite><a data-versiondate="2019-03-12T15:07:33Z" dataversion-url="https://web.archive.org/web/20190312150733/https://biblio.ugent.be/publication/522209/file/1873597.pdf" href="https://biblio.ugent.be/publication/522209/file/1873597.pdf">Dynamic and context-sensitive linking of scholarly information</a></cite>, Van de Sompel, 2000</footer>
                   </blockquote>
 
-                  <p>All information of significance in this thesis is made available as <cite><a href="scholarly-communication-on-the-web#linked-data">Linked Data</a></cite> on the Web. Here is one way to visualise the underlying graph:</p>
+                  <p>All information of significance in this thesis is made available as <cite><a href="scholarly-communication-on-the-web#linked-data">Linked Data</a></cite> on the Web and archived. Here is one way to visualise the underlying graph, which can be navigated:</p>
 
-                  <figure>
+                  <figure class="todo">
                     <figcaption>This Thesis is a <q>Knowledge Graph</q></figcaption>
                   </figure>
 
@@ -406,9 +408,9 @@ Requirements satisfaction questions: Do effects satisfy requirements?
 
           <hr />
 
-          <blockquote cite="http://www.imdb.com/title/tt0133093/quotes?item=qt0324307">
-            <p>This is your last chance. After this, there is no turning back. You take the <span class="unicode-blue-pill">blue pill</span> - the story ends, you wake up in your bed and believe whatever you want to believe. You take the <span class="unicode-red-pill">red pill</span> - you stay in Wonderland and I show you how deep the rabbit-hole goes.</p>
-            <footer><cite><a href="http://www.imdb.com/title/tt0133093/quotes?item=qt032430">Morpheus</a></cite>, The Matrix, 1999</footer>
+          <blockquote cite="https://en.wikiquote.org/wiki/The_Matrix_(film)">
+            <p>This is your last chance. After this, there is no turning back. You take the <span class="unicode-blue-pill">blue pill</span>, the story ends, you wake up in your bed and believe whatever you want to believe. You take the <span class="unicode-red-pill">red pill</span>, you stay in Wonderland and I show you how deep the rabbit hole goes.</p>
+            <footer><cite>Morpheus</cite>, <a href="https://en.wikiquote.org/wiki/The_Matrix_(film)">The Matrix</a>, 1999</footer>
           </blockquote>
         </div>
       </article>
