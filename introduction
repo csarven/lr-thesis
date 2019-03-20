@@ -150,18 +150,29 @@
               <section id="technical-research-problems" inlist="" rel="schema:hasPart" resource="#technical-research-problems">
                 <h3 property="schema:name">Technical Research Problems</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>The overarching design problem is the following:</p>
+                  <p>The problems consist of artifacts, requirements, stakeholders, and context. The central design problem is the following:</p>
 
                   <p>How to design decentralised Web applications
                     that can read and write human- and machine-readable units of information
                     so that actors can independently exchange information
                     in an open and decoupled scholarly communication ecosystem?</p>
 
+                  <p>This research problem can be refined into three sub-problems:</p>
+
                   <p class="notes">
 How to {(re)design an artifact}
 that satisfies {requirements}
 so that {stakeholder goals can be achieved}
 in {problem context}?</p>
+
+                  <ul>
+                    <li>How can a client application
+                      perform registration, archiving, certification and awareness
+                      so that actors can autonomously participate
+                      in order read-write access-controlled Linked Data?
+                    </li>
+                  </ul>
+
 
                   <ul class="notes">
                     <li>Interoperable applications through Linked Data Notifications and Web Annotations.</li>
@@ -219,7 +230,9 @@ To achieve which of their goals? -&gt; The stakeholder goals</p>
                     <li>What are actors' degrees of control over identifiers, data and applications?</li>
                     <li>What are the systematics of an actor-controlled decentralised scholarly system?</li>
                     <li>What are the characteristics of Web specifications for forces and functions in scientific communication?</li>
-                    <li>How can standards and practices be applied to design a socially-aware read-write Linked Data client applications?</li>
+
+
+
                   </ul>
 
                   <p class="notes">
