@@ -72,7 +72,7 @@
               <section id="problem-context" inlist="" rel="schema:hasPart" resource="#problem-context">
                 <h3 property="schema:name">Problem Context</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>There are several sociotechnical limitations in the contemporary paradigm that the scholarly communication operates in. I will summarise a subset of problem areas relating to interoperability and autonomy. Each problem space will be reviewed and explored in relevant sections of this thesis.</p>
+                  <p>There are several sociotechnical limitations in the contemporary paradigm that the scholarly communication operates in. I will summarise a subset of problem areas relating to interoperability and autonomy. Each problem space will be reviewed in relevant sections of this thesis.</p>
 
                   <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover and make new connections between information.</p>
 
@@ -84,14 +84,14 @@
 
                   <p>Actors rental of personal and professional identifiers, as well as data storage from third-parties are subject to privacy issues. Actors typically manage multiple disconnected profiles, social connections, and data spaces.</p>
 
-                  <p>These class of problems in the scholarly ecosystem have implications on access, interoperability, findability, cost and privacy.</p>
+                  <p>These class of problems in the scholarly ecosystem have implications on access, interoperability, findability, cost and privacy. The research questions; technical research problems and knowledge questions, are aimed at understanding the internal mechanisms of these type of problems and address them for stakeholders.</p>
                 </div>
               </section>
 
               <section id="technical-research-goals" inlist="" rel="schema:hasPart" resource="#artifact-design-goals">
                 <h3 property="schema:name">Technical Research Goals</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>In order for systems and actors in scholarly communication to efficiently and effectively participate in exchanging information and knowledge through the Web, they need to have more control over their artefacts, be able to use their preferred data spaces and socially-aware applications, use own Web identities in applications, have ability to shape their digital creations as far as the Web architecture allows, and facilitate their reuse.</p>
+                  <p>In order for systems and actors in scholarly communication to efficiently and effectively participate in exchanging information and knowledge through the Web, they need to have more control over their artefacts, be able to use their preferred data spaces and socially-aware applications, use own Web identities in applications, have ability to shape their digital creations within the frame of the Web architecture, and facilitate their reuse.</p>
                 </div>
               </section>
 
