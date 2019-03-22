@@ -29,11 +29,11 @@
 
           <p>I have covered existing initiatives and progress in research, standards, and practices towards different aspects of realising a decentralised information space. Each dataspace can be individually controlled with access controls for participating agents. Different applications can be implemented to operate on the same data, as well as send activities about the interactions about the data.</p>
 
-          <p id="requirements-web-publishing">I will now discuss a set of requirements for decentralised article publishing, annotations and social interactions. By <q>Web publishing</q>, I use the commonly accepted notion of authoring and publishing any kind of unit of information for human and machine consumption, relating and linking to globally identifiable units of information, as well as their dissemination. More specifically, I will address the following requirements for the research questions in context of <cite><a href="decentralising-scholarly-communication#degree-of-control">Degree of Control</a></cite>:</p>
+          <p id="requirements-web-publishing">I will now discuss a set of requirements for decentralised article publishing, annotations and social interactions. By <q>Web publishing</q>, I use the commonly accepted notion of authoring and publishing any kind of unit of information for human and machine consumption, relating and linking to globally identifiable units of information, as well as their dissemination. More specifically, I will address the following requirements for the <a href="introduction#research-questions">research questions</a> in context of <cite><a href="decentralising-scholarly-communication#degree-of-control">Degree of Control</a></cite>:</p>
 
            <ul>
             <li>Creating human and machine-readable Web resources.</li>
-            <li>Interoperable social applications through Linked Data Notifications and Web Annotations.</li>
+            <li>Socially-aware application using Linked Data Notifications and Web Annotations.</li>
             <li>Actors use their preferred WebID in clientside applications.</li>
             <li>Actors use their preferred clientside application to perform HTTP-based read-write operations on resources they are authorised to.</li>
             <li>Actors switch between applications without having to move or alter the schema of their data.</li>
@@ -1322,22 +1322,27 @@ There are couple of approaches: 1) include a self-contained application in a doc
 
                   <p>Future work can examine how additional features can be realised on top of existing Web standards, or where more development is required. Real-time collaborative editing is often realised with centralised communication (even though some peer to peer alternatives exist). Services like top-down annotations or automated entity marking can improve the discoverability of a publication, yet the question of how to offer these without being tied to certain servers as well as Web identities served from fixed servers needs further work.</p>
 
+                  <dl>
+                    <dt>Actors can read-write human and machine-readable Web resources</dt>
+                    <dd>dokieli uses HTML+RDFa, JSON-LD, and Turtle to express human and machine-readable units of communication, which fulfills both internal and external requirements from relevant Web specifications. All units of significance can be expressed through Linked Data vocabularies, in particular, the common kinds of resources such as articles, annotations, and notifications.</dd>
 
-                   <dl>
-                    <dt>Creating human and machine-readable Web resources</dt>
-                    <dd></dd>
-                    <dt>Interoperable social applications through Linked Data Notifications and Web Annotations.</dt>
-                    <dd></dd>
-                    <dt>Actors use their preferred WebID in clientside applications.</dt>
-                    <dd></dd>
-                    <dt>Actors use their preferred clientside application to perform HTTP-based read-write operations on resources they are authorised to.</dt>
-                    <dd></dd>
+                    <dt>Application can read-write Linked Data Notifications and Web Annotations</dt>
+                    <dd>The use cases pertaining to annotations with different motivations, social activities, sharing resources, semantic citations, and social reviews , as well as privacy </dd>
+
+                    <dt>Actors use their preferred Web identity</dt>
+                    <dd>It is possible for actors to use any WebID in order to adapt dokieli's user interface and possible actions based on the available (extended) profile description.</dd>
+
+                    <dt>Actors use their preferred clientside application on access-controlled resources.</dt>
+                    <dd>WebID-based access-controlled resources can be read and manipulated by actors where they authenticate through WebID-TLS and WebID-OIDC.</dd>
+
                     <dt>Actors switch between applications without having to move or alter the schema of their data.</dt>
-                    <dd></dd>
+                    <dd>The data and information that dokieli generates is expressed with Linked Data vocabularies. Any other application with the ability to understand or work with the same Linked Data vocabularies can reuse the dokieli generated data.</dd>
+
                     <dt>Actors relocating data without having to change their preferred application.</dt>
-                    <dd></dd>
-                    <dt>Querying, visualising, and creating statistical Linked Data from clientside applications.</dt>
-                    <dd></dd>
+                    <dd> All units of communication are decentralised in that no central server acts as root or starting point in discovery. dokieli's awareness of the actor's profile starts by where they input their WebID, which can be at any location. Similarly, inboxes of various objects and annotations services are dynamically discovered.</dd>
+
+                    <dt>Querying, visualising, and creating statistical data from clientside applications.</dt>
+                    <dd>Statistical Linked Data can be looked up based on actor's actions, visualised and integrated with their document, and finally the document include the Linked Data can be saved.</dd>
                   </dl>
                 </div>
               </section>
