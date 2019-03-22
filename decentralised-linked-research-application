@@ -29,7 +29,7 @@
 
           <p>I have covered existing initiatives and progress in research, standards, and practices towards different aspects of realising a decentralised information space. Each dataspace can be individually controlled with access controls for participating agents. Different applications can be implemented to operate on the same data, as well as send activities about the interactions about the data.</p>
 
-          <p>I will now discuss a set of requirements for decentralised article publishing, annotations and social interactions. By <q>Web publishing</q>, I use the commonly accepted notion of authoring and publishing any kind of unit of information for human and machine consumption, relating and linking to globally identifiable units of information, as well as their dissemination. More specifically, I will address the following requirements for the research questions in context of <cite><a href="decentralising-scholarly-communication#degree-of-control">Degree of Control</a></cite>:</p>
+          <p id="requirements-web-publishing">I will now discuss a set of requirements for decentralised article publishing, annotations and social interactions. By <q>Web publishing</q>, I use the commonly accepted notion of authoring and publishing any kind of unit of information for human and machine consumption, relating and linking to globally identifiable units of information, as well as their dissemination. More specifically, I will address the following requirements for the research questions in context of <cite><a href="decentralising-scholarly-communication#degree-of-control">Degree of Control</a></cite>:</p>
 
            <ul>
             <li>Creating human and machine-readable Web resources.</li>
@@ -55,14 +55,14 @@
               <p>By using different arrangements of LDN, WA, AP, LDP mechanisms and as well as relevant Linked Data vocabularies, scholarly and social activities can be systematically created, linked, discovered, and reused for a variety of use cases. In this section, I present an overview of <em>a</em> decentralised information space including actor profiles, notifications, and annotations. As units of information are structured and semantically interconnected, it forms a knowledge graph with the following key components with respect to technical specifications and practices:</p>
 
               <ul>
-                <li id="subject-annotation-service">Resource asserts the location of a preferred service for maintaining annotations about the the subject resource (via <code>oa:annotationService</code>)</li>
+                <li id="subject-annotation-service">Resource asserts the location of a preferred service for maintaining annotations about the subject resource (via <code>oa:annotationService</code>)</li>
                 <li id="subject-inbox">Resource asserts the location of a service that receives and serves notifications about the subject resource (via <code>ldp:inbox</code>)</li>
-                <li id="profile-storage">An individual's profile asserting their preferred storage location (via <code>pim:storage</code>)</li>
-                <li id="profile-outbox">An individual's profile asserting the location of their activities (via <code>as:outbox</code>)</li>
-                <li id="profile-index">An individual's profile asserting their type index registrations (via <code>solid:publicTypeIndex</code>)</li>
-                <li id="profile-knows-profile-storage">Members of an individual's social graph (via eg. <code>foaf:knows</code>) asserting their preferred storage location</li>
-                <li id="profile-knows-profile-outbox">Members of an individual's social graph asserting the location of their activities</li>
-                <li id="profile-knowns-profile-index">Members of an individual's social graph sharing their type index registration (via <code>solid:publicTypeIndex</code>)</li>
+                <li id="profile-storage">An actor's profile asserting their preferred storage location (via <code>pim:storage</code>)</li>
+                <li id="profile-outbox">An actor's profile asserting the location of their activities (via <code>as:outbox</code>)</li>
+                <li id="profile-index">An actor's profile asserting their type index registrations (via <code>solid:publicTypeIndex</code>)</li>
+                <li id="profile-knows-profile-storage">Members of an actor's social graph (via eg. <code>foaf:knows</code>) asserting their preferred storage location</li>
+                <li id="profile-knows-profile-outbox">Members of an actor's social graph asserting the location of their activities</li>
+                <li id="profile-knowns-profile-index">Members of an actor's social graph sharing their type index registration (via <code>solid:publicTypeIndex</code>)</li>
                 <li id="inbox-annotation-known">Inbox or annotation service locations are known prior to interaction eg. trusted or used by a community.</li>
                 <li id="inbox-annotation-manual">Inbox or annotation service locations are manually input to the system eg. not publicised or private.</li>
               </ul>
@@ -122,7 +122,7 @@
 
                   <p id="serialisations"><strong>Serialisations</strong>: dokieli can serialise articles, annotations, and notifications in HTML+RDFa, Turtle, and JSON-LD, depending on server content-negotiation. Articles are represented in HTML+RDFa so that information is usable by both humans and machine consumers while maintaining lowest requirements for publishing, eg. a single URL with full payload in HTML+RDFa can be accessible from any HTTP server. No additional requirements necessary from user-agents eg. JavaScript support and enabled, or servers eg. additional content-negotiation. For annotations and notifications, dokieli first meets interoperability requirements (for protocols and vocabularies), and remains flexible about the serialisation that servers prefer. Similarly for consuming content, it can work with any of the serialisations as mentioned. All HTML serialisations use HTML5 <cite><a href="https://www.w3.org/TR/html-polyglot/" rel="cito:citesAsAuthority">Polyglot Markup</a></cite>.</p>
 
-                  <p id="presentation"><strong>Presentation</strong>: The appearance of HTML in the Web browser is handled with CSS3. Different stylesheets can be applied to the same HTML structure so that a document can be presented flexibly, in the most appropriate way for a particular circumstance, eg a theme resembling a blog post or a scholarly article. Stylesheets can be switched from either dokieli’s menu or through Web browser with native controls. External stylsheets can also be applied dynamically.</p>
+                  <p id="presentation"><strong>Presentation</strong>: The appearance of HTML in the Web browser is handled with CSS3. Different stylesheets can be applied to the same HTML structure so that a document can be presented flexibly, in the most appropriate way for a particular circumstance, eg. a theme resembling a blog post or a scholarly article. Stylesheets can be switched from either dokieli’s menu or through Web browser with native controls. External stylsheets can also be applied dynamically.</p>
 
                   <p id="behaviour"><strong>Behaviour</strong>: When JavaScript is enabled on the clientside, dokieli provides a rich editing interface which includes visual and structural formatting of text as well as embedding machine-readable semantics, media, dynamic citations, and inclusion of statistical charts from live endpoints. An Internet connection or a personal data store are not needed at this stage as modifications to a document made in the browser this way can be persisted to a local filesystem using the dokieli menu <em>Export</em> function; the Web browser’s <em>Save Page As</em> function, or through the Web browser’s local storage.</p>
 
@@ -1201,32 +1201,6 @@ There are couple of approaches: 1) include a self-contained application in a doc
           </section>
 
 
-          <section id="adoption-of-dokieli" inlist="" rel="schema:hasPart" resource="#adoption-of-dokieli">
-            <h2 property="schema:name">Adoption of dokieli</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p>dokieli is first and foremost intended to demonstrate the potential of an application that is built entirely on open Web standards, meanwhile enabling actors to control their own data and respecting their privacy. During the process of exemplifying its core principles as an implementation, it has raised awareness and had some success in its adoption. Here I list some of those:</p>
-
-              <p id="adoption-w3c-annotation">The W3C Working Group Note <cite><a href="https://www.w3.org/TR/annotation-html/" rel="cito:citesAsAuthority">Embedding Web Annotations in HTML</a></cite> includes examples from dokieli’s publishing and consuming of the Web Annotation Data <cite><a href="https://www.w3.org/TR/annotation-model/" rel="cito:citesAsAuthority">Model</a></cite> and <cite><a href="https://www.w3.org/TR/annotation-vocab/" rel="cito:citesAsAuthority">Vocabulary</a></cite> with motivations based on general use cases, for example: personal annotating, offline-first annotations, lightweight, decentralized annotation Tools, collaborative annotating, and wholly internal annotations.</p>
- 
-              <p id="adoption-w3c-ldn">The W3C <cite><a href="https://www.w3.org/TR/ldn/" rel="cito:citesAsAuthority">Linked Data Notifications</a></cite> specification uses dokieli’s HTML+RDFa template, and the <a href="https://linkedresearch.org/ldn/" rel="cito:citesAsAuthority">Editor’s Draft</a> showcase dokieli as a consumer of LDN and Web Annotations, as well as allowing the user to create new annotations and send notifications. The LDN <a href="https://linkedresearch.org/ldn/tests/" rel="cito:citesAsAuthority">Test Suite</a> also uses dokieli’s templates and stylesheets.</p>
-
-              <p id="adoption-academic">The academic workshop <cite><a href="http://semstats.org/">SemStats</a></cite> series use dokieli in its Website templates, including the call for contributions.</p>
-
-              <p id="adoption-ceur"><cite><a href="http://ceur-ws.org/">CEUR-WS.org</a></cite>, an <q>Online Proceedings for Scientific Conferences and Workshops</q> offers the tooling <cite><a href="https://github.com/ceurws/ceur-make">ceur-make</a></cite> to help organisers generate proceedings using dokieli’s HTML+RDFa template, eg. <cite><a href="http://ceur-ws.org/Vol-1654/">SemStats 2016</a></cite>.</p>
-
-              <p id="adoption-examples-in-the-wild">A community of researcher who self-publish their articles and thesis using dokieli with different stylesheets and derived scripts are listed in dokieli's <cite><a href="https://github.com/linkeddata/dokieli/wiki#examples-in-the-wild">examples in the wild</a></cite>.</p>
-
-              <p id="adoption-conferences">The conference series: WWW (eg. <a href="http://events.linkeddata.org/ldow2018/">LDOW</a> and <a href="http://sociam.org/wow2017/">WOW</a> workshops), <a href="https://iswc2019.semanticweb.org/calls/html-submission-guide/">ISWC</a>, and <a href="http://2018.eswc-conferences.org/call-papers">ESWC</a> propose dokieli as one tooling in which authors can use to make their contributions to the calls with.</p>
-
-              <p id="adoption-solid"><cite><a href="https://github.com/solid/solid-panes">Solid Panes</a></cite> is a set of core Solid-compatible applications includes to create human-readable and Linked Data documents. A pane displays the dokieli document using a part of its window.</p>
-
-              <p id="adoption-linked-research">The <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> website uses dokieli in its templates on the site as well as workshop proposals and call for contributions.</p>
-
-              <p id="adoption-personal">My personal website at <a href="http://csarven.ca/">http://csarven.ca/</a> uses dokieli, where some articles - like this one you are reading - offer pointers to a public annotation service in which users can optionally send their annotations to, in addition to their own storage. There is also an inbox associated with the article to send notifications to eg. replies, reviews, citations.</p>
-            </div>
-          </section>
-
-
           <section id="dokieli-forces-functions" inlist="" rel="schema:hasPart" resource="dokieli-forces-functions">
             <h2 property="schema:name">Forces and Functions in dokieli</h2>
             <div datatype="rdf:HTML" property="schema:description">
@@ -1316,28 +1290,55 @@ There are couple of approaches: 1) include a self-contained application in a doc
                 </div>
               </section>
 
+              <section id="adoption-of-dokieli" inlist="" rel="schema:hasPart" resource="#adoption-of-dokieli">
+                <h3 property="schema:name">Adoption of dokieli</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>dokieli is first and foremost intended to demonstrate the potential of an application that is built entirely on open Web standards, meanwhile enabling actors to control their own data and respecting their privacy. During the process of exemplifying its core principles as an implementation, it has raised awareness and had some success in its adoption. Here I list some of those:</p>
 
+                  <p id="adoption-w3c-annotation">The W3C Working Group Note <cite><a href="https://www.w3.org/TR/annotation-html/" rel="cito:citesAsAuthority">Embedding Web Annotations in HTML</a></cite> includes examples from dokieli’s publishing and consuming of the Web Annotation Data <cite><a href="https://www.w3.org/TR/annotation-model/" rel="cito:citesAsAuthority">Model</a></cite> and <cite><a href="https://www.w3.org/TR/annotation-vocab/" rel="cito:citesAsAuthority">Vocabulary</a></cite> with motivations based on general use cases, for example: personal annotating, offline-first annotations, lightweight, decentralized annotation Tools, collaborative annotating, and wholly internal annotations.</p>
+     
+                  <p id="adoption-w3c-ldn">The W3C <cite><a href="https://www.w3.org/TR/ldn/" rel="cito:citesAsAuthority">Linked Data Notifications</a></cite> specification uses dokieli’s HTML+RDFa template, and the <a href="https://linkedresearch.org/ldn/" rel="cito:citesAsAuthority">Editor’s Draft</a> showcase dokieli as a consumer of LDN and Web Annotations, as well as allowing the user to create new annotations and send notifications. The LDN <a href="https://linkedresearch.org/ldn/tests/" rel="cito:citesAsAuthority">Test Suite</a> also uses dokieli’s templates and stylesheets.</p>
+
+                  <p id="adoption-academic">The academic workshop <cite><a href="http://semstats.org/">SemStats</a></cite> series use dokieli in its Website templates, including the call for contributions.</p>
+
+                  <p id="adoption-ceur"><cite><a href="http://ceur-ws.org/">CEUR-WS.org</a></cite>, an <q>Online Proceedings for Scientific Conferences and Workshops</q> offers the tooling <cite><a href="https://github.com/ceurws/ceur-make">ceur-make</a></cite> to help organisers generate proceedings using dokieli’s HTML+RDFa template, eg. <cite><a href="http://ceur-ws.org/Vol-1654/">SemStats 2016</a></cite>.</p>
+
+                  <p id="adoption-examples-in-the-wild">A community of researcher who self-publish their articles and thesis using dokieli with different stylesheets and derived scripts are listed in dokieli's <cite><a href="https://github.com/linkeddata/dokieli/wiki#examples-in-the-wild">examples in the wild</a></cite>.</p>
+
+                  <p id="adoption-conferences">The conference series: WWW (eg. <a href="http://events.linkeddata.org/ldow2018/">LDOW</a> and <a href="http://sociam.org/wow2017/">WOW</a> workshops), <a href="https://iswc2019.semanticweb.org/calls/html-submission-guide/">ISWC</a>, and <a href="http://2018.eswc-conferences.org/call-papers">ESWC</a> propose dokieli as one tooling in which authors can use to make their contributions to the calls with.</p>
+
+                  <p id="adoption-solid"><cite><a href="https://github.com/solid/solid-panes">Solid Panes</a></cite> is a set of core Solid-compatible applications includes to create human-readable and Linked Data documents. A pane displays the dokieli document using a part of its window.</p>
+
+                  <p id="adoption-linked-research">The <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> website uses dokieli in its templates on the site as well as workshop proposals and call for contributions.</p>
+
+                  <p id="adoption-personal">My personal website at <a href="http://csarven.ca/">http://csarven.ca/</a> uses dokieli, where some articles - like this one you are reading - offer pointers to a public annotation service in which users can optionally send their annotations to, in addition to their own storage. There is also an inbox associated with the article to send notifications to eg. replies, reviews, citations.</p>
+                </div>
+              </section>
 
               <section id="degree-of-control-in-dokieli" inlist="" rel="schema:hasPart" resource="#degree-of-control-in-dokieli">
                 <h3 property="schema:name">Degree of Control in dokieli</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>At the beginning of this section, requirements relating to <cite><a href="decentralising-scholarly-communication#degree-of-control">Degree of Control</a></cite> were listed. dokieli addresses each of these as follows:</p>
-
-                  <ul>
-                    <li>Interoperable applications through Linked Data Notifications and Web Annotations.</li>
-                    <!-- <li>Creating human and machine-interpretable Web resources.</li> -->
-                    <li>Actors use their preferred WebID in clientside applications.</li>
-                    <li>Actors use their preferred clientside application to perform HTTP-based read-write operations on their where they have access to.</li>
-                    <li>Actors switch between applications without having to move or alter the schema of their data.</li>
-                    <li>Actors relocating data without having to change their preferred application.</li>
-                    <li>Querying and visualising statistical data from clientside applications.</li>
-                  </ul>
-
-                  <p>dokieli only performs read and write operations on HTTP URIs which pertain to user's actions in the UI.</p>
-
-                  <p>dokieli demonstrates one configuration of open Web standards that can operate in a loosely coupled environment.</p>
+                  <p>At the beginning of this section, <a href="#requirements-web-publishing">requirements</a> relating to <cite><a href="decentralising-scholarly-communication#degree-of-control">Degree of Control</a></cite> were listed. dokieli fulfills variety of these use cases pertaining to Web publishing by meeting these requirements. dokieli demonstrates one configuration of open Web standards that can operate in a loosely coupled environment.</p>
 
                   <p>Future work can examine how additional features can be realised on top of existing Web standards, or where more development is required. Real-time collaborative editing is often realised with centralised communication (even though some peer to peer alternatives exist). Services like top-down annotations or automated entity marking can improve the discoverability of a publication, yet the question of how to offer these without being tied to certain servers as well as Web identities served from fixed servers needs further work.</p>
+
+
+                   <dl>
+                    <dt>Creating human and machine-readable Web resources</dt>
+                    <dd></dd>
+                    <dt>Interoperable social applications through Linked Data Notifications and Web Annotations.</dt>
+                    <dd></dd>
+                    <dt>Actors use their preferred WebID in clientside applications.</dt>
+                    <dd></dd>
+                    <dt>Actors use their preferred clientside application to perform HTTP-based read-write operations on resources they are authorised to.</dt>
+                    <dd></dd>
+                    <dt>Actors switch between applications without having to move or alter the schema of their data.</dt>
+                    <dd></dd>
+                    <dt>Actors relocating data without having to change their preferred application.</dt>
+                    <dd></dd>
+                    <dt>Querying, visualising, and creating statistical Linked Data from clientside applications.</dt>
+                    <dd></dd>
+                  </dl>
                 </div>
               </section>
 
@@ -1346,11 +1347,9 @@ There are couple of approaches: 1) include a self-contained application in a doc
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>dokieli shows it is possible to build a social machine wherein people interact with each other without the need of centralised coordination. Users can choose storage space for their content independently of the applications with which they edit and view that content. Documents are connected statically through links and dynamically through Linked Data Notifications. This is a proof for the viability of a social and decentralised authoring and annotation environment based on Web standards. dokieli happens to be one application that demonstrates the potentials of decentralised notifications and annotations. The information it creates does not result in a vendor lock-in, as other applications are able to reuse them - given agreement on using open Web standards.</p>
 
-                  <p>On the other hand, dokieli’s use of standards shows that dokieli itself is only one means to an end: once the document has been created, it lives on independently. The social machine consists of people and documents, connected by Web standards, with dokieli acting as just one possible catalyst. Different Web applications can incorporate any of dokieli’s functions and implement the principles to varying extents. Since the data is decoupled from the application, we avoid the <em>walled garden</em> problem of current social platforms today, as well as various forms of vendor lock-in with some applications, even if they are loosely coupled with data. In essence, it is possible to swap dokieli with another client application for any standards-compliant server. This is one of the key steps to liberating actors to create and share without setting burdens on URI, data and application control.</p>
+                  <p>On the other hand, dokieli’s use of standards shows that dokieli itself is only one means to an end: once the document has been created, it lives on independently. The social machine consists of people and documents, connected by Web standards, with dokieli acting as just one possible catalyst. Different Web applications can incorporate any of dokieli’s functions and implement the principles to varying extent. Since the data is decoupled from the application, we avoid the <em>walled garden</em> problem of current social platforms today, as well as various forms of vendor lock-in with some applications, even if they are are operating in a loosely coupled environment. In essence, it is possible to swap dokieli with another client application for any standards-compliant server. This is one of the key steps to liberating actors to create and share without setting burdens on URI, data and application control.</p>
 
-                  <p>A couple of important sociotechnical challenges remain. Resources might want to indicate in a granular way which actions they support or encourage, such as assessments, bookmarking, or sharing, and perhaps conditions about which notifications should be sent when any of these events take place. In order to encourage positive behaviour, we might want ways to provide moderation, and solutions to prevent harassment and abuse. Closely related is the issue of identity, pseudonymity and anonymity, and its relation with trust and verification. While there is likely no final solution to these issues in an open ecosystem, it is worthwhile exploring within dokieli or other tools based on similar design principles.</p>
-
-                  <p>There are social implications of dokieli's Web browser extension and social graph. For instance, the ability of annotating and sharing information even if the primary article does not have an inbox or an annotation service. There is no administrator that oversees everything, but that each actor has control privileges to what they are given. Having the ability to annotate anything and stored at a preferred location enables actor autonomy. This can be contrasted with annotation systems that may restricts annotations being created with particular targets or annotations having particular information in its body.</p>
+                  <p id="implication-on-autonomy"><strong>Implication on Autonomy</strong>: A couple of important sociotechnical challenges remain. Resources might want to indicate in a granular way which actions they support or encourage, such as assessments, bookmarking, or sharing, and perhaps conditions about which notifications should be sent when any of these events take place. In order to encourage positive behaviour, we might want ways to provide moderation, and solutions to prevent harassment and abuse. Closely related is the issue of identity, pseudonymity and anonymity, and its relation with trust and verification. There are also social implications of dokieli's Web browser extension and social graph. For instance, the ability of annotating and sharing information even if the primary article does not have an inbox or an annotation service. There is no administrator that oversees everything, but that each actor has control privileges to what they are given. Having the ability to annotate anything and stored at a preferred location enables actor autonomy. This can be contrasted with annotation systems that may restricts annotations being created with particular targets or annotations having particular information in its body.</p>
 
                   <p>Mcluhan..With respect to the <a href="scholarly-communication-on-the-web#inspecting-effects-and-artefacts">effects and artefacts of Web-centric scholarly communication</a>, dokieli ...</p>
                 </div>

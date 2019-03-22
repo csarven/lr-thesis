@@ -99,7 +99,7 @@ What are the lessons learned? (specs is where it is at.. highly valuable but tak
 * institutional repositories like eprints then they buy PURE from Springer.
 * ldprints</p>
 
-<section id="directions-for-future-research">
+<section id="directions-for-future-research-and-design">
 <p id="role-of-authentication-capabilities">Used WebID-TLS first.. and then had to adopt to WebID-OIDC. Decentralised authentication mechanisms is vital.</p>
 
 <p id="privacy-aware-information-space"><strong>Privacy Aware Information Spaces</strong>: Actors can better make decisions if their applications are privacy-aware, for example through ODRLs.. We should also observe the interplay of forces and functions in scholarly communication to see how privacy-aware applications may materialise new forms of content and interactions.</p>
@@ -109,6 +109,8 @@ What are the lessons learned? (specs is where it is at.. highly valuable but tak
 <p> What has it shaped? What are the current challenges? How do we envision the communication to be? How can we use the medium better whether through its original intentions or new?</p>
 
 <p>Personal On-Demand Archiving Services. Storage?</p>
+
+<p>browsers should be Linked Data aware to enable smarter applications. right now each application has to include LD-know-how to take more advantage of the Web. if browsers natively supported those features, we can create advance the quality of applications.</p>
             </div>
           </section>
 

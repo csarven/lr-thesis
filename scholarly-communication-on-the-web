@@ -975,7 +975,7 @@ support groups.</pre>
 
               <dl>
                 <dt>Actor</dt>
-                <dd>Any kind of interactive agent that creates or uses information, eg authors, readers, tool implementers, policy makers, application programs.</dd>
+                <dd>Any kind of interactive agent that creates or uses information, eg. authors, readers, tool implementers, policy makers, application programs.</dd>
                 <dt>Accessibility</dt>
                 <dd>The availability and retrievability of information, content accessibility.</dd>
                 <dt>Content</dt>
