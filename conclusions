@@ -17,174 +17,101 @@
       <article about="" typeof="schema:ScholarlyArticle">
         <h1 property="schema:name">Conclusions</h1>
         <div datatype="rdf:HTML" property="schema:description">
-          <p>Given our half a millennia of experience of mass print publishing, and half a century on electronic publishing, we are in a position to situate, examine and question our assumptions as to what constitutes scholarly knowledge exchange and participation in context of the Web. For instance, the Web - a <em>read-write</em> space - inherently enables anyone to be a "publisher" where each researcher can exercise their full creativity and expression without being subject to external constraints. With the exception where a third-party entity permits the level of expression that the knowledge creator can potentially seek, such external participants are subject to set technical constraints on the notion to shape content. Yet, third-party involvement, typically through for-profit service providers in conjunction with academic institutions and libraries, influence the quality and availability of publicly-funded research output and exchange. The social and professional incentives for academics can be traced to the workflows exerted by external forces.</p>
+          <p>The <a href="#research-goals">research goals</a> of this thesis has been to investigate how decentralised, interoperable, and socially-aware Web applications can be designed to fulfill the core functions in scholarly communication. In this concluding section, I will review the <a href="#research-questions">research questions</a> and outline opportunities for future research.</p>
 
-          <p>If scholarly communication is predominately and increasingly driven by the Web, how can we approach the integration of scholarly processes with the inherent properties of the Web? One way to look at this is by examining history: the printing press played a major role in moving the non-literate public to learn to read and write for themselves. Given the Web, we find ourselves in a similar situation, with different modes of communication. In order to use the Web effectively - as far as taking advantage of its built-in characteristics, the research community essentially needs to better position itself to self-publish and disseminate their knowledge, as well as be more attributable and accountable in their social engagement. This kind of ongoing evolution is vital for the advancement of scholarly communication. Moving towards completely Web-centric information flows and participation requires the scholarly ecosystem to unchain itself from historic practices.</p>
-
-          <p>This thesis postulates that knowledge creators can demonstrate that self-publishing different units of communication can be socially, technically, and financially preferable to a third-party's handling of the same information and interactions, as well as their reuse. <q>Control yourself</q> captures the idea that autonomous, decentralised participation in the scholarly ecosystem is possible and desirable. Web technologies enable universal accessibility of units of information that are human- and machine-readable, as well as the possibility to integrate social interactions with scholarly information.</p>
-
-          <section id="findings" rel="schema:hasPart" resource="#findings">
-            <h2 property="schema:name">Findings</h2>
+          <section id="research-questions-review" inlist="" rel="schema:hasPart" resource="#research-questions-review">
+            <h2 property="schema:name">Research Questions Review</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p>Here I discuss the findings to research questions.</p>
+
+              LD publishing scales in terms of a paygo approach eg. socially-aware application, ldn test suite/spec..
+              LD approach evidently satisfies the FAIR principles out of the box.
+              Creating and consuming human- and machine-readable Web resources is feasible.
+              Mechanisms for decentralisation and interoperability makes (may make?) RACA-Aware App easier to work with. At least decoupled.
+              "Third-party" publishers are not required. If anything, generally limits or has constraints on what and how Web resources can be published.
             </div>
           </section>
 
-          <section id="conclusion" rel="schema:hasPart" resource="#conclusion">
-            <h2 property="schema:name">Conclusion</h2>
+
+          <section id="making-sense" inlist="" rel="schema:hasPart" resource="#making-sense">
+            <h2 property="schema:name">Making Sense</h2>
             <div datatype="rdf:HTML" property="schema:description">
+<section id="scope-limitations">
+   <p>Are we free of all forms of centralisation? Unlikely. As we discussed in <a href="linked-data-notifications#semantic-centralisation-of-notifications">Semantic Centralisation of Notification</a></p>
+
+   <p>LDN serves as a building block rather than a complete solution for re-decentralisation.</p>
+
+          <p class="todo">mention how the design decisions wasn't done in a vacuum. It was done within the context of W3C and SWWG... and the broader context of decentralisation efforts.</p>
+What are the lessons learned? (specs is where it is at.. highly valuable but takes effort to align from a number of places.. social/technical challenges)
+</section>
+
+<p>Linked Research and dokieli is closely aligned with the original concept of <q cite="http://www.cs.cornell.edu/~ginsparg/physics/blurb/pg01unesco.html">self-archiving</q> - Ginsparg "school of thought", provided that anyone can share their Web resources from where they prefer.</p>
             </div>
           </section>
 
-          <section id="perspectives" rel="schema:hasPart" resource="#perspectives">
+
+          <section id="perspectives" inlist="" rel="schema:hasPart" resource="#perspectives">
             <h2 property="schema:name">Perspectives</h2>
             <div datatype="rdf:HTML" property="schema:description">
-            </div>
-          </section>
+              <p>Given our half a millennia of experience of mass print publishing, and half a century on electronic publishing, we are in a position to situate, examine and question our assumptions as to what constitutes scholarly knowledge exchange and participation in context of the Web. For instance, the Web - a <em>read-write</em> space - inherently enables anyone to be a "publisher" where each researcher can exercise their full creativity and expression without being subject to external constraints. With the exception where a third-party entity permits the level of expression that the knowledge creator can potentially seek, such external participants are subject to set technical constraints on the notion to shape content. Yet, third-party involvement, typically through for-profit service providers in conjunction with academic institutions and libraries, influence the quality and availability of publicly-funded research output and exchange. The social and professional incentives for academics can be traced to the workflows exerted by external forces.</p>
 
-          <section id="objectivity-value-judgment-and-theory-choice" inlist="" rel="schema:hasPart" resource="#objectivity-value-judgment-and-theory-choice">
-            <h2 property="schema:name">Objectivity, Value Judgment, and Theory Choice</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo">Should this be discussed in Evaluation, Linked Research or Conclusions .. if at all?</p>
-              <p>Kuhn's five characteristics, <q cite="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">accuracy, consistency, scope, simplicity, and fruitfulness</q> in <cite><a href="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">Objectivity, Value Judgment, and Theory Choice</a></cite>, ... and justify why the <cite>Linked Research</cite> design principles describes a paradigm that can be further investigated towards genuine scholarly communication on the Web.</p>
+              <p>If scholarly communication is predominately and increasingly driven by the Web, how can we approach the integration of scholarly processes with the inherent properties of the Web? One way to look at this is by examining history: the printing press played a major role in moving the non-literate public to learn to read and write for themselves. Given the Web, we find ourselves in a similar situation, with different modes of communication. In order to use the Web effectively - as far as taking advantage of its built-in characteristics, the research community essentially needs to better position itself to self-publish and disseminate their knowledge, as well as be more attributable and accountable in their social engagement. This kind of ongoing evolution is vital for the advancement of scholarly communication. Moving towards Web-centric information flows and participation requires the scholarly ecosystem to unchain itself from historic practices.</p>
 
-              <p><strong>Accuracy</strong>:</p>
-              <p><strong>Consistency</strong>:</p>
-              <p><strong>Scope</strong>:</p>
-              <p><strong>Simplicity</strong>:</p>
-              <p><strong>Fruitfulness</strong>:</p>
-            </div>
-          </section>
+              <p>This thesis posited, and to some extent postulated that knowledge creators can demonstrate that self-publishing different units of communication can be socially, technically, and financially preferable to a third-party's handling of the same information and interactions, as well as their reuse. <q>Control yourself</q> captures the idea that autonomous, decentralised participation in the scholarly ecosystem is possible and desirable. Web technologies enable universal accessibility of units of information that are human- and machine-readable, as well as the possibility to integrate social interactions with scholarly information.</p>
+
+              Scholarly community should opt for <a href="#contextual-citations">contextual citations</a> (with semantically typed relations) when connecting specific units of informations. This has the potential to advance biblio/citation metrics - I'd argue that document-level metrics has information loss, since it does not preserve authors' 1) intended connection between units of information, 2) reason for the connection.
+
+              better connection of knowledge goals with potential solutions
+              querying for survey results (instead of human-reading/parsing/interpretation)
+              reusing / extending test suites and data cubes eg. quality attributes, FAIR metrics, Specs for RACA
+              DRY eg. WebID Profile description
+              querying of research problems (where others have left off)
 
 
-              <section id="levels-of-conceptual-interoperability" inlist="" rel="schema:hasPart" resource="#levels-of-conceptual-interoperability">
-                <h3 property="schema:name">Levels of Conceptual Interoperability</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p><cite><a data-versiondate="2019-02-16T01:10:14Z" data-versionurl="https://web.archive.org/web/20190216011014/http://www.iiisci.org/journal/CV$/sci/pdfs/P468106.pdf" href="http://www.iiisci.org/journal/CV$/sci/pdfs/P468106.pdf">Applying the Levels of Conceptual Interoperability Model in Support of Integratability, Interoperability, and Composability for System-of-Systems Engineering</a></cite>, Tolk, 2007</p>
+              <section id="prediction-problems">
+                <p>With respect to the <a href="#prediction-goals">prediction goals</a></p>
 
 
-                  <p><cite><a data-versiondate="2019-02-16T01:21:17Z" data-versionurl="https://web.archive.org/web/20190216012117/https://arxiv.org/pdf/0908.0191.pdf" href="https://arxiv.org/pdf/0908.0191.pdf">The Levels of Conceptual Interoperability Model:  Applying Systems Engineering Principles to M&amp;SM</a></cite>, Wang, 2009</p> 
-
-
-                  <p><cite><a data-versiondate="2017-12-09T04:39:45Z" data-versionurl="https://web.archive.org/web/20171209043945/http://dcpapers.dublincore.org/pubs/article/viewFile/3851/2036" href="http://dcpapers.dublincore.org/pubs/article/viewFile/3851/2036">Applying the Levels of Conceptual Interoperability Model to a Digital Library Ecosystem –a Case Study</a></cite>, Kostelic, 2017</p>
-
-                  <p><cite><a data-versiondate="2019-02-16T23:00:50Z" data-versionurl="https://web.archive.org/web/20190216230050/http://dougengelbart.org/content/view/114/000/" href="http://dougengelbart.org/content/view/114/000/">Knowledge-Domain Interoperability and an Open Hyperdocument System</a></cite>, Engelbart, 1990</p>
-                </div>
+                <p>In <a href="scholarly-communication-on-the-web">scholarly communication on the Web</a>, I discuss the effects of the printing press on society from the point of McLuhan's theory on the effects of media and Kuhn's scientific paradigm shifts.</p>
               </section>
 
-              <p><cite><a data-versiondate="2019-02-16T13:36:12Z" data-versionurl="https://web.archive.org/web/20190216133612/http://www.csl.sri.com/users/neumann/chats4.html" href="http://www.csl.sri.com/users/neumann/chats4.html">Principled Assuredly Trustworthy Composable Architectures</a></cite>, Neumann, 2004</p>
+                <p>What would you do differently next time? How do your findings generalize to to other domains? What impact can this have (this is minimally stated) and why? What is needed/still needs to be done to have such an impact?</p>
 
 
-              <section id="social-implications" inlist="" rel="schema:hasPart" resource="#social-implications">
-                <h3 property="schema:name">Social Implications</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p class="todo">Move to Conclusions?</p><pre>* social consequences of open science
+
+                <p id="social-implications"><strong>Social Implications</strong>:
+* social consequences of open science
 ** media pushed to the extreme (mcluhan) - global fight
 ** https://github.com/linkeddata/dokieli/issues/152
 ** social media running off with misleading headlines? #fakenews?
 *** https://shorensteincenter.org/information-disorder-framework-for-research-and-policymaking/
-
-
 * "Academic job offers that mentioned open science"
-** https://osf.io/7jbnt/</pre>
-
-                </div>
-              </section>
-
-          <section id="role-of-institutions" inlist="" rel="schema:hasPart" resource="#role-of-institutions">
-            <h2 property="schema:name">Role of Institutions</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <blockquote>
-                <p>The task that remains is one of the redesigning social institutions so that they are consonant with the revealed potentials of resource availability and technological efficiency.</p>
-                <footer><cite>Information, Resource Use, and Economic Growth</cite>, Ann Arbor Conference on Natural Resources and Economic Growth, 1959, Richard Meier</footer>
-              </blockquote>
-
-<pre>
-* what roles could libraries/institutions play? eg notify about article/review
-* institutional repositories like eprints then they buy PURE from Springer.
-* ldprints
-</pre>
-            </div>
-          </section>
-
-          <p class="todo">mention how the design decisions wasn't done in a vacuum. It was done within the context of W3C and SWWG... and the broader context of decentralisation efforts.</p>
-
-              <!-- failure to adopt/cultivate? -->
-
-              <p>The effects of big conferences demanding old practices. We're not developing or advancing our own technologies. They're stunting growth. Do you want to grow your team with latex experience or web publishing experience? Are you perpetuating bad practice through supervisor->student requirements? Not sharpening our native web skills. Hindering us from shaping the space to OUR needs.</p>
-
-              <p>As to what constitutes a "publisher" is left at the discretion of different scholarly communities. -- </p>
-
-<p>** What are the design decisions?</p>
-
-<p>Without decentralised authentication mechanisms, a contributor-controlled decentralised information space - access controlled read-write - and social participation is not possible. Proof?</p>
-
-<p>Decentralised identities and authentication also poses a problem for entities that want to control people's identity, and consequently their data</p>
-
-<pre>
-Motivation is a theoretical construct used to explain behavior. It gives the reasons for people's actions, desires, and needs.
-Action:
-Desire:
-Need: 
-</pre>
-
-<section id="results">
-              <p>A decentralised notification system that using established semantic models enables discovery...</p>
-
-              <p>We described the particular features necessary to make it easy to exchange notifications in a decentralised, interoperable way...</p>
-</section>
-
-<section id="limitations">
-   <p>Are we free of all forms of centralisation? Unlikely. As we discussed in <a href="linked-data-notifications#semantic-centralisation-of-notifications">Semantic Centralisation of Notification</a></p>
-
-   <p>LDN serves as a building block rather than a complete solution for re-decentralisation.</p>
-</section>
-
-<section id="directions-for-future-research">
-                <p class="todo">What are the lessons learned? (specs is where it is at.. highly valuable but takes effort to align from a number of places.. social/technical challenges) What would you do differently next time? How do your findings generalize to to other domains? What impact can this have (this is minimally stated) and why? What is needed/still needs to be done to have such an impact?</p>
-</section>
-
-<blockquote>
-  <p>The first thing about empowerment is to understand that you have the right to be involved. The second one is that you have something important to contribute. And the third piece is that you have to take the risk to contribute it.</p>
-  <footer><cite><a href="http://www.drmae.com/">Mae Jemison</a></cite></footer>
-</blockquote>
-
+** https://osf.io/7jbnt/</p>
 <p id="general-principle-of-control"><strong>General Principle of Control</strong>: In an ecosystem where anyone can (technically) say anything about anything, we acknowledge the social challenges surrounding that. For instance, systems are not immune to negative information created and distributed by actors. While the challenges are inherently domain agnostic, it is important for academic and research communication even if individual or institutional accountability and reputation is at stake. While building and maintaining a positive Web-centric scholarly system is beyond the scope of this thesis, we can keep bear in mind the social implications of our architectural and design decisions, in order to increase the value and incentives to participate in such systems. Discuss https://github.com/linkeddata/dokieli/issues/152 and refer back to minor discussion on linked-data-notifications#social-implications</p>
 
-<p>long-term public interest</p>
 
-<section id="lessons">
+
+                <p id="role-of-institutions"><strong>Role of Institutions</strong>: 
+* what roles could libraries/institutions play? eg notify about article/review
+* institutional repositories like eprints then they buy PURE from Springer.
+* ldprints</p>
+
+<section id="directions-for-future-research">
+<p id="role-of-authentication-capabilities">Used WebID-TLS first.. and then had to adopt to WebID-OIDC. Decentralised authentication mechanisms is vital.</p>
+
+<p id="privacy-aware-information-space"><strong>Privacy Aware Information Spaces</strong>: Actors can better make decisions if their applications are privacy-aware, for example through ODRLs.. We should also observe the interplay of forces and functions in scholarly communication to see how privacy-aware applications may materialise new forms of content and interactions.</p>
 </section>
+
 
 <p> What has it shaped? What are the current challenges? How do we envision the communication to be? How can we use the medium better whether through its original intentions or new?</p>
 
-<p>Linked Research and dokieli is closely aligned with the original concept of <q cite="http://www.cs.cornell.edu/~ginsparg/physics/blurb/pg01unesco.html">self-archiving</q> - Ginsparg "school of thought", provided that anyone can share their Web resources from where they prefer.</p>
-
-<p id="final-thoughts">dokieli emerged out of my frustrations with the publishing and consuming practices in the Semantic Web research community.</p>
-
-<p>
-  Hypothesis:
-  * Compared to standard (established) publication (registration) approach, actor (content creator) having control of registration and accessibility functions improves shaping of information and interpretability
-  ** how much improve? what's significant?</p>
-
-              <p>I propose a shift in scholarly communication: adoption of <em>native</em> Web technologies and standards declaratively from ground up; authoring, publishing and consuming, in order to improve the quality of knowledge representation and acquisition on the Web. Researchers should control and make their knowledge accessible to the greatest extent possible. Our argument is antithetical to knowledge extraction methods from non-machine processable documents, post-publishing semantic uplifting, as well as inadequate user experiences in context of the Web. In our approach, we adopt Web technologies which are designed with the principles to evolve and have information accessible to many.</p>
-
-          <section id="the-printing-press-as-an-agent-of-change" inlist="" rel="schema:hasPart" resource="#the-printing-press-as-an-agent-of-change">
-            <h2 property="schema:name">The Printing Press as an Agent of Change</h2>
-            <div datatype="rdf:HTML" property="schame:description">
-              <p><cite><a href="http://www.worldcat.org/oclc/611804138">The Printing Press as an Agent of Change</a></cite>, <a href="https://en.wikipedia.org/wiki/Elizabeth_Eisenstein">Eisenstein</a>, 1979, traces the impact of the communications revolution on a variety of sociocultural movements that shaped the modern mind that started by the invention of the printing press developed by Johannes Gutenberg (circa 1439). Eisenstein demonstrates that the printing press, as a technological innovation, was a potent force in the evolution of social systems, as well as a communication technology which intensified the evolutionary process in the storage and dissemination of information and data. Perhaps more generally, Eisenstein explains how <q>printing altered <em>written communications within the Commonwealth of Learning</em></q>, p. xiv.</p>
-
-              <p>With the growing power of the printing press since the 15th century, and sufficiently large international readers across Europe, the mass production and distribution of printed material gave rise to the formation of intellectuals as a distinct and independent social class. The long-distance, international, and private correspondence network between the literary figures formed the basis for the concepts, <cite>Commonwealth of Learning</cite>; vernacular science-writing in Latin aimed at non-academic readers, as well as aiding the literary <q>underground</q> trade among researchers to propel theories and data collection, and the <cite><a href="https://en.wikipedia.org/wiki/Republic_of_Letters">Republic of Letters</a></cite> (<abbr title="Republic of Letters">RoL</abbr>) - used interchangeably with <q>men of letters</q> and <q>literati</q>, derived from the French term <q lang="fr" xml:lang="fr">homme de lettres</q> - refers to a metaphysical <em>literary</em> society that produced and had access to substantial (non)scientific knowledge in Europe and America in the 17th century, p. 136-139.</p>
-
-              <p><cite><a href="https://en.wikipedia.org/wiki/Royal_Society">The Royal Society</a></cite> (<abbr title="The Royal Society">RS</abbr>) effectively established authority for a metaphysical community for scientists and scholars. In essence, it acknowledge and legitimised the social activity in RoL, and acted as a way to filter and help disseminate the discoveries of the literati. <cite lang="fr" xml:lang="fr"><a href="https://en.wikipedia.org/wiki/Journal_des_s%C3%A7avans">Journal des sçavans</a></cite> published in 1665 was the first academic journal in Europe, followed by <cite><a href="https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society">Philosophical Transactions of the Royal Society</a></cite> in the same year. The first journal that strongly focused on scientific communication came later with the <cite lang="fr" xml:lang="fr"><a href="https://en.wikipedia.org/wiki/Comptes_rendus_de_l%27Acad%C3%A9mie_des_Sciences">Mémoires de l'Académie des Sciences</a></cite> in 1666.</p>
-
-              <p>Due to societal circumstances, eg. sponsorship and censorship by authorities, the literary underground with the help of the printing press was well underway in the 16th century. By 1640 <q>science had risen</q> mostly in the underground, and well pre-dated the discovery and improvement of the telescope p. 685; the RoL; and the establishment of the RS. With the help of the RS later on, new discoveries and theories were disseminated abroad, p. 664.</p>
-
-              <p>Eisenstein postulates that the printed book played a central role in the <q>rapid dissemination of knowledge to whole new classes that created the modern new attitudes to both science and religion at the end of the fifteenth century.</q> The mere availability of prior knowledge to the public, stimulated scientific curiosity further, and eventually gave birth to the scientific revolution, p. 691. Eisenstein also contends that the communication shift in technical literature occurred even before astronomers changed their views about the structure of the universe, p. 685. Moreover, the origins of the scientific revolution was partly due to the rediscovery of classical scientific texts, and the effects of an internal strife between academic innovators and conservationists (<q>quarrels of learned men</q>), trying to control the field of knowledge outside of academia, p. 523-524, 570. Eisenstein emphasises on the <q>relevance of external social institutions to the internal, relatively autonomous, life of science</q>, p. 636, as well as the utilitarian <q>application of the mathematics to the problems of the natural world</q>, p. 683.</p>
-
-              <p>In <a href="scholarly-communication-on-the-web">scholarly communication on the Web</a>, I discuss the effects of the printing press on society from the point of McLuhan's theory on the effects of media and Kuhn's scientific paradigm shifts.</p>
-           </div>
+<p>Personal On-Demand Archiving Services. Storage?</p>
+            </div>
           </section>
 
+
+
+          <p>-<a href="https://csarven.ca/#i">Sarven</a></p>
         </div>
       </article>
     </main>

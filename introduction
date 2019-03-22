@@ -41,7 +41,7 @@
           <section id="motivation" inlist="" rel="schema:hasPart" resource="#motivation">
             <h2 property="schema:name">Motivation</h2>
             <div datatype="rdf:HTML" property="schame:description">
-              <p class="todo">What is my personal interest?</p>
+              <p class="todo">What is my personal interest? actions desires, and needs</p>
 
               <p id="information-society">I live in an <q><a href="https://en.wikipedia.org/wiki/Information_society">information society</a></q>, which makes use of variety of communication media to meet societal needs. The Web has shaped social policies and practices around the world, as well as influence the creation and use of other technologies. It has also reconfigured individuals to be active participants in global information exchange, as well as passive consumers partly due to the abundance of instantaneously accessible multimedia. To date - 30 years old as of this writing - the Web has served for "good" and "evil". Like any human technology, what we devise and how we use them has societal implications.</p>
 
@@ -370,10 +370,10 @@
                     <dd><a href="https://www.w3.org/ns/activitystreams">https://www.w3.org/ns/activitystreams#</a></dd>
                     <dt><code>cert</code></dt>
                     <dd><a href="http://www.w3.org/ns/auth/cert">http://www.w3.org/ns/auth/cert#</a></dd>
-                    <dt><code>contact</code></dt>
-                    <dd><a href="http://www.w3.org/2000/10/swap/pim/contact">http://www.w3.org/2000/10/swap/pim/contact#</a></dd>
                     <dt><code>cito</code></dt>
                     <dd><a href="http://purl.org/spar/cito/">http://purl.org/spar/cito/</a></dd>
+                    <dt><code>contact</code></dt>
+                    <dd><a href="http://www.w3.org/2000/10/swap/pim/contact">http://www.w3.org/2000/10/swap/pim/contact#</a></dd>
                     <dt><code>dcterms</code></dt>
                     <dd><a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a></dd>
                     <dt><code>doap</code></dt>
