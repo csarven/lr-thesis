@@ -17,7 +17,7 @@
       <article about="" typeof="schema:ScholarlyArticle">
         <h1 property="schema:name">Conclusions</h1>
         <div datatype="rdf:HTML" property="schema:description">
-          <p>The <a href="#research-goals">research goals</a> of this thesis has been to investigate how decentralised, interoperable, and socially-aware Web applications can be designed to fulfill the core functions in scholarly communication while enabling actors with high degree of control over what they create and share. In this concluding section, I will provide my findings for the <a href="#research-questions">research questions</a>, provide my <a href="#interpretations">interpretations</a>, and wrap up with my <a href="#perspectives">perspectives</a> for future research.</p>
+          <p>The <a href="#research-goals">research goals</a> of this thesis has been to investigate how decentralised, interoperable, and socially-aware Web applications can be designed to fulfill the core functions in scholarly communication while enabling actors with high degree of control over what they create and share. In this concluding section, I will provide my findings and review of <a href="#research-questions-review">research questions</a>, <a href="#interpretations">interpretations</a> of the findings, and wrap up with <a href="#perspectives">perspectives</a> for future research.</p>
 
           <section id="research-questions-review" inlist="" rel="schema:hasPart" resource="#research-questions-review">
             <h2 property="schema:name">Research Questions Review</h2>
