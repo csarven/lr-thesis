@@ -179,7 +179,7 @@
                     <dd>How can a client application
                       engage in registration, awareness, certification and archiving
                       so that actors can autonomously cooperate
-                      in reading and writing access-controlled decentralised Linked Data?
+                      in reading and writing access-controlled decentralised structured data?
                     </dd>
                   </dl>
 
@@ -188,7 +188,7 @@
                   <nav>
                     <ul>
                       <li><a href="#technical-research-problem-decentralised-notifications">Decentralised Notifications</a> in <cite><a href="linked-data-notifications">Linked Data Notifications</a></cite></li>
-                      <li><a href="#technical-research-problem-linked-data">Linked Data</a> and <a href="#technical-research-problems-raca-aware-application">RACA-Aware Application</a> in <cite><a href="decentralised-linked-research-appplication">Decentralised Linked Research Application</a></cite></li>
+                      <li><a href="#technical-research-problems-raca-aware-linked-data-application">RACA-Aware Linked Data Application</a> in <cite><a href="decentralised-linked-research-appplication">Decentralised Linked Research Application</a></cite></li>
                     </ul>
                   </nav>
 
