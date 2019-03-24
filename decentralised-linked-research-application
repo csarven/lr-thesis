@@ -187,7 +187,7 @@
               <section id="cruding-resources" inlist="" rel="schema:hasPart" resource="#crud-resources">
                 <h3 property="schema:name">CRUDing Resources</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>dokieli implements the <a href="decentralising-scholarly-communication#crud-http">HTTP based CRUD operations</a> - create, update, and delete - and in particular, conforms to some of the clientside operations expected to communicate with LDP, WAP, AP implementations.</p>
+                  <p>dokieli implements the <a href="decentralising-scholarly-communication#crud-http">HTTP based CRUD operations</a> - create, update, and delete - and in particular, conforms to some of the clientside operations required to communicate with LDP, WAP, AP implementations.</p>
 
                   <table id="crud-http">
                     <thead>
@@ -249,7 +249,7 @@
 
                   <p>Before dokieli makes a write request to a server, it triggers content-negotiation through <code>HTTP OPTIONS</code> and checks for <code>Allow</code> and <code>Accept-Post</code> HTTP headers in order to determine server's preferences. In the absence of successful negotiation, dokieli proceeds to make the request as per the required parameters of LDN, WAP and AP. For example, <code>HTTP POST</code> with <code>application/ld+json</code> content type would be used for annotations and notifications, if a server's preference is not determined.</p>
 
-                  <p>Articles are by default to be used as <code>text/html</code> media with embedded RDFa. Where a server implements <code>HTTP GET</code> with <code>text/html</code>, and allows <code>HTTP PUT</code> for writing, the assumption is that it can allow payloads with <code>text/html</code> content type. HTML+RDFa is considered to be an important default for articles for being human and machine-readable. Hence, if a server is capable of storing and serving resources in HTML, it will receive articles, annotations, and notifications in that form. Otherwise, dokieli will re-serialize the content into an alternative RDF syntax that the server prefers or capable of handling as per content-negotiation, and fallback to the requirements of relevant specifications.</p>
+                  <p>Articles are by default to be used as <code>text/html</code> media with embedded RDFa. Where a server implements <code>HTTP GET</code> with <code>text/html</code>, and allows <code>HTTP PUT</code> for writing, the assumption is that it can allow payloads with <code>text/html</code> content type. HTML+RDFa is considered to be an important default for articles for being human and machine-readable. Hence, if a server is capable of storing and serving resources in HTML, it will receive articles, annotations, and notifications in that form. Otherwise, dokieli will re-serialize the content into an alternative RDF syntax that the server prefers or is capable of handling per content-negotiation.</p>
 
                   <aside id="http-patch-articles">
                     <p>As of this writing, the reasons to use <code>HTTP POST</code> and <code>HTTP PUT</code> over <code>HTTP PATCH</code>, for documents like articles, are as follows:</p>
@@ -364,7 +364,7 @@
 
                           <p>Actions such as <em>New</em>, <em>Save</em>, <em>Save As</em>, <em>Reply</em>, <em>Version</em> are intended to create or update mutable resources, whereas <em>Immutable</em> is intended to create an immutable resource. The server ultimately decides whether to promise immutability or Memento based discovery.</p>
 
-                          <p>The <q>Archive</q> action uses <code>HTTP GET</code> as per Internet Archive's API.</p>
+                          <p>The <q>Archive</q> action uses <code>HTTP GET</code> according to the requirements of the Internet Archive's API.</p>
                         </td>
                       </tr>
                     </tfoot>
@@ -377,9 +377,9 @@
               <section id="personal-identities" inlist="" rel="schema:hasPart" resource="#personal-identities">
                 <h3 property="schema:name">Personal Identities</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p id="authentication"><strong>Authentication</strong>: Actors can authenticate themselves using <a href="#webid-tls">WebID-TLS</a> and <a href="#webid-oidc">WebID-OIDC</a> mechanisms on route to determine their level of authorization to read, write, and control resources. The workflow for authentication starts by user inputting their WebID (HTTP URI) or their Identity Provider URL as a shorthand for their WebID in dokieli UI. The Web resources in which the user wishes to interact with may be under any domain, whether self-hosted or another party's, running a server application conforming to the same standards.</p>
+                  <p id="authentication"><strong>Authentication</strong>: Actors can authenticate themselves using <a href="#webid-tls">WebID-TLS</a> and <a href="#webid-oidc">WebID-OIDC</a> mechanisms and then the server determines their level of authorization to read, write, and control resources. The workflow for authentication starts by a user inputting their WebID (HTTP URI) or their Identity Provider URL as a shorthand for their WebID into the dokieli UI. The Web resources with which the user wishes to interact may be under any domain, whether self-hosted elsewhere, so long as they are hosted by a server application conforming to the same standards.</p>
 
-                  <p id="profile-description"><strong>Profile Description</strong>: In order to adopt dokieli's user-interface and the kinds of interactions that a user can perform, we dereference the user's <a href="#webid">WebID</a> (HTTP URI), and parse the <a href="#webid-profile">WebID Profile</a> document to glean the following kinds of information:</p>
+                  <p id="profile-description"><strong>Profile Description</strong>: In order to adopt dokieli's user-interface and the kinds of interactions that a user can perform, the user's <a href="#webid">WebID</a> (HTTP URI) is dereferenced to a <a href="#webid-profile">WebID Profile</a> document for the following kinds of information:</p>
 
                   <ul>
                     <li>Name (eg. <code>foaf:name</code> and equivalents)</li>
@@ -396,7 +396,7 @@
                     <li><a href="decentralising-scholarly-communication#webid-tls-delegation">Delegated agent</a> (<code>acl:delegates</code>)</li>
                   </ul>
 
-                  <p>When dokieli encounters <code>owl:sameAs</code> and <code>rdfs:seeAlso</code> relations in WebID Profiles, it traverses the unique connections continuously to mine for relevant information. The reason for this is both, to discover, as well as to fuse a graph that can be used to adopt the interface and the possible interactions. For example, driven by <a href="structure-of-scholarly-information#follow-your-nose">follow-your-nose</a> type of exploration, a human-readable name, an inbox relation, list of contacts, and other information can be put together by looking at the interconnected identity graph that is semantically associated.</p>
+                  <p>When dokieli encounters <code>owl:sameAs</code> and <code>rdfs:seeAlso</code> relations in WebID Profiles, it traverses the unique connections continuously to mine for relevant information. The reason for this is both to discover a graph that can be used to adapt the interface and the possible interactions. For example, driven by <a href="structure-of-scholarly-information#follow-your-nose">follow-your-nose</a> type of exploration, a human-readable name, an inbox relation, list of contacts, and other information can be put together by looking at the interconnected identity graph that is semantically associated.</p>
                 </div>
               </section>
 
