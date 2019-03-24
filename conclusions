@@ -17,18 +17,39 @@
       <article about="" typeof="schema:ScholarlyArticle">
         <h1 property="schema:name">Conclusions</h1>
         <div datatype="rdf:HTML" property="schema:description">
-          <p>The <a href="#research-goals">research goals</a> of this thesis has been to investigate how decentralised, interoperable, and socially-aware Web applications can be designed to fulfill the core functions in scholarly communication while enabling actors with high degree of control over what they create and share. In this concluding section, I will provide my findings and review of <a href="#research-questions-review">research questions</a>, <a href="#interpretations">interpretations</a> of the findings, and wrap up with <a href="#perspectives">perspectives</a> for future research.</p>
+          <p>The <a href="#research-goals">research goals</a> of this thesis has been to investigate how decentralised, interoperable, and socially-aware Web applications can be designed to fulfill the core functions in scholarly communication while enabling actors with high degree of control in shaping and sharing their content. In this concluding section, I will provide my findings and <a href="#research-questions-review">review of the research questions</a>, <a href="#interpretations">interpretations</a> of the findings, and wrap up with <a href="#perspectives">perspectives</a> for future research.</p>
 
           <section id="research-questions-review" inlist="" rel="schema:hasPart" resource="#research-questions-review">
             <h2 property="schema:name">Research Questions Review</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Here I discuss the findings to research questions.</p>
+              <p>The sections <cite><a href="scholarly-communication-on-the-web">Scholarly Communication on the Web</a></cite>, <cite><a href="structure-of-scholarly-information">Structure of Scholarly Information</a></cite>, and <cite><a href="decentralising-scholarly-communication">Decentralising Scholarly Communication</a></cite> investigated the <a href="introduction#knowledge-questions">knowledge questions</a> necessary to address the <a href="introduction#technical-research-problems">technical research problems</a>. In this section I will review how the technical research problems have been answered.</p>
+
+              <dl id="technical-research-problems-internal-review">
+                <dt id="technical-research-problem-decentralised-notifications-review">How to design a Web communication protocol
+                  that enables applications to create, discover and consume universally identifiable and structured notifications
+                  so that actors can independently compose and disseminate information
+                  in order to decouple applications and data use?</dt>
+                <dd>The Linked Data Notifications protocol separates the concerns between applications <em>senders</em>, <em>receivers</em>, and <em>consumers</em> of notifications. Such decoupling of application roles in context of a client–server model can be interoperable between two classes of interactions, <a href="#sender-to-receiver">senders and receivers</a>, or between <a href="#consumer-to-receiver">consumers and receivers</a>. These are atomic interactions in that they facilitate the design of loosely-coupled systems that can exchange structured notifications. For instance, the fact that a receiver application is only responsible to take in and serve notifications entails that independently implemented applications are free to focus at minimum on assembling and distributing notifications, or obtaining and re-using notifications. As such, the LDN protocol affords a high <a href="linked-data-notifications#degree-of-control-in-ldn">degree of control</a> to actors in that they can use their preferred applications, store notifications where they prefer, switch between applications without relocating the notification, and relocate the notifications without having to change applications. LDN's underlying mechanism triggers <em>registration</em>, fulfills <em>awareness</em>, and can support fulfilling the <em>certification</em> and <em>archiving</em> <a href="linked-data-notifications#ldn-forces-functions">functions in scientific communication</a> in a decentralised ecosystem.</dd>
+
+                <dt id="technical-research-problem-linked-data">How can a client-server application interaction
+                  produce Linked Data that is findable, accessible, interoperable, and reusable
+                  so that actors can use their preferred applications
+                  in order to foster a human- and machine-readable ecosystem?</dt>
+                <dd></dd>
+
+                <dt id="technical-research-problem-raca-aware-application">How can a client application
+                  engage in registration, awareness, certification and archiving
+                  so that actors can autonomously cooperate
+                  in reading and writing access-controlled decentralised Linked Data?</dt>
+                <dd></dd>
+              </dl>
+
 
               LD publishing scales in terms of a paygo approach eg. socially-aware application, ldn test suite/spec..
               LD approach evidently satisfies the FAIR principles out of the box.
               Creating and consuming human- and machine-readable Web resources is feasible.
               Mechanisms for decentralisation and interoperability makes (may make?) RACA-Aware App easier to work with. At least decoupled.
-              "Third-party" publishers are not required. If anything, generally limits or has constraints on what and how Web resources can be published.
+
             </div>
           </section>
 
@@ -44,6 +65,8 @@
           <p class="todo">mention how the design decisions wasn't done in a vacuum. It was done within the context of W3C and SWWG... and the broader context of decentralisation efforts.</p>
 What are the lessons learned? (specs is where it is at.. highly valuable but takes effort to align from a number of places.. social/technical challenges)
 </section>
+
+              "Third-party" publishers are not required. If anything, generally limits or has constraints on what and how Web resources can be published.
 
 <p>Linked Research and dokieli is closely aligned with the original concept of <q cite="http://www.cs.cornell.edu/~ginsparg/physics/blurb/pg01unesco.html">self-archiving</q> - Ginsparg "school of thought", provided that anyone can share their Web resources from where they prefer.</p>
             </div>
@@ -95,6 +118,7 @@ What are the lessons learned? (specs is where it is at.. highly valuable but tak
 <p id="general-principle-of-control"><strong>General Principle of Control</strong>: In an ecosystem where anyone can (technically) say anything about anything, we acknowledge the social challenges surrounding that. For instance, systems are not immune to negative information created and distributed by actors. While the challenges are inherently domain agnostic, it is important for academic and research communication even if individual or institutional accountability and reputation is at stake. While building and maintaining a positive Web-centric scholarly system is beyond the scope of this thesis, we can keep bear in mind the social implications of our architectural and design decisions, in order to increase the value and incentives to participate in such systems. Discuss https://github.com/linkeddata/dokieli/issues/152 and refer back to minor discussion on linked-data-notifications#social-implications</p>
 
 
+In context of major communication shifts, we have not scratched the surface - 30 years into the advent of the Web is till a very brief period in history.
 
                 <p id="role-of-institutions"><strong>Role of Institutions</strong>: 
 * what roles could libraries/institutions play? eg notify about article/review
@@ -107,6 +131,7 @@ What are the lessons learned? (specs is where it is at.. highly valuable but tak
 <p id="privacy-aware-information-space"><strong>Privacy Aware Information Spaces</strong>: Actors can better make decisions if their applications are privacy-aware, for example through ODRLs.. We should also observe the interplay of forces and functions in scholarly communication to see how privacy-aware applications may materialise new forms of content and interactions.</p>
 </section>
 
+<p>Designing other RACA-Aware decentralised applications.. how can we remix specs to address other/new problems?</p>
 
 <p> What has it shaped? What are the current challenges? How do we envision the communication to be? How can we use the medium better whether through its original intentions or new?</p>
 
@@ -120,7 +145,7 @@ What are the lessons learned? (specs is where it is at.. highly valuable but tak
 
 
 
-          <p>-<a href="https://csarven.ca/#i">Sarven</a></p>
+          <p>-<a href="http://csarven.ca/#i">Sarven</a></p>
         </div>
       </article>
     </main>
