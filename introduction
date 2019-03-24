@@ -49,7 +49,7 @@
 
               <p id="assumptions">I assume that researchers in scholarly communication are motivated to some extent personally, whether that is with the goal to take part in advancing collective knowledge, society and life, career advancement, prestige, or financial gain. Researchers are intrinsically interested in making their impact by way of sharing their findings in manner that is most accessible to potential users. As for the underlying technical machinery for information exchange, I assume that it is useful to aim in designing interoperable information systems to help us address problems in context of societal goals. All of these aspects are part of the "social machine" of scholarly communication, and are explored through the sections.</p>
 
-              <p id="up-next">As many have argued, for scholarly communication to be more effective; accessible, usable, inclusive, as well as equitable, we need to adopt methods that are better at identifying and making use of the native affordances of the Web. This is particularly important since academic and social activities use the Web as the primary medium to communicate (in contrast to systems that mimic paper media). Hence, I examine the core characteristics of the Web, discuss the state of affairs in scholarly communication, and share my findings in the ways that the latter can satisfy the forces and functions in scientific communication.</p>
+              <p id="up-next">As many have argued, for scholarly communication to be more effective; accessible, usable, inclusive, as well as equitable, we need to adopt methods that are better at identifying and making use of the native affordances of the Web. This is particularly important since academic and social activities use the Web as the primary medium to communicate (in contrast to systems that mimic paper media). Hence, I examine the core characteristics of the Web, discuss the state of affairs in scholarly communication, and share my findings on how a way to fulfill the forces and functions in scientific communication can be met by a socially-aware decentralised client application.</p>
             </div>
           </section>
 
@@ -63,7 +63,7 @@
               <section id="stakeholders" inlist="" rel="schema:hasPart" resource="#stakeholders">
                 <h3 property="schema:name">Stakeholders</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>In research projects, there are various stakeholders acting as internal and external forces in scholarly communication. In order to address societal concerns, research sponsors fund projects to attain reusable technical designs and acquire new knowledge in the process. Knowledge workers like researchers and scholars are driven by curiosity to advance our understanding of the universe. The public is interested in accessing applications of research to educate and for the well-being of life. The industry needs efficient functioning of scientific communication in order to translate the return of research capital.</p>
+                  <p>In research projects, there are various stakeholders (in)directly acting as internal and external forces in scholarly communication. In order to address societal concerns, research sponsors fund projects to attain reusable technical designs and acquire new knowledge in the process. Knowledge workers like researchers and scholars are driven by curiosity to advance our understanding of the universe and share their findings. The public is interested in accessing applications of research to educate and for the well-being of life. The industry needs efficient functioning of scientific communication in order to translate the return of research capital.</p>
 
                   <p>In the underlying work, I am a stakeholder acting as a knowledge worker, a member of the public, an operator (<q>end user</q>, maintainer, operational supporter).</p>
                 </div>
@@ -72,19 +72,19 @@
               <section id="problem-context" inlist="" rel="schema:hasPart" resource="#problem-context">
                 <h3 property="schema:name">Problem Context</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>There are several sociotechnical limitations in the contemporary paradigm that the scholarly communication operates in. I will summarise a subset of problem areas relating to interoperability and autonomy. Each problem space will be reviewed in relevant sections of this thesis.</p>
+                  <p>There are several sociotechnical limitations in the contemporary paradigm that the scholarly communication operates in. I will summarise a subset of problem areas pertaining to interoperability of systems and autonomy of actors. Each problem space will be reviewed in relevant sections of this thesis.</p>
 
-                  <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover and make new connections between information.</p>
+                  <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover, make sense of, and create new connections between information.</p>
 
                   <p>Data on the Web tends to be locked into non-interoperable Web systems or be only usable by applications which created it. Actors - creators and readers - in these systems often do not have the means to switch between applications and share data between them.</p>
 
-                  <p>There is a lack of diverse value chains for different units of scholarly communication due to tightly coupled proprietary systems. The actors in these systems create and exchange information by (or forced into) using packaged systems and workflows, give up their rights, and not have control over how their creations can be disseminated and reused.</p>
+                  <p>There is a lack of diverse value chains for different units of scholarly communication due to tightly coupled proprietary systems. The actors in these systems create and exchange information by (being forced into) using packaged systems and workflows, give up their rights, and not have control over how their creations can be disseminated and reused.</p>
 
-                  <p>The actors in the system commonly use print-centric tools and data representations to exchange content on the Web and neglect to take advantage of the available affordances of the Web (media). Actors' possibility to shape their contributions in Web media is typically constrained to third-party service provider's centralised and non-interoperable solutions. Consequently, resulting in deficiencies in the ecosystem.</p>
+                  <p>The actors in the system commonly use print-centric tools and data representations to exchange content on the Web and neglect to take advantage of the available affordances of the Web (media). Actors' possibility to shape their contributions in Web media is typically constrained to third-party service provider's centralised and non-interoperable solutions.</p>
 
                   <p>Actors rental of personal and professional identifiers, as well as data storage from third-parties are subject to privacy issues. Actors typically manage multiple disconnected profiles, social connections, and data spaces.</p>
 
-                  <p>These class of problems in the scholarly ecosystem have implications on access, interoperability, findability, cost and privacy. The research questions; technical research problems and knowledge questions, are aimed at understanding the internal mechanisms of these type of problems and address them for stakeholders.</p>
+                  <p>These class of problems in the scholarly ecosystem have implications on access, interoperability, findability, cost and privacy. Consequently, resulting in global deficiencies in the ecosystem. The research questions; technical research problems and knowledge questions, are aimed at understanding the internal mechanisms of these type of problems and address them for stakeholders.</p>
                 </div>
               </section>
 
@@ -136,12 +136,14 @@
                   <p>What do you think will happen?</p>
 
                   <p>Change in paradigm? Implications? eg. creator self-archive/publishes.. community accessible quality-control/certification.</p>
+
                   <p>Design characteristics of <cite><a href="linked-research">Linked Research</a></cite>-like?</p>
-                  <p>Can dokieli be used in a non-domain specific way? yes</p>
+
+                  <p>Can dokieli-like applications be used in non-domain specific way? mostly yes.. it is more about LD vocab understanding?</p>
 
                   <p>Is and can our system be productive, resilient and organised? Can it evolve? If redesigned, can it operate within established and unexpected parameters as part of a even greater larger ecosystem? What assumptions have we adopted?</p>
 
-                  <p>Why self-publishing and what is it like to actualise? What constitutes a scholarly contribution on the Web? What can be deconstructed?</p>
+                  <p>Why self-publishing and what is it like to actualise? What constitutes a scholarly contribution on the Web? What can be deconstructed? What are the dangers or limits?</p>
                   </div>
                 </div>
               </section>
@@ -185,12 +187,10 @@
 
                   <p>The answers to these research questions are primarily posited in the following sections:</p>
 
-                  <nav>
-                    <ul>
-                      <li><a href="#technical-research-problem-decentralised-notifications">Decentralised Notifications</a> in <cite><a href="linked-data-notifications">Linked Data Notifications</a></cite></li>
-                      <li><a href="#technical-research-problems-raca-aware-linked-data-application">RACA-Aware Linked Data Application</a> in <cite><a href="decentralised-linked-research-appplication">Decentralised Linked Research Application</a></cite></li>
-                    </ul>
-                  </nav>
+                  <ul>
+                    <li><a href="#technical-research-problem-decentralised-notifications">Decentralised Notifications</a> in <cite><a href="linked-data-notifications">Linked Data Notifications</a></cite></li>
+                    <li><a href="#technical-research-problems-raca-aware-linked-data-application">RACA-Aware Linked Data Application</a> in <cite><a href="decentralised-linked-research-appplication">Decentralised Linked Research Application</a></cite></li>
+                  </ul>
 
                   <p>I will also review the answers in <cite><a href="conclusions">Conclusions</a></cite>.</p>
                 </div>
@@ -227,6 +227,7 @@
 
                     <li>What is the mechanism a client application to perform decentralised read-write operations.</li>
 
+
                     <li>What effects are produced by the interaction between the artifact and context?</li>
                     <li>How does the artifact perform in this context compared to similar artifacts?</li>
                     <li>What effects are produced by the artifact in different contexts?</li>
@@ -241,7 +242,7 @@
           <section id="thesis-overview" inlist="" rel="schema:hasPart" resource="#thesis-overview">
             <h2 property="schema:name">Thesis Overview</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Dive into:</p>
+              <p>How to dive into this thesis:</p>
 
               <section id="document-structure" inlist="" rel="schema:hasPart" resource="#document-structure">
                 <h3 property="schema:name">Structure</h3>
@@ -251,7 +252,7 @@
                     <footer><cite><a data-versiondate="2019-03-12T15:07:33Z" dataversion-url="https://web.archive.org/web/20190312150733/https://biblio.ugent.be/publication/522209/file/1873597.pdf" href="https://biblio.ugent.be/publication/522209/file/1873597.pdf">Dynamic and context-sensitive linking of scholarly information</a></cite>, Van de Sompel, 2000</footer>
                   </blockquote>
 
-                  <p>All information of significance in this thesis is made available as <cite><a href="scholarly-communication-on-the-web#linked-data">Linked Data</a></cite> on the Web and archived. Here is one way to visualise the underlying graph, which can be navigated:</p>
+                  <p>All information of significance in this thesis is made available as <cite><a href="scholarly-communication-on-the-web#linked-data">Linked Data</a></cite> on the Web and archived. Here is one way to visualise the underlying graph that can also be navigated:</p>
 
                   <figure class="todo">
                     <figcaption>This Thesis is a <q>Knowledge Graph</q></figcaption>
@@ -274,7 +275,7 @@
                     <dd>A description and explanation of the effects of applying Web-centric standards and practices in order to enable and empower creators and consumers of open knowledge, as well as a generalisation of core principles that can serve as an exemplar to set forth a shift in scholarly communication.</dd>
                   </dl>
 
-                  <p>In <cite><a href="conclusions">Conclusions</a></cite>, I will connect and discuss all findings, meaning, and perspectives for the future.</p>
+                  <p>In <cite><a href="conclusions">Conclusions</a></cite>, I will connect and discuss all findings, interpretations, and perspectives for the future.</p>
                 </div>
               </section>
 
@@ -283,9 +284,9 @@
                 <div data="rdf:HTML" property="schema:description">
                   <p>The five review characteristics; focus, goal, perspective, coverage, and audience, are borrowed from the summary at <cite><a data-versiondate="2018-10-27T14:59:46Z" data-versionurl="https://web.archive.org/web/20181027145946/https://pareonline.net/pdf/v14n13.pdf" href="https://pareonline.net/pdf/v14n13.pdf">Practical Assessment, Research &amp; Evaluation</a></cite>, Randolph, 2009, which is based on <cite>Organizing knowledge syntheses: A taxonomy of literature reviews</cite>, Cooper, 1988.</p>
 
-                  <p><strong>Focus</strong>: The core focus of the reviews and cited material was to establish a connection between the available theories, as well as the application of certain interventions to help identify and apply a practical need. Hence, majority of the analysis and synthesis focuses on practices or applications in the field.</p>
+                  <p><strong>Focus</strong>: The core focus of the reviews and cited material was to establish a connection between the available theories and their underlying mechanisms, as well as the application of certain interventions to help identify and apply a practical need. Hence, majority of the analysis and synthesis focuses on practices or applications in the field.</p>
 
-                  <p><strong>Goal</strong>: My intention is to present this thesis in a way that is technically and meaningfully connected with the knowledge out there. Hence, I would like any reader (human or machine) in the future to be able to observe and verify the connections that I have put together as much as possible. The main interest for the reviews and citations were information integration for the big picture, identification and discussion of central issues, and explicating arguments.</p>
+                  <p><strong>Goal</strong>: My intention is to present this thesis in a way that is technically and meaningfully connected with the knowledge out there, as well as to connect my contributions. Hence, I would like any reader (human or machine) in the future to be able to observe and verify the connections that I have put together as much as possible. The main interest for the reviews and citations were information integration for the big picture, identification and discussion of central issues, and explicating arguments.</p>
 
                   <p><strong>Perspective</strong>: As this thesis is about connecting and endorsing open scholarly knowledge in context of decentralised and social Web, there is a selection bias in favour of (research) information based on the following criteria:</p>
 
@@ -300,7 +301,7 @@
                     <li>Preference for research artifacts made available with declarative languages (as opposed to dynamically generated as part of an application).</li>
                   </ul>
 
-                  <p>At the time of this writing, HTTP URIs of research objects resolving to <q>paywall</q> or <q>access toll</q> landing pages were excluded. The rationale is that if information is <em>only</em> available to a subset of humans, then it is not deemed to be part of the observable and reproducible universal knowledge - a fundamental requirement of applying the scientific method. Fortunately, I was able to gather plenty of "open" and "free" resources to support the narrative of this thesis.</p>
+                  <p>At the time of this writing, HTTP URIs of research objects resolving to <q>paywall</q> or <q>access toll</q> landing pages were excluded. The rationale is that if information is <em>only</em> available to a subset of humans, then it is not deemed to be part of the observable and reproducible universal knowledge - a fundamental requirement of applying the scientific method. Fortunately, I was able to gather plenty of "open" and "free" resources to support the narrative of this thesis, and addressing its knowledge goals.</p>
 
                   <p><strong>Coverage</strong>: The reviewed and cited works are composed of a purposive sample, examining only pivotal works and the source of concepts in the field to tie them together. While this selection is naturally not exhaustive in and itself, I have considered, located, and discussed material that was available at the time of my investigation. While there may be natural imperfections in data collection, evaluation, analysis, and interpretation in any literature review and bibliographic citations, I have aimed to be systematic in what's covered. To that end, the works - text, data, media, or other - mentioned in this thesis were included or excluded based on the following criteria:</p>
 
@@ -313,7 +314,7 @@
 
                   <p><strong>Organisation</strong>: Historical and conceptual formats were used as organisation schemes. My observations and categorisations are in <a href="scholarly-communication-on-the-web">Scholarly Communication on the Web</a>, <a href="structure-of-scholarly-information">Structure of Scholarly Information</a> and <a href="decentralising-scholarly-communication">Decentralising Scholarly Communication</a>, and are first organised conceptually, and then chronologically ordered.</p>
 
-                  <p><strong>Audience</strong>: for anyone interested in traversing the connections and building on the underlying results.</p>
+                  <p><strong>Audience</strong>: for anyone interested in traversing the connections and building on the underlying findings.</p>
                 </div>
               </section>
 
