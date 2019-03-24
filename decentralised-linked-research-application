@@ -604,7 +604,7 @@ document.addEventListener('DOMContentLoaded', function(){
                   </div>
                   <script>DO.U.showAsTabs('private-and-annotated-link');</script>
 
-                  <p>Once an annotation is created and has a dereferenceable HTTP URI (subject to access control rules), a notification can be sent to the inbox of the target resource about the annotation if an article or arbitrary parts advertises an LDN inbox. Depending on the motivation of the annotation, the notification is modelled with the <cite>Activity vocabulary</cite> eg. the <a href="https://www.w3.org/TR/activitystreams-vocabulary/#dfn-create">Create</a> activity (<code>as:Create</code>), to indicate that the actor has created the object.</p>
+                  <p>Once an annotation is created and has a dereferenceable HTTP URI (subject to access control rules), a notification can be sent to the inbox of the target resource about the annotation if any part of an article advertises an LDN inbox. Depending on the motivation of the annotation, the notification is modelled with the <cite>Activity vocabulary</cite> eg. the <a href="https://www.w3.org/TR/activitystreams-vocabulary/#dfn-create">Create</a> activity (<code>as:Create</code>), to indicate that the actor has created the object.</p>
 
                   <p>In order to discover and view previously created annotations associated with an article, dokieli follows LDN's discovery mechanism for notifications about annotations, and then subsequently fetches the annotations in order to display them in context of their target selector.</p>
 
@@ -615,7 +615,7 @@ document.addEventListener('DOMContentLoaded', function(){
                     <dd>Implemented with the <em>Share</em> feature using the actor's social graph data, and LDN for dissemination.</dd>
 
                     <dt>As a pre-print publisher, I want to create and manage an overlay journal.</dt>
-                    <dd>Inapplicable for the most part. It is possible to open and render a collection of activities eg. published articles, which can be treated as a journal volume.</dd>
+                    <dd>It is possible to open and render a collection of activities eg. published articles, which can be treated as a journal volume.</dd>
 
                     <dt>As a journal publisher, I want to implement a peer review system that brings authors and reviewers together in role-defined groups.</dt>
                     <dd>Actors can notify each other and annotate resources. However, there is no particular system to manage it as a whole.</dd>
@@ -627,7 +627,7 @@ document.addEventListener('DOMContentLoaded', function(){
                     <dd>Actors can select, add, and edit semantic markup (HTML+RDFa) as well embed structured data blocks for Nanotations using TriG, as well as JSON-LD and Turtle. Common document formatting features are supported.</dd>
 
                     <dt>As a journal publisher, I want to create safe spaces for commentary so that authors and expert readers can participate comfortably.</dt>
-                    <dd>Actors with the required access control privileges to an inbox manages the information flow. There is no overarching system to create or manage <em>a space</em> as each resource is individually controlled by their owners. It is possible for LDN inbox owners to filter notifications which refers to unwanted annotations.</dd>
+                    <dd>Actors with the required access control privileges to an inbox manages the information flow. There is no overarching system to create or manage <em>a space</em> as each resource is individually controlled by their owners. It is possible for LDN inbox owners to filter notifications which refer to unwanted annotations.</dd>
 
                     <dt>As a vision-impaired user, I want annotation tools to be accessible to me.</dt>
                     <dd>WCAG are applied, and ARIA is used where applicable. The application of ATAG is in progress.</dd>
@@ -651,7 +651,7 @@ document.addEventListener('DOMContentLoaded', function(){
                     <dd>Scientists using their ORCID URI (as their WebID) including the storage location in their profile can annotate anywhere.</dd>
 
                     <dt>As a researcher, I want control over the annotations I make in various contexts so I can assemble this work into a coherent form and claim credit for it.</dt>
-                    <dd>Researchers having access controls to their annotation storage can.</dd>
+                    <dd>Researchers with access controls to their annotation storage can.</dd>
 
                     <dt>As a publisher, I want to commission expert annotators whose commentary adds value to my content.</dt>
                     <dd>Publishers of articles and annotations can assign different inboxes to receive notifications about commentaries.</dd>
@@ -672,7 +672,7 @@ document.addEventListener('DOMContentLoaded', function(){
                     <dd>Preferred stylesheet can be applied.</dd>
 
                     <dt>As the developer of a journal publishing system, I want to deliver a bundled annotation service that integrates with my identity system.</dt>
-                    <dd>Out of scope.</dd>
+                    <dd>Using open standards for profiles, authentication and annotations means that anyone wishing to provide a hosted service need only adopt the same standards, eg. WebID, OIDC and WA.</dd>
 
                     <dt>As a publisher, I want to project a curated view of a paper’s peer-review process onto the published paper.</dt>
                     <dd>Memento and provenance information is generated and consumed in articles. All annotations and unique inboxes can be used. Robust Links are also shown.</dd>
