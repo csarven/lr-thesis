@@ -114,12 +114,12 @@
 
               <p>dokieli uses <a href="linked-data-notifications">LDN</a> to send and consume notifications. For example, when a reader comments on a fragment of text in an article, the application discovers the article’s Inbox and sends a notification about the annotation. dokieli also consumes notifications from this Inbox to fetch and display the annotation as marginalia (<a href="#figure-dokieli-annotation">figure 2</a>), or indicates the back-references as in the case with citations. A reader can share a dokieli-enabled article with their contacts; dokieli discovers each contact’s Inbox and sends a notification there (<a href="#figure-dokieli-share">figure 3</a>). When editing an article, the author can add a citation. If an Inbox is discovered in the cited article, dokieli sends a notification there to indicate what part of the article was cited by whom and where. dokieli-enabled articles also consume citation notifications to display these metrics for the author and other readers (<a href="#figure-dokieli-citation">figure 4</a>).</p>
 
-              <p>Here I describe dokieli's architecture along the following main areas:</p>
+              <p>Next I describe dokieli's architecture according to the following capabilities:</p>
 
               <ul>
-                <li>Actors can use their own WebIDs to identify themselves with, and use their profile information to adapt the user interface.</li>
-                <li>Actors can publish and consume human and machine-readable Linked Data, and decide where they are made available from and the conditions for access and reuse.</li>
-                <li>Actors can use the notification system to announce, as well as discover relevant information.</li>
+                <li>Actors use their own WebIDs to identify themselves with, and use their profile information to adapt the user interface.</li>
+                <li>Actors publish and consume human and machine-readable Linked Data, and decide where they are made available from and the conditions for access and reuse.</li>
+                <li>Actors trigger the notification system to announce, as well as discover relevant information.</li>
               </ul>
 
 
