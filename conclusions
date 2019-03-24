@@ -25,25 +25,26 @@
               <p>The sections <cite><a href="scholarly-communication-on-the-web">Scholarly Communication on the Web</a></cite>, <cite><a href="structure-of-scholarly-information">Structure of Scholarly Information</a></cite>, and <cite><a href="decentralising-scholarly-communication">Decentralising Scholarly Communication</a></cite> investigated the <a href="introduction#knowledge-questions">knowledge questions</a> necessary to address the <a href="introduction#technical-research-problems">technical research problems</a>. In this section I will review how the technical research problems have been answered.</p>
 
               <dl id="technical-research-problems-internal-review">
-                <dt id="technical-research-problem-decentralised-notifications-review">How to design a Web communication protocol
+                <dt id="technical-research-problem-decentralised-notifications-review">How to design a decentralised communication protocol
                   that enables applications to create, discover and consume universally identifiable and structured notifications
                   so that actors can independently compose and disseminate information
                   in order to decouple applications and data use?</dt>
-                <dd>The Linked Data Notifications protocol separates the concerns between applications <em>senders</em>, <em>receivers</em>, and <em>consumers</em> of notifications. Such decoupling of application roles in context of a client–server model can be interoperable between two classes of interactions, <a href="#sender-to-receiver">senders and receivers</a>, or between <a href="#consumer-to-receiver">consumers and receivers</a>. These are atomic interactions in that they facilitate the design of loosely-coupled systems that can exchange structured notifications. For instance, the fact that a receiver application is only responsible to take in and serve notifications entails that independently implemented applications are free to focus at minimum on assembling and distributing notifications, or obtaining and re-using notifications. As such, the LDN protocol affords a high <a href="linked-data-notifications#degree-of-control-in-ldn">degree of control</a> to actors in that they can use their preferred applications, store notifications where they prefer, switch between applications without relocating the notification, and relocate the notifications without having to change applications. LDN's underlying mechanism triggers <em>registration</em>, fulfills <em>awareness</em>, and can support fulfilling the <em>certification</em> and <em>archiving</em> <a href="linked-data-notifications#ldn-forces-functions">functions in scientific communication</a> in a decentralised ecosystem.</dd>
+                <dd>The Linked Data Notifications protocol separates the concerns between applications <em>senders</em>, <em>receivers</em>, and <em>consumers</em> of notifications. Such decoupling of application roles in context of a client–server model permits interoperability between two classes of interactions, <a href="#sender-to-receiver">senders and receivers</a>, or between <a href="#consumer-to-receiver">consumers and receivers</a>. These are atomic interactions in that they facilitate the design of loosely-coupled systems that can exchange structured notifications. For instance, the fact that a receiver application is only responsible to take in and serve notifications entails that other independently implemented applications are free to focus at minimum on discovery, assembling and distributing notifications; or, obtaining and re-using notifications. As such, the LDN protocol affords a high <a href="linked-data-notifications#degree-of-control-in-ldn">degree of control</a> to actors in that they can use their preferred applications, store notifications where they prefer, switch between applications without relocating the notification, and relocate the notifications without having to change applications. LDN's underlying mechanism triggers <em>registration</em>, fulfills <em>awareness</em>, and can support fulfilling the <em>certification</em> and <em>archiving</em> <a href="linked-data-notifications#ldn-forces-functions">functions in scientific communication</a> in a decentralised ecosystem.</dd>
 
-                <dt id="technical-research-problem-linked-data">How can a client-server application interaction
-                  produce Linked Data that is findable, accessible, interoperable, and reusable
-                  so that actors can use their preferred applications
-                  in order to foster a human- and machine-readable ecosystem?</dt>
-                <dd></dd>
-
-                <dt id="technical-research-problem-raca-aware-application">How can a client application
+                <dt id="technical-research-problem-raca-aware-linked-data-application">How can a client application
                   engage in registration, awareness, certification and archiving
                   so that actors can autonomously cooperate
                   in reading and writing access-controlled decentralised Linked Data?</dt>
                 <dd></dd>
               </dl>
 
+<!--
+                    <dt id="technical-research-problem-linked-data">Linked Data</dt>
+                    <dd>How can a client-server application interaction
+                      produce Linked Data that is findable, accessible, interoperable, and reusable
+                      so that actors can use their preferred applications
+                      in order to foster a human- and machine-readable ecosystem?</dd>
+-->
 
               LD publishing scales in terms of a paygo approach eg. socially-aware application, ldn test suite/spec..
               LD approach evidently satisfies the FAIR principles out of the box.

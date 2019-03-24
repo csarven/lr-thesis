@@ -166,7 +166,7 @@
                     in an open and decoupled scholarly communication ecosystem?</dd>
                   </dl>
 
-                  <p>This research problem can be refined into three sub-problems:</p>
+                  <p>This research problem can be refined into two sub-problems:</p>
 
                   <dl id="technical-research-problems-internal">
                     <dt id="technical-research-problem-decentralised-notifications">Decentralised Notifications</dt>
@@ -175,13 +175,7 @@
                       so that actors can independently compose and disseminate information
                       in order to decouple applications and data use?</dd>
 
-                    <dt id="technical-research-problem-linked-data">Linked Data</dt>
-                    <dd>How can a client-server application interaction
-                      produce Linked Data that is findable, accessible, interoperable, and reusable
-                      so that actors can use their preferred applications
-                      in order to foster a human- and machine-readable ecosystem?</dd>
-
-                    <dt id="technical-research-problem-raca-aware-application"><abbr title="Registration, Awareness, Certification, Archiving">RACA</abbr>-Aware Application</dt>
+                    <dt id="technical-research-problem-raca-aware-linked-data-application"><abbr title="Registration, Awareness, Certification, Archiving">RACA</abbr>-Aware Linked Data Application</dt>
                     <dd>How can a client application
                       engage in registration, awareness, certification and archiving
                       so that actors can autonomously cooperate
