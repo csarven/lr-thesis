@@ -170,13 +170,13 @@
 
                   <dl id="technical-research-problems-internal">
                     <dt id="technical-research-problem-decentralised-notifications">Decentralised Notifications</dt>
-                    <dd>How to design a Web communication protocol
+                    <dd>How to design a decentralised communication protocol
                       that enables applications to create, discover and consume universally identifiable and structured notifications
                       so that actors can independently compose and disseminate information
                       in order to decouple applications and data use?</dd>
 
                     <dt id="technical-research-problem-linked-data">Linked Data</dt>
-                    <dd>How can a server-client application interaction
+                    <dd>How can a client-server application interaction
                       produce Linked Data that is findable, accessible, interoperable, and reusable
                       so that actors can use their preferred applications
                       in order to foster a human- and machine-readable ecosystem?</dd>
@@ -197,6 +197,8 @@
                       <li><a href="#technical-research-problem-linked-data">Linked Data</a> and <a href="#technical-research-problems-raca-aware-application">RACA-Aware Application</a> in <cite><a href="decentralised-linked-research-appplication">Decentralised Linked Research Application</a></cite></li>
                     </ul>
                   </nav>
+
+                  <p>I will also review the answers in <cite><a href="conclusions">Conclusions</a></cite>.</p>
                 </div>
               </section>
 

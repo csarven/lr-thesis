@@ -316,7 +316,7 @@ support groups.</pre>
                   <ul>
                     <li>the <cite><a href="https://www.w3.org/People/Berners-Lee/ShortHistory.html">Universal Document Identifier</a></cite> (<abbr title="Universal Document Identifier">UDI</abbr>) to refer to information on the Web - now known as <cite><a href="https://tools.ietf.org/html/rfc3986">Uniform Resource Identifier</a></cite> (<abbr title="Uniform Resource Identifier">URI</abbr>) to identify things, and <cite><a href="https://tools.ietf.org/html/rfc1738">Uniform Resource Locators</a></cite> (<abbr title="Uniform Resource Locator">URL</abbr>) to locate them on the Web.</li>
 
-                    <li>the <cite><a href="https://tools.ietf.org/html/rfc2616">Hypertext Transfer Protocol</a></cite> (<abbr title="Hypertext Transfer Protocol">HTTP</abbr>) as the request-response mechanism for systems - client–server model - to communicate and exchange hypermedia documents on the Web.</li>
+                    <li>the <cite><a href="https://tools.ietf.org/html/rfc2616">Hypertext Transfer Protocol</a></cite> (<abbr title="Hypertext Transfer Protocol">HTTP</abbr>) as the request-response mechanism for systems - <q cite="https://en.wikipedia.org/wiki/Client%E2%80%93server_model">client–server model</q> - to communicate and exchange hypermedia documents on the Web.</li>
 
                     <li>the <cite><a href="https://www.w3.org/TR/html/">Hypertext Markup Language</a></cite> (<abbr title="Hypertext Markup Language">HTML</abbr>) as the lingua franca to describe and navigate hypertext and multimedia documents on the Web.</li>
                   </ul>
