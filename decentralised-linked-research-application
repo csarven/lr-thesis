@@ -709,7 +709,7 @@ document.addEventListener('DOMContentLoaded', function(){
                     <li>Actor A's application displays the annotation in context of the unit of information.</li>
                   </ul>
 
-                  <p>As these components are solely based on interoperable standards, any conforming application is able to interact with, and perhaps more importantly, is not subject to a <a href="https://en.wikipedia.org/wiki/Vendor_lock-in">vendor lock-in</a>.</p>
+                  <p>As these components are solely based on interoperable standards, any conforming application is able to interact with them, and perhaps more importantly, is not subject to <a href="https://en.wikipedia.org/wiki/Vendor_lock-in">vendor lock-in</a>.</p>
 
                   <p>This scenario is realised in dokieli, and works as a single-page application or via the Web Extension. The Web Extension enables a new dimension to discovering and consuming independently published activities in that, a user can navigate to any HTTP URL and potentially discover and interact with annotations made by the members of their network. Thereby, a layer of decentralised and linked research space can exist independently, where any Web resource, perhaps typically an article, can be incorporated into the social or research discourse.</p>
 
