@@ -171,13 +171,13 @@
                   <p>This research problem can be refined into two sub-problems:</p>
 
                   <dl id="technical-research-problems-internal">
-                    <dt id="technical-research-problem-decentralised-notifications">Decentralised Notifications</dt>
+                    <dt id="technical-research-problems-decentralised-notifications">Decentralised Notifications</dt>
                     <dd>How to design a decentralised communication protocol
                       that enables applications to create, discover and consume universally identifiable and structured notifications
                       so that actors can independently compose and disseminate information
                       in order to decouple applications and data use?</dd>
 
-                    <dt id="technical-research-problem-raca-aware-linked-data-application"><abbr title="Registration, Awareness, Certification, Archiving">RACA</abbr>-Aware Linked Data Application</dt>
+                    <dt id="technical-research-problems-raca-aware-linked-data-application"><abbr title="Registration, Awareness, Certification, Archiving">RACA</abbr>-Aware Linked Data Application</dt>
                     <dd>How can a client application
                       engage in registration, awareness, certification and archiving
                       so that actors can autonomously cooperate
