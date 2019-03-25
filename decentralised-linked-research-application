@@ -32,7 +32,7 @@
           <p>This section addresses the following <a href="introduction#research-questions">research question</a> for this thesis:</p>
 
           <blockquote id="addresses-research-question">
-            How can a client application engage in registration, awareness, certification and archiving so that actors can autonomously cooperate in reading and writing access-controlled decentralised structured data?
+            How can a client application engage in registration, awareness, certification and archiving so that actors can autonomously cooperate in reading and writing access-controlled decentralised units of communication?
           </blockquote>
 
           <p id="requirements-web-publishing">To this end, I will discuss a set of requirements for software implementations which combine the various technologies and concepts into a complete package which enables decentralised publishing of articles and globally identifiable units of information, annotations and social interactions on the Web, as well as their linking and dissemination. I note the overarching influence of the concept of <cite><a href="decentralising-scholarly-communication#degree-of-control">Degree of Control</a></cite>. Such software must enable:</p>
