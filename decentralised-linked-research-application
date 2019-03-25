@@ -610,7 +610,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
                   <p id="aak-use-cases">In 2016, the <cite><a href="https://hypothes.is/annotating-all-knowledge/">Annotating All Knowledge Coalition</a></cite> derived user stories based on the notion of what open annotation can enable. Below is a description of how dokieli realises the user stories <a href="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">derived from</a> <cite><a data-versiondate="2019-01-22T12:10:41Z" data-versionurl="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/" href="https://hypothes.is/blog/a-coalition-of-scholarly-annotators/">A Coalition for Scholarly Annotation</a></cite>. The term <q>publisher</q> that is used in these user stories usually refer to an entity that is other than the creators of the content. Whereas in dokieli, a <q>publisher</q> is <em>any</em> actor capable of triggering the registration of resources and having their content potentially accessible to anyone.</p>
 
-                  <dl rel="prov:wasDerivedFrom" resource="#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">
+                  <dl rel="prov:wasDerivedFrom" resource="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">
                     <dt>As an author of a paper, I want to invite a small group of colleagues to provide feedback.</dt>
                     <dd>Implemented with the <em>Share</em> feature using the actor's social graph data, and LDN for dissemination.</dd>
 
@@ -669,7 +669,7 @@ document.addEventListener('DOMContentLoaded', function(){
                     <dd>Citing and annotations with various motivations is implemented.</dd>
 
                     <dt>As a publisher, I understand that readers may view my content through a variety of lenses, but I want to present my own annotation layer as the authoritative one.</dt>
-                    <dd>Preferred stylesheet can be applied.</dd>
+                    <dd>Annotations can be created with the <q>commenting</q> motivation, which gets embedded into the document (achieved by those with write access).</dd>
 
                     <dt>As the developer of a journal publishing system, I want to deliver a bundled annotation service that integrates with my identity system.</dt>
                     <dd>Using open standards for profiles, authentication and annotations means that anyone wishing to provide a hosted service need only adopt the same standards, eg. WebID, OIDC and WA.</dd>
