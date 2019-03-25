@@ -118,6 +118,9 @@ What are the lessons learned? (specs is where it is at.. highly valuable but tak
 ** https://osf.io/7jbnt/</p>
 <p id="general-principle-of-control"><strong>General Principle of Control</strong>: In an ecosystem where anyone can (technically) say anything about anything, we acknowledge the social challenges surrounding that. For instance, systems are not immune to negative information created and distributed by actors. While the challenges are inherently domain agnostic, it is important for academic and research communication even if individual or institutional accountability and reputation is at stake. While building and maintaining a positive Web-centric scholarly system is beyond the scope of this thesis, we can keep bear in mind the social implications of our architectural and design decisions, in order to increase the value and incentives to participate in such systems. Discuss https://github.com/linkeddata/dokieli/issues/152 and refer back to minor discussion on linked-data-notifications#social-implications</p>
 
+Report from Dagstuhl Seminar 18371
+Knowledge Graphs: New Directions for Knowledge Representation on the Semantic Web
+http://drops.dagstuhl.de/opus/volltexte/2019/10328/pdf/dagrep_v008_i009_p029_18371.pdf
 
 In context of major communication shifts, we have not scratched the surface - 30 years into the advent of the Web is till a very brief period in history.
 
