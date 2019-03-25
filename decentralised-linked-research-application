@@ -187,7 +187,7 @@
               <section id="cruding-resources" inlist="" rel="schema:hasPart" resource="#crud-resources">
                 <h3 property="schema:name">CRUDing Resources</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>dokieli implements the <a href="decentralising-scholarly-communication#crud-http">HTTP based CRUD operations</a> - create, update, and delete - and in particular, conforms to some of the clientside operations required to communicate with LDP, WAP, AP implementations.</p>
+                  <p>dokieli implements the <a href="decentralising-scholarly-communication#crud-http">HTTP based CRUD operations</a> - create, reader, update, and delete - and in particular, conforms to some of the clientside operations required to communicate with LDP, WAP, AP implementations.</p>
 
                   <table id="crud-http">
                     <thead>
