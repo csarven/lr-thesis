@@ -59,7 +59,7 @@
 
               <p>In the following subsections I review existing decentralised protocols for notifications, and then outline use cases for notifications in scholarly communication. These use cases yield key design considerations, which are taken into account for the design of a new protocol - Linked Data Notifications (LDN) - which can be implemented to meet the awareness function for scholarly communication in decentralised systems, as well as meet the degree of control requirements listed above. LDN also supports systems with respect to the registration, certification and archiving functions.</p>
 
-              <p>I developed LDN and served as the specification editor as part of the W3C Social Web Working Group, and LDN became a W3C Recommendation in May 2017. This section outlines key features and discusses design decisions made in the context of scholarly communications; for reference the specification in its entirety can be found at <a href="https://www.w3.org/TR/ldn/">https://www.w3.org/TR/ldn/</a>.</p>
+              <p>I developed LDN and served as the specification editor as part of the W3C Social Web Working Group (<abbr title="Social Web Working Group">SWWG</abbr>), and LDN became a W3C Recommendation in May 2017. This section outlines key features and discusses design decisions made in the context of scholarly communications; for reference the specification in its entirety can be found at <a href="https://www.w3.org/TR/ldn/">https://www.w3.org/TR/ldn/</a>.</p>
             </div>
           </section>
 
