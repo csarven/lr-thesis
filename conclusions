@@ -37,7 +37,10 @@
                   in reading and writing access-controlled decentralised units of communication?</dt>
                 <dd>A decentralised client application based on the <cite>Open Web Platform</cite> can be devised to allow independent actors to exchange units of communication with decentralised storage services. <cite>dokieli</cite> demonstrates how an assembly of Web standards can come together in a cohesive way in order to enable actor to reach a high <a href="decentralised-linked-research-application#degree-of-control-in-dokieli">degree of control</a> over their creations and social activities. HTTP is used to perform CRUD operations, (HTTP) URIs to identify Web resources, and Linked Data design principles to uniformly represent, link, and discover information. Actors can identify themselves through WebID (HTTP URI) whether tied to a real or fictitious entity, extend their profile descriptions, and authenticate themselves to servers through mechanisms like WebID-TLS and WebID-OIDC. Machine-interpretable profile descriptions also enables the client application to adapt to accommodate actor's capabilities. It is feasible to create and consume human- <em>and</em> machine-readable units of (scholarly) communication using standards such as RDFa in HTML, and be combined with other RDF serialisations based on technical specifications. A variety of Linked Data vocabularies can be used for semantic content authoring, the Linked Data Notifications protocol is used to exchange structured notifications, the Web Annotation Data Model and Protocol is used to associate resources and exchange annotations, and the ActivityPub protocol is used to exchange social activities. The resources that dokieli generates are findable, accessible, interoperable, and reusable by other standards-compliant Linked Data applications. The resulting technical design operates under the notion of a scholarly ecosystem where other applications can be decoupled to fulfill the registration, awareness, certification, and archiving <a href="decentralised-linked-research-application#dokieli-forces-functions">functions in scholarly communication</a>.</dd>
               </dl>
-              <p>
+
+              <p>In the pursuit to answering these technical research problems, adopting approaches that are systematically devised to achieve interoperability derives the design decisions of the artifacts.</p>
+
+              <p>To summarise these artifact designs, Linked Data Notifications is a building block for diverse decentralised and loosely coupled Web applications to exchange notifications, rather than a complete or only solution for re-decentralisation and fulfilling the <em>awareness</em> function in scholarly communication. As for dokieli, it is value proposition that is a collage of open Web standards used to address common <cite><a href="decentralised-linked-research-application#requirements-web-publishing">Web publishing</a></cite> use cases.</p>
             </div>
           </section>
 
@@ -45,23 +48,28 @@
           <section id="interpretations" inlist="" rel="schema:hasPart" resource="#interpretations">
             <h2 property="schema:name">Interpretations</h2>
             <div datatype="rdf:HTML" property="schema:description">
-<section id="scope-limitations">
-   <p>Are we free of all forms of centralisation? Unlikely. As we discussed in <a href="linked-data-notifications#semantic-centralisation-of-notifications">Semantic Centralisation of Notification</a></p>
+              <p>In this section I reflect on what the findings of this thesis can mean to us and why we should care.</p>
 
-   <p>LDN serves as a building block rather than a complete solution for re-decentralisation.</p>
+              <p id="fair-linked-data"><strong>FAIR Linked Data</strong>: In pursuit to answering the research questions, I note that the application of <cite><a href="scholarly-communication-on-the-web#linked-data">Linked Data</a></cite> design principles has automatically fulfilled the <cite><a hef="scholarly-communication-on-the-web#fair-guiding-principles">FAIR guiding principles</a></cite> without needing further intervention, especially in context of the Web environment. One generalisation that could be made from this is that Linked Data design principles can be adopted as a base requirement when building interoperable Web applications. After all, the FAIR principles does not prescribe how to publish and consume data, whereas Linked Data describes.</p>
 
-          <p class="todo">mention how the design decisions wasn't done in a vacuum. It was done within the context of W3C and SWWG... and the broader context of decentralisation efforts.</p>
+              <p id="paygo-linked-data"><strong>PAYGO Linked Data</strong>: Publishing units of communication by following the Linked Data principles is similar to the <cite><a href="decentralising-scholarly-communication#paygo">pay as you go</a></cite> approach in that knowledge on the Web can be extended on a need to basis, without having everything up front or even a commitment to do so. This is particularly evident when disparate collection of units (or graphs) published by different entities can be connected when they share globally identifiable entities, as well as being universally useful when the content they identify is accessible.</p>
+
+              <p class="sociotechnical-centralisation"><strong>Sociotechnical Centralisation</strong>: As we adopt mechanisms with the intention of decentralisation and interoperability, are we free of all forms of centralisation and vendor lock-ins? The answer depends on the layer that the conversation takes place in and the social effects on degree of control. <cite><a href="linked-data-notifications#semantic-organisation-of-notifications">Semantic Organisation of Notification</a></cite> highlights one form of organic centralisation around the choice of Linked Data vocabularies that the applications make use of based on social needs. Similarly, technical Web specifications are written by those that show up, and naturally the outcome reflects the group's cultural norms or biases. The design decisions are not done in a vacuum even if they are technically sound. For instance, LDN emerged out of the Solid project, 
+
+                . It was done within the context of W3C and SWWG... and the broader context of decentralisation efforts. "standards" are built by those that show up.
 What are the lessons learned? (specs is where it is at.. highly valuable but takes effort to align from a number of places.. social/technical challenges)
-</section>
 
+ Thus, the effects of such natural phenomenon affects the possible operations on an information space, and consequently, interoperability has built-in social requirements in order to be useful to society.
 
-              <p id="fair-linked-data">In both of these technical research problems, I note that applying the Linked Data design principles satisfies the FAIR data publishing principles in context of the Web. Publishing units of communication by following the Linked Data principles is similar to the <q cite="http://cidrdb.org/cidr2007/papers/cidr07p40.pdf">pay as you go</q> approach in that knowledge on the Web can be extended on a need to basis, without having up front or all at once commitment. This is particularly evident when disparate collection of units (or graphs) published by different entities can be connected when they share globally identifiable entities, as well as being universally useful when the content they identify is accessible.</p>
+</p>
 
-              "Third-party" publishers are not required. If anything, generally limits or has constraints on what and how Web resources can be published.
+              <p id="decentralised-identity-and-authentication"><strong>Decentralised Identity and Authentication</strong>: Without decentralised identities and authentication mechanisms, applications primarily operate in a read-only information space. While it is possible to perform write operations in certain cases eg. sending a notification to an append-only inbox, without requiring authentication and authorization, it is limited in scope. Moreover, what stems from distributing the source of authentication is that client applications can be loosely coupled with servers and data. For example, actors can use any client application to perform CRUD operations provided that they can authenticate using their preferred WebID, as well as have the possibility to decide on the location of their data on the Web. Thus, it is possible to distribute scholarly communication on the Web through an actor-centric model, as opposed to third-party controlled model.</p>
 
-Simpler to build and maintain modular..
+              <p id="school-of-thought"><strong>School of Thought</strong>: Linked Research and dokieli is closely aligned with the original concept of <q cite="http://www.cs.cornell.edu/~ginsparg/physics/blurb/pg01unesco.html">self-archiving</q> - Ginsparg "school of thought", provided that anyone can share their Web resources from where they prefer. See also Rethinking Scholarly Communication.. self-archiving school / journal-reform school</p>
 
-<p>Linked Research and dokieli is closely aligned with the original concept of <q cite="http://www.cs.cornell.edu/~ginsparg/physics/blurb/pg01unesco.html">self-archiving</q> - Ginsparg "school of thought", provided that anyone can share their Web resources from where they prefer. See also Rethinking Scholarly Communication.. self-archiving school / journal-reform school</p>
+              <p id="aaa-raca"><strong>Anyone can say Anything about Anything</strong>: As with,
+
+              just because it is registered</p>
             </div>
           </section>
 
@@ -89,7 +97,6 @@ Simpler to build and maintain modular..
 
               <section id="prediction-problems">
                 <p>With respect to the <a href="#prediction-goals">prediction goals</a></p>
-
 
                 <p>In <a href="scholarly-communication-on-the-web">scholarly communication on the Web</a>, I discuss the effects of the printing press on society from the point of McLuhan's theory on the effects of media and Kuhn's scientific paradigm shifts.</p>
 
@@ -136,10 +143,16 @@ In context of major communication shifts, we have not scratched the surface - 30
 <p>browsers should be Linked Data aware to enable smarter applications. right now each application has to include LD-know-how to take more advantage of the Web. if browsers natively supported those features, we can create advance the quality of applications.</p>
 
 <p>We can indeed navigate through specific units of information as well as search and query.</p>
+
+              <p id="third-parties-considered-harmful"><strong>Third-Parties Considered Harmful</strong>: What the overarching technical research problem..
+              "Third-party" publishers are not required. If anything, generally limits or has constraints on what and how Web resources can be published.
+
+In light of existing scholarly publishing practices, I contend that third-party publishers are not required especially in context of the Web. After all, on the Web, anyone can technically be a publisher. This, the social conventions that surrounds the notion of a scholarly contribution should be revisited.
+              </p>
             </div>
           </section>
 
-          <p>I invite the consumer of this content to <em>reply to</em> any identifiable unit of significance (as opposed to top article-level reference) by self-publishing. Looking forward to your notification(s).</p>
+          <p>I invite the user of this content to <em>self-publish</em> their <em>reply to</em> any identifiable unit of significance that is revealed through this articles at their preferred location on the Web by using their preferred application. Looking forward to your notification about your activity.</p>
 
           <p>-<a href="http://csarven.ca/#i">Sarven</a></p>
         </div>
