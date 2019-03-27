@@ -40,7 +40,7 @@
 
            <ul>
             <li>Creating human and machine-readable Web resources.</li>
-            <li>Socially-aware operations using Linked Data Notifications and Web Annotations.</li>
+            <li>Socially-aware operations using Web Annotations, Linked Data Notifications, and ActivityPub.</li>
             <li>Actors to use their preferred WebID in clientside applications.</li>
             <li>Actors to use their preferred clientside application to perform HTTP-based read-write operations on resources they are authorised to.</li>
             <li>Actors to switch between applications without having to alter the schema of their data.</li>
