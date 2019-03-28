@@ -66,11 +66,11 @@
           <section id="perspectives" inlist="" rel="schema:hasPart" resource="#perspectives">
             <h2 property="schema:name">Perspectives</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Given our half a millennia of experience of mass print publishing, and half a century on electronic publishing, we are in a position to situate, examine and question our assumptions as to what constitutes scholarly knowledge exchange and participation in context of the Web. For instance, the Web - a <em>read-write</em> space - inherently enables anyone to be a "publisher" where each researcher can exercise their full creativity and expression without being subject to external constraints. With the exception where a third-party entity permits the level of expression that the knowledge creator can potentially seek, such external participants are subject to set technical constraints on the notion to shape content. Yet, third-party involvement, typically through for-profit service providers in conjunction with academic institutions and libraries, influence the quality and availability of publicly-funded research output and exchange. The social and professional incentives for academics can be traced to the workflows exerted by external forces.</p>
+              <p>Given our half a millennia of experience of mass print publishing, and half a century on electronic publishing, we are in a position to situate, examine and question our assumptions as to what constitutes scholarly knowledge exchange and participation in context of the Web. For instance, the Web - a <em>read-write</em> space - inherently enables anyone to be a "publisher" where each researcher can exercise their full creativity and expressing the shape of their content. In contrast, third-party involvement, typically through for-profit service providers in conjunction with academic institutions and libraries, influence the quality and availability of publicly-funded research output and exchange.</p>
 
-              <p>If scholarly communication is predominately and increasingly driven by the Web, how can we approach the integration of scholarly processes with the inherent properties of the Web? One way to look at this is by examining history: the printing press played a major role in moving the non-literate public to learn to read and write for themselves. Given the Web, we find ourselves in a similar situation, with different modes of communication. In order to use the Web effectively - as far as taking advantage of its built-in characteristics, the research community essentially needs to better position itself to self-publish and disseminate their knowledge, as well as be more attributable and accountable in their social engagement. This kind of ongoing evolution is vital for the advancement of scholarly communication. Moving towards Web-centric information flows and participation requires the scholarly ecosystem to unchain itself from historic practices.</p>
+              <p>If scholarly communication is predominately and increasingly driven by the Web, how can we approach the integration of scholarly processes with the inherent properties of the Web? One way to look at this is by <a href="linked-research#the-printing-press-as-an-agent-of-change">examining history</a>: the printing press played a major role in moving the non-literate public to learn to read and write for themselves. Given the Web, we find ourselves in a similar situation with different modes of communication. In order to use the Web effectively - as far as taking advantage of its built-in characteristics, the research community essentially needs to better position itself to self-publish and disseminate their knowledge, as well as be more attributable and accountable in their social engagement. This kind of ongoing evolution is vital for the advancement of scholarly communication. Moving towards Web-centric information flows and participation requires the scholarly ecosystem to unchain itself from historic practices.</p>
 
-              <p>This thesis posited, and to some extent postulated that knowledge creators can demonstrate that self-publishing different units of communication can be socially, technically, and financially preferable to a third-party's handling of the same information and interactions, as well as their reuse. <q>Control yourself</q> captures the idea that autonomous, decentralised participation in the scholarly ecosystem is possible and desirable. Web technologies enable universal accessibility of units of information that are human- and machine-readable, as well as the possibility to integrate social interactions with scholarly information.</p>
+              <p>This thesis posited, and to some extent postulated that knowledge creators can demonstrate that self-publishing different units of communication can be socially, technically, and financially preferable to third-parties handling of the same information and interactions, as well as their reuse. Autonomous participation in the scholarly ecosystem is technically possible and arguably ethically preferable. Web technologies enable universal accessibility of units of information that are human- and machine-readable, as well as the possibility to integrate social interactions with scholarly information.</p>
 
 
               <p>Science and innovation is driven by social and technological development. until the telescope, microscope... was invented, we were limited to our observations. what would a "AI-driven" technology enable us?</p>
@@ -139,6 +139,17 @@ In context of major communication shifts, we have not scratched the surface - 30
 
 In light of existing scholarly publishing practices, I contend that third-party publishers are not required especially in context of the Web. After all, on the Web, anyone can technically be a publisher. This, the social conventions that surrounds the notion of a scholarly contribution should be revisited.
               </p>
+<style>
+#third-parties-considered-harmful strong {
+display:block;
+border:1em solid #000;
+padding:1em;
+margin:0 0 0.5em 0;
+font-size:2em;
+font-weight:bold;
+text-align:center;
+}
+</style>
             </div>
           </section>
 
