@@ -957,9 +957,9 @@ support groups.</pre>
 
                   <p id="effects-of-third-parties-on-scholarly-communication">Some of the observable effects of commercial participants in the scholarly ecosystem on scholarly communication is that they have the means to monitor the usage and interaction of units of scholarly information, censor who or what information gets shared and at what cost, have the agency to control the flow of information, and influence the coupling of their notion of academic impact to a biased incentive system.</p>
 
-                  <p>The current state of scholarly communication predominantly operates under the notion of requiring or relying on third-party publishers to make scholarly contributions available, as well as setting technical and ethical constraints on what can potentially be a scholarly contribution. Looking at this from another perspective, we can observe that actor-controlled participation is not possible towards "open" participation. I will highlight <em>some</em> of the technical practices (from a plethora of instances) put in place by third-party publishers (irrespective of genuine interest in adhering to the Open Science initiative) which raises a number of issues:</p>
+                  <p id="open-with-a-fine-print">The current state of scholarly communication predominantly operates under the notion of requiring or relying on third-party publishers to make scholarly contributions available, as well as setting technical and ethical constraints on what can potentially be a scholarly contribution. Looking at this from another perspective, we can observe that actor-controlled participation is not possible towards "open" participation. I will highlight <em>some</em> of the technical practices (from a plethora of instances) put in place by third-party publishers (irrespective of genuine interest in adhering to the Open Science initiative) which raises a number of user experience issues:</p>
 
-                  <ul>
+                  <ul id="third-party-user-experience">
                     <li>Session tracking.</li>
                     <li>Requiring cookies to be enabled in order to access the core content.</li>
                     <li>JavaScript-driven resources - forcing users to use certain software and enable JavaScript execution.</li>
@@ -971,8 +971,10 @@ support groups.</pre>
                     <li>Resources are branded by the publisher.</li>
                     <li>Resources change at the discretion of the publisher (at any time).</li>
                     <li>Making changes to published content without getting consent from the authors.</li>
-                    <li>Persistent identifiers eventually resolving to "landing pages" with no deterministic way for machines to discover content (see also <a href="#persistent-identifiers-for-scholarly-assets-and-the-web">HTTP-URI-LAND</a>).</li>
+                    <li>Persistent identifiers eventually resolving to "landing pages" with no deterministic way for machines to discover content.</li>
                   </ul>
+
+                  <p>Those are just some of the readily observable norms.</p>
                 </div>
               </section>
             </div>
