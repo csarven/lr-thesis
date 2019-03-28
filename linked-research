@@ -420,6 +420,11 @@ building a mental infrastructure.
           </section>
 
 
+<p id="role-of-institutions"><strong>Role of Institutions</strong>: 
+* what roles could libraries/institutions play? eg notify about article/review
+* institutional repositories like eprints then they buy PURE from Springer.
+* ldprints</p>
+
           <section id="acid-test" inlist="" rel="schema:hasPart" resource="#acid-test">
             <h2 property="schema:name">Acid Test</h2>
             <div datatype="rdf:HTML" property="schema:description">
