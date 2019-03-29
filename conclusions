@@ -81,15 +81,15 @@ text-align:center;
             <div datatype="rdf:HTML" property="schema:description">
               <p id="sociotechnical-advancement"><strong>Sociotechnical Advancement</strong>: Given our half a millennia of experience in mass print publishing, and half a century on electronic publishing, we are in a position to situate, examine and question our assumptions as to what constitutes scholarly knowledge exchange and participation in context of the Web. If scholarly communication is predominately and increasingly driven by the Web, how can we approach the integration of scholarly processes with the inherent properties of the Web? One way to look at this is by <a href="linked-research#the-printing-press-as-an-agent-of-change">examining history</a>: the printing press played a major role in moving the non-literate public to learn to read and write for themselves. Given the Web, we find ourselves in a similar situation with different modes of communication. For instance, the Web - an environment for simultaneous "read" and "write" operations on hypermedia - inherently enables anyone to be a "publisher", where each actor can exercise their full creativity and ability to express the shape of their content. In order to use the Web effectively - as far as taking advantage of its built-in characteristics, the research community needs to better position itself to self-publish and disseminate their knowledge, as well as be more attributable and accountable in their social engagement. This kind of ongoing evolution is vital for the advancement of scholarly communication and consequently the society. Moving towards Web-centric information flow requires the scholarly ecosystem to unchain itself from historic practices. In context of major communication shifts, we have not scratched the surface - 30 years into the advent of the Web is till a very brief period in history.</p>
 
-              <p id="addressing-social-implications"><strong>Addressing Social Implications</strong>: <cite><a href="linked-data-notifications#social-implications">Social Implications of LDN</a> looked at a particular area of design considerations. An AAA-based ecosystem while can potentially enable everyone to voice themselves, the Web is not immune to the distribution of disinformation or cyberbullying. How can we cultivate positive behaviour, and the ability to filter content based on personal or community norms in the systems we design? Thus, in context of decentralised <cite><a href="#decentralised-linked-research-application#requirements-web-publishing">Web publishing</a></cite>, future research can investigate:</p>
+              <p id="addressing-social-implications"><strong>Addressing Social Implications</strong>: <cite><a href="linked-data-notifications#social-implications">Social Implications of LDN</a></cite> looked at a particular area of design considerations for notifications. <cite><a href="decentralised-linked-research-application#activities">dokieli's Activities</a></cite> describes how a "friend of a friend" social network can work. An AAA-based ecosystem while can potentially enable everyone to voice themselves, the Web is not immune to the distribution of disinformation or cyberbullying. How can we cultivate positive behaviour, and designing systems to discover and filter content based on personal preferences or community norms? Thus, in context of decentralised <cite><a href="#decentralised-linked-research-application#requirements-web-publishing">Web publishing</a></cite>, future research can investigate:</p>
 
               <ul>
                 <li>How can harassment and abuse be prevented or handled?</li>
                 <li>How would moderation or civil discourse work?</li>
-                <li>How can a resource state that it gives consent to be annotated at fine granularity eg. liking, bookmarking being permitted, and resharing or replying prohibited?</li>
-                <li>How can the conditions to annotate be indicated and monitored eg. the reply should be notified at inbox A, and have a copy sent also to inbox B?</li>
-                <li>How can a resource's annotation policy and rules be respected eg. if a resource opts-out of annotations, then the application (automatically) disables its responsive features?</li>
-                <li>How can anonymity, pseudonymity, individual, and global identity be better factored in eg. what may be the conditions to associate different identities?</li>
+                <li>How can a resource state that it gives consent to be annotated at fine granularity?</li>
+                <li>How can the conditions to annotate and notify be indicated and monitored?</li>
+                <li>How can a resource's annotation policy and rules be respected?</li>
+                <li>What may be the conditions to associate different identities?</li>
                 <li>How can domain expertise be factored in?</li>
               </ul>
 
@@ -103,49 +103,25 @@ text-align:center;
 
               <p class="todo" id="on-demand-archiving">Personal On-Demand Archiving Services. Storage?</p>
 
+              <p class="todo" id="linked-data-aware-user-agents">User agents should be Linked Data aware in order to ... right now each application has to include LD-know-how to take more advantage of the Web. if browsers natively supported those features, we can create advance the quality of applications.</p>
+
+              <p id="third-parties-considered-harmful"><strong>Third-Parties Considered Harmful</strong>: What the overarching technical research problem..
+              "Third-party" publishers are not required. If anything, generally limits or has constraints on what and how Web resources can be published. In light of existing scholarly publishing practices, I contend that third-party publishers are not required especially in context of the Web. After all, on the Web, anyone can technically be a publisher. This, the social conventions that surrounds the notion of a scholarly contribution should be revisited.
+              </p>
+
               <section id="prediction-problems">
                 <p>With respect to the <a href="#prediction-goals">prediction goals</a></p>
 
                 <p>In <a href="scholarly-communication-on-the-web">scholarly communication on the Web</a>, I discuss the effects of the printing press on society from the point of McLuhan's theory on the effects of media and Kuhn's scientific paradigm shifts.</p>
 
-                  <p class="todo">Mcluhan..With respect to the <a href="scholarly-communication-on-the-web#inspecting-effects-and-artefacts">effects and artefacts of Web-centric scholarly communication</a>, dokieli ...</p>
+                <p class="todo">Mcluhan..With respect to the <a href="scholarly-communication-on-the-web#inspecting-effects-and-artefacts">effects and artefacts of Web-centric scholarly communication</a>, dokieli ...</p>
+
+                <p>** media pushed to the extreme (mcluhan) - global fight</p>
               </section>
-
-                <p>What would you do differently next time? How do your findings generalize to to other domains? What impact can this have (this is minimally stated) and why? What is needed/still needs to be done to have such an impact?</p>
-
-
-                <p id="social-implications"><strong>Social Implications</strong>:
-* social consequences of open science
-** media pushed to the extreme (mcluhan) - global fight
-** https://github.com/linkeddata/dokieli/issues/152
-** social media running off with misleading headlines? #fakenews?
-*** https://shorensteincenter.org/information-disorder-framework-for-research-and-policymaking/
-* "Academic job offers that mentioned open science"
-** https://osf.io/7jbnt/</p>
-
-Report from Dagstuhl Seminar 18371
-Knowledge Graphs: New Directions for Knowledge Representation on the Semantic Web
-http://drops.dagstuhl.de/opus/volltexte/2019/10328/pdf/dagrep_v008_i009_p029_18371.pdf
-
-
-
-<p> What has it shaped? What are the current challenges? How do we envision the communication to be? How can we use the medium better whether through its original intentions or new?</p>
-
-
-
-<p>browsers should be Linked Data aware to enable smarter applications. right now each application has to include LD-know-how to take more advantage of the Web. if browsers natively supported those features, we can create advance the quality of applications.</p>
-
-<p>We can indeed navigate through specific units of information as well as search and query.</p>
-
-              <p id="third-parties-considered-harmful"><strong>Third-Parties Considered Harmful</strong>: What the overarching technical research problem..
-              "Third-party" publishers are not required. If anything, generally limits or has constraints on what and how Web resources can be published.
-
-In light of existing scholarly publishing practices, I contend that third-party publishers are not required especially in context of the Web. After all, on the Web, anyone can technically be a publisher. This, the social conventions that surrounds the notion of a scholarly contribution should be revisited.
-              </p>
             </div>
           </section>
 
-          <p>I invite the user of this content to <em>self-publish</em> their <em>reply to</em> any identifiable unit of significance that is revealed through this articles at their preferred location on the Web by using their preferred application. Looking forward to your notification about your activity.</p>
+          <p>What's next? <em>Self-publish</em> and share your activities related to any unit of significance in this thesis.</p>
 
           <p>-<a href="http://csarven.ca/#i">Sarven</a></p>
         </div>
