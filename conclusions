@@ -101,7 +101,7 @@ text-align:center;
 
               <p class="todo" id="raca-aware-applications"> Designing other RACA-Aware decentralised applications.. how can we remix specs to address other/new problems?</p>
 
-              <p class="todo" id="on-demand-archiving">Personal On-Demand Archiving Services. Storage?</p>
+              <p id="on-demand-archiving"><strong>On-Demand Archiving</strong>: While there are publicly usable on-demand archiving services eg. Internet Archive, there is a need for client applications to be able to both choose from existing archiving services as well as allow users to specify their preferred services when making <em>contextual citations</em> or archiving any unit of communication. To that end, future research can investigate how personal or community-controlled archiving services can be designed in order to enable decentralised client applications.</p>
 
               <p class="todo" id="linked-data-aware-user-agents">User agents should be Linked Data aware in order to ... right now each application has to include LD-know-how to take more advantage of the Web. if browsers natively supported those features, we can create advance the quality of applications.</p>
 
