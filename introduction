@@ -91,60 +91,18 @@
               <section id="technical-research-goals" inlist="" rel="schema:hasPart" resource="#artifact-design-goals">
                 <h3 property="schema:name">Technical Research Goals</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>In order for systems and actors in scholarly communication to efficiently and effectively participate in exchanging information and knowledge through the Web, they need to have more control over their artefacts, be able to use their preferred data spaces and socially-aware applications, use own Web identities in applications, have ability to shape their digital creations within the frame of the Web architecture, and facilitate their reuse.</p>
+                  <p>I want to identify available and implement missing technical standards that can be used to fulfill the core requirements of scholarly communication on the Web by way of demonstrating an application.</p>
                 </div>
               </section>
 
               <section id="knowledge-goals" inlist="" rel="schema:hasPart" resource="#knowledge-goals">
                 <h3 property="schema:name">Knowledge Goals</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>The following knowledge goals are aimed to describe key mechanisms underlying existing <a href="#technical-research-goals">technical research goals</a> (designs) in context of the <a href="#problemc-context">problem context</a>.</p>
+                  <p>The following knowledge goals are aimed to describe key mechanisms underlying existing <a href="#technical-research-goals">technical research goals</a> (designs) in context of the <a href="#problemc-context">problem context</a>. The background and supporting knowledge that I need looks into the sociotechnical forces and functions in scholarly communication.</p>
 
-                  <ul>
-                    <li>Situating scholarly communication with respect to technological communication mediums and scientific paradigms.</li>
-                    <li>Foundations of the architecture of the Web.</li>
-                    <li>Objectives of Web Science.</li>
-                    <li>History and state of scholarship on the Web.</li>
-                    <li>Examining practises in social media and academia, quality control and certification, privileged access to scholarly knowledge and various forms of gatekeeping.</li>
-                    <li>Core forces and functions in scientific communication.</li>
-                    <li>Understanding potential effects and artefacts of Web-centric scholarly communication.</li>
-                    <li>Common structures and semantics of units of scholarly communication on the Web.</li>
-                    <li>Approaches in human and machine-readable representations on the Web.</li>
-                    <li>The characteristics and effects of centralised and decentralised systems.</li>
-                    <li>Specifications and practices for interoperable information spaces.</li>
-                    <li>Universal identities on the Web.</li>
-                    <li>Authentication and authorization mechanisms.</li>
-                    <li>Persistence and preservation of Web resources.</li>
-                    <li>Characteristics of decentralised dataspaces and interoperable applications.</li>
-                    <li>Actors' degrees of control over identifiers, data and applications.</li>
-                    <li>Systematics of an actor-controlled decentralised scholarly system.</li>
-                    <li>Characteristics of Web specifications for forces and functions in scientific communication.</li>
-                    <li>The communication protocol that decouples application roles.</li>
-                    <li>The mechanism for a client application to perform decentralised read-write operations.</li>
-                  </ul>
+                  <p>We need to understand the systematics of the technological mediums that scholarly communication operates in order to have a frame of reference. Our investigation can examine scholarship with respect to the media it employs and identify some of its constraints and limitations. This knowledge can serve to describe the effects and artefacts in scholarly communication, as well as conceptual and technical designs that are used to exchange units of information (by humans and machines). Following this, we can identify the gaps in our knowledge that would be required to design and build necessary artifacts for scholarly communication.</p>
 
-                  <p>The corpus of collected knowledge is driven by understanding the current state of knowledge in the field based on scientific, technical, and professional literature. The research knowledge was collected with the logistical, and in my opinion, ethical constraints that are outlined in <cite><a href="#literature-review-and-citations">Literature Review and Citations</a></cite>.</p>
-                </div>
-              </section>
-
-              <section id="prediction-goals" inlist="" rel="schema:hasPart" resource="#prediction-goals">
-                <h3 property="schema:name">Prediction Goals</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <div class="notes">
-                  <p class="todo">Probably best to write this after the LR section or at the same time as Conclusions.</p>
-
-                  <p>What do you think will happen?</p>
-
-                  <p>Change in paradigm? Implications? eg. creator self-archive/publishes.. community accessible quality-control/certification.</p>
-
-                  <p>Design characteristics of <cite><a href="linked-research">Linked Research</a></cite>-like?</p>
-
-                  <p>Can dokieli-like applications be used in non-domain specific way? mostly yes.. it is more about LD vocab understanding?</p>
-
-                  <p>Is and can our system be productive, resilient and organised? Can it evolve? If redesigned, can it operate within established and unexpected parameters as part of a even greater larger ecosystem? What assumptions have we adopted?</p>
-
-                  <p>Why self-publishing and what is it like to actualise? What constitutes a scholarly contribution on the Web? What can be deconstructed? What are the dangers or limits?</p>
-                  </div>
+                  <p>The corpus of collected knowledge is driven by understanding the current state of knowledge in the field based on scientific, technical, and professional literature. <cite><a href="#literature-review-and-citations">Literature Review and Citations</a></cite> describes the constraints on how research knowledge will be collected.</p>
                 </div>
               </section>
             </div>
@@ -162,37 +120,18 @@
 
                   <dl id="technical-research-problem-central">
                     <dt>Central Design Problem</dt>
-                    <dd>How to design decentralised Web applications
-                    that can read and write human- and machine-readable units of information
-                    so that actors can independently exchange information
-                    in an open and decoupled scholarly communication ecosystem?</dd>
+                    <dd>How can we design decentralised Web applications for information exchange in an open and decoupled scholarly communication ecosystem?</dd>
                   </dl>
 
                   <p>This research problem can be refined into two sub-problems:</p>
 
                   <dl id="technical-research-problems-internal">
-                    <dt id="technical-research-problems-decentralised-notifications">Decentralised Notifications</dt>
-                    <dd>How to design a decentralised communication protocol
-                      that enables applications to create, discover and consume universally identifiable and structured notifications
-                      so that actors can independently compose and disseminate information
-                      in order to decouple applications and data use?</dd>
+                    <dt id="technical-research-problems-mechanims">Mechanisms</dt>
+                    <dd>What technical mechanisms, standards or protocols can be employed for decentralised information exchange on the Web?</dd>
 
-                    <dt id="technical-research-problems-raca-aware-linked-data-application"><abbr title="Registration, Awareness, Certification, Archiving">RACA</abbr>-Aware Linked Data Application</dt>
-                    <dd>How can a client application
-                      engage in registration, awareness, certification and archiving
-                      so that actors can autonomously cooperate
-                      in reading and writing access-controlled decentralised units of communication?
-                    </dd>
+                    <dt id="technical-research-problems-artefacts">Artefacts</dt>
+                    <dd>How can Web technologies be employed to fulfil the core functions of scholarly communication in an open and interoperable way?</dd>
                   </dl>
-
-                  <p>The answers to these research questions are primarily posited in the following sections:</p>
-
-                  <ul>
-                    <li><a href="#technical-research-problem-decentralised-notifications">Decentralised Notifications</a> in <cite><a href="linked-data-notifications">Linked Data Notifications</a></cite></li>
-                    <li><a href="#technical-research-problems-raca-aware-linked-data-application">RACA-Aware Linked Data Application</a> in <cite><a href="decentralised-linked-research-appplication">Decentralised Linked Research Application</a></cite></li>
-                  </ul>
-
-                  <p>I will also review the answers in <cite><a href="conclusions">Conclusions</a></cite>.</p>
                 </div>
               </section>
 
@@ -270,7 +209,7 @@
                     <dt><cite><a href="linked-data-notifications">Linked Data Notifications</a></cite></dt>
                     <dd>Answers technical research problem on how to design a decentralised notification protocol.</dd>
                     <dt><cite><a href="decentralised-linked-research-application">Decentralised Linked Research Application</a></cite></dt>
-                    <dd>Answers technical research problems on how to design a RACA-Aware Linked Data application.</dd>
+                    <dd>Answers technical research problems on how to design a decentralised application.</dd>
                     <dt><cite><a href="linked-research">Linked Research</a></cite></dt>
                     <dd>A description and explanation of the effects of applying Web-centric standards and practices in order to enable and empower creators and consumers of open knowledge, as well as a generalisation of core principles that can serve as an exemplar to set forth a shift in scholarly communication.</dd>
                   </dl>
