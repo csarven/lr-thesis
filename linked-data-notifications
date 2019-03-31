@@ -48,6 +48,13 @@
 
               <p>Similarly for a decentralised scholarly Web, notification data should not be locked into particular systems. Data generated from independently built applications should be discoverable and increase their chance for reusability by other applications. Users can choose where to store their notifications as well as using their preferred applications to create, discover, and consume the data.</p>
 
+              <p>This section addresses the following <a href="introduction#research-questions">research question</a> for this thesis:</p>
+
+              <blockquote cite="introduction#technical-research-problems-mechanisms">
+                <p>What technical mechanisms, standards or protocols can be employed for decentralised information exchange on the Web?</p>
+                <footer><cite><a href="introduction#technical-research-problems-mechanisms">Mechanisms</a></cite></footer>
+              </blockquote>
+
               <p>The following are core requirements of a notifications protocol in context of <cite><a href="decentralising-scholarly-communication#degree-of-control">Degree of Control</a></cite>:</p>
 
               <ul>
