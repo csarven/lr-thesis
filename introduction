@@ -138,7 +138,7 @@
               <section id="knowledge-questions" inlist="" rel="schema:hasPart" resource="#knowledge-questions">
                 <h3 property="schema:name">Knowledge Questions</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>The <a href="#knowledge-goals">knowledge goals</a> can be refined into following knowledge questions:</p>
+                  <p>In order to pursue the scope of the problems, the <a href="#knowledge-goals">knowledge goals</a> can be refined into following knowledge questions:</p>
 
                   <ul>
                     <li>How can we situate scholarly communication using the Web with respect to technological communication mediums and scientific paradigms?</li>
