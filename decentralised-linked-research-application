@@ -58,7 +58,7 @@
 
           <ul id="dokieli-related-contributions">
             <li><cite><a href="https://www.w3.org/TR/annotation-html/" rel="cito:citesAsAuthority">Embedding Web Annotations in HTML</a></cite>, a Note output of the W3C Web Annotation Working Group. The Note includes my contributions to representing annotations in HTML+RDFa derived from dokieli's implementation of the WA Data Model and Vocabulary for HTML+RDFa representations.</li>
-            <li>The <cite><a href="https://solid.mit.edu/">MIT Solid</a></cite> <a href="https://github.com/solid">project repositories</a>, eg. <cite><a href="https://github.com/solid/node-solid-server">node-solid-server</a></cite>, an <abbr title="Linked Data Platform">LDP</abbr>-based server supporting access controls and WebID-based authentication.</li>
+            <li>The MIT <cite><a href="https://solid.mit.edu/">Solid</a></cite> (Social Linked Data) <a href="https://github.com/solid">project repositories</a>, eg. <cite><a href="https://github.com/solid/node-solid-server">node-solid-server</a></cite>, <q>a proposed set of conventions and tools for building decentralized social applications based on Linked Data principles.</q></li>
             <li>The <cite><a href="https://github.com/ORCID/ORCID-Source/">ORCID source</a></cite>, to enable existing ORCID identities to take advantage of extensible profile descriptions in RDF by making it possible for ORCID users to declare the location of their preferred Personal Data Storage, Linked Data Notifications inbox, and ActivityPub outbox.</li>
           </ul>
 
