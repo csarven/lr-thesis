@@ -339,19 +339,6 @@ todo: tree view / diagram of the items
             </div>
           </section>
 
-          <section id="common-representations" inlist="" rel="schema:hasPart" resource="#common-representations">
-            <h2 property="schema:name">Common Representations</h2>
-            <div class="todo" datatype="rdf:HTML" property="schema:description">
-different representations -- there is a reason for common formats (templates .. what to expect from a paper from a discipiline... familiarity.) .... dokieli shows some possibilities to show common patterns.. (acm/lncs) -- this is for human mostly
-
-
-there is also familiatiy for machines / interop.. eg. knowing where to look for hypothesis ...
-
-
-describe the fundmanetals more abstractly... before diving into specific standards.
-            </div>
-          </section>
-
           <section id="linked-statistics" inlist="" rel="schema:hasPart" resource="#linked-statistics">
             <h2 property="schema:name">Linked Statistics</h2>
             <div datatype="rdf:HTML" property="schema:description">
