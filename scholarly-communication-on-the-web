@@ -948,7 +948,7 @@ support groups.</pre>
 
                   <p id="publisher-be-damned">The article <cite><a data-versiondate="2019-02-20T16:21:25Z" data-versionurl="https://web.archive.org/web/20190220162125/https://www.tandfonline.com/doi/full/10.1080/08109028.2014.891710" href="https://www.tandfonline.com/doi/full/10.1080/08109028.2014.891710">Publisher, be damned! From price gouging to the open road</a></cite>, Harvie, 2014, criticises the large profits made by for-profit publishers while taking advantage of academics' labours. After internal disagreements (between the publisher and the editorial board), the article was published where the <a data-versiondate="2019-02-20T01:11:47Z" data-versionurl="https://web.archive.org/web/20190220011147/https://figshare.com/articles/Publisher_be_damned_From_price_gouging_to_the_open_road/1046703" href="http://figshare.com/articles/Publisher_be_damned_From_price_gouging_to_the_open_road/1046703">original version</a> introduced a disclaimer warning by the publisher stating that <q>the accuracy of the content should not be relied upon.</q> Such unfortunate turn of events exemplifies how academic freedom can be jeopardised, subject to censorship and manipulation when external parties ultimately control the distribution of knowledge.</p>
 
-                  <p class="todo" id="sci-hub"><cite><a href="https://en.wikipedia.org/wiki/Sci-Hub">Sci Hub</a></cite> is X. It is a symptom of..</p>
+                  <p id="sci-hub">In response to paywalled articles with high costs, <cite><a href="https://en.wikipedia.org/wiki/Sci-Hub">Sci-Hub</a></cite> is a website that provides free access to research articles and books. The authentication credentials is illicitly obtained authentication credentials to commercial publisher's online libraries. Sci-Hub has received a variety of responses including praise and criticism from different stakeholders including the research community and the commercial publishers.</p>
 
                   <blockquote cite="https://www.openlibhums.org/news/314/">
                     <p>In the case of scholarly publishing, standards such as DOI, JIF, and even metadata standards, are not only technical decisions, but are also political decisions with public policy implications. This is because these standards are not neutral, but are designed to privilege certain types of knowledge or outputs, while rendering other invisible.</p>
@@ -957,7 +957,7 @@ support groups.</pre>
 
                   <p id="effects-of-third-parties-on-scholarly-communication">Some of the observable effects of commercial participants in the scholarly ecosystem on scholarly communication is that they have the means to monitor the usage and interaction of units of scholarly information, censor who or what information gets shared and at what cost, have the agency to control the flow of information, and influence the coupling of their notion of academic impact to a biased incentive system.</p>
 
-                  <p id="open-with-a-fine-print">The current state of scholarly communication predominantly operates under the notion of requiring or relying on third-party publishers to make scholarly contributions available, as well as setting technical and ethical constraints on what can potentially be a scholarly contribution. Looking at this from another perspective, we can observe that actor-controlled participation is not possible towards "open" participation. I will highlight <em>some</em> of the technical practices (from a plethora of instances) put in place by third-party publishers (irrespective of genuine interest in adhering to the Open Science initiative) which raises a number of user experience issues:</p>
+                  <p id="open-with-a-fine-print">The current state of scholarly communication predominantly operates under the notion of requiring or relying on third-party publishers to make scholarly contributions available, as well as setting technical and ethical constraints on what can potentially be a scholarly contribution. Looking at this from another perspective, we can observe that actor-controlled participation is not possible towards "open" participation. I will highlight <em>some</em> of the technical practices (from a plethora of instances) put in place by third-party publishers (irrespective of genuine interest in adhering to the Open Science initiative) which raises a number of user experience issues. Some of the readily observable norms include:</p>
 
                   <ul id="third-party-user-experience">
                     <li>Session tracking.</li>
@@ -973,8 +973,6 @@ support groups.</pre>
                     <li>Making changes to published content without getting consent from the authors.</li>
                     <li>Persistent identifiers eventually resolving to "landing pages" with no deterministic way for machines to discover content.</li>
                   </ul>
-
-                  <p>Those are just some of the readily observable norms.</p>
                 </div>
               </section>
             </div>
