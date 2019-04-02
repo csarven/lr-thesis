@@ -37,7 +37,7 @@ text-align:center;
           <section id="research-questions-review" inlist="" rel="schema:hasPart" resource="#research-questions-review">
             <h2 property="schema:name">Research Questions Review</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>The sections <cite><a href="scholarly-communication-on-the-web">Scholarly Communication on the Web</a></cite>, <cite><a href="structure-of-scholarly-information">Structure of Scholarly Information</a></cite>, and <cite><a href="decentralising-scholarly-communication">Decentralising Scholarly Communication</a></cite> investigated the <a href="introduction#knowledge-questions">knowledge questions</a> necessary to address the <a href="introduction#technical-research-problems">technical research problems</a>. In this section I will review how the technical research problems have been answered.</p>
+              <p>The sections <cite><a href="scholarly-communication-on-the-web">Scholarly Communication on the Web</a></cite>, <cite><a href="structure-of-scholarly-information">Structure of Scholarly Information</a></cite>, and <cite><a href="decentralising-scholarly-communication">Decentralising Scholarly Communication</a></cite> served to explain the state of sociotechnical affairs in scholarly communication, as well as to identify knowledge gaps by answering the <a href="introduction#knowledge-questions">knowledge questions</a> in order to address the <a href="introduction#technical-research-problems">technical research problems</a>. In this section I will review how the technical research problems have been answered.</p>
 
               <dl id="technical-research-problems-internal-review">
                 <dt id="technical-research-problems-mechanisms-review">What technical mechanisms, standards or protocols can be employed for decentralised information exchange on the Web?</dt>
@@ -107,7 +107,7 @@ text-align:center;
             </div>
           </section>
 
-          <p>What's next? <em>Self-publish</em> and share your activities related to any unit of significance in this thesis.</p>
+          <p>What's next? <cite><a href="linked-research">Linked Research</a></cite> is the agenda. <em>Self-publish</em> and share your activities related to any unit of significance in this thesis.</p>
 
           <p>-<a href="http://csarven.ca/#i">Sarven</a></p>
         </div>
