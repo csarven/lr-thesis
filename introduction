@@ -102,7 +102,7 @@
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>The knowledge goals of this thesis describe the theoretical underpinnings necessary to accomplish the <a href="#technical-research-goals">technical research goals</a>.</p>
 
-                  <p>We need to understand the various technological mediums in which scholarly communication has historically operated, and how and why this has changed, in order to have a frame of reference for new work. Our investigation must examine scholarship with respect to the media employed for publication, dissemination and feedback, and identify some of the constraints and limitations. This research can serve to describe the effects and artefacts of scholarly communication, as well as conceptual and technical designs that are used to exchange units of information by both humans and machines. </p>
+                  <p>We need to understand the various technological mediums in which scholarly communication has historically operated, and how and why this has changed, in order to have a frame of reference for new work. Our investigation must examine scholarship with respect to the media employed for publication, dissemination and feedback, and identify some of the constraints and limitations. This research can serve to describe the effects and artefacts of scholarly communication, as well as conceptual and technical designs that are used to exchange units of information by both humans and machines.</p>
 
                   <p>The scholarly communication ecosystem is a complex sociotechnical system, which cannot be understood from either a social or a technical perspective alone. Understanding how these aspects feed into and influence on another is crucial for the furtherance of this work.</p>
 
@@ -142,40 +142,12 @@
               <section id="knowledge-questions" inlist="" rel="schema:hasPart" resource="#knowledge-questions">
                 <h3 property="schema:name">Knowledge Questions</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>In order to pursue the scope of the problems, the <a href="#knowledge-goals">knowledge goals</a> can be refined into following knowledge questions:</p>
+                  <p>The <a href="#knowledge-goals">knowledge goals</a> can be refined into following knowledge questions:</p>
 
                   <ul>
                     <li>How can we situate scholarly communication using the Web with respect to technological communication mediums and scientific paradigms?</li>
-                    <li>What is the architecture of the Web?</li>
-                    <li>What does the framework of Web Science include?</li>
-                    <li>What is part of the evolution of scholarship on the Web?</li>
-                    <li>What are the practises in social media and academia, quality control and certification, privileged access to scholarly knowledge and various forms of gatekeeping?</li>
-                    <li>What are the core forces and functions in scientific communication?</li>
-                    <li>What are the potential effects and artefacts of Web-centric scholarly communication?</li>
-
-                    <li>What are standardised structures and semantics to represent units of scholarly communication on the Web?</li>
-                    <li>How can human and machine-readable Web resources be represented?</li>
-
-                    <li>What are the core characteristics of centralised and decentralised systems?</li>
-                    <li>What open Web specifications and practices are there for interoperable information spaces?</li>
-                    <li>How do universal identities on the Web work?</li>
-                    <li>What authentication and authorization mechanisms are there?</li>
-                    <li>How are persistence and preservation of Web resources achieved?</li>
-                    <li>What are the characteristics of decentralised dataspaces and interoperable applications?</li>
-                    <li>What are actors' degrees of control over identifiers, data and applications?</li>
-                    <li>What are the systematics of an actor-controlled decentralised scholarly system?</li>
-                    <li>What are the characteristics of Web specifications for forces and functions in scientific communication?</li>
-
-                    <li>What is the mechanism of a communication protocol to decouple application roles to exchange structured notifications?</li>
-
-                    <li>What is the mechanism a client application to perform decentralised read-write operations.</li>
-
-
-                    <li>What effects are produced by the interaction between the artifact and context?</li>
-                    <li>How does the artifact perform in this context compared to similar artifacts?</li>
-                    <li>What effects are produced by the artifact in different contexts?</li>
-                    <li>Does the stimulus-response behavior satisfy functional requirements?</li>
-                    <li>Does the performance satisfy nonfunctional requirements?</li>
+                    <li>What are the core components of scientific communication, how are they configured, and what are the effects of the interactions between them?</li>
+                    <li>What are contemporary practices around knowledge creation and dissemination, and how are communities working to improve these?</li>
                   </ul>
                 </div>
               </section>
