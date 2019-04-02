@@ -82,7 +82,7 @@
 
                   <p>The actors in the system commonly use print-centric tools and data representations to exchange content on the Web and neglect to take advantage of the available affordances of the Web (media). Actors' possibility to shape their contributions in Web media is typically constrained to third-party service provider's centralised and non-interoperable solutions.</p>
 
-                  <p>Actors rental of personal and professional identifiers, as well as data storage from third-parties are subject to privacy issues. Actors typically manage multiple disconnected profiles, social connections, and data spaces.</p>
+                  <p>Actors' rental of personal and professional identifiers, as well as data storage from third-parties are subject to privacy issues. Actors typically manage multiple disconnected profiles, social connections, and data spaces.</p>
 
                   <p>These class of problems in the scholarly ecosystem have implications on access, interoperability, findability, cost and privacy. Consequently, resulting in global deficiencies in the ecosystem. The research questions; technical research problems and knowledge questions, are aimed at understanding the internal mechanisms of these type of problems and address them for stakeholders.</p>
                 </div>
@@ -91,18 +91,22 @@
               <section id="technical-research-goals" inlist="" rel="schema:hasPart" resource="#artifact-design-goals">
                 <h3 property="schema:name">Technical Research Goals</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>I want to identify available and implement missing technical standards that can be used to fulfill the core requirements of scholarly communication on the Web by way of demonstrating an application.</p>
+                  <p>The technical goals of this thesis are, given the <a href="#problem-context">problem context</a>, to identify gaps in the Web standards landscape and to create new technical standards where necessary. A further goal is to demonstrate how existing and new standards and technologies can be used in combination as part of a user-facing  application for publishing and interacting with scholarly artefacts.</p>
+
+                  <p>The <a href="#research-questions">research questions</a> are geared towards meeting these goals.</p>
                 </div>
               </section>
 
               <section id="knowledge-goals" inlist="" rel="schema:hasPart" resource="#knowledge-goals">
                 <h3 property="schema:name">Knowledge Goals</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>The following knowledge goals are aimed to describe key mechanisms underlying existing <a href="#technical-research-goals">technical research goals</a> (designs) in context of the <a href="#problemc-context">problem context</a>. The background and supporting knowledge that I need looks into the sociotechnical forces and functions in scholarly communication.</p>
+                  <p>The knowledge goals of this thesis describe the theoretical underpinnings necessary to accomplish the <a href="#technical-research-goals">technical research goals</a>.</p>
 
-                  <p>We need to understand the systematics of the technological mediums that scholarly communication operates in order to have a frame of reference. Our investigation can examine scholarship with respect to the media it employs and identify some of its constraints and limitations. This knowledge can serve to describe the effects and artefacts in scholarly communication, as well as conceptual and technical designs that are used to exchange units of information (by humans and machines). Following this, we can identify the gaps in our knowledge that would be required to design and build necessary artifacts for scholarly communication.</p>
+                  <p>We need to understand the various technological mediums in which scholarly communication has historically operated, and how and why this has changed, in order to have a frame of reference for new work. Our investigation must examine scholarship with respect to the media employed for publication, dissemination and feedback, and identify some of the constraints and limitations. This research can serve to describe the effects and artefacts of scholarly communication, as well as conceptual and technical designs that are used to exchange units of information by both humans and machines. </p>
 
-                  <p>The corpus of collected knowledge is driven by understanding the current state of knowledge in the field based on scientific, technical, and professional literature. <cite><a href="#literature-review-and-citations">Literature Review and Citations</a></cite> describes the constraints on how research knowledge will be collected.</p>
+                  <p>The scholarly communication ecosystem is a complex <em>socio-technical</em> system, which cannot be understood from either a social or a technical perspective alone. Understanding how these aspects feed into and influence on another is crucial for the furtherance of this work.</p>
+
+                  <p>The corpus of knowledge collected in this thesis is driven by understanding the current state of knowledge in the field based on scientific, technical, and professional literature. <cite><a href="#literature-review-and-citations">Literature Review and Citations</a></cite> describes the constraints on how research knowledge will be collected.</p>
                 </div>
               </section>
             </div>
