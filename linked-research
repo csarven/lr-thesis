@@ -23,7 +23,9 @@
             <footer>Attributed to <cite><a href="https://en.wikipedia.org/wiki/Buckminster_Fuller">Buckminster Fuller</a></cite>.</footer>
           </blockquote>
 
-          <p>In order to contextualise the the notion and necessity of Linked Research on the Web, I will expand on the <cite><a href="#print-age">print age</a></cite> by reviewing Eisenstein's investigation on the effects of printing press on society.</p>
+          <p>The <cite><a href="#motivation">motivation</a></cite> of this thesis along with the <cite><a href="#research-goals">research goals</a></cite> and <cite><a href="#research-questions">questions</a></cite> described can be used as a lens to configuring the scholarly communication ecosystem. I use this lens work to formulate the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> (<abbr title="Linked Research">LR</abbr>) notion and initiative.</p>
+
+          <p>I will expand on the <cite><a href="#print-age">print age</a></cite> by reviewing Eisenstein's investigation on the effects of printing press on society.</p>
 
           <aside id="the-printing-press-as-an-agent-of-change" inlist="" rel="schema:hasPart" resource="#the-printing-press-as-an-agent-of-change">
             <h2 property="schema:name">The Printing Press as an Agent of Change</h2>
@@ -40,123 +42,7 @@
            </div>
           </aside>
 
-          <p>The concepts and ideas discussed so far cover various aspects of the scholarly communication ecosystem, and in many cases ideas from different sources and different times overlap. I now take this related work, along with the context of the modern Web and the current state of scholarly communication, and use these to formulate the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> (<abbr title="Linked Research">LR</abbr>) initiative. This comprises foremost a set of principles intended to describe a researcher-centric information and interaction space optimised for scholarly communication on the Web. I will refer and reflect on these principles for the other contributions of this thesis.</p>
 
-          <p>It quickly becomes clear that these principles build on existing ideas, but also in many cases are developed further and push for a future free from the constraints of academic publishing models tied to media from the past, as well as a strive to enable content creators to exercise their creativity to the fullest extent possible in order to affectively communicate.</p>
-
-          <p>LR is also set up as a community effort, and here I present a snapshot of work which is expected to continue to develop as others contribute and more diverse voices bring their requirements to the table. For now, I acknowledge the bias towards Western (Euro and US centric) academic practices in the domain of Computer Science. However, the initiative is discipline-agnostic.</p>
-
-<p>Mention personal domain+hosting costs and contrast with alternatives (OA/APC) and tradeoffs</p>
-
-<p>Building <abbr title="Registration, Awareness, Certification, Archiving">RACA</abbr>-Aware Web Applications</p>
-
-          <section id="objectivity-value-judgment-and-theory-choice" inlist="" rel="schema:hasPart" resource="#objectivity-value-judgment-and-theory-choice">
-            <h2 property="schema:name">Objectivity, Value Judgment, and Theory Choice</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo">Should this be discussed in Evaluation, Linked Research or Conclusions .. if at all?</p>
-              <p>Kuhn's five characteristics, <q cite="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">accuracy, consistency, scope, simplicity, and fruitfulness</q> in <cite><a href="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">Objectivity, Value Judgment, and Theory Choice</a></cite>, ... and justify why the <cite>Linked Research</cite> design principles describes a paradigm that can be further investigated towards genuine scholarly communication on the Web.</p>
-
-              <p><strong>Accuracy</strong>:</p>
-              <p><strong>Consistency</strong>:</p>
-              <p><strong>Scope</strong>:</p>
-              <p><strong>Simplicity</strong>:</p>
-              <p><strong>Fruitfulness</strong>:</p>
-            </div>
-          </section>
-
-          <section id="realising-social-changes" inlist="" rel="schema:hasPart" resource="#realising-social-changes">
-            <h2 property="schema:name">Realising Social Changes</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p>This section is about how we realise/enable the social changes technically, whilst still adhering to the LR principles (ie. why we can't just use twitter/easychair for academia etc).</p>
-              <p>Point at the social parts of the Control Yourself chapter (AP, AS2, LDN) and say how these fit into the ecosystem. How they mean we can do the things people need to do in scholarly communications in a way that meets the principles.</p>
-              <p>This is where we bring the decentralisation stuff back home to in-practice scholarly comms.</p>
-
-              <p>There are different approaches to 'fixing' the ecosystem. We could try a wholehearted replacement of the current system. That's unlikely to succeed. We could try to directly change existing players (like publishers, conferences) and demand that they do things differently. Also probably not gonna happen. It might be better to work *alongside* existing practices, and gradually ease scholars into new ways of operating. our goal is not necessarily to replicate major academic publishing houses or academic social networks..  smaller, personalised connected components might be both easier to realise and more effective in the long run. But.. who knows.</p>
-
-              <p class="todo">dokieli UI</p>
-
-<!--                 <a href="https://dokie.li/">dokieli</a>
-              <a href="http://csarven.ca/dokieli-rww">Decentralised Authoring, Annotations and Notifications for a Read-Write Web with dokieli</a> -->
-            </div>
-          </section>
-
-
-          <section id="challenging-the-status-quo" inlist="" rel="schema:hasPart">
-            <h2 property="schema:name">Challenging the Status Quo</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-<pre>
-* Old man yelling at cloud
-* Mailing list and social media 'activism' - why is this worthwhile? why is this part of the contribution of LR
-* Testing ideas
-* keeping things in people consciousness
-* how to influence the direction of scholarly communication in web science
-* small visible results: uptake from conferences/workshops
-</pre>
-
-<p class="todo">
-The real target of these messages is not you, me, or even the seniors,
-professors, directors, conference organisers, programme committees, and
-so on.
-
-This is for the *next generation* of researchers and developers who are
-following along or will hopefully read this up one day. They are the
-ones who will be the change. We are only setting the stage for them to
-follow through.
-
-Of course I do hope that these ideas and the problems we are dealing
-with resonate with more people. Hence, a plea for the "seniors" to
-permit their "junior" colleagues to push forward. To grow their team
-with a different set of ideals and awareness! Many already have for a
-long time, and many are making that shift.
-
-Neither do I actually expect these conferences/journals that have kept
-their approach for so long to change overnight. As long as researchers
-are constrained in how they communicate their knowledge, and how that
-knowledge can be disseminated, no amount of activism here or elsewhere
-will change that.
-
-The purpose of these threads is purely about creating awareness and
-building a mental infrastructure.
-</p>
-
-              <p class="todo">Why this will never happen: promotion and tenure are integral to the academic profession. The incentives in the academic profession predominantly relies on an ecosystem that is largely led by third-party publishers and services. The proposed work does not address or replace the reputation problem. The importance of Open Science is on the rise, from social media, to increase in <a href="https://osf.io/7jbnt/">academic jobs that mention</a></p>
-            </div>
-          </section>  
-
-
-
-          <section id="linked-open-research-cloud" inlist="" rel="schema:hasPart" resource="#linked-open-research-cloud">
-            <h2 property="schema:name">Linked Open Research Cloud</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover relations. The knowledge industry can better address societal challenges by embracing the virtues of the Web via decentralisation and interconnectivity of our collective knowledge.</p>
-
-              <p>The <dfn id="lorc">Linked Open Research Cloud</dfn> (<abbr title="Linked Open Research Cloud">LORC</abbr>) project aims to increase the awareness, discovery, and reuse of resources about scholarly communication on the Web in the form of open <cite><a href="https://www.w3.org/DesignIssues/LinkedData">Linked Data</a></cite>. It pursues this by accepting notifications about scholarly activities, making them available for reuse, and generates an interactive visualisation for additional exploration. Consequently, LORC can assist researchers with their applications to discover pertinent scholarly information on the Web, and connect their knowledge with the global knowledge graph. For the wider scientific community, LORC can facilitate scientometrics studies and decision making based on the scholarly commons ecosystem.</p>
-
-              <p>To this end, this article announces its <em>inbox</em> to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (<abbr title="Linked Data Notifications">LDN</abbr>) about scholarly activities, eg. publication of scholarly articles, <cite><a href="https://www.w3.org/TR/annotation-model/">Web Annotations</a></cite> (like peer reviews, replies), citations, call for contributions, proceedings, scientific observations and workflows, arguments, funding information etc. With a system like LORC, universal scientific knowledge can be better connected, findable, and accessible, with the potential to amplify its effectiveness and efficiency.</p>
-            </div>
-          </section>
-
-
-
-          <section id="framing-our-vocabulary" inlist="" rel="schema:hasPart" resource="#framing-our-vocabulary">
-            <h2 property="schema:name skos:definition">Framing our Vocabulary</h2>
-            <div datatype="rdf:HTML" property="schema:description" resource="#framing-our-vocabulary" typeof="skos:ConceptScheme">
-              <p datatype="rdf:HTML" property="skos:definition">It is necessary to exercise a new vocabulary. New terms set a different frame of mind than the terms we have used in the past. Some terms have new definitions and replacements are necessary. We adopt the idea that scholarly calls for <strong>contributions</strong> welcome researchers to <strong>share</strong> their <strong>articles</strong> with the community.</p>
-
-              <p class="todo">mention quality aspect.. conference: paper, journal: article</p>
-
-              <dl rel="skos:hasTopConcept">
-                <dt about="#s-submit-share" id="s-submit-share" property="skos:prefLabel" rel="skos:topConceptOf" resource="#framing-our-vocabulary" typeof="skos:Concept"><samp>s/submit/share</samp></dt>
-                <dd about="#s-submit-share" datatype="rdf:HTML" property="skos:definition">Researchers <em>share</em> their scientific contributions as opposed <em>submit</em>.</dd>
-
-                <dt about="#s-submission-contribution" id="s-submission-contribution" property="skos:prefLabel" rel="skos:topConceptOf" resource="#framing-our-vocabulary" typeof="skos:Concept"><samp>s/submission/contribution</samp></dt>
-                <dd about="#s-submission-contribution" datatype="rdf:HTML" property="skos:definition">Researchers make <em>contributions</em> to the field as opposed to calls receiving <em>submissions</em>.</dd>
-
-                <dt about="#s-paper-article" id="s-paper-article" property="skos:prefLabel" rel="skos:topConceptOf" resource="#framing-our-vocabulary" typeof="skos:Concept"><samp>s/paper/article</samp></dt>
-                <dd about="#s-paper-article" datatype="rdf:HTML" property="skos:definition">Researchers create discoverable and accessible Web <em>articles</em> as opposed to documents that mimic <em>papers</em>.</dd>
-              </dl>
-            </div>
-          </section>
 
           <section id="design-principles" inlist="" rel="schema:hasPart" resource="#design-principles">
             <h2 property="schema:name">Design Principles</h2>
@@ -314,115 +200,26 @@ building a mental infrastructure.
           </section>
 
 
-          <section id="scale-for-linked-research-design-principles" inlist="" rel="schema:hasPart" resource="#scale-for-linked-research-design-principles">
-            <h2 property="schema:name">Scale for Linked Research Design Principles</h2>
+
+
+          <section id="call-for-linked-research" inlist="" rel="schema:hasPart" resource="#call-for-linked-research">
+            <h2 property="schema:name">Call for Linked Research</h2>
             <div datatype="rdf:HTML" property="schema:description">
-<p>metrics/scale for LR design principles</p>
-            </div>
-          </section>
+              <p>This is an initiative to solicit input and participation from the community. It's tied to the principles, and calls for practical activity towards realising the goals.</p>
+<pre>
+** all sorts of community effort in SW/webscience conferences/workshops
+** dogfooding
+** archaic and artificial barriers
+</pre>
 
+              <p>Mention similarities to pre-print</p>
+              <p>Mention how pre-registration of research is possible</p>
 
-          <section id="forces-functions-linked-research" inlist="" rel="schema:hasPart" resource="#forces-functions-linked-research">
-            <h2 property="schema:name">Forces and Functions of Linked Research</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p>We first approach the forces and functions of scholarly communication in context of the Linked Research design principles.</p>
+              <p>Trends towards citizen science? persons without institutional affiliation</p>
 
-              <h3>Forces</h3>
-
-              <dl id="forces-in-linked-research">
-                <dt>Actor</dt>
-                <dd>Any <q cite="https://www.w3.org/TR/webarch/#def-web-agent">web agent</q> — person or software — is able to participate in scholarly communication using WebIDs.</dd>
-
-                <dt>Accessibility</dt>
-                <dd>A registered IRI for a unit of information can resolve to an HTTP URL as per content negotiation.</dd>
-
-                <dt>Content</dt>
-                <dd></dd>
-
-                <dt>Applicability</dt>
-                <dd></dd>
-              </dl>
-
-              <h3>Functions</h3>
-
-              <dl id="functions-in-linked-research">
-                <dt>Registration</dt>
-                <dd>
-                  <p>We expect that systems by design should allow any actor to register a unit of information by associating an IRI with a distinct resource. For example, an actor can assign an IRI for their research literature at an information space they have ownership or control, eg. personal or university website, creating an archived copy, entry in a dataset, annotated video fragment, producing notifications, or even referring to a resource that will be available in the future.</p>
-                </dd>
-
-                <dt>Awareness</dt>
-                <dd>Share, annotation, outbox, scholarly activity clouds</dd>
-
-                <dt>Certification</dt>
-                <dd>Annotation with any motivation, replying, commenting, reviewing</dd>
-
-                <dt>Archiving</dt>
-                <dd>Self-registers automatically, archive at</dd>
-              </dl>
-            </div>
-          </section>
-
-          <section id="roles-of-actors" inlist="" rel="schema:hasPart" resource="#roles-of-actors">
-            <h2 property="schema:name">Roles of Actors</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p id="researcher-centric"><em>Researcher-centric</em> is the notion of content creators or contributors having the responsibility of the <q cite="http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html">indispensable</q> functions; registration and archiving, as well as being the custodian of the</p>
-
-              <p>We start with the assumptions for the qualities of coupling of the forces and functions in context of Linked Research:</p>
-
-              <dl>
-                <dt>Assumptions</dt>
-                <dd>
-                  <p>Researchers want their creations to be effective and useful by being accessible and interpretable. There can be different reasons for access restrictions and remain orthogonal to concept of openness:</p>
-
-                  <ul>
-                    <li>Many researchers are doing science for personal gain, and withholding to restricting access to knowledge might be to their immediate benefit.</li>
-                    <li>Management and reusability of private or sensitive content.</li>
-                  </ul>
-                </dd>
-
-                <dd>Researchers might be afraid of their work being stolen or not receive adequate attribution, so object to the ideas of pre-prints, early releases and sharing data eg. "preprints can ease and accelerate the exchange of scientific knowledge, openness, and transparency"</dd>
-
-                <dd>The actor that triggers the archiving function may be the content creator or any third-party. The archival system and its URI space is always governed by an entity other than the creator of the content.</dd>
-              </dl>
-
-              <p class="todo">The coupling and its qualities is as follows:</p>
-
-
-              <dl id="qualities-of-coupling">
-                <dt id="coupling-actor-registration">Actor and Registration</dt>
-                <dd>
-                  <p>Coupling the content creator with the registration function means that the content can be encoded in a way that is as close as possible to the affordances it can potentially possess. The encoding is related to registration and the creator in that it reduces the chances of intermediary actors to</p>
-                  <ul>
-                    <li>constitute or influence how that content can be expressed;</li>
-                    <li>alter the content before registration</li>
-                  </ul>
-                </dd>
-
-                <dt id="coupling-actor-archiving">Actor and Archiving</dt>
-                <dd>
-                  <p>For archiving (registering) of content, we differentiate between the two actors: the one that triggers, eg. the content creator, and the application that performs the archival. Content creators typically archive their work to so that its record (controlled by an archive) can be identified and reusable.</p>
-                </dd>
-
-                <dt id="coupling-actor-accessibility">Actor and Accessibility</dt>
-                <dd>
-                  <p>In order for some content to serve its potential purpose, its retrievability and reusability can be set by their creators. Actors establishing a high degree of accessibility of registered content means that the awareness function can have a network effect.</p>
-                </dd>
-              </dl>
-
-
-              <!-- <p>We will revisit these functions later in the thesis as a technical response to Sompel's call to investigate <q cite="https://www.youtube.com/watch?v=o4nUe-6Ln-8&amp;t=2792">how to fulfil the core functions of scholarly communication using the technical paradigm</q> around self-publishing.</p> -->
-            </div>
-          </section>
-
-
-<p id="role-of-institutions"><strong>Role of Institutions</strong>: 
-* what roles could libraries/institutions play? eg notify about article/review
-* institutional repositories like eprints then they buy PURE from Springer.
-* ldprints</p>
 
           <section id="acid-test" inlist="" rel="schema:hasPart" resource="#acid-test">
-            <h2 property="schema:name">Acid Test</h2>
+            <h3 property="schema:name">Acid Test</h3>
             <div datatype="rdf:HTML" property="schema:description">
               <p>An <cite><a href="https://linkedresearch.org/rfc#acid-test" rel="cito:citesAsPotentialSolution">acid test</a></cite> aims to evaluate systems openness, accessibility, decentralisation, interoperability in scholarly communication. This test does not mandate a specific technology, therefore the challenge can be met by different solutions. There are a set of proposed challenges for the community to check their systems against to see how well they can fulfill them, as part of the push towards building cooperating systems.</p>
 
@@ -445,6 +242,47 @@ building a mental infrastructure.
                   <span rel="schema:hasPart"><span content="There is no spoon." property="schema:description" resource="#acid-test-assumptions-no-spoon" typeof="doco:Sentence"></span></span>
                 </dd>
               </dl>
+            </div>
+          </section>
+
+          <section id="contemporary-uptake" inlist="" rel="schema:hasPart" resource="#contemporary-uptake">
+            <h3 property="schema:name">Contemporary Uptake</h3>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>The spread of Web use in scholarly comms. What are people doing in practice at the time of writing (IN SEMANTIC WEB)</p>
+
+              <ul>
+                <li>Conference wide: ISWC, ESWC</li>
+                <li>SemStats, ISWC</li>
+                <li>Enabling Decentralised Scholarly Communication, ESWC</li>
+                <li>WOW, WWW</li>
+                <li>LDOW, WWW</li>
+                <li>DeSemWeb</li>
+                <li>SemSci</li>
+                <li>SAVE-SD</li>
+                <li>Sepublica</li>
+                <li>Semantic Web Journal</li>
+                <li>Researcher Centric Scholarly Communication, The Web Conf</li>
+                <li>Workshops and tutorials - dokieli, OAI, SWIB, ESWC</li>
+                <li>LORC at ESWC2018, 2019</li>
+                <li>CEUR-WS</li>
+                <li>SemSci</li>
+                <li>SAVE-SD</li>
+                <li>Sepublica</li>
+                <li>Semantic Web Journal</li>
+                <li>mention usable-oa?</li>
+              </ul>
+            </div>
+          </section>
+
+
+          <section id="linked-open-research-cloud" inlist="" rel="schema:hasPart" resource="#linked-open-research-cloud">
+            <h3 property="schema:name">Linked Open Research Cloud</h3>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover relations. The knowledge industry can better address societal challenges by embracing the virtues of the Web via decentralisation and interconnectivity of our collective knowledge.</p>
+
+              <p>The <dfn id="lorc">Linked Open Research Cloud</dfn> (<abbr title="Linked Open Research Cloud">LORC</abbr>) project aims to increase the awareness, discovery, and reuse of resources about scholarly communication on the Web in the form of open <cite><a href="https://www.w3.org/DesignIssues/LinkedData">Linked Data</a></cite>. It pursues this by accepting notifications about scholarly activities, making them available for reuse, and generates an interactive visualisation for additional exploration. Consequently, LORC can assist researchers with their applications to discover pertinent scholarly information on the Web, and connect their knowledge with the global knowledge graph. For the wider scientific community, LORC can facilitate scientometrics studies and decision making based on the scholarly commons ecosystem.</p>
+
+              <p>To this end, this article announces its <em>inbox</em> to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (<abbr title="Linked Data Notifications">LDN</abbr>) about scholarly activities, eg. publication of scholarly articles, <cite><a href="https://www.w3.org/TR/annotation-model/">Web Annotations</a></cite> (like peer reviews, replies), citations, call for contributions, proceedings, scientific observations and workflows, arguments, funding information etc. With a system like LORC, universal scientific knowledge can be better connected, findable, and accessible, with the potential to amplify its effectiveness and efficiency.</p>
             </div>
           </section>
 
@@ -533,7 +371,7 @@ building a mental infrastructure.
 
               <p>The test suite uses <em>mayktso</em> (<a href="https://github.com/csarven/mayktso">https://github.com/csarven/mayktso</a>) as the LDN receiver, but any conformant receiver implementation will work here.</p>
 
-              <p>The missing connection among existing specifications and test reports is that a uniform resource discovery is not possible between the test reports and the individual conformance criteria in the specifications, where a given information at a particular URL is both human and machine-processable (see <cite><a href="http://csarven.ca/linked-specifications-reports#related-work">related work</a></cite>.)
+              <p>The missing connection among existing specifications and test reports is that a uniform resource discovery is not possible between the test reports and the individual conformance criteria in the specifications, where a given information at a particular URL is both human and machine-processable (see <cite><a href="http://csarven.ca/linked-specifications-reports#related-work">related work</a></cite>.)</p>
 
               <p>The key takeaways are:</p>
 
@@ -548,68 +386,112 @@ building a mental infrastructure.
             </div>
           </section>
 
-          <section id="call-for-linked-research" inlist="" rel="schema:hasPart" resource="#call-for-linked-research">
-            <h2 property="schema:name">Call for Linked Research</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p>This is an initiative to solicit input and participation from the community. It's tied to the principles, and calls for practical activity towards realising the goals.</p>
-<pre>
-** all sorts of community effort in SW/webscience conferences/workshops
-** dogfooding
-** archaic and artificial barriers
-</pre>
 
-              <p>Mention similarities to pre-print</p>
-              <p>Mention how pre-registration of research is possible</p>
-
-              <p>Trends towards citizen science? persons without institutional affiliation</p>
             </div>
           </section>
 
 
-          <section id="contemporary-uptake" inlist="" rel="schema:hasPart" resource="#contemporary-uptake">
-            <h2 property="schema:name">Contemporary Uptake</h2>
+
+          <section id="forces-functions-linked-research" inlist="" rel="schema:hasPart" resource="#forces-functions-linked-research">
+            <h2 property="schema:name">Forces and Functions of Linked Research</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>The spread of Web use in scholarly comms. What are people doing in practice at the time of writing (IN SEMANTIC WEB)</p>
-              <ul>
-                <li>Conference wide: ISWC, ESWC</li>
-                <li>SemStats, ISWC</li>
-                <li>Enabling Decentralised Scholarly Communication, ESWC</li>
-                <li>WOW, WWW</li>
-                <li>LDOW, WWW</li>
-                <li>DeSemWeb</li>
-                <li>SemSci</li>
-                <li>SAVE-SD</li>
-                <li>Sepublica</li>
-                <li>Semantic Web Journal</li>
-                <li>Researcher Centric Scholarly Communication, The Web Conf</li>
-                <li>Workshops and tutorials - dokieli, OAI, SWIB, ESWC</li>
-                <li>LORC at ESWC2018, 2019</li>
-                <li>CEUR-WS</li>
-                <li>SemSci</li>
-                <li>SAVE-SD</li>
-                <li>Sepublica</li>
-                <li>Semantic Web Journal</li>
-                <li>mention usable-oa?</li>
-              </ul>
+              <p>We first approach the forces and functions of scholarly communication in context of the Linked Research design principles.</p>
+
+              <h3>Forces</h3>
+
+              <dl id="forces-in-linked-research">
+                <dt>Actor</dt>
+                <dd>Any <q cite="https://www.w3.org/TR/webarch/#def-web-agent">web agent</q> — person or software — is able to participate in scholarly communication using WebIDs.</dd>
+
+                <dt>Accessibility</dt>
+                <dd>A registered IRI for a unit of information can resolve to an HTTP URL as per content negotiation.</dd>
+
+                <dt>Content</dt>
+                <dd></dd>
+
+                <dt>Applicability</dt>
+                <dd></dd>
+              </dl>
+
+              <h3>Functions</h3>
+
+              <dl id="functions-in-linked-research">
+                <dt>Registration</dt>
+                <dd>
+                  <p>We expect that systems by design should allow any actor to register a unit of information by associating an IRI with a distinct resource. For example, an actor can assign an IRI for their research literature at an information space they have ownership or control, eg. personal or university website, creating an archived copy, entry in a dataset, annotated video fragment, producing notifications, or even referring to a resource that will be available in the future.</p>
+                </dd>
+
+                <dt>Awareness</dt>
+                <dd>Share, annotation, outbox, scholarly activity clouds</dd>
+
+                <dt>Certification</dt>
+                <dd>Annotation with any motivation, replying, commenting, reviewing</dd>
+
+                <dt>Archiving</dt>
+                <dd>Self-registers automatically, archive at</dd>
+              </dl>
+
+
+              <p id="researcher-centric"><em>Researcher-centric</em> is the notion of content creators and contributors having the responsibility of the <q cite="http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html">indispensable</q> functions; registration and archiving, as well as being the custodian of the</p>
+
+              <p>We start with the assumptions for the qualities of coupling of the forces and functions in context of Linked Research:</p>
+
+              <dl>
+                <dt>Assumptions</dt>
+                <dd>
+                  <p>Researchers want their creations to be effective and useful by being accessible and interpretable. There can be different reasons for access restrictions and remain orthogonal to concept of openness:</p>
+
+                  <ul>
+                    <li>Many researchers are doing science for personal gain, and withholding to restricting access to knowledge might be to their immediate benefit.</li>
+                    <li>Management and reusability of private or sensitive content.</li>
+                  </ul>
+                </dd>
+
+                <dd>Researchers might be afraid of their work being stolen or not receive adequate attribution, so object to the ideas of pre-prints, early releases and sharing data eg. "preprints can ease and accelerate the exchange of scientific knowledge, openness, and transparency"</dd>
+
+                <dd>The actor that triggers the archiving function may be the content creator or any third-party. The archival system and its URI space is always governed by an entity other than the creator of the content.</dd>
+              </dl>
+
+              <p class="todo">The coupling and its qualities is as follows:</p>
+
+
+              <dl id="qualities-of-coupling">
+                <dt id="coupling-actor-registration">Actor and Registration</dt>
+                <dd>
+                  <p>Coupling the content creator with the registration function means that the content can be encoded in a way that is as close as possible to the affordances it can potentially possess. The encoding is related to registration and the creator in that it reduces the chances of intermediary actors to</p>
+                  <ul>
+                    <li>constitute or influence how that content can be expressed;</li>
+                    <li>alter the content before registration</li>
+                  </ul>
+                </dd>
+
+                <dt id="coupling-actor-archiving">Actor and Archiving</dt>
+                <dd>
+                  <p>For archiving (registering) of content, we differentiate between the two actors: the one that triggers, eg. the content creator, and the application that performs the archival. Content creators typically archive their work to so that its record (controlled by an archive) can be identified and reusable.</p>
+                </dd>
+
+                <dt id="coupling-actor-accessibility">Actor and Accessibility</dt>
+                <dd>
+                  <p>In order for some content to serve its potential purpose, its retrievability and reusability can be set by their creators. Actors establishing a high degree of accessibility of registered content means that the awareness function can have a network effect.</p>
+                </dd>
+              </dl>
+
+
+              <!-- <p>We will revisit these functions later in the thesis as a technical response to Sompel's call to investigate <q cite="https://www.youtube.com/watch?v=o4nUe-6Ln-8&amp;t=2792">how to fulfil the core functions of scholarly communication using the technical paradigm</q> around self-publishing.</p> -->
+
             </div>
           </section>
 
-          <section id="discussion" inlist="" rel="schema:hasPart" resource="#discussion">
-            <h2 property="schema:name">Discussion</h2>
+
+
+          <section id="contextualising-linked-research" inlist="" rel="schema:hasPart" resource="#contextualising-linked-research">
+            <h2 property="schema:name">Contextualising Linked Research</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>The Web is the <strong>medium</strong> in which <cite>Linked Research</cite> is a <strong>message</strong> within.</p>
-
-              <p class="todo">Move some of this to framing/background</p>
-
-              <p>The Web is capable of offering rich interactions for humans and machines. While scientists have adopted the Web as an ideal medium to exchange knowledge, I posit that it is not being used efficiently or optimally due to both social and technical reasons. What we can ask is if it is possible to use the medium to its full potential, and observe the <em>effects</em>. We can also consider the consequences of pushing this to the extreme - as per McLuhan's <em>reverses into</em>. Hence we should strive to understand the ways we are self-amputating in the pursuit of acquiring knowledge about the fabric of reality. LR is not only a set of design principles to shape the technical scholarly communication ecosystem, but an initiative to strive to experience the full effects of the Web by adopting what it has to offer. In part, LR is an attempt to actively break away from practices which enhance isolationism or still fundamentally work within the print-centric paradigm. Technologies that enable or enhance the social dimensions on the Web for example makes involvement with content possible. The design principles are a nudge towards this goal.</p>
-
-              <p>LR is also a conceptual framework that describes how implementations in scholarly communication can interoperate. Its philosophy is influenced by the social machinery to build a knowledge Web for humans and machines as part of a cooperating system. Knowledge tends to get lost if it can't be retrieved, hence it has limited value. Thus, a holistic approach to universal access for all agents is an important criteria.</p>
-
-              <p>LR's design is aligned with certain qualities of existing works and practices in the wild. However, LR looks at the problem space by revisiting the characteristics of the medium, and what the actors can achieve in context of scientific communication. Arbitrary or artificial barriers are considered to be anti-patterns.</p>
+              <p>LR is an initiative to strive to experience the full effects of the Web by observing and making use of its affordances. It serves as a conceptual framework that describes how actors can control their interactions and data, as well as how decentralised and socially-aware applications can exchange information.</p>
 
               <p>Are there ideological and technology traps? The traps can be seen as analogous to McLuhan's <q>reverses into</q> effect. When the LR design principles are pushed to the extreme, highly specialised and fine-grained centralised systems can and will emerge while still operating within the larger decentralised system on the Web. The degree of federation or interoperability among the autonomous systems will vary. The effects may be that of a new generation of third-party control and authority over certain information spaces. For example, just as centralised publishing and distribution services currently exist for the dominating paper-centric industry, the medium can still accommodate similar control over semantic and granular scientific resources. It is worthwhile to note that the ecosystem would only become more diverse as it expands. Entropy is an inherent property of the Web.</p>
 
-              <p>It is worthwhile to note here that the earlier or existing models for information exchange that has been described so far primarily focus on institutional or subject repository driven scholarly communication. They are contrasted against the involvement of third-party (for-profit) service providers which impose a particular arrangement of the coupling of the scholarly information space per <em>forces and functions</em>. In the remainder of this thesis, I focus on enabling a <strong>researcher-centric</strong> model; whilst this can be situated within the same <q>deconstructing</q> or <q>decoupling</q> school of thought, its pursuit is embracing greater control by content creators through the native characteristics of the Web, without interfering with the certification function regardless of the academic discipline; humanities, social, natural, formal, or applied sciences. The notion of content creators or consumers having some control on accessibility, registration and archiving, inherits certain qualities of coupling. That is, researcher-centric coupling unleashes the potentials of expressivity and effective scholarly communication.</p>
+              <p>It is worthwhile to note here that the existing models for information exchange that has been described so far primarily focus on institutional or subject repository driven scholarly communication. They are contrasted against the involvement of third-party (for-profit) service providers which impose a particular arrangement of the coupling of the scholarly information space per <em>forces and functions</em>. In the remainder of this thesis, I focus on enabling a <strong>researcher-centric</strong> model; whilst this can be situated within the same <q>deconstructing</q> or <q>decoupling</q> school of thought, its pursuit is embracing greater control by content creators through the native characteristics of the Web, without interfering with the certification function regardless of the academic discipline; humanities, social, natural, formal, or applied sciences. The notion of content creators or consumers having some control on accessibility, registration and archiving, inherits certain qualities of coupling. That is, researcher-centric coupling unleashes the potentials of expressivity and effective scholarly communication.</p>
 
               <p>While the criteria for publishing provided by <cite>Genuine Semantic Publishing</cite> is valuable and can also be exercised by following LR's <q>interpretable</q> design principle, we do not prescribe it in order to not conflict with the <q>freedom of expression</q> principle. If a third-party imposes a specific way to express knowledge, whether it is through file formats and their structure and semantics; what (meta)data to include or not include; or inclusion and use of interactive components; the quality of the communication is subject to be less effective because the author may have to make compromises. Information loss occurs and communication quality naturally degrades simply because what the actors wish to convey in their message, and how, will have to be filtered down in order to fit the requirements of a third-party, data formats, or user interfaces.</p>
 
@@ -619,13 +501,71 @@ building a mental infrastructure.
 
               <p class="todo">We all produce and distribute information. It is our part of our nature. What kinds of rules would serve everyone's (writers and readers) needs in the Web environment? What may be the constrains?</p>
 
-              <p class="todo">Use Kuhn's "accuracy consistency scope simplicity fruitfulness" to explain the quality of the LR paradigm,</p>
-
 
               <p>LR does not deconstruct scholarly publishing, but that it ironically indicates instead the need for a counter-environment as a means of practising the dominant and unnoticed environment.</p>
 
 
               <p>Sooner or later we need a strategy to address questions like: <em>What do we aim to accomplish?</em> <em>Who is trying to do it and for the benefit of whom?</em> <em>How do we know whether we are making progress and when we have succeeded?</em></p>
+
+          <section id="degree-of-control-in-linked-research" inlist="" rel="schema:hasPart" resource="#degree-of-control-in-linked-research">
+            <h3 property="schema:name">Degree of Control in Linked Research</h3>
+            <div datatype="rdf:HTML" property="schema:description">
+<p>metrics/scale for LR design principles</p>
+<p>degree-of-control</p>
+
+<p>Mention personal domain+hosting costs and contrast with alternatives (OA/APC) and tradeoffs</p>
+
+<p>Building <abbr title="Registration, Awareness, Certification, Archiving">RACA</abbr>-Aware Web Applications</p>
+            </div>
+          </section>
+
+          <section id="challenging-the-status-quo" inlist="" rel="schema:hasPart">
+            <h3 property="schema:name">Challenging the Status Quo</h3>
+            <div datatype="rdf:HTML" property="schema:description">
+<p class="todo">Change title to 'Realising Social Changes'?</p>
+
+<pre>
+* Old man yelling at cloud
+* Mailing list and social media 'activism' - why is this worthwhile? why is this part of the contribution of LR
+* Testing ideas
+* keeping things in people consciousness
+* how to influence the direction of scholarly communication in web science
+* small visible results: uptake from conferences/workshops
+</pre>
+
+<p class="todo">
+The real target of these messages is not you, me, or even the seniors,
+professors, directors, conference organisers, programme committees, and
+so on.
+
+This is for the *next generation* of researchers and developers who are
+following along or will hopefully read this up one day. They are the
+ones who will be the change. We are only setting the stage for them to
+follow through.
+
+Of course I do hope that these ideas and the problems we are dealing
+with resonate with more people. Hence, a plea for the "seniors" to
+permit their "junior" colleagues to push forward. To grow their team
+with a different set of ideals and awareness! Many already have for a
+long time, and many are making that shift.
+
+Neither do I actually expect these conferences/journals that have kept
+their approach for so long to change overnight. As long as researchers
+are constrained in how they communicate their knowledge, and how that
+knowledge can be disseminated, no amount of activism here or elsewhere
+will change that.
+
+The purpose of these threads is purely about creating awareness and
+building a mental infrastructure.
+</p>
+
+              <p class="todo">Why this will never happen: promotion and tenure are integral to the academic profession. The incentives in the academic profession predominantly relies on an ecosystem that is largely led by third-party publishers and services. The proposed work does not address or replace the reputation problem. The importance of Open Science is on the rise, from social media, to increase in <a href="https://osf.io/7jbnt/">academic jobs that mention</a></p>
+
+
+<p id="role-of-institutions"><strong>Role of Institutions</strong>:
+* what roles could libraries/institutions play? eg notify about article/review
+* institutional repositories like eprints then they buy PURE from Springer.
+* ldprints</p>
 
               <p>Potential solutions to these questions and new challenges need to address the connection and the gap between researchers, academic and public institutions, as well as what ends up in the commons. It is not just about researchers making their contributions available on the Web, or about conferences requesting semantically annotated contributions, or operating with transparent peer-review. All of these things must move in combination. Some of the kinds of actors in the ecosystem to address fulfilling the the LR principles can be along these lines:</p>
 
@@ -641,6 +581,54 @@ building a mental infrastructure.
               </dl>
 
               <p>Mention https://communitywiki.org/wiki/DoOcracy https://web.archive.org/web/20181231115548/https://communitywiki.org/wiki/DoOcracy ?</p>
+
+
+              <p>This section is about how we realise/enable the social changes technically, whilst still adhering to the LR principles (ie. why we can't just use twitter/easychair for academia etc).</p>
+              <p>Point at the social parts of the Control Yourself chapter (AP, AS2, LDN) and say how these fit into the ecosystem. How they mean we can do the things people need to do in scholarly communications in a way that meets the principles.</p>
+              <p>This is where we bring the decentralisation stuff back home to in-practice scholarly comms.</p>
+
+              <p>There are different approaches to 'fixing' the ecosystem. We could try a wholehearted replacement of the current system. That's unlikely to succeed. We could try to directly change existing players (like publishers, conferences) and demand that they do things differently. Also probably not gonna happen. It might be better to work *alongside* existing practices, and gradually ease scholars into new ways of operating. our goal is not necessarily to replicate major academic publishing houses or academic social networks..  smaller, personalised connected components might be both easier to realise and more effective in the long run. But.. who knows.</p>
+
+
+            </div>
+          </section>
+
+          <section id="framing-our-vocabulary" inlist="" rel="schema:hasPart" resource="#framing-our-vocabulary">
+            <h3 property="schema:name skos:definition">Framing our Vocabulary</h3>
+            <div datatype="rdf:HTML" property="schema:description" resource="#framing-our-vocabulary" typeof="skos:ConceptScheme">
+              <p datatype="rdf:HTML" property="skos:definition">It is necessary to exercise a new vocabulary. New terms set a different frame of mind than the terms we have used in the past. Some terms have new definitions and replacements are necessary. We adopt the idea that scholarly calls for <strong>contributions</strong> welcome researchers to <strong>share</strong> their <strong>articles</strong> with the community.</p>
+
+              <p class="todo">mention quality aspect.. conference: paper, journal: article</p>
+
+              <dl rel="skos:hasTopConcept">
+                <dt about="#s-submit-share" id="s-submit-share" property="skos:prefLabel" rel="skos:topConceptOf" resource="#framing-our-vocabulary" typeof="skos:Concept"><samp>s/submit/share</samp></dt>
+                <dd about="#s-submit-share" datatype="rdf:HTML" property="skos:definition">Researchers <em>share</em> their scientific contributions as opposed <em>submit</em>.</dd>
+
+                <dt about="#s-submission-contribution" id="s-submission-contribution" property="skos:prefLabel" rel="skos:topConceptOf" resource="#framing-our-vocabulary" typeof="skos:Concept"><samp>s/submission/contribution</samp></dt>
+                <dd about="#s-submission-contribution" datatype="rdf:HTML" property="skos:definition">Researchers make <em>contributions</em> to the field as opposed to calls receiving <em>submissions</em>.</dd>
+
+                <dt about="#s-paper-article" id="s-paper-article" property="skos:prefLabel" rel="skos:topConceptOf" resource="#framing-our-vocabulary" typeof="skos:Concept"><samp>s/paper/article</samp></dt>
+                <dd about="#s-paper-article" datatype="rdf:HTML" property="skos:definition">Researchers create discoverable and accessible Web <em>articles</em> as opposed to documents that mimic <em>papers</em>.</dd>
+              </dl>
+            </div>
+          </section>
+
+
+
+
+          <section id="objectivity-value-judgment-and-theory-choice" inlist="" rel="schema:hasPart" resource="#objectivity-value-judgment-and-theory-choice">
+            <h3 property="schema:name">Objectivity, Value Judgment, and Theory Choice</h3>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p class="todo">Should this be discussed in Evaluation, Linked Research or Conclusions .. if at all?</p>
+              <p>Kuhn's five characteristics, <q cite="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">accuracy, consistency, scope, simplicity, and fruitfulness</q> in <cite><a href="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">Objectivity, Value Judgment, and Theory Choice</a></cite>, ... and justify why the <cite>Linked Research</cite> design principles describes a paradigm that can be further investigated towards genuine scholarly communication on the Web.</p>
+
+              <p><strong>Accuracy</strong>:</p>
+              <p><strong>Consistency</strong>:</p>
+              <p><strong>Scope</strong>:</p>
+              <p><strong>Simplicity</strong>:</p>
+              <p><strong>Fruitfulness</strong>:</p>
+            </div>
+          </section>
             </div>
           </section>
         </div>
