@@ -213,86 +213,88 @@
               <p>Trends towards citizen science? persons without institutional affiliation</p>
 
 
-          <section id="acid-test" inlist="" rel="schema:hasPart" resource="#acid-test">
-            <h3 property="schema:name">Acid Test</h3>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p>An <em>acid test</em> can be used to evaluate systems openness, accessibility, decentralisation, interoperability in scholarly communication. Such test does not mandate a specific technology, therefore design challenges can be met by different solutions. The following assumptions can be adopted when addressing technical design problems in scholarly communication.</p>
+              <section id="acid-test" inlist="" rel="schema:hasPart" resource="#acid-test">
+                <h3 property="schema:name">Acid Test</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>An <em>acid test</em> can be used to evaluate systems openness, accessibility, decentralisation, interoperability in scholarly communication. Such test does not mandate a specific technology, therefore design challenges can be met by different solutions. The following assumptions can be adopted when addressing technical design problems in scholarly communication.</p>
 
-              <dl id="acid-test-assumptions">
-                <dt>Assumptions</dt>
-                <dd>
+                  <dl id="acid-test-assumptions">
+                    <dt>Assumptions</dt>
+                    <dd>
+                      <ul>
+                        <li id="acid-test-assumptions-open-standards" rel="schema:hasPart"><span about="#acid-test-assumptions-open-standards" property="schema:description" typeof="doco:Sentence">All interactions conform with open standards, with 1) no dependency on proprietary APIs, protocols, or formats, and 2) no commercial dependency or priori relationship between the groups using the workflows and tools involved.</span></li>
+
+                        <li id="acid-test-assumptions-publishing" rel="schema:hasPart"><span about="#acid-test-assumptions-publishing" property="schema:description" typeof="doco:Sentence">Any mechanisms are available through at least two independent interoperable tool stacks.</span></li>
+
+                        <li id="acid-test-assumptions-free-and-open-access" rel="schema:hasPart"><span about="#acid-test-assumptions-free-and-open-access" property="schema:description" typeof="doco:Sentence">Information and interactions are available for free and open access with suitable licensing and attribution for retrieval and reuse.</span></li>
+
+                        <li id="acid-test-assumptions-interpretable" rel="schema:hasPart"><span about="#acid-test-assumptions-interpretable" property="schema:description" typeof="doco:Sentence">Information is interpretable for any agent; human, machine, or other.</span></li>
+
+                        <li id="acid-test-assumptions-prior-knowledge" rel="schema:hasPart"><span about="#acid-test-assumptions-prior-knowledge" property="schema:description" typeof="doco:Sentence">All interactions are possible without prior out-of-band knowledge of the user’s environment or configuration.</span></li>
+                      </ul>
+                      <span rel="schema:hasPart"><span content="There is no spoon." property="schema:description" resource="#acid-test-assumptions-no-spoon" typeof="doco:Sentence"></span></span>
+                    </dd>
+                  </dl>
+                </div>
+              </section>
+
+
+              <section id="contemporary-uptake" inlist="" rel="schema:hasPart" resource="#contemporary-uptake">
+                <h3 property="schema:name">Contemporary Uptake</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>The notion of <em>Linked Research</em> has been acknowledge and adopted by the Semantic Web academic community:</p>
+
                   <ul>
-                    <li id="acid-test-assumptions-open-standards" rel="schema:hasPart"><span about="#acid-test-assumptions-open-standards" property="schema:description" typeof="doco:Sentence">All interactions conform with open standards, with 1) no dependency on proprietary APIs, protocols, or formats, and 2) no commercial dependency or priori relationship between the groups using the workflows and tools involved.</span></li>
-
-                    <li id="acid-test-assumptions-publishing" rel="schema:hasPart"><span about="#acid-test-assumptions-publishing" property="schema:description" typeof="doco:Sentence">Any mechanisms are available through at least two independent interoperable tool stacks.</span></li>
-
-                    <li id="acid-test-assumptions-free-and-open-access" rel="schema:hasPart"><span about="#acid-test-assumptions-free-and-open-access" property="schema:description" typeof="doco:Sentence">Information and interactions are available for free and open access with suitable licensing and attribution for retrieval and reuse.</span></li>
-
-                    <li id="acid-test-assumptions-interpretable" rel="schema:hasPart"><span about="#acid-test-assumptions-interpretable" property="schema:description" typeof="doco:Sentence">Information is interpretable for any agent; human, machine, or other.</span></li>
-
-                    <li id="acid-test-assumptions-prior-knowledge" rel="schema:hasPart"><span about="#acid-test-assumptions-prior-knowledge" property="schema:description" typeof="doco:Sentence">All interactions are possible without prior out-of-band knowledge of the user’s environment or configuration.</span></li>
+                    <li>Conference wide: ISWC, ESWC</li>
+                    <li>SemStats, ISWC</li>
+                    <li>Enabling Decentralised Scholarly Communication, ESWC</li>
+                    <li>WOW, WWW</li>
+                    <li>LDOW, WWW</li>
+                    <li>DeSemWeb</li>
+                    <li>SemSci</li>
+                    <li>SAVE-SD</li>
+                    <li>Sepublica</li>
+                    <li>Semantic Web Journal</li>
+                    <li>Researcher Centric Scholarly Communication, The Web Conf</li>
+                    <li>Workshops and tutorials - dokieli, OAI, SWIB, ESWC</li>
+                    <li>Linked Open Research Cloud at ESWC2018, ESWC2019</li>
+                    <li>CEUR-WS</li>
+                    <li>SemSci</li>
+                    <li>SAVE-SD</li>
+                    <li>Sepublica</li>
+                    <li>Semantic Web Journal</li>
+                    <li>mention usable-oa?</li>
                   </ul>
-                  <span rel="schema:hasPart"><span content="There is no spoon." property="schema:description" resource="#acid-test-assumptions-no-spoon" typeof="doco:Sentence"></span></span>
-                </dd>
-              </dl>
-            </div>
-          </section>
+                </div>
+              </section>
 
 
-          <section id="contemporary-uptake" inlist="" rel="schema:hasPart" resource="#contemporary-uptake">
-            <h3 property="schema:name">Contemporary Uptake</h3>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p>The notion of <em>Linked Research</em> has been acknowledge and adopted by the Semantic Web academic community:</p>
+              <section id="linked-open-research-cloud" inlist="" rel="schema:hasPart" resource="#linked-open-research-cloud">
+                <h3 property="schema:name">Linked Open Research Cloud</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover relations. The knowledge industry can better address societal challenges by embracing the virtues of the Web via decentralisation and interconnectivity of our collective knowledge.</p>
 
-              <ul>
-                <li>Conference wide: ISWC, ESWC</li>
-                <li>SemStats, ISWC</li>
-                <li>Enabling Decentralised Scholarly Communication, ESWC</li>
-                <li>WOW, WWW</li>
-                <li>LDOW, WWW</li>
-                <li>DeSemWeb</li>
-                <li>SemSci</li>
-                <li>SAVE-SD</li>
-                <li>Sepublica</li>
-                <li>Semantic Web Journal</li>
-                <li>Researcher Centric Scholarly Communication, The Web Conf</li>
-                <li>Workshops and tutorials - dokieli, OAI, SWIB, ESWC</li>
-                <li>Linked Open Research Cloud at ESWC2018, ESWC2019</li>
-                <li>CEUR-WS</li>
-                <li>SemSci</li>
-                <li>SAVE-SD</li>
-                <li>Sepublica</li>
-                <li>Semantic Web Journal</li>
-                <li>mention usable-oa?</li>
-              </ul>
-            </div>
-          </section>
+                  <p>The <dfn id="lorc">Linked Open Research Cloud</dfn> (<abbr title="Linked Open Research Cloud">LORC</abbr>) project aims to increase the awareness, discovery, and reuse of resources about scholarly communication on the Web in the form of open <cite><a href="https://www.w3.org/DesignIssues/LinkedData">Linked Data</a></cite>. It pursues this by accepting notifications about scholarly activities, making them available for reuse, and generates an interactive visualisation for additional exploration. Consequently, LORC can assist researchers with their applications to discover pertinent scholarly information on the Web, and connect their knowledge with the global knowledge graph. For the wider scientific community, LORC can facilitate scientometrics studies and decision making based on the scholarly commons ecosystem.</p>
+
+                  <p>To this end, this article announces its <em>inbox</em> to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (<abbr title="Linked Data Notifications">LDN</abbr>) about scholarly activities, eg. publication of scholarly articles, <cite><a href="https://www.w3.org/TR/annotation-model/">Web Annotations</a></cite> (like peer reviews, replies), citations, call for contributions, proceedings, scientific observations and workflows, arguments, funding information etc. With a system like LORC, universal scientific knowledge can be better connected, findable, and accessible, with the potential to amplify its effectiveness and efficiency.</p>
+                </div>
+              </section>
 
 
-          <section id="linked-open-research-cloud" inlist="" rel="schema:hasPart" resource="#linked-open-research-cloud">
-            <h3 property="schema:name">Linked Open Research Cloud</h3>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover relations. The knowledge industry can better address societal challenges by embracing the virtues of the Web via decentralisation and interconnectivity of our collective knowledge.</p>
+              <section id="linked-specifications-reports" inlist="" rel="schema:hasPart" resource="#linked-specifications-reports">
+                <h3 property="schema:name">Linked Specifications, Test Suites, and Implementation Reports</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>To demonstrate the extensibility of units of communication within the frame of Linked Research, I extend the LDN <a href="linked-data-notifications#test-suite-and-implementation-reports">test suite and implementation reports</a> and <a href="linked-data-notifications#linked-data-notifications-implementations">implementations</a> and describe the development of an interlinked, human and machine-readable W3C Recommendation, its test suite, and implementation reports as a whole.</p>
 
-              <p>The <dfn id="lorc">Linked Open Research Cloud</dfn> (<abbr title="Linked Open Research Cloud">LORC</abbr>) project aims to increase the awareness, discovery, and reuse of resources about scholarly communication on the Web in the form of open <cite><a href="https://www.w3.org/DesignIssues/LinkedData">Linked Data</a></cite>. It pursues this by accepting notifications about scholarly activities, making them available for reuse, and generates an interactive visualisation for additional exploration. Consequently, LORC can assist researchers with their applications to discover pertinent scholarly information on the Web, and connect their knowledge with the global knowledge graph. For the wider scientific community, LORC can facilitate scientometrics studies and decision making based on the scholarly commons ecosystem.</p>
+                  <p>The missing connection among existing specifications and test reports is that a uniform resource discovery is not possible between the test reports and the individual conformance criteria in the specifications, where a given information at a particular URL is both human and machine-processable (see <cite><a href="http://csarven.ca/linked-specifications-reports#related-work">related work</a></cite>.)</p>
 
-              <p>To this end, this article announces its <em>inbox</em> to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (<abbr title="Linked Data Notifications">LDN</abbr>) about scholarly activities, eg. publication of scholarly articles, <cite><a href="https://www.w3.org/TR/annotation-model/">Web Annotations</a></cite> (like peer reviews, replies), citations, call for contributions, proceedings, scientific observations and workflows, arguments, funding information etc. With a system like LORC, universal scientific knowledge can be better connected, findable, and accessible, with the potential to amplify its effectiveness and efficiency.</p>
-            </div>
-          </section>
+                  <p>Having the specifications and implementation reports interlinked and retrievable can facilitate their automated discovery and reuse. One use case is to be able to find applications that match a certain conformance criteria, eg. in order to have fine-grained bundling of software packages. While this would typically include "normative requirements", tests can potentially capture and reveal optional features of specifications. Prospective consumers of the compliance reports can be application developers finding appropriate software for use, as well as automatic software package managers.</p>
 
+                  <p>The following <a href="#figure-linked-specifications-reports">figure</a> depicts an overview of linking the LDN specification, its test suite, the generated implementation report for the dokieli project, reports summary, and an article citing the specification.</p>
 
-          <section id="linked-specifications-reports" inlist="" rel="schema:hasPart" resource="#linked-specifications-reports">
-            <h3 property="schema:name">Linked Specifications, Test Suites, and Implementation Reports</h3>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p>In order to demonstrate the extensibility of Linked Data centric units of communication within context of Linked Research, I extend the LDN <a href="linked-data-notifications#test-suite-and-implementation-reports">test suite and implementation reports</a> and <a href="linked-data-notifications#linked-data-notifications-implementations">implementations</a> and describe the development of an interlinked, human and machine-readable W3C Recommendation, its test suite, and implementation reports as a whole.</p>
-
-              <p>Having the specifications and implementation reports appropriately interlinked and retrievable can facilitate their automated discovery and reuse. One attainable use case is to be able to find applications that match a certain conformance criteria, eg. in order to have fine-grained bundling of software packages. While this would typically include normative requirements, tests can potentially capture and reveal optional features of specifications. Prospective consumers of the compliance reports can be application developers finding appropriate software for use, as well as automatic software package managers.</p>
-
-              <p>The following <a href="#figure-linked-specifications-reports">figure</a> depicts an overview of linking the LDN specification, its test suite, the generated implementation report for the dokieli project, reports summary, and an article citing the specification.</p>
-
-              <figure id="figure-linked-specifications-reports" rel="schema:hasPart" resource="#figure-linked-specifications-reports">
+                  <figure id="figure-linked-specifications-reports" rel="schema:hasPart" resource="#figure-linked-specifications-reports">
 <svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="480" height="320" version="1.1" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# xsd: http://www.w3.org/2001/XMLSchema# schema: https://schema.org/" xml:lang="en" rel="schema:isPartOf" resource="http://csarven.ca/linked-specifications-reports">
-  <metadata about=""><tspan rel="schema:license" resource="https://creativecommons.org/licenses/by/4.0/"></tspan><tspan rel="schema:creator" resource="http://csarven.ca/#i"></tspan></metadata>
+  <metadata><tspan rel="schema:license" resource="https://creativecommons.org/licenses/by/4.0/"></tspan><tspan rel="schema:creator" resource="http://csarven.ca/#i"></tspan></metadata>
   <title about="" property="schema:name">Linked Specifications, Test Suites, Implementation reports</title>
   <style>text{font-family:sans-serif;}.link{font-size:13px;font-style:italic;}.predicate{font-size:13px;font-style:italic;}.actor{font-size:16px;}a text{fill:#00e}marker{overflow:visible}</style>
 
@@ -352,35 +354,24 @@
     <path d="m 104.1,216.3 c 36.4,43.6 79.8,54.5 79.8,54.5" fill="none" stroke="#000" marker-end="url(#marker1603-8-8-9-7)" />
   </g>
 </svg>
-                <figcaption property="schema:name">An overview of linking a specification, test suite, generated implementation report for the project, reports summary, and an article citing the specification</figcaption>
-              </figure>
+                    <figcaption property="schema:name">An overview of linking a specification, test suite, generated implementation report for the project, reports summary, and an article citing the specification</figcaption>
+                  </figure>
 
-              <p>The information patterns in the LDN <a href="#specification">specification</a> and the <a href="linked-data-notifications#test-suite-and-implementation-reports">implementation reports</a> sections are reusable across other specifications and related components. Sources are available from:</p>
+                  <p>The information patterns in the LDN <a href="#specification">specification</a> and the <a href="linked-data-notifications#test-suite-and-implementation-reports">implementation reports</a> sections are reusable across other specifications and related components. Sources are available from:</p>
 
-              <ul>
-                <li>The specification: <a href="https://www.w3.org/TR/ldn/">https://www.w3.org/TR/ldn/</a></li>
-                <li>The test suite: <a href="https://linkedresearch.org/ldn/tests/">https://linkedresearch.org/ldn/tests/</a></li>
-                <li>Implementation reports summary and individual reports: <a href="https://linkedresearch.org/ldn/tests/summary">https://linkedresearch.org/ldn/tests/summary</a></li>
-              </ul>
+                  <ul>
+                    <li>The specification: <a href="https://www.w3.org/TR/ldn/">https://www.w3.org/TR/ldn/</a></li>
+                    <li>The test suite: <a href="https://linkedresearch.org/ldn/tests/">https://linkedresearch.org/ldn/tests/</a></li>
+                    <li>Implementation reports summary and individual reports: <a href="https://linkedresearch.org/ldn/tests/summary">https://linkedresearch.org/ldn/tests/summary</a></li>
+                  </ul>
 
-              <p>The test suite uses the <cite><a href="https://github.com/csarven/mayktso">mayktso</a></cite> server as the LDN receiver, but any conformant receiver implementation will work here.</p>
+                  <p>The test suite uses the <cite><a href="https://github.com/csarven/mayktso">mayktso</a></cite> server as the LDN receiver, but any conformant receiver implementation will work here.</p>
 
-              <p>The missing connection among existing specifications and test reports is that a uniform resource discovery is not possible between the test reports and the individual conformance criteria in the specifications, where a given information at a particular URL is both human and machine-processable (see <cite><a href="http://csarven.ca/linked-specifications-reports#related-work">related work</a></cite>.)</p>
+                  <p>The notifications carrying the reports have an HTML+RDFa representation (alternatively in other RDF serialisations upon content negotiation). The scholarly article on <cite><a href="http://csarven.ca/linked-data-notifications" rel="cito:citesAsEvidence">Linked Data Notifications</a></cite> uses the <cite><a href="http://purl.org/spar/cito/">CiTO</a></cite> vocabulary to cite the specification with <code>cito:citesAsAuthority</code>. Another peer reviewed article, <cite><a href="http://csarven.ca/dokieli-rww" rel="cito:citesAsEvidence">Decentralised Authoring, Annotations and Notifications for a Read-Write Web with dokieli</a></cite>, contextually cites the specification with <code>cito:citesAsPotentialSolution</code> from its <a href="http://csarven.ca/dokieli-rww#architectural-overview" rel="cito:citesAsEvidence">architectural overview</a> section, as well as the LDN Test Suite with <code>cito:citesAsAuthority</code> from its <a href="http://csarven.ca/dokieli-rww#adoption" rel="cito:citesAsEvidence">adoption</a> section. This is useful in that we can have articles linked to what is already available with minimal effort. Including this article that you are currently reading and interacting with.</p>
 
-              <p>The key takeaways are:</p>
-
-              <ul>
-                <li>Human and machine-readable documents via HTML+RDFa are feasible for specifications and implementation reports.</li>
-                <li>The connection between EARL and the QB vocabulary is suitable for multi-dimensional data without having to define new component specifications for the data cube.</li>
-                <li>Individual observations (test results) can be identified and discovered through contextual links in the specification, with the use of EARL and QB vocabularies.</li>
-                <li>The LDN protocol can support the possibility to send, receive and consume notifications about the implementation reports, as well as help with their discovery and reuse.</li>
-                <li>It is possible for other documents to refer to specific parts of the specification, test suite and reports.</li>
-              </ul>
-
-            </div>
-          </section>
-
-
+                  <p>The realisation here is that we have everything operating in a way that is interoperable: the specification, test suite, discovery of the reports, and academic articles, all reusing existing vocabularies.</p>
+                </div>
+              </section>
             </div>
           </section>
 
