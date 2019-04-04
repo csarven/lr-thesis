@@ -47,7 +47,7 @@
           <section id="design-principles" inlist="" rel="schema:hasPart" resource="#design-principles">
             <h2 property="schema:name">Design Principles</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>I posit design principles based on the observations and patterns involving the <cite><a href="#knowledge-goals">knowledge goals</a></cite> and <cite><a href="#technical-research-problems">technical research problems</a></cite>:</p>
+              <p>Based on the observations and patterns involving the <cite><a href="#knowledge-goals">knowledge goals</a></cite> and <cite><a href="#technical-research-problems">technical research problems</a></cite>, I posit the <em>Linked Research design principles</em>:</p>
 
               <nav>
                 <ul>
@@ -61,9 +61,9 @@
               <section id="autonomy" inlist="" rel="schema:hasPart" resource="#autonomy">
                 <h3 property="schema:name">Autonomy</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>The systems that are designed to fulfill the functions in scholarly communication should operate with the expectation of autonomous participation. One value that can be upheld through the principle of autonomy is to not have any constraints on where units of communication can exist on the Web. For instance, the actors of a system can have the freedom to designate identifiers to their artefacts: profile(s), articles, annotations, notifications, and so forth, as well as where they can be retrieved from. Similarly, the actor's autonomy to use preferred applications to interact with data. We consider that <em>decentralisation</em> of the information space is a means to gain autonomy on the Web. With respect to <em>delocalisation</em>, certain kinds of resources, eg. personal Web identifiers (WebID) controlled by their owners, can be used across different systems as they need not be tied to any particular URI space or system, and are free from external influences. Ultimately, autonomy is the right to freely choose and maintain sovereignty over URI ownership and data spaces, and the ability to use or switch between applications that can interact with them. Likewise, actors' autonomy would not obstruct them to use shared URI spaces if they so desire.</p>
+                  <p>The systems that are designed to fulfill the functions in scholarly communication should operate with the expectation of autonomous participation. One value that can be upheld through the principle of autonomy is to not have any constraints on where units of communication can exist on the Web. For instance, the actors of a system can have the freedom to designate identifiers to their artefacts: profile(s), articles, annotations, notifications, and so forth, as well as where they can be retrieved from. Similarly, the actor's autonomy to use preferred applications to interact with data. It can be considered that <em>decentralisation</em> of the information space is <em>a</em> means to gain autonomy on the Web. With respect to <em>delocalisation</em>, certain kinds of resources, eg. personal Web identifiers (WebID) controlled by their owners, can be used across different systems as they need not be tied to any particular URI space or system, and are free from external influences. Ultimately, autonomy is the right to freely choose and maintain sovereignty over URI ownership and data spaces, and the ability to use or switch between applications that can interact with them. Likewise, actors' autonomy would not obstruct them to use shared URI spaces if they so desire.</p>
 
-                  <p>Any type of object, eg. scientific literature, research objects, personal websites, profiles and social graphs, can be made available on the Web provided that the <em>actors</em> have sufficient control over their URIs, or trust in others entities which do. While URI ownership is socially and technically within the reach of most academics, putting it into practice paves the way to a more decentralised and delocalised approach to using scholarly information spaces. Through URI ownership, decentralisation through deconstructing and decoupling can take place.</p>
+                  <p>Any type of object, eg. scientific literature, research objects, personal websites, profiles and social graphs, can be made available on the Web provided that the <em>actors</em> have sufficient control over their URIs, or delegate to entities they trust. While URI ownership is socially and technically within the reach of most academics, putting it into practice paves the way to a more decentralised and delocalised approach to using scholarly information spaces. Through URI ownership, decentralisation through deconstructing and decoupling can take place.</p>
 
                   <p>The contents of HTTP URLs may be logically centralised or decentralised. For example, the media representations found at the URL can embed compound or dynamic components that are dependent on external (remote) URLs. In this particular case, the persistence of the external URLs, as well as whether their contents are immutable is a design concern.</p>
 
@@ -79,17 +79,19 @@
                     <footer><cite><a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite></footer>
                   </blockquote>
 
-                  <p id="freedom-of-expression-constraints">Freedom of expression in context of academic communication does not entail that any arbitrary artefact eg. self-published articles, passes quality-control and certification from the community, or ethically appropriate. By free expression, I mean that actors should not be subject to <em>technical constraints</em> on how they communicate their discoveries and knowledge with the rest of the world. That is, to have the means to <em>shape</em> machine-readable structure and semantics, presentation, and interactions. Enrolling in the certification process of some literature can for instance mean that reviewers may engage in any aspect and granularity of the contribution itself, eg. a weakness for an argument in one literature can be contrasted (and linked) with a scientific result presented in another literature. Academic freedom to express entails that researchers caring out their work comply with discipline-specific methods and meet standards related to accuracy, precision, completeness, reliability, relevance, and so forth. Furthermore, as with human rights, the ability to express does not automatically grant ethically inappropriate at the expense of any person or group, nor should be tolerated. Similarly, technical expressions that are harmful or discriminatory, eg. inaccessible content, constrained presentations, or undesirable user interactions.</p>
+                  <p id="freedom-of-expression-constraints">Freedom of expression in context of academic communication does not entail that any arbitrary artefact eg. self-published articles, passes quality-control and certification from the community, or ethically appropriate. By free expression, I mean that actors should not be subject to <em>technical constraints</em> on how they communicate their discoveries and knowledge with the rest of the world. That is, to have the means to <em>shape</em> machine-readable structure and semantics, presentation, and interactions. Enrolling in the certification process of some literature can for instance mean that reviewers may engage in any aspect and granularity of the contribution itself, eg. a weakness for an argument in one literature can be contrasted (and linked) with a scientific result presented in another literature. Academic freedom to express entails that researchers caring out their work comply with discipline-specific methods and meet standards related to accuracy, precision, completeness, reliability, relevance, and so forth. Furthermore, as with human rights, the ability to express does not grant unethical practices at the expense of any person or group, nor should be tolerated. Similarly, technical expressions that are harmful or discriminatory, eg. inaccessible content, constrained presentations, or undesirable user interactions, should be avoided.</p>
 
                   <p>The concerns about authenticity, persistence and permanence of data and knowledge is constant regardless of where the resources reside on the Web. Hence, strictly trusting scholarly knowledge based on its registered location is ultimately fragile in that it is unavoidable to prevent all sorts of threats to preservation in a long enough timeline. However, since the registration function is decoupled from archiving, we are able to delegate that trust to a third-party that is best fit to handle the preservation and to some extent guarantee the authenticity of the units of communication. This is particularly important as archival and trust are part of the global scholarly commons.</p>
 
 <!-- This is further explored in the <cite><a href="https://www.w3.org/DesignIssues/Evolution.html#ToII">Test of Independent Invention</a></cite> thought experiment. -->
 
-                  <p>In context of the Web, technical or social decentralisation at all levels is unattainable. Even Web standards are a form of centralisation in that conforming systems can only coordinate among themselves. Similarly, centralisation naturally occurs in social systems like concepts or language, eg. machine-readable vocabularies restrict the set of uses of a system. The alternative pushed to the extreme where each unit is expressed in their own language and without any language mapping, puts us in a situation similar to that of the <cite><a href="https://en.wikipedia.org/wiki/Tower_of_Babel">Tower of Babel</a></cite>, ie. being incapable of understanding each other. Hence, autonomy in a system where researchers are isolated or information is not interpretable renders freedom of expression meaningless.</p>
+                  <p>In context of the Web, technical or social decentralisation at all levels is unattainable. Even open Web standards are based on social and technical decisions, and can be seen as a form of centralisation in that conforming systems cluster and coordinate among themselves. Similarly, centralisation naturally occurs in social systems like concepts or language, eg. machine-readable vocabularies restrict the set of uses of a system. The alternative pushed to the extreme where each unit is expressed in their own language and without any language mapping, puts us in a situation similar to that of the <cite><a href="https://en.wikipedia.org/wiki/Tower_of_Babel">Tower of Babel</a></cite>, ie. being incapable of understanding each other. Hence, autonomy in a system where researchers are isolated or information is not interpretable renders freedom of expression meaningless.</p>
 
-                  <p id="self-publishing"><strong>Self-publishing</strong>: In context of <cite><a href="#requirements-degree-of-control">degree of control</a></cite>, <em>self publishing</em> entails actors can register identifiers, shape and store data where they can and have access to, and use preferred applications to achieve them.</p>
+                  <p id="self-publishing"><strong>Self-publishing</strong>: In context of <cite><a href="decentralising-scholarly-communication#degree-of-control">degree of control</a></cite>, <em>self publishing</em> entails that an actor can register identifiers, shape and store data where they can and have access to, and use preferred applications to achieve them.</p>
 
-                  <p>While we aim for autonomous systems, we also seek interoperability and cooperation for actual communication take to place via universal access and interpretable information.</p>
+                  <p>While we aim for autonomous systems, we also seek interoperability and cooperation for actual communication take to place via <a href="#universal-access">universal access</a> and <a href="#interpretable">interpretable</a> information.</p>
+
+                  <hr />
 
                   <p><em>Effects and Artefacts</em>: It extends the physical, social, psychological, and intellectual functions of an <em>actor</em>.</p>
                 </div>
@@ -98,18 +100,18 @@
               <section id="universal-access" inlist="" rel="schema:hasPart" resource="#universal-access">
                 <h3 property="schema:name">Universal Access</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>The desire to have scientific knowledge accessible and serve humanity for good was expressed by <a href="https://en.wikipedia.org/wiki/Vannevar_Bush">Vannevar Bush</a> through the concept of a <cite>memex</cite> - to supplement their collective memory - in his <cite><a href="https://web.archive.org/web/20100115164714/http://www.ps.uni-saarland.de:80/~duchier/pub/vbush/vbush.txt">As We May Think</a></cite> in 1945.</p>
+                  <p>The desire to have scientific knowledge accessible and serve humanity for good was expressed through the concept of <cite>memex</cite> - to supplement collective memory - <cite><a href="https://web.archive.org/web/20100115164714/http://www.ps.uni-saarland.de:80/~duchier/pub/vbush/vbush.txt">As We May Think</a></cite>, <a href="https://en.wikipedia.org/wiki/Vannevar_Bush">Vannevar Bush</a>, 1945.</p>
 
-                  <p>A globally democratic scientific and scholarly inquiry and progress fundamentally depends upon a well-informed citizenry. For societies to be well informed, the people must have ready access to information about the knowledge output of the scholarly community, the actions of the public officials based on available knowledge, and the development of public policies. The philosophical underpinnings of the <cite><a href="https://en.wikipedia.org/wiki/Freedom_of_information">Freedom of Information</a></cite> (<abbr title="Freedom of Information">FOI</abbr>) social movement trace back to the Age of Enlightenment (<span class="todo"></span>). Over the centuries, governments have incorporated constitutional, legal, and historical expressions of the people's right to public information (<span class="todo"></span>). A global freedom of information movement can be traced to the <cite>World Press Conference</cite> in 1893. The movement revolved around the need for unrestricted "access to news at its source and free transmission" of the news - - <cite>Freedom of Information Laws</cite>, p.53-54, urn:isbn:0123876729. A parallel movement in scholarly communication today is under the umbrella of <cite>Open Science</cite></p>
+                  <p>A globally democratic scientific and scholarly inquiry and progress fundamentally depends upon a well-informed citizenry. For societies to be well informed, the people must have ready access to information about the knowledge output of the scholarly community, the actions of the public officials based on available knowledge, and the development of public policies. The philosophical underpinnings of the <cite><a href="https://en.wikipedia.org/wiki/Freedom_of_information">Freedom of Information</a></cite> (<abbr title="Freedom of Information">FOI</abbr>) social movement trace back to the Age of Enlightenment. Over the centuries, governments have incorporated constitutional, legal, and historical expressions of the people's right to public information. A global freedom of information movement can be traced to the <cite>World Press Conference</cite> in 1893. The movement revolved around the need for unrestricted "access to news at its source and free transmission" of the news - <cite>Freedom of Information Laws</cite>, p.53-54, urn:isbn:0123876729. A parallel movement in scholarly communication today is under the umbrella of <cite><a href="scholarly-communication-on-the-web#open-science">Open Science</a></cite>.</p>
 
-                  <p>We attribute <em>universal access</em> to information into two distinct but related areas:</p>
+                  <p><em>Universal access</em> to information can be attributed to two distinct but related areas:</p>
 
                   <ul>
                     <li>freedom to inquire; the right and means to access information</li>
                     <li>accessibility; the quality of accessible information</li>
                   </ul>
 
-                  <p id="human-rights"><strong>Human Rights</strong>: On the actors rights and fostering an ecosystem for reuse, we borrow from the <cite>Universal Declaration of Human Rights</cite>:</p>
+                  <p id="human-rights"><strong>Human Rights</strong>: On the actors' rights and fostering an ecosystem for reuse, we borrow from the <cite>Universal Declaration of Human Rights</cite>:</p>
 
                   <blockquote cite="http://www.un.org/en/universal-declaration-human-rights/">
                     <h5>Article 27.</h5>
@@ -139,6 +141,8 @@
 
                   <p>Thus we refer to <q>universal access</q> in the widest sense that any agent; human, machine, or other can effectively access information and participate.</p>
 
+                  <hr />
+
                   <p><em>Effects and Artefacts</em>: It extends the physical, social, psychological, or intellectual function of an <em>actor</em>.</p>
                 </div>
               </section>
@@ -148,17 +152,15 @@
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>The <abbr title="Architecture of the World Wide Web">AWWW</abbr> states that agents, <em>interpret</em> available <q cite="https://www.w3.org/TR/webarch/#dereference-details">representation according to the data format specification that corresponds to the representation's Internet Media Type.</q> Here we can use the term <em>interpretation</em> in the general sense for both human and machine consumers of representations. An interpretation entails that a given content can be identified or discovered; comprehended in context of where and how it is used; as well being to put it to further use. Scientific and scholarly knowledge representations using information models that are based on Web standards brought through open consensus benefit from wide reuse.</p>
 
-                  <p id="interoperability"><strong>Interoperability</strong> is integral to achieving cooperative systems. One widely successful approach to have interoperable systems is through the adoption of open standards for protocols and languages that is achieved through industry consensus. As per Linked Data design principles, this is accomplished with HTTP for communication, URI for identification, and RDF as language. While a decentralised system can enable each entity to be autonomous, some level of agreement is needed on the network for communication to take place. Systems that are interoperable by design have the benefit of interacting with other systems without having prior and out-of-band knowledge about them. This kind of interoperability can be contrasted with <em>post-facto</em> interoperability that is typically due to propriety designs at the discretion of each party, and then bridging the systems with application adapters and semantic mappings. For example, given two systems, one system adopts the others' protocol, API, or format, or they build specialised mechanisms in order to communicate. Systems that do not use open standards or have specialised technological extensions that are only useful within their own environment are generally considered to be vendor lock-in solutions. Here we seek agreements on Web standards established through open consensus, as opposed to independent and individual design choices made in application implementations.</p>
+                  <p id="interoperability"><strong>Interoperability</strong> is integral to achieving cooperative systems. One widely successful approach to have interoperable systems is through the adoption of open standards for protocols and languages that is achieved through consensus. As per Linked Data design principles, this is accomplished with HTTP for communication, URI for identification, and RDF as language. While a decentralised system can enable each entity to be autonomous, some level of agreement is needed on the network for communication to take place. Systems that are interoperable by design have the benefit of interacting with other systems without having prior and out-of-band knowledge about them. This kind of interoperability can be contrasted with <em>post-facto</em> interoperability that is typically due to propriety designs at the discretion of each party, and then bridging the systems with application adapters and semantic mappings. For example, given two systems, one system adopts the others' protocol, API, or format, or they build specialised mechanisms in order to communicate. Systems that do not use open standards or have specialised technological extensions that are only useful within their own environment are generally considered to be vendor lock-in solutions. Here we seek agreements on Web standards established through open consensus, as opposed to independent and individual design choices made in application implementations.</p>
 
-                  <p>The Linked Data design principles - HTTP for interaction, URI to identify, and RDF as language - enables interoperable systems on the Web.</p>
+                  <p>Systems vary on their degree of interoperability. For instance, a service may require their own user account or authentication mechanism to be used when interacting with data on the Web; users may have to use a particular application to access, create, share or reuse information; applications may need to be reconfigured to reuse the information that is created elsewhere. In the <a href="#acid-test">Acid Test</a> section I propose criteria to self-assess accessibility and interoperability of artefacts in scholarly communication.</p>
 
-                  <p>Systems vary on their degree of interoperability. For instance, a service may require their own user account or authentication mechanism to be used when interacting with data on the Web; users may have to use a particular application to access, create, share or reuse information; applications may need to be reconfigured to reuse the information that is created elsewhere. In the <a href="#acid-test">Acid Test</a> section we propose criteria to self-assess accessibility and interoperability of designs in scholarly communication.</p>
-
-                  <p>As mentioned earlier, there is a natural balance between having free expression of structure and semantics (through autonomy) and the degree of a communication (interoperability) among different parties to take place. At the same time, as centralisation of ideas is ultimately inescapable, interoperability influences or limits the choices a system can take. Hence, we embrace the notion of interoperability as a trade-off, ie. it is better to seek and adapt design patterns that are expected or intended to be better for the ecosystem as a whole than to adopt patterns that avoid this possibility. Hence, interoperability is a social structure acting against the autonomy of agents.</p>
+                  <p>There is a natural balance between having free expression of structure and semantics (through autonomy) and the degree of a communication (interoperability) among different parties to take place. At the same time, as centralisation of ideas is ultimately inescapable, interoperability influences or limits the choices a system can take. Hence, we embrace the notion of interoperability as a trade-off, ie. it is better to seek and adapt design patterns that are expected or intended to be better for the ecosystem as a whole than to adopt patterns that avoid this possibility. Hence, interoperability is a social construct with the intention of balancing autonomy and cooperative systems.</p>
 
                   <p>In order to have optimal means of discovery, exchanging, and reusing information, systems and data should opt for open standards and widely acknowledged best practices wherever possible. Linked Data technologies include some of the essentials to achieve this, and are well-suited to fulfil the four functions of scholarly communication on the Web.</p>
 
-                  <p class="todo">Scientific contributions are multimodal, interactive, and social.</p>
+                  <hr />
 
                   <p><em>Effects and Artefacts</em>: It extends the physical, social, psychological, or intellectual function of an <em>actor</em>.</p>
                 </div>
@@ -183,6 +185,8 @@
 
                   <p>(Scholarly) Profiles - presentation of the self - / Identity</p>
 
+                  <hr />
+
                   <p><em>Effects and Artefacts</em>: It extends the social, psychological, or intellectual function of an <em>actor</em>.</p>
                 </div>
               </section>
@@ -190,7 +194,6 @@
               <p>These design principles do not mandate a particular system implementation or standard for the interplay of forces and functions. Hence, the software development philosophy, <cite><a href="https://en.wikipedia.org/wiki/There%27s_more_than_one_way_to_do_it">there's more than one way to do it</a></cite> (<abbr title="there's more than one way to do it">TIMTOWTDI</abbr>) applies here to the extent the scholarly ecosystem is built on open Web-native standards. We discuss an <a href="#acid-test">acid test</a> that can be used to test the degree of interoperability between systems.</p>
             </div>
           </section>
-
 
 
 
@@ -213,9 +216,7 @@
           <section id="acid-test" inlist="" rel="schema:hasPart" resource="#acid-test">
             <h3 property="schema:name">Acid Test</h3>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>An <cite><a href="https://linkedresearch.org/rfc#acid-test" rel="cito:citesAsPotentialSolution">acid test</a></cite> aims to evaluate systems openness, accessibility, decentralisation, interoperability in scholarly communication. This test does not mandate a specific technology, therefore the challenge can be met by different solutions. There are a set of proposed challenges for the community to check their systems against to see how well they can fulfill them, as part of the push towards building cooperating systems.</p>
-
-              <p>The acid test assumptions may be used to assess the accessibility and interoperability of tooling and services in scholarly communication.</p>
+              <p>An <em>acid test</em> can be used to evaluate systems openness, accessibility, decentralisation, interoperability in scholarly communication. Such test does not mandate a specific technology, therefore design challenges can be met by different solutions. The following assumptions can be adopted when addressing technical design problems in scholarly communication.</p>
 
               <dl id="acid-test-assumptions">
                 <dt>Assumptions</dt>
@@ -237,10 +238,11 @@
             </div>
           </section>
 
+
           <section id="contemporary-uptake" inlist="" rel="schema:hasPart" resource="#contemporary-uptake">
             <h3 property="schema:name">Contemporary Uptake</h3>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>The spread of Web use in scholarly comms. What are people doing in practice at the time of writing (IN SEMANTIC WEB)</p>
+              <p>The notion of <em>Linked Research</em> has been acknowledge and adopted by the Semantic Web academic community:</p>
 
               <ul>
                 <li>Conference wide: ISWC, ESWC</li>
@@ -255,7 +257,7 @@
                 <li>Semantic Web Journal</li>
                 <li>Researcher Centric Scholarly Communication, The Web Conf</li>
                 <li>Workshops and tutorials - dokieli, OAI, SWIB, ESWC</li>
-                <li>LORC at ESWC2018, 2019</li>
+                <li>Linked Open Research Cloud at ESWC2018, ESWC2019</li>
                 <li>CEUR-WS</li>
                 <li>SemSci</li>
                 <li>SAVE-SD</li>
@@ -280,7 +282,7 @@
 
 
           <section id="linked-specifications-reports" inlist="" rel="schema:hasPart" resource="#linked-specifications-reports">
-            <h2 property="schema:name">Linked Specifications, Test Suites, and Implementation Reports</h2>
+            <h3 property="schema:name">Linked Specifications, Test Suites, and Implementation Reports</h3>
             <div datatype="rdf:HTML" property="schema:description">
               <p>In this section we build on <a href="linked-data-notifications#test-suite-and-implementation-reports">test suite and implementation reports</a> and <a href="linked-data-notifications#linked-data-notifications-implementations"></a> and describe the development of an interlinked, machine-readable W3C Recommendation, its test suite, and implementation reports as a whole.</p>
 
@@ -384,90 +386,42 @@
 
 
 
-          <section id="forces-functions-linked-research" inlist="" rel="schema:hasPart" resource="#forces-functions-linked-research">
+          <section id="linked-research-forces-functions" inlist="" rel="schema:hasPart" resource="#linked-research-forces-functions">
             <h2 property="schema:name">Forces and Functions of Linked Research</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>We first approach the forces and functions of scholarly communication in context of the Linked Research design principles.</p>
+              <p>The forces and functions of scholarly communication in context of the Linked Research design principles are define below .</p>
 
-              <h3>Forces</h3>
+              <p id="linked-research-forces">The <em>forces</em>:</p>
 
-              <dl id="forces-in-linked-research">
+              <dl>
                 <dt>Actor</dt>
                 <dd>Any <q cite="https://www.w3.org/TR/webarch/#def-web-agent">web agent</q> — person or software — is able to participate in scholarly communication using WebIDs.</dd>
 
                 <dt>Accessibility</dt>
-                <dd>A registered IRI for a unit of information can resolve to an HTTP URL as per content negotiation.</dd>
+                <dd>The retrievability and reusability of registered units can be determined by actors with access controls.</dd>
 
                 <dt>Content</dt>
-                <dd></dd>
+                <dd>Actors shape their content as Linked Data as well as offer suitable presentations and interactions in which the registration refers to.</dd>
 
                 <dt>Applicability</dt>
-                <dd></dd>
+                <dd>The need and relevance for research and their application can be mined from available other content.</dd>
               </dl>
 
-              <h3>Functions</h3>
+              <p id="linked-research-functions">The <em>functions</em>:</p>
 
-              <dl id="functions-in-linked-research">
+              <dl>
                 <dt>Registration</dt>
-                <dd>
-                  <p>We expect that systems by design should allow any actor to register a unit of information by associating an IRI with a distinct resource. For example, an actor can assign an IRI for their research literature at an information space they have ownership or control, eg. personal or university website, creating an archived copy, entry in a dataset, annotated video fragment, producing notifications, or even referring to a resource that will be available in the future.</p>
-                </dd>
+                <dd>The ecosystem permits any actor to register units of communication by associating a URI to new or nonexistent resources.</dd>
 
                 <dt>Awareness</dt>
-                <dd>Share, annotation, outbox, scholarly activity clouds</dd>
+                <dd>Actors share and consume registered units.</dd>
 
                 <dt>Certification</dt>
                 <dd>Annotation with any motivation, replying, commenting, reviewing</dd>
 
                 <dt>Archiving</dt>
-                <dd>Self-registers automatically, archive at</dd>
+                <dd>Any actor can trigger the archiving process to create snapshots of the content of registered resources.</dd>
               </dl>
-
-
-              <p id="researcher-centric"><em>Researcher-centric</em> is the notion of content creators and contributors having the responsibility of the <q cite="http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html">indispensable</q> functions; registration and archiving, as well as being the custodian of the</p>
-
-              <p>We start with the assumptions for the qualities of coupling of the forces and functions in context of Linked Research:</p>
-
-              <dl>
-                <dt>Assumptions</dt>
-                <dd>
-                  <p>Researchers want their creations to be effective and useful by being accessible and interpretable. There can be different reasons for access restrictions and remain orthogonal to concept of openness:</p>
-
-                  <ul>
-                    <li>Many researchers are doing science for personal gain, and withholding to restricting access to knowledge might be to their immediate benefit.</li>
-                    <li>Management and reusability of private or sensitive content.</li>
-                  </ul>
-                </dd>
-
-                <dd>Researchers might be afraid of their work being stolen or not receive adequate attribution, so object to the ideas of pre-prints, early releases and sharing data eg. "preprints can ease and accelerate the exchange of scientific knowledge, openness, and transparency"</dd>
-
-                <dd>The actor that triggers the archiving function may be the content creator or any third-party. The archival system and its URI space is always governed by an entity other than the creator of the content.</dd>
-              </dl>
-
-              <p class="todo">The coupling and its qualities is as follows:</p>
-
-
-              <dl id="qualities-of-coupling">
-                <dt id="coupling-actor-registration">Actor and Registration</dt>
-                <dd>
-                  <p>Coupling the content creator with the registration function means that the content can be encoded in a way that is as close as possible to the affordances it can potentially possess. The encoding is related to registration and the creator in that it reduces the chances of intermediary actors to</p>
-                  <ul>
-                    <li>constitute or influence how that content can be expressed;</li>
-                    <li>alter the content before registration</li>
-                  </ul>
-                </dd>
-
-                <dt id="coupling-actor-archiving">Actor and Archiving</dt>
-                <dd>
-                  <p>For archiving (registering) of content, we differentiate between the two actors: the one that triggers, eg. the content creator, and the application that performs the archival. Content creators typically archive their work to so that its record (controlled by an archive) can be identified and reusable.</p>
-                </dd>
-
-                <dt id="coupling-actor-accessibility">Actor and Accessibility</dt>
-                <dd>
-                  <p>In order for some content to serve its potential purpose, its retrievability and reusability can be set by their creators. Actors establishing a high degree of accessibility of registered content means that the awareness function can have a network effect.</p>
-                </dd>
-              </dl>
-
 
               <!-- <p>We will revisit these functions later in the thesis as a technical response to Sompel's call to investigate <q cite="https://www.youtube.com/watch?v=o4nUe-6Ln-8&amp;t=2792">how to fulfil the core functions of scholarly communication using the technical paradigm</q> around self-publishing.</p> -->
 
@@ -496,6 +450,8 @@
 
               <p>LR does not deconstruct scholarly publishing, but that it ironically indicates instead the need for a counter-environment as a means of practising the dominant and unnoticed environment.</p>
 
+
+              <p>One of the effects of LR is that it is an attempt to formalise what is considered to be "informal" communication due the typical coupling of the functions by third-parties in scholarly communication.</p>
 
               <p>Sooner or later we need a strategy to address questions like: <em>What do we aim to accomplish?</em> <em>Who is trying to do it and for the benefit of whom?</em> <em>How do we know whether we are making progress and when we have succeeded?</em></p>
 
