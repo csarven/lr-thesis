@@ -284,11 +284,11 @@
           <section id="linked-specifications-reports" inlist="" rel="schema:hasPart" resource="#linked-specifications-reports">
             <h3 property="schema:name">Linked Specifications, Test Suites, and Implementation Reports</h3>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>In this section we build on <a href="linked-data-notifications#test-suite-and-implementation-reports">test suite and implementation reports</a> and <a href="linked-data-notifications#linked-data-notifications-implementations"></a> and describe the development of an interlinked, machine-readable W3C Recommendation, its test suite, and implementation reports as a whole.</p>
+              <p>In order to demonstrate the extensibility of Linked Data centric units of communication within context of Linked Research, I extend the LDN <a href="linked-data-notifications#test-suite-and-implementation-reports">test suite and implementation reports</a> and <a href="linked-data-notifications#linked-data-notifications-implementations">implementations</a> and describe the development of an interlinked, human and machine-readable W3C Recommendation, its test suite, and implementation reports as a whole.</p>
 
               <p>Having the specifications and implementation reports appropriately interlinked and retrievable can facilitate their automated discovery and reuse. One attainable use case is to be able to find applications that match a certain conformance criteria, eg. in order to have fine-grained bundling of software packages. While this would typically include normative requirements, tests can potentially capture and reveal optional features of specifications. Prospective consumers of the compliance reports can be application developers finding appropriate software for use, as well as automatic software package managers.</p>
 
-              <p><a href="#figure-linked-specifications-reports">figure-linked-specifications-reports</a> depicts an overview of linking the LDN specification, its test suite, the generated implementation report for the dokieli project, reports summary, and an article citing the specification.</p>
+              <p>The following <a href="#figure-linked-specifications-reports">figure</a> depicts an overview of linking the LDN specification, its test suite, the generated implementation report for the dokieli project, reports summary, and an article citing the specification.</p>
 
               <figure id="figure-linked-specifications-reports" rel="schema:hasPart" resource="#figure-linked-specifications-reports">
 <svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="480" height="320" version="1.1" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# xsd: http://www.w3.org/2001/XMLSchema# schema: https://schema.org/" xml:lang="en" rel="schema:isPartOf" resource="http://csarven.ca/linked-specifications-reports">
@@ -355,7 +355,7 @@
                 <figcaption property="schema:name">An overview of linking a specification, test suite, generated implementation report for the project, reports summary, and an article citing the specification</figcaption>
               </figure>
 
-              <p>The information patterns in the LDN <a href="#specification">specification</a> and the <a href="#implementation-reports">implementation reports</a> sections are reusable across other specifications and related components. Sources are available from:</p>
+              <p>The information patterns in the LDN <a href="#specification">specification</a> and the <a href="linked-data-notifications#test-suite-and-implementation-reports">implementation reports</a> sections are reusable across other specifications and related components. Sources are available from:</p>
 
               <ul>
                 <li>The specification: <a href="https://www.w3.org/TR/ldn/">https://www.w3.org/TR/ldn/</a></li>
@@ -363,7 +363,7 @@
                 <li>Implementation reports summary and individual reports: <a href="https://linkedresearch.org/ldn/tests/summary">https://linkedresearch.org/ldn/tests/summary</a></li>
               </ul>
 
-              <p>The test suite uses <em>mayktso</em> (<a href="https://github.com/csarven/mayktso">https://github.com/csarven/mayktso</a>) as the LDN receiver, but any conformant receiver implementation will work here.</p>
+              <p>The test suite uses the <cite><a href="https://github.com/csarven/mayktso">mayktso</a></cite> server as the LDN receiver, but any conformant receiver implementation will work here.</p>
 
               <p>The missing connection among existing specifications and test reports is that a uniform resource discovery is not possible between the test reports and the individual conformance criteria in the specifications, where a given information at a particular URL is both human and machine-processable (see <cite><a href="http://csarven.ca/linked-specifications-reports#related-work">related work</a></cite>.)</p>
 
@@ -544,9 +544,7 @@ building a mental infrastructure.
           <section id="framing-our-vocabulary" inlist="" rel="schema:hasPart" resource="#framing-our-vocabulary">
             <h3 property="schema:name skos:definition">Framing our Vocabulary</h3>
             <div datatype="rdf:HTML" property="schema:description" resource="#framing-our-vocabulary" typeof="skos:ConceptScheme">
-              <p datatype="rdf:HTML" property="skos:definition">It is necessary to exercise a new vocabulary. New terms set a different frame of mind than the terms we have used in the past. Some terms have new definitions and replacements are necessary. We adopt the idea that scholarly calls for <strong>contributions</strong> welcome researchers to <strong>share</strong> their <strong>articles</strong> with the community.</p>
-
-              <p class="todo">mention quality aspect.. conference: paper, journal: article</p>
+              <p datatype="rdf:HTML" property="skos:definition">The terms we use shape our frame of mind than. We adopt the idea that scholarly calls for <strong>contributions</strong> welcome researchers to <strong>share</strong> their <strong>articles</strong> with the community. We can adopt substitutions along these lines:</p>
 
               <dl rel="skos:hasTopConcept">
                 <dt about="#s-submit-share" id="s-submit-share" property="skos:prefLabel" rel="skos:topConceptOf" resource="#framing-our-vocabulary" typeof="skos:Concept"><samp>s/submit/share</samp></dt>
