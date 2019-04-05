@@ -25,9 +25,9 @@
 
           <p>The <cite><a href="#motivation">motivation</a></cite> of this thesis along with the <cite><a href="#research-goals">research goals</a></cite> and <cite><a href="#research-questions">questions</a></cite> described can be used as a lens to configuring the scholarly communication ecosystem. I use this lens work to formulate the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> (<abbr title="Linked Research">LR</abbr>) notion and initiative.</p>
 
-          <p>I will expand on the <cite><a href="#print-age">print age</a></cite> by reviewing Eisenstein's investigation on the effects of printing press on society.</p>
+          <p>I will first expand on the <cite><a href="#print-age">print age</a></cite> as the historical backdrop of scholarly communication by reviewing Eisenstein's investigation on <cite><a href="#the-printing-press-as-an-agent-of-change">The Printing Press as an Agent of Change</a></cite>. Next, I will formulate a set of <cite><a href="#design-principles">Design Principles</a></cite> by generalising the core qualities of the concepts and implementations exhibited in this thesis.</p>
 
-          <aside id="the-printing-press-as-an-agent-of-change" inlist="" rel="schema:hasPart" resource="#the-printing-press-as-an-agent-of-change">
+          <section id="the-printing-press-as-an-agent-of-change" inlist="" rel="schema:hasPart" resource="#the-printing-press-as-an-agent-of-change">
             <h2 property="schema:name">The Printing Press as an Agent of Change</h2>
             <div datatype="rdf:HTML" property="schame:description">
               <p><cite><a href="http://www.worldcat.org/oclc/611804138" rel="cito:reviews">The Printing Press as an Agent of Change</a></cite>, <a href="https://en.wikipedia.org/wiki/Elizabeth_Eisenstein">Eisenstein</a>, 1979, traces the impact of the communications revolution on a variety of sociocultural movements that shaped the modern mind that started by the invention of the printing press developed by Johannes Gutenberg (circa 1439). Eisenstein demonstrates that the printing press, as a technological innovation, was a potent force in the evolution of social systems, as well as a communication technology which intensified the evolutionary process in the storage and dissemination of information and data. Perhaps more generally, Eisenstein explains how <q>printing altered <em>written communications within the Commonwealth of Learning</em></q>, p. xiv.</p>
@@ -40,7 +40,7 @@
 
               <p>Eisenstein postulates that the printed book played a central role in the <q>rapid dissemination of knowledge to whole new classes that created the modern new attitudes to both science and religion at the end of the fifteenth century.</q> The mere availability of prior knowledge to the public, stimulated scientific curiosity further, and eventually gave birth to the scientific revolution, p. 691. Eisenstein also contends that the communication shift in technical literature occurred even before astronomers changed their views about the structure of the universe, p. 685. Moreover, the origins of the scientific revolution was partly due to the rediscovery of classical scientific texts, and the effects of an internal strife between academic innovators and conservationists (<q>quarrels of learned men</q>), trying to control the field of knowledge outside of academia, p. 523-524, 570. Eisenstein emphasises on the <q>relevance of external social institutions to the internal, relatively autonomous, life of science</q>, p. 636, as well as the utilitarian <q>application of the mathematics to the problems of the natural world</q>, p. 683.</p>
            </div>
-          </aside>
+          </section>
 
 
 
@@ -51,12 +51,14 @@
 
               <nav>
                 <ul>
-                  <li><a href="#autonomy">autonomy</a></li>
-                  <li><a href="#universal-access">universal access</a></li>
-                  <li><a href="#interpretable">interpretable</a></li>
-                  <li><a href="#social">social</a></li>
+                  <li><a href="#autonomy">Autonomy</a></li>
+                  <li><a href="#universal-access">Universal access</a></li>
+                  <li><a href="#interpretable">Interpretable</a></li>
+                  <li><a href="#social">Social</a></li>
                 </ul>
               </nav>
+
+              <p>With respect to the <cite><a href="scholarly-communication-on-the-web#effects-and-artefacts">Effects and Artefacts</a></cite>, the design principles are intended to extend the physical, social, psychological, and intellectual functions of an <em>actor</em>.</p>
 
               <section id="autonomy" inlist="" rel="schema:hasPart" resource="#autonomy">
                 <h3 property="schema:name">Autonomy</h3>
@@ -90,10 +92,6 @@
                   <p id="self-publishing"><strong>Self-publishing</strong>: In context of <cite><a href="decentralising-scholarly-communication#degree-of-control">degree of control</a></cite>, <em>self publishing</em> entails that an actor can register identifiers, shape and store data where they can and have access to, and use preferred applications to achieve them.</p>
 
                   <p>While we aim for autonomous systems, we also seek interoperability and cooperation for actual communication take to place via <a href="#universal-access">universal access</a> and <a href="#interpretable">interpretable</a> information.</p>
-
-                  <hr />
-
-                  <p><em>Effects and Artefacts</em>: It extends the physical, social, psychological, and intellectual functions of an <em>actor</em>.</p>
                 </div>
               </section>
 
@@ -140,10 +138,6 @@
                   </blockquote>
 
                   <p>Thus we refer to <q>universal access</q> in the widest sense that any agent; human, machine, or other can effectively access information and participate.</p>
-
-                  <hr />
-
-                  <p><em>Effects and Artefacts</em>: It extends the physical, social, psychological, or intellectual function of an <em>actor</em>.</p>
                 </div>
               </section>
 
@@ -159,10 +153,6 @@
                   <p>There is a natural balance between having free expression of structure and semantics (through autonomy) and the degree of a communication (interoperability) among different parties to take place. At the same time, as centralisation of ideas is ultimately inescapable, interoperability influences or limits the choices a system can take. Hence, we embrace the notion of interoperability as a trade-off, ie. it is better to seek and adapt design patterns that are expected or intended to be better for the ecosystem as a whole than to adopt patterns that avoid this possibility. Hence, interoperability is a social construct with the intention of balancing autonomy and cooperative systems.</p>
 
                   <p>In order to have optimal means of discovery, exchanging, and reusing information, systems and data should opt for open standards and widely acknowledged best practices wherever possible. Linked Data technologies include some of the essentials to achieve this, and are well-suited to fulfil the four functions of scholarly communication on the Web.</p>
-
-                  <hr />
-
-                  <p><em>Effects and Artefacts</em>: It extends the physical, social, psychological, or intellectual function of an <em>actor</em>.</p>
                 </div>
               </section>
 
@@ -184,14 +174,8 @@
                   <p> improve time scale - more real-time.. visible.. connection of the discussion to the article.. notification informs you instantaneously -- awareness.</p>
 
                   <p>(Scholarly) Profiles - presentation of the self - / Identity</p>
-
-                  <hr />
-
-                  <p><em>Effects and Artefacts</em>: It extends the social, psychological, or intellectual function of an <em>actor</em>.</p>
                 </div>
               </section>
-
-              <p>These design principles do not mandate a particular system implementation or standard for the interplay of forces and functions. Hence, the software development philosophy, <cite><a href="https://en.wikipedia.org/wiki/There%27s_more_than_one_way_to_do_it">there's more than one way to do it</a></cite> (<abbr title="there's more than one way to do it">TIMTOWTDI</abbr>) applies here to the extent the scholarly ecosystem is built on open Web-native standards. We discuss an <a href="#acid-test">acid test</a> that can be used to test the degree of interoperability between systems.</p>
             </div>
           </section>
 
@@ -458,13 +442,10 @@
             </div>
           </section>
 
-          <section id="challenging-the-status-quo" inlist="" rel="schema:hasPart">
-            <h3 property="schema:name">Challenging the Status Quo</h3>
+          <section id="social-changes" inlist="" rel="schema:hasPart" resource="social-changes">
+            <h3 property="schema:name">Social Changes</h3>
             <div datatype="rdf:HTML" property="schema:description">
-<p class="todo">Change title to 'Realising Social Changes'?</p>
-
 <pre>
-* Old man yelling at cloud
 * Mailing list and social media 'activism' - why is this worthwhile? why is this part of the contribution of LR
 * Testing ideas
 * keeping things in people consciousness
@@ -525,9 +506,6 @@ building a mental infrastructure.
               <p>This section is about how we realise/enable the social changes technically, whilst still adhering to the LR principles (ie. why we can't just use twitter/easychair for academia etc).</p>
               <p>Point at the social parts of the Control Yourself chapter (AP, AS2, LDN) and say how these fit into the ecosystem. How they mean we can do the things people need to do in scholarly communications in a way that meets the principles.</p>
               <p>This is where we bring the decentralisation stuff back home to in-practice scholarly comms.</p>
-
-              <p>There are different approaches to 'fixing' the ecosystem. We could try a wholehearted replacement of the current system. That's unlikely to succeed. We could try to directly change existing players (like publishers, conferences) and demand that they do things differently. Also probably not gonna happen. It might be better to work *alongside* existing practices, and gradually ease scholars into new ways of operating. our goal is not necessarily to replicate major academic publishing houses or academic social networks..  smaller, personalised connected components might be both easier to realise and more effective in the long run. But.. who knows.</p>
-
 
             </div>
           </section>
