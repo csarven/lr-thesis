@@ -184,6 +184,29 @@
           <section id="call-for-linked-research" inlist="" rel="schema:hasPart" resource="#call-for-linked-research">
             <h2 property="schema:name">Call for Linked Research</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p>The initial <cite><a href="http://csarven.ca/call-for-linked-research">Call for Linked Research</a></cite> expressed the shortcomings of the traditional methods of research communication in the Semantic Web community, and proposed approaches that can be adopted to conduct information exchange more effectively.</p>
+
+              <p>The notion of <em>Linked Research</em> has been acknowledge and adopted at varying degrees by <cite><a href="https://linkedresearch.org/calls#reviewers">individual researchers</a></cite>, teams, as well as academic communities:</p>
+
+              <ul>
+                <li>Conference wide: ISWC, ESWC</li>
+                <li>SemStats, ISWC</li>
+                <li>Enabling Decentralised Scholarly Communication, ESWC</li>
+                <li>WOW, WWW</li>
+                <li>LDOW, WWW</li>
+                <li>DeSemWeb</li>
+                <li>SemSci</li>
+                <li>SAVE-SD</li>
+                <li>Sepublica</li>
+                <li>Researcher Centric Scholarly Communication, The Web Conf</li>
+                <li>Workshops and tutorials - dokieli, OAI, SWIB, ESWC</li>
+                <li>Linked Open Research Cloud at ESWC2018, ESWC2019</li>
+                <li>CEUR-WS</li>
+                <li>SemSci</li>
+                <li>SAVE-SD</li>
+                <li>Sepublica</li>
+              </ul>
+
               <p>This is an initiative to solicit input and participation from the community. It's tied to the principles, and calls for practical activity towards realising the goals.</p>
 <pre>
 ** all sorts of community effort in SW/webscience conferences/workshops
@@ -220,36 +243,6 @@
                       <span rel="schema:hasPart"><span content="There is no spoon." property="schema:description" resource="#acid-test-assumptions-no-spoon" typeof="doco:Sentence"></span></span>
                     </dd>
                   </dl>
-                </div>
-              </section>
-
-
-              <section id="contemporary-uptake" inlist="" rel="schema:hasPart" resource="#contemporary-uptake">
-                <h3 property="schema:name">Contemporary Uptake</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>The notion of <em>Linked Research</em> has been acknowledge and adopted by the Semantic Web academic community:</p>
-
-                  <ul>
-                    <li>Conference wide: ISWC, ESWC</li>
-                    <li>SemStats, ISWC</li>
-                    <li>Enabling Decentralised Scholarly Communication, ESWC</li>
-                    <li>WOW, WWW</li>
-                    <li>LDOW, WWW</li>
-                    <li>DeSemWeb</li>
-                    <li>SemSci</li>
-                    <li>SAVE-SD</li>
-                    <li>Sepublica</li>
-                    <li>Semantic Web Journal</li>
-                    <li>Researcher Centric Scholarly Communication, The Web Conf</li>
-                    <li>Workshops and tutorials - dokieli, OAI, SWIB, ESWC</li>
-                    <li>Linked Open Research Cloud at ESWC2018, ESWC2019</li>
-                    <li>CEUR-WS</li>
-                    <li>SemSci</li>
-                    <li>SAVE-SD</li>
-                    <li>Sepublica</li>
-                    <li>Semantic Web Journal</li>
-                    <li>mention usable-oa?</li>
-                  </ul>
                 </div>
               </section>
 
