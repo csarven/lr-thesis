@@ -483,16 +483,20 @@ building a mental infrastructure.
           </section>
 
 
-              <section id="qualities-of-the-linked-research-paradigm" inlist="" rel="schema:hasPart" resource="#qualities-of-the-linked-research-paradigm">
-                <h3 property="schema:name">Qualities of the Linked Research Paradigm</h3>
+              <section id="linked-research-as-a-paradigm" inlist="" rel="schema:hasPart" resource="#linked-research-as-a-paradigm">
+                <h3 property="schema:name">Linked Research as a Paradigm</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>I will use Kuhn's five characteristics, <q cite="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">accuracy, consistency, scope, simplicity, and fruitfulness</q> in <cite><a href="scholarly-communication-on-the-webx#objectivity-value-judgment-and-theory-choice">Objectivity, Value Judgment, and Theory Choice</a></cite> to measure the qualities of the <cite>Linked Research</cite> "paradigm".</p>
+                  <p>I will use Kuhn's five ways - <a href="scholarly-communication-on-the-web#objectivity-value-judgment-and-theory-choice">accuracy, consistency, scope, simplicity, and fruitfulness</a> - to measure the quality of <cite>Linked Research</cite> as a shared paradigm for scholarly communication on the Web.</p>
 
-                  <p><strong>Accuracy</strong>:</p>
-                  <p><strong>Consistency</strong>:</p>
-                  <p><strong>Scope</strong>:</p>
-                  <p><strong>Simplicity</strong>:</p>
-                  <p><strong>Fruitfulness</strong>:</p>
+                  <p><strong>Accuracy</strong>: LR is based on the inherent characteristics of the Web (as a medium).</p>
+
+                  <p><strong>Consistency</strong>: LR adopts the notion of actors having "free" and unrestricted access to knowledge. LR is consistent with the way the Web works. It differs on the social practice of requiring actors to use particular third-parties and their services in order to participate in the exchange, as well as their contributions being acknowledged by relevant stakeholders.</p>
+
+                  <p><strong>Scope</strong>: LR has broad scope in that interoperable applications can adapt to the semantic structures now as well as in the future.</p>
+
+                  <p><strong>Simplicity</strong>: As LR is intended to maximise the inherent qualities of the Web and use the underlying mechanisms. It is a lossless approach for representing and sharing information on the Web.</p>
+
+                  <p><strong>Fruitfulness</strong>: Machine-readable information facilitates discovery and reuse.</p>
                 </div>
               </section>
             </div>

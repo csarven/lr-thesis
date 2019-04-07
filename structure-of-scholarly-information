@@ -357,7 +357,7 @@ todo: tree view / diagram of the items
 
                   <ul>
                     <li>Automation of data transformation of data from high profile statistical organizations.</li>
-                    <li>Minimization of third-party interpretation of the source data and metadata and lossless transformations.</li>
+                    <li>Minimisation of third-party interpretation of the source data and metadata and lossless transformations.</li>
                   </ul>
 
                   <p><cite><a href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=52500">Statistical Data and Metadata eXchange</a></cite> (<abbr title="Statistical Data and Metadata eXchange">SDMX</abbr>) is an ISO standard which provides the possibility to consistently carry out data flows between publishers and consumers. SDMX-ML (using XML syntax) is considered to be the gold standard for expressing statistical data. It has a highly structured mechanism to represent statistical observations, classifications, and data structures. Given that SDMX is arguably the most widely used standard for statistical data exchange (among statistical agencies and others), a great amount of statistical data about our societies is yet to be discoverable and identifiable through the open Web platform. Development teams often face low-level repetitive data management tasks to deal with someone else's data. Within the context of Linked Data, one aspect is to transform this raw statistical data eg. SDMX-ML, into an RDF representation in order to be able to use publicly available data in a uniform way.</p>

@@ -242,7 +242,7 @@ add figures to help
 
                   <dl>
                     <dt>Accuracy</dt>
-                    <dd>Significant application of quantitative and qualitative agreements in a domain.</dd>
+                    <dd>Application of quantitative and qualitative agreements in a domain.</dd>
                     <dt>Consistency</dt>
                     <dd>Internal and external consistency in relation to related theories.</dd>
                     <dt>Scope</dt>
@@ -257,7 +257,7 @@ add figures to help
 
                   <p>Another example demonstrating the complexity of choosing a theory was from the perspective of language and communication. For instance, the term "mass" has radically different meanings in Newton's theory of gravity and Einstein's relativity theory because the definitions are isolated to their respective paradigms. However, General Relativity gave a new lens to understanding the interaction of mass in space-time. While the definition for mass changed, Einstein's theory was still able to precisely predict Newton's theory, and further provided an explanation for how gravity worked.</p>
 
-                  <p>Contemporary scholarly communication is situated within a particular paradigm. In <cite><a href="linked-research#qualities-of-the-linked-research-paradigm">Quality of the Linked Research Paradigm</a></cite> I will use Kuhn's theory of choosing paradigms as a heuristic device to contextualise <cite><a href="linked-research">Linked Research</a></cite>.</p>
+                  <p>Contemporary scholarly communication is situated within a particular paradigm. In <cite><a href="linked-research#linked-research-as-a-paradigm">Linked Research as a Paradigm</a></cite> I will use Kuhn's theory of choosing paradigms as a heuristic device to <a href="linked-research#contextualising-linked-research">contextualise the notion of Linked Research</a>.</p>
                 </div>
               </section>
 
@@ -624,7 +624,7 @@ support groups.</pre>
                 <div dataype="rdf:HTML" property="schema:description">
                   <p>In 1994, <a href="https://en.wikipedia.org/wiki/Stevan_Harnad">Harnad</a> made a proposal to appeal to the <q>esoteric</q>:</p>
 
-                  <blockquote cite="http://www.arl.org/sc/subversive/i-overture-the-subversive-proposal.shtml">
+                  <blockquote id="the-subversive-proposal" cite="http://www.arl.org/sc/subversive/i-overture-the-subversive-proposal.shtml">
                     <p>It is applicable only to ESOTERIC (non-trade, no-market) scientific and scholarly publication [...] that body of work for which the author does not and never has expected to SELL the words. The scholarly author wants only to PUBLISH them, that is, to reach the eyes and minds of peers.</p>
                     <footer><cite><a data-versiondate="1998-05-13T08:00:22Z" data-versionurl="https://web.archive.org/web/19980513080022/http://www.arl.org/scomm/subversive/sub01.html" href="http://www.arl.org/sc/subversive/i-overture-the-subversive-proposal.shtml">The Subversive Proposal</a></cite>, p11, Harnad, 1994</footer>
                   </blockquote>
@@ -644,7 +644,7 @@ support groups.</pre>
                     <li><q id="boai-open-access-journals" cite="http://www.budapestopenaccessinitiative.org/read">II. Open-access Journals</q></li>
                   </ul>
 
-                  <p>The term <q cite="http://www.budapestopenaccessinitiative.org/read">self-archiving</q> in context of OA differs from that of the early practices around preprint <q cite="http://www.cs.cornell.edu/~ginsparg/physics/blurb/pg01unesco.html">self-archiving</q> in that there were no constraints set for the status of the scholarly literature, ie. reviewed or not. For OA-centric scientific literature, quality-control and certification are integral.</p>
+                  <p>The term <q cite="http://www.budapestopenaccessinitiative.org/read">self-archiving</q> in context of OA differs from that of the early practices around preprint <q cite="http://www.cs.cornell.edu/~ginsparg/physics/blurb/pg01unesco.html">self-archiving</q> in that there were no constraints set for the status of the scholarly literature, ie. peer-reviewed or not. For OA-centric scientific literature, quality-control and certification are integral.</p>
 
                   <p>The foundations of the OA approach were conceived at a time when the major revenue models to cover publishing costs for scholarly literature were through subsidies from institutions, journal subscriptions, or pay-per-view. In this payment model, consumers of the literature were charged either individually or through institutions. In contrast, the <cite>article processing charge</cite> (<abbr title="Article Processing Charge">APC</abbr>) model requires publication costs to be covered upfront, thereby waiving the costs for the consumers of the literature. Today, APC is the most widely used method to finance OA publishing, with varying levels of fees - averaging around 1000 USD per article, as per the study, <cite><a href="https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-10-124">Anatomy of open access publishing: a study of longitudinal development and internal structure</a></cite>, Laakso, 2012.</p>
 
