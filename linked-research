@@ -23,7 +23,7 @@
             <footer>Attributed to <cite><a href="https://en.wikipedia.org/wiki/Buckminster_Fuller">Buckminster Fuller</a></cite>.</footer>
           </blockquote>
 
-          <p>The <cite><a href="#motivation">motivation</a></cite> of this thesis along with the <cite><a href="#research-goals">research goals</a></cite> and <cite><a href="#research-questions">questions</a></cite> described can be used as a lens to configuring the scholarly communication ecosystem. I use this lens work to formulate the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> (<abbr title="Linked Research">LR</abbr>) notion and initiative.</p>
+          <p>The <cite><a href="#motivation">motivation</a></cite> of this thesis along with the <cite><a href="#research-goals">research goals</a></cite> and <cite><a href="#research-questions">questions</a></cite> can be used as a lens to configuring a scholarly communication ecosystem. I generalise the configuration to formulate the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> (<abbr title="Linked Research">LR</abbr>) notion and initiative.</p>
 
           <p>I will first expand on the <cite><a href="#print-age">print age</a></cite> as the historical backdrop of scholarly communication by reviewing Eisenstein's investigation on <cite><a href="#the-printing-press-as-an-agent-of-change">The Printing Press as an Agent of Change</a></cite>. Next, I will formulate a set of <cite><a href="#design-principles">Design Principles</a></cite> by generalising the core qualities of the concepts and implementations exhibited in this thesis.</p>
 
@@ -184,67 +184,17 @@
           <section id="call-for-linked-research" inlist="" rel="schema:hasPart" resource="#call-for-linked-research">
             <h2 property="schema:name">Call for Linked Research</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>The initial <cite><a href="http://csarven.ca/call-for-linked-research">Call for Linked Research</a></cite> expressed the shortcomings of the traditional methods of research communication in the Semantic Web community, and proposed approaches that can be adopted to conduct information exchange more effectively.</p>
-
-              <p>The notion of <em>Linked Research</em> has been acknowledge and adopted at varying degrees by <cite><a href="https://linkedresearch.org/calls#reviewers">individual researchers</a></cite>, teams, as well as academic communities:</p>
+              <p><cite><a href="http://csarven.ca/call-for-linked-research">Call for Linked Research</a></cite>, Capadisli, 2014, expressed the shortcomings of the traditional methods of research communication in the Semantic Web community, and proposed approaches that can be adopted to conduct information exchange more effectively. Some aspects of <em>Linked Research</em> has been implemented by <a href="https://linkedresearch.org/calls#reviewers">individual researchers</a>, teams, as well as academic communities:</p>
 
               <ul>
-                <li>Conference wide: ISWC, ESWC</li>
-                <li>SemStats, ISWC</li>
-                <li>Enabling Decentralised Scholarly Communication, ESWC</li>
-                <li>WOW, WWW</li>
-                <li>LDOW, WWW</li>
-                <li>DeSemWeb</li>
-                <li>SemSci</li>
-                <li>SAVE-SD</li>
-                <li>Sepublica</li>
-                <li>Researcher Centric Scholarly Communication, The Web Conf</li>
-                <li>Workshops and tutorials - dokieli, OAI, SWIB, ESWC</li>
-                <li>Linked Open Research Cloud at ESWC2018, ESWC2019</li>
-                <li>CEUR-WS</li>
-                <li>SemSci</li>
-                <li>SAVE-SD</li>
-                <li>Sepublica</li>
+                <li>Conferences: ISWC, ESWC</li>
+                <li>Workshops: SemStats, Enabling Decentralised Scholarly Communication WOW, LDOW, DeSemWeb, SemSci, SAVE-SD, Sepublica, Research Centric Scholarly Communication</li>
+                <li>Tutorials: OAI, SWIB</li>
+                <li>Linked Open Research Cloud at ESWC</li>
+                <li>Publishing/Archiving: CEUR-WS</li>
               </ul>
 
-              <p>This is an initiative to solicit input and participation from the community. It's tied to the principles, and calls for practical activity towards realising the goals.</p>
-<pre>
-** all sorts of community effort in SW/webscience conferences/workshops
-** dogfooding
-** archaic and artificial barriers
-</pre>
-
-              <p>Mention similarities to pre-print</p>
-              <p>Mention how pre-registration of research is possible</p>
-
-              <p>Trends towards citizen science? persons without institutional affiliation</p>
-
-
-              <section id="acid-test" inlist="" rel="schema:hasPart" resource="#acid-test">
-                <h3 property="schema:name">Acid Test</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>An <em>acid test</em> based on the <cite><a href="#design-principles">Design Principles</a></cite> can be used to evaluate systems' openness, accessibility, decentralisation, interoperability in scholarly communication on the Web. Such test does not mandate a specific technology, therefore design challenges can be met by different solutions. The following assumptions can be adopted when addressing technical design problems in scholarly communication.</p>
-
-                  <dl id="acid-test-assumptions">
-                    <dt>Assumptions</dt>
-                    <dd>
-                      <ul>
-                        <li id="acid-test-assumptions-open-standards" rel="schema:hasPart"><span about="#acid-test-assumptions-open-standards" property="schema:description" typeof="doco:Sentence">All interactions conform with open standards, with 1) no dependency on proprietary APIs, protocols, or formats, and 2) no commercial dependency or priori relationship between the groups using the workflows and tools involved.</span></li>
-
-                        <li id="acid-test-assumptions-publishing" rel="schema:hasPart"><span about="#acid-test-assumptions-publishing" property="schema:description" typeof="doco:Sentence">All mechanisms are independently implemented by at least two interoperable tool stacks.</span></li>
-
-                        <li id="acid-test-assumptions-free-and-open-access" rel="schema:hasPart"><span about="#acid-test-assumptions-free-and-open-access" property="schema:description" typeof="doco:Sentence">Information and interactions are available for free and open access with suitable licensing and attribution for retrieval and reuse.</span></li>
-
-                        <li id="acid-test-assumptions-interpretable" rel="schema:hasPart"><span about="#acid-test-assumptions-interpretable" property="schema:description" typeof="doco:Sentence">Information is interpretable for any agent; human, machine, or other.</span></li>
-
-                        <li id="acid-test-assumptions-prior-knowledge" rel="schema:hasPart"><span about="#acid-test-assumptions-prior-knowledge" property="schema:description" typeof="doco:Sentence">All interactions are possible without prior out-of-band knowledge of the user’s environment or configuration.</span></li>
-                      </ul>
-
-                      <span rel="schema:hasPart"><span content="There is no spoon." property="schema:description" resource="#acid-test-assumptions-no-spoon" typeof="doco:Sentence"></span></span>
-                    </dd>
-                  </dl>
-                </div>
-              </section>
+              <p>This is an initiative to solicit input and participation from the community.</p>
 
 
               <section id="linked-open-research-cloud" inlist="" rel="schema:hasPart" resource="#linked-open-research-cloud">
@@ -255,6 +205,8 @@
                   <p>It pursues this by accepting notifications about scholarly activities, making them available for reuse, and generates an interactive visualisation for additional exploration. Consequently, LORC can assist researchers with their applications to discover pertinent scholarly information on the Web, and connect their knowledge with the global knowledge graph. For the wider scientific community, LORC can facilitate scientometrics studies and decision making based on the scholarly commons ecosystem.</p>
 
                   <p>To this end, LORC, as a unit of communication, advertises its <em>inbox</em> to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> about scholarly activities, eg. publication of scholarly articles, <cite><a href="https://www.w3.org/TR/annotation-model/">Web Annotations</a></cite> (like peer reviews, replies), citations, call for contributions, proceedings, scientific observations and workflows, arguments, funding information etc. The notifications are licensed with <cite><a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0 1.0 Universal</a></cite>.</p>
+
+                  <p>The notifications serve as (pre-)registrations of research and scholarly activities, hence fulfill the certification function. The inbox and the notifications are archivable.</p>
                 </div>
               </section>
 
@@ -438,6 +390,32 @@
             </div>
           </section>
 
+              <section id="acid-test" inlist="" rel="schema:hasPart" resource="#acid-test">
+                <h3 property="schema:name">Acid Test</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>An <em>acid test</em> based on the <cite><a href="#design-principles">Design Principles</a></cite> can be used to evaluate systems' openness, accessibility, decentralisation, interoperability in scholarly communication on the Web. Such test does not mandate a specific technology, therefore design challenges can be met by different solutions. The following assumptions can be adopted when addressing technical design problems in scholarly communication.</p>
+
+                  <dl id="acid-test-assumptions">
+                    <dt>Assumptions</dt>
+                    <dd>
+                      <ul>
+                        <li id="acid-test-assumptions-open-standards" rel="schema:hasPart"><span about="#acid-test-assumptions-open-standards" property="schema:description" typeof="doco:Sentence">All interactions conform with open standards, with 1) no dependency on proprietary APIs, protocols, or formats, and 2) no commercial dependency or priori relationship between the groups using the workflows and tools involved.</span></li>
+
+                        <li id="acid-test-assumptions-publishing" rel="schema:hasPart"><span about="#acid-test-assumptions-publishing" property="schema:description" typeof="doco:Sentence">All mechanisms are independently implemented by at least two interoperable tool stacks.</span></li>
+
+                        <li id="acid-test-assumptions-free-and-open-access" rel="schema:hasPart"><span about="#acid-test-assumptions-free-and-open-access" property="schema:description" typeof="doco:Sentence">Information and interactions are available for free and open access with suitable licensing and attribution for retrieval and reuse.</span></li>
+
+                        <li id="acid-test-assumptions-interpretable" rel="schema:hasPart"><span about="#acid-test-assumptions-interpretable" property="schema:description" typeof="doco:Sentence">Information is interpretable for any agent; human, machine, or other.</span></li>
+
+                        <li id="acid-test-assumptions-prior-knowledge" rel="schema:hasPart"><span about="#acid-test-assumptions-prior-knowledge" property="schema:description" typeof="doco:Sentence">All interactions are possible without prior out-of-band knowledge of the user’s environment or configuration.</span></li>
+                      </ul>
+
+                      <span rel="schema:hasPart"><span content="There is no spoon." property="schema:description" resource="#acid-test-assumptions-no-spoon" typeof="doco:Sentence"></span></span>
+                    </dd>
+                  </dl>
+                </div>
+              </section>
+
           <section id="social-changes" inlist="" rel="schema:hasPart" resource="social-changes">
             <h3 property="schema:name">Social Changes</h3>
             <div datatype="rdf:HTML" property="schema:description">
@@ -505,26 +483,6 @@ building a mental infrastructure.
 
             </div>
           </section>
-
-          <section id="framing-our-vocabulary" inlist="" rel="schema:hasPart" resource="#framing-our-vocabulary">
-            <h3 property="schema:name skos:definition">Framing our Vocabulary</h3>
-            <div datatype="rdf:HTML" property="schema:description" resource="#framing-our-vocabulary" typeof="skos:ConceptScheme">
-              <p datatype="rdf:HTML" property="skos:definition">The terms we use shape our frame of mind than. We adopt the idea that scholarly calls for <strong>contributions</strong> welcome researchers to <strong>share</strong> their <strong>articles</strong> with the community. We can adopt substitutions along these lines:</p>
-
-              <dl rel="skos:hasTopConcept">
-                <dt about="#s-submit-share" id="s-submit-share" property="skos:prefLabel" rel="skos:topConceptOf" resource="#framing-our-vocabulary" typeof="skos:Concept"><samp>s/submit/share</samp></dt>
-                <dd about="#s-submit-share" datatype="rdf:HTML" property="skos:definition">Researchers <em>share</em> their scientific contributions as opposed <em>submit</em>.</dd>
-
-                <dt about="#s-submission-contribution" id="s-submission-contribution" property="skos:prefLabel" rel="skos:topConceptOf" resource="#framing-our-vocabulary" typeof="skos:Concept"><samp>s/submission/contribution</samp></dt>
-                <dd about="#s-submission-contribution" datatype="rdf:HTML" property="skos:definition">Researchers make <em>contributions</em> to the field as opposed to calls receiving <em>submissions</em>.</dd>
-
-                <dt about="#s-paper-article" id="s-paper-article" property="skos:prefLabel" rel="skos:topConceptOf" resource="#framing-our-vocabulary" typeof="skos:Concept"><samp>s/paper/article</samp></dt>
-                <dd about="#s-paper-article" datatype="rdf:HTML" property="skos:definition">Researchers create discoverable and accessible Web <em>articles</em> as opposed to documents that mimic <em>papers</em>.</dd>
-              </dl>
-            </div>
-          </section>
-
-
 
 
           <section id="objectivity-value-judgment-and-theory-choice" inlist="" rel="schema:hasPart" resource="#objectivity-value-judgment-and-theory-choice">
