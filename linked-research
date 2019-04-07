@@ -184,7 +184,16 @@
           <section id="call-for-linked-research" inlist="" rel="schema:hasPart" resource="#call-for-linked-research">
             <h2 property="schema:name">Call for Linked Research</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p><cite><a href="http://csarven.ca/call-for-linked-research">Call for Linked Research</a></cite>, Capadisli, 2014, expressed the shortcomings of the traditional methods of research communication in the Semantic Web community, and proposed approaches that can be adopted to conduct information exchange more effectively. Some aspects of <em>Linked Research</em> has been implemented by <a href="https://linkedresearch.org/calls#reviewers">individual researchers</a>, teams, as well as academic communities:</p>
+              <p><cite><a href="http://csarven.ca/call-for-linked-research">Call for Linked Research</a></cite>, Capadisli, 2014, expressed the shortcomings of the traditional methods of research communication in the Semantic Web community, and proposed approaches that can be adopted to conduct information exchange more effectively. The initiative aims to:</p>
+
+              <ul>
+                <li>Enable and encourage researchers to exercise URI Ownership in self-publishing their contributions.</li>
+                <li>Create and exchange human- and machine-readable units of communication by way of Linked Open Data</li>
+                <li>Provide suitable user interfaces and interactions to communicate information effectively.</li>
+                <li>Announcement and participation open discourse.</li>
+              </ul>
+
+              <p>Some aspects of <em>Linked Research</em> has been implemented by <a href="https://linkedresearch.org/calls#reviewers">individual researchers</a>, teams, as well as academic communities:</p>
 
               <ul>
                 <li>Conferences: ISWC, ESWC</li>
