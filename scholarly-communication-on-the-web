@@ -238,7 +238,7 @@ add figures to help
 
                   <p>In <cite>The Structure of Scientific Revolutions</cite>, Thomas S. Kuhn proposes an explanation for the process of discovery and progress in the history and philosophy of science. Kuhn contended that science did not progress linearly through history, rather it starts with a period that's disorganised, and then a paradigm - a collection of <em>exemplar</em> agreed by scientists on how problems are to be understood - develops to organise things for day-to-day <q>normal science</q> to take place under the governed paradigm. After some time, <q>anomalies</q> in the paradigm accumulate and lead to a <q>crisis</q> phase where multiple competing paradigms attempt to resolve the issues. This is a particular point in which the community struggles to come to an agreement on the fittest way to practice future science. Finally a <q>paradigm shift</q> - revolution - refers to the last phase where transforming ideas and assertions mature enough to bring order to earlier anomalies, and cause a change in world view.</p>
 
-                  <p>In <cite><a href="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">Objectivity, Value Judgment, and Theory Choice</a></cite>, Kuhn, 1973, sets out five characteristics as a basis to explain which paradigms and methods have been adopted in the past, or may be considered for adoption in the future:</p>
+                  <p id="objectivity-value-judgment-and-theory-choice">In <cite><a href="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">Objectivity, Value Judgment, and Theory Choice</a></cite>, Kuhn, 1973, sets out five characteristics as a basis to explain which paradigms and methods have been adopted in the past, or may be considered for adoption in the future:</p>
 
                   <dl>
                     <dt>Accuracy</dt>
@@ -257,7 +257,7 @@ add figures to help
 
                   <p>Another example demonstrating the complexity of choosing a theory was from the perspective of language and communication. For instance, the term "mass" has radically different meanings in Newton's theory of gravity and Einstein's relativity theory because the definitions are isolated to their respective paradigms. However, General Relativity gave a new lens to understanding the interaction of mass in space-time. While the definition for mass changed, Einstein's theory was still able to precisely predict Newton's theory, and further provided an explanation for how gravity worked.</p>
 
-                  <p>Contemporary scientific publishing is situated within a particular communication paradigm. Later on, I will lean on Kuhn's ideas about paradigm shifts in order to examine the various ways this is changing as the Web is integrated into the scholarly ecosystem.</p>
+                  <p>Contemporary scholarly communication is situated within a particular paradigm. In <cite><a href="linked-research#qualities-of-the-linked-research-paradigm">Quality of the Linked Research Paradigm</a></cite> I will use Kuhn's theory of choosing paradigms as a heuristic device to contextualise <cite><a href="linked-research">Linked Research</a></cite>.</p>
                 </div>
               </section>
 

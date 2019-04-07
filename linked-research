@@ -483,19 +483,18 @@ building a mental infrastructure.
           </section>
 
 
-          <section id="objectivity-value-judgment-and-theory-choice" inlist="" rel="schema:hasPart" resource="#objectivity-value-judgment-and-theory-choice">
-            <h3 property="schema:name">Objectivity, Value Judgment, and Theory Choice</h3>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo">Should this be discussed in Evaluation, Linked Research or Conclusions .. if at all?</p>
-              <p>Kuhn's five characteristics, <q cite="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">accuracy, consistency, scope, simplicity, and fruitfulness</q> in <cite><a href="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">Objectivity, Value Judgment, and Theory Choice</a></cite>, ... and justify why the <cite>Linked Research</cite> design principles describes a paradigm that can be further investigated towards genuine scholarly communication on the Web.</p>
+              <section id="qualities-of-the-linked-research-paradigm" inlist="" rel="schema:hasPart" resource="#qualities-of-the-linked-research-paradigm">
+                <h3 property="schema:name">Qualities of the Linked Research Paradigm</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>I will use Kuhn's five characteristics, <q cite="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">accuracy, consistency, scope, simplicity, and fruitfulness</q> in <cite><a href="scholarly-communication-on-the-webx#objectivity-value-judgment-and-theory-choice">Objectivity, Value Judgment, and Theory Choice</a></cite> to measure the qualities of the <cite>Linked Research</cite> "paradigm".</p>
 
-              <p><strong>Accuracy</strong>:</p>
-              <p><strong>Consistency</strong>:</p>
-              <p><strong>Scope</strong>:</p>
-              <p><strong>Simplicity</strong>:</p>
-              <p><strong>Fruitfulness</strong>:</p>
-            </div>
-          </section>
+                  <p><strong>Accuracy</strong>:</p>
+                  <p><strong>Consistency</strong>:</p>
+                  <p><strong>Scope</strong>:</p>
+                  <p><strong>Simplicity</strong>:</p>
+                  <p><strong>Fruitfulness</strong>:</p>
+                </div>
+              </section>
             </div>
           </section>
         </div>
