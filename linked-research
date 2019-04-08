@@ -486,7 +486,7 @@ building a mental infrastructure.
               <section id="linked-research-as-a-paradigm" inlist="" rel="schema:hasPart" resource="#linked-research-as-a-paradigm">
                 <h3 property="schema:name">Linked Research as a Paradigm</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>I will use Kuhn's five ways - <a href="scholarly-communication-on-the-web#objectivity-value-judgment-and-theory-choice">accuracy, consistency, scope, simplicity, and fruitfulness</a> - to measure the quality of <cite>Linked Research</cite> as a shared paradigm for scholarly communication on the Web.</p>
+                  <p>I will use Kuhn's five characteristics - <a href="scholarly-communication-on-the-web#objectivity-value-judgment-and-theory-choice">accuracy, consistency, scope, simplicity, and fruitfulness</a> - to measure the quality of <cite>Linked Research</cite> as a shared paradigm for scholarly communication on the Web. The criteria is not intended to be exhaustive but, rather, used to cover varied aspects to situate LR. I provide these descriptions for the purpose of helping <a href="#stakeholders">stakeholders</a> gain a perspective on LR's values, facilitate determining its adequacy for use, as well as to evaluate LR against other models.</p>
 
                   <p><strong>Accuracy</strong>: LR is based on the inherent characteristics of the Web (as a medium).</p>
 
@@ -496,7 +496,9 @@ building a mental infrastructure.
 
                   <p><strong>Simplicity</strong>: As LR is intended to maximise the inherent qualities of the Web and use the underlying mechanisms. It is a lossless approach for representing and sharing information on the Web.</p>
 
-                  <p><strong>Fruitfulness</strong>: Machine-readable information facilitates discovery and reuse.</p>
+                  <p><strong>Fruitfulness</strong>: Machine-readable information facilitates discovery and reuse of units of communication.</p>
+
+                  <p>In terms of Kuhn, whether to use the LR model will depend on the "value judgment" of stakeholders and scientific community.</p>
                 </div>
               </section>
             </div>
