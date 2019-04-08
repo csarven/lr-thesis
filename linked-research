@@ -205,7 +205,32 @@
                 <li>Tutorials: <cite><a data-versiondate="2019-04-07T11:18:26Z" data-versionurl="https://web.archive.org/web/20190407111826/https://indico.cern.ch/event/405949/contributions/2486377/" href="https://indico.cern.ch/event/405949/contributions/2486377/">Authoring, annotations, and notifications in a decentralised Web</a></cite> (<a href="https://indico.cern.ch/event/405949/">Innovations in Scholarly Communication, OAI</a>), <cite><a data-versiondate="2019-04-07T11:20:03Z" data-versionurl="https://web.archive.org/web/20190407112003/http://swib.org/swib17/" href="http://swib.org/swib17/">Authoring, Annotations, and Notifications in a decentralised Web with Dokieli</a></cite> (<a href="http://swib.org/">Semantic Web in Libraries</a>)</li>
               </ul>
 
-              <p>This is an initiative to solicit input and participation from the community.</p>
+
+              <section id="acid-test" inlist="" rel="schema:hasPart" resource="#acid-test">
+                <h3 property="schema:name">Acid Test</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>An <em>acid test</em> based on the <cite><a href="#design-principles">Design Principles</a></cite> can be used to evaluate systems' openness, accessibility, decentralisation, interoperability in scholarly communication on the Web. Such test does not mandate a specific technology, therefore design challenges can be met by different solutions. The following assumptions can be adopted when addressing technical design problems in scholarly communication.</p>
+
+                  <dl id="acid-test-assumptions">
+                    <dt>Assumptions</dt>
+                    <dd>
+                      <ul>
+                        <li id="acid-test-assumptions-open-standards" rel="schema:hasPart"><span about="#acid-test-assumptions-open-standards" property="schema:description" typeof="doco:Sentence">All interactions conform with open standards, with 1) no dependency on proprietary APIs, protocols, or formats, and 2) no commercial dependency or priori relationship between the groups using the workflows and tools involved.</span></li>
+
+                        <li id="acid-test-assumptions-publishing" rel="schema:hasPart"><span about="#acid-test-assumptions-publishing" property="schema:description" typeof="doco:Sentence">All mechanisms are independently implemented by at least two interoperable tool stacks.</span></li>
+
+                        <li id="acid-test-assumptions-free-and-open-access" rel="schema:hasPart"><span about="#acid-test-assumptions-free-and-open-access" property="schema:description" typeof="doco:Sentence">Information and interactions are available for free and open access with suitable licensing and attribution for retrieval and reuse.</span></li>
+
+                        <li id="acid-test-assumptions-interpretable" rel="schema:hasPart"><span about="#acid-test-assumptions-interpretable" property="schema:description" typeof="doco:Sentence">Information is interpretable for any agent; human, machine, or other.</span></li>
+
+                        <li id="acid-test-assumptions-prior-knowledge" rel="schema:hasPart"><span about="#acid-test-assumptions-prior-knowledge" property="schema:description" typeof="doco:Sentence">All interactions are possible without prior out-of-band knowledge of the user’s environment or configuration.</span></li>
+                      </ul>
+
+                      <span rel="schema:hasPart"><span content="There is no spoon." property="schema:description" resource="#acid-test-assumptions-no-spoon" typeof="doco:Sentence"></span></span>
+                    </dd>
+                  </dl>
+                </div>
+              </section>
 
 
               <section id="linked-open-research-cloud" inlist="" rel="schema:hasPart" resource="#linked-open-research-cloud">
@@ -360,8 +385,6 @@
             </div>
           </section>
 
-
-
           <section id="contextualising-linked-research" inlist="" rel="schema:hasPart" resource="#contextualising-linked-research">
             <h2 property="schema:name">Contextualising Linked Research</h2>
             <div datatype="rdf:HTML" property="schema:description">
@@ -376,54 +399,27 @@
               <p id="basic-costs">Basic costs for a personal domain name along with data storage can be in the range of 100 USD per year with sufficient space for common Web publishing - "unlimited" amount of registration of units of communication and publishing any hypermedia.</p>
 
               <p>Important barriers: promotion and tenure are integral to the academic profession. The incentives in the academic profession predominantly relies on an ecosystem that is largely led by third-party publishers and services. The proposed work does not address or replace the reputation problem.</p>
+            </div>
+          </section>
 
-              <section id="acid-test" inlist="" rel="schema:hasPart" resource="#acid-test">
-                <h3 property="schema:name">Acid Test</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>An <em>acid test</em> based on the <cite><a href="#design-principles">Design Principles</a></cite> can be used to evaluate systems' openness, accessibility, decentralisation, interoperability in scholarly communication on the Web. Such test does not mandate a specific technology, therefore design challenges can be met by different solutions. The following assumptions can be adopted when addressing technical design problems in scholarly communication.</p>
+          <section id="linked-research-as-a-paradigm" inlist="" rel="schema:hasPart" resource="#linked-research-as-a-paradigm">
+            <h2 property="schema:name">Linked Research as a Paradigm</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>I will use Kuhn's five characteristics - <a href="scholarly-communication-on-the-web#objectivity-value-judgment-and-theory-choice">accuracy, consistency, scope, simplicity, and fruitfulness</a> - to measure the quality of <cite>Linked Research</cite> as a shared paradigm for scholarly communication on the Web. The criteria is not intended to be exhaustive but, rather, used to cover varied aspects to situate LR. I provide these descriptions for the purpose of assisting <a href="#stakeholders">stakeholders</a> gain a perspective on LR's values, facilitate determining its adequacy for use, as well as to evaluate LR against other models.</p>
 
-                  <dl id="acid-test-assumptions">
-                    <dt>Assumptions</dt>
-                    <dd>
-                      <ul>
-                        <li id="acid-test-assumptions-open-standards" rel="schema:hasPart"><span about="#acid-test-assumptions-open-standards" property="schema:description" typeof="doco:Sentence">All interactions conform with open standards, with 1) no dependency on proprietary APIs, protocols, or formats, and 2) no commercial dependency or priori relationship between the groups using the workflows and tools involved.</span></li>
+              <p>LR is based on the notion that the Web is inherently decentralised, social, and for everyone. Its design principles shapes data and systems to be built on open Web standards.</p>
 
-                        <li id="acid-test-assumptions-publishing" rel="schema:hasPart"><span about="#acid-test-assumptions-publishing" property="schema:description" typeof="doco:Sentence">All mechanisms are independently implemented by at least two interoperable tool stacks.</span></li>
+              <p id="paradigm-accuracy"><strong>Accuracy</strong>: LR is based on the core mechanisms for interaction, identification, and representation of units of information on the Web. For instance, <cite><a href="#semantic-citations">semantic citations</a></cite> enables actors to build precise and contextual relations between atomic units, preserve author's intentions at the time of citing, as well as unfold the social aspects of citation. Thus, the creation, dissemination, and discovery of typed citations (as opposed to generic citations), brings forth an accurate representation of a network of shared knowledge. More precisely, machine consumers are capable of "understanding" the purpose of the citation. In this respect, LR is empirically adequate within the frame of what Linked Data vocabularies can potentially express irrespective of where the cited entities are located on the Web.</p>
 
-                        <li id="acid-test-assumptions-free-and-open-access" rel="schema:hasPart"><span about="#acid-test-assumptions-free-and-open-access" property="schema:description" typeof="doco:Sentence">Information and interactions are available for free and open access with suitable licensing and attribution for retrieval and reuse.</span></li>
+              <p id="paradigm-consistency"><strong>Consistency</strong>: LR is consistent within itself as per the alignment with the architecture of the Web and using open Web standards (in contrast to print-centric approaches on the Web). LR adopts the notion of actors having "free" and unrestricted access to knowledge, and thus consistent with many community principles and initiatives with the same goal eg. the Open Access movement, self-archiving literature so that it is readable by anyone for free. With respect to the common social practices around publishing, LR differs from the alternative approaches in that actors ultimately decide how to make their contributions. Hence, LR is inconsistent with the existing practice and notion of requiring or forcing actors to use particular third-party services in order to participate in knowledge exchange, as well as the way in which contributions are acknowledged by relevant stakeholders.</p>
 
-                        <li id="acid-test-assumptions-interpretable" rel="schema:hasPart"><span about="#acid-test-assumptions-interpretable" property="schema:description" typeof="doco:Sentence">Information is interpretable for any agent; human, machine, or other.</span></li>
+              <p id="paradigm-scope"><strong>Scope</strong>: LR has broad scope in that knowledge can be incrementally connected and extended (at any time) given shared identifiers for units of communication and compatible data models. The consequences for application implementations based on open Web standards is that they can be semantic adapted to make use of available structures meanwhile the mechanisms for information discovery remain uniform.</p>
 
-                        <li id="acid-test-assumptions-prior-knowledge" rel="schema:hasPart"><span about="#acid-test-assumptions-prior-knowledge" property="schema:description" typeof="doco:Sentence">All interactions are possible without prior out-of-band knowledge of the user’s environment or configuration.</span></li>
-                      </ul>
+              <p id="paradigm-simplicity"><strong>Simplicity</strong>: LR is a "lossless" approach to representing and sharing information on the Web in that the content can be registered independently from its presentation and behaviour, thus making it possible to abstractly refer and connect units of communication. As machine-readable representation is encoded through the serialisation of the RDF language, the underlying information can be transformed into alternative serialisations without compromising its integrity. The Open Web Platform makes it possible to treat and handle content "as is" without requiring supplemental protocols, proprietary plug-ins, or external tools to create and share content.</p>
 
-                      <span rel="schema:hasPart"><span content="There is no spoon." property="schema:description" resource="#acid-test-assumptions-no-spoon" typeof="doco:Sentence"></span></span>
-                    </dd>
-                  </dl>
-                </div>
-              </section>
+              <p id="paradigm-fruitfulness"><strong>Fruitfulness</strong>: Machine-readable information facilitates discovery and reuse of units of communication. As in the case of semantic citations, LR opens up the possibility to create as well as detect precise relations which were previously unnoted or disclosed through appropriate interoperable standards. Units of communication in the form of a knowledge graph being machine-identifiable and queryable has the affordance to detect or inspect patterns. For instance, open research questions can be found by analysing semantically structured literature, as well as detecting topical trends in research communities. LR's design principles enables the use of existing and future open Web standards. Its continuous interoperability would LR to be evolvable.</p>
 
-
-              <section id="linked-research-as-a-paradigm" inlist="" rel="schema:hasPart" resource="#linked-research-as-a-paradigm">
-                <h3 property="schema:name">Linked Research as a Paradigm</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>I will use Kuhn's five characteristics - <a href="scholarly-communication-on-the-web#objectivity-value-judgment-and-theory-choice">accuracy, consistency, scope, simplicity, and fruitfulness</a> - to measure the quality of <cite>Linked Research</cite> as a shared paradigm for scholarly communication on the Web. The criteria is not intended to be exhaustive but, rather, used to cover varied aspects to situate LR. I provide these descriptions for the purpose of helping <a href="#stakeholders">stakeholders</a> gain a perspective on LR's values, facilitate determining its adequacy for use, as well as to evaluate LR against other models.</p>
-
-                  <p>LR is based on the notion that the Web is inherently decentralised, social, and for everyone. Its design principles enables data and systems to be built on open Web standards.</p>
-
-                  <p id="paradigm-accuracy"><strong>Accuracy</strong>: LR is based on the core mechanisms for interaction, identification, and representation of units of information on the Web. For instance, <cite><a href="#semantic-citations">semantic citations</a></cite> enables actors to build precise and contextual relations between atomic units, preserve author's intentions at the time of citing, as well as unfold the social aspects of citation. Thus, the creation, dissemination, and discovery of typed citations (as opposed to generic citations), brings forth an accurate representation of a network of shared knowledge. More precisely, machine consumers are capable of "understanding" the purpose of the citation. In this respect, LR is empirically adequate within the frame of what Linked Data vocabularies can potentially express irrespective of where the cited entities are located on the Web.</p>
-
-                  <p id="paradigm-consistency"><strong>Consistency</strong>: LR is consistent within itself as per the alignment with the architecture of the Web and using open Web standards (in contrast to print-centric approaches on the Web). LR adopts the notion of actors having "free" and unrestricted access to knowledge, and thus consistent with many community principles and initiatives with the same goal eg. the Open Access movement, self-archiving literature so that it is readable by anyone for free. With respect to the common social practices around publishing, LR differs from the alternative approaches in that actors ultimately decide how to make their contributions. Hence, LR is inconsistent with the existing practice and notion of requiring or forcing actors to use particular third-party services in order to participate in knowledge exchange, as well as the way in which contributions are acknowledged by relevant stakeholders.</p>
-
-                  <p id="paradigm-scope"><strong>Scope</strong>: LR has broad scope in that knowledge can be incrementally connected and extended (at any time) given shared identifiers for units of communication and compatible data models. The consequences for application implementations based on open Web standards is that they can be semantic adapted to make use of available structures meanwhile the mechanisms for information discovery remain uniform.</p>
-
-                  <p id="paradigm-simplicity"><strong>Simplicity</strong>: LR is a "lossless" approach to representing and sharing information on the Web in that the content can be registered independently from its presentation and behaviour, thus making it possible to abstractly refer and connect units of communication. As machine-readable representation is encoded through the serialisation of the RDF language, the underlying information can be transformed into alternative serialisations without compromising its integrity. The Open Web Platform makes it possible to treat and handle content "as is" without requiring supplemental protocols, proprietary plug-ins, or external tools to create and share content.</p>
-
-                  <p id="paradigm-fruitfulness"><strong>Fruitfulness</strong>: Machine-readable information facilitates discovery and reuse of units of communication. As in the case of semantic citations, LR opens up the possibility to create as well as detect precise relations which were previously unnoted or disclosed through appropriate interoperable standards. Units of communication in the form of a knowledge graph being machine-identifiable and queryable has the affordance to detect or inspect patterns. For instance, open research questions can be found by analysing semantically structured literature, as well as detecting topical trends in research communities. LR's design principles enables the use of existing and future open Web standards. Its continuous interoperability would LR to be evolvable.</p>
-
-                  <p>In terms of Kuhn, whether to use the LR model will depend on the "value judgment" of stakeholders and research community. LR is merely a reflection of using the Web to its full potential for scholarly communication.</p>
-                </div>
-              </section>
+              <p>In terms of Kuhn, whether to use the LR model will depend on the "value judgment" of stakeholders and research community. LR is merely a reflection of using the Web to its full potential for scholarly communication.</p>
             </div>
           </section>
         </div>
