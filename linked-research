@@ -373,20 +373,9 @@
 
               <p>The existing models for information exchange that has been described so far primarily focus on institutional or subject repository driven scholarly communication. They are contrasted against the involvement of third-party, some of which being for-profit and while some being public, service providers which impose a particular arrangement of the coupling of the scholarly information space per <em>forces and functions</em>. For instance, traditional journals most commonly couple the registration and certification functions. Whereas configuration based on LR's perspective favours greater control of content creators for their contributions and the registration of units of communication without interfering with or coupling with the certification function.</p>
 
-              <p>While the criteria for publishing provided by <cite>Genuine Semantic Publishing</cite> is valuable and can also be exercised by following LR's <q>interpretable</q> design principle, we do not prescribe it in order to not conflict with the <q>freedom of expression</q> principle. If a third-party imposes a specific way to express knowledge, whether it is through file formats and their structure and semantics; what (meta)data to include or not include; or inclusion and use of interactive components; the quality of the communication is subject to be less effective because the author may have to make compromises. Information loss occurs and communication quality naturally degrades simply because what the actors wish to convey in their message, and how, will have to be filtered down in order to fit the requirements of a third-party, data formats, or user interfaces.</p>
+              <p id="basic-costs">Basic costs for a personal domain name along with data storage can be in the range of 100 USD per year with sufficient space for common Web publishing - "unlimited" amount of registration of units of communication and publishing any hypermedia.</p>
 
-
-          <section id="degree-of-control-in-linked-research" inlist="" rel="schema:hasPart" resource="#degree-of-control-in-linked-research">
-            <h3 property="schema:name">Degree of Control in Linked Research</h3>
-            <div datatype="rdf:HTML" property="schema:description">
-<p>metrics/scale for LR design principles</p>
-<p>degree-of-control</p>
-
-<p>Mention personal domain+hosting costs and contrast with alternatives (OA/APC) and tradeoffs</p>
-
-<p>Building <abbr title="Registration, Awareness, Certification, Archiving">RACA</abbr>-Aware Web Applications</p>
-            </div>
-          </section>
+              <p>Important barriers: promotion and tenure are integral to the academic profession. The incentives in the academic profession predominantly relies on an ecosystem that is largely led by third-party publishers and services. The proposed work does not address or replace the reputation problem.</p>
 
               <section id="acid-test" inlist="" rel="schema:hasPart" resource="#acid-test">
                 <h3 property="schema:name">Acid Test</h3>
@@ -413,74 +402,6 @@
                   </dl>
                 </div>
               </section>
-
-          <section id="social-changes" inlist="" rel="schema:hasPart" resource="social-changes">
-            <h3 property="schema:name">Social Changes</h3>
-            <div datatype="rdf:HTML" property="schema:description">
-<pre>
-* Mailing list and social media 'activism' - why is this worthwhile? why is this part of the contribution of LR
-* Testing ideas
-* keeping things in people consciousness
-* how to influence the direction of scholarly communication in web science
-* small visible results: uptake from conferences/workshops
-</pre>
-
-<p class="todo">
-The real target of these messages is not you, me, or even the seniors,
-professors, directors, conference organisers, programme committees, and
-so on.
-
-This is for the *next generation* of researchers and developers who are
-following along or will hopefully read this up one day. They are the
-ones who will be the change. We are only setting the stage for them to
-follow through.
-
-Of course I do hope that these ideas and the problems we are dealing
-with resonate with more people. Hence, a plea for the "seniors" to
-permit their "junior" colleagues to push forward. To grow their team
-with a different set of ideals and awareness! Many already have for a
-long time, and many are making that shift.
-
-Neither do I actually expect these conferences/journals that have kept
-their approach for so long to change overnight. As long as researchers
-are constrained in how they communicate their knowledge, and how that
-knowledge can be disseminated, no amount of activism here or elsewhere
-will change that.
-
-The purpose of these threads is purely about creating awareness and
-building a mental infrastructure.
-</p>
-
-              <p class="todo">Why this will never happen: promotion and tenure are integral to the academic profession. The incentives in the academic profession predominantly relies on an ecosystem that is largely led by third-party publishers and services. The proposed work does not address or replace the reputation problem. The importance of Open Science is on the rise, from social media, to increase in <a href="https://osf.io/7jbnt/">academic jobs that mention</a></p>
-
-
-<p id="role-of-institutions"><strong>Role of Institutions</strong>:
-* what roles could libraries/institutions play? eg notify about article/review
-* institutional repositories like eprints then they buy PURE from Springer.
-* ldprints</p>
-
-              <p>Potential solutions to these questions and new challenges need to address the connection and the gap between researchers, academic and public institutions, as well as what ends up in the commons. It is not just about researchers making their contributions available on the Web, or about conferences requesting semantically annotated contributions, or operating with transparent peer-review. All of these things must move in combination. Some of the kinds of actors in the ecosystem to address fulfilling the the LR principles can be along these lines:</p>
-
-              <dl>
-                <dt id="cooperating-researchers">Researchers</dt>
-                <dd>Researchers take full responsibility of their contributions. This can be at any Webspace they put trust on or have sufficient authority over, eg. personal site, institutions’ student and faculty pages. Making their work as <q>Webby</q> as possible eg. linking their arguments and citations to others', interactive story-telling or experimentation possibilities for their readers to be learnable. Researchers can take special care to ensure URI persistence and archiving of their work.</dd>
-
-                <dt id="cooperating-conferences-and-journals">Conferences and Journals</dt>
-                <dd>In person conferences and online journals should encourage and accept research publications which use native Web standards and technologies. Support transparent and attributed peer-review process. Aggregation or proceedings of the events can be machine-friendly and archival measures should be taken in addition to those of researchers.</dd>
-
-                <dt id="cooperating-public-institutions">Public Institutions</dt>
-                <dd>Given sufficient evidence of the Web Science community’s acknowledgement of research as well as its contributions, eg. peer-reviews, academic institutions can officially acknowledge such work towards academic credit. Libraries can  make the community’s output discoverable, catalogued, enriched, among many other things.</dd>
-              </dl>
-
-              <p>Mention https://communitywiki.org/wiki/DoOcracy https://web.archive.org/web/20181231115548/https://communitywiki.org/wiki/DoOcracy ?</p>
-
-
-              <p>This section is about how we realise/enable the social changes technically, whilst still adhering to the LR principles (ie. why we can't just use twitter/easychair for academia etc).</p>
-              <p>Point at the social parts of the Control Yourself chapter (AP, AS2, LDN) and say how these fit into the ecosystem. How they mean we can do the things people need to do in scholarly communications in a way that meets the principles.</p>
-              <p>This is where we bring the decentralisation stuff back home to in-practice scholarly comms.</p>
-
-            </div>
-          </section>
 
 
               <section id="linked-research-as-a-paradigm" inlist="" rel="schema:hasPart" resource="#linked-research-as-a-paradigm">
