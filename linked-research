@@ -198,7 +198,7 @@
               <ul>
                 <li>Public Call for Contributions: <cite><a href="https://linkedresearch.org/calls">(Enabling) Call for Linked Research</a></cite></li>
                 <li>Self-publishing: <cite><a href="https://github.com/linkeddata/dokieli/wiki#examples-in-the-wild">Examples in the Wild</a></cite></li>
-                <li>Public Awareness: <cite><a data-versiondate="2019-04-07T11:23:45Z" data-versionurl="https://web.archive.org/web/20190407112345/https://2018.eswc-conferences.org/call-for-papers/" href="https://2018.eswc-conferences.org/call-for-papers/">Linked Open Research Cloud</a></cite> at ESWC</li>
+                <li>Public Awareness: <cite><a data-versiondate="2019-04-07T11:23:45Z" data-versionurl="https://web.archive.org/web/20190407112345/https://2018.eswc-conferences.org/call-for-papers/" href="https://2018.eswc-conferences.org/call-for-papers/">Linked Open Research Cloud</a></cite> at <cite><a data-versiondate="2019-04-07T11:34:07Z" data-versionurl="https://web.archive.org/web/20190407113407/https://eswc-conferences.org/" href="https://eswc-conferences.org/">Extended Semantic Web Conference</a></cite></li>
                 <li>Proceedings Publishing/Archiving: <cite><a data-versiondate="2019-04-07T11:32:34Z" data-versionurl="https://web.archive.org/web/20190407113234/http://ceur-ws.org/" href="http://ceur-ws.org/">CEUR-WS.org</a></cite></li>
                 <li>Conferences: <cite><a data-versiondate="2019-04-07T11:34:07Z" data-versionurl="https://web.archive.org/web/20190407113407/https://eswc-conferences.org/" href="https://eswc-conferences.org/">Extended Semantic Web Conference</a></cite>, <cite><a data-versiondate="2019-04-07T11:35:59Z" data-versionurl="https://web.archive.org/web/20190407113559/https://en.wikipedia.org/wiki/International_Semantic_Web_Conference" href="https://en.wikipedia.org/wiki/International_Semantic_Web_Conference">International Semantic Web Conference</a></cite></li>
                 <li>Workshops: <cite><a data-versiondate="2019-04-07T11:29:05Z" data-versionurl="https://web.archive.org/web/20190407112905/https://iswc2019.desemweb.org/" href="https://iswc2019.desemweb.org/">Decentralizing the Semantic Web</a></cite>, <cite><a data-versiondate="2019-04-07T11:29:34Z" data-versionurl="https://web.archive.org/web/20190407112934/https://linkedresearch.org/events/eswc2017/" href="https://linkedresearch.org/events/eswc2017/">Enabling Decentralised Scholarly Communication</a></cite>, <cite><a data-versiondate="2019-04-07T11:30:04Z" data-versionurl="https://web.archive.org/web/20190407113004/https://semsci.github.io/SemSci2018/" href="https://semsci.github.io/SemSci2018/">Enabling Open Semantic Science</a></cite>, <cite><a data-versiondate="2019-04-07T11:27:36Z" data-versionurl="https://web.archive.org/web/20190407112736/http://events.linkeddata.org/ldow2017/" href="http://events.linkeddata.org/ldow2017/">Linked Data on the Web</a></cite>, <cite><a data-versiondate="2019-04-07T11:30:38Z" data-versionurl="https://web.archive.org/web/20190407113038/https://linkedresearch.org/events/the-web-conf-2018/" href="https://linkedresearch.org/events/the-web-conf-2018/">Researcher-Centric Scholarly Communication</a></cite>, <cite><a data-versiondate="2019-04-07T11:13:56Z" data-versionurl="https://web.archive.org/web/20190407111356/http://cs.unibo.it/save-sd/2017/" href="http://cs.unibo.it/save-sd/2017/">SAVE-SD</a></cite>, <cite><a data-versiondate="2019-04-07T11:31:43Z" data-versionurl="https://web.archive.org/web/20190407113143/http://semstats.org/" href="http://semstats.org/">Semantic Statistics</a></cite>, <cite><a data-versiondate="2017-04-21T14:18:07Z" data-versionurl="http://web.archive.org/web/20170421141807/http://sociam.org/wow2017/" href="http://sociam.org/wow2017/">Web Observatories, Social Machines and Decentralisation Workshop</a></cite></li>
@@ -240,7 +240,7 @@
 
                   <p>It pursues this by accepting notifications <em>about</em> scholarly activities, making them available for reuse, and generates an interactive visualisation for additional exploration. Consequently, LORC can assist researchers with their applications to discover pertinent scholarly information on the Web, and connect their knowledge with the global knowledge graph. For the wider scientific community, LORC can facilitate scientometrics studies and decision making based on the scholarly commons ecosystem.</p>
 
-                  <p>To this end, LORC, as a unit of communication, advertises its <em>inbox</em> to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> about scholarly activities, eg. publication of scholarly articles, <cite><a href="https://www.w3.org/TR/annotation-model/">Web Annotations</a></cite> (like peer reviews, replies), citations, call for contributions, proceedings, scientific observations and workflows, arguments, funding information etc. The notifications are licensed with <cite><a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0 1.0 Universal</a></cite>.</p>
+                  <p>To this end, LORC, as a unit of communication, advertises its <em>inbox</em> to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> about scholarly activities, eg. publication of scholarly articles, <cite><a href="https://www.w3.org/TR/annotation-model/">Web Annotations</a></cite> (eg. assessments, replies), citations, call for contributions, proceedings, scientific observations and workflows, arguments, funding, decisions, and so forth. The notifications are licensed with <cite><a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0 1.0 Universal</a></cite>.</p>
 
                   <p>The notifications serve as (pre-)registrations of research and scholarly activities, hence play a role in fulfilling the certification function. The inbox and the notifications are archivable.</p>
                 </div>
@@ -346,22 +346,22 @@
           <section id="linked-research-forces-functions" inlist="" rel="schema:hasPart" resource="#linked-research-forces-functions">
             <h2 property="schema:name">Forces and Functions of Linked Research</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>The forces and functions of scholarly communication in context of the Linked Research design principles are define below .</p>
+              <p>The forces and functions of scholarly communication in context of the Linked Research <cite><a href="#design-principles">Design Principles</a></cite> are described as follows. The following is also a <em>conceptual</em> response to Van de Sompel's call to investigate <q cite="https://www.youtube.com/watch?v=o4nUe-6Ln-8&amp;t=2792">how to fulfil the core functions of scholarly communication using the technical paradigm</q> around self-publishing (<cite><a href="https://www.youtube.com/watch?v=o4nUe-6Ln-8&amp=&t=2792">Scholarly Communication: Deconstruct &amp; Decentralize?</a></cite>).</p>
 
               <p id="linked-research-forces">The <em>forces</em>:</p>
 
               <dl>
                 <dt>Actor</dt>
-                <dd>Any <q cite="https://www.w3.org/TR/webarch/#def-web-agent">web agent</q> — person or software — is able to participate in scholarly communication using WebIDs.</dd>
+                <dd>Any <q cite="https://www.w3.org/TR/webarch/#def-web-agent">web agent</q> — person or software — may independently participate using WebIDs they control, manage accessibility of Web resources, shape content, as well as perform all of the functions in scholarly communication.</dd>
 
                 <dt>Accessibility</dt>
-                <dd>The retrievability and reusability of registered units can be determined by actors with access controls.</dd>
+                <dd>The retrievability and reusability of Web resources can be managed by actors with access controls.</dd>
 
                 <dt>Content</dt>
-                <dd>Actors shape their content as Linked Data as well as offer suitable presentations and interactions in which the registration refers to.</dd>
+                <dd>Content can be shaped as Linked Data and offer suitable presentations and interactions on the Open Web Platform.</dd>
 
                 <dt>Applicability</dt>
-                <dd>The need and relevance for research and their application can be mined from available other content.</dd>
+                <dd>The need and relevance for research and their application can be mined from available content.</dd>
               </dl>
 
               <p id="linked-research-functions">The <em>functions</em>:</p>
@@ -371,17 +371,14 @@
                 <dd>The ecosystem permits any actor to register units of communication by associating a URI to new or nonexistent resources.</dd>
 
                 <dt>Awareness</dt>
-                <dd>Actors share and consume registered units.</dd>
+                <dd>Any actor can distribute, discover, and reuse registered units of communication.</dd>
 
                 <dt>Certification</dt>
-                <dd>Annotation with any motivation, replying, commenting, reviewing</dd>
+                <dd>Annotation with any motivation, eg. assessing, replying, may be used towards certification.</dd>
 
                 <dt>Archiving</dt>
-                <dd>Any actor can trigger the archiving process to create snapshots of the content of registered resources.</dd>
+                <dd>Any actor may trigger an archiving service to create snapshots of the content of registered Web resources.</dd>
               </dl>
-
-              <!-- <p>We will revisit these functions later in the thesis as a technical response to Sompel's call to investigate <q cite="https://www.youtube.com/watch?v=o4nUe-6Ln-8&amp;t=2792">how to fulfil the core functions of scholarly communication using the technical paradigm</q> around self-publishing.</p> -->
-
             </div>
           </section>
 
