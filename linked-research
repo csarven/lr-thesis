@@ -184,13 +184,13 @@
           <section id="call-for-linked-research" inlist="" rel="schema:hasPart" resource="#call-for-linked-research">
             <h2 property="schema:name">Call for Linked Research</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p><cite><a href="http://csarven.ca/call-for-linked-research">Call for Linked Research</a></cite>, Capadisli, 2014, expressed the shortcomings of the traditional methods of research communication in the Semantic Web community, and proposed approaches that can be adopted to conduct information exchange more effectively. The initiative aims to:</p>
+              <p><cite><a href="http://csarven.ca/call-for-linked-research">Call for Linked Research</a></cite>, Capadisli, 2014, expresses the shortcomings of the traditional methods of research communication in the Semantic Web community, and proposes approaches that can be adopted to conduct information exchange more effectively. The initiative aims to:</p>
 
               <ul>
-                <li>Enable and encourage researchers to exercise URI Ownership in self-publishing their contributions.</li>
-                <li>Create and exchange human- and machine-readable units of communication by way of Linked Open Data</li>
+                <li>Enable and encourage researchers to use personal Web identities and decentralised Web publishing.</li>
+                <li>Create and exchange human- and machine-readable units of communication by way of Linked Open Data.</li>
                 <li>Provide suitable user interfaces and interactions to communicate information effectively.</li>
-                <li>Announcement and participation open discourse.</li>
+                <li>Participation in open discourse.</li>
               </ul>
 
               <p>Some aspects of <em>Linked Research</em> has been implemented by <a href="https://linkedresearch.org/calls#reviewers">individual researchers</a>, teams, as well as academic communities:</p>
@@ -217,11 +217,11 @@
                       <ul>
                         <li id="acid-test-assumptions-open-standards" rel="schema:hasPart"><span about="#acid-test-assumptions-open-standards" property="schema:description" typeof="doco:Sentence">All interactions conform with open standards, with 1) no dependency on proprietary APIs, protocols, or formats, and 2) no commercial dependency or priori relationship between the groups using the workflows and tools involved.</span></li>
 
-                        <li id="acid-test-assumptions-publishing" rel="schema:hasPart"><span about="#acid-test-assumptions-publishing" property="schema:description" typeof="doco:Sentence">All mechanisms are independently implemented by at least two interoperable tool stacks.</span></li>
+                        <li id="acid-test-assumptions-mechanism-implementations" rel="schema:hasPart"><span about="#acid-test-assumptions-mechanism-implementations" property="schema:description" typeof="doco:Sentence">All mechanisms are independently implemented by at least two interoperable tool stacks.</span></li>
 
-                        <li id="acid-test-assumptions-free-and-open-access" rel="schema:hasPart"><span about="#acid-test-assumptions-free-and-open-access" property="schema:description" typeof="doco:Sentence">Information and interactions are available for free and open access with suitable licensing and attribution for retrieval and reuse.</span></li>
+                        <li id="acid-test-assumptions-accessible" rel="schema:hasPart"><span about="#acid-test-assumptions-accessible" property="schema:description" typeof="doco:Sentence">Information and interactions are available for free, accessible, and reusable for any agent; human, machine, or other.</span></li>
 
-                        <li id="acid-test-assumptions-interpretable" rel="schema:hasPart"><span about="#acid-test-assumptions-interpretable" property="schema:description" typeof="doco:Sentence">Information is interpretable for any agent; human, machine, or other.</span></li>
+                        <li id="acid-test-assumptions-interpretable" rel="schema:hasPart"><span about="#acid-test-assumptions-interpretable" property="schema:description" typeof="doco:Sentence">Information is discoverable and interpretable for any agent; human, machine, or other.</span></li>
 
                         <li id="acid-test-assumptions-prior-knowledge" rel="schema:hasPart"><span about="#acid-test-assumptions-prior-knowledge" property="schema:description" typeof="doco:Sentence">All interactions are possible without prior out-of-band knowledge of the user’s environment or configuration.</span></li>
                       </ul>
@@ -238,11 +238,11 @@
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>The <cite><a href="https://linkresearch.org/cloud">Linked Open Research Cloud</a></cite> (<abbr title="Linked Open Research Cloud">LORC</abbr>) project aims to increase the awareness, discovery, and reuse of resources about scholarly communication on the Web in the form of publicly accessible Linked Data. It is intended to fulfill the <em>awareness</em> function of scientific communication.</p>
 
-                  <p>It pursues this by accepting notifications about scholarly activities, making them available for reuse, and generates an interactive visualisation for additional exploration. Consequently, LORC can assist researchers with their applications to discover pertinent scholarly information on the Web, and connect their knowledge with the global knowledge graph. For the wider scientific community, LORC can facilitate scientometrics studies and decision making based on the scholarly commons ecosystem.</p>
+                  <p>It pursues this by accepting notifications <em>about</em> scholarly activities, making them available for reuse, and generates an interactive visualisation for additional exploration. Consequently, LORC can assist researchers with their applications to discover pertinent scholarly information on the Web, and connect their knowledge with the global knowledge graph. For the wider scientific community, LORC can facilitate scientometrics studies and decision making based on the scholarly commons ecosystem.</p>
 
                   <p>To this end, LORC, as a unit of communication, advertises its <em>inbox</em> to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> about scholarly activities, eg. publication of scholarly articles, <cite><a href="https://www.w3.org/TR/annotation-model/">Web Annotations</a></cite> (like peer reviews, replies), citations, call for contributions, proceedings, scientific observations and workflows, arguments, funding information etc. The notifications are licensed with <cite><a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0 1.0 Universal</a></cite>.</p>
 
-                  <p>The notifications serve as (pre-)registrations of research and scholarly activities, hence fulfill the certification function. The inbox and the notifications are archivable.</p>
+                  <p>The notifications serve as (pre-)registrations of research and scholarly activities, hence play a role in fulfilling the certification function. The inbox and the notifications are archivable.</p>
                 </div>
               </section>
 
