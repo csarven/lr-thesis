@@ -203,10 +203,6 @@ todo: tree view / diagram of the items
                 </div>
               </section>
 
-<!--
-  todo: mention sub organisation.. categorise into 3-4 items?
--->
-
               <section id="vocabularies" inlist="" rel="schema:hasPart" resource="#vocabularies">
                 <h3 property="schema:name">Vocabularies</h3>
                 <div datatype="rdf:HTML" property="schema:description">

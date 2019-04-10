@@ -181,14 +181,6 @@ transform:rotate(-60deg);
           <section id="mediums-and-paradigms" inlist="" rel="schema:hasPart" resource="#mediums-and-paradigms">
             <h2 property="schema:name">Mediums and Paradigms</h2>
             <div datatype="rdf:HTML" property="schema:description">
-
-<!--
-              <blockquote cite="https://blog.whatwg.org/">
-                <p>Please leave your sense of logic at the door, thanks!</p>
-                <footer><p><cite><a href="irc://irc.freenode.net/whatwg">#whatwg</a></cite></p></footer>
-              </blockquote>
--->
-
 <!--
 todo: s/technological/communication?
 
@@ -268,18 +260,9 @@ add figures to help
 
                   <p>As the characteristics of the spoken word carried over to writing, and writing to print, print media also influenced electronic media like the Web and hypermedia. Print's typography and knowledge organisation affects the standards, tools, and interfaces that are still used today to exchange knowledge on the Web, as well as certain social expectations or assumptions. For example, authoring tools help us to design and create electronic documents that resemble print representations even if they are not intended to be printed. McLuhan described this phenomenon as though looking at the <q>rear-view mirror</q>; <q>the old medium is always the content of the new medium</q>, <cite><a href="https://archive.org/details/thisismarshallmcluhanthemediumisthemessage">This is Marshall McLuhan: The Medium is the Massage</a></cite>, McLuhan, 1967. While scholarly communication is transforming due to the effects of the Web, its content, shape, and way of communicating is still based on the characteristics of print media.</p>
 
-                  <p>In <cite><a href="http://www.worldcat.org/oclc/695759425" title="9780226520919">The Sociology of Science: Theoretical and Empirical Investigations</a></cite>, Merton, 1942, introduced <q>four sets of institutional imperatives taken to comprise the ethos of modern science</q> in <q>The Normative Structure of Science</q>:</p>
+                  <hr />
 
-                  <ul>
-                    <li><em>Communalism</em>: in order to promote collective collaboration, intellectual output should have common ownership.</li>
-                    <li><em>Universalism</em>: scientific validity is kept independent of political and personal factors such that everyone has equal rights and possibility to obtain information.</li>
-                    <li><em>Disinterestedness</em>: the practice of science should benefit the common scientific enterprise with no conflicts of individual interest or gain.</li>
-                    <li><em>Organised skepticism</em>: scientific claims should be exposed to critical examination before being accepted to be part of common knowledge.</li>
-                  </ul>
-
-                  <p class="todo">Say which RQ (from intro) this 'chapter' is contributing towards answering.</p>
-
-                  <p>We need to examine our assumptions about scholarly communication on the Web in order to understand its social implications. Building on the previous brief histories of media evolution and scientific communication, the next review is of the history of the Web (a <q>social machine</q>) and then specific role the Web plays in contemporary scholarly communication. The focus of the rest of this section is on structural changes in scholarly communication, as opposed to the evolution of technical advancements.</p>
+                  <p>We need to examine our assumptions about scholarly communication on the Web in order to understand its social implications. Building on the previous brief histories of media evolution and scientific communication, the next review is of the history of the Web (a <q>social machine</q>) and then specific role the Web plays in contemporary scholarly communication. The focus of the rest of this section is on structural changes in scholarly communication, while the evolution of technical advancements runs in parallel.</p>
                 </div>
               </section>
             </div>
@@ -322,9 +305,6 @@ support groups.</pre>
                   </ul>
 
                   <p>In 2004, the W3C <cite><a href="https://tag.w3.org/">Technical Architecture Group</a></cite> (<abbr title="Technical Architecture Group">TAG</abbr>) codified the design principles, constraints, and good practice notes of the Web architecture in <cite><a href="https://www.w3.org/TR/webarch/">Architecture of the World Wide Web, Volume One</a></cite> (<abbr title="Architecture of the World Wide Web">AWWW</abbr>). It documents the three architectural bases of the Web: <q>Identification</q>, <q>Interaction</q>, <q>Data Formats</q>, and states that the specifications emerging from each may evolve independently - according to the principle of <cite><a href="https://www.w3.org/TR/webarch/#orthogonal-specs">orthogonality</a></cite> - in order to increase the flexibility and robustness of the Web.</p>
-
-
-<!-- https://www.w3.org/TR/webarch/#general -->
 
                   <section id="architecture-of-the-web-identification" inlist="" rel="schema:hasPart" resource="#architecture-of-the-web-identification">
                     <h4 property="schema:name">Identification</h4>
@@ -582,6 +562,15 @@ support groups.</pre>
 
               <p>The publication and dissemination of information - in the most general sense of the words - played a key role in the advancement of societies' knowledge for centuries. The first journal, <cite>Academie des Scavans</cite> published by <cite>The Royal Society</cite> in 1665, evolved out of the exchange of letters among scholars and the <a data-versiondate="2019-01-21T21:26:33Z" data-versionurl="https://web.archive.org/web/20190121212633/https://blogs.royalsociety.org/history-of-science/2019/01/15/meeting-sloane/" href="https://blogs.royalsociety.org/history-of-science/2019/01/15/meeting-sloane/">transcripts of the meetings</a> in scholarly societies discussing experiments, publications and natural curiosities. With this in mind, the most widely accepted purpose of a scholarly article is a way to communicate research results and other intellectual work with the public; to have an accurate archival record of the research findings; to build on top of earlier knowledge; as well as to have it serve towards crediting authors for their work. Today's scholarly journals, containing quality-controlled research reports, closely resemble the first journal. <cite><a href="http://www.worldcat.org/oclc/773482913">Encyclopedia of International Media and Communications</a></cite>, Scholarly Journals, Vol. 2, p. 688, 2003, states that due to the growth and demand for copies of the literature from non-members, mostly institutions, the larger journals began to sell subscriptions at relatively higher prices than members pay.</p>
 
+              <p>In <cite><a href="http://www.worldcat.org/oclc/695759425" title="9780226520919">The Sociology of Science: Theoretical and Empirical Investigations</a></cite>, Merton, 1942, introduced <q>four sets of institutional imperatives taken to comprise the ethos of modern science</q> in <q>The Normative Structure of Science</q>:</p>
+
+              <ul>
+                <li><em>Communalism</em>: in order to promote collective collaboration, intellectual output should have common ownership.</li>
+                <li><em>Universalism</em>: scientific validity is kept independent of political and personal factors such that everyone has equal rights and possibility to obtain information.</li>
+                <li><em>Disinterestedness</em>: the practice of science should benefit the common scientific enterprise with no conflicts of individual interest or gain.</li>
+                <li><em>Organised skepticism</em>: scientific claims should be exposed to critical examination before being accepted to be part of common knowledge.</li>
+              </ul>
+
               <section id="open-and-free" inlist="" rel="schema:hasPart" resource="#open-and-free">
                 <h3 property="schema:name">Open and Free</h3>
                 <div dataype="rdf:HTML" property="schema:description">
@@ -735,7 +724,7 @@ support groups.</pre>
                   <blockquote cite="https://www.youtube.com/watch?v=1yLNGUeHapA&amp;start=50&amp;end=90">
                     <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/1yLNGUeHapA?rel=0&amp;start=50&amp;end=90" allowfullscreen="true"></iframe>
 
-                    <p>Because paper enforces single sequence and there is no room for digression, it imposes a particular kind of order in the very nature of the structure. When I saw the computer, I said, ‘at last we can escape from the prison of paper’, and that was what my whole hypertext idea was about in 1960 and since. Contrarily, what did the other people do, they <strong>imitated paper</strong>, which to me seems totally insane.</p>
+                    <p><q>Because paper enforces single sequence and there is no room for digression, it imposes a particular kind of order in the very nature of the structure. When I saw the computer, I said, ‘at last we can escape from the prison of paper’, and that was what my whole hypertext idea was about in 1960 and since. Contrarily, what did the other people do, they <strong>imitated paper</strong>, which to me seems totally insane.</q></p>
 
                     <footer><cite><a href="https://www.youtube.com/watch?v=1yLNGUeHapA&amp;start=50&amp;end=90">Ted Nelson Demonstrates XanaduSpace (by Arthur Bullard)</a></cite>, <a href="http://en.wikipedia.org/wiki/Ted_Nelson">Ted Nelson</a>, 2013</footer>
                   </blockquote>
@@ -870,11 +859,6 @@ support groups.</pre>
                 <p>Experience with the ªWorld-Wide Webº (W3) global information initiative suggests that the whole mechanism of academic research will change with new technology.   However, when we try (dangerously) to see the shape of things to come, it seems that some old institutions may resurface  but in a new form.</p>
                 <footer><cite><a data-versiondate="2019-02-24T13:24:20Z" data-versionurl="https://web.archive.org/web/20190224132420/https://www.w3.org/History/1994/WWW/Journals/PhysicsWorld/PW.ascii" href="https://www.w3.org/History/1994/WWW/Journals/PhysicsWorld/PW.ascii">Physics World article for end March 1992</a></cite>, Berners-Lee, 1992</footer>
               </blockquote>
-
-<!--
-  todo:
-  add core aspects / systematic representation?
--->
 
               <p>The scholarly ecosystem is inherently social. Researchers and scholars have been exchanging and collaborating on their findings and questioning, just as they were in the era of the <cite>Republic of Letters</cite>. The social dimension not only exerts a force within the research community, from the society, and eventually flowing back out to society. As the Web deeply impacts societies, in addition to using social media, researchers and academics have also been studying sociotechnical systems from their respective disciplines. We need to understand the effects of the tools we use on the ecosystem and on scientific and scholarly communication. There is a top-down social pressure for research openness and access to knowledge that is in the public interest, however, achieving it through the methods and ethics is challenging for societies. In this section, I will overview how researchers use social media, quality control and certification, and access to research knowledge in context of privilege and gatekeeping.</p>
 
@@ -1108,14 +1092,6 @@ support groups.</pre>
               <p>The interaction of media with our senses is an inherent property of media. The media's built-in sensory bias affects and transforms human society and psyche. Modern media, like the Web, offer extensible interactions, creative participation, and social engagement. There is a natural human desire to connect and exchange ideas, behaviour, or style with others, as well as to co-create. Given these opportunities, the fundamental question to ask here is, why should research communication be limited to, evaluated by, and rewarded on methods and practices be based on print-centric media? Scholarly communication still uses methods which date back to the invention of the <a href="https://en.wikipedia.org/wiki/Printing_press">mechanical movable type printing press</a> (circa 1450), even in the advent of the globally accessible and interactive new media that are at our fingertips today, and at much faster turnaround times from publication to consumption than ever before. The practices correspond to publication workflows that are in place for academic communication, and have remained largely unchanged for over a century. What does it mean to have an academic achievement through a “publication”? If we consider the Web as a potential supplement to or replacement for these older practices, and given that the Web can be purposed for greater possibilities than print alone, then we (members of the academic community) also need to address the question, <em>what constitutes a scholarly contribution?</em></p>
 
               <p>Today, it is evident that the typical academic publishing scenario requires adherence to the <em>printability</em> aspects of the information eg. <span class="unicode-document">page length, typographical guidelines</span>. That is, all of the encompassing data or supporting artefacts for any given research output typically must be channelled through the characteristics of print media. In practice, this leads the research community to use tools that are tailored solely for printing or viewing (on screen). This (sticking to print) leads to unnecessary information loss or arbitrary filtering of the content, which might be otherwise preserved if a different medium was used. Since print is only one possible way to represent and communicate the information, it is worthwhile to investigate and employ alternative or complimentary representations that are more appropriate given the affordances of the Web. Traditional electronic document formats, on the hot end of the media spectrum, are trying remain relevant inside a cool medium.</p>
-
-<!--
-              <blockquote cite="http://www.worldcat.org/oclc/250420453">
-                <p>It is not that there is anything wrong with the old environment, but it simply will not serve as navigational guide to the new one.</p>
-
-                <footer><cite><a href="http://www.worldcat.org/oclc/250420453">Through the Vanishing Point: Space in Poetry and Painting</a></cite>, McLuhan and Parker, 1968.</footer>
-              </blockquote>
--->
 
               <p>This section served to acknowledge initiatives and developments that went into scholarly communication in the age of information and Web, against their historical backdrop. It also introduces some frameworks for description and analysis of technologies and processes particular to scholarly communication, and communication mediums in general, which I will continue to refer to through the rest of this thesis. Subsequent sections are dedicated to devising a scholarly space that is more fitting to the medium of the Web.</p>
             </div>
