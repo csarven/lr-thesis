@@ -1082,13 +1082,13 @@ support groups.</pre>
               <p>The questions are intended to be complimentary and studied simultaneously. They correspond to four effects: <q>enhances</q>, <q>obsolesces</q>, <q>retrieves</q>, and <q>reverses into</q>. I use this tetrad to situate the effects and artefacts of scholarly communication on the Web in relative to adjacent mediums, in particular, to print media:</p>
 
               <dl>
-                <dt>Enhances</dt>
+                <dt id="effect-enhances">Enhances</dt>
                 <dd>access to information, autonomy, social connections, decentralisation, distribution, immediacy, multi-modality</dd>
-                <dt>Obsolesces</dt>
+                <dt id="effect-obsolesces">Obsolesces</dt>
                 <dd>centralisation, isolation, distance, memorisation, privacy, tactility, travel, linearity, typographical conventions</dd>
-                <dt>Retrieves</dt>
+                <dt id="effect-retrieves">Retrieves</dt>
                 <dd>community, correspondence, direct representation, free expression, dialogue, involvement, public space, self-control</dd>
-                <dt>Reverses into</dt>
+                <dt id="effect-reverses-into">Reverses into</dt>
                 <dd>collectivism, degraded information quality, group-think, information overload, fabrication, lack of accountability, noise, third-party control</dd>
               </dl>
 
