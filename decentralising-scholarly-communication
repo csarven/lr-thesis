@@ -584,7 +584,7 @@ Actor controlled |------ Data ---------------| Third-party controlled
           <section id="forces-and-functions-in-specifications" inlist="" rel="schema:hasPart" resource="#forces-and-functions-in-specifications">
             <h2 property="schema:name">Forces and Functions in Specifications</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p id="standards-based-forces-and-functions"><strong>Standards-based Forces and Functions</strong>: While every system of scholarly communication can have its forces and functions arbitrarily configured irrespective of their actual implementation, I have focused on a subset arrangement that is based on existing Web specifications help towards manifesting an interoperable information space. The model can be extended to include other or future specification with respect to forces and functions in scientific communication.</p>
+              <p id="standards-based-forces-and-functions"><strong>Standards-based Forces and Functions</strong>: While every system of scholarly communication can have its forces and functions arbitrarily configured irrespective of their actual implementation, I have focused on a subset arrangement that is based on existing Web specifications facilitating the manifestation of interoperable information spaces. The model can be extended to include other or future specification with respect to forces and functions in scientific communication.</p>
 
               <table about="#characteristics-of-specifications" id="characteristics-of-specifications" typeof="qb:DataSet">
                 <caption>Characteristics of Web specifications for forces and functions in scientific communication</caption>
