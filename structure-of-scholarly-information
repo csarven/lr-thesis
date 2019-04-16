@@ -110,7 +110,6 @@
 
               <p>Figure X depicts a typical high-level interplay between the <em>actors</em> and the <em>content</em> forces, and their functions (registration, awareness, certification, archive) in scholarly communication. Given that the <em>accessibility</em> and <em>applicability</em> are external forces in scientific communication, I assume that they are already integrated in this information space.</p>
 
-              <p class="todo">Redo diagram</p>
               <figure id="figure-linked-research-ecosystem" rel="schema:hasPart" resource="#figure-linked-research-ecosystem">
                 <object data="/proxy?uri=http://csarven.ca/media/images/articles/linked-research-ecosystem.svg" height="243" rel="schema:image" type="image/svg+xml" width="480"></object>
 
@@ -136,10 +135,6 @@
               <p>This section covers semantic structure of the narrative aspects scholarly communication. This can enhance <em>both</em> human- and machine-readability of information, in particular, representations of units irrespective of how they are produced.</p>
 
               <p>Non-narrative units can also be semantically represented to enable easier reuse and interpretation; this is covered in more detail in <a href="#linked-statistics">Linked Statistics</a> and <cite><a href="decentralised-linked-research-application#interactive-linked-statistics">Interactive Linked Statistics</a></cite>.</p> 
-
-<!--
-todo: tree view / diagram of the items
--->
 
               <section id="units-of-communication" inlist="" rel="schema:hasPart" resource="#units-of-communication">
                 <h3 property="schema:name">Units of Communication</h3>

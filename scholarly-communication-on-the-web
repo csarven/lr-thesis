@@ -181,12 +181,6 @@ transform:rotate(-60deg);
           <section id="mediums-and-paradigms" inlist="" rel="schema:hasPart" resource="#mediums-and-paradigms">
             <h2 property="schema:name">Mediums and Paradigms</h2>
             <div datatype="rdf:HTML" property="schema:description">
-<!--
-todo: s/technological/communication?
-
-add figures to help
--->
-
               <p>The effects of technological mediums on society have some similarities to the evolution of scientific paradigms. This will serve as the historical framing for this thesis and helps to contextualise the application of core methods and values of the Web on scholarly communication.</p>
 
               <section id="on-mediums" inlist="" rel="schema:hasPart" resource="#on-mediums">
