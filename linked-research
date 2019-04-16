@@ -53,8 +53,6 @@
                 <ul>
                   <li><a href="#autonomy">Autonomy</a></li>
                   <li><a href="#universal-access">Universal access</a></li>
-                  <li><a href="#interpretable">Interpretable</a></li>
-                  <li><a href="#social">Social</a></li>
                 </ul>
               </nav>
 
@@ -63,6 +61,8 @@
               <section id="autonomy" inlist="" rel="schema:hasPart" resource="#autonomy">
                 <h3 property="schema:name">Autonomy</h3>
                 <div datatype="rdf:HTML" property="schema:description">
+                  <p>Today it would be difficult think of a Web without social functions. Perhaps the Web's support and ability to facilitate social interactions - above anything else - contributed to the transformation of societies in the last quarter century. The Web, as a medium, expedited all patterns of social interrelationships in a manner that can be more efficiently documented, discovered and reused. It necessitates that the system design should be inclusive and facilitate involvement within the range of an actor's autonomy, as well as socially-aware decentralised applications.</p>
+
                   <p>The systems that are designed to fulfill the functions in scholarly communication should operate with the expectation of autonomous participation. One value that can be upheld through the principle of autonomy is to not have any constraints on where units of communication can exist on the Web. For instance, the actors of a system can have the freedom to designate identifiers to their artefacts: profile(s), articles, annotations, notifications, and so forth, as well as where they can be retrieved from. Similarly, the actor's autonomy to use preferred applications to interact with data. It can be considered that <em>decentralisation</em> of the information space is <em>a</em> means to gain autonomy on the Web. With respect to <em>delocalisation</em>, certain kinds of resources, eg. personal Web identifiers (WebID) controlled by their owners, can be used across different systems as they need not be tied to any particular URI space or system, and are free from external influences. Ultimately, autonomy is the right to freely choose and maintain sovereignty over URI ownership and data spaces, and the ability to use or switch between applications that can interact with them. Likewise, actors' autonomy would not obstruct them to use shared URI spaces if they so desire.</p>
 
                   <p>Any type of object, eg. scientific literature, research objects, personal websites, profiles and social graphs, can be made available on the Web provided that the <em>actors</em> have sufficient control over their URIs, or delegate to entities they trust. While URI ownership is socially and technically within the reach of most academics, putting it into practice paves the way to a more decentralised and delocalised approach to using scholarly information spaces. Through URI ownership, decentralisation through deconstructing and decoupling can take place.</p>
@@ -85,13 +85,9 @@
 
                   <p>The concerns about authenticity, persistence and permanence of data and knowledge is constant regardless of where the resources reside on the Web. Hence, strictly trusting scholarly knowledge based on its registered location is ultimately fragile in that it is unavoidable to prevent all sorts of threats to preservation in a long enough timeline. However, since the registration function is decoupled from archiving, we are able to delegate that trust to a third-party that is best fit to handle the preservation and to some extent guarantee the authenticity of the units of communication. This is particularly important as archival and trust are part of the global scholarly commons.</p>
 
-<!-- This is further explored in the <cite><a href="https://www.w3.org/DesignIssues/Evolution.html#ToII">Test of Independent Invention</a></cite> thought experiment. -->
-
                   <p>In context of the Web, technical or social decentralisation at all levels is unattainable. Even open Web standards are based on social and technical decisions, and can be seen as a form of centralisation in that conforming systems cluster and coordinate among themselves. Similarly, centralisation naturally occurs in social systems like concepts or language, eg. machine-readable vocabularies restrict the set of uses of a system. The alternative pushed to the extreme where each unit is expressed in their own language and without any language mapping, puts us in a situation similar to that of the <cite><a href="https://en.wikipedia.org/wiki/Tower_of_Babel">Tower of Babel</a></cite>, ie. being incapable of understanding each other. Hence, autonomy in a system where researchers are isolated or information is not interpretable renders freedom of expression meaningless.</p>
 
                   <p id="self-publishing"><strong>Self-publishing</strong>: In context of <cite><a href="decentralising-scholarly-communication#degree-of-control">degree of control</a></cite>, <em>self publishing</em> entails that an actor can register identifiers, shape and store data where they can and have access to, and use preferred applications to achieve them.</p>
-
-                  <p>While we aim for autonomous systems, we also seek interoperability and cooperation for actual communication take to place via <a href="#universal-access">universal access</a> and <a href="#interpretable">interpretable</a> information.</p>
                 </div>
               </section>
 
@@ -137,43 +133,17 @@
                     <footer><cite><a data-versiondate="2018-05-12T22:26:56Z" data-versionurl="https://web.archive.org/web/20180512222656/http://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/" href="https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/">Accessibility, Usability, and Inclusion</a></cite>, W3C, WAI</footer>
                   </blockquote>
 
-                  <p>Thus we refer to <q>universal access</q> in the widest sense that any agent; human, machine, or other can effectively access information and participate.</p>
-                </div>
-              </section>
-
-              <section id="interpretable" inlist="" rel="schema:hasPart" resource="#interpretable">
-                <h3 property="schema:name">Interpretable</h3>
-                <div datatype="rdf:HTML" property="schema:description">
                   <p>The <abbr title="Architecture of the World Wide Web">AWWW</abbr> states that agents, <em>interpret</em> available <q cite="https://www.w3.org/TR/webarch/#dereference-details">representation according to the data format specification that corresponds to the representation's Internet Media Type.</q> Here we can use the term <em>interpretation</em> in the general sense for both human and machine consumers of representations. An interpretation entails that a given content can be identified or discovered; comprehended in context of where and how it is used; as well being to put it to further use. Scientific and scholarly knowledge representations using information models that are based on Web standards brought through open consensus benefit from wide reuse.</p>
 
-                  <p id="interoperability"><strong>Interoperability</strong> is integral to achieving cooperative systems. One widely successful approach to have interoperable systems is through the adoption of open standards for protocols and languages that is achieved through consensus. As per Linked Data design principles, this is accomplished with HTTP for communication, URI for identification, and RDF as language. While a decentralised system can enable each entity to be autonomous, some level of agreement is needed on the network for communication to take place. Systems that are interoperable by design have the benefit of interacting with other systems without having prior and out-of-band knowledge about them. This kind of interoperability can be contrasted with <em>post-facto</em> interoperability that is typically due to propriety designs at the discretion of each party, and then bridging the systems with application adapters and semantic mappings. For example, given two systems, one system adopts the others' protocol, API, or format, or they build specialised mechanisms in order to communicate. Systems that do not use open standards or have specialised technological extensions that are only useful within their own environment are generally considered to be vendor lock-in solutions. Here we seek agreements on Web standards established through open consensus, as opposed to independent and individual design choices made in application implementations.</p>
+                  <p id="interoperability"><strong>Interoperability</strong>: is integral to achieving cooperative systems. One widely successful approach to have interoperable systems is through the adoption of open standards for protocols and languages that is achieved through consensus. As per Linked Data design principles, this is accomplished with HTTP for communication, URI for identification, and RDF as language. While a decentralised system can enable each entity to be autonomous, some level of agreement is needed on the network for communication to take place. Systems that are interoperable by design have the benefit of interacting with other systems without having prior and out-of-band knowledge about them. This kind of interoperability can be contrasted with <em>post-facto</em> interoperability that is typically due to propriety designs at the discretion of each party, and then bridging the systems with application adapters and semantic mappings. For example, given two systems, one system adopts the others' protocol, API, or format, or they build specialised mechanisms in order to communicate. Systems that do not use open standards or have specialised technological extensions that are only useful within their own environment are generally considered to be vendor lock-in solutions. Here we seek agreements on Web standards established through open consensus, as opposed to independent and individual design choices made in application implementations.</p>
 
                   <p>Systems vary on their degree of interoperability. For instance, a service may require their own user account or authentication mechanism to be used when interacting with data on the Web; users may have to use a particular application to access, create, share or reuse information; applications may need to be reconfigured to reuse the information that is created elsewhere. In the <a href="#acid-test">Acid Test</a> section I propose criteria to self-assess accessibility and interoperability of artefacts in scholarly communication.</p>
 
                   <p>There is a natural balance between having free expression of structure and semantics (through autonomy) and the degree of a communication (interoperability) among different parties to take place. At the same time, as centralisation of ideas is ultimately inescapable, interoperability influences or limits the choices a system can take. Hence, we embrace the notion of interoperability as a trade-off, ie. it is better to seek and adapt design patterns that are expected or intended to be better for the ecosystem as a whole than to adopt patterns that avoid this possibility. Hence, interoperability is a social construct with the intention of balancing autonomy and cooperative systems.</p>
 
                   <p>In order to have optimal means of discovery, exchanging, and reusing information, systems and data should opt for open standards and widely acknowledged best practices wherever possible. Linked Data technologies include some of the essentials to achieve this, and are well-suited to fulfil the four functions of scholarly communication on the Web.</p>
-                </div>
-              </section>
 
-              <section class="todo" id="social" inlist="" rel="schema:hasPart" resource="#social">
-                <h3 property="schema:name">Social</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>Today it would be difficult think of a Web without social functions. Perhaps the Web's support and ability to facilitate social interactions - above anything else - contributed towards transforming societies in the last quarter century. Just as the global village expedited all patterns of social interrelationships, the Web paved the way to organise interdisciplinary information in a manner that can be better discovered and reused.</p>
-
-                  <p>What/why Social Web...   the Web facilitates information exchange between agents.</p>
-
-                  <p>Involvement: From read-only (one way conversation) to read-write (two-way conversation). As well as group interaction.</p>
-
-                  <p>Social networking to social media..</p>
-
-                  <p>Retribalisation...</p>
-
-                  <p>Social features</p>
-
-                  <p> improve time scale - more real-time.. visible.. connection of the discussion to the article.. notification informs you instantaneously -- awareness.</p>
-
-                  <p>(Scholarly) Profiles - presentation of the self - / Identity</p>
+                  <p>Thus we refer to <q>universal access</q> in the widest sense that any agent; human, machine, or other can effectively access information and participate.</p>
                 </div>
               </section>
             </div>

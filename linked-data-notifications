@@ -563,7 +563,7 @@ Receiver-->Consumer:response]]></source><desc>LDN Consumer to Receiver</desc><de
 
               <p>All of the sender, receiver, and consumer reports are available in separate aggregate tables in <cite><a href="https://linkedresearch.org/ldn/tests/summary" rel="cito:citesAsEvidence">LDN Tests Summary</a></cite>. The summary is a <code>void:Dataset</code> where each report is linked as a <code>void:subset</code>. This makes individual reports alternatively findable if the exploration starts from the summary of all test results.</p>
 
-              <p>The test suite software fulfills the base required functionality of the LDN protocol. Next, I take a closer look at the LDN <a href="#linked-data-notifications-implementations">implementations</a>. Later I describe further details on how the LDN <a href="linked-research#linked-specifications-reports">specification and implementation reports</a> are interlinked and retrievable to facilitate their automated discovery and reuse in the Linked Research section.</p>
+              <p>The test suite software fulfills the base required functionality of the LDN protocol. Next, I take a closer look at the LDN <a href="#linked-data-notifications-implementations">implementations</a>. Later I describe further details on how the LDN <a href="linked-research#linked-specifications-reports">specification and implementation reports</a> are interlinked and retrievable to facilitate their automated discovery and reuse in <cite><a href="#linked-research">Linked Research</a></cite>.</p>
             </div>
           </section>
 
