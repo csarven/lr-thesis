@@ -950,7 +950,7 @@ support groups.</pre>
                     <li>Requiring cookies to be enabled in order to access the core content.</li>
                     <li>JavaScript-driven resources - forcing users to use certain software and enable JavaScript execution.</li>
                     <li>Resources (eg. articles, annotations) including tracking software.</li>
-                    <li>Resources are actively blocked or rate limited for content mining - preventing research.</li>
+                    <li>Resources are actively blocked, rate limited, restrictive terms and conditions on reuse for content mining - preventing further research.</li>
                     <li>Web crawlers are actively blocked - preventing archiving services to snapshot.</li>
                     <li>Non machine-readable content (proprietary implementation).</li>
                     <li>Resources including advertisements.</li>
