@@ -84,125 +84,62 @@
 
               <p>Figure X depicts an interplay of decentralised personal profiles, notifications, and annotations.</p>
 
-              <figure>
-<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com">
- <style>.resource{font-family:sans-serif;font-size:20px;}.relation{font-size:12px;font-family:monospace;}.predicate{font-size:14px;font-style:italic;}.legend{font-size:8px;font-family:sans-serif;}</style>
+              <figure id="examplar-information-space">
+<svg width="480" height="360" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com">
+ <style>.resource{font-family:sans-serif;font-size:20px;}.instance{font-size:18px;}.relation{font-size:14px;font-style:italic;}.predicate{font-size:14px;font-family:monospace;}.legend{font-size:10px;font-family:sans-serif;}</style>
  <title>Decentralised Information Space</title>
  <defs>
-  <marker id="se_marker_end_svg_25" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_4" stroke="#000000" stroke-width="10"/>
-  </marker>
-  <marker id="se_marker_end_svg_60" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_22" stroke="#000000" stroke-width="10"/>
-  </marker>
-  <marker id="se_marker_end_svg_65" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_33" stroke="#000000" stroke-width="10"/>
-  </marker>
-  <marker id="se_marker_end_svg_66" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_34" stroke="#000000" stroke-width="10"/>
-  </marker>
-  <marker id="se_marker_end_svg_67" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_37" stroke="#000000" stroke-width="10"/>
-  </marker>
   <marker id="se_marker_end_svg_71" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
    <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_55" stroke="#000000" stroke-width="10"/>
-  </marker>
-  <marker id="se_marker_end_svg_72" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_56" stroke="#000000" stroke-width="10"/>
-  </marker>
-  <marker id="se_marker_end_svg_77" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_69" stroke="#000000" stroke-width="10"/>
-  </marker>
-  <marker id="se_marker_end_svg_84" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_73" stroke="#000000" stroke-width="10"/>
-  </marker>
-  <marker id="se_marker_end_svg_94" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_1" stroke="#000000" stroke-width="10"/>
-  </marker>
-  <marker id="se_marker_end_svg_95" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_13" stroke="#000000" stroke-width="10"/>
   </marker>
   <marker id="se_marker_end_svg_78" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
    <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_15" stroke="#000000" stroke-width="10"/>
   </marker>
-  <marker id="se_marker_end_svg_98" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_20" stroke="#000000" stroke-width="10"/>
-  </marker>
   <marker id="se_marker_end_svg_99" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
    <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_10" stroke="#000000" stroke-width="10"/>
   </marker>
-  <marker id="se_marker_end_svg_32" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" se_type="rightarrow" viewBox="0 0 100 100">
-   <path d="m100,50l-100,40l30,-40l-30,-40z" fill="#000000" stroke="#000000" stroke-width="10"/>
+  <marker id="se_marker_end_svg_25" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
+   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_1" stroke="#000000" stroke-width="10"/>
+  </marker>
+  <marker id="se_marker_start_svg_25" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
+   <path d="m0,50l100,40l-30,-40l30,-40l-100,40z" fill="#000000" id="svg_4" stroke="#000000" stroke-width="10"/>
   </marker>
  </defs>
  <g class="layer">
   <title>information space</title>
-  <polyline fill="none" id="svg_32" marker-end="url(#se_marker_end_svg_32)" points="158.917,99.6632 325.417,110.955 491.916,122.246" se:connector="svg_41 svg_47" stroke="#000000" stroke-width="2"/>
-  <polyline fill="none" id="svg_99" marker-end="url(#se_marker_end_svg_99)" points="319.228,331.669 371.361,272.793 423.494,213.917" se:connector="svg_40 svg_49" stroke="#000000" stroke-width="2"/>
-  <polyline fill="none" id="svg_98" marker-end="url(#se_marker_end_svg_98)" points="503.916,349.358 427.575,349.286 351.233,349.214" se:connector="svg_48 svg_40" stroke="#000000" stroke-width="2"/>
-  <polyline fill="none" id="svg_95" marker-end="url(#se_marker_end_svg_95)" points="303.46,237.917 303.568,282.293 303.677,326.669" se:connector="svg_50 svg_40" stroke="#000000" stroke-width="2"/>
-  <polyline fill="none" id="svg_94" marker-end="url(#se_marker_end_svg_94)" points="114.541,115.917 93.0236,221.417 71.5058,326.917" se:connector="svg_41 svg_43" stroke="#000000" stroke-width="2"/>
-  <polyline fill="none" id="svg_84" marker-end="url(#se_marker_end_svg_84)" points="354.361,421.917 427.139,396.917 499.917,371.917" se:connector="svg_57 svg_48" stroke="#000000" stroke-linejoin="round" stroke-width="2"/>
-  <polyline fill="none" id="svg_78" marker-end="url(#se_marker_end_svg_78)" points="427.921,208.917 375.788,267.793 323.655,326.669" se:connector="svg_49 svg_40" stroke="#000000" stroke-linejoin="round" stroke-width="2"/>
-  <polyline fill="none" id="svg_77" marker-end="url(#se_marker_end_svg_77)" points="456.929,208.917 502.486,267.917 548.043,326.917" se:connector="svg_49 svg_48" stroke="#000000" stroke-linejoin="round" stroke-width="2"/>
-  <polyline fill="none" id="svg_72" marker-end="url(#se_marker_end_svg_72)" points="146.878,115.917 208.295,156.917 269.712,197.917" se:connector="svg_41 svg_50" stroke="#000000" stroke-linejoin="round" stroke-width="2"/>
-  <polyline fill="none" id="svg_71" marker-end="url(#se_marker_end_svg_71)" points="158.917,108.693 269.917,140.968 380.916,173.243" se:connector="svg_41 svg_49" stroke="#000000" stroke-width="2"/>
-  <polyline fill="none" id="svg_67" marker-end="url(#se_marker_end_svg_67)" points="261.232,349.214 185.075,349.293 108.917,349.373" se:connector="svg_40 svg_43" stroke="#000000" stroke-width="2"/>
-  <polyline fill="none" id="svg_66" marker-end="url(#se_marker_end_svg_66)" points="303.478,421.917 303.566,396.793 303.654,371.669" se:connector="svg_57 svg_40" stroke="#000000" stroke-linejoin="round" stroke-width="2"/>
-  <polyline fill="none" id="svg_65" marker-end="url(#se_marker_end_svg_65)" points="564.475,331.917 559.551,240.417 554.627,148.917" se:connector="svg_48 svg_47" stroke="#000000" stroke-linejoin="round" stroke-width="2"/>
-  <polyline fill="none" id="svg_60" marker-end="url(#se_marker_end_svg_60)" points="103.917,363.497 174.104,390.207 244.292,416.917" se:connector="svg_43 svg_57" stroke="#000000" stroke-linejoin="round" stroke-width="2"/>
-  <polyline fill="none" id="svg_25" marker-end="url(#se_marker_end_svg_25)" points="290.876,331.669 213.462,226.293 136.048,120.917" se:connector="svg_40 svg_41" stroke="#000000" stroke-linejoin="round" stroke-width="2"/>
-  <text class="predicate" fill="#000000" id="svg_6" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="352.5" y="311.36489">annotationService</text>
-  <text class="predicate" fill="#000000" id="svg_7" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="209.5" y="338.85957">inbox</text>
-  <text class="predicate" fill="#000000" id="svg_8" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="480.5" y="230.51295">contains</text>
-  <text class="predicate" fill="#000000" id="svg_9" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="388.3547" y="425.44465">object</text>
-  <text class="predicate" fill="#000000" id="svg_12" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="204.5" y="292.97063">author</text>
-  <text class="predicate" fill="#000000" id="svg_14" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="308.5" y="256.82557">contains</text>
-  <text class="predicate" fill="#000000" id="svg_16" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="219.6453" y="158.29134">outbox</text>
-  <text class="predicate" fill="#000000" id="svg_18" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="96.05" y="395.47391">contains</text>
-  <text class="predicate" fill="#000000" id="svg_19" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="311.16666" y="404.21504">target</text>
-  <text class="predicate" fill="#000000" id="svg_23" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="433.33337" y="342.71303">target</text>
-  <text class="predicate" fill="#000000" id="svg_29" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="571.16666" y="301.27065">body</text>
-  <text class="predicate" fill="#000000" id="svg_35" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="256.16666" y="130.39803">storage</text>
-  <text class="predicate" fill="#000000" id="svg_38" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="408.16666" y="244.42074">contains</text>
-  <text class="predicate" fill="#000000" id="svg_110" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="290.40655" y="99.33641">preferences</text>
-  <text class="predicate" fill="#000000" id="svg_21" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="55.82994" y="166.64644">inbox</text>
-  <text class="predicate" fill="#000000" id="svg_11" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="42.5" y="73.36908">knows</text>
-  <g id="svg_39">
-   <text class="resource" fill="#000000" id="svg_17" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="254.05" y="225.97921">Collection</text>
-   <path d="m263.75083,202.91666l99.16516,0c0.00028,0 0.00054,0.00003 0.00071,0.00009c0.00019,0.00005 0.0003,0.00013 0.0003,0.00021l-0.00101,29.16626c0,3.22172 -8.87977,5.83345 -19.8335,5.83345l-99.16517,0l0,0c-0.00055,0 -0.00099,-0.00013 -0.00099,-0.00029l0.00099,-29.16627l0,0c0,-3.22172 8.87977,-5.83345 19.83351,-5.83345l0,0z" fill="#000000" fill-opacity="0" id="svg_50" stroke="#000000"/>
-  </g>
-  <g id="svg_51">
-   <text class="resource" fill="#000000" id="svg_30" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="508.88335" y="356.21391">Annotation</text>
-   <path d="m524.41753,331.91666l102.49843,0c0.00029,0 0.00055,0.00003 0.00073,0.00009c0.0002,0.00005 0.00032,0.00013 0.00032,0.00021l-0.00105,29.16626c0,3.22172 -9.17824,5.83345 -20.50016,5.83345l-102.49844,0l0,0c-0.00057,0 -0.00103,-0.00013 -0.00103,-0.00029l0.00103,-29.16627l0,0c0,-3.22172 9.17824,-5.83345 20.50017,-5.83345l0,0l0,0z" fill="#000000" fill-opacity="0" id="svg_48" stroke="#000000"/>
-  </g>
-  <g id="svg_97">
-   <text class="resource" fill="#000000" id="svg_24" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="509.16666" y="132.35441">Resource</text>
-   <path d="m515.7508,108.91666l94.16525,0c0.00027,0 0.00051,0.00003 0.00067,0.00009c0.00019,0.00005 0.00029,0.00013 0.00029,0.00021l-0.00096,29.16626c0,3.22172 -8.43205,5.83345 -18.83349,5.83345l-94.16526,0l0,0c-0.00052,0 -0.00094,-0.00013 -0.00094,-0.00029l0.00094,-29.16627l0,0c0,-3.22172 8.43204,-5.83345 18.8335,-5.83345l0,0l0,0z" fill="#000000" fill-opacity="0" id="svg_47" stroke="#000000"/>
-  </g>
-  <g id="svg_26">
-   <path d="m275.39959,331.66918l70.83242,0c0.0002,0 0.00038,0.00003 0.00051,0.00008c0.00014,0.00006 0.00022,0.00013 0.00022,0.00022l-0.00072,29.16626c0,3.22172 -6.3427,5.83345 -14.16682,5.83345l-70.83242,0l0,0c-0.00039,0 -0.0007,-0.00014 -0.0007,-0.0003l0.0007,-29.16626l0,0c0,-3.22172 6.3427,-5.83345 14.16683,-5.83345l0,0l-0.00001,0l-0.00001,0z" fill="#000000" fill-opacity="0" id="svg_40" stroke="#000000"/>
-   <text class="resource" fill="#000000" font-family="null" font-size="null" id="svg_2" stroke="#000000" stroke-width="0" text-anchor="middle" x="301.16666" xml:space="preserve" y="355.63333">Article</text>
-  </g>
-  <g id="svg_42">
-   <text class="resource" fill="#000000" id="svg_3" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="38.5" y="355.08673">Inbox</text>
-   <path d="m42.25044,331.91666l61.66593,0c0.00018,0 0.00034,0.00003 0.00044,0.00009c0.00013,0.00005 0.00019,0.00013 0.00019,0.00021l-0.00063,29.16626c0,3.22172 -5.52189,5.83345 -12.33347,5.83345l-61.66594,0l0,0c-0.00034,0 -0.00062,-0.00013 -0.00062,-0.00029l0.00062,-29.16627l0,0c0,-3.22172 5.52189,-5.83345 12.33348,-5.83345l0,0l0,0z" fill="#000000" fill-opacity="0" id="svg_43" stroke="#000000"/>
-  </g>
-  <g id="svg_27">
-   <text class="resource" fill="#000000" id="svg_5" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="246.5" y="446.36901">Notification</text>
-   <path d="m260.41757,421.91667l107.49832,0c0.0003,0 0.00058,0.00003 0.00077,0.00008c0.00021,0.00006 0.00032,0.00013 0.00032,0.00021l-0.00109,29.16627c0,3.22172 -9.62596,5.83344 -21.50017,5.83344l-107.49832,0l0,0c-0.0006,0 -0.00108,-0.00013 -0.00108,-0.00029l0.00108,-29.16626l0,0c0,-3.22173 9.62595,-5.83345 21.50017,-5.83345l0,0l0,0l0,0z" fill="#000000" fill-opacity="0" id="svg_57" stroke="#000000"/>
-  </g>
-  <g id="svg_28">
-   <text class="resource" fill="#000000" font-weight="normal" id="svg_36" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="393.16666" y="197.4952">Container</text>
-   <path d="m405.08413,173.91666l95.83189,0c0.00027,0 0.00052,0.00003 0.00069,0.00009c0.00019,0.00005 0.00029,0.00013 0.00029,0.00021l-0.00098,29.16626c0,3.22172 -8.58128,5.83345 -19.16682,5.83345l-95.83191,0l0,0c-0.00053,0 -0.00095,-0.00013 -0.00095,-0.00029l0.00095,-29.16627l0,0c0,-3.22172 8.58129,-5.83345 19.16684,-5.83345l0,0z" fill="#000000" fill-opacity="0" id="svg_49" stroke="#000000"/>
-  </g>
+  <polyline fill="none" id="svg_99" marker-end="url(#se_marker_end_svg_99)" points="204.553,248.669 256.957,186.793 309.361,124.917" se:connector="svg_40 svg_49" stroke="#000000" stroke-width="2"/>
+  <polyline fill="none" id="svg_78" marker-end="url(#se_marker_end_svg_78)" points="313.596,119.917 261.192,181.793 208.788,243.669" se:connector="svg_49 svg_40" stroke="#000000" stroke-linejoin="round" stroke-width="2"/>
+  <polyline fill="none" id="svg_71" marker-end="url(#se_marker_end_svg_71)" points="119.917,65.992 192.917,78.745 265.916,91.4979" se:connector="svg_41 svg_49" stroke="#000000" stroke-width="2"/>
+  <polyline fill="none" id="svg_25" marker-end="url(#se_marker_end_svg_25)" marker-start="url(#se_marker_start_svg_25)" points="177.756,243.669 134.974,163.293 92.1913,82.9167" se:connector="svg_40 svg_41" stroke="#000000" stroke-linejoin="round" stroke-width="2"/>
+  <text class="relation" fill="#000000" id="svg_6" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="241.5" y="227.98083">annotationService</text>
+  <text class="relation" fill="#000000" id="svg_7" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="267.5" y="201.26265">inbox</text>
+  <text class="relation" fill="#000000" id="svg_8" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="299.5" y="160.18904">contains</text>
+  <text class="relation" fill="#000000" id="svg_12" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="103.5" y="219.64672">author</text>
+  <text class="relation" fill="#000000" id="svg_16" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="202.6453" y="44.74069">outbox</text>
+  <text class="relation" fill="#000000" id="svg_35" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="137.16666" y="55.06024">storage</text>
+  <text class="relation" fill="#000000" id="svg_110" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="29.40655" y="147.57704">preferences</text>
+  <text class="relation" fill="#000000" id="svg_21" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="203.82994" y="68.18371">inbox</text>
+  <text class="relation" fill="#000000" id="svg_11" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="41.5" y="115.6097">knows</text>
+  <text class="instance" fill="#000000" id="svg_3" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="397.5" y="99.91139">Inbox</text>
+  <text class="instance" fill="#000000" id="svg_17" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="326.05" y="70.26198">Collection</text>
+  <text class="instance" fill="#000000" id="svg_2" stroke="#000000" stroke-width="0" x="63.16666" y="279.63333">Article</text>
+  <text class="instance" fill="#000000" id="svg_30" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="183.88335" y="307.96405">Annotation</text>
+  <text class="instance" fill="#000000" id="svg_5" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="62.5" y="310.73507">Notification</text>
   <g id="svg_44">
-   <path d="m91.41717,77.91666l67.49914,0c0.0002,0 0.00037,0.00003 0.00048,0.00009c0.00015,0.00007 0.00021,0.00014 0.00021,0.00023l-0.00067,31.66623c0,3.49787 -6.04423,6.33346 -13.50015,6.33346l-67.49915,0l0,0c-0.00037,0 -0.00067,-0.00015 -0.00067,-0.00032l0.00067,-31.66623l0,0c0,-3.49787 6.04423,-6.33346 13.50015,-6.33346l0,0l0,0l-0.00001,0z" fill="#000000" fill-opacity="0" id="svg_41" stroke="#000000"/>
-   <text class="resource" fill="#000000" id="svg_31" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 0.995394, 0, 2.06665)" x="85.06935" y="103.87038">Profile</text>
+   <path d="m52.41717,39.91666l67.49914,0c0.0002,0 0.00037,0.00003 0.00048,0.00009c0.00015,0.00007 0.00021,0.00014 0.00021,0.00023l-0.00067,31.66623c0,3.49787 -6.04423,6.33346 -13.50015,6.33346l-67.49915,0l0,0c-0.00037,0 -0.00067,-0.00015 -0.00067,-0.00032l0.00067,-31.66623l0,0c0,-3.49787 6.04423,-6.33346 13.50015,-6.33346l0,0l0,0l-0.00001,0z" fill="#000000" fill-opacity="0" id="svg_41" stroke="#000000"/>
+   <text class="resource" fill="#000000" id="svg_31" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="46.06935" y="65.69454">Profile</text>
+  </g>
+  <g id="svg_47">
+   <text class="resource" fill="#000000" id="svg_24" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="142.16666" y="273.00224">Resource</text>
+   <path d="m154.06644,248.66918l89.16538,0c0.00025,0 0.00048,0.00003 0.00064,0.00008c0.00018,0.00006 0.00028,0.00013 0.00028,0.00022l-0.00091,29.16626c0,3.22172 -7.98433,5.83345 -17.8335,5.83345l-89.16538,0l0,0c-0.00049,0 -0.00088,-0.00014 -0.00088,-0.0003l0.00088,-29.16626l0,0c0,-3.22172 7.98433,-5.83345 17.83351,-5.83345l0,0l-0.00001,0l-0.00001,0z" fill="#000000" fill-opacity="0" id="svg_40" stroke="#000000"/>
+  </g>
+  <g id="svg_50">
+   <text class="resource" fill="#000000" font-weight="normal" id="svg_36" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="280.16666" y="107.07875">Container</text>
+   <path d="m290.08413,84.91666l95.83189,0c0.00027,0 0.00052,0.00003 0.00069,0.00009c0.00019,0.00005 0.00029,0.00013 0.00029,0.00021l-0.00098,29.16626c0,3.22172 -8.58128,5.83345 -19.16682,5.83345l-95.83191,0l0,0c-0.00053,0 -0.00095,-0.00013 -0.00095,-0.00029l0.00095,-29.16627l0,0c0,-3.22172 8.58129,-5.83345 19.16684,-5.83345l0,0z" fill="#000000" fill-opacity="0" id="svg_49" stroke="#000000"/>
   </g>
  </g>
 </svg>
-                <figcaption class="todo">Interplay of Personal Profiles, Notifications, and Annotations</figcaption>
+                <figcaption>Interplay of Profiles, Containers (Collections, Inbox), and Resources (Articles, Notifications, and Annotations)</figcaption>
               </figure>
             </div>
           </section>
