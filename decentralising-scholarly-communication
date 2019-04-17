@@ -113,7 +113,7 @@
               <p>Messages and operations in centralised or distributed systems <q>may be managed by a single root of trust or authority</q>. From this position <q>decentralized systems are a subset of distributed systems</q> where they <q>embody a complex set of relationships of trust between parties managing different aspects of the system</q>. These systems are conceived of as a graph where the nodes correspond to the components of the system, and the edges correspond to connections between them. From a global perspective, the Web is a decentralised system, however, it can have components which are disjoint from the rest of the graph. Figure <a href="#figure-centralised-decentralised-architectures">figure-centralised-decentralised-architectures</a> depicts the contrast between typical centralised and decentralised architectures.</p>
 
               <figure id="figure-centralised-decentralised-architectures" rel="schema:hasPart" resource="#figure-centralised-decentralised-architectures">
-                <object rel="schema:image" data="" type="image/svg+xml" width="900" height="300"></object>
+                <object rel="schema:image" data="https://dokie.li/proxy?uri=http://csarven.ca/media/images/articles/centralised-decentralised-architectures.svg" type="image/svg+xml" width="900" height="300"></object>
                 <figcaption class="todo" property="schema:name">Typical centralised and decentralised architectures</figcaption>
               </figure>
 
