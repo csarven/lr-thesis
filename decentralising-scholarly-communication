@@ -530,9 +530,29 @@
               </dl>
 
               <figure id="degree-of-control-actor-third-party">
-                <pre>                 |------ Identifiers --------|
-Actor controlled |------ Data ---------------| Third-party controlled
-                 |------ Applications -------|</pre>
+<svg width="360" height="240" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <style>.resource{font-family:sans-serif;font-size:20px;}.instance{font-size:16px;}.relation{font-size:14px;font-style:italic;}.predicate{font-size:14px;font-family:monospace;}.legend{font-size:12px;font-family:sans-serif;}</style>
+ <title>Degree of Control</title>
+ <g class="layer">
+  <title>Spectrum for Degree of Control</title>
+  <text class="resource" fill="#000000" id="svg_1" stroke="#000000" stroke-width="0" x="10" y="100">Actor</text>
+  <text class="resource" fill="#000000" id="svg_2" stroke="#000000" stroke-width="0" x="0" y="0">
+   <tspan id="svg_10" x="290" y="95">Third-</tspan>
+   <tspan id="svg_14" x="290" y="115">party</tspan>
+  </text>
+  <text class="instance" fill="#000000" id="svg_3" stroke="#000000" stroke-width="0" x="135" y="50">Identifier</text>
+  <text class="instance" fill="#000000" id="svg_4" stroke="#000000" stroke-width="0" x="135" y="150">Application</text>
+  <text class="instance" fill="#000000" id="svg_5" stroke="#000000" stroke-width="0" x="135" y="100">Data</text>
+  <text class="legend" fill="#000000" id="svg_6" stroke="#000000" stroke-width="0" x="220" y="208.83333">Degree of Control</text>
+  <line fill="none" id="svg_9" stroke="#000000" stroke-width="2" x1="80" x2="125" y1="96" y2="96"/>
+  <line fill="none" id="svg_17" stroke="#000000" stroke-width="2" x1="80" x2="125" y1="145" y2="145"/>
+  <line fill="none" id="svg_18" stroke="#000000" stroke-width="2" x1="80" x2="125" y1="46" y2="46"/>
+  <line fill="none" id="svg_19" stroke="#000000" stroke-width="2" x1="215" x2="275" y1="46" y2="46"/>
+  <line fill="none" id="svg_16" stroke="#000000" stroke-width="2" x1="180" x2="275" y1="96" y2="96"/>
+  <line fill="none" id="svg_20" stroke="#000000" stroke-width="2" x1="230" x2="275" y1="145" y2="145"/>
+ </g>
+</svg>
+
                 <figcaption>Degree of control (actor or third-party) for identifiers, data, and applications</figcaption>
               </figure>
 

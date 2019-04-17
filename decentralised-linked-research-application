@@ -85,7 +85,7 @@
               <p>Figure X depicts an interplay of decentralised personal profiles, notifications, and annotations.</p>
 
               <figure id="examplar-information-space">
-<svg width="480" height="360" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com">
+<svg width="480" height="360" xmlns="http://www.w3.org/2000/svg" xml:lang="en">
  <style>.resource{font-family:sans-serif;font-size:20px;}.instance{font-size:18px;}.relation{font-size:14px;font-style:italic;}.predicate{font-size:14px;font-family:monospace;}.legend{font-size:10px;font-family:sans-serif;}</style>
  <title>Decentralised Information Space</title>
  <defs>
@@ -107,10 +107,10 @@
  </defs>
  <g class="layer">
   <title>information space</title>
-  <polyline fill="none" id="svg_99" marker-end="url(#se_marker_end_svg_99)" points="204.553,248.669 256.957,186.793 309.361,124.917" se:connector="svg_40 svg_49" stroke="#000000" stroke-width="2"/>
-  <polyline fill="none" id="svg_78" marker-end="url(#se_marker_end_svg_78)" points="313.596,119.917 261.192,181.793 208.788,243.669" se:connector="svg_49 svg_40" stroke="#000000" stroke-linejoin="round" stroke-width="2"/>
-  <polyline fill="none" id="svg_71" marker-end="url(#se_marker_end_svg_71)" points="119.917,65.992 192.917,78.745 265.916,91.4979" se:connector="svg_41 svg_49" stroke="#000000" stroke-width="2"/>
-  <polyline fill="none" id="svg_25" marker-end="url(#se_marker_end_svg_25)" marker-start="url(#se_marker_start_svg_25)" points="177.756,243.669 134.974,163.293 92.1913,82.9167" se:connector="svg_40 svg_41" stroke="#000000" stroke-linejoin="round" stroke-width="2"/>
+  <polyline fill="none" id="svg_99" marker-end="url(#se_marker_end_svg_99)" points="204.553,248.669 256.957,186.793 309.361,124.917" stroke="#000000" stroke-width="2"/>
+  <polyline fill="none" id="svg_78" marker-end="url(#se_marker_end_svg_78)" points="313.596,119.917 261.192,181.793 208.788,243.669" stroke="#000000" stroke-linejoin="round" stroke-width="2"/>
+  <polyline fill="none" id="svg_71" marker-end="url(#se_marker_end_svg_71)" points="119.917,65.992 192.917,78.745 265.916,91.4979" stroke="#000000" stroke-width="2"/>
+  <polyline fill="none" id="svg_25" marker-end="url(#se_marker_end_svg_25)" marker-start="url(#se_marker_start_svg_25)" points="177.756,243.669 134.974,163.293 92.1913,82.9167" stroke="#000000" stroke-linejoin="round" stroke-width="2"/>
   <text class="relation" fill="#000000" id="svg_6" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="241.5" y="227.98083">annotationService</text>
   <text class="relation" fill="#000000" id="svg_7" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="267.5" y="201.26265">inbox</text>
   <text class="relation" fill="#000000" id="svg_8" stroke="#000000" stroke-width="0" transform="matrix(1, 0, 0, 1, 0, 2)" x="299.5" y="160.18904">contains</text>
