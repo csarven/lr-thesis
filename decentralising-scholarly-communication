@@ -376,7 +376,7 @@
                 <figcaption>An agent delegating another agent to act on its behalf.</figcaption>
               </figure>
 
-              <p>whereas the agent making requests on behalf of another agent would include the HTTP <code>On-Behalf-Of</code> header when making requests. The delegation mechanism</p>
+              <p>whereas the agent making requests on behalf of another agent would include the HTTP <code>On-Behalf-Of</code> header when making requests.</p>
 
               <p>The WebID-TLS workflow is based on open standards, broadly supported across platforms (covering servers, desktops, notebooks, phones, and other <abbr title="Internet of Things">IoT</abbr> devices), saves bandwidth, has low latency, and is simple to implement. Another attractive area for users using their own WebIDs along with self-signed certificates is that users can abstain from creating accounts for each Web application they use, as well as remember and manage usernames and passwords which are often vulnerable to phishing. A user sign-in process to authenticate themselves is as simple as "clicking" a button. Similarly, the certificate selection processed can be bypassed in that user can instruct its Web browser to select a certificate automatically if a server makes an authentication request. This sort of automatic authentication is not necessarily desirable for all interaction cases, simply because the user may wish to remain anonymous.</p>
 
