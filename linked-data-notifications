@@ -288,7 +288,7 @@
   <text fill="#000000" font-family="sans-serif" font-size="14px" id="svg_1" stroke="#000000" stroke-width="0" x="10" y="20">LDN Sender to Receiver</text>
   <rect fill="#ffffff" fill-opacity="0" height="30" id="svg_10" stroke="#000000" width="90" x="10" y="41"/>
   <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_2" stroke="#000000" stroke-width="0" x="20" y="63">Sender</text>
-  <rect fill="#ffffff" fill-opacity="0" height="30" id="svg_14" stroke="#000000" width="80" x="130" y="41"/>
+  <rect fill="#ffffff" fill-opacity="0" height="30" id="svg_14" stroke="#000000" width="83" x="130" y="41"/>
   <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_3" stroke="#000000" stroke-width="0" x="140" y="63">Target</text>
   <rect fill="#ffffff" fill-opacity="0" height="30" id="svg_8" stroke="#000000" width="110" x="240" y="41"/>
   <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_4" stroke="#000000" stroke-width="0" x="250" y="63">Receiver</text>
@@ -338,14 +338,14 @@
   <text fill="#000000" font-family="sans-serif" font-size="14px" id="svg_1" stroke="#000000" stroke-width="0" x="10" y="20">LDN Consumer to Receiver</text>
   <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_2" stroke="#000000" stroke-width="0" x="20" y="63">Consumer</text>
   <rect fill="#ffffff" fill-opacity="0" height="30" id="svg_10" stroke="#000000" width="125" x="10" y="41"/>
-  <rect fill="#ffffff" fill-opacity="0" height="30" id="svg_14" stroke="#000000" width="80" x="161" y="41"/>
+  <rect fill="#ffffff" fill-opacity="0" height="30" id="svg_14" stroke="#000000" width="83" x="161" y="41"/>
   <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_3" stroke="#000000" stroke-width="0" x="171" y="63">Target</text>
   <rect fill="#ffffff" fill-opacity="0" height="30" id="svg_8" stroke="#000000" width="110" x="271" y="41"/>
   <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_4" stroke="#000000" stroke-width="0" x="281" y="63">Receiver</text>
   <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_9" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" x="30" y="105">discover Inbox</text>
-  <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_12" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" x="87" y="135">response</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_12" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" x="116" y="135">response</text>
   <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_5" stroke="#000000" stroke-dasharray="2" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" x="30" y="185">get Inbox</text>
-  <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_13" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" x="198" y="215">response</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_13" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" x="226" y="215">response</text>
   <line fill="none" id="svg_7" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="20" x2="20" y1="71" y2="310"/>
   <line fill="none" id="svg_15" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="191" x2="191" y1="71" y2="310"/>
   <line fill="none" id="svg_16" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="301" x2="301" y1="71" y2="310"/>
@@ -354,7 +354,7 @@
   <line fill="none" id="svg_17" stroke="#000000" stroke-dasharray="2" stroke-linecap="null" stroke-linejoin="null" x1="20" x2="190" y1="140" y2="140"/>
   <line fill="none" id="svg_21" stroke="#000000" stroke-dasharray="2" stroke-linecap="null" stroke-linejoin="null" x1="20" x2="300" y1="220" y2="220"/>
   <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_23" stroke="#000000" stroke-dasharray="2" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" x="30" y="264.63333">get Inbox Notification</text>
-  <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_22" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" x="198.46667" y="294.63333">response</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_22" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" x="225.46667" y="294.63333">response</text>
   <line fill="none" id="svg_11" marker-end="url(#se_marker_end_svg_20)" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="20" x2="295" y1="270.63333" y2="270.63333"/>
   <line fill="none" id="svg_6" stroke="#000000" stroke-dasharray="2" stroke-linecap="null" stroke-linejoin="null" x1="20" x2="300" y1="300" y2="300"/>
  </g>
