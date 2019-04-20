@@ -84,7 +84,7 @@
 
                   <p>Actors' rental of personal and professional identifiers, as well as data storage from third-parties are subject to privacy issues. Actors typically manage multiple disconnected profiles, social connections, and data spaces.</p>
 
-                  <p>These class of problems in the scholarly ecosystem have implications on access, interoperability, findability, cost and privacy. Consequently, resulting in global deficiencies in the ecosystem. The research questions; technical research problems and knowledge questions, are aimed at understanding the internal mechanisms of these type of problems and address them for stakeholders.</p>
+                  <p>These class of problems in the scholarly ecosystem have implications on access, interoperability, findability, cost and privacy. Consequently, resulting in global deficiencies in the ecosystem. The research questions; <cite><a href="#technical-research-problems">technical research problems</a></cite> and <cite><a href="#knowled-questions">knowledge questions</a></cite>, are aimed at understanding the internal mechanisms of these type of problems and address them for stakeholders.</p>
                 </div>
               </section>
 
@@ -93,7 +93,7 @@
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>The technical goals of this thesis are, given the <a href="#problem-context">problem context</a>, to identify gaps in the Web standards landscape and to create new technical standards where necessary. A further goal is to demonstrate how existing and new standards and technologies can be used in combination as part of a user-facing  application for publishing and interacting with scholarly artefacts.</p>
 
-                  <p>The <a href="#research-questions">research questions</a> are geared towards meeting these goals.</p>
+                  <p>The <cite><a href="#research-questions">research questions</a></cite> are geared to meeting these goals.</p>
                 </div>
               </section>
 
@@ -142,7 +142,7 @@
               <section id="knowledge-questions" inlist="" rel="schema:hasPart" resource="#knowledge-questions">
                 <h3 property="schema:name">Knowledge Questions</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>The <a href="#knowledge-goals">knowledge goals</a> can be refined into following knowledge questions:</p>
+                  <p>The <cite><a href="#knowledge-goals">knowledge goals</a></cite> can be refined into following knowledge questions:</p>
 
                   <ul>
                     <li>How can we situate scholarly communication using the Web with respect to technological communication mediums and scientific paradigms?</li>
@@ -179,11 +179,11 @@
                     <dt><cite><a href="scholarly-communication-on-the-web">Scholarly Communication on the Web</a></cite></dt>
                     <dd>Answers knowledge questions to describe and explain characteristics of the Web and the state of scholarly communication on the Web.</dd>
                     <dt><cite><a href="structure-of-scholarly-information">Structure of Scholarly Information</a></cite></dt>
-                    <dd>Answers knowledge questions to identify common and available patterns to structure and for human- and machine-readable information.</dd>
+                    <dd>Answers knowledge questions to identify common structural and semantic patterns for human- and machine-readable information.</dd>
                     <dt><cite><a href="decentralising-scholarly-communication">Decentralising Scholarly Communication</a></cite></dt>
                     <dd>Answers knowledge questions pertaining to design of socially-aware decentralised systems, as well as classification of Web specifications for forces and functions in scientific communication.</dd>
                     <dt><cite><a href="linked-data-notifications">Linked Data Notifications</a></cite></dt>
-                    <dd>Answers technical research problem on how to design a decentralised notification protocol.</dd>
+                    <dd>Answers technical research problems on how to design a decentralised notification protocol.</dd>
                     <dt><cite><a href="decentralised-linked-research-application">Decentralised Linked Research Application</a></cite></dt>
                     <dd>Answers technical research problems on how to design a decentralised application.</dd>
                     <dt><cite><a href="linked-research">Linked Research</a></cite></dt>
@@ -229,7 +229,7 @@
 
                   <p><strong>Organisation</strong>: Historical and conceptual formats were used as organisation schemes. My observations and categorisations are in <a href="scholarly-communication-on-the-web">Scholarly Communication on the Web</a>, <a href="structure-of-scholarly-information">Structure of Scholarly Information</a> and <a href="decentralising-scholarly-communication">Decentralising Scholarly Communication</a>, and are first organised conceptually, and then chronologically ordered.</p>
 
-                  <p><strong>Audience</strong>: for anyone interested in traversing the connections and building on the underlying findings.</p>
+                  <p><strong>Audience</strong>: for anyone interested in traversing the connections and building on the underlying findings. See also <cite><a href="#audience">audience</a></cite>.</p>
                 </div>
               </section>
 
