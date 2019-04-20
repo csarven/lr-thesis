@@ -826,7 +826,7 @@ document.addEventListener('DOMContentLoaded', function(){
               <section id="social-reviews" inlist="" rel="schema:hasPart" resource="#social-reviews">
                 <h3 property="schema:name">Social Reviews</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>It is possible to use dokieli's create operations as a composite to fulfill social and scholarly activities. One common scenario includes soliciting reviews, reviewing, announcement of the review, and final decisions made by community members. Combining <a href="#creating-resources">creating resources</a>, <a href="#annotations">annotations</a> and <a href="#sharing-resources">sharing resources</a> in dokieli is as follows:</p>
+                  <p>It is possible to use dokieli's create operations as a composite to fulfill social and scholarly activities. One common scenario includes soliciting reviews, reviewing, announcement of the review, and final decisions made by community members. <a href="#cruding-resources">Creating resources</a>, <a href="#annotations">annotations</a> and <a href="#sharing-resources">sharing resources</a> in dokieli is as follows:</p>
 
                   <ul>
                     <li>Actor A publishes their article at preferred location.</li>
@@ -844,7 +844,7 @@ document.addEventListener('DOMContentLoaded', function(){
                     <figcaption>Soliciting reviews, reviewing, and announcements</figcaption>
                   </figure>
 
-                  <p>This particular scenario shows that it is possible for each actor to create and control resources, including articles, annotations, and notifications at their PDS or preferred locations. It is one way to combine standards-compliant mechanisms meanwhile actors can shape their content, self-publish, as well as share their works with other actors and services. In essence, the registration, certification, awareness, and archiving functions in scholarly communication are fulfilled in this scenario without a central authority.</p>
+                  <p>This particular scenario shows that it is possible for each actor to create and control resources, including articles, annotations, and notifications at their PDS or preferred locations. It is one way to combine standards-compliant mechanisms where actors can shape their content, self-publish, as well as share their works with other actors and services. In essence, the registration, certification, awareness, and archiving functions in scholarly communication are fulfilled in this scenario without a central authority.</p>
                 </div>
               </section>
 
