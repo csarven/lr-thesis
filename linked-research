@@ -25,7 +25,7 @@
 
           <p>The <cite><a href="#motivation">motivation</a></cite> of this thesis along with the <cite><a href="#research-goals">research goals</a></cite> and <cite><a href="#research-questions">questions</a></cite> can be used as a lens to configuring a scholarly communication ecosystem. I generalise the configuration to formulate the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> (<abbr title="Linked Research">LR</abbr>) notion and initiative.</p>
 
-          <p>I will first expand on the <cite><a href="#print-age">print age</a></cite> as the historical backdrop of scholarly communication by reviewing Eisenstein's investigation on <cite><a href="#the-printing-press-as-an-agent-of-change">The Printing Press as an Agent of Change</a></cite>. Next, I will formulate a set of <cite><a href="#design-principles">Design Principles</a></cite> by generalising the core qualities of the concepts and implementations exhibited in this thesis.</p>
+          <p>Next, I will formulate a set of <cite><a href="#design-principles">Design Principles</a></cite> by generalising the core qualities of the concepts and implementations exhibited in this thesis.</p>
 
           <section id="design-principles" inlist="" rel="schema:hasPart" resource="#design-principles">
             <h2 property="schema:name">Design Principles</h2>
