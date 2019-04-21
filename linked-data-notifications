@@ -336,10 +336,10 @@
  <g class="layer">
   <title>LDN Sender to Receiver</title>
   <text fill="#000000" font-family="sans-serif" font-size="14px" id="svg_1" stroke="#000000" stroke-width="0" x="10" y="20">LDN Consumer to Receiver</text>
-  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_2" stroke="#000000" stroke-width="0" x="20" y="63">Consumer</text>
   <rect fill="#ffffff" fill-opacity="0" height="30" id="svg_10" stroke="#000000" width="125" x="10" y="41"/>
-  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_3" stroke="#000000" stroke-width="0" x="171" y="63">Target</text>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_2" stroke="#000000" stroke-width="0" x="20" y="63">Consumer</text>
   <rect fill="#ffffff" fill-opacity="0" height="30" id="svg_14" stroke="#000000" width="83" x="161" y="41"/>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_3" stroke="#000000" stroke-width="0" x="171" y="63">Target</text>
   <rect fill="#ffffff" fill-opacity="0" height="30" id="svg_8" stroke="#000000" width="110" x="271" y="41"/>
   <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_4" stroke="#000000" stroke-width="0" x="281" y="63">Receiver</text>
   <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_9" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" x="30" y="105">discover Inbox</text>
