@@ -35,13 +35,22 @@
         <div datatype="rdf:HTML" property="schema:description">
           <blockquote cite="https://en.wikiquote.org/wiki/The_Matrix_Reloaded">
             <p>'Why' is the only real source of power, without it you are powerless.</p>
-            <footer><cite>Merovingian</cite>, <a href="https://en.wikiquote.org/wiki/The_Matrix_Reloaded">The Matrix Reloaded</a>, 2003</footer>
+            <footer><cite><a href="https://en.wikiquote.org/wiki/The_Matrix_Reloaded">The Matrix Reloaded</a></cite>, Merovingian, 2003</footer>
           </blockquote>
 
           <section id="motivation" inlist="" rel="schema:hasPart" resource="#motivation">
             <h2 property="schema:name">Motivation</h2>
             <div datatype="rdf:HTML" property="schame:description">
-              <p class="todo">What is my personal interest? Connections.</p>
+              <blockquote>
+                <p>Would you do me a favour? I'd like to stop talking for a minute and when I do, take a look at the room you're in and above all at the man-made objects in that room that surround you – the television set, the lights, the phone and so on – and ask yourself what those objects do to your life just because they're there. Go ahead.</p>
+                <footer><cite><a href="https://en.wikipedia.org/wiki/Connections_%28TV_series%29">Connections TV series</a></cite>, <a href="https://en.wikipedia.org/wiki/James_Burke_%28science_historian%29">James Burke</a>, 1979</footer>
+              </blockquote>
+
+              <p>Well, that is what this thesis is going to be all about. It is about the modern scholarly communication, and just because it is there, shapes the way we think and behave, and why it exists in the form it does, and who or what was responsible for it to exist at all. What is an alternative way of change?</p>
+
+              <p>The idiosyncratic relationships between technological breakthroughs and societal transformations throughout history are intrinsically intertwined. It was not until I came across the <cite><a href="https://en.wikipedia.org/wiki/Connections_%28TV_series%29">Connections TV series</a></cite> by James Burke that I had a glimpse of the phenomenon about increasingly interlinked human endeavours over time. After encountering Marshall McLuhan's theories on communication and how media has the power to shape and transform human nature, it was all clear (in my head). Given these realisations or perspectives as a foundation, being a Web technologist only enabled me to build the necessary connections between what was previously missing or underdeveloped. The rest was mostly a matter of struggling with the ghost in the machine and working alongside our shared social challenges.</p>
+
+              <p>My personal motivation for the underlying research has much to do with an array of experiences in how research communication is carried out in the Semantic Web field. The "too long; didn't read" version is that because it was next to impossible to change the social behaviour of my colleagues, ie. essentially using the paper-centric framework to create and disseminate public knowledge by waving their rights and handing it off to a third-party "publisher", all meanwhile the Web was point blank staring right at them! Hence, just to prove some Internet strangers wrong, I took the liberty to test the boundaries and demonstrate what the most recent communication medium - an extension of us - actually enabled.</p>
 
               <p id="information-society">I live in an <q><a href="https://en.wikipedia.org/wiki/Information_society">information society</a></q>, which makes use of variety of communication media to meet societal needs. The Web has shaped social policies and practices around the world, as well as influence the creation and use of other technologies. It has also reconfigured individuals to be active participants in global information exchange, as well as passive consumers partly due to the abundance of instantaneously available multimedia. To date - 30 years old as of this writing - the Web has served for "good" and "evil", nevertheless a net positive for the world. Like any human technology, what we devise and how we use them has societal implications.</p>
 
