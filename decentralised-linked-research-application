@@ -161,9 +161,10 @@
   <line fill="none" id="svg_52" stroke="#000000" stroke-dasharray="2" stroke-linecap="null" stroke-linejoin="null" x1="431.96667" x2="431.96667" y1="123.46667" y2="151.46667"/>
   <line fill="none" id="svg_53" stroke="#000000" stroke-dasharray="2" stroke-linecap="null" stroke-linejoin="null" x1="362.96667" x2="362.96667" y1="129.46667" y2="157.46667"/>
   <path d="m236.23,207.7c9.07,-59.74332 -15.88,-79.8 -15.88,-79.8" fill="none" id="svg_28" marker-end="url(#se_marker_end_svg_28)" stroke="#000" stroke-width="1px"/>
-  <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_35" stroke="#000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="269.83334" xml:space="preserve" y="192.7">creator</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_35" stroke="#000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="269.83334" xml:space="preserve" y="188.7">creator</text>
   <path d="m14.33667,306.73332c-7.17605,-118.13903 12.56402,-157.79999 12.56402,-157.79999" fill="none" id="svg_59" marker-end="url(#se_marker_end_svg_28)" stroke="#000" stroke-width="1px"/>
   <path d="m61.0033,209.73334c-5.65298,-58.24599 9.89739,-77.8 9.89739,-77.8" fill="none" id="svg_60" marker-end="url(#se_marker_end_svg_28)" stroke="#000" stroke-width="1px"/>
+  <path d="m390.05859,194.73333c5.51618,-50.0107 -9.65787,-66.8 -9.65787,-66.8" fill="none" id="svg_61" marker-end="url(#se_marker_end_svg_28)" stroke="#000" stroke-width="1px"/>
  </g>
 </svg>
                 <figcaption>Interplay of Profiles, Articles, Notifications, and Annotations</figcaption>
