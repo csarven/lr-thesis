@@ -85,59 +85,88 @@
               <p>The following figure depicts a generalisation of a decentralised information space with emphasis on personal profiles, generic containers for articles, notifications, and annotations.</p>
 
               <figure id="examplar-information-space">
-<svg width="480" height="360" xmlns="http://www.w3.org/2000/svg" xml:lang="en">
- <title>Decentralised Information Space</title>
+<svg width="480" height="360" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
  <defs>
-  <marker id="se_marker_end_svg_71" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_55" stroke="#000000" stroke-width="10"/>
+  <marker id="se_marker_end_svg_8" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
+   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_4" stroke="#000000" stroke-width="10"/>
   </marker>
-  <marker id="se_marker_end_svg_78" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_15" stroke="#000000" stroke-width="10"/>
+  <marker id="se_marker_end_svg_9" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
+   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_5" stroke="#000000" stroke-width="10"/>
   </marker>
-  <marker id="se_marker_end_svg_99" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_10" stroke="#000000" stroke-width="10"/>
+  <marker id="se_marker_end_svg_10" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
+   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_6" stroke="#000000" stroke-width="10"/>
   </marker>
-  <marker id="se_marker_end_svg_25" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_1" stroke="#000000" stroke-width="10"/>
+  <marker id="se_marker_end_svg_11" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
+   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_7" stroke="#000000" stroke-width="10"/>
   </marker>
-  <marker id="se_marker_start_svg_25" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-   <path d="m0,50l100,40l-30,-40l30,-40l-100,40z" fill="#000000" id="svg_4" stroke="#000000" stroke-width="10"/>
+  <marker id="se_marker_end_svg_12" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
+   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_16" stroke="#000000" stroke-width="10"/>
+  </marker>
+  <marker id="se_marker_end_svg_14" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
+   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_20" stroke="#000000" stroke-width="10"/>
+  </marker>
+  <marker id="se_marker_end_svg_32" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
+   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_26" stroke="#000000" stroke-width="10"/>
+  </marker>
+  <marker id="se_marker_end_svg_28" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
+   <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000" id="svg_56" stroke="#000" stroke-width="10"/>
   </marker>
  </defs>
- <g>
-  <polyline fill="none" id="svg_99" marker-end="url(#se_marker_end_svg_99)" points="204.553,248.669 256.957,186.793 309.361,124.917" stroke="#000000" stroke-width="2"/>
-  <polyline fill="none" id="svg_78" marker-end="url(#se_marker_end_svg_78)" points="313.596,119.917 261.192,181.793 208.788,243.669" stroke="#000000" stroke-linejoin="round" stroke-width="2"/>
-  <polyline fill="none" id="svg_71" marker-end="url(#se_marker_end_svg_71)" points="119.917,65.992 192.917,78.745 265.916,91.4979" stroke="#000000" stroke-width="2"/>
-  <polyline fill="none" id="svg_25" marker-end="url(#se_marker_end_svg_25)" marker-start="url(#se_marker_start_svg_25)" points="177.756,243.669 134.974,163.293 92.1913,82.9167" stroke="#000000" stroke-linejoin="round" stroke-width="2"/>
-  <text font-family="sans-serif" font-size="14px" font-style="italic" fill="#000000" id="svg_6" stroke="#000000" stroke-width="0" x="241.5" y="227.98083">annotationService</text>
-  <text font-family="sans-serif" font-size="14px" font-style="italic" fill="#000000" id="svg_7" stroke="#000000" stroke-width="0" x="267.5" y="201.26265">inbox</text>
-  <text font-family="sans-serif" font-size="14px" font-style="italic" fill="#000000" id="svg_8" stroke="#000000" stroke-width="0" x="299.5" y="160.18904">contains</text>
-  <text font-family="sans-serif" font-size="14px" font-style="italic" fill="#000000" id="svg_12" stroke="#000000" stroke-width="0" x="103.5" y="219.64672">author</text>
-  <text font-family="sans-serif" font-size="14px" font-style="italic" fill="#000000" id="svg_16" stroke="#000000" stroke-width="0" x="202.6453" y="44.74069">outbox</text>
-  <text font-family="sans-serif" font-size="14px" font-style="italic" fill="#000000" id="svg_35" stroke="#000000" stroke-width="0" x="137.16666" y="55.06024">storage</text>
-  <text font-family="sans-serif" font-size="14px" font-style="italic" fill="#000000" id="svg_110" stroke="#000000" stroke-width="0" x="29.40655" y="147.57704">preferences</text>
-  <text font-family="sans-serif" font-size="14px" font-style="italic" fill="#000000" id="svg_21" stroke="#000000" stroke-width="0" x="203.82994" y="68.18371">inbox</text>
-  <text font-family="sans-serif" font-size="14px" font-style="italic" fill="#000000" id="svg_11" stroke="#000000" stroke-width="0" x="41.5" y="115.6097">knows</text>
-  <text font-family="sans-serif" font-size="16px" fill="#000000" id="svg_3" stroke="#000000" stroke-width="0" x="397.5" y="99.91139">Inbox</text>
-  <text font-family="sans-serif" font-size="16px" fill="#000000" id="svg_17" stroke="#000000" stroke-width="0" x="326.05" y="70.26198">Collection</text>
-  <text font-family="sans-serif" font-size="16px" fill="#000000" id="svg_2" stroke="#000000" stroke-width="0" x="63.16666" y="279.63333">Article</text>
-  <text font-family="sans-serif" font-size="16px" fill="#000000" id="svg_30" stroke="#000000" stroke-width="0" x="183.88335" y="307.96405">Annotation</text>
-  <text font-family="sans-serif" font-size="16px" fill="#000000" id="svg_5" stroke="#000000" stroke-width="0" x="62.5" y="310.73507">Notification</text>
-  <g id="svg_44">
-   <path d="m52.41717,39.91666l67.49914,0c0.0002,0 0.00037,0.00003 0.00048,0.00009c0.00015,0.00007 0.00021,0.00014 0.00021,0.00023l-0.00067,31.66623c0,3.49787 -6.04423,6.33346 -13.50015,6.33346l-67.49915,0l0,0c-0.00037,0 -0.00067,-0.00015 -0.00067,-0.00032l0.00067,-31.66623l0,0c0,-3.49787 6.04423,-6.33346 13.50015,-6.33346l0,0l0,0l-0.00001,0z" fill="#000000" fill-opacity="0" id="svg_41" stroke="#000000"/>
-   <text font-family="sans-serif" font-size="20px" fill="#000000" id="svg_31" stroke="#000000" stroke-width="0" x="46.06935" y="65.69454">Profile</text>
-  </g>
-  <g id="svg_47">
-   <text font-family="sans-serif" font-size="20px" fill="#000000" id="svg_24" stroke="#000000" stroke-width="0" x="142.16666" y="273.00224">Resource</text>
-   <path d="m154.06644,248.66918l89.16538,0c0.00025,0 0.00048,0.00003 0.00064,0.00008c0.00018,0.00006 0.00028,0.00013 0.00028,0.00022l-0.00091,29.16626c0,3.22172 -7.98433,5.83345 -17.8335,5.83345l-89.16538,0l0,0c-0.00049,0 -0.00088,-0.00014 -0.00088,-0.0003l0.00088,-29.16626l0,0c0,-3.22172 7.98433,-5.83345 17.83351,-5.83345l0,0l-0.00001,0l-0.00001,0z" fill="#000000" fill-opacity="0" id="svg_40" stroke="#000000"/>
-  </g>
-  <g id="svg_50">
-   <text font-family="sans-serif" font-size="20px" fill="#000000" font-weight="normal" id="svg_36" stroke="#000000" stroke-width="0" x="280.16666" y="107.07875">Container</text>
-   <path d="m290.08413,84.91666l95.83189,0c0.00027,0 0.00052,0.00003 0.00069,0.00009c0.00019,0.00005 0.00029,0.00013 0.00029,0.00021l-0.00098,29.16626c0,3.22172 -8.58128,5.83345 -19.16682,5.83345l-95.83191,0l0,0c-0.00053,0 -0.00095,-0.00013 -0.00095,-0.00029l0.00095,-29.16627l0,0c0,-3.22172 8.58129,-5.83345 19.16684,-5.83345l0,0z" fill="#000000" fill-opacity="0" id="svg_49" stroke="#000000"/>
-  </g>
+ <g class="layer">
+  <title>Layer 1</title>
+  <polyline fill="none" id="svg_14" marker-end="url(#se_marker_end_svg_14)" points="111.917,244.115 154.167,244.042 196.417,243.968" se:connector="svg_41 svg_45" stroke="#000000"/>
+  <polyline fill="none" id="svg_12" marker-end="url(#se_marker_end_svg_12)" points="369.193,287.831 381.405,255.686 393.618,223.542" se:connector="svg_19 svg_38" stroke="#000000"/>
+  <polyline fill="none" id="svg_11" marker-end="url(#se_marker_end_svg_11)" points="345.405,300.724 295.652,277.071 245.899,253.417" se:connector="svg_19 svg_45" stroke="#000000"/>
+  <polyline fill="none" id="svg_10" marker-end="url(#se_marker_end_svg_10)" points="367.917,218.767 311.667,228.729 255.417,238.692" se:connector="svg_38 svg_45" stroke="#000000"/>
+  <polyline fill="none" id="svg_9" marker-end="url(#se_marker_end_svg_9)" points="225.924,253.417 225.948,282.531 225.971,311.646" se:connector="svg_45 svg_34" stroke="#000000"/>
+  <polyline fill="none" id="svg_8" marker-end="url(#se_marker_end_svg_8)" points="49.403,311.5 63.4583,282.833 77.5137,254.167" se:connector="svg_15 svg_41" stroke="#000000"/>
+  <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_17" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="189.71666" xml:space="preserve" y="275.14999">replying</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_18" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="315" xml:space="preserve" y="313.16667">target</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_21" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="268" xml:space="preserve" y="95.16667">knows</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_23" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="96.91667" xml:space="preserve" y="302.45831">target</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_24" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="400.91667" xml:space="preserve" y="285.45831">object</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_25" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="53" xml:space="preserve" y="347.16667">Annotation</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_27" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="366" xml:space="preserve" y="346.16667">Notification</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_29" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="220.91667" xml:space="preserve" y="228.45831">Article</text>
+  <path d="m70.0225,104.80861l19,0m-9.45661,8.15526l9.28311,9.10959m-9.28311,-9.19635l-8.6758,9.19635m8.63242,-20.0411l0,10.84475m2.88403,-13.77351c0,1.5928 -1.29122,2.88403 -2.88403,2.88403c-1.5928,0 -2.88403,-1.29122 -2.88403,-2.88403c0,-1.5928 1.29122,-2.88403 2.88403,-2.88403c1.5928,0 2.88403,1.29122 2.88403,2.88403z" fill="#000000" fill-opacity="0.01" id="svg_31" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+  <path d="m74.00002,311.50001l-11.80001,19.99999l-47.20002,0l11.80001,-19.99999l47.20002,0z" fill="#000000" fill-opacity="0.01" id="svg_15" stroke="#000000"/>
+  <path d="m345.40464,328.83124l6,-41l20,0l6,41l-32,0z" fill="#000000" fill-opacity="0.01" id="svg_19" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+  <path d="m29.41667,118.57876l19,0m-9.45661,8.15526l9.28311,9.10959m-9.28311,-9.19635l-8.6758,9.19635m8.63242,-20.0411l0,10.84475m2.88403,-13.77351c0,1.5928 -1.29122,2.88403 -2.88403,2.88403c-1.5928,0 -2.88403,-1.29122 -2.88403,-2.88403c0,-1.5928 1.29122,-2.88403 2.88403,-2.88403c1.5928,0 2.88403,1.29122 2.88403,2.88403z" fill="#000000" fill-opacity="0.01" id="svg_22" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+  <path d="m423.1434,109.69369l19,0m-9.45661,8.15526l9.28311,9.10959m-9.28311,-9.19635l-8.6758,9.19635m8.63242,-20.0411l0,10.84475m2.88403,-13.77351c0,1.5928 -1.29122,2.88403 -2.88403,2.88403c-1.5928,0 -2.88403,-1.29122 -2.88403,-2.88403c0,-1.5928 1.29122,-2.88403 2.88403,-2.88403c1.5928,0 2.88403,1.29122 2.88403,2.88403z" fill="#000000" fill-opacity="0.01" id="svg_33" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+  <path d="m116.53756,106.46384l19,0m-9.45661,8.15526l9.28311,9.10959m-9.28311,-9.19635l-8.6758,9.19635m8.63242,-20.0411l0,10.84475m2.88403,-13.77351c0,1.5928 -1.29122,2.88403 -2.88403,2.88403c-1.5928,0 -2.88403,-1.29122 -2.88403,-2.88403c0,-1.5928 1.29122,-2.88403 2.88403,-2.88403c1.5928,0 2.88403,1.29122 2.88403,2.88403z" fill="#000000" fill-opacity="0.01" id="svg_30" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+  <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_37" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="230.39584" xml:space="preserve" y="347.10415">Article</text>
+  <path d="m196.47916,311.64584l11.8,18.99999l47.19999,0l-11.8,-18.99999l-47.19999,0z" fill="#000000" fill-opacity="0.01" id="svg_34" stroke="#000000"/>
+  <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_39" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="431.91667" xml:space="preserve" y="239.20834">Annotation</text>
+  <path d="m426.91669,203.54168l-11.80001,19.99999l-47.20002,0l11.80001,-19.99999l47.20002,0z" fill="#000000" fill-opacity="0.01" id="svg_38" stroke="#000000"/>
+  <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_40" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="338.625" xml:space="preserve" y="212.45834">target</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_42" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="74.91667" xml:space="preserve" y="227.83334">Annotation</text>
+  <path d="m111.91669,234.16668l-11.80001,19.99999l-47.20002,0l11.80001,-19.99999l47.20002,0z" fill="#000000" fill-opacity="0.01" id="svg_41" stroke="#000000"/>
+  <path d="m352.41667,109.57876l19,0m-9.45661,8.15526l9.28311,9.10959m-9.28311,-9.19635l-8.6758,9.19635m8.63242,-20.0411l0,10.84475m2.88403,-13.77351c0,1.5928 -1.29122,2.88403 -2.88403,2.88403c-1.5928,0 -2.88403,-1.29122 -2.88403,-2.88403c0,-1.5928 1.29122,-2.88403 2.88403,-2.88403c1.5928,0 2.88403,1.29122 2.88403,2.88403z" fill="#000000" fill-opacity="0.01" id="svg_44" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+  <path d="m196.41668,234.41667l11.8,18.99999l47.19999,0l-11.8,-18.99999l-47.19999,0z" fill="#000000" fill-opacity="0.01" id="svg_45" stroke="#000000"/>
+  <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_46" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="250.98334" xml:space="preserve" y="51.41667">preferences</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_47" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="169.98334" xml:space="preserve" y="51.41667">storage</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_48" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="160.98334" xml:space="preserve" y="72.41667">inbox</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_49" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="230.98334" xml:space="preserve" y="72.41667">outbox</text>
+  <path d="m173.41595,100.79419l39.68456,0m-19.75166,17.03357l19.38926,19.02684m-19.38928,-19.20806l-18.1208,19.20805m18.0302,-41.85905l0,22.651m6.02375,-28.76819c0,3.32683 -2.69692,6.02375 -6.02375,6.02375c-3.32683,0 -6.02375,-2.69692 -6.02375,-6.02375c0,-3.32683 2.69693,-6.02375 6.02375,-6.02375c3.32683,0 6.02375,2.69693 6.02375,6.02375z" fill="#000000" fill-opacity="0.01" id="svg_50" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="null"/>
+  <ellipse cx="118.89999" cy="172.25" fill="none" id="svg_2" rx="110" ry="13.5" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null"/>
+  <text fill="#000000" font-family="sans-serif" font-size="16" id="svg_1" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="199" xml:space="preserve" y="20">Profiles, Articles, Notifications, and Annotations</text>
+  <ellipse cx="393.95" cy="153.95" fill="none" id="svg_3" rx="73" ry="11" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null"/>
+  <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_13" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="143.675" xml:space="preserve" y="232.90001">target</text>
+  <line fill="none" id="svg_32" marker-end="url(#se_marker_end_svg_32)" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="244.95001" x2="307" y1="104.35001" y2="111"/>
+  <line fill="none" id="svg_17" stroke="#000000" stroke-dasharray="2" stroke-linecap="null" stroke-linejoin="null" x1="191" x2="191" y1="135" y2="175"/>
+  <line fill="none" id="svg_36" stroke="#000000" stroke-dasharray="2" stroke-linecap="null" stroke-linejoin="null" x1="126.96667" x2="126.96667" y1="126.46667" y2="166.46667"/>
+  <line fill="none" id="svg_43" stroke="#000000" stroke-dasharray="2" stroke-linecap="null" stroke-linejoin="null" x1="81.96667" x2="81.96667" y1="126.46667" y2="174"/>
+  <line fill="none" id="svg_51" stroke="#000000" stroke-dasharray="2" stroke-linecap="null" stroke-linejoin="null" x1="40.96667" x2="40.96667" y1="140" y2="168"/>
+  <line fill="none" id="svg_52" stroke="#000000" stroke-dasharray="2" stroke-linecap="null" stroke-linejoin="null" x1="431.96667" x2="431.96667" y1="123.46667" y2="151.46667"/>
+  <line fill="none" id="svg_53" stroke="#000000" stroke-dasharray="2" stroke-linecap="null" stroke-linejoin="null" x1="362.96667" x2="362.96667" y1="129.46667" y2="157.46667"/>
+  <path d="m236.23,207.7c9.07,-59.74332 -15.88,-79.8 -15.88,-79.8" fill="none" id="svg_28" marker-end="url(#se_marker_end_svg_28)" stroke="#000" stroke-width="1px"/>
+  <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_35" stroke="#000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="269.83334" xml:space="preserve" y="192.7">creator</text>
+  <path d="m14.33667,306.73332c-7.17605,-118.13903 12.56402,-157.79999 12.56402,-157.79999" fill="none" id="svg_59" marker-end="url(#se_marker_end_svg_28)" stroke="#000" stroke-width="1px"/>
+  <path d="m61.0033,209.73334c-5.65298,-58.24599 9.89739,-77.8 9.89739,-77.8" fill="none" id="svg_60" marker-end="url(#se_marker_end_svg_28)" stroke="#000" stroke-width="1px"/>
  </g>
 </svg>
-                <figcaption>Interplay of Profiles, Containers (Collections, Inbox), and Resources (Articles, Notifications, and Annotations)</figcaption>
+                <figcaption>Interplay of Profiles, Articles, Notifications, and Annotations</figcaption>
               </figure>
             </div>
           </section>
