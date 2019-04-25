@@ -654,7 +654,7 @@ The adoption of a Web-centric communication flow in the scholarly ecosystem enab
 
                       <p>In the 1962 book, <cite><a href="http://www.worldcat.org/oclc/993539009" rel="schema:url">The Gutenberg Galaxy</a></cite>, <a href="https://en.wikipedia.org/wiki/Marshall_McLuhan">Marshall McLuhan</a> explains how the adoption of new technological mediums shifted human culture in Europe through four eras, with emphasis placed on extending our senses:</p>
 
-                      <ol type="lower-roman">
+                      <ol type="i">
                         <li>acoustic age (c. until 800 BCE); audile-tactile, preliterate tribal culture,</li>
                         <li>age of writing (c. 800 BCE to 1500 CE); audile/visual, manuscript culture,</li>
                         <li>age of print (c. 1500 to 1850 CE); visual, mechanical mass communication,</li>
