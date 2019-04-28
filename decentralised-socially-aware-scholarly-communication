@@ -5241,7 +5241,7 @@ document.addEventListener('DOMContentLoaded', function(){
     <svg id="ca3be078-66ae-11e9-94b3-d3d66a457b53" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="480" height="320" version="1.1" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# xsd: http://www.w3.org/2001/XMLSchema# schema: https://schema.org/" xml:lang="en" rel="schema:isPartOf" resource="http://csarven.ca/linked-specifications-reports">
       <metadata><tspan rel="schema:license" resource="https://creativecommons.org/licenses/by/4.0/"></tspan><tspan rel="schema:creator" resource="http://csarven.ca/#i"></tspan></metadata>
       <title about="" property="schema:name">Linked Specifications, Test Suites, Implementation reports</title>
-      <style>#ca3be078-66ae-11e9-94b3-d3d66a457b53 text{font-family:sans-serif;} #ca3be078-66ae-11e9-94b3-d3d66a457b53 .link{font-size:13px;font-style:italic;} #ca3be078-66ae-11e9-94b3-d3d66a457b53 .predicate{font-size:13px;font-style:italic;}.actor{font-size:16px;}</style>
+      <style>#ca3be078-66ae-11e9-94b3-d3d66a457b53 text{font-family:sans-serif;} #ca3be078-66ae-11e9-94b3-d3d66a457b53 .link{font-size:13px;font-style:italic;} #ca3be078-66ae-11e9-94b3-d3d66a457b53 .predicate{font-size:13px;font-style:italic;} .actor{font-size:16px;} #ca3be078-66ae-11e9-94b3-d3d66a457b53 marker{overflow:visible;}</style>
 
       <defs>
         <marker id="marker1603-8-0" orient="auto">
@@ -5277,7 +5277,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
         <a href="https://www.w3.org/TR/ldn/" target="_blank"><text fill="#00e" class="link" x="4" y="196">https://www.w3.org/TR/ldn/</text></a>
         <a href="http://csarven.ca/linked-data-notifications" target="_blank"><text fill="#00e" class="link" x="4" y="312">http://csarven.ca/linked-data-notifications</text></a>
-        <a href="https://dokie.li/" target="_blank"><text class="link" x="4" y="16">https://dokie.li/</text></a>
+        <a href="https://dokie.li/" target="_blank"><text fill="#00e" class="link" x="4" y="16">https://dokie.li/</text></a>
         <a href="https://linkedresearch.org/ldn/tests/summary" target="_blank"><text fill="#00e" class="link" x="171" y="141">https://linkedresearch.org/ldn/tests/summary</text></a>
         <a href="https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753" target="_blank"><text fill="#00e" class="link" x="183" y="27"><tspan x="183" y="27">https://linkedresearch.org/ldn/tests/reports/</tspan><tspan x="183" y="43">2c5af2f0-f832-11e6-a642-0dd857219753</tspan></text></a>
         <a href="https://linkedresearch.org/ldn/tests/" target="_blank"><text fill="#00e" class="link" x="232" y="270">https://linkedresearch.org/ldn/tests/</text></a>
