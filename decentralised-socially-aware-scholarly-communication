@@ -5047,7 +5047,7 @@ document.addEventListener('DOMContentLoaded', function(){
                 <footer>Attributed to <cite><a href="https://en.wikipedia.org/wiki/Buckminster_Fuller">Buckminster Fuller</a></cite>.</footer>
               </blockquote>
 
-              <p>The <cite><a href="#motivation">motivation</a></cite> of this thesis along with the <cite><a href="#research-goals">research goals</a></cite> and <cite><a href="#research-questions">questions</a></cite> can be used as a lens to configuring a scholarly communication ecosystem. I generalise the configuration to formulate the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> (<abbr title="Linked Research">LR</abbr>) notion and initiative.</p>
+              <p>The <cite><a href="#motivation">motivation</a></cite> of this thesis along with the <cite><a href="#research-goals">research goals</a></cite> and <cite><a href="#research-questions">questions</a></cite> can be used as a lens to configuring <em>a</em> scholarly communication ecosystem. I generalise the configuration to formulate the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> (<abbr title="Linked Research">LR</abbr>) notion and initiative.</p>
 
               <p>Next, I will formulate a set of <cite><a href="#design-principles">Design Principles</a></cite> by generalising the core qualities of the concepts and implementations exhibited in this thesis.</p>
 
@@ -5381,7 +5381,9 @@ document.addEventListener('DOMContentLoaded', function(){
               <section id="linked-research-as-a-paradigm" inlist="" rel="schema:hasPart" resource="#linked-research-as-a-paradigm">
                 <h3 property="schema:name">Linked Research as a Paradigm</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>I will use Kuhn's five characteristics - <a href="#objectivity-value-judgment-and-theory-choice">accuracy, consistency, scope, simplicity, and fruitfulness</a> - to measure the quality of <cite>Linked Research</cite> as a shared paradigm for scholarly communication on the Web. The criteria is not intended to be exhaustive but, rather, used to cover varied aspects to situate LR. I provide these descriptions for the purpose of assisting <a href="#stakeholders">stakeholders</a> gain a perspective on LR's values, facilitate determining its adequacy for use, as well as to evaluate LR against other models.</p>
+                  <p>With the arrival and the adoption of the Web by the masses, a <q>paradigm shift</q> - from print to electric - had occurred. Sociotechnical advancements in the past three decades in context of the Web serves as an evidence of the shift towards using the Web as a primary environment (medium) for "normal" scholarly communication. Put into historical perspective, we are indeed operating in the early phase of this new paradigm. Thus, I content that all advancements - no matter how radical they appear or claim to be - still operate within the framework of the Web, regardless of content shaped as if for print, being accessible to the privileged, controlled by third-party entities, and so forth.</p>
+
+                  <p>I will use Kuhn's five characteristics - <a href="#objectivity-value-judgment-and-theory-choice">accuracy, consistency, scope, simplicity, and fruitfulness</a> - to measure the quality of <cite>Linked Research</cite> as a shared <em>sub-</em>paradigm for scholarly communication on the Web. The criteria is not intended to be exhaustive but, rather, used to cover varied aspects to situate LR. I provide these descriptions for the purpose of assisting <a href="#stakeholders">stakeholders</a> gain a perspective on LR's values, facilitate determining its adequacy for use, as well as to evaluate LR against other models.</p>
 
                   <p>LR is based on the notion that the Web is inherently decentralised, social, and for everyone. Its design principles shapes data and systems to be built on open Web standards to carry out scholarly activities.</p>
 
@@ -5395,7 +5397,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
                   <p id="paradigm-fruitfulness"><strong>Fruitfulness</strong>: Machine-readable information facilitates discovery and reuse of units of communication. As in the case of semantic citations, LR opens up the possibility to create as well as detect precise relations which were previously unnoted or disclosed through appropriate interoperable standards. Units of communication in the form of a knowledge graph being machine-identifiable and queryable has the affordance to detect or inspect patterns. For instance, open research questions can be found by analysing semantically structured literature, as well as detecting topical trends in research communities. LR's design principles enables the use of existing and future open Web standards. Its continuous interoperability would permit LR to be evolvable.</p>
 
-                  <p>Whether to use the LR model will depend on the "value judgment" of stakeholders and the research community. LR is merely a reflection of using the Web to its full potential for scholarly communication.</p>
+                  <p>Whether to use the LR model will depend on the "value judgment" of stakeholders and the research community. LR is merely a reflection of using the Web to its full potential for scholarly communication. LR in and itself is not a new paradigm, but rather a conceptual specification that can be used as an <em>exemplar</em> reflecting the technical advancements.</p>
                 </div>
               </section>
             </div>
