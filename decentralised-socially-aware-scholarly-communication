@@ -1934,7 +1934,7 @@ support groups.</pre>
                 </div>
               </section>
 
-              <section id="decentralised-dataspaces" inlist="" rel="" resource="#decentralised-dataspaces">
+              <section id="decentralised-dataspaces" inlist="" rel="schema:hasPart" resource="#decentralised-dataspaces">
                 <h3 property="schena:name">Decentralised Dataspaces</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p id="from-databases-to-dataspaces">In <cite><a data-versiondate="2018-09-06T13:10:33Z" data-versionurl="https://web.archive.org/web/20180906131033/https://people.eecs.berkeley.edu/~franklin/Papers/dataspaceSR.pdf" href="https://people.eecs.berkeley.edu/~franklin/Papers/dataspaceSR.pdf">From Databases to Dataspaces: A New Abstraction for Information Management</a></cite>, Franklin, 2005, raises a challenge of organisations <q>relying on large number of diverse, interrelated data sources, but having no way to manage their <em>dataspaces</em> in a convenient, or principles fashion.</q>. The article brings forth the notion of dataspaces as a <q>data co-existence</q> approach, with the goal of providing functionality over all data source. In such systems, there is a set of participants and relationships, while remaining sensitive to their requirements of autonomy. The authors propose the development of different <q>DataSpace Support Platform</q>s (<abbr title="DataSpace Support Platform">DSSP</abbr>) where interrelated services would allow data to be managed by participant systems.</p>
