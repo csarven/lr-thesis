@@ -372,7 +372,7 @@ The adoption of a Web-centric communication flow in the scholarly ecosystem enab
                     </div>
                   </section>
 
-                  <section id="technical-research-goals" inlist="" rel="schema:hasPart" resource="#artifact-design-goals">
+                  <section id="technical-research-goals" inlist="" rel="schema:hasPart" resource="#technical-research-goals">
                     <h4 property="schema:name">Technical Research Goals</h4>
                     <div datatype="rdf:HTML" property="schema:description">
                       <p>The technical goals of this thesis are, given the <a href="#problem-context">problem context</a>, to identify gaps in the Web standards landscape and to create new technical standards where necessary. A further goal is to demonstrate how existing and new standards and technologies can be used in combination as part of a user-facing  application for publishing and interacting with scholarly artifacts.</p>
@@ -1142,7 +1142,7 @@ support groups.</pre>
                     </div>
                   </section>
 
-                  <section id="scholarly-declarations-practices" inlist="" rel="schema:hasPart" resource="#scholarly-declarations-and-practices">
+                  <section id="scholarly-declarations-and-practices" inlist="" rel="schema:hasPart" resource="#scholarly-declarations-and-practices">
                     <h4 property="schema:name">Scholarly Declarations and Practices</h4>
                     <div datatype="rdf:HTML" property="schema:description">
                       <p>While there is a plethora of overlapping guides, best practices, principles, manifestos, and <a data-versiondate="2018-10-05T11:12:44Z" data-versionurl="https://web.archive.org/web/20181005111244/https://docs.google.com/spreadsheets/d/1-aRXFiRg-VL9hpLpxoJqX6-OC-A0R2oCogHfIx52Nug/edit" href="https://docs.google.com/spreadsheets/d/1-aRXFiRg-VL9hpLpxoJqX6-OC-A0R2oCogHfIx52Nug/edit">declarations in the field of research, scholarly communication, data and publishing</a>, here I highlight a few that are Web-centric.</p>
@@ -3880,7 +3880,7 @@ support groups.</pre>
                     </div>
                   </section>
 
-                  <section id="cruding-resources" inlist="" rel="schema:hasPart" resource="#crud-resources">
+                  <section id="cruding-resources" inlist="" rel="schema:hasPart" resource="#cruding-resources">
                     <h4 property="schema:name">CRUDing Resources</h4>
                     <div datatype="rdf:HTML" property="schema:description">
                       <p>dokieli implements the <a href="#crud-http">HTTP based CRUD operations</a> - create, reader, update, and delete - and in particular, conforms to some of the clientside operations required to communicate with LDP, WAP, AP implementations.</p>
