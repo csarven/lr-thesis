@@ -293,7 +293,7 @@ The adoption of a Web-centric communication flow in the scholarly ecosystem enab
           <section id="declaration" inlist="" rel="schema:hasPart" resource="#declaration" typeof="fabio:Announcement">
             <h2 property="schema:name">Declaration</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo">I solemnly affirm that the evidence to be given by me shall be the truth, the whole truth and nothing but the truth.</p>
+              <p>I declare that the work covered by this thesis is composed by myself, and that it has not been submitted for any other degree or professional qualification except as specified.</p>
             </div>
           </section>
 
