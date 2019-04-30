@@ -3313,7 +3313,7 @@ support groups.</pre>
                 </div>
               </section>
 
-              <section id="contextualising-ldn" inlist="" rel="schema:hasPart" resource="#on-screen">
+              <section id="contextualising-ldn" inlist="" rel="schema:hasPart" resource="#contextualising-ldn">
                 <h3 property="schema:name">Contextualising LDN</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>I have discussed how notifications may be purposed in a number of ways in a decentralised scholarly communication ecosystem. In addition, outlined specific use cases, and used these to derive design considerations. An overview of existing protocols for decentralised notifications indicates their respective strengths and shortcomings, and a new protocol is designed to meet our needs in light of this. The Linked Data Notifications protocol separates the concepts of <em>senders</em>, <em>receivers</em> and <em>consumers</em> of notifications for modularity and leverages Linked Data concepts of shared vocabularies and URIs, thus providing a building block for notifications between diverse decentralised and loosely coupled Web applications. The three roles can be implemented independently from each other or all together in one system. This permits end users more freedom to switch between the online tools they use, as well as generating greater value when notifications from different sources can be shared between applications and used in combination.</p>
