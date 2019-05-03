@@ -602,7 +602,7 @@ The adoption of a Web-centric communication flow in the scholarly ecosystem enab
 
 
 
-          <section id="scholarly-communication-on-the-web" inlist="" rel="schema:hasPart" resource="scholarly-communication-on-the-web">
+          <section id="scholarly-communication-on-the-web" inlist="" rel="schema:hasPart" resource="#scholarly-communication-on-the-web">
             <h2 property="schema:name">Scholarly Communication on the Web</h2>
 
             <div datatype="rdf:HTML" property="schema:description">
@@ -3239,7 +3239,7 @@ support groups.</pre>
                 </div>
               </section>
 
-              <section id="ldn-forces-functions" inlist="" rel="schema:hasPart" resource="ldn-forces-functions">
+              <section id="ldn-forces-functions" inlist="" rel="schema:hasPart" resource="#ldn-forces-functions">
                 <h3 property="schema:name">Forces and Functions in Linked Data Notifications</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>This section goes into detail about how LDN fulfills or supports some of the forces and functions in scientific communication. LDN can facilitate the realisation of interconnecting scholarly communication systems as posited in <cite>Rethinking Scholarly Communication</cite>.</p>
@@ -3508,7 +3508,7 @@ support groups.</pre>
                     </div>
                   </section>
 
-                  <section id="interoperability-across-specifications" inlist="" rel="schema:hasPart" resource="interoperability-across-specifications">
+                  <section id="interoperability-across-specifications" inlist="" rel="schema:hasPart" resource="#interoperability-across-specifications">
                     <h4 property="schema:name">Interoperability Across Specifications</h4>
                     <div datatype="rdf:HTML" property="schema:description">
                       <p>There are several technical specifications that LDN may be interoperably combined. Here I discuss a few.</p>
