@@ -327,7 +327,7 @@ The adoption of a Web-centric communication flow in the scholarly ecosystem enab
 
                   <p>My personal motivation for the underlying research has much to do with an array of experiences in how research communication is carried out in the Semantic Web field, as well as in other academic disciplines. The "too long; didn’t read" version is that because it was next to impossible to change the social behaviour of my colleagues, it seemed like a worthwhile challenge to approach addressing. Academics essentially operate within a paper-centric framework to create and disseminate publicly-funded knowledge by usually delegating it to third-party publishers which still operate in the 15th century. Meanwhile, the Web – if we can anthropomorphise for a moment – is disappointed by the distracted academics’ practices. I took the liberty to test the boundaries and demonstrate a small aspect of what the native affordances of the Web provided – an extension of our central nervous system.</p>
 
-                  <p id="information-society">I live in an <q><a href="https://en.wikipedia.org/wiki/Information_society">information society</a></q>, which makes use of variety of communication media to meet societal needs. The Web has shaped social policies and practices around the world, as well as influence the creation and use of other technologies. It has also reconfigured individuals to be active participants in global information exchange, as well as passive consumers partly due to the abundance of instantaneously available multimedia. To date – 30 years old as of this writing – the Web has served for "good" and "evil", nevertheless a net positive for the world. Like any human technology, what we devise and how we use them has societal implications.</p>
+                  <p id="information-society">I live in an <q><a href="https://en.wikipedia.org/wiki/Information_society">information society</a></q>, which makes use of variety of communication media to meet societal needs. The Web has shaped social policies and practices around the world, as well as influence the creation and use of other technologies. It has also reconfigured individuals to be active participants in global information exchange, as well as passive consumers partly due to the abundance of instantaneously available multimedia. To date – 30 years old as of this writing – the Web has served for "good" and "evil", nevertheless a net positive for society. Like any human technology, what we devise and how we use them has societal implications.</p>
 
                   <p id="the-story">We can start this story from anywhere. I argue that in order to best contextualise this thesis, it is essential to operate under the understanding of communication mediums and scientific revolutions, as well as their effects on society. This is especially because the research goals of this thesis at its core is <em>sociotechnical</em>, and that a clear division between them will not do its justice. I believe that in order to push the boundaries of our knowledge further, it necessitates a multidisciplinary undertaking – taken <q cite="https://en.wikipedia.org/wiki/Grain_of_salt">with a grain of salt</q>. One overarching goal is to foster the social machinery from different perspectives that is required to build a knowledge Web for any type of user; human, machine, or other. While I set the problem context to scholarly communication, applications of the knowledge and generated artifacts are potentially applicable to other initiatives in society.</p>
 
@@ -441,7 +441,7 @@ The adoption of a Web-centric communication flow in the scholarly ecosystem enab
               <section id="thesis-overview" inlist="" rel="schema:hasPart" resource="#thesis-overview">
                 <h3 property="schema:name">Thesis Overview</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>This section outlines the high-level structure of the </p>
+                  <p>This section outlines a high-level structure of the thesis.</p>
 
                   <section id="document-structure" inlist="" rel="schema:hasPart" resource="#document-structure">
                     <h4 property="schema:name">Structure</h4>
@@ -451,11 +451,7 @@ The adoption of a Web-centric communication flow in the scholarly ecosystem enab
                         <footer><cite><a data-versiondate="2019-03-12T15:07:33Z" data-dataversion-url="https://web.archive.org/web/20190312150733/https://biblio.ugent.be/publication/522209/file/1873597.pdf" href="https://biblio.ugent.be/publication/522209/file/1873597.pdf">Dynamic and context-sensitive linking of scholarly information</a></cite>, Van de Sompel, 2000</footer>
                       </blockquote>
 
-                      <p>All information of significance in this thesis is made available as <cite><a href="#linked-data">Linked Data</a></cite> on the Web and archived. Here is one way to visualise the underlying graph that can also be navigated:</p>
-
-                      <figure class="todo">
-                        <figcaption>This Thesis is a <q>Knowledge Graph</q></figcaption>
-                      </figure>
+                      <p>All information of significance in this thesis is made available as <cite><a href="#linked-data">Linked Data</a></cite> on the Web and archived.</p>
 
                       <p>This thesis is sectioned into following main topic areas:</p>
 
@@ -2318,18 +2314,18 @@ support groups.</pre>
       <text fill="#000000" font-family="sans-serif" font-size="16px" id="svg_3" stroke="#000000" stroke-width="0" x="164" y="69">Identifier</text>
       <text fill="#000000" font-family="sans-serif" font-size="16px" id="svg_4" stroke="#000000" stroke-width="0" x="164" y="169">Application</text>
       <text fill="#000000" font-family="sans-serif" font-size="16px" id="svg_5" stroke="#000000" stroke-width="0" x="164" y="119">Data</text>
-      <line fill="none" id="svg_9" stroke="#000000" stroke-width="2" x1="80" x2="155" y1="115" y2="115"/>
-      <line fill="none" id="svg_17" stroke="#000000" stroke-width="2" x1="80" x2="155" y1="165" y2="165"/>
-      <line fill="none" id="svg_18" stroke="#000000" stroke-width="2" x1="80" x2="155" y1="65" y2="65"/>
-      <line fill="none" id="svg_19" stroke="#000000" stroke-width="2" x1="244" x2="325" y1="65" y2="65"/>
-      <line fill="none" id="svg_16" stroke="#000000" stroke-width="2" x1="209" x2="325" y1="115" y2="115"/>
-      <line fill="none" id="svg_20" stroke="#000000" stroke-width="2" x1="259" x2="325" y1="165" y2="165"/>
-      <line fill="none" id="svg_7" stroke="#000000" stroke-width="2" x1="80" x2="80" y1="60" y2="70"/>
-      <line fill="none" id="svg_8" stroke="#000000" stroke-width="2" x1="80" x2="80" y1="110" y2="120"/>
-      <line fill="none" id="svg_8" stroke="#000000" stroke-width="2" x1="80" x2="80" y1="160" y2="170"/>
-      <line fill="none" id="svg_11" stroke="#000000" stroke-width="2" x1="325" x2="325" y1="60" y2="70"/>
-      <line fill="none" id="svg_11" stroke="#000000" stroke-width="2" x1="325" x2="325" y1="110" y2="120"/>
-      <line fill="none" id="svg_11" stroke="#000000" stroke-width="2" x1="325" x2="325" y1="160" y2="170"/>
+      <line fill="none" id="svg_9" stroke="#000000" stroke-width="2" x1="80" x2="155" y1="135" y2="135"/>
+      <line fill="none" id="svg_17" stroke="#000000" stroke-width="2" x1="80" x2="155" y1="185" y2="185"/>
+      <line fill="none" id="svg_18" stroke="#000000" stroke-width="2" x1="80" x2="155" y1="85" y2="85"/>
+      <line fill="none" id="svg_19" stroke="#000000" stroke-width="2" x1="244" x2="325" y1="85" y2="85"/>
+      <line fill="none" id="svg_16" stroke="#000000" stroke-width="2" x1="209" x2="325" y1="135" y2="135"/>
+      <line fill="none" id="svg_20" stroke="#000000" stroke-width="2" x1="259" x2="325" y1="185" y2="185"/>
+      <line fill="none" id="svg_7" stroke="#000000" stroke-width="2" x1="80" x2="80" y1="80" y2="90"/>
+      <line fill="none" id="svg_8" stroke="#000000" stroke-width="2" x1="80" x2="80" y1="130" y2="140"/>
+      <line fill="none" id="svg_8" stroke="#000000" stroke-width="2" x1="80" x2="80" y1="180" y2="190"/>
+      <line fill="none" id="svg_11" stroke="#000000" stroke-width="2" x1="325" x2="325" y1="80" y2="90"/>
+      <line fill="none" id="svg_11" stroke="#000000" stroke-width="2" x1="325" x2="325" y1="130" y2="140"/>
+      <line fill="none" id="svg_11" stroke="#000000" stroke-width="2" x1="325" x2="325" y1="180" y2="190"/>
      </g>
     </svg>
 
