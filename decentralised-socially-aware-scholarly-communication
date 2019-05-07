@@ -441,6 +441,10 @@ The adoption of a Web-centric communication flow in the scholarly ecosystem enab
               <section id="thesis-overview" inlist="" rel="schema:hasPart" resource="#thesis-overview">
                 <h3 property="schema:name">Thesis Overview</h3>
                 <div datatype="rdf:HTML" property="schema:description">
+                  <figure id="this-thesis-is-a-knowledge-graph" rel="schema:hasPart" resource="#this-thesis-is-a-knowledge-graph">
+                    <p><span datatype="rdf:HTML" property="schema:name">This Thesis is a <q>Knowledge Graph</q>.</span> <span datatype="rdf:HTML" property="schema:description"><q cite="https://www.w3.org/DesignIssues/LinkedData">Linked Data</q> aware applications can use the resource's <a about="#action-this-thesis-is-a-knowledge-graph" href="" rel="schema:object">underlying structured data</a> to offer <span about="" rel="schema:potentialAction"><a href="#action-this-thesis-is-a-knowledge-graph" typeof="schema:ViewAction">visualisation and interaction</a></span> possibilities.</span></p>
+                  </figure>
+
                   <p>This section outlines a high-level structure of the thesis.</p>
 
                   <section id="document-structure" inlist="" rel="schema:hasPart" resource="#document-structure">
