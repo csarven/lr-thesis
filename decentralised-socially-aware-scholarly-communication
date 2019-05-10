@@ -891,7 +891,10 @@ support groups.</pre>
 
                       <p>Using the example RDF data from earlier about <a href="#paul-otlet-influenced-tim-berners-lee">Otlet’s relation to Berners-Lee</a> and <a href="#tim-berners-lee-name">his name</a> in an RDF store, the following query returns the data in a tabular format for the <span class="highlight-language-predicate-name">name</span>s of <span class="highlight-language-object">object</span>s that match the graph pattern where the <span class="highlight-language-subject">subject</span>s <em class="highlight-language-predicate-influenced">influenced</em>.</p>
 
-                      <pre><code>SELECT <span class="highlight-language-object">?object</span> <span class="highlight-language-object-name">?name</span></code>
+                      <figure id="sparql-query-result">
+                        <p>SPARQL Query:</p>
+
+                        <pre><code>SELECT <span class="highlight-language-object">?object</span> <span class="highlight-language-object-name">?name</span></code>
 <code>WHERE {</code>
 <code>  &lt;<span class="highlight-language-subject">http://dbpedia.org/resource/Paul_Otlet</span>&gt;</code>
 <code>    &lt;<span class="highlight-language-predicate-influenced">http://dbpedia.org/ontology/influenced</span>&gt; <span class="highlight-language-object">?object</span> .</code>
@@ -899,12 +902,16 @@ support groups.</pre>
 <code>    &lt;<span class="highlight-language-predicate-name">http://xmlns.com/foaf/0.1/name</span>&gt; <span class="highlight-language-object-name">?name</span> .</code>
 <code>}</code></pre>
 
-                      <p>Resulting in extracted data:</p>
+                        <p>Resulting in extracted data:</p>
 
-                      <table>
-                        <thead><tr><th>?object</th><th>?name</th></tr></thead>
-                        <tbody><tr><td><a class="highlight-language-object" href="http://dbpedia.org/resource/Tim_Berners-Lee">http://dbpedia.org/resource/Tim_Berners-Lee</a></td><td><span class="highlight-language-object-name">"Tim Berners-Lee"@en</span></td></tr></tbody>
-                      </table>
+                        <table id="example-sparql-result">
+                          <caption>Example SPARQL Result</caption>
+                          <thead><tr><th>?object</th><th>?name</th></tr></thead>
+                          <tbody><tr><td><a class="highlight-language-object" href="http://dbpedia.org/resource/Tim_Berners-Lee">http://dbpedia.org/resource/Tim_Berners-Lee</a></td><td><span class="highlight-language-object-name">"Tim Berners-Lee"@en</span></td></tr></tbody>
+                        </table>
+
+                        <figcaption>Example SPARQL Query and Result</figcaption>
+                      </figure>
 
                       <p>The SPARQL suite is a powerful set of tools for inspecting and manipulating information based on the graph nature of the data.</p>
 
@@ -1069,8 +1076,8 @@ support groups.</pre>
                       <p>In order to open up access to scholarly journal literature, BOAI recommends the adoption of two complementary strategies for open access (<abbr title="Open Access">OA</abbr>):</p>
 
                       <ul>
-                        <li><q id="boai-self-archiving" cite="http://www.budapestopenaccessinitiative.org/read">I. Self-Archiving</q></li>
-                        <li><q id="boai-open-access-journals" cite="http://www.budapestopenaccessinitiative.org/read">II. Open-access Journals</q></li>
+                        <li>Self-Archiving</li>
+                        <li>Open-access Journals</li>
                       </ul>
 
                       <p>The term <q cite="http://www.budapestopenaccessinitiative.org/read">self-archiving</q> in context of OA differs from that of the early practices around preprint <q cite="http://www.cs.cornell.edu/~ginsparg/physics/blurb/pg01unesco.html">self-archiving</q> in that there were no constraints set for the status of the scholarly literature, ie. peer reviewed or not. For OA-centric scientific literature, quality-control and certification are integral.</p>
@@ -2034,14 +2041,14 @@ support groups.</pre>
 <code>  as:outbox &lt;http://csarven.ca/outbox/&gt; ;</code>
 <code>  foaf:made &lt;https://dokie.li/&gt; ;</code>
 <code>  rdfs:seeAlso &lt;http://csarven.ca/cv&gt; .</code></pre>
-                    <figcaption>An WebID Profile describing a WebID.</figcaption>
+                    <figcaption>A WebID Profile describing a WebID.</figcaption>
                   </figure>
 
                   <p id="multiple-identities"><strong>Multiple identities</strong>: Individuals may want to be associated with multiple identities to fulfill diverse needs and social expectations. For instance, academics, politicians, employees, and artists, to name a few, may want to perform their online activities using public identifiers, so that they can be discovered, attributed, rewarded, trusted etc. There can also be quasi-public identities issued by a government or a bank to connect individuals to the physical world. Furthermore, individuals may wish to have several personal – public or private – identities and self representations, eg. on social networks, to address different needs. At any event, identities and corresponding identifiers can be registered and managed by different entities, and may be interlinked.</p>
 
                   <p id="orcid-sameas-webid">For instance, while ORCID profile description has constraints, it allows extensibility in the form of asserting a "same as" relation through its UI, so that the ORCID URI can be linked to other WebIDs. This essentially makes a connection to another <a href="#self-describing">self-describing document</a> and facilitates <a href="#follow-your-nose">follow-your-nose</a> discovery. My personal WebID which is under my control is <a href="http://csarven.ca/#i">http://csarven.ca/#i</a>. I also have an ORCID identifier that also serves as a WebID: <a href="https://orcid.org/0000-0002-0880-9125">https://orcid.org/0000-0002-0880-9125</a> which also has an RDF representation. As ORCID’s user interface allows people to extend their descriptions with certain fields, it is possible to add <em>same as</em> or <em>preferred URI</em> relations:</p>
 
-                  <figure class="listing">
+                  <figure class="listing" id="example-orcid-sameas-webid">
                     <pre><code>&lt;https://orcid.org/0000-0002-0880-9125&gt; ;</code>
 <code>  <span class="highlight-predicate-sameas">owl:sameAs</span> &lt;http://csarven.ca/#i&gt; ;</code>
 <code>  contact:preferredURI "http://csarven.ca/#i" .</code></pre>
@@ -2060,7 +2067,7 @@ support groups.</pre>
 
                   <p>Both the entities (nodes) and the relations (edges) of a social graph may have public and private parts. An example of a social graph where someone knows someone that knows someone, is as follows:</p>
 
-                  <figure class="listing">
+                  <figure class="listing" id="example-person-knows">
                     <pre><code>&lt;https://www.w3.org/People/Berners-Lee/card#i&gt;</code>
 <code>  foaf:knows &lt;http://csarven.ca/#i&gt; .</code>
 <code></code>
@@ -2092,7 +2099,7 @@ support groups.</pre>
 
                   <p id="webid-in-x509">There are a number of different ways to create a self-signed certificate which includes our WebID under SAN. Here I discuss a process that uses the <cite><a href="https://www.openssl.org/">OpenSSL</a></cite> toolkit as outlined in: <cite><a href="https://www.w3.org/wiki/index.php?title=Foaf%2Bssl/HOWTO#How_to_create_a_certificate_which_includes_the_WebID_URI_for_multi-purpose_use">How to create a certificate which includes the WebID URI for multi-purpose use</a></cite>. We can create an RSA key that can be used to SSH to networks, include WebID URI and email information in the SAN to create an X.509 certificate which can be used to sign digitally sign emails, as well as to authenticate with from the Web browser. The <cite>Issuer Distinguished Name</cite> in X.509 (<code class="highlight-x509-issuer">Issuer</code> field) identifies the entity that signs the certificate, hence self-signing. The X.509 certificate and the private key can be bundled with the <cite><a href="https://tools.ietf.org/html/rfc7292">PKCS #12</a></cite> archive file format, and imported in Web browser’s certificate manager. The certificate consists of information along the lines of:</p>
 
-                  <figure class="listing">
+                  <figure class="listing" id="example-pkcs-12">
                     <pre><code>Certificate:</code>
 <code>    Data:</code>
 <code>        Version: 3 (0x2)</code>
@@ -2132,7 +2139,7 @@ support groups.</pre>
 
                   <p><cite><a href="https://www.w3.org/ns/auth/cert">The Cert Ontology 1.0</a></cite> can be used in WebID Profile documents to specify an agent’s certificate information. For example, an agent can indicate their public and private keys. The fields and corresponding values of <code class="highlight-x509-public-key-algorithm">Public Key Algorithm</code>, <code class="highlight-x509-modulus">Modulus</code>, and <code class="highlight-x509-exponent">Exponent</code> in the X.509 certificate are used in the WebID Profile as part of <code class="highlight-x509-rsa-public-key">cert:RSAPublicKey</code>, <code>cert:exponent</code>, and <code>cert:modulus</code>. <code class="highlight-x509-uri">URI</code> under <span class="highlight-x509-san">SAN</span> is our <span class="highlight-webid">WebID</span>. An example where information about an RSA Public Key is associated with a WebID:</p>
 
-                  <figure class="listing">
+                  <figure class="listing" id="example-rsa-puclic-key-webid">
                     <pre><code>&lt;<span class="highlight-webid">http://csarven.ca/#i</span>&gt;</code>
 <code>  cert:key &lt;http://csarven.ca/#cert&gt; .</code>
 <code></code>
@@ -2147,7 +2154,7 @@ support groups.</pre>
 
                   <p id="webid-tls-delegation"><cite>WebID-TLS-Delegation</cite> is an an extension to WebID-TLS that enables users to delegate other agents to act on their behalf. In <cite><a href="http://ceur-ws.org/Vol-905/TrampEtAl_COLD2012.pdf">Extending the WebID Protocol with Access Delegation</a></cite>, Tramp, 2012, states how a <q>principal</q> agent can delegate authentication and access to a trusted <q>secretary</q> agent – typically a third-party software – who can act <em>on behalf of</em> of the principal agent to perform (asynchronous) requests. A secretary with its own WebID acting on behalf of a user can potentially have the same (or required) privileges while still being distinguishable eg. via different public key, and capabilities. An agent can declare a delegation as follows:</p>
 
-                  <figure class="listing">
+                  <figure class="listing" id="example-acl-delegates">
                     <pre><code>&lt;<span class="highlight-webid">http://csarven.ca/#i</span>&gt;</code>
 <code>  acl:delegates &lt;https://example.org/application#i&gt; .</code></pre>
                     <figcaption>An agent delegating another agent to act on its behalf.</figcaption>
@@ -2167,7 +2174,7 @@ support groups.</pre>
 
                   <p>The following code snippets of authorization policies are used to specify the ACL information (eg. <samp>resource.acl</samp>) associated with a resource (eg. <samp>resource</samp>) on a server. For example, setting an authorization policy where an agent (only <code>http://csarven.ca/#i</code>) to be the owner of a resource:</p>
 
-                  <figure class="listing">
+                  <figure class="listing" id="example-acl-control">
                     <pre><code>&lt;#owner&gt;</code>
 <code>  a acl:Authorization ;</code>
 <code>  acl:agent &lt;http://csarven.ca/#i&gt; ;</code>
@@ -2178,7 +2185,7 @@ support groups.</pre>
 
                   <p>Setting a class of agents to perform read and append operations on a resource eg. an inbox:</p>
 
-                  <figure class="listing">
+                  <figure class="listing" id="example-acl-read-append">
                     <pre><code>&lt;#public&gt;</code>
 <code>  a acl:Authorization ;</code>
 <code>  acl:agentClass foaf:Agent ;</code>
@@ -2676,7 +2683,7 @@ support groups.</pre>
 
                   <p>The table below shows the design considerations as applicable to each use case.</p>
 
-                  <table>
+                  <table id="design-considerations-decentralised-use-cases">
                     <caption>Design considerations derived from use cases for decentralised notifications</caption>
                     <thead>
                       <tr><th></th><th><a href="#modularity">R1</a></th><th><a href="#reusability">R2</a></th><th><a href="#persistence-and-retrievability">R3</a></th><th><a href="#target-representation">R4-A</a></th><th><a href="#notification-body">R4-B</a></th><th><a href="#notification-verification">R4-C</a></th><th><a href="#subscribing">R5</a></th></tr>
@@ -2743,7 +2750,7 @@ support groups.</pre>
                       <section id="sender-to-receiver" inlist="" rel="schema:hasPart" resource="#sender-to-receiver">
                         <h5 property="schema:name">Sender to Receiver interactions</h5>
                         <div datatype="rdf:HTML" property="schema:description">
-                          <figure>
+                          <figure id="sender-receiver-interactions">
                             <svg width="360" height="240" xmlns="http://www.w3.org/2000/svg" xml:lang="en">
      <defs>
       <marker id="se_marker_end_svg_20" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
@@ -2793,7 +2800,7 @@ support groups.</pre>
                       <section id="consumer-to-receiver" inlist="" rel="schema:hasPart" resource="#consumer-to-receiver">
                         <h5 property="schema:name">Consumer to Receiver interactions</h5>
                         <div datatype="rdf:HTML" property="schema:description">
-                          <figure>
+                          <figure id="consumer-receiver-interactions">
                             <svg width="480" height="360" xmlns="http://www.w3.org/2000/svg" xml:lang="en">
      <defs>
       <marker id="se_marker_end_svg_20" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
@@ -3295,7 +3302,7 @@ support groups.</pre>
 
                       <p>The figure <cite><a href="#table-comparison-of-notification-mechanisms">Comparison of notification mechanisms</a></cite> is derived from <a href="http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms">http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms</a> and modified to include <cite>WebSub</cite>.</p>
 
-                      <figure>
+                      <figure id="survey-comparison-of-notification-mechanisms">
                         <table id="table-comparison-of-notification-mechanisms">
                           <caption>Comparison of notification mechanisms</caption>
                           <thead>
@@ -3852,6 +3859,7 @@ support groups.</pre>
                       <p>dokieli implements the <a href="#crud-http">HTTP based CRUD operations</a> – create, reader, update, and delete – and in particular, conforms to some of the clientside operations required to communicate with LDP, WAP, AP implementations.</p>
 
                       <table id="crud-http-resources">
+                        <caption>Create, Read, Update and Delete HTTP Resources</caption>
                         <thead>
                           <tr>
                             <th>Method</th>
@@ -4087,7 +4095,7 @@ support groups.</pre>
 
                       <p>A Web Annotation can be created to associate a node or a selection with a particular user motivation. The annotation can be registered and stored as a unit of information at actor’s <a href="#profile-storage">storage</a>, <a href="#profile-index">type index location</a>, <a href="#profile-outbox">outbox</a>, or article’s <a href="#subject-annotation-service">annotation service</a>. The users can provide a text note for their annotations, assign a <a href="#license">license</a>, as well as designate an <a href="#subject-inbox">inbox</a> for their annotation, so that it can receive its own notifications. The Table on WA motivations includes the method applied, location of the annotation, and associated notification.</p>
 
-                      <table>
+                      <table id="dokieli-implementation-web-annotation-motivations-notifications">
                         <caption>Implementation of Web Annotation motivations and notifications in dokieli</caption>
                         <thead>
                           <tr>
