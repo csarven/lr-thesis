@@ -222,7 +222,7 @@ Through a communal process, units of information are continuously created, regis
 <!-- TASK: What was undertaken to address the need         -->
 <!-- OBJECT: What the present document does or covers      -->
 <!-- FINDINGS: What the work done yielded or revealed      -->
-In order to have a frame of reference for this thesis and to approach improving the efficiency and democratic functioning of research and scientific communication, the adoption of technological communication mediums alongside scientific paradigms in which scholarship has historically operated is examined. The thesis reviews prior work to identify gaps in knowledge and technical standards in context of the Web for common use cases, including: the core forces and functions in scientific communication and their interplay; the structure and semantics of scholarly information; the efforts to decentralise and the interoperable mechanisms to publish, disseminate, and interact with scholarly artifacts. First, the research findings posit the <cite>Linked Data Notifications</cite> (<abbr title="Linked Data Notifications">LDN</abbr>) as a communication protocol that describes how independently built applications can perform the roles of senders, receivers, and consumers by facilitating the design of loosely coupled systems that can exchange structured messages as <cite>Linked Data</cite>. LDN’s underlying mechanism triggers <em>registration</em>, fulfills <em>awareness</em>, and supports the <em>certification</em> and the <em>archiving</em> functions in scientific communication in a decentralised ecosystem. Second, <cite>dokieli</cite> is posited as a socially-aware decentralised client application based on the <cite>Open Web Platform</cite> allowing autonomous actors to exchange units of communication with their preferred data services. <cite>dokieli</cite> demonstrates how an assembly of Web standards can come together in a cohesive way in order to enable actors to reach a high degree of control over their creations and be active participants in the global knowledge exchange.
+In order to have a frame of reference for this thesis and to approach improving the efficiency and democratic functioning of research and scientific communication, the adoption of technological communication mediums alongside scientific paradigms in which scholarship has historically operated is examined. The thesis reviews prior work to identify gaps in knowledge and technical standards in context of the Web for common use cases, including: the core forces and functions in scientific communication and their interplay; the structure and semantics of scholarly information; the efforts to decentralise and the interoperable mechanisms to publish, disseminate, and interact with scholarly artifacts. First, the research findings posit <cite>Linked Data Notifications</cite> (<abbr title="Linked Data Notifications">LDN</abbr>) as a communication protocol that describes how independently built applications can perform the roles of senders, receivers, and consumers by facilitating the design of loosely coupled systems that can exchange structured messages as <cite>Linked Data</cite>. LDN’s underlying mechanism triggers <em>registration</em>, fulfills <em>awareness</em>, and supports the <em>certification</em> and the <em>archiving</em> functions in scientific communication in a decentralised ecosystem. Second, <cite>dokieli</cite> is posited as a socially-aware decentralised client application based on the <cite>Open Web Platform</cite> allowing autonomous actors to exchange units of communication with their preferred data services. <cite>dokieli</cite> demonstrates how an assembly of Web standards can come together in a cohesive way in order to enable actors to reach a high degree of control over their creations and be active participants in the global knowledge exchange.
 
 <!-- CONCLUSION :What the findings mean for the audience   -->
 The overarching conclusion of the thesis is that it is possible to distribute scholarly contributions on the Web based on an actor-centric model while fulfilling the core functional requirements of scholarly communication, as well as revisiting the roles that individual actors may perform in the ecosystem. Decoupling of the forces and functions in context of the Web necessitates interoperable applications through the use of standard data formats and communication protocols. As a consequence enables users to switch between standards-compliant applications without interfering with existing data.
@@ -230,6 +230,34 @@ The overarching conclusion of the thesis is that it is possible to distribute sc
 <!-- PERSPECTIVES: What the future holds, beyond this work -->
 The adoption of a Web-centric communication flow in the scholarly ecosystem enables actors to free themselves from antiquated practices and inadequate use of the medium. The social conventions that surround the notion of a "scholarly contribution" can be anticipated to be revisited in order to improve the accessibility of knowledge, and be more inclusive and equitable for everyone. Based on the findings, the thesis induces <cite>Linked Research</cite> – a conceptual generalisation for conducting scholarly communication aligned with the architecture of the Web. The <cite>Linked Research</cite> design principles comprising actor autonomy in a social system, and universal access to human and machine-interpretable information is proposed as a paradigm to contextualise future research and strategic advancement of scholarly communication.</p>
 <!--XXX: Publish at csarven.ca 🙈 🙉 🙊-->
+
+<p class=ruben>
+  Structure-wise, this is a very long paragraph to read.
+  As an abstract, it might make sense to shorten it to a paragraph;
+  as a “long abstract”, it might make sense to turn it into multiple paragraphs.
+</p>
+
+<p class=ruben>
+  Content-wise, I am missing the structure in the abstract
+  which is in the comments, but not in the text itself 🙂
+  I would suggest to separate the technologies built
+  from how effective they are (findings).
+  Be very precise about the needs that you are tackling;
+  some of the needs are still part of the context for me.
+  For instance, if you talk about <q>high costs</q> and <q>constrained reuse</q> there,
+  I expect to see an answer to these problems.
+  Did you measure costs and is it now cheaper?
+  Did you measure reuse, and is it now faster/better/stronger?
+</p>
+
+<p class=ruben>
+  One possible suggestion is to start from the 4 functions,
+  and in needs explain why they need to be decentralized.
+  Then in task, explain what you have built.
+  In findings, show how they are decentralized.
+  In conclusions, explain exactly how far we are
+  and what things work and which don't.
+</p>
             </div>
           </section>
 
