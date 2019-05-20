@@ -386,6 +386,11 @@ The adoption of a Web-centric communication flow in the scholarly ecosystem enab
                       <p>In research projects, there are various stakeholders (in)directly acting as internal and external forces in scholarly communication. In order to address societal concerns, research sponsors fund projects to attain reusable technical designs and acquire new knowledge in the process. Knowledge workers like researchers and scholars are driven by curiosity to advance our understanding of the universe and share their findings. The public is interested in accessing applications of research to educate and for the well-being of life. The industry needs efficient functioning of scientific communication in order to translate the return of research capital.</p>
 
                       <p>In the underlying work, I am a stakeholder acting as a knowledge worker, a member of the public, an operator (<q>end user</q>, maintainer, operational supporter).</p>
+
+<p class=ruben>
+  Why only mention yourself?
+  You are solving this for many people, no?
+</p>
                     </div>
                   </section>
 
@@ -403,8 +408,16 @@ The adoption of a Web-centric communication flow in the scholarly ecosystem enab
                       <p>The actors in the system commonly use print-centric tools and data representations to exchange content on the Web and neglect to take advantage of the available affordances of the Web (media). Actors’ possibility to shape their contributions in Web media is typically constrained to third-party service provider’s centralised and non-interoperable solutions.</p>
 
                       <p>Actors’ rental of personal and professional identifiers, as well as data storage from third-parties are subject to privacy issues. Actors typically manage multiple disconnected profiles, social connections, and data spaces.</p>
+<p class=ruben>
+  I agree, I obviously do, and I like the way it is written.
+  But at the same time, the <q>rental</q> narrative might be not neutral enough;
+  explain what you mean, and the pros and cons of it.
+  You are allowed to have an opinion,
+  but it should only affect the motivation and conclusion,
+  not too much more of the work.
+</p>
 
-                      <p>These class of problems in the scholarly ecosystem have implications on access, interoperability, findability, cost and privacy. Consequently, resulting in global deficiencies in the ecosystem. The research questions; <cite><a href="#technical-research-problems">technical research problems</a></cite> and <cite><a href="#knowled-questions">knowledge questions</a></cite>, are aimed at understanding the internal mechanisms of these type of problems and address them for stakeholders.</p>
+                      <p>These classes of problems in the scholarly ecosystem have implications on access, interoperability, findability, cost and privacy. Consequently, resulting in global deficiencies in the ecosystem. The research questions; <cite><a href="#technical-research-problems">technical research problems</a></cite> and <cite><a href="#knowled-questions">knowledge questions</a></cite>, are aimed at understanding the internal mechanisms of these type of problems and address them for stakeholders.</p>
                     </div>
                   </section>
 
@@ -419,6 +432,9 @@ The adoption of a Web-centric communication flow in the scholarly ecosystem enab
 
                   <section id="knowledge-goals" inlist="" rel="schema:hasPart" resource="#knowledge-goals">
                     <h4 property="schema:name">Knowledge Goals</h4>
+                    <p class=ruben>
+                      I would expect these earlier?
+                    </p>
                     <div datatype="rdf:HTML" property="schema:description">
                       <p>The knowledge goals of this thesis describe the theoretical underpinnings necessary to accomplish the <a href="#technical-research-goals">technical research goals</a>.</p>
 
@@ -443,7 +459,7 @@ The adoption of a Web-centric communication flow in the scholarly ecosystem enab
                       <p>The technical research problems here consist of artifacts to (re)design, requirements to satisfy, stakeholders’ goals to achieve, and the problem context. The overarching technical research problem is defined as follows:</p>
 
                       <dl id="technical-research-problem-central">
-                        <dt>Central Design Problem</dt>
+                        <dt>Central <span class=ruben>LOL</span> Design Problem</dt>
                         <dd>How can we design decentralised Web applications for information exchange in an open and decoupled scholarly communication ecosystem?</dd>
                       </dl>
 
@@ -457,6 +473,12 @@ The adoption of a Web-centric communication flow in the scholarly ecosystem enab
                         <dd>How can Web technologies be employed to fulfill the core functions of scholarly communication in an open and interoperable way?</dd>
                       </dl>
                     </div>
+                    <p class=ruben>
+                      I agree with both kinds of problems,
+                      but I find the labeling weird.
+                      To me, it's rather a question of employing what we have
+                      and then creating what is missing.
+                    </p>
                   </section>
 
                   <section id="knowledge-questions" inlist="" rel="schema:hasPart" resource="#knowledge-questions">
