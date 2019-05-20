@@ -579,6 +579,10 @@ The adoption of a Web-centric communication flow in the scholarly ecosystem enab
                     <h4 property="schema:name">Document Convention</h4>
                     <div datatype="rdf:HTML" property="schema:description">
                       <p id="article-sections">I use the terms "thesis" and "article" interchangeably to refer to the work here. I use the term "section" for significant content grouping. I have refrained from using terms that are closely associated with the print media, so for example, there are no "chapters" in this article, just "sections" or the collection of identifiable and accessible Web resources.</p>
+                      <p class=ruben>
+                        Bwoh, a chapter is sectioning to me,
+                        does not point to print more than paragraph does.
+                      </p>
 
                       <p id="sic">Unless otherwise noted, all of the quotations are <em>sic</em>.</p>
 
@@ -1238,6 +1242,14 @@ support groups.</pre>
 
                       <p id="tex"><a href="https://en.wikipedia.org/wiki/Donald_Knuth">Donald E. Knuth</a>, the inventor of <cite><a href="https://en.wikipedia.org/wiki/TeX">TeX</a></cite>, considers it to be a program written using the literate programming approach. <cite><a href="https://en.wikipedia.org/wiki/LaTeX">LaTeX</a></cite>, which is widely used for scholarly articles, is a collection of TeX macros. In some scientific communities, PDFs are usually generated from LaTeX.</p>
 
+                      <p class=ruben>
+                        Yes, the original source code of TeX
+                        was written using literate programming.
+                        But .tex code itself is not literate programming.
+                        So the comparison table below is not correct;
+                        .tex code provides imperative programming.
+                      </p>
+
                       <p id="pdf">PDF (ISO 32000-2:2017) is intended for displaying and storing, and generally self-contained. However, it is not intended to be editable as the formatting instructions are no longer available. PDF is inherently layout oriented, and it is an optimal format for printing given its high-precision for typography. Third-party scholarly publishers tend to require a fixed layout with typographical guidelines for research documents, hence submissions are often required to be made as PDFs.</p>
 
                       <p id="xmp">In order to facilitate metadata interchange, an <cite>Extensible Metadata Platform</cite> (<abbr title="Extensible Metadata Platform">XMP</abbr>) package in the form of XML (most commonly serialized as RDF/XML) may be embedded in PDF as per <cite><a href="https://wwwimages2.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2016-08/XMPSpecificationPart1.pdf">XMP Specification Part 1: Data Model, Serialization, and Core Properties</a></cite> (ISO 16684-1:2012). Otherwise, semantically useful information is not preserved when PDFs are generated, which makes it difficult to go back to source content format.</p>
@@ -1593,6 +1605,9 @@ support groups.</pre>
                 <h3 property="schema:name">Understanding the Medium</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>In the 1967 book, <cite><a href="http://www.worldcat.org/oclc/47679653" rel="schema:url">The Medium is the Massage</a></cite>, <a href="https://en.wikipedia.org/wiki/Marshall_McLuhan">Marshall McLuhan</a> wrote: <q cite="http://www.worldcat.org/oclc/47679653" rel="cito:agreesWith" resource="http://www.worldcat.org/oclc/47679653">at the high speeds of electric communication, purely visual means of apprehending the world are no longer possible; they are just too slow to be relevant or effective</q> [<a class="ref" href="#ref-1">1</a>]. While McLuhan’s critique was about the effect of the print media in the electric age, it stands especially valid today in the age of interactive new media. For instance, the <em class="cool-media">World Wide Web</em> is a <q>cool media</q> because its access, multi-linearity, and interactive possibilities offer multi-sensory states for individuals. This is in contrast to <em class="hot-media">print</em>, considered by McLuhan to be a <q>hot media</q>, demanding primarily the attention of our vision. As the printed word’s requirement for the other senses is minimal, it <em>spoon-feeds</em> the content to the reader in a l-i-n-e-a-r <span class="typographic-sine-wave"><span>f</span><span>a</span><span>s</span><span>h</span><span>i</span><span>o</span><span>n</span></span>. The literate or print culture is passive and is detached from immediate involvement because the medium has no such requirements. The cooler media on the other hand, requires a greater level of engagement from the audience at a faster rate. This increased engagement allows us to detect change and better recognise patterns, which, according to <a href="https://en.wikipedia.org/wiki/Principles_of_grouping">Gestalt’s laws of grouping</a>, makes the whole of the information easier to follow and understand.</p>
+                  <p class=ruben>
+                    I find <q>a</q> media weird.
+                  </p>
 
                   <p>The interaction of media with our senses is an inherent property of media. The media’s built-in sensory bias affects and transforms human society and psyche. Modern media, like the Web, offer extensible interactions, creative participation, and social engagement. There is a natural human desire to connect and exchange ideas, behaviour, or style with others, as well as to co-create. Given these opportunities, the fundamental question to ask here is, why should research communication be limited to, evaluated by, and rewarded on methods and practices be based on print-centric media? Scholarly communication still uses methods which date back to the invention of the <a href="https://en.wikipedia.org/wiki/Printing_press">mechanical movable type printing press</a> (circa 1450), even in the advent of the globally accessible and interactive new media that are at our fingertips today, and at much faster turnaround times from publication to consumption than ever before. The practices correspond to publication workflows that are in place for academic communication, and have remained largely unchanged for over a century. What does it mean to have an academic achievement through a “publication”? If we consider the Web as a potential supplement to or replacement for these older practices, and given that the Web can be purposed for greater possibilities than print alone, then we (members of the academic community) also need to address the question, <em>what constitutes a scholarly contribution?</em></p>
 
