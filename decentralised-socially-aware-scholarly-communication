@@ -3032,9 +3032,11 @@ support groups.</pre>
 
                       <p><strong>Why JSON-LD</strong>: To address these issues, choosing a single RDF serialisation to <em>require</em> is necessary for consistent interoperability, as well as keeping processing requirements or external code dependencies minimal. While any RDF notation would satisfy that need, we decided that LDN requires all applications to create and understand the JSON-LD syntax, both for the contents of Inbox as well as for individual notifications.</p>
 
-                      <p>To some extent, JSON-LD is compatible with existing JSON libraries or in some cases native programming language data structures. For example, Web browsers have a built-in interpreter for JavaScript that can handle JSON objects, that can take advantage of native object operations. Same data processing and manipulation operations are also available in a Node.js environment. Having said that, JSON-LD is intended to be processed as an RDF notation, as opposed to plain JSON. Hence, JSON-LD is just one convenience to certain kinds of environments that the application is confined to. JSON-LD is also advantageous in being familiar for developers who are <cite><a href="http://manu.sporny.org/2014/json-ld-origins-2/">used to JSON-based APIs but not RDF</a></cite>.</p>
+                      <p>To some extent, JSON-LD is compatible with existing JSON libraries or in some cases native programming language data structures. For example, Web browsers have a built-in interpreter for JavaScript that can handle JSON objects, that can take advantage of native object operations. Same data processing and manipulation operations are also available in a Node.js environment. Having said that, JSON-LD is intended to be processed as an RDF notation, as opposed to plain JSON. <span class=ruben><q>Intended</q>? I always considered it as a format you can see as both.</span> Hence, JSON-LD is just one convenience to certain kinds of environments that the application is confined to. JSON-LD is also advantageous in being familiar for developers who are <cite><a href="http://manu.sporny.org/2014/json-ld-origins-2/">used to JSON-based APIs but not RDF</a></cite>.</p>
 
-                      <p><strong>Content-negotiation</strong>: Optionally, applications may attempt to exchange different RDF serialisations by performing <strong>content negotiation</strong>. As in compliance with HTTP and REST principles, a sender may make an <code>HTTP OPTIONS</code> request to the receiver to determine the RDF content types accepted by the server. A receiver can expose <code>Accept-Post</code> headers for senders, and so the sender can serialize the notification in the request body accordingly. Consumers can send <code>Accept</code> headers to receivers to signal which RDF content types they prefer and capable of processing.</p>
+                      <p class=ruben>Is a certain framing required? That's what I expect if we want JSON interoperability.</p>
+
+                      <p><strong>Content negotiation</strong>: Optionally, applications may attempt to exchange different RDF serialisations by performing <strong>content negotiation</strong>. As in compliance with HTTP principles, a sender may make an <code>HTTP OPTIONS</code> request to the receiver to determine the RDF content types accepted by the server. A receiver can expose <code>Accept-Post</code> headers for senders, and so the sender can serialize the notification in the request body accordingly. Consumers can send <code>Accept</code> headers to receivers to signal which RDF content types they prefer and capable of processing.</p>
 
                       <p>By mandating one RDF syntax (JSON-LD) for applications to communicate with, as well as permitting other syntaxes to discover and exchange notifications, compatibility across applications is assured.</p>
                     </div>
@@ -3317,6 +3319,7 @@ support groups.</pre>
                           </tr>
                         </tfoot>
                       </table>
+                      <p class=ruben>Might want a better visual separation between required and optional; extra space (typically preferred) or a line or fill.</p>
                     </div>
                   </section>
 
@@ -3363,6 +3366,7 @@ support groups.</pre>
                           </tr>
                         </tfoot>
                       </table>
+                      <p class=ruben>Idem</p>
                     </div>
                   </section>
 
@@ -3409,6 +3413,7 @@ support groups.</pre>
                           </tr>
                         </tfoot>
                       </table>
+                      <p class=ruben>Idem</p>
                     </div>
                   </section>
                 </div>
@@ -3655,6 +3660,7 @@ support groups.</pre>
                             </tr>
                           </tfoot>
                         </table>
+                        <p class=ruben>Ehm, this table is hard. Any options for simplification, such as splitting into multiple tables?</p>
 
                         <figcaption>Table is derived from <cite><a href="http://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms" rel="prov:wasDerivedFrom">comparison of notification mechanisms</a></cite> originally published in <cite>Linked Data Notifications: a resource-centric communication protocol</cite>, Capadisli, 2016, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY</a>.</figcaption>
                       </figure>
