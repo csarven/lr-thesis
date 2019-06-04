@@ -463,18 +463,18 @@ The adoption of a Web-centric communication flow in the scholarly ecosystem enab
                         <dt><cite><a href="#scholarly-communication-on-the-web">Scholarly Communication on the Web</a></cite></dt>
                         <dd>Answers knowledge questions to describe and explain characteristics of the Web and the state of scholarly communication on the Web.</dd>
                         <dt><cite><a href="#structure-of-scholarly-information">Structure of Scholarly Information</a></cite></dt>
-                        <dd>Answers knowledge questions to identify common structural and semantic patterns for human- and machine-readable information.</dd>
+                        <dd>Answers knowledge questions to identify common structural and semantic patterns for human- and machine-readable information. Contributions: <cite><a href="#linked-statistics">Linked Statistics</a></cite> on publishing and exchanging statistical Linked Data.</dd>
                         <dt><cite><a href="#decentralising-scholarly-communication">Decentralising Scholarly Communication</a></cite></dt>
-                        <dd>Answers knowledge questions pertaining to design of socially-aware decentralised systems, as well as classification of Web specifications for forces and functions in scientific communication.</dd>
+                        <dd>Answers knowledge questions pertaining to design of socially-aware decentralised systems, as well as classification of Web specifications for forces and functions in scientific communication. Contributions: <cite><a href="#degree-of-control">Degree of Control</a></cite>, <cite><a href="#forces-and-functions-in-specifications">Forces and Functions in Specifications</a></cite>, <cite><a href="#the-effects-and-artifacts-of-autonomous-engagement">The Effects and Artifacts of Autonomous Engagement</a></cite>.</dd>
                         <dt><cite><a href="#linked-data-notifications">Linked Data Notifications</a></cite></dt>
-                        <dd>Answers technical research problems on how to design a decentralised notification protocol.</dd>
-                        <dt><cite><a href="#decentralised-linked-research-application">Decentralised Linked Research Application</a></cite></dt>
-                        <dd>Answers technical research problems on how to design a decentralised application.</dd>
+                        <dd>Answers technical research problems on how to design a decentralised notification protocol. Contributions: Design of <cite><a href="#linked-data-notifications">A Decentralised Notifications Protocol</a></cite> to exchange reusable decentralised notifications.</dd>
+                        <dt><cite><a href="#decentralised-linked-research-application">Decentralised Linked Research Application</a></cite>.</dt>
+                        <dd>Answers technical research problems on how to design a decentralised application. Contributions: <cite><a href="#linking-the-decentralised-information-space">Linking the Decentralised Information Space</a></cite>, <cite><a href="#implementing-a-read-write-application">Implementing a Read-Write Application</a>, <cite><a href="#dokieli-forces-functions">Forces and Functions in dokieli</a>.</dd>
                         <dt><cite><a href="#linked-research">Linked Research</a></cite></dt>
-                        <dd>A description and explanation of the effects of applying Web-centric standards and practices in order to enable and empower creators and consumers of open knowledge, as well as a generalisation of core principles that can serve as an exemplar to set forth a shift in scholarly communication.</dd>
+                        <dd>A description and explanation of the effects of applying Web-centric standards and practices in order to enable and empower creators and consumers of open knowledge, as well as a generalisation of core principles that can serve as an exemplar to set forth a shift in scholarly communication. Contributions: <cite><a href="#design-principles">Design Principles</a></cite>, <cite><a href="#call-for-linked-research">Call for Linked Research</a></cite>, <cite><a href="#linked-research-forces-functions">Forces and Functions of Linked Research</a>, <cite><a href="#linked-research-as-a-paradigm">Linked Research as a Paradigm</a></cite></cite>.</dd>
                       </dl>
 
-                      <p>In <cite><a href="#conclusions">Conclusions</a></cite>, I will connect and discuss all findings, interpretations, and perspectives for the future.</p>
+                      <p>In <cite><a href="#conclusions">Conclusions</a></cite>, I will discuss the thesis findings in <cite><a href="#research-questions-review">Research Questions Review</a></cite>, offer my <cite><a href="#interpretations">Interpretations</a></cite>, and share <cite><a href="#perspectives">Perspectives</a></cite> for the future.</p>
                     </div>
                   </section>
 
@@ -602,8 +602,9 @@ The adoption of a Web-centric communication flow in the scholarly ecosystem enab
 
           <section id="scholarly-communication-on-the-web" inlist="" rel="schema:hasPart" resource="#scholarly-communication-on-the-web">
             <h2 property="schema:name">Scholarly Communication on the Web</h2>
-
             <div datatype="rdf:HTML" property="schema:description">
+              <p>In this section I describe and explain characteristics of the Web and the state of scholarly communication on the Web.</p>
+
               <section id="mediums-and-paradigms" inlist="" rel="schema:hasPart" resource="#mediums-and-paradigms">
                 <h3 property="schema:name">Mediums and Paradigms</h3>
                 <div datatype="rdf:HTML" property="schema:description">
@@ -2455,7 +2456,7 @@ support groups.</pre>
                 <footer><cite><a data-versiondate="2018-09-12T07:20:21Z" data-versionurl="https://web.archive.org/web/20180912072021/http://www.chakoteya.net/Voyager/613.htm" href="http://www.chakoteya.net/Voyager/613.htm">Virtuoso</a>, Star Trek: Voyager</cite>, 2000</footer>
               </blockquote>
 
-              <p>Parts of this section are adapted from work published as <cite><a href="http://csarven.ca/linked-data-notifications" rel="prov:wasDerivedFrom">Linked Data Notifications: a resource-centric communication protocol</a></cite>, Capadisli, 2017, <a href="http://2017.eswc-conferences.org/">Extended Semantic Web Conference</a> (Best Student Paper Award). Additionally some parts are adapted from <cite><a href="http://csarven.ca/linked-specifications-reports" rel="prov:wasDerivedFrom">Linked Specifications, Test Suites, and Implementation Reports</a></cite>, Capadisli (2018), TheWebConf Developers Track. Finally, parts of the W3C Recommendation <cite><a href="https://www.w3.org/TR/ldn/" rel="prov:wasDerivedFrom">Linked Data Notifications</a></cite>, editors Capadisli and Guy, 2017, have been integrated as well.</p>
+              <p>In this section I describe my knowledge and artifact contributions of a decentralised notification protocol. Parts of this section are adapted from work published as <cite><a href="http://csarven.ca/linked-data-notifications" rel="prov:wasDerivedFrom">Linked Data Notifications: a resource-centric communication protocol</a></cite>, Capadisli, 2017, <a href="http://2017.eswc-conferences.org/">Extended Semantic Web Conference</a> (Best Student Paper Award). Additionally some parts are adapted from <cite><a href="http://csarven.ca/linked-specifications-reports" rel="prov:wasDerivedFrom">Linked Specifications, Test Suites, and Implementation Reports</a></cite>, Capadisli, 2018, TheWebConf Developers Track. Finally, parts of the W3C Recommendation <cite><a href="https://www.w3.org/TR/ldn/" rel="prov:wasDerivedFrom">Linked Data Notifications</a></cite>, editors Capadisli and Guy, 2017, have been integrated as well.</p>
 
               <section id="fulfilling-the-awareness-function" inlist="" rel="schema:hasPart" resource="#fulfilling-the-awareness-function">
                 <h3 property="schema:name">Fulfilling the Awareness Function</h3>
@@ -3438,7 +3439,7 @@ support groups.</pre>
 
                       <p>WebSub differs in terms of the number of roles, but not the actual functions of the specified roles. The "hub" is an intermediate party which plays the role of a Receiver and a Sender, relaying notifications from the original Sender (or publisher) to the Subscriber (or ultimate Receiver), but nonetheless only makes notifications available to the Subscriber and no other applications.</p>
 
-                      <p>LDN is the only mechanism that enforces that notifications should be reusable, and specifies how Receivers should make notifications available for Consumers. The other mechanisms either consider notification reuse as inapplicable or leave it optional and unspecified.</p>
+                      <p>LDN enforces that notifications should be reusable, and specifies how Receivers should make notifications available for Consumers. The other mechanisms either consider notification reuse as inapplicable or leave it optional and unspecified.</p>
 
                       <p>This is also tied to to persistence and retrievability in that LDN requires notifications to be identified by dereferenceable HTTP URIs. The other notification mechanisms treat notifications as ephemeral resources which only exist until they are delivered to a Receiver.</p>
 
