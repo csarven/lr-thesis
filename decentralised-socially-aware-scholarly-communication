@@ -120,7 +120,7 @@ text-align:center;
 
         <dl id="document-modified">
           <dt>Modified</dt>
-          <dd><time content="2019-04-24T21:13:23.012Z" datatype="xsd:dateTime" datetime="2019-04-24T21:13:23.012Z" property="schema:dateModified">2019-04-24</time></dd>
+          <dd><time content="2019-06-04T16:43:00.123Z" datatype="xsd:dateTime" datetime="2019-06-04T16:43:00.123" property="schema:dateModified">2019-06-04</time></dd>
         </dl>
 
         <dl id="document-published">
