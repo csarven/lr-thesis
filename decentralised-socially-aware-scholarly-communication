@@ -1904,8 +1904,56 @@ support groups.</pre>
                   <p>Messages and operations in centralised or distributed systems <q>may be managed by a single root of trust or authority</q>. From this position <q>decentralized systems are a subset of distributed systems</q> where they <q>embody a complex set of relationships of trust between parties managing different aspects of the system</q>. These systems are conceived of as a graph where the nodes correspond to the components of the system, and the edges correspond to connections between them. From a global perspective, the Web is a decentralised system, however, it can have components which are disjoint from the rest of the graph. Figure <a href="#figure-centralised-decentralised-architectures">figure-centralised-decentralised-architectures</a> depicts the contrast between typical centralised and decentralised architectures.</p>
 
                   <figure id="figure-centralised-decentralised-architectures" rel="schema:hasPart" resource="#figure-centralised-decentralised-architectures">
-                    <!-- <object rel="schema:image" data="https://dokie.li/proxy?uri=http://csarven.ca/media/images/articles/centralised-decentralised-architectures.svg" type="image/svg+xml" width="900" height="300"></object> -->
-                    <figcaption class="todo" property="schema:name">Typical centralised and decentralised architectures</figcaption>
+                    <svg width="480" height="360" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com">
+ <g class="layer">
+  <title>Coupling of Centralised and Decentralised Architectures</title>
+  <polyline fill="none" id="svg_18" points="396.49,228.7 396.575,223.75 396.66,218.8" se:connector="svg_7 svg_6" stroke="#000000" stroke-dasharray="2" stroke-width="2"/>
+  <polyline fill="none" id="svg_4" points="220.443,100.333 220.333,94.425 220.223,88.5167" se:connector="svg_2 svg_5" stroke="#000000" stroke-dasharray="2" stroke-width="2"/>
+  <text fill="#000000" font-family="sans-serif" font-size="14px" id="svg_1" stroke="#000000" stroke-width="0" x="10" y="20">Coupling of Centralised and Decentralised Architectures</text>
+  <rect fill="#ffffff" fill-opacity="0" height="70" id="svg_10" stroke="#000000" width="105" x="168" y="59"/>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_2" stroke="#000000" stroke-width="0" x="197" y="119">Data</text>
+  <rect fill="#ffffff" fill-opacity="0" height="35" id="svg_14" stroke="#000000" width="130" x="318" y="51"/>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_3" stroke="#000000" stroke-width="0" x="326" y="76">User Agent</text>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_5" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="220" xml:space="preserve" y="83.18333">Interface</text>
+  <rect fill="#ffffff" fill-opacity="0" height="30.00001" id="svg_11" stroke="#000000" width="65.00001" x="182" y="222.36667"/>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_9" stroke="#000000" stroke-width="0" x="189.86667" y="244.36666">Data</text>
+  <rect fill="#ffffff" fill-opacity="0" height="68" id="svg_8" stroke="#000000" width="130" x="332.86667" y="189.36665"/>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_7" stroke="#000000" stroke-width="0" x="340.86667" y="247.36666">User Agent</text>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_6" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="396.86667" xml:space="preserve" y="213.54999">Interface</text>
+  <line fill="none" id="svg_12" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="273" x2="318" y1="75" y2="75"/>
+  <rect fill="#ffffff" fill-opacity="0" height="35" id="svg_17" stroke="#000000" width="130" x="318.06667" y="101.88333"/>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_16" stroke="#000000" stroke-width="0" x="326.06667" y="126.88333">User Agent</text>
+  <rect fill="#ffffff" fill-opacity="0" height="35" id="svg_20" stroke="#000000" width="130" x="12.88333" y="76.88333"/>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_19" stroke="#000000" stroke-width="0" x="20.88333" y="101.88333">User Agent</text>
+  <line fill="none" fill-opacity="0" id="svg_21" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="142.63333" x2="167.63333" y1="95.88333" y2="95.88333"/>
+  <rect fill="#ffffff" fill-opacity="0" height="30.00001" id="svg_23" stroke="#000000" width="65.00001" x="183.38333" y="270.38332"/>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_22" stroke="#000000" stroke-width="0" x="191.25" y="292.38331">Data</text>
+  <rect fill="#ffffff" fill-opacity="0" height="30.00001" id="svg_25" stroke="#000000" width="65.00001" x="213.38333" y="311.38332"/>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_24" stroke="#000000" stroke-width="0" x="221.25" y="333.38331">Data</text>
+  <rect fill="#ffffff" fill-opacity="0" height="30.00001" id="svg_27" stroke="#000000" width="65.00001" x="213.38333" y="180.38332"/>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_26" stroke="#000000" stroke-width="0" x="221.25" y="202.38331">Data</text>
+  <line fill="none" fill-opacity="0" id="svg_31" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="278.63333" x2="333" y1="192.88333" y2="221.88333"/>
+  <line fill="none" fill-opacity="0" id="svg_32" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="246.63333" x2="332.63333" y1="235.88333" y2="306.88333"/>
+  <line fill="none" fill-opacity="0" id="svg_33" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="332.63334" x2="248.63333" y1="235.88333" y2="282.88333"/>
+  <line fill="none" fill-opacity="0" id="svg_34" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="332.63333" x2="278.63333" y1="245.88333" y2="324.88333"/>
+  <polyline fill="none" id="svg_42" points="397.506,310.717 397.592,305.767 397.677,300.817" se:connector="svg_40 svg_39" stroke="#000000" stroke-dasharray="2" stroke-width="2"/>
+  <rect fill="#ffffff" fill-opacity="0" height="68" id="svg_41" stroke="#000000" width="130" x="333.88333" y="271.38334"/>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_40" stroke="#000000" stroke-width="0" x="341.88333" y="329.38335">User Agent</text>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_39" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="397.88333" xml:space="preserve" y="295.56668">Interface</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14px" id="svg_43" stroke="#000000" stroke-width="0" x="10" y="58">Centralised</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14px" id="svg_44" stroke="#000000" stroke-width="0" x="10" y="179">Decentralised</text>
+  <line fill="none" id="svg_13" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="273.41667" x2="318.41667" y1="114.91667" y2="114.91667"/>
+  <polyline fill="none" id="svg_30" points="74.5396,264.25 74.625,259.3 74.7104,254.35" se:connector="svg_28 svg_15" stroke="#000000" stroke-dasharray="2" stroke-width="2"/>
+  <rect fill="#ffffff" fill-opacity="0" height="68" id="svg_29" stroke="#000000" width="130" x="10.91667" y="224.91667"/>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_28" stroke="#000000" stroke-width="0" x="18.91667" y="282.91668">User Agent</text>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_15" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="74.91667" xml:space="preserve" y="249.10001">Interface</text>
+  <line fill="none" fill-opacity="0" id="svg_35" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="140.81665" x2="212.81665" y1="229.96666" y2="197.96666"/>
+  <line fill="none" fill-opacity="0" id="svg_36" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="141.81665" x2="182.81665" y1="241.96666" y2="241.96666"/>
+  <line fill="none" fill-opacity="0" id="svg_37" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="140.81665" x2="183.81665" y1="277.96666" y2="277.96666"/>
+  <line fill="none" fill-opacity="0" id="svg_38" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="140.81665" x2="212.81665" y1="287.96666" y2="328.96666"/>
+ </g>
+</svg>
+                    <figcaption property="schema:name">Typical centralised and decentralised architectures</figcaption>
                   </figure>
 
                   <p>Troncoso et al, consider <em>security</em> and <em>privacy</em> to be integral aspects of systems. Security includes <q>confidentiality, integrity, authentication … availability, accountability, authorization, non-repudiation or non-equivocation</q>, and privacy considers <q>protections of users’ related data (identities, actions, etc.)</q>, and <q>formalized in terms of privacy properties (anonymity, pseudonymity, unlinkability, unobservability).</q></p>
