@@ -215,7 +215,7 @@ From a technical standpoint, this thesis takes a deep look at semantic structure
 
 I contribute a new communication protocol, Linked Data Notifications (published as a W3C Recommendation) which enables decentralised notifications on the Web, and provide implementations pertinent to the academic publishing use case.
 
-Another core contribution of this work is a proof-of-concept implementation of a socially-aware decentralised article authoring, publishing, annotating, and notifying application, dokieli, which combines multiple established and cutting-edge Web standards allowing actors to participate in the global knowledge exchange.
+Another core contribution of this work is an implementation of a socially-aware decentralised article authoring, publishing, annotating, and notifying application, dokieli, which combines multiple established and cutting-edge Web standards allowing actors to participate in the global knowledge exchange.
 
 The overarching conclusion of the thesis is that it is possible to distribute research contributions on the Web based on an actor-centric model while fulfilling the core functions of scientific communication (registration, awareness, certification, archiving). By loosely coupling the forces and functions based on the architecture of the Web, users are able to switch between interoperable applications without interfering with existing data.
 
