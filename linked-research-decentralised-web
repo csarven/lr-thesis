@@ -1821,7 +1821,7 @@ support groups.</pre>
                       <p>The results are part of the <cite><a href="http://270a.info/">270a.info</a></cite> LSD Cloud which also includes data originally from <cite><a href="http://worldbank.org/">World Bank</a></cite> (<abbr title="World Bank">WB</abbr>) and <cite><a href="http://transparency.org/">Transparency International</a></cite> (<abbr title="Transparency International">TI</abbr>). The LSD Cloud is also part of the broader <cite><a href="http://lod-cloud.net/">Linked Open Data</a></cite> (<abbr title="Linked Open Data">LOD</abbr>) Cloud.</p>
 
                       <figure id="interlinks-270a.info">
-                        <!-- <object data="https://dokie.li/proxy?uri=http://270a.info/media/images/270a.cloud.svg" height="480" type="image/svg+xml" width="640"></object> -->
+                        <object data="https://270a.info/media/images/270a.cloud.svg" height="480" type="image/svg+xml" width="640"></object>
                         <figcaption class="todo">Interlinks of Linked Statistical Data endpoints at 270a.info</figcaption>
                       </figure>
 
