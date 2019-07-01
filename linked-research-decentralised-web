@@ -28,7 +28,6 @@
             <dd id="Sarven-Capadisli" inlist="" rel="bibo:authorList" resource="http://csarven.ca/#i"><span about="" rel="schema:creator schema:publisher schema:author"><a about="http://csarven.ca/#i" href="http://csarven.ca/" property="schema:name" rel="schema:url" typeof="schema:Person"><span about="http://csarven.ca/#i"><span property="schema:givenName">Sarven</span> <span property="schema:familyName">Capadisli</span></span></a></span><sup>✊</sup></dd>
           </dl>
         </div>
-
 <!--
         <dl id="document-identifier">
           <dt>Identifier</dt>
@@ -50,7 +49,6 @@
           <dt>Published</dt>
           <dd><time content="2019-04-24T00:00:00Z" datatype="xsd:dateTime" datetime="2019-04-24T00:00:00Z" property="schema:datePublished">2019-04-24</time></dd>
         </dl>
-
 <!--
         <dl id="document-latest-version">
           <dt>Latest Version</dt>
@@ -122,7 +120,7 @@
 
 <nav id="table-of-contents"><h2>Contents</h2><div><ol class="toc"><li data-id="abstract"><a href="#abstract">Abstract</a></li><li data-id="general-terms"><a href="#general-terms">General Terms</a></li><li data-id="categories-and-subject-descriptors"><a href="#categories-and-subject-descriptors">Categories and Subject Descriptors</a></li><li data-id="keywords"><a href="#keywords">Keywords</a></li><li data-id="audience"><a href="#audience">Audience</a></li><li data-id="declaration"><a href="#declaration">Declaration</a></li><li data-id="acknowledgements"><a href="#acknowledgements">Acknowledgements</a></li><li data-id="introduction"><a href="#introduction">Introduction</a><ol><li data-id="motivation"><a href="#motivation">Motivation</a></li><li data-id="research-goals"><a href="#research-goals">Research Goals</a><ol><li data-id="stakeholders"><a href="#stakeholders">Stakeholders</a></li><li data-id="problem-context"><a href="#problem-context">Problem Context</a></li><li data-id="technical-research-goals"><a href="#technical-research-goals">Technical Research Goals</a></li><li data-id="knowledge-goals"><a href="#knowledge-goals">Knowledge Goals</a></li></ol></li><li data-id="research-questions"><a href="#research-questions">Research Questions</a><ol><li data-id="technical-research-problems"><a href="#technical-research-problems">Technical Research Problems</a></li><li data-id="knowledge-questions"><a href="#knowledge-questions">Knowledge Questions</a></li></ol></li><li data-id="thesis-overview"><a href="#thesis-overview">Thesis Overview</a><ol><li data-id="document-structure"><a href="#document-structure">Structure</a></li><li data-id="literature-review-and-citations"><a href="#literature-review-and-citations">Literature Review and Citations</a></li><li data-id="document-convention"><a href="#document-convention">Document Convention</a></li></ol></li></ol></li><li data-id="scholarly-communication-on-the-web"><a href="#scholarly-communication-on-the-web">Scholarly Communication on the Web</a><ol><li data-id="mediums-and-paradigms"><a href="#mediums-and-paradigms">Mediums and Paradigms</a><ol><li data-id="on-mediums"><a href="#on-mediums">On Mediums</a></li><li data-id="on-paradigms"><a href="#on-paradigms">On Paradigms</a></li><li data-id="rear-view-mirror"><a href="#rear-view-mirror">Rear-View Mirror</a></li></ol></li><li data-id="web-a-social-machine"><a href="#web-a-social-machine">Web: A Social Machine</a><ol><li data-id="architecture-of-the-web"><a href="#architecture-of-the-web">Architecture of the Web</a><ol><li data-id="architecture-of-the-web-identification"><a href="#architecture-of-the-web-identification">Identification</a></li><li data-id="architecture-of-the-web-interaction"><a href="#architecture-of-the-web-interaction">Interaction</a></li><li data-id="architecture-of-the-web-data-formats"><a href="#architecture-of-the-web-data-formats">Data Formats</a></li></ol></li><li data-id="linked-data"><a href="#linked-data">Linked Data</a></li><li data-id="web-science"><a href="#web-science">Web Science</a></li></ol></li><li data-id="a-brief-history-of-scholarship-on-the-web"><a href="#a-brief-history-of-scholarship-on-the-web">A Brief History of Scholarship on the Web</a><ol><li data-id="open-and-free"><a href="#open-and-free">Open and Free</a></li><li data-id="archives-and-repositories"><a href="#archives-and-repositories">Archives and Repositories</a></li><li data-id="open-access"><a href="#open-access">Open Access</a></li><li data-id="deconstructing-the-scholarly-journal"><a href="#deconstructing-the-scholarly-journal">Deconstructing the Scholarly Journal</a></li><li data-id="open-archiving"><a href="#open-archiving">Open Archiving</a></li><li data-id="scholarly-declarations-and-practices"><a href="#scholarly-declarations-and-practices">Scholarly Declarations and Practices</a></li><li data-id="paper-user-interface"><a href="#paper-user-interface">Paper User Interface</a></li><li data-id="semantic-publishing"><a href="#semantic-publishing">Semantic Publishing</a></li><li data-id="arguments-and-citations"><a href="#arguments-and-citations">Arguments and Citations</a></li><li data-id="registration-of-identifiers"><a href="#registration-of-identifiers">Registration of Identifiers</a></li></ol></li><li data-id="social-scholarly-web"><a href="#social-scholarly-web">Social Scholarly Web</a><ol><li data-id="social-media-and-academia"><a href="#social-media-and-academia">Social Media and Academia</a></li><li data-id="quality-control-and-certification"><a href="#quality-control-and-certification">Quality Control and Certification</a></li><li data-id="privilege-and-gatekeeping"><a href="#privilege-and-gatekeeping">Privilege and Gatekeeping</a></li></ol></li><li data-id="forces-and-functions"><a href="#forces-and-functions">Forces and Functions</a></li><li data-id="effects-and-artifacts"><a href="#effects-and-artifacts">Effects and Artifacts</a></li><li data-id="understanding-the-medium"><a href="#understanding-the-medium">Understanding the Medium</a></li></ol></li><li data-id="structure-of-scholarly-information"><a href="#structure-of-scholarly-information">Structure of Scholarly Information</a><ol><li data-id="information-spaces"><a href="#information-spaces">Information Spaces</a></li><li data-id="structure-and-semantics"><a href="#structure-and-semantics">Structure and Semantics</a><ol><li data-id="units-of-communication"><a href="#units-of-communication">Units of Communication</a></li><li data-id="human-and-machine-readable-information"><a href="#human-and-machine-readable-information">Human- and Machine-Readable Information</a></li><li data-id="vocabularies"><a href="#vocabularies">Vocabularies</a></li><li data-id="accessibility-usability-inclusion"><a href="#accessibility-usability-inclusion">Accessibility, Usability, and Inclusion</a></li><li data-id="archivability"><a href="#archivability">Archivability</a></li></ol></li><li data-id="existing-markup-patterns"><a href="#existing-markup-patterns">Existing Markup Patterns</a></li><li data-id="linked-statistics"><a href="#linked-statistics">Linked Statistics</a><ol><li data-id="linked-sdmx-data"><a href="#linked-sdmx-data">Linked SDMX Data</a></li><li data-id="linked-statistical-data-analysis"><a href="#linked-statistical-data-analysis">Linked Statistical Data Analysis</a></li></ol></li></ol></li><li data-id="decentralising-scholarly-communication"><a href="#decentralising-scholarly-communication">Decentralising Scholarly Communication</a><ol><li data-id="control-yourself"><a href="#control-yourself">Control Yourself</a></li><li data-id="decentralised-dataspaces"><a href="#decentralised-dataspaces">Decentralised Dataspaces</a></li><li data-id="read-write-linked-data"><a href="#read-write-linked-data">Read-Write Linked Data</a></li><li data-id="universal-identity-for-the-web"><a href="#universal-identity-for-the-web">Universal Identity for the Web</a></li><li data-id="authentication-and-authorization"><a href="#authentication-and-authorization">Authentication and Authorization</a></li><li data-id="persistence-and-preservation"><a href="#persistence-and-preservation">Persistence and Preservation</a></li><li data-id="decentralised-storage-and-interoperable-applications"><a href="#decentralised-storage-and-interoperable-applications">Decentralised Storage and Interoperable Applications</a></li><li data-id="design-decisions-for-decentralisation"><a href="#design-decisions-for-decentralisation">Design Decisions for Decentralisation</a></li><li data-id="degree-of-control"><a href="#degree-of-control">Degree of Control</a></li><li data-id="forces-and-functions-in-specifications"><a href="#forces-and-functions-in-specifications">Forces and Functions in Specifications</a></li><li data-id="the-effects-and-artifacts-of-autonomous-engagement"><a href="#the-effects-and-artifacts-of-autonomous-engagement">The Effects and Artifacts of Autonomous Engagement</a></li></ol></li><li data-id="linked-data-notifications"><a href="#linked-data-notifications">Linked Data Notifications</a><ol><li data-id="fulfilling-the-awareness-function"><a href="#fulfilling-the-awareness-function">Fulfilling the Awareness Function</a></li><li data-id="overview-of-web-notification-systems"><a href="#overview-of-web-notification-systems">Overview of Web Notification Systems</a></li><li data-id="use-cases-for-decentralised-notifications"><a href="#use-cases-for-decentralised-notifications">Use Cases for Decentralised Notifications</a></li><li data-id="design-considerations"><a href="#design-considerations">Design Considerations</a></li><li data-id="a-decentralised-notifications-protocol"><a href="#a-decentralised-notifications-protocol">A Decentralised Notifications Protocol</a><ol><li data-id="application-interactions"><a href="#application-interactions">Application Interactions</a><ol><li data-id="sender-to-receiver"><a href="#sender-to-receiver">Sender to Receiver interactions</a></li><li data-id="consumer-to-receiver"><a href="#consumer-to-receiver">Consumer to Receiver interactions</a></li></ol></li><li data-id="data-formats"><a href="#data-formats">Data Formats and Content Negotiation</a></li><li data-id="security-privacy-content-considerations"><a href="#security-privacy-content-considerations">Security, Privacy and Content Considerations</a></li><li data-id="protocol-interaction-and-content"><a href="#protocol-interaction-and-content">Protocol Interaction and Content</a></li></ol></li><li data-id="test-suite-and-implementation-reports"><a href="#test-suite-and-implementation-reports">Test Suite and Implementation Reports</a></li><li data-id="linked-data-notifications-implementations"><a href="#linked-data-notifications-implementations">Linked Data Notifications Implementations</a><ol><li data-id="ldn-report-receiver"><a href="#ldn-report-receiver">Receiver reports</a></li><li data-id="ldn-report-consumer"><a href="#ldn-report-consumer">Consumer reports</a></li><li data-id="ldn-report-sender"><a href="#ldn-report-sender">Sender reports</a></li></ol></li><li data-id="ldn-forces-functions"><a href="#ldn-forces-functions">Forces and Functions in Linked Data Notifications</a></li><li data-id="contextualising-ldn"><a href="#contextualising-ldn">Contextualising LDN</a><ol><li data-id="comparison-of-notification-mechanisms"><a href="#comparison-of-notification-mechanisms">Comparison of Notification Mechanisms</a></li><li data-id="interoperability-across-specifications"><a href="#interoperability-across-specifications">Interoperability Across Specifications</a></li><li data-id="degree-of-control-in-ldn"><a href="#degree-of-control-in-ldn">Degree of Control in LDN</a></li><li data-id="additional-considerations"><a href="#additional-considerations">Additional Considerations</a></li></ol></li></ol></li><li data-id="decentralised-linked-research-application"><a href="#decentralised-linked-research-application">Decentralised Linked Research Application</a><ol><li data-id="linking-the-decentralised-information-space"><a href="#linking-the-decentralised-information-space">Linking the Decentralised Information Space</a></li><li data-id="implementing-a-read-write-application"><a href="#implementing-a-read-write-application">Implementing a Read-Write Application</a><ol><li data-id="core-techniques"><a href="#core-techniques">Core Techniques</a><ol><li data-id="core-concepts"><a href="#core-concepts">Core Concepts</a></li><li data-id="core-mechanisms"><a href="#core-mechanisms">Core Mechanisms</a></li><li data-id="core-artifacts"><a href="#core-artifacts">Core Artifacts</a></li></ol></li><li data-id="resource-interaction"><a href="#resource-interaction">Resource Interaction</a></li><li data-id="personal-identities"><a href="#personal-identities">Personal Identities</a></li><li data-id="annotations"><a href="#annotations">Annotations</a></li><li data-id="activities"><a href="#activities">Activities</a></li><li data-id="sharing-resources"><a href="#sharing-resources">Sharing Resources</a></li><li data-id="semantic-citations"><a href="#semantic-citations">Semantic Citations</a></li><li data-id="social-reviews"><a href="#social-reviews">Social Reviews</a></li><li data-id="privacy-considerations"><a href="#privacy-considerations">Privacy Considerations</a></li><li data-id="interactive-linked-statistics"><a href="#interactive-linked-statistics">Interactive Linked Statistics</a></li><li data-id="deployment"><a href="#deployment">Deployment</a></li></ol></li><li data-id="semantic-content-authoring-quality-attributes"><a href="#semantic-content-authoring-quality-attributes">Semantic Content Authoring Quality Attributes</a></li><li data-id="fair-metrics"><a href="#fair-metrics">FAIR Metrics</a><ol><li data-id="fair-metrics-data-structure-definition"><a href="#fair-metrics-data-structure-definition">FAIR Metrics Data Structure Definition</a></li><li data-id="fair-metrics-dataset"><a href="#fair-metrics-dataset">FAIR Metrics Dataset</a></li></ol></li><li data-id="dokieli-forces-functions"><a href="#dokieli-forces-functions">Forces and Functions in dokieli</a></li><li data-id="contextualising-dokieli"><a href="#contextualising-dokieli">Contextualising dokieli</a><ol><li data-id="web-publishing-systems"><a href="#web-publishing-systems">Web Publishing Systems</a></li><li data-id="adoption-of-dokieli"><a href="#adoption-of-dokieli">Adoption of dokieli</a></li><li data-id="degree-of-control-in-dokieli"><a href="#degree-of-control-in-dokieli">Degree of Control in dokieli</a></li><li data-id="effects-and-artifacts-of-dokieli"><a href="#effects-and-artifacts-of-dokieli">Effects and Artifacts of dokieli</a></li></ol></li></ol></li><li data-id="linked-research"><a href="#linked-research">Linked Research</a><ol><li data-id="design-principles"><a href="#design-principles">Design Principles</a><ol><li data-id="autonomy"><a href="#autonomy">Autonomy</a></li><li data-id="universal-access"><a href="#universal-access">Universal Access</a></li></ol></li><li data-id="call-for-linked-research"><a href="#call-for-linked-research">Call for Linked Research</a><ol><li data-id="acid-test"><a href="#acid-test">Acid Test</a></li><li data-id="linked-open-research-cloud"><a href="#linked-open-research-cloud">Linked Open Research Cloud</a></li><li data-id="linked-specifications-reports"><a href="#linked-specifications-reports">Linked Specifications, Test Suites, and Implementation Reports</a></li></ol></li><li data-id="linked-research-forces-functions"><a href="#linked-research-forces-functions">Forces and Functions of Linked Research</a></li><li data-id="contextualising-linked-research"><a href="#contextualising-linked-research">Contextualising Linked Research</a></li><li data-id="linked-research-as-a-paradigm"><a href="#linked-research-as-a-paradigm">Linked Research as a Paradigm</a></li></ol></li><li data-id="conclusions"><a href="#conclusions">Conclusions</a><ol><li data-id="research-questions-review"><a href="#research-questions-review">Research Questions Review</a></li><li data-id="interpretations"><a href="#interpretations">Interpretations</a></li><li data-id="perspectives"><a href="#perspectives">Perspectives</a></li></ol></li><li data-id="references"><a href="#references">References</a></li></ol></div></nav>
 
-        <div id="content" datatype="rdf:HTML" property="schema:description">
+        <div datatype="rdf:HTML" id="content" property="schema:description">
           <blockquote cite="http://worldcat.org/isbn/9781584230700">
             <p>The past went that-a-way. When faced with a totally new situation we tend always to attach ourselves to the objects, to the flavor of the most recent past. We look at the present through a rear-view mirror. We march backward into the future. Suburbia lives imaginatively in Bonanza-land.</p>
             <footer><cite><a href="http://worldcat.org/isbn/9781584230700" rel="cito:includesQuotationFrom">The Medium is the Massage: An Inventory of Effects</a></cite>, p74-75, 1967, <a href="https://dbpedia.org/resource/Marshall_McLuhan">Marshall McLuhan</a></footer>
@@ -1087,7 +1085,8 @@ support groups.</pre>
                     <h4 property="schema:name">Paper User Interface</h4>
                     <div datatype="rdf:HTML" property="schema:description">
                       <blockquote cite="https://www.youtube.com/watch?v=1yLNGUeHapA&amp;start=50&amp;end=90">
-                        <!-- <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/1yLNGUeHapA?rel=0&amp;start=50&amp;end=90" allowfullscreen="true"></iframe> -->
+                        
+<!-- <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/1yLNGUeHapA?rel=0&amp;start=50&amp;end=90" allowfullscreen="true"></iframe> -->
 
                         <p><q>Because paper enforces single sequence and there is no room for digression, it imposes a particular kind of order in the very nature of the structure. When I saw the computer, I said, ‘at last we can escape from the prison of paper’, and that was what my whole hypertext idea was about in 1960 and since. Contrarily, what did the other people do, they <strong>imitated paper</strong>, which to me seems totally insane.</q></p>
 
@@ -1823,55 +1822,54 @@ support groups.</pre>
                   <p>Messages and operations in centralised or distributed systems <q>may be managed by a single root of trust or authority</q>. From this position <q>decentralized systems are a subset of distributed systems</q> where they <q>embody a complex set of relationships of trust between parties managing different aspects of the system</q>. These systems are conceived of as a graph where the nodes correspond to the components of the system, and the edges correspond to connections between them. From a global perspective, the Web is a decentralised system, however, it can have components which are disjoint from the rest of the graph. Figure <a href="#figure-centralised-decentralised-architectures">figure-centralised-decentralised-architectures</a> depicts the contrast between typical centralised and decentralised architectures.</p>
 
                   <figure id="figure-centralised-decentralised-architectures" rel="schema:hasPart" resource="#figure-centralised-decentralised-architectures">
-                    <svg width="480" height="360" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com">
+                    <svg height="360" width="480" xmlns:se="http://svg-edit.googlecode.com" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg">
  <g class="layer">
   <title>Coupling of Centralised and Decentralised Architectures</title>
-  <polyline fill="none" id="svg_18" points="396.49,228.7 396.575,223.75 396.66,218.8" se:connector="svg_7 svg_6" stroke="#000000" stroke-dasharray="2" stroke-width="2"/>
-  <polyline fill="none" id="svg_4" points="220.443,100.333 220.333,94.425 220.223,88.5167" se:connector="svg_2 svg_5" stroke="#000000" stroke-dasharray="2" stroke-width="2"/>
-  <text fill="#000000" font-family="sans-serif" font-size="14px" id="svg_1" stroke="#000000" stroke-width="0" x="10" y="20">Coupling of Centralised and Decentralised Architectures</text>
-  <rect fill="#ffffff" fill-opacity="0" height="70" id="svg_10" stroke="#000000" width="105" x="168" y="59"/>
-  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_2" stroke="#000000" stroke-width="0" x="197" y="119">Data</text>
-  <rect fill="#ffffff" fill-opacity="0" height="35" id="svg_14" stroke="#000000" width="130" x="318" y="51"/>
-  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_3" stroke="#000000" stroke-width="0" x="326" y="76">User Agent</text>
-  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_5" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="220" xml:space="preserve" y="83.18333">Interface</text>
-  <rect fill="#ffffff" fill-opacity="0" height="30.00001" id="svg_11" stroke="#000000" width="65.00001" x="182" y="222.36667"/>
-  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_9" stroke="#000000" stroke-width="0" x="189.86667" y="244.36666">Data</text>
-  <rect fill="#ffffff" fill-opacity="0" height="68" id="svg_8" stroke="#000000" width="130" x="332.86667" y="189.36665"/>
-  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_7" stroke="#000000" stroke-width="0" x="340.86667" y="247.36666">User Agent</text>
-  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_6" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="396.86667" xml:space="preserve" y="213.54999">Interface</text>
-  <line fill="none" id="svg_12" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="273" x2="318" y1="75" y2="75"/>
-  <rect fill="#ffffff" fill-opacity="0" height="35" id="svg_17" stroke="#000000" width="130" x="318.06667" y="101.88333"/>
-  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_16" stroke="#000000" stroke-width="0" x="326.06667" y="126.88333">User Agent</text>
-  <rect fill="#ffffff" fill-opacity="0" height="35" id="svg_20" stroke="#000000" width="130" x="12.88333" y="76.88333"/>
-  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_19" stroke="#000000" stroke-width="0" x="20.88333" y="101.88333">User Agent</text>
-  <line fill="none" fill-opacity="0" id="svg_21" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="142.63333" x2="167.63333" y1="95.88333" y2="95.88333"/>
-  <rect fill="#ffffff" fill-opacity="0" height="30.00001" id="svg_23" stroke="#000000" width="65.00001" x="183.38333" y="270.38332"/>
-  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_22" stroke="#000000" stroke-width="0" x="191.25" y="292.38331">Data</text>
-  <rect fill="#ffffff" fill-opacity="0" height="30.00001" id="svg_25" stroke="#000000" width="65.00001" x="213.38333" y="311.38332"/>
-  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_24" stroke="#000000" stroke-width="0" x="221.25" y="333.38331">Data</text>
-  <rect fill="#ffffff" fill-opacity="0" height="30.00001" id="svg_27" stroke="#000000" width="65.00001" x="213.38333" y="180.38332"/>
-  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_26" stroke="#000000" stroke-width="0" x="221.25" y="202.38331">Data</text>
-  <line fill="none" fill-opacity="0" id="svg_31" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="278.63333" x2="333" y1="192.88333" y2="221.88333"/>
-  <line fill="none" fill-opacity="0" id="svg_32" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="246.63333" x2="332.63333" y1="235.88333" y2="306.88333"/>
-  <line fill="none" fill-opacity="0" id="svg_33" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="332.63334" x2="248.63333" y1="235.88333" y2="282.88333"/>
-  <line fill="none" fill-opacity="0" id="svg_34" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="332.63333" x2="278.63333" y1="245.88333" y2="324.88333"/>
-  <polyline fill="none" id="svg_42" points="397.506,310.717 397.592,305.767 397.677,300.817" se:connector="svg_40 svg_39" stroke="#000000" stroke-dasharray="2" stroke-width="2"/>
-  <rect fill="#ffffff" fill-opacity="0" height="68" id="svg_41" stroke="#000000" width="130" x="333.88333" y="271.38334"/>
-  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_40" stroke="#000000" stroke-width="0" x="341.88333" y="329.38335">User Agent</text>
-  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_39" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="397.88333" xml:space="preserve" y="295.56668">Interface</text>
-  <text fill="#000000" font-family="sans-serif" font-size="14px" id="svg_43" stroke="#000000" stroke-width="0" x="10" y="58">Centralised</text>
-  <text fill="#000000" font-family="sans-serif" font-size="14px" id="svg_44" stroke="#000000" stroke-width="0" x="10" y="179">Decentralised</text>
-  <line fill="none" id="svg_13" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="273.41667" x2="318.41667" y1="114.91667" y2="114.91667"/>
-  <polyline fill="none" id="svg_30" points="74.5396,264.25 74.625,259.3 74.7104,254.35" se:connector="svg_28 svg_15" stroke="#000000" stroke-dasharray="2" stroke-width="2"/>
-  <rect fill="#ffffff" fill-opacity="0" height="68" id="svg_29" stroke="#000000" width="130" x="10.91667" y="224.91667"/>
-  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_28" stroke="#000000" stroke-width="0" x="18.91667" y="282.91668">User Agent</text>
-  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_15" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="74.91667" xml:space="preserve" y="249.10001">Interface</text>
-  <line fill="none" fill-opacity="0" id="svg_35" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="140.81665" x2="212.81665" y1="229.96666" y2="197.96666"/>
-  <line fill="none" fill-opacity="0" id="svg_36" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="141.81665" x2="182.81665" y1="241.96666" y2="241.96666"/>
-  <line fill="none" fill-opacity="0" id="svg_37" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="140.81665" x2="183.81665" y1="277.96666" y2="277.96666"/>
-  <line fill="none" fill-opacity="0" id="svg_38" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="140.81665" x2="212.81665" y1="287.96666" y2="328.96666"/>
- </g>
-</svg>
+  <polyline fill="none" id="svg_18" points="396.49,228.7 396.575,223.75 396.66,218.8" se:connector="svg_7 svg_6" stroke-dasharray="2" stroke-width="2" stroke="#000000" />
+  <polyline fill="none" id="svg_4" points="220.443,100.333 220.333,94.425 220.223,88.5167" se:connector="svg_2 svg_5" stroke-dasharray="2" stroke-width="2" stroke="#000000" />
+  <text fill="#000000" font-family="sans-serif" font-size="14px" id="svg_1" stroke-width="0" stroke="#000000" x="10" y="20">Coupling of Centralised and Decentralised Architectures</text>
+  <rect fill-opacity="0" fill="#ffffff" height="70" id="svg_10" stroke="#000000" width="105" x="168" y="59" />
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_2" stroke-width="0" stroke="#000000" x="197" y="119">Data</text>
+  <rect fill-opacity="0" fill="#ffffff" height="35" id="svg_14" stroke="#000000" width="130" x="318" y="51" />
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_3" stroke-width="0" stroke="#000000" x="326" y="76">User Agent</text>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_5" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" text-anchor="middle" x="220" xml:space="preserve" y="83.18333">Interface</text>
+  <rect fill-opacity="0" fill="#ffffff" height="30.00001" id="svg_11" stroke="#000000" width="65.00001" x="182" y="222.36667" />
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_9" stroke-width="0" stroke="#000000" x="189.86667" y="244.36666">Data</text>
+  <rect fill-opacity="0" fill="#ffffff" height="68" id="svg_8" stroke="#000000" width="130" x="332.86667" y="189.36665" />
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_7" stroke-width="0" stroke="#000000" x="340.86667" y="247.36666">User Agent</text>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_6" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" text-anchor="middle" x="396.86667" xml:space="preserve" y="213.54999">Interface</text>
+  <line fill="none" id="svg_12" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" x1="273" x2="318" y1="75" y2="75" />
+  <rect fill-opacity="0" fill="#ffffff" height="35" id="svg_17" stroke="#000000" width="130" x="318.06667" y="101.88333" />
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_16" stroke-width="0" stroke="#000000" x="326.06667" y="126.88333">User Agent</text>
+  <rect fill-opacity="0" fill="#ffffff" height="35" id="svg_20" stroke="#000000" width="130" x="12.88333" y="76.88333" />
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_19" stroke-width="0" stroke="#000000" x="20.88333" y="101.88333">User Agent</text>
+  <line fill-opacity="0" fill="none" id="svg_21" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" x1="142.63333" x2="167.63333" y1="95.88333" y2="95.88333" />
+  <rect fill-opacity="0" fill="#ffffff" height="30.00001" id="svg_23" stroke="#000000" width="65.00001" x="183.38333" y="270.38332" />
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_22" stroke-width="0" stroke="#000000" x="191.25" y="292.38331">Data</text>
+  <rect fill-opacity="0" fill="#ffffff" height="30.00001" id="svg_25" stroke="#000000" width="65.00001" x="213.38333" y="311.38332" />
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_24" stroke-width="0" stroke="#000000" x="221.25" y="333.38331">Data</text>
+  <rect fill-opacity="0" fill="#ffffff" height="30.00001" id="svg_27" stroke="#000000" width="65.00001" x="213.38333" y="180.38332" />
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_26" stroke-width="0" stroke="#000000" x="221.25" y="202.38331">Data</text>
+  <line fill-opacity="0" fill="none" id="svg_31" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" x1="278.63333" x2="333" y1="192.88333" y2="221.88333" />
+  <line fill-opacity="0" fill="none" id="svg_32" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" x1="246.63333" x2="332.63333" y1="235.88333" y2="306.88333" />
+  <line fill-opacity="0" fill="none" id="svg_33" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" x1="332.63334" x2="248.63333" y1="235.88333" y2="282.88333" />
+  <line fill-opacity="0" fill="none" id="svg_34" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" x1="332.63333" x2="278.63333" y1="245.88333" y2="324.88333" />
+  <polyline fill="none" id="svg_42" points="397.506,310.717 397.592,305.767 397.677,300.817" se:connector="svg_40 svg_39" stroke-dasharray="2" stroke-width="2" stroke="#000000" />
+  <rect fill-opacity="0" fill="#ffffff" height="68" id="svg_41" stroke="#000000" width="130" x="333.88333" y="271.38334" />
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_40" stroke-width="0" stroke="#000000" x="341.88333" y="329.38335">User Agent</text>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_39" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" text-anchor="middle" x="397.88333" xml:space="preserve" y="295.56668">Interface</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14px" id="svg_43" stroke-width="0" stroke="#000000" x="10" y="58">Centralised</text>
+  <text fill="#000000" font-family="sans-serif" font-size="14px" id="svg_44" stroke-width="0" stroke="#000000" x="10" y="179">Decentralised</text>
+  <line fill="none" id="svg_13" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" x1="273.41667" x2="318.41667" y1="114.91667" y2="114.91667" />
+  <polyline fill="none" id="svg_30" points="74.5396,264.25 74.625,259.3 74.7104,254.35" se:connector="svg_28 svg_15" stroke-dasharray="2" stroke-width="2" stroke="#000000" />
+  <rect fill-opacity="0" fill="#ffffff" height="68" id="svg_29" stroke="#000000" width="130" x="10.91667" y="224.91667" />
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_28" stroke-width="0" stroke="#000000" x="18.91667" y="282.91668">User Agent</text>
+  <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_15" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" text-anchor="middle" x="74.91667" xml:space="preserve" y="249.10001">Interface</text>
+  <line fill-opacity="0" fill="none" id="svg_35" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" x1="140.81665" x2="212.81665" y1="229.96666" y2="197.96666" />
+  <line fill-opacity="0" fill="none" id="svg_36" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" x1="141.81665" x2="182.81665" y1="241.96666" y2="241.96666" />
+  <line fill-opacity="0" fill="none" id="svg_37" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" x1="140.81665" x2="183.81665" y1="277.96666" y2="277.96666" />
+  <line fill-opacity="0" fill="none" id="svg_38" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" x1="140.81665" x2="212.81665" y1="287.96666" y2="328.96666" />
+ </g></svg>
                     <figcaption property="schema:name">Typical centralised and decentralised architectures</figcaption>
                   </figure>
 
@@ -2253,30 +2251,30 @@ support groups.</pre>
                   </dl>
 
                   <figure id="degree-of-control-actor-third-party">
-    <svg width="420" height="240" xmlns="http://www.w3.org/2000/svg" xml:lang="en">
+    <svg height="240" width="420" xml:lang="en" xmlns="http://www.w3.org/2000/svg">
      <title>Degree of Control</title>
      <g>
-      <text fill="#000000" font-family="sans-serif" font-size="14px" id="svg_6" stroke="#000000" stroke-width="0" x="10" y="20">Degree of Control</text>
-      <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_1" stroke="#000000" stroke-width="0" x="10" y="120">Actor</text>
-      <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_2" stroke="#000000" stroke-width="0" x="52" y="15">
+      <text fill="#000000" font-family="sans-serif" font-size="14px" id="svg_6" stroke-width="0" stroke="#000000" x="10" y="20">Degree of Control</text>
+      <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_1" stroke-width="0" stroke="#000000" x="10" y="120">Actor</text>
+      <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_2" stroke-width="0" stroke="#000000" x="52" y="15">
        <tspan id="svg_10" x="342" y="110">Third-</tspan>
        <tspan id="svg_14" x="342" y="130">party</tspan>
       </text>
-      <text fill="#000000" font-family="sans-serif" font-size="16px" id="svg_3" stroke="#000000" stroke-width="0" x="164" y="69">Identifier</text>
-      <text fill="#000000" font-family="sans-serif" font-size="16px" id="svg_4" stroke="#000000" stroke-width="0" x="164" y="169">Application</text>
-      <text fill="#000000" font-family="sans-serif" font-size="16px" id="svg_5" stroke="#000000" stroke-width="0" x="164" y="119">Data</text>
-      <line fill="none" id="svg_9" stroke="#000000" stroke-width="2" x1="80" x2="155" y1="135" y2="135"/>
-      <line fill="none" id="svg_17" stroke="#000000" stroke-width="2" x1="80" x2="155" y1="185" y2="185"/>
-      <line fill="none" id="svg_18" stroke="#000000" stroke-width="2" x1="80" x2="155" y1="85" y2="85"/>
-      <line fill="none" id="svg_19" stroke="#000000" stroke-width="2" x1="244" x2="325" y1="85" y2="85"/>
-      <line fill="none" id="svg_16" stroke="#000000" stroke-width="2" x1="209" x2="325" y1="135" y2="135"/>
-      <line fill="none" id="svg_20" stroke="#000000" stroke-width="2" x1="259" x2="325" y1="185" y2="185"/>
-      <line fill="none" id="svg_7" stroke="#000000" stroke-width="2" x1="80" x2="80" y1="80" y2="90"/>
-      <line fill="none" id="svg_8" stroke="#000000" stroke-width="2" x1="80" x2="80" y1="130" y2="140"/>
-      <line fill="none" id="svg_8" stroke="#000000" stroke-width="2" x1="80" x2="80" y1="180" y2="190"/>
-      <line fill="none" id="svg_11" stroke="#000000" stroke-width="2" x1="325" x2="325" y1="80" y2="90"/>
-      <line fill="none" id="svg_11" stroke="#000000" stroke-width="2" x1="325" x2="325" y1="130" y2="140"/>
-      <line fill="none" id="svg_11" stroke="#000000" stroke-width="2" x1="325" x2="325" y1="180" y2="190"/>
+      <text fill="#000000" font-family="sans-serif" font-size="16px" id="svg_3" stroke-width="0" stroke="#000000" x="164" y="69">Identifier</text>
+      <text fill="#000000" font-family="sans-serif" font-size="16px" id="svg_4" stroke-width="0" stroke="#000000" x="164" y="169">Application</text>
+      <text fill="#000000" font-family="sans-serif" font-size="16px" id="svg_5" stroke-width="0" stroke="#000000" x="164" y="119">Data</text>
+      <line fill="none" id="svg_9" stroke-width="2" stroke="#000000" x1="80" x2="155" y1="135" y2="135" />
+      <line fill="none" id="svg_17" stroke-width="2" stroke="#000000" x1="80" x2="155" y1="185" y2="185" />
+      <line fill="none" id="svg_18" stroke-width="2" stroke="#000000" x1="80" x2="155" y1="85" y2="85" />
+      <line fill="none" id="svg_19" stroke-width="2" stroke="#000000" x1="244" x2="325" y1="85" y2="85" />
+      <line fill="none" id="svg_16" stroke-width="2" stroke="#000000" x1="209" x2="325" y1="135" y2="135" />
+      <line fill="none" id="svg_20" stroke-width="2" stroke="#000000" x1="259" x2="325" y1="185" y2="185" />
+      <line fill="none" id="svg_7" stroke-width="2" stroke="#000000" x1="80" x2="80" y1="80" y2="90" />
+      <line fill="none" id="svg_8" stroke-width="2" stroke="#000000" x1="80" x2="80" y1="130" y2="140" />
+      <line fill="none" id="svg_8" stroke-width="2" stroke="#000000" x1="80" x2="80" y1="180" y2="190" />
+      <line fill="none" id="svg_11" stroke-width="2" stroke="#000000" x1="325" x2="325" y1="80" y2="90" />
+      <line fill="none" id="svg_11" stroke-width="2" stroke="#000000" x1="325" x2="325" y1="130" y2="140" />
+      <line fill="none" id="svg_11" stroke-width="2" stroke="#000000" x1="325" x2="325" y1="180" y2="190" />
      </g>
     </svg>
 
@@ -2537,7 +2535,8 @@ support groups.</pre>
                     <dd><em>Scenario</em>: When one of the authors does not have write-access to an article, they want to make a request to their peers to have the required permissions.</dd>
                   </dl>
 
-    <!--
+    
+<!--
 
                   <p>These requirements reflecting the interactions among senders, receivers, and consumers – in the general use of application roles – overlap with the functional and non-functional requirements from LDP-UCR for client-server interactions:</p>
 
@@ -2633,7 +2632,8 @@ support groups.</pre>
                   </ul>
 
                   <dl id="inbox-notification" rel="schema:hasPart" resource="#inbox-notification">
-                    <!-- <p resource="#concept-scheme" typeof="skos:ConceptScheme"><span property="skos:definition">As the following terms used throughout this article may be subject to different interpretations by different communities, we provide some definitions here.</span></p> -->
+                    
+<!-- <p resource="#concept-scheme" typeof="skos:ConceptScheme"><span property="skos:definition">As the following terms used throughout this article may be subject to different interpretations by different communities, we provide some definitions here.</span></p> -->
 
                     <dt>Inbox</dt>
                     <dd rel="skos:hasTopConcept">An <span about="#concept-inbox" id="concept-inbox" property="skos:prefLabel" rel="skos:topConceptOf" resource="#concept-scheme" typeof="skos:Concept">inbox</span> is <span about="#concept-inbox" property="skos:definition">a container or directory (attached to a Web resource) which is used to store and serve a collection of notifications.</span></dd>
@@ -2649,7 +2649,7 @@ support groups.</pre>
                   <p>Beyond a generic understanding of hypermedia, LDN senders and consumers need little to no prior knowledge about how to interact with receivers. Furthermore, senders and consumers determine a target’s inbox location dynamically. This design approach is aligned with the notion of <a href="#self-describing">self-describing resources</a> in that applications are only required to identify a particular relation indicating the inbox location, and perform a <em><a href="#follow-your-nose">follow your nose</a></em> type of exploration. Given that a target’s preferred inbox location may change at their discretion, applications can be adaptive in inbox discovery.</p>
 
                   <figure id="figure-linked-data-notifications-overview" inlist="" rel="schema:hasPart" resource="#figure-linked-data-notifications-overview">
-                    <svg prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# xsd: http://www.w3.org/2001/XMLSchema# schema: https://schema.org/" rel="schema:isPartOf" resource="https://www.w3.org/TR/ldn/" version="1.1" width="420" height="200" xml:lang="en" xmlns="http://www.w3.org/2000/svg"><g about="https://www.w3.org/TR/ldn/" rel="schema:hasPart" typeof="schema:ImageObject"><metadata about="https://www.w3.org/TR/ldn/"><tspan rel="schema:license" resource="https://creativecommons.org/licenses/by/4.0/"></tspan><tspan rel="schema:creator" resource="http://csarven.ca/#i"></tspan></metadata><title about="https://www.w3.org/TR/ldn/" property="schema:name">Linked Data Notifications</title><style>.relation{font-size:12px;font-family:monospace;}.predicate{font-style:italic;}.actor{font-size:20px;font-family:sans-serif;}.legend{font-size:8px;font-family:sans-serif;}</style><a about="#target" href="https://www.w3.org/TR/ldn/#discovery" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/TR/ldn/#discovery" target="_top"><text class="actor" x="170" y="19">Target</text></a><a about="#sender" href="https://www.w3.org/TR/ldn/#sender" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/TR/ldn/#sender" target="_top"><text class="actor" x="3" y="68">Sender</text></a><a about="#consumer" href="https://www.w3.org/TR/ldn/#consumer" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/TR/ldn/#consumer" target="_top"><text class="actor" x="316" y="70">Consumer</text></a><a about="#receiver" href="https://www.w3.org/TR/ldn/#receiver" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/TR/ldn/#receiver" target="_top"><text class="actor" x="57" y="153">Receiver</text></a><a about="#get" href="https://tools.ietf.org/html/rfc7231#section-4.3.1" property="schema:name" rel="rdfs:isDefinedBy" resource="https://tools.ietf.org/html/rfc7231#section-4.3.1" target="_top"><text class="relation http" x="81" y="34">GET</text></a><a about="#head" href="https://tools.ietf.org/html/rfc7231#section-4.3.2" property="schema:name" rel="rdfs:isDefinedBy" resource="https://tools.ietf.org/html/rfc7231#section-4.3.2" target="_top"><text class="relation http" x="100" y="50">HEAD</text></a><a href="https://tools.ietf.org/html/rfc7231#section-4.3.1" target="_top"><text class="relation http" x="286" y="34">GET</text></a><a href="https://tools.ietf.org/html/rfc7231#section-4.3.2" target="_top"><text class="relation http" x="259" y="50">HEAD</text></a><a about="#post" href="https://tools.ietf.org/html/rfc7231#section-4.3.3" property="schema:name" rel="rdfs:isDefinedBy" resource="https://tools.ietf.org/html/rfc7231#section-4.3.3" target="_top"><text class="relation http" x="62" y="92">POST</text></a><a href="https://tools.ietf.org/html/rfc7231#section-4.3.1" target="_top"><text class="relation http" x="300" y="94">GET</text></a><a about="#ldp-inbox" href="https://www.w3.org/ns/ldp#inbox" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/ns/ldp#inbox" target="_top"><text class="relation predicate" x="166" y="67">ldp:inbox</text></a><a about="#ldp-contains" href="https://www.w3.org/ns/ldp#contains" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/ns/ldp#contains" target="_top"><text class="relation predicate" x="166" y="153">ldp:contains</text></a><a about="#discovery" href="https://www.w3.org/TR/ldn/#discovery" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/TR/ldn/#discovery" target="_top"><text class="actor" x="175" y="122">Inbox</text></a><a about="#notification" href="https://www.w3.org/TR/ldn/#introduction" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/TR/ldn/#introduction" target="_top"><text class="actor" x="171" y="188">Notification</text></a><text class="legend" x="310" y="182">Linked Data Notifications</text><a href="https://www.w3.org/TR/ldn/"><text class="legend" x="310" y="192">https://www.w3.org/TR/ldn/</text></a><path d="M154.018 5.559v14.023h12.27V12.57h-7.01V5.56h-5.26zm7.012 0v5.258h5.259L166.03 5.56zm-5.259 3.505h1.753v1.753h-1.753V9.064zm0 3.506h1.753v1.753h-1.753V12.57zm0 3.506h7.012v1.753h-7.012v-1.753z"></path><path d="m155.03056,108.76175 0,1.51758 12.14062,0 0,-1.51758 -12.14062,0 z m 0,3.03516 0,8.9628 c 0,0.0911 0.0516,0.14266 0.14266,0.14266 l 11.85682,0 c 0.0911,0 0.14265,-0.0516 0.14265,-0.14266 l 0,-8.9628 -4.50568,0 0,1.56461 -3.0822,0 0,-1.56461 -4.55274,0 z"></path><path d="M154.02 174.407v14.01h12.257v-7.006h-7.004v-7.004h-5.254zm7.004 0v5.253h5.253l-5.253-5.253z"></path><path d="M75.094 56.246c26.774-25.646 73.45-42.406 73.45-42.406M312.544 56.681c-26.774-25.646-73.449-42.406-73.449-42.406M76.48 66.868c26.774 25.646 73.45 42.406 73.45 42.406" fill="none" stroke-width="1" stroke="#000"></path><path d="M312.898 70.757c-26.774 25.646-73.45 42.406-73.45 42.406" fill="none" stroke-width="1" stroke="#000"></path><path d="M329.61 79.188c-15.293 56.301-41.953 93.091-41.953 93.091" fill="none" stroke-width="1" stroke="#000"></path><path d="M146.06 98.447h141V194.5h-141z" fill="none" stroke-dasharray="3,6" stroke-width="1" stroke="#000"></path><path d="M159.06 24.117c-7.82 39.778 0 76.156 0 76.156" fill="none" stroke-width="1" stroke="#000"></path><path d="M144.901 17.027l5.702-2.075-5.702-2.076zM156.574 98.406l3.523 4.94.476-6.05zM238.698 111.024l-4.06 4.508 6.008-.843zM145.198 110.4l6.065.165-4.54-4.026zM240.493 16.762l-5.702-2.075 5.702-2.076zM286.493 170.237l-3.066 5.236 5.715-2.04zM156.767 165.375l3.524 4.94.476-6.05z" stroke-width="1" stroke="#000"></path><path d="M160 124c-4.73 24.06 0 46.063 0 46.063" fill="none" stroke-width="1" stroke="#000"></path></g></svg>
+                    <svg height="200" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# xsd: http://www.w3.org/2001/XMLSchema# schema: https://schema.org/" rel="schema:isPartOf" resource="https://www.w3.org/TR/ldn/" version="1.1" width="420" xml:lang="en" xmlns="http://www.w3.org/2000/svg"><g about="https://www.w3.org/TR/ldn/" rel="schema:hasPart" typeof="schema:ImageObject"><metadata about="https://www.w3.org/TR/ldn/"><tspan rel="schema:license" resource="https://creativecommons.org/licenses/by/4.0/"></tspan><tspan rel="schema:creator" resource="http://csarven.ca/#i"></tspan></metadata><title about="https://www.w3.org/TR/ldn/" property="schema:name">Linked Data Notifications</title><style>.relation{font-size:12px;font-family:monospace;}.predicate{font-style:italic;}.actor{font-size:20px;font-family:sans-serif;}.legend{font-size:8px;font-family:sans-serif;}</style><a about="#target" href="https://www.w3.org/TR/ldn/#discovery" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/TR/ldn/#discovery" target="_top"><text class="actor" x="170" y="19">Target</text></a><a about="#sender" href="https://www.w3.org/TR/ldn/#sender" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/TR/ldn/#sender" target="_top"><text class="actor" x="3" y="68">Sender</text></a><a about="#consumer" href="https://www.w3.org/TR/ldn/#consumer" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/TR/ldn/#consumer" target="_top"><text class="actor" x="316" y="70">Consumer</text></a><a about="#receiver" href="https://www.w3.org/TR/ldn/#receiver" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/TR/ldn/#receiver" target="_top"><text class="actor" x="57" y="153">Receiver</text></a><a about="#get" href="https://tools.ietf.org/html/rfc7231#section-4.3.1" property="schema:name" rel="rdfs:isDefinedBy" resource="https://tools.ietf.org/html/rfc7231#section-4.3.1" target="_top"><text class="relation http" x="81" y="34">GET</text></a><a about="#head" href="https://tools.ietf.org/html/rfc7231#section-4.3.2" property="schema:name" rel="rdfs:isDefinedBy" resource="https://tools.ietf.org/html/rfc7231#section-4.3.2" target="_top"><text class="relation http" x="100" y="50">HEAD</text></a><a href="https://tools.ietf.org/html/rfc7231#section-4.3.1" target="_top"><text class="relation http" x="286" y="34">GET</text></a><a href="https://tools.ietf.org/html/rfc7231#section-4.3.2" target="_top"><text class="relation http" x="259" y="50">HEAD</text></a><a about="#post" href="https://tools.ietf.org/html/rfc7231#section-4.3.3" property="schema:name" rel="rdfs:isDefinedBy" resource="https://tools.ietf.org/html/rfc7231#section-4.3.3" target="_top"><text class="relation http" x="62" y="92">POST</text></a><a href="https://tools.ietf.org/html/rfc7231#section-4.3.1" target="_top"><text class="relation http" x="300" y="94">GET</text></a><a about="#ldp-inbox" href="https://www.w3.org/ns/ldp#inbox" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/ns/ldp#inbox" target="_top"><text class="relation predicate" x="166" y="67">ldp:inbox</text></a><a about="#ldp-contains" href="https://www.w3.org/ns/ldp#contains" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/ns/ldp#contains" target="_top"><text class="relation predicate" x="166" y="153">ldp:contains</text></a><a about="#discovery" href="https://www.w3.org/TR/ldn/#discovery" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/TR/ldn/#discovery" target="_top"><text class="actor" x="175" y="122">Inbox</text></a><a about="#notification" href="https://www.w3.org/TR/ldn/#introduction" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/TR/ldn/#introduction" target="_top"><text class="actor" x="171" y="188">Notification</text></a><text class="legend" x="310" y="182">Linked Data Notifications</text><a href="https://www.w3.org/TR/ldn/"><text class="legend" x="310" y="192">https://www.w3.org/TR/ldn/</text></a><path d="M154.018 5.559v14.023h12.27V12.57h-7.01V5.56h-5.26zm7.012 0v5.258h5.259L166.03 5.56zm-5.259 3.505h1.753v1.753h-1.753V9.064zm0 3.506h1.753v1.753h-1.753V12.57zm0 3.506h7.012v1.753h-7.012v-1.753z" /><path d="m155.03056,108.76175 0,1.51758 12.14062,0 0,-1.51758 -12.14062,0 z m 0,3.03516 0,8.9628 c 0,0.0911 0.0516,0.14266 0.14266,0.14266 l 11.85682,0 c 0.0911,0 0.14265,-0.0516 0.14265,-0.14266 l 0,-8.9628 -4.50568,0 0,1.56461 -3.0822,0 0,-1.56461 -4.55274,0 z" /><path d="M154.02 174.407v14.01h12.257v-7.006h-7.004v-7.004h-5.254zm7.004 0v5.253h5.253l-5.253-5.253z" /><path d="M75.094 56.246c26.774-25.646 73.45-42.406 73.45-42.406M312.544 56.681c-26.774-25.646-73.449-42.406-73.449-42.406M76.48 66.868c26.774 25.646 73.45 42.406 73.45 42.406" fill="none" stroke-width="1" stroke="#000" /><path d="M312.898 70.757c-26.774 25.646-73.45 42.406-73.45 42.406" fill="none" stroke-width="1" stroke="#000" /><path d="M329.61 79.188c-15.293 56.301-41.953 93.091-41.953 93.091" fill="none" stroke-width="1" stroke="#000" /><path d="M146.06 98.447h141V194.5h-141z" fill="none" stroke-dasharray="3,6" stroke-width="1" stroke="#000" /><path d="M159.06 24.117c-7.82 39.778 0 76.156 0 76.156" fill="none" stroke-width="1" stroke="#000" /><path d="M144.901 17.027l5.702-2.075-5.702-2.076zM156.574 98.406l3.523 4.94.476-6.05zM238.698 111.024l-4.06 4.508 6.008-.843zM145.198 110.4l6.065.165-4.54-4.026zM240.493 16.762l-5.702-2.075 5.702-2.076zM286.493 170.237l-3.066 5.236 5.715-2.04zM156.767 165.375l3.524 4.94.476-6.05z" stroke-width="1" stroke="#000" /><path d="M160 124c-4.73 24.06 0 46.063 0 46.063" fill="none" stroke-width="1" stroke="#000" /></g></svg>
 
                     <figcaption property="schema:name">From <cite><a href="https://www.w3.org/TR/ldn/linked-data-notifications-overview.svg">Overview of Linked Data Notifications</a></cite>, 2017</figcaption>
                   </figure>
@@ -2664,32 +2664,32 @@ support groups.</pre>
                         <h5 property="schema:name">Sender to Receiver interactions</h5>
                         <div datatype="rdf:HTML" property="schema:description">
                           <figure id="sender-receiver-interactions">
-                            <svg width="360" height="240" xmlns="http://www.w3.org/2000/svg" xml:lang="en">
+                            <svg height="240" width="360" xml:lang="en" xmlns="http://www.w3.org/2000/svg">
      <defs>
       <marker id="se_marker_end_svg_20" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_18" stroke="#000000" stroke-width="10"/>
+       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_18" stroke-width="10" stroke="#000000" />
       </marker>
      </defs>
      <g class="layer">
       <title>LDN Sender to Receiver</title>
-      <text fill="#000000" font-family="sans-serif" font-size="14px" id="svg_1" stroke="#000000" stroke-width="0" x="10" y="20">LDN Sender to Receiver</text>
-      <rect fill="#ffffff" fill-opacity="0" height="30" id="svg_10" stroke="#000000" width="90" x="10" y="41"/>
-      <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_2" stroke="#000000" stroke-width="0" x="20" y="63">Sender</text>
-      <rect fill="#ffffff" fill-opacity="0" height="30" id="svg_14" stroke="#000000" width="83" x="130" y="41"/>
-      <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_3" stroke="#000000" stroke-width="0" x="140" y="63">Target</text>
-      <rect fill="#ffffff" fill-opacity="0" height="30" id="svg_8" stroke="#000000" width="110" x="240" y="41"/>
-      <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_4" stroke="#000000" stroke-width="0" x="250" y="63">Receiver</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_9" stroke="#000000" stroke-width="0" x="30" y="105">discover Inbox</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_12" stroke="#000000" stroke-width="0" x="87" y="135">response</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_5" stroke="#000000" stroke-dasharray="2" stroke-width="0" x="30" y="185">send Notification</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_13" stroke="#000000" stroke-width="0" x="198" y="215">response</text>
-      <line fill="none" id="svg_7" stroke="#000000" x1="20" x2="20" y1="71" y2="231"/>
-      <line fill="none" id="svg_15" stroke="#000000" x1="160" x2="160" y1="71" y2="231"/>
-      <line fill="none" id="svg_16" stroke="#000000" x1="270" x2="270" y1="71" y2="231"/>
-      <line fill="none" id="svg_20" marker-end="url(#se_marker_end_svg_20)" stroke="#000000" stroke-width="2" x1="20" x2="154" y1="111" y2="111"/>
-      <line fill="none" id="svg_19" marker-end="url(#se_marker_end_svg_20)" stroke="#000000" stroke-width="2" x1="20" x2="264" y1="191" y2="191"/>
-      <line fill="none" id="svg_17" stroke="#000000" stroke-dasharray="2" x1="20" x2="160" y1="140" y2="140"/>
-      <line fill="none" id="svg_21" stroke="#000000" stroke-dasharray="2" x1="20" x2="270" y1="220" y2="220"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14px" id="svg_1" stroke-width="0" stroke="#000000" x="10" y="20">LDN Sender to Receiver</text>
+      <rect fill-opacity="0" fill="#ffffff" height="30" id="svg_10" stroke="#000000" width="90" x="10" y="41" />
+      <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_2" stroke-width="0" stroke="#000000" x="20" y="63">Sender</text>
+      <rect fill-opacity="0" fill="#ffffff" height="30" id="svg_14" stroke="#000000" width="83" x="130" y="41" />
+      <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_3" stroke-width="0" stroke="#000000" x="140" y="63">Target</text>
+      <rect fill-opacity="0" fill="#ffffff" height="30" id="svg_8" stroke="#000000" width="110" x="240" y="41" />
+      <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_4" stroke-width="0" stroke="#000000" x="250" y="63">Receiver</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_9" stroke-width="0" stroke="#000000" x="30" y="105">discover Inbox</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_12" stroke-width="0" stroke="#000000" x="87" y="135">response</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_5" stroke-dasharray="2" stroke-width="0" stroke="#000000" x="30" y="185">send Notification</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_13" stroke-width="0" stroke="#000000" x="198" y="215">response</text>
+      <line fill="none" id="svg_7" stroke="#000000" x1="20" x2="20" y1="71" y2="231" />
+      <line fill="none" id="svg_15" stroke="#000000" x1="160" x2="160" y1="71" y2="231" />
+      <line fill="none" id="svg_16" stroke="#000000" x1="270" x2="270" y1="71" y2="231" />
+      <line fill="none" id="svg_20" marker-end="url(#se_marker_end_svg_20)" stroke-width="2" stroke="#000000" x1="20" x2="154" y1="111" y2="111" />
+      <line fill="none" id="svg_19" marker-end="url(#se_marker_end_svg_20)" stroke-width="2" stroke="#000000" x1="20" x2="264" y1="191" y2="191" />
+      <line fill="none" id="svg_17" stroke-dasharray="2" stroke="#000000" x1="20" x2="160" y1="140" y2="140" />
+      <line fill="none" id="svg_21" stroke-dasharray="2" stroke="#000000" x1="20" x2="270" y1="220" y2="220" />
      </g>
     </svg>
                             <figcaption>Linked Data Notifications Sender to Receiver interaction</figcaption>
@@ -2714,36 +2714,36 @@ support groups.</pre>
                         <h5 property="schema:name">Consumer to Receiver interactions</h5>
                         <div datatype="rdf:HTML" property="schema:description">
                           <figure id="consumer-receiver-interactions">
-                            <svg width="480" height="360" xmlns="http://www.w3.org/2000/svg" xml:lang="en">
+                            <svg height="360" width="480" xml:lang="en" xmlns="http://www.w3.org/2000/svg">
      <defs>
       <marker id="se_marker_end_svg_20" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_18" stroke="#000000" stroke-width="10"/>
+       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_18" stroke-width="10" stroke="#000000" />
       </marker>
      </defs>
      <g class="layer">
       <title>LDN Sender to Receiver</title>
-      <text fill="#000000" font-family="sans-serif" font-size="14px" id="svg_1" stroke="#000000" stroke-width="0" x="10" y="20">LDN Consumer to Receiver</text>
-      <rect fill="#ffffff" fill-opacity="0" height="30" id="svg_10" stroke="#000000" width="125" x="10" y="41"/>
-      <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_2" stroke="#000000" stroke-width="0" x="20" y="63">Consumer</text>
-      <rect fill="#ffffff" fill-opacity="0" height="30" id="svg_14" stroke="#000000" width="83" x="161" y="41"/>
-      <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_3" stroke="#000000" stroke-width="0" x="171" y="63">Target</text>
-      <rect fill="#ffffff" fill-opacity="0" height="30" id="svg_8" stroke="#000000" width="110" x="271" y="41"/>
-      <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_4" stroke="#000000" stroke-width="0" x="281" y="63">Receiver</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_9" stroke="#000000" stroke-width="0" x="30" y="105">discover Inbox</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_12" stroke="#000000" stroke-width="0" x="116" y="135">response</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_5" stroke="#000000" stroke-dasharray="2" stroke-width="0" x="30" y="185">get Inbox</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_13" stroke="#000000" stroke-width="0" x="226" y="215">response</text>
-      <line fill="none" id="svg_7" stroke="#000000" x1="20" x2="20" y1="71" y2="310"/>
-      <line fill="none" id="svg_15" stroke="#000000" x1="191" x2="191" y1="71" y2="310"/>
-      <line fill="none" id="svg_16" stroke="#000000" x1="301" x2="301" y1="71" y2="310"/>
-      <line fill="none" id="svg_20" marker-end="url(#se_marker_end_svg_20)" stroke="#000000" stroke-width="2" x1="20" x2="185" y1="111" y2="111"/>
-      <line fill="none" id="svg_19" marker-end="url(#se_marker_end_svg_20)" stroke="#000000" stroke-width="2" x1="20" x2="295" y1="191" y2="191"/>
-      <line fill="none" id="svg_17" stroke="#000000" stroke-dasharray="2" x1="20" x2="190" y1="140" y2="140"/>
-      <line fill="none" id="svg_21" stroke="#000000" stroke-dasharray="2" x1="20" x2="300" y1="220" y2="220"/>
-      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_23" stroke="#000000" stroke-dasharray="2" stroke-width="0" x="30" y="264.63333">get Inbox Notification</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_22" stroke="#000000" stroke-width="0" x="225.46667" y="294.63333">response</text>
-      <line fill="none" id="svg_11" marker-end="url(#se_marker_end_svg_20)" stroke="#000000" stroke-width="2" x1="20" x2="295" y1="270.63333" y2="270.63333"/>
-      <line fill="none" id="svg_6" stroke="#000000" stroke-dasharray="2" x1="20" x2="300" y1="300" y2="300"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14px" id="svg_1" stroke-width="0" stroke="#000000" x="10" y="20">LDN Consumer to Receiver</text>
+      <rect fill-opacity="0" fill="#ffffff" height="30" id="svg_10" stroke="#000000" width="125" x="10" y="41" />
+      <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_2" stroke-width="0" stroke="#000000" x="20" y="63">Consumer</text>
+      <rect fill-opacity="0" fill="#ffffff" height="30" id="svg_14" stroke="#000000" width="83" x="161" y="41" />
+      <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_3" stroke-width="0" stroke="#000000" x="171" y="63">Target</text>
+      <rect fill-opacity="0" fill="#ffffff" height="30" id="svg_8" stroke="#000000" width="110" x="271" y="41" />
+      <text fill="#000000" font-family="sans-serif" font-size="20px" id="svg_4" stroke-width="0" stroke="#000000" x="281" y="63">Receiver</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_9" stroke-width="0" stroke="#000000" x="30" y="105">discover Inbox</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_12" stroke-width="0" stroke="#000000" x="116" y="135">response</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_5" stroke-dasharray="2" stroke-width="0" stroke="#000000" x="30" y="185">get Inbox</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_13" stroke-width="0" stroke="#000000" x="226" y="215">response</text>
+      <line fill="none" id="svg_7" stroke="#000000" x1="20" x2="20" y1="71" y2="310" />
+      <line fill="none" id="svg_15" stroke="#000000" x1="191" x2="191" y1="71" y2="310" />
+      <line fill="none" id="svg_16" stroke="#000000" x1="301" x2="301" y1="71" y2="310" />
+      <line fill="none" id="svg_20" marker-end="url(#se_marker_end_svg_20)" stroke-width="2" stroke="#000000" x1="20" x2="185" y1="111" y2="111" />
+      <line fill="none" id="svg_19" marker-end="url(#se_marker_end_svg_20)" stroke-width="2" stroke="#000000" x1="20" x2="295" y1="191" y2="191" />
+      <line fill="none" id="svg_17" stroke-dasharray="2" stroke="#000000" x1="20" x2="190" y1="140" y2="140" />
+      <line fill="none" id="svg_21" stroke-dasharray="2" stroke="#000000" x1="20" x2="300" y1="220" y2="220" />
+      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_23" stroke-dasharray="2" stroke-width="0" stroke="#000000" x="30" y="264.63333">get Inbox Notification</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14px" font-style="italic" id="svg_22" stroke-width="0" stroke="#000000" x="225.46667" y="294.63333">response</text>
+      <line fill="none" id="svg_11" marker-end="url(#se_marker_end_svg_20)" stroke-width="2" stroke="#000000" x1="20" x2="295" y1="270.63333" y2="270.63333" />
+      <line fill="none" id="svg_6" stroke-dasharray="2" stroke="#000000" x1="20" x2="300" y1="300" y2="300" />
      </g>
     </svg>
                             <figcaption>Linked Data Notifications Consumer to Receiver interaction</figcaption>
@@ -3564,87 +3564,87 @@ support groups.</pre>
                   <p>The following figure depicts a generalisation of a decentralised information space with emphasis on personal profiles, articles, notifications, and annotations.</p>
 
                   <figure id="examplar-information-space">
-    <svg width="480" height="360" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com">
+    <svg height="360" width="480" xmlns:se="http://svg-edit.googlecode.com" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg">
      <defs>
       <marker id="se_marker_end_svg_8" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_4" stroke="#000000" stroke-width="10"/>
+       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_4" stroke-width="10" stroke="#000000" />
       </marker>
       <marker id="se_marker_end_svg_9" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_5" stroke="#000000" stroke-width="10"/>
+       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_5" stroke-width="10" stroke="#000000" />
       </marker>
       <marker id="se_marker_end_svg_10" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_6" stroke="#000000" stroke-width="10"/>
+       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_6" stroke-width="10" stroke="#000000" />
       </marker>
       <marker id="se_marker_end_svg_11" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_7" stroke="#000000" stroke-width="10"/>
+       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_7" stroke-width="10" stroke="#000000" />
       </marker>
       <marker id="se_marker_end_svg_12" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_16" stroke="#000000" stroke-width="10"/>
+       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_16" stroke-width="10" stroke="#000000" />
       </marker>
       <marker id="se_marker_end_svg_14" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_20" stroke="#000000" stroke-width="10"/>
+       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_20" stroke-width="10" stroke="#000000" />
       </marker>
       <marker id="se_marker_end_svg_32" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_26" stroke="#000000" stroke-width="10"/>
+       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" id="svg_26" stroke-width="10" stroke="#000000" />
       </marker>
       <marker id="se_marker_end_svg_28" markerHeight="5" markerUnits="strokeWidth" markerWidth="5" orient="auto" refX="50" refY="50" viewBox="0 0 100 100">
-       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000" id="svg_56" stroke="#000" stroke-width="10"/>
+       <path d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000" id="svg_56" stroke-width="10" stroke="#000" />
       </marker>
      </defs>
      <g class="layer">
       <title>Layer 1</title>
-      <polyline fill="none" id="svg_14" marker-end="url(#se_marker_end_svg_14)" points="93.9167,244.124 151.167,244.042 208.417,243.959" se:connector="svg_41 svg_45" stroke="#000000"/>
-      <polyline fill="none" id="svg_12" marker-end="url(#se_marker_end_svg_12)" points="368.954,290.831 381.344,257.186 393.734,223.542" se:connector="svg_19 svg_38" stroke="#000000"/>
-      <polyline fill="none" id="svg_11" marker-end="url(#se_marker_end_svg_11)" points="345.405,302.597 300.362,278.007 255.318,253.417" se:connector="svg_19 svg_45" stroke="#000000"/>
-      <polyline fill="none" id="svg_10" marker-end="url(#se_marker_end_svg_10)" points="367.917,219.16 317.667,228.729 267.417,238.299" se:connector="svg_38 svg_45" stroke="#000000"/>
-      <polyline fill="none" id="svg_9" marker-end="url(#se_marker_end_svg_9)" points="237.924,253.417 237.948,282.531 237.971,311.646" se:connector="svg_45 svg_34" stroke="#000000"/>
-      <polyline fill="none" id="svg_8" marker-end="url(#se_marker_end_svg_8)" points="47.0754,311.5 54.4583,282.833 61.8412,254.167" se:connector="svg_15 svg_41" stroke="#000000"/>
-      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_17" stroke="#000000" stroke-width="0" text-anchor="middle" x="198.71666" xml:space="preserve" y="284.14999">inReplyTo</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_18" stroke="#000000" stroke-width="0" text-anchor="middle" x="315" xml:space="preserve" y="313.16667">target</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_21" stroke="#000000" stroke-width="0" text-anchor="middle" x="278" xml:space="preserve" y="100.16667">knows</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_23" stroke="#000000" stroke-width="0" text-anchor="middle" x="103.91667" xml:space="preserve" y="303.45831">bookmarking</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_24" stroke="#000000" stroke-width="0" text-anchor="middle" x="400.91667" xml:space="preserve" y="285.45831">object</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_25" stroke="#000000" stroke-width="0" text-anchor="middle" x="53" xml:space="preserve" y="350">Annotation</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_27" stroke="#000000" stroke-width="0" text-anchor="middle" x="366" xml:space="preserve" y="350">Notification</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_29" stroke="#000000" stroke-width="0" text-anchor="middle" x="232.91667" xml:space="preserve" y="228.45831">Article</text>
-      <path d="m65.0225,106.80861l19,0m-9.45661,8.15526l9.28311,9.10959m-9.28311,-9.19635l-8.6758,9.19635m8.63242,-20.0411l0,10.84475m2.88403,-13.77351c0,1.5928 -1.29122,2.88403 -2.88403,2.88403c-1.5928,0 -2.88403,-1.29122 -2.88403,-2.88403c0,-1.5928 1.29122,-2.88403 2.88403,-2.88403c1.5928,0 2.88403,1.29122 2.88403,2.88403z" fill="#000000" fill-opacity="0.01" id="svg_31" stroke="#000000" stroke-width="null"/>
-      <path d="m74.00002,311.50001l-11.80001,19.99999l-47.20002,0l11.80001,-19.99999l47.20002,0z" fill="#000000" fill-opacity="0.01" id="svg_15" stroke="#000000"/>
-      <path d="m345.40464,331.83124l6,-41l20,0l6,41l-32,0z" fill="#000000" fill-opacity="0.01" id="svg_19" stroke="#000000" stroke-width="null"/>
-      <path d="m28.41667,121.57876l19,0m-9.45661,8.15526l9.28311,9.10959m-9.28311,-9.19635l-8.6758,9.19635m8.63242,-20.0411l0,10.84475m2.88403,-13.77351c0,1.5928 -1.29122,2.88403 -2.88403,2.88403c-1.5928,0 -2.88403,-1.29122 -2.88403,-2.88403c0,-1.5928 1.29122,-2.88403 2.88403,-2.88403c1.5928,0 2.88403,1.29122 2.88403,2.88403z" fill="#000000" fill-opacity="0.01" id="svg_22" stroke="#000000" stroke-width="null"/>
-      <path d="m424.1434,111.69369l19,0m-9.45661,8.15526l9.28311,9.10959m-9.28311,-9.19635l-8.6758,9.19635m8.63242,-20.0411l0,10.84475m2.88403,-13.77351c0,1.5928 -1.29122,2.88403 -2.88403,2.88403c-1.5928,0 -2.88403,-1.29122 -2.88403,-2.88403c0,-1.5928 1.29122,-2.88403 2.88403,-2.88403c1.5928,0 2.88403,1.29122 2.88403,2.88403z" fill="#000000" fill-opacity="0.01" id="svg_33" stroke="#000000" stroke-width="null"/>
-      <path d="m99.53756,110.46384l19,0m-9.45661,8.15526l9.28311,9.10959m-9.28311,-9.19635l-8.6758,9.19635m8.63242,-20.0411l0,10.84475m2.88403,-13.77351c0,1.5928 -1.29122,2.88403 -2.88403,2.88403c-1.5928,0 -2.88403,-1.29122 -2.88403,-2.88403c0,-1.5928 1.29122,-2.88403 2.88403,-2.88403c1.5928,0 2.88403,1.29122 2.88403,2.88403z" fill="#000000" fill-opacity="0.01" id="svg_30" stroke="#000000" stroke-width="null"/>
-      <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_37" stroke="#000000" stroke-width="0" text-anchor="middle" x="242.39584" xml:space="preserve" y="350">Article</text>
-      <path d="m208.47916,311.64584l11.8,18.99999l47.19999,0l-11.8,-18.99999l-47.19999,0z" fill="#000000" fill-opacity="0.01" id="svg_34" stroke="#000000"/>
-      <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_39" stroke="#000000" stroke-width="0" text-anchor="middle" x="431.91667" xml:space="preserve" y="239.20834">Annotation</text>
-      <path d="m426.91669,203.54168l-11.80001,19.99999l-47.20002,0l11.80001,-19.99999l47.20002,0z" fill="#000000" fill-opacity="0.01" id="svg_38" stroke="#000000"/>
-      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_40" stroke="#000000" stroke-width="0" text-anchor="middle" x="327.625" xml:space="preserve" y="214.45834">assesses</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_42" stroke="#000000" stroke-width="0" text-anchor="middle" x="59.91667" xml:space="preserve" y="227.83334">Annotation</text>
-      <path d="m93.91669,234.16668l-11.80001,19.99999l-47.20002,0l11.80001,-19.99999l47.20002,0z" fill="#000000" fill-opacity="0.01" id="svg_41" stroke="#000000"/>
-      <path d="m353.41667,111.57876l19,0m-9.45661,8.15526l9.28311,9.10959m-9.28311,-9.19635l-8.6758,9.19635m8.63242,-20.0411l0,10.84475m2.88403,-13.77351c0,1.5928 -1.29122,2.88403 -2.88403,2.88403c-1.5928,0 -2.88403,-1.29122 -2.88403,-2.88403c0,-1.5928 1.29122,-2.88403 2.88403,-2.88403c1.5928,0 2.88403,1.29122 2.88403,2.88403z" fill="#000000" fill-opacity="0.01" id="svg_44" stroke="#000000" stroke-width="null"/>
-      <path d="m208.41668,234.41667l11.8,18.99999l47.19999,0l-11.8,-18.99999l-47.19999,0z" fill="#000000" fill-opacity="0.01" id="svg_45" stroke="#000000"/>
-      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_46" stroke="#000000" stroke-width="0" text-anchor="middle" x="243.98334" xml:space="preserve" y="50">preferences</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_47" stroke="#000000" stroke-width="0" text-anchor="middle" x="160.98334" xml:space="preserve" y="59">storage</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_48" stroke="#000000" stroke-width="0" text-anchor="middle" x="219.98334" xml:space="preserve" y="73">inbox</text>
-      <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_49" stroke="#000000" stroke-width="0" text-anchor="middle" x="278" xml:space="preserve" y="73">outbox</text>
-      <path d="m176.41595,103.79419l39.68456,0m-19.75166,17.03357l19.38926,19.02684m-19.38928,-19.20806l-18.1208,19.20805m18.0302,-41.85905l0,22.651m6.02375,-28.76819c0,3.32683 -2.69692,6.02375 -6.02375,6.02375c-3.32683,0 -6.02375,-2.69692 -6.02375,-6.02375c0,-3.32683 2.69693,-6.02375 6.02375,-6.02375c3.32683,0 6.02375,2.69693 6.02375,6.02375z" fill="#000000" fill-opacity="0.01" id="svg_50" stroke="#000000" stroke-width="null"/>
-      <ellipse cx="118.89999" cy="174.25" fill="none" id="svg_2" rx="110" ry="13.5" stroke="#000000"/>
-      <text fill="#000000" font-family="sans-serif" font-size="16" id="svg_1" stroke="#000000" stroke-width="0" text-anchor="middle" x="199" xml:space="preserve" y="20">Profiles, Articles, Notifications, and Annotations</text>
-      <ellipse cx="394.95" cy="155.95" fill="none" id="svg_3" rx="73" ry="11" stroke="#000000"/>
-      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_13" stroke="#000000" stroke-width="0" text-anchor="middle" x="131.675" xml:space="preserve" y="261.90001">commenting</text>
-      <line fill="none" id="svg_32" marker-end="url(#se_marker_end_svg_32)" stroke="#000000" x1="254.95001" x2="317" y1="109.35001" y2="116"/>
-      <line fill="none" id="svg_17" stroke="#000000" stroke-dasharray="2" x1="194" x2="194" y1="137" y2="177"/>
-      <line fill="none" id="svg_36" stroke="#000000" stroke-dasharray="2" x1="109.96667" x2="109.96667" y1="130.46667" y2="170.46667"/>
-      <line fill="none" id="svg_43" stroke="#000000" stroke-dasharray="2" x1="76.96667" x2="76.96667" y1="128.46667" y2="176"/>
-      <line fill="none" id="svg_51" stroke="#000000" stroke-dasharray="2" x1="39.96667" x2="39.96667" y1="143" y2="171"/>
-      <line fill="none" id="svg_52" stroke="#000000" stroke-dasharray="2" x1="432.96667" x2="432.96667" y1="125.46667" y2="153.46667"/>
-      <line fill="none" id="svg_53" stroke="#000000" stroke-dasharray="2" x1="363.96667" x2="363.96667" y1="131.46667" y2="159.46667"/>
-      <path d="m242.23,209.7c9.07,-59.74332 -15.88,-79.8 -15.88,-79.8" fill="none" id="svg_28" marker-end="url(#se_marker_end_svg_28)" stroke="#000" stroke-width="1px"/>
-      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_35" stroke="#000" stroke-width="0" text-anchor="middle" x="278.83334" xml:space="preserve" y="184.7">creator</text>
-      <path d="m16.33667,310.73332c-7.17605,-118.13903 12.56402,-157.79999 12.56402,-157.79999" fill="none" id="svg_59" marker-end="url(#se_marker_end_svg_28)" stroke="#000" stroke-width="1px"/>
-      <path d="m56.0033,211.73334c-5.65298,-58.24599 9.89739,-77.8 9.89739,-77.8" fill="none" id="svg_60" marker-end="url(#se_marker_end_svg_28)" stroke="#000" stroke-width="1px"/>
-      <path d="m391.05859,196.73333c5.51618,-50.0107 -9.65787,-66.8 -9.65787,-66.8" fill="none" id="svg_61" marker-end="url(#se_marker_end_svg_28)" stroke="#000" stroke-width="1px"/>
-      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_54" stroke="#000000" stroke-width="0" text-anchor="middle" x="146.36667" xml:space="preserve" y="85.61665">sameAs</text>
-      <line fill="none" id="svg_55" marker-end="url(#se_marker_end_svg_32)" stroke="#000000" x1="175.34168" x2="129.39166" y1="94.54166" y2="101.19165"/>
+      <polyline fill="none" id="svg_14" marker-end="url(#se_marker_end_svg_14)" points="93.9167,244.124 151.167,244.042 208.417,243.959" se:connector="svg_41 svg_45" stroke="#000000" />
+      <polyline fill="none" id="svg_12" marker-end="url(#se_marker_end_svg_12)" points="368.954,290.831 381.344,257.186 393.734,223.542" se:connector="svg_19 svg_38" stroke="#000000" />
+      <polyline fill="none" id="svg_11" marker-end="url(#se_marker_end_svg_11)" points="345.405,302.597 300.362,278.007 255.318,253.417" se:connector="svg_19 svg_45" stroke="#000000" />
+      <polyline fill="none" id="svg_10" marker-end="url(#se_marker_end_svg_10)" points="367.917,219.16 317.667,228.729 267.417,238.299" se:connector="svg_38 svg_45" stroke="#000000" />
+      <polyline fill="none" id="svg_9" marker-end="url(#se_marker_end_svg_9)" points="237.924,253.417 237.948,282.531 237.971,311.646" se:connector="svg_45 svg_34" stroke="#000000" />
+      <polyline fill="none" id="svg_8" marker-end="url(#se_marker_end_svg_8)" points="47.0754,311.5 54.4583,282.833 61.8412,254.167" se:connector="svg_15 svg_41" stroke="#000000" />
+      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_17" stroke-width="0" stroke="#000000" text-anchor="middle" x="198.71666" xml:space="preserve" y="284.14999">inReplyTo</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_18" stroke-width="0" stroke="#000000" text-anchor="middle" x="315" xml:space="preserve" y="313.16667">target</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_21" stroke-width="0" stroke="#000000" text-anchor="middle" x="278" xml:space="preserve" y="100.16667">knows</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_23" stroke-width="0" stroke="#000000" text-anchor="middle" x="103.91667" xml:space="preserve" y="303.45831">bookmarking</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_24" stroke-width="0" stroke="#000000" text-anchor="middle" x="400.91667" xml:space="preserve" y="285.45831">object</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_25" stroke-width="0" stroke="#000000" text-anchor="middle" x="53" xml:space="preserve" y="350">Annotation</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_27" stroke-width="0" stroke="#000000" text-anchor="middle" x="366" xml:space="preserve" y="350">Notification</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_29" stroke-width="0" stroke="#000000" text-anchor="middle" x="232.91667" xml:space="preserve" y="228.45831">Article</text>
+      <path d="m65.0225,106.80861l19,0m-9.45661,8.15526l9.28311,9.10959m-9.28311,-9.19635l-8.6758,9.19635m8.63242,-20.0411l0,10.84475m2.88403,-13.77351c0,1.5928 -1.29122,2.88403 -2.88403,2.88403c-1.5928,0 -2.88403,-1.29122 -2.88403,-2.88403c0,-1.5928 1.29122,-2.88403 2.88403,-2.88403c1.5928,0 2.88403,1.29122 2.88403,2.88403z" fill-opacity="0.01" fill="#000000" id="svg_31" stroke-width="null" stroke="#000000" />
+      <path d="m74.00002,311.50001l-11.80001,19.99999l-47.20002,0l11.80001,-19.99999l47.20002,0z" fill-opacity="0.01" fill="#000000" id="svg_15" stroke="#000000" />
+      <path d="m345.40464,331.83124l6,-41l20,0l6,41l-32,0z" fill-opacity="0.01" fill="#000000" id="svg_19" stroke-width="null" stroke="#000000" />
+      <path d="m28.41667,121.57876l19,0m-9.45661,8.15526l9.28311,9.10959m-9.28311,-9.19635l-8.6758,9.19635m8.63242,-20.0411l0,10.84475m2.88403,-13.77351c0,1.5928 -1.29122,2.88403 -2.88403,2.88403c-1.5928,0 -2.88403,-1.29122 -2.88403,-2.88403c0,-1.5928 1.29122,-2.88403 2.88403,-2.88403c1.5928,0 2.88403,1.29122 2.88403,2.88403z" fill-opacity="0.01" fill="#000000" id="svg_22" stroke-width="null" stroke="#000000" />
+      <path d="m424.1434,111.69369l19,0m-9.45661,8.15526l9.28311,9.10959m-9.28311,-9.19635l-8.6758,9.19635m8.63242,-20.0411l0,10.84475m2.88403,-13.77351c0,1.5928 -1.29122,2.88403 -2.88403,2.88403c-1.5928,0 -2.88403,-1.29122 -2.88403,-2.88403c0,-1.5928 1.29122,-2.88403 2.88403,-2.88403c1.5928,0 2.88403,1.29122 2.88403,2.88403z" fill-opacity="0.01" fill="#000000" id="svg_33" stroke-width="null" stroke="#000000" />
+      <path d="m99.53756,110.46384l19,0m-9.45661,8.15526l9.28311,9.10959m-9.28311,-9.19635l-8.6758,9.19635m8.63242,-20.0411l0,10.84475m2.88403,-13.77351c0,1.5928 -1.29122,2.88403 -2.88403,2.88403c-1.5928,0 -2.88403,-1.29122 -2.88403,-2.88403c0,-1.5928 1.29122,-2.88403 2.88403,-2.88403c1.5928,0 2.88403,1.29122 2.88403,2.88403z" fill-opacity="0.01" fill="#000000" id="svg_30" stroke-width="null" stroke="#000000" />
+      <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_37" stroke-width="0" stroke="#000000" text-anchor="middle" x="242.39584" xml:space="preserve" y="350">Article</text>
+      <path d="m208.47916,311.64584l11.8,18.99999l47.19999,0l-11.8,-18.99999l-47.19999,0z" fill-opacity="0.01" fill="#000000" id="svg_34" stroke="#000000" />
+      <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_39" stroke-width="0" stroke="#000000" text-anchor="middle" x="431.91667" xml:space="preserve" y="239.20834">Annotation</text>
+      <path d="m426.91669,203.54168l-11.80001,19.99999l-47.20002,0l11.80001,-19.99999l47.20002,0z" fill-opacity="0.01" fill="#000000" id="svg_38" stroke="#000000" />
+      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_40" stroke-width="0" stroke="#000000" text-anchor="middle" x="327.625" xml:space="preserve" y="214.45834">assesses</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_42" stroke-width="0" stroke="#000000" text-anchor="middle" x="59.91667" xml:space="preserve" y="227.83334">Annotation</text>
+      <path d="m93.91669,234.16668l-11.80001,19.99999l-47.20002,0l11.80001,-19.99999l47.20002,0z" fill-opacity="0.01" fill="#000000" id="svg_41" stroke="#000000" />
+      <path d="m353.41667,111.57876l19,0m-9.45661,8.15526l9.28311,9.10959m-9.28311,-9.19635l-8.6758,9.19635m8.63242,-20.0411l0,10.84475m2.88403,-13.77351c0,1.5928 -1.29122,2.88403 -2.88403,2.88403c-1.5928,0 -2.88403,-1.29122 -2.88403,-2.88403c0,-1.5928 1.29122,-2.88403 2.88403,-2.88403c1.5928,0 2.88403,1.29122 2.88403,2.88403z" fill-opacity="0.01" fill="#000000" id="svg_44" stroke-width="null" stroke="#000000" />
+      <path d="m208.41668,234.41667l11.8,18.99999l47.19999,0l-11.8,-18.99999l-47.19999,0z" fill-opacity="0.01" fill="#000000" id="svg_45" stroke="#000000" />
+      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_46" stroke-width="0" stroke="#000000" text-anchor="middle" x="243.98334" xml:space="preserve" y="50">preferences</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_47" stroke-width="0" stroke="#000000" text-anchor="middle" x="160.98334" xml:space="preserve" y="59">storage</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_48" stroke-width="0" stroke="#000000" text-anchor="middle" x="219.98334" xml:space="preserve" y="73">inbox</text>
+      <text fill="#000000" font-family="sans-serif" font-size="14" id="svg_49" stroke-width="0" stroke="#000000" text-anchor="middle" x="278" xml:space="preserve" y="73">outbox</text>
+      <path d="m176.41595,103.79419l39.68456,0m-19.75166,17.03357l19.38926,19.02684m-19.38928,-19.20806l-18.1208,19.20805m18.0302,-41.85905l0,22.651m6.02375,-28.76819c0,3.32683 -2.69692,6.02375 -6.02375,6.02375c-3.32683,0 -6.02375,-2.69692 -6.02375,-6.02375c0,-3.32683 2.69693,-6.02375 6.02375,-6.02375c3.32683,0 6.02375,2.69693 6.02375,6.02375z" fill-opacity="0.01" fill="#000000" id="svg_50" stroke-width="null" stroke="#000000" />
+      <ellipse cx="118.89999" cy="174.25" fill="none" id="svg_2" rx="110" ry="13.5" stroke="#000000" />
+      <text fill="#000000" font-family="sans-serif" font-size="16" id="svg_1" stroke-width="0" stroke="#000000" text-anchor="middle" x="199" xml:space="preserve" y="20">Profiles, Articles, Notifications, and Annotations</text>
+      <ellipse cx="394.95" cy="155.95" fill="none" id="svg_3" rx="73" ry="11" stroke="#000000" />
+      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_13" stroke-width="0" stroke="#000000" text-anchor="middle" x="131.675" xml:space="preserve" y="261.90001">commenting</text>
+      <line fill="none" id="svg_32" marker-end="url(#se_marker_end_svg_32)" stroke="#000000" x1="254.95001" x2="317" y1="109.35001" y2="116" />
+      <line fill="none" id="svg_17" stroke-dasharray="2" stroke="#000000" x1="194" x2="194" y1="137" y2="177" />
+      <line fill="none" id="svg_36" stroke-dasharray="2" stroke="#000000" x1="109.96667" x2="109.96667" y1="130.46667" y2="170.46667" />
+      <line fill="none" id="svg_43" stroke-dasharray="2" stroke="#000000" x1="76.96667" x2="76.96667" y1="128.46667" y2="176" />
+      <line fill="none" id="svg_51" stroke-dasharray="2" stroke="#000000" x1="39.96667" x2="39.96667" y1="143" y2="171" />
+      <line fill="none" id="svg_52" stroke-dasharray="2" stroke="#000000" x1="432.96667" x2="432.96667" y1="125.46667" y2="153.46667" />
+      <line fill="none" id="svg_53" stroke-dasharray="2" stroke="#000000" x1="363.96667" x2="363.96667" y1="131.46667" y2="159.46667" />
+      <path d="m242.23,209.7c9.07,-59.74332 -15.88,-79.8 -15.88,-79.8" fill="none" id="svg_28" marker-end="url(#se_marker_end_svg_28)" stroke-width="1px" stroke="#000" />
+      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_35" stroke-width="0" stroke="#000" text-anchor="middle" x="278.83334" xml:space="preserve" y="184.7">creator</text>
+      <path d="m16.33667,310.73332c-7.17605,-118.13903 12.56402,-157.79999 12.56402,-157.79999" fill="none" id="svg_59" marker-end="url(#se_marker_end_svg_28)" stroke-width="1px" stroke="#000" />
+      <path d="m56.0033,211.73334c-5.65298,-58.24599 9.89739,-77.8 9.89739,-77.8" fill="none" id="svg_60" marker-end="url(#se_marker_end_svg_28)" stroke-width="1px" stroke="#000" />
+      <path d="m391.05859,196.73333c5.51618,-50.0107 -9.65787,-66.8 -9.65787,-66.8" fill="none" id="svg_61" marker-end="url(#se_marker_end_svg_28)" stroke-width="1px" stroke="#000" />
+      <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" id="svg_54" stroke-width="0" stroke="#000000" text-anchor="middle" x="146.36667" xml:space="preserve" y="85.61665">sameAs</text>
+      <line fill="none" id="svg_55" marker-end="url(#se_marker_end_svg_32)" stroke="#000000" x1="175.34168" x2="129.39166" y1="94.54166" y2="101.19165" />
      </g>
     </svg>
                     <figcaption>Interplay of Profiles, Articles, Notifications, and Annotations</figcaption>
@@ -4390,7 +4390,7 @@ document.addEventListener('DOMContentLoaded', function(){
                       <span rel="schema:hasPart" resource="#figure-GDP-per-capita-growth--annual---">
                           <a href="http://worldbank.270a.info/dataset/NY.GDP.PCAP.KD.ZG" property="schema:name" rel="prov:wasDerivedFrom" resource="http://worldbank.270a.info/dataset/NY.GDP.PCAP.KD.ZG" typeof="qb:DataSet">GDP per capita growth (annual %)</a> [Canada]
                           <span class="sparkline" rel="schema:image" resource="#GDP-per-capita-growth--annual---">
-                              <svg height="100%" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# xsd: http://www.w3.org/2001/XMLSchema# qb: http://purl.org/linked-data/cube# prov: http://www.w3.org/ns/prov# schema: https://schema.org/" version="1.1" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <svg height="100%" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# xsd: http://www.w3.org/2001/XMLSchema# qb: http://purl.org/linked-data/cube# prov: http://www.w3.org/ns/prov# schema: https://schema.org/" version="1.1" width="100%" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                                   <g rel="prov:wasDerivedFrom" resource="http://worldbank.270a.info/dataset/NY.GDP.PCAP.KD.ZG">
                                       <metadata rel="schema:license" resource="https://creativecommons.org/publicdomain/zero/1.0/" />
                                       <title property="schema:name">GDP per capita growth (annual %)</title>
@@ -4446,7 +4446,7 @@ document.addEventListener('DOMContentLoaded', function(){
                                       <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2010" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2010"><line stroke="#000" x1="91.42307692307693%" x2="93.3076923076923%" y1="96.43770278569066%" y2="33.011290571731266%" /></a>
                                       <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2011" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2011"><line stroke="#000" x1="93.3076923076923%" x2="95.1923076923077%" y1="33.011290571731266%" y2="38.88670062678091%" /></a>
                                       <a rel="rdfs:seeAlso" resource="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2012" target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2012"><line stroke="#000" x1="95.1923076923077%" x2="97.07692307692308%" y1="38.88670062678091%" y2="49.719411631415205%" /></a>
-                                      <a target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2012"><circle cx="97.07692307692308%" cy="49.719411631415205%" r="1" stroke="#f00" fill="#f00" /></a>
+                                      <a target="_blank" xlink:href="http://worldbank.270a.info/dataset/world-bank-indicators/NY.GDP.PCAP.KD.ZG/CA/2012"><circle cx="97.07692307692308%" cy="49.719411631415205%" fill="#f00" r="1" stroke="#f00" /></a>
                                   </g>
                               </svg>
                           </span>
@@ -4835,7 +4835,7 @@ document.addEventListener('DOMContentLoaded', function(){
                     <div datatype="rdf:HTML" property="schema:description">
                       <p>Throughout this article I have highlighted the environment that the AWWW enables with the goal of fostering a universally accessible and interoperable information space. I have also looked at the ongoing initiatives towards the decoupling of functions in scientific communication. Here I reuse some of these notions to situate dokieli with some existing work that can be (subjectively) <em>considered as representative</em> for different areas in <q>Web publishing</q>. There is plethora of examples for centralised and decentralised systems on the Web. Some of the authoring and publishing systems already fulfill some aspects of decentralised systems which operate over HTTP. I focus on degree of control with respect to applications, data and identity, privacy, accessibility, and interoperability.</p>
 
-                      <p id="gmtf">Currently, <cite><a href="https://docs.google.com/" rel="cito:discusses">Google Docs</a></cite>, <cite><a href="https://medium.com/" rel="cito:discusses">Medium</a></cite>, <cite><a href="https://twitter.com/" >Twitter</a></cite>, <cite><a href="https://facebook.com/">Facebook</a></cite> are examples of well-known Web applications for collaborative creation and publication of content. Users create accounts on these systems to perform access controlled read-write operations on data stored on the same server. These kind of systems allow users to authenticate with their identity provider from preconfigured authorities, as well providing their own accounts on the system. Each service generally has a custom API and vocabulary that a trusted client application (normally hosted on the same server) uses to interact with the server in order to perform CRUD operations through the user interface. They are categorically a client-server that is <a href="#client-server-spectrum">tightly coupled</a> on identity, identification, authentication, authorization, and storage.</p>
+                      <p id="gmtf">Currently, <cite><a href="https://docs.google.com/" rel="cito:discusses">Google Docs</a></cite>, <cite><a href="https://medium.com/" rel="cito:discusses">Medium</a></cite>, <cite><a href="https://twitter.com/">Twitter</a></cite>, <cite><a href="https://facebook.com/">Facebook</a></cite> are examples of well-known Web applications for collaborative creation and publication of content. Users create accounts on these systems to perform access controlled read-write operations on data stored on the same server. These kind of systems allow users to authenticate with their identity provider from preconfigured authorities, as well providing their own accounts on the system. Each service generally has a custom API and vocabulary that a trusted client application (normally hosted on the same server) uses to interact with the server in order to perform CRUD operations through the user interface. They are categorically a client-server that is <a href="#client-server-spectrum">tightly coupled</a> on identity, identification, authentication, authorization, and storage.</p>
 
                       <p id="wordpress"><cite><a href="https://wordpress.org/" rel="cito:discusses">WordPress</a></cite> is a free and open-source client-server application for article publication which can be self-hosted on a server controlled by the user. Users may optionally sign-in with their WordPress accounts to leave comments on others’ articles where they are stored by the hosting site.</p>
 
@@ -5143,32 +5143,32 @@ document.addEventListener('DOMContentLoaded', function(){
                       <p>The following <a href="#figure-linked-specifications-reports">figure</a> depicts an overview of linking the LDN specification, its test suite, the generated implementation report for the dokieli project, reports summary, and an article citing the specification.</p>
 
                       <figure id="figure-linked-specifications-reports" rel="schema:hasPart" resource="#figure-linked-specifications-reports">
-    <svg id="ca3be078-66ae-11e9-94b3-d3d66a457b53" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="480" height="320" version="1.1" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# xsd: http://www.w3.org/2001/XMLSchema# schema: https://schema.org/" xml:lang="en" rel="schema:isPartOf" resource="http://csarven.ca/linked-specifications-reports">
+    <svg height="320" id="ca3be078-66ae-11e9-94b3-d3d66a457b53" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# xsd: http://www.w3.org/2001/XMLSchema# schema: https://schema.org/" rel="schema:isPartOf" resource="http://csarven.ca/linked-specifications-reports" version="1.1" width="480" xml:lang="en" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg">
       <metadata><tspan rel="schema:license" resource="https://creativecommons.org/licenses/by/4.0/"></tspan><tspan rel="schema:creator" resource="http://csarven.ca/#i"></tspan></metadata>
       <title about="http://csarven.ca/linked-specifications-reports" property="schema:name">Linked Specifications, Test Suites, Implementation reports</title>
       <style>#ca3be078-66ae-11e9-94b3-d3d66a457b53 text{font-family:sans-serif;} #ca3be078-66ae-11e9-94b3-d3d66a457b53 .link{font-size:13px;font-style:italic;} #ca3be078-66ae-11e9-94b3-d3d66a457b53 .predicate{font-size:13px;font-style:italic;} .actor{font-size:16px;} #ca3be078-66ae-11e9-94b3-d3d66a457b53 marker{overflow:visible;}</style>
 
       <defs>
         <marker id="marker1603-8-0" orient="auto">
-          <path transform="matrix(-0.4,0,0,-0.4,-4,0)" d="M 0,0 5,-5 -12.5,0 5,5 Z" />
+          <path d="M 0,0 5,-5 -12.5,0 5,5 Z" transform="matrix(-0.4,0,0,-0.4,-4,0)" />
         </marker>
         <marker id="marker1603-8-0-5" orient="auto">
-          <path transform="matrix(-0.4,0,0,-0.4,-4,0)" d="M 0,0 5,-5 -12.5,0 5,5 Z" />
+          <path d="M 0,0 5,-5 -12.5,0 5,5 Z" transform="matrix(-0.4,0,0,-0.4,-4,0)" />
         </marker>
         <marker id="marker1603-8-0-9" orient="auto">
-          <path transform="matrix(-0.4,0,0,-0.4,-4,0)" d="M 0,0 5,-5 -12.5,0 5,5 Z" />
+          <path d="M 0,0 5,-5 -12.5,0 5,5 Z" transform="matrix(-0.4,0,0,-0.4,-4,0)" />
         </marker>
         <marker id="marker1603-8-0-9-9" orient="auto">
-          <path transform="matrix(-0.4,0,0,-0.4,-4,0)" d="M 0,0 5,-5 -12.5,0 5,5 Z" />
+          <path d="M 0,0 5,-5 -12.5,0 5,5 Z" transform="matrix(-0.4,0,0,-0.4,-4,0)" />
         </marker>
         <marker id="marker1603-8-8-9" orient="auto">
-          <path transform="matrix(-0.4,0,0,-0.4,-4,0)" d="M 0,0 5,-5 -12.5,0 5,5 Z" />
+          <path d="M 0,0 5,-5 -12.5,0 5,5 Z" transform="matrix(-0.4,0,0,-0.4,-4,0)" />
         </marker>
         <marker id="marker1603-8-8-9-6" orient="auto">
-          <path transform="matrix(-0.4,0,0,-0.4,-4,0)" d="M 0,0 5,-5 -12.5,0 5,5 Z" />
+          <path d="M 0,0 5,-5 -12.5,0 5,5 Z" transform="matrix(-0.4,0,0,-0.4,-4,0)" />
         </marker>
         <marker id="marker1603-8-8-9-7" orient="auto">
-          <path transform="matrix(-0.4,0,0,-0.4,-4,0)" d="M 0,0 5,-5 -12.5,0 5,5 Z" />
+          <path d="M 0,0 5,-5 -12.5,0 5,5 Z" transform="matrix(-0.4,0,0,-0.4,-4,0)" />
         </marker>
       </defs>
 
@@ -5180,12 +5180,12 @@ document.addEventListener('DOMContentLoaded', function(){
         <text class="actor" x="8" y="179">Specification</text>
         <text class="actor" x="176" y="159">Reports Summary</text>
 
-        <a href="https://www.w3.org/TR/ldn/" target="_blank"><text fill="#00e" class="link" x="4" y="196">https://www.w3.org/TR/ldn/</text></a>
-        <a href="http://csarven.ca/linked-data-notifications" target="_blank"><text fill="#00e" class="link" x="4" y="312">http://csarven.ca/linked-data-notifications</text></a>
-        <a href="https://dokie.li/" target="_blank"><text fill="#00e" class="link" x="4" y="16">https://dokie.li/</text></a>
-        <a href="https://linkedresearch.org/ldn/tests/summary" target="_blank"><text fill="#00e" class="link" x="171" y="141">https://linkedresearch.org/ldn/tests/summary</text></a>
-        <a href="https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753" target="_blank"><text fill="#00e" class="link" x="183" y="27"><tspan x="183" y="27">https://linkedresearch.org/ldn/tests/reports/</tspan><tspan x="183" y="43">2c5af2f0-f832-11e6-a642-0dd857219753</tspan></text></a>
-        <a href="https://linkedresearch.org/ldn/tests/" target="_blank"><text fill="#00e" class="link" x="232" y="270">https://linkedresearch.org/ldn/tests/</text></a>
+        <a href="https://www.w3.org/TR/ldn/" target="_blank"><text class="link" fill="#00e" x="4" y="196">https://www.w3.org/TR/ldn/</text></a>
+        <a href="http://csarven.ca/linked-data-notifications" target="_blank"><text class="link" fill="#00e" x="4" y="312">http://csarven.ca/linked-data-notifications</text></a>
+        <a href="https://dokie.li/" target="_blank"><text class="link" fill="#00e" x="4" y="16">https://dokie.li/</text></a>
+        <a href="https://linkedresearch.org/ldn/tests/summary" target="_blank"><text class="link" fill="#00e" x="171" y="141">https://linkedresearch.org/ldn/tests/summary</text></a>
+        <a href="https://linkedresearch.org/ldn/tests/reports/2c5af2f0-f832-11e6-a642-0dd857219753" target="_blank"><text class="link" fill="#00e" x="183" y="27"><tspan x="183" y="27">https://linkedresearch.org/ldn/tests/reports/</tspan><tspan x="183" y="43">2c5af2f0-f832-11e6-a642-0dd857219753</tspan></text></a>
+        <a href="https://linkedresearch.org/ldn/tests/" target="_blank"><text class="link" fill="#00e" x="232" y="270">https://linkedresearch.org/ldn/tests/</text></a>
 
         <text class="predicate" x="18" y="250">cites</text>
         <text class="predicate" x="93" y="67">subject</text>
@@ -5195,13 +5195,13 @@ document.addEventListener('DOMContentLoaded', function(){
         <text class="predicate" x="332" y="217">generates</text>
         <text class="predicate" x="160" y="233">implements</text>
 
-        <path d="m 11.33,51.75 c -13.298,55.35 3.98,96.55 3.98,96.55" fill="none" stroke="#000" marker-end="url(#marker1603-8-0)" />
-        <path d="M 164,60.47 C 121.6,25.15 90.57,37.5 90.57,37.5" fill="none" stroke="#000" marker-end="url(#marker1603-8-0-5)" />
-        <path d="m 313.5,249 c 9.7,-47.9 -11.8,-75.4 -11.8,-75.4" fill="none" stroke="#000" marker-end="url(#marker1603-8-0-9)" />
-        <path d="M 262,245.3 C 247.5,205.5 216.3,197.7 216.3,197.7" fill="none" stroke="#000" marker-end="url(#marker1603-8-0-9-9)" />
-        <path d="M 212.7,123.8 C 187.8,100.9 198.1,71.26 198.1,71.26" fill="none" stroke="#000" marker-end="url(#marker1603-8-8-9)" />
-        <path d="M 10.12,273.4 C -4.782,238.3 12.78,213 12.78,213" fill="none" stroke="#000" marker-end="url(#marker1603-8-8-9-6)" />
-        <path d="m 104.1,216.3 c 36.4,43.6 79.8,54.5 79.8,54.5" fill="none" stroke="#000" marker-end="url(#marker1603-8-8-9-7)" />
+        <path d="m 11.33,51.75 c -13.298,55.35 3.98,96.55 3.98,96.55" fill="none" marker-end="url(#marker1603-8-0)" stroke="#000" />
+        <path d="M 164,60.47 C 121.6,25.15 90.57,37.5 90.57,37.5" fill="none" marker-end="url(#marker1603-8-0-5)" stroke="#000" />
+        <path d="m 313.5,249 c 9.7,-47.9 -11.8,-75.4 -11.8,-75.4" fill="none" marker-end="url(#marker1603-8-0-9)" stroke="#000" />
+        <path d="M 262,245.3 C 247.5,205.5 216.3,197.7 216.3,197.7" fill="none" marker-end="url(#marker1603-8-0-9-9)" stroke="#000" />
+        <path d="M 212.7,123.8 C 187.8,100.9 198.1,71.26 198.1,71.26" fill="none" marker-end="url(#marker1603-8-8-9)" stroke="#000" />
+        <path d="M 10.12,273.4 C -4.782,238.3 12.78,213 12.78,213" fill="none" marker-end="url(#marker1603-8-8-9-6)" stroke="#000" />
+        <path d="m 104.1,216.3 c 36.4,43.6 79.8,54.5 79.8,54.5" fill="none" marker-end="url(#marker1603-8-8-9-7)" stroke="#000" />
       </g>
     </svg>
                         <figcaption property="schema:name">An overview of linking a specification, test suite, generated implementation report for the project, reports summary, and an article citing the specification</figcaption>
