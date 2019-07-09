@@ -663,7 +663,7 @@ support groups.</pre>
 
                           <p>In 1996, Berners-Lee proposed a set of <em>axioms</em> for URIs as the backbone of what makes the Web a universal information space:</p>
 
-                          <blockquote cite="https://www.w3.org/DesignIssues/Axioms.html#uri" id="axioms-uri">
+                          <blockquote cite="https://www.w3.org/DesignIssues/Axioms#uri" id="axioms-uri">
                             <dl>
                               <dt id="axiom-0">Axiom 0: Universality 1</dt>
                               <dd>Any resource anywhere can be given a URI</dd>
@@ -681,7 +681,7 @@ support groups.</pre>
                               <dd>the significance of identity for a given URI is determined by the person who owns the URI, who first determined what it points to.</dd>
                             </dl>
 
-                            <footer><cite><a href="https://www.w3.org/DesignIssues/Axioms.html#uri" rel="cito:includesQuotationFrom">Universal Resource Identifiers -- Axioms of Web Architecture</a></cite>, Berners-Lee, 1996</footer>
+                            <footer><cite><a href="https://www.w3.org/DesignIssues/Axioms#uri" rel="cito:includesQuotationFrom">Universal Resource Identifiers -- Axioms of Web Architecture</a></cite>, Berners-Lee, 1996</footer>
                           </blockquote>
 
                           <p>URIs make it possible for real or abstract <em>things</em> to be identified. When HTTP URIs are dereferenced different representations (data formats) are made available from corresponding <cite><a href="https://tools.ietf.org/html/rfc1738">Uniform Resource Locators</a></cite> (<abbr title="Uniform Resource Locator">URL</abbr>s). While URIs makes it possible to identify (name) things on the Web, URLs make it possible for humans and machines to locate and to interact further with content.</p>
@@ -755,7 +755,7 @@ support groups.</pre>
 
                       <p>Conceptually, RDF was in the fabric of the Web from the start. By <em>naming</em> things with URIs, we can construct structured sentences with RDF. By comparison, HTML at its core is a terse approach to representing and linking knowledge. RDF on the other hand is intended to be a unifying language for machine interfaces to data systems. I will further discuss language mixing with RDF in HTML and XML-family languages via <cite><a href="#rdfa">RDFa</a></cite>.</p>
 
-                      <p id="aaa">One conceptual view of the Web is that <q cite="https://www.w3.org/DesignIssues/RDFnot.html#ER">anyone being (technically) allowed to say anything about anything</q> (<abbr title="Anyone can say Anything about Anything">AAA</abbr>). One consequence of AAA is that while systems (and reasoners within) can operate under both the <cite><a href="https://en.wikipedia.org/wiki/Open-world_assumption">open-world assumption</a></cite> (<abbr title="Open-world Assumption">OWA</abbr>) or the <cite><a href="https://en.wikipedia.org/wiki/Closed-world_assumption">closed-world assumption</a></cite> (<abbr title="Closed-world Assumption">CWA</abbr>), the Web ultimately uses the OWA framework because new knowledge can always make its way into the system, and lack of knowledge does not imply falsity. RDF applies a particular restriction of the AAA principle in that nonsensical, inconsistent, or conflicting information can be created or inferred. It is up to processing applications to determine their confidence on the information. Hence, an important distinction: assertions made using the RDF language are claims, as opposed to facts.</p>
+                      <p id="aaa">One conceptual view of the Web is that <q cite="https://www.w3.org/DesignIssues/RDFnot#ER">anyone being (technically) allowed to say anything about anything</q> (<abbr title="Anyone can say Anything about Anything">AAA</abbr>). One consequence of AAA is that while systems (and reasoners within) can operate under both the <cite><a href="https://en.wikipedia.org/wiki/Open-world_assumption">open-world assumption</a></cite> (<abbr title="Open-world Assumption">OWA</abbr>) or the <cite><a href="https://en.wikipedia.org/wiki/Closed-world_assumption">closed-world assumption</a></cite> (<abbr title="Closed-world Assumption">CWA</abbr>), the Web ultimately uses the OWA framework because new knowledge can always make its way into the system, and lack of knowledge does not imply falsity. RDF applies a particular restriction of the AAA principle in that nonsensical, inconsistent, or conflicting information can be created or inferred. It is up to processing applications to determine their confidence on the information. Hence, an important distinction: assertions made using the RDF language are claims, as opposed to facts.</p>
 
                       <p><em>Statements</em> in RDF are expressed in the form of <em>triples</em> – <span class="highlight-language-statement"><span class="highlight-language-subject">subject</span>, <span class="highlight-language-predicate">predicate</span>, <span class="highlight-language-object">object</span></span>:</p>
 
