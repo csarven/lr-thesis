@@ -937,7 +937,7 @@ support groups.</pre>
                   <section id="open-and-free" inlist="" rel="schema:hasPart" resource="#open-and-free">
                     <h4 property="schema:name">Open and Free</h4>
                     <div datatype="rdf:HTML" property="schema:description">
-                      <p>While there are many definitions for “open” and “free”, depending on the context assigned by different communities eg. <cite><a data-versiondate="2018-10-05T10:34:34Z" data-versionurl="https://web.archive.org/web/20181005103434/https://www.w3.org/DesignIssues/Open.html" href="https://www.w3.org/DesignIssues/Open.html">The Many Meanings of Open</a></cite>, Berners-Lee, 2013, here I acknowledge some that are commonly used.</p>
+                      <p>While there are many definitions for “open” and “free”, depending on the context assigned by different communities eg. <cite><a href="https://www.w3.org/DesignIssues/Open">The Many Meanings of Open</a></cite>, Berners-Lee, 2013, here I acknowledge some that are commonly used.</p>
 
                       <p id="open-definition">The definition given by <cite><a href="https://opendefinition.org/">The Open Definition</a></cite> which is derived from the <cite>Open Source Definition</cite>, is as follows:</p>
 
