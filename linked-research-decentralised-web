@@ -217,7 +217,62 @@
           <section id="acknowledgements" inlist="" rel="schema:hasPart" resource="#acknowledgements" typeof="deo:Acknowledgements">
             <h2 property="schema:name">Acknowledgements</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p class="todo"></p>
+              <p>This thesis is the result of interconnected ideas and people coming together. I would like the following to be carved in a hyperdimensional stone:</p>
+
+              <p id="family">My family: <a href="http://brigitteschuster.com/">Brigitte Schuster</a>, <a href="http://emilianc.info/">Emilian Capadisli</a>, <a href="http://junesc.info">Junes Capadisli</a>.</p>
+
+              <p id="Sören-Auer"><a href="https://www.tib.eu/en/research-development/data-science-digital-libraries/staff/soeren-auer/">Sören Auer</a> for his supervision, endurance and support; the force that kept my work and initiatives real – an understatement. ⚛</p>
+
+              <p id="Kingsley-Kidehen"><a href="http://kingsley.idehen.net/">Kingsley Kidehen</a>, my practice-what-you-preach partner in crime. I have learned a lot from Kingsley with great pleasure whilst we aimed to realise cool Web stuff. 🧩</p>
+
+              <p id="Amy-Guy">I am immensely grateful to <a href="https://rhiaro.co.uk/">Captain Amy Guy</a> for her advice and friendship. My work would not be where it is today without her collaboration, reality checks, as well as justifiable distractions of epic proportions. 🌞</p>
+
+              <p id="Herbert-Van-de-Sompel"><a href="http://hvdsomp.info/">Herbert Van de Sompel</a> helping me to connect some of the fundamental dots and reach the lightbulb moment to better situate my work in context of research communication. 💡</p>
+
+              <p id="Tim-Berners-Lee"><a href="https://www.w3.org/People/Berners-Lee/card#i">Tim Berners-Lee</a>, <em>the</em> Web developer that I look up to for inspiration and model perseverance to continue fighting for the Web. I have learned a lot from Tim through spontaneous chats and <a href="https://www.w3.org/DesignIssues/">Design Issues</a>. 🕸</p>
+
+              <p id="Amy-van-der-Hiel"><a href="https://www.w3.org/People/#V">Amy van der Hiel</a> for ethical Web checks and having me remind myself to assess the value of what I do with respect to society and adjusting my aims accordingly. Her influence will continue to shape the fabric of the projects that I am involved in. 🧭</p>
+
+              <p id="Bernadette-Hyland"><a href="https://about.me/bernadettehyland">Bernadette Hyland</a> for supporting me to hang in there for the long game. ✌</p>
+
+              <p id="Stian-Soiland-Reyes"><a href="http://www.soiland-reyes.com/stian/">Stian Soiland-Reyes</a> for brainstorming and experimenting on various Linked Data related stuff. 🧐</p>
+
+              <p id="Ruben-Verborgh"><a href="https://ruben.verborgh.org/profile/#me">Ruben Verborgh</a> for being an exemplary researcher and developer, and friend. 🎸</p>
+
+              <p id="Melvin-Carvalho"><a href="https://melvincarvalho.com/#me">Melvin Carvalho</a> for bouncing ideas on the intersection of McLuhan’s media theories and the Web. 📺</p>
+
+              <p id="Andrea-Scharnhorst"><a href="http://www.ehumanities.nl/andrea-scharnhorst/">Andrea Scharnhorst</a> for first and foremost introducing me to developing a sense to academic collaboration. 🤝</p>
+
+              <p id="Axel-Polleres"><a href="http://polleres.net/">Axel Polleres</a> for supporting my initiative to change the landscape through experimentation. 🎩</p>
+
+              <p id="Dame-Wendy-Hall"><a href="https://wendy.ecs.soton.ac.uk/">Dame Wendy Hall</a> for being a role model. Her mere presence as well as lessons thought me to keep the spirit of the Web in scholarly communication alive. 👣</p>
+
+              <p id="Ilaria-Liccardi"><a href="https://people.csail.mit.edu/ilaria/">Ilaria Liccardi</a> for her mentorship and care to help me move forward. 🍎</p>
+
+              <p id="Henry-Story"><a href="http://bblfish.net/people/henry/card#me">Henry Story</a> for providing me with context to undoubtedly interconnected ideas in technology and philosophy. 🐠</p>
+
+              <p id="Christophe-Lange"><a href="https://langec.wordpress.com/about/">Christophe Lange</a> for helping to frame my work as research where I only thought it was just development. 📜</p>
+
+              <p id="Jodi-Schneider"><a href="http://jodischneider.com/">Jodi Schneider</a> for helping to improve my argumentation in research communication. 📚</p>
+
+              <p id="Albert-Meroño-Peñuela"><a href="https://www.albertmeronyo.org/">Albert Meroño-Peñuela</a> for collaborating on <abbr title="Linked Statistical Data">LSD</abbr> and getting interesting results. ⊹</p>
+
+              <p id="Paul-Groth"><a href="http://pgroth.com/">Paul Groth</a> is partly to blame for all this work as he challenged me to make it so. 🚀</p>
+
+              <p id="the-anti-social-web">The (anti?)social Web: from your encouragement to your dismissal of radical and lunatic scholarly endeavours; being the widest sound board possible. 🗫</p>
+
+              <p id="haters-gonna-hate">A thesis acknowledgement would not be complete without a haters-gonna-hate list, so I will quote only <em>a fraction</em> of those anonymously for entertainment purposes:</p>
+
+              <ul>
+                <li><q>just don't</q></li>
+                <li><q>no means no</q></li>
+                <li><q>it can't be done</q></li>
+                <li><q>I definitely envy the amount of free time that you have</q></li>
+                <li><q>but isn't inherently social, and in my expert opinion is also not a very good approach</q></li>
+                <li><q>do not have the patience or time to „feed the troll“ and get into useless discussions</q></li>
+              </ul>
+
+              <p>.. and many variations of <q>it is not X, so it sucks</q> from friendly strangers. 💕</p>
             </div>
           </section>
 
