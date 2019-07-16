@@ -5,7 +5,6 @@
     <title>Linked Research on the Decentralised Web</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="media/css/basic.css" media="all" rel="stylesheet" title="Basic" />
-    <link href="media/css/thesis.css" media="all" rel="stylesheet alternate" title="Thesis" />
     <link href="media/css/lncs.css" media="all" rel="stylesheet alternate" title="LNCS" />
     <link href="media/css/acm.css" media="all" rel="stylesheet alternate" title="ACM" />
     <link href="media/css/dokieli.css" media="all" rel="stylesheet" />
