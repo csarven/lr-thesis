@@ -4238,7 +4238,6 @@ document.addEventListener('DOMContentLoaded', function(){
                           <figcaption property="schema:name">Annotation HTML+RDFa</figcaption>
                         </figure>
                       </div>
-                      <script>DO.U.showAsTabs('#private-and-annotated-link');</script>
 
                       <p>Once an annotation is created and has a dereferenceable HTTP URI (subject to access control rules), a notification can be sent to the inbox of the target resource about the annotation if any part of an article advertises an LDN inbox. Depending on the motivation of the annotation, the notification is modelled with the <cite>Activity vocabulary</cite> eg. the <a href="https://www.w3.org/TR/activitystreams-vocabulary/#dfn-create">Create</a> activity (<code>as:Create</code>), to indicate that the actor has created the object.</p>
 
