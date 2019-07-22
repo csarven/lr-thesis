@@ -45,23 +45,6 @@
           <dd><time content="2019-07-22T00:00:00Z" datatype="xsd:dateTime" datetime="2019-07-22T00:00:00Z" property="schema:datePublished">2019-07-22</time></dd>
         </dl>
 
-<!--
-        <dl id="document-latest-version">
-          <dt>Latest Version</dt>
-          <dd><a href="https://linkedresearch.org/article/csarven.ca/6cd3a5e4-886c-4a54-88ae-50b7ac113d72" rel="mem:memento rel:latest-version">https://linkedresearch.org/article/csarven.ca/6cd3a5e4-886c-4a54-88ae-50b7ac113d72</a></dd>
-        </dl>
-
-        <dl id="document-predecessor-version">
-          <dt>Predecessor Version</dt>
-          <dd><a href="https://linkedresearch.org/article/csarven.ca/88b9f863-923a-42c3-ace3-3225bcd48e28" rel="mem:memento rel:predecessor-version">https://linkedresearch.org/article/csarven.ca/88b9f863-923a-42c3-ace3-3225bcd48e28</a></dd>
-        </dl>
-
-        <dl id="document-timemap">
-          <dt>TimeMap</dt>
-          <dd><a href="https://linkedresearch.org/article/csarven.ca/scholarly-communication-on-the-web.timemap" rel="mem:timemap">https://linkedresearch.org/article/csarven.ca/scholarly-communication-on-the-web.timemap</a></dd>
-        </dl>
--->
-
         <dl id="document-derived-from">
           <dt>Derived From</dt>
           <dd>
@@ -71,7 +54,6 @@
               <li><a href="https://csarven.ca/linked-statistical-data-analysis" rel="prov:wasDerivedFrom">Linked Statistical Data Analysis</a></li>
               <li><a href="https://csarven.ca/call-for-linked-research" rel="prov:wasDerivedFrom">Call for Linked Research</a></li>
               <li><a href="https://csarven.ca/enabling-accessible-knowledge" rel="prov:wasDerivedFrom">Enabling Accessible Knowledge</a></li>
-
               <li><a href="https://csarven.ca/this-paper-is-a-demo" rel="prov:wasDerivedFrom">This ‘Paper’ is a Demo</a></li>
               <li><a href="https://csarven.ca/cooling-down-web-science" rel="prov:wasDerivedFrom">Cooling Down Web Science</a></li>
               <li><a href="https://dokie.li/">dokieli</a></li>
@@ -82,11 +64,15 @@
               <li><a href="https://www.w3.org/TR/annotation-html" rel="prov:wasDerivedFrom">Embedding Web Annotations in HTML</a></li>
               <li><a href="https://csarven.ca/dokieli-rww" rel="prov:wasDerivedFrom">Decentralised Authoring, Annotations and Notifications for a Read-Write Web with dokieli</a></li>
               <li><a href="https://csarven.ca/faipdaaf" rel="prov:wasDerivedFrom">Full Article, Immediate, Permanent, Discoverable, and Accessible to Anyone Free of charge</a></li>
-              <li><a href="https://dokie.li/docs" rel="prov:wasDerivedFrom">dokieli documentation</a></li>
               <li><a href="https://linkedresearch.org/ldn/tests/summary" rel="prov:wasDerivedFrom">LDN Test Reports and Summary</a></li>
               <li><a href="https://csarven.ca/linked-specifications-reports" rel="prov:wasDerivedFrom">Linking Specifications, Test Suites, and Implementation Reports</a></li>
             </ul>
           </dd>
+        </dl>
+
+        <dl id="document-language">
+          <dt>Language</dt>
+          <dd><span content="en" property="dcterms:language" xml:lang="" lang="">English</span></dd>
         </dl>
 
         <dl id="document-license">
@@ -96,7 +82,7 @@
 
         <dl id="document-inbox">
           <dt>Notifications Inbox</dt>
-          <dd><a href="https://csarven.ca/archives/56ba3667-d688-5475-8f85-d2185b4859f9/inbox/" rel="ldp:inbox">https://csarven.ca/archives/56ba3667-d688-5475-8f85-d2185b4859f9/inbox/</a></dd>
+          <dd><a href="https://csarven.ca/archives/linked-research-decentralised-web/inbox/" rel="ldp:inbox">https://csarven.ca/archives/linked-research-decentralised-web/inbox/</a></dd>
         </dl>
 
         <dl id="document-in-reply-to">
