@@ -81,7 +81,7 @@
 
         <dl id="document-language">
           <dt>Language</dt>
-          <dd><span content="en" property="dcterms:language" xml:lang="" lang="">English</span></dd>
+          <dd><span content="en" lang="" property="dcterms:language" xml:lang="">English</span></dd>
         </dl>
 
         <dl id="document-license">
