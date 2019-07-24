@@ -864,7 +864,7 @@ support groups.</pre>
                           <tbody><tr><td><a class="highlight-language-object" href="http://dbpedia.org/resource/Tim_Berners-Lee">http://dbpedia.org/resource/Tim_Berners-Lee</a></td><td><span class="highlight-language-object-name">"Tim Berners-Lee"@en</span></td></tr></tbody>
                         </table>
 
-                        <figcaption>Example SPARQL Query and Result</figcaption>
+                        <figcaption>Example SPARQL Query and Result.</figcaption>
                       </figure>
 
                       <p>The SPARQL suite is a powerful set of tools for inspecting and manipulating information based on the graph nature of the data.</p>
@@ -1785,7 +1785,7 @@ support groups.</pre>
 
                       <figure id="interlinks-270a.info">
                         <object data="https://270a.info/media/images/270a.cloud.svg" height="480" type="image/svg+xml" width="640"></object>
-                        <figcaption>Interlinks of Linked Statistical Data endpoints at 270a.info</figcaption>
+                        <figcaption>Interlinks of Linked Statistical Data endpoints at 270a.info.</figcaption>
                       </figure>
 
                       <p>What the LSD Cloud enables is that highly structured and interlinked statistical data and classifications that can be queried and used by decentralised applications.</p>
@@ -1905,7 +1905,7 @@ support groups.</pre>
   <line fill-opacity="0" fill="none" id="svg_37" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" x1="140.81665" x2="183.81665" y1="277.96666" y2="277.96666" />
   <line fill-opacity="0" fill="none" id="svg_38" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" x1="140.81665" x2="212.81665" y1="287.96666" y2="328.96666" />
  </g></svg>
-                    <figcaption property="schema:name">Typical centralised and decentralised architectures</figcaption>
+                    <figcaption property="schema:name">Typical centralised and decentralised architectures.</figcaption>
                   </figure>
 
                   <p>Troncoso et al, consider <em>security</em> and <em>privacy</em> to be integral aspects of systems. Security includes <q>confidentiality, integrity, authentication … availability, accountability, authorization, non-repudiation or non-equivocation</q>, and privacy considers <q>protections of users’ related data (identities, actions, etc.)</q>, and <q>formalized in terms of privacy properties (anonymity, pseudonymity, unlinkability, unobservability).</q></p>
@@ -2052,7 +2052,7 @@ support groups.</pre>
                     <pre><code>&lt;https://orcid.org/0000-0002-0880-9125&gt; ;</code>
 <code>  <span class="highlight-predicate-sameas">owl:sameAs</span> &lt;https://csarven.ca/#i&gt; ;</code>
 <code>  contact:preferredURI "https://csarven.ca/#i" .</code></pre>
-                    <figcaption>WebID with same as and preferred URI relations</figcaption>
+                    <figcaption>WebID with same as and preferred URI relations.</figcaption>
                   </figure>
 
                   <p>The <code class="highlight-predicate-sameas">owl:sameAs</code> and <code>contact:preferredURI</code> information provides an opportunity for applications consuming the ORCID WebID to potentially discover more information about other entities. This is particularly useful as the ORCID WebID Profile is not completely open to add arbitrary information. For example, specifying a person’s picture or their contacts is not currently possible with ORCID, however, if the alternative profiles (https://csarven.ca/#i) contain such information, they can be purposed to know more about the entity.</p>
@@ -2073,7 +2073,7 @@ support groups.</pre>
 <code></code>
 <code>&lt;https://csarven.ca/#i&gt;</code>
 <code>  foaf:knows &lt;https://bblfish.net/people/henry/card#me&gt; .</code></pre>
-                    <figcaption>Tim knows Sarven, and Sarven knows Henry</figcaption>
+                    <figcaption>Tim knows Sarven, and Sarven knows Henry.</figcaption>
                   </figure>
                 </div>
               </section>
@@ -2103,7 +2103,7 @@ support groups.</pre>
 <code>  a <span class="highlight-x509-rsa-public-key">cert:RSAPublicKey</span> ;</code>
 <code>  <span class="highlight-x509-exponent">cert:exponent</span> "65537"^^xsd:nonNegativeInteger ;</code>
 <code>  <span class="highlight-x509-modulus">cert:modulus</span> "caf6a78d16e80f930337453d84f790764c56ea58acbeda5de3d17b6e673569ef581b896b74466655fb3da2f9a961c6d46d99e77053a0aaf83fac4eab8b9198f20930672de22cb1b22f0ab85a66c95a6830eaa7be1e28ec197ff7a4a448243af2f206d2be458bbc71f32aa073315e22c9b2668fe15c732a33edcfd9fa39d04706191044f33e580f954e6a1d9c4bf08c820c4666f5ef8554cf1430a33b630c80d11f7d309cb641b213fcbfc9a5b699af625fe23627c403ff12d79514178728537aa173aba5bc5aeb87569eba1be3274aa53d9b2f8fe72f13ba8125e734e8e31128303c76594327c4c2e431e38f2b326cc244080e597a4d27a98ae3fe1edb5de785"^^xsd:hexBinary .</code></pre>
-                    <figcaption>RSA Public Key information associated with a WebID URI</figcaption>
+                    <figcaption>RSA Public Key information associated with a WebID URI.</figcaption>
                   </figure>
 
                   <p>WebID Profiles using the Cert Ontology can help authenticating servers to discover researchers public keys which can be used towards verifying identity claims.</p>
@@ -2113,7 +2113,7 @@ support groups.</pre>
                   <figure class="listing" id="example-acl-delegates">
                     <pre><code>&lt;<span class="highlight-webid">https://csarven.ca/#i</span>&gt;</code>
 <code>  acl:delegates &lt;https://example.org/application#i&gt; .</code></pre>
-                    <figcaption>An agent delegating another agent to act on its behalf</figcaption>
+                    <figcaption>An agent delegating another agent to act on its behalf.</figcaption>
                   </figure>
 
                   <p>whereas the agent making requests on behalf of another agent would include the HTTP <code>On-Behalf-Of</code> header when making requests.</p>
@@ -2312,7 +2312,7 @@ support groups.</pre>
      </g>
     </svg>
 
-                    <figcaption>Degree of control (actor or third-party) for identifiers, data, and applications</figcaption>
+                    <figcaption>Degree of control (actor or third-party) for identifiers, data, and applications.</figcaption>
                   </figure>
 
                   <p>On one end of the spectrum, an actor eg. an individual, registers their own domain name, hosts their personal storage, and uses applications of their choosing. With that, they have highest degree of autonomy. On the other end of the spectrum, an individual’s identifier as well as a range of expressible identities, the data location and conditions of use, and assigned applications by third-party services.</p>
@@ -2651,7 +2651,7 @@ support groups.</pre>
                   <figure id="figure-linked-data-notifications-overview" inlist="" rel="schema:hasPart" resource="#figure-linked-data-notifications-overview">
                     <svg height="200" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# xsd: http://www.w3.org/2001/XMLSchema# schema: https://schema.org/" rel="schema:isPartOf" resource="https://www.w3.org/TR/ldn/" version="1.1" width="420" xml:lang="en" xmlns="http://www.w3.org/2000/svg"><g about="https://www.w3.org/TR/ldn/" rel="schema:hasPart" typeof="schema:ImageObject"><metadata about="https://www.w3.org/TR/ldn/"><tspan rel="schema:license" resource="https://creativecommons.org/licenses/by/4.0/"></tspan><tspan rel="schema:creator" resource="https://csarven.ca/#i"></tspan></metadata><title about="https://www.w3.org/TR/ldn/" property="schema:name">Linked Data Notifications</title><style>.relation{font-size:12px;font-family:monospace;}.predicate{font-style:italic;}.actor{font-size:20px;font-family:sans-serif;}.legend{font-size:8px;font-family:sans-serif;}</style><a about="#target" href="https://www.w3.org/TR/ldn/#discovery" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/TR/ldn/#discovery" target="_top"><text class="actor" x="170" y="19">Target</text></a><a about="#sender" href="https://www.w3.org/TR/ldn/#sender" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/TR/ldn/#sender" target="_top"><text class="actor" x="3" y="68">Sender</text></a><a about="#consumer" href="https://www.w3.org/TR/ldn/#consumer" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/TR/ldn/#consumer" target="_top"><text class="actor" x="316" y="70">Consumer</text></a><a about="#receiver" href="https://www.w3.org/TR/ldn/#receiver" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/TR/ldn/#receiver" target="_top"><text class="actor" x="57" y="153">Receiver</text></a><a about="#get" href="https://tools.ietf.org/html/rfc7231#section-4.3.1" property="schema:name" rel="rdfs:isDefinedBy" resource="https://tools.ietf.org/html/rfc7231#section-4.3.1" target="_top"><text class="relation http" x="81" y="34">GET</text></a><a about="#head" href="https://tools.ietf.org/html/rfc7231#section-4.3.2" property="schema:name" rel="rdfs:isDefinedBy" resource="https://tools.ietf.org/html/rfc7231#section-4.3.2" target="_top"><text class="relation http" x="100" y="50">HEAD</text></a><a href="https://tools.ietf.org/html/rfc7231#section-4.3.1" target="_top"><text class="relation http" x="286" y="34">GET</text></a><a href="https://tools.ietf.org/html/rfc7231#section-4.3.2" target="_top"><text class="relation http" x="259" y="50">HEAD</text></a><a about="#post" href="https://tools.ietf.org/html/rfc7231#section-4.3.3" property="schema:name" rel="rdfs:isDefinedBy" resource="https://tools.ietf.org/html/rfc7231#section-4.3.3" target="_top"><text class="relation http" x="62" y="92">POST</text></a><a href="https://tools.ietf.org/html/rfc7231#section-4.3.1" target="_top"><text class="relation http" x="300" y="94">GET</text></a><a about="#ldp-inbox" href="https://www.w3.org/ns/ldp#inbox" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/ns/ldp#inbox" target="_top"><text class="relation predicate" x="166" y="67">ldp:inbox</text></a><a about="#ldp-contains" href="https://www.w3.org/ns/ldp#contains" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/ns/ldp#contains" target="_top"><text class="relation predicate" x="166" y="153">ldp:contains</text></a><a about="#discovery" href="https://www.w3.org/TR/ldn/#discovery" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/TR/ldn/#discovery" target="_top"><text class="actor" x="175" y="122">Inbox</text></a><a about="#notification" href="https://www.w3.org/TR/ldn/#introduction" property="schema:name" rel="rdfs:isDefinedBy" resource="https://www.w3.org/TR/ldn/#introduction" target="_top"><text class="actor" x="171" y="188">Notification</text></a><text class="legend" x="310" y="182">Linked Data Notifications</text><a href="https://www.w3.org/TR/ldn/"><text class="legend" x="310" y="192">https://www.w3.org/TR/ldn/</text></a><path d="M154.018 5.559v14.023h12.27V12.57h-7.01V5.56h-5.26zm7.012 0v5.258h5.259L166.03 5.56zm-5.259 3.505h1.753v1.753h-1.753V9.064zm0 3.506h1.753v1.753h-1.753V12.57zm0 3.506h7.012v1.753h-7.012v-1.753z" /><path d="m155.03056,108.76175 0,1.51758 12.14062,0 0,-1.51758 -12.14062,0 z m 0,3.03516 0,8.9628 c 0,0.0911 0.0516,0.14266 0.14266,0.14266 l 11.85682,0 c 0.0911,0 0.14265,-0.0516 0.14265,-0.14266 l 0,-8.9628 -4.50568,0 0,1.56461 -3.0822,0 0,-1.56461 -4.55274,0 z" /><path d="M154.02 174.407v14.01h12.257v-7.006h-7.004v-7.004h-5.254zm7.004 0v5.253h5.253l-5.253-5.253z" /><path d="M75.094 56.246c26.774-25.646 73.45-42.406 73.45-42.406M312.544 56.681c-26.774-25.646-73.449-42.406-73.449-42.406M76.48 66.868c26.774 25.646 73.45 42.406 73.45 42.406" fill="none" stroke-width="1" stroke="#000" /><path d="M312.898 70.757c-26.774 25.646-73.45 42.406-73.45 42.406" fill="none" stroke-width="1" stroke="#000" /><path d="M329.61 79.188c-15.293 56.301-41.953 93.091-41.953 93.091" fill="none" stroke-width="1" stroke="#000" /><path d="M146.06 98.447h141V194.5h-141z" fill="none" stroke-dasharray="3,6" stroke-width="1" stroke="#000" /><path d="M159.06 24.117c-7.82 39.778 0 76.156 0 76.156" fill="none" stroke-width="1" stroke="#000" /><path d="M144.901 17.027l5.702-2.075-5.702-2.076zM156.574 98.406l3.523 4.94.476-6.05zM238.698 111.024l-4.06 4.508 6.008-.843zM145.198 110.4l6.065.165-4.54-4.026zM240.493 16.762l-5.702-2.075 5.702-2.076zM286.493 170.237l-3.066 5.236 5.715-2.04zM156.767 165.375l3.524 4.94.476-6.05z" stroke-width="1" stroke="#000" /><path d="M160 124c-4.73 24.06 0 46.063 0 46.063" fill="none" stroke-width="1" stroke="#000" /></g></svg>
 
-                    <figcaption property="schema:name"><cite><a data-versiondate="2019-07-10T07:50:50Z" data-versionurl="https://web.archive.org/web/20190710075050/https://www.w3.org/TR/ldn/linked-data-notifications-overview.svg" href="https://www.w3.org/TR/ldn/linked-data-notifications-overview.svg">Overview of Linked Data Notifications</a></cite></figcaption>
+                    <figcaption property="schema:name"><cite><a data-versiondate="2019-07-10T07:50:50Z" data-versionurl="https://web.archive.org/web/20190710075050/https://www.w3.org/TR/ldn/linked-data-notifications-overview.svg" href="https://www.w3.org/TR/ldn/linked-data-notifications-overview.svg">Overview of Linked Data Notifications</a></cite>.</figcaption>
                   </figure>
 
 
@@ -2692,7 +2692,7 @@ support groups.</pre>
       <line fill="none" id="svg_21" stroke-dasharray="2" stroke="#000000" x1="20" x2="270" y1="220" y2="220" />
      </g>
     </svg>
-                            <figcaption>Linked Data Notifications Sender to Receiver interaction</figcaption>
+                            <figcaption>Linked Data Notifications Sender to Receiver interaction.</figcaption>
                           </figure>
 
                           <p>The following steps (in order without skipping) describe the interaction between sender and receiver:</p>
@@ -2746,7 +2746,7 @@ support groups.</pre>
       <line fill="none" id="svg_6" stroke-dasharray="2" stroke="#000000" x1="20" x2="300" y1="300" y2="300" />
      </g>
     </svg>
-                            <figcaption>Linked Data Notifications Consumer to Receiver interaction</figcaption>
+                            <figcaption>Linked Data Notifications Consumer to Receiver interaction.</figcaption>
                           </figure>
 
                           <p>The following steps (in order without skipping) describe the interaction between consumer and receiver:</p>
@@ -2821,7 +2821,7 @@ support groups.</pre>
 <code>  "@id": "https://csarven.ca/#i",</code>
 <code>  "inbox": "https://csarven.ca/inbox/"</code>
 <code>}</code></pre>
-                        <figcaption>Discovering an Inbox with a <code>HTTP GET</code> request to retrieve JSON-LD. Response in JSON-LD compact form</figcaption>
+                        <figcaption>Discovering an Inbox with a <code>HTTP GET</code> request to retrieve JSON-LD. Response in JSON-LD compact form.</figcaption>
                       </figure>
 
                       <p>Consumer requesting the inbox and receiver’s response:</p>
@@ -2844,7 +2844,7 @@ support groups.</pre>
 <code>    "http://example.org/inbox/92d72f00"</code>
 <code>  ]</code>
 <code>}</code></pre>
-                        <figcaption>Receiver responding to a <code>HTTP GET</code> request on the Inbox with a listing of notifications</figcaption>
+                        <figcaption>Receiver responding to a <code>HTTP GET</code> request on the Inbox with a listing of notifications.</figcaption>
                       </figure>
 
 
@@ -2885,7 +2885,7 @@ support groups.</pre>
 <code>    "@value": "2016-06-28T19:56:20.114Z"</code>
 <code>  }</code>
 <code>}</code></pre>
-                        <figcaption><span about="#test-consumer-notification-assessing" id="test-consumer-notification-assessing" property="skos:definition" rel="skos:topConceptOf" resource="#ldn-tests-consumer" typeof="skos:Concept">Result of a GET request on an individual notification discovered in an Inbox</span></figcaption>
+                        <figcaption><span about="#test-consumer-notification-assessing" id="test-consumer-notification-assessing" property="skos:definition" rel="skos:topConceptOf" resource="#ldn-tests-consumer" typeof="skos:Concept">Result of a GET request on an individual notification discovered in an Inbox</span>.</figcaption>
                       </figure>
 
 
@@ -2906,7 +2906,7 @@ support groups.</pre>
 <code>  "target": "http://example.org/article",</code>
 <code>  "updated": "2016-06-28T19:56:20.114Z"</code>
 <code>}</code></pre>
-                        <figcaption property="schema:name">Example request to send to an Inbox</figcaption>
+                        <figcaption property="schema:name">Example request to send to an Inbox.</figcaption>
                       </figure>
 
 
@@ -2915,7 +2915,7 @@ support groups.</pre>
                       <figure class="listing" id="sending-notification-response" rel="schema:hasPart" resource="#sending-notification-response">
                         <pre about="#sending-notification-response" property="schema:description" typeof="fabio:Script"><code>HTTP/1.1 201 Created</code>
 <code>Location: http://example.org/inbox/5c6ca040</code></pre>
-                        <figcaption property="schema:name">Example response to a <code>POST</code> request on an Inbox</figcaption>
+                        <figcaption property="schema:name">Example response to a <code>POST</code> request on an Inbox.</figcaption>
                       </figure>
 
                       <p>Sender initiates content-negotiation and sends notifications:</p>
@@ -2941,7 +2941,7 @@ support groups.</pre>
 <code>&lt;https://linkedresearch.org/resources#r-903b83&gt;</code>
 <code>  cito:citesAsPotentialReading</code>
 <code>  &lt;https://csarven.ca/linked-data-notifications#protocol&gt; .</code></pre>
-                        <figcaption property="schema:name">Sender initiated content-negotiation, followed with an announcement of a specific citation relation between two entities (Turtle)</figcaption>
+                        <figcaption property="schema:name">Sender initiated content-negotiation, followed with an announcement of a specific citation relation between two entities (Turtle).</figcaption>
                       </figure>
                     </div>
                   </section>
@@ -2982,7 +2982,7 @@ support groups.</pre>
 <code id="code-ldn-test-report-12">    a earl:TestResult ;</code>
 <code id="code-ldn-test-report-13">    <span class="highlight-earl-outcome">earl:outcome</span> earl:passed ;</code>
 <code id="code-ldn-test-report-14">    <span class="highlight-earl-info">earl:info</span> "&lt;code&gt;Content-Type: application/ld+json; profile=&amp;quot;http://www.w3.org/ns/anno.jsonld&amp;quot;&lt;/code&gt; received."^^rdf:HTML ] .</code></pre>
-                    <figcaption property="schema:name">A snippet of a test result dataset and an observation in Turtle syntax</figcaption>
+                    <figcaption property="schema:name">A snippet of a test result dataset and an observation in Turtle syntax.</figcaption>
                   </figure>
 
                   <p>The test results are provided in an HTML table, where each test is expressed as an <code>qb:Observation</code> (and equivalent <code>earl:Assertion</code>) in RDFa containing:</p>
@@ -3403,7 +3403,7 @@ support groups.</pre>
                           </tfoot>
                         </table>
 
-                        <figcaption>Comparison of Notification Mechanisms</figcaption>
+                        <figcaption>Comparison of Notification Mechanisms.</figcaption>
                       </figure>
 
                       <p>All of the notification mechanisms specify multiple roles, with the Sender (S) being common across all of them. LDN is the only mechanism which describes the Consumer (C) role; this explicitly highlights how notifications can be useful to applications other than those concerned with sending and receiving. For mechanisms which include a Subscriber (U) role, the Receiver (R) is essentially also the Consumer, so Receivers are less generic and require specialised payloads. In this respect, LDN is a more modular specification. LDN Receivers need not be concerned with additional actions beyond storing and exposing notifications; complex and domain-specific uses of the notifications are left to Consumers, resulting in a lot more flexibility in terms of lightweight end-user applications.</p>
@@ -3649,7 +3649,7 @@ support groups.</pre>
       <line fill="none" id="svg_55" marker-end="url(#se_marker_end_svg_32)" stroke="#000000" x1="175.34168" x2="129.39166" y1="94.54166" y2="101.19165" />
      </g>
     </svg>
-                    <figcaption>Interplay of Profiles, Articles, Notifications, and Annotations</figcaption>
+                    <figcaption>Interplay of Profiles, Articles, Notifications, and Annotations.</figcaption>
                   </figure>
                 </div>
               </section>
@@ -4131,7 +4131,7 @@ support groups.</pre>
 <code>  oa:motivatedBy <span class="highlight-oa-replying">oa:replying</span> ;</code>
 <code>  oa:hasTarget &lt;<span class="highlight-oa-hastarget">http://example.net/article</span>&gt; ;</code>
 <code>  oa:hasBody &lt;<span class="highlight-oa-hasbody">http://example.info/note</span>&gt; .</code></pre>
-                        <figcaption>Example annotation that is motivated by replying</figcaption>
+                        <figcaption>Example annotation that is motivated by replying.</figcaption>
                       </figure>
 
 
@@ -4158,7 +4158,7 @@ support groups.</pre>
                           privately.</mark><span lang="en" property="oa:suffix" xml:lang="en"></span></dd></dl></div></blockquote></dd></dl><dl class="renderedvia"><dt>Rendered via</dt><dd><a about="https://www.w3.org/History/1989/proposal.html" href="https://dokie.li/" rel="oa:renderedVia">dokieli</a></dd></dl>
                             <section id="note-20338295" rel="oa:hasBody" resource="#a112cb4b-6814-4687-933d-8c25c917c746-note-20338295"><h5 property="schema:name">Note</h5><dl class="language"><dt>Language</dt><dd><span content="en" lang="" property="dcterms:language" xml:lang="">English</span></dd></dl><dl class="rights"><dt>Rights</dt><dd><a href="https://creativecommons.org/licenses/by/4.0/" rel="dcterms:rights" title="Creative Commons Attribution 4.0 International">CC BY 4.0</a></dd></dl><div datatype="rdf:HTML" lang="en" property="rdf:value schema:description" resource="#a112cb4b-6814-4687-933d-8c25c917c746-note-20338295" typeof="oa:TextualBody" xml:lang="en">This annotation is independently created by an actor with a WebID and stored at their preferred location.</div></section>
                           </article>
-                          <figcaption property="schema:name">Annotation rendered</figcaption>
+                          <figcaption property="schema:name">Annotation rendered.</figcaption>
                         </figure>
 
                         <figure id="annotation-graph" rel="schema:hasPart" resource="#annotation-graph">
@@ -4169,7 +4169,7 @@ document.addEventListener('DOMContentLoaded', function(){
   DO.U.showGraph([docURI], '#annotation-graph', {'filter': { 'subjects': resources }});
 });
                             </script>
-                          <figcaption property="schema:name">Annotation graph</figcaption>
+                          <figcaption property="schema:name">Annotation graph.</figcaption>
                         </figure>
 
                         <figure class="listing" id="annotation-html-rdfa" rel="schema:hasPart" resource="#annotation-html-rdfa">
@@ -4184,7 +4184,7 @@ document.addEventListener('DOMContentLoaded', function(){
 <code>privately.&lt;/mark&gt;&lt;span lang="en" property="oa:suffix" xml:lang="en"&gt;&lt;/span&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl class="renderedvia"&gt;&lt;dt&gt;Rendered via&lt;/dt&gt;&lt;dd&gt;&lt;a about="https://www.w3.org/History/1989/proposal.html" href="https://dokie.li/" rel="oa:renderedVia"&gt;dokieli&lt;/a&gt;&lt;/dd&gt;&lt;/dl&gt;</code>
 <code>  &lt;section id="note-20338295" rel="oa:hasBody" resource="#a112cb4b-6814-4687-933d-8c25c917c746-note-20338295"&gt;&lt;h4 property="schema:name"&gt;Note&lt;/h4&gt;&lt;dl class="language"&gt;&lt;dt&gt;Language&lt;/dt&gt;&lt;dd&gt;&lt;span content="en" lang="" property="dcterms:language" xml:lang=""&gt;English&lt;/span&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl class="rights"&gt;&lt;dt&gt;Rights&lt;/dt&gt;&lt;dd&gt;&lt;a href="https://creativecommons.org/licenses/by/4.0/" rel="dcterms:rights" title="Creative Commons Attribution 4.0 International"&gt;CC BY 4.0&lt;/a&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;div datatype="rdf:HTML" lang="en" property="rdf:value schema:description" resource="#a112cb4b-6814-4687-933d-8c25c917c746-note-20338295" typeof="oa:TextualBody" xml:lang="en"&gt;This annotation is independently created by an actor with a WebID and stored at their preferred location.&lt;/div&gt;&lt;/section&gt;</code>
 <code>&lt;/article&gt;</code></pre>
-                          <figcaption property="schema:name">Annotation HTML+RDFa</figcaption>
+                          <figcaption property="schema:name">Annotation HTML+RDFa.</figcaption>
                         </figure>
                       </div>
 
@@ -4269,7 +4269,7 @@ document.addEventListener('DOMContentLoaded', function(){
                           <source about="#video-dokieli-annotation" rel="schema:hasPart" resource="https://dokie.li/media/video/dokieli-annotation.webm" src="https://dokie.li/media/video/dokieli-annotation.webm" type="video/webm" typeof="fabio:Film" />
                         </video>
 
-                        <figcaption property="schema:name"><a href="https://dokie.li/media/video/dokieli-annotation.webm">Video</a> of dokieli Web Annotation [<time datatype="xsd:duration" datetime="PT31S" property="schema:duration">31s</time>, <span lang="" property="schema:encodingFormat" xml:lang="">WebM</span>]</figcaption>
+                        <figcaption property="schema:name"><a href="https://dokie.li/media/video/dokieli-annotation.webm">Video</a> of dokieli Web Annotation [<time datatype="xsd:duration" datetime="PT31S" property="schema:duration">31s</time>, <span lang="" property="schema:encodingFormat" xml:lang="">WebM</span>].</figcaption>
                       </figure>
                     </div>
                   </section>
@@ -4312,7 +4312,7 @@ document.addEventListener('DOMContentLoaded', function(){
                           <source about="#video-dokieli-share" rel="schema:hasPart" resource="https://dokie.li/media/video/dokieli-share.webm" src="https://dokie.li/media/video/dokieli-share.webm" type="video/webm" typeof="fabio:Film" />
                         </video>
 
-                        <figcaption property="schema:name"><a href="https://dokie.li/media/video/dokieli-share.webm">Video</a> of dokieli Share [<time datatype="xsd:duration" datetime="PT36S" property="schema:duration">36s</time>, <span lang="" property="schema:encodingFormat" xml:lang="">WebM</span>]</figcaption>
+                        <figcaption property="schema:name"><a href="https://dokie.li/media/video/dokieli-share.webm">Video</a> of dokieli Share [<time datatype="xsd:duration" datetime="PT36S" property="schema:duration">36s</time>, <span lang="" property="schema:encodingFormat" xml:lang="">WebM</span>].</figcaption>
                       </figure>
                     </div>
                   </section>
@@ -4327,7 +4327,7 @@ document.addEventListener('DOMContentLoaded', function(){
                       <figure class="listing" id="example-cites-as-evidence">
                         <pre><code id="citation-data-shape-must-L1">&lt;http://example.org/article#argument&gt;</code>
 <code id="citation-data-shape-must-L2">  <span class="highlight-cites-as-evidence">cito:citesAsEvidence</span> &lt;http://example.net/observation#results&gt; .</code></pre>
-                        <figcaption>The citing entity (an argument) cites the cited entity (observation results) as source of factual evidence for statements it contains</figcaption>
+                        <figcaption>The citing entity (an argument) cites the cited entity (observation results) as source of factual evidence for statements it contains.</figcaption>
                       </figure>
 
                       <p id="robust-citations"><strong>Robust Citations</strong>: In order to preserve the context of the citation as well as taking content-drift and link-rot into account, first a snapshot of the cited entity’s URI is created at the <cite>Internet Archive</cite>, and then both the archived URI and its datetime stamp is incorporated to the referencing hyperlink – the original citation resource.</p>
@@ -4343,7 +4343,7 @@ document.addEventListener('DOMContentLoaded', function(){
                           <source about="#video-dokieli-citation" rel="schema:hasPart" resource="https://dokie.li/media/video/dokieli-citation.webm" src="https://dokie.li/media/video/dokieli-citation.webm" type="video/webm" typeof="fabio:Film" />
                         </video>
 
-                        <figcaption property="schema:name"><a href="https://dokie.li/media/video/dokieli-citation.webm">Video</a> of semantic inline citations and notification in dokieli [<time datatype="xsd:duration" datetime="PT43S" property="schema:duration">43s</time>, <span lang="" property="schema:encodingFormat" xml:lang="">WebM</span>]</figcaption>
+                        <figcaption property="schema:name"><a href="https://dokie.li/media/video/dokieli-citation.webm">Video</a> of semantic inline citations and notification in dokieli [<time datatype="xsd:duration" datetime="PT43S" property="schema:duration">43s</time>, <span lang="" property="schema:encodingFormat" xml:lang="">WebM</span>].</figcaption>
                       </figure>
                     </div>
                   </section>
@@ -4458,7 +4458,7 @@ document.addEventListener('DOMContentLoaded', function(){
                         <video controls="controls" id="video-dokieli-sparqlines" poster="https://dokie.li/media/images/GDP-per-capita-growth--annual---.svg" preload="none" resource="#figure-dokieli-sparqlines" typeof="schema:VideoObject" width="800">
                           <source rel="schema:contentUrl" resource="https://dokie.li/media/video/dokieli-sparqlines.webm" src="https://dokie.li/media/video/dokieli-sparqlines.webm" type="video/webm" />
                         </video>
-                        <figcaption property="schema:name"><a href="https://dokie.li/media/video/dokieli-sparqlines.webm">Video</a> of Sparqlines interaction in dokieli [<time datatype="xsd:duration" datetime="PT26S" property="schema:duration">26s</time>, <span lang="" property="schema:encodingFormat" xml:lang="">WebM</span>]</figcaption>
+                        <figcaption property="schema:name"><a href="https://dokie.li/media/video/dokieli-sparqlines.webm">Video</a> of Sparqlines interaction in dokieli [<time datatype="xsd:duration" datetime="PT26S" property="schema:duration">26s</time>, <span lang="" property="schema:encodingFormat" xml:lang="">WebM</span>].</figcaption>
                       </figure>
                     </div>
                   </section>
@@ -5205,7 +5205,7 @@ document.addEventListener('DOMContentLoaded', function(){
         <path d="m 104.1,216.3 c 36.4,43.6 79.8,54.5 79.8,54.5" fill="none" marker-end="url(#marker1603-8-8-9-7)" stroke="#000" />
       </g>
     </svg>
-                        <figcaption property="schema:name">An overview of linking a specification, test suite, generated implementation report for the project, reports summary, and an article citing the specification</figcaption>
+                        <figcaption property="schema:name">An overview of linking a specification, test suite, generated implementation report for the project, reports summary, and an article citing the specification.</figcaption>
                       </figure>
 
                       <p>The information patterns in the LDN <a href="#specification">specification</a> and the <a href="#test-suite-and-implementation-reports">implementation reports</a> sections are reusable across other specifications and related components. Sources are available from:</p>
