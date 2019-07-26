@@ -373,7 +373,7 @@
                       <p>This research problem can be refined into two sub-problems:</p>
 
                       <dl id="technical-research-problems-internal">
-                        <dt id="technical-research-problems-mechanims">Mechanisms</dt>
+                        <dt id="technical-research-problems-mechanisms">Mechanisms</dt>
                         <dd>What technical mechanisms, standards or protocols are necessary for decentralised information exchange on the Web? Which already exist and what is missing?</dd>
 
                         <dt id="technical-research-problems-artifacts">Artifacts</dt>
@@ -401,7 +401,7 @@
                 <h3 property="schema:name">Thesis Overview</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <figure id="this-thesis-is-a-knowledge-graph" rel="schema:hasPart" resource="#this-thesis-is-a-knowledge-graph">
-                    <p><span datatype="rdf:HTML" property="schema:name">This Thesis is a <q>Knowledge Graph</q>.</span> <span datatype="rdf:HTML" property="schema:description"><q cite="https://www.w3.org/DesignIssues/LinkedData">Linked Data</q> aware applications can use the resource’s <a about="#action-this-thesis-is-a-knowledge-graph" href="" rel="schema:object">underlying structured data</a> to offer <span about="" rel="schema:potentialAction"><a href="#action-this-thesis-is-a-knowledge-graph" typeof="schema:ViewAction">visualisation and interaction</a></span> possibilities.</span></p>
+                    <p><span datatype="rdf:HTML" property="schema:name">This Thesis is a <q>Knowledge Graph</q>.</span> <span datatype="rdf:HTML" property="schema:description"><q cite="https://www.w3.org/DesignIssues/LinkedData">Linked Data</q> aware applications can use the resource’s <a about="#action-this-thesis-is-a-knowledge-graph" href="" id="action-this-thesis-is-a-knowledge-graph" rel="schema:object">underlying structured data</a> to offer <span about="" rel="schema:potentialAction"><a href="#action-this-thesis-is-a-knowledge-graph" typeof="schema:ViewAction">visualisation and interaction</a></span> possibilities.</span></p>
                   </figure>
 
                   <p>This section outlines a high-level structure of the thesis.</p>
@@ -3210,7 +3210,7 @@ support groups.</pre>
                     <h4 property="schema:name">Comparison of Notification Mechanisms</h4>
                     <div datatype="rdf:HTML" property="schema:description">
 
-                      <p>This section covers a direct comparison between existing notification mechanisms from the <a href="#overview-of-web-notification-systems">earlier overview</a> with Linked Data Notifications, followed by a discussion of the trade-offs that were necessary to realize certain benefits of LDN. The comparison criteria include our <a href="#requirements-and-design-considerations">requirements and design considerations</a> (<em>Rx</em>) along with additional technical information which helps to capture some design differences (<em>Tx</em>).</p>
+                      <p>This section covers a direct comparison between existing notification mechanisms from the <a href="#overview-of-web-notification-systems">earlier overview</a> with Linked Data Notifications, followed by a discussion of the trade-offs that were necessary to realize certain benefits of LDN. The comparison criteria include our <a href="#design-considerations">design considerations</a> (<em>Rx</em>) along with additional technical information which helps to capture some design differences (<em>Tx</em>).</p>
 
                       <p>The figure <cite><a href="#table-comparison-of-notification-mechanisms">Comparison of notification mechanisms</a></cite> is derived from <a href="https://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms">https://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms</a> and modified to include <cite>WebSub</cite>.</p>
 
@@ -3885,14 +3885,14 @@ support groups.</pre>
                           <tr>
                             <td>Reply</td>
                             <td><code>HTTP POST</code></td>
-                            <td>A note reply modelled around <code>oa:Annotation</code> and other data motivated by <a href="#dokieli-replying">replying</a>.</td>
+                            <td>A note reply modelled around <code>oa:Annotation</code> and other data motivated by <code>oa:replying</code>.</td>
                             <td>Sends and consumes notification using the Activity vocabulary’s Announce.</td>
                           </tr>
                           <tr>
                             <td>Annotation</td>
                             <td><code>HTTP POST</code></td>
                             <td>A note modelled around <code>oa:Annotation</code> and other data.</td>
-                            <td>Sends and consumes notifications for activities <code>as:Add</code>, motivated by <a href="#dokieli-bookmarking">bookmarking</a>; <code>as:Announce</code>, motivated by <a href="#dokieli-replying">replying</a>, <a href="#dokieli-questioning">questioning</a>; <code>as:Like</code> and <code>as:Dislike</code> motivated by <a href="#dokieli-assessing">assessing</a>. Can also consume notifications using <code>as:Relationship</code>.</td>
+                            <td>Sends and consumes notifications for activities <code>as:Add</code>, motivated by <code>oa:bookmarking</code>; <code>as:Announce</code>, motivated by <code>oa:replying</code>, <code>oa:questioning</code>; <code>as:Like</code> and <code>as:Dislike</code> motivated by <code>oa:assessing</code>. Can also consume notifications using <code>as:Relationship</code>.</td>
                           </tr>
                           <tr>
                             <td>Activity</td>
@@ -3927,7 +3927,7 @@ support groups.</pre>
                           <tr>
                             <td>Immutable</td>
                             <td><code>HTTP PUT</code></td>
-                            <td>Generates a derived copy of the current document as an immutable resource including provenance. Creates or updates a Memento TimeMap including a reference to the immutable resource.</td>
+                            <td>Generates a derived copy of the current document as an immutable or frozen Memento resource including provenance. Creates or updates a Memento TimeMap including a reference to the immutable resource.</td>
                             <td>None</td>
                           </tr>
                           <tr>
@@ -3954,7 +3954,7 @@ support groups.</pre>
                         </tfoot>
                       </table>
 
-                      <p>These client-triggered mechanisms and methods applied to creating resources helps fulfill the registration function. All created resources are considered to be archive-friendly ie. through the application of <a href="#separation-of-concerns">separation of concerns</a> and keeping <a href="#human-and-machine-readable">human- and machine-readable</a> resources where possible.</p>
+                      <p>These client-triggered mechanisms and methods applied to creating resources helps fulfill the registration function. All created resources are considered to be archive-friendly ie. through the application of <a href="#separation-of-concerns">separation of concerns</a> and keeping <a href="#human-and-machine-readable-information">human- and machine-readable</a> resources where possible.</p>
                     </div>
                   </section>
 
@@ -4350,7 +4350,7 @@ document.addEventListener('DOMContentLoaded', function(){
                   <section id="social-reviews" inlist="" rel="schema:hasPart" resource="#social-reviews">
                     <h4 property="schema:name">Social Reviews</h4>
                     <div datatype="rdf:HTML" property="schema:description">
-                      <p>It is possible to use dokieli’s create operations as a composite to fulfill social and scholarly activities. One common scenario includes soliciting reviews, reviewing, announcement of the review, and final decisions made by community members. <a href="#cruding-resources">Creating resources</a>, <a href="#annotations">annotations</a> and <a href="#sharing-resources">sharing resources</a> in dokieli is as follows:</p>
+                      <p>It is possible to use dokieli’s create operations as a composite to fulfill social and scholarly activities. One common scenario includes soliciting reviews, reviewing, announcement of the review, and final decisions made by community members. <a href="#core-mechanisms">Core mechanisms</a>, <a href="#annotations">annotations</a> and <a href="#sharing-resources">sharing resources</a> in dokieli is as follows:</p>
 
                       <ul>
                         <li>Actor A publishes their article at preferred location.</li>
@@ -5207,7 +5207,7 @@ document.addEventListener('DOMContentLoaded', function(){
                         <figcaption property="schema:name">An overview of linking a specification, test suite, generated implementation report for the project, reports summary, and an article citing the specification.</figcaption>
                       </figure>
 
-                      <p>The information patterns in the LDN <a href="#specification">specification</a> and the <a href="#test-suite-and-implementation-reports">implementation reports</a> sections are reusable across other specifications and related components. Sources are available from:</p>
+                      <p>The information patterns in the LDN <a href="#a-decentralised-notifications-protocol">specification</a> and the <a href="#test-suite-and-implementation-reports">implementation reports</a> sections are reusable across other specifications and related components. Sources are available from:</p>
 
                       <ul>
                         <li>The specification: <a href="https://www.w3.org/TR/ldn/">https://www.w3.org/TR/ldn/</a></li>
