@@ -4,12 +4,10 @@
     <meta charset="utf-8" />
     <title>Linked Research on the Decentralised Web</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link href="https://dokie.li/media/css/basic.css" media="all" rel="stylesheet" title="Basic" />
-    <link href="https://dokie.li/media/css/lncs.css" media="all" rel="stylesheet alternate" title="LNCS" />
-    <link href="https://dokie.li/media/css/acm.css" media="all" rel="stylesheet alternate" title="ACM" />
-    <link href="https://dokie.li/media/css/dokieli.css" media="all" rel="stylesheet" />
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="https://dokie.li/scripts/dokieli.js"></script>
+    <link href="media/css/basic.css" media="all" rel="stylesheet" title="Basic" />
+    <link href="media/css/dokieli.css" media="all" rel="stylesheet" />
+    <!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
+    <script src="scripts/dokieli.js"></script>
   </head>
 
   <body about="" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ pimspace: http://www.w3.org/ns/pim/space# cc: https://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# mem: http://mementoweb.org/ns# qb: http://purl.org/linked-data/cube# earl: http://www.w3.org/ns/earl# schema: http://schema.org/ void: http://rdfs.org/ns/void# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# bibo: http://purl.org/ontology/bibo/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ scoro: http://purl.org/spar/scoro/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio# rel: https://www.w3.org/ns/iana/link-relations/relation#" typeof="schema:CreativeWork prov:Entity">
@@ -209,27 +207,27 @@
 
               <p id="Sören-Auer"><a href="https://www.tib.eu/en/research-development/data-science-digital-libraries/staff/soeren-auer/">Sören Auer</a> for his supervision, endurance and support; the force that kept my work and initiatives real – a massive understatement. ⚛</p>
 
-              <p id="Kingsley-Kidehen"><a href="http://kingsley.idehen.net/">Kingsley Kidehen</a>, my practice-what-you-preach partner in crime. I have learned a lot from Kingsley with great pleasure whilst we aimed to realise cool Web stuff. 🧩</p>
+              <p id="Amy-Guy"><a href="https://rhiaro.co.uk/">Captain Amy Guy</a> for her advice and friendship. Immensely grateful; my work would not be where it is today without her collaboration as well as justifiable distractions of epic proportions. 🦜</p>
 
-              <p id="Amy-Guy">I am immensely grateful to <a href="https://rhiaro.co.uk/">Captain Amy Guy</a> for her advice and friendship. My work would not be where it is today without her collaboration, reality checks, as well as justifiable distractions of epic proportions. 🦜</p>
+              <p id="Herbert-Van-de-Sompel"><a href="http://hvdsomp.info/">Herbert Van de Sompel</a> for helping me to connect the fundamental dots to better situate my work in context of research communication. A mentor. 💡</p>
 
-              <p id="Herbert-Van-de-Sompel"><a href="http://hvdsomp.info/">Herbert Van de Sompel</a> for helping me to connect some of the fundamental dots and reach the light bulb moment to better situate my work in context of research communication, as well as being a role model, my mentor, and . 💡</p>
+              <p id="Tim-Berners-Lee"><a href="https://www.w3.org/People/Berners-Lee/card#i">Tim Berners-Lee</a>, <em>the</em> Web developer that I look up to for inspiration and model perseverance to continue fighting for the Web. I am grateful to collaborate with Tim on the challenges ahead of us. 🕸</p>
 
-              <p id="Tim-Berners-Lee"><a href="https://www.w3.org/People/Berners-Lee/card#i">Tim Berners-Lee</a>, <em>the</em> Web developer that I look up to for inspiration and model perseverance to continue fighting for the Web. I have learned a lot from Tim through spontaneous chats and <a href="https://www.w3.org/DesignIssues/">Design Issues</a>. 🕸</p>
+              <p id="Kingsley-Kidehen"><a href="http://kingsley.idehen.net/">Kingsley Kidehen</a>, my practice what you preach partner in crime. I have learned a lot from Kingsley as we aimed to realise cool Web stuff. 🧩</p>
 
               <p id="Amy-van-der-Hiel"><a href="https://www.w3.org/People/#V">Amy van der Hiel</a> for ethical Web checks and having me remind myself to assess the value of what I do with respect to society and adjusting my aims accordingly. Her influence will continue to shape the fabric of the projects that I am involved in. 🧭</p>
 
               <p id="Bernadette-Hyland"><a href="https://about.me/bernadettehyland">Bernadette Hyland</a> for supporting me to hang in there for the long game. ✌</p>
 
-              <p id="Stian-Soiland-Reyes"><a href="http://www.soiland-reyes.com/stian/">Stian Soiland-Reyes</a> for brainstorming and experimenting on various Linked Data related stuff. 🧐</p>
+              <p id="Stian-Soiland-Reyes"><a href="http://www.soiland-reyes.com/stian/">Stian Soiland-Reyes</a> for brainstorming and experimenting on various Linked Data stuff. 🧐</p>
 
-              <p id="Ruben-Verborgh"><a href="https://ruben.verborgh.org/profile/#me">Ruben Verborgh</a> for being an exemplary researcher and developer, and friend. 🎸</p>
+              <p id="Ruben-Verborgh"><a href="https://ruben.verborgh.org/profile/#me">Ruben Verborgh</a> for being an exemplary researcher and developer to learn from, and support to better integrate our work out there in the wild. 🎸</p>
 
-              <p id="Andrea-Scharnhorst"><a href="http://www.ehumanities.nl/andrea-scharnhorst/">Andrea Scharnhorst</a> for first and foremost introducing me to developing a sense to academic collaboration. 🤝</p>
+              <p id="Andrea-Scharnhorst"><a href="http://www.ehumanities.nl/andrea-scharnhorst/">Andrea Scharnhorst</a> for helping me to develop a sense of academic collaboration. 🤝</p>
 
-              <p id="Axel-Polleres"><a href="http://polleres.net/">Axel Polleres</a> for supporting my initiative to change the landscape through experimentation. 🎩</p>
+              <p id="Axel-Polleres"><a href="http://polleres.net/">Axel Polleres</a> for his guidance and supporting the initiative to evolve research communication. 🎩</p>
 
-              <p id="Dame-Wendy-Hall"><a href="https://wendy.ecs.soton.ac.uk/">Dame Wendy Hall</a> for being a role model. Her mere presence as well as lessons thought me to keep the spirit of the Web in scholarly communication alive. 👣</p>
+              <p id="Dame-Wendy-Hall"><a href="https://wendy.ecs.soton.ac.uk/">Dame Wendy Hall</a> for Web in scholarly communication alive. 👣</p>
 
               <p id="Ilaria-Liccardi"><a href="https://people.csail.mit.edu/ilaria/">Ilaria Liccardi</a> for her mentorship and care to help me move my research forward. 🍎</p>
 
@@ -243,24 +241,11 @@
 
               <p id="Miel-Vander-Sande"><a href="https://biblio.ugent.be/person/802001059760">Miel Vander Sande</a> for pushing me in the right direction to frame the design science of my work. 🖼</p>
 
-              <p id="Albert-Meroño-Peñuela"><a href="https://www.albertmeronyo.org/">Albert Meroño-Peñuela</a> for collaborating on <abbr title="Linked Statistical Data">LSD</abbr> and LDN, and getting interesting results. ⊹</p>
+              <p id="Albert-Meroño-Peñuela"><a href="https://www.albertmeronyo.org/">Albert Meroño-Peñuela</a> for collaborating on <abbr title="Linked Statistical Data">LSD</abbr> and <abbr title="Linked Data Notifications">LDN</abbr>, and getting interesting results. ⊹</p>
 
               <p id="Paul-Groth"><a href="http://pgroth.com/">Paul Groth</a> is partly to blame for all this work as he (indirectly) challenged me to make it so. 🚀</p>
 
               <p id="the-anti-social-web">The (anti?)social Web: from your encouragement to your dismissal of radical and lunatic scholarly endeavours; being the widest sound board possible. 💬</p>
-
-              <p id="haters-gonna-hate">A thesis acknowledgement would not be complete without a haters-gonna-hate list, so I will quote only <em>a fraction</em> of those anonymously for entertainment purposes:</p>
-
-              <ul>
-                <li><q>just don't</q></li>
-                <li><q>no means no</q></li>
-                <li><q>it can't be done</q></li>
-                <li><q>I definitely envy the amount of free time that you have</q></li>
-                <li><q>but isn't inherently social, and in my expert opinion is also not a very good approach</q></li>
-                <li><q>do not have the patience or time to „feed the troll“ and get into useless discussions</q></li>
-              </ul>
-
-              <p>.. and many variations of <q>it is not X, so it sucks</q> from friendly strangers. 💕</p>
             </div>
           </section>
 
@@ -404,7 +389,7 @@
                 <h3 property="schema:name">Thesis Overview</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <figure id="this-thesis-is-a-knowledge-graph" rel="schema:hasPart" resource="#this-thesis-is-a-knowledge-graph">
-                    <p><span datatype="rdf:HTML" property="schema:name">This Thesis is a <q>Knowledge Graph</q>.</span> <span datatype="rdf:HTML" property="schema:description"><q cite="https://www.w3.org/DesignIssues/LinkedData">Linked Data</q> aware applications can use the resource’s <a about="#action-this-thesis-is-a-knowledge-graph" href="" id="action-this-thesis-is-a-knowledge-graph" rel="schema:object">underlying structured data</a> to offer <span about="" rel="schema:potentialAction"><a href="#action-this-thesis-is-a-knowledge-graph" typeof="schema:ViewAction">visualisation and interaction</a></span> possibilities.</span></p>
+                    <p><span datatype="rdf:HTML" property="schema:name">This Thesis is a <q>Knowledge Graph</q>.</span> <span datatype="rdf:HTML" property="schema:description"><cite><a href="#linked-data">Linked Data</a></cite> aware applications can use the resource’s <a about="#action-this-thesis-is-a-knowledge-graph" href="" id="action-this-thesis-is-a-knowledge-graph" rel="schema:object">underlying structured data</a> to offer <span about="" rel="schema:potentialAction"><a href="#action-this-thesis-is-a-knowledge-graph" typeof="schema:ViewAction">visualisation and interaction</a></span> possibilities.</span></p>
                   </figure>
 
                   <p>This section outlines a high-level structure of the thesis.</p>
