@@ -109,7 +109,8 @@
         <div datatype="rdf:HTML" id="content" property="schema:description">
           <blockquote cite="http://worldcat.org/isbn/9781584230700">
             <p>The past went that-a-way. When faced with a totally new situation we tend always to attach ourselves to the objects, to the flavor of the most recent past. We look at the present through a rear-view mirror. We march backward into the future. Suburbia lives imaginatively in Bonanza-land.</p>
-            <footer><cite><a data-versiondate="2019-07-09T10:31:14Z" data-versionurl="https://web.archive.org/web/20190709103114/https://www.worldcat.org/title/medium-is-the-massage-an-inventory-of-effects/oclc/634760105" href="http://worldcat.org/isbn/9781584230700" rel="cito:includesQuotationFrom">The Medium is the Massage: An Inventory of Effects</a></cite>, p74-75, 1967, <a href="https://dbpedia.org/resource/Marshall_McLuhan">Marshall McLuhan</a></footer>
+
+            <footer><cite><a data-versiondate="2019-07-09T10:31:14Z" data-versionurl="https://web.archive.org/web/20190709103114/https://www.worldcat.org/title/medium-is-the-massage-an-inventory-of-effects/oclc/634760105" href="http://worldcat.org/isbn/9781584230700" rel="cito:includesQuotationFrom">The Medium is the Massage: An Inventory of Effects</a></cite>, p. 74-75, <a href="https://dbpedia.org/resource/Marshall_McLuhan">Marshall McLuhan</a>, 1967</footer>
           </blockquote>
 
           <section id="abstract">
@@ -269,7 +270,8 @@
             <div datatype="rdf:HTML" property="schema:description">
               <blockquote cite="https://en.wikiquote.org/wiki/The_Matrix_Reloaded">
                 <p>'Why' is the only real source of power, without it you are powerless.</p>
-                <footer><cite><a data-versiondate="2019-07-09T10:31:10Z" data-versionurl="https://web.archive.org/web/20190709103110/https://en.wikiquote.org/wiki/The_Matrix_Reloaded" href="https://en.wikiquote.org/wiki/The_Matrix_Reloaded">The Matrix Reloaded</a></cite>, Merovingian, 2003</footer>
+
+                <footer><cite><a data-versiondate="2019-07-09T10:31:10Z" data-versionurl="https://web.archive.org/web/20190709103110/https://en.wikiquote.org/wiki/The_Matrix_Reloaded" href="https://en.wikiquote.org/wiki/The_Matrix_Reloaded" rel="cito:includesQuotationFrom">The Matrix Reloaded</a></cite>, Merovingian, 2003</footer>
               </blockquote>
 
               <section id="motivation" inlist="" rel="schema:hasPart" resource="#motivation">
@@ -277,7 +279,8 @@
                 <div datatype="rdf:HTML" property="schame:description">
                   <blockquote cite="https://en.wikipedia.org/wiki/Connections_%28TV_series%29">
                     <p>Would you do me a favour? I'd like to stop talking for a minute and when I do, take a look at the room you're in and above all at the man-made objects in that room that surround you – the television set, the lights, the phone and so on – and ask yourself what those objects do to your life just because they're there. Go ahead.</p>
-                    <footer><cite><a data-versiondate="2019-07-09T10:31:10Z" data-versionurl="https://web.archive.org/web/20190709103110/https://en.wikipedia.org/wiki/Connections_%28TV_series%29" href="https://en.wikipedia.org/wiki/Connections_%28TV_series%29" rel="cito:citesAsInformation">Connections</a></cite>, <a href="https://en.wikipedia.org/wiki/James_Burke_%28science_historian%29">James Burke</a>, 1979</footer>
+
+                    <footer><cite><a data-versiondate="2019-07-09T10:31:10Z" data-versionurl="https://web.archive.org/web/20190709103110/https://en.wikipedia.org/wiki/Connections_%28TV_series%29" href="https://en.wikipedia.org/wiki/Connections_%28TV_series%29" rel="cito:citesAsInformation" rel="cito:includesQuotationFrom">Connections</a></cite>, <a href="https://en.wikipedia.org/wiki/James_Burke_%28science_historian%29">James Burke</a>, 1979</footer>
                   </blockquote>
 
                   <p id="alternative-way-of-change">Well, that is what this thesis is going to be all about. It is about the modern research communication, and just because it is there, shapes the way we think and behave, and why it exists in the form it does, and who or what was responsible for it to exist at all. What is an alternative way of change?</p>
@@ -411,7 +414,8 @@
                     <div datatype="rdf:HTML" property="schema:description">
                       <blockquote cite="https://biblio.ugent.be/publication/522209/file/1873597.pdf">
                         <p>Static stand-alone paper is not an appropriate habitat for a thesis on linking. Therefore, the paper is included with the CD-ROM, not vice versa.</p>
-                        <footer><cite><a data-versiondate="2019-03-12T15:07:33Z" data-versionurl="https://web.archive.org/web/20190312150733/https://biblio.ugent.be/publication/522209/file/1873597.pdf" href="https://biblio.ugent.be/publication/522209/file/1873597.pdf">Dynamic and context-sensitive linking of scholarly information</a></cite>, Van de Sompel, 2000</footer>
+
+                        <footer><cite><a data-versiondate="2019-03-12T15:07:33Z" data-versionurl="https://web.archive.org/web/20190312150733/https://biblio.ugent.be/publication/522209/file/1873597.pdf" href="https://biblio.ugent.be/publication/522209/file/1873597.pdf" rel="cito:includesQuotationFrom">Dynamic and context-sensitive linking of scholarly information</a></cite>, Herbert Van de Sompel, 2000</footer>
                       </blockquote>
 
                       <p>All information of significance in this thesis is made available as <cite><a href="#linked-data">Linked Data</a></cite> on the Web and archived.</p>
@@ -551,7 +555,8 @@
 
               <blockquote cite="https://en.wikiquote.org/wiki/The_Matrix_(film)">
                 <p>This is your last chance. After this, there is no turning back. You take the <span class="unicode-blue-pill">blue pill</span>, the story ends, you wake up in your bed and believe whatever you want to believe. You take the <span class="unicode-red-pill">red pill</span>, you stay in Wonderland and I show you how deep the rabbit hole goes.</p>
-                <footer><cite><a data-versiondate="2019-07-09T10:31:10Z" data-versionurl="https://web.archive.org/web/20190709103110/https://en.wikiquote.org/wiki/The_Matrix_(film)" href="https://en.wikiquote.org/wiki/The_Matrix_(film)">The Matrix</a></cite>, Morpheus, 1999</footer>
+
+                <footer><cite><a data-versiondate="2019-07-09T10:31:10Z" data-versionurl="https://web.archive.org/web/20190709103110/https://en.wikiquote.org/wiki/The_Matrix_(film)" href="https://en.wikiquote.org/wiki/The_Matrix_(film)" rel="cito:includesQuotationFrom">The Matrix</a></cite>, Morpheus, 1999</footer>
               </blockquote>
             </div>
           </section>
@@ -571,7 +576,8 @@
                     <div datatype="rdf:HTML" property="schema:description">
                       <blockquote cite="urn:isbn:9780262633178">
                         <p>Gutenberg had, in effect, made every man a reader. Today, Xerox and other forms of reprography tend to make every man a publisher. This massive reversal has, for one of its consequences, elitism. The nature of the mass production of uniform volumes certainly did not foster elites but rather habits of universal reading. Paradoxically, when there are many readers, the author can wield great private power, whereas small reading elites may exert large corporate power.</p>
-                        <footer><cite><a data-versiondate="2019-07-24T21:59:03Z" data-versionurl="https://web.archive.org/web/20190724215903/https://www.worldcat.org/title/understanding-me-lectures-and-interviews/oclc/249804097" href="http://www.worldcat.org/oclc/249804097">Understanding Me</a></cite>, The Future of the Book, p. 179, 1972, Marshall McLuhan</footer>
+
+                        <footer><cite><a data-versiondate="2019-07-24T21:59:03Z" data-versionurl="https://web.archive.org/web/20190724215903/https://www.worldcat.org/title/understanding-me-lectures-and-interviews/oclc/249804097" href="http://www.worldcat.org/oclc/249804097" rel="cito:includesQuotationFrom">Understanding Me</a></cite>, The Future of the Book, p. 179, Marshall McLuhan, 1972</footer>
                       </blockquote>
 
                       <p id="the-gutenberg-galaxy">In the 1962 book, <cite><a data-versiondate="2019-07-09T10:31:14Z" data-versionurl="https://web.archive.org/web/20190709103114/https://www.worldcat.org/title/gutenberg-galaxy-the-making-of-typographic-man/oclc/993539009" href="http://www.worldcat.org/oclc/993539009" rel="schema:url">The Gutenberg Galaxy</a></cite>, <a href="https://en.wikipedia.org/wiki/Marshall_McLuhan">Marshall McLuhan</a> explains how the adoption of new technological mediums shifted human culture in Europe through four eras, with emphasis placed on extending our senses:</p>
@@ -602,7 +608,8 @@
                     <div datatype="rdf:HTML" property="schema:description">
                       <blockquote>
                         <p>I simply assert the existence of significant limits to what the proponents of different theories can communicate to one another.</p>
-                        <footer><cite><a data-versiondate="2018-06-19T08:38:36Z" data-versionurl="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf" href="https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf">Objectivity, Value Judgment, and Theory Choice</a></cite>, Kuhn, 1973</footer>
+
+                        <footer><cite><a data-versiondate="2018-06-19T08:38:36Z" data-versionurl="https://web.archive.org/web/20180619083836/https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf" href="https://iweb.langara.bc.ca/rjohns/files/2018/03/Kuhn_theory_choice.pdf" rel="cito:includesQuotationFrom">Objectivity, Value Judgment, and Theory Choice</a></cite>, Thomas Kuhn, 1973</footer>
                       </blockquote>
 
                       <p id="the-structure-of-scientific-revolutions">In <cite><a data-versiondate="2019-07-24T21:52:43Z" data-versionurl="https://web.archive.org/web/20190724215243/https://www.worldcat.org/title/structure-of-scientific-revolutions/oclc/857115808" href="http://www.worldcat.org/oclc/857115808">The Structure of Scientific Revolutions</a></cite>, Kuhn, 1962, proposes an explanation for the process of discovery and progress in the history and philosophy of science. Kuhn contended that science did not progress linearly through history, rather it starts with a period that’s disorganised, and then a paradigm – a collection of <em>exemplar</em> agreed by scientists on how problems are to be understood – develops to organise things for day-to-day <q>normal science</q> to take place under the governed paradigm. After some time, <q>anomalies</q> in the paradigm accumulate and lead to a <q>crisis</q> phase where multiple competing paradigms attempt to resolve the issues. This is a particular point in which the community struggles to come to an agreement on the fittest way to practice future science. Finally a <q>paradigm shift</q> – revolution – refers to the last phase where transforming ideas and assertions mature enough to bring order to earlier anomalies, and cause a change in world view.</p>
@@ -660,7 +667,8 @@ The project started with the philosophy that much academic information should
 be freely available to anyone. It aims to allow information sharing within
 internationally dispersed teams, and the dissemination of information by
 support groups.</pre>
-                    <footer><cite><a data-versiondate="2018-08-26T22:07:07Z" data-versionurl="https://web.archive.org/web/20180826220707/https://groups.google.com/forum/message/raw?msg=alt.hypertext/eCTkkOoWTAY/bJGhZyooXzkJ" href="https://groups.google.com/forum/message/raw?msg=alt.hypertext/eCTkkOoWTAY/bJGhZyooXzkJ">WorldWideWeb: Summary</a></cite>, alt.hypertext, Berners-Lee, 1991</footer>
+
+                    <footer><cite><a data-versiondate="2018-08-26T22:07:07Z" data-versionurl="https://web.archive.org/web/20180826220707/https://groups.google.com/forum/message/raw?msg=alt.hypertext/eCTkkOoWTAY/bJGhZyooXzkJ" href="https://groups.google.com/forum/message/raw?msg=alt.hypertext/eCTkkOoWTAY/bJGhZyooXzkJ" rel="cito:includesQuotationFrom">WorldWideWeb: Summary</a></cite>, alt.hypertext, Tim Berners-Lee, 1991</footer>
                   </blockquote>
 
                   <p id="social-web">The World Wide Web is inherently social and comprises various abstract <cite><a data-versiondate="2019-07-09T10:56:39Z" data-versionurl="https://web.archive.org/web/20190709105639/https://en.wikipedia.org/wiki/Social_machine" href="https://en.wikipedia.org/wiki/Social_machine" rel="cito:citesAsInformation">social machines</a></cite> – <q cite="http://www.worldcat.org/oclc/729965164">processes in which the people do the creative work and the machine does the administration</q>, <a href="https://www.w3.org/People/Berners-Lee/">Berners-Lee</a>, 1999, p. 172. In <cite><a data-versiondate="2019-07-09T10:56:41Z" data-versionurl="https://web.archive.org/web/20190709105641/https://www.worldcat.org/title/weaving-the-web-the-original-design-and-ultimative-destiny-of-the-world-wide-web-by-its-inventor/oclc/729965164" href="http://www.worldcat.org/oclc/729965164">Weaving the Web</a></cite>, Berners-Lee, 1999, p. 123, states that he <q cite="http://www.worldcat.org/oclc/729965164">designed it for a social effect – to help people work together</q>. The Web’s remarkable growth is fundamentally due to its social characteristics above anything else. The technical challenge was to define the basic common rules of protocol for machines to exchange information in a global system. In the remainder of this section, I outline the core components of the <a href="#architecture-of-the-web">architecture of the Web</a>, discuss the notion and practice of <a href="#linked-data">Linked Data</a>, and postulate how the <a href="#web-science">Web Science</a> framework can help towards a holistic understanding of the interplay between social and technical challenges.</p>
@@ -720,7 +728,7 @@ support groups.</pre>
                               <dd>the significance of identity for a given URI is determined by the person who owns the URI, who first determined what it points to.</dd>
                             </dl>
 
-                            <footer><cite><a data-versiondate="2019-07-09T10:56:40Z" data-versionurl="https://web.archive.org/web/20190709105640/https://www.w3.org/DesignIssues/Axioms" href="https://www.w3.org/DesignIssues/Axioms#uri" rel="cito:includesQuotationFrom">Universal Resource Identifiers -- Axioms of Web Architecture</a></cite>, Berners-Lee, 1996</footer>
+                            <footer><cite><a data-versiondate="2019-07-09T10:56:40Z" data-versionurl="https://web.archive.org/web/20190709105640/https://www.w3.org/DesignIssues/Axioms" href="https://www.w3.org/DesignIssues/Axioms#uri" rel="cito:includesQuotationFrom" rel="cito:includesQuotationFrom">Universal Resource Identifiers -- Axioms of Web Architecture</a></cite>, Tim Berners-Lee, 1996</footer>
                           </blockquote>
 
                           <p id="uri-url">URIs make it possible for real or abstract <em>things</em> to be identified. When HTTP URIs are dereferenced different representations (data formats) are made available from corresponding <cite><a data-versiondate="2019-07-09T10:56:39Z" data-versionurl="https://web.archive.org/web/20190709105639/https://tools.ietf.org/html/rfc1738" href="https://tools.ietf.org/html/rfc1738" rel="cito:citesAsAuthority">Uniform Resource Locators</a></cite> (<abbr title="Uniform Resource Locator">URL</abbr>s). While URIs makes it possible to identify (name) things on the Web, URLs make it possible for humans and machines to locate and to interact further with content.</p>
@@ -805,7 +813,7 @@ support groups.</pre>
                           <li class="highlight-language-object">the <dfn id="dfn-object">object</dfn>, which is an IRI, a literal or a blank node</li>
                         </ul>
 
-                        <footer><cite>RDF 1.1 Concepts and Abstract Syntax, <a data-versiondate="2019-07-09T21:22:00Z" data-versionurl="https://web.archive.org/web/20190709212200/https://www.w3.org/TR/rdf11-concepts/" href="https://www.w3.org/TR/rdf11-concepts/#section-triples" rel="cito:citesAsAuthority">Triples</a></cite></footer>
+                        <footer><cite>RDF 1.1 Concepts and Abstract Syntax, <a data-versiondate="2019-07-09T21:22:00Z" data-versionurl="https://web.archive.org/web/20190709212200/https://www.w3.org/TR/rdf11-concepts/" href="https://www.w3.org/TR/rdf11-concepts/#section-triples" rel="cito:citesAsAuthority">Triples</a></cite>, W3C</footer>
                       </blockquote>
 
                       <p id="iri-bnode">The <cite><a data-versiondate="2019-07-09T10:56:44Z" data-versionurl="https://web.archive.org/web/20190709105644/https://tools.ietf.org/html/rfc3987" href="https://tools.ietf.org/html/rfc3987" rel="cito:citesAsAuthority">International Resource Identifier</a></cite> (<abbr title="International Resource Identifiers">IRI</abbr>) is a generalisation of URI (US-ASCII) in that a wider character set (Unicode/ISO 10646) can be used to identify resources on the Web. A Blank node (anonymous resource) is a local identifier scoped to the context it is used in, eg. file, RDF store, and they are not intended to be persistent or portable. Literals are used for values like strings, numbers, and dates.</p>
@@ -880,7 +888,8 @@ support groups.</pre>
                           <li>When someone looks up a URI, provide useful information, using the standards (RDF*, SPARQL)</li>
                           <li>Include links to other URIs. so that they can discover more things.</li>
                         </ol>
-                        <footer><cite><a data-versiondate="2018-12-31T12:26:01Z" data-versionurl="https://web.archive.org/web/20181231122601/https://www.w3.org/DesignIssues/LinkedData" href="https://www.w3.org/DesignIssues/LinkedData">Linked Data – Design Issues</a></cite>, 2006 (<a href="#linked-data-design-principles-revised">revised in 2009</a>)</footer>
+
+                        <footer><cite><a data-versiondate="2018-12-31T12:26:01Z" data-versionurl="https://web.archive.org/web/20181231122601/https://www.w3.org/DesignIssues/LinkedData" href="https://www.w3.org/DesignIssues/LinkedData" rel="cito:includesQuotationFrom">Linked Data – Design Issues</a></cite>, Tim Berners-Lee, 2006 (<a href="#linked-data-design-principles-revised">revised in 2009</a>)</footer>
                       </blockquote>
 
                       <div class="note" id="linked-data-design-principles-revised">
@@ -901,14 +910,16 @@ support groups.</pre>
                     <div datatype="rdf:HTML" property="schema:description">
                       <blockquote cite="https://www.theinquirer.net/inquirer/feature/1735712/professor-wendy-hall-speaks">
                         <p>Web science – what makes the Web what it is, how it evolves and will evolve, what are the scenarios that could kill it or change it in ways that would be detrimental to its use.</p>
-                        <footer><cite><a data-versiondate="2010-10-04T13:03:46Z" data-versionurl="https://web.archive.org/web/20101004130346/http://www.theinquirer.net:80/inquirer/feature/1735712/professor-wendy-hall-speaks" href="http://www.theinquirer.net:80/inquirer/feature/1735712/professor-wendy-hall-speaks">Still hates computers</a></cite>, The Inquirer, 2010, <a href="https://en.wikipedia.org/wiki/Wendy_Hall">Dame Wendy Hall</a></footer>
+
+                        <footer><cite><a data-versiondate="2010-10-04T13:03:46Z" data-versionurl="https://web.archive.org/web/20101004130346/http://www.theinquirer.net:80/inquirer/feature/1735712/professor-wendy-hall-speaks" href="http://www.theinquirer.net:80/inquirer/feature/1735712/professor-wendy-hall-speaks" rel="cito:includesQuotationFrom">Still hates computers</a></cite>, The Inquirer, <a href="https://en.wikipedia.org/wiki/Wendy_Hall">Dame Wendy Hall</a>, 2010</footer>
                       </blockquote>
 
                       <p id="web-science-framework">The openness of the Web and the ease of involvement for both humans and machines (through common protocols) helped its great expansion without a particular central point of failure or coordination. Scholarly communication could be exemplary of different kinds of agents interacting on the Web, whether they are sentient or something else. <cite>Web Science</cite> – <cite><a data-versiondate="2019-07-09T10:56:46Z" data-versionurl="https://web.archive.org/web/20190709105646/https://eprints.soton.ac.uk/262615/1/Web%2520Science.htm" href="https://eprints.soton.ac.uk/262615/1/Web%2520Science.htm">Creating a Science of the Web</a></cite> – is an interdisciplinary field of study concerned with understanding and developing sociotechnical systems like the Web alongside human society. In <cite><a data-versiondate="2019-07-09T10:56:49Z" data-versionurl="https://web.archive.org/web/20190709105649/https://eprints.soton.ac.uk/263347/" href="https://eprints.soton.ac.uk/id/eprint/263347">A Framework for Web Science</a></cite>, authors state that:</p>
 
                       <blockquote cite="https://eprints.soton.ac.uk/id/eprint/263347">
                         <p>the Web perhaps more than any other recent human construct carries with it any number of issues including privacy and protection, access and diversity, control and freedom. Structures that we design, engineer and research, and findings that emerge through analysis, will often have strong societal implications.</p>
-                        <footer><cite><a data-versiondate="2019-07-09T10:56:49Z" data-versionurl="https://web.archive.org/web/20190709105649/https://eprints.soton.ac.uk/263347/" href="https://eprints.soton.ac.uk/id/eprint/263347">A Framework for Web Science</a></cite>, Berners-Lee, 2006</footer>
+
+                        <footer><cite><a data-versiondate="2019-07-09T10:56:49Z" data-versionurl="https://web.archive.org/web/20190709105649/https://eprints.soton.ac.uk/263347/" href="https://eprints.soton.ac.uk/id/eprint/263347" rel="cito:includesQuotationFrom">A Framework for Web Science</a></cite>, Tim Berners-Lee, 2006</footer>
                       </blockquote>
 
                       <p id="web-science-scholarly-communication">The challenges of Web Science comprise both social and technical aspects, from user interfaces to data, to information policy, resilience, access from diverse devices, collective creativity, and decentralisation. All of these areas are pertinent to the future of scholarly communication, and Web Science as a field provides a framework for ensuring we consider the various social and technical issues as part of an interconnected ecosystem.</p>
@@ -939,7 +950,8 @@ support groups.</pre>
                 <div datatype="rdf:HTML" property="schema:description">
                   <blockquote>
                     <p>Choice is an illusion, created between those with power, and those without.</p>
-                    <footer><cite>The Matrix Reloaded</cite>, Merovingian, 2003</footer>
+
+                    <footer><cite><a data-versiondate="2019-07-09T10:31:10Z" data-versionurl="https://web.archive.org/web/20190709103110/https://en.wikiquote.org/wiki/The_Matrix_Reloaded" href="https://en.wikiquote.org/wiki/The_Matrix_Reloaded" rel="cito:includesQuotationFrom">The Matrix Reloaded</a></cite>, Merovingian, 2003</footer>
                   </blockquote>
 
                   <p>In <a href="#mediums-and-paradigms">Mediums and Paradigms</a> I have discussed the wide reaching effects of communication mediums as well as scientific frameworks adopted by society. In this section I zoom in on the history of scholarship in order to contextualise the practices and their influences to date.</p>
@@ -982,14 +994,15 @@ support groups.</pre>
                       <blockquote cite="https://opendefinition.org/od/2.1/en/">
                         <p>Knowledge is open if anyone is free to access, use, modify, and share it — subject, at most, to measures that preserve provenance and openness.</p>
 
-                        <footer><cite><a data-versiondate="2018-10-05T10:15:45Z" data-versionurl="https://web.archive.org/web/20181005101545/https://opendefinition.org/od/2.1/en/" href="https://opendefinition.org/od/2.1/en/">The Open Definition 2.1</a></cite></footer>
+                        <footer><cite><a data-versiondate="2018-10-05T10:15:45Z" data-versionurl="https://web.archive.org/web/20181005101545/https://opendefinition.org/od/2.1/en/" href="https://opendefinition.org/od/2.1/en/" rel="cito:includesQuotationFrom">The Open Definition 2.1</a></cite></footer>
                       </blockquote>
 
                       <p id="free-software">The definition of <q>free</q> (or <q>libre</q>) in context of software that is widely acknowledged is along the lines of:</p>
 
                       <blockquote cite="https://www.gnu.org/philosophy/free-sw.html">
                         <p>“Free software” means software that respects users’ freedom and community.  Roughly, it means that <b>the users have the freedom to run, copy, distribute, study, change and improve the software</b>.  Thus, “free software” is a matter of liberty, not price.  To understand the concept, you should think of “free” as in “free speech,” not as in “free beer”.  We sometimes call it “libre software,” borrowing the French or Spanish word for “free” as in freedom, to show we do not mean the software is gratis.</p>
-                        <footer><cite><a data-versiondate="2018-10-05T10:22:56Z" data-versionurl="https://web.archive.org/web/20181005102256/https://www.gnu.org/philosophy/free-sw.html" href="https://www.gnu.org/philosophy/free-sw.html">What is free software?</a></cite>, GNU Project – Free Software Foundation</footer>
+
+                        <footer><cite><a data-versiondate="2018-10-05T10:22:56Z" data-versionurl="https://web.archive.org/web/20181005102256/https://www.gnu.org/philosophy/free-sw.html" href="https://www.gnu.org/philosophy/free-sw.html" rel="cito:includesQuotationFrom">What is free software?</a></cite>, GNU Project – Free Software Foundation</footer>
                       </blockquote>
 
                       <p id="freedom-defined">In order for an item or piece of knowledge to be transferred in a way to foster rich culture, the <cite><a data-versiondate="2018-10-14T15:59:17Z" data-versionurl="https://web.archive.org/web/20181014155917/http://freedomdefined.org/Definition" href="http://freedomdefined.org/Definition">Free Cultural Works</a></cite> defines <em>freedom</em> to mean the freedom to use; to study; to make and redistribute copies; and to make changes and improvements. The definition can be used as a <q>tool to determine whether a work or license should be considered "free."</q></p>
@@ -1016,7 +1029,8 @@ support groups.</pre>
 
                       <blockquote cite="http://www.arl.org/sc/subversive/i-overture-the-subversive-proposal.shtml" id="the-subversive-proposal">
                         <p>It is applicable only to ESOTERIC (non-trade, no-market) scientific and scholarly publication … that body of work for which the author does not and never has expected to SELL the words. The scholarly author wants only to PUBLISH them, that is, to reach the eyes and minds of peers.</p>
-                        <footer><cite><a data-versiondate="1998-05-13T08:00:22Z" data-versionurl="https://web.archive.org/web/19980513080022/http://www.arl.org/scomm/subversive/sub01.html" href="http://www.arl.org/sc/subversive/i-overture-the-subversive-proposal.shtml">The Subversive Proposal</a></cite>, p. 11, Harnad, 1994</footer>
+
+                        <footer><cite><a data-versiondate="1998-05-13T08:00:22Z" data-versionurl="https://web.archive.org/web/19980513080022/http://www.arl.org/scomm/subversive/sub01.html" href="http://www.arl.org/sc/subversive/i-overture-the-subversive-proposal.shtml" rel="cito:includesQuotationFrom">The Subversive Proposal</a></cite>, p. 11, Stevan Harnad, 1994</footer>
                       </blockquote>
 
                       <p>After some years of prototyping and researcher-centric initiatives, the ideas eventually formulated into the <cite><a data-versiondate="2018-10-05T19:58:34Z" data-versionurl="https://web.archive.org/web/20181005195834/https://www.budapestopenaccessinitiative.org/read" href="http://www.budapestopenaccessinitiative.org/read">Budapest Open Access Initiative</a></cite> (<abbr title="Budapest Open Access Initiative">BOAI</abbr>) in 2002. BOAI is based on the principle that publicly funded research output, including peer reviewed journal articles as well as unreviewed preprints, should be made immediately available, and indefinitely, without access fees and free from most restrictions on copying and reuse, to increase visibility and uptake:</p>
@@ -1024,7 +1038,7 @@ support groups.</pre>
                       <blockquote cite="http://www.budapestopenaccessinitiative.org/read">
                         <p>By "open access" to this literature, we mean its free availability on the public internet, permitting any users to read, download, copy, distribute, print, search, or link to the full texts of these articles, crawl them for indexing, pass them as data to software, or use them for any other lawful purpose, without financial, legal, or technical barriers other than those inseparable from gaining access to the internet itself … the only role for copyright in this domain, should be to give authors control over the integrity of their work and the right to be properly acknowledged and cited.</p>
 
-                        <footer><cite><a data-versiondate="2018-10-05T19:58:34Z" data-versionurl="https://web.archive.org/web/20181005195834/https://www.budapestopenaccessinitiative.org/read" href="http://www.budapestopenaccessinitiative.org/read">Budapest Open Access Initiative</a></cite>, 2002</footer>
+                        <footer><cite><a data-versiondate="2018-10-05T19:58:34Z" data-versionurl="https://web.archive.org/web/20181005195834/https://www.budapestopenaccessinitiative.org/read" href="http://www.budapestopenaccessinitiative.org/read" rel="cito:includesQuotationFrom">Budapest Open Access Initiative</a></cite>, 2002</footer>
                       </blockquote>
 
                       <p>In order to open up access to scholarly journal literature, BOAI recommends the adoption of two complementary strategies for open access (<abbr title="Open Access">OA</abbr>):</p>
@@ -1082,7 +1096,7 @@ support groups.</pre>
                       <blockquote cite="https://www.fosteropenscience.eu/taxonomy/term/100">
                         <p>Open Science is the practice of science in such a way that others can collaborate and contribute, where research data, lab notes and other research processes are freely available, under terms that enable reuse, redistribution and reproduction of the research and its underlying data and methods.</p>
 
-                        <footer><cite><a data-versiondate="2019-07-09T11:11:28Z" data-versionurl="https://web.archive.org/web/20190709111128/https://www.fosteropenscience.eu/taxonomy/term/100" href="https://www.fosteropenscience.eu/taxonomy/term/100">Open Science Definition</a></cite>, FOSTER</footer>
+                        <footer><cite><a data-versiondate="2019-07-09T11:11:28Z" data-versionurl="https://web.archive.org/web/20190709111128/https://www.fosteropenscience.eu/taxonomy/term/100" href="https://www.fosteropenscience.eu/taxonomy/term/100" rel="cito:includesQuotationFrom">Open Science Definition</a></cite>, FOSTER</footer>
                       </blockquote>
 
                       <p>With the advent of the scholarly journal, the practice of open science have been continuously evolving. As the Web speeds up information exchange, there has been further interest in the systemisation and application of open science in research communities. Later on I will further discuss <cite><a href="#social-scholarly-web">Social Scholarly Web</a></cite>.</p>
@@ -1125,7 +1139,7 @@ support groups.</pre>
                       <blockquote cite="https://www.youtube.com/watch?v=1yLNGUeHapA&amp;start=50&amp;end=90">
                         <p><q>Because paper enforces single sequence and there is no room for digression, it imposes a particular kind of order in the very nature of the structure. When I saw the computer, I said, ‘at last we can escape from the prison of paper’, and that was what my whole hypertext idea was about in 1960 and since. Contrarily, what did the other people do, they <strong>imitated paper</strong>, which to me seems totally insane.</q></p>
 
-                        <footer><cite><a data-versiondate="2019-07-09T11:11:29Z" data-versionurl="https://web.archive.org/web/20190709111129/https://www.youtube.com/watch?v=1yLNGUeHapA&amp;start=50&amp;end=90" href="https://www.youtube.com/watch?v=1yLNGUeHapA&amp;start=50&amp;end=90">Ted Nelson Demonstrates XanaduSpace (by Arthur Bullard)</a></cite>, <a href="http://en.wikipedia.org/wiki/Ted_Nelson">Ted Nelson</a>, 2013</footer>
+                        <footer><cite><a data-versiondate="2019-07-09T11:11:29Z" data-versionurl="https://web.archive.org/web/20190709111129/https://www.youtube.com/watch?v=1yLNGUeHapA&amp;start=50&amp;end=90" href="https://www.youtube.com/watch?v=1yLNGUeHapA&amp;start=50&amp;end=90" rel="cito:includesQuotationFrom">Ted Nelson Demonstrates XanaduSpace (by Arthur Bullard)</a></cite>, <a href="http://en.wikipedia.org/wiki/Ted_Nelson">Ted Nelson</a>, 2013</footer>
                       </blockquote>
 
                       <p>The Web goes beyond the confines of the physical paper. The user experiences between the Web and print-centric media differ greatly. This section briefly compares <cite><a data-versiondate="2019-07-09T11:11:30Z" data-versionurl="https://web.archive.org/web/20190709111130/https://www.iso.org/obp/ui/" href="https://www.iso.org/obp/ui/#iso:std:iso:32000:-2:ed-1:v1:en">Portable Document Format</a></cite> (<abbr title="Portable Document Format">PDF</abbr>) and HTML.</p>
@@ -1180,7 +1194,8 @@ support groups.</pre>
 
                       <blockquote cite="https://www.w3.org/DesignIssues/Principles#PLP">
                         <p>I chose HTML not to be a programming language because I wanted different programs to do different things with it: present it differently, extract tables of contents, index it, and so on.</p>
-                        <footer><cite><a data-versiondate="2019-07-09T10:56:43Z" data-versionurl="https://web.archive.org/web/20190709105643/https://www.w3.org/DesignIssues/Principles" href="https://www.w3.org/DesignIssues/Principles#PLP">Principle of Least Power</a></cite>, Berners-Lee, 1998</footer>
+
+                        <footer><cite><a data-versiondate="2019-07-09T10:56:43Z" data-versionurl="https://web.archive.org/web/20190709105643/https://www.w3.org/DesignIssues/Principles" href="https://www.w3.org/DesignIssues/Principles#PLP" rel="cito:includesQuotationFrom">Principle of Least Power</a></cite>, Tim Berners-Lee, 1998</footer>
                       </blockquote>
                     </div>
                   </section>
@@ -1256,7 +1271,8 @@ support groups.</pre>
                 <div datatype="rdf:HTML" property="schema:description">
                   <blockquote cite="https://www.w3.org/History/1994/WWW/Journals/PhysicsWorld/PW.ascii">
                     <p>Experience with the ªWorld-Wide Webº (W3) global information initiative suggests that the whole mechanism of academic research will change with new technology.   However, when we try (dangerously) to see the shape of things to come, it seems that some old institutions may resurface  but in a new form.</p>
-                    <footer><cite><a data-versiondate="2019-02-24T13:24:20Z" data-versionurl="https://web.archive.org/web/20190224132420/https://www.w3.org/History/1994/WWW/Journals/PhysicsWorld/PW.ascii" href="https://www.w3.org/History/1994/WWW/Journals/PhysicsWorld/PW.ascii">Physics World article for end March 1992</a></cite>, Berners-Lee, 1992</footer>
+
+                    <footer><cite><a data-versiondate="2019-02-24T13:24:20Z" data-versionurl="https://web.archive.org/web/20190224132420/https://www.w3.org/History/1994/WWW/Journals/PhysicsWorld/PW.ascii" href="https://www.w3.org/History/1994/WWW/Journals/PhysicsWorld/PW.ascii" rel="cito:includesQuotationFrom">Physics World article for end March 1992</a></cite>, Tim Berners-Lee, 1992</footer>
                   </blockquote>
 
                   <p id="scholarly-ecosystem-effects">The scholarly ecosystem is inherently social. Researchers and scholars have been exchanging and collaborating on their findings and questioning, just as they were in the era of the <cite>Republic of Letters</cite>. The social dimension not only exerts a force within the research community, from the society, and eventually flowing back out to society. As the Web deeply impacts societies, in addition to using social media, researchers and academics have also been studying sociotechnical systems from their respective disciplines. We need to understand the effects of the tools we use on the ecosystem and on scientific and scholarly communication. There is a top-down social pressure for research openness and access to knowledge that is in the public interest, however, achieving it through the methods and ethics is challenging for societies. In this section, I will overview how researchers use social media, quality control and certification, and access to research knowledge in context of privilege and gatekeeping.</p>
@@ -1287,7 +1303,8 @@ support groups.</pre>
                           <dt>peer review</dt>
                           <dd>A method of quality control of scholarly articles, whereby each article submitted for publication in a journal is sent to one or more scholars working the same research field as the author and the scholar(s) assess(es) whether the article is of a high enough standard and appropriate for publication in that particular journal.</dd>
                         </dl>
-                        <footer><cite><a data-versiondate="2019-07-09T10:56:51Z" data-versionurl="https://web.archive.org/web/20190709105651/https://www.worldcat.org/title/encyclopedia-of-international-media-and-communications-vol-2-f-k/oclc/773482913" href="http://www.worldcat.org/oclc/773482913">Encyclopedia of International Media and Communications</a></cite>, Scholarly Journals, Vol. 2, p. 687, 2003, urn:isbn:0123876729</footer>
+
+                        <footer><cite><a data-versiondate="2019-07-09T10:56:51Z" data-versionurl="https://web.archive.org/web/20190709105651/https://www.worldcat.org/title/encyclopedia-of-international-media-and-communications-vol-2-f-k/oclc/773482913" href="http://www.worldcat.org/oclc/773482913" rel="cito:includesQuotationFrom">Encyclopedia of International Media and Communications</a></cite>, Scholarly Journals, Vol. 2, p. 687, 2003</footer>
                       </blockquote>
 
                       <p id="quality-control-peer-review">In <cite><a data-versiondate="2019-02-19T23:50:31Z" data-versionurl="https://web.archive.org/web/20190219235031/http://cogprints.org/1685/1/12harnad.html" href="http://cogprints.org/1685/1/12harnad.html">Free at Last: The Future of Peer-Reviewed Journals</a></cite>, Harnad, 1999, states that <q>peer review is a quality-control and certification (QC/C) filter necessitated by the vast scale of learned research today.</q> In <cite><a data-versiondate="2018-09-20T15:46:12Z" data-versionurl="https://web.archive.org/web/20180920154612/http://cogprints.org/1692/1/harnad96.peer.review.html" href="http://cogprints.org/1692/1/harnad96.peer.review.html">Implementing Peer Review on the Net: Scientific Quality Control in Scholarly Electronic Journals</a></cite>, Harnad, 1996, posits that electronic networks offer the possibility of efficient and equitable <em>peer review</em> on published and ongoing work, which can replicate the traditional paper form. As the medium revolutionised interactive publications, it was possible for peer review to be supplemented with online commentary as another form of quality control for scholarly literature at any state.</p>
@@ -1305,6 +1322,7 @@ support groups.</pre>
 
                       <blockquote cite="https://en.wikipedia.org/wiki/Goodhart%27s_law">
                         <p>Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.</p>
+
                         <footer><cite><a data-versiondate="2019-07-09T11:11:34Z" data-versionurl="https://web.archive.org/web/20190709111134/https://en.wikipedia.org/wiki/Goodhart%27s_law" href="https://en.wikipedia.org/wiki/Goodhart%27s_law" rel="cito:citesAsInformation">Goodhart’s law</a></cite></footer>
                       </blockquote>
 
@@ -1339,7 +1357,8 @@ support groups.</pre>
 
                       <blockquote cite="https://www.openlibhums.org/news/314/">
                         <p>In the case of scholarly publishing, standards such as DOI, JIF, and even metadata standards, are not only technical decisions, but are also political decisions with public policy implications. This is because these standards are not neutral, but are designed to privilege certain types of knowledge or outputs, while rendering other invisible.</p>
-                        <footer><cite><a data-versiondate="2019-01-01T13:36:33Z" data-versionurl="https://web.archive.org/web/20190101133633/https://www.openlibhums.org/news/314/" href="https://www.openlibhums.org/news/314/">Open Access, the Global South and the Politics of Knowledge Production and Circulation</a></cite>, an Open Insights interview with Leslie Chan, 2018</footer>
+
+                        <footer><cite><a data-versiondate="2019-01-01T13:36:33Z" data-versionurl="https://web.archive.org/web/20190101133633/https://www.openlibhums.org/news/314/" href="https://www.openlibhums.org/news/314/" rel="cito:includesQuotationFrom">Open Access, the Global South and the Politics of Knowledge Production and Circulation</a></cite>, an Open Insights interview with Leslie Chan, Leslie Chan, 2018</footer>
                       </blockquote>
 
                       <p id="effects-of-third-parties-on-scholarly-communication">Some of the observable effects of commercial participants in the scholarly ecosystem on scholarly communication is that they have the means to monitor the usage and interaction of units of scholarly information, censor who or what information gets shared and at what cost, have the agency to control the flow of information, and influence the coupling of their notion of academic impact to a biased incentive system.</p>
@@ -1417,7 +1436,8 @@ support groups.</pre>
                       <li>The assignment of priority in the information</li>
                       <li>Quality control</li>
                     </ul>
-                    <footer><cite><a data-versiondate="2019-07-09T10:56:51Z" data-versionurl="https://web.archive.org/web/20190709105651/https://www.worldcat.org/title/encyclopedia-of-international-media-and-communications-vol-2-f-k/oclc/773482913" href="http://www.worldcat.org/oclc/773482913">Encyclopedia of International Media and Communications</a></cite>, Scholarly Journals, Vol. 2, p. 690, 2003</footer>
+
+                    <footer><cite><a data-versiondate="2019-07-09T10:56:51Z" data-versionurl="https://web.archive.org/web/20190709105651/https://www.worldcat.org/title/encyclopedia-of-international-media-and-communications-vol-2-f-k/oclc/773482913" href="http://www.worldcat.org/oclc/773482913" rel="cito:includesQuotationFrom">Encyclopedia of International Media and Communications</a></cite>, Scholarly Journals, Vol. 2, p. 690, 2003</footer>
                   </blockquote>
 
                   <p id="rethinking-scholarly-communication">In <cite><a data-versiondate="2018-06-04T19:34:22Z" data-versionurl="https://web.archive.org/web/20180604193422/http://www.dlib.org/dlib/september04/vandesompel/09vandesompel.html" href="http://www.dlib.org/dlib/september04/vandesompel/09vandesompel.html">Rethinking Scholarly Communication</a></cite>, Van de Sompel, 2004, proposes to revise the notion of a unit of scholarly communication in two ways. In a technological sense, it suggests to recognise the compound and dynamic nature of a <q cite="http://www.dlib.org/dlib/september04/vandesompel/09vandesompel.html">unit of communication</q> that work on the Web. Content can be the result of a combination of other registered items; data may be available through interactions, or depend on acquiring externally registered items. In order to empower scholarly communities from a systems perspective, the article posits that there should be more flexibility in what constitutes a unit of scholarly communication in order to allow registration, as well as factoring timing and the quality of what is to be registered. The article also acknowledge the presence of an additional function in the market which reflects the academic credit and policy in the current system. A derived function, <q>rewarding</q> of actors <q>for their performance in the communication system based on metrics derived from that system</q>. For rewarding to take place, the information space needs to provide the ability to extract meaningful metrics.</p>
@@ -1447,7 +1467,8 @@ support groups.</pre>
                 <div datatype="rdf:HTML" property="schema:description">
                   <blockquote cite="http://www.worldcat.org/oclc/981396559">
                     <p>All of man’s artifacts – whether language, or laws, or ideas and hypotheses, or tools, or clothing, or computers – are extensions of the physical human body or the mind.</p>
-                    <footer><cite><a data-versiondate="2019-07-09T11:11:39Z" data-versionurl="https://web.archive.org/web/20190709111139/https://www.worldcat.org/title/laws-of-media-the-new-science/oclc/981396559" href="http://www.worldcat.org/oclc/981396559">Laws of Media</a></cite>, Marshall McLuhan, 1989, p. 93</footer>
+
+                    <footer><cite><a data-versiondate="2019-07-09T11:11:39Z" data-versionurl="https://web.archive.org/web/20190709111139/https://www.worldcat.org/title/laws-of-media-the-new-science/oclc/981396559" href="http://www.worldcat.org/oclc/981396559" rel="cito:includesQuotationFrom">Laws of Media</a></cite>, p. 93, McLuhan, 1989</footer>
                   </blockquote>
 
                   <p>In recent decades there has been a global shift in communication forms used for scientific activities. This perhaps demonstrates a desire for amplification of the senses that are used to consume and create knowledge. For instance, print-centric emphasises the linearity of scientific information representation and its communication, whereas a Web-centric approach makes multimodal interactions possible within the same domain. Scientists need no longer fit their understanding of the world within the confines of static and two-dimensional descriptions of phenomena. The need to travel great distances for first-hand observations and collaboration is also reduced. With electronic media, and more specifically the Web, we have the option to also watch, listen, and participate around measured observations, instantaneously as the events occur, or after the fact around persistent and detailed logs. Just as the invention of the printing press transformed the codification and mobility of knowledge, the Web transformed and extended human and machine communication on all fronts. What will be further explored in this thesis is the extent to which our current scholarly activities make use of the inherent qualities of the Web, as well as ways to further take advantage of these qualities.</p>
@@ -1461,7 +1482,8 @@ support groups.</pre>
                       <li>What does it retrieve that was previously obsolesced?</li>
                       <li>What does it produce or become when pressed to an extreme?</li>
                     </ul>
-                    <footer><cite><a data-versiondate="2019-07-09T11:11:39Z" data-versionurl="https://web.archive.org/web/20190709111139/https://www.worldcat.org/title/laws-of-media-the-new-science/oclc/981396559" href="http://www.worldcat.org/oclc/981396559">Laws of Media</a></cite>, Marshall McLuhan, 1989, p. 7</footer>
+
+                    <footer><cite><a data-versiondate="2019-07-09T11:11:39Z" data-versionurl="https://web.archive.org/web/20190709111139/https://www.worldcat.org/title/laws-of-media-the-new-science/oclc/981396559" href="http://www.worldcat.org/oclc/981396559" rel="cito:includesQuotationFrom">Laws of Media</a></cite>, p. 7, Marshall McLuhan, 1989</footer>
                   </blockquote>
 
                   <p id="effects-of-web-centric-scholarly-communication"><strong>Effects of Web Centric Scholarly Communication</strong>: The questions are intended to be complimentary and studied simultaneously. They correspond to four effects: <q>enhances</q>, <q>obsolesces</q>, <q>retrieves</q>, and <q>reverses into</q>. I use this tetrad to situate the effects and artifacts of scholarly communication on the Web in relative to adjacent mediums, in particular, to print media:</p>
@@ -1643,6 +1665,7 @@ support groups.</pre>
                           <dt>Robust</dt>
                           <dd>Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies.</dd>
                         </dl>
+
                         <footer><cite><a data-versiondate="2019-07-09T21:22:13Z" data-versionurl="https://web.archive.org/web/20190709212213/https://www.w3.org/TR/WCAG21/" href="https://www.w3.org/TR/WCAG21/" rel="cito:citesAsAuthority">Web Content Accessibility Guidelines (WCAG) 2.1</a></cite>, W3C</footer>
                       </blockquote>
 
@@ -1657,7 +1680,8 @@ support groups.</pre>
                           <li>Make the authoring tool user interface accessible</li>
                           <li>Support the production of accessible content</li>
                         </ul>
-                        <footer><cite><a data-versiondate="2019-07-09T21:22:15Z" data-versionurl="https://web.archive.org/web/20190709212215/http://www.w3.org/TR/ATAG20/" href="http://www.w3.org/TR/ATAG20/#guidelines">ATAG 2.0 Guidelines</a></cite>, W3C</footer>
+
+                        <footer><cite><a data-versiondate="2019-07-09T21:22:15Z" data-versionurl="https://web.archive.org/web/20190709212215/http://www.w3.org/TR/ATAG20/" href="http://www.w3.org/TR/ATAG20/#guidelines" rel="cito:citesAsAuthority">ATAG 2.0 Guidelines</a></cite>, W3C</footer>
                       </blockquote>
 
                       <p id="user-agent-accessibility-guidelines"><strong>User Agent Accessibility Guidelines</strong>: To support the general principles for the development of accessible user agents, ie. <q>any software that retrieves, renders and facilitates end-user interaction with web content</q>, the W3C <cite><a data-versiondate="2019-07-09T21:22:15Z" data-versionurl="https://web.archive.org/web/20190709212215/https://www.w3.org/TR/UAAG20/" href="https://www.w3.org/TR/UAAG20/" rel="cito:citesAsAuthority">User Agent Accessibility Guidelines</a></cite> (<abbr title="User Agent Accessibility Guidelines">UUAG</abbr>) specifies three layers of guidance for developers to integrate:</p>
@@ -1850,7 +1874,7 @@ support groups.</pre>
                       <dd>A distributed system in which multiple authorities control different components and no single authority is fully trusted by all others.</dd>
                     </dl>
 
-                    <footer><cite><a data-versiondate="2018-08-27T14:56:53Z" data-versionurl="https://web.archive.org/web/20180827145653/https://content.sciendo.com/downloadpdf/journals/popets/2017/4/article-p404.pdf" href="https://content.sciendo.com/downloadpdf/journals/popets/2017/4/article-p404.pdf">Systematizing Decentralization and Privacy: Lessons from 15 Years of Research and Deployments</a></cite>, Troncoso, 2017</footer>
+                    <footer><cite><a data-versiondate="2018-08-27T14:56:53Z" data-versionurl="https://web.archive.org/web/20180827145653/https://content.sciendo.com/downloadpdf/journals/popets/2017/4/article-p404.pdf" href="https://content.sciendo.com/downloadpdf/journals/popets/2017/4/article-p404.pdf" rel="cito:includesQuotationFrom">Systematizing Decentralization and Privacy: Lessons from 15 Years of Research and Deployments</a></cite>, Troncoso, 2017</footer>
                   </blockquote>
 
                   <p>Messages and operations in centralised or distributed systems <q>may be managed by a single root of trust or authority</q>. From this position <q>decentralized systems are a subset of distributed systems</q> where they <q>embody a complex set of relationships of trust between parties managing different aspects of the system</q>. These systems are conceived of as a graph where the nodes correspond to the components of the system, and the edges correspond to connections between them. From a global perspective, the Web is a decentralised system, however, it can have components which are disjoint from the rest of the graph. Figure <a href="#figure-centralised-decentralised-architectures">figure-centralised-decentralised-architectures</a> depicts the contrast between typical centralised and decentralised architectures.</p>
@@ -2164,7 +2188,8 @@ support groups.</pre>
                       <li>The persistence of the opaque string which follows the domain name, and</li>
                       <li>the persistence of the domain name  itself.</li>
                     </ol>
-                    <footer><cite><a data-versiondate="2019-07-09T21:22:44Z" data-versionurl="https://web.archive.org/web/20190709212244/https://www.w3.org/DesignIssues/PersistentDomains" href="https://www.w3.org/DesignIssues/PersistentDomains">Persistent Domains</a></cite>, Berners-Lee, 2000</footer>
+
+                    <footer><cite><a data-versiondate="2019-07-09T21:22:44Z" data-versionurl="https://web.archive.org/web/20190709212244/https://www.w3.org/DesignIssues/PersistentDomains" href="https://www.w3.org/DesignIssues/PersistentDomains" rel="cito:includesQuotationFrom">Persistent Domains</a></cite>, Tim Berners-Lee, 2000</footer>
                   </blockquote>
 
                   <p id="cool-uris">In <cite><a data-versiondate="2019-07-09T21:22:44Z" data-versionurl="https://web.archive.org/web/20190709212244/http://www.w3.org/Provider/Style/URI" href="http://www.w3.org/Provider/Style/URI">Cool URIs don't change</a></cite>, Berners-Lee, 1998, discusses some of the approaches that can be taken towards usefulness and longevity of URIs. The article focuses on practices that a publisher making a commitment to persistence by designing and managing the URI path and the content it resolves to, as well as the domain name it uses. The owner of a domain name has the obligation to define what the things mean for its URIs. This is also a form of social contract made by the authority that names and defines a URI to anyone that’s using it – see also <cite><a data-versiondate="2019-07-09T21:22:45Z" data-versionurl="https://web.archive.org/web/20190709212245/https://www.w3.org/DesignIssues/PhilosophicalEngineering" href="https://www.w3.org/DesignIssues/PhilosophicalEngineering">Philosophical Engineering and Ownerhip of URIs</a></cite>.</p>
@@ -2186,7 +2211,8 @@ support groups.</pre>
                       <dt id="content-drift">Content drift</dt>
                       <dd>The resource identified by a URI may change over time and hence, the content at the end of the URI may evolve, even to such an extent that it ceases to be representative of the content that was originally referenced.</dd>
                     </dl>
-                    <footer><cite><a data-versiondate="2019-07-09T21:22:46Z" data-versionurl="https://web.archive.org/web/20190709212246/https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115253" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115253">Scholarly Context Not Found: One in Five Articles Suffers from Reference Rot</a></cite>, Klein, 2014</footer>
+
+                    <footer><cite><a data-versiondate="2019-07-09T21:22:46Z" data-versionurl="https://web.archive.org/web/20190709212246/https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115253" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115253" rel="cito:includesQuotationFrom">Scholarly Context Not Found: One in Five Articles Suffers from Reference Rot</a></cite>, Martin Klein, 2014</footer>
                   </blockquote>
 
                   <p id="scholarly-context-not-found">In <cite><a data-versiondate="2019-07-09T21:22:46Z" data-versionurl="https://web.archive.org/web/20190709212246/https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115253" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115253">Scholarly Context Not Found: One in Five Articles Suffers from Reference Rot</a></cite>, Klein, 2014, acknowledge extensively studied phenomenon on link rot and content drift, and themselves <q>investigate the extent to which <em>reference rot</em> impacts the ability to revisit the web context that surrounds <abbr title="Science, Technology, and Medicine">STM</abbr> articles some time after their publication</q>. The results show that significant amount of HTTP URIs cited in STM articles are no longer responsive or adequate archived snapshots available. Authors state that it is impossible to adequately recreate the temporal context of the scholarly discourse, hence suggest that robust solutions are needed to combat the problem of reference rot. Authors can take practical steps to remedy some of these issues eg. using archives that support on-demand snapshots, embedding the archived URI with datetime information alongside the reference to the original resource – I discuss this further in <a href="#robust-links">Robust Links</a>.</p>
@@ -2453,7 +2479,8 @@ support groups.</pre>
                   <dt>TINCOO</dt><dd>Forgive us, Captain. We live in a closed system. We are not accustomed to interacting with other species, especially inferior ones.</dd>
                   <dt>JANEWAY</dt><dd>Well then, I guess we'll leave the repairs in your superior hands.</dd>
                 </dl>
-                <footer><cite><a data-versiondate="2018-09-12T07:20:21Z" data-versionurl="https://web.archive.org/web/20180912072021/http://www.chakoteya.net/Voyager/613.htm" href="http://www.chakoteya.net/Voyager/613.htm">Virtuoso</a>, Star Trek: Voyager</cite>, 2000</footer>
+
+                <footer><cite><a data-versiondate="2018-09-12T07:20:21Z" data-versionurl="https://web.archive.org/web/20180912072021/http://www.chakoteya.net/Voyager/613.htm" href="http://www.chakoteya.net/Voyager/613.htm" rel="cito:includesQuotationFrom">Virtuoso</a>, Star Trek: Voyager</cite>, 2000</footer>
               </blockquote>
 
               <p>In this section I describe my knowledge and artifact contributions of a decentralised notification protocol. Parts of this section are adapted from work published as <cite><a data-versiondate="2019-07-09T21:22:49Z" data-versionurl="https://web.archive.org/web/20190709212249/https://csarven.ca/linked-data-notifications" href="https://csarven.ca/linked-data-notifications" rel="prov:wasDerivedFrom">Linked Data Notifications: a resource-centric communication protocol</a></cite>, Capadisli, 2017, <a href="http://2017.eswc-conferences.org/">Extended Semantic Web Conference</a> (Best Student Paper Award). Additionally some parts are adapted from <cite><a data-versiondate="2019-07-09T21:22:49Z" data-versionurl="https://web.archive.org/web/20190709212249/https://csarven.ca/linked-specifications-reports" href="https://csarven.ca/linked-specifications-reports" rel="prov:wasDerivedFrom">Linked Specifications, Test Suites, and Implementation Reports</a></cite>, Capadisli, 2018, TheWebConf Developers Track. Finally, parts of the W3C Recommendation <cite><a data-versiondate="2019-07-09T21:19:12Z" data-versionurl="https://web.archive.org/web/20190709211912/https://www.w3.org/TR/ldn/" href="https://www.w3.org/TR/ldn/" rel="prov:wasDerivedFrom">Linked Data Notifications</a></cite>, editors Capadisli and Guy, 2017, have been integrated as well.</p>
@@ -2476,7 +2503,8 @@ support groups.</pre>
 
                   <blockquote cite="#technical-research-problems-mechanisms">
                     <p>What technical mechanisms, standards or protocols can be employed for decentralised information exchange on the Web?</p>
-                    <footer><cite><a href="#technical-research-problems-mechanisms">Mechanisms</a></cite></footer>
+
+                    <footer><cite><a href="#technical-research-problems-mechanisms" rel="cito:includesQuotationFrom">Mechanisms</a></cite></footer>
                   </blockquote>
 
                   <p>The following are core requirements of a notifications protocol in context of <cite><a href="#degree-of-control">Degree of Control</a></cite>:</p>
@@ -3502,7 +3530,7 @@ support groups.</pre>
               <blockquote cite="https://www.w3.org/History/1989/proposal.html">
                 <p>Information systems start small and grow. They also start isolated and then merge. A new system must allow existing systems to be linked together without requiring any central control or coordination.</p>
 
-                <footer>Non-Centralisation, CERN Requirements, <cite><a data-versiondate="2019T02T15:00:28:43Z" data-versionurl="https://web.archive.org/web/20190215002843/https://www.w3.org/History/1989/proposal.html" href="https://www.w3.org/History/1989/proposal.html">Information Management: A Proposal</a></cite>, Berners-Lee, 1989</footer>
+                <footer>Non-Centralisation, CERN Requirements, <cite><a data-versiondate="2019T02T15:00:28:43Z" data-versionurl="https://web.archive.org/web/20190215002843/https://www.w3.org/History/1989/proposal.html" href="https://www.w3.org/History/1989/proposal.html" rel="cito:includesQuotationFrom">Information Management: A Proposal</a></cite>, Tim Berners-Lee, 1989</footer>
               </blockquote>
 
               <p>Academic articles are commonly represented in packages, like binary file formats (PDF, Word) merging structural, presentational, and behavioural layers. Such forms are often disconnected from other knowledge, in that navigation from one unit of information to another is non-continuous or not uniformly accessible and usable by both human and machine users. This is generally due to historical policy, cost, and social or technical reasons intertwined with the systems around units of scholarly communication. One side-effect of scholarly publication still being primarily driven by the constraints of print media in this way is that it is challenging for efficient machine-readable coordination on the Web, as well as for continuous advancement of creating, communicating, and consuming information as part of the Open Web Platform.</p>
@@ -3513,7 +3541,8 @@ support groups.</pre>
 
               <blockquote cite="#technical-research-problems-artifacts">
                 <p>How can Web technologies be employed to fulfill the core functions of scholarly communication in an open and interoperable way?</p>
-                <footer><cite><a href="#technical-research-problems-artifacts">Artifacts</a></cite></footer>
+
+                <footer><cite><a href="#technical-research-problems-artifacts" rel="cito:includesQuotationFrom">Artifacts</a></cite></footer>
               </blockquote>
 
               <p id="requirements-decentralised-web-publishing">To this end, I will discuss a set of requirements for software implementations which combine the various technologies and concepts into a complete package which enables decentralised publishing of articles and globally identifiable units of information, annotations and social interactions on the Web, as well as their linking and dissemination. I note the overarching influence of the concept of <cite><a href="#degree-of-control">Degree of Control</a></cite>. Such software must enable:</p>
@@ -4947,6 +4976,7 @@ document.addEventListener('DOMContentLoaded', function(){
             <div datatype="rdf:HTML" property="schema:description">
               <blockquote>
                 <p>You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.</p>
+
                 <footer>Attributed to <cite><a data-versiondate="2019-07-09T21:23:10Z" data-versionurl="https://web.archive.org/web/20190709212310/https://en.wikipedia.org/wiki/Buckminster_Fuller" href="https://en.wikipedia.org/wiki/Buckminster_Fuller" rel="cito:citesAsInformation">Buckminster Fuller</a></cite>.</footer>
               </blockquote>
 
@@ -4984,7 +5014,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
                         <p>Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.</p>
 
-                        <footer><cite><a data-versiondate="2019-07-09T21:23:12Z" data-versionurl="https://web.archive.org/web/20190709212312/https://www.un.org/en/universal-declaration-human-rights/" href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite></footer>
+                        <footer><cite><a data-versiondate="2019-07-09T21:23:12Z" data-versionurl="https://web.archive.org/web/20190709212312/https://www.un.org/en/universal-declaration-human-rights/" href="http://www.un.org/en/universal-declaration-human-rights/" rel="cito:includesQuotationFrom">Universal Declaration of Human Rights</a></cite>, United Nations</footer>
                       </blockquote>
 
                       <p>Autonomy is an important ingredient to fully exercise <em>freedom of expression</em>, which is a civil liberty. If a URI is governed by a third-party entity, ie. other than the researcher who shares the contents of a scientific resource, then it is possible that the URLs may no longer resolve, and the content may be subject to change in ways beyond researcher’s control. Whereas without intermediaries, the researcher has sufficient access and control as to what happens at their URI space. This gives actors the ability to exercise <em>self-registration</em> with respect to the registration function. Trust in this case may be placed on the Web space that is closer to the owner and publisher of the URI.</p>
@@ -5024,7 +5054,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
                         <p>(2) Everyone has the right to the protection of the moral and material interests resulting from any scientific, literary or artistic production of which he is the author.</p>
 
-                        <footer><cite><a data-versiondate="2019-07-09T21:23:12Z" data-versionurl="https://web.archive.org/web/20190709212312/https://www.un.org/en/universal-declaration-human-rights/" href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a></cite></footer>
+                        <footer><cite><a data-versiondate="2019-07-09T21:23:12Z" data-versionurl="https://web.archive.org/web/20190709212312/https://www.un.org/en/universal-declaration-human-rights/" href="http://www.un.org/en/universal-declaration-human-rights/" rel="cito:includesQuotationFrom">Universal Declaration of Human Rights</a></cite>, United Nations</footer>
                       </blockquote>
 
 
@@ -5040,7 +5070,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
                         <p><strong>Inclusion</strong>: is about diversity, and ensuring involvement of everyone to the greatest extent possible.</p>
 
-                        <footer><cite><a data-versiondate="2018-05-12T22:26:56Z" data-versionurl="https://web.archive.org/web/20180512222656/http://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/" href="https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/">Accessibility, Usability, and Inclusion</a></cite>, W3C, WAI</footer>
+                        <footer><cite><a data-versiondate="2018-05-12T22:26:56Z" data-versionurl="https://web.archive.org/web/20180512222656/http://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/" href="https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/" rel="cito:includesQuotationFrom">Accessibility, Usability, and Inclusion</a></cite>, W3C, WAI</footer>
                       </blockquote>
 
                       <p>The <abbr title="Architecture of the World Wide Web">AWWW</abbr> states that agents, <em>interpret</em> available <q cite="https://www.w3.org/TR/webarch/#dereference-details">representation according to the data format specification that corresponds to the representation’s Internet Media Type.</q> Here we can use the term <em>interpretation</em> in the general sense for both human and machine consumers of representations. An interpretation entails that a given content can be identified or discovered; comprehended in context of where and how it is used; as well being to put it to further use. Scientific and scholarly knowledge representations using information models that are based on Web standards brought through open consensus benefit from wide reuse.</p>
@@ -5360,7 +5390,8 @@ document.addEventListener('DOMContentLoaded', function(){
                 <div datatype="rdf:HTML" property="schema:description">
                   <blockquote cite="http://www.worldcat.org/oclc/981396559">
                     <p>Radical changes of identity, happening suddenly and in very brief intervals of time, have proved more deadly and destructive of human values than wars fought with hardware weapons.</p>
-                    <footer><cite><a data-versiondate="2019-07-09T11:11:39Z" data-versionurl="https://web.archive.org/web/20190709111139/https://www.worldcat.org/title/laws-of-media-the-new-science/oclc/981396559" href="http://www.worldcat.org/oclc/981396559">Laws of Media</a></cite>, Marshall McLuhan, p. 97, 1989</footer>
+
+                    <footer><cite><a data-versiondate="2019-07-09T11:11:39Z" data-versionurl="https://web.archive.org/web/20190709111139/https://www.worldcat.org/title/laws-of-media-the-new-science/oclc/981396559" href="http://www.worldcat.org/oclc/981396559" rel="cito:includesQuotationFrom">Laws of Media</a></cite>, p. 97, Marshall McLuhan, 1989</footer>
                   </blockquote>
 
                   <p id="sociotechnical-advancement"><strong>Sociotechnical Advancement</strong>: Given our half a millennia of experience in mass print publishing, and half a century on electronic publishing, we are in a position to situate, examine and question our assumptions as to what constitutes scholarly knowledge exchange and participation in context of the Web. If research communication is predominately and increasingly driven by the Web, how can we approach the integration of scholarly processes with the inherent properties of the Web? One way to look at this is by <a href="#the-printing-press-as-an-agent-of-change">examining history</a>: the printing press played a major role in moving the non-literate public to learn to read and write for themselves. Given the Web, we find ourselves in a similar situation with different modes of communication. For instance, the Web – an environment for simultaneous read and write operations on hypermedia – inherently enables anyone to be a publisher, where each actor can exercise their full creativity and ability to express the shape of their content. In order to use the Web effectively – as far as taking advantage of its built-in characteristics, the research community needs to better position itself to self-publish and disseminate their knowledge, as well as be more attributable and accountable in their social engagement. This kind of ongoing evolution is necessary for the advancement of research communication and consequently the society. Moving towards Web-centric information flow requires the scholarly ecosystem to unchain itself from antiquated practices and inadequate use of the available medium. In context of major communication shifts, we have not scratched the surface – 30 years into the advent of the Web is still a brief period in history.</p>
