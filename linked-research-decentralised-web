@@ -6,7 +6,6 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="media/css/basic.css" media="all" rel="stylesheet" title="Basic" />
     <link href="media/css/dokieli.css" media="all" rel="stylesheet" />
-    <!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
     <script src="scripts/dokieli.js"></script>
   </head>
 
@@ -689,7 +688,7 @@ support groups.</pre>
                             <li><code><span class="highlight-uri"><span class="highlight-uri-scheme">urn</span>:<span class="highlight-uri-hier-part-authority">isbn</span>:<span class="highlight-uri-hier-part-path">9781584230700</span></span></code> (book identifier)</li>
                             <li><code><span class="highlight-uri"><span class="highlight-uri-scheme">data</span>:<span class="highlight-uri-hier-part-path">image/svg+xml;base64,PD94bWwg...</span></span></code> (encoded image)</li>
                             <li><code><span class="highlight-uri"><span class="highlight-uri-scheme">file</span>://<span class="highlight-uri-hier-part-path">/var/www/dokieli/index.html</span></span></code> (local file)</li>
-                            <li><code><span class="highlight-uri"><span class="highlight-uri-scheme">mailto</span>:<span class="highlight-uri-hier-part-authority">info@csarven.ca</span>?<span class="highlight-uri-query">subject=foo</span></span></code> (email address with initial header)</li>
+                            <li><code><span class="highlight-uri"><span class="highlight-uri-scheme">mailto</span>:<span class="highlight-uri-hier-part-authority">info@csarven.ca</span></span></code> (email address)</li>
                             <li><code><span class="highlight-uri"><span class="highlight-uri-scheme">tel</span>:<span class="highlight-uri-hier-part-authority">+15551234567</span></span></code> (telephone number)</li>
                           </ul>
 
