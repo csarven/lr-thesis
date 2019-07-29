@@ -5111,7 +5111,7 @@ document.addEventListener('DOMContentLoaded', function(){
           </section>
 
 
-          <section id="conclusions" inlist="" rel="schema:hasPart" resource="#conclusions">
+          <section id="conclusions" inlist="" rel="schema:hasPart" resource="#conclusions" typeof="deo:Conclusion">
             <h2 property="schema:name">Conclusions</h2>
 
             <div datatype="rdf:HTML" property="schema:description">
