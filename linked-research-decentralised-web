@@ -258,7 +258,7 @@
                 <footer><cite><a data-versiondate="2019-07-09T10:31:10Z" data-versionurl="https://web.archive.org/web/20190709103110/https://en.wikiquote.org/wiki/The_Matrix_Reloaded" href="https://en.wikiquote.org/wiki/The_Matrix_Reloaded" rel="cito:includesQuotationFrom">The Matrix Reloaded</a></cite>, Merovingian, 2003</footer>
               </blockquote>
 
-              <section id="motivation" inlist="" rel="schema:hasPart" resource="#motivation">
+              <section id="motivation" inlist="" rel="schema:hasPart" resource="#motivation" typeof="deo:Motivation">
                 <h3 property="schema:name">Motivation</h3>
                 <div datatype="rdf:HTML" property="schame:description">
                   <blockquote cite="https://en.wikipedia.org/wiki/Connections_%28TV_series%29">
