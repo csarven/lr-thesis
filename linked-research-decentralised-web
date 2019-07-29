@@ -212,7 +212,7 @@
 
               <p id="Tim-Berners-Lee"><a href="https://www.w3.org/People/Berners-Lee/card#i">Tim Berners-Lee</a>, <em>the</em> Web developer that I look up to for inspiration and model perseverance to continue fighting for the Web. I am grateful to collaborate with Tim on the challenges ahead of us. 🕸</p>
 
-              <p id="Kingsley-Kidehen"><a href="http://kingsley.idehen.net/">Kingsley Kidehen</a>, my practice what you preach partner in crime. I have learned a lot from Kingsley as we aimed to realise cool Web stuff. 🧩</p>
+              <p id="Kingsley-Idehen"><a href="http://kingsley.idehen.net/DAV/home/kidehen/profile.ttl#i">Kingsley Idehen</a>, my practice what you preach partner in crime. I have learned a lot from Kingsley as we aimed to realise cool Web stuff. 🧩</p>
 
               <p id="Amy-van-der-Hiel"><a href="https://www.w3.org/People/#V">Amy van der Hiel</a> for ethical Web checks and having me remind myself to assess the value of what I do with respect to society and adjusting my aims accordingly. Her influence will continue to shape the fabric of the projects that I am involved in. 🧭</p>
 
@@ -3994,7 +3994,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
                       <p id="aak-use-cases">In 2016, the <cite><a data-versiondate="2019-07-09T21:23:01Z" data-versionurl="https://web.archive.org/web/20190709212301/https://hypothes.is/annotating-all-knowledge/" href="https://hypothes.is/annotating-all-knowledge/" rel="cito:citesForInformation">Annotating All Knowledge Coalition</a></cite> derived user stories based on the notion of what open annotation can enable. Below is a description of how dokieli realises the user stories <a href="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)" rel="cito:citesAsSourceDocument">derived from</a> <cite><a data-versiondate="2019-01-22T12:10:41Z" data-versionurl="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/" href="https://hypothes.is/blog/a-coalition-of-scholarly-annotators/" rel="cito:citesForInformation">A Coalition for Scholarly Annotation</a></cite>. The term <q>publisher</q> that is used in these user stories usually refer to an entity that is other than the creators of the content. Whereas in dokieli, a <q>publisher</q> is <em>any</em> actor capable of triggering the registration of resources and having their content potentially accessible to anyone.</p>
 
-                      <dl rel="cito:replies" resource="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">
+                      <dl rel="cito:repliesTo" resource="https://web.archive.org/web/20190122121041/https://web.hypothes.is/blog/a-coalition-of-scholarly-annotators/#selector(type=XPathSelector,value=%2Fhtml%2Fbody%2Fdiv%5B4%5D%2Fmain%2Fdiv%2Fsection%2Farticle%2Fdiv%5B2%5D%2Ful%5B1%5D)">
                         <dt>As an author of a paper, I want to invite a small group of colleagues to provide feedback.</dt>
                         <dd>Implemented with the <em>Share</em> feature using the actor’s social graph data, and LDN for dissemination.</dd>
 
