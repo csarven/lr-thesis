@@ -202,49 +202,49 @@
             <div datatype="rdf:HTML" property="schema:description">
               <p>This thesis is the result of interconnected ideas and people coming together. I would like the following to be carved in a hyperdimensional stone:</p>
 
-              <p id="family">My family: <a href="http://brigitteschuster.com/">Brigitte Schuster</a>, <a href="http://emilianc.info/">Emilian Capadisli</a>, <a href="http://junesc.info">Junes Capadisli</a>.</p>
+              <p id="family">My family: <a href="http://brigitteschuster.com/" rel="cito:credits">Brigitte Schuster</a>, <a href="http://emilianc.info/" rel="cito:credits">Emilian Capadisli</a>, <a href="http://junesc.info">Junes Capadisli</a>.</p>
 
-              <p id="Sören-Auer"><a href="https://www.tib.eu/en/research-development/data-science-digital-libraries/staff/soeren-auer/">Sören Auer</a> for his supervision, endurance and support; the force that kept my work and initiatives real – a massive understatement. ⚛</p>
+              <p id="Sören-Auer"><a href="https://www.tib.eu/en/research-development/data-science-digital-libraries/staff/soeren-auer/" rel="cito:credits">Sören Auer</a> for his supervision, endurance and support; the force that kept my work and initiatives real – a massive understatement. ⚛</p>
 
-              <p id="Amy-Guy"><a href="https://rhiaro.co.uk/">Captain Amy Guy</a> for her advice and friendship. Immensely grateful; my work would not be where it is today without her collaboration as well as justifiable distractions of epic proportions. 🦜</p>
+              <p id="Amy-Guy"><a href="https://rhiaro.co.uk/#me" rel="cito:credits">Captain Amy Guy</a> for her advice and friendship. Immensely grateful; my work would not be where it is today without her collaboration as well as justifiable distractions of epic proportions. 🦜</p>
 
-              <p id="Herbert-Van-de-Sompel"><a href="http://hvdsomp.info/">Herbert Van de Sompel</a> for helping me to connect the fundamental dots to better situate my work in context of research communication. A mentor. 💡</p>
+              <p id="Herbert-Van-de-Sompel"><a href="https://hvdsomp.info/" rel="cito:credits">Herbert Van de Sompel</a> for helping me to connect the fundamental dots to better situate my work in context of research communication. A mentor. 💡</p>
 
-              <p id="Tim-Berners-Lee"><a href="https://www.w3.org/People/Berners-Lee/card#i">Tim Berners-Lee</a>, <em>the</em> Web developer that I look up to for inspiration and model perseverance to continue fighting for the Web. I am grateful to collaborate with Tim on the challenges ahead of us. 🕸</p>
+              <p id="Tim-Berners-Lee"><a href="https://www.w3.org/People/Berners-Lee/card#i" rel="cito:credits">Tim Berners-Lee</a>, <em>the</em> Web developer that I look up to for inspiration and model perseverance to continue fighting for the Web. I am grateful to collaborate with Tim on the challenges ahead of us. 🕸</p>
 
-              <p id="Kingsley-Idehen"><a href="http://kingsley.idehen.net/DAV/home/kidehen/profile.ttl#i">Kingsley Idehen</a>, my practice what you preach partner in crime. I have learned a lot from Kingsley as we aimed to realise cool Web stuff. 🧩</p>
+              <p id="Kingsley-Idehen"><a href="http://kingsley.idehen.net/DAV/home/kidehen/profile.ttl#i" rel="cito:credits">Kingsley Idehen</a>, my practice what you preach partner in crime. I have learned a lot from Kingsley as we aimed to realise cool Web stuff. 🧩</p>
 
-              <p id="Amy-van-der-Hiel"><a href="https://www.w3.org/People/#V">Amy van der Hiel</a> for ethical Web checks and having me remind myself to assess the value of what I do with respect to society and adjusting my aims accordingly. Her influence will continue to shape the fabric of the projects that I am involved in. 🧭</p>
+              <p id="Amy-van-der-Hiel"><a href="https://www.w3.org/People/#V" rel="cito:credits">Amy van der Hiel</a> for ethical Web checks and having me remind myself to assess the value of what I do with respect to society and adjusting my aims accordingly. Her influence will continue to shape the fabric of the projects that I am involved in. 🧭</p>
 
-              <p id="Bernadette-Hyland"><a href="https://about.me/bernadettehyland">Bernadette Hyland</a> for supporting me to hang in there for the long game. ✌</p>
+              <p id="Bernadette-Hyland"><a href="https://about.me/bernadettehyland" rel="cito:credits">Bernadette Hyland</a> for supporting me to hang in there for the long game. ✌</p>
 
-              <p id="Stian-Soiland-Reyes"><a href="http://www.soiland-reyes.com/stian/">Stian Soiland-Reyes</a> for brainstorming and experimenting on various Linked Data stuff. 🧐</p>
+              <p id="Stian-Soiland-Reyes"><a href="https://orcid.org/0000-0001-9842-9718" rel="cito:credits">Stian Soiland-Reyes</a> for brainstorming and experimenting on various Linked Data stuff. 🧐</p>
 
-              <p id="Ruben-Verborgh"><a href="https://ruben.verborgh.org/profile/#me">Ruben Verborgh</a> for being an exemplary researcher and developer to learn from, and support to better integrate our work out there in the wild. 🎸</p>
+              <p id="Ruben-Verborgh"><a href="https://ruben.verborgh.org/profile/#me" rel="cito:credits">Ruben Verborgh</a> for being an exemplary researcher and developer to learn from, and support to better integrate our work out there in the wild. 🎸</p>
 
-              <p id="Andrea-Scharnhorst"><a href="http://www.ehumanities.nl/andrea-scharnhorst/">Andrea Scharnhorst</a> for helping me to develop a sense of academic collaboration. 🤝</p>
+              <p id="Andrea-Scharnhorst"><a href="http://www.ehumanities.nl/andrea-scharnhorst/" rel="cito:credits">Andrea Scharnhorst</a> for helping me to develop a sense of academic collaboration. 🤝</p>
 
-              <p id="Axel-Polleres"><a href="http://polleres.net/">Axel Polleres</a> for his guidance and supporting initiatives to evolve research communication. 🎩</p>
+              <p id="Axel-Polleres"><a href="http://www.polleres.net/foaf.rdf#me" rel="cito:credits">Axel Polleres</a> for his guidance and supporting initiatives to evolve research communication. 🎩</p>
 
-              <p id="Dame-Wendy-Hall"><a href="https://wendy.ecs.soton.ac.uk/">Dame Wendy Hall</a> for keeping the spirit of the Web in scholarly communication alive. 👣</p>
+              <p id="Dame-Wendy-Hall"><a href="https://wendy.ecs.soton.ac.uk/" rel="cito:credits">Dame Wendy Hall</a> for keeping the spirit of the Web in scholarly communication alive. 👣</p>
 
-              <p id="Ilaria-Liccardi"><a href="https://people.csail.mit.edu/ilaria/">Ilaria Liccardi</a> for her mentorship and care to help me move my research forward. 🍎</p>
+              <p id="Ilaria-Liccardi"><a href="https://people.csail.mit.edu/ilaria/" rel="cito:credits">Ilaria Liccardi</a> for her mentorship and care to help me move my research forward. 🍎</p>
 
-              <p id="Henry-Story"><a href="http://bblfish.net/people/henry/card#me">Henry Story</a> for providing me with context to undoubtedly interconnected ideas in technology and philosophy. 🐠</p>
+              <p id="Henry-Story"><a href="http://bblfish.net/people/henry/card#me" rel="cito:credits">Henry Story</a> for providing me with context to undoubtedly interconnected ideas in technology and philosophy. 🐠</p>
 
-              <p id="Melvin-Carvalho"><a href="https://melvincarvalho.com/#me">Melvin Carvalho</a> for bouncing ideas on the intersection of McLuhan’s media theories and the Web. 📺</p>
+              <p id="Melvin-Carvalho"><a href="https://melvincarvalho.com/#me" rel="cito:credits">Melvin Carvalho</a> for bouncing ideas on the intersection of McLuhan’s media theories and the Web. 📺</p>
 
-              <p id="Christophe-Lange"><a href="https://langec.wordpress.com/about/">Christophe Lange</a> for helping to frame my work as research where I only thought it was just development. 📜</p>
+              <p id="Christophe-Lange"><a href="https://langec.wordpress.com/about/" rel="cito:credits">Christophe Lange</a> for helping to frame my work as research where I only thought it was just development. 📜</p>
 
-              <p id="Jodi-Schneider"><a href="http://jodischneider.com/">Jodi Schneider</a> for helping to improve my argumentation in research communication. 📚</p>
+              <p id="Jodi-Schneider"><a href="http://jodischneider.com/" rel="cito:credits">Jodi Schneider</a> for helping to improve my argumentation in research communication. 📚</p>
 
-              <p id="Miel-Vander-Sande"><a href="https://biblio.ugent.be/person/802001059760">Miel Vander Sande</a> for pushing me in the right direction to frame the design science of my work. 🖼</p>
+              <p id="Miel-Vander-Sande"><a href="https://biblio.ugent.be/person/802001059760" rel="cito:credits">Miel Vander Sande</a> for pushing me in the right direction to frame the design science of my work. 🖼</p>
 
-              <p id="Albert-Meroño-Peñuela"><a href="https://www.albertmeronyo.org/">Albert Meroño-Peñuela</a> for collaborating on <abbr title="Linked Statistical Data">LSD</abbr> and <abbr title="Linked Data Notifications">LDN</abbr>, and getting interesting results. ⊹</p>
+              <p id="Albert-Meroño-Peñuela"><a href="https://www.albertmeronyo.org/" rel="cito:credits">Albert Meroño-Peñuela</a> for collaborating on <abbr title="Linked Statistical Data">LSD</abbr> and <abbr title="Linked Data Notifications">LDN</abbr>, and getting interesting results. ⊹</p>
 
-              <p id="Paul-Groth"><a href="http://pgroth.com/">Paul Groth</a> is partly to blame for all this work as he (indirectly) challenged me to make it so. 🚀</p>
+              <p id="Paul-Groth"><a href="http://pgroth.com/" rel="cito:credits">Paul Groth</a> is partly to blame for all this work as he (indirectly) challenged me to make it so. 🚀</p>
 
-              <p id="the-anti-social-web">The (anti?)social Web: from your encouragement to your dismissal of radical and lunatic scholarly endeavours; being the widest sound board possible. 💬</p>
+              <p id="the-anti-social-web">The (anti?) <a href="https://en.wikipedia.org/wiki/Social_web" rel="cito:credits">Social Web</a>: from your encouragement to your dismissal of radical and lunatic scholarly endeavours; being the widest sound board possible. 💬</p>
             </div>
           </section>
 
@@ -3417,7 +3417,7 @@ support groups.</pre>
 
               <p>dokieli is not intended to be <em>the</em> solution for decentralised academic publishing and communication. My contribution is not the implementation itself, but rather the deep exploration and demonstration of how the, often complex and controversial, moving parts of the scholarly communications ecosystem can come together. What is presented here is a description of the state of the work at the time of writing. It is intended as a conceptual guide or model, and a minimum-viable baseline to be bettered by future developers and researchers. Certain development decisions were made based on existing literature, development, and observations in the relevant fields, which are discussed throughout the prior sections of this thesis. The major undertaking here was to develop dokieli with a thorough analysis of the technical possibilities of the Web <em>as well as</em> the social context in which academic researchers currently find themselves. This is not a quick-fix or a patch, but an ongoing and lengthy iterative process. It is my hope that future tooling built to support the forces and functions in decentralised scholarly communication can build upon the rationale for the ways in which dokieli is designed, and learn from the things that work and the things that do not.</p>
 
-              <p>While I am the original developer of dokieli, the code is <a href="http://github.com/linkeddata/dokieli" rel="cito:citesAsSourceDocument">open source, maintained it in public</a>, and accepts <a href="https://github.com/linkeddata/dokieli/#contributors" rel="cito:credits">attributed community contributions</a>. As a direct result of my work on dokieli I have also contributed to and been influenced by the following:</p>
+              <p>While I am the original developer of dokieli, the code is <a href="https://github.com/linkeddata/dokieli" rel="cito:citesAsSourceDocument">open source, maintained it in public</a>, and accepts <a href="https://github.com/linkeddata/dokieli/#contributors" rel="cito:credits">attributed community contributions</a>. As a direct result of my work on dokieli I have also contributed to and been influenced by the following:</p>
 
               <ul id="dokieli-related-contributions">
                 <li><cite><a data-versiondate="2019-07-09T21:22:06Z" data-versionurl="https://web.archive.org/web/20190709212206/https://www.w3.org/TR/annotation-html/" href="https://www.w3.org/TR/annotation-html/" rel="cito:citesAsAuthority">Embedding Web Annotations in HTML</a></cite>, a Note output of the W3C Web Annotation Working Group. The Note includes my contributions to representing annotations in HTML+RDFa derived from dokieli’s implementation of the WA Data Model and Vocabulary for HTML+RDFa representations.</li>
