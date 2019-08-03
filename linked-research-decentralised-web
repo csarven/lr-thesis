@@ -4750,14 +4750,14 @@ document.addEventListener('DOMContentLoaded', function(){
                 <footer>Attributed to <cite><a data-versiondate="2019-07-09T21:23:10Z" data-versionurl="https://web.archive.org/web/20190709212310/https://en.wikipedia.org/wiki/Buckminster_Fuller" href="https://en.wikipedia.org/wiki/Buckminster_Fuller" rel="cito:includesQuotationFrom">Buckminster Fuller</a></cite>.</footer>
               </blockquote>
 
-              <p>The <cite><a href="#motivation">motivation</a></cite> of this thesis along with the <cite><a href="#research-goals">research goals</a></cite> and <cite><a href="#research-questions">questions</a></cite> can be used as a lens to configuring <em>a</em> scholarly communication ecosystem. I generalise the configuration to formulate the <cite><a data-versiondate="2019-07-09T21:23:09Z" data-versionurl="https://web.archive.org/web/20190709212309/https://linkedresearch.org/" href="https://linkedresearch.org/" rel="cito:discusses">Linked Research</a></cite> (<abbr title="Linked Research">LR</abbr>) notion and initiative.</p>
+              <p>The <cite><a href="#motivation">Motivation</a></cite> of this thesis along with the <cite><a href="#research-goals">Research Goals</a></cite> and <cite><a href="#research-questions">Research Questions</a></cite> can be used as a lens to configuring <em>a</em> scholarly communication ecosystem. I generalise the configuration to formulate the <cite><a data-versiondate="2019-07-09T21:23:09Z" data-versionurl="https://web.archive.org/web/20190709212309/https://linkedresearch.org/" href="https://linkedresearch.org/" rel="cito:discusses">Linked Research</a></cite> (<abbr title="Linked Research">LR</abbr>) notion and initiative.</p>
 
               <p>Next, I will formulate a set of <cite><a href="#design-principles">Design Principles</a></cite> by generalising the core qualities of the concepts and implementations exhibited in this thesis.</p>
 
               <section id="design-principles" inlist="" rel="schema:hasPart" resource="#design-principles">
                 <h3 property="schema:name">Design Principles</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>Based on the observations and patterns involving the <cite><a href="#knowledge-goals">knowledge goals</a></cite> and <cite><a href="#technical-research-problems">technical research problems</a></cite>, I posit the <em>Linked Research design principles</em>:</p>
+                  <p>Based on the observations and patterns involving the <cite><a href="#knowledge-goals">Knowledge Goals</a></cite> and <cite><a href="#technical-research-problems">Technical Research Problems</a></cite>, I state the <em>Linked Research design principles</em>:</p>
 
                   <nav>
                     <ul>
@@ -5117,7 +5117,7 @@ document.addEventListener('DOMContentLoaded', function(){
               <section id="research-questions-review" inlist="" rel="schema:hasPart" resource="#research-questions-review">
                 <h3 property="schema:name">Research Questions Review</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>The sections <cite><a href="#scholarly-communication-on-the-web">Scholarly Communication on the Web</a></cite>, <cite><a href="#structure-of-scholarly-information">Structure of Scholarly Information</a></cite>, and <cite><a href="#decentralising-scholarly-communication">Decentralising Scholarly Communication</a></cite> served to explain the state of sociotechnical affairs in scholarly communication, as well as to identify knowledge gaps by answering the <a href="#knowledge-questions">knowledge questions</a> in order to address the <a href="#technical-research-problems">technical research problems</a>. In this section I will review how the technical research problems have been answered.</p>
+                  <p>The sections <cite><a href="#scholarly-communication-on-the-web">Scholarly Communication on the Web</a></cite>, <cite><a href="#structure-of-scholarly-information">Structure of Scholarly Information</a></cite>, and <cite><a href="#decentralising-scholarly-communication">Decentralising Scholarly Communication</a></cite> served to explain the state of sociotechnical affairs in scholarly communication, as well as to identify knowledge gaps by answering the <cite><a href="#knowledge-questions">Knowledge Questions</a></cite> in order to address the <cite><a href="#technical-research-problems">Technical Research Problems</a></cite>. In this section I will review how the technical research problems have been answered.</p>
 
                   <dl id="technical-research-problems-core-review">
                     <dt id="technical-research-problems-mechanisms-review">What technical mechanisms, standards or protocols can be employed for decentralised information exchange on the Web?</dt>
