@@ -837,10 +837,10 @@ support groups.</pre>
 
                       <p>Using the example RDF data from earlier about <a href="#paul-otlet-influenced-tim-berners-lee">Otlet’s relation to Berners-Lee</a> and <a href="#tim-berners-lee-name">his name</a> in an RDF store, the following query returns the data in a tabular format for the <span class="highlight-language-predicate-name">name</span>s of <span class="highlight-language-object">object</span>s that match the graph pattern where the <span class="highlight-language-subject">subject</span>s <em class="highlight-language-predicate-influenced">influenced</em>.</p>
 
-                      <figure id="sparql-query-result">
+                      <figure id="sparql-query-result" rel="schema:hasPart" resource="#sparql-query-result">
                         <p>SPARQL Query:</p>
 
-                        <pre><code>SELECT <span class="highlight-language-object">?object</span> <span class="highlight-language-object-name">?name</span></code>
+                        <pre about="#sparql-query-result" lang="" property="schema:description" typeof="fabio:Script" xml:lang=""><code>SELECT <span class="highlight-language-object">?object</span> <span class="highlight-language-object-name">?name</span></code>
 <code>WHERE {</code>
 <code>  &lt;<span class="highlight-language-subject">http://dbpedia.org/resource/Paul_Otlet</span>&gt;</code>
 <code>    &lt;<span class="highlight-language-predicate-influenced">http://dbpedia.org/ontology/influenced</span>&gt; <span class="highlight-language-object">?object</span> .</code>
@@ -856,7 +856,7 @@ support groups.</pre>
                           <tbody><tr><td><a class="highlight-language-object" href="http://dbpedia.org/resource/Tim_Berners-Lee">http://dbpedia.org/resource/Tim_Berners-Lee</a></td><td><span class="highlight-language-object-name">"Tim Berners-Lee"@en</span></td></tr></tbody>
                         </table>
 
-                        <figcaption>Example SPARQL Query and Result.</figcaption>
+                        <figcaption property="schema:name">Example SPARQL Query and Result.</figcaption>
                       </figure>
 
                       <p>The SPARQL suite is a powerful set of tools for inspecting and manipulating information based on the graph nature of the data.</p>
@@ -1612,7 +1612,7 @@ support groups.</pre>
 
                       <p id="knowledge-organisation"><strong>Knowledge Organisation</strong>: <cite><a data-versiondate="2019-07-09T21:22:03Z" data-versionurl="https://web.archive.org/web/20190709212203/https://www.w3.org/TR/skos-reference/" href="https://www.w3.org/TR/skos-reference/" rel="cito:citesAsAuthority">Simple Knowledge Organization System</a></cite> (<abbr title="Simple Knowledge Organization System">SKOS</abbr>) defines a common data model for structures like thesauri, taxonomies, classification schemes and subject heading systems in library and information sciences. SKOS is suitable to bridge different scientific communities to organise concepts by providing definitions, links, and possible mappings across collections.</p>
 
-                      <p id="participation"><strong>Participation</strong>: Actors are integral to social Web activities and the four functions of scholarly communication. Generally speaking, agent – human or machine – profiles can be described with the <cite><a data-versiondate="2019-07-09T21:22:05Z" data-versionurl="https://web.archive.org/web/20190709212205/http://xmlns.com/foaf/0.1/" href="http://xmlns.com/foaf/0.1/" rel="cito:citesAsAuthority">Friend of a Friend</a></cite> (<abbr title="Friend of a Friend">FOAF</abbr>) vocabulary to have a combination of what or who they are, what they have created, who they know, their memberships, and so forth. <cite><a data-versiondate="2019-07-10T18:00:11Z" data-versionurl="https://web.archive.org/web/20190710180011/http://rdfs.org/sioc/spec/" href="http://rdfs.org/sioc/spec/" rel="cito:citesAsAuthority">SIOC Core Ontology Specification</a></cite> provides concepts to describe information from online communities like weblogs, message boards, wikis, etc., as well as connections between their content items. <cite><a data-versiondate="2019-07-09T21:22:05Z" data-versionurl="https://web.archive.org/web/20190709212205/https://www.w3.org/TR/activitystreams-vocabulary/" href="https://www.w3.org/TR/activitystreams-vocabulary/" rel="cito:citesAsAuthority">Activity Vocabulary</a></cite> provides specific activity structures and types for objects and links (eg. article, event, place, mention), actors (eg. application, group, person, service) and for past, current or future social activities (eg. announce, create, like, invite, question). While the core vocabulary covers a wide range of activities, it can be extended to cover domain-specific scientific activities. The <cite><a data-versiondate="2019-07-09T21:22:05Z" data-versionurl="https://web.archive.org/web/20190709212205/https://www.w3.org/TR/annotation-vocab/" href="https://www.w3.org/TR/annotation-vocab/" rel="cito:citesAsAuthority">Web Annotation Vocabulary</a></cite> underpins the annotation model and is used to express information about a set of connected resources, typically conveying some sort of a relationship where the <q>body</q> of a resource is about the <q>target</q> resource. <cite><a data-versiondate="2019-07-09T21:22:06Z" data-versionurl="https://web.archive.org/web/20190709212206/https://www.w3.org/TR/annotation-html/" href="https://www.w3.org/TR/annotation-html/" rel="cito:citesAsAuthority">Embedding Web Annotations in HTML</a></cite> describes and illustrates potential approaches for including annotations within HTML documents using current specifications like RDFa or JSON-LD. <cite><a data-versiondate="2019-07-09T21:22:06Z" data-versionurl="https://web.archive.org/web/20190709212206/https://www.w3.org/TR/selectors-states/" href="https://www.w3.org/TR/selectors-states/" rel="cito:citesAsAuthority">Selectors and States</a></cite> describes the use of annotation Selectors as URI fragment identifiers relying on the formal specification and the semantics in the data model. Any resources can advertise a location where it can receive <cite><a data-versiondate="2019-07-09T21:19:12Z" data-versionurl="https://web.archive.org/web/20190709211912/https://www.w3.org/TR/ldn/" href="https://www.w3.org/TR/ldn/" rel="cito:citesAsAuthority">Linked Data Notifications</a></cite> for social activities eg. invitation to review an article, annotation being created. I describe LDN in detail later serving as one of the foundational components towards a decentralised and social Web. In order to indicate an agent’s cognitive pattern within contexts, their temporal dynamics and their origins, <cite><a data-versiondate="2019-07-09T21:22:10Z" data-versionurl="https://web.archive.org/web/20190709212210/http://smiy.sourceforge.net/cco/spec/cognitivecharacteristics.html" href="http://purl.org/ontology/cco/core" rel="cito:citesAsAuthority">The Cognitive Characteristics Ontology</a></cite> can be used eg. a human language competence.</p>
+                      <p id="participation"><strong>Participation</strong>: Actors are integral to social Web activities and the four functions of scholarly communication. Generally speaking, agent – human or machine – profiles can be described with the <cite><a data-versiondate="2019-07-09T21:22:05Z" data-versionurl="https://web.archive.org/web/20190709212205/http://xmlns.com/foaf/0.1/" href="http://xmlns.com/foaf/0.1/" rel="cito:citesAsAuthority">Friend of a Friend</a></cite> (<abbr title="Friend of a Friend">FOAF</abbr>) vocabulary to have a combination of what or who they are, what they have created, who they know, their memberships, and so forth. <cite><a data-versiondate="2019-07-07T12:46:03Z" data-versionurl="https://web.archive.org/web/20190707124603/https://www.w3.org/TR/vcard-rdf/" href="https://www.w3.org/TR/vcard-rdf/" rel="cito:citesAsAuthority">vCard Ontology - for describing People and Organizations</a></cite> describes the mapping of the vCard specification to RDF/OWL in order to allow compatible representations for personal data interchange. <cite><a data-versiondate="2019-07-10T18:00:11Z" data-versionurl="https://web.archive.org/web/20190710180011/http://rdfs.org/sioc/spec/" href="http://rdfs.org/sioc/spec/" rel="cito:citesAsAuthority">SIOC Core Ontology Specification</a></cite> provides concepts to describe information from online communities like weblogs, message boards, wikis, etc., as well as connections between their content items. <cite><a data-versiondate="2019-07-09T21:22:05Z" data-versionurl="https://web.archive.org/web/20190709212205/https://www.w3.org/TR/activitystreams-vocabulary/" href="https://www.w3.org/TR/activitystreams-vocabulary/" rel="cito:citesAsAuthority">Activity Vocabulary</a></cite> provides specific activity structures and types for objects and links (eg. article, event, place, mention), actors (eg. application, group, person, service) and for past, current or future social activities (eg. announce, create, like, invite, question). While the core vocabulary covers a wide range of activities, it can be extended to cover domain-specific scientific activities. The <cite><a data-versiondate="2019-07-09T21:22:05Z" data-versionurl="https://web.archive.org/web/20190709212205/https://www.w3.org/TR/annotation-vocab/" href="https://www.w3.org/TR/annotation-vocab/" rel="cito:citesAsAuthority">Web Annotation Vocabulary</a></cite> underpins the annotation model and is used to express information about a set of connected resources, typically conveying some sort of a relationship where the <q>body</q> of a resource is about the <q>target</q> resource. <cite><a data-versiondate="2019-07-09T21:22:06Z" data-versionurl="https://web.archive.org/web/20190709212206/https://www.w3.org/TR/annotation-html/" href="https://www.w3.org/TR/annotation-html/" rel="cito:citesAsAuthority">Embedding Web Annotations in HTML</a></cite> describes and illustrates potential approaches for including annotations within HTML documents using current specifications like RDFa or JSON-LD. <cite><a data-versiondate="2019-07-09T21:22:06Z" data-versionurl="https://web.archive.org/web/20190709212206/https://www.w3.org/TR/selectors-states/" href="https://www.w3.org/TR/selectors-states/" rel="cito:citesAsAuthority">Selectors and States</a></cite> describes the use of annotation Selectors as URI fragment identifiers relying on the formal specification and the semantics in the data model. Any resources can advertise a location where it can receive <cite><a data-versiondate="2019-07-09T21:19:12Z" data-versionurl="https://web.archive.org/web/20190709211912/https://www.w3.org/TR/ldn/" href="https://www.w3.org/TR/ldn/" rel="cito:citesAsAuthority">Linked Data Notifications</a></cite> for social activities eg. invitation to review an article, annotation being created. I describe LDN in detail later serving as one of the foundational components towards a decentralised and social Web. In order to indicate an agent’s cognitive pattern within contexts, their temporal dynamics and their origins, <cite><a data-versiondate="2019-07-09T21:22:10Z" data-versionurl="https://web.archive.org/web/20190709212210/http://smiy.sourceforge.net/cco/spec/cognitivecharacteristics.html" href="http://purl.org/ontology/cco/core" rel="cito:citesAsAuthority">The Cognitive Characteristics Ontology</a></cite> can be used eg. a human language competence.</p>
 
                       <p id="rights-and-responsibilities"><strong>Rights and Responsibilities</strong>: <cite><a data-versiondate="2019-07-09T21:22:08Z" data-versionurl="https://web.archive.org/web/20190709212208/https://creativecommons.org/ns" href="http://creativecommons.org/ns" rel="cito:citesAsAuthority">Creative Commons Rights Expression Language</a></cite> lets licenses to be described – jurisdiction, permissions, requirements, license and work properties – and having them attached to digital works. The <cite><a data-versiondate="2019-07-09T21:22:08Z" data-versionurl="https://web.archive.org/web/20190709212208/https://creativecommons.org/licenses/" href="https://creativecommons.org/licenses/" rel="cito:citesAsAuthority">Creative Commons licenses</a></cite> is intended to enable sharing and reuse of creative works and knowledge, by specifying how something – like scientific and scholarly resources – may be copied, distributed, edited, remixed, and built upon. The <cite><a data-versiondate="2019-07-09T21:22:08Z" data-versionurl="https://web.archive.org/web/20190709212208/https://www.w3.org/ns/odrl/2/" href="https://www.w3.org/ns/odrl/2/" rel="cito:citesAsAuthority">Open Digital Rights Language</a></cite> (<abbr title="Open Digital Rights Language">ODRL</abbr>) makes it possible to express permissions and obligations about the usage of content and services. <cite><a data-versiondate="2019-07-09T21:22:08Z" data-versionurl="https://web.archive.org/web/20190709212208/https://www.w3.org/TR/odrl-vocab/" href="https://www.w3.org/TR/odrl-vocab/" rel="cito:citesAsAuthority">ODRL Vocabulary &amp; Expression</a></cite> describes how to encode such policies.</p>
 
@@ -1980,10 +1980,10 @@ support groups.</pre>
 
                   <p>I have authority of the domain name <code class="highlight-webid-authority">csarven.ca</code> where I publish my <cite>WebID Profile</cite> document <a class="highlight-webid-profile" href="https://csarven.ca/">https://csarven.ca/</a> describing my <cite>WebID</cite> <samp class="highlight-webid">https://csarven.ca/#i</samp> referring to me (in real life).</p>
 
-                  <figure class="listing" id="example-webid-profile">
+                  <figure class="listing" id="example-webid-profile" rel="schema:hasPart" resource="#example-webid-profile">
                     <p class="hierarchical-outline"><a class="highlight-webid" href="https://csarven.ca/#i" title="WebID"><span class="highlight-webid-profile" title="WebID Profile">https://<span class="highlight-webid-authority">csarven.ca</span>/</span>#i</a></p>
 
-                    <pre><code>&lt;<span class="highlight-webid-profile">https://csarven.ca/</span>&gt;</code>
+                    <pre about="#example-webid-profile" lang="" property="schema:description" typeof="fabio:Dataset" xml:lang=""><code>&lt;<span class="highlight-webid-profile">https://csarven.ca/</span>&gt;</code>
 <code>  a foaf:PersonalProfileDocument ;</code>
 <code>  foaf:primaryTopic &lt;https://csarven.ca/#i&gt; .</code>
 <code></code>
@@ -2001,18 +2001,18 @@ support groups.</pre>
 <code>  as:outbox &lt;https://csarven.ca/outbox/&gt; ;</code>
 <code>  foaf:made &lt;https://dokie.li/&gt; ;</code>
 <code>  rdfs:seeAlso &lt;https://csarven.ca/cv&gt; .</code></pre>
-                    <figcaption>A WebID Profile describing a WebID.</figcaption>
+                    <figcaption property="schema:name">A WebID Profile describing a WebID.</figcaption>
                   </figure>
 
                   <p id="multiple-identities"><strong>Multiple identities</strong>: Individuals may want to be associated with multiple identities to fulfill diverse needs and social expectations. For instance, academics, politicians, employees, and artists, to name a few, may want to perform their online activities using public identifiers, so that they can be discovered, attributed, rewarded, trusted etc. There can also be quasi-public identities issued by a government or a bank to connect individuals to the physical world. Furthermore, individuals may wish to have several personal – public or private – identities and self representations, eg. on social networks, to address different needs. At any event, identities and corresponding identifiers can be registered and managed by different entities, and may be interlinked.</p>
 
                   <p id="orcid-sameas-webid">For instance, while ORCID profile description has constraints, it allows extensibility in the form of asserting a "same as" relation through its UI, so that the ORCID URI can be linked to other WebIDs. This essentially makes a connection to another <cite><a href="#self-describing">self-describing document</a></cite> and facilitates <cite><a href="#follow-your-nose">follow-your-nose</a></cite> discovery. My personal WebID which is under my control is <a href="https://csarven.ca/#i">https://csarven.ca/#i</a>. I also have an ORCID identifier that also serves as a WebID: <a href="https://orcid.org/0000-0002-0880-9125">https://orcid.org/0000-0002-0880-9125</a> which also has an RDF representation. As ORCID’s user interface allows people to extend their descriptions with certain fields, it is possible to add <em>same as</em> or <em>preferred URI</em> relations:</p>
 
-                  <figure class="listing" id="example-orcid-sameas-webid">
-                    <pre><code>&lt;https://orcid.org/0000-0002-0880-9125&gt; ;</code>
+                  <figure class="listing" id="example-orcid-sameas-webid" rel="schema:hasPart" resource="#example-orcid-sameas-webid">
+                    <pre about="#example-orcid-sameas-webid" lang="" property="schema:description" typeof="fabio:Dataset" xml:lang=""><code>&lt;https://orcid.org/0000-0002-0880-9125&gt; ;</code>
 <code>  <span class="highlight-predicate-sameas">owl:sameAs</span> &lt;https://csarven.ca/#i&gt; ;</code>
 <code>  contact:preferredURI "https://csarven.ca/#i" .</code></pre>
-                    <figcaption>WebID with same as and preferred URI relations.</figcaption>
+                    <figcaption property="schema:name">WebID with same as and preferred URI relations.</figcaption>
                   </figure>
 
                   <p id="linking-identities">The <code class="highlight-predicate-sameas">owl:sameAs</code> and <code>contact:preferredURI</code> information provides an opportunity for applications consuming the ORCID WebID to potentially discover more information about other entities. This is particularly useful as the ORCID WebID Profile is not completely open to add arbitrary information. For example, specifying a person’s picture or their contacts is not currently possible with ORCID, however, if the alternative profiles (https://csarven.ca/#i) contain such information, they can be purposed to know more about the entity.</p>
@@ -2027,13 +2027,13 @@ support groups.</pre>
 
                   <p>Both the entities (nodes) and the relations (edges) of a social graph may have public and private parts. An example of a social graph where someone knows someone that knows someone, is as follows:</p>
 
-                  <figure class="listing" id="example-person-knows">
-                    <pre><code>&lt;https://www.w3.org/People/Berners-Lee/card#i&gt;</code>
+                  <figure class="listing" id="example-person-knows" rel="schema:hasPart" resource="#example-person-knows">
+                    <pre about="#example-person-knows" lang="" property="schema:description" typeof="fabio:Dataset" xml:lang=""><code>&lt;https://www.w3.org/People/Berners-Lee/card#i&gt;</code>
 <code>  foaf:knows &lt;https://csarven.ca/#i&gt; .</code>
 <code></code>
 <code>&lt;https://csarven.ca/#i&gt;</code>
 <code>  foaf:knows &lt;https://bblfish.net/people/henry/card#me&gt; .</code></pre>
-                    <figcaption>Tim knows Sarven, and Sarven knows Henry.</figcaption>
+                    <figcaption property="schema:name">Tim knows Sarven, and Sarven knows Henry.</figcaption>
                   </figure>
                 </div>
               </section>
@@ -2055,25 +2055,25 @@ support groups.</pre>
 
                   <p id="cert-public-key"><cite><a data-versiondate="2019-07-09T21:22:09Z" data-versionurl="https://web.archive.org/web/20190709212209/https://www.w3.org/ns/auth/cert" href="https://www.w3.org/ns/auth/cert" rel="cito:citesAsAuthority">The Cert Ontology 1.0</a></cite> can be used in WebID Profile documents to specify an agent’s certificate information. For example, an agent can indicate their public and private keys. The fields and corresponding values of <code class="highlight-x509-public-key-algorithm">Public Key Algorithm</code>, <code class="highlight-x509-modulus">Modulus</code>, and <code class="highlight-x509-exponent">Exponent</code> in the X.509 certificate are used in the WebID Profile as part of <code class="highlight-x509-rsa-public-key">cert:RSAPublicKey</code>, <code>cert:exponent</code>, and <code>cert:modulus</code>. <code class="highlight-x509-uri">URI</code> under <span class="highlight-x509-san">SAN</span> is our <span class="highlight-webid">WebID</span>. An example where information about an RSA Public Key is associated with a WebID:</p>
 
-                  <figure class="listing" id="example-rsa-puclic-key-webid">
-                    <pre><code>&lt;<span class="highlight-webid">https://csarven.ca/#i</span>&gt;</code>
+                  <figure class="listing" id="example-rsa-puclic-key-webid" rel="schema:hasPart" resource="#example-rsa-puclic-key-webid">
+                    <pre about="example-rsa-puclic-key-webid" lang="" property="schema:description" typeof="fabio:Script" xml:lang=""><code>&lt;<span class="highlight-webid">https://csarven.ca/#i</span>&gt;</code>
 <code>  cert:key &lt;https://csarven.ca/#cert&gt; .</code>
 <code></code>
 <code>&lt;https://csarven.ca/#cert&gt;</code>
 <code>  a <span class="highlight-x509-rsa-public-key">cert:RSAPublicKey</span> ;</code>
 <code>  <span class="highlight-x509-exponent">cert:exponent</span> "65537"^^xsd:nonNegativeInteger ;</code>
 <code>  <span class="highlight-x509-modulus">cert:modulus</span> "caf6a78d16e80f930337453d84f790764c56ea58acbeda5de3d17b6e673569ef581b896b74466655fb3da2f9a961c6d46d99e77053a0aaf83fac4eab8b9198f20930672de22cb1b22f0ab85a66c95a6830eaa7be1e28ec197ff7a4a448243af2f206d2be458bbc71f32aa073315e22c9b2668fe15c732a33edcfd9fa39d04706191044f33e580f954e6a1d9c4bf08c820c4666f5ef8554cf1430a33b630c80d11f7d309cb641b213fcbfc9a5b699af625fe23627c403ff12d79514178728537aa173aba5bc5aeb87569eba1be3274aa53d9b2f8fe72f13ba8125e734e8e31128303c76594327c4c2e431e38f2b326cc244080e597a4d27a98ae3fe1edb5de785"^^xsd:hexBinary .</code></pre>
-                    <figcaption>RSA Public Key information associated with a WebID URI.</figcaption>
+                    <figcaption property="schema:name">RSA Public Key information associated with a WebID URI.</figcaption>
                   </figure>
 
                   <p>WebID Profiles using the Cert Ontology can help authenticating servers to discover researchers public keys which can be used towards verifying identity claims.</p>
 
                   <p id="webid-tls-delegation"><cite>WebID-TLS-Delegation</cite> is an an extension to WebID-TLS that enables users to delegate other agents to act on their behalf. In <cite><a data-versiondate="2019-07-10T07:53:49Z" data-versionurl="https://web.archive.org/web/20190710075349/http://ceur-ws.org/Vol-905/TrampEtAl_COLD2012.pdf" href="http://ceur-ws.org/Vol-905/TrampEtAl_COLD2012.pdf" rel="cito:citesAsAuthority">Extending the WebID Protocol with Access Delegation</a></cite>, Tramp, 2012, states how a <q>principal</q> agent can delegate authentication and access to a trusted <q>secretary</q> agent – typically a third-party software – who can act <em>on behalf of</em> of the principal agent to perform (asynchronous) requests. A secretary with its own WebID acting on behalf of a user can potentially have the same (or required) privileges while still being distinguishable eg. via different public key, and capabilities. An agent can declare a delegation as follows:</p>
 
-                  <figure class="listing" id="example-acl-delegates">
-                    <pre><code>&lt;<span class="highlight-webid">https://csarven.ca/#i</span>&gt;</code>
+                  <figure class="listing" id="example-acl-delegates" rel="schema:hasPart" resource="#example-acl-delegates">
+                    <pre about="example-acl-delegates" lang="" property="schema:description" typeof="fabio:Dataset" xml:lang=""><code>&lt;<span class="highlight-webid">https://csarven.ca/#i</span>&gt;</code>
 <code>  acl:delegates &lt;https://example.org/application#i&gt; .</code></pre>
-                    <figcaption>An agent delegating another agent to act on its behalf.</figcaption>
+                    <figcaption property="schema:name">An agent delegating another agent to act on its behalf.</figcaption>
                   </figure>
 
                   <p>whereas the agent making requests on behalf of another agent would include the HTTP <code>On-Behalf-Of</code> header when making requests.</p>
@@ -2086,24 +2086,24 @@ support groups.</pre>
 
                   <p>The following code snippets of authorization policies are used to specify the ACL information (eg. <samp>resource.acl</samp>) associated with a resource (eg. <samp>resource</samp>) on a server. For example, setting an authorization policy where an agent (<code>https://csarven.ca/#i</code>) has write access to resources, as well as control access to their respective ACLs:</p>
 
-                  <figure class="listing" id="example-acl-control">
-                    <pre><code>&lt;#write-control&gt;</code>
+                  <figure class="listing" id="example-acl-control" rel="schema:hasPart" resource="#example-acl-control">
+                    <pre about="#example-acl-control" lang="" property="schema:description" typeof="fabio:Dataset" xml:lang=""><code>&lt;#write-control&gt;</code>
 <code>  a acl:Authorization ;</code>
 <code>  acl:agent &lt;https://csarven.ca/#i&gt; ;</code>
 <code>  acl:accessTo &lt;./&gt; ;</code>
 <code>  acl:mode acl:Write, acl:Control .</code></pre>
-                    <figcaption>An authorization policy that assigns write and control access for an agent.</figcaption>
+                    <figcaption property="schema:name">An authorization policy that assigns write and control access for an agent.</figcaption>
                   </figure>
 
                   <p>Setting a class of agents to perform read and append operations on a resource eg. an inbox:</p>
 
-                  <figure class="listing" id="example-acl-read-append">
-                    <pre><code>&lt;#read-append&gt;</code>
+                  <figure class="listing" id="example-acl-read-append" rel="schema:hasPart" resource="#example-acl-control">
+                    <pre about="#example-acl-control" lang="" property="schema:description" typeof="fabio:Dataset" xml:lang=""><code>&lt;#read-append&gt;</code>
 <code>  a acl:Authorization ;</code>
 <code>  acl:agentClass foaf:Agent ;</code>
 <code>  acl:accessTo &lt;./&gt; ;</code>
 <code>  acl:mode acl:Read , acl:Append .</code></pre>
-                    <figcaption>An authorization policy that gives append access to a class of agents for a resource.</figcaption>
+                    <figcaption property="schema:name">An authorization policy that gives append access to a class of agents for a resource.</figcaption>
                   </figure>
 
                   <p>ACL plays a role in determining which authorization policies to apply when a resource is requested eg. raw sensitive data, private social graph, initial versions of an article.</p>
@@ -2690,7 +2690,7 @@ support groups.</pre>
                       <p>Discovering an inbox:</p>
 
                       <figure class="listing" id="discovery-json-example-compact" rel="schema:hasPart" resource="#discovery-json-example-compact">
-                        <pre about="#discovery-json-example-compact" property="schema:description" typeof="fabio:Script"><code>GET / HTTP/1.1</code>
+                        <pre about="#discovery-json-example-compact" lang="" property="schema:description" typeof="fabio:Script" xml:lang=""><code>GET / HTTP/1.1</code>
 <code>Host: csarven.ca</code>
 <code>Accept: application/ld+json</code>
 <code></code>
@@ -2702,13 +2702,13 @@ support groups.</pre>
 <code>  "@id": "https://csarven.ca/#i",</code>
 <code>  "inbox": "https://csarven.ca/inbox/"</code>
 <code>}</code></pre>
-                        <figcaption>Discovering an Inbox with a <code>HTTP GET</code> request to retrieve JSON-LD. Response in JSON-LD compact form.</figcaption>
+                        <figcaption property="schema:name">Discovering an Inbox with a <code>HTTP GET</code> request to retrieve JSON-LD. Response in JSON-LD compact form.</figcaption>
                       </figure>
 
                       <p>Consumer requesting the inbox and receiver’s response:</p>
 
                       <figure class="listing" id="get-inbox-response" rel="schema:hasPart" resource="#get-inbox-response">
-                        <pre about="#get-inbox-response" property="schema:description" typeof="fabio:Script"><code>GET /inbox/ HTTP/1.1</code>
+                        <pre about="#get-inbox-response" lang="" property="schema:description" typeof="fabio:Script" xml:lang=""><code>GET /inbox/ HTTP/1.1</code>
 <code>Host: example.org</code>
 <code>Accept: application/ld+json</code>
 <code>Accept-Language: en-GB,en;q=0.8, en-US;q=0.6</code>
@@ -2725,15 +2725,14 @@ support groups.</pre>
 <code>    "http://example.org/inbox/92d72f00"</code>
 <code>  ]</code>
 <code>}</code></pre>
-                        <figcaption>Receiver responding to a <code>HTTP GET</code> request on the Inbox with a listing of notifications.</figcaption>
+                        <figcaption property="schema:name">Receiver responding to a <code>HTTP GET</code> request on the Inbox with a listing of notifications.</figcaption>
                       </figure>
 
 
                       <p>Consumer getting a notification:</p>
 
                       <figure class="listing" id="notification-announce-annotation" rel="schema:hasPart" resource="#notification-announce-annotation">
-
-                        <pre about="#notification-announce-annotation" property="schema:description" typeof="fabio:Script"><code>GET /inbox/14a792f0 HTTP/1.1</code>
+                        <pre about="#notification-announce-annotation" lang="" property="schema:description" typeof="fabio:Script" xml:lang=""><code>GET /inbox/14a792f0 HTTP/1.1</code>
 <code>Host: example.org</code>
 <code>Accept: application/ld+json, text/turtle, application/xhtml+xml, text/html</code>
 <code>Accept-Language: en-GB,en;q=0.8, en-US;q=0.6</code>
@@ -2766,14 +2765,14 @@ support groups.</pre>
 <code>    "@value": "2016-06-28T19:56:20.114Z"</code>
 <code>  }</code>
 <code>}</code></pre>
-                        <figcaption><span about="#test-consumer-notification-assessing" id="test-consumer-notification-assessing" property="skos:definition" rel="skos:topConceptOf" resource="#ldn-tests-consumer" typeof="skos:Concept">Result of a GET request on an individual notification discovered in an Inbox</span>.</figcaption>
+                        <figcaption property="schema:name">Result of a GET request on an individual notification discovered in an Inbox.</figcaption>
                       </figure>
 
 
                       <p>Sending a notification:</p>
 
                       <figure class="listing" id="sending-notification-request" rel="schema:hasPart" resource="#sending-notification-request">
-                        <pre about="#sending-notification-request" property="schema:description" typeof="fabio:Script"><code>POST /inbox/ HTTP/1.1</code>
+                        <pre about="#sending-notification-request" lang="" property="schema:description" typeof="fabio:Script" xml:lang=""><code>POST /inbox/ HTTP/1.1</code>
 <code>Host: example.org</code>
 <code>Content-Type: application/ld+json;profile="https://www.w3.org/ns/activitystreams"</code>
 <code>Content-Language: en</code>
@@ -2794,7 +2793,7 @@ support groups.</pre>
                       <p>Response to send request:</p>
 
                       <figure class="listing" id="sending-notification-response" rel="schema:hasPart" resource="#sending-notification-response">
-                        <pre about="#sending-notification-response" property="schema:description" typeof="fabio:Script"><code>HTTP/1.1 201 Created</code>
+                        <pre about="#sending-notification-response" lang="" property="schema:description" typeof="fabio:Script" xml:lang=""><code>HTTP/1.1 201 Created</code>
 <code>Location: http://example.org/inbox/5c6ca040</code></pre>
                         <figcaption property="schema:name">Example response to a <code>POST</code> request on an Inbox.</figcaption>
                       </figure>
@@ -2802,7 +2801,7 @@ support groups.</pre>
                       <p>Sender initiates content-negotiation and sends notifications:</p>
 
                       <figure class="listing" id="notification-qualified-relation" inlist="" rel="schema:hasPart" resource="#notification-qualified-relation">
-                        <pre about="#notification-qualified-relation" property="schema:description" typeof="fabio:Script"><code>OPTIONS /inbox/ HTTP/1.1</code>
+                        <pre about="#notification-qualified-relation" lang="" property="schema:description" typeof="fabio:Script" xml:lang=""><code>OPTIONS /inbox/ HTTP/1.1</code>
 <code>Host: example.org</code>
 <code></code>
 <code>HTTP/1.1 200 OK</code>
@@ -3096,8 +3095,8 @@ support groups.</pre>
 
                       <p>The figure <cite><a href="#table-comparison-of-notification-mechanisms">Comparison of notification mechanisms</a></cite> is derived from <a href="https://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms">https://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms</a> and modified to include <cite>WebSub</cite>.</p>
 
-                      <figure id="survey-comparison-of-notification-mechanisms">
-                        <table id="table-comparison-of-notification-mechanisms">
+                      <figure id="survey-comparison-of-notification-mechanisms" rel="schema:hasPart" resource="#survey-comparison-of-notification-mechanisms">
+                        <table  id="table-comparison-of-notification-mechanisms">
                           <caption>Comparison of notification mechanisms</caption>
                           <thead>
                             <tr>
@@ -3284,7 +3283,7 @@ support groups.</pre>
                           </tfoot>
                         </table>
 
-                        <figcaption>Comparison of Notification Mechanisms.</figcaption>
+                        <figcaption property="schema:name">Comparison of Notification Mechanisms.</figcaption>
                       </figure>
 
                       <p>All of the notification mechanisms specify multiple roles, with the Sender (S) being common across all of them. LDN is the only mechanism which describes the Consumer (C) role; this explicitly highlights how notifications can be useful to applications other than those concerned with sending and receiving. For mechanisms which include a Subscriber (U) role, the Receiver (R) is essentially also the Consumer, so Receivers are less generic and require specialised payloads. In this respect, LDN is a more modular specification. LDN Receivers need not be concerned with additional actions beyond storing and exposing notifications; complex and domain-specific uses of the notifications are left to Consumers, resulting in a lot more flexibility in terms of lightweight end-user applications.</p>
@@ -3925,13 +3924,13 @@ support groups.</pre>
 
                       <p>An brief example of a Web Annotation with the reply motivation:</p>
 
-                      <figure class="listing" id="example-annotation-replying">
-                        <pre><code>&lt;http://example.org/annotation&gt;</code>
+                      <figure class="listing" id="example-annotation-replying" rel="schema:hasPart" resource="#example-annotation-replying">
+                        <pre about="#example-annotation-replying" lang="" property="schema:description" typeof="fabio:Dataset" xml:lang=""><code>&lt;http://example.org/annotation&gt;</code>
 <code>  a <span class="highlight-oa-annotation">oa:Annotation</span> ;</code>
 <code>  oa:motivatedBy <span class="highlight-oa-replying">oa:replying</span> ;</code>
 <code>  oa:hasTarget &lt;<span class="highlight-oa-hastarget">http://example.net/article</span>&gt; ;</code>
 <code>  oa:hasBody &lt;<span class="highlight-oa-hasbody">http://example.info/note</span>&gt; .</code></pre>
-                        <figcaption>Example annotation that is motivated by replying.</figcaption>
+                        <figcaption property="schema:name">Example annotation that is motivated by replying.</figcaption>
                       </figure>
 
 
@@ -3973,7 +3972,7 @@ document.addEventListener('DOMContentLoaded', function(){
                         </figure>
 
                         <figure class="listing" id="annotation-html-rdfa" rel="schema:hasPart" resource="#annotation-html-rdfa">
-                          <pre about="#annotation-html-rdfa" property="schema:description" typeof="fabio:Script"><code>&lt;article about="#a112cb4b-6814-4687-933d-8c25c917c746" id="a112cb4b-6814-4687-933d-8c25c917c746" typeof="oa:Annotation" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# schema: http://schema.org/ dcterms: http://purl.org/dc/terms/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp#"&gt;</code>
+                          <pre about="#annotation-html-rdfa" lang="" property="schema:description" typeof="fabio:Dataset" xml:lang=""><code>&lt;article about="#a112cb4b-6814-4687-933d-8c25c917c746" id="a112cb4b-6814-4687-933d-8c25c917c746" typeof="oa:Annotation" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# schema: http://schema.org/ dcterms: http://purl.org/dc/terms/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp#"&gt;</code>
 <code>  &lt;h3 property="schema:name"&gt;Sarven Capadisli &lt;span rel="oa:motivatedBy" resource="oa:replying"&gt;replies&lt;/span&gt;&lt;/h3&gt;</code>
 <code>  &lt;dl class="author-name"&gt;&lt;dt&gt;Authors&lt;/dt&gt;&lt;dd&gt;&lt;span rel="schema:creator"&gt;&lt;span about="https://csarven.ca/#i" typeof="schema:Person"&gt;&lt;img alt="" height="48" rel="schema:image" src="https://csarven.ca/media/images/sarven-capadisli.jpg" width="48" /&gt; &lt;a href="https://csarven.ca/#i"&gt;&lt;span about="https://csarven.ca/#i" property="schema:name"&gt;Sarven Capadisli&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/dd&gt;&lt;/dl&gt;</code>
 <code>  &lt;dl class="published"&gt;&lt;dt&gt;Published&lt;/dt&gt;&lt;dd&gt;&lt;a href="#a112cb4b-6814-4687-933d-8c25c917c746"&gt;&lt;time datetime="2019-02-18T00:30:11.101Z" datatype="xsd:dateTime" property="schema:datePublished" content="2019-02-18T00:30:11.101Z"&gt;2019-02-18 00:30:11&lt;/time&gt;&lt;/a&gt;&lt;/dd&gt;&lt;/dl&gt;</code>
@@ -4124,10 +4123,10 @@ document.addEventListener('DOMContentLoaded', function(){
 
                       <p id="contextual-citations"><strong>Contextual Citations</strong>: One way to create a citation in dokieli is by authors selecting a node or a text fragment of interest in their document, and then inserting the URI of the resource to be linked to, as well as a specifying the type of semantic link between them in a specific or general way using the classifications available from the CiTO ontology eg. using <q>agrees with</q>, <q>confirms</q>, <q class="highlight-cites-as-evidence">cites as evidence</q>. The input for the cited entity can be any HTTP URI, DOI string, or <abbr title="International Standard Serial Number">ISSN</abbr> string, and when resolved from a corresponding HTTP URL, the content in RDF is used towards constructing the citation. dokieli takes the input target URI, and retrieves data (like title, authors) expressed in RDF in the linked document, integrates a statement expressed in RDF eg. figure <a href="#example-cites-as-evidence">cites as evidence</a>, in context of the content, the citation intention as human-readable text, and adds a scientific endnote reference including the retrieved information. As a citation results in the assigning an HTTP URI for the citing entity, it can be further semantically annotated by the actor.</p>
 
-                      <figure class="listing" id="example-cites-as-evidence">
-                        <pre><code id="citation-data-shape-must-L1">&lt;http://example.org/article#argument&gt;</code>
+                      <figure class="listing" id="example-cites-as-evidence" rel="schema:hasPart" resource="#example-cites-as-evidence">
+                        <pre about="#example-cites-as-evidence" lang="" property="schema:description" typeof="fabio:Dataset" xml:lang=""><code id="citation-data-shape-must-L1">&lt;http://example.org/article#argument&gt;</code>
 <code id="citation-data-shape-must-L2">  <span class="highlight-cites-as-evidence">cito:citesAsEvidence</span> &lt;http://example.net/observation#results&gt; .</code></pre>
-                        <figcaption>The citing entity (an argument) cites the cited entity (observation results) as source of factual evidence for statements it contains.</figcaption>
+                        <figcaption properrt="schema:name">The citing entity (an argument) cites the cited entity (observation results) as source of factual evidence for statements it contains.</figcaption>
                       </figure>
 
                       <p id="robust-citations"><strong>Robust Citations</strong>: In order to preserve the context of the citation as well as taking content-drift and link-rot into account, first a snapshot of the cited entity’s URI is created at the <cite>Internet Archive</cite>, and then both the archived URI and its datetime stamp is incorporated to the referencing hyperlink – the original citation resource.</p>
