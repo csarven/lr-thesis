@@ -397,13 +397,11 @@
                     <p><span datatype="rdf:HTML" property="schema:name">This Thesis is a <q>Knowledge Graph</q>.</span> <span datatype="rdf:HTML" property="schema:description"><cite><a href="#linked-data">Linked Data</a></cite> aware applications can use the resource’s <a about="#action-this-thesis-is-a-knowledge-graph" href="" id="action-this-thesis-is-a-knowledge-graph" rel="schema:object">underlying structured data</a> to offer <span about="" rel="schema:potentialAction"><a href="#action-this-thesis-is-a-knowledge-graph" typeof="schema:ViewAction">visualisation and interaction</a></span> possibilities.</span></p>
                   </figure>
 
-                  <p>This section outlines a high-level structure of the thesis.</p>
+                  <p>All information of significance in this thesis is made available as <cite><a href="#linked-data">Linked Data</a></cite> on the Web and archived.</p>
 
                   <section id="document-structure" inlist="" rel="schema:hasPart" resource="#document-structure">
                     <h4 property="schema:name">Structure</h4>
                     <div datatype="rdf:HTML" property="schema:description">
-                      <p>All information of significance in this thesis is made available as <cite><a href="#linked-data">Linked Data</a></cite> on the Web and archived.</p>
-
                       <p>This thesis is sectioned into following main topic areas:</p>
 
                       <dl>
