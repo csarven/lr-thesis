@@ -557,7 +557,7 @@
                   <section id="on-mediums" inlist="" rel="schema:hasPart" resource="#on-mediums">
                     <h4 property="schema:name">On Mediums</h4>
                     <div datatype="rdf:HTML" property="schema:description">
-                      <blockquote cite="urn:isbn:9780262633178">
+                      <blockquote cite="http://www.worldcat.org/oclc/249804097">
                         <p>Gutenberg had, in effect, made every man a reader. Today, Xerox and other forms of reprography tend to make every man a publisher. This massive reversal has, for one of its consequences, elitism. The nature of the mass production of uniform volumes certainly did not foster elites but rather habits of universal reading. Paradoxically, when there are many readers, the author can wield great private power, whereas small reading elites may exert large corporate power.</p>
 
                         <footer><cite><a data-versiondate="2019-07-24T21:59:03Z" data-versionurl="https://web.archive.org/web/20190724215903/https://www.worldcat.org/title/understanding-me-lectures-and-interviews/oclc/249804097" href="http://www.worldcat.org/oclc/249804097" rel="cito:includesQuotationFrom">Understanding Me</a></cite>, The Future of the Book, p. 179, Marshall McLuhan, 1972</footer>
@@ -4765,10 +4765,10 @@ document.addEventListener('DOMContentLoaded', function(){
           <section id="linked-research" inlist="" rel="schema:hasPart" resource="#linked-research">
             <h2 property="schema:name">Linked Research</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <blockquote cite="https://en.wikipedia.org/wiki/Buckminster_Fuller">
+              <blockquote cite="https://en.wikiquote.org/wiki/Buckminster_Fuller">
                 <p>You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.</p>
 
-                <footer>Attributed to <cite><a data-versiondate="2019-07-09T21:23:10Z" data-versionurl="https://web.archive.org/web/20190709212310/https://en.wikipedia.org/wiki/Buckminster_Fuller" href="https://en.wikipedia.org/wiki/Buckminster_Fuller" rel="cito:includesQuotationFrom">Buckminster Fuller</a></cite>.</footer>
+                <footer>Attributed to <cite><a data-versiondate="2019-07-09T21:23:10Z" data-versionurl="https://web.archive.org/web/20190625051016/https://en.wikiquote.org/wiki/Buckminster_Fuller" href="https://en.wikiquote.org/wiki/Buckminster_Fuller" rel="cito:includesQuotationFrom">Buckminster Fuller</a></cite>.</footer>
               </blockquote>
 
               <p>The <cite><a href="#motivation">Motivation</a></cite> of this thesis along with the <cite><a href="#research-goals">Research Goals</a></cite> and <cite><a href="#research-questions">Research Questions</a></cite> can be used as a lens to configuring <em>a</em> scholarly communication ecosystem. I generalise the configuration to formulate the <cite><a data-versiondate="2019-07-09T21:23:09Z" data-versionurl="https://web.archive.org/web/20190709212309/https://linkedresearch.org/" href="https://linkedresearch.org/" rel="cito:discusses">Linked Research</a></cite> (<abbr title="Linked Research">LR</abbr>) notion and initiative.</p>
