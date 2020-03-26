@@ -1879,7 +1879,7 @@ support groups.</pre>
               </section>
 
               <section id="decentralised-dataspaces" inlist="" rel="schema:hasPart" resource="#decentralised-dataspaces">
-                <h3 property="schena:name">Decentralised Dataspaces</h3>
+                <h3 property="schema:name">Decentralised Dataspaces</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>In this section I discuss existing research involving the decentralisation of dataspaces on the Web.</p>
 
