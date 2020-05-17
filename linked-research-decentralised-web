@@ -1384,8 +1384,8 @@ support groups.</pre>
                   <p about="#forces-scientific-communication" property="skos:definition">The scientific communication market consists of four forces with each having complementary parts: <a href="#forces-actors" rel="skos:hasTopConcept">actors</a>, <a href="#forces-actors" rel="skos:hasTopConcept">accessibility</a>, <a href="#forces-actors" rel="skos:hasTopConcept">content</a>, and <a href="#forces-actors" rel="skos:hasTopConcept">applicability</a>.</p>
 
                   <dl>
-                    <dt about="#forces-actor" id="forces-actor" property="skos:prefLabel" typeof="skos:Concept">Actor</dt>
-                    <dd about="#forces-actor" property="skos:definition">Any kind of interactive agent that creates or uses information, eg. authors, readers, tool implementers, policy makers, application programs.</dd>
+                    <dt about="#forces-actors" id="forces-actors" property="skos:prefLabel" typeof="skos:Concept">Actors</dt>
+                    <dd about="#forces-actors" property="skos:definition">Any kind of interactive agent that creates or uses information, eg. authors, readers, tool implementers, policy makers, application programs.</dd>
                     <dt about="#forces-accessibility" id="forces-accessibility" property="skos:prefLabel" typeof="skos:Concept">Accessibility</dt>
                     <dd about="#forces-accessibility" property="skos:definition">The availability and retrievability of information, content accessibility.</dd>
                     <dt about="#forces-content" id="forces-content" property="skos:prefLabel" typeof="skos:Concept">Content</dt>
@@ -2297,7 +2297,7 @@ support groups.</pre>
                         <th colspan="4">Functions</th>
                       </tr>
                       <tr>
-                        <th>Actor</th>
+                        <th>Actors</th>
                         <th>Accessibility</th>
                         <th>Content</th>
                         <th>Applicability</th>
@@ -3064,7 +3064,7 @@ support groups.</pre>
                   <p id="ldn-forces">Assuming multiple interoperating implementations of LDN, I observe the <em>forces</em>:</p>
 
                   <dl>
-                    <dt>Actor</dt>
+                    <dt>Actors</dt>
                     <dd>The actors involved in executing the LDN protocol can be categorised into documents (or things, or entities) and software applications. An LDN target (like a document or a researcher profile) with an inbox is the actor that affords the start of any communication. Applications consist of LDN implementations with one or more roles: sender, receiver, and consumer, with the purpose of delivering information to or about a target that can be used by interested parties.</dd>
 
                     <dt>Content</dt>
@@ -4614,7 +4614,7 @@ document.addEventListener('DOMContentLoaded', function(){
                   <p id="dokieli-forces">As dokieli is employed, I observe the <em>forces</em>:</p>
 
                   <dl>
-                    <dt>Actor</dt>
+                    <dt>Actors</dt>
                     <dd>Any <cite><a data-versiondate="2019-07-29T12:46:44Z" data-versionurl="https://web.archive.org/web/20190729124644/https://www.w3.org/TR/webarch/" href="https://www.w3.org/TR/webarch/#def-web-agent" rel="cito:citesAsAuthority">web agent</a></cite> — person or software — can use WebIDs for their identities to read and write resources. Actors can contribute anonymously, be pseudonymous, or unlinkable. The application adapts to the information that is available from the profile description. An actor’s social graph can be discovered and used to communicate.</dd>
 
                     <dt>Content</dt>
@@ -4994,7 +4994,7 @@ document.addEventListener('DOMContentLoaded', function(){
                   <p id="linked-research-forces">The <em>forces</em>:</p>
 
                   <dl>
-                    <dt>Actor</dt>
+                    <dt>Actors</dt>
                     <dd>Any <q cite="https://www.w3.org/TR/webarch/#def-web-agent">Web agent</q> — person or software — may independently participate using identities they control, manage the accessibility of Web resources, shape content, as well as perform all of the functions in scholarly communication.</dd>
 
                     <dt>Accessibility</dt>
