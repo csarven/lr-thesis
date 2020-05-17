@@ -1381,7 +1381,7 @@ support groups.</pre>
 
                   <h4 about="#forces-scientific-communication" id="forces-scientific-communication" property="skos:prefLabel" rel="cito:obtainsBackgroundFrom" resource="http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html" typeof="skos:ConceptScheme">Forces</h4>
 
-                  <p about="#forces-scientific-communication" property="skos:definition">The scientific communication market consists of four forces with each having complementary parts: <a href="#forces-actors" rel="skos:hasTopConcept">actors</a>, <a href="#forces-actors" rel="skos:hasTopConcept">accessibility</a>, <a href="#forces-actors" rel="skos:hasTopConcept">content</a>, and <a href="#forces-actors" rel="skos:hasTopConcept">applicability</a>.</p>
+                  <p about="#forces-scientific-communication" property="skos:definition">The scientific communication market consists of four forces with each having complementary parts: <a href="#forces-actors" rel="skos:hasTopConcept">actors</a>, <a href="#forces-accessibility" rel="skos:hasTopConcept">accessibility</a>, <a href="#forces-content" rel="skos:hasTopConcept">content</a>, and <a href="#forces-applicability" rel="skos:hasTopConcept">applicability</a>.</p>
 
                   <dl>
                     <dt about="#forces-actors" id="forces-actors" property="skos:prefLabel" typeof="skos:Concept">Actors</dt>
