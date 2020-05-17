@@ -1377,36 +1377,36 @@ support groups.</pre>
 
                   <p id="forces-and-functions-in-scientific-communication">In the seminal work, <cite><a data-versiondate="2019-07-09T11:11:36Z" data-versionurl="https://web.archive.org/web/20190709111136/http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html" href="http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html" rel="cito:obtainsBackgroundFrom">Forces and functions in scientific communication</a></cite>, Roosendaal, 1997 provide a framework which has had historical influence on research and development pertaining to technical challenges on interoperability, workflows, service sharing, and information modeling in scholarly communication. Through this thesis, I will refer back to these concepts as a means to describe and compare various technologies and approaches to scientific publishing.</p>
 
-                  <p>Roosendaal and Geurts disassemble the scientific communication market as an interplay between four forces and functions. The dynamics between the forces and functions is described as a tetrad:</p>
+                  <p>Roosendaal and Geurts disassemble the scientific communication market as an interplay between four <a href="#forces-scientific-communication" rel="cito:givesBackgroundTo">forces</a> and <a href="#functions-scientific-communication" rel="cito:givesBackgroundTo">functions</a>. The dynamics between the forces and functions is described as a tetrad:</p>
 
-                  <h4 id="forces-scientific-communication">Forces</h4>
+                  <h4 about="#forces-scientific-communication" id="forces-scientific-communication" property="skos:prefLabel" rel="cito:obtainsBackgroundFrom" resource="http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html" typeof="skos:ConceptScheme">Forces</h4>
 
-                  <p>The scientific communication market consists of four forces with each having complementary parts: <em>actors</em>, <em>accessibility</em>, <em>content</em>, and <em>applicability</em>.</p>
+                  <p about="#forces-scientific-communication" property="skos:definition">The scientific communication market consists of four forces with each having complementary parts: <a href="#forces-actors" rel="skos:hasTopConcept">actors</a>, <a href="#forces-actors" rel="skos:hasTopConcept">accessibility</a>, <a href="#forces-actors" rel="skos:hasTopConcept">content</a>, and <a href="#forces-actors" rel="skos:hasTopConcept">applicability</a>.</p>
 
                   <dl>
-                    <dt>Actor</dt>
-                    <dd>Any kind of interactive agent that creates or uses information, eg. authors, readers, tool implementers, policy makers, application programs.</dd>
-                    <dt>Accessibility</dt>
-                    <dd>The availability and retrievability of information, content accessibility.</dd>
-                    <dt>Content</dt>
-                    <dd>The generated questions and answers by actors.</dd>
-                    <dt>Applicability</dt>
-                    <dd>Transfer of knowledge to science, technology, and society.</dd>
+                    <dt about="#forces-actor" id="forces-actor" property="skos:prefLabel" typeof="skos:Concept">Actor</dt>
+                    <dd about="#forces-actor" property="skos:definition">Any kind of interactive agent that creates or uses information, eg. authors, readers, tool implementers, policy makers, application programs.</dd>
+                    <dt about="#forces-accessibility" id="forces-accessibility" property="skos:prefLabel" typeof="skos:Concept">Accessibility</dt>
+                    <dd about="#forces-accessibility" property="skos:definition">The availability and retrievability of information, content accessibility.</dd>
+                    <dt about="#forces-content" id="forces-content" property="skos:prefLabel" typeof="skos:Concept">Content</dt>
+                    <dd about="#forces-content" property="skos:definition">The generated questions and answers by actors.</dd>
+                    <dt about="#forces-applicability" id="forces-applicability" property="skos:prefLabel" typeof="skos:Concept">Applicability</dt>
+                    <dd about="#forces-applicability" property="skos:definition">Transfer of knowledge to science, technology, and society.</dd>
                   </dl>
 
-                  <h4 id="functions-scientific-communication">Functions</h4>
+                  <h4 about="#functions-scientific-communication" id="functions-scientific-communication" property="skos:prefLabel" rel="cito:obtainsBackgroundFrom" resource="http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html" typeof="skos:ConceptScheme">Functions</h4>
 
-                  <p>Scientific communication consists of four functions: <em>registration</em>, <em>awareness</em>, <em>certification</em>, and <em>archiving</em> (<abbr title="Registration, Awareness, Certification, Archiving">RACA</abbr>).</p>
+                  <p about="#functions-scientific-communication" property="skos:definition">Scientific communication consists of four functions: <a href="#functions-registration" rel="skos:hasTopConcept">registration</a>, <a href="#functions-awareness" rel="skos:hasTopConcept">awareness</a>, <a href="#functions-certification" rel="skos:hasTopConcept">certification</a>, and <a href="#functions-archiving" rel="skos:hasTopConcept">archiving</a> (<abbr property="skos:altLabel" title="Registration, Awareness, Certification, Archiving">RACA</abbr>).</p>
 
                   <dl>
-                    <dt>Registration</dt>
-                    <dd>Allows claims of precedence for a scientific activity.</dd>
-                    <dt>Awareness</dt>
-                    <dd>Remaining informed of the observations.</dd>
-                    <dt>Certification</dt>
-                    <dd>Establishes the validity of registered claims.</dd>
-                    <dt>Archiving</dt>
-                    <dd>Preservation of scholarly records over time.</dd>
+                    <dt about="#functions-registration" id="functions-registration" property="skos:prefLabel" typeof="skos:Concept">Registration</dt>
+                    <dd about="#functions-registration" property="skos:definition">Allows claims of precedence for a scientific activity.</dd>
+                    <dt about="#functions-awareness" id="functions-awareness" property="skos:prefLabel" typeof="skos:Concept">Awareness</dt>
+                    <dd about="#functions-awareness" property="skos:definition">Remaining informed of the observations.</dd>
+                    <dt about="#functions-certification" id="functions-certification" property="skos:prefLabel" typeof="skos:Concept">Certification</dt>
+                    <dd about="#functions-certification" property="skos:definition">Establishes the validity of registered claims.</dd>
+                    <dt about="#functions-archiving" id="functions-archiving" property="skos:prefLabel" typeof="skos:Concept">Archiving</dt>
+                    <dd about="#functions-archiving" property="skos:definition">Preservation of scholarly records over time.</dd>
                   </dl>
 
                   <p>The actor and content forces are generic and internal to the scholarly market, and are considered to be indispensable in that there would not be a scientific communication market if there are no researchers and the artifacts they exchange. The accessibility and applicability forces on the other hand are external forces because they shape, give purpose to, or influence the activities and content.</p>
@@ -5144,7 +5144,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
                   <p id="lossless-citations"><strong>Lossless Citations</strong>: Applications supporting semantic content authoring enables fine-grained connections to be created between units of communication. Approaches like in <cite><a href="#contextual-citations">contextual citations</a></cite> (with semantically typed relations) make it possible to preserve authors’ intended connection between units of communication. Further study on creating, annotating, as well as extracting citation Linked Data can provide further insights into (scholarly) content. How can open research questions be systematically discovered by machines?</p>
 
-                  <p id="raca-aware-applications"><strong>RACA-Aware Applications</strong>: <cite><a href="#forces-and-functions-in-specifications">Forces and Functions in Specifications</a></cite> characterised open Web protocols, standards, and models in context of scholarly communication. While this contribution is not intended to be a complete collection of approaches, future work can extend the current <cite><a href="#characteristics-of-specifications">RDF Data Cube dataset</a></cite> and the EARL results including additional subjects with new observations. The availability of such structured dataset can help answering the knowledge questions of future research when designing "<dfn id="raca-aware">RACA-Aware</dfn>" decentralised and interoperable applications. Thus, potentially answering a research question along the lines of <em>How can we systematically remix open Web specifications in order to design RACA-Aware applications?</em> Another area of research would be for applications to systematically and adaptively determine, as well as apply the right abstraction level for content based on actor’s needs.</p>
+                  <p id="raca-aware-applications" rel="schema:hasPart" resource="#raca-aware-applications" typeof="skos:Concept"><strong property="skos:prefLabel">RACA-Aware Applications</strong>: <span property="skos:definition"><cite><a rel="cito:extends" href="#forces-and-functions-in-specifications">Forces and Functions in Specifications</a></cite> characterised open Web protocols, standards, and models in context of scholarly communication. While this contribution is not intended to be a complete collection of approaches, future work can extend the current <cite><a href="#characteristics-of-specifications">RDF Data Cube dataset</a></cite> and the EARL results including additional subjects with new observations. The availability of such structured dataset can help answering the knowledge questions of future research when designing "<dfn property="skos:altLabel">RACA-Aware</dfn>" decentralised and interoperable applications. Thus, potentially answering a research question along the lines of <em>How can we systematically remix open Web specifications in order to design RACA-Aware applications?</em> Another area of research would be for applications to systematically and adaptively determine, as well as apply the right abstraction level for content based on actor’s needs.</span></p>
 
                   <p id="on-demand-archiving"><strong>On-Demand Archiving</strong>: While there are publicly usable on-demand archiving services eg. Internet Archive, there is a need for client applications to be able to both choose from existing archiving services as well as allow users to specify their preferred services when making <em>contextual citations</em> or archiving any unit of communication. To that end, future research can investigate how personal or community-controlled archiving services can be designed in order to enable decentralised client applications.</p>
 
