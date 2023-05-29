@@ -312,7 +312,7 @@
 
               <section id="motivation" inlist="" rel="schema:hasPart" resource="#motivation" typeof="deo:Motivation">
                 <h3 property="schema:name">Motivation</h3>
-                <div datatype="rdf:HTML" property="schame:description">
+                <div datatype="rdf:HTML" property="schema:description">
                   <blockquote cite="https://en.wikipedia.org/wiki/Connections_%28TV_series%29">
                     <p>Would you do me a favour? I'd like to stop talking for a minute and when I do, take a look at the room you're in and above all at the man-made objects in that room that surround you – the television set, the lights, the phone and so on – and ask yourself what those objects do to your life just because they're there. Go ahead.</p>
 
@@ -995,7 +995,7 @@ support groups.</pre>
 
                   <aside id="the-printing-press-as-an-agent-of-change" inlist="" rel="schema:hasPart" resource="#the-printing-press-as-an-agent-of-change">
                     <h4 property="schema:name">The Printing Press as an Agent of Change</h4>
-                    <div datatype="rdf:HTML" property="schame:description">
+                    <div datatype="rdf:HTML" property="schema:description">
                       <p><cite><a data-versiondate="2019-07-09T10:31:14Z" data-versionurl="https://web.archive.org/web/20190709103114/https://www.worldcat.org/title/printing-press-as-an-agent-of-change-communications-and-cultural-transformations-in-early-modern-europe-volumes-i-and-ii/oclc/611804138" href="http://www.worldcat.org/oclc/611804138" rel="cito:reviews">The Printing Press as an Agent of Change</a></cite>, <a href="https://en.wikipedia.org/wiki/Elizabeth_Eisenstein">Eisenstein</a>, 1979, traces the impact of the communications revolution on a variety of sociocultural movements that shaped the modern mind that started by the invention of the printing press developed by Johannes Gutenberg (c. 1439 CE). While Eisenstein’s account of the history is not regarded as doctrine, the work demonstrates that the printing press, as a technological innovation, was a potent force in the evolution of social systems, as well as a communication technology which intensified the evolutionary process in the storage and dissemination of information and data. Perhaps more generally, Eisenstein explains how <q>printing altered <em>written communications within the Commonwealth of Learning</em></q>, p. xiv.</p>
 
                       <p id="republic-of-letters"><strong>Republic of Letters</strong>: With the growing power of the printing press since the 15th century, and sufficiently large international readers across Europe, the mass production and distribution of printed material gave rise to the formation of intellectuals as a distinct and independent social class. The long-distance, international, and private correspondence network between the literary figures formed the basis for the concepts, <cite>Commonwealth of Learning</cite>; vernacular science-writing in Latin aimed at non-academic readers, as well as aiding the literary <q>underground</q> trade among researchers to propel theories and data collection, and the <cite><a data-versiondate="2019-07-09T10:56:47Z" data-versionurl="https://web.archive.org/web/20190709105647/https://en.wikipedia.org/wiki/Republic_of_Letters" href="https://en.wikipedia.org/wiki/Republic_of_Letters" rel="cito:citesForInformation">Republic of Letters</a></cite> (<abbr title="Republic of Letters">ROL</abbr>) refers to a metaphysical <em>literary</em> society that produced and had access to substantial (non)scientific knowledge in Europe and America in the 17th century, p. 136-139.</p>
@@ -5365,7 +5365,7 @@ document.addEventListener('DOMContentLoaded', function(){
                     </div>
                   </section>
 
-                  <section id="interactive-linked-statistics" inlist="" rel="schame:hasPart" resource="#interactive-linked-statistics">
+                  <section id="interactive-linked-statistics" inlist="" rel="schema:hasPart" resource="#interactive-linked-statistics">
                     <h4 property="schema:name">Interactive Linked Statistics</h4>
                     <div datatype="rdf:HTML" property="schema:description">
                       <p id="sparqlines">dokieli implements <dfn>sparqlines</dfn>: statistical observations fetched from SPARQL endpoints and displayed as inline-charts. An inline-chart, also known as a <cite><a data-versiondate="2019-07-09T21:23:03Z" data-versionurl="https://web.archive.org/web/20190709212303/https://en.wikipedia.org/wiki/Sparkline" href="https://en.wikipedia.org/wiki/Sparkline" rel="cito:citesForInformation"><em>sparkline</em></a></cite>, is concise, and located where it is discussed in the text, complementing the supporting text without breaking the reader’s flow. For example, the 
