@@ -5141,7 +5141,7 @@ support groups.</pre>
 
                         <figure id="annotation-graph" rel="schema:hasPart" resource="#annotation-graph">
                           <script>
-document.addEventListener('DOMContentLoaded', function(){
+window.addEventListener('load', function(){
   var docURI = document.location.href.split(document.location.search||document.location.hash||/[?#]/)[0];
   var resources = [docURI + '#a112cb4b-6814-4687-933d-8c25c917c746', docURI + '#note-20338295', docURI + '#fragment-selector', docURI + '#text-quote-selector', 'https://csarven.ca/#i', 'https://www.w3.org/History/1989/proposal.html'];
   DO.U.showGraph([docURI], '#annotation-graph', {'filter': { 'subjects': resources }});
