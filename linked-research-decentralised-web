@@ -111,7 +111,7 @@
               <dd>
                 <dl id="document-permission" rel="odrl:permission" resource="#document-permission" typeof="odrl:Permission">
                   <dt>Assigner</dt>
-                  <dd><a rel="odrl:assigner" href="https://csarven.ca/#i">Sarven Capadisli</a></dd>
+                  <dd><a href="https://csarven.ca/#i" rel="odrl:assigner">Sarven Capadisli</a></dd>
                   <dt>Action</dt>
                   <dd>
                     <ul rel="odrl:action">
@@ -1636,7 +1636,7 @@ support groups.</pre>
                         </div>
                       </div>
 
-                      <p id="why-rdfa" rel="schema:hasPart" resource="#why-rdfa"><strong property="schema:name">Why RDFa</strong>: <span datatype="rdf:HTML" property="schema:description">HTML’s extensibility mechanism allows authors to embed <q>data blocks</q> using the <code>&lt;script type=&quot;&quot;&gt;</code> mechanism to include content in <a href="https://www.w3.org/TR/turtle/#in-html" rel="cito:obtainsBackgroundFrom">Turtle</a>, <a href="https://www.w3.org/TR/json-ld/#embedding-json-ld-in-html-documents" rel="cito:obtainsBackgroundFrom">JSON-LD</a>. Information in <code>script</code> are hidden from human view in native HTML interfaces until supplementary processing takes place. For information extraction to take place, the consumer needs to 1) process the HTML, 2) select the <code>script</code> node, 3) parse the content in RDF. On the other hand, RDFa can be included on any HTML tag, and so all human-visible content in HTML can be complemented with machine-readable counterparts in the same context node. This is optimal in avoiding data duplication in the same document which happens to be the case with the other serialisations in RDF, as well as avoiding any further intervention to synchronise data across different nodes. Having a single, unambiguous, and authoritative representation of the information as human-visible and marked as RDFa conforms to the <cite><a data-versiondate="2019-07-09T11:11:38Z" data-versionurl="https://web.archive.org/web/20190709111138/https://en.wikipedia.org/wiki/Don%27t_repeat_yourself" href="https://en.wikipedia.org/wiki/Don't_repeat_yourself" rel="cito:citesForInformation">Don’t Repeat Yourself</a></cite> (<abbr title="Don’t Repeat Yourself">DRY</abbr>) principle. It is efficient in that it has no dependency on JavaScript, external or third-party applications to make the hidden machine-readable content be consumable from a human user interface – whereas HTML based user-agents can be expected to conform to <cite><a data-versiondate="2019-07-09T11:11:38Z" data-versionurl="https://web.archive.org/web/20190709111138/https://www.w3.org/TR/html5/editing.html" href="https://www.w3.org/TR/html5/editing.html" rel="cito:citesAsAuthority">user interaction</a></cite> <cite><a data-versiondate="2019-07-09T11:11:38Z" data-versionurl="https://web.archive.org/web/20190709111138/https://www.w3.org/TR/html5/browsers.html" href="https://www.w3.org/TR/html5/browsers.html" rel="cito:citesAsAuthority">loading Web pages</a></cite> specification. For example, a <cite><a data-versiondate="2019-07-29T12:46:32Z" data-versionurl="https://web.archive.org/web/20190729124632/https://en.wikipedia.org/wiki/Text-based_web_browser" href="https://en.wikipedia.org/wiki/Text-based_web_browser" rel="cito:citesForInformation">text-based Web browsers</a></cite> can access and allow interactions with documents. RDFa in HTML is all around a simple but effective design pattern that is able to serve both humans and machines without additional parts or machinery. With all things equal, having all content in HTML is optimal for Web-based archives, as well as helps towards meeting the <em>archiving</em> and <em>awareness</em> functions of scholarly communication.</span></p>
+                      <p id="why-rdfa" rel="schema:hasPart" resource="#why-rdfa"><strong property="schema:name">Why RDFa</strong>: <span datatype="rdf:HTML" property="schema:description">HTML’s extensibility mechanism allows authors to embed <q>data blocks</q> using the <code>&lt;script type=""&gt;</code> mechanism to include content in <a href="https://www.w3.org/TR/turtle/#in-html" rel="cito:obtainsBackgroundFrom">Turtle</a>, <a href="https://www.w3.org/TR/json-ld/#embedding-json-ld-in-html-documents" rel="cito:obtainsBackgroundFrom">JSON-LD</a>. Information in <code>script</code> are hidden from human view in native HTML interfaces until supplementary processing takes place. For information extraction to take place, the consumer needs to 1) process the HTML, 2) select the <code>script</code> node, 3) parse the content in RDF. On the other hand, RDFa can be included on any HTML tag, and so all human-visible content in HTML can be complemented with machine-readable counterparts in the same context node. This is optimal in avoiding data duplication in the same document which happens to be the case with the other serialisations in RDF, as well as avoiding any further intervention to synchronise data across different nodes. Having a single, unambiguous, and authoritative representation of the information as human-visible and marked as RDFa conforms to the <cite><a data-versiondate="2019-07-09T11:11:38Z" data-versionurl="https://web.archive.org/web/20190709111138/https://en.wikipedia.org/wiki/Don%27t_repeat_yourself" href="https://en.wikipedia.org/wiki/Don't_repeat_yourself" rel="cito:citesForInformation">Don’t Repeat Yourself</a></cite> (<abbr title="Don’t Repeat Yourself">DRY</abbr>) principle. It is efficient in that it has no dependency on JavaScript, external or third-party applications to make the hidden machine-readable content be consumable from a human user interface – whereas HTML based user-agents can be expected to conform to <cite><a data-versiondate="2019-07-09T11:11:38Z" data-versionurl="https://web.archive.org/web/20190709111138/https://www.w3.org/TR/html5/editing.html" href="https://www.w3.org/TR/html5/editing.html" rel="cito:citesAsAuthority">user interaction</a></cite> <cite><a data-versiondate="2019-07-09T11:11:38Z" data-versionurl="https://web.archive.org/web/20190709111138/https://www.w3.org/TR/html5/browsers.html" href="https://www.w3.org/TR/html5/browsers.html" rel="cito:citesAsAuthority">loading Web pages</a></cite> specification. For example, a <cite><a data-versiondate="2019-07-29T12:46:32Z" data-versionurl="https://web.archive.org/web/20190729124632/https://en.wikipedia.org/wiki/Text-based_web_browser" href="https://en.wikipedia.org/wiki/Text-based_web_browser" rel="cito:citesForInformation">text-based Web browsers</a></cite> can access and allow interactions with documents. RDFa in HTML is all around a simple but effective design pattern that is able to serve both humans and machines without additional parts or machinery. With all things equal, having all content in HTML is optimal for Web-based archives, as well as helps towards meeting the <em>archiving</em> and <em>awareness</em> functions of scholarly communication.</span></p>
 
                       <p id="content-serialisations" rel="schema:hasPart" resource="#content-serialisations"><strong property="schema:name">Content serialisations</strong>: <span datatype="rdf:HTML" property="schema:description">Having the canonical representation for articles, annotations, and notifications in HTML+RDFa, still leaves the servers, if so desired, to provide alternative serialisations, eg. Turtle, and JSON-LD, depending on the <a href="#content-negotiation">content negotiation</a> with clients. Articles are represented in HTML+RDFa so that information is usable by both humans and machine consumers while maintaining lowest requirements for publishing, eg. a single URL with full content in HTML+RDFa can be accessible from any HTTP server. No additional requirements are necessary from clients such as JavaScript support or servers with additional RDF based content negotiation.</span></p>
 
@@ -2361,7 +2361,7 @@ support groups.</pre>
                       <tr><th colspan="9" scope="rowgroup">Protocol</th></tr>
                       <tr>
                         <th><a href="https://www.w3.org/TR/ldp/">Linked Data Platform</a></th>
-                        <td class="earl:inapplicable" id="test-actors-linked-data-platform" about="#test-actors-linked-data-platform" typeof="earl:Assertion">
+                        <td about="#test-actors-linked-data-platform" class="earl:inapplicable" id="test-actors-linked-data-platform" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/ldp/"></span>
                           <span rel="earl:test" resource="#functions-actors"></span>
                           <span rel="earl:result" resource="#result-test-actors-linked-data-platform" typeof="earl:TestResult">
@@ -2369,7 +2369,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-accessibility-linked-data-platform" about="#test-accessibility-linked-data-platform" typeof="earl:Assertion">
+                        <td about="#test-accessibility-linked-data-platform" class="earl:passed" id="test-accessibility-linked-data-platform" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/ldp/"></span>
                           <span rel="earl:test" resource="#functions-accessibility"></span>
                           <span rel="earl:result" resource="#result-test-accessibility-linked-data-platform" typeof="earl:TestResult">
@@ -2377,7 +2377,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-content-linked-data-platform" about="#test-content-linked-data-platform" typeof="earl:Assertion">
+                        <td about="#test-content-linked-data-platform" class="earl:passed" id="test-content-linked-data-platform" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/ldp/"></span>
                           <span rel="earl:test" resource="#functions-content"></span>
                           <span rel="earl:result" resource="#result-test-content-linked-data-platform" typeof="earl:TestResult">
@@ -2385,7 +2385,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-applicability-linked-data-platform" about="#test-applicability-linked-data-platform" typeof="earl:Assertion">
+                        <td about="#test-applicability-linked-data-platform" class="earl:inapplicable" id="test-applicability-linked-data-platform" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/ldp/"></span>
                           <span rel="earl:test" resource="#functions-applicability"></span>
                           <span rel="earl:result" resource="#result-test-applicability-linked-data-platform" typeof="earl:TestResult">
@@ -2393,7 +2393,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-registration-linked-data-platform" about="#test-registration-linked-data-platform" typeof="earl:Assertion">
+                        <td about="#test-registration-linked-data-platform" class="earl:passed" id="test-registration-linked-data-platform" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/ldp/"></span>
                           <span rel="earl:test" resource="#functions-registration"></span>
                           <span rel="earl:result" resource="#result-test-registration-linked-data-platform" typeof="earl:TestResult">
@@ -2401,7 +2401,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-awareness-linked-data-platform" about="#test-awareness-linked-data-platform" typeof="earl:Assertion">
+                        <td about="#test-awareness-linked-data-platform" class="earl:passed" id="test-awareness-linked-data-platform" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/ldp/"></span>
                           <span rel="earl:test" resource="#functions-awareness"></span>
                           <span rel="earl:result" resource="#result-test-awareness-linked-data-platform" typeof="earl:TestResult">
@@ -2409,7 +2409,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-certification-linked-data-platform" about="#test-certification-linked-data-platform" typeof="earl:Assertion">
+                        <td about="#test-certification-linked-data-platform" class="earl:inapplicable" id="test-certification-linked-data-platform" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/ldp/"></span>
                           <span rel="earl:test" resource="#functions-certification"></span>
                           <span rel="earl:result" resource="#result-test-certification-linked-data-platform" typeof="earl:TestResult">
@@ -2417,7 +2417,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-archiving-linked-data-platform" about="#test-archiving-linked-data-platform" typeof="earl:Assertion">
+                        <td about="#test-archiving-linked-data-platform" class="earl:inapplicable" id="test-archiving-linked-data-platform" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/ldp/"></span>
                           <span rel="earl:test" resource="#functions-archiving"></span>
                           <span rel="earl:result" resource="#result-test-archiving-linked-data-platform" typeof="earl:TestResult">
@@ -2428,7 +2428,7 @@ support groups.</pre>
                       </tr>
                       <tr>
                         <th><a href="https://atomgraph.github.io/Linked-Data-Templates/">Linked Data Templates</a></th>
-                        <td class="earl:inapplicable" id="test-actors-linked-data-templates" about="#test-actors-linked-data-templates" typeof="earl:Assertion">
+                        <td about="#test-actors-linked-data-templates" class="earl:inapplicable" id="test-actors-linked-data-templates" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://atomgraph.github.io/Linked-Data-Templates/"></span>
                           <span rel="earl:test" resource="#forces-actors"></span>
                           <span rel="earl:result" resource="#result-test-actors-linked-data-templates" typeof="earl:TestResult">
@@ -2436,7 +2436,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-accessibility-linked-data-templates" about="#test-accessibility-linked-data-templates" typeof="earl:Assertion">
+                        <td about="#test-accessibility-linked-data-templates" class="earl:passed" id="test-accessibility-linked-data-templates" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://atomgraph.github.io/Linked-Data-Templates/"></span>
                           <span rel="earl:test" resource="#forces-accessibility"></span>
                           <span rel="earl:result" resource="#result-test-accessibility-linked-data-templates" typeof="earl:TestResult">
@@ -2444,7 +2444,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-content-linked-data-templates" about="#test-content-linked-data-templates" typeof="earl:Assertion">
+                        <td about="#test-content-linked-data-templates" class="earl:passed" id="test-content-linked-data-templates" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://atomgraph.github.io/Linked-Data-Templates/"></span>
                           <span rel="earl:test" resource="#forces-content"></span>
                           <span rel="earl:result" resource="#result-test-content-linked-data-templates" typeof="earl:TestResult">
@@ -2452,7 +2452,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-applicability-linked-data-templates" about="#test-applicability-linked-data-templates" typeof="earl:Assertion">
+                        <td about="#test-applicability-linked-data-templates" class="earl:inapplicable" id="test-applicability-linked-data-templates" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://atomgraph.github.io/Linked-Data-Templates/"></span>
                           <span rel="earl:test" resource="#forces-applicability"></span>
                           <span rel="earl:result" resource="#result-test-applicability-linked-data-templates" typeof="earl:TestResult">
@@ -2460,7 +2460,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-registration-linked-data-templates" about="#test-registration-linked-data-templates" typeof="earl:Assertion">
+                        <td about="#test-registration-linked-data-templates" class="earl:passed" id="test-registration-linked-data-templates" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://atomgraph.github.io/Linked-Data-Templates/"></span>
                           <span rel="earl:test" resource="#functions-registration"></span>
                           <span rel="earl:result" resource="#result-test-registration-linked-data-templates" typeof="earl:TestResult">
@@ -2468,7 +2468,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-awareness-linked-data-templates" about="#test-awareness-linked-data-templates" typeof="earl:Assertion">
+                        <td about="#test-awareness-linked-data-templates" class="earl:passed" id="test-awareness-linked-data-templates" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://atomgraph.github.io/Linked-Data-Templates/"></span>
                           <span rel="earl:test" resource="#functions-awareness"></span>
                           <span rel="earl:result" resource="#result-test-awareness-linked-data-templates" typeof="earl:TestResult">
@@ -2476,7 +2476,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-certification-linked-data-templates" about="#test-certification-linked-data-templates" typeof="earl:Assertion">
+                        <td about="#test-certification-linked-data-templates" class="earl:inapplicable" id="test-certification-linked-data-templates" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://atomgraph.github.io/Linked-Data-Templates/"></span>
                           <span rel="earl:test" resource="#functions-certification"></span>
                           <span rel="earl:result" resource="#result-test-certification-linked-data-templates" typeof="earl:TestResult">
@@ -2484,7 +2484,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-archiving-linked-data-templates" about="#test-archiving-linked-data-templates" typeof="earl:Assertion">
+                        <td about="#test-archiving-linked-data-templates" class="earl:inapplicable" id="test-archiving-linked-data-templates" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://atomgraph.github.io/Linked-Data-Templates/"></span>
                           <span rel="earl:test" resource="#functions-archiving"></span>
                           <span rel="earl:result" resource="#result-test-archiving-linked-data-templates" typeof="earl:TestResult">
@@ -2495,7 +2495,7 @@ support groups.</pre>
                       </tr>
                       <tr>
                         <th><a href="https://linkeddatafragments.org/specification/linked-data-fragments/">Linked Data Fragments</a></th>
-                        <td class="earl:inapplicable" id="test-actors-linked-data-fragments" about="#test-actors-linked-data-fragments" typeof="earl:Assertion">
+                        <td about="#test-actors-linked-data-fragments" class="earl:inapplicable" id="test-actors-linked-data-fragments" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://linkeddatafragments.org/specification/linked-data-fragments/"></span>
                           <span rel="earl:test" resource="#forces-actors"></span>
                           <span rel="earl:result" resource="#result-test-actors-linked-data-fragments" typeof="earl:TestResult">
@@ -2503,7 +2503,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-accessibility-linked-data-fragments" about="#test-accessibility-linked-data-fragments" typeof="earl:Assertion">
+                        <td about="#test-accessibility-linked-data-fragments" class="earl:passed" id="test-accessibility-linked-data-fragments" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://linkeddatafragments.org/specification/linked-data-fragments/"></span>
                           <span rel="earl:test" resource="#forces-accessibility"></span>
                           <span rel="earl:result" resource="#result-test-accessibility-linked-data-fragments" typeof="earl:TestResult">
@@ -2511,7 +2511,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-content-linked-data-fragments" about="#test-content-linked-data-fragments" typeof="earl:Assertion">
+                        <td about="#test-content-linked-data-fragments" class="earl:passed" id="test-content-linked-data-fragments" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://linkeddatafragments.org/specification/linked-data-fragments/"></span>
                           <span rel="earl:test" resource="#forces-content"></span>
                           <span rel="earl:result" resource="#result-test-content-linked-data-fragments" typeof="earl:TestResult">
@@ -2519,7 +2519,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-applicability-linked-data-fragments" about="#test-applicability-linked-data-fragments" typeof="earl:Assertion">
+                        <td about="#test-applicability-linked-data-fragments" class="earl:inapplicable" id="test-applicability-linked-data-fragments" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://linkeddatafragments.org/specification/linked-data-fragments/"></span>
                           <span rel="earl:test" resource="#forces-applicability"></span>
                           <span rel="earl:result" resource="#result-test-applicability-linked-data-fragments" typeof="earl:TestResult">
@@ -2527,7 +2527,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-registration-linked-data-fragments" about="#test-registration-linked-data-fragments" typeof="earl:Assertion">
+                        <td about="#test-registration-linked-data-fragments" class="earl:inapplicable" id="test-registration-linked-data-fragments" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://linkeddatafragments.org/specification/linked-data-fragments/"></span>
                           <span rel="earl:test" resource="#functions-registration"></span>
                           <span rel="earl:result" resource="#result-test-registration-linked-data-fragments" typeof="earl:TestResult">
@@ -2535,7 +2535,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-awareness-linked-data-fragments" about="#test-awareness-linked-data-fragments" typeof="earl:Assertion">
+                        <td about="#test-awareness-linked-data-fragments" class="earl:passed" id="test-awareness-linked-data-fragments" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://linkeddatafragments.org/specification/linked-data-fragments/"></span>
                           <span rel="earl:test" resource="#functions-awareness"></span>
                           <span rel="earl:result" resource="#result-test-awareness-linked-data-fragments" typeof="earl:TestResult">
@@ -2543,7 +2543,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-certification-linked-data-fragments" about="#test-certification-linked-data-fragments" typeof="earl:Assertion">
+                        <td about="#test-certification-linked-data-fragments" class="earl:inapplicable" id="test-certification-linked-data-fragments" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://linkeddatafragments.org/specification/linked-data-fragments/"></span>
                           <span rel="earl:test" resource="#functions-certification"></span>
                           <span rel="earl:result" resource="#result-test-certification-linked-data-fragments" typeof="earl:TestResult">
@@ -2551,7 +2551,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-archiving-linked-data-fragments" about="#test-archiving-linked-data-fragments" typeof="earl:Assertion">
+                        <td about="#test-archiving-linked-data-fragments" class="earl:inapplicable" id="test-archiving-linked-data-fragments" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://linkeddatafragments.org/specification/linked-data-fragments/"></span>
                           <span rel="earl:test" resource="#functions-archiving"></span>
                           <span rel="earl:result" resource="#result-test-archiving-linked-data-fragments" typeof="earl:TestResult">
@@ -2562,7 +2562,7 @@ support groups.</pre>
                       </tr>
                       <tr>
                         <th><a href="https://fcrepo.github.io/fcrepo-specification/">Fedora API</a></th>
-                        <td class="earl:passed" id="test-actors-fedora-api" about="#test-actors-fedora-api" typeof="earl:Assertion">
+                        <td about="#test-actors-fedora-api" class="earl:passed" id="test-actors-fedora-api" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://fcrepo.github.io/fcrepo-specification/"></span>
                           <span rel="earl:test" resource="#forces-actors"></span>
                           <span rel="earl:result" resource="#result-test-actors-fedora-api" typeof="earl:TestResult">
@@ -2570,7 +2570,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-accessibility-fedora-api" about="#test-accessibility-fedora-api" typeof="earl:Assertion">
+                        <td about="#test-accessibility-fedora-api" class="earl:passed" id="test-accessibility-fedora-api" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://fcrepo.github.io/fcrepo-specification/"></span>
                           <span rel="earl:test" resource="#forces-accessibility"></span>
                           <span rel="earl:result" resource="#result-test-accessibility-fedora-api" typeof="earl:TestResult">
@@ -2578,7 +2578,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-content-fedora-api" about="#test-content-fedora-api" typeof="earl:Assertion">
+                        <td about="#test-content-fedora-api" class="earl:passed" id="test-content-fedora-api" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://fcrepo.github.io/fcrepo-specification/"></span>
                           <span rel="earl:test" resource="#forces-content"></span>
                           <span rel="earl:result" resource="#result-test-content-fedora-api" typeof="earl:TestResult">
@@ -2586,7 +2586,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-applicability-fedora-api" about="#test-applicability-fedora-api" typeof="earl:Assertion">
+                        <td about="#test-applicability-fedora-api" class="earl:inapplicable" id="test-applicability-fedora-api" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://fcrepo.github.io/fcrepo-specification/"></span>
                           <span rel="earl:test" resource="#forces-applicability"></span>
                           <span rel="earl:result" resource="#result-test-applicability-fedora-api" typeof="earl:TestResult">
@@ -2594,7 +2594,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-registration-fedora-api" about="#test-registration-fedora-api" typeof="earl:Assertion">
+                        <td about="#test-registration-fedora-api" class="earl:passed" id="test-registration-fedora-api" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://fcrepo.github.io/fcrepo-specification/"></span>
                           <span rel="earl:test" resource="#functions-registration"></span>
                           <span rel="earl:result" resource="#result-test-registration-fedora-api" typeof="earl:TestResult">
@@ -2602,7 +2602,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-awareness-fedora-api" about="#test-awareness-fedora-api" typeof="earl:Assertion">
+                        <td about="#test-awareness-fedora-api" class="earl:passed" id="test-awareness-fedora-api" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://fcrepo.github.io/fcrepo-specification/"></span>
                           <span rel="earl:test" resource="#functions-awareness"></span>
                           <span rel="earl:result" resource="#result-test-awareness-fedora-api" typeof="earl:TestResult">
@@ -2610,7 +2610,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-certification-fedora-api" about="#test-certification-fedora-api" typeof="earl:Assertion">
+                        <td about="#test-certification-fedora-api" class="earl:inapplicable" id="test-certification-fedora-api" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://fcrepo.github.io/fcrepo-specification/"></span>
                           <span rel="earl:test" resource="#functions-certification"></span>
                           <span rel="earl:result" resource="#result-test-certification-fedora-api" typeof="earl:TestResult">
@@ -2618,7 +2618,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-archiving-fedora-api" about="#test-archiving-fedora-api" typeof="earl:Assertion">
+                        <td about="#test-archiving-fedora-api" class="earl:passed" id="test-archiving-fedora-api" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://fcrepo.github.io/fcrepo-specification/"></span>
                           <span rel="earl:test" resource="#functions-archiving"></span>
                           <span rel="earl:result" resource="#result-test-archiving-fedora-api" typeof="earl:TestResult">
@@ -2629,7 +2629,7 @@ support groups.</pre>
                       </tr>
                       <tr>
                         <th><a href="https://tools.ietf.org/html/rfc7089">Memento</a></th>
-                        <td class="earl:inapplicable" id="test-actors-memento" about="#test-actors-memento" typeof="earl:Assertion">
+                        <td about="#test-actors-memento" class="earl:inapplicable" id="test-actors-memento" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://tools.ietf.org/html/rfc7089"></span>
                           <span rel="earl:test" resource="#forces-actors"></span>
                           <span rel="earl:result" resource="#result-test-actors-memento" typeof="earl:TestResult">
@@ -2637,7 +2637,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-accessibility-memento" about="#test-accessibility-memento" typeof="earl:Assertion">
+                        <td about="#test-accessibility-memento" class="earl:passed" id="test-accessibility-memento" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://tools.ietf.org/html/rfc7089"></span>
                           <span rel="earl:test" resource="#forces-accessibility"></span>
                           <span rel="earl:result" resource="#result-test-accessibility-memento" typeof="earl:TestResult">
@@ -2645,7 +2645,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-content-memento" about="#test-content-memento" typeof="earl:Assertion">
+                        <td about="#test-content-memento" class="earl:inapplicable" id="test-content-memento" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://tools.ietf.org/html/rfc7089"></span>
                           <span rel="earl:test" resource="#forces-content"></span>
                           <span rel="earl:result" resource="#result-test-content-memento" typeof="earl:TestResult">
@@ -2653,7 +2653,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-applicability-memento" about="#test-applicability-memento" typeof="earl:Assertion">
+                        <td about="#test-applicability-memento" class="earl:inapplicable" id="test-applicability-memento" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://tools.ietf.org/html/rfc7089"></span>
                           <span rel="earl:test" resource="#forces-applicability"></span>
                           <span rel="earl:result" resource="#result-test-applicability-memento" typeof="earl:TestResult">
@@ -2661,7 +2661,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-registration-memento" about="#test-registration-memento" typeof="earl:Assertion">
+                        <td about="#test-registration-memento" class="earl:passed" id="test-registration-memento" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://tools.ietf.org/html/rfc7089"></span>
                           <span rel="earl:test" resource="#functions-registration"></span>
                           <span rel="earl:result" resource="#result-test-registration-memento" typeof="earl:TestResult">
@@ -2669,7 +2669,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-awareness-memento" about="#test-awareness-memento" typeof="earl:Assertion">
+                        <td about="#test-awareness-memento" class="earl:passed" id="test-awareness-memento" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://tools.ietf.org/html/rfc7089"></span>
                           <span rel="earl:test" resource="#functions-awareness"></span>
                           <span rel="earl:result" resource="#result-test-awareness-memento" typeof="earl:TestResult">
@@ -2677,7 +2677,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-certification-memento" about="#test-certification-memento" typeof="earl:Assertion">
+                        <td about="#test-certification-memento" class="earl:inapplicable" id="test-certification-memento" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://tools.ietf.org/html/rfc7089"></span>
                           <span rel="earl:test" resource="#functions-certification"></span>
                           <span rel="earl:result" resource="#result-test-certification-memento" typeof="earl:TestResult">
@@ -2685,7 +2685,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-archiving-memento" about="#test-archiving-memento" typeof="earl:Assertion">
+                        <td about="#test-archiving-memento" class="earl:passed" id="test-archiving-memento" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://tools.ietf.org/html/rfc7089"></span>
                           <span rel="earl:test" resource="#functions-archiving"></span>
                           <span rel="earl:result" resource="#result-test-archiving-memento" typeof="earl:TestResult">
@@ -2696,7 +2696,7 @@ support groups.</pre>
                       </tr>
                       <tr>
                         <th><a href="https://www.w3.org/TR/annotation-protocol/">Web Annotation</a></th>
-                        <td class="earl:inapplicable" id="test-actors-web-annotation" about="#test-actors-web-annotation" typeof="earl:Assertion">
+                        <td about="#test-actors-web-annotation" class="earl:inapplicable" id="test-actors-web-annotation" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/annotation-protocol/"></span>
                           <span rel="earl:test" resource="#forces-actors"></span>
                           <span rel="earl:result" resource="#result-test-actors-web-annotation" typeof="earl:TestResult">
@@ -2704,7 +2704,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-accessibility-web-annotation" about="#test-accessibility-web-annotation" typeof="earl:Assertion">
+                        <td about="#test-accessibility-web-annotation" class="earl:passed" id="test-accessibility-web-annotation" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/annotation-protocol/"></span>
                           <span rel="earl:test" resource="#forces-accessibility"></span>
                           <span rel="earl:result" resource="#result-test-accessibility-web-annotation" typeof="earl:TestResult">
@@ -2712,7 +2712,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-content-web-annotation" about="#test-content-web-annotation" typeof="earl:Assertion">
+                        <td about="#test-content-web-annotation" class="earl:passed" id="test-content-web-annotation" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/annotation-protocol/"></span>
                           <span rel="earl:test" resource="#forces-content"></span>
                           <span rel="earl:result" resource="#result-test-content-web-annotation" typeof="earl:TestResult">
@@ -2720,7 +2720,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-applicability-web-annotation" about="#test-applicability-web-annotation" typeof="earl:Assertion">
+                        <td about="#test-applicability-web-annotation" class="earl:inapplicable" id="test-applicability-web-annotation" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/annotation-protocol/"></span>
                           <span rel="earl:test" resource="#forces-applicability"></span>
                           <span rel="earl:result" resource="#result-test-applicability-web-annotation" typeof="earl:TestResult">
@@ -2728,7 +2728,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-registration-web-annotation" about="#test-registration-web-annotation" typeof="earl:Assertion">
+                        <td about="#test-registration-web-annotation" class="earl:passed" id="test-registration-web-annotation" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/annotation-protocol/"></span>
                           <span rel="earl:test" resource="#functions-registration"></span>
                           <span rel="earl:result" resource="#result-test-registration-web-annotation" typeof="earl:TestResult">
@@ -2736,7 +2736,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-awareness-web-annotation" about="#test-awareness-web-annotation" typeof="earl:Assertion">
+                        <td about="#test-awareness-web-annotation" class="earl:passed" id="test-awareness-web-annotation" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/annotation-protocol/"></span>
                           <span rel="earl:test" resource="#functions-awareness"></span>
                           <span rel="earl:result" resource="#result-test-awareness-web-annotation" typeof="earl:TestResult">
@@ -2744,7 +2744,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-certification-web-annotation" about="#test-certification-web-annotation" typeof="earl:Assertion">
+                        <td about="#test-certification-web-annotation" class="earl:passed" id="test-certification-web-annotation" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/annotation-protocol/"></span>
                           <span rel="earl:test" resource="#functions-certification"></span>
                           <span rel="earl:result" resource="#result-test-certification-web-annotation" typeof="earl:TestResult">
@@ -2752,7 +2752,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-archiving-web-annotation" about="#test-archiving-web-annotation" typeof="earl:Assertion">
+                        <td about="#test-archiving-web-annotation" class="earl:inapplicable" id="test-archiving-web-annotation" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/annotation-protocol/"></span>
                           <span rel="earl:test" resource="#functions-archiving"></span>
                           <span rel="earl:result" resource="#result-test-archiving-web-annotation" typeof="earl:TestResult">
@@ -2763,7 +2763,7 @@ support groups.</pre>
                       </tr>
                       <tr>
                         <th><a href="https://www.w3.org/TR/activitypub/">ActivityPub</a></th>
-                        <td class="earl:passed" id="test-actors-activitypub" about="#test-actors-activitypub" typeof="earl:Assertion">
+                        <td about="#test-actors-activitypub" class="earl:passed" id="test-actors-activitypub" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/activitypub/"></span>
                           <span rel="earl:test" resource="#forces-actors"></span>
                           <span rel="earl:result" resource="#result-test-actors-activitypub" typeof="earl:TestResult">
@@ -2771,7 +2771,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-accessibility-activitypub" about="#test-accessibility-activitypub" typeof="earl:Assertion">
+                        <td about="#test-accessibility-activitypub" class="earl:passed" id="test-accessibility-activitypub" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/activitypub/"></span>
                           <span rel="earl:test" resource="#forces-accessibility"></span>
                           <span rel="earl:result" resource="#result-test-accessibility-activitypub" typeof="earl:TestResult">
@@ -2779,7 +2779,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-content-activitypub" about="#test-content-activitypub" typeof="earl:Assertion">
+                        <td about="#test-content-activitypub" class="earl:passed" id="test-content-activitypub" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/activitypub/"></span>
                           <span rel="earl:test" resource="#forces-content"></span>
                           <span rel="earl:result" resource="#result-test-content-activitypub" typeof="earl:TestResult">
@@ -2787,7 +2787,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-applicability-activitypub" about="#test-applicability-activitypub" typeof="earl:Assertion">
+                        <td about="#test-applicability-activitypub" class="earl:inapplicable" id="test-applicability-activitypub" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/activitypub/"></span>
                           <span rel="earl:test" resource="#forces-applicability"></span>
                           <span rel="earl:result" resource="#result-test-applicability-activitypub" typeof="earl:TestResult">
@@ -2795,7 +2795,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-registration-activitypub" about="#test-registration-activitypub" typeof="earl:Assertion">
+                        <td about="#test-registration-activitypub" class="earl:passed" id="test-registration-activitypub" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/activitypub/"></span>
                           <span rel="earl:test" resource="#functions-registration"></span>
                           <span rel="earl:result" resource="#result-test-registration-activitypub" typeof="earl:TestResult">
@@ -2803,7 +2803,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-awareness-activitypub" about="#test-awareness-activitypub" typeof="earl:Assertion">
+                        <td about="#test-awareness-activitypub" class="earl:passed" id="test-awareness-activitypub" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/activitypub/"></span>
                           <span rel="earl:test" resource="#functions-awareness"></span>
                           <span rel="earl:result" resource="#result-test-awareness-activitypub" typeof="earl:TestResult">
@@ -2811,7 +2811,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-certification-activitypub" about="#test-certification-activitypub" typeof="earl:Assertion">
+                        <td about="#test-certification-activitypub" class="earl:passed" id="test-certification-activitypub" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/activitypub/"></span>
                           <span rel="earl:test" resource="#functions-certification"></span>
                           <span rel="earl:result" resource="#result-test-certification-activitypub" typeof="earl:TestResult">
@@ -2819,7 +2819,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-archiving-activitypub" about="#test-archiving-activitypub" typeof="earl:Assertion">
+                        <td about="#test-archiving-activitypub" class="earl:inapplicable" id="test-archiving-activitypub" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/activitypub/"></span>
                           <span rel="earl:test" resource="#functions-archiving"></span>
                           <span rel="earl:result" resource="#result-test-archiving-activitypub" typeof="earl:TestResult">
@@ -2830,7 +2830,7 @@ support groups.</pre>
                       </tr>
                       <tr>
                         <th><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></th>
-                        <td class="earl:passed" id="test-actors-linked-data-notifications" about="#test-actors-linked-data-notifications" typeof="earl:Assertion">
+                        <td about="#test-actors-linked-data-notifications" class="earl:passed" id="test-actors-linked-data-notifications" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/ldn/"></span>
                           <span rel="earl:test" resource="#forces-actors"></span>
                           <span rel="earl:result" resource="#result-test-actors-linked-data-notifications" typeof="earl:TestResult">
@@ -2838,7 +2838,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-accessibility-linked-data-notifications" about="#test-accessibility-linked-data-notifications" typeof="earl:Assertion">
+                        <td about="#test-accessibility-linked-data-notifications" class="earl:passed" id="test-accessibility-linked-data-notifications" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/ldn/"></span>
                           <span rel="earl:test" resource="#forces-accessibility"></span>
                           <span rel="earl:result" resource="#result-test-accessibility-linked-data-notifications" typeof="earl:TestResult">
@@ -2846,7 +2846,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-content-linked-data-notifications" about="#test-content-linked-data-notifications" typeof="earl:Assertion">
+                        <td about="#test-content-linked-data-notifications" class="earl:passed" id="test-content-linked-data-notifications" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/ldn/"></span>
                           <span rel="earl:test" resource="#forces-content"></span>
                           <span rel="earl:result" resource="#result-test-content-linked-data-notifications" typeof="earl:TestResult">
@@ -2854,7 +2854,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-applicability-linked-data-notifications" about="#test-applicability-linked-data-notifications" typeof="earl:Assertion">
+                        <td about="#test-applicability-linked-data-notifications" class="earl:inapplicable" id="test-applicability-linked-data-notifications" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/ldn/"></span>
                           <span rel="earl:test" resource="#forces-applicability"></span>
                           <span rel="earl:result" resource="#result-test-applicability-linked-data-notifications" typeof="earl:TestResult">
@@ -2862,7 +2862,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-registration-linked-data-notifications" about="#test-registration-linked-data-notifications" typeof="earl:Assertion">
+                        <td about="#test-registration-linked-data-notifications" class="earl:passed" id="test-registration-linked-data-notifications" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/ldn/"></span>
                           <span rel="earl:test" resource="#functions-registration"></span>
                           <span rel="earl:result" resource="#result-test-registration-linked-data-notifications" typeof="earl:TestResult">
@@ -2870,7 +2870,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-awareness-linked-data-notifications" about="#test-awareness-linked-data-notifications" typeof="earl:Assertion">
+                        <td about="#test-awareness-linked-data-notifications" class="earl:passed" id="test-awareness-linked-data-notifications" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/ldn/"></span>
                           <span rel="earl:test" resource="#functions-awareness"></span>
                           <span rel="earl:result" resource="#result-test-awareness-linked-data-notifications" typeof="earl:TestResult">
@@ -2878,7 +2878,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-certification-linked-data-notifications" about="#test-certification-linked-data-notifications" typeof="earl:Assertion">
+                        <td about="#test-certification-linked-data-notifications" class="earl:inapplicable" id="test-certification-linked-data-notifications" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/ldn/"></span>
                           <span rel="earl:test" resource="#functions-certification"></span>
                           <span rel="earl:result" resource="#result-test-certification-linked-data-notifications" typeof="earl:TestResult">
@@ -2886,7 +2886,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-archiving-linked-data-notifications" about="#test-archiving-linked-data-notifications" typeof="earl:Assertion">
+                        <td about="#test-archiving-linked-data-notifications" class="earl:inapplicable" id="test-archiving-linked-data-notifications" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/ldn/"></span>
                           <span rel="earl:test" resource="#functions-archiving"></span>
                           <span rel="earl:result" resource="#result-test-archiving-linked-data-notifications" typeof="earl:TestResult">
@@ -2897,7 +2897,7 @@ support groups.</pre>
                       </tr>
                       <tr>
                         <th><a href="https://www.w3.org/2005/Incubator/webid/spec/identity">WebID</a></th>
-                        <td class="earl:passed" id="test-actors-webid" about="#test-actors-webid" typeof="earl:Assertion">
+                        <td about="#test-actors-webid" class="earl:passed" id="test-actors-webid" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/2005/Incubator/webid/spec/identity"></span>
                           <span rel="earl:test" resource="#forces-actors"></span>
                           <span rel="earl:result" resource="#result-test-actors-webid" typeof="earl:TestResult">
@@ -2905,7 +2905,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-accessibility-webid" about="#test-accessibility-webid" typeof="earl:Assertion">
+                        <td about="#test-accessibility-webid" class="earl:passed" id="test-accessibility-webid" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/2005/Incubator/webid/spec/identity"></span>
                           <span rel="earl:test" resource="#forces-accessibility"></span>
                           <span rel="earl:result" resource="#result-test-accessibility-webid" typeof="earl:TestResult">
@@ -2913,7 +2913,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-content-webid" about="#test-content-webid" typeof="earl:Assertion">
+                        <td about="#test-content-webid" class="earl:passed" id="test-content-webid" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/2005/Incubator/webid/spec/identity"></span>
                           <span rel="earl:test" resource="#forces-content"></span>
                           <span rel="earl:result" resource="#result-test-content-webid" typeof="earl:TestResult">
@@ -2921,7 +2921,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-applicability-webid" about="#test-applicability-webid" typeof="earl:Assertion">
+                        <td about="#test-applicability-webid" class="earl:inapplicable" id="test-applicability-webid" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/2005/Incubator/webid/spec/identity"></span>
                           <span rel="earl:test" resource="#forces-applicability"></span>
                           <span rel="earl:result" resource="#result-test-applicability-webid" typeof="earl:TestResult">
@@ -2929,7 +2929,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-registration-webid" about="#test-registration-webid" typeof="earl:Assertion">
+                        <td about="#test-registration-webid" class="earl:passed" id="test-registration-webid" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/2005/Incubator/webid/spec/identity"></span>
                           <span rel="earl:test" resource="#functions-registration"></span>
                           <span rel="earl:result" resource="#result-test-registration-webid" typeof="earl:TestResult">
@@ -2937,7 +2937,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-awareness-webid" about="#test-awareness-webid" typeof="earl:Assertion">
+                        <td about="#test-awareness-webid" class="earl:inapplicable" id="test-awareness-webid" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/2005/Incubator/webid/spec/identity"></span>
                           <span rel="earl:test" resource="#functions-awareness"></span>
                           <span rel="earl:result" resource="#result-test-awareness-webid" typeof="earl:TestResult">
@@ -2945,7 +2945,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-certification-webid" about="#test-certification-webid" typeof="earl:Assertion">
+                        <td about="#test-certification-webid" class="earl:inapplicable" id="test-certification-webid" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/2005/Incubator/webid/spec/identity"></span>
                           <span rel="earl:test" resource="#functions-certification"></span>
                           <span rel="earl:result" resource="#result-test-certification-webid" typeof="earl:TestResult">
@@ -2953,7 +2953,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-archiving-webid" about="#test-archiving-webid" typeof="earl:Assertion">
+                        <td about="#test-archiving-webid" class="earl:inapplicable" id="test-archiving-webid" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/2005/Incubator/webid/spec/identity"></span>
                           <span rel="earl:test" resource="#functions-archiving"></span>
                           <span rel="earl:result" resource="#result-test-archiving-webid" typeof="earl:TestResult">
@@ -2964,7 +2964,7 @@ support groups.</pre>
                       </tr>
                       <tr>
                         <th><a href="https://www.w3.org/2005/Incubator/webid/spec/tls">WebID-TLS</a></th>
-                        <td class="earl:passed" id="test-actors-webid-tls" about="#test-actors-webid-tls" typeof="earl:Assertion">
+                        <td about="#test-actors-webid-tls" class="earl:passed" id="test-actors-webid-tls" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/2005/Incubator/webid/spec/tls"></span>
                           <span rel="earl:test" resource="#forces-actors"></span>
                           <span rel="earl:result" resource="#result-test-actors-webid-tls" typeof="earl:TestResult">
@@ -2972,7 +2972,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-accessibility-webid-tls" about="#test-accessibility-webid-tls" typeof="earl:Assertion">
+                        <td about="#test-accessibility-webid-tls" class="earl:passed" id="test-accessibility-webid-tls" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/2005/Incubator/webid/spec/tls"></span>
                           <span rel="earl:test" resource="#forces-accessibility"></span>
                           <span rel="earl:result" resource="#result-test-accessibility-webid-tls" typeof="earl:TestResult">
@@ -2980,7 +2980,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-content-webid-tls" about="#test-content-webid-tls" typeof="earl:Assertion">
+                        <td about="#test-content-webid-tls" class="earl:passed" id="test-content-webid-tls" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/2005/Incubator/webid/spec/tls"></span>
                           <span rel="earl:test" resource="#forces-content"></span>
                           <span rel="earl:result" resource="#result-test-content-webid-tls" typeof="earl:TestResult">
@@ -2988,7 +2988,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-applicability-webid-tls" about="#test-applicability-webid-tls" typeof="earl:Assertion">
+                        <td about="#test-applicability-webid-tls" class="earl:inapplicable" id="test-applicability-webid-tls" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/2005/Incubator/webid/spec/tls"></span>
                           <span rel="earl:test" resource="#forces-applicability"></span>
                           <span rel="earl:result" resource="#result-test-applicability-webid-tls" typeof="earl:TestResult">
@@ -2996,7 +2996,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-registration-webid-tls" about="#test-registration-webid-tls" typeof="earl:Assertion">
+                        <td about="#test-registration-webid-tls" class="earl:inapplicable" id="test-registration-webid-tls" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/2005/Incubator/webid/spec/tls"></span>
                           <span rel="earl:test" resource="#functions-registration"></span>
                           <span rel="earl:result" resource="#result-test-registration-webid-tls" typeof="earl:TestResult">
@@ -3004,7 +3004,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-awareness-webid-tls" about="#test-awareness-webid-tls" typeof="earl:Assertion">
+                        <td about="#test-awareness-webid-tls" class="earl:inapplicable" id="test-awareness-webid-tls" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/2005/Incubator/webid/spec/tls"></span>
                           <span rel="earl:test" resource="#functions-awareness"></span>
                           <span rel="earl:result" resource="#result-test-awareness-webid-tls" typeof="earl:TestResult">
@@ -3012,7 +3012,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-certification-webid-tls" about="#test-certification-webid-tls" typeof="earl:Assertion">
+                        <td about="#test-certification-webid-tls" class="earl:inapplicable" id="test-certification-webid-tls" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/2005/Incubator/webid/spec/tls"></span>
                           <span rel="earl:test" resource="#functions-certification"></span>
                           <span rel="earl:result" resource="#result-test-certification-webid-tls" typeof="earl:TestResult">
@@ -3020,7 +3020,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-archiving-webid-tls" about="#test-archiving-webid-tls" typeof="earl:Assertion">
+                        <td about="#test-archiving-webid-tls" class="earl:inapplicable" id="test-archiving-webid-tls" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/2005/Incubator/webid/spec/tls"></span>
                           <span rel="earl:test" resource="#functions-archiving"></span>
                           <span rel="earl:result" resource="#result-test-archiving-webid-tls" typeof="earl:TestResult">
@@ -3031,7 +3031,7 @@ support groups.</pre>
                       </tr>
                       <tr>
                         <th><a href="https://github.com/solid/webid-oidc-spec">WebID-OIDC</a></th>
-                        <td class="earl:passed" id="test-actors-webid-oidc" about="#test-actors-webid-oidc" typeof="earl:Assertion">
+                        <td about="#test-actors-webid-oidc" class="earl:passed" id="test-actors-webid-oidc" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://github.com/solid/webid-oidc-spec"></span>
                           <span rel="earl:test" resource="#forces-accessibility"></span>
                           <span rel="earl:result" resource="#result-test-actors-webid-oidc" typeof="earl:TestResult">
@@ -3039,7 +3039,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-accessibility-webid-oidc" about="#test-accessibility-webid-oidc" typeof="earl:Assertion">
+                        <td about="#test-accessibility-webid-oidc" class="earl:passed" id="test-accessibility-webid-oidc" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://github.com/solid/webid-oidc-spec"></span>
                           <span rel="earl:test" resource="#forces-accessibility"></span>
                           <span rel="earl:result" resource="#result-test-accessibility-webid-oidc" typeof="earl:TestResult">
@@ -3047,7 +3047,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-content-webid-oidc" about="#test-content-webid-oidc" typeof="earl:Assertion">
+                        <td about="#test-content-webid-oidc" class="earl:passed" id="test-content-webid-oidc" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://github.com/solid/webid-oidc-spec"></span>
                           <span rel="earl:test" resource="#forces-content"></span>
                           <span rel="earl:result" resource="#result-test-content-webid-oidc" typeof="earl:TestResult">
@@ -3055,7 +3055,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-applicability-webid-oidc" about="#test-applicability-webid-oidc" typeof="earl:Assertion">
+                        <td about="#test-applicability-webid-oidc" class="earl:inapplicable" id="test-applicability-webid-oidc" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://github.com/solid/webid-oidc-spec"></span>
                           <span rel="earl:test" resource="#forces-applicability"></span>
                           <span rel="earl:result" resource="#result-test-applicability-webid-oidc" typeof="earl:TestResult">
@@ -3063,7 +3063,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-registration-webid-oidc" about="#test-registration-webid-oidc" typeof="earl:Assertion">
+                        <td about="#test-registration-webid-oidc" class="earl:inapplicable" id="test-registration-webid-oidc" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://github.com/solid/webid-oidc-spec"></span>
                           <span rel="earl:test" resource="#functions-registration"></span>
                           <span rel="earl:result" resource="#result-test-registration-webid-oidc" typeof="earl:TestResult">
@@ -3071,7 +3071,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-awareness-webid-oidc" about="#test-awareness-webid-oidc" typeof="earl:Assertion">
+                        <td about="#test-awareness-webid-oidc" class="earl:inapplicable" id="test-awareness-webid-oidc" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://github.com/solid/webid-oidc-spec"></span>
                           <span rel="earl:test" resource="#functions-awareness"></span>
                           <span rel="earl:result" resource="#result-test-awareness-webid-oidc" typeof="earl:TestResult">
@@ -3079,7 +3079,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-certification-webid-oidc" about="#test-certification-webid-oidc" typeof="earl:Assertion">
+                        <td about="#test-certification-webid-oidc" class="earl:inapplicable" id="test-certification-webid-oidc" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://github.com/solid/webid-oidc-spec"></span>
                           <span rel="earl:test" resource="#functions-certification"></span>
                           <span rel="earl:result" resource="#result-test-certification-webid-oidc" typeof="earl:TestResult">
@@ -3087,7 +3087,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-archiving-webid-oidc" about="#test-archiving-webid-oidc" typeof="earl:Assertion">
+                        <td about="#test-archiving-webid-oidc" class="earl:inapplicable" id="test-archiving-webid-oidc" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://github.com/solid/webid-oidc-spec"></span>
                           <span rel="earl:test" resource="#functions-archiving"></span>
                           <span rel="earl:result" resource="#result-test-archiving-webid-oidc" typeof="earl:TestResult">
@@ -3102,7 +3102,7 @@ support groups.</pre>
                       <tr><th colspan="9" scope="rowgroup">Model</th></tr>
                       <tr>
                         <th><a href="http://www.w3.org/ns/auth/acl">Web Access Control</a></th>
-                        <td class="earl:passed" id="test-actors-web-access-control" about="#test-actors-web-access-control" typeof="earl:Assertion">
+                        <td about="#test-actors-web-access-control" class="earl:passed" id="test-actors-web-access-control" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://www.w3.org/ns/auth/acl"></span>
                           <span rel="earl:test" resource="#forces-actors"></span>
                           <span rel="earl:result" resource="#result-test-actors-web-access-control" typeof="earl:TestResult">
@@ -3110,7 +3110,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-accessibility-web-access-control" about="#test-accessibility-web-access-control" typeof="earl:Assertion">
+                        <td about="#test-accessibility-web-access-control" class="earl:passed" id="test-accessibility-web-access-control" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://www.w3.org/ns/auth/acl"></span>
                           <span rel="earl:test" resource="#forces-accessibility"></span>
                           <span rel="earl:result" resource="#result-test-accessibility-web-access-control" typeof="earl:TestResult">
@@ -3118,7 +3118,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-content-web-access-control" about="#test-content-web-access-control" typeof="earl:Assertion">
+                        <td about="#test-content-web-access-control" class="earl:inapplicable" id="test-content-web-access-control" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://www.w3.org/ns/auth/acl"></span>
                           <span rel="earl:test" resource="#forces-content"></span>
                           <span rel="earl:result" resource="#result-test-content-web-access-control" typeof="earl:TestResult">
@@ -3126,7 +3126,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-applicability-web-access-control" about="#test-applicability-web-access-control" typeof="earl:Assertion">
+                        <td about="#test-applicability-web-access-control" class="earl:inapplicable" id="test-applicability-web-access-control" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://www.w3.org/ns/auth/acl"></span>
                           <span rel="earl:test" resource="#forces-applicability"></span>
                           <span rel="earl:result" resource="#result-test-applicability-web-access-control" typeof="earl:TestResult">
@@ -3134,7 +3134,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-registration-web-access-control" about="#test-registration-web-access-control" typeof="earl:Assertion">
+                        <td about="#test-registration-web-access-control" class="earl:inapplicable" id="test-registration-web-access-control" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://www.w3.org/ns/auth/acl"></span>
                           <span rel="earl:test" resource="#functions-registration"></span>
                           <span rel="earl:result" resource="#result-test-registration-web-access-control" typeof="earl:TestResult">
@@ -3142,7 +3142,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-awareness-web-access-control" about="#test-awareness-web-access-control" typeof="earl:Assertion">
+                        <td about="#test-awareness-web-access-control" class="earl:inapplicable" id="test-awareness-web-access-control" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://www.w3.org/ns/auth/acl"></span>
                           <span rel="earl:test" resource="#functions-awareness"></span>
                           <span rel="earl:result" resource="#result-test-awareness-web-access-control" typeof="earl:TestResult">
@@ -3150,7 +3150,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-certification-web-access-control" about="#test-certification-web-access-control" typeof="earl:Assertion">
+                        <td about="#test-certification-web-access-control" class="earl:inapplicable" id="test-certification-web-access-control" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://www.w3.org/ns/auth/acl"></span>
                           <span rel="earl:test" resource="#functions-certification"></span>
                           <span rel="earl:result" resource="#result-test-certification-web-access-control" typeof="earl:TestResult">
@@ -3158,7 +3158,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-archiving-web-access-control" about="#test-archiving-web-access-control" typeof="earl:Assertion">
+                        <td about="#test-archiving-web-access-control" class="earl:inapplicable" id="test-archiving-web-access-control" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://www.w3.org/ns/auth/acl"></span>
                           <span rel="earl:test" resource="#functions-archiving"></span>
                           <span rel="earl:result" resource="#result-test-archiving-web-access-control" typeof="earl:TestResult">
@@ -3169,7 +3169,7 @@ support groups.</pre>
                       </tr>
                       <tr>
                         <th><a href="http://www.hydra-cg.com/spec/latest/core/">Hydra Core</a></th>
-                        <td class="earl:inapplicable" id="test-actors-hydra-core" about="#test-actors-hydra-core" typeof="earl:Assertion">
+                        <td about="#test-actors-hydra-core" class="earl:inapplicable" id="test-actors-hydra-core" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://www.hydra-cg.com/spec/latest/core/"></span>
                           <span rel="earl:test" resource="#forces-actors"></span>
                           <span rel="earl:result" resource="#result-test-actors-hydra-core" typeof="earl:TestResult">
@@ -3177,7 +3177,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-accessibility-hydra-core" about="#test-accessibility-hydra-core" typeof="earl:Assertion">
+                        <td about="#test-accessibility-hydra-core" class="earl:passed" id="test-accessibility-hydra-core" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://www.hydra-cg.com/spec/latest/core/"></span>
                           <span rel="earl:test" resource="#forces-accessibility"></span>
                           <span rel="earl:result" resource="#result-test-accessibility-hydra-core" typeof="earl:TestResult">
@@ -3185,7 +3185,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-content-hydra-core" about="#test-content-hydra-core" typeof="earl:Assertion">
+                        <td about="#test-content-hydra-core" class="earl:passed" id="test-content-hydra-core" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://www.hydra-cg.com/spec/latest/core/"></span>
                           <span rel="earl:test" resource="#forces-content"></span>
                           <span rel="earl:result" resource="#result-test-content-hydra-core" typeof="earl:TestResult">
@@ -3193,7 +3193,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-applicability-hydra-core" about="#test-applicability-hydra-core" typeof="earl:Assertion">
+                        <td about="#test-applicability-hydra-core" class="earl:inapplicable" id="test-applicability-hydra-core" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://www.hydra-cg.com/spec/latest/core/"></span>
                           <span rel="earl:test" resource="#forces-applicability"></span>
                           <span rel="earl:result" resource="#result-test-applicability-hydra-core" typeof="earl:TestResult">
@@ -3201,7 +3201,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-registration-hydra-core" about="#test-registration-hydra-core" typeof="earl:Assertion">
+                        <td about="#test-registration-hydra-core" class="earl:inapplicable" id="test-registration-hydra-core" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://www.hydra-cg.com/spec/latest/core/"></span>
                           <span rel="earl:test" resource="#functions-registration"></span>
                           <span rel="earl:result" resource="#result-test-registration-hydra-core" typeof="earl:TestResult">
@@ -3209,7 +3209,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-awareness-hydra-core" about="#test-awareness-hydra-core" typeof="earl:Assertion">
+                        <td about="#test-awareness-hydra-core" class="earl:passed" id="test-awareness-hydra-core" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://www.hydra-cg.com/spec/latest/core/"></span>
                           <span rel="earl:test" resource="#functions-awareness"></span>
                           <span rel="earl:result" resource="#result-test-awareness-hydra-core" typeof="earl:TestResult">
@@ -3217,7 +3217,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-certification-hydra-core" about="#test-certification-hydra-core" typeof="earl:Assertion">
+                        <td about="#test-certification-hydra-core" class="earl:inapplicable" id="test-certification-hydra-core" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://www.hydra-cg.com/spec/latest/core/"></span>
                           <span rel="earl:test" resource="#functions-certification"></span>
                           <span rel="earl:result" resource="#result-test-certification-hydra-core" typeof="earl:TestResult">
@@ -3225,7 +3225,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-archiving-hydra-core" about="#test-archiving-hydra-core" typeof="earl:Assertion">
+                        <td about="#test-archiving-hydra-core" class="earl:inapplicable" id="test-archiving-hydra-core" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://www.hydra-cg.com/spec/latest/core/"></span>
                           <span rel="earl:test" resource="#functions-archiving"></span>
                           <span rel="earl:result" resource="#result-test-archiving-hydra-core" typeof="earl:TestResult">
@@ -3236,7 +3236,7 @@ support groups.</pre>
                       </tr>
                       <tr>
                         <th><a href="https://www.w3.org/TR/activitystreams-vocabulary/">Activity Streams</a></th>
-                        <td class="earl:passed" id="test-actors-activity-streams" about="#test-actors-activity-streams" typeof="earl:Assertion">
+                        <td about="#test-actors-activity-streams" class="earl:passed" id="test-actors-activity-streams" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/activitystreams-vocabulary/"></span>
                           <span rel="earl:test" resource="#forces-actors"></span>
                           <span rel="earl:result" resource="#result-test-actors-activity-streams" typeof="earl:TestResult">
@@ -3244,7 +3244,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-accessibility-activity-streams" about="#test-accessibility-activity-streams" typeof="earl:Assertion">
+                        <td about="#test-accessibility-activity-streams" class="earl:inapplicable" id="test-accessibility-activity-streams" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/activitystreams-vocabulary/"></span>
                           <span rel="earl:test" resource="#forces-accessibility"></span>
                           <span rel="earl:result" resource="#result-test-accessibility-activity-streams" typeof="earl:TestResult">
@@ -3252,7 +3252,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-content-activity-streams" about="#test-content-activity-streams" typeof="earl:Assertion">
+                        <td about="#test-content-activity-streams" class="earl:passed" id="test-content-activity-streams" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/activitystreams-vocabulary/"></span>
                           <span rel="earl:test" resource="#forces-content"></span>
                           <span rel="earl:result" resource="#result-test-content-activity-streams" typeof="earl:TestResult">
@@ -3260,7 +3260,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-applicability-activity-streams" about="#test-applicability-activity-streams" typeof="earl:Assertion">
+                        <td about="#test-applicability-activity-streams" class="earl:passed" id="test-applicability-activity-streams" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/activitystreams-vocabulary/"></span>
                           <span rel="earl:test" resource="#forces-applicability"></span>
                           <span rel="earl:result" resource="#result-test-applicability-activity-streams" typeof="earl:TestResult">
@@ -3268,7 +3268,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-registration-activity-streams" about="#test-registration-activity-streams" typeof="earl:Assertion">
+                        <td about="#test-registration-activity-streams" class="earl:passed" id="test-registration-activity-streams" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/activitystreams-vocabulary/"></span>
                           <span rel="earl:test" resource="#functions-registration"></span>
                           <span rel="earl:result" resource="#result-test-registration-activity-streams" typeof="earl:TestResult">
@@ -3276,7 +3276,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-awareness-activity-streams" about="#test-awareness-activity-streams" typeof="earl:Assertion">
+                        <td about="#test-awareness-activity-streams" class="earl:passed" id="test-awareness-activity-streams" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/activitystreams-vocabulary/"></span>
                           <span rel="earl:test" resource="#functions-awareness"></span>
                           <span rel="earl:result" resource="#result-test-awareness-activity-streams" typeof="earl:TestResult">
@@ -3284,7 +3284,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-certification-activity-streams" about="#test-certification-activity-streams" typeof="earl:Assertion">
+                        <td about="#test-certification-activity-streams" class="earl:passed" id="test-certification-activity-streams" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/activitystreams-vocabulary/"></span>
                           <span rel="earl:test" resource="#functions-certification"></span>
                           <span rel="earl:result" resource="#result-test-certification-activity-streams" typeof="earl:TestResult">
@@ -3292,7 +3292,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-archiving-activity-streams" about="#test-archiving-activity-streams" typeof="earl:Assertion">
+                        <td about="#test-archiving-activity-streams" class="earl:inapplicable" id="test-archiving-activity-streams" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="https://www.w3.org/TR/activitystreams-vocabulary/"></span>
                           <span rel="earl:test" resource="#functions-archiving"></span>
                           <span rel="earl:result" resource="#result-test-archiving-activity-streams" typeof="earl:TestResult">
@@ -3303,7 +3303,7 @@ support groups.</pre>
                       </tr>
                       <tr>
                         <th><a href="http://robustlinks.mementoweb.org/spec/">Robust Links</a></th>
-                        <td class="earl:inapplicable" id="test-actors-robust-links" about="#test-actors-robust-links" typeof="earl:Assertion">
+                        <td about="#test-actors-robust-links" class="earl:inapplicable" id="test-actors-robust-links" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://robustlinks.mementoweb.org/spec/"></span>
                           <span rel="earl:test" resource="#forces-actors"></span>
                           <span rel="earl:result" resource="#result-test-actors-robust-links" typeof="earl:TestResult">
@@ -3311,7 +3311,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-accessibility-robust-links" about="#test-accessibility-robust-links" typeof="earl:Assertion">
+                        <td about="#test-accessibility-robust-links" class="earl:inapplicable" id="test-accessibility-robust-links" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://robustlinks.mementoweb.org/spec/"></span>
                           <span rel="earl:test" resource="#forces-accessibility"></span>
                           <span rel="earl:result" resource="#result-test-accessibility-robust-links" typeof="earl:TestResult">
@@ -3319,7 +3319,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-content-robust-links" about="#test-content-robust-links" typeof="earl:Assertion">
+                        <td about="#test-content-robust-links" class="earl:passed" id="test-content-robust-links" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://robustlinks.mementoweb.org/spec/"></span>
                           <span rel="earl:test" resource="#forces-content"></span>
                           <span rel="earl:result" resource="#result-test-content-robust-links" typeof="earl:TestResult">
@@ -3327,7 +3327,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-applicability-robust-links" about="#test-applicability-robust-links" typeof="earl:Assertion">
+                        <td about="#test-applicability-robust-links" class="earl:inapplicable" id="test-applicability-robust-links" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://robustlinks.mementoweb.org/spec/"></span>
                           <span rel="earl:test" resource="#forces-applicability"></span>
                           <span rel="earl:result" resource="#result-test-applicability-robust-links" typeof="earl:TestResult">
@@ -3335,7 +3335,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-registration-robust-links" about="#test-registration-robust-links" typeof="earl:Assertion">
+                        <td about="#test-registration-robust-links" class="earl:inapplicable" id="test-registration-robust-links" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://robustlinks.mementoweb.org/spec/"></span>
                           <span rel="earl:test" resource="#functions-registration"></span>
                           <span rel="earl:result" resource="#result-test-registration-robust-links" typeof="earl:TestResult">
@@ -3343,7 +3343,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-awareness-robust-links" about="#test-awareness-robust-links" typeof="earl:Assertion">
+                        <td about="#test-awareness-robust-links" class="earl:passed" id="test-awareness-robust-links" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://robustlinks.mementoweb.org/spec/"></span>
                           <span rel="earl:test" resource="#functions-awareness"></span>
                           <span rel="earl:result" resource="#result-test-awareness-robust-links" typeof="earl:TestResult">
@@ -3351,7 +3351,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:passed">✔</span>
                           </span>
                         </td>
-                        <td class="earl:inapplicable" id="test-certification-robust-links" about="#test-certification-robust-links" typeof="earl:Assertion">
+                        <td about="#test-certification-robust-links" class="earl:inapplicable" id="test-certification-robust-links" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://robustlinks.mementoweb.org/spec/"></span>
                           <span rel="earl:test" resource="#functions-certification"></span>
                           <span rel="earl:result" resource="#result-test-certification-robust-links" typeof="earl:TestResult">
@@ -3359,7 +3359,7 @@ support groups.</pre>
                             <span rel="earl:outcome" resource="earl:inapplicable">⌙</span>
                           </span>
                         </td>
-                        <td class="earl:passed" id="test-archiving-robust-links" about="#test-archiving-robust-links" typeof="earl:Assertion">
+                        <td about="#test-archiving-robust-links" class="earl:passed" id="test-archiving-robust-links" typeof="earl:Assertion">
                           <span rel="earl:subject" resource="http://robustlinks.mementoweb.org/spec/"></span>
                           <span rel="earl:test" resource="#functions-archiving"></span>
                           <span rel="earl:result" resource="#result-test-archiving-robust-links" typeof="earl:TestResult">
@@ -4037,7 +4037,7 @@ support groups.</pre>
 <code id="code-ldn-test-report-11">  <span class="highlight-earl-result">earl:result</span> [</code>
 <code id="code-ldn-test-report-12">    a earl:TestResult ;</code>
 <code id="code-ldn-test-report-13">    <span class="highlight-earl-outcome">earl:outcome</span> earl:passed ;</code>
-<code id="code-ldn-test-report-14">    <span class="highlight-earl-info">earl:info</span> "&lt;code&gt;Content-Type: application/ld+json; profile=&amp;quot;http://www.w3.org/ns/anno.jsonld&amp;quot;&lt;/code&gt; received."^^rdf:HTML ] .</code></pre>
+<code id="code-ldn-test-report-14">    <span class="highlight-earl-info">earl:info</span> "&lt;code&gt;Content-Type: application/ld+json; profile=&quot;http://www.w3.org/ns/anno.jsonld&quot;&lt;/code&gt; received."^^rdf:HTML ] .</code></pre>
 
                     <figcaption property="schema:name">A snippet of a test result dataset and an observation in Turtle syntax.</figcaption>
                   </figure>
@@ -4273,7 +4273,7 @@ support groups.</pre>
                       <p>The figure <cite><a href="#table-comparison-of-notification-mechanisms">Comparison of notification mechanisms</a></cite> is derived from <a href="https://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms">https://csarven.ca/linked-data-notifications#comparison-of-notification-mechanisms</a> and modified to include <cite>WebSub</cite>.</p>
 
                       <figure id="survey-comparison-of-notification-mechanisms" rel="schema:hasPart" resource="#survey-comparison-of-notification-mechanisms">
-                        <table  id="table-comparison-of-notification-mechanisms">
+                        <table id="table-comparison-of-notification-mechanisms">
                           <caption>Comparison of notification mechanisms</caption>
                           <thead>
                             <tr>
@@ -6304,7 +6304,7 @@ window.addEventListener('load', function(){
 
                   <p id="lossless-citations"><strong>Lossless Citations</strong>: Applications supporting semantic content authoring enables fine-grained connections to be created between units of communication. Approaches like in <cite><a href="#contextual-citations">contextual citations</a></cite> (with semantically typed relations) make it possible to preserve authors’ intended connection between units of communication. Further study on creating, annotating, as well as extracting citation Linked Data can provide further insights into (scholarly) content. How can open research questions be systematically discovered by machines?</p>
 
-                  <p id="raca-aware-applications" rel="schema:hasPart" resource="#raca-aware-applications" typeof="skos:Concept"><strong property="skos:prefLabel">RACA-Aware Applications</strong>: <span property="skos:definition"><cite><a rel="cito:extends" href="#forces-and-functions-in-specifications">Forces and Functions in Specifications</a></cite> characterised open Web protocols, standards, and models in context of scholarly communication. While this contribution is not intended to be a complete collection of approaches, future work can extend the current <cite><a href="#characteristics-of-specifications">RDF Data Cube dataset</a></cite> and the EARL results including additional subjects with new observations. The availability of such structured dataset can help answering the knowledge questions of future research when designing "<dfn property="skos:altLabel">RACA-Aware</dfn>" decentralised and interoperable applications. Thus, potentially answering a research question along the lines of <em>How can we systematically remix open Web specifications in order to design RACA-Aware applications?</em> Another area of research would be for applications to systematically and adaptively determine, as well as apply the right abstraction level for content based on actor’s needs.</span></p>
+                  <p id="raca-aware-applications" rel="schema:hasPart" resource="#raca-aware-applications" typeof="skos:Concept"><strong property="skos:prefLabel">RACA-Aware Applications</strong>: <span property="skos:definition"><cite><a href="#forces-and-functions-in-specifications" rel="cito:extends">Forces and Functions in Specifications</a></cite> characterised open Web protocols, standards, and models in context of scholarly communication. While this contribution is not intended to be a complete collection of approaches, future work can extend the current <cite><a href="#characteristics-of-specifications">RDF Data Cube dataset</a></cite> and the EARL results including additional subjects with new observations. The availability of such structured dataset can help answering the knowledge questions of future research when designing "<dfn property="skos:altLabel">RACA-Aware</dfn>" decentralised and interoperable applications. Thus, potentially answering a research question along the lines of <em>How can we systematically remix open Web specifications in order to design RACA-Aware applications?</em> Another area of research would be for applications to systematically and adaptively determine, as well as apply the right abstraction level for content based on actor’s needs.</span></p>
 
                   <p id="on-demand-archiving"><strong>On-Demand Archiving</strong>: While there are publicly usable on-demand archiving services eg. Internet Archive, there is a need for client applications to be able to both choose from existing archiving services as well as allow users to specify their preferred services when making <em>contextual citations</em> or archiving any unit of communication. To that end, future research can investigate how personal or community-controlled archiving services can be designed in order to enable decentralised client applications.</p>
 
