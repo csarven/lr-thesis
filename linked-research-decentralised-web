@@ -14,12 +14,10 @@
       <article about="" typeof="schema:ScholarlyArticle">
         <h1 property="schema:name">Linked Research on the Decentralised Web</h1>
 
-        <div id="authors">
-          <dl id="author-name">
-            <dt>Author</dt>
-            <dd id="Sarven-Capadisli" inlist="" rel="bibo:authorList" resource="https://csarven.ca/#i"><span about="" rel="schema:creator schema:publisher schema:author"><a about="https://csarven.ca/#i" href="https://csarven.ca/" property="schema:name" rel="schema:url" typeof="schema:Person"><span about="https://csarven.ca/#i"><span property="schema:givenName">Sarven</span> <span property="schema:familyName">Capadisli</span></span></a></span><sup>✊</sup></dd>
-          </dl>
-        </div>
+        <dl id="document-authors">
+          <dt>Author</dt>
+          <dd id="Sarven-Capadisli" inlist="" rel="bibo:authorList" resource="https://csarven.ca/#i"><span about="" rel="schema:creator schema:publisher schema:author"><a about="https://csarven.ca/#i" href="https://csarven.ca/" property="schema:name" rel="schema:url" typeof="schema:Person"><span about="https://csarven.ca/#i"><span property="schema:givenName">Sarven</span> <span property="schema:familyName">Capadisli</span></span></a></span><sup>✊</sup></dd>
+        </dl>
 
         <dl id="document-identifier">
           <dt>Identifier</dt>
